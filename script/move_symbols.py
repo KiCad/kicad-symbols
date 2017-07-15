@@ -93,6 +93,8 @@ for src_lib in src_libs:
         if not match in output_libs:
             output_lib_name = os.path.join(dst_dir, match + '.lib')
             output_libs[match] = schlib.SchLib(output_lib_name, create=real_mode)
+            if not args.silent:
+                print("Creating new library - '{lib}'".format(lib=match))
 
         out_lib = output_libs[match]
         out_lib.addComponent(cmp)

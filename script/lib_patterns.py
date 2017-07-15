@@ -29,6 +29,8 @@ PATTERNS = {
 
     'motors' : 'motor',
 
+    # Gate Drivers
+    'zetex' : 'driver_gate',
     'driver_gate' : 'driver_gate',
 
     ###
@@ -76,6 +78,39 @@ PATTERNS = {
     'sensors:ad84*' : 'sensor_current',
     'sensors:c12*' : 'sensor_photo',
     'sensors:mpl11*' : 'sensor_pressure',
+
+    # rfcom library
+    'rfcom:B*' : 'interface_bluetooth',
+    'rfcom:CC1*' : 'interface_rf',
+    'rfcom:CC2*' : 'interface_zigbee',
+    'rfcom:DCT*' : 'interface_rf',
+    'rfcom:HF-*' : 'interface_wifi',
+    'rfcom:MM*' : 'interace_rf',
+    'rfcom:NRF*' : 'interface_rf',
+    'rfcom:RN*' : 'interface_bluetooth',
+    'rfcom:RXM*' : 'interface_gps',
+
+    # interface library
+    'interface:ADM*' : 'interface_uart',
+    'interface:CH376T' : 'memory_controller',
+    'interface:FUSB*' : 'interface_usb',
+    'interface:GD*' : 'interface_uart',
+    'interface:LT1080' : 'interface_uart',
+    'interface:LTC2875*' : 'interface_can_lin',
+    'interface:ltc2983' : 'sensor_temperature',
+    'interface:ltc2990' : 'sensor_mult_function',
+    'interface:max134*' : 'interface_uart',
+    'interface:max2*' : 'interface_uart',
+    'interface:max30*' : 'interface_uart',
+    'interface:MAX318*' : 'sensor_temperature',
+    'interface:max32*' : 'interface_uart',
+    'interface:mcp25*' : 'interface_can_lin',
+    'interface:mcp4*' : 'digital_potentiometer',
+    'interface:SN65*' : 'interface_can_lin',
+    'interface:sp34*' : 'interface_uart',
+    'interface_tca94*' : 'interface_i2c',
+    'interface:tja1*' : 'interface_can_lin',
+    'interface:xtr*' : 'interface_current_loop',
 }
 
 def get_lib_name(pattern):
