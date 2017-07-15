@@ -23,6 +23,8 @@ PATTERNS = {
     'stm32' : 'mcu_st_stm32',
     'stm8' : 'mcu_st_stm8',
 
+    'nxp_armmcu' : 'mcu_nxp_lpc',
+
     'power' : 'power',
 
     'motors' : 'motor',
@@ -186,7 +188,7 @@ REQUIRED_LIBS = [
     "mcu_freescale_hc",
     "mcu_freescale_coldfire",
     "mcu_infineon_c166",
-    "mcu_nxp_arm",
+    "mcu_nxp_lpc",
     "mcu_parallax",
     "mcu_renesas",
     "mcu_st_stm32",
