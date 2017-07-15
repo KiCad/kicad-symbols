@@ -38,48 +38,7 @@ src_libs = []
 for lib in args.libs:
     src_libs += glob.glob(lib)
 
-# Rename a library
-def rename_lib(src_lib, dst_lib):
-    dst_file = os.path.join(dst_dir, dst_lib)
-
-    # Move the .lib file
-    shutil.copyfile(src_lib, dst_file + '.lib')
-
-    # Move the dst file
-    shutil.copyfile(src_lib.replace('.lib', '.dcm'), dst_file + '.dcm')
-
-
-# Find any libraries that just have to be copied,
-# keep track of any other patterns
-
-for p in PATTERNS:
-
-    lib_name = get_lib_name(p)
-    part_filter = get_part_filter(p)
-    output_lib = PATTERNS[p]
-
-    lib_src = lib_name + '.lib'
-
-    lib_src_file = None
-
-    # Find the library to move
-    for lib in src_libs:
-        if lib_src in lib:
-            lib_src_file = lib
-            break
-
-    if is_entire_lib(p):
-        if not lib_src_file:
-            continue
-        if not args.silent:
-            print('Moving {src} -> {dst}'.format(src=lib_name, dst=output_lib))
-
-        if real_mode:
-            rename_lib(lib_src_file, output_lib)
-
-        src_libs.remove(lib_src_file)
-
-# Dict of libs to write to
+# Output libraries
 output_libs = {}
 
 unallocated_symbols = []
@@ -95,7 +54,24 @@ for src_lib in src_libs:
     # Make a copy of each component (so list indexing doesn't get messed up)
     components = [c for c in lib.components]
 
-    for cmp in components:
+    # Should this entire library be copied?
+    copy_lib = get_entire_lib_match(lib_name)
+
+    if copy_lib is not None:
+        if not args.silent:
+            print("Copying entire library '{src}' -> '{dst}'".format(src=lib_name, dst=copy_lib))
+        if not copy_lib in output_libs:
+            output_libs[copy_lib] = schlib.SchLib(os.path.join(dst_dir, copy_lib + '.lib'), create=real_mode)
+
+        out_lib = output_libs[copy_lib]
+
+        for cmp in lib.components:
+            out_lib.addComponent(cmp)
+
+        # Skip any further checks
+        continue
+
+    for cmp in lib.components:
 
         # A component should not match more than one filter
         filter_matches = 0

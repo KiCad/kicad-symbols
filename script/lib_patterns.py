@@ -29,6 +29,8 @@ PATTERNS = {
 
     'motors' : 'motor',
 
+    'driver_gate' : 'driver_gate',
+
     ###
     # The following filters are used to separate symbols out from various libraries
     ###
@@ -262,6 +264,26 @@ def is_entire_lib(pattern):
     """
 
     return get_part_filter(pattern) == '*'
+
+
+def get_entire_lib_match(lib_name):
+
+    """
+    If the library is to be moved entirely,
+    return the destination library.
+    Otherwise, return None
+    """
+
+    lib_name = lib_name.lower()
+
+    for pattern in PATTERNS:
+        if not is_entire_lib(pattern):
+            continue
+
+        if get_lib_name(pattern) == lib_name:
+            return get_output_lib(pattern)
+
+    return None
 
 
 def get_matches(lib_name, cmp_name):
