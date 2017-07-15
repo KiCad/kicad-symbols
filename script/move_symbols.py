@@ -14,7 +14,6 @@ parser.add_argument('libs', help='List of source libraries', nargs='+')
 parser.add_argument('dest_dir', help='Path to store the output')
 parser.add_argument('--schlib', help='Path to schlib scripts', action='store')
 parser.add_argument('--real', help='Real run (test run by default)', action='store_true')
-parser.add_argument('--required', help='Add list of required library names even if empty', action='store_true')
 parser.add_argument('--silent', help='Suppress output messages', action='store_true')
 args = parser.parse_args()
 
@@ -96,17 +95,11 @@ for src_lib in src_libs:
             output_libs[match] = schlib.SchLib(output_lib_name, create=real_mode)
 
         out_lib = output_libs[match]
-
         out_lib.addComponent(cmp)
 
-# Ensure that all the REQUIRED_LIBS are added
-if args.required:
-    for lib in REQUIRED_LIBS:
-        if not lib in output_libs:
-            fn = os.path.join(dst_dir, lib + '.lib')
-            output_libs[lib] = schlib.SchLib(fn, create=real_mode)
-            if not args.silent:
-                print("Adding empty library - " + lib)
+        if not args.silent:
+            print("{lib} : {name} -> {out}".format(lib=lib_name, name=cmp.name, out=match))
+
 
 # Save the converted libraries
 for key in output_libs:
@@ -116,12 +109,12 @@ for key in output_libs:
         lib.save()
 
 if not args.silent and len(unallocated_symbols) > 0:
-    print("Unallocated Symbols:")
+    print("\nUnallocated Symbols:")
     for s in unallocated_symbols:
         print(s)
 
 if not args.silent and len(overallocated_symbols) > 0:
-    print("Overallocated Symbols:")
+    print("\nOverallocated Symbols:")
     for s in overallocated_symbols:
         print(s)
 
