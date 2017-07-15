@@ -111,6 +111,19 @@ PATTERNS = {
     'interface_tca94*' : 'interface_i2c',
     'interface:tja1*' : 'interface_can_lin',
     'interface:xtr*' : 'interface_current_loop',
+
+    # intersil library
+    'intersil:EL7*' : 'driver_gate',
+    'intersil:HIP*' : 'driver_gate',
+
+    # motor_drivers library
+    'motor_drivers:STK*' : 'driver_motor',
+    'motor_drivers:STSPIN*' : 'driver_motor',
+    'motor_drivers:TMC*' : 'driver_motor',
+    'motor_drivers:SLA*' : 'driver_motor',
+    'motor_drivers:l29*' : 'driver_motor',
+    'motor_drivers:drv*' : 'driver_motor',
+    'motor_drivers:A495*' : 'driver_motor',
 }
 
 def get_lib_name(pattern):
