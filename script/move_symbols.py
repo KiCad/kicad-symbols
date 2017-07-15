@@ -5,11 +5,12 @@ import os
 import argparse
 import fnmatch
 import sys
+import glob
 
 from lib_patterns import *
 
 parser = argparse.ArgumentParser(description='Reorganizing the KiCad libs is fun!')
-parser.add_argument('src_dir', help='Path to the source libraries')
+parser.add_argument('libs', help='List of source libraries', nargs='+')
 parser.add_argument('dest_dir', help='Path to store the output')
 parser.add_argument('--schlib', help='Path to schlib scripts', action='store')
 parser.add_argument('--real', help='Real run (test run by default)', action='store_true')
@@ -25,30 +26,27 @@ if args.schlib:
 # Import the schlib utils
 import schlib
 
-src_dir = os.path.abspath(args.src_dir)
 dst_dir = os.path.abspath(args.dest_dir)
 
-if not os.path.isdir(src_dir):
-    print("src_dir not a valid directory")
-    sys.exit(1)
-elif not os.path.isdir(dst_dir):
+# Output dir must exist if real output is to be made
+if not os.path.isdir(dst_dir) and args.real:
     print("dest_dir not a valid directory")
     sys.exit(1)
 
 # Find the source libraries
-src_libs = [x for x in os.listdir(src_dir) if x.endswith('.lib')]
-
+src_libs = []
+for lib in args.libs:
+    src_libs += glob.glob(lib)
 
 # Rename a library
 def rename_lib(src_lib, dst_lib):
-    src_file = os.path.join(src_dir, src_lib)
     dst_file = os.path.join(dst_dir, dst_lib)
 
     # Move the .lib file
-    shutil.copyfile(src_file + '.lib', dst_file + '.lib')
+    shutil.copyfile(src_lib, dst_file + '.lib')
 
     # Move the dst file
-    shutil.copyfile(src_file + '.dcm', dst_file + '.dcm')
+    shutil.copyfile(src_lib.replace('.lib', '.dcm'), dst_file + '.dcm')
 
 
 # Find any libraries that just have to be copied,
@@ -61,18 +59,25 @@ for p in PATTERNS:
     output_lib = PATTERNS[p]
 
     lib_src = lib_name + '.lib'
-    if not lib_src in src_libs:
-        print("Error: library pattern '{lib}' not found".format(lib=lib_name))
-        continue
+
+    lib_src_file = None
+
+    # Find the library to move
+    for lib in src_libs:
+        if lib_src in lib:
+            lib_src_file = lib
+            break
 
     if is_entire_lib(p):
+        if not lib_src_file:
+            continue
         if not args.silent:
             print('Moving {src} -> {dst}'.format(src=lib_name, dst=output_lib))
-        if real_mode:
-            rename_lib(lib_name, output_lib)
-        # Delete the entire library from the list to be parsed
-        src_libs.remove(lib_src)
 
+        if real_mode:
+            rename_lib(lib_src_file, output_lib)
+
+        src_libs.remove(lib_src_file)
 
 # Dict of libs to write to
 output_libs = {}
@@ -83,11 +88,9 @@ overallocated_symbols = []
 # Iterate through all remaining libraries
 for src_lib in src_libs:
 
-    lib_name = src_lib.replace('.lib', '')
+    lib_name = src_lib.split(os.path.sep)[-1].replace('.lib', '')
 
-    src_lib_path = os.path.join(src_dir, src_lib)
-
-    lib = schlib.SchLib(src_lib_path)
+    lib = schlib.SchLib(src_lib)
 
     # Make a copy of each component (so list indexing doesn't get messed up)
     components = [c for c in lib.components]
@@ -146,3 +149,10 @@ if not args.silent and len(overallocated_symbols) > 0:
     for s in overallocated_symbols:
         print(s)
 
+remaining = len(unallocated_symbols) + len(overallocated_symbols)
+
+print("")
+if remaining > 0:
+    print("Symbols remaining: {x}".format(x=remaining))
+else:
+    print("No symbols remaining! You did well.")
