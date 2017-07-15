@@ -29,6 +29,12 @@ PATTERNS = {
 
     'motors' : 'motor',
 
+    'nordicsemi' : 'interface_bluetooth',
+
+    'RFSolutions' : 'interface_rf',
+
+    'wiznet' : 'interface_ethernet',
+
     # Gate Drivers
     'zetex' : 'driver_gate',
     'driver_gate' : 'driver_gate',
@@ -116,6 +122,15 @@ PATTERNS = {
     'intersil:EL7*' : 'driver_gate',
     'intersil:HIP*' : 'driver_gate',
 
+    # microchip
+    'microchip:enc*' : 'interface_ethernet',
+    'microchip:KSZ*' : 'interface_ethernet',
+    'microchip:LAN*' : 'interface_ethernet',
+    'microchip:mcp2050*' : 'interface_can_lin',
+    'microchip:mcp2515*' : 'interface_can_lin',
+    'microchip:mic*' : 'driver_gate',
+    'microchip:usb*' : 'interface_usb',
+
     # motor_drivers library
     'motor_drivers:STK*' : 'driver_motor',
     'motor_drivers:STSPIN*' : 'driver_motor',
@@ -124,6 +139,22 @@ PATTERNS = {
     'motor_drivers:l29*' : 'driver_motor',
     'motor_drivers:drv*' : 'driver_motor',
     'motor_drivers:A495*' : 'driver_motor',
+
+    # nxp library
+    'nxp:pca9*' : 'driver_led',
+
+    # philips
+    'philips:p8*' : 'interface_i2c',
+    'philips:pca8*' : 'interface_can_lin',
+    'philips:pca9*' : 'interface_i2c',
+
+
+    # texas library
+    'texas:TLC5973' : 'driver_led',
+    'texas:TPL0*' : 'digital_potentiometer',
+    'texas:TUSB*' : 'interface_usb',
+    'texas:TS5*' : 'analog_switch',
+
 }
 
 def get_lib_name(pattern):
