@@ -110,12 +110,12 @@ for key in output_libs:
     if real_mode:
         lib.save()
 
-if not args.silent and len(unallocated_symbols) > 0:
+if len(unallocated_symbols) > 0:
     print("\nUnallocated Symbols:")
     for s in unallocated_symbols:
         print(s)
 
-if not args.silent and len(overallocated_symbols) > 0:
+if len(overallocated_symbols) > 0:
     print("\nOverallocated Symbols:")
     for s in overallocated_symbols:
         print(s)
