@@ -7,9 +7,45 @@ PATTERNS = {
     # Filters are not case sensitive
     #
 
+    '74xgxx' : 'Logic_74xGxx',
+    '74xx' : 'Logic_74xx',
+
+    'battery_management' : 'Battery_Management',
+
+    'cmos4000' : 'Logic_CMOS_4000',
+    'cmos_ieee' : 'Logic_CMOS_IEEE',
+
+    'conn' : 'Connector',
+
     # adc-dac library
     'adc-dac:mcp4801*' : 'Analog_DAC',
     'adc-dac:mcp355*' : 'Analog_ADC',
+    'adc-dac:AD390*' : 'Analog_DAC',
+    'adc-dac:AD55*' : 'Analog_DAC',
+    'adc-dac:AD56*' : 'Analog_DAC',
+    'adc-dac:AD722*' : 'Analog_DAC',
+    'adc-dac:AD73*' : 'Analog_DAC',
+    'adc-dac:AD7533*' : 'Analog_DAC',
+    'adc-dac:AD7722*' : 'Analog_ADC',
+    'adc-dac:AD775*' : 'Analog_DAC',
+    'adc-dac:AD7819*' : 'Analog_ADC',
+    'adc-dac:ADS112*' : 'Analog_ADC',
+    'adc-dac:ADS123*' : 'Analog_ADC',
+    'adc-dac:ADS124*' : 'Analog_ADC',
+    'adc-dac:ADS125*' : 'Analog_ADC',
+    'adc-dac:ADS128*' : 'Analog_ADC',
+    'adc-dac:ADS129*' : 'Analog_ADC',
+    'adc-dac:ADS7843*' : 'Driver_Display',
+    'adc-dac:LTC186*' : 'Analog_ADC',
+    'adc-dac:LTC1664*' : 'Analog_DAC',
+    'adc-dac:MAX11*' : 'Analog_ADC',
+    'adc-dac:MAX12*' : 'Analog_ADC',
+    'adc-dac:MCP342*' : 'Analog_ADC',
+    'adc-dac:MCP320*' : 'Analog_ADC',
+    'adc-dac:MCP355*' : 'Analog_ADC',
+    'adc-dac:MCP49*' : 'Analog_DAC',
+    'adc-dac:UVC3*' : 'Analog_MultiFunction',
+    'adc-dac:XPT*' : 'Driver_Display',
 
     # allegro
     'allegro' : 'Sensor_Current',
@@ -32,9 +68,70 @@ PATTERNS = {
     # bosch library
     'bosch:BMF*' : 'Sensor_Motion',
 
-    'Driver_Gate' : 'Driver_Gate',
+    # DC-DC library
+    'dc-dc:ADP*' : 'Regulator_Switching',
+    'dc-dc:APE*' : 'Regulator_Switching',
+    'dc-dc:BD9*' : 'Regulator_Switching',
+    'dc-dc:CRE*' : 'Regulator_Switching',
+    'dc-dc:CRE*' : 'Regulator_Switching',
+    'dc-dc:GL2*' : 'Regulator_Switching',
+    'dc-dc:ICL*' : 'Regulator_SwitchedCapacitor',
+    'dc-dc:IS3*' : 'Driver_LED',
+    'dc-dc:ISL*' : 'Regulator_Switching',
+    'dc-dc:L59*' : 'Regulator_Switching',
+    'dc-dc:LM25*' : 'Regulator_Switching',
+    'dc-dc:LM26*' : 'Regulator_Switching',
+    'dc-dc:LM2731*' : 'Regulator_Switching',
+    'dc-dc:LM2733*' : 'Regulator_Switching',
+    'dc-dc:LM2734*' : 'Regulator_Switching',
+    'dc-dc:LM2735*' : 'Regulator_Switching',
+    'dc-dc:LM27761*' : 'Regulator_SwitchedCapacitor',
+    'dc-dc:LM3670*' : 'Regulator_Switching',
+    'dc-dc:LM50*' : 'Regulator_Switching',
+    'dc-dc:LM51*' : 'Regulator_Switching',
+    'dc-dc:LMR*' : 'Regulator_Switching',
+    'dc-dc:LT1054*' : 'Regulator_SwitchedCapacitor',
+    'dc-dc:LTC1044*' : 'Regulator_SwitchedCapacitor',
+    'dc-dc:LTC660*' : 'Regulator_SwitchedCapacitor',
+    'dc-dc:LT1073*' : 'Regulator_Switching',
+    'dc-dc:LT1108*' : 'Regulator_Switching',
+    'dc-dc:LT137*' : 'Regulator_Switching',
+    'dc-dc:LT194*' : 'Regulator_Switching',
+    'dc-dc:LT343*' : 'Regulator_Switching',
+    'dc-dc:LT346*' : 'Driver_LED',
+    'dc-dc:LT347*' : 'Regulator_Switching',
+    'dc-dc:LT3755*' : 'Driver_LED',
+    'dc-dc:MAX150*' : 'Regulator_Switching',
+    'dc-dc:MAX503*' : 'Regulator_Switching',
+    'dc-dc:MCP163*' : 'Regulator_Switching',
+    'dc-dc:MCP1640*' : 'Regulator_Switching',
+    'dc-dc:MCP165*' : 'Regulator_Switching',
+    'dc-dc:NMA*' : 'Regulator_Switching',
+    'dc-dc:NXE*' : 'Regulator_Switching',
+    'dc-dc:PAM*' : 'Regulator_Switching',
+    'dc-dc:TEN20*' : 'Converter_DC-DC',
+    'dc-dc:TMR_*' : 'Regulator_Switching',
+    'dc-dc:TPS543*' : 'Regulator_Switching',
+    'dc-dc:TPS560*' : 'Regulator_Switching',
+    'dc-dc:TPS605*' : 'Regulator_ChargePump',
+    'dc-dc:TPS612*' : 'Regulator_Switching',
+    'dc-dc:TPS621*' : 'Regulator_Switching',
+    'dc-dc:TPS622*' : 'Regulator_Switching',
+    'dc-dc:TSR_*' : 'Regulator_Switching',
+
+
+
+    'digital_audio' : 'Audio',
+
+    'driver_gate' : 'Driver_Gate',
+
+    'display' : 'Display',
+
+    'ESD_Protection' : 'Power_Protection',
 
     'ftdi' : 'Interface_USB',
+
+    'graphic_symbols' : 'Graphics',
 
     # intel library
     'intel:16*' : 'Interface_UART',
@@ -113,12 +210,12 @@ PATTERNS = {
 
     # microchip processors, etc
     'microchip_dspic33dsc' : 'DSP_Microchip_dsPIC33',
-    'microchip_PIC10mcu' : 'MCU_Microchip_PIC10',
-    'microchip_PIC12mcu' : 'MCU_Microchip_PIC12',
-    'microchip_PIC16mcu' : 'MCU_Microchip_PIC16',
-    'microchip_PIC18mcu' : 'MCU_Microchip_PIC18',
-    'microchip_PIC24mcu' : 'MCU_Microchip_PIC24',
-    'microchip_PIC32mcu' : 'MCU_Microchip_PIC32',
+    'microchip_pic10mcu' : 'MCU_Microchip_PIC10',
+    'microchip_pic12mcu' : 'MCU_Microchip_PIC12',
+    'microchip_pic16mcu' : 'MCU_Microchip_PIC16',
+    'microchip_pic18mcu' : 'MCU_Microchip_PIC18',
+    'microchip_pic24mcu' : 'MCU_Microchip_PIC24',
+    'microchip_pic32mcu' : 'MCU_Microchip_PIC32',
 
     # motor_drivers library
     'motor_drivers:STK*' : 'Driver_Motor',
@@ -142,6 +239,8 @@ PATTERNS = {
     'nxp:pca9*' : 'Driver_LED',
 
     'nxp_armmcu' : 'MCU_NXP_LPC',
+    'nxp_s08' : 'MCU_NXP_S08',
+    'nxp_kinetis' : 'MCU_NXP_Kinetis',
 
     # onsemi
     'onsemi:CM12*' : 'Power_Protection',
@@ -156,33 +255,40 @@ PATTERNS = {
     'power' : 'Power',
 
     # power Management
-    'Power_Management:FAN7842' : 'Driver_Gate',
-    'Power_Management:LM50*' : 'Power_Distribution',
-    'Power_Management:LT1641*' : 'Power_Distribution',
-    'Power_Management:LTC435*' : 'Power_Distribution',
-    'Power_Management:LTC4364*' : 'Power_Distribution',
-    'Power_Management:LTC4365*' : 'Power_Distribution',
-    'Power_Management:MCP100*' : 'Power_Supervisor',
-    'Power_Management:TCM8*' : 'Power_Supervisor',
-    'Power_Management:MCP10*' : 'Power_Supervisor',
-    'Power_Management:LTC444*' : 'Driver_Gate',
-    'Power_Management:PM8*' : 'Driver_Gate',
-    'Power_Management:MIC8*' : 'Power_Supervisor',
-    'Power_Management:MIC2587*' : 'Power_Distribution',
-    'Power_Management:MIC2026*' : 'Power_Distribution',
+    'power_management:FAN7842' : 'Driver_Gate',
+    'power_management:LM50*' : 'Power_Distribution',
+    'power_management:LT1641*' : 'Power_Distribution',
+    'power_management:LTC435*' : 'Power_Distribution',
+    'power_management:LTC4364*' : 'Power_Distribution',
+    'power_management:LTC4365*' : 'Power_Distribution',
+    'power_management:MCP100*' : 'Power_Supervisor',
+    'power_management:TCM8*' : 'Power_Supervisor',
+    'power_management:MCP10*' : 'Power_Supervisor',
+    'power_management:LTC444*' : 'Driver_Gate',
+    'power_management:PM8*' : 'Driver_Gate',
+    'power_management:MIC8*' : 'Power_Supervisor',
+    'power_management:MIC2587*' : 'Power_Distribution',
+    'power_management:MIC2026*' : 'Power_Distribution',
 
     # power int
+
+    # references
+    'references' : 'Reference_Voltage',
+
+    # Relays
+    'relays' : 'Relay',
 
     # rfcom library
     'rfcom:B*' : 'Interface_Bluetooth',
     'rfcom:CC1*' : 'Interface_RF',
-    'rfcom:CC2*' : 'Interface_zigbee',
+    'rfcom:CC2*' : 'Interface_ZigBee',
     'rfcom:DCT*' : 'Interface_RF',
     'rfcom:HF-*' : 'Interface_WiFi',
     'rfcom:MM*' : 'Interface_RF',
     'rfcom:NRF*' : 'Interface_RF',
     'rfcom:RN*' : 'Interface_Bluetooth',
     'rfcom:RXM*' : 'Interface_GPS',
+    'rfcom:XBee*' : 'Interface_ZigBee',
 
     'RFSolutions' : 'Interface_RF',
 
@@ -223,6 +329,10 @@ PATTERNS = {
     'sensors:ad84*' : 'Sensor_Current',
     'sensors:c12*' : 'Sensor_Photo',
     'sensors:mpl11*' : 'Sensor_Pressure',
+    'sensors:CCS811' : 'Sensors_Gas',
+    'sensors:DS16*' : 'Sensor_Temperature',
+    'sensors:MAX3182*' : 'Sensor_Temperature',
+    'sensors:TSIC*' : 'Sensor_Temperature',
 
     # silabs
     'silabs:cp210*' : 'Interface_USB',
@@ -236,11 +346,19 @@ PATTERNS = {
     'supertex:HV99*' : 'Driver_LED',
     'supertex:LR8*' : 'Regulator_Linear',
 
+    'switches' : 'Switch',
+
     # texas library
     'texas:TLC5973' : 'Driver_LED',
     'texas:TPL0*' : 'Digital_Potentiometer',
     'texas:TUSB*' : 'Interface_USB',
     'texas:TS5*' : 'Analog_Switch',
+
+    'transistors' : 'Transistor',
+
+    'ttl_ieee' : 'Logic_TTL_IEEE',
+
+    'valves' : 'Valve',
 
     'wiznet' : 'Interface_Ethernet',
 
