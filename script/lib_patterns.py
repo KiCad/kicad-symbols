@@ -10,12 +10,19 @@ PATTERNS = {
     '74xgxx' : 'Logic_74xGxx',
     '74xx' : 'Logic_74xx',
 
+    'analog_devices:ADuM76*' : 'Isolator_Digital',
+    'analog_devices:ADuM14*' : 'Isolator_Digital',
+    'analog_devices:ADM25*' : 'Interface_UART',
+    'analog_devices:ADM24*' : 'Interface_UART',
+
     'battery_management' : 'Battery_Management',
 
     'cmos4000' : 'Logic_CMOS_4000',
     'cmos_ieee' : 'Logic_CMOS_IEEE',
 
     'conn' : 'Connector',
+
+    'actel' : 'FPGA_Actel',
 
     # adc-dac library
     'adc-dac:mcp4801*' : 'Analog_DAC',
@@ -68,6 +75,9 @@ PATTERNS = {
     # bosch library
     'bosch:BMF*' : 'Sensor_Motion',
 
+    'cypress:CY8C4*' : 'MCU_Cypress',
+    'cypress:CY8L1*' : 'MCU_Cypress',
+
     # DC-DC library
     'dc-dc:ADP*' : 'Regulator_Switching',
     'dc-dc:APE*' : 'Regulator_Switching',
@@ -118,12 +128,18 @@ PATTERNS = {
     'dc-dc:TPS621*' : 'Regulator_Switching',
     'dc-dc:TPS622*' : 'Regulator_Switching',
     'dc-dc:TSR_*' : 'Regulator_Switching',
+    'dc-dc:LTC14*' : 'Regulator_Switching',
+    'dc-dc:LTC36*' : 'Regulator_Switching',
+    'dc-dc:MAX777*' : 'Regulator_Switching',
+    'dc-dc:ST1S1*' : 'Regulator_Switching',
 
-
+    'device' : 'Device',
 
     'digital_audio' : 'Audio',
 
-    'driver_gate' : 'Driver_Gate',
+    'driver_gate' : 'Driver_FET',
+
+    'diode' : 'Diode',
 
     'display' : 'Display',
 
@@ -156,18 +172,58 @@ PATTERNS = {
     'interface:sp34*' : 'Interface_UART',
     'Interface_tca94*' : 'Interface_I2C',
     'interface:tja1*' : 'Interface_CAN_LIN',
-    'interface:xtr*' : 'Interface_Current_Loop',
+    'interface:xtr*' : 'Interface_CurrentLoop',
+    'interface:AD528*' : 'Digital_Potentiometer',
+    'interface:ADM3053' : 'Interface_CAN_LIN',
+    'intrface:ADM2*' : 'Interface_UART',
+    'intrface:ADM101*' : 'Interface_UART',
+    'interface:TCA9*' : 'Interface_I2C',
+    'interface:ICL7*' : 'Driver_FET',
+    'interface:max48*' : 'Interface_UART',
+
 
     # intersil library
-    'intersil:EL7*' : 'Driver_Gate',
-    'intersil:HIP*' : 'Driver_Gate',
+    'intersil:EL7*' : 'Driver_FET',
+    'intersil:HIP*' : 'Driver_FET',
 
     # IR
-    'ir:IR*21*' : 'Driver_Gate',
+    'ir:IR*21*' : 'Driver_FET',
     'ir:IRS20*' : 'Amplifier_Audio',
     'ir:AUIPS*' : 'Sensor_Current',
 
+    'leds' : 'LED',
+
     'LEM' : 'Sensor_Current',
+
+    'linear:INA12*' : 'Amplifier_Operational',
+    'linear:INA13*' : 'Amplifier_Current',
+    'linear:INA16*' : 'Amplifier_Current',
+    'linear:INA19*' : 'Amplifier_Current',
+    'linear:INA28*' : 'Amplifier_Current',
+    'linear:INA32*' : 'Amplifier_Instrumentation',
+    'linear:AD62*' : 'Amplifier_Instrumentation',
+    'linear:LTC110*' : 'Amplifier_Instrumentation',
+    'linear:AD8202*' : 'Amplifier_Current',
+    'linear:AD8203*' : 'Amplifier_Current',
+    'linear:LM2901*' : 'Comparator',
+    'linear:MCP656*' : 'Comparator',
+    'linear:LT6102*' : 'Amplifier_Current',
+    'linear:ZXCT*' : 'Amplifier_Current',
+    'linear:MAX408*' : 'Amplifier_Current',
+    'linear:MAX471*' : 'Amplifier_Current',
+    'linear:MAX472*' : 'Amplifier_Current',
+    'linear:LTC6102*' : 'Amplifier_Current',
+    'linear:AD821*' : 'Amplifier_Current',
+    'linear:LTC608*' : 'Amplifier_Operational',
+    'linear:MCP601*' : 'Amplifier_Operational',
+    'linear:OPA26*' : 'Amplifier_Operational',
+    'linear:L272*' : 'Amplifier_Operational',
+    'linear:AD82*' : 'Amplifier_Difference',
+    'linear:LM311' : 'Comparator',
+    'linear:LM7332' : 'Amplifier_Operational',
+    'linear:LTC6362*' : 'Amplifier_Operational',
+    'linear:LM733C*' : 'Amplifier_Difference',
+    'linear:LM733H' : 'Amplifier_Difference',
 
     # maxim
     'maxim:DS12*' : 'Digital_Potentiometer',
@@ -175,6 +231,8 @@ PATTERNS = {
     'maxim:DS28*' : 'Sensor_Temperature',
     'maxim:MAX12*' : 'Analog_ADC',
     'maxim:max318*' : 'Sensor_Temperature',
+
+    'mechanical' : 'Mechanical',
 
     # memory
     'memory:2130' : 'Memory_VRAM',
@@ -205,7 +263,7 @@ PATTERNS = {
     'microchip:LAN*' : 'Interface_Ethernet',
     'microchip:mcp2050*' : 'Interface_CAN_LIN',
     'microchip:mcp2515*' : 'Interface_CAN_LIN',
-    'microchip:mic*' : 'Driver_Gate',
+    'microchip:mic*' : 'Driver_FET',
     'microchip:usb*' : 'Interface_USB',
 
     # microchip processors, etc
@@ -226,7 +284,7 @@ PATTERNS = {
     'motor_drivers:drv*' : 'Driver_Motor',
     'motor_drivers:A495*' : 'Driver_Motor',
 
-    'motors' : 'motor',
+    'motors' : 'Motor',
 
     # motorola
     'motorola:MC13192' : 'Interface_ZigBee',
@@ -247,6 +305,17 @@ PATTERNS = {
     'onsemi:NUP*' : 'Power_Protection',
     'onsemi:NPC*' : 'Power_Pistribution',
 
+    'opto:SFH4*' : 'Diode_IR',
+    'opto:SFH61*' : 'Isolator_Optical',
+    'opto:TLP27*' : 'Isolator_Optical',
+    'opto:TLP30*' : 'Isolator_Optical',
+    'opto:TLP627*' : 'Isolator_Optical',
+    'opto:TSOP*' : 'Sensor_Infrared',
+    'opto:VO615*' : 'Sensor_Infrared',
+    'opto:PC8*' : 'Isolator_Optical',
+    'opto:LTV*' : 'Isolator_Optical',
+
+
     # philips
     'philips:p8*' : 'Interface_I2C',
     'philips:pca8*' : 'Interface_CAN_LIN',
@@ -255,7 +324,7 @@ PATTERNS = {
     'power' : 'Power',
 
     # power Management
-    'power_management:FAN7842' : 'Driver_Gate',
+    'power_management:FAN7842' : 'Driver_FET',
     'power_management:LM50*' : 'Power_Distribution',
     'power_management:LT1641*' : 'Power_Distribution',
     'power_management:LTC435*' : 'Power_Distribution',
@@ -264,8 +333,8 @@ PATTERNS = {
     'power_management:MCP100*' : 'Power_Supervisor',
     'power_management:TCM8*' : 'Power_Supervisor',
     'power_management:MCP10*' : 'Power_Supervisor',
-    'power_management:LTC444*' : 'Driver_Gate',
-    'power_management:PM8*' : 'Driver_Gate',
+    'power_management:LTC444*' : 'Driver_FET',
+    'power_management:PM8*' : 'Driver_FET',
     'power_management:MIC8*' : 'Power_Supervisor',
     'power_management:MIC2587*' : 'Power_Distribution',
     'power_management:MIC2026*' : 'Power_Distribution',
@@ -352,9 +421,18 @@ PATTERNS = {
     'texas:TLC5973' : 'Driver_LED',
     'texas:TPL0*' : 'Digital_Potentiometer',
     'texas:TUSB*' : 'Interface_USB',
-    'texas:TS5*' : 'Analog_Switch',
+    'texas:TS5*' : 'Switch_Analog',
+    'texas:DRV886*' : 'Driver_Relay',
+    'texas:LM4F' : 'MCU_Texas_Tiva',
+    'texas:TM4C*' : 'MCU_Texas_Tiva',
+    'texas:LM5109*' : 'Driver_FET',
+    'texas:LM5175*' : 'Regulator_Switching',
+    'texas:TUSB*' : 'Interface_USB',
+    'texas:TXB01*' : 'Logic_LevelTranslator',
 
     'transistors' : 'Transistor',
+
+    'transf' : 'Transformer',
 
     'ttl_ieee' : 'Logic_TTL_IEEE',
 
@@ -366,7 +444,7 @@ PATTERNS = {
 
     'Xicor' : 'Digital_Potentiometer',
 
-    'zetex' : 'Driver_Gate',
+    'zetex' : 'Driver_FET',
 }
 
 def get_lib_name(pattern):
