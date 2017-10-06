@@ -16,6 +16,8 @@ parser.add_argument('--schlib', help='Path to schlib scripts', action='store')
 parser.add_argument('--real', help='Real run (test run by default)', action='store_true')
 parser.add_argument('--silent', help='Suppress output messages', action='store_true')
 parser.add_argument('--leave', help='Leave unallocated symbols in the library they started in', action='store_true')
+parser.add_argument('--clean', help='Clean output directory before running script', action='store_true')
+
 args = parser.parse_args()
 
 real_mode = args.real
@@ -33,6 +35,10 @@ if not os.path.isdir(dst_dir) and args.real:
     print("dest_dir not a valid directory")
     sys.exit(1)
 
+if args.real and args.clean:
+    #todo
+    pass
+
 # Find the source libraries
 src_libs = []
 for lib in args.libs:
@@ -45,11 +51,16 @@ unallocated_symbols = []
 overallocated_symbols = []
 
 def output_lib(name):
-    if not name in output_libs:
-        output_libs[name] = schlib.SchLib(os.path.join(dst_dir, name + '.lib'), create=real_mode)
 
-        if not args.silent:
-            print("Creating new library - '{n}'".format(n=name))
+    # Case insensitive to reduce mistakes
+    for lib in output_libs:
+        if name.lower() == lib.lower():
+            return output_libs[lib]
+
+    output_libs[name] = schlib.SchLib(os.path.join(dst_dir, name + '.lib'), create=real_mode)
+
+    if not args.silent:
+        print("Creating new library - '{n}'".format(n=name))
 
     return output_libs[name]
 
@@ -97,8 +108,6 @@ for src_lib in src_libs:
 
                 if not args.silent:
                     print("No match found for '{cmp}' - leaving in library '{lib}'".format(cmp = cmp.name, lib=lib_name))
-
-                continue
 
             unallocated_symbols.append(lib_name + ' : ' + cmp.name)
             continue

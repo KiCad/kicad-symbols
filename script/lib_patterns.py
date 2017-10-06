@@ -514,10 +514,9 @@ def get_matches(lib_name, cmp_name):
 
         # An exact match overrides all other filters
         if part_filter == cmp_name:
-            return [part_filter]
+            return [get_output_lib(pattern)]
 
         if fnmatch.fnmatch(cmp_name, part_filter):
             matches.append(get_output_lib(pattern))
-
 
     return matches
