@@ -11,10 +11,13 @@ from lib_patterns import *
 
 parser = argparse.ArgumentParser(description='Reorganizing the KiCad libs is fun!')
 parser.add_argument('libs', help='List of source libraries', nargs='+')
-parser.add_argument('dest_dir', help='Path to store the output')
+parser.add_argument('--dest', help='Path to store the output', action='store', default='output')
 parser.add_argument('--schlib', help='Path to schlib scripts', action='store')
 parser.add_argument('--real', help='Real run (test run by default)', action='store_true')
 parser.add_argument('--silent', help='Suppress output messages', action='store_true')
+parser.add_argument('--leave', help='Leave unallocated symbols in the library they started in', action='store_true')
+parser.add_argument('--clean', help='Clean output directory before running script', action='store_true')
+
 args = parser.parse_args()
 
 real_mode = args.real
@@ -25,12 +28,16 @@ if args.schlib:
 # Import the schlib utils
 import schlib
 
-dst_dir = os.path.abspath(args.dest_dir)
+dst_dir = os.path.abspath(args.dest)
 
 # Output dir must exist if real output is to be made
 if not os.path.isdir(dst_dir) and args.real:
     print("dest_dir not a valid directory")
     sys.exit(1)
+
+if args.real and args.clean:
+    #todo
+    pass
 
 # Find the source libraries
 src_libs = []
@@ -42,6 +49,20 @@ output_libs = {}
 
 unallocated_symbols = []
 overallocated_symbols = []
+
+def output_lib(name):
+
+    # Case insensitive to reduce mistakes
+    for lib in output_libs:
+        if name.lower() == lib.lower():
+            return output_libs[lib]
+
+    output_libs[name] = schlib.SchLib(os.path.join(dst_dir, name + '.lib'), create=real_mode)
+
+    if not args.silent:
+        print("Creating new library - '{n}'".format(n=name))
+
+    return output_libs[name]
 
 # Iterate through all remaining libraries
 for src_lib in src_libs:
@@ -62,7 +83,7 @@ for src_lib in src_libs:
         if not copy_lib in output_libs:
             output_libs[copy_lib] = schlib.SchLib(os.path.join(dst_dir, copy_lib + '.lib'), create=real_mode)
 
-        out_lib = output_libs[copy_lib]
+        out_lib = output_lib(copy_lib)
 
         for cmp in lib.components:
             out_lib.addComponent(cmp)
@@ -79,6 +100,15 @@ for src_lib in src_libs:
 
         # No matches found
         if len(matches) == 0:
+
+            if args.leave:
+                # Leave the item in the same library it already existed in
+                out_lib = output_lib(lib_name)
+                out_lib.addComponent(cmp)
+
+                if not args.silent:
+                    print("No match found for '{cmp}' - leaving in library '{lib}'".format(cmp = cmp.name, lib=lib_name))
+
             unallocated_symbols.append(lib_name + ' : ' + cmp.name)
             continue
 
@@ -89,14 +119,7 @@ for src_lib in src_libs:
 
         match = matches[0]
 
-        # Is there already an output library made?
-        if not match in output_libs:
-            output_lib_name = os.path.join(dst_dir, match + '.lib')
-            output_libs[match] = schlib.SchLib(output_lib_name, create=real_mode)
-            if not args.silent:
-                print("Creating new library - '{lib}'".format(lib=match))
-
-        out_lib = output_libs[match]
+        out_lib = output_lib(match)
         out_lib.addComponent(cmp)
 
         if not args.silent:
