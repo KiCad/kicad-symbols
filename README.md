@@ -1,7 +1,15 @@
 # KiCad Symbols
 
-This repository *will be* where KiCad symbol libraries are stored.
+This repository contains the official KiCad schematic symbol libraries.
 
-Currently the symbol libraries are located in the [kicad-library](https://github.com/kicad/kicad-library) repository, however they are mixed in with 3D models and project templates.
+Each symbol library is stored as a `.lib` and `.dcm` file pair.
 
-These libraries are going to be separated - this repository serves as a placeholder for the symbol libs.
+Weekly builds can be found at https://kicad.github.io/symbols
+
+Contribution guidelines can be found at http://kicad-pcb.org/libraries/contribute
+
+Other KiCad library repositories are located:
+
+* Footprints: https://github.com/kicad/kicad-footprints
+* 3D Models: https://github.com/kicad/kicad-packages3d
+* Templates: https://github.com/kicad/kicad-templates
