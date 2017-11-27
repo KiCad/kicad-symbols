@@ -1,6 +1,7 @@
 before_install:
 - git clone --depth 1 https://github.com/KiCad/kicad-library-utils /home/travis/build/kicad-library-utils
 - git clone --depth 1 https://github.com/KiCad/kicad-symbols /home/travis/build/kicad-library-old
+- git clone --depth 1 https://github.com/KiCad/kicad-footprints /home/travis/build/kicad-footprints
 
 script:
 - sudo bash ./library-check.sh $TRAVIS_BUILD_DIR
