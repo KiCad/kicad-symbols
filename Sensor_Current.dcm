@@ -1218,4 +1218,22 @@ K hall effect current sensor
 F http://www.akm.com/akm/en/file/datasheet/CZ-3815.pdf
 $ENDCMP
 #
+$CMP LA100-P
+D LA 100-P Current transducer
+K LEM current transducer
+F http://www.lem.com/docs/products/la_100-p_e_.pdf
+$ENDCMP
+#
+$CMP LA25-P
+D LA 25-P Current transducer
+K LEM current transducers
+F http://www.lem.com/docs/products/la_25-p.pdf
+$ENDCMP
+#
+$CMP LA55-P
+D LA 55-P Current transducer
+K LEM current transducer
+F http://www.lem.com/docs/products/la_55-p_e.pdf
+$ENDCMP
+#
 #End Doc Library
