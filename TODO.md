@@ -13,7 +13,6 @@
 - [ ] brooktre
 - [ ] Connector
 - [ ] contrib
-- [ ] Currawong
 - [ ] cypress
 - [ ] dc-dc
 - [ ] Decawave
