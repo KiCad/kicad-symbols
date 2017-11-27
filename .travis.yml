@@ -4,3 +4,4 @@ before_install:
 
 script:
 - sudo bash ./library-check.sh $TRAVIS_BUILD_DIR
+- python /home/travis/build/kicad-library-utils/check-lib-table.py $TRAVIS_BUILD_DIR/*.lib --table $TRAVIS_BUILD_DIR/sym-lib-table
