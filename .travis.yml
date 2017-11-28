@@ -4,5 +4,5 @@ before_install:
 - git clone --depth 1 https://github.com/KiCad/kicad-footprints /home/travis/build/kicad-footprints
 
 script:
-- sudo bash ./library-check.sh $TRAVIS_BUILD_DIR
+- python /home/travis/build/kicad-libray-utils/schlib/comparelibs.py --new $TRAVIS_BUILD_DIR/*.lib --old /home/travis/build/kicad-library-old/*.lib --check -v --footprints /home/travis/build/kicad-footprints 
 - python /home/travis/build/kicad-library-utils/check_lib_table.py $TRAVIS_BUILD_DIR/*.lib --table $TRAVIS_BUILD_DIR/sym-lib-table
