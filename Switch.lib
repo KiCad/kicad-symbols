@@ -58,7 +58,7 @@ ENDDEF
 DEF SW_Coded_SH-7040 SW 0 20 Y N 1 F N
 F0 "SW" -300 350 50 H V L CNN
 F1 "SW_Coded_SH-7040" -300 -350 50 H V L CNN
-F2 "Buttons_Switches_SMD:Nidec_Copal_SH-7040B" -300 -450 50 H I L CNN
+F2 "Button_Switch_SMD:Nidec_Copal_SH-7040B" -300 -450 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Nidec*Copal*SH*7040*
@@ -129,7 +129,7 @@ ENDDEF
 DEF SW_Coded_SH-7080 SW 0 20 Y N 1 F N
 F0 "SW" -300 350 50 H V L CNN
 F1 "SW_Coded_SH-7080" -300 -350 50 H V L CNN
-F2 "Buttons_Switches_SMD:Nidec_Copal_SH-7040B" -300 -450 50 H I L CNN
+F2 "Button_Switch_SMD:Nidec_Copal_SH-7040B" -300 -450 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Nidec*Copal*SH*7040*

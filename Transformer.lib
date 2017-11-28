@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.3
 DEF LL1587 T 0 20 Y N 1 F N
 F0 "T" 50 -450 50 H V L CNN
 F1 "LL1587" 0 450 50 H V C CNN
-F2 "Transformers_THT:Transformer_Microphone_Lundahl_LL1587" 0 0 50 H I C CNN
+F2 "Transformer_THT:Transformer_Microphone_Lundahl_LL1587" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Transformer*Microphone*Lundahl*LL1587*
@@ -45,7 +45,7 @@ ENDDEF
 DEF TEZ0.5-D-1 TR 0 1 Y Y 1 F N
 F0 "TR" 0 250 50 H V C CNN
 F1 "TEZ0.5-D-1" 0 -250 50 H V C CNN
-F2 "Transformers_THT:Transformer_Breve_TEZ-22x24" 0 -350 50 H I C CIN
+F2 "Transformer_THT:Transformer_Breve_TEZ-22x24" 0 -350 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Transformer*Breve*TEZ*22x24*
@@ -80,7 +80,7 @@ ENDDEF
 DEF TEZ0.5-D-2 TR 0 1 Y Y 1 F N
 F0 "TR" 0 350 50 H V C CNN
 F1 "TEZ0.5-D-2" 0 -450 50 H V C CNN
-F2 "Transformers_THT:Transformer_Breve_TEZ-22x24" 0 -550 50 H I C CIN
+F2 "Transformer_THT:Transformer_Breve_TEZ-22x24" 0 -550 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Transformer*Breve*TEZ*22x24*
@@ -124,7 +124,7 @@ ENDDEF
 DEF TEZ1.5-D-1 TR 0 1 Y Y 1 F N
 F0 "TR" 0 250 50 H V C CNN
 F1 "TEZ1.5-D-1" 0 -250 50 H V C CNN
-F2 "Transformers_THT:Transformer_Breve_TEZ-28x33" 0 -350 50 H I C CIN
+F2 "Transformer_THT:Transformer_Breve_TEZ-28x33" 0 -350 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Transformer*Breve*TEZ*28x33*
@@ -159,7 +159,7 @@ ENDDEF
 DEF TEZ1.5-D-2 TR 0 1 Y Y 1 F N
 F0 "TR" 0 350 50 H V C CNN
 F1 "TEZ1.5-D-2" 0 -450 50 H V C CNN
-F2 "Transformers_THT:Transformer_Breve_TEZ-28x33" 0 -550 50 H I C CIN
+F2 "Transformer_THT:Transformer_Breve_TEZ-28x33" 0 -550 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Transformer*Breve*TEZ+28x33*
@@ -203,7 +203,7 @@ ENDDEF
 DEF TEZ10.0-D-1 TR 0 1 Y Y 1 F N
 F0 "TR" 0 250 50 H V C CNN
 F1 "TEZ10.0-D-1" 0 -250 50 H V C CNN
-F2 "Transformers_THT:Transformer_Breve_TEZ-44x52" 0 -350 50 H I C CIN
+F2 "Transformer_THT:Transformer_Breve_TEZ-44x52" 0 -350 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Transformer*Breve*TEZ*44x52*
@@ -238,7 +238,7 @@ ENDDEF
 DEF TEZ10.0-D-2 TR 0 1 Y Y 1 F N
 F0 "TR" 0 350 50 H V C CNN
 F1 "TEZ10.0-D-2" 0 -450 50 H V C CNN
-F2 "Transformers_THT:Transformer_Breve_TEZ-44x52" 0 -550 50 H I C CIN
+F2 "Transformer_THT:Transformer_Breve_TEZ-44x52" 0 -550 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Transformer*Breve*TEZ*44x52*
@@ -282,7 +282,7 @@ ENDDEF
 DEF TEZ16.0-D-1 TR 0 1 Y Y 1 F N
 F0 "TR" 0 250 50 H V C CNN
 F1 "TEZ16.0-D-1" 0 -250 50 H V C CNN
-F2 "Transformers_THT:Transformer_Breve_TEZ-47x57" 0 -350 50 H I C CIN
+F2 "Transformer_THT:Transformer_Breve_TEZ-47x57" 0 -350 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Transformer*Breve*TEZ*47x57*
@@ -317,7 +317,7 @@ ENDDEF
 DEF TEZ16.0-D-2 TR 0 1 Y Y 1 F N
 F0 "TR" 0 350 50 H V C CNN
 F1 "TEZ16.0-D-2" 0 -450 50 H V C CNN
-F2 "Transformers_THT:Transformer_Breve_TEZ-47x57" 0 -550 50 H I C CIN
+F2 "Transformer_THT:Transformer_Breve_TEZ-47x57" 0 -550 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Transformer*Breve*TEZ*47x57*
@@ -361,7 +361,7 @@ ENDDEF
 DEF TEZ2.0-D-1 TR 0 1 Y Y 1 F N
 F0 "TR" 0 250 50 H V C CNN
 F1 "TEZ2.0-D-1" 0 -250 50 H V C CNN
-F2 "Transformers_THT:Transformer_Breve_TEZ-28x33" 0 -350 50 H I C CIN
+F2 "Transformer_THT:Transformer_Breve_TEZ-28x33" 0 -350 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Transformer*Breve*TEZ*28x33*
@@ -396,7 +396,7 @@ ENDDEF
 DEF TEZ2.0-D-2 TR 0 1 Y Y 1 F N
 F0 "TR" 0 350 50 H V C CNN
 F1 "TEZ2.0-D-2" 0 -450 50 H V C CNN
-F2 "Transformers_THT:Transformer_Breve_TEZ-28x33" 0 -550 50 H I C CIN
+F2 "Transformer_THT:Transformer_Breve_TEZ-28x33" 0 -550 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Transformer*Breve*TEZ*28x33*
@@ -440,7 +440,7 @@ ENDDEF
 DEF TEZ2.5-D-1 TR 0 1 Y Y 1 F N
 F0 "TR" 0 250 50 H V C CNN
 F1 "TEZ2.5-D-1" 0 -250 50 H V C CNN
-F2 "Transformers_THT:Transformer_Breve_TEZ-28x33" 0 -350 50 H I C CIN
+F2 "Transformer_THT:Transformer_Breve_TEZ-28x33" 0 -350 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Transformer*Breve*TEZ*28x33*
@@ -475,7 +475,7 @@ ENDDEF
 DEF TEZ2.5-D-2 TR 0 1 Y Y 1 F N
 F0 "TR" 0 350 50 H V C CNN
 F1 "TEZ2.5-D-2" 0 -450 50 H V C CNN
-F2 "Transformers_THT:Transformer_Breve_TEZ-28x33" 0 -550 50 H I C CIN
+F2 "Transformer_THT:Transformer_Breve_TEZ-28x33" 0 -550 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Transformer*Breve*TEZ*28x33*
@@ -519,7 +519,7 @@ ENDDEF
 DEF TEZ2.6-D-1 TR 0 1 Y Y 1 F N
 F0 "TR" 0 250 50 H V C CNN
 F1 "TEZ2.6-D-1" 0 -250 50 H V C CNN
-F2 "Transformers_THT:Transformer_Breve_TEZ-28x33" 0 -350 50 H I C CIN
+F2 "Transformer_THT:Transformer_Breve_TEZ-28x33" 0 -350 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Transformer*Breve*TEZ*28x33*
@@ -554,7 +554,7 @@ ENDDEF
 DEF TEZ2.6-D-2 TR 0 1 Y Y 1 F N
 F0 "TR" 0 350 50 H V C CNN
 F1 "TEZ2.6-D-2" 0 -450 50 H V C CNN
-F2 "Transformers_THT:Transformer_Breve_TEZ-28x33" 0 -550 50 H I C CIN
+F2 "Transformer_THT:Transformer_Breve_TEZ-28x33" 0 -550 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Transformer*Breve*TEZ*28x33*
@@ -598,7 +598,7 @@ ENDDEF
 DEF TEZ4.0-D-1 TR 0 1 Y Y 1 F N
 F0 "TR" 0 250 50 H V C CNN
 F1 "TEZ4.0-D-1" 0 -250 50 H V C CNN
-F2 "Transformers_THT:Transformer_Breve_TEZ-35x42" 0 -350 50 H I C CIN
+F2 "Transformer_THT:Transformer_Breve_TEZ-35x42" 0 -350 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Transformer*Breve*TEZ*35x42*
@@ -633,7 +633,7 @@ ENDDEF
 DEF TEZ4.0-D-2 TR 0 1 Y Y 1 F N
 F0 "TR" 0 350 50 H V C CNN
 F1 "TEZ4.0-D-2" 0 -450 50 H V C CNN
-F2 "Transformers_THT:Transformer_Breve_TEZ-35x42" 0 -550 50 H I C CIN
+F2 "Transformer_THT:Transformer_Breve_TEZ-35x42" 0 -550 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Transformer*Breve*TEZ*35x42*
@@ -677,7 +677,7 @@ ENDDEF
 DEF TEZ6.0-D-1 TR 0 1 Y Y 1 F N
 F0 "TR" 0 250 50 H V C CNN
 F1 "TEZ6.0-D-1" 0 -250 50 H V C CNN
-F2 "Transformers_THT:Transformer_Breve_TEZ-38x45" 0 -350 50 H I C CIN
+F2 "Transformer_THT:Transformer_Breve_TEZ-38x45" 0 -350 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Transformer*Breve*TEZ*38x45*
@@ -712,7 +712,7 @@ ENDDEF
 DEF TEZ6.0-D-2 TR 0 1 Y Y 1 F N
 F0 "TR" 0 350 50 H V C CNN
 F1 "TEZ6.0-D-2" 0 -450 50 H V C CNN
-F2 "Transformers_THT:Transformer_Breve_TEZ-38x45" 0 -550 50 H I C CIN
+F2 "Transformer_THT:Transformer_Breve_TEZ-38x45" 0 -550 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Transformer*Breve*TEZ*38x45*
