@@ -559,14 +559,14 @@ F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP 74LVC1G10
-D Single NAND 3in Gate, Low-Voltage CMOS
-K Single Gate NAND 3in LVC CMOS
+D Single NAND 3 Input Gate, Low-Voltage CMOS
+K Single Gate NAND triple LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP 74LVC1G11
-D Single AND 3in Gate, Low-Voltage CMOS
-K Single Gate AND 3in LVC CMOS
+D Single AND 3 Input Gate, Low-Voltage CMOS
+K Single Gate AND triple LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
@@ -631,8 +631,8 @@ F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP 74LVC1G27
-D Single NOR 3in Gate, Low-Voltage CMOS
-K Single Gate NOR 3in LVC CMOS
+D Single NOR 3 Input Gate, Low-Voltage CMOS
+K Single Gate NOR triple LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
@@ -661,8 +661,8 @@ F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP 74LVC1G332
-D Single OR 3in Gate, Low-Voltage CMOS
-K Single Gate OR 3in LVC CMOS
+D Single OR 3 Input Gate, Low-Voltage CMOS
+K Single Gate OR triple LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
@@ -691,8 +691,8 @@ F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP 74LVC1G386
-D Single EX-OR 3in Gate, Low-Voltage CMOS
-K Single Gate EX-OR 3in LVC CMOS
+D Single EX-OR 3 Input Gate, Low-Voltage CMOS
+K Single Gate EX-OR triple LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
