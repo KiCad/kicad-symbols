@@ -141,6 +141,9 @@
 
     "diode" : "Diode",
 
+    "dsp:DSP9*" : "DSP_Freescale",
+    "dsp:TMS320LF2406PZ" : "DSP_Texas",
+
     "display" : "Display",
 
     "DSP_Microchip_DSPIC33" : "",
@@ -358,7 +361,7 @@
 
     "pspice" : "",
 
-    "power" : "Power",
+    "power" : "",
 
     "Power_Management:FAN7842" : "Driver_FET",
     "Power_Management:LM50*" : "Power_Distribution",
