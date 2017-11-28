@@ -37,8 +37,8 @@ F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP 74AHC1G14
-D Single Schmidt NOT Gate, Low-Voltage CMOS
-K Single Gate NOT Schmidt LVC CMOS
+D Single Schmitt NOT Gate, Low-Voltage CMOS
+K Single Gate NOT Schmitt LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
@@ -97,8 +97,8 @@ F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP 74AHCT1G14
-D Single Schmidt NOT Gate, Low-Voltage CMOS
-K Single Gate NOT Schmidt LVC CMOS
+D Single Schmitt NOT Gate, Low-Voltage CMOS
+K Single Gate NOT Schmitt LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
@@ -169,14 +169,14 @@ F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP 74AUC1G14
-D Single Schmidt NOT Gate, Low-Voltage CMOS
-K Single Gate NOT Schmidt LVC CMOS
+D Single Schmitt NOT Gate, Low-Voltage CMOS
+K Single Gate NOT Schmitt LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP 74AUC1G17
-D Single Schmidt Buffer Gate, Low-Voltage CMOS
-K Single Gate Buff Schmidt LVC CMOS
+D Single Schmitt Buffer Gate, Low-Voltage CMOS
+K Single Gate Buff Schmitt LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
@@ -397,14 +397,14 @@ F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP 74AUP1G14
-D Single Schmidt NOT Gate, Low-Voltage CMOS
-K Single Gate NOT Schmidt LVC CMOS
+D Single Schmitt NOT Gate, Low-Voltage CMOS
+K Single Gate NOT Schmitt LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP 74AUP1G17
-D Single Schmidt Buffer Gate, Low-Voltage CMOS
-K Single Gate Buff Schmidt LVC CMOS
+D Single Schmitt Buffer Gate, Low-Voltage CMOS
+K Single Gate Buff Schmitt LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
@@ -595,14 +595,14 @@ F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP 74LVC1G14
-D Single Schmidt NOT Gate, Low-Voltage CMOS
-K Single Gate NOT Schmidt LVC CMOS
+D Single Schmitt NOT Gate, Low-Voltage CMOS
+K Single Gate NOT Schmitt LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP 74LVC1G17
-D Single Schmidt Buffer Gate, Low-Voltage CMOS
-K Single Gate Buff Schmidt LVC CMOS
+D Single Schmitt Buffer Gate, Low-Voltage CMOS
+K Single Gate Buff Schmitt LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
@@ -805,8 +805,8 @@ F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP 74LVC2G14
-D Dual NOT Gate Schmidt Triggered, Low-Voltage CMOS
-K Dual Gate NOT Schmidt LVC CMOS
+D Dual NOT Gate Schmitt Triggered, Low-Voltage CMOS
+K Dual Gate NOT Schmitt LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
@@ -817,8 +817,8 @@ F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP 74LVC2G17
-D Dual Buffer Schmidt Triggered, Low-Voltage CMOS
-K Dual Buffer Schmidt LVC CMOS
+D Dual Buffer Schmitt Triggered, Low-Voltage CMOS
+K Dual Buffer Schmitt LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
@@ -913,14 +913,14 @@ F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP 74LVC3G14
-D Triple NOT Gate Schmidt, Low-Voltage CMOS
-K Triple NOT Schmidt LVC CMOS
+D Triple NOT Gate Schmitt, Low-Voltage CMOS
+K Triple NOT Schmitt LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
 $CMP 74LVC3G17
-D Triple Buffer Schmidt, Low-Voltage CMOS
-K Triple Buf Schmidt LVC CMOS
+D Triple Buffer Schmitt, Low-Voltage CMOS
+K Triple Buf Schmitt LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
