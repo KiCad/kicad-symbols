@@ -21,8 +21,8 @@
 - [ ] Diode
 - [ ] Display
 - [ ] driver_gate
-- [ ] dsp
-- [ ] DSP_Microchip_DSPIC33
+- [x] dsp
+- [x] DSP_Microchip_DSPIC33
 - [ ] elec-unifil
 - [ ] ESD_Protection
 - [ ] Espressif
