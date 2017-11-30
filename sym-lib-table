@@ -18,6 +18,7 @@
   (lib (name Logic_74xx)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Logic_74xx.lib)(options "")(descr "74xx logic symbols"))
   (lib (name Logic_CMOS_4000)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Logic_CMOS_4000.lib)(options "")(descr "4000 series CMOS logic symbols"))
   (lib (name Logic_CMOS_IEEE)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Logic_CMOS_IEEE.lib)(options "")(descr "4000 series IEEE logic symbols"))
+  (lib (name Logic_Programmable)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Logic_Programmable.lib)(options "")(descr "Programmable logic symbols"))
   (lib (name Logic_TTL_IEEE)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Logic_TTL_IEEE.lib)(options "")(descr "4000 series TTL_IEEE logic symbols"))
   (lib (name MCU_Microchip_PIC10)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_PIC10.lib)(options "")(descr "Microchip PIC10 microcontrollers"))
   (lib (name MCU_Microchip_PIC12)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_PIC12.lib)(options "")(descr "Microchip PIC12 microcontrollers"))
