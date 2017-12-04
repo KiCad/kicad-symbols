@@ -4,3 +4,4 @@ Thanks for creating a pull request to contribute to the KiCad libraries! To spee
 - [ ] An example screenshot image is very helpful
 - [ ] Ensure that the associated footprints match the [official footprint library](https://github.com/kicad/kicad-footprints)
 - [ ] If there are matching footprint PRs, provide link(s) as appropriate
+- [ ] Check the output of the Travis automated check scripts - fix any errors as required
