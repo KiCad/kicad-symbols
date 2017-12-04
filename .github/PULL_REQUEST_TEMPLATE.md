@@ -1,3 +1,6 @@
+*Replace this line with your commit message! Please provide a description of your pull request*
+
+------------
 Thanks for creating a pull request to contribute to the KiCad libraries! To speed up integration of your PR, please check the following items:
 
 - [ ] Provide a URL to a datasheet for the symbol(s) you are contributing
