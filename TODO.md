@@ -28,7 +28,7 @@
 - [x] Espressif
 - [x] FPGA_Actel
 - [ ] ftdi
-- [ ] gennum
+- [x] gennum
 - [x] Graphic
 - [x] hc11
 - [ ] infineon

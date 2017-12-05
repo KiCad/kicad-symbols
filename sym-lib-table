@@ -64,7 +64,6 @@
   (lib (name driver_gate)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/driver_gate.lib)(options "")(descr "Gate driver symbols"))
   (lib (name dsp)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/dsp.lib)(options "")(descr "Digital symbol processors"))
   (lib (name ftdi)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/ftdi.lib)(options "")(descr "Assorted FTDI symbols"))
-  (lib (name gennum)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/gennum.lib)(options "")(descr "Legacy gennum symbol library."))
   (lib (name hc11)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/hc11.lib)(options "")(descr "Legacy hc11 symbol library."))
   (lib (name infineon)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/infineon.lib)(options "")(descr "Assorted Infineon symbols"))
   (lib (name intel)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/intel.lib)(options "")(descr "Assorted Intel symbols"))
