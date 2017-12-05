@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MNMOS
+D N-channel MOSFET
+K mosfet nmos
+$ENDCMP
+#
+$CMP MPMOS
+D P-channel MOSFET
+K mosfet pmos
+$ENDCMP
+#
+$CMP R
+D Resistance
+K R DEV
+$ENDCMP
+#
+#End Doc Library
