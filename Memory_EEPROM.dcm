@@ -381,4 +381,30 @@ K SPI EEPROM
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/9d/75/f0/3e/76/00/4c/0b/CD00103810.pdf/files/CD00103810.pdf/jcr:content/translations/en.CD00103810.pdf
 $ENDCMP
 #
+$CMP MC68HC11A0CC
+D ROMless, 256B RAM
+K HC11 MCU Microcotroller
+$ENDCMP
+#
+$CMP MC68HC11A1CC
+D ROMLess, 256B RAM, 512B EEPROM
+K HC11 MCU Microcotroller
+$ENDCMP
+#
+$CMP MC68HC11A7CC
+D MC68HC11A7CC
+K HC11 MCU Microcotroller
+$ENDCMP
+#
+$CMP MC68HC11A8CC
+D 8K ROM, 256B RAM, 512B EEPROM
+K HC11 MCU Microcotroller
+$ENDCMP
+#
+$CMP MC68HC11F1CC
+D ROMless, 1K RAM, 512B EEPROM, PLCC-68
+K HC11 MCU Microcontroller
+F http://cache.freescale.com/files/microcontrollers/doc/data_sheet/MC68HC11F1.pdf
+$ENDCMP
+#
 #End Doc Library
