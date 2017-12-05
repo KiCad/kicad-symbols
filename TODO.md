@@ -47,19 +47,19 @@
 - [ ] logic_programmable
 - [ ] Logic_TTL_IEEE
 - [ ] maxim
-- [ ] MCU_Microchip_PIC10
-- [ ] MCU_Microchip_PIC12
-- [ ] MCU_Microchip_PIC16
-- [ ] MCU_Microchip_PIC18
-- [ ] MCU_Microchip_PIC24
-- [ ] MCU_Microchip_PIC32
-- [ ] MCU_NXP_Kinetis
-- [ ] MCU_NXP_LPC
-- [ ] MCU_NXP_S08
-- [ ] MCU_Parallax
-- [ ] MCU_ST_STM32
-- [ ] MCU_ST_STM8
-- [ ] MCU_Texas_MSP430
+- [x] MCU_Microchip_PIC10
+- [x] MCU_Microchip_PIC12
+- [x] MCU_Microchip_PIC16
+- [x] MCU_Microchip_PIC18
+- [x] MCU_Microchip_PIC24
+- [x] MCU_Microchip_PIC32
+- [x] MCU_NXP_Kinetis
+- [x] MCU_NXP_LPC
+- [x] MCU_NXP_S08
+- [x] MCU_Parallax
+- [x] MCU_ST_STM32
+- [x] MCU_ST_STM8
+- [x] MCU_Texas_MSP430
 - [ ] Mechanical
 - [x] memory
 - [ ] microchip
