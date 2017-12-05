@@ -2,42 +2,42 @@
 
 - [ ] ac-dc
 - [ ] adc-dac
-- [ ] Altera
+- [x] Altera
 - [ ] analog_devices
 - [ ] analog_switches
 - [ ] atmel
 - [ ] audio
-- [ ] Battery_Management
+- [x] Battery_Management
 - [ ] bbd
 - [ ] Bosch
 - [ ] brooktre
 - [ ] Connector
-- [ ] contrib
+- [x] contrib
 - [ ] cypress
 - [ ] dc-dc
 - [ ] Decawave
 - [ ] device
-- [ ] digital-audio
-- [ ] Diode
+- [x] digital-audio
+- [x] Diode
 - [ ] Display
-- [ ] driver_gate
+- [x] driver_gate
 - [ ] dsp
 - [ ] DSP_Microchip_DSPIC33
 - [ ] elec-unifil
-- [ ] ESD_Protection
-- [ ] Espressif
-- [ ] FPGA_Actel
+- [x] ESD_Protection
+- [x] Espressif
+- [x] FPGA_Actel
 - [ ] ftdi
 - [ ] gennum
-- [ ] Graphic
-- [ ] hc11
+- [x] Graphic
+- [x] hc11
 - [ ] infineon
 - [ ] intel
 - [ ] interface
 - [ ] intersil
 - [ ] ir
 - [ ] Lattice
-- [ ] LED
+- [x] LED
 - [ ] LEM
 - [ ] linear
 - [ ] Logic_74xgxx
@@ -60,30 +60,30 @@
 - [x] MCU_ST_STM32
 - [x] MCU_ST_STM8
 - [x] MCU_Texas_MSP430
-- [ ] Mechanical
 - [x] memory
+- [x] Mechanical
 - [ ] microchip
 - [ ] microcontrollers
 - [ ] modules
 - [ ] motor_drivers
-- [ ] Motor
+- [x] Motor
 - [ ] motorola
 - [ ] nordicsemi
 - [ ] nxp
 - [ ] onsemi
 - [ ] opto
-- [ ] Oscillators
+- [x] Oscillators
 - [ ] philips
 - [ ] powerint
-- [ ] power
+- [x] power
 - [ ] Power_Management
-- [ ] pspice
-- [ ] references
+- [x] pspice
+- [x] references
 - [ ] regul
-- [ ] Relay
+- [x] Relay
 - [ ] RF_Bluetooth
 - [ ] rfcom
-- [ ] RFSolutions
+- [x] RFSolutions
 - [ ] Sensor_Current
 - [ ] Sensor_Humidity
 - [ ] sensors
@@ -92,14 +92,14 @@
 - [ ] supertex
 - [ ] Switch
 - [ ] texas
-- [ ] Transformer
-- [ ] Transistor
+- [x] Transformer
+- [x] Transistor
 - [ ] triac_thyristor
-- [ ] Valve
+- [x] Valve
 - [ ] video
 - [ ] wiznet
-- [ ] Worldsemi
+- [x] Worldsemi
 - [ ] Xicor
 - [ ] xilinx
-- [ ] zetex
+- [x] zetex
 - [ ] Zilog
