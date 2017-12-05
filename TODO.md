@@ -61,7 +61,7 @@
 - [ ] MCU_ST_STM8
 - [ ] MCU_Texas_MSP430
 - [ ] Mechanical
-- [ ] memory
+- [x] memory
 - [ ] microchip
 - [ ] microcontrollers
 - [ ] modules
