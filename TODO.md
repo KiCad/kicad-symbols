@@ -4,7 +4,7 @@
 - [ ] adc-dac
 - [x] Altera
 - [ ] analog_devices
-- [ ] analog_switches
+- [x] analog_switches
 - [ ] atmel
 - [ ] audio
 - [x] Battery_Management

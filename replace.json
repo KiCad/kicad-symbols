@@ -17,7 +17,8 @@
         "SOIC-8_3.9x4.9mm_Pitch1.27mm":"SOIC-8_3.9x4.9mm_P1.27mm",
         "SOT-353":"SOT-353_SC-70-5",
         "SOT-363":"SOT-363_SC-70-6",
-        "TO-220_Vertical":"TO-220-3_Vertical"
+        "TO-220_Vertical":"TO-220-3_Vertical",
+        "Texas_DSBGA-6_2x3_0.9x1.4mm_P0.5mm":"Texas_DSBGA-6_0.9x1.4mm_Layout2x3_P0.5mm"
     },
     "library":{
         "Buttons_Switches_SMD":"Button_Switch_SMD",
@@ -60,19 +61,19 @@
     },
     "prefix":{},
     "replace":{
+        "GLIMM":"Glimm",
+        "LINEAR":"Linear",
+        "MINI":"Mini",
+        "NOVAL":"Noval",
+        "OCTAL":"Octal",
+        "PENTODE":"Pentode",
         "SOIC-18_":"SOIC-18W_",
         "SOIC-20_":"SOIC-20W_",
         "SOIC-24_":"SOIC-24W_",
         "SOIC-28_":"SOIC-28W_",
+        "VALVE-":"Valve_",
         "_Pitch":"_P",
         "_d":"_D",
-        "_w":"_W",
-        "VALVE-" : "Valve_",
-        "NOVAL" : "Noval",
-        "OCTAL" : "Octal",
-        "GLIMM" : "Glimm",
-        "MINI" : "Mini",
-        "PENTODE" : "Pentode",
-        "LINEAR" : "Linear"
+        "_w":"_W"
     }
 }
