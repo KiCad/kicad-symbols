@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCA8886
+D Dual capacitive touch/proximity switch with auto-calibration, TSSOP-16
+K NXP capacitive touch sensor auto-calibration
+F http://www.nxp.com/docs/en/data-sheet/PCA8886.pdf
+$ENDCMP
+#
+$CMP PCF8883
+D Capacitive touch/proximity switch with auto-calibration, SOIC-8/WLCSP-8
+K NXP capacitive touch sensor auto-calibration
+F http://www.nxp.com/docs/en/data-sheet/PCF8883.pdf
+$ENDCMP
+#
+#End Doc Library

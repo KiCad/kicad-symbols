@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AS7261
+D Spectral Sensing Engine, 6-Channel XYZ Spectral_ID
+K 6-Channel XYZ Spectral_ID Device Electronic Shutter Smart Interface i2c uart
+F http://ams.com/eng/content/download/1008631/2361759/498838
+$ENDCMP
+#
+$CMP AS7262
+D Spectral Sensing Engine, 6-Channel Visible Spectral_ID
+K 6-Channel Visible Spectral_ID Device Electronic Shutter Smart Interface i2c uart
+F http://ams.com/eng/content/download/976551/2309439/498718
+$ENDCMP
+#
+$CMP AS7263
+D Spectral Sensing Engine, 6-Channel NIR Spectral_ID
+K 6-Channel NIR Spectral_ID Device Electronic Shutter Smart Interface i2c uart
+F http://ams.com/eng/content/download/976611/2309519/498778
+$ENDCMP
+#
+$CMP C12880MA
+D Micro spectrometer 340 to 850nm resolution 15nm
+K spectrometer
+F http://www.hamamatsu.com/resources/pdf/ssd/c12880ma_kacc1226e.pdf
+$ENDCMP
+#
+$CMP Flir_LEPTON
+D LWIR camera 8 to 14um 80x60 pixel
+K LWIR camera
+F https://cdn.sparkfun.com/datasheets/Sensors/Infrared/FLIR_Lepton_Data_Brief.pdf
+$ENDCMP
+#
+#End Doc Library
