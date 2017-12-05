@@ -38,7 +38,7 @@
 - [ ] ir
 - [ ] Lattice
 - [x] LED
-- [ ] LEM
+- [x] LEM
 - [ ] linear
 - [x] Logic_74xgxx
 - [x] Logic_74xx
@@ -84,9 +84,9 @@
 - [ ] RF_Bluetooth
 - [ ] rfcom
 - [x] RFSolutions
-- [ ] Sensor_Current
-- [ ] Sensor_Humidity
-- [ ] sensors
+- [x] Sensor_Current
+- [x] Sensor_Humidity
+- [x] sensors
 - [ ] silabs
 - [x] siliconi
 - [ ] supertex
