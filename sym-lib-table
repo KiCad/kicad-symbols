@@ -96,7 +96,6 @@
   (lib (name texas)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/texas.lib)(options "")(descr "Assorted Texas Instruments symbols"))
   (lib (name triac_thyristor)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/triac_thyristor.lib)(options "")(descr "Triacs and thyristors"))
   (lib (name video)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/video.lib)(options "")(descr "Legacy video symbol library."))
-  (lib (name wiznet)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/wiznet.lib)(options "")(descr "Legacy wiznet symbol library."))
   (lib (name xilinx)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/xilinx.lib)(options "")(descr "Legacy xilinx symbol library."))
   (lib (name zetex)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/zetex.lib)(options "")(descr "Legacy zetex symbol library."))
 )

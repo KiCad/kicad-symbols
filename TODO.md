@@ -97,7 +97,7 @@
 - [ ] triac_thyristor
 - [x] Valve
 - [ ] video
-- [ ] wiznet
+- [x] wiznet
 - [x] Worldsemi
 - [ ] Xicor
 - [ ] xilinx
