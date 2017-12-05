@@ -426,6 +426,14 @@
 
     "references" : "Reference_Voltage",
 
+    "Reference_Voltage" : {
+        "LM134*" : "Reference_Current",
+        "LM23*" : "Reference_Current",
+        "LM33*" : "Reference_Current",
+        "REF200*" : "Reference_Current",
+        "LM285D*" : "Reference_Voltage"
+    },
+
     "regul" : {
         "LM1117*" : "Regulator_Linear",
         "LM317*" : "Regulator_Linear",
