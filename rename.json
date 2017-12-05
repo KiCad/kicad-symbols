@@ -456,6 +456,11 @@
 
     "RFSolutions" : "Interface_RF",
 
+    "Interface_RF" : {
+        "*P1*" : "RF_WiFi",
+        "ZET*" : "RF_AM_FM"
+    },
+
     "sensors" : {
         "40pc*" : "Sensor_Pressure",
         "a110*" : "Sensor_Magnetic",
