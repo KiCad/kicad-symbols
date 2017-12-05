@@ -4,7 +4,7 @@
 - [ ] adc-dac
 - [x] Altera
 - [ ] analog_devices
-- [ ] analog_switches
+- [x] analog_switches
 - [ ] atmel
 - [ ] audio
 - [x] Battery_Management
@@ -28,7 +28,7 @@
 - [x] Espressif
 - [x] FPGA_Actel
 - [ ] ftdi
-- [ ] gennum
+- [x] gennum
 - [x] Graphic
 - [x] hc11
 - [ ] infineon
@@ -88,7 +88,7 @@
 - [ ] Sensor_Humidity
 - [ ] sensors
 - [ ] silabs
-- [ ] siliconi
+- [x] siliconi
 - [ ] supertex
 - [ ] Switch
 - [ ] texas
@@ -97,7 +97,7 @@
 - [ ] triac_thyristor
 - [x] Valve
 - [ ] video
-- [ ] wiznet
+- [x] wiznet
 - [x] Worldsemi
 - [ ] Xicor
 - [ ] xilinx
