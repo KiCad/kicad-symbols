@@ -92,7 +92,6 @@
   (lib (name rfcom)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/rfcom.lib)(options "")(descr "RF communication symbols"))
   (lib (name sensors)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/sensors.lib)(options "")(descr "Sensor symbols"))
   (lib (name silabs)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/silabs.lib)(options "")(descr "Assorted SILabs symbols"))
-  (lib (name siliconi)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/siliconi.lib)(options "")(descr "Legacy siliconi symbol library."))
   (lib (name supertex)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/supertex.lib)(options "")(descr "Legacy supertex symbol library."))
   (lib (name texas)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/texas.lib)(options "")(descr "Assorted Texas Instruments symbols"))
   (lib (name triac_thyristor)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/triac_thyristor.lib)(options "")(descr "Triacs and thyristors"))

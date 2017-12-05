@@ -88,7 +88,7 @@
 - [ ] Sensor_Humidity
 - [ ] sensors
 - [ ] silabs
-- [ ] siliconi
+- [x] siliconi
 - [ ] supertex
 - [ ] Switch
 - [ ] texas
