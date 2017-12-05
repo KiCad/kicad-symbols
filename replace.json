@@ -2,6 +2,7 @@
     "footprint":{
         "AKM_CQ-7":"AKM_CQ_7",
         "AKM_CQ-7S":"AKM_CQ_7S",
+        "DIP-20_W7.62":"DIP-20_W7.62mm",
         "DIP20_W7.62mm":"DIP-20_W7.62",
         "D_SMA_Standard":"D_SMA",
         "MELF_Standard":"D_MELF",
@@ -17,6 +18,7 @@
         "SOIC-8_3.9x4.9mm_Pitch1.27mm":"SOIC-8_3.9x4.9mm_P1.27mm",
         "SOT-353":"SOT-353_SC-70-5",
         "SOT-363":"SOT-363_SC-70-6",
+        "SSOP-20_5.3x7.2mm":"SSOP-20_5x3x7.2mm_P0.65mm",
         "TO-220_Vertical":"TO-220-3_Vertical"
     },
     "library":{
@@ -60,19 +62,19 @@
     },
     "prefix":{},
     "replace":{
+        "GLIMM":"Glimm",
+        "LINEAR":"Linear",
+        "MINI":"Mini",
+        "NOVAL":"Noval",
+        "OCTAL":"Octal",
+        "PENTODE":"Pentode",
         "SOIC-18_":"SOIC-18W_",
         "SOIC-20_":"SOIC-20W_",
         "SOIC-24_":"SOIC-24W_",
         "SOIC-28_":"SOIC-28W_",
+        "VALVE-":"Valve_",
         "_Pitch":"_P",
         "_d":"_D",
-        "_w":"_W",
-        "VALVE-" : "Valve_",
-        "NOVAL" : "Noval",
-        "OCTAL" : "Octal",
-        "GLIMM" : "Glimm",
-        "MINI" : "Mini",
-        "PENTODE" : "Pentode",
-        "LINEAR" : "Linear"
+        "_w":"_W"
     }
 }
