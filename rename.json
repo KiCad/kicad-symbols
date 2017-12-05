@@ -155,7 +155,7 @@
 
     "device" : "Device",
 
-    "digital_audio" : "Audio",
+    "digital-audio" : "Audio",
 
     "driver_gate" : "Driver_FET",
 
@@ -360,6 +360,8 @@
     "MCU_Microchip_PIC32" : "",
     "MCU_Parallax" : "",
 
+    "Memory_EEPROM" : "",
+
     "motor_drivers" : "Driver_Motor",
 
     "motors" : "Motor",
@@ -426,6 +428,14 @@
 
     "references" : "Reference_Voltage",
 
+    "Reference_Voltage" : {
+        "LM134*" : "Reference_Current",
+        "LM23*" : "Reference_Current",
+        "LM33*" : "Reference_Current",
+        "REF200*" : "Reference_Current",
+        "LM285D*" : "Reference_Voltage"
+    },
+
     "regul" : {
         "LM1117*" : "Regulator_Linear",
         "LM317*" : "Regulator_Linear",
@@ -455,6 +465,11 @@
     },
 
     "RFSolutions" : "Interface_RF",
+
+    "Interface_RF" : {
+        "*P1*" : "RF_WiFi",
+        "ZET*" : "RF_AM_FM"
+    },
 
     "sensors" : {
         "40pc*" : "Sensor_Pressure",
