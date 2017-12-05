@@ -2,42 +2,42 @@
 
 - [ ] ac-dc
 - [ ] adc-dac
-- [ ] Altera
+- [x] Altera
 - [ ] analog_devices
 - [ ] analog_switches
 - [ ] atmel
 - [ ] audio
-- [ ] Battery_Management
+- [x] Battery_Management
 - [ ] bbd
 - [ ] Bosch
 - [ ] brooktre
 - [ ] Connector
-- [ ] contrib
+- [x] contrib
 - [ ] cypress
 - [ ] dc-dc
 - [ ] Decawave
 - [ ] device
-- [ ] digital-audio
-- [ ] Diode
+- [x] digital-audio
+- [x] Diode
 - [ ] Display
-- [ ] driver_gate
+- [x] driver_gate
 - [ ] dsp
 - [ ] DSP_Microchip_DSPIC33
 - [ ] elec-unifil
-- [ ] ESD_Protection
-- [ ] Espressif
-- [ ] FPGA_Actel
+- [x] ESD_Protection
+- [x] Espressif
+- [x] FPGA_Actel
 - [ ] ftdi
 - [ ] gennum
-- [ ] Graphic
-- [ ] hc11
+- [x] Graphic
+- [x] hc11
 - [ ] infineon
 - [ ] intel
 - [ ] interface
 - [ ] intersil
 - [ ] ir
 - [ ] Lattice
-- [ ] LED
+- [x] LED
 - [x] LEM
 - [ ] linear
 - [ ] Logic_74xgxx
@@ -47,43 +47,43 @@
 - [ ] logic_programmable
 - [ ] Logic_TTL_IEEE
 - [ ] maxim
-- [ ] MCU_Microchip_PIC10
-- [ ] MCU_Microchip_PIC12
-- [ ] MCU_Microchip_PIC16
-- [ ] MCU_Microchip_PIC18
-- [ ] MCU_Microchip_PIC24
-- [ ] MCU_Microchip_PIC32
-- [ ] MCU_NXP_Kinetis
-- [ ] MCU_NXP_LPC
-- [ ] MCU_NXP_S08
-- [ ] MCU_Parallax
-- [ ] MCU_ST_STM32
-- [ ] MCU_ST_STM8
-- [ ] MCU_Texas_MSP430
-- [ ] Mechanical
-- [ ] memory
+- [x] MCU_Microchip_PIC10
+- [x] MCU_Microchip_PIC12
+- [x] MCU_Microchip_PIC16
+- [x] MCU_Microchip_PIC18
+- [x] MCU_Microchip_PIC24
+- [x] MCU_Microchip_PIC32
+- [x] MCU_NXP_Kinetis
+- [x] MCU_NXP_LPC
+- [x] MCU_NXP_S08
+- [x] MCU_Parallax
+- [x] MCU_ST_STM32
+- [x] MCU_ST_STM8
+- [x] MCU_Texas_MSP430
+- [x] memory
+- [x] Mechanical
 - [ ] microchip
 - [ ] microcontrollers
 - [ ] modules
 - [ ] motor_drivers
-- [ ] Motor
+- [x] Motor
 - [ ] motorola
 - [ ] nordicsemi
 - [ ] nxp
 - [ ] onsemi
 - [ ] opto
-- [ ] Oscillators
+- [x] Oscillators
 - [ ] philips
 - [ ] powerint
-- [ ] power
+- [x] power
 - [ ] Power_Management
-- [ ] pspice
-- [ ] references
+- [x] pspice
+- [x] references
 - [ ] regul
-- [ ] Relay
+- [x] Relay
 - [ ] RF_Bluetooth
 - [ ] rfcom
-- [ ] RFSolutions
+- [x] RFSolutions
 - [x] Sensor_Current
 - [x] Sensor_Humidity
 - [x] sensors
@@ -92,14 +92,14 @@
 - [ ] supertex
 - [ ] Switch
 - [ ] texas
-- [ ] Transformer
-- [ ] Transistor
+- [x] Transformer
+- [x] Transistor
 - [ ] triac_thyristor
-- [ ] Valve
+- [x] Valve
 - [ ] video
 - [ ] wiznet
-- [ ] Worldsemi
+- [x] Worldsemi
 - [ ] Xicor
 - [ ] xilinx
-- [ ] zetex
+- [x] zetex
 - [ ] Zilog
