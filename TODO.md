@@ -23,7 +23,7 @@
 - [x] driver_gate
 - [ ] dsp
 - [ ] DSP_Microchip_DSPIC33
-- [ ] elec-unifil
+- [x] elec-unifil
 - [x] ESD_Protection
 - [x] Espressif
 - [x] FPGA_Actel
