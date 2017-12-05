@@ -8289,7 +8289,7 @@ F1 "Conn_02x01" 50 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 5 0 -5 1 1 6 N
@@ -8308,7 +8308,7 @@ F1 "Conn_02x01_Row_Letter_First" 50 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 5 0 -5 1 1 6 N
@@ -8327,7 +8327,7 @@ F1 "Conn_02x01_Row_Letter_Last" 50 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 5 0 -5 1 1 6 N
@@ -8346,7 +8346,7 @@ F1 "Conn_02x02_Counter_Clockwise" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -95 0 -105 1 1 6 N
@@ -8369,7 +8369,7 @@ F1 "Conn_02x02_Odd_Even" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -95 0 -105 1 1 6 N
@@ -8392,7 +8392,7 @@ F1 "Conn_02x02_Row_Letter_First" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -95 0 -105 1 1 6 N
@@ -8415,7 +8415,7 @@ F1 "Conn_02x02_Row_Letter_Last" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -95 0 -105 1 1 6 N
@@ -8438,7 +8438,7 @@ F1 "Conn_02x02_Top_Bottom" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -95 0 -105 1 1 6 N
@@ -8461,7 +8461,7 @@ F1 "Conn_02x03_Counter_Clockwise" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -95 0 -105 1 1 6 N
@@ -8488,7 +8488,7 @@ F1 "Conn_02x03_Odd_Even" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -95 0 -105 1 1 6 N
@@ -8515,7 +8515,7 @@ F1 "Conn_02x03_Row_Letter_First" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -95 0 -105 1 1 6 N
@@ -8542,7 +8542,7 @@ F1 "Conn_02x03_Row_Letter_Last" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -95 0 -105 1 1 6 N
@@ -8569,7 +8569,7 @@ F1 "Conn_02x03_Top_Bottom" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -95 0 -105 1 1 6 N
@@ -8596,7 +8596,7 @@ F1 "Conn_02x04_Counter_Clockwise" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -195 0 -205 1 1 6 N
@@ -8627,7 +8627,7 @@ F1 "Conn_02x04_Odd_Even" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -195 0 -205 1 1 6 N
@@ -8658,7 +8658,7 @@ F1 "Conn_02x04_Row_Letter_First" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -195 0 -205 1 1 6 N
@@ -8689,7 +8689,7 @@ F1 "Conn_02x04_Row_Letter_Last" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -195 0 -205 1 1 6 N
@@ -8720,7 +8720,7 @@ F1 "Conn_02x04_Top_Bottom" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -195 0 -205 1 1 6 N
@@ -8751,7 +8751,7 @@ F1 "Conn_02x05_Counter_Clockwise" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -195 0 -205 1 1 6 N
@@ -8786,7 +8786,7 @@ F1 "Conn_02x05_Odd_Even" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -195 0 -205 1 1 6 N
@@ -8821,7 +8821,7 @@ F1 "Conn_02x05_Row_Letter_First" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -195 0 -205 1 1 6 N
@@ -8856,7 +8856,7 @@ F1 "Conn_02x05_Row_Letter_Last" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -195 0 -205 1 1 6 N
@@ -8891,7 +8891,7 @@ F1 "Conn_02x05_Top_Bottom" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -195 0 -205 1 1 6 N
@@ -8926,7 +8926,7 @@ F1 "Conn_02x06_Counter_Clockwise" 50 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -295 0 -305 1 1 6 N
@@ -8965,7 +8965,7 @@ F1 "Conn_02x06_Odd_Even" 50 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -295 0 -305 1 1 6 N
@@ -9004,7 +9004,7 @@ F1 "Conn_02x06_Row_Letter_First" 50 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -295 0 -305 1 1 6 N
@@ -9043,7 +9043,7 @@ F1 "Conn_02x06_Row_Letter_Last" 50 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -295 0 -305 1 1 6 N
@@ -9082,7 +9082,7 @@ F1 "Conn_02x06_Top_Bottom" 50 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -295 0 -305 1 1 6 N
@@ -9121,7 +9121,7 @@ F1 "Conn_02x07_Counter_Clockwise" 50 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -295 0 -305 1 1 6 N
@@ -9164,7 +9164,7 @@ F1 "Conn_02x07_Odd_Even" 50 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -295 0 -305 1 1 6 N
@@ -9207,7 +9207,7 @@ F1 "Conn_02x07_Row_Letter_First" 50 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -295 0 -305 1 1 6 N
@@ -9250,7 +9250,7 @@ F1 "Conn_02x07_Row_Letter_Last" 50 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -295 0 -305 1 1 6 N
@@ -9293,7 +9293,7 @@ F1 "Conn_02x07_Top_Bottom" 50 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -295 0 -305 1 1 6 N
@@ -9336,7 +9336,7 @@ F1 "Conn_02x08_Counter_Clockwise" 50 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -395 0 -405 1 1 6 N
@@ -9383,7 +9383,7 @@ F1 "Conn_02x08_Odd_Even" 50 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -395 0 -405 1 1 6 N
@@ -9430,7 +9430,7 @@ F1 "Conn_02x08_Row_Letter_First" 50 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -395 0 -405 1 1 6 N
@@ -9477,7 +9477,7 @@ F1 "Conn_02x08_Row_Letter_Last" 50 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -395 0 -405 1 1 6 N
@@ -9524,7 +9524,7 @@ F1 "Conn_02x08_Top_Bottom" 50 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -395 0 -405 1 1 6 N
@@ -9571,7 +9571,7 @@ F1 "Conn_02x09_Counter_Clockwise" 50 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -395 0 -405 1 1 6 N
@@ -9622,7 +9622,7 @@ F1 "Conn_02x09_Odd_Even" 50 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -395 0 -405 1 1 6 N
@@ -9673,7 +9673,7 @@ F1 "Conn_02x09_Row_Letter_First" 50 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -395 0 -405 1 1 6 N
@@ -9724,7 +9724,7 @@ F1 "Conn_02x09_Row_Letter_Last" 50 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -395 0 -405 1 1 6 N
@@ -9775,7 +9775,7 @@ F1 "Conn_02x09_Top_Bottom" 50 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -395 0 -405 1 1 6 N
@@ -9826,7 +9826,7 @@ F1 "Conn_02x10_Counter_Clockwise" 50 -600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -495 0 -505 1 1 6 N
@@ -9881,7 +9881,7 @@ F1 "Conn_02x10_Odd_Even" 50 -600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -495 0 -505 1 1 6 N
@@ -9936,7 +9936,7 @@ F1 "Conn_02x10_Row_Letter_First" 50 -600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -495 0 -505 1 1 6 N
@@ -9991,7 +9991,7 @@ F1 "Conn_02x10_Row_Letter_Last" 50 -600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -495 0 -505 1 1 6 N
@@ -10046,7 +10046,7 @@ F1 "Conn_02x10_Top_Bottom" 50 -600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -495 0 -505 1 1 6 N
@@ -10101,7 +10101,7 @@ F1 "Conn_02x11_Counter_Clockwise" 50 -600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -495 0 -505 1 1 6 N
@@ -10160,7 +10160,7 @@ F1 "Conn_02x11_Odd_Even" 50 -600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -495 0 -505 1 1 6 N
@@ -10219,7 +10219,7 @@ F1 "Conn_02x11_Row_Letter_First" 50 -600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -495 0 -505 1 1 6 N
@@ -10278,7 +10278,7 @@ F1 "Conn_02x11_Row_Letter_Last" 50 -600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -495 0 -505 1 1 6 N
@@ -10337,7 +10337,7 @@ F1 "Conn_02x11_Top_Bottom" 50 -600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -495 0 -505 1 1 6 N
@@ -10396,7 +10396,7 @@ F1 "Conn_02x12_Counter_Clockwise" 50 -700 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -595 0 -605 1 1 6 N
@@ -10459,7 +10459,7 @@ F1 "Conn_02x12_Odd_Even" 50 -700 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -595 0 -605 1 1 6 N
@@ -10522,7 +10522,7 @@ F1 "Conn_02x12_Row_Letter_First" 50 -700 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -595 0 -605 1 1 6 N
@@ -10585,7 +10585,7 @@ F1 "Conn_02x12_Row_Letter_Last" 50 -700 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -595 0 -605 1 1 6 N
@@ -10648,7 +10648,7 @@ F1 "Conn_02x12_Top_Bottom" 50 -700 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -595 0 -605 1 1 6 N
@@ -10711,7 +10711,7 @@ F1 "Conn_02x13_Counter_Clockwise" 50 -700 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -595 0 -605 1 1 6 N
@@ -10778,7 +10778,7 @@ F1 "Conn_02x13_Odd_Even" 50 -700 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -595 0 -605 1 1 6 N
@@ -10845,7 +10845,7 @@ F1 "Conn_02x13_Row_Letter_First" 50 -700 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -595 0 -605 1 1 6 N
@@ -10912,7 +10912,7 @@ F1 "Conn_02x13_Row_Letter_Last" 50 -700 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -595 0 -605 1 1 6 N
@@ -10979,7 +10979,7 @@ F1 "Conn_02x13_Top_Bottom" 50 -700 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -595 0 -605 1 1 6 N
@@ -11046,7 +11046,7 @@ F1 "Conn_02x14_Counter_Clockwise" 50 -800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -695 0 -705 1 1 6 N
@@ -11117,7 +11117,7 @@ F1 "Conn_02x14_Odd_Even" 50 -800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -695 0 -705 1 1 6 N
@@ -11188,7 +11188,7 @@ F1 "Conn_02x14_Row_Letter_First" 50 -800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -695 0 -705 1 1 6 N
@@ -11259,7 +11259,7 @@ F1 "Conn_02x14_Row_Letter_Last" 50 -800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -695 0 -705 1 1 6 N
@@ -11330,7 +11330,7 @@ F1 "Conn_02x14_Top_Bottom" 50 -800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -695 0 -705 1 1 6 N
@@ -11401,7 +11401,7 @@ F1 "Conn_02x15_Counter_Clockwise" 50 -800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -695 0 -705 1 1 6 N
@@ -11476,7 +11476,7 @@ F1 "Conn_02x15_Odd_Even" 50 -800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -695 0 -705 1 1 6 N
@@ -11551,7 +11551,7 @@ F1 "Conn_02x15_Row_Letter_First" 50 -800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -695 0 -705 1 1 6 N
@@ -11626,7 +11626,7 @@ F1 "Conn_02x15_Row_Letter_Last" 50 -800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -695 0 -705 1 1 6 N
@@ -11701,7 +11701,7 @@ F1 "Conn_02x15_Top_Bottom" 50 -800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -695 0 -705 1 1 6 N
@@ -11776,7 +11776,7 @@ F1 "Conn_02x16_Counter_Clockwise" 50 -900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -795 0 -805 1 1 6 N
@@ -11855,7 +11855,7 @@ F1 "Conn_02x16_Odd_Even" 50 -900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -795 0 -805 1 1 6 N
@@ -11934,7 +11934,7 @@ F1 "Conn_02x16_Row_Letter_First" 50 -900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -795 0 -805 1 1 6 N
@@ -12013,7 +12013,7 @@ F1 "Conn_02x16_Row_Letter_Last" 50 -900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -795 0 -805 1 1 6 N
@@ -12092,7 +12092,7 @@ F1 "Conn_02x16_Top_Bottom" 50 -900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -795 0 -805 1 1 6 N
@@ -12171,7 +12171,7 @@ F1 "Conn_02x17_Counter_Clockwise" 50 -900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -795 0 -805 1 1 6 N
@@ -12254,7 +12254,7 @@ F1 "Conn_02x17_Odd_Even" 50 -900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -795 0 -805 1 1 6 N
@@ -12337,7 +12337,7 @@ F1 "Conn_02x17_Row_Letter_First" 50 -900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -795 0 -805 1 1 6 N
@@ -12420,7 +12420,7 @@ F1 "Conn_02x17_Row_Letter_Last" 50 -900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -795 0 -805 1 1 6 N
@@ -12503,7 +12503,7 @@ F1 "Conn_02x17_Top_Bottom" 50 -900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -795 0 -805 1 1 6 N
@@ -12586,7 +12586,7 @@ F1 "Conn_02x18_Counter_Clockwise" 50 -1000 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -895 0 -905 1 1 6 N
@@ -12673,7 +12673,7 @@ F1 "Conn_02x18_Odd_Even" 50 -1000 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -895 0 -905 1 1 6 N
@@ -12760,7 +12760,7 @@ F1 "Conn_02x18_Row_Letter_First" 50 -1000 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -895 0 -905 1 1 6 N
@@ -12847,7 +12847,7 @@ F1 "Conn_02x18_Row_Letter_Last" 50 -1000 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -895 0 -905 1 1 6 N
@@ -12934,7 +12934,7 @@ F1 "Conn_02x18_Top_Bottom" 50 -1000 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -895 0 -905 1 1 6 N
@@ -13021,7 +13021,7 @@ F1 "Conn_02x19_Counter_Clockwise" 50 -1000 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -895 0 -905 1 1 6 N
@@ -13112,7 +13112,7 @@ F1 "Conn_02x19_Odd_Even" 50 -1000 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -895 0 -905 1 1 6 N
@@ -13203,7 +13203,7 @@ F1 "Conn_02x19_Row_Letter_First" 50 -1000 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -895 0 -905 1 1 6 N
@@ -13294,7 +13294,7 @@ F1 "Conn_02x19_Row_Letter_Last" 50 -1000 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -895 0 -905 1 1 6 N
@@ -13385,7 +13385,7 @@ F1 "Conn_02x19_Top_Bottom" 50 -1000 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -895 0 -905 1 1 6 N
@@ -13476,7 +13476,7 @@ F1 "Conn_02x20_Counter_Clockwise" 50 -1100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -995 0 -1005 1 1 6 N
@@ -13571,7 +13571,7 @@ F1 "Conn_02x20_Odd_Even" 50 -1100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -995 0 -1005 1 1 6 N
@@ -13666,7 +13666,7 @@ F1 "Conn_02x20_Row_Letter_First" 50 -1100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -995 0 -1005 1 1 6 N
@@ -13761,7 +13761,7 @@ F1 "Conn_02x20_Row_Letter_Last" 50 -1100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -995 0 -1005 1 1 6 N
@@ -13856,7 +13856,7 @@ F1 "Conn_02x20_Top_Bottom" 50 -1100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -995 0 -1005 1 1 6 N
@@ -13951,7 +13951,7 @@ F1 "Conn_02x21_Counter_Clockwise" 50 -1100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -995 0 -1005 1 1 6 N
@@ -14050,7 +14050,7 @@ F1 "Conn_02x21_Odd_Even" 50 -1100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -995 0 -1005 1 1 6 N
@@ -14149,7 +14149,7 @@ F1 "Conn_02x21_Row_Letter_First" 50 -1100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -995 0 -1005 1 1 6 N
@@ -14248,7 +14248,7 @@ F1 "Conn_02x21_Row_Letter_Last" 50 -1100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -995 0 -1005 1 1 6 N
@@ -14347,7 +14347,7 @@ F1 "Conn_02x21_Top_Bottom" 50 -1100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -995 0 -1005 1 1 6 N
@@ -14446,7 +14446,7 @@ F1 "Conn_02x22_Counter_Clockwise" 50 -1200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1095 0 -1105 1 1 6 N
@@ -14549,7 +14549,7 @@ F1 "Conn_02x22_Odd_Even" 50 -1200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1095 0 -1105 1 1 6 N
@@ -14652,7 +14652,7 @@ F1 "Conn_02x22_Row_Letter_First" 50 -1200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1095 0 -1105 1 1 6 N
@@ -14755,7 +14755,7 @@ F1 "Conn_02x22_Row_Letter_Last" 50 -1200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1095 0 -1105 1 1 6 N
@@ -14858,7 +14858,7 @@ F1 "Conn_02x22_Top_Bottom" 50 -1200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1095 0 -1105 1 1 6 N
@@ -14961,7 +14961,7 @@ F1 "Conn_02x23_Counter_Clockwise" 50 -1200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1095 0 -1105 1 1 6 N
@@ -15068,7 +15068,7 @@ F1 "Conn_02x23_Odd_Even" 50 -1200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1095 0 -1105 1 1 6 N
@@ -15175,7 +15175,7 @@ F1 "Conn_02x23_Row_Letter_First" 50 -1200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1095 0 -1105 1 1 6 N
@@ -15282,7 +15282,7 @@ F1 "Conn_02x23_Row_Letter_Last" 50 -1200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1095 0 -1105 1 1 6 N
@@ -15389,7 +15389,7 @@ F1 "Conn_02x23_Top_Bottom" 50 -1200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1095 0 -1105 1 1 6 N
@@ -15496,7 +15496,7 @@ F1 "Conn_02x24_Counter_Clockwise" 50 -1300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1195 0 -1205 1 1 6 N
@@ -15607,7 +15607,7 @@ F1 "Conn_02x24_Odd_Even" 50 -1300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1195 0 -1205 1 1 6 N
@@ -15718,7 +15718,7 @@ F1 "Conn_02x24_Row_Letter_First" 50 -1300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1195 0 -1205 1 1 6 N
@@ -15829,7 +15829,7 @@ F1 "Conn_02x24_Row_Letter_Last" 50 -1300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1195 0 -1205 1 1 6 N
@@ -15940,7 +15940,7 @@ F1 "Conn_02x24_Top_Bottom" 50 -1300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1195 0 -1205 1 1 6 N
@@ -16051,7 +16051,7 @@ F1 "Conn_02x25_Counter_Clockwise" 50 -1300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1195 0 -1205 1 1 6 N
@@ -16166,7 +16166,7 @@ F1 "Conn_02x25_Odd_Even" 50 -1300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1195 0 -1205 1 1 6 N
@@ -16281,7 +16281,7 @@ F1 "Conn_02x25_Row_Letter_First" 50 -1300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1195 0 -1205 1 1 6 N
@@ -16396,7 +16396,7 @@ F1 "Conn_02x25_Row_Letter_Last" 50 -1300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1195 0 -1205 1 1 6 N
@@ -16511,7 +16511,7 @@ F1 "Conn_02x25_Top_Bottom" 50 -1300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1195 0 -1205 1 1 6 N
@@ -16626,7 +16626,7 @@ F1 "Conn_02x26_Counter_Clockwise" 50 -1400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1295 0 -1305 1 1 6 N
@@ -16745,7 +16745,7 @@ F1 "Conn_02x26_Odd_Even" 50 -1400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1295 0 -1305 1 1 6 N
@@ -16864,7 +16864,7 @@ F1 "Conn_02x26_Row_Letter_First" 50 -1400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1295 0 -1305 1 1 6 N
@@ -16983,7 +16983,7 @@ F1 "Conn_02x26_Row_Letter_Last" 50 -1400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1295 0 -1305 1 1 6 N
@@ -17102,7 +17102,7 @@ F1 "Conn_02x26_Top_Bottom" 50 -1400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1295 0 -1305 1 1 6 N
@@ -17221,7 +17221,7 @@ F1 "Conn_02x27_Counter_Clockwise" 50 -1400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1295 0 -1305 1 1 6 N
@@ -17344,7 +17344,7 @@ F1 "Conn_02x27_Odd_Even" 50 -1400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1295 0 -1305 1 1 6 N
@@ -17467,7 +17467,7 @@ F1 "Conn_02x27_Row_Letter_First" 50 -1400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1295 0 -1305 1 1 6 N
@@ -17590,7 +17590,7 @@ F1 "Conn_02x27_Row_Letter_Last" 50 -1400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1295 0 -1305 1 1 6 N
@@ -17713,7 +17713,7 @@ F1 "Conn_02x27_Top_Bottom" 50 -1400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1295 0 -1305 1 1 6 N
@@ -17836,7 +17836,7 @@ F1 "Conn_02x28_Counter_Clockwise" 50 -1500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1395 0 -1405 1 1 6 N
@@ -17963,7 +17963,7 @@ F1 "Conn_02x28_Odd_Even" 50 -1500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1395 0 -1405 1 1 6 N
@@ -18090,7 +18090,7 @@ F1 "Conn_02x28_Row_Letter_First" 50 -1500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1395 0 -1405 1 1 6 N
@@ -18217,7 +18217,7 @@ F1 "Conn_02x28_Row_Letter_Last" 50 -1500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1395 0 -1405 1 1 6 N
@@ -18344,7 +18344,7 @@ F1 "Conn_02x28_Top_Bottom" 50 -1500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1395 0 -1405 1 1 6 N
@@ -18471,7 +18471,7 @@ F1 "Conn_02x29_Counter_Clockwise" 50 -1500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1395 0 -1405 1 1 6 N
@@ -18602,7 +18602,7 @@ F1 "Conn_02x29_Odd_Even" 50 -1500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1395 0 -1405 1 1 6 N
@@ -18733,7 +18733,7 @@ F1 "Conn_02x29_Row_Letter_First" 50 -1500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1395 0 -1405 1 1 6 N
@@ -18864,7 +18864,7 @@ F1 "Conn_02x29_Row_Letter_Last" 50 -1500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1395 0 -1405 1 1 6 N
@@ -18995,7 +18995,7 @@ F1 "Conn_02x29_Top_Bottom" 50 -1500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1395 0 -1405 1 1 6 N
@@ -19126,7 +19126,7 @@ F1 "Conn_02x30_Counter_Clockwise" 50 -1600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1495 0 -1505 1 1 6 N
@@ -19261,7 +19261,7 @@ F1 "Conn_02x30_Odd_Even" 50 -1600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1495 0 -1505 1 1 6 N
@@ -19396,7 +19396,7 @@ F1 "Conn_02x30_Row_Letter_First" 50 -1600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1495 0 -1505 1 1 6 N
@@ -19531,7 +19531,7 @@ F1 "Conn_02x30_Row_Letter_Last" 50 -1600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1495 0 -1505 1 1 6 N
@@ -19666,7 +19666,7 @@ F1 "Conn_02x30_Top_Bottom" 50 -1600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1495 0 -1505 1 1 6 N
@@ -19801,7 +19801,7 @@ F1 "Conn_02x31_Counter_Clockwise" 50 -1600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1495 0 -1505 1 1 6 N
@@ -19940,7 +19940,7 @@ F1 "Conn_02x31_Odd_Even" 50 -1600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1495 0 -1505 1 1 6 N
@@ -20079,7 +20079,7 @@ F1 "Conn_02x31_Row_Letter_First" 50 -1600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1495 0 -1505 1 1 6 N
@@ -20218,7 +20218,7 @@ F1 "Conn_02x31_Row_Letter_Last" 50 -1600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1495 0 -1505 1 1 6 N
@@ -20357,7 +20357,7 @@ F1 "Conn_02x31_Top_Bottom" 50 -1600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1495 0 -1505 1 1 6 N
@@ -20496,7 +20496,7 @@ F1 "Conn_02x32_Counter_Clockwise" 50 -1700 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1595 0 -1605 1 1 6 N
@@ -20639,7 +20639,7 @@ F1 "Conn_02x32_Odd_Even" 50 -1700 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1595 0 -1605 1 1 6 N
@@ -20782,7 +20782,7 @@ F1 "Conn_02x32_Row_Letter_First" 50 -1700 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1595 0 -1605 1 1 6 N
@@ -20925,7 +20925,7 @@ F1 "Conn_02x32_Row_Letter_Last" 50 -1700 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1595 0 -1605 1 1 6 N
@@ -21068,7 +21068,7 @@ F1 "Conn_02x32_Top_Bottom" 50 -1700 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1595 0 -1605 1 1 6 N
@@ -21211,7 +21211,7 @@ F1 "Conn_02x33_Counter_Clockwise" 50 -1700 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1595 0 -1605 1 1 6 N
@@ -21358,7 +21358,7 @@ F1 "Conn_02x33_Odd_Even" 50 -1700 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1595 0 -1605 1 1 6 N
@@ -21505,7 +21505,7 @@ F1 "Conn_02x33_Row_Letter_First" 50 -1700 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1595 0 -1605 1 1 6 N
@@ -21652,7 +21652,7 @@ F1 "Conn_02x33_Row_Letter_Last" 50 -1700 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1595 0 -1605 1 1 6 N
@@ -21799,7 +21799,7 @@ F1 "Conn_02x33_Top_Bottom" 50 -1700 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1595 0 -1605 1 1 6 N
@@ -21946,7 +21946,7 @@ F1 "Conn_02x34_Counter_Clockwise" 50 -1800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1695 0 -1705 1 1 6 N
@@ -22097,7 +22097,7 @@ F1 "Conn_02x34_Odd_Even" 50 -1800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1695 0 -1705 1 1 6 N
@@ -22248,7 +22248,7 @@ F1 "Conn_02x34_Row_Letter_First" 50 -1800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1695 0 -1705 1 1 6 N
@@ -22399,7 +22399,7 @@ F1 "Conn_02x34_Row_Letter_Last" 50 -1800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1695 0 -1705 1 1 6 N
@@ -22550,7 +22550,7 @@ F1 "Conn_02x34_Top_Bottom" 50 -1800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1695 0 -1705 1 1 6 N
@@ -22701,7 +22701,7 @@ F1 "Conn_02x35_Counter_Clockwise" 50 -1800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1695 0 -1705 1 1 6 N
@@ -22856,7 +22856,7 @@ F1 "Conn_02x35_Odd_Even" 50 -1800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1695 0 -1705 1 1 6 N
@@ -23011,7 +23011,7 @@ F1 "Conn_02x35_Row_Letter_First" 50 -1800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1695 0 -1705 1 1 6 N
@@ -23166,7 +23166,7 @@ F1 "Conn_02x35_Row_Letter_Last" 50 -1800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1695 0 -1705 1 1 6 N
@@ -23321,7 +23321,7 @@ F1 "Conn_02x35_Top_Bottom" 50 -1800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1695 0 -1705 1 1 6 N
@@ -23476,7 +23476,7 @@ F1 "Conn_02x36_Counter_Clockwise" 50 -1900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1795 0 -1805 1 1 6 N
@@ -23635,7 +23635,7 @@ F1 "Conn_02x36_Odd_Even" 50 -1900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1795 0 -1805 1 1 6 N
@@ -23794,7 +23794,7 @@ F1 "Conn_02x36_Row_Letter_First" 50 -1900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1795 0 -1805 1 1 6 N
@@ -23953,7 +23953,7 @@ F1 "Conn_02x36_Row_Letter_Last" 50 -1900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1795 0 -1805 1 1 6 N
@@ -24112,7 +24112,7 @@ F1 "Conn_02x36_Top_Bottom" 50 -1900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1795 0 -1805 1 1 6 N
@@ -24271,7 +24271,7 @@ F1 "Conn_02x37_Counter_Clockwise" 50 -1900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1795 0 -1805 1 1 6 N
@@ -24434,7 +24434,7 @@ F1 "Conn_02x37_Odd_Even" 50 -1900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1795 0 -1805 1 1 6 N
@@ -24597,7 +24597,7 @@ F1 "Conn_02x37_Row_Letter_First" 50 -1900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1795 0 -1805 1 1 6 N
@@ -24760,7 +24760,7 @@ F1 "Conn_02x37_Row_Letter_Last" 50 -1900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1795 0 -1805 1 1 6 N
@@ -24923,7 +24923,7 @@ F1 "Conn_02x37_Top_Bottom" 50 -1900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1795 0 -1805 1 1 6 N
@@ -25086,7 +25086,7 @@ F1 "Conn_02x38_Counter_Clockwise" 50 -2000 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1895 0 -1905 1 1 6 N
@@ -25253,7 +25253,7 @@ F1 "Conn_02x38_Odd_Even" 50 -2000 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1895 0 -1905 1 1 6 N
@@ -25420,7 +25420,7 @@ F1 "Conn_02x38_Row_Letter_First" 50 -2000 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1895 0 -1905 1 1 6 N
@@ -25587,7 +25587,7 @@ F1 "Conn_02x38_Row_Letter_Last" 50 -2000 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1895 0 -1905 1 1 6 N
@@ -25754,7 +25754,7 @@ F1 "Conn_02x38_Top_Bottom" 50 -2000 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1895 0 -1905 1 1 6 N
@@ -25921,7 +25921,7 @@ F1 "Conn_02x39_Counter_Clockwise" 50 -2000 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1895 0 -1905 1 1 6 N
@@ -26092,7 +26092,7 @@ F1 "Conn_02x39_Odd_Even" 50 -2000 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1895 0 -1905 1 1 6 N
@@ -26263,7 +26263,7 @@ F1 "Conn_02x39_Row_Letter_First" 50 -2000 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1895 0 -1905 1 1 6 N
@@ -26434,7 +26434,7 @@ F1 "Conn_02x39_Row_Letter_Last" 50 -2000 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1895 0 -1905 1 1 6 N
@@ -26605,7 +26605,7 @@ F1 "Conn_02x39_Top_Bottom" 50 -2000 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1895 0 -1905 1 1 6 N
@@ -26776,7 +26776,7 @@ F1 "Conn_02x40_Counter_Clockwise" 50 -2100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1995 0 -2005 1 1 6 N
@@ -26951,7 +26951,7 @@ F1 "Conn_02x40_Odd_Even" 50 -2100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1995 0 -2005 1 1 6 N
@@ -27126,7 +27126,7 @@ F1 "Conn_02x40_Row_Letter_First" 50 -2100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1995 0 -2005 1 1 6 N
@@ -27301,7 +27301,7 @@ F1 "Conn_02x40_Row_Letter_Last" 50 -2100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1995 0 -2005 1 1 6 N
@@ -27476,7 +27476,7 @@ F1 "Conn_02x40_Top_Bottom" 50 -2100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x??_
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -1995 0 -2005 1 1 6 N
