@@ -4,6 +4,7 @@
   (lib (name Battery_Management)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Battery_Management.lib)(options "")(descr "Battery management ICs"))
   (lib (name Bosch)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Bosch.lib)(options "")(descr "Assorted Bosch ICs"))
   (lib (name Connector_Generic)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connector_Generic.lib)(options "")(descr "Generic connector symbols"))
+  (lib (name Connector_Generic_Shielded)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connector_Generic_Shielded.lib)(options "")(descr "Generic shielded connector symbols"))
   (lib (name Connector_Specialized)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connector_Specialized.lib)(options "")(descr "Specialized connector symbols (Examples: Terminal Block, D-SUB, Din, ...)"))
   (lib (name Decawave)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Decawave.lib)(options "")(descr "Decawave symbols"))
   (lib (name DSP_Microchip_DSPIC33)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/DSP_Microchip_DSPIC33.lib)(options "")(descr "Microchip DSPIC33"))
