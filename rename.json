@@ -324,6 +324,12 @@
         "MCP2200* " : "Interface_USB"
     },
 
+    "microcontrollers" : {
+        "SAB8*" : "MCU_Infineon",
+        "ADUC*" : "MCU_AnalogDevices",
+        "FE3*" : "MCU_SiFive"
+    },
+
     "MCU_Microchip_PIC10" : "",
     "MCU_Microchip_PIC12" : "",
     "MCU_Microchip_PIC16" : "",
