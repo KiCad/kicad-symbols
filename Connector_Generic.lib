@@ -9,12 +9,7 @@ F1 "Conn_01x01" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
+ Connector*:*
 $ENDFPLIST
 DRAW
 S -50 5 0 -5 1 1 6 N
@@ -28440,4 +28435,5 @@ X Pin_69 69 300 -900 150 L 50 50 1 1 P
 X Pin_79 79 300 -1900 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
+#
 #End Library
