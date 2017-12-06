@@ -87,7 +87,10 @@
     "bbd:MN3*" : "Audio_Delay",
     "bbd:SAD*" : "Audio_Delay",
 
-    "bosch:BMF*" : "Sensor_Motion",
+    "Bosch" : {
+        "BMF*" : "Sensor_Motion",
+        "BME*" : "Sensor"
+    },
 
     "cypress" : {
         "CY8C4*" : "MCU_Cypress",
