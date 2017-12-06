@@ -49,6 +49,11 @@ D 6P6C modular connector
 K RJ12 RJ18 RJ25 female connector
 $ENDCMP
 #
+$CMP 8P4C
+D 8 positions 4 connected modular connector
+K registered jack female connector
+$ENDCMP
+#
 $CMP 8P8C
 D 8 positions 8 connected modular connector
 K registered jack female connector
@@ -503,6 +508,11 @@ D 8 positions 8 connected modular connector
 K registered jack female connector
 $ENDCMP
 #
+$CMP RJ38
+D 8 positions 4 connected modular connector
+K registered jack female connector
+$ENDCMP
+#
 $CMP RJ45
 D 8 positions 8 connected modular connector
 K registered jack female connector ethernet
@@ -517,6 +527,11 @@ $ENDCMP
 $CMP RJ45_LEDS
 D RJ45, status leds
 K RJ45 RJ45_LEDS
+$ENDCMP
+#
+$CMP RJ48
+D 8 positions 4 connected modular connector
+K registered jack female connector
 $ENDCMP
 #
 $CMP RJ49
