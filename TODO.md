@@ -15,7 +15,7 @@
 - [x] contrib
 - [ ] cypress
 - [ ] dc-dc
-- [ ] Decawave
+- [x] Decawave
 - [ ] device
 - [x] digital-audio
 - [x] Diode
