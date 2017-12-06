@@ -59,6 +59,11 @@ D 8 positions 8 connected modular connector
 K registered jack female connector
 $ENDCMP
 #
+$CMP 8P8C_LEDS
+D 8 positions 8 connected modular connector, two status LEDs
+K registered jack female connector ethernet led
+$ENDCMP
+#
 $CMP Audio-Jack-2
 D 2-pin audio jack receptable (mono/TS connector)
 K audio jack receptable mono phone headphone TS connector
@@ -525,8 +530,8 @@ F ~
 $ENDCMP
 #
 $CMP RJ45_LEDS
-D RJ45, status leds
-K RJ45 RJ45_LEDS
+D 8 positions 8 connected modular connector, two status LEDs
+K registered jack female connector ethernet led
 $ENDCMP
 #
 $CMP RJ48
