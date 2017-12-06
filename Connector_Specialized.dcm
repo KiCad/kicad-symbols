@@ -49,6 +49,11 @@ D 6P6C modular connector
 K RJ12 RJ18 RJ25 female connector
 $ENDCMP
 #
+$CMP 8P8C
+D 8 positions 8 connected modular connector
+K registered jack female connector
+$ENDCMP
+#
 $CMP Audio-Jack-2
 D 2-pin audio jack receptable (mono/TS connector)
 K audio jack receptable mono phone headphone TS connector
@@ -473,9 +478,34 @@ D 6P6C modular connector
 K registered jack RJ12 RJ18 RJ25 female connector
 $ENDCMP
 #
+$CMP RJ31
+D 8 positions 8 connected modular connector
+K registered jack female connector
+$ENDCMP
+#
+$CMP RJ32
+D 8 positions 8 connected modular connector
+K registered jack female connector
+$ENDCMP
+#
+$CMP RJ33
+D 8 positions 8 connected modular connector
+K registered jack female connector
+$ENDCMP
+#
+$CMP RJ34
+D 8 positions 8 connected modular connector
+K registered jack female connector
+$ENDCMP
+#
+$CMP RJ35
+D 8 positions 8 connected modular connector
+K registered jack female connector
+$ENDCMP
+#
 $CMP RJ45
-D RJ45 connector with shield
-K RJ45
+D 8 positions 8 connected modular connector
+K registered jack female connector ethernet
 $ENDCMP
 #
 $CMP RJ45-TRANSFO
@@ -487,6 +517,16 @@ $ENDCMP
 $CMP RJ45_LEDS
 D RJ45, status leds
 K RJ45 RJ45_LEDS
+$ENDCMP
+#
+$CMP RJ49
+D 8 positions 8 connected modular connector
+K registered jack female connector
+$ENDCMP
+#
+$CMP RJ61
+D 8 positions 8 connected modular connector
+K registered jack female connector
 $ENDCMP
 #
 $CMP RJ9
