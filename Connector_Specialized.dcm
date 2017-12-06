@@ -28,6 +28,9 @@ $ENDCMP
 $CMP AVR-TPI-6
 D Atmel 6-pin TPI connector
 K AVR TPI Connector
+$CMP 6P6C
+D 6P6C modular connector
+K RJ12 RJ18 RJ25 female connector
 $ENDCMP
 #
 $CMP Audio-Jack-2
@@ -420,13 +423,23 @@ K RJ9 RJ10 RJ22 4P4C female connector
 $ENDCMP
 #
 $CMP RJ12
-D RJ12 connector with 2 shield pins
-K RJ12 connector
+D 6P6C modular connector
+K registered jack RJ12 RJ18 RJ25 female connector
+$ENDCMP
+#
+$CMP RJ18
+D 6P6C modular connector
+K registered jack RJ12 RJ18 RJ25 female connector
 $ENDCMP
 #
 $CMP RJ22
 D 4P4C connector
 K 4P4C RJ9 RJ10 RJ22 female connector
+$ENDCMP
+#
+$CMP RJ25
+D 6P6C modular connector
+K registered jack RJ12 RJ18 RJ25 female connector
 $ENDCMP
 #
 $CMP RJ45
