@@ -68,7 +68,7 @@
 - [ ] motor_drivers
 - [x] Motor
 - [ ] motorola
-- [ ] nordicsemi
+- [x] nordicsemi
 - [ ] nxp
 - [ ] onsemi
 - [ ] opto

@@ -92,7 +92,6 @@
   (lib (name modules)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/modules.lib)(options "")(descr "SOC modules"))
   (lib (name motor_drivers)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/motor_drivers.lib)(options "")(descr "Motor driver ICs"))
   (lib (name motorola)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/motorola.lib)(options "")(descr "Assorted Motorola symbols"))
-  (lib (name nordicsemi)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/nordicsemi.lib)(options "")(descr "Nordic Semiconductor symbols"))
   (lib (name nxp)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/nxp.lib)(options "")(descr "Assorted NXP symbols"))
   (lib (name onsemi)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/onsemi.lib)(options "")(descr "Assorted ON semiconductor symbols"))
   (lib (name opto)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/opto.lib)(options "")(descr "Optocouplers and assorted opto devices"))
