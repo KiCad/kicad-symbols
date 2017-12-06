@@ -93,7 +93,6 @@
   (lib (name cypress)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/cypress.lib)(options "")(descr "Assorted Cypress symbols"))
   (lib (name dc-dc)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/dc-dc.lib)(options "")(descr "DC to DC switching converters"))
   (lib (name device)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/device.lib)(options "")(descr "Generic simple symbols"))
-  (lib (name dsp)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/dsp.lib)(options "")(descr "Digital symbol processors"))
   (lib (name ftdi)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/ftdi.lib)(options "")(descr "Assorted FTDI symbols"))
   (lib (name infineon)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/infineon.lib)(options "")(descr "Assorted Infineon symbols"))
   (lib (name intel)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/intel.lib)(options "")(descr "Assorted Intel symbols"))
