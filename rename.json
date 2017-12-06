@@ -533,7 +533,12 @@
     "Sensor_Current" : "",
 
     "silabs" : {
-        "cp210*" : "Interface_USB"
+        "CP211*" : "Interface_USB",
+        "cp210*" : "Interface_USB",
+        "EFM*" : "MCU_SiLabs",
+        "Si3210*" : "Interface_Telecom",
+        "Si4362*" : "RF_AM_FM",
+        "Si473*" : "RF_AM_FM"
     },
 
     "stm32" : "MCU_ST_STM32",

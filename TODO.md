@@ -87,7 +87,7 @@
 - [x] Sensor_Current
 - [x] Sensor_Humidity
 - [x] sensors
-- [ ] silabs
+- [x] silabs
 - [x] siliconi
 - [ ] supertex
 - [ ] Switch
