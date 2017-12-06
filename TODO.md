@@ -9,7 +9,7 @@
 - [ ] audio
 - [x] Battery_Management
 - [ ] bbd
-- [ ] Bosch
+- [x] Bosch
 - [x] brooktre
 - [ ] Connector
 - [x] contrib
