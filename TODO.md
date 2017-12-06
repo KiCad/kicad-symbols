@@ -4,7 +4,7 @@
 - [ ] adc-dac
 - [x] Altera
 - [ ] analog_devices
-- [ ] analog_switches
+- [x] analog_switches
 - [ ] atmel
 - [ ] audio
 - [x] Battery_Management
@@ -21,8 +21,8 @@
 - [x] Diode
 - [ ] Display
 - [x] driver_gate
-- [ ] dsp
-- [ ] DSP_Microchip_DSPIC33
+- [x] dsp
+- [x] DSP_Microchip_DSPIC33
 - [x] elec-unifil
 - [x] ESD_Protection
 - [x] Espressif
@@ -38,14 +38,14 @@
 - [ ] ir
 - [ ] Lattice
 - [x] LED
-- [ ] LEM
+- [x] LEM
 - [ ] linear
-- [ ] Logic_74xgxx
-- [ ] Logic_74xx
-- [ ] Logic_CMOS_4000
-- [ ] Logic_CMOS_IEEE
-- [ ] logic_programmable
-- [ ] Logic_TTL_IEEE
+- [x] Logic_74xgxx
+- [x] Logic_74xx
+- [x] Logic_CMOS_4000
+- [x] Logic_CMOS_IEEE
+- [x] logic_programmable
+- [x] Logic_TTL_IEEE
 - [ ] maxim
 - [x] MCU_Microchip_PIC10
 - [x] MCU_Microchip_PIC12
@@ -63,7 +63,7 @@
 - [x] memory
 - [x] Mechanical
 - [ ] microchip
-- [ ] microcontrollers
+- [x] microcontrollers
 - [ ] modules
 - [ ] motor_drivers
 - [x] Motor
@@ -84,9 +84,9 @@
 - [ ] RF_Bluetooth
 - [ ] rfcom
 - [x] RFSolutions
-- [ ] Sensor_Current
-- [ ] Sensor_Humidity
-- [ ] sensors
+- [x] Sensor_Current
+- [x] Sensor_Humidity
+- [x] sensors
 - [ ] silabs
 - [x] siliconi
 - [ ] supertex

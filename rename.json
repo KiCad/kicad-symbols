@@ -8,6 +8,8 @@
     "74xgxx" : "Logic_74xGxx",
     "74xx" : "Logic_74xx",
 
+    "analog_switches" : "Analog_Switches",
+
     "analog_devices" : {
         "ADuM76*" : "Isolator_Digital",
         "ADuM14*" : "Isolator_Digital",
@@ -160,6 +162,9 @@
     "driver_gate" : "Driver_FET",
 
     "diode" : "Diode",
+
+    "dsp:DSP9*" : "DSP_Freescale",
+    "dsp:TMS320LF2406PZ" : "DSP_Texas",
 
     "display" : "Display",
 
@@ -322,6 +327,12 @@
         "MCP2200* " : "Interface_USB"
     },
 
+    "microcontrollers" : {
+        "SAB8*" : "MCU_Infineon",
+        "ADUC*" : "MCU_AnalogDevices",
+        "FE3*" : "MCU_SiFive"
+    },
+
     "MCU_Microchip_PIC10" : "",
     "MCU_Microchip_PIC12" : "",
     "MCU_Microchip_PIC16" : "",
@@ -408,7 +419,7 @@
 
     "pspice" : "",
 
-    "power" : "Power",
+    "power" : "",
 
     "Power_Management" : {
         "FAN7842" : "Driver_FET",
