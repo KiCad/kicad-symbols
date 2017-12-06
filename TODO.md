@@ -10,7 +10,7 @@
 - [x] Battery_Management
 - [ ] bbd
 - [ ] Bosch
-- [ ] brooktre
+- [x] brooktre
 - [ ] Connector
 - [x] contrib
 - [ ] cypress
