@@ -28,6 +28,12 @@ $ENDCMP
 $CMP AVR-TPI-6
 D Atmel 6-pin TPI connector
 K AVR TPI Connector
+#
+$CMP 6P4C
+D 6P4C modular connector
+K RJ13 RJ14 female connector
+$ENDCMP
+#
 $CMP 6P6C
 D 6P6C modular connector
 K RJ12 RJ18 RJ25 female connector
@@ -425,6 +431,16 @@ $ENDCMP
 $CMP RJ12
 D 6P6C modular connector
 K registered jack RJ12 RJ18 RJ25 female connector
+$ENDCMP
+#
+$CMP RJ13
+D 6P4C modular connector
+K female connector RJ13 RJ14
+$ENDCMP
+#
+$CMP RJ14
+D 6P4C modular connector
+K female connector RJ13 RJ14
 $ENDCMP
 #
 $CMP RJ18
