@@ -89,7 +89,7 @@
 - [x] sensors
 - [x] silabs
 - [x] siliconi
-- [ ] supertex
+- [x] supertex
 - [ ] Switch
 - [ ] texas
 - [x] Transformer

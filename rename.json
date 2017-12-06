@@ -548,7 +548,8 @@
     "supertex" : {
         "CL220*" : "Driver_LED",
         "HV99*" : "Driver_LED",
-        "LR8*" : "Regulator_Linear"
+        "LR8*" : "Regulator_Linear",
+        "HV100*" : "Regulator_Current"
     },
 
     "switches" : "Switch",
