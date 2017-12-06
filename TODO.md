@@ -11,7 +11,7 @@
 - [ ] bbd
 - [x] Bosch
 - [x] brooktre
-- [ ] Connector
+- [x] Connector
 - [x] contrib
 - [ ] cypress
 - [ ] dc-dc
