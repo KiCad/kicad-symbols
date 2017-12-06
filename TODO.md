@@ -81,7 +81,7 @@
 - [x] references
 - [ ] regul
 - [x] Relay
-- [ ] RF_Bluetooth
+- [x] RF_Bluetooth
 - [ ] rfcom
 - [x] RFSolutions
 - [x] Sensor_Current
