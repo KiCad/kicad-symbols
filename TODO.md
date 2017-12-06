@@ -90,7 +90,7 @@
 - [x] silabs
 - [x] siliconi
 - [x] supertex
-- [ ] Switch
+- [x] Switch
 - [ ] texas
 - [x] Transformer
 - [x] Transistor
