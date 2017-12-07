@@ -1,0 +1,1667 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N2219
+D 800mA Ic, 50V Vce, NPN Transistor, TO-39
+K NPN Transistor
+F http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF
+$ENDCMP
+#
+$CMP 2N2646
+D Unijunction Transistor, TO-18
+K UJT
+F http://www.bucek.name/pdf/2n2646,2647.pdf
+$ENDCMP
+#
+$CMP 2N2647
+D Unijunction Transistor, TO-18
+K UJT
+F http://www.bucek.name/pdf/2n2646,2647.pdf
+$ENDCMP
+#
+$CMP 2N3055
+D 15A Ic, 60V Vce, Power NPN Transistor, TO-3
+K power NPN Transistor
+F http://www.onsemi.com/pub_link/Collateral/2N3055-D.PDF
+$ENDCMP
+#
+$CMP 2N3904
+D 0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92
+K NPN Transistor
+F https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf
+$ENDCMP
+#
+$CMP 2N3905
+D -0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92
+K PNP Transistor
+F https://www.fairchildsemi.com/datasheets/2N/2N3905.pdf
+$ENDCMP
+#
+$CMP 2N3906
+D -0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92
+K PNP Transistor
+F https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf
+$ENDCMP
+#
+$CMP 2N7000
+D 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92
+K N-Channel MOSFET Logic-Level
+F https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf
+$ENDCMP
+#
+$CMP 2SA1015
+D -0.15A Ic, -50V Vce, Low Noise Audio PNP Transistor, TO-92
+K Low Noise Audio PNP Transistor
+F http://www.datasheetcatalog.org/datasheet/toshiba/905.pdf
+$ENDCMP
+#
+$CMP 2SB631
+D -1A Ic, -100V Vce, High Voltage Power PNP Transistor, TO-126
+K High Voltage Transistor
+F http://pdf.datasheetcatalog.com/datasheet/sanyo/ds_pdf_e/2SB631.pdf
+$ENDCMP
+#
+$CMP 2SB817
+D -12A Ic, -140V Vce, Silicon Power PNP Transistors, TO-3PB
+K Power PNP Transistor
+$ENDCMP
+#
+$CMP 2SC1815
+D 0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92
+K Low Noise Audio NPN Transistor
+$ENDCMP
+#
+$CMP 2SC1941
+D 50mA Ic, 160V Vce, Audio High Voltage NPN Transistor, TO-92
+K Audio High Voltage NPN Transistor
+$ENDCMP
+#
+$CMP 2SC1945
+D 6A Ic, 80V Vce, Silicon 27MHz RF Power NPN Transistors, TO-220
+K RF Power NPN Transistor
+$ENDCMP
+#
+$CMP 2SD1047
+D 12A Ic, 140V Vce, Silicon Power NPN Transistors, TO-3PB
+K Power NPN Transistor
+$ENDCMP
+#
+$CMP 2SD600
+D 1A Ic, 100V Vce, High Voltage Power NPN Transistor, TO-126
+K High Voltage Power Transistor
+F http://pdf.datasheetcatalog.com/datasheet/sanyo/ds_pdf_e/2SB631.pdf
+$ENDCMP
+#
+$CMP BC107
+D 0.1A Ic, 50V Vce, Low Noise General Purpose NPN Transistor, TO-18
+K NPN low noise transistor
+F http://www.b-kainka.de/Daten/Transistor/BC108.pdf
+$ENDCMP
+#
+$CMP BC108
+D 0.1A Ic, 30V Vce, Low Noise General Purpose NPN Transistor, TO-18
+K NPN low noise transistor
+F http://www.b-kainka.de/Daten/Transistor/BC108.pdf
+$ENDCMP
+#
+$CMP BC109
+D 0.2A Ic, 25V Vce, Low Noise General Purpose NPN Transistor, TO-18
+K NPN low noise transistor
+F http://www.farnell.com/datasheets/296634.pdf
+$ENDCMP
+#
+$CMP BC140
+D 1A Ic, 40V Vce, NPN Transistor, TO-39
+K NPN Transistor
+F http://www.farnell.com/datasheets/296634.pdf
+$ENDCMP
+#
+$CMP BC141
+D 1A Ic, 60V Vce, NPN Transistor, TO-39
+K NPN Transistor
+F http://www.farnell.com/datasheets/296634.pdf
+$ENDCMP
+#
+$CMP BC160
+D 1A Ic, 40V Vce, Power PNP Transistor, TO-39
+K power PNP Transistor
+F http://www.farnell.com/datasheets/1697389.pdf
+$ENDCMP
+#
+$CMP BC161
+D 1A Ic, 60V Vce, Power PNP Transistor, TO-39
+K power PNP Transistor
+F http://www.farnell.com/datasheets/1697389.pdf
+$ENDCMP
+#
+$CMP BC237
+D 100mA Ic, 50V Vce, Epitaxial Silicon NPN Transistor, TO-92
+K Epitaxial Silicon NPN Transistor
+F http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF
+$ENDCMP
+#
+$CMP BC240
+D 50mA Ic, 40V Vce, RF Signal NPN Transistor, TO-92
+K RF NPN Transistor
+F http://www.fairchildsemi.com/ds/BF/BF240.pdf
+$ENDCMP
+#
+$CMP BC307
+D 100mA Ic, 45V Vce, Epitaxial Silicon PNP Transistor, TO-92
+K Epitaxial Silicon PNP Transistor
+F http://www.onsemi.com/pub_link/Collateral/BC307-D.PDF
+$ENDCMP
+#
+$CMP BC327
+D 0.8A Ic, 45V Vce, PNP Transistor, TO-92
+K PNP Transistor
+F http://www.onsemi.com/pub_link/Collateral/BC327-D.PDF
+$ENDCMP
+#
+$CMP BC328
+D 0.8A Ic, 25V Vce, PNP Transistor, TO-92
+K PNP Transistor
+F http://www.redrok.com/PNP_BC327_-45V_-800mA_0.625W_Hfe100_TO-92.pdf
+$ENDCMP
+#
+$CMP BC337
+D 0.8A Ic, 45V Vce, NPN Transistor, TO-92
+K NPN Transistor
+F http://www.nxp.com/documents/data_sheet/BC817_BC817W_BC337.pdf
+$ENDCMP
+#
+$CMP BC338
+D 0.8A Ic, 25V Vce, NPN Transistor, TO-92
+K NPN Transistor
+F http://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337
+$ENDCMP
+#
+$CMP BC413
+D 0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92
+K NPN Transistor
+F http://www.cdil.com/datasheets/bc413_14_b_c.pdf
+$ENDCMP
+#
+$CMP BC413B
+D 0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92
+K NPN Transistor
+F http://www.cdil.com/datasheets/bc413_14_b_c.pdf
+$ENDCMP
+#
+$CMP BC413C
+D 0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92
+K NPN Transistor
+F http://www.cdil.com/datasheets/bc413_14_b_c.pdf
+$ENDCMP
+#
+$CMP BC414
+D 0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92
+K NPN Transistor
+F http://www.cdil.com/datasheets/bc413_14_b_c.pdf
+$ENDCMP
+#
+$CMP BC414B
+D 0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92
+K NPN Transistor
+F http://www.cdil.com/datasheets/bc413_14_b_c.pdf
+$ENDCMP
+#
+$CMP BC414C
+D 0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92
+K NPN Transistor
+F http://www.cdil.com/datasheets/bc413_14_b_c.pdf
+$ENDCMP
+#
+$CMP BC516
+D 1A Ic, 30V Vce, Darlington PNP Transistor, TO-92
+K PNP Darlington Darl Transistor
+F http://www.fairchildsemi.com/ds/BC/BC516.pdf
+$ENDCMP
+#
+$CMP BC517
+D 1A Ic, 30V Vce, Darlington NPN Transistor, TO-92
+K NPN Darlington Darl Transistor
+F http://www.fairchildsemi.com/ds/BC/BC517.pdf
+$ENDCMP
+#
+$CMP BC546
+D 0.1A Ic, 65V Vce, Small Signal NPN Transistor, TO-92
+K NPN Transistor
+F http://www.fairchildsemi.com/ds/BC/BC547.pdf
+$ENDCMP
+#
+$CMP BC547
+D 0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92
+K NPN Transistor
+F http://www.fairchildsemi.com/ds/BC/BC547.pdf
+$ENDCMP
+#
+$CMP BC548
+D 0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92
+K NPN Transistor
+F http://www.fairchildsemi.com/ds/BC/BC547.pdf
+$ENDCMP
+#
+$CMP BC549
+D 0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92
+K NPN Transistor
+F http://www.fairchildsemi.com/ds/BC/BC547.pdf
+$ENDCMP
+#
+$CMP BC550
+D 0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92
+K NPN Transistor
+F http://www.fairchildsemi.com/ds/BC/BC547.pdf
+$ENDCMP
+#
+$CMP BC556
+D 0.1A Ic, 65V Vce, PNP Small Signal Transistor, TO-92
+K PNP Transistor
+F http://www.fairchildsemi.com/ds/BC/BC557.pdf
+$ENDCMP
+#
+$CMP BC557
+D 0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92
+K PNP Transistor
+F http://www.fairchildsemi.com/ds/BC/BC557.pdf
+$ENDCMP
+#
+$CMP BC558
+D 0.1A Ic, 30V Vce, PNP Small Signal Transistor, TO-92
+K PNP Transistor
+F http://www.fairchildsemi.com/ds/BC/BC557.pdf
+$ENDCMP
+#
+$CMP BC559
+D 0.1A Ic, 30V Vce, PNP Small Signal Transistor, TO-92
+K PNP Transistor
+F http://www.fairchildsemi.com/ds/BC/BC557.pdf
+$ENDCMP
+#
+$CMP BC560
+D 0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92
+K PNP Transistor
+F http://www.fairchildsemi.com/ds/BC/BC557.pdf
+$ENDCMP
+#
+$CMP BC636
+D 1A Ic, 45V Vce, PNP Medium Power Transistor, TO-92
+K PNP Transistor
+F http://www.fairchildsemi.com/ds/BC/BC636.pdf
+$ENDCMP
+#
+$CMP BC807
+D 0.8A Ic, 45V Vce, PNP Transistor, SOT-23
+K PNP Transistor
+F http://www.fairchildsemi.com/ds/BC/BC807.pdf
+$ENDCMP
+#
+$CMP BC807W
+D 0.8A Ic, 45V Vce, PNP Transistor, SOT-323
+K PNP transistor
+F http://www.fairchildsemi.com/ds/BC/BC807.pdf
+$ENDCMP
+#
+$CMP BC808
+D 0.8A Ic, 25V Vce, PNP Transistor, SOT-23
+K PNP Transistor
+F http://www.fairchildsemi.com/ds/BC/BC807.pdf
+$ENDCMP
+#
+$CMP BC808W
+D 0.8A Ic, 25V Vce, PNP Transistor, SOT-323
+K PNP transistor
+F http://www.fairchildsemi.com/ds/BC/BC807.pdf
+$ENDCMP
+#
+$CMP BC817
+D 0.8A Ic, 45V Vce, NPN Transistor, SOT-23
+K NPN Transistor
+F http://www.fairchildsemi.com/ds/BC/BC817.pdf
+$ENDCMP
+#
+$CMP BC817W
+D 0.8A Ic, 45V Vce, NPN Transistor, SOT-23
+K NPN Transistor
+F http://www.fairchildsemi.com/ds/BC/BC817.pdf
+$ENDCMP
+#
+$CMP BC818
+D 0.8A Ic, 25V Vce, NPN Transistor, SOT-23
+K NPN Transistor
+F https://www.fairchildsemi.com/datasheets/BC/BC818.pdf
+$ENDCMP
+#
+$CMP BC818W
+D 0.8A Ic, 25V Vce, NPN Transistor, SOT-323
+K NPN Transistor
+F https://www.fairchildsemi.com/datasheets/BC/BC818.pdf
+$ENDCMP
+#
+$CMP BC846BDW1
+D 100mA IC, 65V Vce, Dual NPN/NPN Transistors, SOT-363
+K NPN Transistor/NPN
+F http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF
+$ENDCMP
+#
+$CMP BC846BPDW1
+D 100mA IC, 65V Vce, Dual NPN/PNP Transistors, SOT-363
+K NPN Transistor/PNP
+F http://www.onsemi.com/pub_link/Collateral/BC846BPDW1T1-D.PDF
+$ENDCMP
+#
+$CMP BC846BPN
+D 100mA IC, 65V Vce, Dual NPN/PNP Transistors, SOT-363
+K NPN Transistor/PNP
+F http://www.nxp.com/documents/data_sheet/BC846BPN.pdf
+$ENDCMP
+#
+$CMP BC846BS
+D 100mA IC, 65V Vce, Dual NPN/NPN Transistors, SOT-363
+K NPN Transistor/NPN
+F http://www.nxp.com/documents/data_sheet/BC846BS.pdf
+$ENDCMP
+#
+$CMP BC847
+D 0.1A Ic, 45V Vce, NPN Transistor, SOT-23
+K NPN Small Signal Transistor
+F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
+$ENDCMP
+#
+$CMP BC847BDW1
+D 100mA IC, 45V Vce, Dual NPN/NPN Transistors, SOT-363
+K NPN Transistor/NPN
+F http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF
+$ENDCMP
+#
+$CMP BC847BPDW1
+D 100mA IC, 45V Vce, Dual NPN/PNP Transistors, SOT-363
+K NPN Transistor/PNP
+F http://www.onsemi.com/pub_link/Collateral/BC846BPDW1T1-D.PDF
+$ENDCMP
+#
+$CMP BC847BPN
+D 100mA IC, 45V Vce, Dual NPN/PNP Transistors, SOT-363
+K NPN Transistor/PNP
+F http://www.nxp.com/documents/data_sheet/BC847BPN.pdf
+$ENDCMP
+#
+$CMP BC847BS
+D 100mA IC, 45V Vce, Dual NPN/NPN Transistors, SOT-363
+K NPN Transistor/NPN
+F http://www.nxp.com/documents/data_sheet/BC847BS.pdf
+$ENDCMP
+#
+$CMP BC847W
+D 0.1A Ic, 45V Vce, NPN Transistor, SOT-323
+K NPN Small Signal Transistor
+F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
+$ENDCMP
+#
+$CMP BC848
+D 0.1A Ic, 30V Vce, NPN Transistor, SOT-23
+K NPN Small Signal Transistor
+F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
+$ENDCMP
+#
+$CMP BC848W
+D 0.1A Ic, 30V Vce, NPN Transistor, SOT-323
+K NPN Small Signal Transistor
+F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
+$ENDCMP
+#
+$CMP BC849
+D 0.1A Ic, 30V Vce, NPN Transistor, SOT-23
+K NPN Small Signal Transistor
+F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
+$ENDCMP
+#
+$CMP BC849W
+D 0.1A Ic, 30V Vce, NPN Transistor, SOT-323
+K NPN Small Signal Transistor
+F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
+$ENDCMP
+#
+$CMP BC850
+D 0.1A Ic, 45V Vce, NPN Transistor, SOT-23
+K NPN Small Signal Transistor
+F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
+$ENDCMP
+#
+$CMP BC850W
+D 0.1A Ic, 45V Vce, NPN Transistor, SOT-323
+K NPN Small Signal Transistor
+F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
+$ENDCMP
+#
+$CMP BC856
+D 0.1A Ic, 65V Vce, PNP Transistor, SOT-23
+K PNP transistor
+F http://www.fairchildsemi.com/ds/BC/BC856.pdf
+$ENDCMP
+#
+$CMP BC856BDW1
+D 100mA IC, 65V Vce, Dual PNP/PNP Transistors, SOT-363
+K PNP Transistor/PNP
+F http://www.onsemi.com/pub_link/Collateral/BC856BDW1T1-D.PDF
+$ENDCMP
+#
+$CMP BC856BS
+D 100mA IC, 65V Vce, Dual PNP/PNP Transistors, SOT-363
+K PNP Transistor/PNP
+F http://www.nxp.com/documents/data_sheet/BC856BS.pdf
+$ENDCMP
+#
+$CMP BC856W
+D 0.1A Ic, 65V Vce, PNP Transistor, SOT-323
+K PNP transistor
+F http://www.fairchildsemi.com/ds/BC/BC856.pdf
+$ENDCMP
+#
+$CMP BC857
+D 0.1A Ic, 45V Vce, PNP Transistor, SOT-23
+K PNP transistor
+F http://www.fairchildsemi.com/ds/BC/BC856.pdf
+$ENDCMP
+#
+$CMP BC857BDW1
+D 100mA IC, 45V Vce, Dual PNP/PNP Transistors, SOT-363
+K PNP Transistor/PNP
+F http://www.onsemi.com/pub_link/Collateral/BC856BDW1T1-D.PDF
+$ENDCMP
+#
+$CMP BC857BS
+D 100mA IC, 45V Vce, Dual PNP/PNP Transistors, SOT-363
+K PNP Transistor/PNP
+F http://www.nxp.com/documents/data_sheet/BC857BS.pdf
+$ENDCMP
+#
+$CMP BC857W
+D 0.1A Ic, 45V Vce, PNP Small Signal Transistor, SOT-323
+K PNP Transistor
+F http://www.infineon.com/dgdl/Infineon-BC857SERIES_BC858SERIES_BC859SERIES_BC860SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541da0e3a1661
+$ENDCMP
+#
+$CMP BC858
+D 0.1A Ic, 30V Vce, PNP Transistor, SOT-23
+K PNP transistor
+F http://www.fairchildsemi.com/ds/BC/BC856.pdf
+$ENDCMP
+#
+$CMP BC858W
+D 0.1A Ic, 30V Vce, PNP Small Signal Transistor, SOT-323
+K PNP Transistor
+F http://www.infineon.com/dgdl/Infineon-BC857SERIES_BC858SERIES_BC859SERIES_BC860SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541da0e3a1661
+$ENDCMP
+#
+$CMP BC859
+D 0.1A Ic, 30V Vce, PNP Small Signal Transistor, SOT-23
+K PNP Transistor
+F http://www.infineon.com/dgdl/Infineon-BC857SERIES_BC858SERIES_BC859SERIES_BC860SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541da0e3a1661
+$ENDCMP
+#
+$CMP BC859W
+D 0.1A Ic, 30V Vce, PNP Small Signal Transistor, SOT-323
+K PNP Transistor
+F http://www.infineon.com/dgdl/Infineon-BC857SERIES_BC858SERIES_BC859SERIES_BC860SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541da0e3a1661
+$ENDCMP
+#
+$CMP BC860
+D 0.1A Ic, 45V Vce, PNP Small Signal Transistor, SOT-23
+K PNP Transistor
+F http://www.infineon.com/dgdl/Infineon-BC857SERIES_BC858SERIES_BC859SERIES_BC860SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541da0e3a1661
+$ENDCMP
+#
+$CMP BC860W
+D 0.1A Ic, 45V Vce, PNP Small Signal Transistor, SOT-323
+K PNP Transistor
+F http://www.infineon.com/dgdl/Infineon-BC857SERIES_BC858SERIES_BC859SERIES_BC860SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541da0e3a1661
+$ENDCMP
+#
+$CMP BCP51
+D 1A Ic, 45V Vce, PNP Medium Power Transistor, SOT-223
+K PNP Transistor
+F http://www.fairchildsemi.com/ds/BC/BCP51.pdf
+$ENDCMP
+#
+$CMP BCP53
+D 1A Ic, 80V Vce, PNP Medium Power Transistor, SOT-223
+K PNP Transistor
+F http://www.onsemi.com/pub_link/Collateral/BCP53T1-D.PDF
+$ENDCMP
+#
+$CMP BCP56
+D 1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-223
+K NPN Transistor
+F http://cache.nxp.com/documents/data_sheet/BCP56_BCX56_BC56PA.pdf?pspll=1
+$ENDCMP
+#
+$CMP BCV61
+D 100mA IC, 30V Vce, Double NPN Transistors, Current mirror configuration, SOT-143
+K Transistor Double NPN
+F http://www.nxp.com/documents/data_sheet/BCV61.pdf
+$ENDCMP
+#
+$CMP BCV62
+D 100mA IC, 30V Vce, Double PNP Transistors, Current mirror configuration, SOT-143
+K Transistor Double PNP
+F http://www.nxp.com/documents/data_sheet/BCV62.pdf
+$ENDCMP
+#
+$CMP BCX51
+D 1A Ic, 45V Vce, PNP Medium Power Transistor, SOT-89
+K PNP Transistor
+F http://www.infineon.com/dgdl/bcx51_bcx52_bcx53.pdf
+$ENDCMP
+#
+$CMP BCX52
+D 1A Ic, 60V Vce, PNP Medium Power Transistor, SOT-89
+K PNP Transistor
+F http://www.infineon.com/dgdl/bcx51_bcx52_bcx53.pdf
+$ENDCMP
+#
+$CMP BCX53
+D 1A Ic, 80V Vce, PNP Medium Power Transistor, SOT-89
+K PNP Transistor
+F http://www.infineon.com/dgdl/bcx51_bcx52_bcx53.pdf
+$ENDCMP
+#
+$CMP BCX56
+D 1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-89
+K NPN Transistor
+F http://cache.nxp.com/documents/data_sheet/BCP56_BCX56_BC56PA.pdf?pspll=1
+$ENDCMP
+#
+$CMP BD135
+D 1.5A Ic, 45V Vce, Low Voltage Transistor, TO-126
+K Low Voltage Transistor
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf
+$ENDCMP
+#
+$CMP BD136
+D 1.5A Ic, 45V Vce, Low Voltage Transistor, TO-126
+K Low Voltage Transistor
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf
+$ENDCMP
+#
+$CMP BD137
+D 1.5A Ic, 60V Vce, Low Voltage Transistor, TO-126
+K Low Voltage Transistor
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf
+$ENDCMP
+#
+$CMP BD138
+D 1.5A Ic, 60V Vce, Low Voltage Transistor, TO-126
+K Low Voltage Transistor
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf
+$ENDCMP
+#
+$CMP BD139
+D 1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126
+K Low Voltage Transistor
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf
+$ENDCMP
+#
+$CMP BD140
+D 1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126
+K Low Voltage Transistor
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf
+$ENDCMP
+#
+$CMP BD233
+D 2A Ic, 45V Vce, Low Voltage Transistor, TO-126
+K Low Voltage Transistor
+F http://www.fairchildsemi.com/ds/BD/BD233.pdf
+$ENDCMP
+#
+$CMP BD234
+D 2A Ic, 45V Vce, Low Voltage Transistor, TO-126
+K Low Voltage Transistor
+F http://www.electronica-pt.com/datasheets/bd/BD234.pdf
+$ENDCMP
+#
+$CMP BD235
+D 2A Ic, 60V Vce, Low Voltage Transistor, TO-126
+K Low Voltage Transistor
+F http://www.fairchildsemi.com/ds/BD/BD233.pdf
+$ENDCMP
+#
+$CMP BD236
+D 60V Vce, 2A, Low Voltage Transistor, TO-126
+K Low Voltage Transistor
+F http://www.electronica-pt.com/datasheets/bd/BD234.pdf
+$ENDCMP
+#
+$CMP BD237
+D 2A Ic, 80V Vce, Low Voltage Transistor, TO-126
+K Low Voltage Transistor
+F http://www.fairchildsemi.com/ds/BD/BD233.pdf
+$ENDCMP
+#
+$CMP BD238
+D 2A Ic, 80V Vce, Low Voltage Transistor, TO-126
+K Low Voltage Transistor
+F http://www.electronica-pt.com/datasheets/bd/BD234.pdf
+$ENDCMP
+#
+$CMP BD249
+D 25A Ic, 55V Vce, Silicon Power NPN Transistors, SOT-93
+K Power NPN Transistor
+F http://www.bourns.com/data/global/pdfs/bd249.pdf
+$ENDCMP
+#
+$CMP BD249A
+D 25A Ic, 70V Vce, Silicon Power NPN Transistors, SOT-93
+K Power NPN Transistor
+F http://www.bourns.com/data/global/pdfs/bd249.pdf
+$ENDCMP
+#
+$CMP BD249B
+D 25A Ic, 90V Vce, Silicon Power NPN Transistors, SOT-93
+K Power NPN Transistor
+F http://www.bourns.com/data/global/pdfs/bd249.pdf
+$ENDCMP
+#
+$CMP BD249C
+D 25A Ic, 115V Vce, Silicon Power NPN Transistors, SOT-93
+K Power NPN Transistor
+F http://www.bourns.com/data/global/pdfs/bd249.pdf
+$ENDCMP
+#
+$CMP BD250
+D 25A Ic, 55V Vce, Silicon Power PNP Transistors, SOT-93
+K Power PNP Transistor
+F http://www.bourns.com/data/global/pdfs/bd250.pdf
+$ENDCMP
+#
+$CMP BD250A
+D 25A Ic, 70V Vce, Silicon Power PNP Transistors, SOT-93
+K Power PNP Transistor
+F http://www.bourns.com/data/global/pdfs/bd250.pdf
+$ENDCMP
+#
+$CMP BD250B
+D 25A Ic, 90V Vce, Silicon Power PNP Transistors, SOT-93
+K Power PNP Transistor
+F http://www.bourns.com/data/global/pdfs/bd250.pdf
+$ENDCMP
+#
+$CMP BD250C
+D 25A Ic, 115V Vce, Silicon Power PNP Transistors, SOT-93
+K Power PNP Transistor
+F http://www.bourns.com/data/global/pdfs/bd250.pdf
+$ENDCMP
+#
+$CMP BD433
+D 4A Ic, 22V Vce, Power NPN Transistor, TO-126
+K Power NPN Transistor
+F http://www.cdil.com/datasheets/bd433_42.pdf
+$ENDCMP
+#
+$CMP BD434
+D 4A Ic, 22V Vce, Power PNP Transistor, TO-126
+K Power PNP Transistor
+F http://www.cdil.com/datasheets/bd433_42.pdf
+$ENDCMP
+#
+$CMP BD435
+D 4A Ic, 32V Vce, Power NPN Transistor, TO-126
+K Power NPN Transistor
+F http://www.cdil.com/datasheets/bd433_42.pdf
+$ENDCMP
+#
+$CMP BD436
+D 4A Ic, 32V Vce, Power PNP Transistor, TO-126
+K Power PNP Transistor
+F http://www.cdil.com/datasheets/bd433_42.pdf
+$ENDCMP
+#
+$CMP BD437
+D 4A Ic, 45V Vce, Power NPN Transistor, TO-126
+K Power NPN Transistor
+F http://www.cdil.com/datasheets/bd433_42.pdf
+$ENDCMP
+#
+$CMP BD438
+D 4A Ic, 45V Vce, Power PNP Transistor, TO-126
+K Power PNP Transistor
+F http://www.cdil.com/datasheets/bd433_42.pdf
+$ENDCMP
+#
+$CMP BD439
+D 4A Ic, 60V Vce, Power NPN Transistor, TO-126
+K Power NPN Transistor
+F http://www.cdil.com/datasheets/bd433_42.pdf
+$ENDCMP
+#
+$CMP BD440
+D 4A Ic, 60V Vce, Power PNP Transistor, TO-126
+K Power PNP Transistor
+F http://www.cdil.com/datasheets/bd433_42.pdf
+$ENDCMP
+#
+$CMP BD441
+D 4A Ic, 80V Vce, Power NPN Transistor, TO-126
+K Power NPN Transistor
+F http://www.cdil.com/datasheets/bd433_42.pdf
+$ENDCMP
+#
+$CMP BD442
+D 4A Ic, 80V Vce, Power PNP Transistor, TO-126
+K Power PNP Transistor
+F http://www.cdil.com/datasheets/bd433_42.pdf
+$ENDCMP
+#
+$CMP BD909
+D 15A, Silicon Power NPN Transistors, TO-220
+K Power NPN Transistor
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001277.pdf
+$ENDCMP
+#
+$CMP BD910
+D 15A, Silicon Power PNP Transistors, TO-220
+K Power PNP Transistor
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001277.pdf
+$ENDCMP
+#
+$CMP BD911
+D 15A, Silicon Power NPN Transistors, TO-220
+K Power NPN Transistor
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001277.pdf
+$ENDCMP
+#
+$CMP BD912
+D BD910, 15A, Silicon Power PNP Transistors, TO-220
+K Power PNP Transistor
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001277.pdf
+$ENDCMP
+#
+$CMP BDW93
+D 12A Ic, 45V Vce, Power Darlington NPN Transistor, TO-220
+K Darlington NPN Transistor
+F https://www.fairchildsemi.com/datasheets/BD/BDW93C.pdf
+$ENDCMP
+#
+$CMP BDW93A
+D 12A Ic, 60V Vce, Power Darlington NPN Transistor, TO-220
+K Darlington NPN Transistor
+F https://www.fairchildsemi.com/datasheets/BD/BDW93C.pdf
+$ENDCMP
+#
+$CMP BDW93B
+D 12A Ic, 80V Vce, Power Darlington NPN Transistor, TO-220
+K Darlington NPN Transistor
+F https://www.fairchildsemi.com/datasheets/BD/BDW93C.pdf
+$ENDCMP
+#
+$CMP BDW93C
+D 12A Ic, 100V Vce, Power Darlington NPN Transistor, TO-220
+K Darlington NPN Transistor
+F https://www.fairchildsemi.com/datasheets/BD/BDW93C.pdf
+$ENDCMP
+#
+$CMP BDW94
+D 12A Ic, 45V Vce, Power Darlington PNP Transistor, TO-220
+K Darlington PNP Transistor
+F http://www.bourns.com/data/global/pdfs/bdw94.pdf
+$ENDCMP
+#
+$CMP BDW94A
+D 12A Ic, 60V Vce, Power Darlington PNP Transistor, TO-220
+K Darlington PNP Transistor
+F http://www.bourns.com/data/global/pdfs/bdw94.pdf
+$ENDCMP
+#
+$CMP BDW94B
+D 12A Ic, 80V Vce, Power Darlington PNP Transistor, TO-220
+K Darlington PNP Transistor
+F http://www.bourns.com/data/global/pdfs/bdw94.pdf
+$ENDCMP
+#
+$CMP BDW94C
+D 12A Ic, 100V Vce, Power Darlington PNP Transistor, TO-220
+K Darlington PNP Transistor
+F http://www.bourns.com/data/global/pdfs/bdw94.pdf
+$ENDCMP
+#
+$CMP BF199
+D 50mA Ic, 25V Vce, NPN Radio Frequency Transistor, TO-220
+K RF NPN Transistor
+F http://www.micropik.com/PDF/BF199.pdf
+$ENDCMP
+#
+$CMP BF457
+D 0.1A Ic, 160V Vce, High Voltage NPN Transistor, TO-126
+K NPN HV High Voltage Transistor
+$ENDCMP
+#
+$CMP BF458
+D 0.1A Ic, 250V Vce, High Voltage NPN Transistor, TO-126
+K NPN HV High Voltage Transistor
+$ENDCMP
+#
+$CMP BF459
+D 0.1A Ic, 300V Vce, High Voltage NPN Transistor, TO-126
+K NPN HV High Voltage Transistor
+$ENDCMP
+#
+$CMP BFR92
+D 0.025A Ic, 15V Vce, 5GHz Wideband NPN Transistor, SOT-323
+K RF 5GHz NPN Transistor
+F http://www.nxp.com/documents/data_sheet/BFR92A_N.pdf
+$ENDCMP
+#
+$CMP BFT92
+D 0.025A Ic, 15V Vce, 5GHz Wideband PNP Transistor, SOT-23
+K RF 5GHz NPN Transistor
+F http://www.nxp.com/documents/data_sheet/BFT92_CNV.pdf
+$ENDCMP
+#
+$CMP BUT11
+D 5A Ic, 400V Vce, Silicon Power NPN Transistors, TO-220
+K High Voltage Power NPN Transistor
+F http://www.fairchildsemi.com/ds/BU/BUT11.pdf
+$ENDCMP
+#
+$CMP BUT11A
+D 5A Ic, 450V Vce, Silicon Power NPN Transistors, TO-220
+K High Voltage Power NPN Transistor
+F http://www.fairchildsemi.com/ds/BU/BUT11.pdf
+$ENDCMP
+#
+$CMP BUZ11
+D 30A Id, 50V Vds, N-Channel Power MOSFET, TO-220
+K N-Channel Power MOSFET
+F http://www.fairchildsemi.com/ds/BU/BUZ11.pdf
+$ENDCMP
+#
+$CMP DTA113T
+D Digital PNP Transistor, 1k/NONE, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA113Z
+D Digital PNP Transistor, 1k/10k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA114E
+D Digital PNP Transistor, 10k/10k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA114G
+D Digital PNP Transistor, 0k/10k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA114T
+D Digital PNP Transistor, 10k/NONE, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA114W
+D Digital PNP Transistor, 10k/4.7k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA114Y
+D Digital PNP Transistor, 10k/47k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA115E
+D Digital PNP Transistor, 100k/100k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA115G
+D Digital PNP Transistor, 0k/100k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA115T
+D Digital PNP Transistor, 100k/NONE, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA115U
+D Digital PNP Transistor, 100k/10k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA123E
+D Digital PNP Transistor, 2k2/2k2, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA123J
+D Digital PNP Transistor, 2k2/47k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA123Y
+D Digital PNP Transistor, 2k2/10k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA124E
+D Digital PNP Transistor, 22k/22k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA124G
+D Digital PNP Transistor, 0k/22k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA124T
+D Digital PNP Transistor, 22k/NONE, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA124X
+D Digital PNP Transistor, 22k/47k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA125T
+D Digital PNP Transistor, 200k/NONE, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA143E
+D Digital PNP Transistor, 4k7/4k7, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA143T
+D Digital PNP Transistor, 4k7/NONE, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA143X
+D Digital PNP Transistor, 4k7/10k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA143Y
+D Digital PNP Transistor, 4k7/22k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA143Z
+D Digital PNP Transistor, 4k7/47k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA144E
+D Digital PNP Transistor, 47k/47k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA144G
+D Digital PNP Transistor, 0k/47k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA144T
+D Digital PNP Transistor, 47k/NONE, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA144V
+D Digital PNP Transistor, 47k/10k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA144W
+D Digital PNP Transistor, 47k/22k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA1D3R
+D Digital PNP Transistor, 2k7/1k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTA214Y
+D Digital PNP Transistor, 10k/47k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTB113E
+D Digital PNP Transistor, 1k/1k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTB113Z
+D Digital PNP Transistor, 1k/10k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTB114E
+D Digital PNP Transistor, 10k/10k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTB114G
+D Digital PNP Transistor, 0k/10k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTB114T
+D Digital PNP Transistor, 10k/NONE, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTB122J
+D Digital PNP Transistor, 0k22/4k7, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTB123E
+D Digital PNP Transistor, 2k2/2k2, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTB123T
+D Digital PNP Transistor, 2k2/NONE, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTB123Y
+D Digital PNP Transistor, 2k2/10k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTB133H
+D Digital PNP Transistor, 3k3/10k, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTB143T
+D Digital PNP Transistor, 4k7/NONE, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTB163T
+D Digital PNP Transistor, 6k8/NONE, SOT-23
+K ROHM Digital PNP Transistor
+$ENDCMP
+#
+$CMP DTC113T
+D Digital NPN Transistor, 1k/NONE, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC113Z
+D Digital NPN Transistor, 1k/10k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC114E
+D Digital NPN Transistor, 10k/10k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC114G
+D Digital NPN Transistor, 0k/10k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC114T
+D Digital NPN Transistor, 10k/NONE, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC114W
+D Digital NPN Transistor, 10k/4k7, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC114Y
+D Digital NPN Transistor, 10k/47k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC115E
+D Digital NPN Transistor, 100k/100k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC115G
+D Digital NPN Transistor, 0k/100k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC115T
+D Digital NPN Transistor, 100k/NONE, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC115U
+D Digital NPN Transistor, 100k/10k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC123E
+D Digital NPN Transistor, 2k2/2k2, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC123J
+D Digital NPN Transistor, 2k2/47k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC123Y
+D Digital NPN Transistor, 2k2/10k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC124E
+D Digital NPN Transistor, 22k/22k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC124G
+D Digital NPN Transistor, 0k/22k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC124T
+D Digital NPN Transistor, 22k/NONE, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC124X
+D Digital NPN Transistor, 22k/47k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC125T
+D Digital NPN Transistor, 200k/NONE, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC143E
+D Digital NPN Transistor, 4k7/4k7, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC143T
+D Digital NPN Transistor, 4k7/NONE, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC143X
+D Digital NPN Transistor, 4k7/10k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC143Y
+D Digital NPN Transistor, 4k7/22k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC143Z
+D Digital NPN Transistor, 4k7/47k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC144E
+D Digital NPN Transistor, 47k/47k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC144G
+D Digital NPN Transistor, 0k/47k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC144T
+D Digital NPN Transistor, 47k/NONE, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC144V
+D Digital NPN Transistor, 47k/10k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC144W
+D Digital NPN Transistor, 47k/22k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC1D3R
+D Digital NPN Transistor, 2k7/1k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTC214Y
+D Digital NPN Transistor, 10k/47k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTD113E
+D Digital NPN Transistor, 1k/1k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTD113Z
+D Digital NPN Transistor, 1k/10k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTD114E
+D Digital NPN Transistor, 10k/10k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTD114G
+D Digital NPN Transistor, 0k/10k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTD114T
+D Digital NPN Transistor, 10k/NONE, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTD122J
+D Digital NPN Transistor, 0k22/4k7, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTD123E
+D Digital NPN Transistor, 2k2/2k2, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTD123T
+D Digital NPN Transistor, 2k2/NONE, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTD123Y
+D Digital NPN Transistor, 2k2/10k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTD133H
+D Digital NPN Transistor, 3k3/10k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTD143T
+D Digital NPN Transistor, 4k7/NONE, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP DTD163T
+D Digital NPN Transistor, 6k8/NONE, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
+$CMP FFB2222A
+D 600mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
+K NPN Transistor/NPN
+F https://www.fairchildsemi.com/datasheets/FF/FFB2222A.pdf
+$ENDCMP
+#
+$CMP FFB3904
+D 200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
+K NPN Transistor/NPN
+F https://www.fairchildsemi.com/datasheets/FF/FFB3904.pdf
+$ENDCMP
+#
+$CMP FFB3906
+D 200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363
+K PNP Transistor/PNP
+F https://www.fairchildsemi.com/datasheets/FF/FFB3906.pdf
+$ENDCMP
+#
+$CMP FFB3946
+D 200mA IC, 40V Vce, Dual NPN/PNP Transistors, SOT-363
+K NPN Transistor/PNP
+F https://www.fairchildsemi.com/datasheets/FF/FFB3946.pdf
+$ENDCMP
+#
+$CMP FFB5551
+D 200mA IC, 160V Vce, Dual NPN/NPN Transistors, SOT-363
+K NPN Transistor/NPN
+F https://www.fairchildsemi.com/datasheets/FF/FFB5551.pdf
+$ENDCMP
+#
+$CMP IRF3205
+D 110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB
+K Single N-Channel HEXFET Power MOSFET
+F http://www.irf.com/product-info/datasheets/data/irf3205.pdf
+$ENDCMP
+#
+$CMP IRF540N
+D 33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220
+K HEXFET N-Channel MOSFET
+F http://www.irf.com/product-info/datasheets/data/irf540n.pdf
+$ENDCMP
+#
+$CMP IRLIZ44N
+D 30A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 22mOhm Ron, TO-220AB
+K Single N-Channel HEXFET Power MOSFET
+F http://www.irf.com/product-info/datasheets/data/irliz44n.pdf
+$ENDCMP
+#
+$CMP IRLZ34N
+D 30A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 35mOhm Ron, TO-220AB
+K Single N-Channel HEXFET Power MOSFET
+F http://www.infineon.com/dgdl/irlz34npbf.pdf?fileId=5546d462533600a40153567206892720
+$ENDCMP
+#
+$CMP IRLZ44N
+D 47A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 22mOhm Ron, TO-220AB
+K Single N-Channel HEXFET Power MOSFET
+F http://www.irf.com/product-info/datasheets/data/irlz44n.pdf
+$ENDCMP
+#
+$CMP KTD1624
+D Epitaxial Planar NPN Transistor, SOT-89
+K Switching NPN Transistor
+F http://www2.kec.co.kr/data/databook/pdf/KTD/Eng/KTD1624.pdf
+$ENDCMP
+#
+$CMP MAT02
+D 20mA Ic, 40V Vce, Precision Dual Monolithic Low Noise, Low Offset Transistor, TO-78
+K Precision Dual Monolithic Transistor Low Noise EOL
+F http://www.elenota.pl/datasheet_download/93431/MAT02
+$ENDCMP
+#
+$CMP MBT2222ADW1T1
+D 600mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
+K NPN Transistor/NPN
+F http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF
+$ENDCMP
+#
+$CMP MBT3904DW1
+D 200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
+K NPN Transistor/NPN
+F http://www.onsemi.com/pub_link/Collateral/MBT3904DW1T1-D.PDF
+$ENDCMP
+#
+$CMP MBT3906DW1
+D 200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363
+K PNP Transistor/PNP
+F http://www.onsemi.com/pub_link/Collateral/MBT3906DW1T1-D.PDF
+$ENDCMP
+#
+$CMP MBT3946DW1T1
+D 200mA IC, 40V Vce, Dual NPN/PNP Transistors, SOT-363
+K NPN Transistor/PNP
+F http://www.onsemi.com/pub_link/Collateral/MBT3946DW1T1-D.PDF
+$ENDCMP
+#
+$CMP MJ2955
+D -15A Ic, -60V Vce, Power PNP Transistor, TO-3
+K power PNP Transistor
+F http://www.onsemi.com/pub_link/Collateral/2N3055-D.PDF
+$ENDCMP
+#
+$CMP MJE13003
+D 1.5A Ic, 400V Vce, Silicon Switching Power NPN Transistor, TO-225
+K Switching Power High Voltage NPN Transistor
+F http://www.onsemi.com/pub_link/Collateral/MJE13003-D.PDF
+$ENDCMP
+#
+$CMP MJE13005G
+D 4A Ic, 400V Vce, Silicon Switching Power NPN Transistors, TO-220
+K Switching Power NPN Transistor
+F http://www.onsemi.com/pub_link/Collateral/MJE13005-D.PDF
+$ENDCMP
+#
+$CMP MJE13007G
+D 8A Ic, 400V Vce, Silicon Switching Power NPN Transistors, TO-220
+K Switching Power NPN Transistor
+F http://www.onsemi.com/pub_link/Collateral/MJE13007-D.PDF
+$ENDCMP
+#
+$CMP MJE13009G
+D 12A Ic, 400V Vce, Silicon Switching Power NPN Transistors, TO-220
+K Switching Power NPN Transistor
+F http://www.onsemi.com/pub_link/Collateral/MJE13009-D.PDF
+$ENDCMP
+#
+$CMP MMBT3904
+D 0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23
+K NPN Transistor
+F https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf
+$ENDCMP
+#
+$CMP MMBT3906
+D -0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23
+K PNP Transistor
+F https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf
+$ENDCMP
+#
+$CMP MMDT2222A
+D 600mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
+K NPN Transistor/NPN
+F http://www.diodes.com/_files/datasheets/ds30125.pdf
+$ENDCMP
+#
+$CMP MMDT3904
+D 200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
+K NPN Transistor/NPN
+F http://www.diodes.com/_files/datasheets/ds30088.pdf
+$ENDCMP
+#
+$CMP MMDT3906
+D 200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363
+K PNP Transistor/PNP
+F http://www.diodes.com/_files/datasheets/ds30124.pdf
+$ENDCMP
+#
+$CMP MMDT3946
+D 200mA IC, 40V Vce, Dual NPN/PNP Transistors, SOT-363
+K NPN Transistor/PNP
+F http://www.diodes.com/_files/datasheets/ds30123.pdf
+$ENDCMP
+#
+$CMP MMDT5401
+D 200mA IC, 160V Vce, Dual PNP/PNP Transistors, SOT-363
+K PNP Transistor/PNP
+F http://www.diodes.com/_files/datasheets/ds30169.pdf
+$ENDCMP
+#
+$CMP MMDT5551
+D 200mA IC, 160V Vce, Dual NPN/NPN Transistors, SOT-363
+K NPN Transistor/NPN
+F http://www.diodes.com/_files/datasheets/ds30172.pdf
+$ENDCMP
+#
+$CMP MPSA42
+D 0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92
+K NPN High Voltage Transistor
+F http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF
+$ENDCMP
+#
+$CMP MPSA92
+D 0.5A Ic, 300V Vce, PNP High Voltage Transistor, TO-92
+K PNP High Voltage Transistor
+F http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF
+$ENDCMP
+#
+$CMP PMBT2222AYS
+D 600mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
+K NPN Transistor/NPN
+F http://www.nxp.com/documents/data_sheet/PMBT2222AYS.pdf
+$ENDCMP
+#
+$CMP PMBT3904YS
+D 200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
+K NPN Transistor/NPN
+F http://www.nxp.com/documents/data_sheet/PMBT3904YS.pdf
+$ENDCMP
+#
+$CMP PMBT3906YS
+D 200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363
+K PNP Transistor/PNP
+F http://www.nxp.com/documents/data_sheet/PMBT3906YS.pdf
+$ENDCMP
+#
+$CMP PMBT3946YPN
+D 200mA IC, 40V Vce, Dual NPN/PNP Transistors, SOT-363
+K NPN Transistor/PNP
+F http://www.nxp.com/documents/data_sheet/PMBT3946YPN.pdf
+$ENDCMP
+#
+$CMP PN2222A
+D 1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92
+K NPN Transistor
+F http://www.fairchildsemi.com/ds/PN/PN2222A.pdf
+$ENDCMP
+#
+$CMP PZT2222A
+D 1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, SOT-223
+K NPN General Puprose Transistor SMD
+F http://www.fairchildsemi.com/ds/PN/PN2222A.pdf
+$ENDCMP
+#
+$CMP PZT3904
+D 0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-223
+K NPN Transistor
+F https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf
+$ENDCMP
+#
+$CMP PZT3906
+D -0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-223
+K PNP Transistor
+F https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf
+$ENDCMP
+#
+$CMP PZTA42
+D 0.2A Ic, 300V Vce, High Voltage NPN Transistor, SOT-223
+K NPN High Voltage Transistor SMD
+F http://www.fairchildsemi.com/ds/MP/MPSA42.pdf
+$ENDCMP
+#
+$CMP S8050
+D 0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92
+K S8050 NPN Low Voltage High Current Transistor
+F http://www.unisonic.com.tw/datasheet/S8050.pdf
+$ENDCMP
+#
+$CMP S8550
+D 0.7A Ic, 20V Vce, Low Voltage High Current PNP Transistor, TO-92
+K S8550 PNP Low Voltage High Current Transistor
+F http://www.unisonic.com.tw/datasheet/S8550.pdf
+$ENDCMP
+#
+$CMP TIP120
+D 5A Ic, 60V Vce, Silicon Darlington Power NPN Transistor, TO-220
+K Darlington Power NPN Transistor
+F http://www.fairchildsemi.com/ds/TI/TIP120.pdf
+$ENDCMP
+#
+$CMP TIP121
+D 5A Ic, 80V Vce, Silicon Darlington Power NPN Transistor, TO-220
+K Darlington Power NPN Transistor
+F http://www.fairchildsemi.com/ds/TI/TIP120.pdf
+$ENDCMP
+#
+$CMP TIP122
+D 5A Ic, 100V Vce, Silicon Darlington Power NPN Transistor, TO-220
+K Darlington Power NPN Transistor
+F http://www.fairchildsemi.com/ds/TI/TIP120.pdf
+$ENDCMP
+#
+$CMP TIP125
+D 5A Ic, 60V Vce, Silicon Darlington Power PNP Transistor, TO-220
+K Darlington Power PNP Transistor
+F http://www.fairchildsemi.com/ds/TI/TIP125.pdf
+$ENDCMP
+#
+$CMP TIP126
+D 5A Ic, 80V Vce, Silicon Darlington Power PNP Transistor, TO-220
+K Darlington Power PNP Transistor
+F http://www.fairchildsemi.com/ds/TI/TIP125.pdf
+$ENDCMP
+#
+$CMP TIP127
+D 5A Ic, 100V Vce, Silicon Darlington Power PNP Transistor, TO-220
+K Darlington Power PNP Transistor
+F http://www.fairchildsemi.com/ds/TI/TIP125.pdf
+$ENDCMP
+#
+$CMP TIP2955
+D -15A Ic, -60V Vce, Power PNP Transistor, TO-218/TO-247
+K power PNP Transistor
+F http://www.onsemi.com/pub_link/Collateral/TIP3055-D.PDF
+$ENDCMP
+#
+$CMP TIP3055
+D 15A Ic, 60V Vce, Power NPN Transistor, TO-218/TO-247
+K power NPN Transistor
+F http://www.onsemi.com/pub_link/Collateral/TIP3055-D.PDF
+$ENDCMP
+#
+$CMP TIP41
+D 6A Ic, 40V Vce, Power NPN Transistor, TO-220
+K power NPN Transistor
+F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF
+$ENDCMP
+#
+$CMP TIP41A
+D 6A Ic, 60V Vce, Power NPN Transistor, TO-220
+K power NPN Transistor
+F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF
+$ENDCMP
+#
+$CMP TIP41B
+D 6A Ic, 80V Vce, Power NPN Transistor, TO-220
+K power NPN Transistor
+F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF
+$ENDCMP
+#
+$CMP TIP41C
+D 6A Ic, 100V Vce, Power NPN Transistor, TO-220
+K power NPN Transistor
+F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF
+$ENDCMP
+#
+$CMP TIP42
+D -6A Ic, -40V Vce, Power PNP Transistor, TO-220
+K power PNP Transistor
+F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF
+$ENDCMP
+#
+$CMP TIP42A
+D -6A Ic, -60V Vce, Power PNP Transistor, TO-220
+K power PNP Transistor
+F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF
+$ENDCMP
+#
+$CMP TIP42B
+D -6A Ic, -80V Vce, Power PNP Transistor, TO-220
+K power PNP Transistor
+F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF
+$ENDCMP
+#
+$CMP TIP42C
+D -6A Ic, -100V Vce, Power PNP Transistor, TO-220
+K power PNP Transistor
+F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF
+$ENDCMP
+#
+$CMP TP0610L
+D -0.18A Id, -60V Vds, P-Channel MOSFET, TO-92
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
+$ENDCMP
+#
+$CMP VP0610L
+D -0.18A Id, -60V Vds, P-Channel MOSFET, TO-92
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
+$ENDCMP
+#
+#End Doc Library
