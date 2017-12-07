@@ -87,7 +87,10 @@
     "bbd:MN3*" : "Audio_Delay",
     "bbd:SAD*" : "Audio_Delay",
 
-    "bosch:BMF*" : "Sensor_Motion",
+    "Bosch" : {
+        "BMF*" : "Sensor_Motion",
+        "BME*" : "Sensor"
+    },
 
     "cypress" : {
         "CY8C4*" : "MCU_Cypress",
@@ -166,13 +169,15 @@
     "dsp:DSP9*" : "DSP_Freescale",
     "dsp:TMS320LF2406PZ" : "DSP_Texas",
 
+    "Decawave" : "RF_Module",
+
     "display" : "Display",
 
     "DSP_Microchip_DSPIC33" : "",
 
     "ESD_Protection" : "Power_Protection",
 
-    "Espressif" : "",
+    "Espressif" : "RF_WiFi",
 
     "FPGA_Actel" : "",
 
@@ -381,7 +386,7 @@
 
     "msp430" : "MCU_Texas_MSP430",
 
-    "nordicsemi" : "Interface_Bluetooth",
+    "nordicsemi" : "RF_Bluetooth",
 
     "nxp" : {
         "pca9*" : "Driver_LED"
@@ -528,7 +533,12 @@
     "Sensor_Current" : "",
 
     "silabs" : {
-        "cp210*" : "Interface_USB"
+        "CP211*" : "Interface_USB",
+        "cp210*" : "Interface_USB",
+        "EFM*" : "MCU_SiLabs",
+        "Si3210*" : "Interface_Telecom",
+        "Si4362*" : "RF_AM_FM",
+        "Si473*" : "RF_AM_FM"
     },
 
     "stm32" : "MCU_ST_STM32",
@@ -538,7 +548,8 @@
     "supertex" : {
         "CL220*" : "Driver_LED",
         "HV99*" : "Driver_LED",
-        "LR8*" : "Regulator_Linear"
+        "LR8*" : "Regulator_Linear",
+        "HV100*" : "Regulator_Current"
     },
 
     "switches" : "Switch",
