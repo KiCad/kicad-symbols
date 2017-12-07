@@ -9,13 +9,13 @@
 - [ ] audio
 - [x] Battery_Management
 - [ ] bbd
-- [ ] Bosch
-- [ ] brooktre
-- [ ] Connector
+- [x] Bosch
+- [x] brooktre
+- [x] Connector
 - [x] contrib
 - [ ] cypress
 - [ ] dc-dc
-- [ ] Decawave
+- [x] Decawave
 - [ ] device
 - [x] digital-audio
 - [x] Diode
@@ -68,7 +68,7 @@
 - [ ] motor_drivers
 - [x] Motor
 - [ ] motorola
-- [ ] nordicsemi
+- [x] nordicsemi
 - [ ] nxp
 - [ ] onsemi
 - [ ] opto
@@ -81,16 +81,16 @@
 - [x] references
 - [ ] regul
 - [x] Relay
-- [ ] RF_Bluetooth
+- [x] RF_Bluetooth
 - [ ] rfcom
 - [x] RFSolutions
 - [x] Sensor_Current
 - [x] Sensor_Humidity
 - [x] sensors
-- [ ] silabs
+- [x] silabs
 - [x] siliconi
-- [ ] supertex
-- [ ] Switch
+- [x] supertex
+- [x] Switch
 - [ ] texas
 - [x] Transformer
 - [x] Transistor
