@@ -97,7 +97,6 @@
   (lib (name infineon)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/infineon.lib)(options "")(descr "Assorted Infineon symbols"))
   (lib (name intel)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/intel.lib)(options "")(descr "Assorted Intel symbols"))
   (lib (name interface)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/interface.lib)(options "")(descr "Interface and I/O symbols"))
-  (lib (name intersil)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/intersil.lib)(options "")(descr "Assorted Intersil symbols"))
   (lib (name ir)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/ir.lib)(options "")(descr "Legacy ir symbol library."))
   (lib (name linear)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/linear.lib)(options "")(descr "Linear devices, op-amps"))
   (lib (name maxim)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/maxim.lib)(options "")(descr "Assorted Maxim symbols"))

@@ -34,7 +34,7 @@
 - [ ] infineon
 - [ ] intel
 - [ ] interface
-- [ ] intersil
+- [x] intersil
 - [ ] ir
 - [ ] Lattice
 - [x] LED
