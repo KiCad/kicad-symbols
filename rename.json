@@ -237,9 +237,26 @@
     },
 
     "ir" : {
-        "IR*21*" : "Driver_FET",
-        "ir:IRS20*" : "Amplifier_Audio",
-        "ir:AUIPS*" : "Sensor_Current"
+        "21*" : "Driver_FET",
+        "IRS205*" : "Amplifier_Audio",
+        "IRS2505*" : "Regulator_Controller",
+        "IRS2575*" : "Power_Management",
+        "IRS289*" : "Driver_FET",
+        "IRS245*" : "Amplifier_Audio",
+        "IRS209*" : "Amplifier_Audio",
+        "AUIPS*" : "Power_Management",
+        "AUIR33*" : "Power_Management",
+        "IR11*" : "Regulator_Controller",
+        "IR20*" : "Driver_FET",
+        "IR21*" : "Driver_FET",
+        "IRS21*" : "Driver_FET",
+        "IR23*" : "Driver_FET",
+        "IR73*" : "Driver_FET",
+        "IR22*" : "Driver_FET",
+        "IR25*" : "Driver_FET",
+        "IR71*" : "Driver_FET",
+        "IRS200*" : "Driver_FET",
+        "IR43*" : "Amplifier_Audio"
     },
 
     "LEM" : "Sensor_Current",
