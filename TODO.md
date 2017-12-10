@@ -19,7 +19,7 @@
 - [ ] device
 - [x] digital-audio
 - [x] Diode
-- [ ] Display
+- [x] Display
 - [x] driver_gate
 - [x] dsp
 - [x] DSP_Microchip_DSPIC33
