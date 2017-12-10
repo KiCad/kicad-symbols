@@ -35,7 +35,7 @@
 - [ ] intel
 - [ ] interface
 - [x] intersil
-- [ ] ir
+- [x] ir
 - [ ] Lattice
 - [x] LED
 - [x] LEM
