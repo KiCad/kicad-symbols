@@ -79,14 +79,14 @@ F http://www.fujitsu.com/downloads/MICRO/fme/fram/datasheet-MB85RS64.pdf
 $ENDCMP
 #
 $CMP MR20H40
-D 4Mb serial SPI MRAM in DFN-8 package
-K MRAM memory EEPROM non-volatile
+D 4Mb MRAM memory with SPI interface, DFN-8
+K MRAM SPI EEPROM 3.3V
 F https://www.everspin.com/file/217/download
 $ENDCMP
 #
 $CMP MR25H40
-D 4KBit MRAM with SPI interface in DFN-8 package
-K memory MRAM external SPI 
+D 4Mb MRAM memory with SPI interface, DFN-8
+K MRAM SPI EEPROM 3.3V
 F https://www.everspin.com/file/217/download
 $ENDCMP
 #
