@@ -1,15 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP FM1608B-SG
-D FRAM Nonvolatile Memory 8Kx8 (64Kb), 5V only, SOIC28
-K FRAM  Nonvolatile Memory 8K 8bit
-F http://www.cypress.com/?mpn=FM1608B-SG
+D 64Kb FRAM nonvolatile memory, SOIC-28
+K FRAM 5V Parallel
+F http://www.cypress.com/file/41731/download
 $ENDCMP
 #
 $CMP FM16W08-SG
-D FRAM Nonvolatile Memory 8Kx8 (64Kb), SOIC28
-K FRAM  Nonvolatile Memory 8K 8bit
-F http://www.cypress.com/?mpn=FM16W08-SG
+D 64Kb FRAM nonvolatile memory, SOIC-28
+K FRAM 5V Parallel
+F http://www.cypress.com/file/41731/download
 $ENDCMP
 #
 $CMP FM1808B-SG
