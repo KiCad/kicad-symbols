@@ -192,10 +192,7 @@
         "80*" : "CPU_Intel"
     },
 
-    "infineon" : {
-        "BTS5*" : "Power_Distribution",
-        "BTS4*" : "Power_Distribution"
-    },
+    "infineon" : "Power_Management",
 
     "interface" : {
         "ADM*" : "Interface_UART",
