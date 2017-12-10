@@ -13,15 +13,15 @@ F http://www.cypress.com/file/41731/download
 $ENDCMP
 #
 $CMP FM1808B-SG
-D FRAM Nonvolatile Memory 32Kx8 (256Kb), 5V only, SOIC28
-K FRAM  Nonvolatile Memory 32K 8bit
-F http://www.cypress.com/?mpn=FM1808B-SG
+D 256k FRAM nonvolatile memory, SOIC-28
+K FRAM 5V Parallel
+F http://www.cypress.com/file/136521/download
 $ENDCMP
 #
 $CMP FM18W08-SG
-D FRAM Nonvolatile Memory 32Kx8 (256Kb), SOIC28
-K FRAM  Nonvolatile Memory 32K 8bit
-F http://www.cypress.com/?mpn=FM18W08-SG
+D 256k FRAM nonvolatile memory, SOIC-28
+K FRAM 5V Parallel
+F http://www.cypress.com/file/136521/download
 $ENDCMP
 #
 $CMP FM24C64B
