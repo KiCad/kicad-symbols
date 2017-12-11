@@ -117,4 +117,5 @@
   (lib (name triac_thyristor)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/triac_thyristor.lib)(options "")(descr "Triacs and thyristors"))
   (lib (name video)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/video.lib)(options "")(descr "Legacy video symbol library."))
   (lib (name xilinx)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/xilinx.lib)(options "")(descr "Legacy xilinx symbol library."))
+  (lib (name MCU_Microchip_SAME70)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_SAME70.lib)(options "")(descr "Microchip SAME70 microcontrollers"))
 )
