@@ -22,7 +22,6 @@
   (lib (name Interface_USB)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface_USB.lib)(options "")(descr "USB interface symbols"))
   (lib (name Interface_Telecom)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface_Telecom.lib)(options "")(descr "Telecom interface symbols"))
   (lib (name LED)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/LED.lib)(options "")(descr "Light Emitting Diode (LED) symbols"))
-  (lib (name Lattice)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Lattice.lib)(options "")(descr "Assorted Lattice ICs"))
   (lib (name Logic_74xgxx)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Logic_74xgxx.lib)(options "")(descr "74xgxx logic symbols"))
   (lib (name Logic_74xx)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Logic_74xx.lib)(options "")(descr "74xx logic symbols"))
   (lib (name Logic_CMOS_4000)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Logic_CMOS_4000.lib)(options "")(descr "4000 series CMOS logic symbols"))
