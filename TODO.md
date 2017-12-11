@@ -36,7 +36,7 @@
 - [ ] interface
 - [ ] intersil
 - [ ] ir
-- [ ] Lattice
+- [x] Lattice
 - [x] LED
 - [x] LEM
 - [ ] linear
