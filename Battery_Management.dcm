@@ -54,6 +54,18 @@ K Current-flow, voltage and temperature  measurement to support batterycapacity 
 F https://datasheets.maximintegrated.com/en/ds/DS2745.pdf
 $ENDCMP
 #
+$CMP ICL7673CBAZA
+D Automatic Battery Back-Up Switch, 2.5 - 15V VDD, SOIC-14 or PDIP-14
+K Automatic Battery Back-Up Switch, 2.5 - 15V VDD, SOIC-14 or PDIP-14
+F http://www.intersil.com/content/dam/Intersil/documents/icl7/icl7673.pdf
+$ENDCMP
+#
+$CMP ICL7673CPAZ
+D Automatic Battery Back-Up Switch, 2.5 - 15V VDD, SOIC-14 or PDIP-14
+K Automatic Battery Back-Up Switch, 2.5 - 15V VDD, SOIC-14 or PDIP-14
+F http://www.intersil.com/content/dam/Intersil/documents/icl7/icl7673.pdf
+$ENDCMP
+#
 $CMP LT3652EDD
 D Step-down  battery charger, Lithium Phosphate ( LiFePO4), Lead (Pb), Lithium+ (Li+) , 4.95V to 32V VDD, -40 to +125 degree Celcius, DFN-12
 K Step-down  battery charger, Lithium Phosphate ( LiFePO4), Lead (Pb), Lithium+ (Li+) , 4.95V to 32V VDD, -40 to +125 degree Celcius, DFN-12

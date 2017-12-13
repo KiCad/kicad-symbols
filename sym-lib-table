@@ -1,4 +1,5 @@
 (sym_lib_table
+  (lib (name Amplifier_Audio)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Amplifier_Audio.lib)(options "")(descr "Audio amplifiers"))
   (lib (name Analog_Switch)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Analog_Switch.lib)(options "")(descr "Analog switches"))
   (lib (name Audio)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Audio.lib)(options "")(descr "Audio devices"))
   (lib (name Battery_Management)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Battery_Management.lib)(options "")(descr "Battery management ICs"))
@@ -62,6 +63,7 @@
   (lib (name RF_WiFi)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/RF_WiFi.lib)(options "")(descr "WiFi symbols"))
   (lib (name Reference_Current)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Reference_Current.lib)(options "")(descr "Precision current references"))
   (lib (name Reference_Voltage)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Reference_Voltage.lib)(options "")(descr "Precision voltage references"))
+  (lib (name Regulator_Controller)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Regulator_Controller.lib)(options "")(descr "Switch mode regulator controllers"))
   (lib (name Relay)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Relay.lib)(options "")(descr "Relay symbols"))
   (lib (name Sensor)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Sensor.lib)(options "")(descr "Multi-function sensors, assorted sensors"))
   (lib (name Sensor_Audio)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Sensor_Audio.lib)(options "")(descr "Audio / sound / microphone sensors"))

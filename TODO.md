@@ -31,11 +31,11 @@
 - [x] gennum
 - [x] Graphic
 - [x] hc11
-- [ ] infineon
+- [x] infineon
 - [ ] intel
 - [ ] interface
-- [ ] intersil
-- [ ] ir
+- [x] intersil
+- [x] ir
 - [x] Lattice
 - [x] LED
 - [x] LEM
