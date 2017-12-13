@@ -5,6 +5,31 @@ D 4P4C connector
 K 4P4C RJ9 RJ10 RJ22 female connector
 $ENDCMP
 #
+$CMP AVR-ISP-10
+D Atmel 10-pin ISP connector
+K AVR ISP Connector
+$ENDCMP
+#
+$CMP AVR-ISP-6
+D Atmel 6-pin ISP connector
+K AVR ISP Connector
+$ENDCMP
+#
+$CMP AVR-JTAG-10
+D Atmel 10-pin JTAG connector
+K AVR JTAG Connector
+$ENDCMP
+#
+$CMP AVR-PDI-6
+D Atmel 10-pin PDI connector
+K AVR PDI Connector
+$ENDCMP
+#
+$CMP AVR-TPI-6
+D Atmel 6-pin TPI connector
+K AVR TPI Connector
+$ENDCMP
+#
 $CMP Audio-Jack-2
 D 2-pin audio jack receptable (mono/TS connector)
 K audio jack receptable mono phone headphone TS connector
