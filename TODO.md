@@ -14,7 +14,7 @@
 - [x] Connector
 - [x] contrib
 - [ ] cypress
-- [ ] dc-dc
+- [x] dc-dc
 - [x] Decawave
 - [ ] device
 - [x] digital-audio
