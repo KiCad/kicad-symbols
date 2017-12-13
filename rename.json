@@ -189,7 +189,38 @@
 
     "Decawave" : "RF_Module",
 
-    "display" : "Display",
+    "Display" : {
+      "7SEGMENT*" : "Display_Character",
+      "AD-121F2*" : "Display_Character",
+      "AG12864E*" : "Display_Graphic",
+      "AY0438X-*" : "Driver_Display",
+      "CA56-*" : "Display_Character",
+      "CC56-*" : "Display_Character",
+      "CR2013-*" : "Driver_Display",
+      "DA04-*" : "Display_Character",
+      "DA56-*" : "Display_Character",
+      "DC56-*" : "Display_Character",
+      "DE113-*" : "Display_Character",
+      "DE114-*" : "Display_Character",
+      "DE170-*" : "Display_Character",
+      "EA_DOG*" : "Display_Graphic",
+      "EA_eDIP*" : "Display_Graphic",
+      "EA_T123*" : "Display_Character",
+      "ELD-42*" : "Display_Character",
+      "HDSM*" : "Display_Character",
+      "HDSP-4*" : "LED",
+      "HDSP-7*" : "Display_Character",
+      "HLCP-J*" : "LED",
+      "HY1602E*" : "Display_Character",
+      "KCS*" : "Display_Character",
+      "LCD-016N002L*" : "Display_Character",
+      "LM16255K*" : "Display_Character",
+      "LTS*" : "Display_Character",
+      "MAN*" : "Display_Character",
+      "RC*" : "Display_Character",
+      "SBC18*" : "Display_Character",
+      "WC1602A*" : "Display_Character"
+    },
 
     "DSP_Microchip_DSPIC33" : "",
 
@@ -258,6 +289,8 @@
         "ir:IRS20*" : "Amplifier_Audio",
         "ir:AUIPS*" : "Sensor_Current"
     },
+
+    "Lattice" : "Logic_Programmable",
 
     "LEM" : "Sensor_Current",
 
