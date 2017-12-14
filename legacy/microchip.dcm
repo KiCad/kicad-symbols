@@ -1,0 +1,69 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HV513K7
+D 8-Channel Serial-to-Parallel Converter with High-Voltage Push-Pull Outputs, Polarity, Hi-Z and Short-Circuit Detect
+K driver shift register high voltage
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005846A.pdf
+$ENDCMP
+#
+$CMP HV513WG
+D 8-Channel Serial-to-Parallel Converter with High-Voltage Push-Pull Outputs, Polarity, Hi-Z and Short-Circuit Detect
+K driver shift register high voltage
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005846A.pdf
+$ENDCMP
+#
+$CMP MCP23008
+D 8-Bit I/O Expander with I²C Interface (PDIP/SOIC)
+K IO Expander I²C IIC I2C
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21919e.pdf
+$ENDCMP
+#
+$CMP MCP23008_SSOP
+D 8-Bit I/O Expander with I²C Interface (SSOP)
+K IO Expander I²C IIC I2C
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21919e.pdf
+$ENDCMP
+#
+$CMP MCP23016
+D 16-Bit I/O Expander with I²C Interface (PDIP/SOIC/SSOP)
+K IO Expander I²C IIC I2C
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20090C.pdf
+$ENDCMP
+#
+$CMP MCP23017
+D 16-Bit I/O Expander with I²C Interface (PDIP/SOIC/SSOP)
+K IO Expander I²C IIC I2C
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf
+$ENDCMP
+#
+$CMP MCP23S08
+D 8-Bit I/O Expander with SPI Interface (PDIP/SOIC)
+K IO Expander SPI
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21919e.pdf
+$ENDCMP
+#
+$CMP MCP23S08_SSOP
+D 8-Bit I/O Expander with SPI Interface (SSOP)
+K IO Expander SPI
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21919e.pdf
+$ENDCMP
+#
+$CMP MCP23S17
+D 16-Bit I/O Expander with SPI Interface (PDIP/SOIC/SSOP)
+K IO Expander SPI
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf
+$ENDCMP
+#
+$CMP MCP3021
+D Low-Power 10-Bit A/D Converter with I2C Interface, SOT-23-5
+K ADC I2C
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011709
+$ENDCMP
+#
+$CMP SY89312V
+D 3.3/5V, 4GHz ECL/PECL x2 divider, DFN-8
+K CLOCK DIVIDER
+F http://ww1.microchip.com/downloads/en/DeviceDoc/sy89312v.pdf
+$ENDCMP
+#
+#End Doc Library

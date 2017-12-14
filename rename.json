@@ -380,7 +380,9 @@
         "mcp2515*" : "Interface_CAN_LIN",
         "mic*" : "Driver_FET",
         "usb*" : "Interface_USB",
-        "MCP2200* " : "Interface_USB"
+        "MCP2200*" : "Interface_USB",
+        "MCP794*" : "Timer",
+        "MCP45*" : "Digital_Potentiometer"
     },
 
     "microcontrollers" : {
