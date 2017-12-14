@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IR1153S
+D Fixed 22.2kHz Frequency, µPFC One Cycle Ccontrol IC With Brown-Out Protection, Continuous Conduction Mode, SOIC-8
+K pfc controller ccm
+F https://www.infineon.com/dgdl/ir1153.pdf?fileId=5546d462533600a4015355c42a5b1649
+$ENDCMP
+#
+$CMP IR1155S
+D Programmable Frequency, One Cycle Ccontrol PFC IC, Continuous Conduction Mode, SOIC-8
+K pfc controller ccm
+F https://www.infineon.com/dgdl/ir1155spbf.pdf?fileId=5546d462533600a4015355c431f9164b
+$ENDCMP
+#
+#End Doc Library

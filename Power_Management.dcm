@@ -102,4 +102,10 @@ K Intelligent Power Switch High Side MOSFET
 F http://www.irf.com/product-info/datasheets/data/ips7091.pdf
 $ENDCMP
 #
+$CMP IRS25751L
+D High-Voltage Start-Up IC, 480V, SOT-23-5
+K start up
+F https://www.infineon.com/dgdl/irs25751lpbf.pdf?fileId=5546d462533600a40153567b31da2837
+$ENDCMP
+#
 #End Doc Library

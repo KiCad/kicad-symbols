@@ -1218,6 +1218,12 @@ K hall effect current sensor
 F http://www.akm.com/akm/en/file/datasheet/CZ-3815.pdf
 $ENDCMP
 #
+$CMP IR25750L
+D SOT-23 Current Sensing IC, 600V, SOT-23-5
+K single current sense
+F https://www.infineon.com/dgdl/ir25750lpbf.pdf?fileId=5546d462533600a4015355ca1d0e16f7
+$ENDCMP
+#
 $CMP LA100-P
 D LA 100-P Current transducer
 K LEM current transducer
