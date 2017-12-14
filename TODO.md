@@ -27,7 +27,7 @@
 - [x] ESD_Protection
 - [x] Espressif
 - [x] FPGA_Actel
-- [ ] ftdi
+- [x] ftdi
 - [x] gennum
 - [x] Graphic
 - [x] hc11
