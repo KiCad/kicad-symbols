@@ -62,7 +62,7 @@
 - [x] MCU_Texas_MSP430
 - [x] memory
 - [x] Mechanical
-- [ ] microchip
+- [x] microchip
 - [x] microcontrollers
 - [ ] modules
 - [ ] motor_drivers
