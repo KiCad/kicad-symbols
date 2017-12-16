@@ -7,6 +7,7 @@
   (lib (name Connector_Specialized)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connector_Specialized.lib)(options "")(descr "Specialized connector symbols (Examples: Terminal Block, D-SUB, Din, ...)"))
   (lib (name Converter_DCDC)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Converter_DCDC.lib)(options "")(descr "DC to DC converter modules"))
   (lib (name CPLD_Altera)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/CPLD_Altera.lib)(options "")(descr "Altera CPLD symbols"))
+  (lib (name Device)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Device.lib)(options "")(descr "Generic devices, common symbols"))
   (lib (name DSP_Freescale)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/DSP_Freescale.lib)(options "")(descr "Freescale DSP symbols"))
   (lib (name DSP_Microchip_DSPIC33)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/DSP_Microchip_DSPIC33.lib)(options "")(descr "Microchip DSPIC33 symbols"))
   (lib (name DSP_Texas)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/DSP_Texas.lib)(options "")(descr "Texas Instruments DSP symbols"))
