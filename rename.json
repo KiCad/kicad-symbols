@@ -342,7 +342,14 @@
         "DS28*" : "Sensor_Temperature",
         "MAX12*" : "Analog_ADC",
         "max318*" : "Sensor_Temperature",
-        "MAX6355" : "Power_Supervisor"
+        "MAX6355" : "Power_Supervisor",
+        "DS323*" : "Timer_RTC",
+        "DS160*" : "Timer_RTC",
+        "DS130*" : "Timer_RTC",
+        "MAX453" : "Amplifier_Video",
+        "MAX5436" : "Potentiometer_Digital",
+        "MAX732*" : "Interface_Expander",
+        "MAX691" : "Power_Supervisor"
     },
 
     "mechanical" : "Mechanical",
