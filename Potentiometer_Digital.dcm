@@ -1,5 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP DS1267_DIP
+D Dual Digital Potentiometer, Serial, 256 Steps, DIP-14
+K Dual Digital Potentiometer Maxim
+F https://datasheets.maximintegrated.com/en/ds/DS1267.pdf
+$ENDCMP
+#
+$CMP DS1267_SOIC
+D Dual Digital Potentiometer, Serial, 256 Steps, SOIC-16
+K Dual Digital Potentiometer Maxim
+F https://datasheets.maximintegrated.com/en/ds/DS1267.pdf
+$ENDCMP
+#
+$CMP DS1267_TSSOP
+D Dual Digital Potentiometer, Serial, 256 Steps, TSSOP-20
+K Dual Digital Potentiometer Maxim
+F https://datasheets.maximintegrated.com/en/ds/DS1267.pdf
+$ENDCMP
+#
 $CMP MCP45HV31-MQ
 D 7/8-bit single +36V (+/-18V) digital pot, I2C serial interface, volatile memory, QFN-20
 K I2C Potentiometer pot digital
