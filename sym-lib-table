@@ -43,6 +43,7 @@
   (lib (name MCU_Microchip_PIC18)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_PIC18.lib)(options "")(descr "Microchip PIC18 microcontrollers"))
   (lib (name MCU_Microchip_PIC24)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_PIC24.lib)(options "")(descr "Microchip PIC24 microcontrollers"))
   (lib (name MCU_Microchip_PIC32)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_PIC32.lib)(options "")(descr "Microchip PIC32 microcontrollers"))
+  (lib (name MCU_NXP_HC11)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_NXP_HC11.lib)(options "")(descr "NXP HC11 microcontrollers"))
   (lib (name MCU_NXP_Kinetis)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_NXP_Kinetis.lib)(options "")(descr "NXP Kinetis microcontrollers"))
   (lib (name MCU_NXP_LPC)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_NXP_LPC.lib)(options "")(descr "NXP LPC microcontrollers"))
   (lib (name MCU_NXP_S08)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_NXP_S08.lib)(options "")(descr "NXP S08 microcontrollers"))
