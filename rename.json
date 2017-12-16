@@ -17,6 +17,14 @@
         "ADM24*" : "Interface_UART"
     },
 
+    "Audio" : {
+        "IR43*" : "Amplifier_Audio",
+        "TLV32*" : "Amplifier_Audio",
+        "IRS205*" : "Amplifier_Audio",
+        "IRS209*" : "Amplifier_Audio",
+        "IRS245*" : "Amplifier_Audio"
+    },
+
     "Battery_Management" : "Battery_Management",
 
     "cmos4000" : "Logic_CMOS_4000",
@@ -74,7 +82,7 @@
         "AT42*" : "Sensor_Touch"
     },
 
-    "audio" : {
+    "axudio" : {
         "LM18*" : "Amplifier_Audio",
         "LM38*" : "Amplifier_Audio",
         "tda*" : "Amplifier_Audio",
