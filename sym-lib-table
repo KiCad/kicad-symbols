@@ -1,6 +1,7 @@
 (sym_lib_table
+  (lib (name Amplifier_Audio)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Amplifier_Audio.lib)(options "")(descr "Audio amplifiers"))
   (lib (name Analog_Switch)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Analog_Switch.lib)(options "")(descr "Analog switches"))
-  (lib (name Audio)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Audio.lib)(options "")(descr "Audio devices"))
+  (lib (name Audio)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Audio.lib)(options "")(descr "Miscellaneous audio devices"))
   (lib (name Battery_Management)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Battery_Management.lib)(options "")(descr "Battery management ICs"))
   (lib (name Connector_Generic)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connector_Generic.lib)(options "")(descr "Generic connector symbols"))
   (lib (name Connector_Generic_Shielded)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connector_Generic_Shielded.lib)(options "")(descr "Generic shielded connector symbols"))
@@ -55,7 +56,9 @@
   (lib (name Motor)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Motor.lib)(options "")(descr "Motor symbols"))
   (lib (name Oscillator)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Oscillator.lib)(options "")(descr "Oscillator symbols"))
   (lib (name Potentiometer_Digital)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Potentiometer_Digital.lib)(options "")(descr "Digital potentiometers"))
+  (lib (name Power_Distribution)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Power_Distribution.lib)(options "")(descr "Power distribution controllers and load switches"))
   (lib (name Power_Management)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Power_Management.lib)(options "")(descr "Power management and distribution ICs"))
+  (lib (name Power_PFC)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Power_PFC.lib)(options "")(descr "Power factor correction"))
   (lib (name Power_Protection)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Power_Protection.lib)(options "")(descr "Power protection devices"))
   (lib (name Regulator_Controller)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Regulator_Controller.lib)(options "")(descr "Power regulator controllers"))
   (lib (name Regulator_Current)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Regulator_Current.lib)(options "")(descr "Current regulators"))

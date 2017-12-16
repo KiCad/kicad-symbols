@@ -108,24 +108,6 @@ K audio dac 2ch 24bit 192kHz
 F http://www.ti.com/lit/ds/symlink/pcm1794a.pdf
 $ENDCMP
 #
-$CMP TLV320AIC23BPW
-D Stero Audio CODEC, 8- to 96-kHz, With Integrated Headphone Amplifier, TSSOP-28
-K audio codec 2ch 96kHz headphone amplifier
-F http://www.ti.com/lit/ds/symlink/tlv320aic23b.pdf
-$ENDCMP
-#
-$CMP TLV320AIC23BRHD
-D Stero Audio CODEC, 8- to 96-kHz, With Integrated Headphone Amplifier, QFN-28
-K audio codec 2ch 96kHz headphone amplifier
-F http://www.ti.com/lit/ds/symlink/tlv320aic23b.pdf
-$ENDCMP
-#
-$CMP TLV320AIC23BxQE
-D Stero Audio CODEC, 8- to 96-kHz, With Integrated Headphone Amplifier, BGA-32
-K audio codec 2ch 96kHz headphone amplifier
-F http://www.ti.com/lit/ds/symlink/tlv320aic23b.pdf
-$ENDCMP
-#
 $CMP TPA5050
 D Stereo Digital Audio Lip-Sync Delay Processor With I2C Control, QFN-16
 K audio delay
