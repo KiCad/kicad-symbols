@@ -337,13 +337,22 @@
     "logic_programmable" : "Logic_Programmable",
     "Logic_TTL_IEEE" : "",
 
+    "Digital_Potentiometer" : "Potentiometer_Digital",
+
     "maxim" : {
-        "DS12*" : "Digital_Potentiometer",
+        "DS12*" : "Potentiometer_Digital",
         "DS18*" : "Sensor_Temperature",
         "DS28*" : "Sensor_Temperature",
         "MAX12*" : "Analog_ADC",
         "max318*" : "Sensor_Temperature",
-        "MAX6355" : "Power_Supervisor"
+        "MAX6355" : "Power_Supervisor",
+        "DS323*" : "Timer_RTC",
+        "DS160*" : "Timer_RTC",
+        "DS130*" : "Timer_RTC",
+        "MAX453" : "Amplifier_Video",
+        "MAX5436" : "Potentiometer_Digital",
+        "MAX732*" : "Interface_Expansion",
+        "MAX691" : "Power_Supervisor"
     },
 
     "mechanical" : "Mechanical",
