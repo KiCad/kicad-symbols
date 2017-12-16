@@ -16,7 +16,7 @@
 - [ ] cypress
 - [x] dc-dc
 - [x] Decawave
-- [ ] device
+- [x] device
 - [x] digital-audio
 - [x] Diode
 - [x] Display
