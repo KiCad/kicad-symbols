@@ -25,7 +25,7 @@ F https://datasheets.maximintegrated.com/en/ds/DS1621.pdf
 $ENDCMP
 #
 $CMP DS1821C
-D Programmable Digital Thermostat and Thermometer
+D Programmable Digital Thermostat and Thermometer TO-92
 K OneWire 1Wire Maxim Dallas
 F http://datasheets.maximintegrated.com/en/ds/DS1821.pdf
 $ENDCMP
@@ -37,7 +37,7 @@ F http://datasheets.maximintegrated.com/en/ds/DS1822.pdf
 $ENDCMP
 #
 $CMP DS1822-PAR
-D Econo 1-Wire Parasite-Power Digital Thermometer
+D Econo 1-Wire Parasite-Power Digital Thermometer TO-92
 K OneWire 1Wire Maxim Dallas
 F http://datasheets.maximintegrated.com/en/ds/DS1822-PAR.pdf
 $ENDCMP
@@ -49,7 +49,7 @@ F http://datasheets.maximintegrated.com/en/ds/DS1822.pdf
 $ENDCMP
 #
 $CMP DS1825
-D Programmable Resolution 1-Wire Digital Thermometer With 4-Bit ID
+D Programmable Resolution 1-Wire Digital Thermometer With 4-Bit ID MSOP-8
 K 1Wire OneWire Maxim Dallas
 F http://datasheets.maximintegrated.com/en/ds/DS1825.pdf
 $ENDCMP
@@ -61,7 +61,7 @@ F http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf
 $ENDCMP
 #
 $CMP DS18B20-PAR
-D 1-Wire Parasite-Power Digital Thermometer
+D 1-Wire Parasite-Power Digital Thermometer TO-92
 K OneWire 1Wire Maxim Dallas
 F http://datasheets.maximintegrated.com/en/ds/DS18B20-PAR.pdf
 $ENDCMP
@@ -85,7 +85,7 @@ F http://datasheets.maximintegrated.com/en/ds/DS18S20.pdf
 $ENDCMP
 #
 $CMP DS18S20-PAR
-D 1-Wire Parasite-Power Digital Thermometer
+D 1-Wire Parasite-Power Digital Thermometer TO-92
 K OneWire 1Wire Maxim Dallas
 F http://datasheets.maximintegrated.com/en/ds/DS18S20-PAR.pdf
 $ENDCMP
@@ -217,19 +217,19 @@ F http://www.ti.com/lit/ds/symlink/lmt87-q1.pdf
 $ENDCMP
 #
 $CMP MAX31820
-D 1-Wire Ambient Temperature Sensor
+D 1-Wire Ambient Temperature Sensor TO-92
 K OneWire 1-Wire 1Wire Maxim Dallas
 F http://datasheets.maximintegrated.com/en/ds/MAX31820.pdf
 $ENDCMP
 #
 $CMP MAX31820PAR
-D 1-Wire, Parasite-Power, Ambient Temperature Sensor
+D 1-Wire, Parasite-Power, Ambient Temperature Sensor TO-92
 K OneWire 1-Wire 1Wire Maxim Dallas
 F http://datasheets.maximintegrated.com/en/ds/MAX31820PAR.pdf
 $ENDCMP
 #
 $CMP MAX31826
-D 1-Wire Digital Temperature Sensor with 1Kb Lockable EEPROM
+D 1-Wire Digital Temperature Sensor with 1Kb Lockable EEPROM MSOP-8
 K 1Wire OneWire Maxim Dallas
 F http://datasheets.maximintegrated.com/en/ds/MAX31826.pdf
 $ENDCMP
