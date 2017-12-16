@@ -46,7 +46,7 @@
 - [x] Logic_CMOS_IEEE
 - [x] logic_programmable
 - [x] Logic_TTL_IEEE
-- [ ] maxim
+- [x] maxim
 - [x] MCU_Microchip_PIC10
 - [x] MCU_Microchip_PIC12
 - [x] MCU_Microchip_PIC16
