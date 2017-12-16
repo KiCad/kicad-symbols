@@ -16,7 +16,6 @@
   (lib (name Driver_Display)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Driver_Display.lib)(options "")(descr "Drivers for displays. (For graphic and character based displays.)"))
   (lib (name Driver_FET)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Driver_FET.lib)(options "")(descr "MOSFET and gate drivers"))
   (lib (name Driver_LED)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Driver_LED.lib)(options "")(descr "LED drivers"))
-  (lib (name ESD_Protection)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/ESD_Protection.lib)(options "")(descr "ESD protection devices"))
   (lib (name FPGA_Actel)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/FPGA_Actel.lib)(options "")(descr "Actel FPGA symbols"))
   (lib (name Graphic)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Graphic.lib)(options "")(descr "Graphical symbols"))
   (lib (name Interface_CAN_LIN)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface_CAN_LIN.lib)(options "")(descr "CAN / LIN interface symbols"))
