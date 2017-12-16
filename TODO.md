@@ -27,7 +27,7 @@
 - [x] ESD_Protection
 - [x] Espressif
 - [x] FPGA_Actel
-- [ ] ftdi
+- [x] ftdi
 - [x] gennum
 - [x] Graphic
 - [x] hc11
@@ -62,7 +62,7 @@
 - [x] MCU_Texas_MSP430
 - [x] memory
 - [x] Mechanical
-- [ ] microchip
+- [x] microchip
 - [x] microcontrollers
 - [ ] modules
 - [ ] motor_drivers
