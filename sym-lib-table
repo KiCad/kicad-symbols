@@ -1,6 +1,5 @@
 (sym_lib_table
   (lib (name Amplifier_Video)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Amplifier_Video.lib)(options "")(descr "Video amplifiers"))
-  (lib (name Analog)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Analog.lib)(options "")(descr "Miscellaneous analog devices"))
   (lib (name Analog_ADC)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Analog_ADC.lib)(options "")(descr "Analog to digital converters"))
   (lib (name Analog_DAC)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Analog_DAC.lib)(options "")(descr "Digital to analog converters"))
   (lib (name Analog_Switch)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Analog_Switch.lib)(options "")(descr "Analog switches"))
