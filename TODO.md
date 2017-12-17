@@ -33,7 +33,7 @@
 - [x] hc11
 - [ ] infineon
 - [ ] intel
-- [ ] interface
+- [x] interface
 - [x] intersil
 - [ ] ir
 - [x] Lattice
