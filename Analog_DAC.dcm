@@ -12,36 +12,6 @@ K 4ch DAC 12bit
 F http://www.analog.com/static/imported-files/data_sheets/AD390MIL.pdf
 $ENDCMP
 #
-$CMP AD558JN
-D Single 8-bit DAC, Internal Reference, Output Amp, Single Supply, DIP-16
-K 8bit DAC Reference Single Supply
-F http://www.analog.com/static/imported-files/data_sheets/AD558.pdf
-$ENDCMP
-#
-$CMP AD558JP
-D Single 8-bit DAC, Internal Reference, Output Amp, Single Supply, PLCC-20
-K 8bit DAC Reference Single Supply
-F http://www.analog.com/static/imported-files/data_sheets/AD558.pdf
-$ENDCMP
-#
-$CMP AD558KN
-D Single 8-bit DAC, Internal Reference, Output Amp, Single Supply, DIP-16
-K 8bit DAC Reference Single Supply
-F http://www.analog.com/static/imported-files/data_sheets/AD558.pdf
-$ENDCMP
-#
-$CMP AD558KP
-D Single 8-bit DAC, Internal Reference, Output Amp, Single Supply, PLCC-20
-K 8bit DAC Reference Single Supply
-F http://www.analog.com/static/imported-files/data_sheets/AD558.pdf
-$ENDCMP
-#
-$CMP AD5593R
-D 8-channel 12bits configurable ADC/DAC/GPIO Internal Reference, I2C interface Integrated temperature sensor,Single Supply, TSSOP-16
-K 8channel 12bit ADC DAC GPIO I2C Temperature
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5593R.pdf
-$ENDCMP
-#
 $CMP AD5687BCPZ
 D Dual, 12-Bit nanoDAC+ with SPI Interface, LFCSP-16
 K dac 2nch 12bit spi
@@ -324,12 +294,6 @@ K DAC CNA
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD775.pdf
 $ENDCMP
 #
-$CMP AD9708AR
-D Video DAC (32 MHz), SOIC/TSSOP-28
-K DAC CNA VIDEO
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9708.pdf
-$ENDCMP
-#
 $CMP ADS7830
 D Single-supply, 8bit, 8 ch, SAR, 70kHz SR, 2.7 - 5 VDD, I2C, TSSOP-16
 K 8bit DAC 8CH
@@ -610,18 +574,6 @@ $CMP MCP4922-EST
 D Dual 12-bit Digital to Analog Converter, SPI Interface, TSSOP-14
 K Dual DAC 1ch 12bit SPI
 F http://ww1.microchip.com/downloads/en/devicedoc/21897a.pdf
-$ENDCMP
-#
-$CMP TDA8702
-D 8bit Video DAC (32 MHz), DIP-16
-K DAC CNA VIDEO
-F philips/tda8702.pdf
-$ENDCMP
-#
-$CMP TDA8702T
-D 8bit Video DAC (32 MHz), SOIC-16
-K DAC CNA VIDEO
-F philips/tda8702.pdf
 $ENDCMP
 #
 $CMP TLV5627CD

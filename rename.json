@@ -83,6 +83,12 @@
         "DAC7513*" : "Analog_DAC"
     },
 
+    "Analog_DAC" : {
+        "AD55*" : "Analog",
+        "TDA8702" : "Video",
+        "AD9708AR" : "Video"
+    },
+
     "allegro" : "Sensor_Current",
 
     "Altera" : "CPLD_Altera",
