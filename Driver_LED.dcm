@@ -78,6 +78,18 @@ K Isolated LED Lamp Driver High Voltage CC
 F http://www.supertex.com/pdf/datasheets/HV9972.pdf
 $ENDCMP
 #
+$CMP IS31FL3216
+D 16 channel LED controller with audio modulation mode, VCC +2.7 to +5.5V, -40 to +85 degree, QFN-28
+K 16 channel LED controller with audio modulation mode
+F http://www.issi.com/WW/pdf/IS31FL3216.pdf
+$ENDCMP
+#
+$CMP IS31FL3216A
+D 16 channel LED controller with audio modulation mode, VCC +2.7 to +5.5V, -40 to +125 degree, QFN-28
+K 16 channel LED controller with audio modulation mode
+F http://www.issi.com/WW/pdf/IS31FL3216A.pdf
+$ENDCMP
+#
 $CMP IS31LT3360
 D Constant current  LED driver, internal switch, up to 40V/1.2A, SOT-89-5
 K Switching LED driver

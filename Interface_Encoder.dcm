@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP JoyWarrior24A10L
+D JoyWarrior 10bit, 3 axis, joystick controller, DIP-24/SOIC-24
+K joystick controller, 10bit, 3 axis
+F http://codemercs.com/downloads/joywarrior/JW_Datasheet.pdf
+$ENDCMP
+#
+$CMP JoyWarrior24A8L
+D JoyWarrior 8bit, 4 axis, joystick controller, DIP-24/SOIC-24
+K joystick controller, 8 bit, 4 axis
+F http://codemercs.com/downloads/joywarrior/JW_Datasheet.pdf
+$ENDCMP
+#
+$CMP SpinWarrior24A3
+D SpinWarrior, 3 16bit absolute position rotary encoders, 6 digital inputs, DIP-24/SOIC-24
+K 16bit, absolute position, USB, rotary encoder
+F http://www.codemercs.com/downloads/spinwarrior/SW_Datasheet.pdf
+$ENDCMP
+#
+$CMP SpinWarrior24R4
+D SpinWarrior, 4 8bit relative position rotary encoders, 7 switches, DIP-24/SOIC-24
+K 8bit, relative position, USB, rotary encoder
+F http://www.codemercs.com/downloads/spinwarrior/SW_Datasheet.pdf
+$ENDCMP
+#
+$CMP SpinWarrior24R6
+D SpinWarrior, 6 8bit relative position rotary encoders, 3 switches, DIP-24/SOIC-24
+K 8bit, relative position, USB, rotary encoder
+F http://www.codemercs.com/downloads/spinwarrior/SW_Datasheet.pdf
+$ENDCMP
+#
+#End Doc Library
