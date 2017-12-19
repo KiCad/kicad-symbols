@@ -12,6 +12,30 @@ K 4ch DAC 12bit
 F http://www.analog.com/static/imported-files/data_sheets/AD390MIL.pdf
 $ENDCMP
 #
+$CMP AD558JN
+D Single 8-bit DAC, Internal Reference, Output Amp, Single Supply, DIP-16
+K 8bit DAC Reference Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD558.pdf
+$ENDCMP
+#
+$CMP AD558JP
+D Single 8-bit DAC, Internal Reference, Output Amp, Single Supply, PLCC-20
+K 8bit DAC Reference Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD558.pdf
+$ENDCMP
+#
+$CMP AD558KN
+D Single 8-bit DAC, Internal Reference, Output Amp, Single Supply, DIP-16
+K 8bit DAC Reference Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD558.pdf
+$ENDCMP
+#
+$CMP AD558KP
+D Single 8-bit DAC, Internal Reference, Output Amp, Single Supply, PLCC-20
+K 8bit DAC Reference Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD558.pdf
+$ENDCMP
+#
 $CMP AD5687BCPZ
 D Dual, 12-Bit nanoDAC+ with SPI Interface, LFCSP-16
 K dac 2nch 12bit spi
