@@ -705,5 +705,8 @@
         "XC2S*" : "FPGA_Xilinx"
     },
 
-    "zilog" : "CPU_Zilog"
+    "Zilog" : {
+        "Z80*" : "CPU",
+        "Z85*" : "Interface_UART"
+    }
 }
