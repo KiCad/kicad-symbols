@@ -1,29 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP AD558JN
-D Single 8-bit DAC, Internal Reference, Output Amp, Single Supply, DIP-16
-K 8bit DAC Reference Single Supply
-F http://www.analog.com/static/imported-files/data_sheets/AD558.pdf
-$ENDCMP
-#
-$CMP AD558JP
-D Single 8-bit DAC, Internal Reference, Output Amp, Single Supply, PLCC-20
-K 8bit DAC Reference Single Supply
-F http://www.analog.com/static/imported-files/data_sheets/AD558.pdf
-$ENDCMP
-#
-$CMP AD558KN
-D Single 8-bit DAC, Internal Reference, Output Amp, Single Supply, DIP-16
-K 8bit DAC Reference Single Supply
-F http://www.analog.com/static/imported-files/data_sheets/AD558.pdf
-$ENDCMP
-#
-$CMP AD558KP
-D Single 8-bit DAC, Internal Reference, Output Amp, Single Supply, PLCC-20
-K 8bit DAC Reference Single Supply
-F http://www.analog.com/static/imported-files/data_sheets/AD558.pdf
-$ENDCMP
-#
 $CMP AD5593R
 D 8-channel 12bits configurable ADC/DAC/GPIO Internal Reference, I2C interface Integrated temperature sensor,Single Supply, TSSOP-16
 K 8channel 12bit ADC DAC GPIO I2C Temperature
