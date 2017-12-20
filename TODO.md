@@ -1,7 +1,7 @@
 ## Outstanding symbol libraries
 
 - [ ] ac-dc
-- [ ] adc-dac
+- [x] adc-dac
 - [x] Altera
 - [ ] analog_devices
 - [x] analog_switches
@@ -33,7 +33,7 @@
 - [x] hc11
 - [ ] infineon
 - [ ] intel
-- [ ] interface
+- [x] interface
 - [x] intersil
 - [ ] ir
 - [x] Lattice
