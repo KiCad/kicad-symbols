@@ -1194,37 +1194,37 @@ K LDO regulator voltage
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
 $ENDCMP
 #
-$CMP LM1084IS-3.3/NOPB
+$CMP LM1084IS-3.3NOPB
 D LM1084IS-3.3, 5A 27V Linear Regulator, Fixed Output 3.3V, TO-263
 K Voltage Regulator Adjustable 5A Positive
 F http://www.ti.com/lit/ds/symlink/lm1084.pdf
 $ENDCMP
 #
-$CMP LM1084IS-5.0/NOPB
+$CMP LM1084IS-5.0NOPB
 D LM1084IS-5.0, 5A 27V Linear Regulator, Fixed Output 5.0V, TO-263
 K Voltage Regulator 5A Positive
 F http://www.ti.com/lit/ds/symlink/lm1084.pdf
 $ENDCMP
 #
-$CMP LM1084IS-ADJ/NOPB
+$CMP LM1084IS-ADJNOPB
 D LM1084IS, 5A 29V Adjustable Linear Regulator, TO-263 (D2-PAK)
 K Adjustable Voltage Regulator 5A Positive
 F http://www.ti.com/lit/ds/symlink/lm1084.pdf
 $ENDCMP
 #
-$CMP LM1084IT-3.3/NOPB
+$CMP LM1084IT-3.3NOPB
 D LM1084IT-3.3, 5A 27V Linear Regulator, Fixed Output 3.3V, TO-220
 K Voltage Regulator 5A Positive
 F http://www.ti.com/lit/ds/symlink/lm1084.pdf
 $ENDCMP
 #
-$CMP LM1084IT-5.0/NOPB
+$CMP LM1084IT-5.0NOPB
 D LM1084IT-5.0, 5A 25V Linear Regulator, Fixed Output 5.0V, TO-220
 K Voltage Regulator 5A Positive
 F http://www.ti.com/lit/ds/symlink/lm1084.pdf
 $ENDCMP
 #
-$CMP LM1084IT-ADJ/NOPB
+$CMP LM1084IT-ADJNOPB
 D LM1084IT, 5A 29V Adjustable Linear Regulator, TO-220
 K Adjustable Voltage Regulator 5A Positive
 F http://www.ti.com/lit/ds/symlink/lm1084.pdf
@@ -1290,7 +1290,7 @@ K Adjustable Voltage Regulator 1.5A Negative
 F http://www.ti.com/lit/ds/symlink/lm337-n.pdf
 $ENDCMP
 #
-$CMP LM2931AZ-3.3/5.0
+$CMP LM2931AZ-3.3_5.0
 D LM2931, 100mA Low drop-out regulator, Fixed Output 3.3V, 5V
 K REGULATOR LDO 3.3V 5V
 F http://www.ti.com/lit/ds/symlink/lm2931-n.pdf
@@ -1637,151 +1637,151 @@ K REGUL POWER  SOT-23-5
 F regulator/LP2985.pdf
 $ENDCMP
 #
-$CMP LP2987AIMM-5.0/NOPB
+$CMP LP2987AIMM-5.0NOPB
 D LM2987AIMM-5.0, 200mA Linear LDO Regulator, Low Noise, Fixed Output 5V, MSOP-8
 K Linear LDO Regulator 200mA 5V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
-$CMP LP2987AIMMX-5.0/NOPB
+$CMP LP2987AIMMX-5.0NOPB
 D LM2987AIMMX-5.0, 200mA Linear LDO Regulator, Low Noise, Fixed Output 5V, MSOP-8
 K Linear LDO Regulator 200mA 5V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
-$CMP LP2987AIMX-5.0/NOPB
+$CMP LP2987AIMX-5.0NOPB
 D LM2987AIMX-5.0, 200mA Linear LDO Regulator, Low Noise, Fixed Output 5V, SO-8
 K Linear LDO Regulator 200mA 5V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
-$CMP LP2987IMM-3.3/NOPB
+$CMP LP2987IMM-3.3NOPB
 D LM2987IMM-3.3, 200mA Linear LDO Regulator, Low Noise, Fixed Output 3.3V, MSOP-8
 K Linear LDO Regulator 200mA 3.3V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
-$CMP LP2987IMM-5.0/NOPB
+$CMP LP2987IMM-5.0NOPB
 D LM2987IMM-5.0, 200mA Linear LDO Regulator, Low Noise, Fixed Output 5V, MSOP-8
 K Linear LDO Regulator 200mA 5V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
-$CMP LP2987IMMX-3.3/NOPB
+$CMP LP2987IMMX-3.3NOPB
 D LM2987IMMX-3.3, 200mA Linear LDO Regulator, Low Noise, Fixed Output 3.3V, MSOP-8
 K Linear LDO Regulator 200mA 3.3V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
-$CMP LP2987IMMX-5.0/NOPB
+$CMP LP2987IMMX-5.0NOPB
 D LM2987IMMX-5.0, 200mA Linear LDO Regulator, Low Noise, Fixed Output 5V, MSOP-8
 K Linear LDO Regulator 200mA 5V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
-$CMP LP2987IMX-3.0/NOPB
+$CMP LP2987IMX-3.0NOPB
 D LM2987AIMX-3.0, 200mA Linear LDO Regulator, Low Noise, Fixed Output 3V, SO-8
 K Linear LDO Regulator 200mA 3V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
-$CMP LP2987IMX-5.0/NOPB
+$CMP LP2987IMX-5.0NOPB
 D LM2987AIMX-5.0, 200mA Linear LDO Regulator, Low Noise, Fixed Output 5V, SO-8
 K Linear LDO Regulator 200mA 5V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
-$CMP LP2988AIMM-2.8/NOPB
+$CMP LP2988AIMM-2.8NOPB
 D LP2988AIMM-2.8, 200mA Linear LDO Regulator, Low Noise, Fixed Output 2.8V, MSOP-8
 K Linear LDO Regulator 200mA 2.8V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
-$CMP LP2988AIMM-3.0/NOPB
+$CMP LP2988AIMM-3.0NOPB
 D LP2988AIMM-3.0, 200mA Linear LDO Regulator, Low Noise, Fixed Output 3V, MSOP-8
 K Linear LDO Regulator 200mA 3V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
-$CMP LP2988AIMM-3.3/NOPB
+$CMP LP2988AIMM-3.3NOPB
 D LP2988AIMM-3.3, 200mA Linear LDO Regulator, Low Noise, Fixed Output 3.3V, MSOP-8
 K Linear LDO Regulator 200mA 3.3V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
-$CMP LP2988AIMM-5.0/NOPB
+$CMP LP2988AIMM-5.0NOPB
 D LP2988AIMM-5.0, 200mA Linear LDO Regulator, Low Noise, Fixed Output 5V, MSOP-8
 K Linear LDO Regulator 200mA 5V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
-$CMP LP2988AIMMX-3.0/NOPB
+$CMP LP2988AIMMX-3.0NOPB
 D LP2988AIMMX-3.0, 200mA Linear LDO Regulator, Low Noise, Fixed Output 3V, MSOP-8
 K Linear LDO Regulator 200mA 3V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
-$CMP LP2988AIMMX-3.3/NOPB
+$CMP LP2988AIMMX-3.3NOPB
 D LP2988AIMMX-3.3, 200mA Linear LDO Regulator, Low Noise, Fixed Output 3.3V, MSOP-8
 K Linear LDO Regulator 200mA 3.3V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
-$CMP LP2988AIMMX-5.0/NOPB
+$CMP LP2988AIMMX-5.0NOPB
 D LP2988AIMMX-5.0, 200mA Linear LDO Regulator, Low Noise, Fixed Output 5V, MSOP-8
 K Linear LDO Regulator 200mA 5V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
-$CMP LP2988AIMX-3.3/NOPB
+$CMP LP2988AIMX-3.3NOPB
 D LP2988IMX-3.3, 200mA Linear LDO Regulator, Low Noise, Fixed Output 3.3V, SO-8
 K Linear LDO Regulator 200mA 3.3V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
-$CMP LP2988IMM-2.8/NOPB
+$CMP LP2988IMM-2.8NOPB
 D LP2988IMM-2.8, 200mA Linear LDO Regulator, Low Noise, Fixed Output 2.8V, MSOP-8
 K Linear LDO Regulator 200mA 2.8V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
-$CMP LP2988IMM-3.0/NOPB
+$CMP LP2988IMM-3.0NOPB
 D LP2988IMM-3.0, 200mA Linear LDO Regulator, Low Noise, Fixed Output 3V, MSOP-8
 K Linear LDO Regulator 200mA 3V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
-$CMP LP2988IMM-3.3/NOPB
+$CMP LP2988IMM-3.3NOPB
 D LP2988IMM-3.3, 200mA Linear LDO Regulator, Low Noise, Fixed Output 3.3V, MSOP-8
 K Linear LDO Regulator 200mA 3.3V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
-$CMP LP2988IMM-5.0/NOPB
+$CMP LP2988IMM-5.0NOPB
 D LP2988IMM-5.0, 200mA Linear LDO Regulator, Low Noise, Fixed Output 5V, MSOP-8
 K Linear LDO Regulator 200mA 5V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
-$CMP LP2988IMMX-3.0/NOPB
+$CMP LP2988IMMX-3.0NOPB
 D LP2988IMMX-3.0, 200mA Linear LDO Regulator, Low Noise, Fixed Output 3V, MSOP-8
 K Linear LDO Regulator 200mA 3V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
-$CMP LP2988IMMX-3.3/NOPB
+$CMP LP2988IMMX-3.3NOPB
 D LP2988IMMX-3.3, 200mA Linear LDO Regulator, Low Noise, Fixed Output 3.3V, MSOP-8
 K Linear LDO Regulator 200mA 3.3V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
-$CMP LP2988IMMX-5.0/NOPB
+$CMP LP2988IMMX-5.0NOPB
 D LP2988IMMX-5.0, 200mA Linear LDO Regulator, Low Noise, Fixed Output 5V, MSOP-8
 K Linear LDO Regulator 200mA 5V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
-$CMP LP2988IMX-5.0/NOPB
+$CMP LP2988IMX-5.0NOPB
 D LP2988IMX-5.0, 200mA Linear LDO Regulator, Low Noise, Fixed Output 5V, SO-8
 K Linear LDO Regulator 200mA 5V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
@@ -2329,133 +2329,133 @@ K Voltage Regulator 100mA Negative
 F http://www.ti.com/lit/ds/symlink/mc79l15.pdf
 $ENDCMP
 #
-$CMP MCP1700T-3002E/TT
+$CMP MCP1700T-3002ETT
 D 250mA Low Quiscent Current LDO, 3.0V output, SOT-23-3 package
 K regulator linear ldo
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
 $ENDCMP
 #
-$CMP MCP1703A-1202/MB
+$CMP MCP1703A-1202-MB
 D Low Quiescent Current LDO Regulator, 1.2V, 250 mA, Vin<=16V
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf
 $ENDCMP
 #
-$CMP MCP1703A-1202E/MB
+$CMP MCP1703A-1202E-MB
 D Low Quiescent Current LDO Regulator, 1.2V, 250 mA, Vin<=16V, extended temp. range
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf
 $ENDCMP
 #
-$CMP MCP1703A-1502/MB
+$CMP MCP1703A-1502-MB
 D Low Quiescent Current LDO Regulator, 1.5V, 250 mA, Vin<=16V
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf
 $ENDCMP
 #
-$CMP MCP1703A-1502E/MB
+$CMP MCP1703A-1502E-MB
 D Low Quiescent Current LDO Regulator, 1.5V, 250 mA, Vin<=16V, extended temp. range
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf
 $ENDCMP
 #
-$CMP MCP1703A-1802/MB
+$CMP MCP1703A-1802-MB
 D Low Quiescent Current LDO Regulator, 1.8V, 250 mA, Vin<=16V
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf
 $ENDCMP
 #
-$CMP MCP1703A-1802E/MB
+$CMP MCP1703A-1802E-MB
 D Low Quiescent Current LDO Regulator, 1.8V, 250 mA, Vin<=16V, extended temp. range
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf
 $ENDCMP
 #
-$CMP MCP1703A-2502/MB
+$CMP MCP1703A-2502-MB
 D Low Quiescent Current LDO Regulator, 2.5V, 250 mA, Vin<=16V
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf
 $ENDCMP
 #
-$CMP MCP1703A-2502E/MB
+$CMP MCP1703A-2502E-MB
 D Low Quiescent Current LDO Regulator, 2.5V, 250 mA, Vin<=16V, extended temp. range
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf
 $ENDCMP
 #
-$CMP MCP1703A-2802/MB
+$CMP MCP1703A-2802-MB
 D Low Quiescent Current LDO Regulator, 2.8V, 250 mA, Vin<=16V
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf
 $ENDCMP
 #
-$CMP MCP1703A-2802E/MB
+$CMP MCP1703A-2802E-MB
 D Low Quiescent Current LDO Regulator, 2.8V, 250 mA, Vin<=16V, extended temp. range
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf
 $ENDCMP
 #
-$CMP MCP1703A-3002/MB
+$CMP MCP1703A-3002-MB
 D Low Quiescent Current LDO Regulator, 3.0V, 250 mA, Vin<=16V
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf
 $ENDCMP
 #
-$CMP MCP1703A-3002E/MB
+$CMP MCP1703A-3002E-MB
 D Low Quiescent Current LDO Regulator, 3.0V, 250 mA, Vin<=16V, extended temp. range
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf
 $ENDCMP
 #
-$CMP MCP1703A-3302/MB
+$CMP MCP1703A-3302-MB
 D Low Quiescent Current LDO Regulator, 3.3V, 250 mA, Vin<=16V
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf
 $ENDCMP
 #
-$CMP MCP1703A-3302E/MB
+$CMP MCP1703A-3302E-MB
 D Low Quiescent Current LDO Regulator, 3.3V, 250 mA, Vin<=16V, extended temp. range
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf
 $ENDCMP
 #
-$CMP MCP1703A-4002/MB
+$CMP MCP1703A-4002-MB
 D Low Quiescent Current LDO Regulator, 4.0V, 250 mA, Vin<=16V
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf
 $ENDCMP
 #
-$CMP MCP1703A-4002E/MB
+$CMP MCP1703A-4002E-MB
 D Low Quiescent Current LDO Regulator, 4.0V, 250 mA, Vin<=16V, extended temp. range
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf
 $ENDCMP
 #
-$CMP MCP1703A-5002/MB
+$CMP MCP1703A-5002-MB
 D Low Quiescent Current LDO Regulator, 5.0V, 250 mA, Vin<=16V
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf
 $ENDCMP
 #
-$CMP MCP1703A-5002E/MB
+$CMP MCP1703A-5002E-MB
 D Low Quiescent Current LDO Regulator, 5.0V, 250 mA, Vin<=16V, extended temp. range
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf
 $ENDCMP
 #
-$CMP MCP1754ST-1802E/MB
+$CMP MCP1754ST-1802E-MB
 D MCP1754ST, Fixed 150mA Low Dropout Voltage Regulator, Positive
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
 $ENDCMP
 #
-$CMP MCP1754ST-3302E/MB
+$CMP MCP1754ST-3302E-MB
 D MCP1754ST, Fixed 150mA Low Dropout Voltage Regulator, Positive
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
 $ENDCMP
 #
-$CMP MCP1754ST-5002E/MB
+$CMP MCP1754ST-5002E-MB
 D MCP1754ST, Fixed 150mA Low Dropout Voltage Regulator, Positive
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
