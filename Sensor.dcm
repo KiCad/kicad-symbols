@@ -18,4 +18,10 @@ K BME680 gas pressure humidity temperatiure measurement
 F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001-00.pdf
 $ENDCMP
 #
+$CMP LTC2990
+D Temperature Voltage and Current Monitor, I2C Interface, MSOP-10
+K Temperature Voltage Current Monitor I2C AFE
+F http://cds.linear.com/docs/en/datasheet/2990fd.pdf
+$ENDCMP
+#
 #End Doc Library

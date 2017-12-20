@@ -78,6 +78,12 @@ K Half Bridge Gate Driver
 F http://www.intersil.com/content/dam/Intersil/documents/hip4/hip4080a.pdf
 $ENDCMP
 #
+$CMP ICL7667
+D Dual Power MOSFET Driver
+K MOSFET driver array
+F http://www.intersil.com/content/dam/Intersil/documents/icl7/icl7667.pdf
+$ENDCMP
+#
 $CMP MCP1415
 D 1.5A High speed power MOSFET driver with inverting output
 K mosfet gate driver
