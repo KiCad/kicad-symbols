@@ -1,7 +1,7 @@
 ## Outstanding symbol libraries
 
 - [ ] ac-dc
-- [ ] adc-dac
+- [x] adc-dac
 - [x] Altera
 - [ ] analog_devices
 - [x] analog_switches

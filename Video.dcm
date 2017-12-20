@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD9708AR
+D Video DAC (32 MHz), SOIC/TSSOP-28
+K DAC CNA VIDEO
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9708.pdf
+$ENDCMP
+#
+$CMP TDA8702
+D 8bit Video DAC (32 MHz), DIP-16
+K DAC CNA VIDEO
+F philips/tda8702.pdf
+$ENDCMP
+#
+$CMP TDA8702T
+D 8bit Video DAC (32 MHz), SOIC-16
+K DAC CNA VIDEO
+F philips/tda8702.pdf
+$ENDCMP
+#
+#End Doc Library
