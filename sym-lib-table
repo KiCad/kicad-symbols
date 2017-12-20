@@ -1,6 +1,8 @@
 (sym_lib_table
   (lib (name Amplifier_Video)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Amplifier_Video.lib)(options "")(descr "Video amplifiers"))
-  (lib (name Analog_ADC)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Analog_ADC.lib)(options "")(descr "Analog to digital converters "))
+  (lib (name Analog)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Analog.lib)(options "")(descr "Miscellaneous analog devices"))
+  (lib (name Analog_ADC)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Analog_ADC.lib)(options "")(descr "Analog to digital converters"))
+  (lib (name Analog_DAC)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Analog_DAC.lib)(options "")(descr "Digital to analog converters"))
   (lib (name Analog_Switch)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Analog_Switch.lib)(options "")(descr "Analog switches"))
   (lib (name Audio)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Audio.lib)(options "")(descr "Audio devices"))
   (lib (name Battery_Management)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Battery_Management.lib)(options "")(descr "Battery management ICs"))
@@ -96,6 +98,7 @@
   (lib (name Transistor_FET)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Transistor_FET.lib)(options "")(descr "FET transistor symbols"))
   (lib (name Transistor_IGBT)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Transistor_IGBT.lib)(options "")(descr "IGBT transistor symbols"))
   (lib (name Valve)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Valve.lib)(options "")(descr "Valve symbols"))
+  (lib (name Video)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Video.lib)(options "")(descr "Video related components"))
   (lib (name power)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/power.lib)(options "")(descr "Power symbols, special power flags"))
   (lib (name pspice)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/pspice.lib)(options "")(descr "Legacy pspice symbol library."))
 )
