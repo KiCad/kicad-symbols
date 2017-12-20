@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP DP83848C
+D MII/RMII Single 10/100Mbps Ethernet Physical Layer Transciever, LQFP-48
+K Ethernet PHY MII RMII 10/100Mpbs
+F http://www.ti.com/lit/ds/symlink/dp83848c.pdf
+$ENDCMP
+#
+$CMP DP83848I
+D MII/RMII Single 10/100Mbps Ethernet Physical Layer Transciever, LQFP-48
+K Ethernet PHY MII RMII 10/100Mpbs
+F http://www.ti.com/lit/ds/symlink/dp83848c.pdf
+$ENDCMP
+#
 $CMP ENC28J60x-ML
 D ENC28J60 Single Chip Ethernet Interface,QFN
 K ENC Ethernet
