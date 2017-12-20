@@ -1,41 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP PIC10F320-IMC
-D PIC10F320, 256W Flash, 64B SRAM, DFN8
-K FLASH 8-Bit CMOS Microcontroller
-F http://ww1.microchip.com/downloads/en/DeviceDoc/41585A.pdf
-$ENDCMP
-#
-$CMP PIC10F320-IOT
-D PIC10F320, 256W Flash, 64B SRAM, SOT-23-6
-K FLASH 8-Bit CMOS Microcontroller
-F http://ww1.microchip.com/downloads/en/DeviceDoc/41585A.pdf
-$ENDCMP
-#
-$CMP PIC10F320-IP
-D 256W Flash, 64B SRAM, PDIP8
-K FLASH 8-Bit CMOS Microcontroller
-F http://ww1.microchip.com/downloads/en/DeviceDoc/41585A.pdf
-$ENDCMP
-#
-$CMP PIC10F322-IMC
-D PIC10F322, 512W Flash, 64B SRAM, DFN8
-K FLASH 8-Bit CMOS Microcontroller
-F http://ww1.microchip.com/downloads/en/DeviceDoc/41585A.pdf
-$ENDCMP
-#
-$CMP PIC10F322-IOT
-D PIC10F322, 512W Flash, 64B SRAM, SOT-23-6
-K FLASH 8-Bit CMOS Microcontroller
-F http://ww1.microchip.com/downloads/en/DeviceDoc/41585A.pdf
-$ENDCMP
-#
-$CMP PIC10F322-IP
-D 512W Flash, 64B SRAM, PDIP8
-K FLASH 8-Bit CMOS Microcontroller
-F http://ww1.microchip.com/downloads/en/DeviceDoc/41585A.pdf
-$ENDCMP
-#
 $CMP PIC10F200-IMC
 D PIC10F200, 256W Flash, 16B SRAM, DFN8
 K FLASH 8-Bit CMOS Microcontroller
@@ -142,6 +106,42 @@ $CMP PIC10F222-IP
 D 512W Flash, 24B SRAM, PDIP8
 K FLASH 8-Bit CMOS Microcontroller
 F http://ww1.microchip.com/downloads/en/DeviceDoc/41270E.pdf
+$ENDCMP
+#
+$CMP PIC10F320-IMC
+D PIC10F320, 256W Flash, 64B SRAM, DFN8
+K FLASH 8-Bit CMOS Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/41585A.pdf
+$ENDCMP
+#
+$CMP PIC10F320-IOT
+D PIC10F320, 256W Flash, 64B SRAM, SOT-23-6
+K FLASH 8-Bit CMOS Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/41585A.pdf
+$ENDCMP
+#
+$CMP PIC10F320-IP
+D 256W Flash, 64B SRAM, PDIP8
+K FLASH 8-Bit CMOS Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/41585A.pdf
+$ENDCMP
+#
+$CMP PIC10F322-IMC
+D PIC10F322, 512W Flash, 64B SRAM, DFN8
+K FLASH 8-Bit CMOS Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/41585A.pdf
+$ENDCMP
+#
+$CMP PIC10F322-IOT
+D PIC10F322, 512W Flash, 64B SRAM, SOT-23-6
+K FLASH 8-Bit CMOS Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/41585A.pdf
+$ENDCMP
+#
+$CMP PIC10F322-IP
+D 512W Flash, 64B SRAM, PDIP8
+K FLASH 8-Bit CMOS Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/41585A.pdf
 $ENDCMP
 #
 #End Doc Library
