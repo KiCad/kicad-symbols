@@ -1,4 +1,5 @@
 (sym_lib_table
+  (lib (name Amplifier_Audio)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Amplifier_Audio.lib)(options "")(descr "Audio amplifiers"))
   (lib (name Amplifier_Buffer)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Amplifier_Buffer.lib)(options "")(descr "Buffer amplifiers"))
   (lib (name Amplifier_Video)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Amplifier_Video.lib)(options "")(descr "Video amplifiers"))
   (lib (name Analog)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Analog.lib)(options "")(descr "Miscellaneous analog devices"))
