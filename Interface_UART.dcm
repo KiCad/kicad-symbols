@@ -324,4 +324,9 @@ K Low Power Half-Duplex RS-485 Transceiver 10Mbps
 F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
 $ENDCMP
 #
+$CMP Z8530
+D SCC Serial Communication Controller, DIP-40
+K SCC Serial Communication
+$ENDCMP
+#
 #End Doc Library
