@@ -102,4 +102,4 @@
 - [ ] Xicor
 - [ ] xilinx
 - [x] zetex
-- [ ] Zilog
+- [x] Zilog
