@@ -1458,6 +1458,12 @@ K Regulator step-down
 F http://cds.linear.com/docs/en/datasheet/3406afa.pdf
 $ENDCMP
 #
+$CMP LTC3406B-1.2
+D 1.5MHz 600mA synchronous step-down voltage regulator, ThinSOT-23
+K buck switcher switching regulator voltage
+F http://cds.linear.com/docs/en/datasheet/3406fa.pdf
+$ENDCMP
+#
 $CMP LTC3406B-2ES5
 D 600mA Synchronous Step-Down Regulator, 2.25MHz, Adjustable Output Voltage,ThinSOT-23
 K Regulator step-down
@@ -1879,8 +1885,8 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2177.pdf
 $ENDCMP
 #
 $CMP MIC4690
-D 1A, 500kHz SuperSwitcher Buck Regulator, 4-34V Input Voltage, Adjustable Output Voltage, SO-8
-K regulator switching adjustable
+D 500kHz 1A SuperSwitcher buck regulator
+K switching regulator buck step-down
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic4690.pdf
 $ENDCMP
 #

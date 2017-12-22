@@ -79,7 +79,7 @@
 - [ ] Power_Management
 - [x] pspice
 - [x] references
-- [ ] regul
+- [x] regul
 - [x] Relay
 - [x] RF_Bluetooth
 - [ ] rfcom
