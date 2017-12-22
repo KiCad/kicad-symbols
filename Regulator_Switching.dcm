@@ -1459,7 +1459,7 @@ F http://cds.linear.com/docs/en/datasheet/3406afa.pdf
 $ENDCMP
 #
 $CMP LTC3406B-1.2
-D 1.5MHz 600mA synchronous step-down voltage regulator
+D 1.5MHz 600mA synchronous step-down voltage regulator, ThinSOT-23
 K buck switcher switching regulator voltage
 F http://cds.linear.com/docs/en/datasheet/3406fa.pdf
 $ENDCMP
