@@ -74,7 +74,7 @@
 - [ ] opto
 - [x] Oscillators
 - [ ] philips
-- [ ] powerint
+- [x] powerint
 - [x] power
 - [ ] Power_Management
 - [x] pspice
