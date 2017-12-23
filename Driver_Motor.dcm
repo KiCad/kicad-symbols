@@ -72,12 +72,6 @@ K Stepper Motor Controller
 F www.st.com/resource/en/datasheet/cd00000063.pdf
 $ENDCMP
 #
-$CMP L298(H)N
-D Dual full bridge motor driver, up to 46V, 4A, Multiwatt-15
-K H-bridge motor driver
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000240.pdf
-$ENDCMP
-#
 $CMP L298HN
 D Dual full bridge motor driver, up to 46V, 4A, Multiwatt-15
 K H-bridge motor driver
