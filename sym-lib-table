@@ -51,6 +51,7 @@
   (lib (name Memory_RAM)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Memory_RAM.lib)(options "")(descr "Volatile RAM"))
   (lib (name Memory_UniqueID)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Memory_UniqueID.lib)(options "")(descr "UID and serial number memory devices"))
   (lib (name MCU_AnalogDevices)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_AnalogDevices.lib)(options "")(descr "Analog Devices microcontrollers"))
+  (lib (name MCU_Cypress)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Cypress.lib)(options "")(descr "Cypress microcontrollers"))
   (lib (name MCU_Infineon)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Infineon.lib)(options "")(descr "Infineon microcontrollers"))
   (lib (name MCU_Microchip_PIC10)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_PIC10.lib)(options "")(descr "Microchip PIC10 microcontrollers"))
   (lib (name MCU_Microchip_PIC12)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_PIC12.lib)(options "")(descr "Microchip PIC12 microcontrollers"))
