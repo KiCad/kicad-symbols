@@ -42,6 +42,18 @@ K Dual Digital Potentiometer Maxim
 F https://datasheets.maximintegrated.com/en/ds/DS1267.pdf
 $ENDCMP
 #
+$CMP MAX5436
+D Low-Drift Digital Potentiometer
+K digital potentiometer resistor variable
+F https://datasheets.maximintegrated.com/en/ds/MAX5436-MAX5439.pdf
+$ENDCMP
+#
+$CMP MAX5438
+D Low-Drift Digital Potentiometer
+K digital potentiometer resistor variable
+F https://datasheets.maximintegrated.com/en/ds/MAX5436-MAX5439.pdf
+$ENDCMP
+#
 $CMP MCP41010
 D Single Digital Potentiometer, SPI interface, 256 taps, 10 kohm
 K R POT
