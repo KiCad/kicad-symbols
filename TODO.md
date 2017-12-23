@@ -13,7 +13,7 @@
 - [x] brooktre
 - [x] Connector
 - [x] contrib
-- [ ] cypress
+- [x] cypress
 - [x] dc-dc
 - [x] Decawave
 - [x] device
