@@ -541,6 +541,12 @@
 
     "power" : "",
 
+    "powerint" : {
+        "LNK*" : "Regulator_Switching",
+        "TNY*" : "Regulator_Switching",
+        "TOP*" : "Regulator_Controller"
+    },
+
     "Power_Management" : {
         "FAN7842" : "Driver_FET",
         "LM50*" : "Power_Distribution",
