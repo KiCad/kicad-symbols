@@ -126,7 +126,12 @@
         "CY8C4*" : "MCU_Cypress",
         "CY8L1*" : "MCU_Cypress",
         "C87CMBR*" : "Sensor_Touch",
-        "CY7C65*" : "Interface_USB"
+        "CY7C65*" : "Interface_USB",
+        "CYB*" : "MCU_Cypress",
+        "CY8CMBR3*" : "Sensor_Touch",
+        "CY7C1*" : "Memory_RAM",
+        "CY7C2*" : "Memory_RAM",
+        "CY7C420" : "Memory_RAM"
     },
 
     "dc-dc" : {
