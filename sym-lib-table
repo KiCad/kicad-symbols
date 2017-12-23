@@ -23,6 +23,7 @@
   (lib (name Driver_Display)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Driver_Display.lib)(options "")(descr "Drivers for displays. (For graphic and character based displays.)"))
   (lib (name Driver_FET)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Driver_FET.lib)(options "")(descr "MOSFET and gate drivers"))
   (lib (name Driver_LED)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Driver_LED.lib)(options "")(descr "LED drivers"))
+  (lib (name Driver_Motor)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Driver_Motor.lib)(options "")(descr "Integrated motor driver and controller ICs"))
   (lib (name FPGA_Actel)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/FPGA_Actel.lib)(options "")(descr "Actel FPGA symbols"))
   (lib (name Graphic)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Graphic.lib)(options "")(descr "Graphical symbols"))
   (lib (name Interface)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface.lib)(options "")(descr "Assorted interface symbols"))

@@ -65,7 +65,7 @@
 - [x] microchip
 - [x] microcontrollers
 - [ ] modules
-- [ ] motor_drivers
+- [x] motor_drivers
 - [x] Motor
 - [ ] motorola
 - [x] nordicsemi
