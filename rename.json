@@ -1,10 +1,4 @@
 {
-    "atmel" : {
-        "ATXMEGA*" : "MCU_Atmel_ATMEGA",
-        "ATMEGA*" : "MCU_Atmel_ATMEGA",
-        "ATTINY*" : "MCU_Atmel_ATTINY"
-    },
-
     "74xgxx" : "Logic_74xGxx",
     "74xx" : "Logic_74xx",
 
@@ -101,7 +95,10 @@
         "AT89*" : "Memory_Flash",
         "AT90*" : "Memory_Flash",
         "SAM*" : "MCU_Atmel_ARM",
-        "AT42*" : "Sensor_Touch"
+        "AT42*" : "Sensor_Touch",
+        "ATXMEGA*" : "MCU_Atmel_ATMEGA",
+        "ATMEGA*" : "MCU_Atmel_ATMEGA",
+        "ATTINY*" : "MCU_Atmel_ATTINY"
     },
 
     "audio" : {
