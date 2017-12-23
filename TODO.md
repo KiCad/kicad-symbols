@@ -3,7 +3,7 @@
 - [ ] ac-dc
 - [x] adc-dac
 - [x] Altera
-- [ ] analog_devices
+- [x] analog_devices
 - [x] analog_switches
 - [ ] atmel
 - [ ] audio

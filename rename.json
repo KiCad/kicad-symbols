@@ -11,10 +11,14 @@
     "analog_switches" : "Analog_Switches",
 
     "analog_devices" : {
-        "ADuM76*" : "Isolator_Digital",
-        "ADuM14*" : "Isolator_Digital",
+        "ADuM76*" : "Isolator",
+        "ADuM14*" : "Isolator",
         "ADM25*" : "Interface_UART",
-        "ADM24*" : "Interface_UART"
+        "ADM24*" : "Interface_UART",
+        "AD623*" : "Amplifier_Instrumentation",
+        "AD84*" : "Amplifier_Instrumentation",
+        "ADuM6000" : "Regulator_Switching",
+        "ADE7758" : "Sensor"
     },
 
     "Battery_Management" : "Battery_Management",
