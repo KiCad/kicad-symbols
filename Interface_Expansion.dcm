@@ -6,6 +6,48 @@ K Expander I2C Parallel Port GPIO Maxim
 F https://datasheets.maximintegrated.com/en/ds/MAX7325.pdf
 $ENDCMP
 #
+$CMP P82B96
+D Dual I2C Bus Buffer, DIP8/SO8/TSSOP8
+K I2C Bus Buffer
+F http://www.nxp.com/documents/data_sheet/P82B96.pdf
+$ENDCMP
+#
+$CMP PCA9516
+D 5 channels I2C Hub, SO/TSSOP16
+K I2C Hub
+F http://www.nxp.com/documents/data_sheet/PCA9518.pdf
+$ENDCMP
+#
+$CMP PCF8563
+D Realtime Clock/Calendar I2C Interface, DIP/SOIC/TSSOP-8
+K I2C RTC Clock Calendar
+F http://www.nxp.com/documents/data_sheet/PCF8563.pdf
+$ENDCMP
+#
+$CMP PCF8574
+D 8 Bit Port/Expander to I2C Bus, DIP/SOIC-16
+K I2C Expander
+F http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf
+$ENDCMP
+#
+$CMP PCF8574A
+D 8 Bit Port/Expander to I2C Bus, DIP/SOIC-16
+K I2C Expander
+F http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf
+$ENDCMP
+#
+$CMP PCF8584
+D I2C Bus Controller, DIP/SOIC-20
+K I2C Bus
+F http://www.nxp.com/documents/data_sheet/PCF8584.pdf
+$ENDCMP
+#
+$CMP PCF8591
+D 4ch ADC, 1 DAC, I2C Bus Interface, DIP/SOIC-16
+K I2C ADC DAC
+F http://www.nxp.com/documents/data_sheet/PCF8591.pdf
+$ENDCMP
+#
 $CMP STMPE1600
 D IO expander 16 GPIO, I2C 400kHz, Interrupt, 1.65 - 3.6V, QFN24
 K IO expander 16 GPIO

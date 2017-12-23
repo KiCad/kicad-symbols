@@ -532,9 +532,13 @@
     "Oscillators" : "Oscillator",
 
     "philips" : {
-        "p8*" : "Interface_I2C",
         "pca8*" : "Interface_CAN_LIN",
-        "pca9*" : "Interface_I2C"
+        "PCF*" : "Interface_Expansion",
+        "TDA8*" : "Video",
+        "HTRC*" : "RFID",
+        "P82B*" : "Interface_Expansion",
+        "SAA7*" : "Video",
+        "PCA9*" : "Interface_Expansion"
     },
 
     "pspice" : "",
