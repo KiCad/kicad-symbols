@@ -1,0 +1,57 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADS7843E
+D Single-supply, 12bit, 4 ch, touch screen driver, 2.2 - 5.25 VDD, -40 to +85 C, QSPI, SPI, 3-wire serial interface, SSOP-16
+K Single-supply, 12bit, 4 ch, touch screen driver, 2.2 - 5.25 VDD, -40 to +85 C, QSPI, SPI, 3-wire serial interface, SSOP-16
+F http://www.ti.com/lit/ds/symlink/ads7843.pdf
+$ENDCMP
+#
+$CMP ADS7843E-2K5
+D Single-supply, 12bit, 4 ch, touch screen driver, 2.2 - 5.25 VDD, -40 to +85 C, QSPI, SPI, 3-wire serial interface, SSOP-16
+K Single-supply, 12bit, 4 ch, touch screen driver, 2.2 - 5.25 VDD, -40 to +85 C, QSPI, SPI, 3-wire serial interface, SSOP-16
+F http://www.ti.com/lit/ds/symlink/ads7843.pdf
+$ENDCMP
+#
+$CMP ADS7843EG4
+D Single-supply, 12bit, 4 ch, touch screen driver, 2.2 - 5.25 VDD, -40 to +85 C, QSPI, SPI, 3-wire serial interface, SSOP-16
+K Single-supply, 12bit, 4 ch, touch screen driver, 2.2 - 5.25 VDD, -40 to +85 C, QSPI, SPI, 3-wire serial interface, SSOP-16
+F http://www.ti.com/lit/ds/symlink/ads7843.pdf
+$ENDCMP
+#
+$CMP ADS7843IDBQRQ1
+D Single-supply, 12bit, 4 ch, touch screen driver, 2.2 - 5.25 VDD, -40 to +125 C, QSPI, SPI, 3-wire serial interface, SSOP-16
+K Single-supply, 12bit, 4 ch, touch screen driver, 2.2 - 5.25 VDD, -40 to +125 C, QSPI, SPI, 3-wire serial interface, SSOP-16
+F http://www.ti.com/lit/ds/symlink/ads7843-q1.pdf
+$ENDCMP
+#
+$CMP AY0438X-L
+D 32-Segment CMOS LCD Driver, CMOS and TTL-compatible inputs, VDD +3.0V to +8.5V, PLCC-44
+K driver display
+F http://www.farnell.com/datasheets/43336.pdf
+$ENDCMP
+#
+$CMP AY0438X-P
+D 32-Segment CMOS LCD Driver, CMOS and TTL-compatible inputs, VDD +3.0V to +8.5V, DIP-40
+K driver display
+F http://www.farnell.com/datasheets/43336.pdf
+$ENDCMP
+#
+$CMP CR2013-MI2120
+D ILI9341 controller, SPI TFT LCD Display, 9-pin breakout PCB, 4-pin SD card interface, 5V/3.3V
+K driver display
+F http://pan.baidu.com/s/11Y990
+$ENDCMP
+#
+$CMP XPT2046QF
+D Single-supply, 12bit, 4 ch, touch screen driver, 2.2 - 5.25 VDD, -40 to +85 C, QSPI, SPI, 3-wire serial interface, QFN-16
+K Single-supply, 12bit, 4 ch, touch screen driver, 2.2 - 5.25 VDD, -40 to +85 C, QSPI, SPI, 3-wire serial interface, QFN-16
+F http://www.xptek.com.cn/uploadfile/download/201707171401161883.pdf
+$ENDCMP
+#
+$CMP XPT2046TS
+D Single-supply, 12bit, 4 ch, touch screen driver, 2.2 - 5.25 VDD, -40 to +85 C, QSPI, SPI, 3-wire serial interface, TSSOP-16
+K Single-supply, 12bit, 4 ch, touch screen driver, 2.2 - 5.25 VDD, -40 to +85 C, QSPI, SPI, 3-wire serial interface, TSSOP-16
+F http://www.xptek.com.cn/uploadfile/download/201707171401161883.pdf
+$ENDCMP
+#
+#End Doc Library
