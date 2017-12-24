@@ -25,85 +25,79 @@ F https://datasheets.maximintegrated.com/en/ds/DS1621.pdf
 $ENDCMP
 #
 $CMP DS1821C
-D Programmable Digital Thermostat and Thermometer TO-92
+D Programmable Digital Thermostat and Thermometer, TO-92
 K OneWire 1Wire Maxim Dallas
 F http://datasheets.maximintegrated.com/en/ds/DS1821.pdf
 $ENDCMP
 #
 $CMP DS1822
-D Econo 1-Wire Digital Thermometer TO-92
+D Econo 1-Wire Digital Thermometer, TO-92
 K OneWire 1Wire Dallas Maxim
 F http://datasheets.maximintegrated.com/en/ds/DS1822.pdf
 $ENDCMP
 #
 $CMP DS1822-PAR
-D Econo 1-Wire Parasite-Power Digital Thermometer TO-92
+D Econo 1-Wire Parasite-Power Digital Thermometer, TO-92
 K OneWire 1Wire Maxim Dallas
 F http://datasheets.maximintegrated.com/en/ds/DS1822-PAR.pdf
 $ENDCMP
 #
 $CMP DS1822Z
-D Econo 1-Wire Digital Thermometer SOIC-8
+D Programmable Resolution 1-Wire Digital Thermometer, SOIC-8
 K OneWire 1-Wire 1Wire Maxim Dallas
-F http://datasheets.maximintegrated.com/en/ds/DS1822.pdf
+F https://datasheets.maximintegrated.com/en/ds/DS1822.pdf
 $ENDCMP
 #
 $CMP DS1825
-D Programmable Resolution 1-Wire Digital Thermometer With 4-Bit ID MSOP-8
+D 1-Wire Digital Temperature Sensor, MSOP-8
 K 1Wire OneWire Maxim Dallas
-F http://datasheets.maximintegrated.com/en/ds/DS1825.pdf
+F https://datasheets.maximintegrated.com/en/ds/DS1825.pdf
 $ENDCMP
 #
 $CMP DS18B20
-D Programmable Resolution 1-Wire Digital Thermometer TO-92
+D Programmable Resolution 1-Wire Digital Thermometer, TO-92
 K OneWire 1Wire Dallas Maxim
 F http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf
 $ENDCMP
 #
 $CMP DS18B20-PAR
-D 1-Wire Parasite-Power Digital Thermometer TO-92
+D 1-Wire Parasite-Power Digital Thermometer, TO-92
 K OneWire 1Wire Maxim Dallas
 F http://datasheets.maximintegrated.com/en/ds/DS18B20-PAR.pdf
 $ENDCMP
 #
 $CMP DS18B20U
-D Programmable Resolution 1-Wire Digital Thermometer MSOP-8
+D Programmable Resolution 1-Wire Digital Thermometer, MSOP-8
 K OneWire 1-Wire 1Wire Maxim Dallas
-F http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf
+F https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf
 $ENDCMP
 #
 $CMP DS18B20Z
-D Programmable Resolution 1-Wire Digital Thermometer SOIC-8
-K OneWire 1Wire Maxim Dallas
-F http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf
+D Programmable Resolution 1-Wire Digital Thermometer, SOIC-8
+K OneWire 1-Wire 1Wire Maxim Dallas
+F https://datasheets.maximintegrated.com/en/ds/DS18B20.pdf
 $ENDCMP
 #
 $CMP DS18S20
-D High-Precision 1-Wire Digital Thermometer TO-92
+D High-Precision 1-Wire Digital Thermometer, TO-92
 K OneWire 1Wire Maxim Dallas
 F http://datasheets.maximintegrated.com/en/ds/DS18S20.pdf
 $ENDCMP
 #
 $CMP DS18S20-PAR
-D 1-Wire Parasite-Power Digital Thermometer TO-92
+D 1-Wire Parasite-Power Digital Thermometer, TO-92
 K OneWire 1Wire Maxim Dallas
 F http://datasheets.maximintegrated.com/en/ds/DS18S20-PAR.pdf
 $ENDCMP
 #
 $CMP DS18S20Z
-D High-Precision 1-Wire Digital Thermometer SOIC-8
-K OneWire 1Wire Dallas Maxim
-F http://datasheets.maximintegrated.com/en/ds/DS18S20.pdf
-$ENDCMP
-#
-$CMP DS2401
-D Silicon Serial Number TO-92
-K OneWire 1Wire Maxim Dallas ID
-F http://pdfserv.maximintegrated.com/en/ds/DS2401.pdf
+D Programmable Resolution 1-Wire Digital Thermometer, SOIC-8
+K OneWire 1-Wire 1Wire Maxim Dallas
+F https://datasheets.maximintegrated.com/en/ds/DS18S20.pdf
 $ENDCMP
 #
 $CMP DS28EA00
-D 1-Wire Digital Thermometer with Sequence Detect and PIO
+D 1-Wire Digital Thermometer with Sequence Detect and PIO, MSOP-8
 K 1Wire OneWire Maxim Dallas
 F http://datasheets.maximintegrated.com/en/ds/DS28EA00.pdf
 $ENDCMP
@@ -216,70 +210,22 @@ K temperature sensor thermistor ntc
 F http://www.ti.com/lit/ds/symlink/lmt87-q1.pdf
 $ENDCMP
 #
-$CMP LTC2983
-D Multi-Sensor Temperature Measurement System, High Accuracy, LQFP-48 (7x7mm)
-K Flexible Temperature Measurement RTD NTC Cold Junction Termocouple
-F http://cds.linear.com/docs/en/datasheet/2983f.pdf
-$ENDCMP
-#
 $CMP MAX31820
-D 1-Wire Ambient Temperature Sensor TO-92
+D 1-Wire Ambient Temperature Sensor, TO-92
 K OneWire 1-Wire 1Wire Maxim Dallas
 F http://datasheets.maximintegrated.com/en/ds/MAX31820.pdf
 $ENDCMP
 #
 $CMP MAX31820PAR
-D 1-Wire, Parasite-Power, Ambient Temperature Sensor TO-92
+D 1-Wire, Parasite-Power, Ambient Temperature Sensor, TO-92
 K OneWire 1-Wire 1Wire Maxim Dallas
 F http://datasheets.maximintegrated.com/en/ds/MAX31820PAR.pdf
 $ENDCMP
 #
 $CMP MAX31826
-D 1-Wire Digital Temperature Sensor with 1Kb Lockable EEPROM MSOP-8
+D 1-Wire Digital Temperature Sensor with 1Kb Lockable EEPROM, MSOP-8
 K 1Wire OneWire Maxim Dallas
 F http://datasheets.maximintegrated.com/en/ds/MAX31826.pdf
-$ENDCMP
-#
-$CMP MAX31855EASA
-D Cold Junction E-type Termocouple Interface, SPI, SO8
-K Cold Junction Termocouple Interface SPI
-F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
-$ENDCMP
-#
-$CMP MAX31855JASA
-D Cold Junction J-type Termocouple Interface, SPI, SO8
-K Cold Junction Termocouple Interface SPI
-F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
-$ENDCMP
-#
-$CMP MAX31855KASA
-D Cold Junction K-type Termocouple Interface, SPI, SO8
-K Cold Junction Termocouple Interface SPI
-F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
-$ENDCMP
-#
-$CMP MAX31855NASA
-D Cold Junction N-type Termocouple Interface, SPI, SO8
-K Cold Junction Termocouple Interface SPI
-F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
-$ENDCMP
-#
-$CMP MAX31855RASA
-D Cold Junction R-type Termocouple Interface, SPI, SO8
-K Cold Junction Termocouple Interface SPI
-F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
-$ENDCMP
-#
-$CMP MAX31855SASA
-D Cold Junction S-type Termocouple Interface, SPI, SO8
-K Cold Junction Termocouple Interface SPI
-F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
-$ENDCMP
-#
-$CMP MAX31855TASA
-D Cold Junction T-type Termocouple Interface, SPI, SO8
-K Cold Junction Termocouple Interface SPI
-F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
 $ENDCMP
 #
 $CMP MAX31856

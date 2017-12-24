@@ -22,12 +22,6 @@ K memory SRAM
 F http://www.alliancememory.com/pdf/AS6C1616(1).pdf
 $ENDCMP
 #
-$CMP CY7C185
-D 64-Kbit (8K x 8) Static RAM
-K static ram
-F http://www.cypress.com/file/42686/download
-$ENDCMP
-#
 $CMP DRAM_1MX16_SOJ
 D DRAM 16 MBits (1M x 16bits)
 K DRAM 2MO

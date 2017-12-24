@@ -6,99 +6,27 @@ K led rgb diode
 F http://www.cree.com/led-components/media/documents/CLV1L-FKB-1238.pdf
 $ENDCMP
 #
-$CMP HDSP-4830
-D 10-element LED arrays, high effecient red
-K display LED array
-F https://docs.broadcom.com/docs/AV02-1798EN
-$ENDCMP
-#
-$CMP HDSP-4830_2
-D BAR GRAPH 10 segment block, high efficiency red
-K display LED array
-F https://docs.broadcom.com/docs/AV02-1798EN
-$ENDCMP
-#
-$CMP HDSP-4832
-D 10-element LED arrays, Mix of high effecient red, yellow and green
-K display LED array
-F https://docs.broadcom.com/docs/AV02-1798EN
-$ENDCMP
-#
-$CMP HDSP-4832_2
-D BAR GRAPH 10 segment block, Mix of high efficiency red, yellow and green
-K display LED array
-F https://docs.broadcom.com/docs/AV02-1798EN
-$ENDCMP
-#
-$CMP HDSP-4836
-D 10-element LED arrays, Mix of high effecient red, yellow and green
-K display LED array
-F https://docs.broadcom.com/docs/AV02-1798EN
-$ENDCMP
-#
-$CMP HDSP-4836_2
-D BAR GRAPH 10 segment block, Mix of high efficiency red, yellow and green
-K display LED array
-F https://docs.broadcom.com/docs/AV02-1798EN
-$ENDCMP
-#
-$CMP HDSP-4840
-D 10-element LED arrays, Yellow
-K display LED array
-F https://docs.broadcom.com/docs/AV02-1798EN
-$ENDCMP
-#
-$CMP HDSP-4840_2
-D BAR GRAPH 10 segment block, yellow
-K display LED array
-F https://docs.broadcom.com/docs/AV02-1798EN
-$ENDCMP
-#
-$CMP HDSP-4850
-D 10-element LED arrays, Green
-K display LED array
-F https://docs.broadcom.com/docs/AV02-1798EN
-$ENDCMP
-#
-$CMP HDSP-4850_2
-D BAR GRAPH 10 segment block, green
-K display LED array
-F https://docs.broadcom.com/docs/AV02-1798EN
-$ENDCMP
-#
-$CMP HLCP-J100
-D 10-element LED arrays, AIGaAs Red
-K display LED array
-F https://docs.broadcom.com/docs/AV02-1798EN
-$ENDCMP
-#
-$CMP HLCP-J100_2
-D BAR GRAPH 10 segment block, AlGaAs red
-K display LED array
-F https://docs.broadcom.com/docs/AV02-1798EN
-$ENDCMP
-#
 $CMP LED_Cree_XHP50_12V
 D XLamp® XHP50 LED, 12V footprint (all 4 LEDs in series)
-K led diode
+K led diode 
 F http://www.cree.com/%7E/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf
 $ENDCMP
 #
 $CMP LED_Cree_XHP50_6V
 D XLamp® XHP50 LED, 6V footprint (2x2 serial LEDs in parallel)
-K led diode
+K led diode 
 F http://www.cree.com/%7E/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf
 $ENDCMP
 #
 $CMP LED_Cree_XHP70_12V
 D XLamp® XHP70 LED, 12V footprint (all 4 LEDs in series)
-K led diode
+K led diode 
 F http://www.cree.com/%7E/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
 $ENDCMP
 #
 $CMP LED_Cree_XHP70_6V
 D XLamp® XHP70 LED, 6V footprint (2x2 serial LEDs in parallel)
-K led diode
+K led diode 
 F http://www.cree.com/%7E/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
 $ENDCMP
 #
