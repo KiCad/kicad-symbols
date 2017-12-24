@@ -1,0 +1,57 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD9834
+D 10 bit 75 MHz Complete Direct Digital Synthesizer, 2.3 V to 5.5 V, 20 mW, TSSOP-20
+K Direct Digital Synthesizer DDS
+F http://www.analog.com/static/imported-files/data_sheets/AD9834.pdf
+$ENDCMP
+#
+$CMP AD9951
+D 14-Bit Direct Digital Synthesizer with 400MSPS DAC, 1.8V, TQFP48
+K Direct Digital Synthesizer DDS
+F http://www.analog.com/static/imported-files/data_sheets/AD9951.pdf
+$ENDCMP
+#
+$CMP DS90C124
+D DC-Balanced 24-Bit FPD-Link II Deserializer, TQFP-48
+K DC-Balanced 24-Bit FPD-Link II Deserializer
+F http://www.ti.com/lit/ds/symlink/ds90c241.pdf
+$ENDCMP
+#
+$CMP DS90C241
+D DC-Balanced 24-Bit FPD-Link II Serializer, TQFP-48
+K DC-Balanced 24-Bit FPD-Link II Serializer
+F http://www.ti.com/lit/ds/symlink/ds90c241.pdf
+$ENDCMP
+#
+$CMP FD1771
+D Floppy disk controller, DIP-40
+K Floppy disk controller
+F https://amaus.net/static/S100/western%20digital/datasheet/Western%20Digital%20FD1771%20Specification%20197710.pdf
+$ENDCMP
+#
+$CMP PCI9030-PQFP176
+D PCI SMARTarget I/O Accelerator
+K PCI
+F http://lhcb-online.web.cern.ch/lhcb-online/ecs/ccpc/docs/plc-9030-databook.pdf
+$ENDCMP
+#
+$CMP S5933_PQ160
+D PCI 2.1 Compliant Master/Slave Device, PQFP-160
+K PCI 2.1 Compliant Master/Slave Device
+F http://datasheet.datasheetarchive.com/originals/distributors/Datasheets-35/DSA-684194.pdf
+$ENDCMP
+#
+$CMP SI9986
+D Integrated, buffered H-bridge with TTL compatible inputs, 1A, 12V, SOIC-8
+K integrated, buffered H-bridge
+F http://www.vishay.com/docs/70007/si9986.pdf
+$ENDCMP
+#
+$CMP U2270B
+D IDIC read/write base stations in contactless identification and immobilizer systems, SO-16
+K IDIC read/write base stations in contactless identification and immobilizer systems
+F http://www.farnell.com/datasheets/94393.pdf
+$ENDCMP
+#
+#End Doc Library

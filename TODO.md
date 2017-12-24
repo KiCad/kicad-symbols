@@ -1,9 +1,9 @@
 ## Outstanding symbol libraries
 
 - [ ] ac-dc
-- [ ] adc-dac
+- [x] adc-dac
 - [x] Altera
-- [ ] analog_devices
+- [x] analog_devices
 - [x] analog_switches
 - [ ] atmel
 - [ ] audio
@@ -13,13 +13,13 @@
 - [x] brooktre
 - [x] Connector
 - [x] contrib
-- [ ] cypress
-- [ ] dc-dc
+- [x] cypress
+- [x] dc-dc
 - [x] Decawave
-- [ ] device
+- [x] device
 - [x] digital-audio
 - [x] Diode
-- [ ] Display
+- [x] Display
 - [x] driver_gate
 - [x] dsp
 - [x] DSP_Microchip_DSPIC33
@@ -27,14 +27,14 @@
 - [x] ESD_Protection
 - [x] Espressif
 - [x] FPGA_Actel
-- [ ] ftdi
+- [x] ftdi
 - [x] gennum
 - [x] Graphic
 - [x] hc11
 - [ ] infineon
 - [ ] intel
-- [ ] interface
-- [ ] intersil
+- [x] interface
+- [x] intersil
 - [ ] ir
 - [x] Lattice
 - [x] LED
@@ -46,7 +46,7 @@
 - [x] Logic_CMOS_IEEE
 - [x] logic_programmable
 - [x] Logic_TTL_IEEE
-- [ ] maxim
+- [x] maxim
 - [x] MCU_Microchip_PIC10
 - [x] MCU_Microchip_PIC12
 - [x] MCU_Microchip_PIC16
@@ -62,10 +62,10 @@
 - [x] MCU_Texas_MSP430
 - [x] memory
 - [x] Mechanical
-- [ ] microchip
+- [x] microchip
 - [x] microcontrollers
 - [ ] modules
-- [ ] motor_drivers
+- [x] motor_drivers
 - [x] Motor
 - [ ] motorola
 - [x] nordicsemi
@@ -102,4 +102,4 @@
 - [ ] Xicor
 - [ ] xilinx
 - [x] zetex
-- [ ] Zilog
+- [x] Zilog

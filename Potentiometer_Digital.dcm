@@ -1,0 +1,105 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD5280
+D Digital potentiometer, 256 position, single output, I2C interface
+K digital potentiometer
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5280_5282.pdf
+$ENDCMP
+#
+$CMP AD5282
+D Digital potentiometer, 256 position, dual output, I2C interface
+K digital potentiometer
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5280_5282.pdf
+$ENDCMP
+#
+$CMP AD5290
+D Digital Potentiometer  256 steps   (SPI control) +- 15V, MSOP-10
+K R POT
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5290.pdf
+$ENDCMP
+#
+$CMP AD5293
+D Digital potentiometer 1024 pos (SPI), TSSOP-14
+K R POT
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5293.pdf
+$ENDCMP
+#
+$CMP DS1267_DIP
+D Dual Digital Potentiometer, Serial, 256 Steps, DIP-14
+K Dual Digital Potentiometer Maxim
+F https://datasheets.maximintegrated.com/en/ds/DS1267.pdf
+$ENDCMP
+#
+$CMP DS1267_SOIC
+D Dual Digital Potentiometer, Serial, 256 Steps, SOIC-16
+K Dual Digital Potentiometer Maxim
+F https://datasheets.maximintegrated.com/en/ds/DS1267.pdf
+$ENDCMP
+#
+$CMP DS1267_TSSOP
+D Dual Digital Potentiometer, Serial, 256 Steps, TSSOP-20
+K Dual Digital Potentiometer Maxim
+F https://datasheets.maximintegrated.com/en/ds/DS1267.pdf
+$ENDCMP
+#
+$CMP MCP41010
+D Single Digital Potentiometer, SPI interface, 256 taps, 10 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP41050
+D Single Digital Potentiometer, SPI interface, 256 taps, 50 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP41100
+D Single Digital Potentiometer, SPI interface, 256 taps, 100 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP42010
+D Dual Digital Potentiometer, SPI interface, 256 taps, 10 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP42050
+D Dual Digital Potentiometer, SPI interface, 256 taps, 50 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP42100
+D Dual Digital Potentiometer, SPI interface, 256 taps, 100 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP45HV31-MQ
+D 7/8-bit single +36V (+/-18V) digital pot, I2C serial interface, volatile memory, QFN-20
+K I2C Potentiometer pot digital
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005304A.pdf
+$ENDCMP
+#
+$CMP MCP45HV31-ST
+D 7/8-bit single +36V (+/-18V) digital pot, I2C serial interface, volatile memory, TSSOP-14
+K I2C Potentiometer pot digital
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005304A.pdf
+$ENDCMP
+#
+$CMP MCP45HV51-MQ
+D 7/8-bit single +36V (+/-18V) digital pot, I2C serial interface, volatile memory, QFN-20
+K I2C Potentiometer pot digital
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005304A.pdf
+$ENDCMP
+#
+$CMP MCP45HV51-ST
+D 7/8-bit single +36V (+/-18V) digital pot, I2C serial interface, volatile memory, TSSOP-14
+K I2C Potentiometer pot digital
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005304A.pdf
+$ENDCMP
+#
+#End Doc Library

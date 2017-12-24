@@ -1,0 +1,57 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Jumper_2_Bridged
+D Jumper, 2-pole, closed/bridged
+K Jumper SPST
+F ~
+$ENDCMP
+#
+$CMP Jumper_2_Open
+D Jumper, 2-pole, open
+K Jumper SPST
+F ~
+$ENDCMP
+#
+$CMP Jumper_3_Bridged12
+D Jumper, 3-pole, pins 1+2 closed/bridged
+K Jumper SPDT
+F ~
+$ENDCMP
+#
+$CMP Jumper_3_Open
+D Jumper, 3-pole, both open
+K Jumper SPDT
+F ~
+$ENDCMP
+#
+$CMP SolderJumper_2_Bridged
+D Solder Jumper, 2-pole, closed/bridged
+K solder jumper SPST
+F ~
+$ENDCMP
+#
+$CMP SolderJumper_2_Open
+D Solder Jumper, 2-pole, open
+K solder jumper SPST
+F ~
+$ENDCMP
+#
+$CMP SolderJumper_3_Bridged12
+D 3-pole Solder Jumper, pins 1+2 closed/bridged
+K Solder Jumper SPDT
+F ~
+$ENDCMP
+#
+$CMP SolderJumper_3_Bridged123
+D Solder Jumper, 3-pole, pins 1+2+3 closed/bridged
+K Solder Jumper SPDT
+F ~
+$ENDCMP
+#
+$CMP SolderJumper_3_Open
+D Solder Jumper, 3-pole, open
+K Solder Jumper SPDT
+F ~
+$ENDCMP
+#
+#End Doc Library

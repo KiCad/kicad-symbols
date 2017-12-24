@@ -1,0 +1,201 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP A4950E
+D Full-Bridge, DMOS PWM, Motor Driver, 40V, 3.5A, -40 to +85C
+K full-bridge h-bridge
+F http://www.allegromicro.com/~/media/Files/Datasheets/A4950-Datasheet.ashx
+$ENDCMP
+#
+$CMP A4950K
+D Full-Bridge, DMOS PWM, Motor Driver, 40V, 3.5A, -40 to +125C
+K full-bridge h-bridge
+F http://www.allegromicro.com/~/media/Files/Datasheets/A4950-Datasheet.ashx
+$ENDCMP
+#
+$CMP A4952_LY
+D Full-Bridge, DMOS PWM, Motor Driver, 40V, 2A, MSOP-10
+K Full-bridge h-bridge
+F www.allegromicro.com/~/media/Files/Datasheets/A4952-3-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP A4953_LJ
+D Full-Bridge, DMOS PWM, Motor Driver, 40V, 2A, SOIC-8
+K Full-bridge h-bridge
+F www.allegromicro.com/~/media/Files/Datasheets/A4952-3-Datasheet.ashx?la=en
+$ENDCMP
+#
+$CMP DRV8308
+D Brushless DC motor controller, closed loop, hall sensor inputs, current limiting, SPI interface
+K bldc mosfet-driver hall-sensor
+F http://www.ti.com/lit/ds/symlink/drv8308.pdf
+$ENDCMP
+#
+$CMP DRV8711
+D Stepper motor controller, external N-channel MOSFET, single bipolar stepper motor, dual brushed DC motors
+K Stepper driver
+F http://www.ti.com/lit/ds/slvsc40f/slvsc40f.pdf
+$ENDCMP
+#
+$CMP DRV8833PW
+D Dual H-Bridge Motor Driver, TSSOP-16
+K H-bridge motor driver
+F http://www.ti.com/lit/ds/symlink/drv8833.pdf
+$ENDCMP
+#
+$CMP DRV8833PWP
+D Dual H-Bridge Motor Driver, HTSSOP-16
+K H-bridge motor driver
+F http://www.ti.com/lit/ds/symlink/drv8833.pdf
+$ENDCMP
+#
+$CMP DRV8833RTY
+D Dual H-Bridge Motor Driver, WQFN-16
+K H-bridge motor driver
+F http://www.ti.com/lit/ds/symlink/drv8833.pdf
+$ENDCMP
+#
+$CMP L293
+D Quadruple Half-H Drivers
+K Half-H Driver Motor
+F http://www.ti.com/lit/ds/symlink/l293.pdf
+$ENDCMP
+#
+$CMP L293D
+D Quadruple Half-H Drivers
+K Half-H Driver Motor
+F http://www.ti.com/lit/ds/symlink/l293.pdf
+$ENDCMP
+#
+$CMP L297
+D Stepper Motor Controller, DIP-20/SO-20
+K Stepper Motor Controller
+F www.st.com/resource/en/datasheet/cd00000063.pdf
+$ENDCMP
+#
+$CMP L298HN
+D Dual full bridge motor driver, up to 46V, 4A, Multiwatt-15
+K H-bridge motor driver
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000240.pdf
+$ENDCMP
+#
+$CMP L298P
+D Dual full bridge motor driver, up to 46V, 4A
+K H-bridge motor driver
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000240.pdf
+$ENDCMP
+#
+$CMP PG001M
+D Parallel to serial data converter for SLA7042M/SLA7044M
+K Support IC for SLA7042M/SLA7044M
+F http://www.allegromicro.com/~/media/Files/Sanken/Datasheets/PG001M-Datasheet.ashx
+$ENDCMP
+#
+$CMP SLA7042M
+D Unipolar PWM high-current motor driver
+K Stepper driver
+F www.sumzi.com/upload/files/2007/07/2007073114282034189.PDF
+$ENDCMP
+#
+$CMP SLA7044M
+D Unipolar PWM high-current motor driver
+K Stepper driver
+F http://www.sumzi.com/upload/files/2007/07/2007073114282034189.PDF
+$ENDCMP
+#
+$CMP SLA7070MPRT
+D Unipolar 2-phase stepper motor driver, Full and Half step, 1A
+K Stepper driver
+F http://www.semicon.sanken-ele.co.jp/sk_content/sla7070mprt_ds_en.pdf
+$ENDCMP
+#
+$CMP SLA7071MPRT
+D Unipolar 2-phase stepper motor driver, Full and Half step, 1.5A
+K Stepper driver
+F http://www.semicon.sanken-ele.co.jp/sk_content/sla7071mprt_ds_en.pdf
+$ENDCMP
+#
+$CMP SLA7072MPRT
+D Unipolar 2-phase stepper motor driver, Full and Half step, 2A
+K Stepper driver
+F http://www.semicon.sanken-ele.co.jp/sk_content/sla7072mprt_ds_en.pdf
+$ENDCMP
+#
+$CMP SLA7073MPRT
+D Unipolar 2-phase stepper motor driver, Full and Half step, 3A
+K Stepper driver
+F http://www.semicon.sanken-ele.co.jp/sk_content/sla7073mprt_ds_en.pdf
+$ENDCMP
+#
+$CMP SLA7075MPRT
+D Unipolar 2-phase stepper motor driver, Microstep, 1A
+K Stepper driver
+F http://www.semicon.sanken-ele.co.jp/sk_content/sla7075mprt_ds_en.pdf
+$ENDCMP
+#
+$CMP SLA7076MPRT
+D Unipolar 2-phase stepper motor driver, Microstep, 1.5A
+K Stepper driver
+F http://www.semicon.sanken-ele.co.jp/sk_content/sla7076mprt_ds_en.pdf
+$ENDCMP
+#
+$CMP SLA7077MPRT
+D Unipolar 2-phase stepper motor driver, Microstep, 2A
+K Stepper driver
+F http://www.semicon.sanken-ele.co.jp/sk_content/sla7077mprt_ds_en.pdf
+$ENDCMP
+#
+$CMP SLA7078MPRT
+D Unipolar 2-phase stepper motor driver, Microstep, 3A
+K Stepper driver
+F http://www.semicon.sanken-ele.co.jp/sk_content/sla7078mprt_ds_en.pdf
+$ENDCMP
+#
+$CMP STK672-040-E
+D Stepper motor driver with microstepping controller, 1.5A
+K Stepper driver
+F http://www.onsemi.com/pub_link/Collateral/EN5227-D.PDF
+$ENDCMP
+#
+$CMP STK672-080-E
+D Stepper motor driver with microstepping controller, 2.8A
+K Stepper driver
+F http://www.onsemi.com/pub_link/Collateral/EN6507-D.PDF
+$ENDCMP
+#
+$CMP STSPIN220
+D Low voltage stepper motor driver, 1.8V to 10V input, 1.3Arms output, 0.4Ω Rdson per phase (typical), QFN-16 package
+K motor driver stepper
+F www.st.com/resource/en/datasheet/stspin220.pdf
+$ENDCMP
+#
+$CMP STSPIN230
+D Low voltage triple half-bridge motor driver, 1.8V to 10V input, 1.3Arms output, 0.4Ω Rdson per phase (typical), QFN-16 package
+K motor driver half-bridge
+F www.st.com/resource/en/datasheet/stspin230.pdf
+$ENDCMP
+#
+$CMP STSPIN240
+D Low voltage dual brush DC motor driver, 1.8V to 10V input, 1.3Arms output, 0.4Ω Rdson per phase (typical), QFN-16 package
+K motor driver dc brushed
+F www.st.com/resource/en/datasheet/stspin240.pdf
+$ENDCMP
+#
+$CMP TB6612FNG
+D Driver IC for Dual DC motor, SSOP-24
+K H-bridge motor driver
+F https://toshiba.semicon-storage.com/us/product/linear/motordriver/detail.TB6612FNG.html
+$ENDCMP
+#
+$CMP TMC262
+D Driver for two-phase stepper motors with external mosfet
+K trinamic tlc262 stepper
+F http://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC262_datasheet.pdf
+$ENDCMP
+#
+$CMP VNH2SP30
+D Full Bridge Motor Driver, 41V, 30A, -40 to 150C
+K full-bridge h-bridge
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/group2/66/b8/f5/2c/9a/66/41/c7/CD00043711/files/CD00043711.pdf/jcr:content/translations/en.CD00043711.pdf
+$ENDCMP
+#
+#End Doc Library

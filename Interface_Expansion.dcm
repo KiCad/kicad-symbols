@@ -1,0 +1,45 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX7325AEG+
+D I2C Port Expander with 8 Push-Pull and 8 Open-Drain I/Os, QSOP-24 package
+K Expander I2C Parallel Port GPIO Maxim
+F https://datasheets.maximintegrated.com/en/ds/MAX7325.pdf
+$ENDCMP
+#
+$CMP STMPE1600
+D IO expander 16 GPIO, I2C 400kHz, Interrupt, 1.65 - 3.6V, QFN24
+K IO expander 16 GPIO
+F http://www.st.com/resource/en/datasheet/stmpe1600.pdf
+$ENDCMP
+#
+$CMP TCA9534
+D 8 Bit Port/Expander, I2C SMBUS, Interrupt output, TSSOP-16, SOIC-20
+K SMBUS I2C Expander
+F http://www.ti.com/lit/ds/symlink/tca9534.pdf
+$ENDCMP
+#
+$CMP TCA9544A
+D I2C Hub, 4 Channels, Interrupts, TSSOP-20
+K I2C Hub
+F http://www.ti.com/lit/ds/symlink/tca9544a.pdf
+$ENDCMP
+#
+$CMP TCA9548AMRGER
+D Low voltage 8-channel I2C switch with reset, QFN-24
+K Low voltage 8-channel I2C switch with reset
+F http://www.ti.com/lit/ds/symlink/tca9548a.pdf
+$ENDCMP
+#
+$CMP TCA9548APWR
+D Low voltage 8-channel I2C switch with reset, TSSOP-24
+K Low voltage 8-channel I2C switch with reset
+F http://www.ti.com/lit/ds/symlink/tca9548a.pdf
+$ENDCMP
+#
+$CMP TCA9548ARGER
+D Low voltage 8-channel I2C switch with reset, QFN-24
+K Low voltage 8-channel I2C switch with reset
+F http://www.ti.com/lit/ds/symlink/tca9548a.pdf
+$ENDCMP
+#
+#End Doc Library

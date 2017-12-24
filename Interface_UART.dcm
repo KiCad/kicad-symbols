@@ -1,0 +1,350 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADM101E
+D Single RS232 driver/receiver, 5V supply, 460kb/s
+K rs232 uart transceiver line-driver
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM101E.pdf
+$ENDCMP
+#
+$CMP ADM222
+D Dual RS232 driver/receiver, 5V supply, 200kb/s
+K rs232 uart transceiver
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
+$ENDCMP
+#
+$CMP ADM232A
+D Dual RS232 driver/receiver, 5V supply, 200kb/s
+K rs232 uart transceiver line-driver
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
+$ENDCMP
+#
+$CMP ADM242
+D Dual RS232 driver/receiver, 5V supply, 200kb/s, separate shutdown/enable pins
+K rs232 uart transceiver
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
+$ENDCMP
+#
+$CMP ADM2484E
+D Isolated RS485/RS422 Transceiver, Half-/Full-Duplex, 500kbps,SOIC-16W
+K RS485 Transceiver RS422 Transceiver
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM2484E.pdf
+$ENDCMP
+#
+$CMP ADM2582E
+D Isolated RS485/RS422 Transciever,Integrated Isolated DC-DC Converter, 16Mbps,SO-20
+K RS485 Transciever,RS422 Transciever
+F www.analog.com/media/en/technical-documentation/data-sheets/ADM2582E_2587E.pdf
+$ENDCMP
+#
+$CMP ADM2587E
+D Isolated RS485/RS422 Transciever,Integrated Isolated DC-DC Converter, 500kbps,SO-20
+K RS485 Transciever,RS422 Transciever
+F www.analog.com/media/en/technical-documentation/data-sheets/ADM2582E_2587E.pdf
+$ENDCMP
+#
+$CMP GD65232DB
+D Multiple RS-232 Driver and Receiver, SSOP-20
+K RS232 UART Driver Receiver Interface
+F http://www.ti.com/lit/ds/symlink/gd75232.pdf
+$ENDCMP
+#
+$CMP GD65232DW
+D Multiple RS-232 Driver and Receiver, SOIC20
+K RS232 UART Driver Receiver Interface
+F http://www.ti.com/lit/ds/symlink/gd75232.pdf
+$ENDCMP
+#
+$CMP GD65232PW
+D Multiple RS-232 Driver and Receiver, TSSOP-20
+K RS232 UART Driver Receiver Interface
+F http://www.ti.com/lit/ds/symlink/gd75232.pdf
+$ENDCMP
+#
+$CMP GD75232DB
+D Multiple RS-232 Driver and Receiver, SSOP-20
+K RS232 UART Driver Receiver Interface
+F http://www.ti.com/lit/ds/symlink/gd75232.pdf
+$ENDCMP
+#
+$CMP GD75232DW
+D Multiple RS-232 Driver and Receiver, SOIC20
+K RS232 UART Driver Receiver Interface
+F http://www.ti.com/lit/ds/symlink/gd75232.pdf
+$ENDCMP
+#
+$CMP GD75232N
+D Multiple RS-232 Driver and Receiver, PDIP-20
+K RS232 UART Driver Receiver Interface
+F http://www.ti.com/lit/ds/symlink/gd75232.pdf
+$ENDCMP
+#
+$CMP GD75232PW
+D Multiple RS-232 Driver and Receiver, TSSOP-20
+K RS232 UART Driver Receiver Interface
+F http://www.ti.com/lit/ds/symlink/gd75232.pdf
+$ENDCMP
+#
+$CMP ICL3232
+D 3.0V to 5.5V, Low-Power, up to 250kbps, True RS-232 Transceivers Using Four 0.1μF External Capacitors
+K rs232 uart transceiver line-driver
+F http://www.intersil.com/content/dam/Intersil/documents/icl3/icl3221-22-23-32-41-43.pdf
+$ENDCMP
+#
+$CMP ISL83491
+D 10Mbps RS485/RS422 transceiver, full duplex, receiver/driver enable, low power shutdown
+K RS485 RS422 transceiver full duplex
+F http://www.intersil.com/content/dam/Intersil/documents/isl8/isl83483-85-88-90-91.pdf
+$ENDCMP
+#
+$CMP LT1080
+D Dual RS232 driver/receiver, 5V supply, 120kb/s
+K rs232 uart transceiver
+F http://cds.linear.com/docs/en/datasheet/10801fe.pdf
+$ENDCMP
+#
+$CMP LTC2861
+D 20Mbps RS485 transceiver with tntegrated switchable termination
+K RS485
+F linear-tec\ltc2859-2861.pdf
+$ENDCMP
+#
+$CMP MAX13432EESD
+D RS485 transceiver, full duplex, dual supply, receiver/driver enable, 500kbps, SOIC-14 package
+K rs485 transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf
+$ENDCMP
+#
+$CMP MAX13432EETD
+D RS485 transceiver, full duplex, dual supply, receiver/driver enable, 500kbps, DFN-14 package
+K rs485 transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf
+$ENDCMP
+#
+$CMP MAX13433EESD
+D RS485 transceiver, full duplex, dual supply, receiver/driver enable, 16Mbps, SOIC-14 package
+K rs485 transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf
+$ENDCMP
+#
+$CMP MAX13433EETD
+D RS485 transceiver, full duplex, dual supply, receiver/driver enable, 16Mbps, DFN-14 package
+K rs485 transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf
+$ENDCMP
+#
+$CMP MAX1487E
+D Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 128 receiver drive kapacitity, DIP-8 and SOIC-8
+K Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 128 receiver drive kapacitity, DIP-8 and SOIC-8
+F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+$ENDCMP
+#
+$CMP MAX202
+D Dual RS232 driver/receiver, 5V supply, 120kb/s, 0C-70C
+K rs232 uart transceiver line-driver
+F http://www.ti.com/lit/ds/symlink/max202.pdf
+$ENDCMP
+#
+$CMP MAX232
+D Dual RS232 driver/receiver, 5V supply, 120kb/s, 0C-70C
+K rs232 uart transceiver line-driver
+F http://www.ti.com/lit/ds/symlink/max232.pdf
+$ENDCMP
+#
+$CMP MAX232I
+D Dual RS232 driver/receiver, 5V supply, 120kb/s, -40C-80C
+K rs232 uart transceiver line-driver
+F http://www.ti.com/lit/ds/symlink/max232.pdf
+$ENDCMP
+#
+$CMP MAX3051
+D High-Speed CAN Transceiver, 1Mbps, 3.3V supply
+K High-Speed CAN Transceiver
+F http://datasheets.maximintegrated.com/en/ds/MAX3051.pdf
+$ENDCMP
+#
+$CMP MAX3072E
+D +3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers
+K Low Power Half-Duplex RS-485 RS-422 Transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf
+$ENDCMP
+#
+$CMP MAX3075E
+D +3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers
+K Low Power Half-Duplex RS-485 RS-422 Transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf
+$ENDCMP
+#
+$CMP MAX3078E
+D +3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers
+K Low Power Half-Duplex RS-485 RS-422 Transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf
+$ENDCMP
+#
+$CMP MAX3221
+D RS232 transceiver with 15kV ESD protection
+K serial UART RS232
+F http://www.ti.com/lit/ds/symlink/max3221.pdf
+$ENDCMP
+#
+$CMP MAX3226
+D Single RS232 driver/receiver, 3.0V to 5V supply, 250kb/s, AutoShutdown Plus, SSOP-16 package
+K rs232 uart transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX3224-MAX3245.pdf
+$ENDCMP
+#
+$CMP MAX3227
+D Single RS232 driver/receiver, 3.0V to 5V supply, 1Mb/s, AutoShutdown Plus, SSOP-16 package
+K rs232 uart transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX3224-MAX3245.pdf
+$ENDCMP
+#
+$CMP MAX3232
+D 3.0V to 5.5V, Low-Power, up to 1Mbps, True RS-232 Transceivers Using Four 0.1μF External Capacitors
+K rs232 uart transceiver line-driver
+F https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf
+$ENDCMP
+#
+$CMP MAX481E
+D Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, with low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8
+K Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, with low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8
+F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+$ENDCMP
+#
+$CMP MAX483E
+D Half duplex RS-485/RS-422, 0.25 Mbps, ±15kV electro-static discharge (ESD) protection, with slew-rate, with low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8
+K Half duplex RS-485/RS-422, 0.25 Mbps, ±15kV electro-static discharge (ESD) protection, with slew-rate, with low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8
+F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+$ENDCMP
+#
+$CMP MAX485E
+D Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8
+K Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8
+F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+$ENDCMP
+#
+$CMP MAX487E
+D Half duplex RS-485/RS-422, 0.25 Mbps, ±15kV electro-static discharge (ESD) protection, with slew-rate, with low-power shutdown, with receiver/driver enable, 128 receiver drive kapacitity, DIP-8 and SOIC-8
+K Half duplex RS-485/RS-422, 0.25 Mbps, ±15kV electro-static discharge (ESD) protection, with slew-rate, with low-power shutdown, with receiver/driver enable, 128 receiver drive kapacitity, DIP-8 and SOIC-8
+F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+$ENDCMP
+#
+$CMP MAX488E
+D Full duplex RS-485/RS-422, 0.25 Mbps, ±15kV electro-static discharge (ESD) protection, slew-rate limited, no low-power shutdown, no with receiver/driver enable, 32 receiver drive kapacitity, 0 to +70 degree Celcius, DIP-8 and SOIC-8
+K Full duplex RS-485/RS-422, 0.25 Mbps, ±15kV electro-static discharge (ESD) protection, slew-rate limited, no low-power shutdown, no with receiver/driver enable, 32 receiver drive kapacitity, 0 to +70 degree Celcius, DIP-8 and SOIC-8
+F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+$ENDCMP
+#
+$CMP MAX489E
+D Full duplex RS-485/RS-422, 0.25 Mbps, ±15kV electro-static discharge (ESD) protection, slew-rate limited, no low-power shutdown, with with receiver/driver enable, 32 receiver drive kapacitity, 0 to +70 degree Celcius, DIP-14 and SOIC-14
+K Full duplex RS-485/RS-422, 0.25 Mbps, ±15kV electro-static discharge (ESD) protection, slew-rate limited, no low-power shutdown, with with receiver/driver enable, 32 receiver drive kapacitity, 0 to +70 degree Celcius, DIP-14 and SOIC-14
+F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+$ENDCMP
+#
+$CMP MAX490E
+D Full duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate limited, no low-power shutdown, no with receiver/driver enable, 32 receiver drive kapacitity, -40 to +85 degree Celcius, DIP-8 and SOIC-8
+K Full duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate limited, no low-power shutdown, no with receiver/driver enable, 32 receiver drive kapacitity, -40 to +85 degree Celcius, DIP-8 and SOIC-8
+F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+$ENDCMP
+#
+$CMP MAX491E
+D Full duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate limited, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, 0 to +70 degree Celcius, DIP-14 and SOIC-14
+K Full duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate limited, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, 0 to +70 degree Celcius, DIP-14 and SOIC-14
+F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+$ENDCMP
+#
+$CMP SN65LBC176D
+D Differential bus transiver, SOIC-8
+K Differential bus transiver
+F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
+$ENDCMP
+#
+$CMP SN65LBC176P
+D Differential bus transiver, DIP-8
+K Differential bus transiver
+F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
+$ENDCMP
+#
+$CMP SN65LBC176QD
+D Differential bus transiver, SOIC-8
+K Differential bus transiver
+F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
+$ENDCMP
+#
+$CMP SN65LBC176QDR
+D Differential bus transiver, SOIC-8
+K Differential bus transiver
+F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
+$ENDCMP
+#
+$CMP SN75LBC176D
+D Differential bus transiver, SOIC-8
+K Differential bus transiver
+F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
+$ENDCMP
+#
+$CMP SN75LBC176P
+D Differential bus transiver, DIP-8
+K Differential bus transiver
+F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
+$ENDCMP
+#
+$CMP SNJ55LBC176JG
+D Differential bus transiver, ceramic DIP-8
+K Differential bus transiver
+F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
+$ENDCMP
+#
+$CMP SP3481CN
+D 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SO8
+K Low Power Half-Duplex RS-485 Transceiver 10Mbps
+F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
+$ENDCMP
+#
+$CMP SP3481CP
+D 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, DIP8
+K Low Power Half-Duplex RS-485 Transceiver 10Mbps
+F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
+$ENDCMP
+#
+$CMP SP3481EN
+D Industrial 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SO8
+K Low Power Half-Duplex RS-485 Transceiver 10Mbps
+F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
+$ENDCMP
+#
+$CMP SP3481EP
+D Industrial 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, DIP8
+K Low Power Half-Duplex RS-485 Transceiver 10Mbps
+F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
+$ENDCMP
+#
+$CMP SP3485CN
+D 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SO8
+K Low Power Half-Duplex RS-485 Transceiver 10Mbps
+F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
+$ENDCMP
+#
+$CMP SP3485CP
+D 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, DIP8
+K Low Power Half-Duplex RS-485 Transceiver 10Mbps
+F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
+$ENDCMP
+#
+$CMP SP3485EN
+D Industrial 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SO8
+K Low Power Half-Duplex RS-485 Transceiver 10Mbps
+F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
+$ENDCMP
+#
+$CMP SP3485EP
+D Industrial 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, DIP8
+K Low Power Half-Duplex RS-485 Transceiver 10Mbps
+F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
+$ENDCMP
+#
+$CMP Z8530
+D SCC Serial Communication Controller, DIP-40
+K SCC Serial Communication
+$ENDCMP
+#
+#End Doc Library

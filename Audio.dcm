@@ -108,6 +108,12 @@ K audio dac 2ch 24bit 192kHz
 F http://www.ti.com/lit/ds/symlink/pcm1794a.pdf
 $ENDCMP
 #
+$CMP PT2399
+D Echo Processor IC
+K CMOS ADC DAC 44K Digital processing VCO
+F http://sound.westhost.com/pt2399.pdf
+$ENDCMP
+#
 $CMP TLV320AIC23BPW
 D Stero Audio CODEC, 8- to 96-kHz, With Integrated Headphone Amplifier, TSSOP-28
 K audio codec 2ch 96kHz headphone amplifier
