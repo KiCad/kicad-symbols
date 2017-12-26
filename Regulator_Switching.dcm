@@ -1218,6 +1218,594 @@ K Miniature Step-Up Boost Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lmr64010.pdf
 $ENDCMP
 #
+$CMP LNK302D
+D LinkSwitch-TN Family, 80mA Output Current, SO-8C
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F http://www.powerint.com/sites/default/files/product-docs/lnk302_304-306.pdf
+$ENDCMP
+#
+$CMP LNK302G
+D LinkSwitch-TN Family, 80mA Output Current, SMD-8B
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F http://www.powerint.com/sites/default/files/product-docs/lnk302_304-306.pdf
+$ENDCMP
+#
+$CMP LNK302P
+D LinkSwitch-TN Family, 80mA Output Current, DIP-8B
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F http://www.powerint.com/sites/default/files/product-docs/lnk302_304-306.pdf
+$ENDCMP
+#
+$CMP LNK304D
+D LinkSwitch-TN Family, 170mA Output Current, SO-8C
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F http://www.powerint.com/sites/default/files/product-docs/lnk302_304-306.pdf
+$ENDCMP
+#
+$CMP LNK304G
+D LinkSwitch-TN Family, 170mA Output Current, SMD-8B
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F http://www.powerint.com/sites/default/files/product-docs/lnk302_304-306.pdf
+$ENDCMP
+#
+$CMP LNK304P
+D LinkSwitch-TN Family, 170mA Output Current, DIP-8B
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F http://www.powerint.com/sites/default/files/product-docs/lnk302_304-306.pdf
+$ENDCMP
+#
+$CMP LNK305D
+D LinkSwitch-TN Family, 280mA Output Current, SO-8C
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F http://www.powerint.com/sites/default/files/product-docs/lnk302_304-306.pdf
+$ENDCMP
+#
+$CMP LNK305G
+D LinkSwitch-TN Family, 280mA Output Current, SMD-8B
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F http://www.powerint.com/sites/default/files/product-docs/lnk302_304-306.pdf
+$ENDCMP
+#
+$CMP LNK305P
+D LinkSwitch-TN Family, 280mA Output Current, DIP-8B
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F http://www.powerint.com/sites/default/files/product-docs/lnk302_304-306.pdf
+$ENDCMP
+#
+$CMP LNK306D
+D LinkSwitch-TN Family, 360mA Output Current, SO-8C
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F http://www.powerint.com/sites/default/files/product-docs/lnk302_304-306.pdf
+$ENDCMP
+#
+$CMP LNK306G
+D LinkSwitch-TN Family, 360mA Output Current, SMD-8B
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F http://www.powerint.com/sites/default/files/product-docs/lnk302_304-306.pdf
+$ENDCMP
+#
+$CMP LNK306P
+D LinkSwitch-TN Family, 360mA Output Current, DIP-8B
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F http://www.powerint.com/sites/default/files/product-docs/lnk302_304-306.pdf
+$ENDCMP
+#
+$CMP LNK362D
+D LinkSwitch-XT Family, 2.6W Output Power, SO-8C
+K Energy Effi cient, Low Power Off-Line Switcher IC
+F http://www.powerint.com/sites/default/files/product-docs/lnk362-364.pdf
+$ENDCMP
+#
+$CMP LNK362G
+D LinkSwitch-XT Family, 2.6W Output Power, SMD-8B
+K Energy Effi cient, Low Power Off-Line Switcher IC
+F http://www.powerint.com/sites/default/files/product-docs/lnk362-364.pdf
+$ENDCMP
+#
+$CMP LNK362P
+D LinkSwitch-XT Family, 2.6W Output Power, DIP-8B
+K Energy Effi cient, Low Power Off-Line Switcher IC
+F http://www.powerint.com/sites/default/files/product-docs/lnk362-364.pdf
+$ENDCMP
+#
+$CMP LNK363D
+D LinkSwitch-XT Family, 4.7W Output Power, SO-8C
+K Energy Effi cient, Low Power Off-Line Switcher IC
+F http://www.powerint.com/sites/default/files/product-docs/lnk362-364.pdf
+$ENDCMP
+#
+$CMP LNK363G
+D LinkSwitch-XT Family, 4.7W Output Power, SMD-8B
+K Energy Effi cient, Low Power Off-Line Switcher IC
+F http://www.powerint.com/sites/default/files/product-docs/lnk362-364.pdf
+$ENDCMP
+#
+$CMP LNK363P
+D LinkSwitch-XT Family, 4.7W Output Power, DIP-8B
+K Energy Effi cient, Low Power Off-Line Switcher IC
+F http://www.powerint.com/sites/default/files/product-docs/lnk362-364.pdf
+$ENDCMP
+#
+$CMP LNK364D
+D LinkSwitch-XT Family, 6W Output Power, SO-8C
+K Energy Effi cient, Low Power Off-Line Switcher IC
+F http://www.powerint.com/sites/default/files/product-docs/lnk362-364.pdf
+$ENDCMP
+#
+$CMP LNK364G
+D LinkSwitch-XT Family, 6W Output Power, SMD-8B
+K Energy Effi cient, Low Power Off-Line Switcher IC
+F http://www.powerint.com/sites/default/files/product-docs/lnk362-364.pdf
+$ENDCMP
+#
+$CMP LNK364P
+D LinkSwitch-XT Family, 6W Output Power, DIP-8B
+K Energy Effi cient, Low Power Off-Line Switcher IC
+F http://www.powerint.com/sites/default/files/product-docs/lnk362-364.pdf
+$ENDCMP
+#
+$CMP LNK403EG
+D LinkSwitch-PH Family, 12W Output Power, eSIP-7C
+K LED Driver IC with TRIAC Dimming, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK403LG
+D LinkSwitch-PH Family, 12W Output Power, eSIP-7F
+K LED Driver IC with TRIAC Dimming, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK404EG
+D LinkSwitch-PH Family, 15W Output Power, eSIP-7C
+K LED Driver IC with TRIAC Dimming, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK404LG
+D LinkSwitch-PH Family, 15W Output Power, eSIP-7F
+K LED Driver IC with TRIAC Dimming, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK405EG
+D LinkSwitch-PH Family, 18W Output Power, eSIP-7C
+K LED Driver IC with TRIAC Dimming, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK405LG
+D LinkSwitch-PH Family, 18W Output Power, eSIP-7F
+K LED Driver IC with TRIAC Dimming, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK406EG
+D LinkSwitch-PH Family, 22W Output Power, eSIP-7C
+K LED Driver IC with TRIAC Dimming, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK406LG
+D LinkSwitch-PH Family, 22W Output Power, eSIP-7F
+K LED Driver IC with TRIAC Dimming, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK407EG
+D LinkSwitch-PH Family, 25W Output Power, eSIP-7C
+K LED Driver IC with TRIAC Dimming, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK407LG
+D LinkSwitch-PH Family, 25W Output Power, eSIP-7F
+K LED Driver IC with TRIAC Dimming, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK408EG
+D LinkSwitch-PH Family, 35W Output Power, eSIP-7C
+K LED Driver IC with TRIAC Dimming, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK408LG
+D LinkSwitch-PH Family, 35W Output Power, eSIP-7F
+K LED Driver IC with TRIAC Dimming, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK409EG
+D LinkSwitch-PH Family, 50W Output Power, eSIP-7C
+K LED Driver IC with TRIAC Dimming, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK409LG
+D LinkSwitch-PH Family, 50W Output Power, eSIP-7F
+K LED Driver IC with TRIAC Dimming, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK410EG
+D LinkSwitch-PH Family, 78W Output Power, eSIP-7C
+K LED Driver IC with TRIAC Dimming, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK410LG
+D LinkSwitch-PH Family, 78W Output Power, eSIP-7F
+K LED Driver IC with TRIAC Dimming, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK413EG
+D LinkSwitch-PH Family, 12W Output Power, eSIP-7C
+K LED Driver IC, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK413LG
+D LinkSwitch-PH Family, 12W Output Power, eSIP-7F
+K LED Driver IC, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK414EG
+D LinkSwitch-PH Family, 15W Output Power, eSIP-7C
+K LED Driver IC, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK414LG
+D LinkSwitch-PH Family, 15W Output Power, eSIP-7F
+K LED Driver IC, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK415EG
+D LinkSwitch-PH Family, 18W Output Power, eSIP-7C
+K LED Driver IC, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK415LG
+D LinkSwitch-PH Family, 18W Output Power, eSIP-7F
+K LED Driver IC, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK416EG
+D LinkSwitch-PH Family, 22W Output Power, eSIP-7C
+K LED Driver IC, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK416LG
+D LinkSwitch-PH Family, 22W Output Power, eSIP-7F
+K LED Driver IC, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK417EG
+D LinkSwitch-PH Family, 25W Output Power, eSIP-7C
+K LED Driver IC, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK417LG
+D LinkSwitch-PH Family, 25W Output Power, eSIP-7F
+K LED Driver IC, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK418EG
+D LinkSwitch-PH Family, 35W Output Power, eSIP-7C
+K LED Driver IC, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK418LG
+D LinkSwitch-PH Family, 35W Output Power, eSIP-7F
+K LED Driver IC, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK419EG
+D LinkSwitch-PH Family, 50W Output Power, eSIP-7C
+K LED Driver IC, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK419LG
+D LinkSwitch-PH Family, 50W Output Power, eSIP-7F
+K LED Driver IC, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK420EG
+D LinkSwitch-PH Family, 78W Output Power, eSIP-7C
+K LED Driver IC, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK420LG
+D LinkSwitch-PH Family, 78W Output Power, eSIP-7F
+K LED Driver IC, Single-Stage PFC and Primary-Side Constant Current Control
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ph_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK454D
+D LinkSwitch-PL Family, 3W Output Power, SO-8C
+K LED Driver IC with TRIAC Dimming, Single-Stage PFC and Constant Current Control for Non-Isolated Applications
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-pl_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK456D
+D LinkSwitch-PL Family, 6W Output Power, SO-8C
+K LED Driver IC with TRIAC Dimming, Single-Stage PFC and Constant Current Control for Non-Isolated Applications
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-pl_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK457D
+D LinkSwitch-PL Family, 8W Output Power, SO-8C
+K LED Driver IC with TRIAC Dimming, Single-Stage PFC and Constant Current Control for Non-Isolated Applications
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-pl_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK457K
+D LinkSwitch-PL Family, 8W Output Power, eSOP-12B
+K LED Driver IC with TRIAC Dimming, Single-Stage PFC and Constant Current Control for Non-Isolated Applications
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-pl_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK457V
+D LinkSwitch-PL Family, 8W Output Power, eDIP-12B
+K LED Driver IC with TRIAC Dimming, Single-Stage PFC and Constant Current Control for Non-Isolated Applications
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-pl_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK458K
+D LinkSwitch-PL Family, 11.5W Output Power, eSOP-12B
+K LED Driver IC with TRIAC Dimming, Single-Stage PFC and Constant Current Control for Non-Isolated Applications
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-pl_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK458V
+D LinkSwitch-PL Family, 8W Output Power, eDIP-12B
+K LED Driver IC with TRIAC Dimming, Single-Stage PFC and Constant Current Control for Non-Isolated Applications
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-pl_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK460K
+D LinkSwitch-PL Family, 16W Output Power, eSOP-12B
+K LED Driver IC with TRIAC Dimming, Single-Stage PFC and Constant Current Control for Non-Isolated Applications
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-pl_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK460V
+D LinkSwitch-PL Family, 8W Output Power, eDIP-12B
+K LED Driver IC with TRIAC Dimming, Single-Stage PFC and Constant Current Control for Non-Isolated Applications
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-pl_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK562D
+D LinkSwitch-LP Family, 1.9W Output Power, SO-8C
+K Energy Efficient Off-Line Switcher IC for Linear Transformer Replacement
+F http://www.powerint.com/sites/default/files/product-docs/linklp_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK562G
+D LinkSwitch-LP Family, 1.9W Output Power, SMD-8B
+K Energy Efficient Off-Line Switcher IC for Linear Transformer Replacement
+F http://www.powerint.com/sites/default/files/product-docs/linklp_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK562P
+D LinkSwitch-LP Family, 1.9W Output Power, DIP-8B
+K Energy Efficient Off-Line Switcher IC for Linear Transformer Replacement
+F http://www.powerint.com/sites/default/files/product-docs/linklp_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK563D
+D LinkSwitch-LP Family, 2.5W Output Power, SO-8C
+K Energy Efficient Off-Line Switcher IC for Linear Transformer Replacement
+F http://www.powerint.com/sites/default/files/product-docs/linklp_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK563G
+D LinkSwitch-LP Family, 2.5W Output Power, SMD-8B
+K Energy Efficient Off-Line Switcher IC for Linear Transformer Replacement
+F http://www.powerint.com/sites/default/files/product-docs/linklp_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK563P
+D LinkSwitch-LP Family, 2.5W Output Power, DIP-8B
+K Energy Efficient Off-Line Switcher IC for Linear Transformer Replacement
+F http://www.powerint.com/sites/default/files/product-docs/linklp_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK564D
+D LinkSwitch-LP Family, 3W Output Power, SO-8C
+K Energy Efficient Off-Line Switcher IC for Linear Transformer Replacement
+F http://www.powerint.com/sites/default/files/product-docs/linklp_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK564G
+D LinkSwitch-LP Family, 3W Output Power, SMD-8B
+K Energy Efficient Off-Line Switcher IC for Linear Transformer Replacement
+F http://www.powerint.com/sites/default/files/product-docs/linklp_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK564P
+D LinkSwitch-LP Family, 3W Output Power, DIP-8B
+K Energy Efficient Off-Line Switcher IC for Linear Transformer Replacement
+F http://www.powerint.com/sites/default/files/product-docs/linklp_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK603DG
+D LinkSwitch-II Family, 3.3W Output Power, SO-8C
+K Energy-Efficient, Accurate CV/CC Switcher for Adapters and Chargers
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ii_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK603PG
+D LinkSwitch-II Family, 3.3W Output Power, DIP-8C
+K Energy-Efficient, Accurate CV/CC Switcher for Adapters and Chargers
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ii_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK604DG
+D LinkSwitch-II Family, 4.1W Output Power, SO-8C
+K Energy-Efficient, Accurate CV/CC Switcher for Adapters and Chargers
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ii_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK604PG
+D LinkSwitch-II Family, 4.1W Output Power, DIP-8C
+K Energy-Efficient, Accurate CV/CC Switcher for Adapters and Chargers
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ii_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK605DG
+D LinkSwitch-II Family, 5.1W Output Power, SO-8C
+K Energy-Efficient, Accurate CV/CC Switcher for Adapters and Chargers
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ii_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK605PG
+D LinkSwitch-II Family, 5.1W Output Power, DIP-8C
+K Energy-Efficient, Accurate CV/CC Switcher for Adapters and Chargers
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ii_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK606DG
+D LinkSwitch-II Family, 6.1W Output Power, SO-8C
+K Energy-Efficient, Accurate CV/CC Switcher for Adapters and Chargers
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ii_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK606GG
+D LinkSwitch-II Family, 6.1W Output Power, SMD-8C
+K Energy-Efficient, Accurate CV/CC Switcher for Adapters and Chargers
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ii_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK606PG
+D LinkSwitch-II Family, 6.1W Output Power, DIP-8C
+K Energy-Efficient, Accurate CV/CC Switcher for Adapters and Chargers
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ii_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK613DG
+D LinkSwitch-II Family, 3.3W Output Power, SO-8C
+K Energy-Efficient, Accurate CV/CC Switcher for Adapters and Chargers
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ii_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK613PG
+D LinkSwitch-II Family, 3.3W Output Power, DIP-8C
+K Energy-Efficient, Accurate CV/CC Switcher for Adapters and Chargers
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ii_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK614DG
+D LinkSwitch-II Family, 4.1W Output Power, SO-8C
+K Energy-Efficient, Accurate CV/CC Switcher for Adapters and Chargers
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ii_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK614PG
+D LinkSwitch-II Family, 4.1W Output Power, DIP-8C
+K Energy-Efficient, Accurate CV/CC Switcher for Adapters and Chargers
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ii_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK615DG
+D LinkSwitch-II Family, 5.1W Output Power, SO-8C
+K Energy-Efficient, Accurate CV/CC Switcher for Adapters and Chargers
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ii_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK615PG
+D LinkSwitch-II Family, 5.1W Output Power, DIP-8C
+K Energy-Efficient, Accurate CV/CC Switcher for Adapters and Chargers
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ii_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK616DG
+D LinkSwitch-II Family, 6.1W Output Power, SO-8C
+K Energy-Efficient, Accurate CV/CC Switcher for Adapters and Chargers
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ii_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK616GG
+D LinkSwitch-II Family, 6.1W Output Power, SMD-8C
+K Energy-Efficient, Accurate CV/CC Switcher for Adapters and Chargers
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ii_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK616PG
+D LinkSwitch-II Family, 6.1W Output Power, DIP-8C
+K Energy-Efficient, Accurate CV/CC Switcher for Adapters and Chargers
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ii_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK623DG
+D LinkSwitch-CV Family, 6W Output Power, SO-8C
+K Energy-Efficient, Off-line Switcher with Accurate Primary-side Constant-Voltage Control
+F http://www.powerint.com/sites/default/files/product-docs/linkcv_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK623PG
+D LinkSwitch-CV Family, 6W Output Power, DIP-8C
+K Energy-Efficient, Off-line Switcher with Accurate Primary-side Constant-Voltage Control
+F http://www.powerint.com/sites/default/files/product-docs/linkcv_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK624DG
+D LinkSwitch-CV Family, 6.5W Output Power, SO-8C
+K Energy-Effi cient, Off-line Switcher with Accurate Primary-side Constant-Voltage Control
+F http://www.powerint.com/sites/default/files/product-docs/linkcv_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK624PG
+D LinkSwitch-CV Family, 6.5W Output Power, DIP-8C
+K Energy-Efficient, Off-line Switcher with Accurate Primary-side Constant-Voltage Control
+F http://www.powerint.com/sites/default/files/product-docs/linkcv_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK625DG
+D LinkSwitch-CV Family, 8W Output Power, SO-8C
+K Energy-Efficient, Off-line Switcher with Accurate Primary-side Constant-Voltage Control
+F http://www.powerint.com/sites/default/files/product-docs/linkcv_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK625PG
+D LinkSwitch-CV Family, 8W Output Power, DIP-8C
+K Energy-Efficient, Off-line Switcher with Accurate Primary-side Constant-Voltage Control
+F http://www.powerint.com/sites/default/files/product-docs/linkcv_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK626DG
+D LinkSwitch-CV Family, 10W Output Power, SO-8C
+K Energy-Efficient, Off-line Switcher with Accurate Primary-side Constant-Voltage Control
+F http://www.powerint.com/sites/default/files/product-docs/linkcv_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK626PG
+D LinkSwitch-CV Family, 10W Output Power, DIP-8C
+K Energy-Efficient, Off-line Switcher with Accurate Primary-side Constant-Voltage Control
+F http://www.powerint.com/sites/default/files/product-docs/linkcv_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK632DG
+D LinkSwitch-II Family, 3.1W Output Power, SO-8C
+K Energy-Efficient, Accurate CV Switcher With CC Control for Adapters and Chargers
+F http://www.powerint.com/sites/default/files/product-docs/linkswitch-ii_632DG_datasheet.pdf
+$ENDCMP
+#
 $CMP LT1073CN
 D Micropower DC/DC Converter Adjustable Output Voltage, DIP-8
 K Micropower DC/DC Converter
@@ -2782,6 +3370,276 @@ $CMP TMR_1-4823SM
 D +/-33mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, +/-15V fixed Output Voltage, SMD
 K Murata isolated isolation dc-dc converter transformer
 F http://assets.tracopower.com/TMR1SM/documents/tmr1sm-datasheet.pdf
+$ENDCMP
+#
+$CMP TNY263G
+D TinySwitch-II Family, 4.7W Output Power, SMD-8B
+K Enhanced, Energy Efficient, Low Power Off-line Switcher
+F http://www.powerint.com/sites/default/files/product-docs/tny263_268.pdf
+$ENDCMP
+#
+$CMP TNY263P
+D TinySwitch-II Family, 4.7W Output Power, DIP-8B
+K Enhanced, Energy Efficient, Low Power Off-line Switcher
+F http://www.powerint.com/sites/default/files/product-docs/tny263_268.pdf
+$ENDCMP
+#
+$CMP TNY264G
+D TinySwitch-II Family, 6W Output Power, SMD-8B
+K Enhanced, Energy Efficient, Low Power Off-line Switcher
+F http://www.powerint.com/sites/default/files/product-docs/tny263_268.pdf
+$ENDCMP
+#
+$CMP TNY264P
+D TinySwitch-II Family, 6W Output Power, DIP-8B
+K Enhanced, Energy Efficient, Low Power Off-line Switcher
+F http://www.powerint.com/sites/default/files/product-docs/tny263_268.pdf
+$ENDCMP
+#
+$CMP TNY265G
+D TinySwitch-II Family, 7.5W Output Power, SMD-8B
+K Enhanced, Energy Efficient, Low Power Off-line Switcher
+F http://www.powerint.com/sites/default/files/product-docs/tny263_268.pdf
+$ENDCMP
+#
+$CMP TNY265P
+D TinySwitch-II Family, 7.5W Output Power, DIP-8B
+K Enhanced, Energy Efficient, Low Power Off-line Switcher
+F http://www.powerint.com/sites/default/files/product-docs/tny263_268.pdf
+$ENDCMP
+#
+$CMP TNY266G
+D TinySwitch-II Family, 9.5W Output Power, SMD-8B
+K Enhanced, Energy Efficient, Low Power Off-line Switcher
+F http://www.powerint.com/sites/default/files/product-docs/tny263_268.pdf
+$ENDCMP
+#
+$CMP TNY266P
+D TinySwitch-II Family, 9.5W Output Power, DIP-8B
+K Enhanced, Energy Efficient, Low Power Off-line Switcher
+F http://www.powerint.com/sites/default/files/product-docs/tny263_268.pdf
+$ENDCMP
+#
+$CMP TNY267G
+D TinySwitch-II Family, 12W Output Power, SMD-8B
+K Enhanced, Energy Efficient, Low Power Off-line Switcher
+F http://www.powerint.com/sites/default/files/product-docs/tny263_268.pdf
+$ENDCMP
+#
+$CMP TNY267P
+D TinySwitch-II Family, 12W Output Power, DIP-8B
+K Enhanced, Energy Efficient, Low Power Off-line Switcher
+F http://www.powerint.com/sites/default/files/product-docs/tny263_268.pdf
+$ENDCMP
+#
+$CMP TNY268G
+D TinySwitch-II Family, 15W Output Power, SMD-8B
+K Enhanced, Energy Efficient, Low Power Off-line Switcher
+F http://www.powerint.com/sites/default/files/product-docs/tny263_268.pdf
+$ENDCMP
+#
+$CMP TNY268P
+D TinySwitch-II Family, 15W Output Power, DIP-8B
+K Enhanced, Energy Efficient, Low Power Off-line Switcher
+F http://www.powerint.com/sites/default/files/product-docs/tny263_268.pdf
+$ENDCMP
+#
+$CMP TNY274G
+D TinySwitch-III Family, 8.5W Output Power, SMD-8C
+K Energy-Efficient, Off-Line Switcher With Enhanced Flexibility and Extended Power Range
+F http://www.powerint.com/sites/default/files/product-docs/tny274-280.pdf
+$ENDCMP
+#
+$CMP TNY274P
+D TinySwitch-III Family, 8.5W Output Power, DIP-8C
+K Energy-Efficient, Off-Line Switcher With Enhanced Flexibility and Extended Power Range
+F http://www.powerint.com/sites/default/files/product-docs/tny274-280.pdf
+$ENDCMP
+#
+$CMP TNY275G
+D TinySwitch-III Family, 11.5W Output Power, SMD-8C
+K Energy-Efficient, Off-Line Switcher With Enhanced Flexibility and Extended Power Range
+F http://www.powerint.com/sites/default/files/product-docs/tny274-280.pdf
+$ENDCMP
+#
+$CMP TNY275P
+D TinySwitch-III Family, 11.5W Output Power, DIP-8C
+K Energy-Efficient, Off-Line Switcher With Enhanced Flexibility and Extended Power Range
+F http://www.powerint.com/sites/default/files/product-docs/tny274-280.pdf
+$ENDCMP
+#
+$CMP TNY276G
+D TinySwitch-III Family, 15W Output Power, SMD-8C
+K Energy-Efficient, Off-Line Switcher With Enhanced Flexibility and Extended Power Range
+F http://www.powerint.com/sites/default/files/product-docs/tny274-280.pdf
+$ENDCMP
+#
+$CMP TNY276P
+D TinySwitch-III Family, 15W Output Power, DIP-8C
+K Energy-Efficient, Off-Line Switcher With Enhanced Flexibility and Extended Power Range
+F http://www.powerint.com/sites/default/files/product-docs/tny274-280.pdf
+$ENDCMP
+#
+$CMP TNY277G
+D TinySwitch-III Family, 18W Output Power, SMD-8C
+K Energy-Efficient, Off-Line Switcher With Enhanced Flexibility and Extended Power Range
+F http://www.powerint.com/sites/default/files/product-docs/tny274-280.pdf
+$ENDCMP
+#
+$CMP TNY277P
+D TinySwitch-III Family, 18W Output Power, DIP-8C
+K Energy-Efficient, Off-Line Switcher With Enhanced Flexibility and Extended Power Range
+F http://www.powerint.com/sites/default/files/product-docs/tny274-280.pdf
+$ENDCMP
+#
+$CMP TNY278G
+D TinySwitch-III Family, 21.5W Output Power, SMD-8C
+K Energy-Efficient, Off-Line Switcher With Enhanced Flexibility and Extended Power Range
+F http://www.powerint.com/sites/default/files/product-docs/tny274-280.pdf
+$ENDCMP
+#
+$CMP TNY278P
+D TinySwitch-III Family, 21.5W Output Power, DIP-8C
+K Energy-Efficient, Off-Line Switcher With Enhanced Flexibility and Extended Power Range
+F http://www.powerint.com/sites/default/files/product-docs/tny274-280.pdf
+$ENDCMP
+#
+$CMP TNY279G
+D TinySwitch-III Family, 25W Output Power, SMD-8C
+K Energy-Efficient, Off-Line Switcher With Enhanced Flexibility and Extended Power Range
+F http://www.powerint.com/sites/default/files/product-docs/tny274-280.pdf
+$ENDCMP
+#
+$CMP TNY279P
+D TinySwitch-III Family, 25W Output Power, DIP-8C
+K Energy-Efficient, Off-Line Switcher With Enhanced Flexibility and Extended Power Range
+F http://www.powerint.com/sites/default/files/product-docs/tny274-280.pdf
+$ENDCMP
+#
+$CMP TNY280G
+D TinySwitch-III Family, 28.5W Output Power, SMD-8C
+K Energy-Efficient, Off-Line Switcher With Enhanced Flexibility and Extended Power Range
+F http://www.powerint.com/sites/default/files/product-docs/tny274-280.pdf
+$ENDCMP
+#
+$CMP TNY280P
+D TinySwitch-III Family, 28.5W Output Power, DIP-8C
+K Energy-Efficient, Off-Line Switcher With Enhanced Flexibility and Extended Power Range
+F http://www.powerint.com/sites/default/files/product-docs/tny274-280.pdf
+$ENDCMP
+#
+$CMP TNY284D
+D TinySwitch-4 Family, 8.5W Output Power, SO-8C
+K Energy-Efficient, Off-Line Switcher With Line Compensated Overload Power
+F https://ac-dc.power.com/sites/default/files/product-docs/tinyswitch-4_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TNY284K
+D TinySwitch-4 Family, 8.5W Output Power, eSOP-12B
+K Energy-Efficient, Off-Line Switcher With Line Compensated Overload Power
+F https://ac-dc.power.com/sites/default/files/product-docs/tinyswitch-4_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TNY284P
+D TinySwitch-4 Family, 8.5W Output Power, PDIP-8C
+K Energy-Efficient, Off-Line Switcher With Line Compensated Overload Power
+F https://ac-dc.power.com/sites/default/files/product-docs/tinyswitch-4_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TNY285D
+D TinySwitch-4 Family, 11.5W Output Power, SO-8C
+K Energy-Efficient, Off-Line Switcher With Line Compensated Overload Power
+F https://ac-dc.power.com/sites/default/files/product-docs/tinyswitch-4_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TNY285K
+D TinySwitch-4 Family, 11.5W Output Power, eSOP-12B
+K Energy-Efficient, Off-Line Switcher With Line Compensated Overload Power
+F https://ac-dc.power.com/sites/default/files/product-docs/tinyswitch-4_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TNY285P
+D TinySwitch-4 Family, 11.5W Output Power, PDIP-8C
+K Energy-Efficient, Off-Line Switcher With Line Compensated Overload Power
+F https://ac-dc.power.com/sites/default/files/product-docs/tinyswitch-4_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TNY286D
+D TinySwitch-4 Family, 15W Output Power, SO-8C
+K Energy-Efficient, Off-Line Switcher With Line Compensated Overload Power
+F https://ac-dc.power.com/sites/default/files/product-docs/tinyswitch-4_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TNY286K
+D TinySwitch-4 Family, 15W Output Power, eSOP-12B
+K Energy-Efficient, Off-Line Switcher With Line Compensated Overload Power
+F https://ac-dc.power.com/sites/default/files/product-docs/tinyswitch-4_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TNY286P
+D TinySwitch-4 Family, 15W Output Power, PDIP-8C
+K Energy-Efficient, Off-Line Switcher With Line Compensated Overload Power
+F https://ac-dc.power.com/sites/default/files/product-docs/tinyswitch-4_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TNY287D
+D TinySwitch-4 Family, 18W Output Power, SO-8C
+K Energy-Efficient, Off-Line Switcher With Line Compensated Overload Power
+F https://ac-dc.power.com/sites/default/files/product-docs/tinyswitch-4_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TNY287K
+D TinySwitch-4 Family, 18W Output Power, eSOP-12B
+K Energy-Efficient, Off-Line Switcher With Line Compensated Overload Power
+F https://ac-dc.power.com/sites/default/files/product-docs/tinyswitch-4_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TNY287P
+D TinySwitch-4 Family, 18W Output Power, PDIP-8C
+K Energy-Efficient, Off-Line Switcher With Line Compensated Overload Power
+F https://ac-dc.power.com/sites/default/files/product-docs/tinyswitch-4_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TNY288D
+D TinySwitch-4 Family, 19.5W Output Power, SO-8C
+K Energy-Efficient, Off-Line Switcher With Line Compensated Overload Power
+F https://ac-dc.power.com/sites/default/files/product-docs/tinyswitch-4_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TNY288K
+D TinySwitch-4 Family, 21.5W Output Power, eSOP-12B
+K Energy-Efficient, Off-Line Switcher With Line Compensated Overload Power
+F https://ac-dc.power.com/sites/default/files/product-docs/tinyswitch-4_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TNY288P
+D TinySwitch-4 Family, 21.5W Output Power, PDIP-8C
+K Energy-Efficient, Off-Line Switcher With Line Compensated Overload Power
+F https://ac-dc.power.com/sites/default/files/product-docs/tinyswitch-4_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TNY289K
+D TinySwitch-4 Family, 25W Output Power, eSOP-12B
+K Energy-Efficient, Off-Line Switcher With Line Compensated Overload Power
+F https://ac-dc.power.com/sites/default/files/product-docs/tinyswitch-4_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TNY289P
+D TinySwitch-4 Family, 25W Output Power, PDIP-8C
+K Energy-Efficient, Off-Line Switcher With Line Compensated Overload Power
+F https://ac-dc.power.com/sites/default/files/product-docs/tinyswitch-4_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TNY290K
+D TinySwitch-4 Family, 28.5W Output Power, eSOP-12B
+K Energy-Efficient, Off-Line Switcher With Line Compensated Overload Power
+F https://ac-dc.power.com/sites/default/files/product-docs/tinyswitch-4_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TNY290P
+D TinySwitch-4 Family, 28.5W Output Power, PDIP-8C
+K Energy-Efficient, Off-Line Switcher With Line Compensated Overload Power
+F https://ac-dc.power.com/sites/default/files/product-docs/tinyswitch-4_family_datasheet.pdf
 $ENDCMP
 #
 $CMP TPS5430DDA
