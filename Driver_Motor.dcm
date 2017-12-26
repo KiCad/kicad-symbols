@@ -36,6 +36,30 @@ K Stepper driver
 F http://www.ti.com/lit/ds/slvsc40f/slvsc40f.pdf
 $ENDCMP
 #
+$CMP DRV8800PWP
+D H-Bridge Motor Driver, TSSOP-16
+K H-Bridge Motor Driver
+F http://www.ti.com/lit/ds/symlink/drv8801.pdf
+$ENDCMP
+#
+$CMP DRV8800RTY
+D H-Bridge Motor Driver, WQFN-16
+K H-Bridge Motor Driver
+F http://www.ti.com/lit/ds/symlink/drv8801.pdf
+$ENDCMP
+#
+$CMP DRV8801PWP
+D H-Bridge Motor Driver, TSSOP-16
+K H-Bridge Motor Driver
+F http://www.ti.com/lit/ds/symlink/drv8801.pdf
+$ENDCMP
+#
+$CMP DRV8801RTY
+D H-Bridge Motor Driver, WQFN-16
+K H-Bridge Motor Driver
+F http://www.ti.com/lit/ds/symlink/drv8801.pdf
+$ENDCMP
+#
 $CMP DRV8833PW
 D Dual H-Bridge Motor Driver, TSSOP-16
 K H-bridge motor driver
