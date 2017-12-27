@@ -91,7 +91,7 @@
 - [x] siliconi
 - [x] supertex
 - [x] Switch
-- [ ] texas
+- [x] texas
 - [x] Transformer
 - [x] Transistor
 - [ ] triac_thyristor
