@@ -30,6 +30,36 @@ K energy harvesting li-ion battery solar TEG
 F http://www.ti.com/lit/ds/symlink/bq25504.pdf
 $ENDCMP
 #
+$CMP BQ27441-G1
+D System Side Li Ion/Polymer Fuel Gauge, PDSON-12
+K Fuel Gauge
+F http://www.ti.com/lit/ds/symlink/bq27441-g1.pdf
+$ENDCMP
+#
+$CMP BQ27441DRZR-G1A
+D System Side Li Ion/Polymer Fuel Gauge, 4.2V, PDSON-12
+K Fuel Gauge
+F http://www.ti.com/lit/ds/symlink/bq27441-g1.pdf
+$ENDCMP
+#
+$CMP BQ27441DRZR-G1B
+D System Side Li Ion/Polymer Fuel Gauge, 4.30-4.35V, PDSON-12
+K Fuel Gauge
+F http://www.ti.com/lit/ds/symlink/bq27441-g1.pdf
+$ENDCMP
+#
+$CMP BQ27441DRZT-G1A
+D System Side Li Ion/Polymer Fuel Gauge, 4.2V, PDSON-12
+K Fuel Gauge
+F http://www.ti.com/lit/ds/symlink/bq27441-g1.pdf
+$ENDCMP
+#
+$CMP BQ27441DRZT-G1B
+D System Side Li Ion/Polymer Fuel Gauge, 4.30-4.35V, PDSON-12
+K Fuel Gauge
+F http://www.ti.com/lit/ds/symlink/bq27441-g1.pdf
+$ENDCMP
+#
 $CMP BQ297xy
 D Voltage and Current Protection for Single-Cell Li-Ion and Li-Polymer Batteries
 K protection Li-Ion Li-Pol
