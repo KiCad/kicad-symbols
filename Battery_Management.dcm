@@ -84,6 +84,12 @@ K Current-flow, voltage and temperature  measurement to support batterycapacity 
 F https://datasheets.maximintegrated.com/en/ds/DS2745.pdf
 $ENDCMP
 #
+$CMP LP3947
+D Single Cell Li-Ion LDO Battery Charger IC, Up to 1A, Support USB charging scheme
+K li-ion battery charger usb
+F http://www.ti.com/lit/ds/symlink/lp3947.pdf
+$ENDCMP
+#
 $CMP LT3652EDD
 D Step-down  battery charger, Lithium Phosphate ( LiFePO4), Lead (Pb), Lithium+ (Li+) , 4.95V to 32V VDD, -40 to +125 degree Celcius, DFN-12
 K Step-down  battery charger, Lithium Phosphate ( LiFePO4), Lead (Pb), Lithium+ (Li+) , 4.95V to 32V VDD, -40 to +125 degree Celcius, DFN-12

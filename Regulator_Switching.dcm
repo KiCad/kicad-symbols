@@ -1158,6 +1158,18 @@ K step-down dc-dc buck regulator fixed 3V3
 F http://www.ti.com/lit/ds/symlink/lm5165.pdf
 $ENDCMP
 #
+$CMP LM5175PWP
+D 42-V wide Vin synchronous 4-switch Buck-Boost controller, HTSSOP-28 package
+K Buck Boost step-up step-down
+F http://www.ti.com/lit/ds/symlink/lm5175.pdf
+$ENDCMP
+#
+$CMP LM5175RHF
+D 42-V wide Vin synchronous 4-switch Buck-Boost controller, QFN-28 package
+K Buck Boost step-up step-down
+F http://www.ti.com/lit/ds/symlink/lm5175.pdf
+$ENDCMP
+#
 $CMP LMR10510XMF
 D 1A, 5.5V Step-Down Voltage Regulator, 1.6MHz Frequency, SOT-23-5
 K Miniature Step-Down Buck Voltage Regulator

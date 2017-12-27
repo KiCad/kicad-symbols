@@ -12,4 +12,10 @@ K realtime clock RTC
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf
 $ENDCMP
 #
+$CMP TLC555
+D CMOS Timer
+K Timer NE555
+F http://www.ti.com/lit/ds/symlink/tlc555.pdf
+$ENDCMP
+#
 #End Doc Library
