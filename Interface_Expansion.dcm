@@ -18,12 +18,6 @@ K I2C Hub
 F http://www.nxp.com/documents/data_sheet/PCA9518.pdf
 $ENDCMP
 #
-$CMP PCF8563
-D Realtime Clock/Calendar I2C Interface, DIP/SOIC/TSSOP-8
-K I2C RTC Clock Calendar
-F http://www.nxp.com/documents/data_sheet/PCF8563.pdf
-$ENDCMP
-#
 $CMP PCF8574
 D 8 Bit Port/Expander to I2C Bus, DIP/SOIC-16
 K I2C Expander
