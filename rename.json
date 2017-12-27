@@ -11,10 +11,14 @@
     "analog_switches" : "Analog_Switches",
 
     "analog_devices" : {
-        "ADuM76*" : "Isolator_Digital",
-        "ADuM14*" : "Isolator_Digital",
+        "ADuM76*" : "Isolator",
+        "ADuM14*" : "Isolator",
         "ADM25*" : "Interface_UART",
-        "ADM24*" : "Interface_UART"
+        "ADM24*" : "Interface_UART",
+        "AD623*" : "Amplifier_Instrumentation",
+        "AD84*" : "Amplifier_Instrumentation",
+        "ADuM6000" : "Regulator_Switching",
+        "ADE7758" : "Sensor"
     },
 
     "Battery_Management" : "Battery_Management",
@@ -122,7 +126,12 @@
         "CY8C4*" : "MCU_Cypress",
         "CY8L1*" : "MCU_Cypress",
         "C87CMBR*" : "Sensor_Touch",
-        "CY7C65*" : "Interface_USB"
+        "CY7C65*" : "Interface_USB",
+        "CYB*" : "MCU_Cypress",
+        "CY8CMBR3*" : "Sensor_Touch",
+        "CY7C1*" : "Memory_RAM",
+        "CY7C2*" : "Memory_RAM",
+        "CY7C420" : "Memory_RAM"
     },
 
     "dc-dc" : {
@@ -545,6 +554,12 @@
 
     "power" : "",
 
+    "powerint" : {
+        "LNK*" : "Regulator_Switching",
+        "TNY*" : "Regulator_Switching",
+        "TOP*" : "Regulator_Controller"
+    },
+
     "Power_Management" : {
         "FAN7842" : "Driver_FET",
         "LM50*" : "Power_Distribution",
@@ -573,15 +588,62 @@
 
     "regul" : {
         "LM1117*" : "Regulator_Linear",
-        "LM317*" : "Regulator_Linear",
-        "LM337*" : "Regulator_Linear",
+        "LM3*" : "Regulator_Linear",
         "LT11*" : "Regulator_Linear",
         "NCP111*" : "Regulator_Linear",
         "AP111*" : "Regulator_Linear",
         "TPS7*" : "Regulator_Linear",
         "LT158*" : "Regulator_Linear",
         "LT1761*" : "Regulator_Linear",
-        "MCP1703*" : "Regulator_Linear"
+        "MCP17*" : "Regulator_Linear",
+        "LP298*" : "Regulator_Linear",
+        "MC78*" : "Regulator_Linear",
+        "TLV7*" : "Regulator_Linear",
+        "SPX*" : "Regulator_Linear",
+        "7?0*" : "Regulator_Linear",
+        "LM108*" : "Regulator_Linear",
+        "APE8*" : "Regulator_Linear",
+        "LM7*" : "Regulator_Linear",
+        "LD39*" : "Regulator_Linear",
+        "LP3*" : "Regulator_Linear",
+        "MAX16*" : "Regulator_Linear",
+        "LM29*" : "Regulator_Linear",
+        "MAX60*" : "Regulator_Linear",
+        "MAX874" : "Reference_Voltage",
+        "MAX88*" : "Regulator_Linear",
+        "TC1054" : "Regulator_Linear",
+        "KA37*" : "Regulator_Linear",
+        "MIC521*" : "Regulator_Linear",
+        "LD1117*" : "Regulator_Linear",
+        "LM117*" : "Regulator_Linear",
+        "MAX666" : "Regulator_Linear",
+        "AP131" : "Regulator_Linear",
+        "L200" : "Regulator_Linear",
+        "LF15*" : "Regulator_Linear",
+        "LT3*" : "Regulator_Linear",
+        "MIC4690" : "Regulator_Switching",
+        "PT6100" : "Regulator_Linear",
+        "TC1262*" : "Regulator_Linear",
+        "MCP182*" : "Regulator_Linear",
+        "AP131*" : "Regulator_Linear",
+        "LT1964*" : "Regulator_Linear",
+        "LTC3406*" : "Regulator_Switching",
+        "MAX5092*" : "Regulator_Linear",
+        "MC79L*" : "Regulator_Linear",
+        "AP220*" : "Regulator_Linear",
+        "ADP7*" : "Regulator_Linear",
+        "ICL7*" : "Regulator_Linear",
+        "IFX*" : "Regulator_Linear",
+        "LDK130*" : "Regulator_Linear",
+        "MAX66*" : "Regulator_Linear",
+        "MIC5*" : "Regulator_Linear",
+        "UA7*" : "Regulator_Linear",
+        "AP212*" : "Regulator_Linear",
+        "AZ11*" : "Regulator_Linear",
+        "L7905" : "Regulator_Linear",
+        "L79L05*" : "Regulator_Linear",
+        "L7805" : "Regulator_Linear",
+        "MC79M*" : "Regulator_Linear"
     },
 
     "relays" : "Relay",
