@@ -1,5 +1,6 @@
 (sym_lib_table
   (lib (name Amplifier_Buffer)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Amplifier_Buffer.lib)(options "")(descr "Buffer amplifiers"))
+  (lib (name Amplifier_Instrumentation)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Amplifier_Instrumentation.lib)(options "")(descr "Instrumentation amplitifers"))
   (lib (name Amplifier_Video)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Amplifier_Video.lib)(options "")(descr "Video amplifiers"))
   (lib (name Analog)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Analog.lib)(options "")(descr "Miscellaneous analog devices"))
   (lib (name Analog_ADC)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Analog_ADC.lib)(options "")(descr "Analog to digital converters"))
@@ -23,6 +24,7 @@
   (lib (name Driver_Display)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Driver_Display.lib)(options "")(descr "Drivers for displays. (For graphic and character based displays.)"))
   (lib (name Driver_FET)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Driver_FET.lib)(options "")(descr "MOSFET and gate drivers"))
   (lib (name Driver_LED)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Driver_LED.lib)(options "")(descr "LED drivers"))
+  (lib (name Driver_Motor)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Driver_Motor.lib)(options "")(descr "Integrated motor driver and controller ICs"))
   (lib (name FPGA_Actel)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/FPGA_Actel.lib)(options "")(descr "Actel FPGA symbols"))
   (lib (name Graphic)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Graphic.lib)(options "")(descr "Graphical symbols"))
   (lib (name Interface)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface.lib)(options "")(descr "Assorted interface symbols"))
@@ -51,6 +53,7 @@
   (lib (name Memory_RAM)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Memory_RAM.lib)(options "")(descr "Volatile RAM"))
   (lib (name Memory_UniqueID)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Memory_UniqueID.lib)(options "")(descr "UID and serial number memory devices"))
   (lib (name MCU_AnalogDevices)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_AnalogDevices.lib)(options "")(descr "Analog Devices microcontrollers"))
+  (lib (name MCU_Cypress)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Cypress.lib)(options "")(descr "Cypress microcontrollers"))
   (lib (name MCU_Infineon)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Infineon.lib)(options "")(descr "Infineon microcontrollers"))
   (lib (name MCU_Microchip_PIC10)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_PIC10.lib)(options "")(descr "Microchip PIC10 microcontrollers"))
   (lib (name MCU_Microchip_PIC12)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_PIC12.lib)(options "")(descr "Microchip PIC12 microcontrollers"))
@@ -112,4 +115,5 @@
   (lib (name Video)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Video.lib)(options "")(descr "Video symbols"))
   (lib (name power)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/power.lib)(options "")(descr "Power symbols, special power flags"))
   (lib (name pspice)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/pspice.lib)(options "")(descr "Legacy pspice symbol library."))
+  (lib (name MCU_Microchip_SAML)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_SAML.lib)(options "")(descr "Microchip SAML microcontrollers"))
 )

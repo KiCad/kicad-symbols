@@ -3,7 +3,7 @@
 - [ ] ac-dc
 - [x] adc-dac
 - [x] Altera
-- [ ] analog_devices
+- [x] analog_devices
 - [x] analog_switches
 - [ ] atmel
 - [ ] audio
@@ -13,7 +13,7 @@
 - [x] brooktre
 - [x] Connector
 - [x] contrib
-- [ ] cypress
+- [x] cypress
 - [x] dc-dc
 - [x] Decawave
 - [x] device
@@ -65,7 +65,7 @@
 - [x] microchip
 - [x] microcontrollers
 - [ ] modules
-- [ ] motor_drivers
+- [x] motor_drivers
 - [x] Motor
 - [ ] motorola
 - [x] nordicsemi
@@ -74,7 +74,7 @@
 - [ ] opto
 - [x] Oscillators
 - [ ] philips
-- [ ] powerint
+- [x] powerint
 - [x] power
 - [ ] Power_Management
 - [x] pspice
