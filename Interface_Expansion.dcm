@@ -18,6 +18,42 @@ K SMBUS I2C Expander
 F http://www.ti.com/lit/ds/symlink/tca9534.pdf
 $ENDCMP
 #
+$CMP TCA9535DBR
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, SSOP-24 package
+K ti parallel port
+F http://www.ti.com/lit/ds/symlink/tca9535.pdf
+$ENDCMP
+#
+$CMP TCA9535DBT
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, SSOP-24 package
+K ti parallel port
+F http://www.ti.com/lit/ds/symlink/tca9535.pdf
+$ENDCMP
+#
+$CMP TCA9535MRGER
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, QFN-24 package
+K ti parallel port
+F http://www.ti.com/lit/ds/symlink/tca9535.pdf
+$ENDCMP
+#
+$CMP TCA9535PWR
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, TSSOP-24 package
+K ti parallel port
+F http://www.ti.com/lit/ds/symlink/tca9535.pdf
+$ENDCMP
+#
+$CMP TCA9535RGER
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, QFN-24 package
+K ti parallel port
+F http://www.ti.com/lit/ds/symlink/tca9535.pdf
+$ENDCMP
+#
+$CMP TCA9535RTWR
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, QFN-24 package
+K ti parallel port
+F http://www.ti.com/lit/ds/symlink/tca9535.pdf
+$ENDCMP
+#
 $CMP TCA9544A
 D I2C Hub, 4 Channels, Interrupts, TSSOP-20
 K I2C Hub
@@ -40,6 +76,42 @@ $CMP TCA9548ARGER
 D Low voltage 8-channel I2C switch with reset, QFN-24
 K Low voltage 8-channel I2C switch with reset
 F http://www.ti.com/lit/ds/symlink/tca9548a.pdf
+$ENDCMP
+#
+$CMP TCA9555DBR
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, SSOP-24 package
+K ti parallel port
+F http://www.ti.com/lit/ds/symlink/tca9555.pdf
+$ENDCMP
+#
+$CMP TCA9555DBT
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, SSOP-24 package
+K ti parallel port
+F http://www.ti.com/lit/ds/symlink/tca9555.pdf
+$ENDCMP
+#
+$CMP TCA9555PWR
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, TSSOP-24 package
+K ti parallel port
+F http://www.ti.com/lit/ds/symlink/tca9555.pdf
+$ENDCMP
+#
+$CMP TCA9555RGER
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, QFN-24 package
+K ti parallel port
+F http://www.ti.com/lit/ds/symlink/tca9555.pdf
+$ENDCMP
+#
+$CMP TCA9555RTWR
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, QFN-24 package
+K ti parallel port
+F http://www.ti.com/lit/ds/symlink/tca9555.pdf
+$ENDCMP
+#
+$CMP TPIC6595
+D Power Logic 8-bit Shift Register, DIP-8/SOIC-8
+K shift register 8bit
+F http://www.ti.com/lit/ds/symlink/tpic6595.pdf
 $ENDCMP
 #
 #End Doc Library

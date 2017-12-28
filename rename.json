@@ -733,22 +733,36 @@
 
     "Switch" : "",
 
-    "texas " : {
+    "texas" : {
+        "TB5*" : "Interface",
+        "DRV8848" : "Driver_Motor",
+        "MPY63*" : "Analog",
+        "PCA9306" : "Interface",
         "TLC5973" : "Driver_LED",
-        "TPL0*" : "Digital_Potentiometer",
+        "TPL0*" : "Potentiometer_Digital",
         "TUSB*" : "Interface_USB",
         "TS5*" : "Switch_Analog",
         "DRV886*" : "Driver_Relay",
-        "LM4F" : "MCU_Texas_Tiva",
-        "TM4C*" : "MCU_Texas_Tiva",
+        "LM4F" : "MCU_Texas",
+        "TM4C*" : "MCU_Texas",
+        "LM3S6911-EQC50" : "MCU_Texas",
+        "TMS*" : "MCU_Texas",
         "LM5109*" : "Driver_FET",
         "LM5175*" : "Regulator_Switching",
         "TUSB*" : "Interface_USB",
         "TXB01*" : "Logic_LevelTranslator",
         "TLC555" : "Timer",
         "TPS25*" : "Interface_USB",
-        "TPS240*" : "Power_Distribution",
-        "TLC5940*" : "Driver_LED"
+        "TPS240*" : "Power_Management",
+        "TPS20*" : "Power_Management",
+        "TLC594*" : "Driver_LED",
+        "ISO7*" : "Isolator",
+        "LM25119" : "Regulator_Controller",
+        "UCC*" : "Regulator_Controller",
+        "TCA95*" : "Interface_Expansion",
+        "TPL9*" : "Driver_Relay",
+        "TPIC*" : "Interface_Expansion",
+        "lp3947" : "Battery_Management"
     },
 
     "transistors" : "Transistor",

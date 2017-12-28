@@ -78,6 +78,12 @@ K H-bridge motor driver
 F http://www.ti.com/lit/ds/symlink/drv8833.pdf
 $ENDCMP
 #
+$CMP DRV8848
+D Dual H-Bridge motor driver, PWM controlled, single/dual brushed DC stepper, +2 to +18 VDD, TSSOP-16
+K Dual H-Bridge motor driver
+F http://www.ti.com/lit/ds/symlink/drv8848.pdf
+$ENDCMP
+#
 $CMP L293
 D Quadruple Half-H Drivers
 K Half-H Driver Motor
