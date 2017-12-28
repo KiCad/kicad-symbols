@@ -30,4 +30,14 @@ K LWIR camera
 F https://cdn.sparkfun.com/datasheets/Sensors/Infrared/FLIR_Lepton_Data_Brief.pdf
 $ENDCMP
 #
+$CMP ReflectiveOpto_AKCE
+D Reflective Optical Sensor
+K Reflective Optical Sensor Opto
+$ENDCMP
+#
+$CMP ReflectiveOpto_AKEC
+D Reflective Optical Sensor
+K Reflective Optical Sensor Opto
+$ENDCMP
+#
 #End Doc Library
