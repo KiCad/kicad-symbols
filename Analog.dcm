@@ -6,4 +6,16 @@ K 8channel 12bit ADC DAC GPIO I2C Temperature
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5593R.pdf
 $ENDCMP
 #
+$CMP MPY634KP
+D Wide Bandwidth Precision Analog Multiplier, DIP-14
+K analog multiplier
+F http://www.ti.com/lit/ds/symlink/mpy634.pdf
+$ENDCMP
+#
+$CMP MPY634KU
+D Wide Bandwidth Precision Analog Multiplier, SOIC-16W
+K analog multiplier
+F http://www.ti.com/lit/ds/symlink/mpy634.pdf
+$ENDCMP
+#
 #End Doc Library
