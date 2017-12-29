@@ -73,7 +73,7 @@
 - [ ] onsemi
 - [ ] opto
 - [x] Oscillators
-- [ ] philips
+- [x] philips
 - [x] powerint
 - [x] power
 - [ ] Power_Management
