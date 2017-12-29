@@ -1646,11 +1646,13 @@ $ENDCMP
 $CMP ReflectiveOpto_AKCE
 D Reflective Optical Sensor, pin order Anode, Cathode, Collector, Emitter
 K Reflective Optical Sensor Opto
+F ~
 $ENDCMP
 #
 $CMP ReflectiveOpto_AKEC
 D Reflective Optical Sensor, , pin order Anode, Cathode, Emitter, Collector
 K Reflective Optical Sensor Opto
+F ~
 $ENDCMP
 #
 $CMP Resonator
