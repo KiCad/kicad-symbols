@@ -1,27 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP ICM7209
-D Timebase generator, DIP-8
-K Timebase generator
-F http://pdf.datasheetcatalog.com/datasheets/320/500974_DS.pdf
-$ENDCMP
-#
-$CMP MCP7940N
-D Real-Time Clock, I2C, Battery Backup
-K realtime clock RTC
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf
-$ENDCMP
-#
-$CMP TLC555
-D CMOS Timer
-K Timer NE555
-F http://www.ti.com/lit/ds/symlink/tlc555.pdf
-$ENDCMP
-#
 $CMP AD797
 D Ultralow Distortion, Ultralow Noise Op Amp, DIP-8/SOIC-8
 K single opamp
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD797.pdf
+$ENDCMP
+#
+$CMP ICM7209
+D Timebase generator, DIP-8
+K Timebase generator
+F http://pdf.datasheetcatalog.com/datasheets/320/500974_DS.pdf
 $ENDCMP
 #
 $CMP ICM7555
@@ -96,6 +84,12 @@ K single opamp
 F http://cds.linear.com/docs/en/datasheet/1012afbs.pdf
 $ENDCMP
 #
+$CMP MCP7940N
+D Real-Time Clock, I2C, Battery Backup
+K realtime clock RTC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf
+$ENDCMP
+#
 $CMP NA555
 D Precision Timers, DIP-8/SOIC-8/SSOP-8
 K timer
@@ -154,6 +148,12 @@ $CMP SE556
 D Dual Precision Timers, DIP-14/SOIC-14
 K dual timer
 F http://www.ti.com/lit/ds/symlink/ne556.pdf
+$ENDCMP
+#
+$CMP TLC555
+D CMOS Timer
+K Timer NE555
+F http://www.ti.com/lit/ds/symlink/tlc555.pdf
 $ENDCMP
 #
 $CMP TLC555CD
