@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM386
+D Low Voltage Audio Power Amplifier, DIP-8/SOIC-8/SSOP-8
+K single Power opamp
+F http://www.ti.com/lit/ds/symlink/lm386.pdf
+$ENDCMP
+#
+$CMP NE567
+D Tone Decoder/Phase-Locked Loop, DIP-8/SOIC-8
+K tone decoder PLL
+F http://www.ti.com/lit/ds/symlink/lm567.pdf
+$ENDCMP
+#
+$CMP OPA1622
+D High-Fidelity, Bipolar-Input, Audio Operational Amplifier, VSON-10
+K dual opamp audio
+F http://www.ti.com/lit/ds/symlink/opa1622.pdf
+$ENDCMP
+#
+$CMP SE567
+D Tone Decoder/Phase-Locked Loop, DIP-8/SOIC-8
+K tone decoder PLL
+F http://www.ti.com/lit/ds/symlink/lm567.pdf
+$ENDCMP
+#
+#End Doc Library
