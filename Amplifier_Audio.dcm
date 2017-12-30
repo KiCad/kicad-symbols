@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM386
+D Low Voltage Audio Power Amplifier, DIP-8/SOIC-8/SSOP-8
+K single Power opamp
+F http://www.ti.com/lit/ds/symlink/lm386.pdf
+$ENDCMP
+#
+$CMP OPA1622
+D High-Fidelity, Bipolar-Input, Audio Operational Amplifier, VSON-10
+K dual opamp audio
+F http://www.ti.com/lit/ds/symlink/opa1622.pdf
+$ENDCMP
+#
+#End Doc Library
