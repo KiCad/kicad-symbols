@@ -246,6 +246,12 @@ K Intelligent Power Switch High Side MOSFET
 F http://www.irf.com/product-info/datasheets/data/ips7091.pdf
 $ENDCMP
 #
+$CMP ITS5215
+D Smart Dual Channel High Side Powertrain Switch (90mOhm)
+K High_Side_Switch Power
+F http://www.infineon.com/dgdl/Infineon-ITS5215L-DS-v01_01-en.pdf?fileId=db3a304412b407950112b428dba73e98
+$ENDCMP
+#
 $CMP TPS2041B
 D Single power-distribution switcher
 K 1-chanel power-distribution USB
