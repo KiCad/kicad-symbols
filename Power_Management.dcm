@@ -258,6 +258,12 @@ K Low_Side_Switch Power
 F http://www.infineon.com/dgdl/Infineon-TLE8102SG-DS-v01_05-en.pdf?fileId=db3a304319c6f18c0119c8384bf90042
 $ENDCMP
 #
+$CMP TLE8104E
+D Smart Quad Channel Powertrain Switch 4x3A (In=1A, Ilim=3A, Ron=320mOhm)
+K Low_Side_Switch Power
+F http://www.infineon.com/dgdl/Infineon-TLE8104E-DS-v01_04-en.pdf?fileId=db3a304318f3fe2901190401cfda7f25
+$ENDCMP
+#
 $CMP TPS2041B
 D Single power-distribution switcher
 K 1-chanel power-distribution USB
