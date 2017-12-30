@@ -120,6 +120,12 @@ K dual timer
 F http://www.ti.com/lit/ds/symlink/ne556.pdf
 $ENDCMP
 #
+$CMP NE567
+D Tone Decoder/Phase-Locked Loop, DIP-8/SOIC-8
+K tone decoder PLL
+F http://www.ti.com/lit/ds/symlink/lm567.pdf
+$ENDCMP
+#
 $CMP SA5534
 D Single Low-Noise Operational Amplifiers, DIP-8/SOIC-8
 K single opamp
@@ -148,6 +154,12 @@ $CMP SE556
 D Dual Precision Timers, DIP-14/SOIC-14
 K dual timer
 F http://www.ti.com/lit/ds/symlink/ne556.pdf
+$ENDCMP
+#
+$CMP SE567
+D Tone Decoder/Phase-Locked Loop, DIP-8/SOIC-8
+K tone decoder PLL
+F http://www.ti.com/lit/ds/symlink/lm567.pdf
 $ENDCMP
 #
 $CMP TLC555
