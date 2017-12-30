@@ -132,6 +132,24 @@ K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTT6200-1EJA-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3756ec20fcc
 $ENDCMP
 #
+$CMP BTS716G
+D Smart Quad Channel High Side Powertrain Switch (140mOhm)
+K High_Side_Switch Power
+F https://www.infineon.com/dgdl/Infineon-BTS716G-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3be86601004
+$ENDCMP
+#
+$CMP BTS716GB
+D Smart Quad Channel High Side Powertrain Switch (140mOhm)
+K High_Side_Switch Power
+F http://www.infineon.com/dgdl/Infineon-BTS716GB-DS-v01_00-en.pdf?fileId=db3a30431c48a312011c4c2a11d90028
+$ENDCMP
+#
+$CMP BTS724G
+D Smart Quad Channel High Side Powertrain Switch (90mOhm)
+K High_Side_Switch Power
+F https://www.infineon.com/dgdl/Infineon-BTS724G-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3a2f1030ff1
+$ENDCMP
+#
 $CMP IPS6011PBF
 D 39V, 60A, Intelligent Power Switch High Side, TO-220-5
 K Intelligent Power Switch High Side MOSFET
