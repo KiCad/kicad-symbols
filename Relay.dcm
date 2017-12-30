@@ -396,6 +396,54 @@ K Dual Pole Relay
 F http://www.relpol.pl/en/content/download/14975/202519/file/e_RSM822.pdf
 $ENDCMP
 #
+$CMP RT42xAxx
+D Schrack RT2 relay, bistable dual pole dual throw, single DC coil
+K TE DPDT CO bistable DC
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FRT2_bistable%7F1116%7Fpdf%7FEnglish%7FENG_DS_RT2_bistable_1116.pdf%7F1-1415537-8
+$ENDCMP
+#
+$CMP RT42xFxx
+D Schrack RT2 relay, bistable dual pole dual throw, dual DC coils
+K TE DPDT CO bistable DC
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FRT2_bistable%7F1116%7Fpdf%7FEnglish%7FENG_DS_RT2_bistable_1116.pdf%7F1-1415537-8
+$ENDCMP
+#
+$CMP RT42xxxx
+D Schrack RT2 relay, monostable dual pole dual throw, DC or AC coil
+K TE DPDT CO monostable
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FRT2%7F1014%7Fpdf%7FEnglish%7FENG_DS_RT2_1014.pdf%7F6-1393243-3
+$ENDCMP
+#
+$CMP RT44xxxx
+D Schrack RT2 relay, monostable dual pole normally open, DC or AC coil
+K TE DPST NO monostable
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FRT2%7F1014%7Fpdf%7FEnglish%7FENG_DS_RT2_1014.pdf%7F6-1393243-3
+$ENDCMP
+#
+$CMP RTE2xAxx
+D Schrack RT2 relay, bistable dual pole dual throw, single DC coil
+K TE DPDT CO bistable DC
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FRT2_bistable%7F1116%7Fpdf%7FEnglish%7FENG_DS_RT2_bistable_1116.pdf%7F1-1415537-8
+$ENDCMP
+#
+$CMP RTE2xFxx
+D Schrack RT2 relay, bistable dual pole dual throw, dual DC coils
+K TE DPDT CO bistable DC
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FRT2_bistable%7F1116%7Fpdf%7FEnglish%7FENG_DS_RT2_bistable_1116.pdf%7F1-1415537-8
+$ENDCMP
+#
+$CMP RTE2xxxx
+D Schrack RT2 relay, monostable dual pole dual throw, DC or AC coil
+K TE DPDT CO monostable
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FRT2%7F1014%7Fpdf%7FEnglish%7FENG_DS_RT2_1014.pdf%7F6-1393243-3
+$ENDCMP
+#
+$CMP RTE4xxxx
+D Schrack RT2 relay, monostable dual pole normally open, DC or AC coil
+K TE DPST NO monostable
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FRT2%7F1014%7Fpdf%7FEnglish%7FENG_DS_RT2_1014.pdf%7F6-1393243-3
+$ENDCMP
+#
 $CMP SANYOU_SRD_Form_A
 D Sanyo SRD relay, Single Pole Miniature Power Relay, Closing Contact
 K Single Pole Relay SPST
