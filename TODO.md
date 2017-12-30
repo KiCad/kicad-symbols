@@ -39,7 +39,7 @@
 - [x] Lattice
 - [x] LED
 - [x] LEM
-- [ ] linear
+- [x] linear
 - [x] Logic_74xgxx
 - [x] Logic_74xx
 - [x] Logic_CMOS_4000
