@@ -114,6 +114,36 @@ K Mini-Circuits RF Transformer
 F https://ww2.minicircuits.com/pdfs/ADT9-1T+.pdf
 $ENDCMP
 #
+$CMP ADTT1-1
+D 0.3-300MHz 1:1 RF Transformer, Unbalanced to Balanced Center Tap at Primary/Secondary, CD542
+K Mini-Circuits RF Transformer
+F https://ww2.minicircuits.com/pdfs/ADTT1-1+.pdf
+$ENDCMP
+#
+$CMP ADTT1-6
+D 0.015-100MHz 1:1 RF Transformer, Unbalanced to Balanced Center Tap at Primary/Secondary, CD637
+K Mini-Circuits RF Transformer
+F https://ww2.minicircuits.com/pdfs/ADTT1-6+.pdf
+$ENDCMP
+#
+$CMP ADTT1.5-1
+D 0.25-300MHz 1:1.5 RF Transformer, Unbalanced to Balanced Center Tap at Primary/Secondary, CD636
+K Mini-Circuits RF Transformer
+F https://ww2.minicircuits.com/pdfs/ADTT1.5-1+.pdf
+$ENDCMP
+#
+$CMP ADTT3-2
+D 0.2-210MHz 1:3 RF Transformer, Unbalanced to Balanced Center Tap at Primary/Secondary, CD636
+K Mini-Circuits RF Transformer
+F https://ww2.minicircuits.com/pdfs/ADTT3-2+.pdf
+$ENDCMP
+#
+$CMP ADTT4-1
+D 0.2-120MHz 1:4 RF Transformer, Unbalanced to Balanced Center Tap at Primary/Secondary, CD636
+K Mini-Circuits RF Transformer
+F https://ww2.minicircuits.com/pdfs/ADTT4-1+.pdf
+$ENDCMP
+#
 $CMP LL1587
 D Lundahl Transformers, Microphone Transformer
 K microphone transformer
