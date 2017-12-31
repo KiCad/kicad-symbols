@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADT1-1
+D 0.15-400MHz 1:1 RF Transformer, Balanced to Balanced, CD542
+K Mini-Circuits RF Transformer
+F https://ww2.minicircuits.com/pdfs/ADT1-1+.pdf
+$ENDCMP
+#
 $CMP ADT1-1WT
 D 0.005-125MHz 1:1 RF Transformer, Unbalanced to Balanced Center Tap, CD542
 K Mini-Circuits RF Transformer
@@ -24,10 +30,22 @@ K Mini-Circuits RF Transformer
 F https://ww2.minicircuits.com/pdfs/ADT1.5-1+.pdf
 $ENDCMP
 #
+$CMP ADT1.5-2
+D 0.3-225MHz 1:1.5 RF Transformer, Balanced to Balanced, CD636
+K Mini-Circuits RF Transformer
+F https://ww2.minicircuits.com/pdfs/ADT1.5-2+.pdf
+$ENDCMP
+#
 $CMP ADT16-1T
 D 0.10-300MHz 1:16 RF Transformer, Unbalanced to Balanced Center Tap, CD542
 K Mini-Circuits RF Transformer
 F https://ww2.minicircuits.com/pdfs/ADT16-1T+.pdf
+$ENDCMP
+#
+$CMP ADT16-6
+D 0.25-105MHz 1:16 RF Transformer, Balanced to Balanced, CD636
+K Mini-Circuits RF Transformer
+F https://ww2.minicircuits.com/pdfs/ADT16-6+.pdf
 $ENDCMP
 #
 $CMP ADT16-6T
@@ -88,6 +106,12 @@ $CMP ADT4-5WT
 D 1-650MHz 1:4 RF Transformer, Unbalanced to Balanced Center Tap, CD637
 K Mini-Circuits RF Transformer
 F https://ww2.minicircuits.com/pdfs/ADT4-5WT+.pdf
+$ENDCMP
+#
+$CMP ADT4-6
+D 0.07-250MHz 1:4 RF Transformer, Balanced to Balanced, CD542
+K Mini-Circuits RF Transformer
+F https://ww2.minicircuits.com/pdfs/ADT4-6+.pdf
 $ENDCMP
 #
 $CMP ADT4-6T
