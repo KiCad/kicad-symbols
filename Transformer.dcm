@@ -144,6 +144,30 @@ K Mini-Circuits RF Transformer
 F https://ww2.minicircuits.com/pdfs/ADT9-1T+.pdf
 $ENDCMP
 #
+$CMP ADTL1-12
+D 20-1200MHz 1:1 RF Transformer, Balanced Transmission Line, CD542
+K Mini-Circuits RF Transformer
+F https://ww2.minicircuits.com/pdfs/ADTL1-12+.pdf
+$ENDCMP
+#
+$CMP ADTL1-18-75
+D 5-1800MHz 1:1 RF Transformer, Balanced Transmission Line, CD542
+K Mini-Circuits RF Transformer
+F https://ww2.minicircuits.com/pdfs/ADTL1-18-75+.pdf
+$ENDCMP
+#
+$CMP ADTL1-4-75
+D 0.5-1000MHz 1:1 RF Transformer, Balanced Transmission Line, CD542
+K Mini-Circuits RF Transformer
+F https://ww2.minicircuits.com/pdfs/ADTL1-4-75+.pdf
+$ENDCMP
+#
+$CMP ADTL2-18
+D 30-1800MHz 1:2 RF Transformer, Balanced Transmission Line, CD542
+K Mini-Circuits RF Transformer
+F https://ww2.minicircuits.com/pdfs/ADTL2-18+.pdf
+$ENDCMP
+#
 $CMP ADTT1-1
 D 0.3-300MHz 1:1 RF Transformer, Unbalanced to Balanced Center Tap at Primary/Secondary, CD542
 K Mini-Circuits RF Transformer
