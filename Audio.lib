@@ -1002,10 +1002,10 @@ ENDDEF
 DEF TLV320AIC23BxQE U 0 40 Y Y 1 F N
 F0 "U" 650 1050 50 H V C CNN
 F1 "TLV320AIC23BxQE" 650 950 50 H V C CNN
-F2 "Package_BGA:Texas_MicroStar_Junior_BGA-80_9x9_5x5mm_P0.5mm" 0 0 50 H I C CIN
+F2 "Package_BGA:Texas_MicroStar_Junior_BGA-80_5.0x5.0mm_Layout9x9_P0.5mm" 550 -1450 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Texas*MicroStar*Junior*BGA*9x9*5x5mm*Pitch0.5mm*
+ *MicroStar*Junior*BGA*5*x5*mm*P0.5mm*
 $ENDFPLIST
 DRAW
 S -700 900 700 -900 0 1 10 f
