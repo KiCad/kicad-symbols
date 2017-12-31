@@ -6,7 +6,7 @@
 - [x] analog_devices
 - [x] analog_switches
 - [ ] atmel
-- [ ] audio
+- [x] audio
 - [x] Battery_Management
 - [ ] bbd
 - [x] Bosch
