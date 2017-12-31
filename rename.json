@@ -108,7 +108,18 @@
         "LM18*" : "Amplifier_Audio",
         "LM38*" : "Amplifier_Audio",
         "tda*" : "Amplifier_Audio",
-        "LM4990*" : "Amplifier_Audio"
+        "LM4*" : "Amplifier_Audio",
+        "LM2876*" : "Amplifier_Audio",
+        "PAM*" : "Amplifier_Audio",
+        "MAX9814*" : "Amplifier_Audio",
+        "MSGEQ7*" : "Audio",
+        "PGA4311*" : "Audio",
+        "STK*" : "Amplifier_Audio",
+        "THAT*" : "Amplifier_Audio",
+        "SSM20*" : "Amplifier_Audio",
+        "SSM21*" : "Amplifier_Audio",
+        "SSM22*" : "legacy_audio",
+        "TR-AUDIO*" : "legacy_audio"
     },
 
 
