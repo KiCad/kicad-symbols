@@ -6,7 +6,7 @@
 - [x] analog_devices
 - [x] analog_switches
 - [ ] atmel
-- [ ] audio
+- [x] audio
 - [x] Battery_Management
 - [ ] bbd
 - [x] Bosch
@@ -39,7 +39,7 @@
 - [x] Lattice
 - [x] LED
 - [x] LEM
-- [ ] linear
+- [x] linear
 - [x] Logic_74xgxx
 - [x] Logic_74xx
 - [x] Logic_CMOS_4000
@@ -73,13 +73,13 @@
 - [ ] onsemi
 - [ ] opto
 - [x] Oscillators
-- [ ] philips
+- [x] philips
 - [x] powerint
 - [x] power
 - [ ] Power_Management
 - [x] pspice
 - [x] references
-- [ ] regul
+- [x] regul
 - [x] Relay
 - [x] RF_Bluetooth
 - [ ] rfcom
@@ -91,7 +91,7 @@
 - [x] siliconi
 - [x] supertex
 - [x] Switch
-- [ ] texas
+- [x] texas
 - [x] Transformer
 - [x] Transistor
 - [ ] triac_thyristor
