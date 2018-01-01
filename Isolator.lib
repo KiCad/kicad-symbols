@@ -1758,7 +1758,7 @@ ENDDEF
 DEF NSL-32 U 0 0 Y Y 1 F N
 F0 "U" 0 200 50 H V C CNN
 F1 "NSL-32" 0 -200 50 H V C CNN
-F2 "Opto-Devices:Optoisolator_NSL-32" 0 0 50 H I C CNN
+F2 "OptoDevice:Optoisolator_NSL-32" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Optoisolator*NSL?32*
@@ -3013,7 +3013,7 @@ ENDDEF
 DEF VTL5C U 0 40 Y N 1 F N
 F0 "U" 0 200 50 H V C CNN
 F1 "VTL5C" 0 -200 50 H V C CNN
-F2 "Opto-Devices:Optoisolator_VTL5C" 0 0 50 H I C CNN
+F2 "OptoDevice:Optoisolator_VTL5C" 0 0 50 H I C CNN
 F3 "" 50 -250 50 H I C CNN
 $FPLIST
  VTL5C*
@@ -3044,7 +3044,7 @@ ENDDEF
 DEF VTL5Cx2 U 0 40 Y N 1 F N
 F0 "U" 0 200 50 H V C CNN
 F1 "VTL5Cx2" 0 -200 50 H V C CNN
-F2 "Opto-Devices:Optoisolator_VTL5Cx2" 0 0 50 H I C CNN
+F2 "OptoDevice:Optoisolator_VTL5Cx2" 0 0 50 H I C CNN
 F3 "" 50 -250 50 H I C CNN
 $FPLIST
  VTL5C*
