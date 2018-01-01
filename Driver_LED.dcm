@@ -156,4 +156,34 @@ K DC/DC Buck Conwerter 3A Low Voltage Input LED Lighting
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/71/e8/26/3c/c8/cc/46/e6/CD00292360/files/CD00292360.pdf/jcr:content/translations/en.CD00292360.pdf
 $ENDCMP
 #
+$CMP TLC5940NT
+D 16-Channel LED Driver With DOT Correction and Grayscale PWM Control, DIP package
+K PWM LED driver
+F http://www.ti.com/lit/ds/symlink/tlc5940.pdf
+$ENDCMP
+#
+$CMP TLC5940PWP
+D 16-Channel LED Driver With DOT Correction and Grayscale PWM Control, TSSOP package with thermal pad
+K PWM LED driver
+F http://www.ti.com/lit/ds/symlink/tlc5940.pdf
+$ENDCMP
+#
+$CMP TLC5947DAP
+D 24-Channel, 12-Bit PWM LED Driver, HTSSOP
+K PWM LED driver HTSSOP
+F http://www.ti.com/lit/ds/symlink/tlc5947.pdf
+$ENDCMP
+#
+$CMP TLC5947RHB
+D 24-Channel, 12-Bit PWM LED Driver, QFN
+K PWM LED driver QFN
+F http://www.ti.com/lit/ds/symlink/tlc5947.pdf
+$ENDCMP
+#
+$CMP TLC5973
+D 3 Channel 12bit PWM constant currend LED Driver with single wire interface
+K LED current driver 12bit PWM
+F http://www.ti.com/lit/ds/symlink/tlc5973.pdf
+$ENDCMP
+#
 #End Doc Library
