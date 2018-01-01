@@ -1,9 +1,21 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ASMT-YTC2-0AA02
+D Triple LED RVB (Avago Technology)
+K LED RGB
+F http://www.avagotech.com/docs/AV02-2589EN
+$ENDCMP
+#
 $CMP CLV1L-FKB
 D Cree PLCC4 3 in 1 SMD LED
 K led rgb diode
 F http://www.cree.com/led-components/media/documents/CLV1L-FKB-1238.pdf
+$ENDCMP
+#
+$CMP CQY99
+D 950nm IR-LED, 5mm
+K IR LED
+F https://www.prtice.info/IMG/pdf/CQY99.pdf
 $ENDCMP
 #
 $CMP HDSP-4830
@@ -78,6 +90,30 @@ K display LED array
 F https://docs.broadcom.com/docs/AV02-1798EN
 $ENDCMP
 #
+$CMP IR204A
+D Infrared LED , 3mm LED package
+K opto IR LED
+F http://www.everlight.com/file/ProductFile/IR204-A.pdf
+$ENDCMP
+#
+$CMP IRL81A
+D 850nm High Power Infrared Emitter, Side-Emitter package
+K IR LED
+F http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf
+$ENDCMP
+#
+$CMP LD271
+D 940nm IR-LED, 5mm
+K IR LED
+F http://www.alliedelec.com/m/d/40788c34903a719969df15f1fbea1056.pdf
+$ENDCMP
+#
+$CMP LD274
+D 950nm IR-LED, 5mm
+K IR LED
+F http://pdf.datasheetcatalog.com/datasheet/siemens/LD274.pdf
+$ENDCMP
+#
 $CMP LED_Cree_XHP50_12V
 D XLamp® XHP50 LED, 12V footprint (all 4 LEDs in series)
 K led diode
@@ -106,6 +142,54 @@ $CMP Neopixel_THT
 D WS2812B ("Neopixel") digital RGB LED, 5mm/8mm LED package
 K led diode Neopixel WS2811 WS2812
 F https://www.adafruit.com/product/1938
+$ENDCMP
+#
+$CMP SFH4346
+D Infrared LED , 3mm LED package
+K opto IR LED
+F http://cdn-reichelt.de/documents/datenblatt/A500/SFH4346.pdf
+$ENDCMP
+#
+$CMP SFH4356P
+D Infrared LED , 3mm LED package
+K opto IR LED
+F http://www.osram-os.com/Graphics/XPic5/00181708_0.pdf
+$ENDCMP
+#
+$CMP SFH4546
+D High-Power IR LED 940nm
+K IR LED
+F http://www.osram-os.com/Graphics/XPic1/00101982_0.pdf
+$ENDCMP
+#
+$CMP SFH4550
+D 950nm High-Power IR-LED, 5mm
+K IR LED
+F http://www.osram-os.com/Graphics/XPic3/00116140_0.pdf
+$ENDCMP
+#
+$CMP SFH460
+D GaAlAs Infrared LED, TO-18 package
+K opto IR LED
+F http://www.osram-os.com/Graphics/XPic6/00029609_0.pdf/SFh%20460.pdf
+$ENDCMP
+#
+$CMP SFH480
+D GaAlAs Infrared LED (880 nm), TO-18 package
+K IR LED Opto
+F http://www.osram-os.com/Graphics/XPic1/00083613_0.pdf
+$ENDCMP
+#
+$CMP SFH482
+D GaAlAs Infrared LED (880 nm), TO-18 package
+K opto IR LED
+F http://www.osram-os.com/Graphics/XPic2/00182155_0.pdf/SFH%20482%20E7800,%20Lead%20(Pb)%20Free%20Product%20-%20RoHS%20Compliant.pdf
+$ENDCMP
+#
+$CMP TSAL4400
+D Infrared LED , 3mm LED package
+K opto IR LED
+F http://www.vishay.com/docs/81006/tsal4400.pdf
 $ENDCMP
 #
 $CMP WS2812
