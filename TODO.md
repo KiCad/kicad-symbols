@@ -71,7 +71,7 @@
 - [x] nordicsemi
 - [ ] nxp
 - [ ] onsemi
-- [ ] opto
+- [x] opto
 - [x] Oscillators
 - [x] philips
 - [x] powerint
