@@ -1,9 +1,627 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LM25119
+D Wide Input Range, Dual Synchronous Buck Controller, WQFN 32
+K Synchronous Buck
+F http://www.ti.com/lit/ds/symlink/lm25119.pdf
+$ENDCMP
+#
 $CMP LTC1624CS8
 D High Efficiency N-Channel Switching Regulator Controller, SO-8
 K Switching Regulator Controller
 F http://cds.linear.com/docs/en/datasheet/1624f.pdf
+$ENDCMP
+#
+$CMP TOP100YN
+D TOPSwitch Family, 20W Max Output Power, TO-220
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top100.pdf
+$ENDCMP
+#
+$CMP TOP101YN
+D TOPSwitch Family, 35W Max Output Power, TO-220
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top100.pdf
+$ENDCMP
+#
+$CMP TOP102YN
+D TOPSwitch Family, 45W Max Output Power, TO-220
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top100.pdf
+$ENDCMP
+#
+$CMP TOP103YN
+D TOPSwitch Family, 55W Max Output Power, TO-220
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top100.pdf
+$ENDCMP
+#
+$CMP TOP104YN
+D TOPSwitch Family, 60W Max Output Power, TO-220
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top100.pdf
+$ENDCMP
+#
+$CMP TOP200YAI
+D TOPSwitch Family, 12W Max Output Power, TO-220
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top200-204214.pdf
+$ENDCMP
+#
+$CMP TOP201YAI
+D TOPSwitch Family, 22W Max Output Power, TO-220
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top200-204214.pdf
+$ENDCMP
+#
+$CMP TOP202YAI
+D TOPSwitch Family, 30W Max Output Power, TO-220
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top200-204214.pdf
+$ENDCMP
+#
+$CMP TOP203YAI
+D TOPSwitch Family, 35W Max Output Power, TO-220
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top200-204214.pdf
+$ENDCMP
+#
+$CMP TOP204YAI
+D TOPSwitch Family, 50W Max Output Power, TO-220
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top200-204214.pdf
+$ENDCMP
+#
+$CMP TOP209G
+D TOPSwitch Family, 2W Max Output Power, SMD-8
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top209210.pdf
+$ENDCMP
+#
+$CMP TOP209P
+D TOPSwitch Family, 2W Max Output Power, DIP-8
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top209210.pdf
+$ENDCMP
+#
+$CMP TOP210G
+D TOPSwitch Family, 5W Max Output Power, SMD-8
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top209210.pdf
+$ENDCMP
+#
+$CMP TOP210PFI
+D TOPSwitch Family, 5W Max Output Power, DIP-8
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top209210.pdf
+$ENDCMP
+#
+$CMP TOP214YAI
+D TOPSwitch Family, 42W Max Output Power, TO-220
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top200-204214.pdf
+$ENDCMP
+#
+$CMP TOP252EG
+D TOPSwitch-HX Family, 13W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP252EN
+D TOPSwitch-HX Family, 13W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP252GN
+D TOPSwitch-HX Family, 10W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP252MN
+D TOPSwitch-HX Family, 10W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP252PN
+D TOPSwitch-HX Family, 10W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP253EG
+D TOPSwitch-HX Family, 29W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP253EN
+D TOPSwitch-HX Family, 29W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP253GN
+D TOPSwitch-HX Family, 15W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP253MN
+D TOPSwitch-HX Family, 15W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP253PN
+D TOPSwitch-HX Family, 15W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP254EG
+D TOPSwitch-HX Family, 43W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP254EN
+D TOPSwitch-HX Family, 43W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP254GN
+D TOPSwitch-HX Family, 20W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP254MN
+D TOPSwitch-HX Family, 20W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP254PN
+D TOPSwitch-HX Family, 20W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP254YN
+D TOPSwitch-HX Family, 43W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP255EG
+D TOPSwitch-HX Family, 57W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP255EN
+D TOPSwitch-HX Family, 57W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP255GN
+D TOPSwitch-HX Family, 22W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP255LN
+D TOPSwitch-HX Family, 57W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP255MN
+D TOPSwitch-HX Family, 22W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP255PN
+D TOPSwitch-HX Family, 22W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP255YN
+D TOPSwitch-HX Family, 57W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP256EG
+D TOPSwitch-HX Family, 86W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP256EN
+D TOPSwitch-HX Family, 86W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP256GN
+D TOPSwitch-HX Family, 26W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP256LN
+D TOPSwitch-HX Family, 64W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP256MN
+D TOPSwitch-HX Family, 26W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP256PN
+D TOPSwitch-HX Family, 26W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP256YN
+D TOPSwitch-HX Family, 86W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP257EG
+D TOPSwitch-HX Family, 119W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP257EN
+D TOPSwitch-HX Family, 119W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP257GN
+D TOPSwitch-HX Family, 30W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP257LN
+D TOPSwitch-HX Family, 78W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP257MN
+D TOPSwitch-HX Family, 30W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP257PN
+D TOPSwitch-HX Family, 30W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP257YN
+D TOPSwitch-HX Family, 119W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP258EG
+D TOPSwitch-HX Family, 148W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP258EN
+D TOPSwitch-HX Family, 148W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP258GN
+D TOPSwitch-HX Family, 35W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP258LN
+D TOPSwitch-HX Family, 92W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP258MN
+D TOPSwitch-HX Family, 35W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP258PN
+D TOPSwitch-HX Family, 35W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP258YN
+D TOPSwitch-HX Family, 148W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP259EG
+D TOPSwitch-HX Family, 171W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP259EN
+D TOPSwitch-HX Family, 171W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP259LN
+D TOPSwitch-HX Family, 120W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP259YN
+D TOPSwitch-HX Family, 171W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP260EG
+D TOPSwitch-HX Family, 200W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP260EN
+D TOPSwitch-HX Family, 200W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP260LN
+D TOPSwitch-HX Family, 140W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP260YN
+D TOPSwitch-HX Family, 200W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP261EG
+D TOPSwitch-HX Family, 254W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP261EN
+D TOPSwitch-HX Family, 254W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP261LN
+D TOPSwitch-HX Family, 177W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP261YN
+D TOPSwitch-HX Family, 254W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP262EN
+D TOPSwitch-HX Family, 254W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP262LN
+D TOPSwitch-HX Family, 177W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP264EG
+D TOPSwitch-JX Family, 43W Output Power, eSIP-7C
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP264KG
+D TOPSwitch-JX Family, 30W Output Power, eSOP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP264VG
+D TOPSwitch-JX Family, 43W Output Power, eDIP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP265EG
+D TOPSwitch-JX Family, 57W Output Power, eSIP-7C
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP265KG
+D TOPSwitch-JX Family, 34W Output Power, eSOP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP265VG
+D TOPSwitch-JX Family, 57W Output Power, eDIP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP266EG
+D TOPSwitch-JX Family, 86W Output Power, eSIP-7C
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP266KG
+D TOPSwitch-JX Family, 39W Output Power, eSOP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP266VG
+D TOPSwitch-JX Family, 86W Output Power, eDIP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP267EG
+D TOPSwitch-JX Family, 103W Output Power, eSIP-7C
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP267KG
+D TOPSwitch-JX Family, 45W Output Power, eSOP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP267VG
+D TOPSwitch-JX Family, 103W Output Power, eDIP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP268EG
+D TOPSwitch-JX Family, 112W Output Power, eSIP-7C
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP268KG
+D TOPSwitch-JX Family, 50W Output Power, eSOP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP268VG
+D TOPSwitch-JX Family, 112W Output Power, eDIP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP269EG
+D TOPSwitch-JX Family, 120W Output Power, eSIP-7C
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP269KG
+D TOPSwitch-JX Family, 55W Output Power, eSOP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP269VG
+D TOPSwitch-JX Family, 120W Output Power, eDIP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP270EG
+D TOPSwitch-JX Family, 140W Output Power, eSIP-7C
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP270KG
+D TOPSwitch-JX Family, 60W Output Power, eSOP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP270VG
+D TOPSwitch-JX Family, 140W Output Power, eDIP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP271EG
+D TOPSwitch-JX Family, 177W Output Power, eSIP-7C
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP271KG
+D TOPSwitch-JX Family, 66W Output Power, eSOP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP271VG
+D TOPSwitch-JX Family, 177W Output Power, eDIP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP UCC2891
+D SMPS Current-Mode Active Clamp PWM Controller, SOIC-16/TSSOP-16
+K SMPS PWM Controller
+F http://www.ti.com/lit/ds/symlink/ucc2891.pdf
+$ENDCMP
+#
+$CMP UCC2892
+D SMPS Current-Mode Active Clamp PWM Controller, SOIC-16/TSSOP-16
+K SMPS PWM Controller
+F http://www.ti.com/lit/ds/symlink/ucc2892.pdf
+$ENDCMP
+#
+$CMP UCC2893
+D SMPS Current-Mode Active Clamp PWM Controller, SOIC-16/TSSOP-16
+K SMPS PWM Controller
+F http://www.ti.com/lit/ds/symlink/ucc2893.pdf
+$ENDCMP
+#
+$CMP UCC2894
+D SMPS Current-Mode Active Clamp PWM Controller, SOIC-16/TSSOP-16
+K SMPS PWM Controller
+F http://www.ti.com/lit/ds/symlink/ucc2894.pdf
+$ENDCMP
+#
+$CMP UCC2897
+D SMPS Advanced Current-Mode Active Clamp PWM Controller, TSSOP-20/QFN-20
+K SMPS PWM Controller
+F http://www.ti.com/lit/ds/symlink/ucc2897.pdf
 $ENDCMP
 #
 #End Doc Library

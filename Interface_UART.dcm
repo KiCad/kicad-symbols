@@ -24,6 +24,24 @@ K rs232 uart transceiver
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
 $ENDCMP
 #
+$CMP ADM2484E
+D Isolated RS485/RS422 Transceiver, Half-/Full-Duplex, 500kbps,SOIC-16W
+K RS485 Transceiver RS422 Transceiver
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM2484E.pdf
+$ENDCMP
+#
+$CMP ADM2582E
+D Isolated RS485/RS422 Transciever,Integrated Isolated DC-DC Converter, 16Mbps,SO-20
+K RS485 Transciever,RS422 Transciever
+F www.analog.com/media/en/technical-documentation/data-sheets/ADM2582E_2587E.pdf
+$ENDCMP
+#
+$CMP ADM2587E
+D Isolated RS485/RS422 Transciever,Integrated Isolated DC-DC Converter, 500kbps,SO-20
+K RS485 Transciever,RS422 Transciever
+F www.analog.com/media/en/technical-documentation/data-sheets/ADM2582E_2587E.pdf
+$ENDCMP
+#
 $CMP GD65232DB
 D Multiple RS-232 Driver and Receiver, SSOP-20
 K RS232 UART Driver Receiver Interface
@@ -76,6 +94,18 @@ $CMP ISL83491
 D 10Mbps RS485/RS422 transceiver, full duplex, receiver/driver enable, low power shutdown
 K RS485 RS422 transceiver full duplex
 F http://www.intersil.com/content/dam/Intersil/documents/isl8/isl83483-85-88-90-91.pdf
+$ENDCMP
+#
+$CMP ISO3082DW
+D 200 kbps, Isolated 5-V Half-Duplex RS-485 transceiver, SOIC-16
+K RS-485
+F http://www.ti.com/lit/ds/symlink/iso3082.pdf
+$ENDCMP
+#
+$CMP ISO3088DW
+D 20 Mbps, Isolated 5-V Half-Duplex RS-485 transceiver, SOIC-16
+K RS-485
+F http://www.ti.com/lit/ds/symlink/iso3082.pdf
 $ENDCMP
 #
 $CMP LT1080
@@ -322,6 +352,11 @@ $CMP SP3485EP
 D Industrial 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, DIP8
 K Low Power Half-Duplex RS-485 Transceiver 10Mbps
 F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
+$ENDCMP
+#
+$CMP Z8530
+D SCC Serial Communication Controller, DIP-40
+K SCC Serial Communication
 $ENDCMP
 #
 #End Doc Library
