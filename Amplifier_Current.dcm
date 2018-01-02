@@ -1,0 +1,327 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD8202
+D 28V High Common-Mode Voltage, Single-Supply Difference Amplifier, 10V/V x 2V/V adjustable gain, bandwidth 50kHz, Vcc=3.5V~12V, unidirectional, SOIC-8/MSOP-8
+K highside HS current sense amplifier linear buffered monitor preamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8202.pdf
+$ENDCMP
+#
+$CMP AD8203
+D 30V High Common-Mode Voltage, Single-Supply Difference Amplifier, 7V/V x 2V/V adjustable gain, bandwidth 60kHz, Vcc=3.5V~12V, unidirectional, SOIC-8/MSOP-8
+K highside HS current sense amplifier linear buffered monitor preamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8203.pdf
+$ENDCMP
+#
+$CMP AD8205
+D 65V Single-Supply, System Difference Amplifier, 50V/V gain, bandwidth 50kHz, Vcc=5V, SOIC-8
+K highside HS difference amplifier linear buffered
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8205.pdf
+$ENDCMP
+#
+$CMP AD8206
+D 65V High Common-Mode Voltage, Bidirectional, Current Shunt Amplifier, 20V/V gain, bandwidth 100kHz, Vcc=5V, SOIC-8
+K highside HS current sense amplifier linear buffered
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8206.pdf
+$ENDCMP
+#
+$CMP AD8208
+D 45V High Voltage, Precision Difference Amplifier, 10V/V x 2V/V adjustable gain, bandwidth 70kHz, Vcc=5V, unidirectional, SOIC-8/MSOP-8
+K highside HS current sense amplifier linear buffered monitor preamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8208.pdf
+$ENDCMP
+#
+$CMP AD8209
+D 45V High Voltage, Precision Difference Amplifier, 7V/V x 2V/V adjustable gain, bandwidth 80kHz, Vcc=5V, unidirectional, MSOP-8
+K highside HS current sense amplifier linear buffered monitor preamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8209.pdf
+$ENDCMP
+#
+$CMP AD8210
+D 65V High Voltage, Bidirectional Current Shunt Monitor, 20V/V gain, bandwidth 450kHz, Vcc=5V, SOIC-8
+K highside HS current sense amplifier linear buffered
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8210.pdf
+$ENDCMP
+#
+$CMP AD8211
+D 65V High Voltage, Current Shunt Monitor, 20V/V gain, bandwidth 500kHz, Vcc=5V, SOT-23-5
+K highside HS current sense amplifier linear buffered
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8211.pdf
+$ENDCMP
+#
+$CMP AD8212
+D 65V High Voltage Current, Shunt Monitor, adjustable gain, bandwidth 1000kHz, Vcc=7V~65V, current output, unidirectional, MSOP-8
+K highside HS current sense shunt monitor amplifier linear
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8212.pdf
+$ENDCMP
+#
+$CMP AD8213
+D 65V Dual, High Voltage, Current Shunt Monitor, 20V/V gain, bandwidth 500kHz, Vcc=5V, MSOP-10
+K highside HS current sense amplifier linear buffered dual monitor
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8213.pdf
+$ENDCMP
+#
+$CMP AD8215
+D 65V High Voltage, Current Shunt Monitor, 20V/V gain, bandwidth 450kHz, Vcc=5V, unidirectional, SOIC-8
+K highside HS current sense amplifier linear buffered monitor
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8215.pdf
+$ENDCMP
+#
+$CMP AD8216
+D 65V High Bandwidth, Bidirectional Difference Amplifier, 3V/V gain, bandwidth 3MHz, Vcc=5V, SOIC-8
+K HS difference amplifier linear
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8216.pdf
+$ENDCMP
+#
+$CMP AD8217
+D 80V High Resolution, Zero-Drift, Current Shunt Monitor, 20V/V gain, bandwidth 500kHz, internal LDO, unidirectional, MSOP-8
+K highside HS current sense amplifier linear buffered monitor
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8217.pdf
+$ENDCMP
+#
+$CMP AD8218xCP
+D 80V Zero Drift, Bidirectional, Current Shunt Monitor, 20V/V gain, bandwidth 450kHz, Vcc=5V, LFCSP-8
+K highside HS current sense amplifier linear buffered
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8218.pdf
+$ENDCMP
+#
+$CMP AD8218xRM
+D 80V Zero Drift, Bidirectional, Current Shunt Monitor, 20V/V gain, bandwidth 450kHz, Vcc=5V, MSOP-8
+K highside HS current sense amplifier linear buffered
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8218.pdf
+$ENDCMP
+#
+$CMP AD8219
+D 80V Zero Drift, Unidirectional, Current Shunt Monitor, 60V/V gain, bandwidth 500kHz, Vcc=4V~80V, MSOP-8
+K highside HS current sense amplifier linear buffered monitor
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8219.pdf
+$ENDCMP
+#
+$CMP AD8417
+D 70V Bidirectional, Zero Drift, Current Sense Amplifier, 60V/V gain, bandwidth 250kHz, VS=2.7V~5.5V, SOIC-8/MSOP-8
+K highside HS current sense amplifier linear
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8417.pdf
+$ENDCMP
+#
+$CMP AD8418
+D 70V Bidirectional, Zero Drift, Current Sense Amplifier, 20V/V gain, bandwidth 250kHz, VS=2.7V~5.5V, SOIC-8/MSOP-8
+K highside HS current sense amplifier linear
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.pdf
+$ENDCMP
+#
+$CMP INA138
+D High-Side Measurement Current Shunt Monitor, 36V, SOT-23-5
+K current sense shunt monitor
+F http://www.ti.com/lit/ds/symlink/ina138.pdf
+$ENDCMP
+#
+$CMP INA168
+D High-Side Measurement Current Shunt Monitor, 60V, SOT-23-5
+K current sense shunt monitor
+F http://www.ti.com/lit/ds/symlink/ina138.pdf
+$ENDCMP
+#
+$CMP INA193
+D Current Shunt Monitor −16 V to +80 V Common-Mode Range, 20V/V, SOT-23-5
+K current sense shunt monitor
+F http://www.ti.com/lit/ds/symlink/ina193.pdf
+$ENDCMP
+#
+$CMP INA194
+D Current Shunt Monitor −16 V to +80 V Common-Mode Range, 50V/V, SOT-23-5
+K current sense shunt monitor
+F http://www.ti.com/lit/ds/symlink/ina193.pdf
+$ENDCMP
+#
+$CMP INA195
+D Current Shunt Monitor −16 V to +80 V Common-Mode Range, 100V/V, SOT-23-5
+K current sense shunt monitor
+F http://www.ti.com/lit/ds/symlink/ina193.pdf
+$ENDCMP
+#
+$CMP INA196
+D Current Shunt Monitor −16 V to +80 V Common-Mode Range, 20V/V, SOT-23-5
+K current sense shunt monitor
+F http://www.ti.com/lit/ds/symlink/ina193.pdf
+$ENDCMP
+#
+$CMP INA197
+D Current Shunt Monitor −16 V to +80 V Common-Mode Range, 50V/V, SOT-23-5
+K current sense shunt monitor
+F http://www.ti.com/lit/ds/symlink/ina193.pdf
+$ENDCMP
+#
+$CMP INA198
+D Current Shunt Monitor −16 V to +80 V Common-Mode Range, 100V/V, SOT-23-5
+K current sense shunt monitor
+F http://www.ti.com/lit/ds/symlink/ina193.pdf
+$ENDCMP
+#
+$CMP INA282
+D High-Accuracy, Wide Common-Mode Range, Bidirectional Current Shunt Monitors, Zero-Drift Series, 50V/V, SOIC-8/VSSOP-8
+K current monitor shunt sensor bidirectional
+F http://www.ti.com/lit/ds/symlink/ina282.pdf
+$ENDCMP
+#
+$CMP INA283
+D High-Accuracy, Wide Common-Mode Range, Bidirectional Current Shunt Monitors, Zero-Drift Series, 200V/V, SOIC-8/VSSOP-8
+K current monitor shunt sensor bidirectional
+F http://www.ti.com/lit/ds/symlink/ina282.pdf
+$ENDCMP
+#
+$CMP INA284
+D High-Accuracy, Wide Common-Mode Range, Bidirectional Current Shunt Monitors, Zero-Drift Series, 500V/V, SOIC-8/VSSOP-8
+K current monitor shunt sensor bidirectional
+F http://www.ti.com/lit/ds/symlink/ina282.pdf
+$ENDCMP
+#
+$CMP INA285
+D High-Accuracy, Wide Common-Mode Range, Bidirectional Current Shunt Monitors, Zero-Drift Series, 1000V/V, SOIC-8/VSSOP-8
+K current monitor shunt sensor bidirectional
+F http://www.ti.com/lit/ds/symlink/ina282.pdf
+$ENDCMP
+#
+$CMP INA286
+D High-Accuracy, Wide Common-Mode Range, Bidirectional Current Shunt Monitors, Zero-Drift Series, 100V/V, SOIC-8/VSSOP-8
+K current monitor shunt sensor bidirectional
+F http://www.ti.com/lit/ds/symlink/ina282.pdf
+$ENDCMP
+#
+$CMP LT6106
+D 36V Low Cost, High Side Current Sense, SOT-23-5
+K current sense
+F http://cds.linear.com/docs/en/datasheet/6106fb.pdf
+$ENDCMP
+#
+$CMP LTC6102HVxDD
+D Precision Zero Drift Current Sense Amplifier, 100V, DFN-8
+K current sense amplifier
+F http://cds.linear.com/docs/en/datasheet/6102fe.pdf
+$ENDCMP
+#
+$CMP LTC6102HVxMS8
+D Precision Zero Drift Current Sense Amplifier, 100V, MSOP-8
+K current sense amplifier
+F http://cds.linear.com/docs/en/datasheet/6102fe.pdf
+$ENDCMP
+#
+$CMP LTC6102xDD
+D Precision Zero Drift Current Sense Amplifier, 60V, DFN-8
+K current sense amplifier
+F http://cds.linear.com/docs/en/datasheet/6102fe.pdf
+$ENDCMP
+#
+$CMP LTC6102xDD-1
+D Precision Zero Drift Current Sense Amplifier, 60V, DFN-8
+K current sense amplifier
+F http://cds.linear.com/docs/en/datasheet/6102fe.pdf
+$ENDCMP
+#
+$CMP LTC6102xMS8
+D Precision Zero Drift Current Sense Amplifier, 60V, MSOP-8
+K current sense amplifier
+F http://cds.linear.com/docs/en/datasheet/6102fe.pdf
+$ENDCMP
+#
+$CMP LTC6102xMS8-1
+D Precision Zero Drift Current Sense Amplifier, 60V, MSOP-8
+K current sense amplifier
+F http://cds.linear.com/docs/en/datasheet/6102fe.pdf
+$ENDCMP
+#
+$CMP MAX4080F
+D 76V, High-Side, Current-Sense Amplifiers with Voltage Output, Unidirectional, 5V/V Gain, SOIC-8/uMAX-8
+K current sense amplifier
+F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
+$ENDCMP
+#
+$CMP MAX4080S
+D 76V, High-Side, Current-Sense Amplifiers with Voltage Output, Undirectional, 60V/V Gain, SOIC-8/uMAX-8
+K current sense amplifier
+F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
+$ENDCMP
+#
+$CMP MAX4080T
+D 76V, High-Side, Current-Sense Amplifiers with Voltage Output, Unidirectional, 20V/V Gain, SOIC-8/uMAX-8
+K current sense amplifier
+F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
+$ENDCMP
+#
+$CMP MAX4081F
+D 76V, High-Side, Current-Sense Amplifiers with Voltage Output, Bidirectional, 5V/V Gain, SOIC-8/uMAX-8
+K current sense amplifier
+F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
+$ENDCMP
+#
+$CMP MAX4081S
+D 76V, High-Side, Current-Sense Amplifiers with Voltage Outpute, Bidirectional, 60V/V Gain, SOIC-8/uMAX-8
+K current sense amplifier
+F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
+$ENDCMP
+#
+$CMP MAX4081T
+D 76V, High-Side, Current-Sense Amplifiers with Voltage Output, Bidirectional, 20V/V Gain, SOIC-8/uMAX-8
+K current sense amplifier
+F http://datasheets.maximintegrated.com/en/ds/MAX4080-MAX4081.pdf
+$ENDCMP
+#
+$CMP MAX471
+D Precision, High-Side, Current-Sense Amplifiers, DIP-8/SOIC-8
+K current sense amplifier
+F http://pdfserv.maximintegrated.com/en/ds/MAX471-MAX472.pdf
+$ENDCMP
+#
+$CMP MAX472
+D Precision, High-Side, Current-Sense Amplifiers, DIP-8/SOIC-8
+K current sense amplifier
+F http://pdfserv.maximintegrated.com/en/ds/MAX471-MAX472.pdf
+$ENDCMP
+#
+$CMP NCS210
+D Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 200V/V Gain, SC-70-6
+K Current shunt monitor
+F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
+$ENDCMP
+#
+$CMP NCS211
+D Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 500V/V Gain, SC-70-6
+K Current shunt monitor
+F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
+$ENDCMP
+#
+$CMP NCV210
+D Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 200V/V Gain, SC-70-6
+K Current shunt monitor
+F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
+$ENDCMP
+#
+$CMP ZXCT1009F
+D High-Side Current Monitor, SOT-23
+K High side current monitor shunt
+F https://www.diodes.com/assets/Datasheets/ZXCT1009.pdf
+$ENDCMP
+#
+$CMP ZXCT1009T8
+D High-Side Current Monitor, SM8
+K High side current monitor shunt
+F https://www.diodes.com/assets/Datasheets/ZXCT1009.pdf
+$ENDCMP
+#
+$CMP ZXCT1107
+D Low Power High-Side Current Monitors, SOT-23
+K High side current monitor shunt
+F https://www.diodes.com/assets/Datasheets/ZXCT1107_10.pdf
+$ENDCMP
+#
+$CMP ZXCT1109
+D Low Power High-Side Current Monitors, SOT-23
+K High side current monitor shunt
+F https://www.diodes.com/assets/Datasheets/ZXCT1107_10.pdf
+$ENDCMP
+#
+$CMP ZXCT1110
+D Low Power High-Side Current Monitors, SOT-23-5
+K High side current monitor shunt
+F https://www.diodes.com/assets/Datasheets/ZXCT1107_10.pdf
+$ENDCMP
+#
+#End Doc Library
