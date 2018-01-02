@@ -924,6 +924,12 @@ K Dual HEXFET N-Channel P-Channel MOSFET
 F http://www.irf.com/product-info/datasheets/data/irf7343ipbf.pdf
 $ENDCMP
 #
+$CMP IRF740
+D MOSFET, N Channel, 10 A, 400 V, 0.5 ohm
+K N Channel
+F http://www.vishay.com/docs/91054/91054.pdf
+$ENDCMP
+#
 $CMP IRF7403
 D 9.7A Id, 30V Vds, N-Channel HEXFET Power MOSFET, SO-8
 K N-Channel MOSFET

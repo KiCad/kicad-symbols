@@ -1,0 +1,345 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ASSR-1218
+D Form A, Solid State Relay (Photo MOSFET) 60V, 0.2A, 10Ohm, SO-4
+K MOSFET Output Photorelay 1-Form-A
+F https://docs.broadcom.com/docs/AV02-0173EN
+$ENDCMP
+#
+$CMP CPC1017N
+D Form A, Solid State Relay (Photo MOSFET) 60V, 0.1A, 16Ohm, SO-4
+K MOSFET Output Photorelay 1-Form-A
+F http://www.ixysic.com/home/pdfs.nsf/www/CPC1017N.pdf/$file/CPC1017N.pdf
+$ENDCMP
+#
+$CMP FOD420
+D Random Phase Opto-Triac, Vdrm 600V, Ift 0.75mA, Itm 300mA, DIP6
+K Opto-Triac Opto Triac Random Phase
+F http://www.fairchildsemi.com/ds/FO/FOD4218.pdf
+$ENDCMP
+#
+$CMP FOD4208
+D Random Phase Opto-Triac, Vdrm 800V, Ift 0.75mA, Itm 300mA, DIP6
+K Opto-Triac Opto Triac Random Phase
+F http://www.fairchildsemi.com/ds/FO/FOD4218.pdf
+$ENDCMP
+#
+$CMP FOD4216
+D Random Phase Opto-Triac, Vdrm 600V, Ift 0.75mA, Itm 300mA, DIP6
+K Opto-Triac Opto Triac Random Phase
+F http://www.fairchildsemi.com/ds/FO/FOD4218.pdf
+$ENDCMP
+#
+$CMP FOD4218
+D Random Phase Opto-Triac, Vdrm 800V, Ift 0.75mA, Itm 300mA, DIP6
+K Opto-Triac Opto Triac Random Phase
+F http://www.fairchildsemi.com/ds/FO/FOD4218.pdf
+$ENDCMP
+#
+$CMP FODM3011
+D Full Pitch Mini-Flat Random Phase Opto-Triac, Vdrm 250V, Ift 10mA, MFP 4L
+K Opto-Triac Opto Triac Random Phase Mini-Flat
+F http://www.fairchildsemi.com/ds/FO/FODM3053.pdf
+$ENDCMP
+#
+$CMP FODM3012
+D Full Pitch Mini-Flat Random Phase Opto-Triac, Vdrm 250V, Ift 5mA, MFP 4L
+K Opto-Triac Opto Triac Random Phase Mini-Flat
+F http://www.fairchildsemi.com/ds/FO/FODM3053.pdf
+$ENDCMP
+#
+$CMP FODM3022
+D Full Pitch Mini-Flat Random Phase Opto-Triac, Vdrm 400V, Ift 10mA, MFP 4L
+K Opto-Triac Opto Triac Random Phase Mini-Flat
+F http://www.fairchildsemi.com/ds/FO/FODM3053.pdf
+$ENDCMP
+#
+$CMP FODM3023
+D Full Pitch Mini-Flat Random Phase Opto-Triac, Vdrm 400V, Ift 5mA, MFP 4L
+K Opto-Triac Opto Triac Random Phase Mini-Flat
+F http://www.fairchildsemi.com/ds/FO/FODM3053.pdf
+$ENDCMP
+#
+$CMP FODM3052
+D Full Pitch Mini-Flat Random Phase Opto-Triac, Vdrm 600V, Ift 10mA, MFP 4L
+K Opto-Triac Opto Triac Random Phase Mini-Flat
+F http://www.fairchildsemi.com/ds/FO/FODM3053.pdf
+$ENDCMP
+#
+$CMP FODM3053
+D Full Pitch Mini-Flat Random Phase Opto-Triac, Vdrm 600V, Ift 5mA, MFP 4L
+K Opto-Triac Opto Triac Random Phase Mini-Flat
+F http://www.fairchildsemi.com/ds/FO/FODM3053.pdf
+$ENDCMP
+#
+$CMP LAA110
+D Dual Single-Pole, Normally Open OptoMOS® Relay, DIP-8
+K Dual MOSFET Output Photorelay 1-Form-A
+F http://www.clare.com/home/pdfs.nsf/www/LAA110.pdf/$file/LAA110.pdf
+$ENDCMP
+#
+$CMP LBB110
+D Dual Single-Pole, Normally Closed OptoMOS® Relay, DIP-8
+K Dual MOSFET Output Photorelay 1-Form-B
+F http://www.ixysic.com/home/pdfs.nsf/www/LBB110.pdf/$file/LBB110.pdf
+$ENDCMP
+#
+$CMP LCC110
+D 1-Form-C OptoMOS® Relay, DIP-8
+K MOSFET Output Photorelay 1-Form-C
+F http://www.ixysic.com/home/pdfs.nsf/www/LCC110.pdf/$file/LCC110.pdf
+$ENDCMP
+#
+$CMP MOC3010M
+D Random Phase Opto-Triac, Vdrm 250V, Ift 15mA, DIP6
+K Opto-Triac Opto Triac Random Phase
+F http://www.fairchildsemi.com/ds/MO/MOC3020M.pdf
+$ENDCMP
+#
+$CMP MOC3011M
+D Random Phase Opto-Triac, Vdrm 250V, Ift 10mA, DIP6
+K Opto-Triac Opto Triac Random Phase
+F http://www.fairchildsemi.com/ds/MO/MOC3020M.pdf
+$ENDCMP
+#
+$CMP MOC3012M
+D Random Phase Opto-Triac, Vdrm 250V, Ift 5mA, DIP6
+K Opto-Triac Opto Triac Random Phase
+F http://www.fairchildsemi.com/ds/MO/MOC3020M.pdf
+$ENDCMP
+#
+$CMP MOC3020M
+D Random Phase Opto-Triac, Vdrm 400V, Ift 30mA, DIP6
+K Opto-Triac Opto Triac Random Phase
+F http://www.fairchildsemi.com/ds/MO/MOC3020M.pdf
+$ENDCMP
+#
+$CMP MOC3021M
+D Random Phase Opto-Triac, Vdrm 400V, Ift 15mA, DIP6
+K Opto-Triac Opto Triac Random Phase
+F http://www.fairchildsemi.com/ds/MO/MOC3020M.pdf
+$ENDCMP
+#
+$CMP MOC3022M
+D Random Phase Opto-Triac, Vdrm 400V, Ift 10mA, DIP6
+K Opto-Triac Opto Triac Random Phase
+F http://www.fairchildsemi.com/ds/MO/MOC3020M.pdf
+$ENDCMP
+#
+$CMP MOC3023M
+D Random Phase Opto-Triac, Vdrm 400V, Ift 5mA, DIP6
+K Opto-Triac Opto Triac Random Phase
+F http://www.fairchildsemi.com/ds/MO/MOC3020M.pdf
+$ENDCMP
+#
+$CMP MOC3031M
+D Zero Cross Opto-Triac, Vdrm 250V, Ift 15mA, DIP6
+K Opto-Triac Opto Triac Zero Cross
+F http://www.fairchildsemi.com/ds/MO/MOC3031M.pdf
+$ENDCMP
+#
+$CMP MOC3032M
+D Zero Cross Opto-Triac, Vdrm 250V, Ift 10mA, DIP6
+K Opto-Triac Opto Triac Zero Cross
+F http://www.fairchildsemi.com/ds/MO/MOC3031M.pdf
+$ENDCMP
+#
+$CMP MOC3033M
+D Zero Cross Opto-Triac, Vdrm 250V, Ift 5mA, DIP6
+K Opto-Triac Opto Triac Zero Cross
+F http://www.fairchildsemi.com/ds/MO/MOC3031M.pdf
+$ENDCMP
+#
+$CMP MOC3041M
+D Zero Cross Opto-Triac, Vdrm 400V, Ift 15mA, DIP6
+K Opto-Triac Opto Triac Zero Cross
+F http://www.fairchildsemi.com/ds/MO/MOC3031M.pdf
+$ENDCMP
+#
+$CMP MOC3042M
+D Zero Cross Opto-Triac, Vdrm 400V, Ift 10mA, DIP6
+K Opto-Triac Opto Triac Zero Cross
+F http://www.fairchildsemi.com/ds/MO/MOC3031M.pdf
+$ENDCMP
+#
+$CMP MOC3043M
+D Zero Cross Opto-Triac, Vdrm 400V, Ift 5mA, DIP6
+K Opto-Triac Opto Triac Zero Cross
+F http://www.fairchildsemi.com/ds/MO/MOC3031M.pdf
+$ENDCMP
+#
+$CMP MOC3051M
+D Random Phase Opto-Triac, Vdrm 600V, Ift 15mA, DIP6
+K Opto-Triac Opto Triac Random Phase
+F http://www.fairchildsemi.com/ds/MO/MOC3052M.pdf
+$ENDCMP
+#
+$CMP MOC3052M
+D Random Phase Opto-Triac, Vdrm 600V, Ift 10mA, DIP6
+K Opto-Triac Opto Triac Random Phase
+F http://www.fairchildsemi.com/ds/MO/MOC3052M.pdf
+$ENDCMP
+#
+$CMP MOC3061M
+D Zero Cross Opto-Triac, Vdrm 600V, Ift 15mA, DIP6
+K Opto-Triac Opto Triac Zero Cross
+F http://www.fairchildsemi.com/ds/MO/MOC3061M.pdf
+$ENDCMP
+#
+$CMP MOC3062M
+D Zero Cross Opto-Triac, Vdrm 600V, Ift 10mA, DIP6
+K Opto-Triac Opto Triac Zero Cross
+F http://www.fairchildsemi.com/ds/MO/MOC3061M.pdf
+$ENDCMP
+#
+$CMP MOC3063M
+D Zero Cross Opto-Triac, Vdrm 600V, Ift 5mA, DIP6
+K Opto-Triac Opto Triac Zero Cross
+F http://www.fairchildsemi.com/ds/MO/MOC3061M.pdf
+$ENDCMP
+#
+$CMP MOC3081M
+D Zero Cross Opto-Triac, Vdrm 800V, Ift 15mA, DIP6
+K Opto-Triac Opto Triac Zero Cross
+F http://www.fairchildsemi.com/ds/MO/MOC3081M.pdf
+$ENDCMP
+#
+$CMP MOC3082M
+D Zero Cross Opto-Triac, Vdrm 800V, Ift 10mA, DIP6
+K Opto-Triac Opto Triac Zero Cross
+F http://www.fairchildsemi.com/ds/MO/MOC3081M.pdf
+$ENDCMP
+#
+$CMP MOC3083M
+D Zero Cross Opto-Triac, Vdrm 800V, Ift 5mA, DIP6
+K Opto-Triac Opto Triac Zero Cross
+F http://www.fairchildsemi.com/ds/MO/MOC3081M.pdf
+$ENDCMP
+#
+$CMP MOC3162M
+D Zero Cross Opto-Triac, Vdrm 600V, Ift 10mA, dv/dt 1000, DIP6
+K Opto-Triac Opto Triac Zero Cross
+F http://www.fairchildsemi.com/ds/MO/MOC3061M.pdf
+$ENDCMP
+#
+$CMP MOC3163M
+D Zero Cross Opto-Triac, Vdrm 600V, Ift 5mA, dv/dt 1000, DIP6
+K Opto-Triac Opto Triac Zero Cross
+F http://www.fairchildsemi.com/ds/MO/MOC3061M.pdf
+$ENDCMP
+#
+$CMP S102S01
+D Random Phase Opto-Triac, Vdrm 400V, Ift 8mA, IT 8A
+K Opto-Triac Opto Triac Random Phase Solid State Relays
+F http://www.sharp-world.com/products/device/lineup/data/pdf/datasheet/s102s01_e.pdf
+$ENDCMP
+#
+$CMP S102S02
+D Zero Cross Opto-Triac, Vdrm 400V, Ift 8mA, IT 8A
+K Opto-Triac Opto Triac Zero Cross Solid State Relays
+F http://www.sharp-world.com/products/device/lineup/data/pdf/datasheet/s102s02_e.pdf
+$ENDCMP
+#
+$CMP S112S01
+D Random Phase Opto-Triac, Vdrm 400V, Ift 8mA, IT 12A
+K Opto-Triac Opto Triac Random Phase Solid State Relays
+F http://www.sharp-world.com/products/device/lineup/data/pdf/datasheet/s112s01_e.pdf
+$ENDCMP
+#
+$CMP S116S01
+D Random Phase Opto-Triac, Vdrm 400V, Ift 8mA, IT 16A
+K Opto-Triac Opto Triac Random Phase Solid State Relays
+F http://www.sharp-world.com/products/device/lineup/data/pdf/datasheet/s116s01_e.pdf
+$ENDCMP
+#
+$CMP S116S02
+D Zero Cross Opto-Triac, Vdrm 400V, Ift 8mA, IT 16A
+K Opto-Triac Opto Triac Zero Cross Solid State Relays
+F http://www.sharp-world.com/products/device/lineup/data/pdf/datasheet/s116s02_e.pdf
+$ENDCMP
+#
+$CMP S202S01
+D Random Phase Opto-Triac, Vdrm 600V, Ift 8mA, IT 8A
+K Opto-Triac Opto Triac Random Phase Solid State Relays
+F http://www.sharp-world.com/products/device/lineup/data/pdf/datasheet/s102s01_e.pdf
+$ENDCMP
+#
+$CMP S202S02
+D Zero Cross Opto-Triac, Vdrm 600V, Ift 8mA, IT 8A
+K Opto-Triac Opto Triac Zero Cross Solid State Relays
+F http://www.sharp-world.com/products/device/lineup/data/pdf/datasheet/s102s02_e.pdf
+$ENDCMP
+#
+$CMP S212S01
+D Random Phase Opto-Triac, Vdrm 600V, Ift 8mA, IT 12A
+K Opto-Triac Opto Triac Random Phase Solid State Relays
+F http://www.sharp-world.com/products/device/lineup/data/pdf/datasheet/s112s01_e.pdf
+$ENDCMP
+#
+$CMP S216S01
+D Random Phase Opto-Triac, Vdrm 600V, Ift 8mA, IT 16A
+K Opto-Triac Opto Triac Random Phase Solid State Relays
+F http://www.sharp-world.com/products/device/lineup/data/pdf/datasheet/s116s01_e.pdf
+$ENDCMP
+#
+$CMP S216S02
+D Zero Cross Opto-Triac, Vdrm 600V, Ift 8mA, IT 16A
+K Opto-Triac Opto Triac Zero Cross Solid State Relays
+F http://www.sharp-world.com/products/device/lineup/data/pdf/datasheet/s116s02_e.pdf
+$ENDCMP
+#
+$CMP TLP141G
+D DC Optocoupler Thyristor Based, Vdrm 400V, It 150mA, Viso 2500V, MFSOP6
+K OptoThyristor DC Optocoupler
+F http://datasheet.octopart.com/TLP141G(U,F)-Toshiba-datasheet-134958.pdf
+$ENDCMP
+#
+$CMP TLP148G
+D DC Optocoupler Thyristor Based, Vdrm 400V, It 150mA, Viso 2500V, MFSOP6
+K OptoThyristor DC Optocoupler
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=1019&prodName=TLP148G
+$ENDCMP
+#
+$CMP TLP160G
+D Random Phase Opto-Triac, Vdrm 400V, Ift 5mA, SOP6
+K Opto-Triac Opto Triac Random
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=16916&prodName=TLP160G
+$ENDCMP
+#
+$CMP TLP160J
+D Random Phase Opto-Triac, Vdrm 600V, Ift 7mA, SOP6
+K Opto-Triac Opto Triac Random
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=16919&prodName=TLP160J
+$ENDCMP
+#
+$CMP TLP161G
+D Zero Cross Opto-Triac, Vdrm 400V, Ift 5mA, SOP6
+K Opto-Triac Opto Triac Zero Cross
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=16921&prodName=TLP161G
+$ENDCMP
+#
+$CMP TLP161J
+D Zero Cross Opto-Triac, Vdrm 600V, Ift 7mA, SOP6
+K Opto-Triac Opto Triac Zero Cross
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=4207&prodName=TLP161J
+$ENDCMP
+#
+$CMP TLP175A
+D MOSFET Photorelay 1-Form-A, Voff 60V, Ion 100mA, SOP6
+K MOSFET Output Photorelay 1-Form-A
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=13665&prodName=TLP175A
+$ENDCMP
+#
+$CMP TLP222A
+D MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A, DIP4
+K MOSFET Output Photorelay 1-Form-A
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A
+$ENDCMP
+#
+$CMP TLP222A-2
+D Dual MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A, DIP8
+K Dual MOSFET Output Photorelay 1-Form-A
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A
+$ENDCMP
+#
+#End Doc Library
