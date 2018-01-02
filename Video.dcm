@@ -6,6 +6,18 @@ K DAC CNA VIDEO
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9708.pdf
 $ENDCMP
 #
+$CMP SAA7182
+D Digital Video Encoder, Obsolete
+K Video Encoder
+F http://rcl-radio.ru/wp-content/uploads/2014/11/SAA7182.pdf
+$ENDCMP
+#
+$CMP TDA8501
+D PAL/NTSC Encoder, RGB or Y/Y-R/Y-B Inputs, DIP/SOIC-20
+K Video Encoder
+F http://www.nxp.com/documents/data_sheet/TDA8501.pdf
+$ENDCMP
+#
 $CMP TDA8702
 D 8bit Video DAC (32 MHz), DIP-16
 K DAC CNA VIDEO
@@ -16,6 +28,12 @@ $CMP TDA8702T
 D 8bit Video DAC (32 MHz), SOIC-16
 K DAC CNA VIDEO
 F philips/tda8702.pdf
+$ENDCMP
+#
+$CMP TDA8772
+D Triple 8bit Video DAC, QFP-44
+K Video DAC Colour 8bit
+F http://www.pa0qy.nl/pdf/TDA8772.PDF
 $ENDCMP
 #
 $CMP TEA2014
