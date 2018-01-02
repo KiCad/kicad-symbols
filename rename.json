@@ -582,7 +582,9 @@
     "nordicsemi" : "RF_Bluetooth",
 
     "nxp" : {
-        "pca9*" : "Driver_LED"
+        "pca96*" : "Driver_LED",
+        "pca953*" : "Interface_Expansion",
+        "pca954*" : "Interface_Expansion"
     },
 
     "nxp_armmcu" : "MCU_NXP_LPC",
