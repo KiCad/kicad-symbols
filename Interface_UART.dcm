@@ -96,6 +96,18 @@ K RS485 RS422 transceiver full duplex
 F http://www.intersil.com/content/dam/Intersil/documents/isl8/isl83483-85-88-90-91.pdf
 $ENDCMP
 #
+$CMP ISO3082DW
+D 200 kbps, Isolated 5-V Half-Duplex RS-485 transceiver, SOIC-16
+K RS-485
+F http://www.ti.com/lit/ds/symlink/iso3082.pdf
+$ENDCMP
+#
+$CMP ISO3088DW
+D 20 Mbps, Isolated 5-V Half-Duplex RS-485 transceiver, SOIC-16
+K RS-485
+F http://www.ti.com/lit/ds/symlink/iso3082.pdf
+$ENDCMP
+#
 $CMP LT1080
 D Dual RS232 driver/receiver, 5V supply, 120kb/s
 K rs232 uart transceiver

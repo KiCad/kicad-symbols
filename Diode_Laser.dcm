@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PL450B
+D Blue Laser Diode (450nm), TO-38
+K opto laserdiode
+F http://www.osram-os.com/Graphics/XPic5/00193831_0.pdf/PL%20450B.pdf
+$ENDCMP
+#
+$CMP PL520
+D Green Laser Diode (520nm), TO-38
+K opto laserdiode
+F http://www.osram-os.com/Graphics/XPic7/00234693_0.pdf/PL%20520.pdf
+$ENDCMP
+#
+$CMP PLT5_488
+D Cyan Laser Diode (488nm), TO-56
+K opto laserdiode
+F http://www.osram-os.com/Graphics/XPic6/00206440_0.pdf/PLT5%20488.pdf
+$ENDCMP
+#
+$CMP PLT5_510
+D Green Laser Diode (510nm), TO-38
+K opto laserdiode
+F http://www.osram-os.com/Graphics/XPic2/00227065_0.pdf/PLT5%20510.pdf
+$ENDCMP
+#
+$CMP SPL_PL90
+D Pulsed Laser Diode in Plastic Package 25 W Peak Power
+K opto laserdiode
+F http://www.osram-os.com/Graphics/XPic0/00194565_0.pdf/SPL%20PL90.pdf
+$ENDCMP
+#
+#End Doc Library
