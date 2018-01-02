@@ -69,7 +69,7 @@
 - [x] Motor
 - [ ] motorola
 - [x] nordicsemi
-- [ ] nxp
+- [x] nxp
 - [ ] onsemi
 - [x] opto
 - [x] Oscillators
