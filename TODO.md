@@ -31,7 +31,7 @@
 - [x] gennum
 - [x] Graphic
 - [x] hc11
-- [ ] infineon
+- [x] infineon
 - [ ] intel
 - [x] interface
 - [x] intersil
