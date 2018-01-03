@@ -2,7 +2,7 @@
   (lib (name Amplifier_Audio)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Amplifier_Audio.lib)(options "")(descr "Amplifier for audio applications"))
   (lib (name Amplifier_Buffer)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Amplifier_Buffer.lib)(options "")(descr "Buffer amplifiers"))
   (lib (name Amplifier_Current)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Amplifier_Current.lib)(options "")(descr "Amplifiers for current sensors (shunt)"))
-  (lib (name Amplifier_Difference)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Amplifier_Difference.lib)(options "")(descr "Amplifiers for analog differencial signals"))
+  (lib (name Amplifier_Difference)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Amplifier_Difference.lib)(options "")(descr "Amplifiers for analog differential signals"))
   (lib (name Amplifier_Operational)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Amplifier_Operational.lib)(options "")(descr "General operational amplifiers"))
   (lib (name Amplifier_Instrumentation)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Amplifier_Instrumentation.lib)(options "")(descr "Instrumentation amplitifers"))
   (lib (name Amplifier_Video)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Amplifier_Video.lib)(options "")(descr "Video amplifiers"))
