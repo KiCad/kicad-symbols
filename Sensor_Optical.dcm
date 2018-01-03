@@ -288,6 +288,12 @@ K npn phototransistor
 F http://www.osram-os.com/Graphics/XPic2/00101811_0.pdf/SFH%20309,%20SFH%20309%20FA,%20Lead%20(Pb)%20Free%20Product%20-%20RoHS%20Compliant.pdf
 $ENDCMP
 #
+$CMP SFH3201
+D Silicon NPN phototransistor, SMD-6
+K NPN phototransistor
+F https://dammedia.osram.info/media/resource/hires/osram-dam-2495980/SFH%203201.pdf
+$ENDCMP
+#
 $CMP TSL2550D
 D Ambient Light Sensor with SMbus Interface, SO-8 interface
 K opto ambient light sensor
