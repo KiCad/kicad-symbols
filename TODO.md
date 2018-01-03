@@ -99,7 +99,7 @@
 - [ ] video
 - [x] wiznet
 - [x] Worldsemi
-- [ ] Xicor
+- [x] Xicor
 - [ ] xilinx
 - [x] zetex
 - [x] Zilog
