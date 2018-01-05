@@ -954,9 +954,23 @@
         "XC94*" : "CPLD_Xilinx",
         "XC95*" : "CPLD_Xilinx",
         "XCR*" : "CPLD_Xilinx",
-        "XC2C*" : "CPLD_Xilinx",
-        "XC2S*" : "FPGA_Xilinx"
+        "XC2*" : "FPGA_Xilinx",
+        "XC3*" : "FPGA_Xilinx",
+        "XC4*" : "FPGA_Xilinx",
+        "XC6*" : "FPGA_Xilinx",
+        "XC7336" : "CPLD_Xilinx",
+        "XCF08P" : "Memory_ROM",
+        "400*" : "Memory_ROM",
+        "XCV150_BG352" : "FPGA_Xilinx",
+        "XC18V01SO20" : "Memory_ROM"
     },
+
+    "xilinx-artix7" : "FGPA_Xilinx_Artix7",
+    "xilinx-kintex7" : "FPGA_Xilinx_Kintex7",
+    "xilinx-virtex5" : "FPGA_Xilinx_Virtex5",
+    "xilinx-virtex6" : "FPGA_Xilinx_Virtex6",
+    "xilinx-virtex7" : "FPGA_Xilinx_Virtex7",
+    "xilinx-spartan6" : "FPGA_Xilinx_Spartan6",
 
     "Zilog" : {
         "Z80*" : "CPU",
