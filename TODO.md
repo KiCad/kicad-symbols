@@ -100,6 +100,6 @@
 - [x] wiznet
 - [x] Worldsemi
 - [x] Xicor
-- [ ] xilinx
+- [x] xilinx
 - [x] zetex
 - [x] Zilog
