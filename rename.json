@@ -1,5 +1,9 @@
 {
     "atmel" : {
+        "AT89*" : "MCU_Atmel_ATTINY",
+        "AT90*" : "MCU_Atmel_AVR",
+        "SAM*" : "trash",
+        "AT42*" : "Sensor_Touch",
         "ATXMEGA*" : "MCU_Atmel_ATMEGA",
         "ATMEGA*" : "MCU_Atmel_ATMEGA",
         "ATTINY*" : "MCU_Atmel_ATTINY"
@@ -97,12 +101,7 @@
 
     "Altera" : "CPLD_Altera",
 
-    "atmel" : {
-        "AT89*" : "Memory_Flash",
-        "AT90*" : "Memory_Flash",
-        "SAM*" : "MCU_Atmel_ARM",
-        "AT42*" : "Sensor_Touch"
-    },
+
 
     "audio" : {
         "LM18*" : "Amplifier_Audio",

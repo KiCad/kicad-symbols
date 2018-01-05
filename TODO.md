@@ -5,7 +5,7 @@
 - [x] Altera
 - [x] analog_devices
 - [x] analog_switches
-- [ ] atmel
+- [x] atmel
 - [x] audio
 - [x] Battery_Management
 - [ ] bbd
