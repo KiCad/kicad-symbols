@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 8237
+D Programmable DMA Controller, PDIP-40
+K 8237 DMA
+F https://pdos.csail.mit.edu/6.828/2012/readings/hardware/8237A.pdf
+$ENDCMP
+#
 $CMP 8255
 D Programmable Peripheral Interface, PDIP-40
 K 8255 PPI
@@ -10,6 +16,18 @@ $CMP 8255A
 D Programmable Peripheral Interface, PDIP-40
 K 8255 PPI
 F http://aturing.umcs.maine.edu/~meadow/courses/cos335/Intel8255A.pdf
+$ENDCMP
+#
+$CMP 8259
+D 8259, Programmable Interrupt Controller, PDIP-28
+K PIC
+F http://pdos.csail.mit.edu/6.828/2005/readings/hardware/8259A.pdf
+$ENDCMP
+#
+$CMP 8288
+D Bus Controller for Intel 8086/8088/80186/80188 microprocessors, DIP-20
+K Bus Controller
+F http://www.datasheets360.com/pdf/7208679415653955300
 $ENDCMP
 #
 $CMP 82C55A
