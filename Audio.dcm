@@ -96,6 +96,12 @@ K audio dac 2ch 24bit 192kHz
 F http://www.ti.com/lit/ds/symlink/dsd1794a.pdf
 $ENDCMP
 #
+$CMP MSGEQ7
+D Seven Band Graphic Equalizer, DIP-8/SOIC-8
+K equalizer filter
+F http://mix-sig.com/images/datasheets/MSGEQ7.pdf
+$ENDCMP
+#
 $CMP PCM1792A
 D 24-Bit, 192-kHz Sampling, Advanced Segment, Audio Stereo Digital-to-Analog Converter, SW Control, SSOP-28
 K audio dac 2ch 24bit 192kHz
@@ -106,6 +112,18 @@ $CMP PCM1794A
 D 24-Bit, 192-kHz Sampling, Advanced Segment, Audio Stereo Digital-to-Analog Converter, HW Control, SSOP-28
 K audio dac 2ch 24bit 192kHz
 F http://www.ti.com/lit/ds/symlink/pcm1794a.pdf
+$ENDCMP
+#
+$CMP PGA4311
+D 4-Channel Audio Volume Control, SPI Interface, +31.5dB to -95.5dB, SOIC-28W
+K audio volume control 4ch spi
+F http://www.ti.com/lit/ds/symlink/pga4311.pdf
+$ENDCMP
+#
+$CMP PT2399
+D Echo Processor IC
+K CMOS ADC DAC 44K Digital processing VCO
+F http://sound.westhost.com/pt2399.pdf
 $ENDCMP
 #
 $CMP TLV320AIC23BPW

@@ -1,5 +1,9 @@
 {
     "atmel" : {
+        "AT89*" : "MCU_Atmel_ATTINY",
+        "AT90*" : "MCU_Atmel_AVR",
+        "SAM*" : "trash",
+        "AT42*" : "Sensor_Touch",
         "ATXMEGA*" : "MCU_Atmel_ATMEGA",
         "ATMEGA*" : "MCU_Atmel_ATMEGA",
         "ATTINY*" : "MCU_Atmel_ATTINY"
@@ -11,10 +15,22 @@
     "analog_switches" : "Analog_Switches",
 
     "analog_devices" : {
-        "ADuM76*" : "Isolator_Digital",
-        "ADuM14*" : "Isolator_Digital",
+        "ADuM76*" : "Isolator",
+        "ADuM14*" : "Isolator",
         "ADM25*" : "Interface_UART",
-        "ADM24*" : "Interface_UART"
+        "ADM24*" : "Interface_UART",
+        "AD623*" : "Amplifier_Instrumentation",
+        "AD84*" : "Amplifier_Instrumentation",
+        "ADuM6000" : "Regulator_Switching",
+        "ADE7758" : "Sensor"
+    },
+
+    "Audio" : {
+        "IR43*" : "Amplifier_Audio",
+        "TLV32*" : "Amplifier_Audio",
+        "IRS205*" : "Amplifier_Audio",
+        "IRS209*" : "Amplifier_Audio",
+        "IRS245*" : "Amplifier_Audio"
     },
 
     "Battery_Management" : "Battery_Management",
@@ -67,18 +83,24 @@
 
     "Altera" : "CPLD_Altera",
 
-    "atmel" : {
-        "AT89*" : "Memory_Flash",
-        "AT90*" : "Memory_Flash",
-        "SAM*" : "MCU_Atmel_ARM",
-        "AT42*" : "Sensor_Touch"
-    },
 
-    "audio" : {
+
+    "axudio" : {
         "LM18*" : "Amplifier_Audio",
         "LM38*" : "Amplifier_Audio",
         "tda*" : "Amplifier_Audio",
-        "LM4990*" : "Amplifier_Audio"
+        "LM4*" : "Amplifier_Audio",
+        "LM2876*" : "Amplifier_Audio",
+        "PAM*" : "Amplifier_Audio",
+        "MAX9814*" : "Amplifier_Audio",
+        "MSGEQ7*" : "Audio",
+        "PGA4311*" : "Audio",
+        "STK*" : "Amplifier_Audio",
+        "THAT*" : "Amplifier_Audio",
+        "SSM20*" : "Amplifier_Audio",
+        "SSM21*" : "Amplifier_Audio",
+        "SSM22*" : "Transistor_BJT",
+        "TR-AUDIO*" : "legacy_audio"
     },
 
 
@@ -96,7 +118,12 @@
         "CY8C4*" : "MCU_Cypress",
         "CY8L1*" : "MCU_Cypress",
         "C87CMBR*" : "Sensor_Touch",
-        "CY7C65*" : "Interface_USB"
+        "CY7C65*" : "Interface_USB",
+        "CYB*" : "MCU_Cypress",
+        "CY8CMBR3*" : "Sensor_Touch",
+        "CY7C1*" : "Memory_RAM",
+        "CY7C2*" : "Memory_RAM",
+        "CY7C420" : "Memory_RAM"
     },
 
     "dc-dc" : {
@@ -281,14 +308,29 @@
 
     "intersil" : {
         "EL7*" : "Driver_FET",
-        "HIP*" : "Driver_FET",
-        "ICL*" : "Battery_Management"
+        "HIP*" : "Driver_FET"
     },
 
     "ir" : {
         "IR*21*" : "Driver_FET",
-        "ir:IRS20*" : "Amplifier_Audio",
-        "ir:AUIPS*" : "Sensor_Current"
+        "AUIPS*" : "Power_Distribution",
+        "AUIR33*" : "Power_Distribution",
+        "IR115*" : "Regulator_Controller",
+        "IR116*" : "Regulator_Controller",
+        "IRS250*" : "Regulator_Controller",
+        "IRS25751*" : "Power_Management",
+        "IRS200*" : "Driver_FET",
+        "IR201*" : "Driver_FET",
+        "IR2085*" : "Driver_FET",
+        "IR2304" : "Driver_FET",
+        "IR7*" : "Driver_FET",
+        "IR256*" : "Driver_FET",
+        "IRS289*" : "Driver_FET",
+        "IR257*" : "Sensor_Current",
+        "IR43*" : "Amplifier_Audio",
+        "IRS205*" : "Amplifier_Audio",
+        "IRS209*" : "Amplifier_Audio",
+        "IRS245*" : "Amplifier_Audio"
     },
 
     "Lattice" : "Logic_Programmable",
@@ -296,38 +338,96 @@
     "LEM" : "Sensor_Current",
 
     "linear" : {
-        "INA12*" : "Amplifier_Operational",
-        "INA13*" : "Amplifier_Current",
-        "INA16*" : "Amplifier_Current",
-        "INA19*" : "Amplifier_Current",
-        "INA28*" : "Amplifier_Current",
-        "INA32*" : "Amplifier_Instrumentation",
-        "AD62*" : "Amplifier_Instrumentation",
-        "LTC110*" : "Amplifier_Instrumentation",
-        "AD8202*" : "Amplifier_Current",
-        "AD8203*" : "Amplifier_Current",
-        "LM2901*" : "Comparator",
-        "MCP656*" : "Comparator",
-        "LT6102*" : "Amplifier_Current",
-        "ZXCT*" : "Amplifier_Current",
-        "MAX408*" : "Amplifier_Current",
-        "MAX471*" : "Amplifier_Current",
-        "MAX472*" : "Amplifier_Current",
-        "LTC6102*" : "Amplifier_Current",
-        "AD821*" : "Amplifier_Current",
-        "LTC608*" : "Amplifier_Operational",
-        "MCP601*" : "Amplifier_Operational",
-        "MCP600*" : "Amplifier_Operational",
-        "OPA26*" : "Amplifier_Operational",
-        "L272*" : "Amplifier_Operational",
-        "AD82*" : "Amplifier_Difference",
-        "LM311" : "Comparator",
-        "LM7332" : "Amplifier_Operational",
-        "LTC6362*" : "Amplifier_Operational",
-        "LM733C*" : "Amplifier_Difference",
-        "LM733H" : "Amplifier_Difference",
-        "NE55*" : "Timer",
-        "TLC555*" : "Timer"
+      "AD62*" : "Amplifier_Instrumentation",
+      "AD797*" : "Amplifier_Operational",
+      "AD813*" : "Amplifier_Video",
+      "AD8202*" : "Amplifier_Current",
+      "AD8203*" : "Amplifier_Current",
+      "AD8205*" : "Amplifier_Difference",
+      "AD8206*" : "Amplifier_Current",
+      "AD8207*" : "Amplifier_Difference",
+      "AD8208*" : "Amplifier_Difference",
+      "AD8209*" : "Amplifier_Difference",
+      "AD8210*" : "Amplifier_Current",
+      "AD8211*" : "Amplifier_Current",
+      "AD8212*" : "Amplifier_Current",
+      "AD8213*" : "Amplifier_Current",
+      "AD8215*" : "Amplifier_Current",
+      "AD8216*" : "Amplifier_Difference",
+      "AD8217*" : "Amplifier_Current",
+      "AD8218*" : "Amplifier_Current",
+      "AD8219*" : "Amplifier_Current",
+      "AD823*" : "Amplifier_Instrumentation",
+      "AD841*" : "Amplifier_Current",
+      "ADA4807*" : "Amplifier_Operational",
+      "ADCMP350*" : "Comparator",
+      "CA3*" : "Amplifier_Operational",
+      "INA12*" : "Amplifier_Operational",
+      "INA13*" : "Amplifier_Current",
+      "INA16*" : "Amplifier_Current",
+      "INA19*" : "Amplifier_Current",
+      "INA28*" : "Amplifier_Current",
+      "INA32*" : "Amplifier_Instrumentation",
+      "L272*" : "Amplifier_Operational",
+      "LF398*" : "Analog",
+      "LH0002H*" : "Amplifier_Buffer",
+      "LM13700*" : "Amplifier_Operational",
+      "LM2901*" : "Comparator",
+      "LM2902*" : "Amplifier_Operational",
+      "LM2903*" : "Comparator",
+      "LM2904*" : "Amplifier_Operational",
+      "LM311*" : "Comparator",
+      "LM318*" : "Amplifier_Operational",
+      "LM319*" : "Comparator",
+      "LM32*" : "Amplifier_Operational",
+      "LM386*" : "Amplifier_Audio",
+      "LM4250*" : "Amplifier_Operational",
+      "LM55*" : "Timer",
+      "LM632*" : "Amplifier_Buffer",
+      "LM636*" : "Amplifier_Operational",
+      "LM7332" : "Amplifier_Operational",
+      "LM733C*" : "Amplifier_Difference",
+      "LM733H" : "Amplifier_Difference",
+      "LM74*" : "Amplifier_Operational",
+      "LMC555*" : "Timer",
+      "LMV32*" : "Amplifier_Operational",
+      "LMV33*" : "Comparator",
+      "LMV6*" : "Amplifier_Operational",
+      "LT5560*" : "RF_Mixer",
+      "LT6102*" : "Amplifier_Current",
+      "LT6106*" : "Amplifier_Current",
+      "LTC110*" : "Amplifier_Instrumentation",
+      "LTC115*" : "Amplifier_Operational",
+      "LTC6102*" : "Amplifier_Current",
+      "LTC608*" : "Amplifier_Operational",
+      "LTC6362*" : "Amplifier_Operational",
+      "MAX408*" : "Amplifier_Current",
+      "MAX4238*" : "Amplifier_Operational",
+      "MAX471*" : "Amplifier_Current",
+      "MAX472*" : "Amplifier_Current",
+      "MCP600*" : "Amplifier_Operational",
+      "MCP601*" : "Amplifier_Operational",
+      "MCP603*" : "Amplifier_Operational",
+      "MCP656*" : "Comparator",
+      "MCP6L*" : "Amplifier_Operational",
+      "MIC845*" : "Comparator",
+      "NCS210*" : "Amplifier_Current",
+      "NE55*" : "Timer",
+      "NE567*" : "Timer",
+      "OP07*" : "Amplifier_Operational",
+      "OP179*" : "Amplifier_Operational",
+      "OP249*" : "Amplifier_Operational",
+      "OP279*" : "Amplifier_Operational",
+      "OPA1622*" : "Amplifier_Audio",
+      "OPA23*" : "Amplifier_Operational",
+      "OPA26*" : "Amplifier_Operational",
+      "OPA3*" : "Amplifier_Operational",
+      "OPA890*" : "Amplifier_Operational",
+      "THS*" : "Amplifier_Operational",
+      "TL3116*" : "Comparator",
+      "TLC555*" : "Timer",
+      "TSV912IQ2T*" : "Amplifier_Operational",
+      "ZXCT*" : "Amplifier_Current"
     },
 
     "Logic_74xgxx" : "",
@@ -337,22 +437,13 @@
     "logic_programmable" : "Logic_Programmable",
     "Logic_TTL_IEEE" : "",
 
-    "Digital_Potentiometer" : "Potentiometer_Digital",
-
     "maxim" : {
-        "DS12*" : "Potentiometer_Digital",
+        "DS12*" : "Digital_Potentiometer",
         "DS18*" : "Sensor_Temperature",
         "DS28*" : "Sensor_Temperature",
         "MAX12*" : "Analog_ADC",
         "max318*" : "Sensor_Temperature",
-        "MAX6355" : "Power_Supervisor",
-        "DS323*" : "Timer_RTC",
-        "DS160*" : "Timer_RTC",
-        "DS130*" : "Timer_RTC",
-        "MAX453" : "Amplifier_Video",
-        "MAX5436" : "Potentiometer_Digital",
-        "MAX732*" : "Interface_Expansion",
-        "MAX691" : "Power_Supervisor"
+        "MAX6355" : "Power_Supervisor"
     },
 
     "mechanical" : "Mechanical",
@@ -452,7 +543,9 @@
     "nordicsemi" : "RF_Bluetooth",
 
     "nxp" : {
-        "pca9*" : "Driver_LED"
+        "pca96*" : "Driver_LED",
+        "pca953*" : "Interface_Expansion",
+        "pca954*" : "Interface_Expansion"
     },
 
     "nxp_armmcu" : "MCU_NXP_LPC",
@@ -466,28 +559,90 @@
     },
 
     "opto" : {
-        "SFH4*" : "Diode_IR",
-        "SFH61*" : "Isolator_Optical",
-        "TLP27*" : "Isolator_Optical",
-        "TLP30*" : "Isolator_Optical",
-        "TLP627*" : "Isolator_Optical",
-        "TSOP*" : "Sensor_Infrared",
-        "VO615*" : "Sensor_Infrared",
-        "PC8*" : "Isolator_Optical",
-        "LTV*" : "Isolator_Optical"
+      "SFH4*" : "LED",
+      "SFH61*" : "Isolator",
+      "TLP27*" : "Isolator",
+      "TLP30*" : "Isolator",
+      "TLP627*" : "Isolator",
+      "TSOP*" : "Interface_Optical",
+      "VO615*" : "Isolator",
+      "PC8*" : "Isolator",
+      "LTV*" : "Isolator",
+      "4N25*" : "Isolator",
+      "6N135*" : "Isolator",
+      "A?050*" : "Sensor_Optical",
+      "ACPL-C*" : "Isolator_Analog",
+      "APDS-9301*" : "Sensor_Optical",
+      "ASMT-YTC2-0AA02*" : "LED",
+      "ASSR*" : "Relay_SolidState",
+      "ACPL-?343" : "Isolator",
+      "BP*" : "Sensor_Optical",
+      "CNY17-1*" : "Isolator",
+      "CPC1017N*" : "Relay_SolidState",
+      "FOD*" : "Relay_SolidState",
+      "H*" : "Isolator",
+      "IL300*" : "Isolator_Analog",
+      "IRL81A*" : "LED",
+      "IS4*" : "Interface_Optical",
+      "KPS-5130*" : "Sensor_Optical",
+      "LCC110*" : "Relay_SolidState",
+      "LD2*" : "LED",
+      "LDR*" : "Sensor_Optical",
+      "LG2*" : "Sensor_Proximity",
+      "LPT80A*" : "Sensor_Optical",
+      "LTR-303ALS-01*" : "Sensor_Optical",
+      "M9960*" : "Sensor_Optical",
+      "MOC*" : "Relay_SolidState",
+      "NSL-32*" : "Isolator",
+      "PC3H4*" : "Isolator",
+      "PL450B*" : "Diode_Laser",
+      "PLT5_488*" : "Diode_Laser",
+      "QSE159*" : "Interface_Optical",
+      "S10*" : "Relay_SolidState",
+      "S13360-3025CS*" : "Sensor_Optical",
+      "SFH2*" : "Sensor_Optical",
+      "SFH309*" : "Sensor_Optical",
+      "SPL_PL90*" : "Diode_Laser",
+      "TLP12*" : "Isolator",
+      "TLP13*" : "Isolator",
+      "TLP14*" : "Relay_SolidState",
+      "TLP16*" : "Relay_SolidState",
+      "TLP17*" : "Relay_SolidState",
+      "TLP18*" : "Isolator",
+      "TLP22*" : "Relay_SolidState",
+      "TLP25*" : "Isolator",
+      "TLP29*" : "Isolator",
+      "TLP7*" : "Isolator",
+      "TSDP341xx*" : "Interface_Optical",
+      "TSL*" : "Sensor_Optical",
+      "TSMP58138*" : "Interface_Optical",
+      "VT93xx*" : "Sensor_Optical",
+      "VTL5C*" : "Isolator"
     },
 
     "Oscillators" : "Oscillator",
 
     "philips" : {
-        "p8*" : "Interface_I2C",
         "pca8*" : "Interface_CAN_LIN",
-        "pca9*" : "Interface_I2C"
+        "PCF*" : "Interface_Expansion",
+        "TDA8*" : "Video",
+        "HTRC*" : "RFID",
+        "P82B*" : "Interface_Expansion",
+        "SAA7*" : "Video",
+        "PCA9*" : "Interface_Expansion"
     },
+
+    "Power_Distribution" : "Power_Management",
 
     "pspice" : "",
 
     "power" : "",
+
+    "powerint" : {
+        "LNK*" : "Regulator_Switching",
+        "TNY*" : "Regulator_Switching",
+        "TOP*" : "Regulator_Controller"
+    },
 
     "Power_Management" : {
         "FAN7842" : "Driver_FET",
@@ -517,15 +672,62 @@
 
     "regul" : {
         "LM1117*" : "Regulator_Linear",
-        "LM317*" : "Regulator_Linear",
-        "LM337*" : "Regulator_Linear",
+        "LM3*" : "Regulator_Linear",
         "LT11*" : "Regulator_Linear",
         "NCP111*" : "Regulator_Linear",
         "AP111*" : "Regulator_Linear",
         "TPS7*" : "Regulator_Linear",
         "LT158*" : "Regulator_Linear",
         "LT1761*" : "Regulator_Linear",
-        "MCP1703*" : "Regulator_Linear"
+        "MCP17*" : "Regulator_Linear",
+        "LP298*" : "Regulator_Linear",
+        "MC78*" : "Regulator_Linear",
+        "TLV7*" : "Regulator_Linear",
+        "SPX*" : "Regulator_Linear",
+        "7?0*" : "Regulator_Linear",
+        "LM108*" : "Regulator_Linear",
+        "APE8*" : "Regulator_Linear",
+        "LM7*" : "Regulator_Linear",
+        "LD39*" : "Regulator_Linear",
+        "LP3*" : "Regulator_Linear",
+        "MAX16*" : "Regulator_Linear",
+        "LM29*" : "Regulator_Linear",
+        "MAX60*" : "Regulator_Linear",
+        "MAX874" : "Reference_Voltage",
+        "MAX88*" : "Regulator_Linear",
+        "TC1054" : "Regulator_Linear",
+        "KA37*" : "Regulator_Linear",
+        "MIC521*" : "Regulator_Linear",
+        "LD1117*" : "Regulator_Linear",
+        "LM117*" : "Regulator_Linear",
+        "MAX666" : "Regulator_Linear",
+        "AP131" : "Regulator_Linear",
+        "L200" : "Regulator_Linear",
+        "LF15*" : "Regulator_Linear",
+        "LT3*" : "Regulator_Linear",
+        "MIC4690" : "Regulator_Switching",
+        "PT6100" : "Regulator_Linear",
+        "TC1262*" : "Regulator_Linear",
+        "MCP182*" : "Regulator_Linear",
+        "AP131*" : "Regulator_Linear",
+        "LT1964*" : "Regulator_Linear",
+        "LTC3406*" : "Regulator_Switching",
+        "MAX5092*" : "Regulator_Linear",
+        "MC79L*" : "Regulator_Linear",
+        "AP220*" : "Regulator_Linear",
+        "ADP7*" : "Regulator_Linear",
+        "ICL7*" : "Regulator_Linear",
+        "IFX*" : "Regulator_Linear",
+        "LDK130*" : "Regulator_Linear",
+        "MAX66*" : "Regulator_Linear",
+        "MIC5*" : "Regulator_Linear",
+        "UA7*" : "Regulator_Linear",
+        "AP212*" : "Regulator_Linear",
+        "AZ11*" : "Regulator_Linear",
+        "L7905" : "Regulator_Linear",
+        "L79L05*" : "Regulator_Linear",
+        "L7805" : "Regulator_Linear",
+        "MC79M*" : "Regulator_Linear"
     },
 
     "relays" : "Relay",
@@ -619,22 +821,36 @@
 
     "Switch" : "",
 
-    "texas " : {
+    "texas" : {
+        "TB5*" : "Interface",
+        "DRV8848" : "Driver_Motor",
+        "MPY63*" : "Analog",
+        "PCA9306" : "Interface",
         "TLC5973" : "Driver_LED",
-        "TPL0*" : "Digital_Potentiometer",
+        "TPL0*" : "Potentiometer_Digital",
         "TUSB*" : "Interface_USB",
         "TS5*" : "Switch_Analog",
         "DRV886*" : "Driver_Relay",
-        "LM4F" : "MCU_Texas_Tiva",
-        "TM4C*" : "MCU_Texas_Tiva",
+        "LM4F" : "MCU_Texas",
+        "TM4C*" : "MCU_Texas",
+        "LM3S6911-EQC50" : "MCU_Texas",
+        "TMS*" : "MCU_Texas",
         "LM5109*" : "Driver_FET",
         "LM5175*" : "Regulator_Switching",
         "TUSB*" : "Interface_USB",
         "TXB01*" : "Logic_LevelTranslator",
         "TLC555" : "Timer",
         "TPS25*" : "Interface_USB",
-        "TPS240*" : "Power_Distribution",
-        "TLC5940*" : "Driver_LED"
+        "TPS240*" : "Power_Management",
+        "TPS20*" : "Power_Management",
+        "TLC594*" : "Driver_LED",
+        "ISO7*" : "Isolator",
+        "LM25119" : "Regulator_Controller",
+        "UCC*" : "Regulator_Controller",
+        "TCA95*" : "Interface_Expansion",
+        "TPL9*" : "Driver_Relay",
+        "TPIC*" : "Interface_Expansion",
+        "lp3947" : "Battery_Management"
     },
 
     "transistors" : "Transistor",
@@ -693,7 +909,7 @@
 
     "Worldsemi" : "LED",
 
-    "Xicor" : "Digital_Potentiometer",
+    "Xicor" : "Potentiometer_Digital",
 
     "zetex" : "Driver_FET",
 
@@ -701,9 +917,26 @@
         "XC94*" : "CPLD_Xilinx",
         "XC95*" : "CPLD_Xilinx",
         "XCR*" : "CPLD_Xilinx",
-        "XC2C*" : "CPLD_Xilinx",
-        "XC2S*" : "FPGA_Xilinx"
+        "XC2*" : "FPGA_Xilinx",
+        "XC3*" : "FPGA_Xilinx",
+        "XC4*" : "FPGA_Xilinx",
+        "XC6*" : "FPGA_Xilinx",
+        "XC7336" : "CPLD_Xilinx",
+        "XCF08P" : "Memory_ROM",
+        "400*" : "Memory_ROM",
+        "XCV150_BG352" : "FPGA_Xilinx",
+        "XC18V01SO20" : "Memory_ROM"
     },
 
-    "zilog" : "CPU_Zilog"
+    "xilinx-artix7" : "FGPA_Xilinx_Artix7",
+    "xilinx-kintex7" : "FPGA_Xilinx_Kintex7",
+    "xilinx-virtex5" : "FPGA_Xilinx_Virtex5",
+    "xilinx-virtex6" : "FPGA_Xilinx_Virtex6",
+    "xilinx-virtex7" : "FPGA_Xilinx_Virtex7",
+    "xilinx-spartan6" : "FPGA_Xilinx_Spartan6",
+
+    "Zilog" : {
+        "Z80*" : "CPU",
+        "Z85*" : "Interface_UART"
+    }
 }

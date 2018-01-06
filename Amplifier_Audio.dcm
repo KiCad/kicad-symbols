@@ -1,0 +1,381 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IRS2092
+D Protected Class D Audio Amplifier Half-Bridge Gate Driver, With PWM Modulator, Output Current 1.0/1.2A, +/-100V, PDIP-16/SOIC-16
+K Gate Driver Class D
+F http://www.infineon.com/dgdl/irs2092.pdf?fileId=5546d462533600a401535675f1be2790
+$ENDCMP
+#
+$CMP IRS20957S
+D Protected Class D Audio Amplifier Half-Bridge Gate Driver, Output Current 1.0/1.2A, +/-100V, SOIC-16
+K Gate Driver Class D
+F http://www.infineon.com/dgdl/irs20957spbf.pdf?fileId=5546d462533600a401535676143e2799
+$ENDCMP
+#
+$CMP LM1875
+D 20W Audio Power Amplifier, TO-220-5
+K audio amplifier
+F http://www.ti.com/lit/ds/symlink/lm1875.pdf
+$ENDCMP
+#
+$CMP LM1876
+D Overture Audio Power Amplifier Series Dual 20W Audio Power Amplifier with Mute and Standby Modes, TO-220-15
+K audio amplifier 2ch
+F http://www.ti.com/lit/ds/symlink/lm1876.pdf
+$ENDCMP
+#
+$CMP LM1877
+D Dual Audio Power Amplifier, PDIP-14/SOIC-14
+K audio amplifier 2ch
+F http://www.ti.com/lit/ds/symlink/lm1877.pdf
+$ENDCMP
+#
+$CMP LM2876
+D Overture Audio Power Amplifier Series High-Performance 40W Audio Power Amplifier w/Mute, TO-220-11
+K audio amplifier 2ch
+F http://www.ti.com/lit/ds/symlink/lm2876.pdf
+$ENDCMP
+#
+$CMP LM380N
+D 2.5W Audio Power Amplifier, PDIP-14
+K audio amplifier
+F http://www.ti.com/lit/ds/symlink/lm380.pdf
+$ENDCMP
+#
+$CMP LM380N-8
+D 2.5W Audio Power Amplifier, PDIP-8
+K audio amplifier
+F http://www.ti.com/lit/ds/symlink/lm380.pdf
+$ENDCMP
+#
+$CMP LM384
+D 5W Audio Power Amplifier, PDIP-14
+K audio amplifier
+F http://www.ti.com/lit/ds/symlink/lm384.pdf
+$ENDCMP
+#
+$CMP LM386
+D Low Voltage Audio Power Amplifier, DIP-8/SOIC-8/SSOP-8
+K single Power opamp
+F http://www.ti.com/lit/ds/symlink/lm386.pdf
+$ENDCMP
+#
+$CMP LM3886
+D Overture Audio Power Amplifier Series High-Performance 68W Audio Power Amplifier w/Mute, TO-220-11
+K audio amplifier
+F http://www.ti.com/lit/ds/symlink/lm3886.pdf
+$ENDCMP
+#
+$CMP LM4752TS
+D Stereo 11W Audio Power Amplifier, TO-263-7
+K audio amplifier 2ch
+F http://www.ti.com/lit/ds/symlink/lm4752.pdf
+$ENDCMP
+#
+$CMP LM4755TS
+D Stereo 11W Audio Power Amplifier with Mute, TO-263-9
+K audio amplifier 2ch
+F http://www.ti.com/lit/ds/symlink/lm4755.pdf
+$ENDCMP
+#
+$CMP LM4766
+D Overture Audio Power Amplifier Series Dual 40W Audio Power Amplifier with Mute, TO-220-15
+K audio amplifier 2ch
+F http://www.ti.com/lit/ds/symlink/lm4766.pdf
+$ENDCMP
+#
+$CMP LM4810
+D Boomer Dual 105mW Headphone Amplifier with Active-High Shutdown Mode, VSSOP-8
+K audio amplifier headphone
+F http://www.ti.com/lit/ds/symlink/lm4811.pdf
+$ENDCMP
+#
+$CMP LM4811
+D Boomer Dual 105mW Headphone Amplifier with Digital Volume Control and Shutdown Mode, VSSOP-10
+K audio amplifier headphone 2ch
+F http://www.ti.com/lit/ds/symlink/lm4811.pdf
+$ENDCMP
+#
+$CMP LM4950TA
+D Boomer Audio Power Amplifier Series 7.5W Mono-BTL or 3.1W Stereo Audio Power Amplifier, TO-220-9
+K audio amplifier
+F http://www.ti.com/lit/ds/symlink/lm4950.pdf
+$ENDCMP
+#
+$CMP LM4950TS
+D Boomer Audio Power Amplifier Series 7.5W Mono-BTL or 3.1W Stereo Audio Power Amplifier, TO-263-9
+K audio amplifier
+F http://www.ti.com/lit/ds/symlink/lm4950.pdf
+$ENDCMP
+#
+$CMP LM4990ITL
+D Boomer 2 Watt Audio Power Amplifier with Selectable Shutdown Logic Level, DSBGA-9
+K audio amplifier class d
+F http://www.ti.com/lit/ds/symlink/lm4990.pdf
+$ENDCMP
+#
+$CMP LM4990LD
+D Boomer 2 Watt Audio Power Amplifier with Selectable Shutdown Logic Level, WSON-10
+K audio amplifier class d
+F http://www.ti.com/lit/ds/symlink/lm4990.pdf
+$ENDCMP
+#
+$CMP LM4990MH
+D Boomer 2 Watt Audio Power Amplifier with Selectable Shutdown Logic Level, MSOP-10
+K audio amplifier class d
+F http://www.ti.com/lit/ds/symlink/lm4990.pdf
+$ENDCMP
+#
+$CMP LM4990MM
+D Boomer 2 Watt Audio Power Amplifier with Selectable Shutdown Logic Level, VSSOP-8
+K audio amplifier class d
+F http://www.ti.com/lit/ds/symlink/lm4990.pdf
+$ENDCMP
+#
+$CMP MAX9814
+D Microphone Amplifier with AGC and Low-Noise Microphone Bias, TDFN-14
+K audio microphone amplifier
+F https://datasheets.maximintegrated.com/en/ds/MAX9814.pdf
+$ENDCMP
+#
+$CMP OPA1622
+D High-Fidelity, Bipolar-Input, Audio Operational Amplifier, VSON-10
+K dual opamp audio
+F http://www.ti.com/lit/ds/symlink/opa1622.pdf
+$ENDCMP
+#
+$CMP PAM8301
+D Filterless Class-D Mono Audio Amplifier, 1.5W, TSOT-26
+K audio amplifier class d
+F https://www.diodes.com/assets/Datasheets/PAM8301.pdf
+$ENDCMP
+#
+$CMP PAM8302AAD
+D 2.5W Filterless Class-D Mono Audio Amplifier, SOIC-8
+K audio amplifier class d
+F https://www.diodes.com/assets/Datasheets/PAM8302A.pdf
+$ENDCMP
+#
+$CMP PAM8302AAS
+D 2.5W Filterless Class-D Mono Audio Amplifier, MSOP-8
+K audio amplifier class d
+F https://www.diodes.com/assets/Datasheets/PAM8302A.pdf
+$ENDCMP
+#
+$CMP PAM8302AAY
+D 2.5W Filterless Class-D Mono Audio Amplifier, DFN-8
+K audio amplifier class d
+F https://www.diodes.com/assets/Datasheets/PAM8302A.pdf
+$ENDCMP
+#
+$CMP SSM2017P
+D Self-Contained Audio Preamplifier, DIP-8
+K audio preamplifier
+F http://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/139484016SSM2017.pdf
+$ENDCMP
+#
+$CMP SSM2018
+D Trimless Voltage Controlled Amplifier, DIP-16
+K audio VCA
+F http://www.analog.com/media/en/technical-documentation/data-sheets/SSM2018.pdf
+$ENDCMP
+#
+$CMP SSM2120
+D Dynamic Range Pprocessor/Dual VCA, DIP-22
+K audio VCA
+F http://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/105738070SSM2120.pdf
+$ENDCMP
+#
+$CMP SSM2122
+D Dynamic Range Pprocessor/Dual VCA, DIP-16
+K audio VCA
+F http://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/105738070SSM2120.pdf
+$ENDCMP
+#
+$CMP SSM2165
+D Microphone Preamplifier with Variable Compression and Noise Gating, DIP-8/SOIC-8
+K audio microphone preamplifier
+F http://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/SSM2165.PDF
+$ENDCMP
+#
+$CMP STK433_Sanyo
+D 2-Channel 5 Wmin Audio Frequency Power Amplifier, 4010, SIP-15
+K audio amplifier 2ch
+F http://datasheet.octopart.com/STK430-Sanyo-datasheet-107060.pdf
+$ENDCMP
+#
+$CMP STK435_Sanyo
+D 2-Channel 7 Wmin Audio Frequency Power Amplifier, 4010, SIP-15
+K audio amplifier 2ch
+F http://datasheet.octopart.com/STK430-Sanyo-datasheet-107060.pdf
+$ENDCMP
+#
+$CMP STK436_Sanyo
+D 2-Channel 10 Wmin Audio Frequency Power Amplifier, 4010, SIP-15
+K audio amplifier 2ch
+F http://datasheet.octopart.com/STK430-Sanyo-datasheet-107060.pdf
+$ENDCMP
+#
+$CMP STK437_Sanyo
+D 2-Channel 12 Wmin Audio Frequency Power Amplifier, 4010, SIP-15
+K audio amplifier 2ch
+F http://datasheet.octopart.com/STK430-Sanyo-datasheet-107060.pdf
+$ENDCMP
+#
+$CMP STK439_Sanyo
+D 2-Channel 16 Wmin Audio Frequency Power Amplifier, 4010, SIP-15
+K audio amplifier 2ch
+F http://datasheet.octopart.com/STK430-Sanyo-datasheet-107060.pdf
+$ENDCMP
+#
+$CMP STK441_Sanyo
+D 2-Channel 24 Wmin Audio Frequency Power Amplifier, 4010, SIP-15
+K audio amplifier 2ch
+F http://datasheet.octopart.com/STK430-Sanyo-datasheet-107060.pdf
+$ENDCMP
+#
+$CMP STK443_Sanyo
+D 2-Channel 28 Wmin Audio Frequency Power Amplifier, 4010, SIP-15
+K audio amplifier 2ch
+F http://datasheet.octopart.com/STK430-Sanyo-datasheet-107060.pdf
+$ENDCMP
+#
+$CMP TDA1308
+D Class-AB Stereo Headphone Driver, SOIC-8/TSSOP-8
+K audio amplifier
+F https://www.nxp.com/docs/en/data-sheet/TDA1308.pdf
+$ENDCMP
+#
+$CMP TDA2003
+D 10W Car Radio Audio Amplifier, TO-220-5
+K audio amplifier
+F http://www.st.com/resource/en/datasheet/cd00000123.pdf
+$ENDCMP
+#
+$CMP TDA2005
+D 20 W Bridge/Stereo Amplifier for Car Radio, TO-220-11
+K audio amplifier
+F http://www.st.com/resource/en/datasheet/cd00000124.pdf
+$ENDCMP
+#
+$CMP TDA2030
+D 14W Hi-Fi Audio Amplifier, TO-220-5
+K audio amplifier
+F http://www.st.com/resource/en/datasheet/cd00000128.pdf
+$ENDCMP
+#
+$CMP TDA2050
+D 32W Hi-Fi Audio Amplifier, TO-220-5
+K audio amplifier
+F http://www.st.com/resource/en/datasheet/cd00000131.pdf
+$ENDCMP
+#
+$CMP TDA7052A
+D 1 W BTL mono audio amplifier with DC volume control, DIP-8/SOIC-8
+K audio amplifier
+F http://www.nxp.com/docs/en/data-sheet/TDA7052A_AT.pdf
+$ENDCMP
+#
+$CMP TDA7264
+D 25 W + 25 W stereo amplifier with mute and standby, TO-220-8
+K audio amplifier 2ch
+F http://www.st.com/resource/en/datasheet/tda7264.pdf
+$ENDCMP
+#
+$CMP TDA7265
+D 25W +25W Stereo Amplifier with Mute & St-by, TO-220-11
+K audio amplifier 2ch
+F http://www.st.com/resource/en/datasheet/tda7265.pdf
+$ENDCMP
+#
+$CMP TDA7265B
+D 30W + 30W Stereo Amplifier with Mute and Standby, TO-220-11
+K audio amplifier 2ch
+F http://www.st.com/resource/en/datasheet/tda7265b.pdf
+$ENDCMP
+#
+$CMP TDA7266
+D 7+7W Dual Bridge Amplifier, TO-220-15
+K audio amplifier 2ch
+F http://www.st.com/resource/en/datasheet/tda7266.pdf
+$ENDCMP
+#
+$CMP TDA7266D
+D 5W+5W Dual Bridge Amplifier, PowerSO-20
+K audio amplifier 2ch
+F http://www.st.com/resource/en/datasheet/tda7266d.pdf
+$ENDCMP
+#
+$CMP TDA7266M
+D 7W Mono Bridge Amplifier, TO-220-15
+K audio amplifier
+F http://www.st.com/resource/en/datasheet/tda7266m.pdf
+$ENDCMP
+#
+$CMP TDA7266P
+D 3W+3W Dual Bridge Amplifier, PowerSSO-24
+K audio amplifier 2ch
+F http://www.st.com/resource/en/datasheet/tda7266p.pdf
+$ENDCMP
+#
+$CMP TDA7269A
+D 14W+14W Stereo Amplifier with Mute & St-by, TO-220-11
+K audio amplfier 2ch
+F http://www.st.com/resource/en/datasheet/tda7269a.pdf
+$ENDCMP
+#
+$CMP TDA7292
+D 40 W + 40 W stereo amplifier with mute and standby, TO-220-11
+K audio amplifier 2ch
+F http://www.st.com/resource/en/datasheet/tda7292.pdf
+$ENDCMP
+#
+$CMP TDA7293
+D 120-volt, 100-watt, DMOS Audio Amplifier with Mute and Standby, TO-220-15
+K audio amplifier
+F http://www.st.com/resource/en/datasheet/tda7293.pdf
+$ENDCMP
+#
+$CMP TDA7294
+D 100V - 100W DMOS Audio Amplifier with Mute/St-by, TO-220-15
+K audio amplifier
+F http://www.st.com/resource/en/datasheet/tda7294.pdf
+$ENDCMP
+#
+$CMP TDA7295
+D 80V - 80W DMOS Audio Amplifier with Mute/St-by, TO-220-15
+K audio amplifier
+F http://www.st.com/resource/en/datasheet/tda7295.pdf
+$ENDCMP
+#
+$CMP TDA7296
+D 70V - 60W DMOS Audio Amplifier with Mute/St-by, TO-220-15
+K audio amplifier
+F http://www.st.com/resource/en/datasheet/tda7296.pdf
+$ENDCMP
+#
+$CMP TDA7297
+D 15+15W Dual Bridge Amplifier, TO-220-15
+K audio amplifier 2ch
+F http://www.st.com/resource/en/datasheet/tda7297.pdf
+$ENDCMP
+#
+$CMP TDA7496
+D 5W+5W Amplifier with DC Volume Control, TO-220-15
+K audio amplifier 2ch
+F http://www.st.com/resource/en/datasheet/tda7297.pdf
+$ENDCMP
+#
+$CMP THAT2180
+D Blackmer Pre-Trimmed IC Voltage Controlled Amplifiers, SIP-8
+K audio vca
+F http://www.thatcorp.com/datashts/THAT_2180-Series_Datasheet.pdf
+$ENDCMP
+#
+$CMP THAT2181
+D Blackmer Pre-Trimmed IC Voltage Controlled Amplifiers, SIP-8/SOIC-8
+K audio vca
+F http://www.thatcorp.com/datashts/THAT_2181-Series_Datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADUM3160
+D Full/Low Speed, iCoupler USB Digital Isolator, 2.5kV protection
+K usb isolation
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM3160.pdf
+$ENDCMP
+#
+$CMP ADUM4160
+D Full/Low Speed, iCoupler USB Digital Isolator, 5kV protection, SOIC-16
+K usb isolation
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM4160.pdf
+$ENDCMP
+#
 $CMP CP2102N-A01-GQFN24
 D USB to UART master bridge
 K USB UART bridge
@@ -16,6 +28,54 @@ $CMP CP2112
 D HID USB to SMBUS master bridge
 K USB SMBUS bridge
 F http://www.silabs.com/Support%20Documents/TechnicalDocs/CP2112.pdf
+$ENDCMP
+#
+$CMP CY7C65211-24LTXI
+D USB-Serial single channel bridge with capsense and BCD, +1.71V to +5.5V VDD, UART/I2C/SPI/RS232/RS422, QFN-24
+K USB-Serial single channel bridge
+F http://www.cypress.com/file/139886/download
+$ENDCMP
+#
+$CMP CY7C65211A-24LTXI
+D USB-Serial single channel bridge with capsense and BCD, +1.71V to +5.5V VDD, UART/I2C/SPI/RS232/RS422/RS485, QFN-24
+K USB-Serial single channel bridge
+F http://www.cypress.com/file/139886/download
+$ENDCMP
+#
+$CMP CY7C65213-28PVXI
+D USB-UART LP Bridge Controller, full speed 12Mbps, +1.71V to 5.5V VDD, UART/RS232/RS422, SSOP-28
+K USB-UART LP Bridge Controller, full speed 12Mbps
+F http://www.cypress.com/file/139881/download
+$ENDCMP
+#
+$CMP CY7C65213-32LTXI
+D USB-UART LP Bridge Controller, full speed 12Mbps, +1.71V to 5.5V VDD, UART/RS232/RS422, QFN-32
+K USB-UART LP Bridge Controller, full speed 12Mbps
+F http://www.cypress.com/file/139881/download
+$ENDCMP
+#
+$CMP CY7C65213A-28PVXI
+D USB-UART LP Bridge Controller, full speed 12Mbps, +1.71V to 5.5V VDD, UART/RS232/RS422/RS485, SSOP-28
+K USB-UART LP Bridge Controller, full speed 12Mbps
+F http://www.cypress.com/file/139881/download
+$ENDCMP
+#
+$CMP CY7C65213A-32LTXI
+D USB-UART LP Bridge Controller, full speed 12Mbps, +1.71V to 5.5V VDD, UART/RS232/RS422/RS485, QFN-32
+K USB-UART LP Bridge Controller, full speed 12Mbps
+F http://www.cypress.com/file/139881/download
+$ENDCMP
+#
+$CMP CY7C65215-32LTXI
+D USB-Serial Dual Channel Bridge with CapSense Full-Speed 12 Mbps, +1.71V to +5.5V VDD, UART/I2C/SPI/RS232/RS422/JTAG, QFN-32
+K USB-Serial single channel bridge
+F http://www.cypress.com/file/129956/download
+$ENDCMP
+#
+$CMP CY7C65215A-32LTXI
+D USB-Serial Dual Channel Bridge with CapSense, +1.71V to +5.5V VDD, UART/I2C/SPI/RS232/RS422/RS485/JTAG, QFN-32
+K USB-Serial single channel bridge
+F http://www.cypress.com/file/129956/download
 $ENDCMP
 #
 $CMP FT200XD
@@ -132,10 +192,30 @@ K FTDI USB FIFO Interface Converter
 F http://www.ftdichip.com/Products/ICs/FT245B.html
 $ENDCMP
 #
-$CMP FT4232H
-D Hi Speed Quad Channel USB UART/FIFO, LQFP/QFN-64
-K USB Quad UART FIFO
-F http://www.ftdichip.com/Products/ICs/FT4232H.htm
+$CMP FUSB302B01MPX
+D Fairchild USB Interface IC 302B Type-C Control IC with PD, MLP14D
+K USB PD PHY
+F https://www.fairchildsemi.com/datasheets/FU/FUSB302B.pdf
+$ENDCMP
+#
+$CMP FUSB302B10MPX
+D Fairchild USB Interface IC 302B Type-C Control IC with PD, MLP14D
+K USB PD PHY
+F https://www.fairchildsemi.com/datasheets/FU/FUSB302B.pdf
+$ENDCMP
+#
+$CMP FUSB302B11MPX
+D Fairchild USB Interface IC 302B Type-C Control IC with PD, MLP14D
+K USB PD PHY
+F https://www.fairchildsemi.com/datasheets/FU/FUSB302B.pdf
+$ENDCMP
+#
+$CMP FUSB302BMPX
+D Fairchild USB Interface IC 302B Type-C Control IC with PD, MLP14D
+K USB PD PHY
+F https://www.fairchildsemi.com/datasheets/FU/FUSB302B.pdf
+$ENDCMP
+#
 $CMP MCP2200-E-SS
 D USB 2.0 to UART Protocol Converter with GPIO,Extended Temperature Range,SSOP
 K USB UART Converter
@@ -182,6 +262,66 @@ $CMP MCP2200T-I-SS
 D USB 2.0 to UART Protocol Converter with GPIO,TnR,SSOP
 K USB UART Converter
 F http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf
+$ENDCMP
+#
+$CMP TPS2513
+D USB Dedicated Charging Port Controller
+K USB Charge
+F http://www.ti.com/lit/ds/symlink/tps2513.pdf
+$ENDCMP
+#
+$CMP TPS2513A
+D USB Dedicated Charging Port Controller
+K USB Charge
+F http://www.ti.com/lit/ds/symlink/tps2513.pdf
+$ENDCMP
+#
+$CMP TPS2514
+D USB Dedicated Charging Port Controller
+K USB Charge
+F http://www.ti.com/lit/ds/symlink/tps2513.pdf
+$ENDCMP
+#
+$CMP TPS2514A
+D USB Dedicated Charging Port Controller
+K USB Charge
+F http://www.ti.com/lit/ds/symlink/tps2513.pdf
+$ENDCMP
+#
+$CMP TPS2560
+D Dual channel precision adjustable current-limited power switches
+K power switche current limited usb port
+F http://www.ti.com/lit/ds/symlink/tps2560.pdf
+$ENDCMP
+#
+$CMP TPS2561
+D Dual channel precision adjustable current-limited power switches
+K power switche current limited usb port
+F http://www.ti.com/lit/ds/symlink/tps2561.pdf
+$ENDCMP
+#
+$CMP TUSB2036
+D 2- or 3-Port USB1.1 HUB with optional serial EEPROM
+K 2-Port, 3-Port, 3.3V, EEPROM, Full Speed, Hub, Texas Instruments, USB1.1
+F http://www.ti.com/lit/ds/symlink/tusb2036.pdf
+$ENDCMP
+#
+$CMP TUSB4041I
+D four port USB 2.0 Hub
+K USB2.0 hub
+F http://www.ti.com/lit/ds/symlink/tusb4041i.pdf
+$ENDCMP
+#
+$CMP TUSB7340
+D USB 3.0 xHCI Host Controller
+K USB HUB PCIE
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=tusb7320&fileType=pdf
+$ENDCMP
+#
+$CMP TUSB8041
+D four port USB 3.0 Hub
+K USB3.0 hub
+F http://www.ti.com/lit/ds/symlink/tusb8041.pdf
 $ENDCMP
 #
 $CMP USB2514B_Bi

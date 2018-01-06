@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EL2001
+D Monolithic high slew rate, buffer amplifier, DIP-8
+K Monolithic high slew rate, buffer amplifier
+F http://www.datasheetlib.com/datasheet/677973/el2001_intersil.html#datasheet
+$ENDCMP
+#
+$CMP LH0002H
+D Wide-Band, High Current, Unity Gain Buffer Amplifier, TO-5-8
+K Buffer
+F http://www.calogic.net/pdf/LH0002_Datasheet_Rev_A.pdf
+$ENDCMP
+#
+$CMP LM6321H
+D High Speed Buffer, TO-5-8
+K single buffer
+F http://www.electronica60norte.com/mwfls/pdf/LM6221.pdf
+$ENDCMP
+#
+$CMP LM6321M
+D High Speed Buffer, SOIC-14
+K single buffer
+F http://www.electronica60norte.com/mwfls/pdf/LM6221.pdf
+$ENDCMP
+#
+$CMP LM6321N
+D High Speed Buffer, DIP-8
+K single buffer
+F http://www.electronica60norte.com/mwfls/pdf/LM6221.pdf
+$ENDCMP
+#
+#End Doc Library

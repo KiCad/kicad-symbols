@@ -1,0 +1,801 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 4N25
+D DC Optocoupler Base Connected, Vce 30V, CTR 20%, Viso 2500V, DIP6
+K NPN DC Optocoupler Base Connected
+F https://www.vishay.com/docs/83725/4n25.pdf
+$ENDCMP
+#
+$CMP 4N26
+D DC Optocoupler Base Connected, Vce 30V, CTR 20%, Viso 1500V, DIP6
+K NPN DC Optocoupler Base Connected
+F https://www.vishay.com/docs/83725/4n25.pdf
+$ENDCMP
+#
+$CMP 4N27
+D DC Optocoupler Base Connected, Vce 30V, CTR 10%, Viso 2500V, DIP6
+K NPN DC Optocoupler Base Connected
+F https://www.vishay.com/docs/83725/4n25.pdf
+$ENDCMP
+#
+$CMP 4N28
+D DC Optocoupler Base Connected, Vce 30V, CTR 10%, Viso 2500V, DIP6
+K NPN DC Optocoupler Base Connected
+F https://www.vishay.com/docs/83725/4n25.pdf
+$ENDCMP
+#
+$CMP 6N135
+D High Speed Optocoupler, TTL Compatible, CTR 18%, DIP8
+K High Speed Optocoupler
+F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/6N135_6N136_en_datasheet_071001.pdf
+$ENDCMP
+#
+$CMP 6N136
+D High Speed Optocoupler, TTL Compatible, CTR 24%, DIP8
+K High Speed Optocoupler
+F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/6N135_6N136_en_datasheet_071001.pdf
+$ENDCMP
+#
+$CMP ACPL-P343
+D Gate Drive Optocoupler, Output Current 4.0/4.0A, Propagation Delay 200ns, SSO-6
+K MOSFET Driver IGBT Driver Optocoupler
+F http://www.avagotech.com/docs/AV02-2928EN
+$ENDCMP
+#
+$CMP ACPL-W343
+D Gate Drive Optocoupler, Output Current 4.0/4.0A, Propagation Delay 200ns, SSO-6
+K MOSFET Driver IGBT Driver Optocoupler
+F http://www.avagotech.com/docs/AV02-2928EN
+$ENDCMP
+#
+$CMP ADuM1200AR
+D Dual-channel digital isolator, Bidirectional communication, 3 V/5 V level translation, SOIC-8
+K Dual-channel digital isolator
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
+$CMP ADuM1200BR
+D Dual-Channel Digital Isolator, 10Mbps 50ns, bidirectional communication, 3 V/5 V level translation, SOIC-8
+K 2Ch Dual Digital Isolator 10Mbps
+F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
+$CMP ADuM1200CR
+D Dual-Channel Digital Isolator, 25Mbps 45ns, bidirectional communication, 3 V/5 V level translation, SOIC-8
+K 2Ch Dual Digital Isolator 25Mbps
+F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
+$CMP ADuM1200WS
+D Dual-Channel Digital Isolator, 1Mbps 150ns, Highest Tem. Grade, bidirectional communication, 3 V/5 V level translation, SOIC-8
+K 2Ch Dual Digital Isolator 1Mbps
+F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
+$CMP ADuM1200WT
+D Dual-Channel Digital Isolator, 10Mbps 50ns, Highest Tem. Grade, bidirectional communication, 3 V/5 V level translation, SOIC-8
+K 2Ch Dual Digital Isolator 10Mbps
+F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
+$CMP ADuM1200WU
+D Dual-Channel Digital Isolator, 25Mbps 45ns, Highest Tem. Grade, bidirectional communication, 3 V/5 V level translation, SOIC-8
+K 2Ch Dual Digital Isolator 25Mbps
+F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
+$CMP ADuM1201AR
+D Dual-channel digital isolator, bidirectional communication, 3 V/5 V level translation, SOIC-8
+K Dual-channel digital isolator
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
+$CMP ADuM1201BR
+D Dual-Channel Digital Isolator, 10Mbps 50ns, bidirectional communication, 3 V/5 V level translation, SOIC-8
+K 2Ch Dual Digital Isolator 10Mbps
+F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
+$CMP ADuM1201CR
+D Dual-Channel Digital Isolator, 25Mbps 45ns, bidirectional communication, 3 V/5 V level translation, SOIC-8
+K 2Ch Dual Digital Isolator 25Mbps
+F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
+$CMP ADuM1201WS
+D Dual-Channel Digital Isolator, 1Mbps 150ns, Highest Temp. Grade, bidirectional communication, 3 V/5 V level translation, SOIC-8
+K 2Ch Dual Digital Isolator 1Mbps
+F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
+$CMP ADuM1201WT
+D Dual-Channel Digital Isolator, 10Mbps 50ns, Hihgest Temp. Grade, bidirectional communication, 3 V/5 V level translation, SOIC-8
+K 2Ch Dual Digital Isolator 10Mbps
+F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
+$CMP ADuM1201WU
+D Dual-Channel Digital Isolator, 25Mbps 45ns, Highest Temp. Grade, bidirectional communication, 3 V/5 V level translation, SOIC-8
+K 2Ch Dual Digital Isolator 25Mbps
+F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
+$CMP ADuM1410
+D Quad Channel Digital Isolator,10Mbps,SO-16
+K Digital Isolator
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1410_1411_1412.pdf
+$ENDCMP
+#
+$CMP ADuM1411
+D Quad Channel Digital Isolator,10Mbps,SO-16
+K Digital Isolator
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1410_1411_1412.pdf
+$ENDCMP
+#
+$CMP ADuM1412
+D Quad Channel Digital Isolator,10Mbps,SO-16
+K Digital Isolator
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1410_1411_1412.pdf
+$ENDCMP
+#
+$CMP ADuM7643
+D Low Power Six-Channel 3/3 Digital Isolator, 25Mbps 6ns, Fail-Safe High, QSOP20
+K 6Ch Quad Digital Isolator 25Mbps
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
+$ENDCMP
+#
+$CMP CNY17-1
+D DC Optocoupler Base Connected, Vce 70V, CTR 40-80%, Viso 5000V (RMS), DIP6
+K NPN DC Optocoupler Base Connected
+F http://www.vishay.com/docs/83606/cny17.pdf
+$ENDCMP
+#
+$CMP CNY17-2
+D DC Optocoupler Base Connected, Vce 70V, CTR 63-125%, Viso 5000V (RMS), DIP6
+K NPN DC Optocoupler Base Connected
+F http://www.vishay.com/docs/83606/cny17.pdf
+$ENDCMP
+#
+$CMP CNY17-3
+D DC Optocoupler Base Connected, Vce 70V, CTR 100-200%, Viso 5000V (RMS), DIP6
+K NPN DC Optocoupler Base Connected
+F http://www.vishay.com/docs/83606/cny17.pdf
+$ENDCMP
+#
+$CMP CNY17-4
+D DC Optocoupler Base Connected, Vce 70V, CTR 160-320%, Viso 5000V (RMS), DIP6
+K NPN DC Optocoupler Base Connected
+F http://www.vishay.com/docs/83606/cny17.pdf
+$ENDCMP
+#
+$CMP H11L1
+D Schmitt Trigger Output Optocoupler, High Speed, DIP-6, 1.6mA turn on threshold
+K High Speed Schmitt Optocoupler
+F https://www.fairchildsemi.com/datasheets/H1/H11L1M.pdf
+$ENDCMP
+#
+$CMP H11L2
+D Schmitt Trigger Output Optocoupler, High Speed, DIP-6, 10mA turn on threshold
+K High Speed Schmitt Optocoupler
+F https://www.fairchildsemi.com/datasheets/H1/H11L1M.pdf
+$ENDCMP
+#
+$CMP H11L3
+D Schmitt Trigger Output Optocoupler, High Speed, DIP-6, 5mA turn on threshold
+K High Speed Schmitt Optocoupler
+F https://www.fairchildsemi.com/datasheets/H1/H11L1M.pdf
+$ENDCMP
+#
+$CMP HCPL063
+D Dual High Speed HCMOS/LSTTL/TTL Compatible Optocoupler, DIP-8, SOIC-8
+K High Speed Optocoupler
+F http://docs.avagotech.com/docs/AV02-0391EN
+$ENDCMP
+#
+$CMP HCPL2730
+D Low Input Current high Gain Split Darlington Optocouplers
+K darlington optocoupler
+F http://www.mouser.com/ds/2/149/HCPL2731-188691.pdf
+$ENDCMP
+#
+$CMP HCPL2731
+D Low Input Current high Gain Split Darlington Optocouplers
+K darlington optocoupler
+F http://www.mouser.com/ds/2/149/HCPL2731-188691.pdf
+$ENDCMP
+#
+$CMP HCPL3120
+D Gate Drive Optocoupler, Output Current 2.5/2.5A, PDIP-8
+K MOSFET Driver IGBT Driver Optocoupler
+F http://www.avagotech.com/docs/AV02-0161EN
+$ENDCMP
+#
+$CMP ISO7320C
+D Low Power Dual-Channel 2/0 Digital Isolator, 25Mbps 33ns, Fail-Safe High, SO8
+K 2Ch Dual Digital Isolator 25Mbps
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=iso7320c&fileType=pdf
+$ENDCMP
+#
+$CMP ISO7320FC
+D Low Power Dual-Channel 2/0 Digital Isolator, 25Mbps 33ns, Fail-Safe Low, SO8
+K 2Ch Dual Digital Isolator 25Mbps
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=iso7320fc&fileType=pdf
+$ENDCMP
+#
+$CMP ISO7321C
+D Low Power Dual-Channel 1/1 Digital Isolator, 25Mbps 33ns, Fail-Safe High, SO8
+K 2Ch Dual Digital Isolator 25Mbps
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=iso7321c&fileType=pdf
+$ENDCMP
+#
+$CMP ISO7321FC
+D Low Power Dual-Channel 1/1 Digital Isolator, 25Mbps 33ns, Fail-Safe Low, SO8
+K 2Ch Dual Digital Isolator 25Mbps
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=iso7321fc&fileType=pdf
+$ENDCMP
+#
+$CMP ISO7330C
+D Low Power Quad-Channel 3/0 Digital Isolator, 25Mbps 31ns, Fail-Safe High, SO16
+K 3Ch Quad Digital Isolator 25Mbps
+F http://www.ti.com/lit/ds/symlink/iso7330-q1.pdf
+$ENDCMP
+#
+$CMP ISO7330FC
+D Low Power Quad-Channel 3/0 Digital Isolator, 25Mbps 31ns, Fail-Safe Low, SO16
+K 3Ch Quad Digital Isolator 25Mbps
+F http://www.ti.com/lit/ds/symlink/iso7330-q1.pdf
+$ENDCMP
+#
+$CMP ISO7331C
+D Low Power Quad-Channel 2/1 Digital Isolator, 25Mbps 31ns, Fail-Safe High, SO16
+K 3Ch Quad Digital Isolator 25Mbps
+F http://www.ti.com/lit/ds/symlink/iso7331c.pdf
+$ENDCMP
+#
+$CMP ISO7331FC
+D Low Power Quad-Channel 2/1 Digital Isolator, 25Mbps 31ns, Fail-Safe Low, SO16
+K 3Ch Quad Digital Isolator 25Mbps
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=iso7341c&fileType=pdf
+$ENDCMP
+#
+$CMP ISO7340C
+D Low Power Quad-Channel 4/0 Digital Isolator, 25Mbps 31ns, Fail-Safe High, SO16
+K 4Ch Quad Digital Isolator 25Mbps
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=iso7340c&fileType=pdf
+$ENDCMP
+#
+$CMP ISO7340FC
+D Low Power Quad-Channel 4/0 Digital Isolator, 25Mbps 31ns, Fail-Safe Low, SO16
+K 4Ch Quad Digital Isolator 25Mbps
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=iso7340fc&fileType=pdf
+$ENDCMP
+#
+$CMP ISO7341C
+D Low Power Quad-Channel 3/1 Digital Isolator, 25Mbps 31ns, Fail-Safe High, SO16
+K 4Ch Quad Digital Isolator 25Mbps
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=iso7341c&fileType=pdf
+$ENDCMP
+#
+$CMP ISO7341FC
+D Low Power Quad-Channel 3/1 Digital Isolator, 25Mbps 31ns, Fail-Safe Low, SO16
+K 4Ch Quad Digital Isolator 25Mbps
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=iso7341fc&fileType=pdf
+$ENDCMP
+#
+$CMP ISO7342C
+D Low Power Quad-Channel 2/2 Digital Isolator, 25Mbps 31ns, Fail-Safe High, SO16
+K 4Ch Quad Digital Isolator 25Mbps
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=iso7342c&fileType=pdf
+$ENDCMP
+#
+$CMP ISO7342FC
+D Low Power Quad-Channel 2/2 Digital Isolator, 25Mbps 31ns, Fail-Safe Low, SO16
+K 4Ch Quad Digital Isolator 25Mbps
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=iso7342fc&fileType=pdf
+$ENDCMP
+#
+$CMP LTV-352T
+D DC Darlington Optocoupler, Vce 300V, CTR 1000%, SO-4
+K NPN Darlington DC Optocoupler
+F http://optoelectronics.liteon.com/upload/download/DS70-2001-002/S_110_LTV-352T%2020140520.pdf
+$ENDCMP
+#
+$CMP LTV-354T
+D AC/DC Optocoupler, Vce 35V, CTR 20%, SO-4
+K NPN AC DC Optocoupler
+F http://optoelectronics.liteon.com/upload/download/DS70-2001-004/S_110_LTV-354T%2020140520.pdf
+$ENDCMP
+#
+$CMP LTV-355T
+D DC Darlington Optocoupler, Vce 35V, CTR 600%, SO-4
+K NPN Darlington DC Optocoupler
+F http://optoelectronics.liteon.com/upload/download/DS70-2001-006/S_110_LTV-355T%2020140520.pdf
+$ENDCMP
+#
+$CMP LTV-356T
+D DC Optocoupler, Vce 80V, CTR 50%, SO-4
+K NPN DC Optocoupler
+F http://optoelectronics.liteon.com/upload/download/DS70-2001-010/S_110_LTV-356T%2020140520.pdf
+$ENDCMP
+#
+$CMP LTV-357T
+D DC Optocoupler, Vce 35V, CTR 50%, SO-4
+K NPN DC Optocoupler
+F https://www.buerklin.com/medias/sys_master/download/download/h91/ha0/8892020588574.pdf
+$ENDCMP
+#
+$CMP LTV-358T
+D DC Optocoupler, Vce 120V, CTR 50%, SO-4
+K NPN DC Optocoupler
+F http://optoelectronics.liteon.com/upload/download/DS70-2001-022/S_110_LTV-358T%2020140520.pdf
+$ENDCMP
+#
+$CMP LTV-814
+D AC/DC Optocoupler, Vce 35V, CTR 20%, DIP4
+K NPN AC DC Optocoupler
+F http://optoelectronics.liteon.com/upload/download/DS-70-96-0013/S_110_LTV-814%20824%20844%20(M,%20S,%20S-TA,%20S-TA1,%20S-TP)%20Series.pdf
+$ENDCMP
+#
+$CMP LTV-817
+D DC Optocoupler, Vce 35V, CTR 50%, DIP-4
+K NPN DC Optocoupler
+F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
+$ENDCMP
+#
+$CMP LTV-824
+D Dual AC/DC Optocoupler, Vce 35V, CTR 20%, DIP8
+K Dual NPN AC DC Optocoupler
+F http://optoelectronics.liteon.com/upload/download/DS-70-96-0013/S_110_LTV-814%20824%20844%20(M,%20S,%20S-TA,%20S-TA1,%20S-TP)%20Series.pdf
+$ENDCMP
+#
+$CMP LTV-827
+D Dual DC Optocoupler, Vce 35V, CTR 50%, DIP-8
+K NPN DC Dual Optocoupler
+F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
+$ENDCMP
+#
+$CMP LTV-844
+D Quad AC/DC Optocoupler, Vce 35V, CTR 20%, DIP16
+K Quad NPN AC DC Optocoupler
+F http://optoelectronics.liteon.com/upload/download/DS-70-96-0013/S_110_LTV-814%20824%20844%20(M,%20S,%20S-TA,%20S-TA1,%20S-TP)%20Series.pdf
+$ENDCMP
+#
+$CMP LTV-847
+D Quad DC Optocoupler, Vce 35V, CTR 50%, DIP-16
+K NPN DC Quad Optocoupler
+F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
+$ENDCMP
+#
+$CMP NSL-32
+D Optocoupler, LED Input, Photocell Output
+K optocoupler
+F http://lunainc.com/wp-content/uploads/2016/06/NSL-32.pdf
+$ENDCMP
+#
+$CMP PC3H4
+D AC/DC Optocoupler, Vce 70V, CTR 100-250%, SOP4
+K NPN AC DC Optocoupler
+F http://www.sharpsme.com/download/pc3h4-epdf
+$ENDCMP
+#
+$CMP PC3H4A
+D AC/DC Optocoupler, Vce 70V, CTR 100-250%, SOP4
+K NPN AC DC Optocoupler
+F http://www.sharpsma.com/webfm_send/395
+$ENDCMP
+#
+$CMP PC817
+D DC Optocoupler, Vce 35V, CTR 50-300%, DIP4
+K NPN DC Optocoupler
+F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
+$ENDCMP
+#
+$CMP PC827
+D DC Dual Optocoupler, Vce 35V, CTR 50-300%, DIP8
+K NPN DC Dual Optocoupler
+F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
+$ENDCMP
+#
+$CMP PC837
+D DC Triple Optocoupler, Vce 35V, CTR 50-300%, DIP12
+K NPN DC Triple Optocoupler
+F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
+$ENDCMP
+#
+$CMP PC847
+D DC Quad Optocoupler, Vce 35V, CTR 50-300%, DIP16
+K NPN DC Quad Optocoupler
+F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
+$ENDCMP
+#
+$CMP SFH617A-1
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-1X001
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, cUL, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-1X006
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, wide THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-1X007T
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, 8mm clearence SMD PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-1X016
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, cUL, wide THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-2
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-2X001
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-2X006
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, wide THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-2X009T
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celcius, UL, BSI, FIMKO, SMD PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-2X016
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, wide THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-2X017T
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, 8mm clearence SMD PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-2X019T
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, SMD PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-3
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200, -55 to +110 degree Celcius, UL, BSI, FIMKO, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-3X001
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-3X006
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, wide THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-3X007T
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, 8mm clearence SMD PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-3X016
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, wide THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-3X017T
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, 8mm clearence SMD PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-200
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-4
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-4X001
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-4X006
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, wide THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP SFH617A-4X016
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, wide THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320
+F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP TCMT1600
+D AC/DC Phototransistor Optocoupler, Vce 70V, CTR 80-300%, SOP4
+K NPN AC DC Phototransistor Optocoupler
+F http://www.vishay.com/docs/83512/tcmt1600.pdf
+$ENDCMP
+#
+$CMP TCMT4600
+D Quad AC/DC Phototransistor Optocoupler, Vce 70V, CTR 80-300%, SOP16
+K NPN AC DC Quad Phototransistor Optocoupler
+F http://www.vishay.com/docs/83512/tcmt1600.pdf
+$ENDCMP
+#
+$CMP TCMT4606
+D Quad AC/DC Phototransistor Optocoupler, Vce 70V, CTR 100-300%, SOP16
+K NPN AC DC Quad Phototransistor Optocoupler
+F http://www.vishay.com/docs/83512/tcmt1600.pdf
+$ENDCMP
+#
+$CMP TIL111
+D DC Optocoupler, Phototransistor NPN, DIP6
+K NPN DC Optocoupler Base Connected
+F https://www.egr.msu.edu/eceshop/Parts_Inventory/datasheets/til111.pdf
+$ENDCMP
+#
+$CMP TLP127
+D DC Darlington Optocoupler, Vce 300V, CTR 1000%, MFSOP4
+K NPN Darlington DC Optocoupler
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=16902&prodName=TLP127
+$ENDCMP
+#
+$CMP TLP130
+D AC DC Optocoupler Base Connected, Vce 80V, CTR 50-100%, MFSOP6
+K NPN AC DC Optocoupler Base Connected
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=16740&prodName=TLP130
+$ENDCMP
+#
+$CMP TLP131
+D DC Optocoupler Base Connected, Vce 80V, CTR 50-200%, MFSOP6
+K NPN DC Optocoupler Base Connected
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=16742&prodName=TLP131
+$ENDCMP
+#
+$CMP TLP137
+D DC Optocoupler Base Connected, Vce 80V, CTR 100-200%, MFSOP6
+K NPN DC Optocoupler Base Connected
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=16744&prodName=TLP137
+$ENDCMP
+#
+$CMP TLP184
+D AC/DC Optocoupler, Vce 80V, CTR 50-100%, MFSOP6
+K NPN AC DC Optocoupler
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=11793&prodName=TLP184
+$ENDCMP
+#
+$CMP TLP184(SE
+D AC/DC Optocoupler, Vce 80V, CTR 50-100%, MFSOP6
+K NPN AC DC Optocoupler
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=14118&prodName=TLP184(SE
+$ENDCMP
+#
+$CMP TLP185
+D DC Optocoupler, Vce 80V, CTR 50-100%, MFSOP6
+K NPN DC Optocoupler
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=11791&prodName=TLP185
+$ENDCMP
+#
+$CMP TLP185(SE
+D DC Optocoupler, Vce 80V, CTR 50-100%, MFSOP6
+K NPN DC Optocoupler
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=14111&prodName=TLP185(SE
+$ENDCMP
+#
+$CMP TLP250
+D Gate Drive Optocoupler, Output Current 1.5/1.5A
+K MOSFET Driver IGBT Driver Optocoupler
+F http://toshiba.semicon-storage.com/info/docget.jsp?did=16821&prodName=TLP250
+$ENDCMP
+#
+$CMP TLP2703
+D 100 kbps, High-speed GaA&As, high-gain, 4.5 - 18 VCC, 5 kVrms, CTR 900%, SO-6L
+K NPN Darlington DC Optocoupler
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=15216&prodName=TLP2703
+$ENDCMP
+#
+$CMP TLP2745
+D 10-Mbps low-power non inverting photocouple,5 kVrms, 4.5 - 30 Vdd, push-pull output
+K Photocouple highspeed non inverting push-pull output
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=29405&prodName=TLP2745
+$ENDCMP
+#
+$CMP TLP2748
+D 10-Mbps inverting photocouple,5 kVrms, 4.5 - 30 Vdd, push-pull output, SO-6L
+K Photocouple highspeed inverting push-pull output
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=29407&prodName=TLP2748
+$ENDCMP
+#
+$CMP TLP2761
+D 15-Mbps inverting photocouple,5 kVrms, 2.7 - 5.5 Vdd, push-pull output
+K Photocouple highspeed inverting push-pull output
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=28819&prodName=TLP2761
+$ENDCMP
+#
+$CMP TLP2767
+D 50-Mbps high speed inverting photocouple,5 kVrms, 2.7 - 5.5 Vdd, push-pull output
+K Photocouple highspeed non inverting push-pull output
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=36717&prodName=TLP2767
+$ENDCMP
+#
+$CMP TLP2768A
+D 20-Mbps high speed inverting photocouple,5 kVrms, 2.7 - 5.5 Vdd, open collector, SO-6L
+K Photocouple highspeed inverting open collector output
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=36717&prodName=TLP2768A
+$ENDCMP
+#
+$CMP TLP290
+D AC/DC Phototransistor Optocoupler, Vce 80V, CTR 50-600%, SOP4
+K NPN AC DC Phototransistor Optocoupler
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=12882&prodName=TLP290
+$ENDCMP
+#
+$CMP TLP290-4
+D Quad AC/DC Phototransistor Optocoupler, Vce 80V, CTR 50-600%, SOP16
+K NPN AC DC Quad Phototransistor Optocoupler
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=12855&prodName=TLP290-4
+$ENDCMP
+#
+$CMP TLP291
+D DC Optocoupler, Vce 80V, CTR 50-100%, SOP4
+K NPN DC Optocoupler
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=12884&prodName=TLP291
+$ENDCMP
+#
+$CMP TLP291-4
+D Quad DC Optocoupler, Vce 80V, CTR 50-100%, SOP16
+K NPN DC Quad Optocoupler
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=12858&prodName=TLP291-4
+$ENDCMP
+#
+$CMP TLP3021
+D Photo-Triac, Vdrm 400V, Ift 15mA, DIP6
+K Photo-Triac Opto Triac
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=1421&prodName=TLP3021(S)
+$ENDCMP
+#
+$CMP TLP3022
+D Photo-Triac, Vdrm 400V, Ift 10mA, DIP6
+K Photo-Triac Opto Triac
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=1421&prodName=TLP3021(S)
+$ENDCMP
+#
+$CMP TLP3023
+D Photo-Triac, Vdrm 400V, Ift 5mA, DIP6
+K Photo-Triac Opto Triac
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=1421&prodName=TLP3021(S)
+$ENDCMP
+#
+$CMP TLP627
+D DC Darlington Optocoupler, Vce 300V, CTR 1000%, DIP4
+K NPN Darlington DC Optocoupler
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=16914&prodName=TLP627
+$ENDCMP
+#
+$CMP TLP627-2
+D DC Dual Darlington Optocoupler, Vce 300V, CTR 1000%, DIP8
+K NPN Dual Darlington DC Optocoupler
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=16914&prodName=TLP627
+$ENDCMP
+#
+$CMP TLP627-4
+D DC Quad Darlington Optocoupler, Vce 300V, CTR 1000%, DIP16
+K NPN Quad Darlington DC Optocoupler
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=16914&prodName=TLP627
+$ENDCMP
+#
+$CMP TLP785
+D DC Optocoupler, Vce 80V, CTR 50-200%, DIP4
+K NPN DC Optocoupler
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=10569&prodName=TLP785
+$ENDCMP
+#
+$CMP TLP785F
+D DC Optocoupler, Vce 80V, CTR 50-200%, DIP4F
+K NPN DC Optocoupler
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=10569&prodName=TLP785F
+$ENDCMP
+#
+$CMP VO615A
+D DC Optocoupler, Vce 70V, CTR 50-600% @ 5mA, Viso 5000Vrms, DIP4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VO615A-1
+D DC Optocoupler, Vce 70V, CTR 40-80% @ 10mA, Viso 5000Vrms, DIP4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VO615A-2
+D DC Optocoupler, Vce 70V, CTR 63-125% @ 10mA, Viso 5000Vrms, DIP4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VO615A-3
+D DC Optocoupler, Vce 70V, CTR 100-200% @ 10mA, Viso 5000Vrms, DIP4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VO615A-4
+D DC Optocoupler, Vce 70V, CTR 160-320% @ 10mA, Viso 5000Vrms, DIP4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VO615A-5
+D DC Optocoupler, Vce 70V, CTR 50-150% @ 5mA, Viso 5000Vrms, DIP4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VO615A-6
+D DC Optocoupler, Vce 70V, CTR 100-300% @ 5mA, Viso 5000Vrms, DIP4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VO615A-7
+D DC Optocoupler, Vce 70V, CTR 80-160% @ 5mA, Viso 5000Vrms, DIP4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VO615A-8
+D DC Optocoupler, Vce 70V, CTR 130-260% @ 5mA, Viso 5000Vrms, DIP4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VO615A-9
+D DC Optocoupler, Vce 70V, CTR 200-400% @ 5mA, Viso 5000Vrms, DIP4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VTL5C
+D Low Cost Axial Vactrols
+K vactrol
+F http://www.qsl.net/wa1ion/vactrol/vactrol.pdf
+$ENDCMP
+#
+$CMP VTL5Cx2
+D Dual Element Axial Vactrols
+K vactrol
+F http://www.alliedelec.com/m/d/ecb1ed91959ae54d97cf67f5103d9b2b.pdf
+$ENDCMP
+#
+#End Doc Library

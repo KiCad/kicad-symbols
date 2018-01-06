@@ -1,19 +1,19 @@
 ## Outstanding symbol libraries
 
 - [ ] ac-dc
-- [ ] adc-dac
+- [x] adc-dac
 - [x] Altera
-- [ ] analog_devices
+- [x] analog_devices
 - [x] analog_switches
-- [ ] atmel
-- [ ] audio
+- [x] atmel
+- [x] audio
 - [x] Battery_Management
 - [ ] bbd
 - [x] Bosch
 - [x] brooktre
 - [x] Connector
 - [x] contrib
-- [ ] cypress
+- [x] cypress
 - [x] dc-dc
 - [x] Decawave
 - [x] device
@@ -31,15 +31,15 @@
 - [x] gennum
 - [x] Graphic
 - [x] hc11
-- [ ] infineon
+- [x] infineon
 - [ ] intel
-- [ ] interface
+- [x] interface
 - [x] intersil
-- [ ] ir
+- [x] ir
 - [x] Lattice
 - [x] LED
 - [x] LEM
-- [ ] linear
+- [x] linear
 - [x] Logic_74xgxx
 - [x] Logic_74xx
 - [x] Logic_CMOS_4000
@@ -65,21 +65,21 @@
 - [x] microchip
 - [x] microcontrollers
 - [ ] modules
-- [ ] motor_drivers
+- [x] motor_drivers
 - [x] Motor
 - [ ] motorola
 - [x] nordicsemi
-- [ ] nxp
+- [x] nxp
 - [ ] onsemi
-- [ ] opto
+- [x] opto
 - [x] Oscillators
-- [ ] philips
-- [ ] powerint
+- [x] philips
+- [x] powerint
 - [x] power
 - [ ] Power_Management
 - [x] pspice
 - [x] references
-- [ ] regul
+- [x] regul
 - [x] Relay
 - [x] RF_Bluetooth
 - [ ] rfcom
@@ -91,7 +91,7 @@
 - [x] siliconi
 - [x] supertex
 - [x] Switch
-- [ ] texas
+- [x] texas
 - [x] Transformer
 - [x] Transistor
 - [ ] triac_thyristor
@@ -99,7 +99,7 @@
 - [ ] video
 - [x] wiznet
 - [x] Worldsemi
-- [ ] Xicor
-- [ ] xilinx
+- [x] Xicor
+- [x] xilinx
 - [x] zetex
-- [ ] Zilog
+- [x] Zilog

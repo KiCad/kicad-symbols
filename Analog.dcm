@@ -1,0 +1,141 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD5593R
+D 8-channel 12bits configurable ADC/DAC/GPIO Internal Reference, I2C interface Integrated temperature sensor,Single Supply, TSSOP-16
+K 8channel 12bit ADC DAC GPIO I2C Temperature
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5593R.pdf
+$ENDCMP
+#
+$CMP CAP002DG
+D CapZero Automatic Capacitor Discarger, Vdss 875V, Cmax < 500nF, SO8
+K CapZero Automatic Capacitor Discarger 875V 500nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP003DG
+D CapZero Automatic Capacitor Discarger, Vdss 875V, Cmax 750nF, SO8
+K CapZero Automatic Capacitor Discarger 875V 750nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP004DG
+D CapZero Automatic Capacitor Discarger, Vdss 875V, Cmax 1000nF, SO8
+K CapZero Automatic Capacitor Discarger 875V 1000nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP005DG
+D CapZero Automatic Capacitor Discarger, Vdss 875V, Cmax 1500nF, SO8
+K CapZero Automatic Capacitor Discarger 875V 1500nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP006DG
+D CapZero Automatic Capacitor Discarger, Vdss 875V, Cmax 2000nF, SO8
+K CapZero Automatic Capacitor Discarger 875V 2000nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP007DG
+D CapZero Automatic Capacitor Discarger, Vdss 875V, Cmax 2500nF, SO8
+K CapZero Automatic Capacitor Discarger 875V 2500nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP008DG
+D CapZero Automatic Capacitor Discarger, Vdss 875V, Cmax 3500nF, SO8
+K CapZero Automatic Capacitor Discarger 875V 3500nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP009DG
+D CapZero Automatic Capacitor Discarger, Vdss 875V, Cmax 5000nF, SO8
+K CapZero Automatic Capacitor Discarger 875V 5000nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP012DG
+D CapZero Automatic Capacitor Discarger, Vdss 1000V, Cmax < 500nF, SO8
+K CapZero Automatic Capacitor Discarger 1000V 500nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP013DG
+D CapZero Automatic Capacitor Discarger, Vdss 1000V, Cmax 750nF, SO8
+K CapZero Automatic Capacitor Discarger 1000V 750nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP014DG
+D CapZero Automatic Capacitor Discarger, Vdss 1000V, Cmax 1000nF, SO8
+K CapZero Automatic Capacitor Discarger 1000V 1000nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP015DG
+D CapZero Automatic Capacitor Discarger, Vdss 1000V, Cmax 1500nF, SO8
+K CapZero Automatic Capacitor Discarger 1000V 1500nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP016DG
+D CapZero Automatic Capacitor Discarger, Vdss 1000V, Cmax 2000nF, SO8
+K CapZero Automatic Capacitor Discarger 1000V 2000nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP017DG
+D CapZero Automatic Capacitor Discarger, Vdss 1000V, Cmax 2500nF, SO8
+K CapZero Automatic Capacitor Discarger 1000V 2500nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP018DG
+D CapZero Automatic Capacitor Discarger, Vdss 1000V, Cmax 3500nF, SO8
+K CapZero Automatic Capacitor Discarger 1000V 3500nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP019DG
+D CapZero Automatic Capacitor Discarger, Vdss 1000V, Cmax 5000nF, SO8
+K CapZero Automatic Capacitor Discarger 1000V 5000nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LF398H
+D Sample And Hold Unity Gain Follower, TO-99-8
+K sample hold buffer unity gain
+F http://www.ti.com/lit/ds/symlink/lf398-n.pdf
+$ENDCMP
+#
+$CMP LF398_DIP8
+D Sample And Hold Unity Gain Follower, DIP-8
+K sample hold buffer unity gain
+F http://www.ti.com/lit/ds/symlink/lf398-n.pdf
+$ENDCMP
+#
+$CMP LF398_SOIC14
+D Sample And Hold Unity Gain Follower, SOIC-14
+K sample hold buffer unity gain
+F http://www.ti.com/lit/ds/symlink/lf398-n.pdf
+$ENDCMP
+#
+$CMP LF398_SOIC8
+D Sample And Hold Unity Gain Follower, SOIC-8
+K sample hold buffer unity gain
+F http://cds.linear.com/docs/en/datasheet/lt0398s8.pdf
+$ENDCMP
+#
+$CMP MPY634KP
+D Wide Bandwidth Precision Analog Multiplier, DIP-14
+K analog multiplier
+F http://www.ti.com/lit/ds/symlink/mpy634.pdf
+$ENDCMP
+#
+$CMP MPY634KU
+D Wide Bandwidth Precision Analog Multiplier, SOIC-16W
+K analog multiplier
+F http://www.ti.com/lit/ds/symlink/mpy634.pdf
+$ENDCMP
+#
+#End Doc Library

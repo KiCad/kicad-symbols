@@ -1,5 +1,29 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD5280
+D Digital potentiometer, 256 position, single output, I2C interface
+K digital potentiometer
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5280_5282.pdf
+$ENDCMP
+#
+$CMP AD5282
+D Digital potentiometer, 256 position, dual output, I2C interface
+K digital potentiometer
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5280_5282.pdf
+$ENDCMP
+#
+$CMP AD5290
+D Digital Potentiometer  256 steps   (SPI control) +- 15V, MSOP-10
+K R POT
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5290.pdf
+$ENDCMP
+#
+$CMP AD5293
+D Digital potentiometer 1024 pos (SPI), TSSOP-14
+K R POT
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5293.pdf
+$ENDCMP
+#
 $CMP DS1267_DIP
 D Dual Digital Potentiometer, Serial, 256 Steps, DIP-14
 K Dual Digital Potentiometer Maxim
@@ -16,6 +40,54 @@ $CMP DS1267_TSSOP
 D Dual Digital Potentiometer, Serial, 256 Steps, TSSOP-20
 K Dual Digital Potentiometer Maxim
 F https://datasheets.maximintegrated.com/en/ds/DS1267.pdf
+$ENDCMP
+#
+$CMP MAX5436
+D Low-Drift Digital Potentiometer
+K digital potentiometer resistor variable
+F https://datasheets.maximintegrated.com/en/ds/MAX5436-MAX5439.pdf
+$ENDCMP
+#
+$CMP MAX5438
+D Low-Drift Digital Potentiometer
+K digital potentiometer resistor variable
+F https://datasheets.maximintegrated.com/en/ds/MAX5436-MAX5439.pdf
+$ENDCMP
+#
+$CMP MCP41010
+D Single Digital Potentiometer, SPI interface, 256 taps, 10 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP41050
+D Single Digital Potentiometer, SPI interface, 256 taps, 50 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP41100
+D Single Digital Potentiometer, SPI interface, 256 taps, 100 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP42010
+D Dual Digital Potentiometer, SPI interface, 256 taps, 10 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP42050
+D Dual Digital Potentiometer, SPI interface, 256 taps, 50 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP42100
+D Dual Digital Potentiometer, SPI interface, 256 taps, 100 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
 $ENDCMP
 #
 $CMP MCP45HV31-MQ
@@ -40,6 +112,36 @@ $CMP MCP45HV51-ST
 D 7/8-bit single +36V (+/-18V) digital pot, I2C serial interface, volatile memory, TSSOP-14
 K I2C Potentiometer pot digital
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005304A.pdf
+$ENDCMP
+#
+$CMP TPL0401A-10-Q1
+D 128-TAPS Single-Channel Digital Potentiometer, I2C Interface, SC-70-6
+K Digital Pot Potentiometer I2C
+F http://www.ti.com/lit/ds/symlink/tpl0401a-10-q1.pdf
+$ENDCMP
+#
+$CMP TPL0401B-10-Q1
+D 128-TAPS Single-Channel Digital Potentiometer, I2C Interface, SC-70-6
+K Digital Pot Potentiometer I2C
+F http://www.ti.com/lit/ds/symlink/tpl0401a-10-q1.pdf
+$ENDCMP
+#
+$CMP X9118
+D 100k Digital Potentiometer, 1024 steps, TSSOP-14
+K digital potentiometer
+F http://www.intersil.com/content/dam/Intersil/documents/x911/x9118.pdf
+$ENDCMP
+#
+$CMP X9250
+D Quad 100k Digital Potentiometer, 256 steps, TSSOP-24/SOIC-24
+K potentiometer resistor variable digital
+F https://www.intersil.com/content/dam/Intersil/documents/x925/x9250.pdf
+$ENDCMP
+#
+$CMP X9258
+D Quad 50k Digital Potentiometer, 256 steps, TSSOP-24/SOIC-24
+K potentiometer resistor variable digital
+F http://www.intersil.com/content/dam/intersil/documents/x925/x9258.pdf
 $ENDCMP
 #
 #End Doc Library
