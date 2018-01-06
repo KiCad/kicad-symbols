@@ -48,6 +48,18 @@ K rectifier acdc
 F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c2300.pdf
 $ENDCMP
 #
+$CMP B125C3x00-2200A
+D Silicon Bridge Rectifier, 125V Vrms, 2.2A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c3700
+$ENDCMP
+#
+$CMP B125C5000-3x00A
+D Silicon Bridge Rectifier, 125V Vrms, 3.3A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c500033
+$ENDCMP
+#
 $CMP B125C800DM
 D Glass Passivated Single-Phase Bridge Rectifier, 125V Vrms, 0.8A If, DIP-4
 K rectifier acdc
@@ -76,6 +88,18 @@ $CMP B250C2300-1500B
 D Silicon Bridge Rectifier, 250V Vrms, 1.5A If, pins=-A+A, SIL-package
 K rectifier acdc
 F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c2300.pdf
+$ENDCMP
+#
+$CMP B250C3x00-2200A
+D Silicon Bridge Rectifier, 250V Vrms, 2.2A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c3700
+$ENDCMP
+#
+$CMP B250C5000-3x00A
+D Silicon Bridge Rectifier, 250V Vrms, 3.3A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c500033
 $ENDCMP
 #
 $CMP B250C800DM
@@ -108,6 +132,18 @@ K rectifier acdc
 F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c2300.pdf
 $ENDCMP
 #
+$CMP B380C3x00-2200A
+D Silicon Bridge Rectifier, 380V Vrms, 2.2A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c3700
+$ENDCMP
+#
+$CMP B380C5000-3x00A
+D Silicon Bridge Rectifier, 380V Vrms, 3.3A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c500033
+$ENDCMP
+#
 $CMP B380C800DM
 D Glass Passivated Single-Phase Bridge Rectifier, 380V Vrms, 0.8A If, DIP-4
 K rectifier acdc
@@ -138,6 +174,18 @@ K rectifier acdc
 F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c2300.pdf
 $ENDCMP
 #
+$CMP B40C3x00-2200A
+D Silicon Bridge Rectifier, 40V Vrms, 2.2A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c3700
+$ENDCMP
+#
+$CMP B40C5000-3x00A
+D Silicon Bridge Rectifier, 40V Vrms, 3.3A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c500033
+$ENDCMP
+#
 $CMP B40C800DM
 D Glass Passivated Single-Phase Bridge Rectifier, 40V Vrms, 0.8A If, DIP-4
 K rectifier acdc
@@ -154,6 +202,18 @@ $CMP B500C2300-1500A
 D Silicon Bridge Rectifier, 500V Vrms, 1.5A If, pins=-AA+, SIL-package
 K rectifier acdc
 F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c2300.pdf
+$ENDCMP
+#
+$CMP B500C3x00-2200A
+D Silicon Bridge Rectifier, 500V Vrms, 2.2A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c3700
+$ENDCMP
+#
+$CMP B500C5000-3x00A
+D Silicon Bridge Rectifier, 500V Vrms, 3.3A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c500033
 $ENDCMP
 #
 $CMP B500R
@@ -184,6 +244,18 @@ $CMP B80C2300-1500B
 D Silicon Bridge Rectifier, 80V Vrms, 1.5A If, pins=-A+A, SIL-package
 K rectifier acdc
 F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c2300.pdf
+$ENDCMP
+#
+$CMP B80C3x00-2200A
+D Silicon Bridge Rectifier, 80V Vrms, 2.2A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c3700
+$ENDCMP
+#
+$CMP B80C5000-3x00A
+D Silicon Bridge Rectifier, 80V Vrms, 3.3A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c500033
 $ENDCMP
 #
 $CMP B80C800DM
