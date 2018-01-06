@@ -52,6 +52,18 @@ K Bluetooth Low Energy 4.2 Module
 F http://ww1.microchip.com/downloads/en/DeviceDoc/50002489A.pdf
 $ENDCMP
 #
+$CMP SPBTLE-RF
+D Very Low Power network processor module for BLE v4.1, Hub capabilities
+K BLE bluetooth module low-power
+F http://www.st.com/resource/en/datasheet/spbtle-rf.pdf
+$ENDCMP
+#
+$CMP SPBTLE-RF0
+D Very Low Power network processor module for BLE v4.1
+K BLE bluetooth module low-power
+F http://www.st.com/resource/en/datasheet/spbtle-rf0.pdf
+$ENDCMP
+#
 $CMP nRF51x22-QFxx
 D Multiprotocol BLE/2.4GHz Cortex-M0+ SoC
 K MCU, ARM, BLE, 2.4GHz
