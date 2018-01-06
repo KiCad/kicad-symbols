@@ -1,9 +1,49 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BL652
+D Bluetooth module
+K Bluetooth Nordic nRF52
+F http://cdn.lairdtech.com/home/brandworld/files/Datasheet%20-%20BL652.pdf
+$ENDCMP
+#
+$CMP BTM112
+D Bluetooth SPP Module, UART, Class 2
+K Bluetooth BT SPP Module
+$ENDCMP
+#
+$CMP BTM222
+D Bluetooth SPP Module, UART, Class 1
+K Bluetooth BT SPP Module
+$ENDCMP
+#
+$CMP MOD-nRF8001
+D Bluetooth Low Energy module based on nRF8001 chipset
+K Bluetooth Low Energy nRF8001
+F https://www.olimex.com/Products/Modules/RF/MOD-nRF8001/
+$ENDCMP
+#
 $CMP NRF8001
 D BLE chip from Nordic Semiconductor
 K BLE, bluetooth
 F STM32F446ZCT6
+$ENDCMP
+#
+$CMP RFD77101
+D Simblee Bluetooth Smart Module with ARM Cortex-M0 and integrated antenna
+K Simblee ARM Cortex-M0 Bluetooth antenna
+F https://www.simblee.com/Simblee%20RFD77101%20Datasheet%20v1.0.pdf
+$ENDCMP
+#
+$CMP RN42
+D Class 2 Bluetooth Module with on-board antenna
+K Bluetooth Module
+F http://ww1.microchip.com/downloads/en/DeviceDoc/rn-42-ds-v2.32r.pdf
+$ENDCMP
+#
+$CMP RN42N
+D Class 2 Bluetooth Module without antenna
+K Bluetooth Module
+F http://ww1.microchip.com/downloads/en/DeviceDoc/rn-42-ds-v2.32r.pdf
 $ENDCMP
 #
 $CMP RN4871
