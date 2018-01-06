@@ -3,6 +3,7 @@ EESchema-DOCLIB  Version 2.0
 $CMP Amperemeter_AC
 D AC Amperemeter
 K Amperemeter AC
+F ~
 $ENDCMP
 #
 $CMP Amperemeter_DC
@@ -174,26 +175,31 @@ $ENDCMP
 $CMP D_Bridge_+-AA
 D Diode bridge (pins: 1=+, 2=-, 3=AC, 4=AC)
 K rectifier acdc
+F ~
 $ENDCMP
 #
 $CMP D_Bridge_+A-A
 D Diode bridge (pins: 1=+, 2=AC, 3=-, 4=AC)
 K rectifier acdc
+F ~
 $ENDCMP
 #
 $CMP D_Bridge_+AA-
 D Diode bridge (pins: 1=+, 2=AC, 3=AC, 4=-)
 K rectifier acdc
+F ~
 $ENDCMP
 #
 $CMP D_Bridge_-A+A
 D Diode bridge (pins: 1=-, 2=AC, 3=+, 4=AC)
 K rectifier acdc
+F ~
 $ENDCMP
 #
 $CMP D_Bridge_-AA+
 D Diode bridge (pins: 1=-, 2=AC, 3=AC, 4=+)
 K rectifier acdc
+F ~
 $ENDCMP
 #
 $CMP D_Capacitance
@@ -903,6 +909,7 @@ $ENDCMP
 $CMP Oscilloscope
 D Oscilloscope
 K Oscilloscope
+F ~
 $ENDCMP
 #
 $CMP POT
@@ -1808,11 +1815,13 @@ $ENDCMP
 $CMP Voltmeter_AC
 D AC Voltmeter
 K Voltmeter AC
+F ~
 $ENDCMP
 #
 $CMP Voltmeter_DC
 D DC Voltmeter
 K Voltmeter DC
+F ~
 $ENDCMP
 #
 #End Doc Library
