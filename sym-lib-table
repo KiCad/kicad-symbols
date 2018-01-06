@@ -78,6 +78,7 @@
   (lib (name MCU_Atmel_AVR)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Atmel_AVR.lib)(options "")(descr "Atmel AVR microcontrollers"))
   (lib (name MCU_Cypress)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Cypress.lib)(options "")(descr "Cypress microcontrollers"))
   (lib (name MCU_Infineon)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Infineon.lib)(options "")(descr "Infineon microcontrollers"))
+  (lib (name MCU_Intel)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Intel.lib)(options "")(descr "Various Intel MCU devices and associated peripherals"))
   (lib (name MCU_Microchip_PIC10)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_PIC10.lib)(options "")(descr "Microchip PIC10 microcontrollers"))
   (lib (name MCU_Microchip_PIC12)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_PIC12.lib)(options "")(descr "Microchip PIC12 microcontrollers"))
   (lib (name MCU_Microchip_PIC16)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_PIC16.lib)(options "")(descr "Microchip PIC16 microcontrollers"))
