@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.3
 DEF CC2520 U 0 40 Y Y 1 F N
 F0 "U" 0 50 50 H V C CNN
 F1 "CC2520" 0 -50 50 H V C CNN
-F2 "Housings_DFN_QFN:QFN-28-1EP_5x5mm_Pitch0.5mm" 0 -150 50 H I C CNN
+F2 "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm" 0 -150 50 H I C CNN
 F3 "http://www.ti.com/lit/gpn/cc2520" 0 -250 50 H I C CNN
 $FPLIST
  *QFN*28*5x5mm*Pitch0.5mm*
@@ -49,7 +49,7 @@ ENDDEF
 DEF XBee_SMT U 0 40 Y Y 1 F N
 F0 "U" -960 1030 50 H V C CNN
 F1 "XBee_SMT" -820 960 50 H V C CNN
-F2 "RF_Modules:Digi_XBee_SMT" 840 -1060 50 H I C CNN
+F2 "RF_Module:Digi_XBee_SMT" 840 -1060 50 H I C CNN
 F3 "" 0 -400 50 H I C CNN
 $FPLIST
  Digi*XBee*SMT*
