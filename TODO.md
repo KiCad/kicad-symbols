@@ -5,7 +5,7 @@
 - [x] Altera
 - [x] analog_devices
 - [x] analog_switches
-- [ ] atmel
+- [x] atmel
 - [x] audio
 - [x] Battery_Management
 - [ ] bbd
@@ -35,7 +35,7 @@
 - [ ] intel
 - [x] interface
 - [x] intersil
-- [ ] ir
+- [x] ir
 - [x] Lattice
 - [x] LED
 - [x] LEM
@@ -100,6 +100,6 @@
 - [x] wiznet
 - [x] Worldsemi
 - [x] Xicor
-- [ ] xilinx
+- [x] xilinx
 - [x] zetex
 - [x] Zilog
