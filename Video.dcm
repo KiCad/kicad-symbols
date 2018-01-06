@@ -1,9 +1,56 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD725
+D Low Cost RGB to NTSC/PAL Encoder with Luma Trap Port
+K Video
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD725.pdf
+$ENDCMP
+#
 $CMP AD9708AR
 D Video DAC (32 MHz), SOIC/TSSOP-28
 K DAC CNA VIDEO
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9708.pdf
+$ENDCMP
+#
+$CMP AD9891
+D CCD Signal Processor, 20MHz 10bits, CSPBGA-64
+K CCD Signal Processor
+F http://www.analog.com/static/imported-files/data_sheets/AD9891_9895.pdf
+$ENDCMP
+#
+$CMP AD9895
+D CCD Signal Processor, 30MHz 12bits, CSPBGA-64
+K CCD Signal Processor
+F http://www.analog.com/static/imported-files/data_sheets/AD9891_9895.pdf
+$ENDCMP
+#
+$CMP AV9173
+D Video Genlock PLL
+K video pll
+F http://www.ibselectronics.com/ibsstore/datasheet/Others/AV9173-01CN08.pdf
+$ENDCMP
+#
+$CMP CXD3400N
+D 6-channel Vertical Clock Driver for CCD Image Sensor, SSOP-20
+K CCD Clock Driver
+F video\cxd3400n.pdf
+$ENDCMP
+#
+$CMP ICX415AQ
+D Diagonal 8mm B/W Progressive Scan CCD Image Sensor with Square Pixel, CERDIP-22
+K CCD B/W Image Sensor
+$ENDCMP
+#
+$CMP MAX310
+D 8-Channel CMOS RF Video Multiplexer
+K video rf
+F https://datasheets.maximintegrated.com/en/ds/MAX310-MAX311.pdf
+$ENDCMP
+#
+$CMP MAX311
+D 8-Channel CMOS RF Video Multiplexer
+K video rf
+F https://datasheets.maximintegrated.com/en/ds/MAX310-MAX311.pdf
 $ENDCMP
 #
 $CMP SAA7182
