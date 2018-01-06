@@ -96,12 +96,6 @@ K OneWire 1Wire Dallas Maxim
 F http://datasheets.maximintegrated.com/en/ds/DS18S20.pdf
 $ENDCMP
 #
-$CMP DS2401
-D Silicon Serial Number TO-92
-K OneWire 1Wire Maxim Dallas ID
-F http://pdfserv.maximintegrated.com/en/ds/DS2401.pdf
-$ENDCMP
-#
 $CMP DS28EA00
 D 1-Wire Digital Thermometer with Sequence Detect and PIO
 K 1Wire OneWire Maxim Dallas

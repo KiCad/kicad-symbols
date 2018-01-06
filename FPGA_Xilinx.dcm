@@ -1,0 +1,58 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XC2C256-TQ144
+D CoolRunner-II CPLD, 256 macrocells
+K CPLD
+F https://www.xilinx.com/support/documentation/data_sheets/ds094.pdf
+$ENDCMP
+#
+$CMP XC2S100TQ144
+D spartan 2
+K FPGA
+F xilinx/spartan2e/spartan2e.pdf
+$ENDCMP
+#
+$CMP XC2S150PQ208
+K FPGA
+F xilinx/spartan2e/spartan2e.pdf
+$ENDCMP
+#
+$CMP XC2S200PQ208
+K FPGA
+F xilinx/spartan2e/spartan2e.pdf
+$ENDCMP
+#
+$CMP XC2S300PQ208
+F xilinx/spartan2e/spartan2e.pdf
+$ENDCMP
+#
+$CMP XC2S64A-xQFG48
+D Xilinx CoolRunner
+F xilinx/xc2c64.pdf
+$ENDCMP
+#
+$CMP XC3S200AN/FT256
+D BGA256/1mm
+$ENDCMP
+#
+$CMP XC3S50-VQ100
+D spartan 2
+K FPGA
+F xilinx/spartan2e/spartan2e.pdf
+$ENDCMP
+#
+$CMP XC4003-VQ100
+F xilinx/xc400x-pinout.pdf
+$ENDCMP
+#
+$CMP XC6SLX25T-BG484
+D SPARTAN-6  FG484
+$ENDCMP
+#
+$CMP XCV150_BG352
+D Virtex FPGA
+K field programmable gate array
+F https://www.xilinx.com/support/documentation/data_sheets/ds003.pdf
+$ENDCMP
+#
+#End Doc Library
