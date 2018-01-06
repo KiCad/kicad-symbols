@@ -82,7 +82,7 @@
 - [x] regul
 - [x] Relay
 - [x] RF_Bluetooth
-- [ ] rfcom
+- [x] rfcom
 - [x] RFSolutions
 - [x] Sensor_Current
 - [x] Sensor_Humidity
