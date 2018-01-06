@@ -24,6 +24,12 @@ K CCD Signal Processor
 F http://www.analog.com/static/imported-files/data_sheets/AD9891_9895.pdf
 $ENDCMP
 #
+$CMP AV9173
+D Video Genlock PLL
+K video pll
+F http://www.ibselectronics.com/ibsstore/datasheet/Others/AV9173-01CN08.pdf
+$ENDCMP
+#
 $CMP CXD3400N
 D 6-channel Vertical Clock Driver for CCD Image Sensor, SSOP-20
 K CCD Clock Driver
@@ -33,6 +39,18 @@ $ENDCMP
 $CMP ICX415AQ
 D Diagonal 8mm B/W Progressive Scan CCD Image Sensor with Square Pixel, CERDIP-22
 K CCD B/W Image Sensor
+$ENDCMP
+#
+$CMP MAX310
+D 8-Channel CMOS RF Video Multiplexer
+K video rf
+F https://datasheets.maximintegrated.com/en/ds/MAX310-MAX311.pdf
+$ENDCMP
+#
+$CMP MAX311
+D 8-Channel CMOS RF Video Multiplexer
+K video rf
+F https://datasheets.maximintegrated.com/en/ds/MAX310-MAX311.pdf
 $ENDCMP
 #
 $CMP SAA7182
