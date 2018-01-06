@@ -66,30 +66,6 @@ K MPRO
 F http://datasheets.chipdb.org/Intel/x86/808x/datashts/8088/231456-006.pdf
 $ENDCMP
 #
-$CMP 8237
-D Programmable DMA Controller, PDIP-40
-K 8237 DMA
-F https://pdos.csail.mit.edu/6.828/2012/readings/hardware/8237A.pdf
-$ENDCMP
-#
-$CMP 8259
-D 8259, Programmable Interrupt Controller, PDIP-28
-K PIC
-F http://pdos.csail.mit.edu/6.828/2005/readings/hardware/8259A.pdf
-$ENDCMP
-#
-$CMP 8284
-D Clock Generator and Driver for i8086/88 Microcontrollers, PDIP-18
-K Clock Generator
-F http://www.cpu-galaxy.at/cpu/ram%20rom%20eprom/other_intel_chips/other_intel-Dateien/D8284A_Datasheet.pdf
-$ENDCMP
-#
-$CMP 8288
-D Bus Controller for Intel 8086/8088/80186/80188 microprocessors, DIP-20
-K Bus Controller
-F http://www.datasheets360.com/pdf/7208679415653955300
-$ENDCMP
-#
 $CMP 8748
 D i8748, MCS-48 8-bit Microcontroller with Internal EPROM, 1KB EPROM, 64B RAM, DIP-40
 K MCS-48 uC Microcontroller

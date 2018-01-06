@@ -12,6 +12,12 @@ K Timer Counter
 F http://www.scs.stanford.edu/10wi-cs140/pintos/specs/8254.pdf
 $ENDCMP
 #
+$CMP 8284
+D Clock Generator and Driver for i8086/88 Microcontrollers, PDIP-18
+K Clock Generator
+F http://www.cpu-galaxy.at/cpu/ram%20rom%20eprom/other_intel_chips/other_intel-Dateien/D8284A_Datasheet.pdf
+$ENDCMP
+#
 $CMP 82C54
 D CHMOS Programmable Interval Timer, PDIP-24
 K Timer Counter
