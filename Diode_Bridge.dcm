@@ -618,4 +618,46 @@ K rectifier acdc
 F http://www.vishay.com/docs/88705/rmbs.pdf
 $ENDCMP
 #
+$CMP W005G
+D Glass Passivated Single-Phase Bridge Rectifier, 35V Vrms, 1.5A If, WOG package
+K Bridge Rectifier acdc
+F https://www.vishay.com/docs/88769/woo5g.pdf
+$ENDCMP
+#
+$CMP W01G
+D Glass Passivated Single-Phase Bridge Rectifier, 70V Vrms, 1.5A If, WOG package
+K Bridge Rectifier acdc
+F https://www.vishay.com/docs/88769/woo5g.pdf
+$ENDCMP
+#
+$CMP W02G
+D Glass Passivated Single-Phase Bridge Rectifier, 140V Vrms, 1.5A If, WOG package
+K Bridge Rectifier acdc
+F https://www.vishay.com/docs/88769/woo5g.pdf
+$ENDCMP
+#
+$CMP W04G
+D Glass Passivated Single-Phase Bridge Rectifier, 280V Vrms, 1.5A If, WOG package
+K Bridge Rectifier acdc
+F https://www.vishay.com/docs/88769/woo5g.pdf
+$ENDCMP
+#
+$CMP W06G
+D Glass Passivated Single-Phase Bridge Rectifier, 420V Vrms, 1.5A If, WOG package
+K Bridge Rectifier acdc
+F https://www.vishay.com/docs/88769/woo5g.pdf
+$ENDCMP
+#
+$CMP W08G
+D Glass Passivated Single-Phase Bridge Rectifier, 560V Vrms, 1.5A If, WOG package
+K Bridge Rectifier acdc
+F https://www.vishay.com/docs/88769/woo5g.pdf
+$ENDCMP
+#
+$CMP W10G
+D Glass Passivated Single-Phase Bridge Rectifier, 700V Vrms, 1.5A If, WOG package
+K Bridge Rectifier acdc
+F https://www.vishay.com/docs/88769/woo5g.pdf
+$ENDCMP
+#
 #End Doc Library
