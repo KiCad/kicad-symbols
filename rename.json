@@ -106,8 +106,14 @@
 
     "contrib" : "Interface_Telecom",
 
-    "bbd:MN3*" : "Audio_Delay",
-    "bbd:SAD*" : "Audio_Delay",
+    "bbd" : {
+        "MN3101" : "Timer",
+        "MN30*" : "Audio",
+        "MN32*" : "Audio",
+        "RD5*" : "Audio",
+        "SAD*" : "Audio",
+        "TDA*" : "Audio"
+    },
 
     "Bosch" : {
         "BMF*" : "Sensor_Motion",
@@ -555,7 +561,8 @@
     "onsemi" : {
         "CM12*" : "Power_Protection",
         "NUP*" : "Power_Protection",
-        "NPC*" : "Power_Pistribution"
+        "NPC*" : "Power_Management",
+        "FAN*" : "Driver_FET"
     },
 
     "opto" : {
@@ -896,6 +903,8 @@
         "S8*" : "Transistor_BJT",
         "TP0*" : "Transistor_FET"
     },
+
+    "triac_thyristor" : "Triac_Thyristor",
 
     "transf" : "Transformer",
     "Transformer" : "",

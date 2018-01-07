@@ -8,7 +8,7 @@
 - [x] atmel
 - [x] audio
 - [x] Battery_Management
-- [ ] bbd
+- [x] bbd
 - [x] Bosch
 - [x] brooktre
 - [x] Connector
@@ -70,7 +70,7 @@
 - [ ] motorola
 - [x] nordicsemi
 - [x] nxp
-- [ ] onsemi
+- [x] onsemi
 - [x] opto
 - [x] Oscillators
 - [x] philips
@@ -94,7 +94,7 @@
 - [x] texas
 - [x] Transformer
 - [x] Transistor
-- [ ] triac_thyristor
+- [x] triac_thyristor
 - [x] Valve
 - [x] video
 - [x] wiznet

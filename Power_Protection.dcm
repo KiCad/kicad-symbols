@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CM1213A-01SO
+D Single Channel ESD Protection Array
+K ESD Protection diodes transient suppressor
+F http://www.onsemi.com/pub_link/Collateral/CM1213A-D.PDF
+$ENDCMP
+#
 $CMP IP3319CX6
 D Single channel common mode filter with integrated ESD protection network
 K common mode filter ESD protection
@@ -10,6 +16,18 @@ $CMP NUP2105L
 D Dual Line CAN Bus Protector, 24Vrwm
 K can esd protection suppression transient
 F http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF
+$ENDCMP
+#
+$CMP NUP2202
+D Transient voltage suppressor designed to protect high speed data lines from ESD, EFT, and lightning
+K ESD Protection diodes  transient suppressor
+F http://www.onsemi.ru.com/pub_link/Collateral/NUP2202W1-D.PDF
+$ENDCMP
+#
+$CMP NUP4202
+D Transient voltage suppressor designed to protect high speed data lines from ESD, EFT, and lightning
+K ESD Protection diodes  transient suppressor
+F http://www.onsemi.com/pub_link/Collateral/NUP4202W1-D.PDF
 $ENDCMP
 #
 $CMP PESD3V3L4UF
