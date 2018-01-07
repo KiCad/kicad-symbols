@@ -70,7 +70,7 @@
 - [ ] motorola
 - [x] nordicsemi
 - [x] nxp
-- [ ] onsemi
+- [x] onsemi
 - [x] opto
 - [x] Oscillators
 - [x] philips
