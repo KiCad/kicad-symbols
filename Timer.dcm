@@ -90,6 +90,18 @@ K realtime clock RTC
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf
 $ENDCMP
 #
+$CMP MN3101
+D CLOCK GENERATOR/DRIVER CMOS LSI FOR BBD (bucket brigade device), for the MN3000 series BBD, self and separate oscillations, two phase clock output, single power supply -8V to -16V
+K Matsushita Panasonic BBD CMOS
+F http://www.experimentalistsanonymous.com/diy/Datasheets/MN3101.pdf
+$ENDCMP
+#
+$CMP MN3102
+D CMOS CLOCK GENERATOR/DRIVER FOR LOW VOLTAGE OPERATION BBD (bucket brigade device), for the MN3200 series BBD, self oscillation and separate exitation, two phase clock output, single supply source 4V to 10V
+K Matsushita Panasonic BBD CMOS
+F http://www.experimentalistsanonymous.com/diy/Datasheets/MN3102.pdf
+$ENDCMP
+#
 $CMP NA555
 D Precision Timers, DIP-8/SOIC-8/SSOP-8
 K timer
