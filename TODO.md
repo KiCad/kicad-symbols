@@ -8,7 +8,7 @@
 - [x] atmel
 - [x] audio
 - [x] Battery_Management
-- [ ] bbd
+- [x] bbd
 - [x] Bosch
 - [x] brooktre
 - [x] Connector
