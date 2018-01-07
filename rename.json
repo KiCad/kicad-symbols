@@ -106,8 +106,14 @@
 
     "contrib" : "Interface_Telecom",
 
-    "bbd:MN3*" : "Audio_Delay",
-    "bbd:SAD*" : "Audio_Delay",
+    "bbd" : {
+        "MN3101" : "Timer",
+        "MN30*" : "Audio",
+        "MN32*" : "Audio",
+        "RD5*" : "Audio",
+        "SAD*" : "Audio",
+        "TDA*" : "Audio"
+    },
 
     "Bosch" : {
         "BMF*" : "Sensor_Motion",
