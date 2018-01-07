@@ -555,7 +555,8 @@
     "onsemi" : {
         "CM12*" : "Power_Protection",
         "NUP*" : "Power_Protection",
-        "NPC*" : "Power_Pistribution"
+        "NPC*" : "Power_Management",
+        "FAN*" : "Driver_FET"
     },
 
     "opto" : {
