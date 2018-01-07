@@ -94,7 +94,7 @@
 - [x] texas
 - [x] Transformer
 - [x] Transistor
-- [ ] triac_thyristor
+- [x] triac_thyristor
 - [x] Valve
 - [x] video
 - [x] wiznet
