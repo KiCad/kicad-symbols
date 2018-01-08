@@ -7,7 +7,7 @@ F www.ti.com/lit/ds/symlink/cc1000.pdf
 $ENDCMP
 #
 $CMP CC1200
-D Low-Power, High-Performance RF Transceiver, QFN-32
+D Low-Power, High-Performance RF Transceiver
 K RF Tx Rx
 F http://www.ti.com/lit/ds/symlink/cc1200.pdf
 $ENDCMP
@@ -45,7 +45,7 @@ $ENDCMP
 $CMP SIM900
 D GSM Quad-Band Communication Module, GPRS, Audio Engine, AT Command Set
 K GSM GPRS Quad-Band SMS FAX
-F https://www.tme.eu/it/Document/3428bae894bc311e83c44aca8a5e5174/sim900.pdf
+F http://www.simcom.us/act_admin/supportfile/SIM900_HD_V1.01(091226).pdf
 $ENDCMP
 #
 $CMP SX1272

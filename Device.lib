@@ -4086,12 +4086,12 @@ F1 "Opamp_Dual_Generic" 0 -200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- SOIC*3.9x4.9mm*P1.27mm*
+ SOIC*3.9x4.9mm*Pitch1.27mm*
  DIP*W7.62mm*
- MSOP*3x3mm*P0.65mm*
- SSOP*2.95x2.8mm*P0.65mm*
- TSSOP*3x3mm*P0.65mm*
- VSSOP*P0.5mm*
+ MSOP*3x3mm*Pitch0.65mm*
+ SSOP*2.95x2.8mm*Pitch0.65mm*
+ TSSOP*3x3mm*Pitch0.65mm*
+ VSSOP*Pitch0.5mm*
  TO?99*
 $ENDFPLIST
 DRAW
@@ -4116,10 +4116,10 @@ F1 "Opamp_Quad_Generic" 0 -200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- SOIC*3.9x8.7mm*P1.27mm*
+ SOIC*3.9x8.7mm*Pitch1.27mm*
  DIP*W7.62mm*
- TSSOP*4.4x5mm*P0.65mm*
- SSOP*5.3x6.2mm*P0.65mm*
+ TSSOP*4.4x5mm*Pitch0.65mm*
+ SSOP*5.3x6.2mm*Pitch0.65mm*
 $ENDFPLIST
 DRAW
 P 4 1 1 10 -200 200 200 0 -200 -200 -200 200 f
