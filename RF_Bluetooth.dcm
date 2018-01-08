@@ -9,13 +9,11 @@ $ENDCMP
 $CMP BTM112
 D Bluetooth SPP Module, UART, Class 2
 K Bluetooth BT SPP Module
-F https://www.sparkfun.com/datasheets/Wireless/Bluetooth/BTM112_wATcommands.pdf
 $ENDCMP
 #
 $CMP BTM222
 D Bluetooth SPP Module, UART, Class 1
 K Bluetooth BT SPP Module
-F https://www.tme.eu/de/Document/b90358c53cd65c9b10d2914f55812666/btm222_datasheet.pdf
 $ENDCMP
 #
 $CMP MOD-nRF8001
@@ -27,7 +25,7 @@ $ENDCMP
 $CMP NRF8001
 D BLE chip from Nordic Semiconductor
 K BLE, bluetooth
-F https://www.nordicsemi.com/eng/nordic/content_download/2981/38488/file/nRF8001_PS_v1.3.pdf
+F STM32F446ZCT6
 $ENDCMP
 #
 $CMP RFD77101
