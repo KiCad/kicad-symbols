@@ -1184,7 +1184,7 @@ ENDDEF
 DEF Conn_ARM_JTAG_SWD_10 J 0 40 Y Y 1 F N
 F0 "J" -100 650 50 H V R CNN
 F1 "Conn_ARM_JTAG_SWD_10" -100 550 50 H V R BNN
-F2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm_SMD" 50 -550 50 H I L TNN
+F2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" 50 -550 50 H I L TNN
 F3 "" -350 -1250 50 V I C CNN
 $FPLIST
  Pin?Header*
@@ -1223,7 +1223,7 @@ F2 "" 450 -1050 50 H I L TNN
 F3 "" -350 -1250 50 V I C CNN
 $FPLIST
  IDC*Header*Straight*
- Pin_Header*2x10*Pitch2.54mm*
+ PinHeader*2x10*P2.54mm*
 $ENDFPLIST
 DRAW
 S -500 700 500 -700 0 1 10 f
@@ -3908,8 +3908,11 @@ ENDDEF
 DEF Raspberry_Pi_2_3 J 0 40 Y Y 1 F N
 F0 "J" 700 -1250 50 H V C CNN
 F1 "Raspberry_Pi_2_3" -400 900 50 H V C CNN
-F2 "Pin_Headers:Pin_Header_Straight_2x20" 1000 1250 50 H I C CNN
+F2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" 1000 1250 50 H I C CNN
 F3 "" 50 -150 50 H I C CNN
+$FPLIST
+ PinHeader*2x20*P2.54mm*Vertical*
+$ENDFPLIST
 DRAW
 S -800 1200 800 -1200 0 1 10 f
 X 3V3 1 100 1300 100 D 50 50 1 1 w
