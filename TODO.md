@@ -64,7 +64,7 @@
 - [x] Mechanical
 - [x] microchip
 - [x] microcontrollers
-- [ ] modules
+- [x] modules
 - [x] motor_drivers
 - [x] Motor
 - [ ] motorola
