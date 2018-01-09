@@ -576,4 +576,16 @@ K Single Pole Relay
 F https://cdn-reichelt.de/documents/datenblatt/C300/DS_HJR4102E.pdf
 $ENDCMP
 #
+$CMP UMS05-1A80-75D
+D Standex Meder UMS reed relay, SPST, Closing Contact, with diode
+K Single Pole Reed Relay SPST
+F https://standexelectronics.com/de/produkte/ums-reed-relais/
+$ENDCMP
+#
+$CMP UMS05-1A80-75L
+D Standex Meder UMS reed relay, SPST, Closing Contact
+K Single Pole Reed Relay SPST
+F https://standexelectronics.com/de/produkte/ums-reed-relais/
+$ENDCMP
+#
 #End Doc Library
