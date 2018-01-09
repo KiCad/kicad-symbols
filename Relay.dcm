@@ -420,6 +420,12 @@ K Panasonic Relay Dual Pole
 F http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok
 $ENDCMP
 #
+$CMP MS05-1Axx-75
+D Standex Meder MS reed relay, SPST, 5V VDC(coil), Closing Contact
+K Single Pole Reed Relay SPST
+F https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_SIL.pdf
+$ENDCMP
+#
 $CMP RM50-xx21
 D RELPOL, Single Pole Relay SPST-NO, 6A
 K Single Pole Relay SPST-NO
