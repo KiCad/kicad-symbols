@@ -1,0 +1,51 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AT89C2051-PU
+D PDIP20, 2k Flash, 128B SRAM
+K MCS-51 8bit Flash Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc0368.pdf
+$ENDCMP
+#
+$CMP AT89C2051-SU
+D SO20, 2k Flash, 128B SRAM
+K MCS-51 8bit Flash Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc0368.pdf
+$ENDCMP
+#
+$CMP AT89C4051-PU
+D DIP20, 2k Flash, 128B SRAM
+K MCS-51 8bit Flash Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc1001.pdf
+$ENDCMP
+#
+$CMP AT89C4051-SU
+D SO20, 2k Flash, 128B SRAM
+K MCS-51 8bit Flash Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc1001.pdf
+$ENDCMP
+#
+$CMP AT89S2051-PU
+D PDIP20, 2k Flash, 256B SRAM
+K MCS-51 8bit Flash Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc3390.pdf
+$ENDCMP
+#
+$CMP AT89S2051-SU
+D SO20, 2k Flash, 256B SRAM
+K MCS-51 8bit Flash Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc3390.pdf
+$ENDCMP
+#
+$CMP AT89S4051-24PU
+D PDIP20, 4k Flash, 256B SRAM
+K MCS-51 8bit Flash Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc3390.pdf
+$ENDCMP
+#
+$CMP AT89S4051-24SU
+D SO20, 4k Flash, 256B SRAM
+K MCS-51 8bit Flash Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc3390.pdf
+$ENDCMP
+#
+#End Doc Library
