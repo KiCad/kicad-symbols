@@ -5,10 +5,10 @@
 - [x] Altera
 - [x] analog_devices
 - [x] analog_switches
-- [ ] atmel
+- [x] atmel
 - [x] audio
 - [x] Battery_Management
-- [ ] bbd
+- [x] bbd
 - [x] Bosch
 - [x] brooktre
 - [x] Connector
@@ -31,11 +31,11 @@
 - [x] gennum
 - [x] Graphic
 - [x] hc11
-- [ ] infineon
-- [ ] intel
+- [x] infineon
+- [x] intel
 - [x] interface
 - [x] intersil
-- [ ] ir
+- [x] ir
 - [x] Lattice
 - [x] LED
 - [x] LEM
@@ -64,13 +64,13 @@
 - [x] Mechanical
 - [x] microchip
 - [x] microcontrollers
-- [ ] modules
+- [x] modules
 - [x] motor_drivers
 - [x] Motor
 - [ ] motorola
 - [x] nordicsemi
 - [x] nxp
-- [ ] onsemi
+- [x] onsemi
 - [x] opto
 - [x] Oscillators
 - [x] philips
@@ -82,7 +82,7 @@
 - [x] regul
 - [x] Relay
 - [x] RF_Bluetooth
-- [ ] rfcom
+- [x] rfcom
 - [x] RFSolutions
 - [x] Sensor_Current
 - [x] Sensor_Humidity
@@ -94,12 +94,12 @@
 - [x] texas
 - [x] Transformer
 - [x] Transistor
-- [ ] triac_thyristor
+- [x] triac_thyristor
 - [x] Valve
-- [ ] video
+- [x] video
 - [x] wiznet
 - [x] Worldsemi
-- [ ] Xicor
-- [ ] xilinx
+- [x] Xicor
+- [x] xilinx
 - [x] zetex
 - [x] Zilog

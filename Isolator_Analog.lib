@@ -10,7 +10,7 @@ F2 "Package_SOIC:SSO-8_6.8x5.9mm_P1.27mm_Clearance8mm" 150 -350 50 H I L CIN
 F3 "" 45 5 50 H I L CNN
 ALIAS ACPL-C79A ACPL-C79B
 $FPLIST
- SSO*6.8x5.9mm*Pitch1.27mm*Clearance8mm*
+ SSO*6.8x5.9mm*P1.27mm*Clearance8mm*
 $ENDFPLIST
 DRAW
 S -300 300 300 -300 0 1 10 f
@@ -53,7 +53,7 @@ F2 "Package_SOIC:SSO-8_6.8x5.9mm_P1.27mm_Clearance8mm" 150 -350 50 H I L CIN
 F3 "" 45 5 50 H I L CNN
 ALIAS ACPL-C87A ACPL-C87B
 $FPLIST
- SSO*6.8x5.9mm*Pitch1.27mm*Clearance8mm*
+ SSO*6.8x5.9mm*P1.27mm*Clearance8mm*
 $ENDFPLIST
 DRAW
 C -100 -270 7 0 0 0 F

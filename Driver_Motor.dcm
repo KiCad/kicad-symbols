@@ -120,6 +120,18 @@ K Support IC for SLA7042M/SLA7044M
 F http://www.allegromicro.com/~/media/Files/Sanken/Datasheets/PG001M-Datasheet.ashx
 $ENDCMP
 #
+$CMP Pololu_Breakout_A4988
+D Pololu Breakout Board, Stepper Driver A4988
+K Pololu Breakout Board Stepper Driver A4988
+F https://www.pololu.com/product/2980/pictures
+$ENDCMP
+#
+$CMP Pololu_Breakout_DRV8825
+D Pololu Breakout Board, Stepper Driver DRV8825
+K Pololu Breakout Board Stepper Driver DRV8825
+F https://www.pololu.com/product/2982
+$ENDCMP
+#
 $CMP SLA7042M
 D Unipolar PWM high-current motor driver
 K Stepper driver

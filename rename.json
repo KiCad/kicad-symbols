@@ -1,5 +1,9 @@
 {
     "atmel" : {
+        "AT89*" : "MCU_Atmel_ATTINY",
+        "AT90*" : "MCU_Atmel_AVR",
+        "SAM*" : "trash",
+        "AT42*" : "Sensor_Touch",
         "ATXMEGA*" : "MCU_Atmel_ATMEGA",
         "ATMEGA*" : "MCU_Atmel_ATMEGA",
         "ATTINY*" : "MCU_Atmel_ATTINY"
@@ -19,6 +23,14 @@
         "AD84*" : "Amplifier_Instrumentation",
         "ADuM6000" : "Regulator_Switching",
         "ADE7758" : "Sensor"
+    },
+
+    "Audio" : {
+        "IR43*" : "Amplifier_Audio",
+        "TLV32*" : "Amplifier_Audio",
+        "IRS205*" : "Amplifier_Audio",
+        "IRS209*" : "Amplifier_Audio",
+        "IRS245*" : "Amplifier_Audio"
     },
 
     "Battery_Management" : "Battery_Management",
@@ -56,7 +68,7 @@
         "MCP320*" : "Analog_ADC",
         "MCP355*" : "Analog_ADC",
         "MCP49*" : "Analog_DAC",
-        "UVC3*" : "Analog",
+        "UVC3*" : "Analog_MultiFunction",
         "XPT*" : "Driver_Display",
         "ADS111*" : "Analog_ADC",
         "LTC159*" : "Analog_ADC",
@@ -64,47 +76,16 @@
         "LTC2309*" : "Analog_ADC",
         "ADC*" : "Analog_ADC",
         "MC14*" : "Analog_DAC",
-        "MCP4802" : "Analog_DAC",
-        "ADS7830" : "Analog_DAC",
-        "AD7171" : "Analog_ADC",
-        "AD7828" : "Analog_ADC",
-        "MCP3301" : "Analog_ADC",
-        "CA3300" : "Analog_ADC",
-        "AD928*" : "Analog_ADC",
-        "LTC1406*" : "Analog_ADC",
-        "AD7830" : "Analog_DAC",
-        "MCP4728" : "Analog_DAC",
-        "MAX5813*" : "Analog_DAC",
-        "MAX5139*" : "Analog_DAC",
-        "TDA8702" : "Analog_DAC",
-        "LTC144*" : "Analog_DAC",
-        "LTC250*" : "Analog_ADC",
-        "AD970*" : "Analog_DAC",
-        "TLV56*" : "Analog_DAC",
-        "ADS7828" : "Analog_ADC",
-        "LTC1257" : "Analog_DAC",
-        "DAC08" : "Analog_DAC",
-        "DAC7513*" : "Analog_DAC"
-    },
-
-    "Analog_DAC" : {
-        "AD55*" : "Analog",
-        "TDA8702" : "Video",
-        "AD9708AR" : "Video"
+        "MCP4802" : "Analog_DAC"
     },
 
     "allegro" : "Sensor_Current",
 
     "Altera" : "CPLD_Altera",
 
-    "atmel" : {
-        "AT89*" : "Memory_Flash",
-        "AT90*" : "Memory_Flash",
-        "SAM*" : "MCU_Atmel_ARM",
-        "AT42*" : "Sensor_Touch"
-    },
 
-    "audio" : {
+
+    "axudio" : {
         "LM18*" : "Amplifier_Audio",
         "LM38*" : "Amplifier_Audio",
         "tda*" : "Amplifier_Audio",
@@ -125,8 +106,14 @@
 
     "contrib" : "Interface_Telecom",
 
-    "bbd:MN3*" : "Audio_Delay",
-    "bbd:SAD*" : "Audio_Delay",
+    "bbd" : {
+        "MN3101" : "Timer",
+        "MN30*" : "Audio",
+        "MN32*" : "Audio",
+        "RD5*" : "Audio",
+        "SAD*" : "Audio",
+        "TDA*" : "Audio"
+    },
 
     "Bosch" : {
         "BMF*" : "Sensor_Motion",
@@ -284,7 +271,17 @@
 
     "intel" : {
         "16*" : "Interface_UART",
-        "80*" : "CPU_Intel"
+        "80*" : "MCU_Intel",
+        "8252" : "Interface_UART",
+        "82C54*" : "Timer",
+        "82C55*" : "Interface",
+        "8255" : "Interface",
+        "8259" : "MCU_Intel",
+        "8237" : "MCU_Intel",
+        "828*" : "MCU_Intel",
+        "8748" : "MCU_Intel",
+        "82720" : "Driver_Display",
+        "I386*" : "MCU_Intel"
     },
 
     "infineon" : {
@@ -300,67 +297,56 @@
         "LT1080" : "Interface_UART",
         "LTC2875*" : "Interface_CAN_LIN",
         "ltc2983" : "Sensor_Temperature",
-        "ltc2990" : "Sensor",
+        "ltc2990" : "Sensor_MultiFunction",
         "max134*" : "Interface_UART",
         "max2*" : "Interface_UART",
         "max30*" : "Interface_UART",
         "MAX318*" : "Sensor_Temperature",
         "max32*" : "Interface_UART",
         "mcp25*" : "Interface_CAN_LIN",
-        "mcp4*" : "Potentiometer_Digital",
+        "mcp4*" : "Digital_Potentiometer",
         "SN65*" : "Interface_CAN_LIN",
         "sp34*" : "Interface_UART",
+        "interface_tca94*" : "Interface_I2C",
         "tja1*" : "Interface_CAN_LIN",
         "xtr*" : "Interface_CurrentLoop",
+        "AD528*" : "Digital_Potentiometer",
         "ADM3053" : "Interface_CAN_LIN",
         "intrface:ADM2*" : "Interface_UART",
         "intrface:ADM101*" : "Interface_UART",
-        "TCA9*" : "Interface_Expansion",
+        "TCA9*" : "Interface_I2C",
         "ICL7*" : "Driver_FET",
         "max48*" : "Interface_UART",
         "MCI141*" : "Transistor",
         "UA93*" : "Interface_UART",
-        "SN75L*" : "Interface_UART",
-        "AD5*" : "Potentiometer_Digital",
-        "*warrior*" : "Interface_Encoder",
-        "mc1*" : "Transistor_Array",
-        "ua96*" : "Interface_LineDriver",
-        "tea*" : "Video",
-        "mc34*" : "Interface_LineDriver",
-        "DS9*" : "Interface",
-        "ISL8*" : "Interface_UART",
-        "si9986" : "Interface",
-        "ds78*" : "Interface_LineDriver",
-        "AD9*" : "Interface",
-        "adum14*" : "Isolator",
-        "adum76*" : "Isolator",
-        "el2001" : "Amplifier_Buffer",
-        "el72*" : "Interface_LineDriver",
-        "fd1771" : "Interface",
-        "adum4*" : "Interface_USB",
-        "adum12*" : "Isolator",
-        "dp8*" : "Interface_Ethernet",
-        "ds89*" : "Interface_LineDriver",
-        "icm*" : "Timer",
-        "is31f*" : "Driver_LED",
-        "ltc2861" : "Interface_UART",
-        "pci9*" : "Interface",
-        "s59*" : "Interface",
-        "stmpe*" : "Interface_Expansion",
-        "u2270b" : "Interface",
-        "uln2803*" : "Transistor_Array"
+        "SN75L*" : "Interface_UART"
     },
 
     "intersil" : {
         "EL7*" : "Driver_FET",
-        "HIP*" : "Driver_FET",
-        "ICL*" : "Battery_Management"
+        "HIP*" : "Driver_FET"
     },
 
     "ir" : {
         "IR*21*" : "Driver_FET",
-        "ir:IRS20*" : "Amplifier_Audio",
-        "ir:AUIPS*" : "Sensor_Current"
+        "AUIPS*" : "Power_Distribution",
+        "AUIR33*" : "Power_Distribution",
+        "IR115*" : "Regulator_Controller",
+        "IR116*" : "Regulator_Controller",
+        "IRS250*" : "Regulator_Controller",
+        "IRS25751*" : "Power_Management",
+        "IRS200*" : "Driver_FET",
+        "IR201*" : "Driver_FET",
+        "IR2085*" : "Driver_FET",
+        "IR2304" : "Driver_FET",
+        "IR7*" : "Driver_FET",
+        "IR256*" : "Driver_FET",
+        "IRS289*" : "Driver_FET",
+        "IR257*" : "Sensor_Current",
+        "IR43*" : "Amplifier_Audio",
+        "IRS205*" : "Amplifier_Audio",
+        "IRS209*" : "Amplifier_Audio",
+        "IRS245*" : "Amplifier_Audio"
     },
 
     "Lattice" : "Logic_Programmable",
@@ -467,22 +453,13 @@
     "logic_programmable" : "Logic_Programmable",
     "Logic_TTL_IEEE" : "",
 
-    "Digital_Potentiometer" : "Potentiometer_Digital",
-
     "maxim" : {
-        "DS12*" : "Potentiometer_Digital",
+        "DS12*" : "Digital_Potentiometer",
         "DS18*" : "Sensor_Temperature",
         "DS28*" : "Sensor_Temperature",
         "MAX12*" : "Analog_ADC",
         "max318*" : "Sensor_Temperature",
-        "MAX6355" : "Power_Supervisor",
-        "DS323*" : "Timer_RTC",
-        "DS160*" : "Timer_RTC",
-        "DS130*" : "Timer_RTC",
-        "MAX453" : "Amplifier_Video",
-        "MAX5436" : "Potentiometer_Digital",
-        "MAX732*" : "Interface_Expansion",
-        "MAX691" : "Power_Supervisor"
+        "MAX6355" : "Power_Supervisor"
     },
 
     "mechanical" : "Mechanical",
@@ -594,7 +571,8 @@
     "onsemi" : {
         "CM12*" : "Power_Protection",
         "NUP*" : "Power_Protection",
-        "NPC*" : "Power_Pistribution"
+        "NPC*" : "Power_Management",
+        "FAN*" : "Driver_FET"
     },
 
     "opto" : {
@@ -670,6 +648,8 @@
         "SAA7*" : "Video",
         "PCA9*" : "Interface_Expansion"
     },
+
+    "Power_Distribution" : "Power_Management",
 
     "pspice" : "",
 
@@ -770,16 +750,28 @@
     "relays" : "Relay",
 
     "rfcom" : {
-        "B*" : "Interface_Bluetooth",
-        "CC1*" : "Interface_RF",
-        "CC2*" : "Interface_ZigBee",
-        "DCT*" : "Interface_RF",
-        "HF-*" : "Interface_WiFi",
-        "MM*" : "Interface_RF",
-        "NRF*" : "Interface_RF",
-        "RN*" : "Interface_Bluetooth",
-        "RXM*" : "Interface_GPS",
-        "XBee*" : "Interface_ZigBee"
+        "B*" : "RF_Bluetooth",
+        "CC1*" : "RF",
+        "CC2*" : "RF_ZigBee",
+        "DCT*" : "RF",
+        "HF-*" : "RF_WiFi",
+        "MM*" : "RF",
+        "NRF*" : "RF",
+        "RN*" : "RF_Bluetooth",
+        "RXM*" : "RF_GPS",
+        "XBee*" : "RF_ZigBee",
+        "ESP-12E" : "RF_WiFi",
+        "TD120*" : "RF",
+        "UL865" : "RF",
+        "iM880*" : "RF",
+        "RFM*" : "RF_AM_FM",
+        "SA60*" : "RF_AM_FM",
+        "*nRF8001*" : "RF_Bluetooth",
+        "SIM900" : "RF",
+        "SX127*" : "RF",
+        "TR-*" : "RF",
+        "RFD77*" : "RF_Bluetooth",
+        "SPBTLE*" : "RF"
     },
 
     "RFSolutions" : "Interface_RF",
@@ -934,6 +926,8 @@
         "TP0*" : "Transistor_FET"
     },
 
+    "triac_thyristor" : "Triac_Thyristor",
+
     "transf" : "Transformer",
     "Transformer" : "",
 
@@ -942,11 +936,13 @@
     "valves" : "Valve",
     "Valve" : "",
 
+    "video" : "Video",
+
     "wiznet" : "Interface_Ethernet",
 
     "Worldsemi" : "LED",
 
-    "Xicor" : "Digital_Potentiometer",
+    "Xicor" : "Potentiometer_Digital",
 
     "zetex" : "Driver_FET",
 
@@ -954,9 +950,23 @@
         "XC94*" : "CPLD_Xilinx",
         "XC95*" : "CPLD_Xilinx",
         "XCR*" : "CPLD_Xilinx",
-        "XC2C*" : "CPLD_Xilinx",
-        "XC2S*" : "FPGA_Xilinx"
+        "XC2*" : "FPGA_Xilinx",
+        "XC3*" : "FPGA_Xilinx",
+        "XC4*" : "FPGA_Xilinx",
+        "XC6*" : "FPGA_Xilinx",
+        "XC7336" : "CPLD_Xilinx",
+        "XCF08P" : "Memory_ROM",
+        "400*" : "Memory_ROM",
+        "XCV150_BG352" : "FPGA_Xilinx",
+        "XC18V01SO20" : "Memory_ROM"
     },
+
+    "xilinx-artix7" : "FGPA_Xilinx_Artix7",
+    "xilinx-kintex7" : "FPGA_Xilinx_Kintex7",
+    "xilinx-virtex5" : "FPGA_Xilinx_Virtex5",
+    "xilinx-virtex6" : "FPGA_Xilinx_Virtex6",
+    "xilinx-virtex7" : "FPGA_Xilinx_Virtex7",
+    "xilinx-spartan6" : "FPGA_Xilinx_Spartan6",
 
     "Zilog" : {
         "Z80*" : "CPU",

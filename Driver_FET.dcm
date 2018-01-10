@@ -18,6 +18,12 @@ K Driver, Dual MOSFET
 F http://www.intersil.com/content/dam/Intersil/documents/el72/el7202-12-22.pdf
 $ENDCMP
 #
+$CMP FAN3268
+D Low-Voltage 18V PMOS-NMOS Bridge Driver, SOIC-8
+K Driver MOSFET
+F http://www.onsemi.com/pub/Collateral/FAN3268T_F085-D.PDF
+$ENDCMP
+#
 $CMP HIP2100_DFN
 D High Frequency Half Bridge Driver, Output Current 2.0A, 100V, DFN-8 4x4mm
 K Half Bridge Gate Driver
@@ -82,6 +88,48 @@ $CMP ICL7667
 D Dual Power MOSFET Driver
 K MOSFET driver array
 F http://www.intersil.com/content/dam/Intersil/documents/icl7/icl7667.pdf
+$ENDCMP
+#
+$CMP IR2104
+D High and Low Side Gate Driver,  Output Current 130/270mA, PDIP-8 , SOIC-8
+K Gate Driver
+F http://www.irf.com/product-info/datasheets/data/ir2104.pdf
+$ENDCMP
+#
+$CMP IR2106
+D High and Low Side Driver, 600V operation, Output Current 120/200mA,  PDIP-8 , SOIC-8
+K Gate Driver
+F http://www.irf.com/product-info/datasheets/data/ir2106.pdf
+$ENDCMP
+#
+$CMP IR2110
+D High and Low Side Gate Driver,  Output Current 2.0/2.0A, PDIP-14 , SOIC-14
+K Gate Driver
+F http://www.irf.com/product-info/datasheets/data/ir2110.pdf
+$ENDCMP
+#
+$CMP IR2113
+D High and Low Side Gate Driver,  Output Current 2.0/2.0A, PDIP-14 , SOIC-14
+K Gate Driver
+F http://www.irf.com/product-info/datasheets/data/ir2110.pdf
+$ENDCMP
+#
+$CMP IRS2181
+D High and Low Side Gate Driver,  Output Current 1.4/1.8A, PDIP-8 , SOIC-8
+K Gate Driver
+F http://www.irf.com/product-info/datasheets/data/irs2181.pdf
+$ENDCMP
+#
+$CMP IRS2186
+D High and Low Side Gate Driver,  600V operation, 4A output current
+K gate driver
+F http://www.irf.com/product-info/datasheets/data/irs2186pbf.pdf
+$ENDCMP
+#
+$CMP IRS21867S
+D High and Low Side Gate Driver, Output Current 4.0/4.0A, 600V, SOIC-8
+K Gate Driver
+F http://www.infineon.com/dgdl/irs21867spbf.pdf?fileId=5546d462533600a4015356770e8327eb
 $ENDCMP
 #
 $CMP LM5109AMA

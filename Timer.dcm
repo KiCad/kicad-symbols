@@ -1,5 +1,35 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 8253
+D Programmable Interval Timer, PDIP-24
+K Timer Counter
+F http://www.cpcwiki.eu/imgs/e/e3/8253.pdf
+$ENDCMP
+#
+$CMP 8254
+D Programmable Interval Timer, PDIP-24
+K Timer Counter
+F http://www.scs.stanford.edu/10wi-cs140/pintos/specs/8254.pdf
+$ENDCMP
+#
+$CMP 8284
+D Clock Generator and Driver for i8086/88 Microcontrollers, PDIP-18
+K Clock Generator
+F http://www.cpu-galaxy.at/cpu/ram%20rom%20eprom/other_intel_chips/other_intel-Dateien/D8284A_Datasheet.pdf
+$ENDCMP
+#
+$CMP 82C54
+D CHMOS Programmable Interval Timer, PDIP-24
+K Timer Counter
+F http://download.intel.com/design/archives/periphrl/docs/23124406.pdf
+$ENDCMP
+#
+$CMP 82C54_PLCC
+D CHMOS Programmable Interval Timer, PLCC-28
+K Timer Counter
+F http://download.intel.com/design/archives/periphrl/docs/23124406.pdf
+$ENDCMP
+#
 $CMP AD797
 D Ultralow Distortion, Ultralow Noise Op Amp, DIP-8/SOIC-8
 K single opamp
@@ -88,6 +118,18 @@ $CMP MCP7940N
 D Real-Time Clock, I2C, Battery Backup
 K realtime clock RTC
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf
+$ENDCMP
+#
+$CMP MN3101
+D CLOCK GENERATOR/DRIVER CMOS LSI FOR BBD (bucket brigade device), for the MN3000 series BBD, self and separate oscillations, two phase clock output, single power supply -8V to -16V
+K Matsushita Panasonic BBD CMOS
+F http://www.experimentalistsanonymous.com/diy/Datasheets/MN3101.pdf
+$ENDCMP
+#
+$CMP MN3102
+D CMOS CLOCK GENERATOR/DRIVER FOR LOW VOLTAGE OPERATION BBD (bucket brigade device), for the MN3200 series BBD, self oscillation and separate exitation, two phase clock output, single supply source 4V to 10V
+K Matsushita Panasonic BBD CMOS
+F http://www.experimentalistsanonymous.com/diy/Datasheets/MN3102.pdf
 $ENDCMP
 #
 $CMP NA555
