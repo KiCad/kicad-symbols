@@ -271,7 +271,17 @@
 
     "intel" : {
         "16*" : "Interface_UART",
-        "80*" : "CPU_Intel"
+        "80*" : "MCU_Intel",
+        "8252" : "Interface_UART",
+        "82C54*" : "Timer",
+        "82C55*" : "Interface",
+        "8255" : "Interface",
+        "8259" : "MCU_Intel",
+        "8237" : "MCU_Intel",
+        "828*" : "MCU_Intel",
+        "8748" : "MCU_Intel",
+        "82720" : "Driver_Display",
+        "I386*" : "MCU_Intel"
     },
 
     "infineon" : {
