@@ -408,11 +408,6 @@ K SMPS PWM Controller
 F http://www.ti.com/lit/ds/symlink/uc3842.pdf
 $ENDCMP
 #
-$CMP UC3846X-D08-T
-D UC3846x-DO8-T, SMPS Flyback PWM Controller, DIP8
-K SMPS PWM Controller
-$ENDCMP
-#
 $CMP UCC3800
 D Low-Power BiCMOS Current-Mode PWM Controllers, 100% Duty Cycle, 7.2V/6.9V UVLO, DIP-8/SOIC-8/TSSOP-8
 K SMPS PWM Controller
