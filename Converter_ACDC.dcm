@@ -330,6 +330,12 @@ K SMPS PWM Controller
 F http://www.ti.com/lit/ds/symlink/uc2525b.pdf
 $ENDCMP
 #
+$CMP UC3842ADW
+D Current-Mode PWM Controllers, 100% Duty Cycle, 16V/10V UVLO, SOIC-16
+K SMPS PWM Controller
+F http://www.ti.com/lit/ds/symlink/uc2843a.pdf
+$ENDCMP
+#
 $CMP UC3842D
 D Current-Mode PWM Controllers, 100% Duty Cycle, 16V/10V UVLO, SOIC-14
 K SMPS PWM Controller
@@ -338,12 +344,6 @@ $ENDCMP
 #
 $CMP UC3842N
 D Current-Mode PWM Controllers, 100% Duty Cycle, 16V/10V UVLO, PDIP-8
-K SMPS PWM Controller
-F http://www.ti.com/lit/ds/symlink/uc3842.pdf
-$ENDCMP
-#
-$CMP UC3842_SOIC16
-D Current-Mode PWM Controllers, 100% Duty Cycle, 16V/10V UVLO, SOIC-16
 K SMPS PWM Controller
 F http://www.ti.com/lit/ds/symlink/uc3842.pdf
 $ENDCMP
