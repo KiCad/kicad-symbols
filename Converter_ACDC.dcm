@@ -498,13 +498,7 @@ K SMPS
 F http://www.st.com/web/en/resource/technical/document/datasheet/CD00087939.pdf
 $ENDCMP
 #
-$CMP VIPer22AS-E
-D Low power OFF-line SMPS primary switcher
-K SMPS
-F http://www.st.com/web/en/resource/technical/document/datasheet/CD00087939.pdf
-$ENDCMP
-#
-$CMP VIPer22ASTR-E
+$CMP VIPer22AS
 D Low power OFF-line SMPS primary switcher
 K SMPS
 F http://www.st.com/web/en/resource/technical/document/datasheet/CD00087939.pdf
