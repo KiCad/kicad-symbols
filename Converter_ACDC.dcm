@@ -183,13 +183,25 @@ $ENDCMP
 $CMP KA5H0280RTU
 D 100kHz SMPS Controller, AC-DC, TO-220F-4L
 K SMPS Controller AC-DC
-F http://www.fairchildsemi.com/ds/AR/AR3522X.pdf
+F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
+$ENDCMP
+#
+$CMP KA5H0280RYDTU
+D 100kHz SMPS Controller, AC-DC, TO-220F-4L(Forming)
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
 $ENDCMP
 #
 $CMP KA5L0265RTU
 D 50kHz SMPS Controller, AC-DC, TO-220F-4L
 K SMPS Controller AC-DC
-F http://www.fairchildsemi.com/ds/AR/AR3522X.pdf
+F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
+$ENDCMP
+#
+$CMP KA5L0265RYDTU
+D 50kHz SMPS Controller, AC-DC, TO-220F-4L(Forming)
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
 $ENDCMP
 #
 $CMP KA5M02659RN
@@ -204,10 +216,22 @@ K SMPS Controller AC-DC
 F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
 $ENDCMP
 #
+$CMP KA5M0265RYDTU
+D 67kHz SMPS Controller, AC-DC, TO-220F-4L(Forming)
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
+$ENDCMP
+#
 $CMP KA5M0280RTU
 D 67kHz SMPS Controller, AC-DC, TO-220F-4L
 K SMPS Controller AC-DC
-F http://www.fairchildsemi.com/ds/AR/AR3522X.pdf
+F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
+$ENDCMP
+#
+$CMP KA5M0280RYDTU
+D KA5M0280RTDTU, 67kHz SMPS Controller, AC-DC, TO-220F-4L(Forming)
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
 $ENDCMP
 #
 $CMP LT1248
