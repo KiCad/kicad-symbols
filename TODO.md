@@ -76,7 +76,7 @@
 - [x] philips
 - [x] powerint
 - [x] power
-- [ ] Power_Management
+- [x] Power_Management
 - [x] pspice
 - [x] references
 - [x] regul
