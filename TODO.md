@@ -32,7 +32,7 @@
 - [x] Graphic
 - [x] hc11
 - [x] infineon
-- [ ] intel
+- [x] intel
 - [x] interface
 - [x] intersil
 - [x] ir
