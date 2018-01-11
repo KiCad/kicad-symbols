@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2N7000
+D 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92
+K N-Channel MOSFET Logic-Level
+F https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf
+$ENDCMP
+#
 $CMP 2N7002
 D 0.115A Id, 60V Vds, N-channel MOSFET, SOT-23
 K N-Channel Switching MOSFET
@@ -310,6 +316,12 @@ $CMP BSS84
 D -0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23-3
 K P-Channel MOSFET
 F http://assets.nexperia.com/documents/data-sheet/BSS84.pdf
+$ENDCMP
+#
+$CMP BUZ11
+D 30A Id, 50V Vds, N-Channel Power MOSFET, TO-220
+K N-Channel Power MOSFET
+F http://www.fairchildsemi.com/ds/BU/BUZ11.pdf
 $ENDCMP
 #
 $CMP CSD16321Q5
@@ -900,10 +912,22 @@ K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-IPT020N10N3-DS-v02_00-en.pdf?fileId=db3a30433e9d5d11013e9e58035b0158
 $ENDCMP
 #
+$CMP IRF3205
+D 110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB
+K Single N-Channel HEXFET Power MOSFET
+F http://www.irf.com/product-info/datasheets/data/irf3205.pdf
+$ENDCMP
+#
 $CMP IRF4905
 D -74A Id, -55V Vds, Single P-Channel HEXFET Power MOSFET, 20mOhm Ron, TO-220AB
 K Single P-Channel HEXFET Power MOSFET
 F http://www.infineon.com/dgdl/irf4905.pdf?fileId=5546d462533600a4015355e32165197c
+$ENDCMP
+#
+$CMP IRF540N
+D 33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220
+K HEXFET N-Channel MOSFET
+F http://www.irf.com/product-info/datasheets/data/irf540n.pdf
 $ENDCMP
 #
 $CMP IRF7309IPBF
@@ -955,7 +979,7 @@ F http://www.irf.com/product-info/datasheets/data/irf7607pbf.pdf
 $ENDCMP
 #
 $CMP IRF8721PBF-1
-D 14A Id, 30V Vds, HEXFET MOSFET, SO-8
+D 14A Id, 30V Vds, HEXFET N-Channel  MOSFET, SO-8
 K HEXFET N-Channel MOSFET
 F http://www.irf.com/product-info/datasheets/data/irf8721pbf-1.pdf
 $ENDCMP
@@ -970,6 +994,24 @@ $CMP IRLB8721PBF
 D 62A Id, 30V Vds, N-Channel MOSFET, TO-220
 K N-Channel HEXFET Power MOSFET
 F http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591
+$ENDCMP
+#
+$CMP IRLIZ44N
+D 30A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 22mOhm Ron, TO-220AB
+K Single N-Channel HEXFET Power MOSFET
+F http://www.irf.com/product-info/datasheets/data/irliz44n.pdf
+$ENDCMP
+#
+$CMP IRLZ34N
+D 30A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 35mOhm Ron, TO-220AB
+K Single N-Channel HEXFET Power MOSFET
+F http://www.infineon.com/dgdl/irlz34npbf.pdf?fileId=5546d462533600a40153567206892720
+$ENDCMP
+#
+$CMP IRLZ44N
+D 47A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 22mOhm Ron, TO-220AB
+K Single N-Channel HEXFET Power MOSFET
+F http://www.irf.com/product-info/datasheets/data/irlz44n.pdf
 $ENDCMP
 #
 $CMP MMBF170
@@ -1002,8 +1044,20 @@ K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/SI/SI4542DY.pdf
 $ENDCMP
 #
+$CMP TP0610L
+D -0.18A Id, -60V Vds, P-Channel MOSFET, TO-92
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
+$ENDCMP
+#
 $CMP TP0610T
 D -0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23-3
+K P-Channel MOSFET
+F http://www.vishay.com/docs/70209/70209.pdf
+$ENDCMP
+#
+$CMP VP0610L
+D -0.18A Id, -60V Vds, P-Channel MOSFET, TO-92
 K P-Channel MOSFET
 F http://www.vishay.com/docs/70209/70209.pdf
 $ENDCMP
