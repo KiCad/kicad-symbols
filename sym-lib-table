@@ -149,6 +149,7 @@
   (lib (name Sensor_Voltage)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Sensor_Voltage.lib)(options "")(descr "Voltage sensors"))
   (lib (name Switch)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Switch.lib)(options "")(descr "Switch symbols"))
   (lib (name Timer)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Timer.lib)(options "")(descr "Assorted timer devices"))
+  (lib (name Timer_PLL)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Timer_PLL.lib)(options "")(descr "Phase locked loop (PLL) devices"))
   (lib (name Timer_RTC)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Timer_RTC.lib)(options "")(descr "Real time clock (RTC) devices"))
   (lib (name Transformer)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Transformer.lib)(options "")(descr "Transformer symbols"))
   (lib (name Transistor_Array)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Transistor_Array.lib)(options "")(descr "Specialized transistor arrays"))
