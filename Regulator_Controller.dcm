@@ -654,6 +654,12 @@ K SMPS PWM Controller
 F http://www.ti.com/lit/ds/symlink/uc2525b.pdf
 $ENDCMP
 #
+$CMP UC3842ADW
+D Current-Mode PWM Controllers, 100% Duty Cycle, 16V/10V UVLO, SOIC-16
+K SMPS PWM Controller
+F http://www.ti.com/lit/ds/symlink/uc2843a.pdf
+$ENDCMP
+#
 $CMP UCC2891
 D SMPS Current-Mode Active Clamp PWM Controller, SOIC-16/TSSOP-16
 K SMPS PWM Controller
