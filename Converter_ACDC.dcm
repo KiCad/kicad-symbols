@@ -108,12 +108,6 @@ K 5V 3W AC-DC module power supply
 F http://www.mouser.com/ds/2/260/IRM-03-spec-881203.pdf
 $ENDCMP
 #
-$CMP NCP1200P
-D SMPS Controller, AC-DC, PDIP-8
-K SMPS Controller AC-DC
-F http://www.onsemi.com/pub_link/Collateral/NCP1200-D.PDF
-$ENDCMP
-#
 $CMP SG3525
 D Regulating Pulse Width Modulators, NOR Logic, PDIP-16/SOIC-16
 K SMPS PWM Controller
