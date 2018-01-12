@@ -516,8 +516,32 @@ K SMPS Controller AC-DC
 F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
 $ENDCMP
 #
+$CMP KA5H0280RTU
+D 100kHz SMPS Controller, AC-DC, TO-220F-4L
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
+$ENDCMP
+#
+$CMP KA5L0265RTU
+D 50kHz SMPS Controller, AC-DC, TO-220F-4L
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
+$ENDCMP
+#
 $CMP KA5M02659RN
 D 67kHz SMPS Controller, AC-DC, PDIP-8
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
+$ENDCMP
+#
+$CMP KA5M0265RTU
+D 67kHz SMPS Controller, AC-DC, TO-220F-4L
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
+$ENDCMP
+#
+$CMP KA5M0280RTU
+D 67kHz SMPS Controller, AC-DC, TO-220F-4L
 K SMPS Controller AC-DC
 F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
 $ENDCMP
