@@ -498,6 +498,18 @@ K PWM step down buck converter controller synchronous POL
 F https://www.intersil.com/content/dam/Intersil/documents/isl8/isl8117.pdf
 $ENDCMP
 #
+$CMP KA5H02659RN
+D 100kHz SMPS Controller, AC-DC, PDIP-8
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
+$ENDCMP
+#
+$CMP KA5M02659RN
+D 67kHz SMPS Controller, AC-DC, PDIP-8
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
+$ENDCMP
+#
 $CMP L5973D
 D 2.5A step down switching regulator, HSOP-8
 K step down buck regulator
