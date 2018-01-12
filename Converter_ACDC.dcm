@@ -108,18 +108,6 @@ K 5V 3W AC-DC module power supply
 F http://www.mouser.com/ds/2/260/IRM-03-spec-881203.pdf
 $ENDCMP
 #
-$CMP SG3525
-D Regulating Pulse Width Modulators, NOR Logic, PDIP-16/SOIC-16
-K SMPS PWM Controller
-F www.st.com/resource/en/datasheet/sg3525.pdf
-$ENDCMP
-#
-$CMP SG3527
-D Regulating Pulse Width Modulators, OR Logic, PDIP-16/SOIC-16
-K SMPS PWM Controller
-F https://www.microsemi.com/document-portal/doc_view/11120-sg1525a-sg1527a-datasheet
-$ENDCMP
-#
 $CMP TL494
 D Pulse-Width-Modulation Control Circuits, PDIP-16/SOIC-16/TSSOP-16
 K SMPS PWM Controller
