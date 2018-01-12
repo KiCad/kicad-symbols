@@ -108,12 +108,6 @@ K 5V 3W AC-DC module power supply
 F http://www.mouser.com/ds/2/260/IRM-03-spec-881203.pdf
 $ENDCMP
 #
-$CMP KA5H02659RN
-D 100kHz SMPS Controller, AC-DC, PDIP-8
-K SMPS Controller AC-DC
-F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
-$ENDCMP
-#
 $CMP KA5H0265RCTU
 D 100kHz SMPS Controller w/ Soft Start, AC-DC, TO-220F-5L
 K SMPS Controller AC-DC
@@ -146,12 +140,6 @@ $ENDCMP
 #
 $CMP KA5L0265RYDTU
 D 50kHz SMPS Controller, AC-DC, TO-220F-4L(Forming)
-K SMPS Controller AC-DC
-F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
-$ENDCMP
-#
-$CMP KA5M02659RN
-D 67kHz SMPS Controller, AC-DC, PDIP-8
 K SMPS Controller AC-DC
 F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
 $ENDCMP
