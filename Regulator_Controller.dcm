@@ -30,6 +30,12 @@ K Switching Regulator Controller
 F http://cds.linear.com/docs/en/datasheet/1624f.pdf
 $ENDCMP
 #
+$CMP NCP1200D
+D SMPS Controller, AC-DC, SOIC-8
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub_link/Collateral/NCP1200-D.PDF
+$ENDCMP
+#
 $CMP TOP100YN
 D TOPSwitch Family, 20W Max Output Power, TO-220
 K Three-terminal Off-line PWM Switch
