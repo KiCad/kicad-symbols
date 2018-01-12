@@ -300,12 +300,6 @@ K SMPS PWM Controller
 F http://www.ti.com/lit/ds/symlink/ucc3813-1.pdf
 $ENDCMP
 #
-$CMP VIPer25LN
-D 12W SMPS Controller, AC-DC, PDIP-7
-K SMPS Controller with MOSFET 12W AC-DC
-F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00231127.pdf
-$ENDCMP
-#
 $CMP VTX-214-015-103
 D 3V Vigortronix 15W ACDC Converters
 K 3V 15W AC-DC module power supply
