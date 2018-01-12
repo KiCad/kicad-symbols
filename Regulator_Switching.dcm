@@ -4134,4 +4134,28 @@ K dc-dc traco buck
 F http://www.tracopower.com/products/tsr1.pdf
 $ENDCMP
 #
+$CMP VIPer22ADIP-E
+D Low power OFF-line SMPS primary switcher
+K SMPS
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00087939.pdf
+$ENDCMP
+#
+$CMP VIPer22AS
+D Low power OFF-line SMPS primary switcher
+K SMPS
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00087939.pdf
+$ENDCMP
+#
+$CMP VIPer25HN
+D 12W SMPS Controller, AC-DC, PDIP-7
+K SMPS Controller with MOSFET 12W AC-DC
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00231127.pdf
+$ENDCMP
+#
+$CMP VIPer25LN
+D 12W SMPS Controller, AC-DC, PDIP-7
+K SMPS Controller with MOSFET 12W AC-DC
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00231127.pdf
+$ENDCMP
+#
 #End Doc Library
