@@ -42,12 +42,6 @@ K PNP Transistor
 F https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf
 $ENDCMP
 #
-$CMP 2N7000
-D 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92
-K N-Channel MOSFET Logic-Level
-F https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf
-$ENDCMP
-#
 $CMP 2SA1015
 D -0.15A Ic, -50V Vce, Low Noise Audio PNP Transistor, TO-92
 K Low Noise Audio PNP Transistor
@@ -868,12 +862,6 @@ K High Voltage Power NPN Transistor
 F http://www.fairchildsemi.com/ds/BU/BUT11.pdf
 $ENDCMP
 #
-$CMP BUZ11
-D 30A Id, 50V Vds, N-Channel Power MOSFET, TO-220
-K N-Channel Power MOSFET
-F http://www.fairchildsemi.com/ds/BU/BUZ11.pdf
-$ENDCMP
-#
 $CMP DTA113T
 D Digital PNP Transistor, 1k/NONE, SOT-23
 K ROHM Digital PNP Transistor
@@ -1334,36 +1322,6 @@ K NPN Transistor/NPN
 F https://www.fairchildsemi.com/datasheets/FF/FFB5551.pdf
 $ENDCMP
 #
-$CMP IRF3205
-D 110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB
-K Single N-Channel HEXFET Power MOSFET
-F http://www.irf.com/product-info/datasheets/data/irf3205.pdf
-$ENDCMP
-#
-$CMP IRF540N
-D 33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220
-K HEXFET N-Channel MOSFET
-F http://www.irf.com/product-info/datasheets/data/irf540n.pdf
-$ENDCMP
-#
-$CMP IRLIZ44N
-D 30A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 22mOhm Ron, TO-220AB
-K Single N-Channel HEXFET Power MOSFET
-F http://www.irf.com/product-info/datasheets/data/irliz44n.pdf
-$ENDCMP
-#
-$CMP IRLZ34N
-D 30A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 35mOhm Ron, TO-220AB
-K Single N-Channel HEXFET Power MOSFET
-F http://www.infineon.com/dgdl/irlz34npbf.pdf?fileId=5546d462533600a40153567206892720
-$ENDCMP
-#
-$CMP IRLZ44N
-D 47A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 22mOhm Ron, TO-220AB
-K Single N-Channel HEXFET Power MOSFET
-F http://www.irf.com/product-info/datasheets/data/irlz44n.pdf
-$ENDCMP
-#
 $CMP KTD1624
 D Epitaxial Planar NPN Transistor, SOT-89
 K Switching NPN Transistor
@@ -1662,18 +1620,6 @@ $CMP TIP42C
 D -6A Ic, -100V Vce, Power PNP Transistor, TO-220
 K power PNP Transistor
 F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF
-$ENDCMP
-#
-$CMP TP0610L
-D -0.18A Id, -60V Vds, P-Channel MOSFET, TO-92
-K P-Channel MOSFET
-F http://www.vishay.com/docs/70209/70209.pdf
-$ENDCMP
-#
-$CMP VP0610L
-D -0.18A Id, -60V Vds, P-Channel MOSFET, TO-92
-K P-Channel MOSFET
-F http://www.vishay.com/docs/70209/70209.pdf
 $ENDCMP
 #
 #End Doc Library

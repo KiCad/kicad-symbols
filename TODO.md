@@ -32,7 +32,7 @@
 - [x] Graphic
 - [x] hc11
 - [x] infineon
-- [ ] intel
+- [x] intel
 - [x] interface
 - [x] intersil
 - [x] ir
@@ -64,7 +64,7 @@
 - [x] Mechanical
 - [x] microchip
 - [x] microcontrollers
-- [ ] modules
+- [x] modules
 - [x] motor_drivers
 - [x] Motor
 - [ ] motorola
@@ -82,7 +82,7 @@
 - [x] regul
 - [x] Relay
 - [x] RF_Bluetooth
-- [ ] rfcom
+- [x] rfcom
 - [x] RFSolutions
 - [x] Sensor_Current
 - [x] Sensor_Humidity
