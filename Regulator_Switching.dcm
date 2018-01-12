@@ -366,6 +366,12 @@ K SMPS Controller with MOSFET 17W AC-DC
 F www.fairchildsemi.com/ds/FS/FSDH321.pdf
 $ENDCMP
 #
+$CMP FSL136MRT
+D 67kHz SMPS Controller w/ Soft Start, max. 50W AC-DC, TO-220F-6L
+K SMPS Controller 50W AC-DC
+F http://www.fairchildsemi.com/ds/FS/FSL136MRT.pdf
+$ENDCMP
+#
 $CMP GL2576-12SF8DR
 D 12V 3A, 52KHz Step Down Converter, SO-8
 K 12V 3A 52KHz Buck DC/DC
