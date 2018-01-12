@@ -216,18 +216,6 @@ K SMPS PWM Controller
 F http://www.ti.com/lit/ds/symlink/uc3842.pdf
 $ENDCMP
 #
-$CMP UCC3808D
-D Low Power Current Mode Push-Pull PWM, SOIC-8
-K SMPS PWM Controller
-F http://www.ti.com/lit/ds/symlink/ucc3808-2.pdf
-$ENDCMP
-#
-$CMP UCC3808N
-D Low Power Current Mode Push-Pull PWM, PDIP-8
-K SMPS PWM Controller
-F http://www.ti.com/lit/ds/symlink/ucc3808-2.pdf
-$ENDCMP
-#
 $CMP VTX-214-015-103
 D 3V Vigortronix 15W ACDC Converters
 K 3V 15W AC-DC module power supply
