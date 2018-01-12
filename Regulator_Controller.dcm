@@ -6,6 +6,12 @@ K Synchronous Buck
 F http://www.ti.com/lit/ds/symlink/lm25119.pdf
 $ENDCMP
 #
+$CMP LT1248
+D Power Factor Controller, DIP-16/SOIC-16
+K pfc controller
+F http://cds.linear.com/docs/en/datasheet/1248fd.pdf
+$ENDCMP
+#
 $CMP LTC1624CS8
 D High Efficiency N-Channel Switching Regulator Controller, SO-8
 K Switching Regulator Controller
