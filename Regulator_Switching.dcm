@@ -342,6 +342,18 @@ K Murata isolated isolation dc-dc converter transformer
 F http://power.murata.com/datasheet?/data/power/ncl/kdc_cre1.pdf
 $ENDCMP
 #
+$CMP FSDH321
+D 17W SMPS Controller, 100kHz, AC-DC, PDIP-8
+K SMPS Controller with MOSFET 17W AC-DC
+F www.fairchildsemi.com/ds/FS/FSDH321.pdf
+$ENDCMP
+#
+$CMP FSDL321
+D 17W SMPS Controller, 50kHz, AC-DC, PDIP-8
+K SMPS Controller with MOSFET 17W AC-DC
+F www.fairchildsemi.com/ds/FS/FSDH321.pdf
+$ENDCMP
+#
 $CMP GL2576-12SF8DR
 D 12V 3A, 52KHz Step Down Converter, SO-8
 K 12V 3A 52KHz Buck DC/DC
