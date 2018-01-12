@@ -300,24 +300,6 @@ K SMPS PWM Controller
 F http://www.ti.com/lit/ds/symlink/ucc3813-1.pdf
 $ENDCMP
 #
-$CMP VIPer22ADIP-E
-D Low power OFF-line SMPS primary switcher
-K SMPS
-F http://www.st.com/web/en/resource/technical/document/datasheet/CD00087939.pdf
-$ENDCMP
-#
-$CMP VIPer22AS
-D Low power OFF-line SMPS primary switcher
-K SMPS
-F http://www.st.com/web/en/resource/technical/document/datasheet/CD00087939.pdf
-$ENDCMP
-#
-$CMP VIPer25HN
-D 12W SMPS Controller, AC-DC, PDIP-7
-K SMPS Controller with MOSFET 12W AC-DC
-F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00231127.pdf
-$ENDCMP
-#
 $CMP VIPer25LN
 D 12W SMPS Controller, AC-DC, PDIP-7
 K SMPS Controller with MOSFET 12W AC-DC
