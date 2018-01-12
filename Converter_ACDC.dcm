@@ -108,12 +108,6 @@ K 5V 3W AC-DC module power supply
 F http://www.mouser.com/ds/2/260/IRM-03-spec-881203.pdf
 $ENDCMP
 #
-$CMP LT1249
-D Power Factor Controller, DIP-8/SOIC-8
-K pfc controller
-F http://cds.linear.com/docs/en/datasheet/1249fbs.pdf
-$ENDCMP
-#
 $CMP LT1509
 D Power Factor and PWM Controller, DIP-20/SOIC-20
 K pfc pwm controller

@@ -12,6 +12,12 @@ K pfc controller
 F http://cds.linear.com/docs/en/datasheet/1248fd.pdf
 $ENDCMP
 #
+$CMP LT1249
+D Power Factor Controller, DIP-8/SOIC-8
+K pfc controller
+F http://cds.linear.com/docs/en/datasheet/1249fbs.pdf
+$ENDCMP
+#
 $CMP LTC1624CS8
 D High Efficiency N-Channel Switching Regulator Controller, SO-8
 K Switching Regulator Controller
