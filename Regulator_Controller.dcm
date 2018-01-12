@@ -642,6 +642,12 @@ K Integrated Off-Line Switcher with EcoSmart™ Technology
 F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
 $ENDCMP
 #
+$CMP UC2842D8
+D Current-Mode PWM Controllers, 100% Duty Cycle, 16V/10V UVLO, SOIC-8
+K SMPS PWM Controller
+F http://www.ti.com/lit/ds/symlink/uc3842.pdf
+$ENDCMP
+#
 $CMP UC3525
 D Regulating Pulse Width Modulators, NOR Logic, PDIP-16/SOIC-16
 K SMPS PWM Controller
@@ -658,6 +664,72 @@ $CMP UC3842ADW
 D Current-Mode PWM Controllers, 100% Duty Cycle, 16V/10V UVLO, SOIC-16
 K SMPS PWM Controller
 F http://www.ti.com/lit/ds/symlink/uc2843a.pdf
+$ENDCMP
+#
+$CMP UC3842D
+D Current-Mode PWM Controllers, 100% Duty Cycle, 16V/10V UVLO, SOIC-14
+K SMPS PWM Controller
+F http://www.ti.com/lit/ds/symlink/uc3842.pdf
+$ENDCMP
+#
+$CMP UC3842N
+D Current-Mode PWM Controllers, 100% Duty Cycle, 16V/10V UVLO, PDIP-8
+K SMPS PWM Controller
+F http://www.ti.com/lit/ds/symlink/uc3842.pdf
+$ENDCMP
+#
+$CMP UC3843D
+D Current-Mode PWM Controllers, 100% Duty Cycle, 8.4V/7.6V UVLO, SOIC-14
+K SMPS PWM Controller
+F http://www.ti.com/lit/ds/symlink/uc3842.pdf
+$ENDCMP
+#
+$CMP UC3843D8
+D Current-Mode PWM Controllers, 100% Duty Cycle, 8.4V/7.6V UVLO, SOIC-8
+K SMPS PWM Controller
+F http://www.ti.com/lit/ds/symlink/uc3842.pdf
+$ENDCMP
+#
+$CMP UC3843N
+D Current-Mode PWM Controllers, 100% Duty Cycle, 8.4V/7.6V UVLO, PDIP-8
+K SMPS PWM Controller
+F http://www.ti.com/lit/ds/symlink/uc3842.pdf
+$ENDCMP
+#
+$CMP UC3844D
+D Current-Mode PWM Controllers, 50% Duty Cycle, 16V/10V UVLO, SOIC-14
+K SMPS PWM Controller
+F http://www.ti.com/lit/ds/symlink/uc3842.pdf
+$ENDCMP
+#
+$CMP UC3844D8
+D Current-Mode PWM Controllers, 50% Duty Cycle, 16V/10V UVLO, SOIC-8
+K SMPS PWM Controller
+F http://www.ti.com/lit/ds/symlink/uc3842.pdf
+$ENDCMP
+#
+$CMP UC3844N
+D Current-Mode PWM Controllers, 50% Duty Cycle, 16V/10V UVLO, PDIP-8
+K SMPS PWM Controller
+F http://www.ti.com/lit/ds/symlink/uc3842.pdf
+$ENDCMP
+#
+$CMP UC3845D
+D Current-Mode PWM Controllers, 50% Duty Cycle, 8.4V/7.6V UVLO, SOIC-14
+K SMPS PWM Controller
+F http://www.ti.com/lit/ds/symlink/uc3842.pdf
+$ENDCMP
+#
+$CMP UC3845D8
+D Current-Mode PWM Controllers, 50% Duty Cycle, 8.4V/7.6V UVLO, SOIC-8
+K SMPS PWM Controller
+F http://www.ti.com/lit/ds/symlink/uc3842.pdf
+$ENDCMP
+#
+$CMP UC3845N
+D Current-Mode PWM Controllers, 50% Duty Cycle, 8.4V/7.6V UVLO, PDIP-8
+K SMPS PWM Controller
+F http://www.ti.com/lit/ds/symlink/uc3842.pdf
 $ENDCMP
 #
 $CMP UCC2891
