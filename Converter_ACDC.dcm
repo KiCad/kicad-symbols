@@ -1,17 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP FSDH321L
-D 17W SMPS Controller, 100kHz, AC-DC, SMD-8
-K SMPS Controller with MOSFET 17W AC-DC
-F www.fairchildsemi.com/ds/FS/FSDH321.pdf
-$ENDCMP
-#
-$CMP FSDL321L
-D 17W SMPS Controller, 50kHz, AC-DC, SMD-8
-K SMPS Controller with MOSFET 17W AC-DC
-F www.fairchildsemi.com/ds/FS/FSDH321.pdf
-$ENDCMP
-#
 $CMP FSL136MRT
 D 67kHz SMPS Controller w/ Soft Start, max. 50W AC-DC, TO-220F-6L
 K SMPS Controller 50W AC-DC
