@@ -54,6 +54,12 @@ K SMPS PWM Controller
 F https://www.microsemi.com/document-portal/doc_view/11120-sg1525a-sg1527a-datasheet
 $ENDCMP
 #
+$CMP TL494
+D Pulse-Width-Modulation Control Circuits, PDIP-16/SOIC-16/TSSOP-16
+K SMPS PWM Controller
+F http://www.ti.com/lit/ds/symlink/tl494.pdf
+$ENDCMP
+#
 $CMP TOP100YN
 D TOPSwitch Family, 20W Max Output Power, TO-220
 K Three-terminal Off-line PWM Switch
