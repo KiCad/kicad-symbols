@@ -510,6 +510,12 @@ K SMPS Controller AC-DC
 F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
 $ENDCMP
 #
+$CMP KA5H0265RCYDTU
+D KA5H0265RCTU, 100kHz SMPS Controller w/ Soft Start, AC-DC, TO-220F-5L(Forming)
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
+$ENDCMP
+#
 $CMP KA5M02659RN
 D 67kHz SMPS Controller, AC-DC, PDIP-8
 K SMPS Controller AC-DC
