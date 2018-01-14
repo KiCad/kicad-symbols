@@ -6,8 +6,10 @@ EESchema-LIBRARY Version 2.3
 DEF Ai-Thinker-Ra-01 U 0 40 Y Y 1 F N
 F0 "U" 100 700 50 H V C CNN
 F1 "Ai-Thinker-Ra-01" 700 -300 50 H V C CNN
+F2 "RF_Module:Ai-Thinker-Ra-01-LoRa" 0 600 60 H I C CNN
+F3 "https://mikroelectron.com/Product/10KM-433M-LORA-LONG-RANGE-WIRELESS-MODULE-RA-01" 100 700 60 H I C CNN
 $FPLIST
- Ai?Thinker?Ra?01
+ Ai?Thinker?Ra?01*
 $ENDFPLIST
 DRAW
 S -300 600 300 -500 0 1 10 N
