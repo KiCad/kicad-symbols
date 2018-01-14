@@ -300,4 +300,34 @@ K can transceiver isolated protected
 F https://www.nxp.com/docs/en/data-sheet/TJA1052I.pdf
 $ENDCMP
 #
+$CMP MCP2517FDx-H-JHA
+D External CAN FD Controller with SPI Interface, VDFN-14, Extended temperature range
+K CAN FD Controller SPI
+F https://ww1.microchip.com/downloads/en/DeviceDoc/20005688A.pdf
+$ENDCMP
+#
+$CMP MCP2517FDx-H-SL
+D External CAN FD Controller with SPI Interface, SOIC-14, Extended temperature range
+K CAN FD Controller SPI
+F https://ww1.microchip.com/downloads/en/DeviceDoc/20005688A.pdf
+$ENDCMP
+#
+$CMP MCP2558FDx-H-MF
+D CAN FD Transceiver with Silent Mode, up to 8 Mbps, DFN-8, Internal level shifter on digital I/O pins
+K CAN FD Transceiver
+F https://ww1.microchip.com/downloads/en/DeviceDoc/20005533A.pdf
+$ENDCMP
+#
+$CMP MCP2558FDx-H-MNY
+D CAN FD Transceiver with Silent Mode, up to 8 Mbps, TDFN-8, Internal level shifter on digital I/O pins
+K CAN FD Transceiver
+F https://ww1.microchip.com/downloads/en/DeviceDoc/20005533A.pdf
+$ENDCMP
+#
+$CMP MCP2558FDx-H-SN
+D CAN FD Transceiver with Silent Mode, up to 8 Mbps, SOIC-8, Internal level shifter on digital I/O pins
+K CAN FD Transceiver
+F https://ww1.microchip.com/downloads/en/DeviceDoc/20005533A.pdf
+$ENDCMP
+#
 #End Doc Library
