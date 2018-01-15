@@ -108,6 +108,12 @@ K Miniature Single Pole Relay
 F https://www.omron.com/ecb/products/pdf/en-g5q.pdf
 $ENDCMP
 #
+$CMP G5V-1
+D Ultra-miniature, Highly Sensitive SPDT Relay for Signal Circuits
+K Single Pole Relay SPDT
+F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_1.pdf
+$ENDCMP
+#
 $CMP G5V-2
 D Relay Miniature Omron DPDT
 K Miniature Relay Dual Pole DPDT Omron
@@ -115,7 +121,7 @@ F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf
 $ENDCMP
 #
 $CMP G6E
-D Omron G6E relay, Subminiature, Sensitive SPDT Signal Switching Relay, Single-Side Stable
+D Omron Subminiature Sensitive SPDT Signal Switching Relay, Single-Side Stable
 K Single Pole Relay SPDT
 F https://www.omron.com/ecb/products/pdf/en-g6e.pdf
 $ENDCMP
@@ -124,6 +130,42 @@ $CMP G6EU
 D Omron G6E relay, Subminiature, Sensitive SPDT Signal Switching Relay, Single-winding latching
 K Single Pole Relay SPDT
 F https://www.omron.com/ecb/products/pdf/en-g6e.pdf
+$ENDCMP
+#
+$CMP G6H-2
+D Omron Ultracompact, Ultrasensitive DPDT Relay, Single-side Stable
+K relay monostable
+F http://cdn-reichelt.de/documents/datenblatt/C300/G6H%23OMR.pdf
+$ENDCMP
+#
+$CMP G6HU-2
+D Omron Ultracompact, Ultrasensitive DPDT Relay, Single-winding Latching
+K relay monostable
+F http://cdn-reichelt.de/documents/datenblatt/C300/G6H%23OMR.pdf
+$ENDCMP
+#
+$CMP G6K-2
+D Miniature 2-pole relay, Single-side Stable
+K Miniature Relay Dual Pole DPDT Omron
+F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf
+$ENDCMP
+#
+$CMP G6KU-2
+D Miniature 2-pole relay, Single-winding Latching
+K Miniature Relay Dual Pole DPDT Omron
+F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf
+$ENDCMP
+#
+$CMP G6S-2
+D Compact, Industry-Standard 2-pole relay, designed to switch 2A Signal Loads, Single-side Stable
+K Miniature Relay Dual Pole DPDT Omron
+F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf
+$ENDCMP
+#
+$CMP G6SU-2
+D Compact, Industry-Standard 2-pole relay, designed to switch 2A Signal Loads, Single-winding Latching
+K Miniature Relay Dual Pole DPDT Omron
+F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf
 $ENDCMP
 #
 $CMP HF3-01
