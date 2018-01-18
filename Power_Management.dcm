@@ -162,6 +162,12 @@ K High_Side_Switch Power
 F https://www.infineon.com/dgdl/Infineon-BTS724G-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3a2f1030ff1
 $ENDCMP
 #
+$CMP HF81
+D X capacitor bleeder, SOIC-8
+K X capacitor discharge
+F http://www.monolithicpower.com/DesktopModules/DocumentManage/API/Document/getDocument?id=142
+$ENDCMP
+#
 $CMP IPS6011PBF
 D 39V, 60A, Intelligent Power Switch High Side, TO-220-5
 K Intelligent Power Switch High Side MOSFET
@@ -264,6 +270,186 @@ K High_Side_Switch Power
 F http://www.infineon.com/dgdl/Infineon-ITS5215L-DS-v01_01-en.pdf?fileId=db3a304412b407950112b428dba73e98
 $ENDCMP
 #
+$CMP LM5051
+D Low side OR-ing FET controller, -6V to -100V operation
+K negative low-side or-ing ideal-diode
+F http://www.ti.com/lit/ds/symlink/lm5051.pdf
+$ENDCMP
+#
+$CMP LM5060
+D High side protection controller, +5.5V to +65V operation, VSSOP-10 package
+K high-voltage mosfet-driver hot-swap
+F http://www.ti.com/lit/ds/symlink/lm5060.pdf
+$ENDCMP
+#
+$CMP LT1641-1
+D High voltage hot swap controller, +9V to +80V operation, with latching feature
+K high-voltage hot-swap
+F http://cds.linear.com/docs/en/datasheet/164112fc.pdf
+$ENDCMP
+#
+$CMP LT1641-2
+D High voltage hot swap controller, +9V to +80V operation, with auto-retry feature
+K high-voltage hot-swap
+F http://cds.linear.com/docs/en/datasheet/164112fc.pdf
+$ENDCMP
+#
+$CMP LTC4357DCB
+D Ideal diode controller, 9-80V operation, DFN-6 package
+K ideal-diode or-ing
+F http://cds.linear.com/docs/en/datasheet/4357fd.pdf
+$ENDCMP
+#
+$CMP LTC4357MS8
+D Ideal diode controller, 9-80V operation, MSOP-8 package
+K ideal-diode or-ing
+F http://cds.linear.com/docs/en/datasheet/4357fd.pdf
+$ENDCMP
+#
+$CMP LTC4359-DCB
+D Ideal diode controller with reverse input protection, DFN-6 package
+K ideal-diode or-ing reverse-protection
+F http://cds.linear.com/docs/en/datasheet/4359fb.pdf
+$ENDCMP
+#
+$CMP LTC4359-MS8
+D Ideal diode controller with reverse input protection, MSOP-8 package
+K ideal-diode or-ing reverse-protection
+F http://cds.linear.com/docs/en/datasheet/4359fb.pdf
+$ENDCMP
+#
+$CMP LTC4364CDE
+D Surge stopper with ideal diode, UV and OV protection, -40V to +80V operation, DFN-14 package, 0°C to +40°C
+K ideal-diode or-ing reverse-protection undervoltage overvoltage surge-stopper
+F http://cds.linear.com/docs/en/datasheet/436412f.pdf
+$ENDCMP
+#
+$CMP LTC4364CMS
+D Surge stopper with ideal diode, UV and OV protection, -40V to +80V operation, MSOP-16 package, 0°C to +40°C
+K ideal-diode or-ing reverse-protection undervoltage overvoltage surge-stopper
+F http://cds.linear.com/docs/en/datasheet/436412f.pdf
+$ENDCMP
+#
+$CMP LTC4364CS
+D Surge stopper with ideal diode, UV and OV protection -40V to +80V in SOIC-16 package, 0°C to +40°C
+K ideal-diode or-ing reverse-protection undervoltage overvoltage surge-stopper
+F http://cds.linear.com/docs/en/datasheet/436412f.pdf
+$ENDCMP
+#
+$CMP LTC4364HDE
+D Surge stopper with ideal diode, UV and OV protection -40V to +80V in DFN-14 package, -40°C to +125°C
+K surge overvoltage undervoltage reverse-polarity protection diode ORing MOSFET driver
+F http://cds.linear.com/docs/en/datasheet/436412f.pdf
+$ENDCMP
+#
+$CMP LTC4364HMS
+D Surge stopper with ideal diode, UV and OV protection -40V to +80V in MSOP-16 package, -40°C to +125°C
+K surge overvoltage undervoltage reverse-polarity protection diode ORing MOSFET driver
+F http://cds.linear.com/docs/en/datasheet/436412f.pdf
+$ENDCMP
+#
+$CMP LTC4364HS
+D Surge stopper with ideal diode, UV and OV protection -40V to +80V in SOIC-16 package, -40°C to +125°C
+K surge overvoltage undervoltage reverse-polarity protection diode ORing MOSFET driver
+F http://cds.linear.com/docs/en/datasheet/436412f.pdf
+$ENDCMP
+#
+$CMP LTC4364IDE
+D Surge stopper with ideal diode, UV and OV protection -40V to +80V in DFN-14 package, -40°C to +85°C
+K surge overvoltage undervoltage reverse-polarity protection diode ORing MOSFET driver
+F http://cds.linear.com/docs/en/datasheet/436412f.pdf
+$ENDCMP
+#
+$CMP LTC4364IMS
+D Surge stopper with ideal diode, UV and OV protection -40V to +80V in MSOP-16 package, -40°C to +85°C
+K surge overvoltage undervoltage reverse-polarity protection diode ORing MOSFET driver
+F http://cds.linear.com/docs/en/datasheet/436412f.pdf
+$ENDCMP
+#
+$CMP LTC4364IS
+D Surge stopper with ideal diode, UV and OV protection -40V to +80V in SOIC-16 package, -40°C to +85°C
+K surge overvoltage undervoltage reverse-polarity protection diode ORing MOSFET driver
+F http://cds.linear.com/docs/en/datasheet/436412f.pdf
+$ENDCMP
+#
+$CMP LTC4365DDB
+D Overvoltage, Undervoltage and Reverse Supply Protection Controller, 3x2mm DFN-8 package, 50Hz/60Hz noise rejection
+K overvoltage undervoltage reverse-polarity protection
+F http://cds.linear.com/docs/en/datasheet/4365fa.pdf
+$ENDCMP
+#
+$CMP LTC4365DDB-1
+D Overvoltage, Undervoltage and Reverse Supply Protection Controller, 3x2mm DFN-8 package, 1ms fault recovery
+K overvoltage undervoltage reverse-polarity protection
+F http://www.linear.com/docs/29832
+$ENDCMP
+#
+$CMP LTC4365TS8
+D Overvoltage, Undervoltage and Reverse Supply Protection Controller, TSOT23-8 package, 50Hz/60Hz noise rejection
+K overvoltage undervoltage reverse-polarity protection
+F http://cds.linear.com/docs/en/datasheet/4365fa.pdf
+$ENDCMP
+#
+$CMP LTC4365TS8-1
+D Overvoltage, Undervoltage and Reverse Supply Protection Controller, TSOT23-8 package, 1ms fault recovery
+K overvoltage undervoltage reverse-polarity protection
+F http://www.linear.com/docs/29832
+$ENDCMP
+#
+$CMP LTC4417CGN
+D Prioritized PowerPath controller QFN-24
+K switch power FET sequence
+F http://cds.linear.com/docs/en/datasheet/4417f.pdf
+$ENDCMP
+#
+$CMP LTC4417HGN
+D Prioritized PowerPath controller QFN-24, extended temperature range
+K switch power FET sequence
+F http://cds.linear.com/docs/en/datasheet/4417f.pdf
+$ENDCMP
+#
+$CMP LTC4417IGN
+D Prioritized PowerPath controller QFN-24, industrial temperature range
+K switch power FET sequence
+F http://cds.linear.com/docs/en/datasheet/4417f.pdf
+$ENDCMP
+#
+$CMP MIC2026-1BM
+D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, in SOIC-8 Package
+K mosfet distribution
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
+$ENDCMP
+#
+$CMP MIC2026-1BN
+D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, in DIP-8 Package
+K mosfet distribution
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
+$ENDCMP
+#
+$CMP MIC2026-2BM
+D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active Low Output, in SOIC-8 Package
+K mosfet distribution
+F http://www.micrel.com/_PDF/mic2026.pdf
+$ENDCMP
+#
+$CMP MIC2026-2BN
+D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active Low Output, in DIP-8 Package
+K mosfet distribution
+F http://www.micrel.com/_PDF/mic2026.pdf
+$ENDCMP
+#
+$CMP MIC2587-1
+D Positive high voltage hot swap controller +10V to +80V with latched operation
+K power switch FET driver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2587-87r.pdf
+$ENDCMP
+#
+$CMP MIC2587R-1
+D Positive high voltage hot swap controller +10V to +80V with auto-retry operation
+K power switch FET driver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2587-87r.pdf
+$ENDCMP
+#
 $CMP NPC45560-H
 D Controlled load switch with low Ron
 K load switch
@@ -274,6 +460,36 @@ $CMP NPC45560-L
 D Controlled load switch with low Ron
 K load switch
 F http://www.onsemi.com/pub/Collateral/NCP45560-D.PDF
+$ENDCMP
+#
+$CMP PD70224
+D Ideal Dual Diode Bridge, QFN-40
+K dual ideal diode bridge
+F https://www.microsemi.com/document-portal/doc_download/131677-pd70224-data-sheet
+$ENDCMP
+#
+$CMP RT9701
+D 100 milliohm power distribution switch
+K power distribution switch
+F https://www.richtek.com/assets/product_file/RT9701/DS9701-16.pdf
+$ENDCMP
+#
+$CMP STM6600
+D Smart push-button on/off controller, power-on lockout, Low Power, 1.6-5.5V, TDFN12
+K push-button-controller low-power
+F http://www.st.com/resource/en/datasheet/stm6600.pdf
+$ENDCMP
+#
+$CMP STM6601
+D Smart push-button on/off controller, power-on lockout, Low Power, 1.6-5.5V, TDFN12
+K push-button-controller low-power
+F http://www.st.com/resource/en/datasheet/stm6600.pdf
+$ENDCMP
+#
+$CMP TEA1708T
+D GreenChip X capacitor discharge IC, SOIC-8
+K X capacitor discharge
+F https://www.nxp.com/docs/en/data-sheet/TEA1708T.pdf
 $ENDCMP
 #
 $CMP TLE8102SG
@@ -310,6 +526,18 @@ $CMP TPS2054D
 D Quad power-distribution switcher
 K 4-chanel power-distribution USB
 F http://www.ti.com/lit/ds/symlink/tps2044.pdf
+$ENDCMP
+#
+$CMP TPS22929D
+D High side, power distribution switch, 1.4V-5.5V, 1.8A, SOT23-6 package
+K high-side power distribution switch
+F http://www.ti.com/lit/ds/symlink/tps22929d.pdf
+$ENDCMP
+#
+$CMP TPS2592xx
+D 5V/12V eFuse Protection Switch (VSON-10)
+K efuse protection switch
+F http://www.ti.com/lit/ds/symlink/tps25925.pdf
 $ENDCMP
 #
 #End Doc Library

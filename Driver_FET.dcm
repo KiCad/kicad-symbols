@@ -24,6 +24,12 @@ K Driver MOSFET
 F http://www.onsemi.com/pub/Collateral/FAN3268T_F085-D.PDF
 $ENDCMP
 #
+$CMP FAN7842
+D High and Low Side Gate Driver
+K gate driver
+F https://www.fairchildsemi.com/datasheets/FA/FAN7842.pdf
+$ENDCMP
+#
 $CMP HIP2100_DFN
 D High Frequency Half Bridge Driver, Output Current 2.0A, 100V, DFN-8 4x4mm
 K Half Bridge Gate Driver
@@ -162,6 +168,30 @@ K Half-Bridge Gate Driver
 F http://www.ti.com/lit/ds/symlink/lm5109.pdf
 $ENDCMP
 #
+$CMP LTC4440EMS8
+D High-side, N-Channel, Mosfet driver, 80V input, -40°C to +85°C, MSOP-8 package
+K high-side mosfet-driver
+F http://cds.linear.com/docs/en/datasheet/4440fb.pdf
+$ENDCMP
+#
+$CMP LTC4440ES6
+D High-side, N-Channel, Mosfet driver, 80V input, -40°C to +85°C, SOT23-6 package
+K high-side mosfet-driver
+F http://cds.linear.com/docs/en/datasheet/4440fb.pdf
+$ENDCMP
+#
+$CMP LTC4440IMS8
+D High-side, N-Channel, Mosfet driver, 80V input, -40°C to +125°C, MSOP-8 package
+K high-side mosfet-driver
+F http://cds.linear.com/docs/en/datasheet/4440fb.pdf
+$ENDCMP
+#
+$CMP LTC4440IS6
+D High-side, N-Channel, Mosfet driver, 80V input, -40°C to +85°C, SOT23-6 package
+K high-side mosfet-driver
+F http://cds.linear.com/docs/en/datasheet/4440fb.pdf
+$ENDCMP
+#
 $CMP MCP1415
 D 1.5A High speed power MOSFET driver with inverting output
 K mosfet gate driver
@@ -202,6 +232,18 @@ $CMP MIC4428
 D Dual 1.5A-Peak Low-Side MOSFET Driver
 K Driver, Dual MOSFET
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic4426.pdf
+$ENDCMP
+#
+$CMP PM8834
+D 4 A dual low-side MOSFET driver (SO8 package)
+K mosfet driver
+F http://www.st.com/resource/en/datasheet/pm8834.pdf
+$ENDCMP
+#
+$CMP PM8834M
+D 4 A dual low-side MOSFET driver (MSOP8 package)
+K mosfet driver
+F http://www.st.com/resource/en/datasheet/pm8834.pdf
 $ENDCMP
 #
 $CMP ZXGD3001E6
