@@ -4704,6 +4704,72 @@ K LDO regulator voltage
 F http://www.ti.com/lit/ds/symlink/tps715.pdf
 $ENDCMP
 #
+$CMP TPS73601DBV
+D Cap free NMOS 400mA Low Drop Adjustable Out Regulator, SOT-23-5
+K Cap free Adjustable LDO 400mA
+F http://www.ti.com/lit/ds/symlink/tps736.pdf
+$ENDCMP
+#
+$CMP TPS736125DBV
+D Cap free NMOS 400mA Low Drop 1.25V Regulator, SOT-23-5
+K Cap free Fixed LDO 400mA
+F http://www.ti.com/lit/ds/symlink/tps736.pdf
+$ENDCMP
+#
+$CMP TPS73615DBV
+D Cap free NMOS 400mA Low Drop 1.5V Regulator, SOT-23-5
+K Cap free Fixed LDO 400mA
+F http://www.ti.com/lit/ds/symlink/tps736.pdf
+$ENDCMP
+#
+$CMP TPS73616DBV
+D Cap free NMOS 400mA Low Drop 1.6V Regulator, SOT-23-5
+K Cap free Fixed LDO 400mA
+F http://www.ti.com/lit/ds/symlink/tps736.pdf
+$ENDCMP
+#
+$CMP TPS73618DBV
+D Cap free NMOS 400mA Low Drop 1.8V Regulator, SOT-23-5
+K Cap free Fixed LDO 400mA
+F http://www.ti.com/lit/ds/symlink/tps736.pdf
+$ENDCMP
+#
+$CMP TPS73619DBV
+D Cap free NMOS 400mA Low Drop 1.9V Regulator, SOT-23-5
+K Cap free Fixed LDO 400mA
+F http://www.ti.com/lit/ds/symlink/tps736.pdf
+$ENDCMP
+#
+$CMP TPS73625DBV
+D Cap free NMOS 400mA Low Drop 2.5V Regulator, SOT-23-5
+K Cap free Fixed LDO 400mA
+F http://www.ti.com/lit/ds/symlink/tps736.pdf
+$ENDCMP
+#
+$CMP TPS73630DBV
+D Cap free NMOS 400mA Low Drop 3.0V Regulator, SOT-23-5
+K Cap free Fixed LDO 400mA
+F http://www.ti.com/lit/ds/symlink/tps736.pdf
+$ENDCMP
+#
+$CMP TPS73632DBV
+D Cap free NMOS 400mA Low Drop 3.2V Regulator, SOT-23-5
+K Cap free Fixed LDO 400mA
+F http://www.ti.com/lit/ds/symlink/tps736.pdf
+$ENDCMP
+#
+$CMP TPS73633DBV
+D Cap free NMOS 400mA Low Drop 3.3V Regulator, SOT-23-5
+K Cap free Fixed LDO 400mA
+F http://www.ti.com/lit/ds/symlink/tps736.pdf
+$ENDCMP
+#
+$CMP TPS73643DBV
+D Cap free NMOS 400mA Low Drop 4.3V Regulator, SOT-23-5
+K Cap free Fixed LDO 400mA
+F http://www.ti.com/lit/ds/symlink/tps736.pdf
+$ENDCMP
+#
 $CMP TPS74401_VQFN
 D 0.8 to 3.6V adjustable, 3.0-A, Ultra-LDO with Programmable Soft-Start
 K LDO, Voltage Regulator
