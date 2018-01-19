@@ -379,7 +379,7 @@ F http://cds.linear.com/docs/en/datasheet/60812fd.pdf
 $ENDCMP
 #
 $CMP LTC6362xDD
-D Precision, Low Power, Rail-to-Rail Input/Output, Differential Op Amp/SAR ADC Driver, MSOP-8
+D Precision, Low Power, Rail-to-Rail Input/Output, Differential Op Amp/SAR ADC Driver, DFN-8
 K single differential opamp
 F http://cds.linear.com/docs/en/datasheet/6362fa.pdf
 $ENDCMP
@@ -724,6 +724,12 @@ $CMP OPA134
 D Single SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8
 K single opamp
 F http://www.ti.com/lit/ds/symlink/opa134.pdf
+$ENDCMP
+#
+$CMP OPA1641
+D  JFET input, ultralow distortion, low-noise operational amplifier, SOIC-8/VSSOP-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa1641.pdf
 $ENDCMP
 #
 $CMP OPA2134
