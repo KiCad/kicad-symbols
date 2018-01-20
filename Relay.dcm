@@ -72,16 +72,46 @@ K Single Pole Relay SPST-NO
 F http://gfinder.findernet.com/assets/Series/355/S32EN.pdf
 $ENDCMP
 #
+$CMP FINDER-34.51
+D Ultra-slim 1 Pole - 6 A SPDT relay
+K Single Pole Relay SPDT
+F https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf
+$ENDCMP
+#
+$CMP FINDER-34.51.7xxx.x019
+D Ultra-slim 1 Pole - 6 A SPDT relay
+K Single Pole Relay SPDT
+F https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf
+$ENDCMP
+#
 $CMP FINDER-36.11-4301
 D FINDER 36.11-4301, Single Pole Relay SPST-NO Sugar Cube, 10A
 K Single Pole Relay SPST-NO Sugar Cube
 F http://gfinder.findernet.com/assets/Series/356/S36EN.pdf
 $ENDCMP
 #
+$CMP FINDER-40.11
+D PCB SPDT relay, 10A
+K Single Pole Relay SPDT Finder
+F https://www.finder-relais.net/de/finder-relais-serie-40.pdf
+$ENDCMP
+#
+$CMP FINDER-40.11-2016
+D PCB SPDT relay, 16A
+K Single Pole Relay SPDT Finder
+F https://www.finder-relais.net/de/finder-relais-serie-40.pdf
+$ENDCMP
+#
 $CMP FINDER-40.31
 D FINDER 40.31, Single Pole Relay, 3.5mm Pitch, 10A
 K Single Pole Relay
 F http://gfinder.findernet.com/assets/Series/353/S40EN.pdf
+$ENDCMP
+#
+$CMP FINDER-40.41
+D PCB SPDT relay, 10A
+K Single Pole Relay SPDT Finder
+F https://www.finder-relais.net/de/finder-relais-serie-40.pdf
 $ENDCMP
 #
 $CMP FINDER-40.51
