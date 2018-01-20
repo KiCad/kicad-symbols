@@ -210,6 +210,18 @@ K MOSFET Driver IGBT Driver Optocoupler
 F http://www.avagotech.com/docs/AV02-0161EN
 $ENDCMP
 #
+$CMP ILD74
+D Dual Optocoupler, NPN Phototransistor Output, TTL compatible, DIP8/SMD8
+K NPN DC Dual Optocoupler
+F https://www.vishay.com/docs/83640/ild74.pdf
+$ENDCMP
+#
+$CMP ILQ74
+D Quad Optocoupler, NPN Phototransistor Output, TTL compatible, DIP8/SMD8
+K NPN DC Dual Optocoupler
+F https://www.vishay.com/docs/83640/ild74.pdf
+$ENDCMP
+#
 $CMP ISO7320C
 D Low Power Dual-Channel 2/0 Digital Isolator, 25Mbps 33ns, Fail-Safe High, SO8
 K 2Ch Dual Digital Isolator 25Mbps
