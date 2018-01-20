@@ -36,14 +36,14 @@ K ENC Ethernet
 F http://ww1.microchip.com/downloads/en/devicedoc/39662e.pdf
 $ENDCMP
 #
-$CMP ENC424J600-QFN
-D Stand-Alone 10/100 Ethernet Controller with SPI or Parallel Interface
+$CMP ENC424J600-ML
+D Stand-Alone 10/100 Ethernet Controller with SPI or Parallel Interface, QFN Package
 K ENC Ethernet
 F http://ww1.microchip.com/downloads/en/DeviceDoc/39935c.pdf
 $ENDCMP
 #
-$CMP ENC424J600-TQFP
-D Stand-Alone 10/100 Ethernet Controller with SPI or Parallel Interface
+$CMP ENC424J600-PT
+D Stand-Alone 10/100 Ethernet Controller with SPI or Parallel Interface, TQFP Package
 K ENC Ethernet
 F http://ww1.microchip.com/downloads/en/DeviceDoc/39935c.pdf
 $ENDCMP
