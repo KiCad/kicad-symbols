@@ -130,7 +130,6 @@
   (lib (name Sensor_Humidity)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Sensor_Humidity.lib)(options "")(descr "Humidity sensors"))
   (lib (name Sensor_Magnetic)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Sensor_Magnetic.lib)(options "")(descr "Magnetic field and hall-effect sensors"))
   (lib (name Sensor_Motion)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Sensor_Motion.lib)(options "")(descr "Accelerometers, gyroscopic sensors"))
-  (lib (name Sensor_MultiFunction)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Sensor_MultiFunction.lib)(options "")(descr "Multi-function sensors"))
   (lib (name Sensor_Optical)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Sensor_Optical.lib)(options "")(descr "Light and color sensors"))
   (lib (name Sensor_Pressure)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Sensor_Pressure.lib)(options "")(descr "Fluid and mechanical pressure sensors"))
   (lib (name Sensor_Proximity)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Sensor_Proximity.lib)(options "")(descr "Optical interuption and proximity (optical, inductive, capacitve, ...) sensors"))
