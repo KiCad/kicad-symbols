@@ -1,5 +1,26 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 68HC11
+D HC11 Microcontroller
+K MCU Microcontroller HC11
+$ENDCMP
+#
+$CMP 68HC11F1
+D HC11 Microcontroller
+K MCU Microcontroller HC11
+F https://www.nxp.com/docs/en/data-sheet/MC68HC11FTS.pdf
+$ENDCMP
+#
+$CMP 68HC11_PLCC
+D HC11 Microcontroller, PLCC-52
+K MCU Microcontroller HC11
+$ENDCMP
+#
+$CMP 68HC711_PLCC
+D HC11 Microcontroller, PLCC-44
+K MCU Microcontroller HC11
+$ENDCMP
+#
 $CMP MC68HC11A0CC
 D ROMless, 256B RAM
 K HC11 MCU Microcotroller
