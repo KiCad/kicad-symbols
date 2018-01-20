@@ -6,6 +6,11 @@ K 2.4GHz rf transceiver ZigBee 802.15.4
 F http://www.ti.com/lit/gpn/cc2520
 $ENDCMP
 #
+$CMP MC13192
+D Zigbee controller
+K ZIGBEE
+$ENDCMP
+#
 $CMP XBee_SMT
 D Digi Xbee SMT RF module
 K Digi XBee
