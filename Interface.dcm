@@ -51,6 +51,18 @@ K PIC
 F http://pdos.csail.mit.edu/6.828/2005/readings/hardware/8259A.pdf
 $ENDCMP
 #
+$CMP 8259A
+D 8259, Programmable Interrupt Controller, PDIP-28
+K PIC
+F http://pdos.csail.mit.edu/6.828/2005/readings/hardware/8259A.pdf
+$ENDCMP
+#
+$CMP 8259A-2
+D 8259, Programmable Interrupt Controller, PDIP-28
+K PIC
+F http://pdos.csail.mit.edu/6.828/2005/readings/hardware/8259A.pdf
+$ENDCMP
+#
 $CMP 8288
 D Bus Controller for Intel 8086/8088/80186/80188 microprocessors, DIP-20
 K Bus Controller
