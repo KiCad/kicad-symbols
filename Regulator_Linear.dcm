@@ -4704,6 +4704,30 @@ K LDO regulator voltage
 F http://www.ti.com/lit/ds/symlink/tps715.pdf
 $ENDCMP
 #
+$CMP TPS72201
+D Low input voltage 50mA LDO variable output voltage, SOT-23-5
+K linear low dropout Regulator adjustable
+F http://www.ti.com/lit/ds/symlink/tps722.pdf
+$ENDCMP
+#
+$CMP TPS72215
+D Low input voltage 50mA LDO, 1.5V fixed output voltage, SOT-23-5
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps722.pdf
+$ENDCMP
+#
+$CMP TPS72216
+D Low input voltage 50mA LDO, 1.6V fixed output voltage, SOT-23-5
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps722.pdf
+$ENDCMP
+#
+$CMP TPS72218
+D Low input voltage 50mA LDO, 1.8V fixed output voltage, SOT-23-5
+K linear low dropout Regulator fixed
+F http://www.ti.com/lit/ds/symlink/tps722.pdf
+$ENDCMP
+#
 $CMP TPS73601DBV
 D Cap free NMOS 400mA Low Drop Adjustable Out Regulator, SOT-23-5
 K Cap free Adjustable LDO 400mA
