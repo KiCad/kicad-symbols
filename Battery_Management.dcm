@@ -174,6 +174,12 @@ K lithium li-ion battery charger
 F http://cds.linear.com/docs/en/datasheet/4002f.pdf
 $ENDCMP
 #
+$CMP LTC4007
+D 4A high efficiency standalone battery charger
+K lion lithium battery
+F http://cds.linear.com/docs/en/datasheet/4007fc.pdf
+$ENDCMP
+#
 $CMP LTC4054ES5-4.2
 D Constant-current/constant-voltage linear charger for single cell lithium-ion batteries with 2.9V Trickle Charge, 4.5V to 6.5V VDD, -40 to +85 degree Celcius, TSOT-23-5
 K Constant-current constant-voltage linear charger single cell lithium-ion battery
