@@ -30,4 +30,10 @@ K Temperature Voltage Current Monitor I2C AFE
 F http://cds.linear.com/docs/en/datasheet/2990fd.pdf
 $ENDCMP
 #
+$CMP MAX30102
+D Heart Rate Sensor, 14-OLGA
+K Heart Rate
+F https://datasheets.maximintegrated.com/en/ds/MAX30102.pdf
+$ENDCMP
+#
 #End Doc Library
