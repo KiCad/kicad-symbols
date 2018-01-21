@@ -112,6 +112,18 @@ $CMP IDT71V65903S
 D 165 pins BGA 3.3V high-speed 9 Megabit synchronous SRAMs 512K x 18 (or  256K x 36)
 $ENDCMP
 #
+$CMP IS42S16400J-xC
+D 64Mb Synchronous DRAM, 1 Mb x 16 b x 4 Banks, Cu leadframe plated with matte Sn, TSOP-II-54
+K DRAM
+F http://www.issi.com/WW/pdf/42-45S16400J.pdf
+$ENDCMP
+#
+$CMP IS42S16400J-xT
+D 64Mb Synchronous DRAM, 1 Mb x 16 b x 4 Banks, Alloy42 leadframe plated with matte Sn, TSOP-II-54
+K DRAM
+F http://www.issi.com/WW/pdf/42-45S16400J.pdf
+$ENDCMP
+#
 $CMP MS628128
 D SRAM 128K x 8 bits
 K RAM SRAM
