@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ASMB-MTB0-0A3A2
+D Tricolor Black Surface LED, Common Anode Pin 1, PLCC-4
+K led rgb diode
+F https://docs.broadcom.com/docs/AV02-4186EN
+$ENDCMP
+#
+$CMP ASMB-MTB1-0A3A2
+D Tricolor Black Surface LED, Common Anode Pin 4, PLCC-4
+K led rgb diode
+F https://docs.broadcom.com/docs/AV02-4194EN
+$ENDCMP
+#
 $CMP ASMT-YTC2-0AA02
 D Triple LED RVB (Avago Technology)
 K LED RGB
