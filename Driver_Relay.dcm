@@ -1,11 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP A2982
-D 8-Channel Source Driver, TTL DTL, PMOS or CMOS compatible, 500mA 50V output
-K relays solenoids lamps steppers servos LEDs
-F https://www.allegromicro.com/~/media/Files/Datasheets/A2981-2-Datasheet.ashx
-$ENDCMP
-#
 $CMP DRV8860
 D 8-Channel Serial Interface Low-Side Driver
 K Relay Driver
