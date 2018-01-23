@@ -2,7 +2,7 @@
 
 This repository contains the official KiCad schematic symbol libraries.
 
-The libraries in this repositiory are intended for KiCad version 5 or a nightly build that supports the schematic library version 2.4 or newer.
+**The libraries in this repositiory are intended for KiCad version 5 or a nightly build that supports the schematic library version 2.4 or newer.**
 
 Each symbol library is stored as a `.lib` and `.dcm` file pair.
 
