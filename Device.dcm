@@ -1666,8 +1666,20 @@ K rotary switch encoder
 F ~
 $ENDCMP
 #
+$CMP Rotary_Encoder_Shield
+D Rotary encoder, dual channel, incremental quadrate outputs, pin for shield
+K rotary switch encoder
+F ~
+$ENDCMP
+#
 $CMP Rotary_Encoder_Switch
 D Rotary encoder, dual channel, incremental quadrate outputs, with switch
+K rotary switch encoder switch push button
+F ~
+$ENDCMP
+#
+$CMP Rotary_Encoder_Switch_Shield
+D Rotary encoder, dual channel, incremental quadrate outputs, with switch, pin for shield
 K rotary switch encoder switch push button
 F ~
 $ENDCMP
