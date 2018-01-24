@@ -36,6 +36,12 @@ K audio adc 2ch 24bit 192kHz
 F http://www.akm.com/akm/en/file/datasheet/AK5394AVS.pdf
 $ENDCMP
 #
+$CMP CM6631A
+D USB 2.0 High Speed Audio Proccessor, SPDIF, I2C, USB, 16bit, 192kHz
+K audio, stereo, USB, I2C, SPDIF
+F /home/ben/Dropbox/College/Personal/DAC_amp/CM6631A_Datasheet_v1.0.pdf
+$ENDCMP
+#
 $CMP CS4245
 D 104 dB, 24-Bit, 192 kHz Stereo Audio CODEC, LQFP-48
 K audio codec 2ch 24bit 192kHz
@@ -130,6 +136,12 @@ $CMP PCM1794A
 D 24-Bit, 192-kHz Sampling, Advanced Segment, Audio Stereo Digital-to-Analog Converter, HW Control, SSOP-28
 K audio dac 2ch 24bit 192kHz
 F http://www.ti.com/lit/ds/symlink/pcm1794a.pdf
+$ENDCMP
+#
+$CMP PCM5102A
+D 32bit/394 kHz 112DB Audio Stereo DAC, 2.1 Vrms output, H/W Control, PCM, I2S
+K Audio DAC, 32bit, 394 kHz, PCM, I2S,
+F http://www.ti.com/lit/ds/symlink/pcm5102a.pdf
 $ENDCMP
 #
 $CMP PGA4311
