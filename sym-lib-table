@@ -66,6 +66,7 @@
   (lib (name Logic_Programmable)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Logic_Programmable.lib)(options "")(descr "Programmable logic symbols"))
   (lib (name Logic_TTL_IEEE)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Logic_TTL_IEEE.lib)(options "")(descr "4000 series TTL_IEEE logic symbols"))
   (lib (name Memory_Controller)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Memory_Controller.lib)(options "")(descr "Memory controller devices"))
+  (lib (name Memory_EPROM)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Memory_EPROM.lib)(options "")(descr "EPROM memory"))
   (lib (name Memory_EEPROM)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Memory_EEPROM.lib)(options "")(descr "EEPROM memory"))
   (lib (name Memory_Flash)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Memory_Flash.lib)(options "")(descr "Flash memory"))
   (lib (name Memory_NVRAM)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Memory_NVRAM.lib)(options "")(descr "Non volatile RAM (NVRAM)"))
