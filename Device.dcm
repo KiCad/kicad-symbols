@@ -1353,48 +1353,69 @@ D Phototransistor NPN, 2-pin (E=1, C=2)
 K NPN phototransistor
 $ENDCMP
 #
-$CMP Q_TRIAC_AAG
-D triode for alternating current (TRIAC)
+$CMP Q_TRIAC_A1A2G
+D triode for alternating current (TRIAC), pinordering A1=1, A2=2, G=3
 K triode for alternating current TRIAC
+F https://en.wikipedia.org/wiki/TRIAC
 $ENDCMP
 #
-$CMP Q_TRIAC_AGA
-D triode for alternating current (TRIAC)
+$CMP Q_TRIAC_A1GA2
+D triode for alternating current (TRIAC), pinordering A1=1, A2=3, G=2
 K triode for alternating current TRIAC
+F https://en.wikipedia.org/wiki/TRIAC
 $ENDCMP
 #
-$CMP Q_TRIAC_GAA
-D triode for alternating current (TRIAC)
+$CMP Q_TRIAC_A2A1G
+D triode for alternating current (TRIAC), pinordering A1=2, A2=1, G=3
 K triode for alternating current TRIAC
+F https://en.wikipedia.org/wiki/TRIAC
+$ENDCMP
+#
+$CMP Q_TRIAC_A2GA1
+D triode for alternating current (TRIAC), pinordering A1=3, A2=1, G=2
+K triode for alternating current TRIAC
+F https://en.wikipedia.org/wiki/TRIAC
+$ENDCMP
+#
+$CMP Q_TRIAC_GA1A2
+D triode for alternating current (TRIAC), pinordering A1=2, A2=3, G=1
+K triode for alternating current TRIAC
+F https://en.wikipedia.org/wiki/TRIAC
+$ENDCMP
+#
+$CMP Q_TRIAC_GA2A1
+D triode for alternating current (TRIAC), pinordering A1=3, A2=2, G=1
+K triode for alternating current TRIAC
+F https://en.wikipedia.org/wiki/TRIAC
 $ENDCMP
 #
 $CMP Q_Thyristor_AGK
-D silicon controlled rectifier (Thyristor)
+D silicon controlled rectifier (SCR, Thyristor)
 K Thyristor silicon controlled rectifier
 $ENDCMP
 #
 $CMP Q_Thyristor_AKG
-D silicon controlled rectifier (Thyristor)
+D silicon controlled rectifier (SCR, Thyristor)
 K Thyristor silicon controlled rectifier
 $ENDCMP
 #
 $CMP Q_Thyristor_GAK
-D silicon controlled rectifier (Thyristor)
+D silicon controlled rectifier (SCR, Thyristor)
 K Thyristor silicon controlled rectifier
 $ENDCMP
 #
 $CMP Q_Thyristor_GKA
-D silicon controlled rectifier (Thyristor)
+D silicon controlled rectifier (SCR, Thyristor)
 K Thyristor silicon controlled rectifier
 $ENDCMP
 #
 $CMP Q_Thyristor_KAG
-D silicon controlled rectifier (Thyristor)
+D silicon controlled rectifier (SCR, Thyristor)
 K Thyristor silicon controlled rectifier
 $ENDCMP
 #
 $CMP Q_Thyristor_KGA
-D silicon controlled rectifier (Thyristor)
+D silicon controlled rectifier (SCR, Thyristor)
 K Thyristor silicon controlled rectifier
 $ENDCMP
 #
