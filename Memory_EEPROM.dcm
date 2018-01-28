@@ -84,7 +84,7 @@ K EEPROM memory SPI serial
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21832H.pdf
 $ENDCMP
 #
-$CMP 25LCxxx-DFN
+$CMP 25LCxxx-MC
 D SPI Serial EEPROM, DFN8
 K EEPROM memory SPI serial
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21832H.pdf
@@ -318,7 +318,7 @@ K EEPROM memory SPI serial
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8707-SEEPROM-AT25010B-020B-040B-Datasheet.pdf
 $ENDCMP
 #
-$CMP AT25xxx-DFN
+$CMP AT25xxx-MA
 D Microchip SPI Serial EEPROM, DFN8
 K EEPROM memory SPI serial
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8707-SEEPROM-AT25010B-020B-040B-Datasheet.pdf
@@ -330,7 +330,7 @@ K EEPROM memory SPI serial
 F http://www.rohm.com/web/global/products/-/product/BR25G128F-3
 $ENDCMP
 #
-$CMP BR25Sxxx-DFN
+$CMP BR25xxx-NUX
 D ROHM Semiconductor SPI Serial EEPROM, DFN8
 K EEPROM memory SPI serial
 F http://www.rohm.com/web/global/products/-/product/BR25G128F-3
@@ -342,7 +342,7 @@ K EEPROM memory SPI serial
 F http://www.onsemi.com/PowerSolutions/product.do?id=CAT25040
 $ENDCMP
 #
-$CMP CAT250xxx-DFN
+$CMP CAT250xxx-HU4
 D ON Semiconductor SPI Serial EEPROM, DFN8
 K EEPROM memory SPI serial
 F http://www.onsemi.com/PowerSolutions/product.do?id=CAT25040
