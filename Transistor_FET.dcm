@@ -318,6 +318,12 @@ K P-Channel MOSFET
 F http://assets.nexperia.com/documents/data-sheet/BSS84.pdf
 $ENDCMP
 #
+$CMP BUK9M53-60EX
+D 17 A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 53mOhm Ron, 2.4nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M53-60E.pdf
+$ENDCMP
+#
 $CMP BUZ11
 D 30A Id, 50V Vds, N-Channel Power MOSFET, TO-220
 K N-Channel Power MOSFET
