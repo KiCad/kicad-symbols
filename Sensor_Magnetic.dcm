@@ -114,6 +114,18 @@ K sensor magnetic hall position rotation spi
 F http://ams.com/eng/content/download/552323/1541717/file/AS5055A_Datasheet_EN_v6.pdf
 $ENDCMP
 #
+$CMP SM351LT
+D Hall Effect Switch, SOT23
+K Hall Effect Switch Sensor
+F https://sensing.honeywell.com/honeywell-sensing-nanopower-series-product-sheet-50095501-a-en.pdf
+$ENDCMP
+#
+$CMP SM353LT
+D Hall Effect Switch, SOT23
+K Hall Effect Switch Sensor
+F https://sensing.honeywell.com/honeywell-sensing-nanopower-series-product-sheet-50095501-a-en.pdf
+$ENDCMP
+#
 $CMP TLV493D
 D Low power 3D magnetic sensor, I2C interface, SOT23-6 package
 K magnetic field i2c
