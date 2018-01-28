@@ -450,6 +450,18 @@ K step down buck regulator
 F http://www.st.com/resource/en/datasheet/l5973d.pdf
 $ENDCMP
 #
+$CMP LM25085MM
+D 42V Constant On-Time PFET Buck Switching Controller, MSOP-8
+K Constant On-Time Buck Switching Controller
+F http://www.ti.com/lit/ds/symlink/lm25085.pdf
+$ENDCMP
+#
+$CMP LM25085MY
+D 42V Constant On-Time PFET Buck Switching Controller, MSOP-8-EP
+K Constant On-Time Buck Switching Controller
+F http://www.ti.com/lit/ds/symlink/lm25085.pdf
+$ENDCMP
+#
 $CMP LM2574HVM-12
 D 12V, 0.5A Step-Down Voltage Regulator, High Voltage Input, SO-8
 K Step-Down Voltage Regulator 12V 500mA HV
