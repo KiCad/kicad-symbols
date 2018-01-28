@@ -1140,6 +1140,12 @@ K Step-Down Switching Regulator High Voltage
 F http://www.ti.com/lit/ds/symlink/lm5017.pdf
 $ENDCMP
 #
+$CMP LM5022MM
+D 60-V Low-Side Controller for Boost and SEPIC
+K boost switching controller
+F http://www.ti.com/lit/ds/symlink/lm5022.pdf
+$ENDCMP
+#
 $CMP LM5165
 D 150mA Synchronous Buck Converter With Ultra-Low IQ, 3V-65V input, adjustable output voltage, DFN-10
 K step-down dc-dc buck regulator adjustable
