@@ -345,7 +345,7 @@ $ENDCMP
 $CMP D_Shockley
 D Shockley Diode (PNPN Diode)
 K Shockley diode
-F https://en.wikipedia.org/wiki/Shockley_diode
+F ~
 $ENDCMP
 #
 $CMP D_SiPM
@@ -366,31 +366,31 @@ $ENDCMP
 $CMP D_TVS
 D Bidirectional transient-voltage-suppression (TVS) diode
 K diode TVS thyrector
-F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
+F ~
 $ENDCMP
 #
 $CMP D_TVS_ALT
 D Bidirectional transient-voltage-suppression (TVS) diode, alternative symbol
 K diode TVS thyrector
-F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
+F ~
 $ENDCMP
 #
 $CMP D_TVS_x2_AAC
 D Bidirectional dual transient-voltage-suppression (TVS) diode (center=pin3)
 K diode TVS thyrector
-F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
+F ~
 $ENDCMP
 #
 $CMP D_TVS_x2_ACA
 D Bidirectional dual transient-voltage-suppression (TVS) diode (center=pin2)
 K diode TVS thyrector
-F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
+F ~
 $ENDCMP
 #
 $CMP D_TVS_x2_CAA
 D Bidirectional dual transient-voltage-suppression (TVS) diode (center=pin1)
 K diode TVS thyrector
-F https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode
+F ~
 $ENDCMP
 #
 $CMP D_Temperature_Dependent
@@ -426,25 +426,25 @@ $ENDCMP
 $CMP D_Zener
 D Zener Diode
 K diode
-F https://en.wikipedia.org/wiki/Zener_diode
+F ~
 $ENDCMP
 #
 $CMP D_Zener_ALT
 D Zener Diode, alternativ symbol
 K diode
-F https://en.wikipedia.org/wiki/Zener_diode
+F ~
 $ENDCMP
 #
 $CMP D_Zener_Small
 D Zener Diode, small symbol
 K diode
-F https://en.wikipedia.org/wiki/Zener_diode
+F ~
 $ENDCMP
 #
 $CMP D_Zener_Small_ALT
 D Zener Diode, small symbol, alternativ symbol
 K diode
-F https://en.wikipedia.org/wiki/Zener_diode
+F ~
 $ENDCMP
 #
 $CMP D_x2_ACom_AKK
@@ -843,7 +843,7 @@ $ENDCMP
 $CMP MEMRISTOR
 D Memristor
 K Memristor
-F https://en.wikipedia.org/wiki/Memristor
+F ~
 $ENDCMP
 #
 $CMP Microphone
@@ -1356,37 +1356,37 @@ $ENDCMP
 $CMP Q_TRIAC_A1A2G
 D triode for alternating current (TRIAC), pinordering A1=1, A2=2, G=3
 K triode for alternating current TRIAC
-F https://en.wikipedia.org/wiki/TRIAC
+F ~
 $ENDCMP
 #
 $CMP Q_TRIAC_A1GA2
 D triode for alternating current (TRIAC), pinordering A1=1, A2=3, G=2
 K triode for alternating current TRIAC
-F https://en.wikipedia.org/wiki/TRIAC
+F ~
 $ENDCMP
 #
 $CMP Q_TRIAC_A2A1G
 D triode for alternating current (TRIAC), pinordering A1=2, A2=1, G=3
 K triode for alternating current TRIAC
-F https://en.wikipedia.org/wiki/TRIAC
+F ~
 $ENDCMP
 #
 $CMP Q_TRIAC_A2GA1
 D triode for alternating current (TRIAC), pinordering A1=3, A2=1, G=2
 K triode for alternating current TRIAC
-F https://en.wikipedia.org/wiki/TRIAC
+F ~
 $ENDCMP
 #
 $CMP Q_TRIAC_GA1A2
 D triode for alternating current (TRIAC), pinordering A1=2, A2=3, G=1
 K triode for alternating current TRIAC
-F https://en.wikipedia.org/wiki/TRIAC
+F ~
 $ENDCMP
 #
 $CMP Q_TRIAC_GA2A1
 D triode for alternating current (TRIAC), pinordering A1=3, A2=2, G=1
 K triode for alternating current TRIAC
-F https://en.wikipedia.org/wiki/TRIAC
+F ~
 $ENDCMP
 #
 $CMP Q_Thyristor_AGK
@@ -1763,19 +1763,19 @@ $ENDCMP
 $CMP Thermocouple
 D thermocouple
 K thermocouple temperature sensor cold junction
-F https://en.wikipedia.org/wiki/Thermocouple
+F ~
 $ENDCMP
 #
 $CMP Thermocouple_ALT
 D thermocouple with connector block
 K thermocouple temperature sensor cold junction
-F https://en.wikipedia.org/wiki/Thermocouple
+F ~
 $ENDCMP
 #
 $CMP Thermocouple_Block
 D thermocouple with isothermal block
 K thermocouple temperature sensor cold junction
-F https://en.wikipedia.org/wiki/Thermocouple
+F ~
 $ENDCMP
 #
 $CMP Transformer_1P_1S
