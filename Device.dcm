@@ -215,11 +215,13 @@ $ENDCMP
 $CMP D_Photo
 D Photodiode
 K photodiode diode opto
+F ~
 $ENDCMP
 #
 $CMP D_Photo_ALT
 D Photodiode, alternative symbol
 K photodiode diode opto
+F ~
 $ENDCMP
 #
 $CMP D_Radiation
@@ -1547,6 +1549,7 @@ $ENDCMP
 $CMP R_PHOTO
 D Photoresistor, light sensitive resistor, LDR
 K resistor variable light opto LDR
+F ~
 $ENDCMP
 #
 $CMP R_Pack02

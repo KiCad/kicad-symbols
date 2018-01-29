@@ -67,7 +67,7 @@
 - [x] modules
 - [x] motor_drivers
 - [x] Motor
-- [ ] motorola
+- [x] motorola
 - [x] nordicsemi
 - [x] nxp
 - [x] onsemi
@@ -76,7 +76,7 @@
 - [x] philips
 - [x] powerint
 - [x] power
-- [ ] Power_Management
+- [x] Power_Management
 - [x] pspice
 - [x] references
 - [x] regul
