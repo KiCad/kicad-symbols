@@ -138,6 +138,18 @@ K 2Ch Dual Digital Isolator 25Mbps
 F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
+$CMP ADuM120N
+D Dual-channel digital isolator,1.8 to 5 V, 150Mbs, 3kV
+K Dual-channel digital isolator
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM120N_121N.pdf
+$ENDCMP
+#
+$CMP ADuM121N
+D Dual-channel digital isolator,1.8 to 5 V, 150Mbs, 3kV
+K Dual-channel digital isolator
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM120N_121N.pdf
+$ENDCMP
+#
 $CMP ADuM1410
 D Quad Channel Digital Isolator,10Mbps,SO-16
 K Digital Isolator
