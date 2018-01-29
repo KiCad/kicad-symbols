@@ -576,6 +576,66 @@ K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320
 F http://www.vishay.com/docs/83740/sfh617a.pdf
 $ENDCMP
 #
+$CMP TCMT1100
+D Optocoupler, Vce 70V, CTR 50-600%, Viso 3750V (RMS)
+K NPN DC
+F http://www.vishay.com/docs/83510/tcmt1100.pdf
+$ENDCMP
+#
+$CMP TCMT1101
+D Optocoupler, Vce 70V, CTR 40-80%, Viso 3750V (RMS)
+K NPN DC
+F http://www.vishay.com/docs/83510/tcmt1100.pdf
+$ENDCMP
+#
+$CMP TCMT1102
+D Optocoupler, Vce 70V, CTR 63-125%, Viso 3750V (RMS)
+K NPN DC
+F http://www.vishay.com/docs/83510/tcmt1100.pdf
+$ENDCMP
+#
+$CMP TCMT1103
+D Optocoupler, Vce 70V, CTR 100-200%, Viso 3750V (RMS)
+K NPN DC
+F http://www.vishay.com/docs/83510/tcmt1100.pdf
+$ENDCMP
+#
+$CMP TCMT1104
+D Optocoupler, Vce 70V, CTR 160-320%, Viso 3750V (RMS)
+K NPN DC
+F http://www.vishay.com/docs/83510/tcmt1100.pdf
+$ENDCMP
+#
+$CMP TCMT1105
+D Optocoupler, Vce 70V, CTR 50-150%, Viso 3750V (RMS)
+K NPN DC
+F http://www.vishay.com/docs/83510/tcmt1100.pdf
+$ENDCMP
+#
+$CMP TCMT1106
+D Optocoupler, Vce 70V, CTR 100-300%, Viso 3750V (RMS)
+K NPN DC
+F http://www.vishay.com/docs/83510/tcmt1100.pdf
+$ENDCMP
+#
+$CMP TCMT1107
+D Optocoupler, Vce 70V, CTR 80-160%, Viso 3750V (RMS)
+K NPN DC
+F http://www.vishay.com/docs/83510/tcmt1100.pdf
+$ENDCMP
+#
+$CMP TCMT1108
+D Optocoupler, Vce 70V, CTR 130-260%, Viso 3750V (RMS)
+K NPN DC
+F http://www.vishay.com/docs/83510/tcmt1100.pdf
+$ENDCMP
+#
+$CMP TCMT1109
+D Optocoupler, Vce 70V, CTR 200-400%, Viso 3750V (RMS)
+K NPN DC
+F http://www.vishay.com/docs/83510/tcmt1100.pdf
+$ENDCMP
+#
 $CMP TCMT1600
 D AC/DC Phototransistor Optocoupler, Vce 70V, CTR 80-300%, SOP4
 K NPN AC DC Phototransistor Optocoupler
