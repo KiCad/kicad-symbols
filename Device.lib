@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
 # Amperemeter_AC
@@ -906,14 +906,11 @@ ENDDEF
 #
 # D_Photo
 #
-DEF D_Photo D 0 40 N N 1 F N
+DEF D_Photo D 0 20 N N 1 F N
 F0 "D" 20 70 50 H V L CNN
 F1 "D_Photo" -40 -110 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
-$FPLIST
- *photodiode*
-$ENDFPLIST
 DRAW
 P 2 0 1 8 -100 50 -100 -50 N
 P 2 0 1 0 -80 70 -60 70 N
@@ -928,14 +925,11 @@ ENDDEF
 #
 # D_Photo_ALT
 #
-DEF D_Photo_ALT D 0 40 N N 1 F N
+DEF D_Photo_ALT D 0 20 N N 1 F N
 F0 "D" 20 70 50 H V L CNN
 F1 "D_Photo_ALT" -40 -110 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
-$FPLIST
- *photodiode*
-$ENDFPLIST
 DRAW
 P 2 0 1 8 -100 50 -100 -50 N
 P 2 0 1 0 -80 70 -60 70 N
@@ -1539,7 +1533,7 @@ ENDDEF
 #
 # D_SiPM
 #
-DEF D_SiPM D 0 40 N N 1 F N
+DEF D_SiPM D 0 20 N N 1 F N
 F0 "D" 70 70 50 H V L CNN
 F1 "D_SiPM" 10 -110 50 H V C CNN
 F2 "" 50 175 50 H I C CNN
@@ -3748,7 +3742,7 @@ ENDDEF
 #
 # Laserdiode_M_TYPE
 #
-DEF Laserdiode_M_TYPE LD 0 40 Y N 1 F N
+DEF Laserdiode_M_TYPE LD 0 20 Y N 1 F N
 F0 "LD" 40 280 50 H V C CNN
 F1 "Laserdiode_M_TYPE" 40 -220 50 H V C CNN
 F2 "" 40 75 50 H I C CNN
@@ -3795,7 +3789,7 @@ ENDDEF
 #
 # Laserdiode_N_TYPE
 #
-DEF Laserdiode_N_TYPE LD 0 40 Y N 1 F N
+DEF Laserdiode_N_TYPE LD 0 20 Y N 1 F N
 F0 "LD" 40 280 50 H V C CNN
 F1 "Laserdiode_N_TYPE" 40 -220 50 H V C CNN
 F2 "" 0 75 50 H I C CNN
@@ -3842,7 +3836,7 @@ ENDDEF
 #
 # Laserdiode_P_TYPE
 #
-DEF Laserdiode_P_TYPE LD 0 40 Y N 1 F N
+DEF Laserdiode_P_TYPE LD 0 20 Y N 1 F N
 F0 "LD" 40 280 50 H V C CNN
 F1 "Laserdiode_P_TYPE" 40 -220 50 H V C CNN
 F2 "" 0 75 50 H I C CNN
@@ -7840,9 +7834,8 @@ F1 "R_PHOTO" 50 0 50 H V L TNN
 F2 "" 50 -250 50 V I L CNN
 F3 "" 0 -50 50 H I C CNN
 $FPLIST
- R?
- R?-*
- LDR*
+ *LDR*
+ R?LDR*
 $ENDFPLIST
 DRAW
 S -40 100 40 -100 0 1 10 N
