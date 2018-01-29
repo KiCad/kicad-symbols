@@ -1,0 +1,30 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCF5211CAE66
+D ColdFire Microcontroller, LQFP64
+K MCU
+F https://www.nxp.com/docs/en/data-sheet/MCF5213EC.pdf
+$ENDCMP
+#
+$CMP MCF5212CAE66
+D ColdFire Microcontroller, LQFP64
+K MCU
+F https://www.nxp.com/docs/en/data-sheet/MCF5213EC.pdf
+$ENDCMP
+#
+$CMP MCF5213-LQFP100
+D Coldfire with SRAM and Flash Eprom - LQFP100 package
+K COLDFIRE
+$ENDCMP
+#
+$CMP MCF5282
+D Coldfire with SRAM and Flash Eprom
+K COLDFIRE
+$ENDCMP
+#
+$CMP MCF5407
+D Coldfire CPU
+K COLDFIRE
+$ENDCMP
+#
+#End Doc Library
