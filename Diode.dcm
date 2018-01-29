@@ -762,6 +762,12 @@ K diode
 F http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/switching/ump11n.pdf
 $ENDCMP
 #
+$CMP S2JTR
+D 600V 2A General Purpose Rectifier Diode, SMB
+K diode
+F http://www.smc-diodes.com/propdf/S2A-S2M%20N0562%20REV.A.pdf
+$ENDCMP
+#
 $CMP SB120
 D 20V 1A Schottky Barrier Rectifier Diode, DO-41
 K diode Schottky
