@@ -307,7 +307,7 @@ F https://www.infineon.com/dgdl/Infineon-BSP129-DS-v01_42-en.pdf?fileId=db3a3043
 $ENDCMP
 #
 $CMP BSS138
-D 50V Vds, 0.22 A Id, N-channel MOSFET, SOT-23
+D 50V Vds, 0.22A Id, N-channel MOSFET, SOT-23
 K N-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf
 $ENDCMP
@@ -961,7 +961,7 @@ F http://www.irf.com/product-info/datasheets/data/irf7343ipbf.pdf
 $ENDCMP
 #
 $CMP IRF740
-D MOSFET, N Channel, 10 A, 400 V, 0.5 ohm
+D 10A Id, 400V Vds, N-Channel Power MOSFET, 500mOhm Rds, TO-220AB
 K N Channel
 F http://www.vishay.com/docs/91054/91054.pdf
 $ENDCMP
