@@ -45,13 +45,25 @@ $ENDCMP
 $CMP 6N135
 D High Speed Optocoupler, TTL Compatible, CTR 18%, DIP8
 K High Speed Optocoupler
-F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/6N135_6N136_en_datasheet_071001.pdf
+F https://optoelectronics.liteon.com/upload/download/DS70-2008-0032/6N135-L%206N136-L%20series.pdf
+$ENDCMP
+#
+$CMP 6N135S
+D High Speed Optocoupler, TTL Compatible, CTR 18%, SMDIP8
+K High Speed Optocoupler
+F https://optoelectronics.liteon.com/upload/download/DS70-2008-0032/6N135-L%206N136-L%20series.pdf
 $ENDCMP
 #
 $CMP 6N136
 D High Speed Optocoupler, TTL Compatible, CTR 24%, DIP8
 K High Speed Optocoupler
-F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/6N135_6N136_en_datasheet_071001.pdf
+F https://optoelectronics.liteon.com/upload/download/DS70-2008-0032/6N135-L%206N136-L%20series.pdf
+$ENDCMP
+#
+$CMP 6N136S
+D High Speed Optocoupler, TTL Compatible, CTR 18%, SMDIP8
+K High Speed Optocoupler
+F https://optoelectronics.liteon.com/upload/download/DS70-2008-0032/6N135-L%206N136-L%20series.pdf
 $ENDCMP
 #
 $CMP ACPL-P343
@@ -136,6 +148,18 @@ $CMP ADuM1201WU
 D Dual-Channel Digital Isolator, 25Mbps 45ns, Highest Temp. Grade, bidirectional communication, 3 V/5 V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 25Mbps
 F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
+$CMP ADuM120N
+D Dual-channel digital isolator,1.8 to 5 V, 150Mbs, 3kV
+K Dual-channel digital isolator
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM120N_121N.pdf
+$ENDCMP
+#
+$CMP ADuM121N
+D Dual-channel digital isolator,1.8 to 5 V, 150Mbs, 3kV
+K Dual-channel digital isolator
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM120N_121N.pdf
 $ENDCMP
 #
 $CMP ADuM1410
@@ -574,6 +598,66 @@ $CMP SFH617A-4X016
 D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320, -55 to +110 degree Celcius, VDE, UL, BSI, FIMKO, wide THT PDIP-4
 K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320
 F http://www.vishay.com/docs/83740/sfh617a.pdf
+$ENDCMP
+#
+$CMP TCMT1100
+D Optocoupler, Vce 70V, CTR 50-600%, Viso 3750V (RMS)
+K NPN DC
+F http://www.vishay.com/docs/83510/tcmt1100.pdf
+$ENDCMP
+#
+$CMP TCMT1101
+D Optocoupler, Vce 70V, CTR 40-80%, Viso 3750V (RMS)
+K NPN DC
+F http://www.vishay.com/docs/83510/tcmt1100.pdf
+$ENDCMP
+#
+$CMP TCMT1102
+D Optocoupler, Vce 70V, CTR 63-125%, Viso 3750V (RMS)
+K NPN DC
+F http://www.vishay.com/docs/83510/tcmt1100.pdf
+$ENDCMP
+#
+$CMP TCMT1103
+D Optocoupler, Vce 70V, CTR 100-200%, Viso 3750V (RMS)
+K NPN DC
+F http://www.vishay.com/docs/83510/tcmt1100.pdf
+$ENDCMP
+#
+$CMP TCMT1104
+D Optocoupler, Vce 70V, CTR 160-320%, Viso 3750V (RMS)
+K NPN DC
+F http://www.vishay.com/docs/83510/tcmt1100.pdf
+$ENDCMP
+#
+$CMP TCMT1105
+D Optocoupler, Vce 70V, CTR 50-150%, Viso 3750V (RMS)
+K NPN DC
+F http://www.vishay.com/docs/83510/tcmt1100.pdf
+$ENDCMP
+#
+$CMP TCMT1106
+D Optocoupler, Vce 70V, CTR 100-300%, Viso 3750V (RMS)
+K NPN DC
+F http://www.vishay.com/docs/83510/tcmt1100.pdf
+$ENDCMP
+#
+$CMP TCMT1107
+D Optocoupler, Vce 70V, CTR 80-160%, Viso 3750V (RMS)
+K NPN DC
+F http://www.vishay.com/docs/83510/tcmt1100.pdf
+$ENDCMP
+#
+$CMP TCMT1108
+D Optocoupler, Vce 70V, CTR 130-260%, Viso 3750V (RMS)
+K NPN DC
+F http://www.vishay.com/docs/83510/tcmt1100.pdf
+$ENDCMP
+#
+$CMP TCMT1109
+D Optocoupler, Vce 70V, CTR 200-400%, Viso 3750V (RMS)
+K NPN DC
+F http://www.vishay.com/docs/83510/tcmt1100.pdf
 $ENDCMP
 #
 $CMP TCMT1600
