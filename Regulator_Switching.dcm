@@ -450,6 +450,24 @@ K step down buck regulator
 F http://www.st.com/resource/en/datasheet/l5973d.pdf
 $ENDCMP
 #
+$CMP LM25085MM
+D 42V Constant On-Time PFET Buck Switching Controller, MSOP-8
+K buck switching contoller
+F http://www.ti.com/lit/ds/symlink/lm25085.pdf
+$ENDCMP
+#
+$CMP LM25085MY
+D 42V Constant On-Time PFET Buck Switching Controller, MSOP-8-EP
+K buck switching contoller
+F http://www.ti.com/lit/ds/symlink/lm25085.pdf
+$ENDCMP
+#
+$CMP LM25085SD
+D 42V Constant On-Time PFET Buck Switching Controller, WSON-8
+K buck switching contoller
+F http://www.ti.com/lit/ds/symlink/lm25085.pdf
+$ENDCMP
+#
 $CMP LM2574HVM-12
 D 12V, 0.5A Step-Down Voltage Regulator, High Voltage Input, SO-8
 K Step-Down Voltage Regulator 12V 500mA HV
@@ -1138,6 +1156,12 @@ $CMP LM5017SD
 D 600 mA, 100V Step-Down Switching Regulator, WSON-8
 K Step-Down Switching Regulator High Voltage
 F http://www.ti.com/lit/ds/symlink/lm5017.pdf
+$ENDCMP
+#
+$CMP LM5022MM
+D 60-V Low-Side Controller for Boost and SEPIC, MSOP-10
+K boost switching controller
+F http://www.ti.com/lit/ds/symlink/lm5022.pdf
 $ENDCMP
 #
 $CMP LM5165
@@ -2482,6 +2506,12 @@ $CMP MIC2178-5.0
 D 2.5A Synchronous Buck Regulator, 4.5-16.5V Input Voltage, 5.0V Fixed Output Voltage, SO-20W
 K Synchronous Buck Regulator fixed
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2177.pdf
+$ENDCMP
+#
+$CMP MIC2290
+D 1.2 Mhz PWM Boost Regulator with Internal Schotty Diode, MLF-8
+K boost switching voltage converter regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2290.pdf
 $ENDCMP
 #
 $CMP MIC4690

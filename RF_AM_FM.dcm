@@ -120,4 +120,10 @@ K RF TRANSCEIVER MODULE
 F https://www.rfsolutions.co.uk/downloads/1456219226DS-ZETA.pdf
 $ENDCMP
 #
+$CMP MCS3142
+D Microchip KEELOQ classic / ultimate encoder - keyfob IC sending button state, serial and authentiation as PWM/manchester encoded AM/FM signal in ISM bands
+K KEELOQ classic ultimate keyless entry keyfob ISM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001747A.pdf
+$ENDCMP
+#
 #End Doc Library

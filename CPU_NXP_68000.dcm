@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 68000D
+D 16/32-bit Microprocessor
+K 68000 Microprocessor CPU
+F https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf
+$ENDCMP
+#
+$CMP 68008D
+D 16/32-bit Microprocessor, 8-bit databus
+K 68000 Microprocessor CPU
+F https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf
+$ENDCMP
+#
+$CMP 68010D
+D 16/32-bit Microprocessor
+K 68000 Microprocessor CPU
+F https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf
+$ENDCMP
+#
+$CMP MC68000FN
+D Microprocessor, 16-bit bus
+K MPRO
+F http://www.nxp.com/files/32bit/doc/ref_manual/MC68000UM.pdf
+$ENDCMP
+#
+$CMP MC68332
+D MCU 32 bit, PQFP-132
+K MCU 32 bit
+F http://pdf.datasheetcatalog.com/datasheet/motorola/SPAKMC332AVFC20.pdf
+$ENDCMP
+#
+#End Doc Library
