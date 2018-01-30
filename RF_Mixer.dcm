@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADL5801
+D 10 MHz to 6 GHz Active Mixer, LFCSP-24
+K mixer active
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADL5801.pdf
+$ENDCMP
+#
 $CMP LT5560
 D 0.01MHz to 4GHz Low Power Active Mixer, DFN-8
 K rf mixer
