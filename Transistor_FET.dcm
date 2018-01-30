@@ -906,6 +906,18 @@ K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/FD/FDS9934C.pdf
 $ENDCMP
 #
+$CMP IPD50R380CE
+D 14.1A Id, 500V Vds, CoolMOS N-Channel Power MOSFET, 380mOhm Ron, 24.8nC Qg (typ), TO-252-2
+K CoolMOS Power MOSFET N-MOS
+F https://www.infineon.com/dgdl/Infineon-IPD50R380CE-DS-v02_01-en.pdf?fileId=db3a30433ecb86d4013ed0a2ef580f38
+$ENDCMP
+#
+$CMP IPD50R3K0CE
+D 1.7A Id, 500V Vds, CoolMOS N-Channel Power MOSFET, 3Ohm Ron, 4.3nC Qg (typ), TO-252-2
+K CoolMOS Power MOSFET N-MOS
+F https://www.infineon.com/dgdl/IPx50R3K0CE_2_0.pdf?folderId=db3a3043163797a6011637d4bae7003b&fileId=db3a304339dcf4b10139e7e9ff592ce4
+$ENDCMP
+#
 $CMP IPT012N08N5ATMA1
 D 300A Id, 80V Vds, OptiMOS N-Channel Power MOSFET, 1.2mOhm Ron, Qg (typ) 178.0nC, PG-HSOF-8
 K OptiMOS Power MOSFET N-MOS
