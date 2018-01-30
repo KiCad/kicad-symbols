@@ -2508,6 +2508,12 @@ K Synchronous Buck Regulator fixed
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2177.pdf
 $ENDCMP
 #
+$CMP MIC2290
+D 1.2 Mhz PWM Boost Regulator with Internal Schotty Diode, MLF-8
+K boost switching voltage converter regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2290.pdf
+$ENDCMP
+#
 $CMP MIC4690
 D 1A, 500kHz SuperSwitcher Buck Regulator, 4-34V Input Voltage, Adjustable Output Voltage, SO-8
 K regulator switching adjustable
