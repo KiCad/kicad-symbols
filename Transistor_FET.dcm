@@ -1308,6 +1308,54 @@ K Dual N-Channel MOSFET
 F www.st.com/resource/en/datasheet/CD00001537.pdf
 $ENDCMP
 #
+$CMP SUD08P06-155L
+D 8.4A Id, 60V Vds, TrenchFET P-Channel Power MOSFET, 155mOhm Ron, 19nC Qg, -55 to 150 °C, TO-252-2
+K TrenchFET P-Channel Power MOSFET
+F https://www.vishay.com/docs/62843/sud08p06-155l-ge3.pdf
+$ENDCMP
+#
+$CMP SUD09P10-195
+D 8.8A Id, 100V Vds, TrenchFET P-Channel Power MOSFET, 195mOhm Ron, 34.8nC Qg, -55 to 150 °C, TO-252-2
+K TrenchFET P-Channel Power MOSFET
+F https://www.vishay.com/docs/65903/SUD09P10.pdf
+$ENDCMP
+#
+$CMP SUD19P06-60
+D 19A Id, 60V Vds, TrenchFET P-Channel Power MOSFET, 60mOhm Ron, 40nC Qg, -55 to 150 °C, TO-252-2
+K TrenchFET P-Channel Power MOSFET
+F https://www.vishay.com/docs/69253/sud19p06.pdf
+$ENDCMP
+#
+$CMP SUD45P03-09
+D 45A Id, 30V Vds, TrenchFET P-Channel Power MOSFET, 8.7mOhm Ron, 90nC Qg, -55 to 150 °C, TO-252-2
+K TrenchFET P-Channel Power MOSFET
+F https://www.vishay.com/docs/65595/sud45p03.pdf
+$ENDCMP
+#
+$CMP SUD50P04-08
+D 50A Id, 40V Vds, TrenchFET P-Channel Power MOSFET, 8.1mOhm Ron, 159nC Qg, -55 to 150 °C, TO-252-2
+K TrenchFET P-Channel Power MOSFET
+F https://www.vishay.com/docs/65594/sud50p04-08.pdf
+$ENDCMP
+#
+$CMP SUD50P06-15
+D 50A Id, 60V Vds, TrenchFET P-Channel Power MOSFET, 15mOhm Ron, 165nC Qg, -55 to 150 °C, TO-252-2
+K TrenchFET P-Channel Power MOSFET
+F https://www.vishay.com/docs/68940/sud50p06.pdf
+$ENDCMP
+#
+$CMP SUD50P08-25L
+D 50A Id, 80V Vds, TrenchFET P-Channel Power MOSFET, 25.2mOhm Ron, 160nC Qg, -55 to 175 °C, TO-252-2
+K TrenchFET P-Channel Power MOSFET
+F https://www.vishay.com/docs/73443/sud50p08.pdf
+$ENDCMP
+#
+$CMP SUD50P10-43L
+D 37A Id, 100V Vds, TrenchFET P-Channel Power MOSFET, 43mOhm Ron, 160nC Qg, -55 to 150 °C, TO-252-2
+K TrenchFET P-Channel Power MOSFET
+F https://www.vishay.com/docs/62504/sud50p10-43l-ge3.pdf
+$ENDCMP
+#
 $CMP Si4532DY
 D 3.9A Id, 30V Vds, Dual N and P Channel MOSFET, 65mOhm Ron, 10V Vgs, SO8L
 K Dual N-Channel P-Channel MOSFET
