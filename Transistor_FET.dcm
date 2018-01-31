@@ -1051,14 +1051,14 @@ F http://www.onsemi.com/pub/Collateral/NTR2101P-D.PDF
 $ENDCMP
 #
 $CMP QM6006D
-D 60V, 35A, N-Channel Power MOSFET, 18mOhm, Qg (typ) 19.3nC, TO252
-K N Channel MOSFET
+D 60V Id, 35A Vds, N-Channel Power MOSFET, 18mOhm Ron, Qg (typ) 19.3nC, TO252
+K N-Channel MOSFET
 F http://www.jaolen.com/images/pdf/QM6006D.pdf
 $ENDCMP
 #
 $CMP QM6015D
-D -35A Id, -60V Vds, P-Channel Power MOSFET, 25mOhm, Qg (typ) 25.0nC, TO252
-K P Channel MOSFET
+D -35A Id, -60V Vds, P-Channel Power MOSFET, 25mOhm Ron, Qg (typ) 25.0nC, TO252
+K P-Channel MOSFET
 F http://www.jaolen.com/images/pdf/QM6015D.pdf
 $ENDCMP
 #
