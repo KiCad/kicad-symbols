@@ -66,18 +66,6 @@ K High Speed Optocoupler
 F https://optoelectronics.liteon.com/upload/download/DS70-2008-0032/6N135-L%206N136-L%20series.pdf
 $ENDCMP
 #
-$CMP ACPL-P343
-D Gate Drive Optocoupler, Output Current 4.0/4.0A, Propagation Delay 200ns, SSO-6
-K MOSFET Driver IGBT Driver Optocoupler
-F http://www.avagotech.com/docs/AV02-2928EN
-$ENDCMP
-#
-$CMP ACPL-W343
-D Gate Drive Optocoupler, Output Current 4.0/4.0A, Propagation Delay 200ns, SSO-6
-K MOSFET Driver IGBT Driver Optocoupler
-F http://www.avagotech.com/docs/AV02-2928EN
-$ENDCMP
-#
 $CMP ADuM1200AR
 D Dual-channel digital isolator, Bidirectional communication, 3 V/5 V level translation, SOIC-8
 K Dual-channel digital isolator
@@ -250,12 +238,6 @@ $CMP HCPL2731
 D Low Input Current high Gain Split Darlington Optocouplers
 K darlington optocoupler
 F http://www.mouser.com/ds/2/149/HCPL2731-188691.pdf
-$ENDCMP
-#
-$CMP HCPL3120
-D Gate Drive Optocoupler, Output Current 2.5/2.5A, PDIP-8
-K MOSFET Driver IGBT Driver Optocoupler
-F http://www.avagotech.com/docs/AV02-0161EN
 $ENDCMP
 #
 $CMP ILD74
@@ -730,12 +712,6 @@ $CMP TLP185(SE
 D DC Optocoupler, Vce 80V, CTR 50-100%, MFSOP6
 K NPN DC Optocoupler
 F https://toshiba.semicon-storage.com/info/docget.jsp?did=14111&prodName=TLP185(SE
-$ENDCMP
-#
-$CMP TLP250
-D Gate Drive Optocoupler, Output Current 1.5/1.5A
-K MOSFET Driver IGBT Driver Optocoupler
-F http://toshiba.semicon-storage.com/info/docget.jsp?did=16821&prodName=TLP250
 $ENDCMP
 #
 $CMP TLP2703
