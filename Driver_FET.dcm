@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ACPL-P343
+D Gate Drive Optocoupler, Output Current 4.0/4.0A, Propagation Delay 200ns
+K MOSFET Driver IGBT Driver Optocoupler
+F https://docs.broadcom.com/docs/AV02-2928EN
+$ENDCMP
+#
+$CMP ACPL-W343
+D Gate Drive Optocoupler, Output Current 4.0/4.0A, Propagation Delay 200ns
+K MOSFET Driver IGBT Driver Optocoupler
+F http://www.avagotech.com/docs/AV02-2928EN
+$ENDCMP
+#
 $CMP EL7202CN
 D High Speed, Dual Channel Power MOSFET Driver
 K Driver, Dual MOSFET
@@ -18,6 +30,16 @@ K Driver, Dual MOSFET
 F http://www.intersil.com/content/dam/Intersil/documents/el72/el7202-12-22.pdf
 $ENDCMP
 #
+$CMP HCPL-3120
+D Gate Drive Optocoupler, Output Current 2.5/2.5A, PDIP-8
+K MOSFET Driver IGBT Driver Optocoupler
+F https://docs.broadcom.com/docs/AV02-0161EN
+$ENDCMP
+#
+$CMP HCPL-314J
+D Gate Drive Optocoupler, Output Current 1.5/1.5A
+K MOSFET Driver IGBT Driver Optocoupler
+F https://docs.broadcom.com/docs/AV02-0169EN
 $CMP FAN3268
 D Low-Voltage 18V PMOS-NMOS Bridge Driver, SOIC-8
 K Driver MOSFET
@@ -240,6 +262,10 @@ K Driver, Dual MOSFET
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic4426.pdf
 $ENDCMP
 #
+$CMP TLP250
+D Gate Drive Optocoupler, Output Current 1.5/1.5A
+K MOSFET Driver IGBT Driver Optocoupler
+F http://toshiba.semicon-storage.com/info/docget.jsp?did=16821&prodName=TLP250
 $CMP PM8834
 D 4 A dual low-side MOSFET driver (SO8 package)
 K mosfet driver
