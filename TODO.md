@@ -8,7 +8,7 @@
 - [x] atmel
 - [x] audio
 - [x] Battery_Management
-- [ ] bbd
+- [x] bbd
 - [x] Bosch
 - [x] brooktre
 - [x] Connector
@@ -32,7 +32,7 @@
 - [x] Graphic
 - [x] hc11
 - [x] infineon
-- [ ] intel
+- [x] intel
 - [x] interface
 - [x] intersil
 - [x] ir
@@ -64,25 +64,25 @@
 - [x] Mechanical
 - [x] microchip
 - [x] microcontrollers
-- [ ] modules
+- [x] modules
 - [x] motor_drivers
 - [x] Motor
-- [ ] motorola
+- [x] motorola
 - [x] nordicsemi
 - [x] nxp
-- [ ] onsemi
+- [x] onsemi
 - [x] opto
 - [x] Oscillators
 - [x] philips
 - [x] powerint
 - [x] power
-- [ ] Power_Management
+- [x] Power_Management
 - [x] pspice
 - [x] references
 - [x] regul
 - [x] Relay
 - [x] RF_Bluetooth
-- [ ] rfcom
+- [x] rfcom
 - [x] RFSolutions
 - [x] Sensor_Current
 - [x] Sensor_Humidity
@@ -94,9 +94,9 @@
 - [x] texas
 - [x] Transformer
 - [x] Transistor
-- [ ] triac_thyristor
+- [x] triac_thyristor
 - [x] Valve
-- [ ] video
+- [x] video
 - [x] wiznet
 - [x] Worldsemi
 - [x] Xicor

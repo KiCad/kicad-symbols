@@ -1,5 +1,32 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 16450
+D PC16450, Universal Asynchronous Receiver/Transmitter, PDIP-40
+K 1ch UART
+$ENDCMP
+#
+$CMP 16550
+D PC16550D, Universal Asynchronous Receiver/Transmitter with FIFOs, PDIP-40
+K 1ch UART FIFO
+F http://www.ti.com/lit/ds/symlink/pc16550d.pdf
+$ENDCMP
+#
+$CMP 68C681
+D CMOS Dual Channel UART
+K UART serial
+F https://www.elektronik.ropla.eu/pdf/stock/exa/xr68c681.pdf
+$ENDCMP
+#
+$CMP 8250
+D PC8250A, Universal Asynchronous Receiver/Transmitter, PDIP-40
+K 1ch UART
+$ENDCMP
+#
+$CMP 8252
+D Universal Asynchronous Receiver/Transmitter, PDIP-28
+K UART Serial Interface
+$ENDCMP
+#
 $CMP ADM101E
 D Single RS232 driver/receiver, 5V supply, 460kb/s
 K rs232 uart transceiver line-driver
@@ -262,6 +289,24 @@ $CMP MAX491E
 D Full duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate limited, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, 0 to +70 degree Celcius, DIP-14 and SOIC-14
 K Full duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate limited, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, 0 to +70 degree Celcius, DIP-14 and SOIC-14
 F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+$ENDCMP
+#
+$CMP MC6850
+D Asynchronous Communications Interface Adapter 1MHz, DIP-40
+K ACIA
+F http://pdf.datasheetcatalog.com/datasheet/motorola/MC6850.pdf
+$ENDCMP
+#
+$CMP MC68A50
+D Asynchronous Communications Interface Adapter 1.5MHz, DIP-40
+K ACIA
+F http://pdf.datasheetcatalog.com/datasheet/motorola/MC6850.pdf
+$ENDCMP
+#
+$CMP MC68B50
+D Asynchronous Communications Interface Adapter 2MHz, DIP-40
+K ACIA
+F http://pdf.datasheetcatalog.com/datasheet/motorola/MC6850.pdf
 $ENDCMP
 #
 $CMP SN65LBC176D

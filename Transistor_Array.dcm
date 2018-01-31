@@ -1,93 +1,117 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP A2982
+D 8-Channel Source Driver, TTL DTL, PMOS or CMOS compatible, 500mA 50V output, SOIC-20W
+K relays solenoids lamps steppers servos LEDs
+F https://www.allegromicro.com/~/media/Files/Datasheets/A2981-2-Datasheet.ashx
+$ENDCMP
+#
 $CMP MC1413
-D High Voltage, High Current Darlington Transistor Arrays
+D High Voltage, High Current Darlington Transistor Arrays, SOIC16/DIP16
 K darlington transistor array
 F http://www.onsemi.com/pub_link/Collateral/MC1413-D.PDF
 $ENDCMP
 #
-$CMP MC1413P
-D High Voltage, High Current Darlington Transistor Arrays
+$CMP MC1413B
+D High Voltage, High Current Darlington Transistor Arrays, TTL/CMOS-compatible, SOIC16/DIP16
+K darlington transistor array
+F http://www.onsemi.com/pub_link/Collateral/MC1413-D.PDF
+$ENDCMP
+#
+$CMP NCV1413B
+D High Voltage, High Current Darlington Transistor Arrays, SOIC16
 K darlington transistor array
 F http://www.onsemi.com/pub_link/Collateral/MC1413-D.PDF
 $ENDCMP
 #
 $CMP SN75468
-D Higher Voltage, High Current Darlington Transistor Arrays
+D Higher Voltage, High Current Darlington Transistor Arrays, 5V CMOS/TTL-compatible input, SOIC16/SOIC16W/DIP16
 K darlington transistor array
 F http://www.ti.com/lit/ds/slrs023e/slrs023e.pdf
 $ENDCMP
 #
 $CMP SN75469
-D Higher Voltage, High Current Darlington Transistor Arrays
+D Higher Voltage, High Current Darlington Transistor Arrays, 6-15V CMOS/PMOS-compatible input, SOIC16/SOIC16W/DIP16
 K darlington transistor array
 F http://www.ti.com/lit/ds/slrs023e/slrs023e.pdf
 $ENDCMP
 #
 $CMP ULN2002
-D High Voltage, High Current Darlington Transistor Arrays
+D High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16
 K darlington transistor array
 F http://www.ti.com/lit/ds/symlink/uln2003a.pdf
 $ENDCMP
 #
 $CMP ULN2002A
-D High Voltage, High Current Darlington Transistor Arrays
+D High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16
 K darlington transistor array
 F http://www.ti.com/lit/ds/symlink/uln2003a.pdf
 $ENDCMP
 #
 $CMP ULN2003
-D High Voltage, High Current Darlington Transistor Arrays
+D High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16
 K darlington transistor array
 F http://www.ti.com/lit/ds/symlink/uln2003a.pdf
 $ENDCMP
 #
 $CMP ULN2003A
-D High Voltage, High Current Darlington Transistor Arrays
+D High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16
 K darlington transistor array
 F http://www.ti.com/lit/ds/symlink/uln2003a.pdf
 $ENDCMP
 #
 $CMP ULN2004
-D High Voltage, High Current Darlington Transistor Arrays
+D High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16
 K darlington transistor array
 F http://www.ti.com/lit/ds/symlink/uln2003a.pdf
 $ENDCMP
 #
 $CMP ULN2004A
-D High Voltage, High Current Darlington Transistor Arrays
+D High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16
 K darlington transistor array
 F http://www.ti.com/lit/ds/symlink/uln2003a.pdf
 $ENDCMP
 #
 $CMP ULN2801A
-D Darlington Transistor Arrays
+D Darlington Transistor Arrays, SOIC18/DIP18
 K darlington transistor array
 F http://www.promelec.ru/pdf/1536.pdf
 $ENDCMP
 #
 $CMP ULN2802A
-D Darlington Transistor Arrays
+D Darlington Transistor Arrays, SOIC18/DIP18
 K darlington transistor array
 F http://www.promelec.ru/pdf/1536.pdf
 $ENDCMP
 #
 $CMP ULN2803A
-D Darlington Transistor Arrays, SOIC-18
+D Darlington Transistor Arrays, SOIC18/DIP18
 K Darlington transistor array
 F http://www.ti.com/lit/ds/symlink/uln2803a.pdf
 $ENDCMP
 #
 $CMP ULN2804A
-D Darlington Transistor Arrays
+D Darlington Transistor Arrays, SOIC18/DIP18
 K darlington transistor array
 F http://www.promelec.ru/pdf/1536.pdf
 $ENDCMP
 #
 $CMP ULN2805A
-D Darlington Transistor Arrays
+D Darlington Transistor Arrays, SOIC18/DIP18
 K darlington transistor array
 F http://www.promelec.ru/pdf/1536.pdf
+$ENDCMP
+#
+$CMP ULQ2003A
+D High Voltage, High Current Darlington Transistor Arrays, SOIC16W/TSSOP16
+K darlington transistor array
+F http://www.ti.com/lit/ds/symlink/uln2003a.pdf
+$ENDCMP
+#
+$CMP ULQ2004A
+D High Voltage, High Current Darlington Transistor Arrays, SOIC16W/TSSOP16
+K darlington transistor array
+F http://www.ti.com/lit/ds/symlink/uln2003a.pdf
 $ENDCMP
 #
 #End Doc Library

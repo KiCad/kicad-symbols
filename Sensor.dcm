@@ -6,6 +6,12 @@ K Energy Metering
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADE7758.pdf
 $ENDCMP
 #
+$CMP DHT11
+D Temperature and humidity module
+K digital temperature humidity sensor
+F http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
+$ENDCMP
+#
 $CMP AS3935
 D Programmable fully integrated Lightning Sensor IC
 K lightening sensor
@@ -28,6 +34,18 @@ $CMP LTC2990
 D Temperature Voltage and Current Monitor, I2C Interface, MSOP-10
 K Temperature Voltage Current Monitor I2C AFE
 F http://cds.linear.com/docs/en/datasheet/2990fd.pdf
+$ENDCMP
+#
+$CMP SHT1x
+D Temperature and humidity module
+K digital temperature humidity sensor
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Sensirion_Humidity_Sensors_SHT1x_Datasheet.pdf
+$ENDCMP
+#
+$CMP MAX30102
+D Heart Rate Sensor, 14-OLGA
+K Heart Rate
+F https://datasheets.maximintegrated.com/en/ds/MAX30102.pdf
 $ENDCMP
 #
 #End Doc Library

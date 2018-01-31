@@ -40,6 +40,22 @@ $CMP HCPL-314J
 D Gate Drive Optocoupler, Output Current 1.5/1.5A
 K MOSFET Driver IGBT Driver Optocoupler
 F https://docs.broadcom.com/docs/AV02-0169EN
+$CMP FAN3268
+D Low-Voltage 18V PMOS-NMOS Bridge Driver, SOIC-8
+K Driver MOSFET
+F http://www.onsemi.com/pub/Collateral/FAN3268T_F085-D.PDF
+$ENDCMP
+#
+$CMP FAN7371
+D High-Current High-Side Gate Driver, 600V Vs, 4A Io, SOIC-8
+K high-side gate driver
+F https://www.fairchildsemi.com/datasheets/FA/FAN7371.pdf
+$ENDCMP
+#
+$CMP FAN7842
+D High and Low Side Gate Driver
+K gate driver
+F https://www.fairchildsemi.com/datasheets/FA/FAN7842.pdf
 $ENDCMP
 #
 $CMP HIP2100_DFN
@@ -180,6 +196,30 @@ K Half-Bridge Gate Driver
 F http://www.ti.com/lit/ds/symlink/lm5109.pdf
 $ENDCMP
 #
+$CMP LTC4440EMS8
+D High-side, N-Channel, Mosfet driver, 80V input, -40°C to +85°C, MSOP-8 package
+K high-side mosfet-driver
+F http://cds.linear.com/docs/en/datasheet/4440fb.pdf
+$ENDCMP
+#
+$CMP LTC4440ES6
+D High-side, N-Channel, Mosfet driver, 80V input, -40°C to +85°C, SOT23-6 package
+K high-side mosfet-driver
+F http://cds.linear.com/docs/en/datasheet/4440fb.pdf
+$ENDCMP
+#
+$CMP LTC4440IMS8
+D High-side, N-Channel, Mosfet driver, 80V input, -40°C to +125°C, MSOP-8 package
+K high-side mosfet-driver
+F http://cds.linear.com/docs/en/datasheet/4440fb.pdf
+$ENDCMP
+#
+$CMP LTC4440IS6
+D High-side, N-Channel, Mosfet driver, 80V input, -40°C to +85°C, SOT23-6 package
+K high-side mosfet-driver
+F http://cds.linear.com/docs/en/datasheet/4440fb.pdf
+$ENDCMP
+#
 $CMP MCP1415
 D 1.5A High speed power MOSFET driver with inverting output
 K mosfet gate driver
@@ -226,6 +266,16 @@ $CMP TLP250
 D Gate Drive Optocoupler, Output Current 1.5/1.5A
 K MOSFET Driver IGBT Driver Optocoupler
 F http://toshiba.semicon-storage.com/info/docget.jsp?did=16821&prodName=TLP250
+$CMP PM8834
+D 4 A dual low-side MOSFET driver (SO8 package)
+K mosfet driver
+F http://www.st.com/resource/en/datasheet/pm8834.pdf
+$ENDCMP
+#
+$CMP PM8834M
+D 4 A dual low-side MOSFET driver (MSOP8 package)
+K mosfet driver
+F http://www.st.com/resource/en/datasheet/pm8834.pdf
 $ENDCMP
 #
 $CMP ZXGD3001E6
