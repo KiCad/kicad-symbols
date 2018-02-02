@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.4
 DEF ACPL-P343 U 0 20 Y N 1 F N
 F0 "U" 0 500 50 H V C CNN
 F1 "ACPL-P343" 0 400 50 H V C CNN
-F2 "Package_SOIC:SSO-6_6.8x4.6mm_P1.27mm_Clearance7mm" 0 -400 50 H I C CIN
+F2 "Package_SO:SSO-6_6.8x4.6mm_P1.27mm_Clearance7mm" 0 -400 50 H I C CIN
 F3 "" -90 5 50 H I L CNN
 $FPLIST
  SSO*6.8x4.6mm*P1.27mm*Clearance7mm*
@@ -70,7 +70,7 @@ ENDDEF
 DEF ACPL-W343 U 0 20 Y N 1 F N
 F0 "U" 0 500 50 H V C CNN
 F1 "ACPL-W343" 0 400 50 H V C CNN
-F2 "Package_SOIC:SSO-6_6.8x4.6mm_P1.27mm_Clearance8mm" 0 -400 50 H I C CIN
+F2 "Package_SO:SSO-6_6.8x4.6mm_P1.27mm_Clearance8mm" 0 -400 50 H I C CIN
 F3 "" -90 5 50 H I L CNN
 $FPLIST
  SSO*6.8x4.6mm*P1.27mm*Clearance8mm*
@@ -337,7 +337,7 @@ ENDDEF
 DEF HCPL-314J U 0 20 Y N 2 F N
 F0 "U" 0 500 50 H V C CNN
 F1 "HCPL-314J" 0 400 50 H V C CNN
-F2 "Package_SOIC:SOIC-12-16W_7.5x10.3mm_P1.27mm" 0 -400 50 H I C CIN
+F2 "Package_SO:SOIC-12-16W_7.5x10.3mm_P1.27mm" 0 -400 50 H I C CIN
 F3 "" -90 5 50 H I L CNN
 $FPLIST
  SOIC*12*16*7.5x10.3mm*P1.27mm*
