@@ -450,6 +450,18 @@ K NPN DC Quad Optocoupler
 F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
 $ENDCMP
 #
+$CMP PS8802-1
+D Single DC Optocoupler Base Connected, Vcc 35V, CTR 15%, Viso 2500V, SSOP-8
+K NPN DC Optocoupler Base Connected
+F http://www.cel.com/pdf/datasheets/ps8802.pdf
+$ENDCMP
+#
+$CMP PS8802-2
+D Dual DC Optocoupler Base Connected, Vcc 35V, CTR 15%, Viso 2500V, SSOP-8
+K Dual NPN DC Optocoupler Base Connected
+F http://www.cel.com/pdf/datasheets/ps8802.pdf
+$ENDCMP
+#
 $CMP SFH617A-1
 D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celcius, UL, BSI, FIMKO, cUL, THT PDIP-4
 K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80
