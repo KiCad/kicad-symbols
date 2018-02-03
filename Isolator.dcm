@@ -594,6 +594,366 @@ K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320
 F http://www.vishay.com/docs/83740/sfh617a.pdf
 $ENDCMP
 #
+$CMP Si8640BA-B-IU
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, QSOP-16
+K 4Ch 4In Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8640BB-B-IS
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16W
+K 4Ch 4In Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8640BB-B-IS1
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16
+K 4Ch 4In Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8640BB-B-IU
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, QSOP-16
+K 4Ch 4In Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8640BC-B-IS1
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16
+K 4Ch 4In Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8640BD-AS
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16W
+K 4Ch 4In Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8640BD-B-IS
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16W
+K 4Ch 4In Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8640BD-B-IS2
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16W (8mm creepage)
+K 4Ch 4In Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8640BT-IS
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16W
+K 4Ch 4In Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8640EB-B-IU
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe High, QSOP-16
+K 4Ch 4In Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8640EC-B-IS1
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe High, SOIC-16
+K 4Ch 4In Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8640ED-AS
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe High, SOIC-16W
+K 4Ch 4In Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8640ED-B-IS
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe High, SOIC-16W
+K 4Ch 4In Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8640ED-B-IS2
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe High, SOIC-16W (8mm creepage)
+K 4Ch 4In Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8640ET-IS
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe High, SOIC-16W
+K 4Ch 4In Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8641BA-B-IU
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, QSOP-16
+K 4Ch 3In 1Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8641BA-C-IU
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, QSOP-16
+K 4Ch 3In 1Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8641BB-AS1
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16
+K 4Ch 3In 1Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8641BB-B-IS
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16W
+K 4Ch 3In 1Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8641BB-B-IS1
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16
+K 4Ch 3In 1Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8641BB-B-IU
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, QSOP-16
+K 4Ch 3In 1Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8641BC-B-IS1
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16
+K 4Ch 3In 1Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8641BD-B-IS
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16W
+K 4Ch 3In 1Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8641BD-B-IS2
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16W (8mm creepage)
+K 4Ch 3In 1Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8641BT-IS
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16W
+K 4Ch 3In 1Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8641EB-B-IU
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe High, QSOP-16
+K 4Ch 3In 1Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8641EC-B-IS1
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe High, SOIC-16
+K 4Ch 3In 1Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8641ED-AS
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe High, SOIC-16W
+K 4Ch 3In 1Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8641ED-B-IS
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe High, SOIC-16W
+K 4Ch 3In 1Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8641ED-B-IS2
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe High, SOIC-16W (8mm creepage)
+K 4Ch 3In 1Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8641ET-IS
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe High, SOIC-16W
+K 4Ch 3In 1Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8642BA-B-IU
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, QSOP-16
+K 4Ch 2In 2Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8642BA-C-IU
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, QSOP-16
+K 4Ch 2In 2Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8642BB-AS1
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16
+K 4Ch 2In 2Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8642BB-B-IS
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16W
+K 4Ch 2In 2Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8642BB-B-IS1
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16
+K 4Ch 2In 2Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8642BB-B-IU
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, QSOP-16
+K 4Ch 2In 2Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8642BC-B-IS1
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16
+K 4Ch 2In 2Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8642BD-AS
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16W
+K 4Ch 2In 2Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8642BD-B-IS
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16W
+K 4Ch 2In 2Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8642BD-B-IS2
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16W (8mm creepage)
+K 4Ch 2In 2Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8642BT-IS
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16W
+K 4Ch 2In 2Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8642EA-AU
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe High, QSOP-16
+K 4Ch 2In 2Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8642EA-B-IU
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe High, QSOP-16
+K 4Ch 2In 2Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8642EB-B-IU
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe High, QSOP-16
+K 4Ch 2In 2Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8642EC-AS1
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe High, SOIC-16
+K 4Ch 2In 2Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8642EC-B-IS1
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe High, SOIC-16
+K 4Ch 2In 2Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8642ED-B-IS
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe High, SOIC-16W
+K 4Ch 2In 2Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8642ED-B-IS2
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe High, SOIC-16W (8mm creepage)
+K 4Ch 2In 2Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8642ET-AS
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe High, SOIC-16W
+K 4Ch 2In 2Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8642ET-IS
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe High, SOIC-16W
+K 4Ch 2In 2Out Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8645BA-B-IU
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, QSOP-16
+K 4Ch 4In Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8645BA-C-IU
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, QSOP-16
+K 4Ch 4In Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8645BB-B-IS
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16W
+K 4Ch 4In Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8645BB-B-IS1
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16
+K 4Ch 4In Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8645BB-B-IU
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, QSOP-16
+K 4Ch 4In Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8645BC-B-IS1
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16
+K 4Ch 4In Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8645BD-B-IS
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16W
+K 4Ch 4In Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8645BT-IS
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16W
+K 4Ch 4In Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
+$CMP Si8645ET-IS
+D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 5000V_RMS V_ISO, Fail-Safe Low, SOIC-16W
+K 4Ch 4In Quad Digital Isolator 150Mbps
+F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
+$ENDCMP
+#
 $CMP TCMT1100
 D Optocoupler, Vce 70V, CTR 50-600%, Viso 3750V (RMS)
 K NPN DC
