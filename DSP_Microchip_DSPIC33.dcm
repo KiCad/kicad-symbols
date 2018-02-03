@@ -66,4 +66,10 @@ K 16-bit Digital Signal Controller Microchip dsPIC Motor Control
 F http://ww1.microchip.com/downloads/en/DeviceDoc/70291G.pdf
 $ENDCMP
 #
+$CMP dsPIC33EV32GM002
+D 70 MIPS, 32k flash, 4k SRAM, No CAN bus, 4.5 to 5.5V
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
 #End Doc Library
