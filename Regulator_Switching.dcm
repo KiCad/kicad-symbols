@@ -342,6 +342,60 @@ K Murata isolated isolation dc-dc converter transformer
 F http://power.murata.com/datasheet?/data/power/ncl/kdc_cre1.pdf
 $ENDCMP
 #
+$CMP FSDH321
+D 17W SMPS Controller, 100kHz, AC-DC, PDIP-8
+K SMPS Controller with MOSFET 17W AC-DC
+F www.fairchildsemi.com/ds/FS/FSDH321.pdf
+$ENDCMP
+#
+$CMP FSDH321L
+D 17W SMPS Controller, 100kHz, AC-DC, SMD-8
+K SMPS Controller with MOSFET 17W AC-DC
+F www.fairchildsemi.com/ds/FS/FSDH321.pdf
+$ENDCMP
+#
+$CMP FSDL321
+D 17W SMPS Controller, 50kHz, AC-DC, PDIP-8
+K SMPS Controller with MOSFET 17W AC-DC
+F www.fairchildsemi.com/ds/FS/FSDH321.pdf
+$ENDCMP
+#
+$CMP FSDL321L
+D 17W SMPS Controller, 50kHz, AC-DC, SMD-8
+K SMPS Controller with MOSFET 17W AC-DC
+F www.fairchildsemi.com/ds/FS/FSDH321.pdf
+$ENDCMP
+#
+$CMP FSL136MRT
+D 67kHz SMPS Controller w/ Soft Start, max. 50W AC-DC, TO-220F-6L
+K SMPS Controller 50W AC-DC
+F http://www.fairchildsemi.com/ds/FS/FSL136MRT.pdf
+$ENDCMP
+#
+$CMP FSQ0565RQLDTU
+D 67kHz Quasi Resonant SMPS Controller w/ Soft Start, max. 80W AC-DC, TO-220F-6L (Formed)
+K Quasi Resonant SMPS Controller 80W AC-DC
+F http://www.onsemi.com/pub/Collateral/FSQ0565RS-D.PDF
+$ENDCMP
+#
+$CMP FSQ0565RQWDTU
+D 67kHz Quasi Resonant SMPS Controller w/ Soft Start, max. 80W AC-DC, TO-220F-6L
+K Quasi Resonant SMPS Controller 80W AC-DC
+F http://www.onsemi.com/pub/Collateral/FSQ0565RS-D.PDF
+$ENDCMP
+#
+$CMP FSQ0565RSLDTU
+D 67kHz Quasi Resonant SMPS Controller w/ Soft Start, max. 80W AC-DC, TO-220F-6L (Formed)
+K Quasi Resonant SMPS Controller 80W AC-DC
+F http://www.onsemi.com/pub/Collateral/FSQ0565RS-D.PDF
+$ENDCMP
+#
+$CMP FSQ0565RSWDTU
+D 67kHz Quasi Resonant SMPS Controller w/ Soft Start, max. 80W AC-DC, TO-220F-6L
+K Quasi Resonant SMPS Controller 80W AC-DC
+F http://www.onsemi.com/pub/Collateral/FSQ0565RS-D.PDF
+$ENDCMP
+#
 $CMP GL2576-12SF8DR
 D 12V 3A, 52KHz Step Down Converter, SO-8
 K 12V 3A 52KHz Buck DC/DC
@@ -444,10 +498,100 @@ K PWM step down buck converter controller synchronous POL
 F https://www.intersil.com/content/dam/Intersil/documents/isl8/isl8117.pdf
 $ENDCMP
 #
+$CMP KA5H02659RN
+D 100kHz SMPS Controller, AC-DC, PDIP-8
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
+$ENDCMP
+#
+$CMP KA5H0265RCTU
+D 100kHz SMPS Controller w/ Soft Start, AC-DC, TO-220F-5L
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
+$ENDCMP
+#
+$CMP KA5H0265RCYDTU
+D KA5H0265RCTU, 100kHz SMPS Controller w/ Soft Start, AC-DC, TO-220F-5L(Forming)
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
+$ENDCMP
+#
+$CMP KA5H0280RTU
+D 100kHz SMPS Controller, AC-DC, TO-220F-4L
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
+$ENDCMP
+#
+$CMP KA5H0280RYDTU
+D 100kHz SMPS Controller, AC-DC, TO-220F-4L(Forming)
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
+$ENDCMP
+#
+$CMP KA5L0265RTU
+D 50kHz SMPS Controller, AC-DC, TO-220F-4L
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
+$ENDCMP
+#
+$CMP KA5L0265RYDTU
+D 50kHz SMPS Controller, AC-DC, TO-220F-4L(Forming)
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
+$ENDCMP
+#
+$CMP KA5M02659RN
+D 67kHz SMPS Controller, AC-DC, PDIP-8
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
+$ENDCMP
+#
+$CMP KA5M0265RTU
+D 67kHz SMPS Controller, AC-DC, TO-220F-4L
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
+$ENDCMP
+#
+$CMP KA5M0265RYDTU
+D 67kHz SMPS Controller, AC-DC, TO-220F-4L(Forming)
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
+$ENDCMP
+#
+$CMP KA5M0280RTU
+D 67kHz SMPS Controller, AC-DC, TO-220F-4L
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
+$ENDCMP
+#
+$CMP KA5M0280RYDTU
+D KA5M0280RTDTU, 67kHz SMPS Controller, AC-DC, TO-220F-4L(Forming)
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub/Collateral/KA5L0265R-D.PDF
+$ENDCMP
+#
 $CMP L5973D
 D 2.5A step down switching regulator, HSOP-8
 K step down buck regulator
 F http://www.st.com/resource/en/datasheet/l5973d.pdf
+$ENDCMP
+#
+$CMP LM25085MM
+D 42V Constant On-Time PFET Buck Switching Controller, MSOP-8
+K buck switching contoller
+F http://www.ti.com/lit/ds/symlink/lm25085.pdf
+$ENDCMP
+#
+$CMP LM25085MY
+D 42V Constant On-Time PFET Buck Switching Controller, MSOP-8-EP
+K buck switching contoller
+F http://www.ti.com/lit/ds/symlink/lm25085.pdf
+$ENDCMP
+#
+$CMP LM25085SD
+D 42V Constant On-Time PFET Buck Switching Controller, WSON-8
+K buck switching contoller
+F http://www.ti.com/lit/ds/symlink/lm25085.pdf
 $ENDCMP
 #
 $CMP LM2574HVM-12
@@ -1140,6 +1284,12 @@ K Step-Down Switching Regulator High Voltage
 F http://www.ti.com/lit/ds/symlink/lm5017.pdf
 $ENDCMP
 #
+$CMP LM5022MM
+D 60-V Low-Side Controller for Boost and SEPIC, MSOP-10
+K boost switching controller
+F http://www.ti.com/lit/ds/symlink/lm5022.pdf
+$ENDCMP
+#
 $CMP LM5165
 D 150mA Synchronous Buck Converter With Ultra-Low IQ, 3V-65V input, adjustable output voltage, DFN-10
 K step-down dc-dc buck regulator adjustable
@@ -1156,6 +1306,24 @@ $CMP LM5165Y
 D 150mA Synchronous Buck Converter With Ultra-Low IQ, 3V-65V input, 3.3V fixed output voltage, DFN-10
 K step-down dc-dc buck regulator fixed 3V3
 F http://www.ti.com/lit/ds/symlink/lm5165.pdf
+$ENDCMP
+#
+$CMP LM5166
+D 500mA Synchronous Buck Converter With Ultra-Low IQ, 3V-65V input, adjustable output voltage, DFN-10
+K step-down dc-dc buck regulator adjustable
+F http://www.ti.com/lit/ds/symlink/lm5166.pdf
+$ENDCMP
+#
+$CMP LM5166X
+D 500mA Synchronous Buck Converter With Ultra-Low IQ, 3V-65V input, 5.0V fixed output voltage, DFN-10
+K step-down dc-dc buck regulator fixed 5V
+F http://www.ti.com/lit/ds/symlink/lm5166.pdf
+$ENDCMP
+#
+$CMP LM5166Y
+D 500mA Synchronous Buck Converter With Ultra-Low IQ, 3V-65V input, 3.3V fixed output voltage, DFN-10
+K step-down dc-dc buck regulator fixed 3V3
+F http://www.ti.com/lit/ds/symlink/lm5166.pdf
 $ENDCMP
 #
 $CMP LM5175PWP
@@ -2482,6 +2650,12 @@ $CMP MIC2178-5.0
 D 2.5A Synchronous Buck Regulator, 4.5-16.5V Input Voltage, 5.0V Fixed Output Voltage, SO-20W
 K Synchronous Buck Regulator fixed
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2177.pdf
+$ENDCMP
+#
+$CMP MIC2290
+D 1.2 Mhz PWM Boost Regulator with Internal Schotty Diode, MLF-8
+K boost switching voltage converter regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2290.pdf
 $ENDCMP
 #
 $CMP MIC4690
@@ -4006,6 +4180,30 @@ $CMP TSR_1-2490
 D 1A step-down regulator module, fixed 9V output voltage, 2-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement
 K dc-dc traco buck
 F http://www.tracopower.com/products/tsr1.pdf
+$ENDCMP
+#
+$CMP VIPer22ADIP-E
+D Low power OFF-line SMPS primary switcher
+K SMPS
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00087939.pdf
+$ENDCMP
+#
+$CMP VIPer22AS
+D Low power OFF-line SMPS primary switcher
+K SMPS
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00087939.pdf
+$ENDCMP
+#
+$CMP VIPer25HN
+D 12W SMPS Controller, AC-DC, PDIP-7
+K SMPS Controller with MOSFET 12W AC-DC
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00231127.pdf
+$ENDCMP
+#
+$CMP VIPer25LN
+D 12W SMPS Controller, AC-DC, PDIP-7
+K SMPS Controller with MOSFET 12W AC-DC
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00231127.pdf
 $ENDCMP
 #
 #End Doc Library
