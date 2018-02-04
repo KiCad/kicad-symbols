@@ -360,4 +360,34 @@ K Dual MOSFET Output Photorelay 1-Form-A
 F https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A
 $ENDCMP
 #
+$CMP TLP3542
+D Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, 6-DIP
+K photocouplers photorelay solidstate relay normally opened (1-Form-A)
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=1284&prodName=TLP3542
+$ENDCMP
+#
+$CMP TLP3543
+D Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, 6-DIP
+K photocouplers photorelay solidstate relay normally opened (1-Form-A)
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=12660&prodName=TLP3543
+$ENDCMP
+#
+$CMP TLP3544
+D Photo MOSFET optically coupled, ON 3.5A, 60mohm, OFF state 40V, Isolation 2500 VRMS, 6-DIP
+K photocouplers photorelay solidstate relay normally opened (1-Form-A)
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=12661&prodName=TLP3544
+$ENDCMP
+#
+$CMP TLP3545
+D Photo MOSFET optically coupled, ON 3A, 70mohm, OFF state 60V, Isolation 2500 VRMS, 6-DIP
+K photocouplers photorelay solidstate relay normally opened (1-Form-A)
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=12663&prodName=TLP3545
+$ENDCMP
+#
+$CMP TLP3546
+D Photo MOSFET optically coupled, ON 2A, 200mohm, OFF state 100V, Isolation 2500 VRMS, 6-DIP
+K photocouplers photorelay solidstate relay normally opened (1-Form-A)
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=12671&prodName=TLP3546
+$ENDCMP
+#
 #End Doc Library
