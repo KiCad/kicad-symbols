@@ -282,6 +282,18 @@ K MOSFET Driver IGBT Driver Optocoupler
 F http://toshiba.semicon-storage.com/info/docget.jsp?did=16821&prodName=TLP250
 $ENDCMP
 #
+$CMP UCC21520ADW
+D Isolated Dual-Channel Gate Driver, Output Current 4.0/6.0A, 5.7kV Isolation, 5V UVLO, SOIC-16W
+K Dual Isolated Gate Driver
+F http://www.ti.com/lit/ds/symlink/ucc21520.pdf
+$ENDCMP
+#
+$CMP UCC21520DW
+D Isolated Dual-Channel Gate Driver, Output Current 4.0/6.0A, 5.7kV Isolation, 8V UVLO, SOIC-16W
+K Dual Isolated Gate Driver
+F http://www.ti.com/lit/ds/symlink/ucc21520.pdf
+$ENDCMP
+#
 $CMP ZXGD3001E6
 D 9A (peak) Gate driver, 12V, 3ns delay
 K gate driver
