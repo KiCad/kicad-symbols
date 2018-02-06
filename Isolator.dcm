@@ -1002,6 +1002,12 @@ K Photocouple highspeed inverting open collector output
 F https://toshiba.semicon-storage.com/info/docget.jsp?did=36717&prodName=TLP2768A
 $ENDCMP
 #
+$CMP TLP2770
+D 20-Mbps low-power non inverting photocouple,5 kVrms, 2.7 to 5.5 Vdd, push-pull output, SO-6L
+K Photocouple highspeed non inverting push-pull output
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=53548&prodName=TLP2770
+$ENDCMP
+#
 $CMP TLP290
 D AC/DC Phototransistor Optocoupler, Vce 80V, CTR 50-600%, SOP4
 K NPN AC DC Phototransistor Optocoupler
