@@ -1,10 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 2130
-D biPort RAM (1Ko)
-K RAM BiPort 1KO
-$ENDCMP
-#
 $CMP 628128
 D RAM 128 Ko
 K RAM 128KO
@@ -22,92 +17,6 @@ K memory SRAM
 F http://www.alliancememory.com/pdf/AS6C1616(1).pdf
 $ENDCMP
 #
-$CMP CY7C185
-D 64-Kbit (8K x 8) Static RAM
-K static ram
-F http://www.cypress.com/file/42686/download
-$ENDCMP
-#
-$CMP DRAM_1MX16_SOJ
-D DRAM 16 MBits (1M x 16bits)
-K DRAM 2MO
-$ENDCMP
-#
-$CMP HM62256BLFP-4SLT
-D SRAM 32K x  8 bits, SOP28 450mil, 45ns
-K SRAM 32KB High Speed CMOS Static RAM
-$ENDCMP
-#
-$CMP HM62256BLFP-5SLT
-D SRAM 32K x  8 bits, SOP28 450mil, 55ns
-K SRAM 32KB High Speed CMOS Static RAM
-$ENDCMP
-#
-$CMP HM62256BLFP-7SLT
-D SRAM 32K x  8 bits, SOP28 450mil, 70ns
-K SRAM 32KB High Speed CMOS Static RAM
-$ENDCMP
-#
-$CMP HM62256BLFP-7T
-D SRAM 32K x  8 bits, SOP28 450mil, 70ns
-K SRAM 32KB High Speed CMOS Static RAM
-$ENDCMP
-#
-$CMP HM62256BLP-7
-D SRAM 32K x  8 bits, DIP28 600mil, 70ns
-K SRAM 32KB High Speed CMOS Static RAM
-$ENDCMP
-#
-$CMP HM62256BLSP-7
-D SRAM 32K x  8 bits, DIP28 300mil, 70ns
-K SRAM 32KB High Speed CMOS Static RAM
-$ENDCMP
-#
-$CMP HM62256BLT-7SL
-D SRAM 32K x  8 bits, TSOP32 8x14mm, 70ns
-K SRAM 32KB High Speed CMOS Static RAM
-$ENDCMP
-#
-$CMP HM62256BLT-8
-D SRAM 32K x  8 bits, TSOP32 8x14mm, 85ns
-K SRAM 32KB High Speed CMOS Static RAM
-$ENDCMP
-#
-$CMP HM62256BLTM-4SL
-D SRAM 32K x  8 bits, TSOP28 8x13.4mm, 45ns
-K SRAM 32KB High Speed CMOS Static RAM
-$ENDCMP
-#
-$CMP HM62256BLTM-5SL
-D SRAM 32K x  8 bits, TSOP28 8x13.4mm, 55ns
-K SRAM 32KB High Speed CMOS Static RAM
-$ENDCMP
-#
-$CMP HM62256BLTM-7SL
-D SRAM 32K x  8 bits, TSOP28 8x13.4mm, 70ns
-K SRAM 32KB High Speed CMOS Static RAM
-$ENDCMP
-#
-$CMP HM62256BLTM-7UL
-D SRAM 32K x  8 bits, TSOP28 8x13.4mm, 70ns
-K SRAM 32KB High Speed CMOS Static RAM
-$ENDCMP
-#
-$CMP HM62256BLTM-8
-D SRAM 32K x  8 bits, TSOP28 8x13.4mm, 85ns
-K SRAM 32KB High Speed CMOS Static RAM
-$ENDCMP
-#
-$CMP HM628512BFP-5
-D SRAM 512K x 8-bit, 525mil SOP32, 55ns
-K 4Mb SRAM (512K x 8-bit) High Speed CMOS Static RAM
-$ENDCMP
-#
-$CMP HM628512BFP-7
-D SRAM 512K x 8-bit, 525mil SOP32, 70ns
-K 4Mb SRAM (512K x 8-bit) High Speed CMOS Static RAM
-$ENDCMP
-#
 $CMP IDT71V65903S
 D 165 pins BGA 3.3V high-speed 9 Megabit synchronous SRAMs 512K x 18 (or  256K x 36)
 $ENDCMP
@@ -122,52 +31,6 @@ $CMP IS42S16400J-xT
 D 64Mb Synchronous DRAM, 1 Mb x 16 b x 4 Banks, Alloy42 leadframe plated with matte Sn, TSOP-II-54
 K DRAM
 F http://www.issi.com/WW/pdf/42-45S16400J.pdf
-$ENDCMP
-#
-$CMP MS628128
-D SRAM 128K x 8 bits
-K RAM SRAM
-$ENDCMP
-#
-$CMP MT48LC16M4A2P
-D PC100/PC133 Compliant SDRAM, 64Mb (16Mb x 4), TSOP II 54pin
-K SDRAM Synchronus DRAM PC133 PC100 64Mb 16Mbx4
-F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
-$ENDCMP
-#
-$CMP MT48LC16M4A2TG
-D PC100/PC133 Compliant SDRAM, 64Mb (16Mb x 4), TSOP II 54pin
-K SDRAM Synchronus DRAM PC133 PC100 64Mb 16Mbx4
-F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
-$ENDCMP
-#
-$CMP MT48LC4M16A2P
-D PC100/PC133 Compliant SDRAM, 64Mb (4Mb x 16), TSOP II 54pin
-K SDRAM Synchronus DRAM PC133 PC100 64Mb 4Mbx16
-F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
-$ENDCMP
-#
-$CMP MT48LC4M16A2TG
-D PC100/PC133 Compliant SDRAM, 64Mb (4Mb x 16), TSOP II 54pin
-K SDRAM Synchronus DRAM PC133 PC100 64Mb 4Mbx16
-F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
-$ENDCMP
-#
-$CMP MT48LC8M8A2P
-D PC100/PC133 Compliant SDRAM, 64Mb (8Mb x 8), TSOP II 54pin
-K SDRAM Synchronus DRAM PC133 PC100 64Mb 8Mbx8
-F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
-$ENDCMP
-#
-$CMP MT48LC8M8A2TG
-D PC100/PC133 Compliant SDRAM, 64Mb (8Mb x 8), TSOP II 54pin
-K SDRAM Synchronus DRAM PC133 PC100 64Mb 8Mbx8
-F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
-$ENDCMP
-#
-$CMP RAM_32KO
-D RAM 32 Ko
-K RAM 32KO
 $ENDCMP
 #
 #End Doc Library
