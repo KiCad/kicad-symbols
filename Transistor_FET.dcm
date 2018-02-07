@@ -96,7 +96,7 @@ K P-Channel MOSFET
 F http://www.vishay.com/docs/70209/70209.pdf
 $ENDCMP
 #
-$CMP BSC026N08NS5ATMA1
+$CMP BSC026N08NS5
 D 100A Id, 80V Vds, OptiMOS N-Channel Power MOSFET, 2.6mOhm Ron, Qg (typ) 74.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC026N08NS5-DS-v02_01-EN.pdf?fileId=5546d4624ad04ef9014ae2eace7629e0
@@ -108,193 +108,193 @@ K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC028N06LS3-DS-v02_02-en.pdf?fileId=db3a30431ddc9372011ebafa4c607f8c
 $ENDCMP
 #
-$CMP BSC030N08NS5ATMA1
+$CMP BSC030N08NS5
 D 100A Id, 80V Vds, OptiMOS N-Channel Power MOSFET, 3.0mOhm Ron, Qg (typ) 61.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC030N08NS5-DS-v02_02-EN.pdf?fileId=5546d4624ad04ef9014aed52f4210acf
 $ENDCMP
 #
-$CMP BSC035N10NS5ATMA1
+$CMP BSC035N10NS5
 D 100A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 3.5mOhm Ron, Qg (typ) 70.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC035N10NS5-DS-v02_00-EN.pdf?fileId=5546d4624ad04ef9014ae8b5f3bc1b6f
 $ENDCMP
 #
-$CMP BSC037N08NS5ATMA1
+$CMP BSC037N08NS5
 D 100A Id, 80V Vds, OptiMOS N-Channel Power MOSFET, 3.7mOhm Ron, Qg (typ) 46.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC037N08NS5-DS-v02_00-EN.pdf?fileId=5546d4624ad04ef9014ae9ad3b8e1c33
 $ENDCMP
 #
-$CMP BSC040N08NS5ATMA1
+$CMP BSC040N08NS5
 D 100A Id, 80V Vds, OptiMOS N-Channel Power MOSFET, 4.0mOhm Ron, Qg (typ) 43.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC040N08NS5-DS-v02_00-EN.pdf?fileId=5546d4624ad04ef9014ae3065a7e2a05
 $ENDCMP
 #
-$CMP BSC040N10NS5ATMA1
+$CMP BSC040N10NS5
 D 100A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 4.0mOhm Ron, Qg (typ) 58.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC040N10NS5-DS-v02_01-EN.pdf?fileId=5546d4624a0bf290014a0fbcee2e6b38
 $ENDCMP
 #
-$CMP BSC046N10NS3GATMA1
+$CMP BSC046N10NS3G
 D 100A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 4.6mOhm Ron, Qg (typ) 63.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC046N10NS3-DS-v02_00-en.pdf?fileId=db3a304332fc1ee7013316f966a4713c
 $ENDCMP
 #
-$CMP BSC047N08NS3GATMA1
+$CMP BSC047N08NS3G
 D 100A Id, 80V Vds, OptiMOS N-Channel Power MOSFET, 4.7mOhm Ron, Qg (typ) 52.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC047N08NS3G-DS-v02_07-en.pdf?fileId=db3a30431add1d95011ae7e8dacf5611
 $ENDCMP
 #
-$CMP BSC052N08NS5ATMA1
+$CMP BSC052N08NS5
 D 95A Id, 80V Vds, OptiMOS N-Channel Power MOSFET, 5.2mOhm Ron, Qg (typ) 32.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC052N08NS5-DS-v02_00-EN.pdf?fileId=5546d4624ad04ef9014ae38fc94f2b40
 $ENDCMP
 #
-$CMP BSC057N08NS3GATMA1
+$CMP BSC057N08NS3G
 D 100A Id, 80V Vds, OptiMOS N-Channel Power MOSFET, 5.7mOhm Ron, Qg (typ) 42.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC057N08NS3G-DS-v02_04-en.pdf?fileId=db3a30431add1d95011ae803c9345616
 $ENDCMP
 #
-$CMP BSC060N10NS3GATMA1
+$CMP BSC060N10NS3G
 D 90A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 6.0mOhm Ron, Qg (typ) 51.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC060N10NS3-DS-v02_04-en.pdf?fileId=db3a30431ce5fb52011d1aab7f90133a
 $ENDCMP
 #
-$CMP BSC061N08NS5ATMA1
+$CMP BSC061N08NS5
 D 82A Id, 80V Vds, OptiMOS N-Channel Power MOSFET, 6.1mOhm Ron, Qg (typ) 27.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC061N08NS5-DS-v02_00-EN.pdf?fileId=5546d4624ad04ef9014ae3ab1bb62b69
 $ENDCMP
 #
-$CMP BSC070N10NS3GATMA1
+$CMP BSC070N10NS3G
 D 90A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 7.0mOhm Ron, Qg (typ) 42.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC070N10NS3-DS-v02_01-en.pdf?fileId=db3a304327b89750012824712c6c6f2f
 $ENDCMP
 #
-$CMP BSC070N10NS5ATMA1
+$CMP BSC070N10NS5
 D 80A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 7.0mOhm Ron, Qg (typ) 30.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC070N10NS5-DS-v02_01-EN.pdf?fileId=5546d4624a0bf290014a0fc62d9d6b3c
 $ENDCMP
 #
-$CMP BSC072N08NS5ATMA1
+$CMP BSC072N08NS5
 D 74A Id, 80V Vds, OptiMOS N-Channel Power MOSFET, 7.2mOhm Ron, Qg (typ) 24.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC072N08NS5-DS-v02_00-EN.pdf?fileId=5546d4624ad04ef9014ae3d8e8192c7c
 $ENDCMP
 #
-$CMP BSC079N10NSGATMA1
+$CMP BSC079N10NSG
 D 100A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 7.9mOhm Ron, Qg (typ) 66.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC079N10NS-DS-v01_06-en.pdf?fileId=db3a3043163797a601167b174f951147
 $ENDCMP
 #
-$CMP BSC082N10LSGATMA1
+$CMP BSC082N10LSG
 D 100A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 8.2mOhm Ron, Qg (typ) 78.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC082N10LS-DS-v01_07-en.pdf?fileId=db3a3043163797a6011647faad240719
 $ENDCMP
 #
-$CMP BSC098N10NS5ATMA1
+$CMP BSC098N10NS5
 D 60A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 9.8mOhm Ron, Qg (typ) 22.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC098N10NS5-DS-v02_00-EN.pdf?fileId=5546d4624ad04ef9014ae95ab4221bfd
 $ENDCMP
 #
-$CMP BSC100N10NSFGATMA1
+$CMP BSC100N10NSFG
 D 90A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 10.0mOhm Ron, Qg (typ) 33.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC100N10NSF-DS-v02_08-en.pdf?fileId=db3a30431b3e89eb011b49a75b607b57
 $ENDCMP
 #
-$CMP BSC105N10LSFGATMA1
+$CMP BSC105N10LSFG
 D 90A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 10.5mOhm Ron, Qg (typ) 40.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC105N10LSF-DS-v02_09-en.pdf?fileId=db3a30431b3e89eb011b499b2aa07b26
 $ENDCMP
 #
-$CMP BSC109N10NS3GATMA1
+$CMP BSC109N10NS3G
 D 63A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 10.9mOhm Ron, Qg (typ) 26.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC109N10NS3-DS-v02_00-en.pdf?fileId=db3a304327b897500128247bdae36f3f
 $ENDCMP
 #
-$CMP BSC117N08NS5ATMA1
+$CMP BSC117N08NS5
 D 49A Id, 80V Vds, OptiMOS N-Channel Power MOSFET, 11.7mOhm Ron, Qg (typ) 15.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC117N08NS5-DS-v02_00-EN.pdf?fileId=5546d4624ad04ef9014ae97632721c1b
 $ENDCMP
 #
-$CMP BSC118N10NSGATMA1
+$CMP BSC118N10NSG
 D 71A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 11.8mOhm Ron, Qg (typ) 42.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC118N10NS-DS-v01_08-en.pdf?fileId=db3a3043163797a6011647fdc2d4071c
 $ENDCMP
 #
-$CMP BSC123N08NS3GATMA1
+$CMP BSC123N08NS3G
 D 55A Id, 80V Vds, OptiMOS N-Channel Power MOSFET, 12.3mOhm Ron, Qg (typ) 19.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC123N08NS3G-DS-v02_05-en.pdf?fileId=db3a30431add1d95011ae80eb8555625
 $ENDCMP
 #
-$CMP BSC123N10LSGATMA1
+$CMP BSC123N10LSG
 D 71A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 12.3mOhm Ron, Qg (typ) 51.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC123N10LS-DS-v02_08-en.pdf?fileId=db3a30431b3e89eb011b4626974b7df5
 $ENDCMP
 #
-$CMP BSC13DN30NSFDATMA1
+$CMP BSC13DN30NSFD
 D 16A Id, 300V Vds, OptiMOS N-Channel Power MOSFET, 130mOhm Ron, Qg (typ) 30.0nC, PG-TDSON-8
 K NexFET Power MOSFET N-MOS
 F https://www.infineon.com/dgdl/Infineon-BSC13DN30NSFD-DS-v02_01-EN.pdf?fileId=5546d46259b0420a0159d5c940fc0d9a
 $ENDCMP
 #
-$CMP BSC159N10LSFGATMA1
+$CMP BSC159N10LSFG
 D 63A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 15.9mOhm Ron, Qg (typ) 26.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC159N10LSF-DS-v02_09-en.pdf?fileId=db3a30431b3e89eb011b499f85d47b36
 $ENDCMP
 #
-$CMP BSC160N10NS3GATMA1
+$CMP BSC160N10NS3G
 D 42A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 16.0mOhm Ron, Qg (typ) 19.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC160N10NS3-DS-v02_04-en.pdf?fileId=db3a30432239cccd01226040189a7f47
 $ENDCMP
 #
-$CMP BSC196N10NSGATMA1
+$CMP BSC196N10NSG
 D 45A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 19.6mOhm Ron, Qg (typ) 25.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC196N10NS-DS-v01_07-en.pdf?fileId=db3a3043163797a601164800549d071f
 $ENDCMP
 #
-$CMP BSC252N10NSFGATMA1
+$CMP BSC252N10NSFG
 D 40A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 25.2mOhm Ron, Qg (typ) 13.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC252N10NSF-DS-v02_08-en.pdf?fileId=db3a30431b3e89eb011b498909e97b17
 $ENDCMP
 #
-$CMP BSC265N10LSFGATMA1
+$CMP BSC265N10LSFG
 D 40A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 26.5mOhm Ron, Qg (typ) 16.0nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC265N10LSFG-DS-v02_08-en.pdf?fileId=db3a30431b3e89eb011b49a375207b46
 $ENDCMP
 #
-$CMP BSC340N08NS3GATMA1
+$CMP BSC340N08NS3G
 D 23A Id, 80V Vds, OptiMOS N-Channel Power MOSFET, 34.0mOhm Ron, Qg (typ) 6.8nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC340N08NS3G-DS-v02_06-en.pdf?fileId=db3a30431add1d95011ae81c21f2563a
 $ENDCMP
 #
-$CMP BSC440N10NS3GATMA1
+$CMP BSC440N10NS3G
 D 18A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 44.0mOhm Ron, Qg (typ) 8.1nC, PG-TDSON-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC440N10NS3-DS-v02_04-en.pdf?fileId=db3a30432239cccd0122604520d47f56
@@ -307,9 +307,15 @@ F https://www.infineon.com/dgdl/Infineon-BSP129-DS-v01_42-en.pdf?fileId=db3a3043
 $ENDCMP
 #
 $CMP BSS138
-D 50V Vds, 0.22 A Id, N-channel MOSFET, SOT-23
+D 50V Vds, 0.22A Id, N-channel MOSFET, SOT-23
 K N-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf
+$ENDCMP
+#
+$CMP BSS214NW
+D 20V Vds, 1.5A Id, N-channel MOSFET, SOT-323
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde
 $ENDCMP
 #
 $CMP BSS83P
@@ -322,6 +328,246 @@ $CMP BSS84
 D -0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23-3
 K P-Channel MOSFET
 F http://assets.nexperia.com/documents/data-sheet/BSS84.pdf
+$ENDCMP
+#
+$CMP BUK7M10-40EX
+D 56A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 10mOhm Ron, 19.5nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M10-40E.pdf
+$ENDCMP
+#
+$CMP BUK7M12-40EX
+D 48A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 12mOhm Ron, 15.8nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M12-40E.pdf
+$ENDCMP
+#
+$CMP BUK7M12-60EX
+D 53A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 12mOhm Ron, 24.8nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M12-60E.pdf
+$ENDCMP
+#
+$CMP BUK7M15-60EX
+D 42.9A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 15mOhm Ron, 19.4nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M15-60E.pdf
+$ENDCMP
+#
+$CMP BUK7M17-80EX
+D 43A Id, 80V Vds, N-Channel TrenchMOS MOSFET, 17mOhm Ron, 29.6nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M17-80E.pdf
+$ENDCMP
+#
+$CMP BUK7M19-60EX
+D 35.8A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 19mOhm Ron, 17.3nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M19-60E.pdf
+$ENDCMP
+#
+$CMP BUK7M21-40EX
+D 33A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 21mOhm Ron, 10.7nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M21-40E.pdf
+$ENDCMP
+#
+$CMP BUK7M22-80EX
+D 37A Id, 80V Vds, N-Channel TrenchMOS MOSFET, 22mOhm Ron, 23.9nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M22-80E.pdf
+$ENDCMP
+#
+$CMP BUK7M27-80EX
+D 30A Id, 80V Vds, N-Channel TrenchMOS MOSFET, 27mOhm Ron, 19.5nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M27-80E.pdf
+$ENDCMP
+#
+$CMP BUK7M33-60EX
+D 24A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 33mOhm Ron, 10.9nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M33-60E.pdf
+$ENDCMP
+#
+$CMP BUK7M42-60EX
+D 20A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 42mOhm Ron, 9nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M42-60E.pdf
+$ENDCMP
+#
+$CMP BUK7M45-40EX
+D 19A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 45mOhm Ron, 6.2nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M45-40E.pdf
+$ENDCMP
+#
+$CMP BUK7M67-60EX
+D 14A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 67mOhm Ron, 6.7nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M67-60E.pdf
+$ENDCMP
+#
+$CMP BUK7M6R3-40EX
+D 70A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 6.3mOhm Ron, 28.1nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M6R3-40E.pdf
+$ENDCMP
+#
+$CMP BUK7M8R0-40EX
+D 69A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 8mOhm Ron, 23.8nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M8R0-40E.pdf
+$ENDCMP
+#
+$CMP BUK7M9R9-60EX
+D 60A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 9.9mOhm Ron, 30.1nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK7M9R9-60E.pdf
+$ENDCMP
+#
+$CMP BUK9M10-30EX
+D 54A Id, 30V Vds, N-Channel TrenchMOS MOSFET, 7.8mOhm Ron, 12.2nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M10-30E.pdf
+$ENDCMP
+#
+$CMP BUK9M11-40EX
+D 53A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 9mOhm Ron, 13.4nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M11-40E.pdf
+$ENDCMP
+#
+$CMP BUK9M12-60EX
+D 54A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 11mOhm Ron, - Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M12-60E.pdf
+$ENDCMP
+#
+$CMP BUK9M120-100EX
+D 11.5A Id, 100V Vds, N-Channel TrenchMOS MOSFET, 119mOhm Ron, 8.8nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M120-100E.pdf
+$ENDCMP
+#
+$CMP BUK9M14-40EX
+D 44A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 11mOhm Ron, 11.3nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M14-40E.pdf
+$ENDCMP
+#
+$CMP BUK9M15-60EX
+D 47A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 13mOhm Ron, 17nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M15-60E.pdf
+$ENDCMP
+#
+$CMP BUK9M156-100EX
+D 9.3A Id, 100V Vds, N-Channel TrenchMOS MOSFET, 150mOhm Ron, 7.4nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M156-100E.pdf
+$ENDCMP
+#
+$CMP BUK9M17-30EX
+D 37A Id, 30V Vds, N-Channel TrenchMOS MOSFET, 14mOhm Ron, 8nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M17-30E.pdf
+$ENDCMP
+#
+$CMP BUK9M19-60EX
+D 38A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 17mOhm Ron, 13.8nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M19-60E.pdf
+$ENDCMP
+#
+$CMP BUK9M23-80EX
+D 37A Id, 80V Vds, N-Channel TrenchMOS MOSFET, 20mOhm Ron, 20nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M23-80E.pdf
+$ENDCMP
+#
+$CMP BUK9M24-40EX
+D 30A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 20mOhm Ron, 7.7nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M24-40E.pdf
+$ENDCMP
+#
+$CMP BUK9M24-60EX
+D 32A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 21mOhm Ron, 12.4nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M24-60E.pdf
+$ENDCMP
+#
+$CMP BUK9M28-80EX
+D 33A Id, 80V Vds, N-Channel TrenchMOS MOSFET, 25mOhm Ron, 16.7nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M28-80E.pdf
+$ENDCMP
+#
+$CMP BUK9M34-100EX
+D 29A Id, 100V Vds, N-Channel TrenchMOS MOSFET, 34mOhm Ron, 24.7nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M34-100E.pdf
+$ENDCMP
+#
+$CMP BUK9M35-80EX
+D 26A Id, 80V Vds, N-Channel TrenchMOS MOSFET, 31mOhm Ron, 13.5nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M35-80E.pdf
+$ENDCMP
+#
+$CMP BUK9M42-60EX
+D 22A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 37mOhm Ron, 8.3nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M42-60E.pdf
+$ENDCMP
+#
+$CMP BUK9M43-100EX
+D 25A Id, 100V Vds, N-Channel TrenchMOS MOSFET, 43mOhm Ron, 20.2nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M43-100E.pdf
+$ENDCMP
+#
+$CMP BUK9M52-40EX
+D 17.6A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 40mOhm Ron, 4.5nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M52-40E.pdf
+$ENDCMP
+#
+$CMP BUK9M53-60EX
+D 17A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 46mOhm Ron, 6nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M53-60E.pdf
+$ENDCMP
+#
+$CMP BUK9M5R2-30EX
+D 70A Id, 30V Vds, N-Channel TrenchMOS MOSFET, 4.1mOhm Ron, 22.5nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M5R2-30E.pdf
+$ENDCMP
+#
+$CMP BUK9M6R6-30EX
+D 70A Id, 30V Vds, N-Channel TrenchMOS MOSFET, 5.3mOhm Ron, 18nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M6R6-30E.pdf
+$ENDCMP
+#
+$CMP BUK9M7R2-40EX
+D 70A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 5.8mOhm Ron, 19.7nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M7R2-40E.pdf
+$ENDCMP
+#
+$CMP BUK9M85-60EX
+D 12.8A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 73mOhm Ron, 4.4nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M85-60E.pdf
+$ENDCMP
+#
+$CMP BUK9M9R1-40EX
+D 64A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 7.3mOhm Ron, 16.2nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/BUK9M9R1-40E.pdf
 $ENDCMP
 #
 $CMP BUZ11
@@ -900,19 +1146,31 @@ K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/FD/FDS9934C.pdf
 $ENDCMP
 #
-$CMP IPT012N08N5ATMA1
+$CMP IPD50R380CE
+D 14.1A Id, 500V Vds, CoolMOS N-Channel Power MOSFET, 380mOhm Ron, 24.8nC Qg (typ), TO-252-2
+K CoolMOS Power MOSFET N-MOS
+F https://www.infineon.com/dgdl/Infineon-IPD50R380CE-DS-v02_01-en.pdf?fileId=db3a30433ecb86d4013ed0a2ef580f38
+$ENDCMP
+#
+$CMP IPD50R3K0CE
+D 1.7A Id, 500V Vds, CoolMOS N-Channel Power MOSFET, 3Ohm Ron, 4.3nC Qg (typ), TO-252-2
+K CoolMOS Power MOSFET N-MOS
+F https://www.infineon.com/dgdl/IPx50R3K0CE_2_0.pdf?folderId=db3a3043163797a6011637d4bae7003b&fileId=db3a304339dcf4b10139e7e9ff592ce4
+$ENDCMP
+#
+$CMP IPT012N08N5
 D 300A Id, 80V Vds, OptiMOS N-Channel Power MOSFET, 1.2mOhm Ron, Qg (typ) 178.0nC, PG-HSOF-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-IPT012N08N5-DS-v02_01-EN.pdf?fileId=5546d4624a75e5f1014aca59127a1eb9
 $ENDCMP
 #
-$CMP IPT015N10N5ATMA1
+$CMP IPT015N10N5
 D 300A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 1.5mOhm Ron, Qg (typ) 169.0nC, PG-HSOF-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-IPT015N10N5-DS-v02_01-EN.pdf?fileId=5546d4624a75e5f1014ac94680661aff
 $ENDCMP
 #
-$CMP IPT020N10N3ATMA1
+$CMP IPT020N10N3
 D 300A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 2.0mOhm Ron, Qg (typ) 156.0nC, PG-HSOF-8
 K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-IPT020N10N3-DS-v02_00-en.pdf?fileId=db3a30433e9d5d11013e9e58035b0158
@@ -955,7 +1213,7 @@ F http://www.irf.com/product-info/datasheets/data/irf7343ipbf.pdf
 $ENDCMP
 #
 $CMP IRF740
-D MOSFET, N Channel, 10 A, 400 V, 0.5 ohm
+D 10A Id, 400V Vds, N-Channel Power MOSFET, 500mOhm Rds, TO-220AB
 K N Channel
 F http://www.vishay.com/docs/91054/91054.pdf
 $ENDCMP
@@ -1032,10 +1290,70 @@ K P-Channel MOSFET
 F http://www.onsemi.com/pub/Collateral/NTR2101P-D.PDF
 $ENDCMP
 #
+$CMP QM6006D
+D 60V Id, 35A Vds, N-Channel Power MOSFET, 18mOhm Ron, 19.3nC Qg (typ), TO252
+K N-Channel MOSFET
+F http://www.jaolen.com/images/pdf/QM6006D.pdf
+$ENDCMP
+#
+$CMP QM6015D
+D -35A Id, -60V Vds, P-Channel Power MOSFET, 25mOhm Ron, 25.0nC Qg (typ), TO252
+K P-Channel MOSFET
+F http://www.jaolen.com/images/pdf/QM6015D.pdf
+$ENDCMP
+#
 $CMP STS2DNE60
 D 2A Id, 60V Vds, Dual N-Channel MOSFET, 180mOhm Ron, SO-8
 K Dual N-Channel MOSFET
 F www.st.com/resource/en/datasheet/CD00001537.pdf
+$ENDCMP
+#
+$CMP SUD08P06-155L
+D 8.4A Id, 60V Vds, TrenchFET P-Channel Power MOSFET, 155mOhm Ron, 19nC Qg, -55 to 150 °C, TO-252-2
+K TrenchFET P-Channel Power MOSFET
+F https://www.vishay.com/docs/62843/sud08p06-155l-ge3.pdf
+$ENDCMP
+#
+$CMP SUD09P10-195
+D 8.8A Id, 100V Vds, TrenchFET P-Channel Power MOSFET, 195mOhm Ron, 34.8nC Qg, -55 to 150 °C, TO-252-2
+K TrenchFET P-Channel Power MOSFET
+F https://www.vishay.com/docs/65903/SUD09P10.pdf
+$ENDCMP
+#
+$CMP SUD19P06-60
+D 19A Id, 60V Vds, TrenchFET P-Channel Power MOSFET, 60mOhm Ron, 40nC Qg, -55 to 150 °C, TO-252-2
+K TrenchFET P-Channel Power MOSFET
+F https://www.vishay.com/docs/69253/sud19p06.pdf
+$ENDCMP
+#
+$CMP SUD45P03-09
+D 45A Id, 30V Vds, TrenchFET P-Channel Power MOSFET, 8.7mOhm Ron, 90nC Qg, -55 to 150 °C, TO-252-2
+K TrenchFET P-Channel Power MOSFET
+F https://www.vishay.com/docs/65595/sud45p03.pdf
+$ENDCMP
+#
+$CMP SUD50P04-08
+D 50A Id, 40V Vds, TrenchFET P-Channel Power MOSFET, 8.1mOhm Ron, 159nC Qg, -55 to 150 °C, TO-252-2
+K TrenchFET P-Channel Power MOSFET
+F https://www.vishay.com/docs/65594/sud50p04-08.pdf
+$ENDCMP
+#
+$CMP SUD50P06-15
+D 50A Id, 60V Vds, TrenchFET P-Channel Power MOSFET, 15mOhm Ron, 165nC Qg, -55 to 150 °C, TO-252-2
+K TrenchFET P-Channel Power MOSFET
+F https://www.vishay.com/docs/68940/sud50p06.pdf
+$ENDCMP
+#
+$CMP SUD50P08-25L
+D 50A Id, 80V Vds, TrenchFET P-Channel Power MOSFET, 25.2mOhm Ron, 160nC Qg, -55 to 175 °C, TO-252-2
+K TrenchFET P-Channel Power MOSFET
+F https://www.vishay.com/docs/73443/sud50p08.pdf
+$ENDCMP
+#
+$CMP SUD50P10-43L
+D 37A Id, 100V Vds, TrenchFET P-Channel Power MOSFET, 43mOhm Ron, 160nC Qg, -55 to 150 °C, TO-252-2
+K TrenchFET P-Channel Power MOSFET
+F https://www.vishay.com/docs/62504/sud50p10-43l-ge3.pdf
 $ENDCMP
 #
 $CMP Si4532DY
