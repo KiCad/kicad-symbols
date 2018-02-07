@@ -3072,6 +3072,48 @@ K REGULATOR POSITIVE POWER LDO adjustable
 F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
 $ENDCMP
 #
+$CMP LT1962
+D 300mA, Adjustable, Low Noise, Micropower LDO Regulator, MSOP-8
+K LDO ADJ
+F http://cds.linear.com/docs/en/datasheet/1962fb.pdf
+$ENDCMP
+#
+$CMP LT1962-1.5
+D 1.5V, 300mA, Low Noise, Micropower LDO Regulator
+K LDO 1.5V
+F http://cds.linear.com/docs/en/datasheet/1962fb.pdf, MSOP-8
+$ENDCMP
+#
+$CMP LT1962-1.8
+D 1.8V, 300mA, Low Noise, Micropower LDO Regulator, MSOP-8
+K LDO 1.8V
+F http://cds.linear.com/docs/en/datasheet/1962fb.pdf
+$ENDCMP
+#
+$CMP LT1962-2.5
+D 2.5V, 300mA, Low Noise, Micropower LDO Regulator, MSOP-8
+K LDO 2.5V
+F http://cds.linear.com/docs/en/datasheet/1962fb.pdf
+$ENDCMP
+#
+$CMP LT1962-3
+D 3.0V, 300mA, Low Noise, Micropower LDO Regulator, MSOP-8
+K LDO 3V
+F http://cds.linear.com/docs/en/datasheet/1962fb.pdf
+$ENDCMP
+#
+$CMP LT1962-3.3
+D 3.3V, 300mA, Low Noise, Micropower LDO Regulator, MSOP-8
+K LDO 3.3V
+F http://cds.linear.com/docs/en/datasheet/1962fb.pdf
+$ENDCMP
+#
+$CMP LT1962-5
+D 5.0V, 300mA, Low Noise, Micropower LDO Regulator, MSOP-8
+K LDO 5V
+F http://cds.linear.com/docs/en/datasheet/1962fb.pdf
+$ENDCMP
+#
 $CMP LT1964-5
 D MICROPOWER 200mA Low Noise LDO negative regulator, fixed output -5V, TSOT-23-5
 K REGULATOR POSITIVE POWER LDO fixed

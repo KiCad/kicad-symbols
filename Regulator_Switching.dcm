@@ -1308,6 +1308,24 @@ K step-down dc-dc buck regulator fixed 3V3
 F http://www.ti.com/lit/ds/symlink/lm5165.pdf
 $ENDCMP
 #
+$CMP LM5166
+D 500mA Synchronous Buck Converter With Ultra-Low IQ, 3V-65V input, adjustable output voltage, DFN-10
+K step-down dc-dc buck regulator adjustable
+F http://www.ti.com/lit/ds/symlink/lm5166.pdf
+$ENDCMP
+#
+$CMP LM5166X
+D 500mA Synchronous Buck Converter With Ultra-Low IQ, 3V-65V input, 5.0V fixed output voltage, DFN-10
+K step-down dc-dc buck regulator fixed 5V
+F http://www.ti.com/lit/ds/symlink/lm5166.pdf
+$ENDCMP
+#
+$CMP LM5166Y
+D 500mA Synchronous Buck Converter With Ultra-Low IQ, 3V-65V input, 3.3V fixed output voltage, DFN-10
+K step-down dc-dc buck regulator fixed 3V3
+F http://www.ti.com/lit/ds/symlink/lm5166.pdf
+$ENDCMP
+#
 $CMP LM5175PWP
 D 42-V wide Vin synchronous 4-switch Buck-Boost controller, HTSSOP-28 package
 K Buck Boost step-up step-down
