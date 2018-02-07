@@ -66,6 +66,18 @@ K High Speed Optocoupler
 F https://optoelectronics.liteon.com/upload/download/DS70-2008-0032/6N135-L%206N136-L%20series.pdf
 $ENDCMP
 #
+$CMP 6N138
+D Low Input Current high Gain Split Darlington Optocouplers, -0.5V to 7V VDD, DIP-8
+K darlington optocoupler
+F http://www.onsemi.com/pub/Collateral/HCPL2731-D.pdf
+$ENDCMP
+#
+$CMP 6N139
+D Low Input Current high Gain Split Darlington Optocouplers, -0.5V to 18V VDD, DIP-8
+K darlington optocoupler
+F http://www.onsemi.com/pub/Collateral/HCPL2731-D.pdf
+$ENDCMP
+#
 $CMP ADuM1200AR
 D Dual-channel digital isolator, Bidirectional communication, 3 V/5 V level translation, SOIC-8
 K Dual-channel digital isolator
@@ -231,13 +243,13 @@ $ENDCMP
 $CMP HCPL2730
 D Low Input Current high Gain Split Darlington Optocouplers
 K darlington optocoupler
-F http://www.mouser.com/ds/2/149/HCPL2731-188691.pdf
+F http://www.onsemi.com/pub/Collateral/HCPL2731-D.pdf
 $ENDCMP
 #
 $CMP HCPL2731
-D Low Input Current high Gain Split Darlington Optocouplers
+D Low Input Current high Gain Split Darlington Optocouplers, DIP-8
 K darlington optocoupler
-F http://www.mouser.com/ds/2/149/HCPL2731-188691.pdf
+F http://www.onsemi.com/pub/Collateral/HCPL2731-D.pdf
 $ENDCMP
 #
 $CMP ILD74
@@ -390,12 +402,6 @@ K Dual NPN AC DC Optocoupler
 F http://optoelectronics.liteon.com/upload/download/DS-70-96-0013/S_110_LTV-814%20824%20844%20(M,%20S,%20S-TA,%20S-TA1,%20S-TP)%20Series.pdf
 $ENDCMP
 #
-$CMP LTV-827
-D Dual DC Optocoupler, Vce 35V, CTR 50%, DIP-8
-K NPN DC Dual Optocoupler
-F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
-$ENDCMP
-#
 $CMP LTV-844
 D Quad AC/DC Optocoupler, Vce 35V, CTR 20%, DIP16
 K Quad NPN AC DC Optocoupler
@@ -405,7 +411,13 @@ $ENDCMP
 $CMP LTV-847
 D Quad DC Optocoupler, Vce 35V, CTR 50%, DIP-16
 K NPN DC Quad Optocoupler
-F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
+F http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF
+$ENDCMP
+#
+$CMP LTV847
+D Quad DC Optocoupler, Vce 35V, CTR 50%, DIP-16
+K NPN DC Quad Optocoupler
+F http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF
 $ENDCMP
 #
 $CMP NSL-32
@@ -433,9 +445,9 @@ F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
 $ENDCMP
 #
 $CMP PC827
-D DC Dual Optocoupler, Vce 35V, CTR 50-300%, DIP8
+D Dual DC Optocoupler, Vce 35V, CTR 50%, DIP-8
 K NPN DC Dual Optocoupler
-F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
+F http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF
 $ENDCMP
 #
 $CMP PC837
