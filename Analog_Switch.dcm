@@ -468,6 +468,18 @@ K CMOS Analog Switch
 F https://datasheets.maximintegrated.com/en/ds/MAX323-MAX325.pdf
 $ENDCMP
 #
+$CMP MAX333
+D Quad SPDT CMOS Analog Switch, DIP-20/SOIC-20/SSOP-20
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/MAX333.pdf
+$ENDCMP
+#
+$CMP MAX333A
+D Quad SPDT CMOS Analog Switch, 17Ohm Ron, DIP-20/SOIC-20/SSOP-20/TSSOP-20
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/MAX333A.pdf
+$ENDCMP
+#
 $CMP NC7SB3157L6X
 D Single SPDT Low-Voltage Analog Switch or 2:1 Multiplexer/De-Multiplexer Bus Switch, 10Ohm Ron, MicroPak-6
 K CMOS Analog Switch
