@@ -198,6 +198,12 @@ K opto IR LED
 F http://www.osram-os.com/Graphics/XPic2/00182155_0.pdf/SFH%20482%20E7800,%20Lead%20(Pb)%20Free%20Product%20-%20RoHS%20Compliant.pdf
 $ENDCMP
 #
+$CMP SK6812MINI
+D RGB LED with integrated controller
+K RGB LED NeoPixel Mini
+F https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf
+$ENDCMP
+#
 $CMP TSAL4400
 D Infrared LED , 3mm LED package
 K opto IR LED
