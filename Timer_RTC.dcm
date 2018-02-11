@@ -18,6 +18,12 @@ K RTC TCXO Realtime Time Clock MEMS SRAM I2C
 F http://datasheets.maximintegrated.com/en/ds/DS3232M.pdf
 $ENDCMP
 #
+$CMP M41T62_QFN
+D Low-power I2C RTC with alarm interrupt QFN
+K I2C RTC Alarm interrupt
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c8/66/38/71/c4/ac/49/9e/CD00019860.pdf/files/CD00019860.pdf/jcr:content/translations/en.CD00019860.pdf
+$ENDCMP
+#
 $CMP PCF8563
 D Realtime Clock/Calendar I2C Interface, DIP/SOIC/TSSOP-8
 K I2C RTC Clock Calendar
