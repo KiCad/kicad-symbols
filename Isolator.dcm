@@ -594,6 +594,114 @@ K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 160-320
 F http://www.vishay.com/docs/83740/sfh617a.pdf
 $ENDCMP
 #
+$CMP SFH6206-1T
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-125, UL, cUL, BSI, SMD-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-125
+F http://www.vishay.com/docs/83675/sfh620a.pdf
+$ENDCMP
+#
+$CMP SFH6206-2T
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-200, UL, cUL, BSI, SMD-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-200
+F http://www.vishay.com/docs/83675/sfh620a.pdf
+$ENDCMP
+#
+$CMP SFH6206-2X001T
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-200, VDE, UL, CUL, BSI, SMD-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-200
+F http://www.vishay.com/docs/83675/sfh620a.pdf
+$ENDCMP
+#
+$CMP SFH6206-3T
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-320, UL, cUL, BSI, SMD-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-320
+F http://www.vishay.com/docs/83675/sfh620a.pdf
+$ENDCMP
+#
+$CMP SFH6206-3X001T
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-320, VDE, UL, CUL, BSI, SMD-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-320
+F http://www.vishay.com/docs/83675/sfh620a.pdf
+$ENDCMP
+#
+$CMP SFH620A-1
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-125, UL, cUL, BSI, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-125
+F http://www.vishay.com/docs/83675/sfh620a.pdf
+$ENDCMP
+#
+$CMP SFH620A-1X001
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-125 VDE, UL, CUL, BSI, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-125
+F http://www.vishay.com/docs/83675/sfh620a.pdf
+$ENDCMP
+#
+$CMP SFH620A-1X006
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-125, UL, cUL, BSI, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-125
+F http://www.vishay.com/docs/83675/sfh620a.pdf
+$ENDCMP
+#
+$CMP SFH620A-2
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-200 UL, cUL, BSI, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-200
+F http://www.vishay.com/docs/83675/sfh620a.pdf
+$ENDCMP
+#
+$CMP SFH620A-2X001
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-200 VDE, UL, CUL, BSI, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-200
+F http://www.vishay.com/docs/83675/sfh620a.pdf
+$ENDCMP
+#
+$CMP SFH620A-2X006
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-200 UL, cUL, BSI, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-200
+F http://www.vishay.com/docs/83675/sfh620a.pdf
+$ENDCMP
+#
+$CMP SFH620A-2X007T
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-200 UL, cUL, BSI, SMD-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-200
+F http://www.vishay.com/docs/83675/sfh620a.pdf
+$ENDCMP
+#
+$CMP SFH620A-2X016
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-200 VDE, UL, CUL, BSI, SMD-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-200
+F http://www.vishay.com/docs/83675/sfh620a.pdf
+$ENDCMP
+#
+$CMP SFH620A-2X017T
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-200 VDE, UL, CUL, BSI, SMD-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-200
+F http://www.vishay.com/docs/83675/sfh620a.pdf
+$ENDCMP
+#
+$CMP SFH620A-3
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-320 UL, cUL, BSI, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-320
+F http://www.vishay.com/docs/83675/sfh620a.pdf
+$ENDCMP
+#
+$CMP SFH620A-3X001
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-320 VDE, UL, CUL, BSI, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-320
+F http://www.vishay.com/docs/83675/sfh620a.pdf
+$ENDCMP
+#
+$CMP SFH620A-3X006
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-320 UL, cUL, BSI, THT PDIP-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-320
+F http://www.vishay.com/docs/83675/sfh620a.pdf
+$ENDCMP
+#
+$CMP SFH620A-3X016
+D Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-320 VDE, UL, CUL, BSI, SMD-4
+K Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 100-320
+F http://www.vishay.com/docs/83675/sfh620a.pdf
+$ENDCMP
+#
 $CMP Si8640BA-B-IU
 D Low-Power Quad-Channel Digital Isolator, 150Mbps, 2.5-5.5V, 1.0kV isolation, Fail-Safe Low, QSOP-16
 K 4Ch 4In Quad Digital Isolator 150Mbps
