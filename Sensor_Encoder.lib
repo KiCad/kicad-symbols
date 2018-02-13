@@ -3,7 +3,7 @@ EESchema-LIBRARY Version 2.4
 #
 # PEC11R-xxxx-Nxxxx
 #
-DEF PEC11R-xxxx-Nxxxx U 0 0 Y N 1 F N
+DEF PEC11R-xxxx-Nxxxx U 0 20 Y Y 1 F N
 F0 "U" 0 250 50 H V C CNN
 F1 "PEC11R-xxxx-Nxxxx" 0 -250 50 H V C CNN
 F2 "" 0 -100 50 H I C CNN
@@ -34,7 +34,7 @@ ENDDEF
 #
 # PEC11R-xxxx-Sxxxx
 #
-DEF PEC11R-xxxx-Sxxxx U 0 0 Y N 1 F N
+DEF PEC11R-xxxx-Sxxxx U 0 20 Y Y 1 F N
 F0 "U" 0 350 50 H V C CNN
 F1 "PEC11R-xxxx-Sxxxx" 0 -350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
