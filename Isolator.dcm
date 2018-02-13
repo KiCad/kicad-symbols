@@ -438,6 +438,18 @@ K NPN DC Optocoupler
 F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
 $ENDCMP
 #
+$CMP LTV-817M
+D DC Optocoupler, Vce 35V, CTR 50%, DIP-4
+K NPN DC Optocoupler
+F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
+$ENDCMP
+#
+$CMP LTV-817S
+D DC Optocoupler, Vce 35V, CTR 50%, SMDIP-4
+K NPN DC Optocoupler
+F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
+$ENDCMP
+#
 $CMP LTV-824
 D Dual AC/DC Optocoupler, Vce 35V, CTR 20%, DIP8
 K Dual NPN AC DC Optocoupler
@@ -448,6 +460,18 @@ $CMP LTV-827
 D Dual DC Optocoupler, Vce 35V, CTR 50%, DIP-8
 K NPN DC Dual Optocoupler
 F http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series%20201610%20.pdf
+$ENDCMP
+#
+$CMP LTV-827M
+D DC Optocoupler, Vce 35V, CTR 50%, DIP-8
+K NPN DC Optocoupler
+F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
+$ENDCMP
+#
+$CMP LTV-827S
+D DC Optocoupler, Vce 35V, CTR 50%, SMDIP-8
+K NPN DC Optocoupler
+F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
 $ENDCMP
 #
 $CMP LTV-844
@@ -462,10 +486,16 @@ K NPN DC Quad Optocoupler
 F http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF
 $ENDCMP
 #
-$CMP LTV847
-D Quad DC Optocoupler, Vce 35V, CTR 50%, DIP-16
-K NPN DC Quad Optocoupler
-F http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF
+$CMP LTV-847M
+D DC Optocoupler, Vce 35V, CTR 50%, DIP-16
+K NPN DC Optocoupler
+F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
+$ENDCMP
+#
+$CMP LTV-847S
+D DC Optocoupler, Vce 35V, CTR 50%, SMDIP-16
+K NPN DC Optocoupler
+F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
 $ENDCMP
 #
 $CMP NSL-32
