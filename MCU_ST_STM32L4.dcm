@@ -1,0 +1,783 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32L431CBTx
+D Core: ARM Cortex-M4 Package: LQFP48 Flash: 128KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 38
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
+$ENDCMP
+#
+$CMP STM32L431CCTx
+D Core: ARM Cortex-M4 Package: LQFP48 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 38
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
+$ENDCMP
+#
+$CMP STM32L431CBUx
+D Core: ARM Cortex-M4 Package: UFQFPN48 Flash: 128KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 38
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
+$ENDCMP
+#
+$CMP STM32L431CCUx
+D Core: ARM Cortex-M4 Package: UFQFPN48 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 38
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
+$ENDCMP
+#
+$CMP STM32L431CBYx
+D Core: ARM Cortex-M4 Package: WLCSP49-DIE435 Flash: 128KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 39
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
+$ENDCMP
+#
+$CMP STM32L431CCYx
+D Core: ARM Cortex-M4 Package: WLCSP49-DIE435 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 39
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
+$ENDCMP
+#
+$CMP STM32L431KBUx
+D Core: ARM Cortex-M4 Package: UFQFPN32 Flash: 128KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 26
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
+$ENDCMP
+#
+$CMP STM32L431KCUx
+D Core: ARM Cortex-M4 Package: UFQFPN32 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 26
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
+$ENDCMP
+#
+$CMP STM32L431RBIx
+D Core: ARM Cortex-M4 Package: UFBGA64 Flash: 128KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
+$ENDCMP
+#
+$CMP STM32L431RCIx
+D Core: ARM Cortex-M4 Package: UFBGA64 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
+$ENDCMP
+#
+$CMP STM32L431RBTx
+D Core: ARM Cortex-M4 Package: LQFP64 Flash: 128KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
+$ENDCMP
+#
+$CMP STM32L431RCTx
+D Core: ARM Cortex-M4 Package: LQFP64 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
+$ENDCMP
+#
+$CMP STM32L431RBYx
+D Core: ARM Cortex-M4 Package: WLCSP64-DIE435 Flash: 128KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
+$ENDCMP
+#
+$CMP STM32L431RCYx
+D Core: ARM Cortex-M4 Package: WLCSP64-DIE435 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
+$ENDCMP
+#
+$CMP STM32L431VCIx
+D Core: ARM Cortex-M4 Package: UFBGA100 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 83
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
+$ENDCMP
+#
+$CMP STM32L431VCTx
+D Core: ARM Cortex-M4 Package: LQFP100 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 83
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
+$ENDCMP
+#
+$CMP STM32L432KBUx
+D Core: ARM Cortex-M4 Package: UFQFPN32 Flash: 128KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 26
+K ARM Cortex-M4 STM32L4 STM32L4x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257205.pdf
+$ENDCMP
+#
+$CMP STM32L432KCUx
+D Core: ARM Cortex-M4 Package: UFQFPN32 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 26
+K ARM Cortex-M4 STM32L4 STM32L4x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257205.pdf
+$ENDCMP
+#
+$CMP STM32L433CBTx
+D Core: ARM Cortex-M4 Package: LQFP48 Flash: 128KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 38
+K ARM Cortex-M4 STM32L4 STM32L4x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
+$ENDCMP
+#
+$CMP STM32L433CCTx
+D Core: ARM Cortex-M4 Package: LQFP48 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 38
+K ARM Cortex-M4 STM32L4 STM32L4x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
+$ENDCMP
+#
+$CMP STM32L433CBUx
+D Core: ARM Cortex-M4 Package: UFQFPN48 Flash: 128KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 38
+K ARM Cortex-M4 STM32L4 STM32L4x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
+$ENDCMP
+#
+$CMP STM32L433CCUx
+D Core: ARM Cortex-M4 Package: UFQFPN48 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 38
+K ARM Cortex-M4 STM32L4 STM32L4x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
+$ENDCMP
+#
+$CMP STM32L433CBYx
+D Core: ARM Cortex-M4 Package: WLCSP49-DIE435 Flash: 128KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 39
+K ARM Cortex-M4 STM32L4 STM32L4x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
+$ENDCMP
+#
+$CMP STM32L433CCYx
+D Core: ARM Cortex-M4 Package: WLCSP49-DIE435 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 39
+K ARM Cortex-M4 STM32L4 STM32L4x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
+$ENDCMP
+#
+$CMP STM32L433RBIx
+D Core: ARM Cortex-M4 Package: UFBGA64 Flash: 128KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
+$ENDCMP
+#
+$CMP STM32L433RCIx
+D Core: ARM Cortex-M4 Package: UFBGA64 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
+$ENDCMP
+#
+$CMP STM32L433RBTx
+D Core: ARM Cortex-M4 Package: LQFP64 Flash: 128KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
+$ENDCMP
+#
+$CMP STM32L433RCTx
+D Core: ARM Cortex-M4 Package: LQFP64 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
+$ENDCMP
+#
+$CMP STM32L433RBYx
+D Core: ARM Cortex-M4 Package: WLCSP64-DIE435 Flash: 128KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
+$ENDCMP
+#
+$CMP STM32L433RCYx
+D Core: ARM Cortex-M4 Package: WLCSP64-DIE435 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
+$ENDCMP
+#
+$CMP STM32L433RCTxP
+D Core: ARM Cortex-M4 Package: LQFP64 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 50
+K ARM Cortex-M4 STM32L4 STM32L4x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
+$ENDCMP
+#
+$CMP STM32L433VCIx
+D Core: ARM Cortex-M4 Package: UFBGA100 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 83
+K ARM Cortex-M4 STM32L4 STM32L4x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
+$ENDCMP
+#
+$CMP STM32L433VCTx
+D Core: ARM Cortex-M4 Package: LQFP100 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 83
+K ARM Cortex-M4 STM32L4 STM32L4x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
+$ENDCMP
+#
+$CMP STM32L442KCUx
+D Core: ARM Cortex-M4 Package: UFQFPN32 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 26
+K ARM Cortex-M4 STM32L4 STM32L4x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257195.pdf
+$ENDCMP
+#
+$CMP STM32L443CCTx
+D Core: ARM Cortex-M4 Package: LQFP48 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 38
+K ARM Cortex-M4 STM32L4 STM32L4x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00254865.pdf
+$ENDCMP
+#
+$CMP STM32L443CCUx
+D Core: ARM Cortex-M4 Package: UFQFPN48 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 38
+K ARM Cortex-M4 STM32L4 STM32L4x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00254865.pdf
+$ENDCMP
+#
+$CMP STM32L443CCYx
+D Core: ARM Cortex-M4 Package: WLCSP49-DIE435 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 39
+K ARM Cortex-M4 STM32L4 STM32L4x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00254865.pdf
+$ENDCMP
+#
+$CMP STM32L443RCIx
+D Core: ARM Cortex-M4 Package: UFBGA64 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00254865.pdf
+$ENDCMP
+#
+$CMP STM32L443RCTx
+D Core: ARM Cortex-M4 Package: LQFP64 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00254865.pdf
+$ENDCMP
+#
+$CMP STM32L443RCYx
+D Core: ARM Cortex-M4 Package: WLCSP64-DIE435 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00254865.pdf
+$ENDCMP
+#
+$CMP STM32L443VCIx
+D Core: ARM Cortex-M4 Package: UFBGA100 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 83
+K ARM Cortex-M4 STM32L4 STM32L4x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00254865.pdf
+$ENDCMP
+#
+$CMP STM32L443VCTx
+D Core: ARM Cortex-M4 Package: LQFP100 Flash: 256KB Ram: 64KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 83
+K ARM Cortex-M4 STM32L4 STM32L4x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00254865.pdf
+$ENDCMP
+#
+$CMP STM32L451CCUx
+D Core: ARM Cortex-M4 Package: UFQFPN48 Flash: 256KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 38
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340475.pdf
+$ENDCMP
+#
+$CMP STM32L451CEUx
+D Core: ARM Cortex-M4 Package: UFQFPN48 Flash: 512KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 38
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340475.pdf
+$ENDCMP
+#
+$CMP STM32L451RCIx
+D Core: ARM Cortex-M4 Package: UFBGA64 Flash: 256KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340475.pdf
+$ENDCMP
+#
+$CMP STM32L451REIx
+D Core: ARM Cortex-M4 Package: UFBGA64 Flash: 512KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340475.pdf
+$ENDCMP
+#
+$CMP STM32L451RCTx
+D Core: ARM Cortex-M4 Package: LQFP64 Flash: 256KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340475.pdf
+$ENDCMP
+#
+$CMP STM32L451RETx
+D Core: ARM Cortex-M4 Package: LQFP64 Flash: 512KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340475.pdf
+$ENDCMP
+#
+$CMP STM32L451RCYx
+D Core: ARM Cortex-M4 Package: WLCSP64-DIE462 Flash: 256KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340475.pdf
+$ENDCMP
+#
+$CMP STM32L451REYx
+D Core: ARM Cortex-M4 Package: WLCSP64-DIE462 Flash: 512KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340475.pdf
+$ENDCMP
+#
+$CMP STM32L451VCIx
+D Core: ARM Cortex-M4 Package: UFBGA100 Flash: 256KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 83
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340475.pdf
+$ENDCMP
+#
+$CMP STM32L451VEIx
+D Core: ARM Cortex-M4 Package: UFBGA100 Flash: 512KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 83
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340475.pdf
+$ENDCMP
+#
+$CMP STM32L451VCTx
+D Core: ARM Cortex-M4 Package: LQFP100 Flash: 256KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 83
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340475.pdf
+$ENDCMP
+#
+$CMP STM32L451VETx
+D Core: ARM Cortex-M4 Package: LQFP100 Flash: 512KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 83
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340475.pdf
+$ENDCMP
+#
+$CMP STM32L452CCUx
+D Core: ARM Cortex-M4 Package: UFQFPN48 Flash: 256KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 38
+K ARM Cortex-M4 STM32L4 STM32L4x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340549.pdf
+$ENDCMP
+#
+$CMP STM32L452CEUx
+D Core: ARM Cortex-M4 Package: UFQFPN48 Flash: 512KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 38
+K ARM Cortex-M4 STM32L4 STM32L4x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340549.pdf
+$ENDCMP
+#
+$CMP STM32L452RCIx
+D Core: ARM Cortex-M4 Package: UFBGA64 Flash: 256KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340549.pdf
+$ENDCMP
+#
+$CMP STM32L452REIx
+D Core: ARM Cortex-M4 Package: UFBGA64 Flash: 512KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340549.pdf
+$ENDCMP
+#
+$CMP STM32L452RCTx
+D Core: ARM Cortex-M4 Package: LQFP64 Flash: 256KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340549.pdf
+$ENDCMP
+#
+$CMP STM32L452RETx
+D Core: ARM Cortex-M4 Package: LQFP64 Flash: 512KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340549.pdf
+$ENDCMP
+#
+$CMP STM32L452RCYx
+D Core: ARM Cortex-M4 Package: WLCSP64-DIE462 Flash: 256KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340549.pdf
+$ENDCMP
+#
+$CMP STM32L452REYx
+D Core: ARM Cortex-M4 Package: WLCSP64-DIE462 Flash: 512KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340549.pdf
+$ENDCMP
+#
+$CMP STM32L452RETxP
+D Core: ARM Cortex-M4 Package: LQFP64 Flash: 512KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 50
+K ARM Cortex-M4 STM32L4 STM32L4x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340549.pdf
+$ENDCMP
+#
+$CMP STM32L452VCIx
+D Core: ARM Cortex-M4 Package: UFBGA100 Flash: 256KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 83
+K ARM Cortex-M4 STM32L4 STM32L4x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340549.pdf
+$ENDCMP
+#
+$CMP STM32L452VEIx
+D Core: ARM Cortex-M4 Package: UFBGA100 Flash: 512KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 83
+K ARM Cortex-M4 STM32L4 STM32L4x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340549.pdf
+$ENDCMP
+#
+$CMP STM32L452VCTx
+D Core: ARM Cortex-M4 Package: LQFP100 Flash: 256KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 83
+K ARM Cortex-M4 STM32L4 STM32L4x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340549.pdf
+$ENDCMP
+#
+$CMP STM32L452VETx
+D Core: ARM Cortex-M4 Package: LQFP100 Flash: 512KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 83
+K ARM Cortex-M4 STM32L4 STM32L4x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340549.pdf
+$ENDCMP
+#
+$CMP STM32L462CEUx
+D Core: ARM Cortex-M4 Package: UFQFPN48 Flash: 512KB Ram: 160KB Frequency: 80MHz IO-pins: 38
+K ARM Cortex-M4 STM32L4 STM32L4x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340637.pdf
+$ENDCMP
+#
+$CMP STM32L462REIx
+D Core: ARM Cortex-M4 Package: UFBGA64 Flash: 512KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..--V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340637.pdf
+$ENDCMP
+#
+$CMP STM32L462RETx
+D Core: ARM Cortex-M4 Package: LQFP64 Flash: 512KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..--V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340637.pdf
+$ENDCMP
+#
+$CMP STM32L462REYx
+D Core: ARM Cortex-M4 Package: WLCSP64-DIE462 Flash: 512KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..--V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340637.pdf
+$ENDCMP
+#
+$CMP STM32L462VEIx
+D Core: ARM Cortex-M4 Package: UFBGA100 Flash: 512KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 83
+K ARM Cortex-M4 STM32L4 STM32L4x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340637.pdf
+$ENDCMP
+#
+$CMP STM32L462VETx
+D Core: ARM Cortex-M4 Package: LQFP100 Flash: 512KB Ram: 160KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 83
+K ARM Cortex-M4 STM32L4 STM32L4x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340637.pdf
+$ENDCMP
+#
+$CMP STM32L471QEIx
+D Core: ARM Cortex-M4 Package: UFBGA132 Flash: 512KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 109
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00149404.pdf
+$ENDCMP
+#
+$CMP STM32L471QGIx
+D Core: ARM Cortex-M4 Package: UFBGA132 Flash: 1024KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 109
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00149404.pdf
+$ENDCMP
+#
+$CMP STM32L471RETx
+D Core: ARM Cortex-M4 Package: LQFP64 Flash: 512KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 51
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00149404.pdf
+$ENDCMP
+#
+$CMP STM32L471RGTx
+D Core: ARM Cortex-M4 Package: LQFP64 Flash: 1024KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 51
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00149404.pdf
+$ENDCMP
+#
+$CMP STM32L471VETx
+D Core: ARM Cortex-M4 Package: LQFP100 Flash: 512KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 82
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00149404.pdf
+$ENDCMP
+#
+$CMP STM32L471VGTx
+D Core: ARM Cortex-M4 Package: LQFP100 Flash: 1024KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 82
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00149404.pdf
+$ENDCMP
+#
+$CMP STM32L471ZETx
+D Core: ARM Cortex-M4 Package: LQFP144 Flash: 512KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 114
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00149404.pdf
+$ENDCMP
+#
+$CMP STM32L471ZGTx
+D Core: ARM Cortex-M4 Package: LQFP144 Flash: 1024KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 114
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00149404.pdf
+$ENDCMP
+#
+$CMP STM32L475RCTx
+D Core: ARM Cortex-M4 Package: LQFP64 Flash: 256KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 51
+K ARM Cortex-M4 STM32L4 STM32L4x5
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00172872.pdf
+$ENDCMP
+#
+$CMP STM32L475RETx
+D Core: ARM Cortex-M4 Package: LQFP64 Flash: 512KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 51
+K ARM Cortex-M4 STM32L4 STM32L4x5
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00172872.pdf
+$ENDCMP
+#
+$CMP STM32L475RGTx
+D Core: ARM Cortex-M4 Package: LQFP64 Flash: 1024KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 51
+K ARM Cortex-M4 STM32L4 STM32L4x5
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00172872.pdf
+$ENDCMP
+#
+$CMP STM32L475VCTx
+D Core: ARM Cortex-M4 Package: LQFP100 Flash: 256KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 82
+K ARM Cortex-M4 STM32L4 STM32L4x5
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00172872.pdf
+$ENDCMP
+#
+$CMP STM32L475VETx
+D Core: ARM Cortex-M4 Package: LQFP100 Flash: 512KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 82
+K ARM Cortex-M4 STM32L4 STM32L4x5
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00172872.pdf
+$ENDCMP
+#
+$CMP STM32L475VGTx
+D Core: ARM Cortex-M4 Package: LQFP100 Flash: 1024KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 82
+K ARM Cortex-M4 STM32L4 STM32L4x5
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00172872.pdf
+$ENDCMP
+#
+$CMP STM32L476JEYx
+D Core: ARM Cortex-M4 Package: WLCSP72-DIE415 Flash: 512KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 57
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108832.pdf
+$ENDCMP
+#
+$CMP STM32L476JGYx
+D Core: ARM Cortex-M4 Package: WLCSP72-DIE415 Flash: 1024KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 57
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108832.pdf
+$ENDCMP
+#
+$CMP STM32L476JGYxP
+D Core: ARM Cortex-M4 Package: WLCSP72-DIE415 Flash: 1024KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 55
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108832.pdf
+$ENDCMP
+#
+$CMP STM32L476MEYx
+D Core: ARM Cortex-M4 Package: WLCSP81-DIE415 Flash: 512KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 65
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108832.pdf
+$ENDCMP
+#
+$CMP STM32L476MGYx
+D Core: ARM Cortex-M4 Package: WLCSP81-DIE415 Flash: 1024KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 65
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108832.pdf
+$ENDCMP
+#
+$CMP STM32L476QEIx
+D Core: ARM Cortex-M4 Package: UFBGA132 Flash: 512KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 109
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108832.pdf
+$ENDCMP
+#
+$CMP STM32L476QGIx
+D Core: ARM Cortex-M4 Package: UFBGA132 Flash: 1024KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 109
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108832.pdf
+$ENDCMP
+#
+$CMP STM32L476RCTx
+D Core: ARM Cortex-M4 Package: LQFP64 Flash: 256KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 51
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108832.pdf
+$ENDCMP
+#
+$CMP STM32L476RETx
+D Core: ARM Cortex-M4 Package: LQFP64 Flash: 512KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 51
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108832.pdf
+$ENDCMP
+#
+$CMP STM32L476RGTx
+D Core: ARM Cortex-M4 Package: LQFP64 Flash: 1024KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 51
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108832.pdf
+$ENDCMP
+#
+$CMP STM32L476VCTx
+D Core: ARM Cortex-M4 Package: LQFP100 Flash: 256KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 82
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108832.pdf
+$ENDCMP
+#
+$CMP STM32L476VETx
+D Core: ARM Cortex-M4 Package: LQFP100 Flash: 512KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 82
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108832.pdf
+$ENDCMP
+#
+$CMP STM32L476VGTx
+D Core: ARM Cortex-M4 Package: LQFP100 Flash: 1024KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 82
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108832.pdf
+$ENDCMP
+#
+$CMP STM32L476ZETx
+D Core: ARM Cortex-M4 Package: LQFP144 Flash: 512KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 114
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108832.pdf
+$ENDCMP
+#
+$CMP STM32L476ZGTx
+D Core: ARM Cortex-M4 Package: LQFP144 Flash: 1024KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 114
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108832.pdf
+$ENDCMP
+#
+$CMP STM32L476ZGTxP
+D Core: ARM Cortex-M4 Package: LQFP144 Flash: 1024KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 112
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108832.pdf
+$ENDCMP
+#
+$CMP STM32L486JGYx
+D Core: ARM Cortex-M4 Package: WLCSP72-DIE415 Flash: 1024KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 57
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108833.pdf
+$ENDCMP
+#
+$CMP STM32L486QGIx
+D Core: ARM Cortex-M4 Package: UFBGA132 Flash: 1024KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 109
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108833.pdf
+$ENDCMP
+#
+$CMP STM32L486RGTx
+D Core: ARM Cortex-M4 Package: LQFP64 Flash: 1024KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 51
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108833.pdf
+$ENDCMP
+#
+$CMP STM32L486VGTx
+D Core: ARM Cortex-M4 Package: LQFP100 Flash: 1024KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 82
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108833.pdf
+$ENDCMP
+#
+$CMP STM32L486ZGTx
+D Core: ARM Cortex-M4 Package: LQFP144 Flash: 1024KB Ram: 128KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 114
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108833.pdf
+$ENDCMP
+#
+$CMP STM32L496AEIx
+D Core: ARM Cortex-M4 Package: UFBGA169 Flash: 512KB Ram: 320KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 136
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284211.pdf
+$ENDCMP
+#
+$CMP STM32L496AGIx
+D Core: ARM Cortex-M4 Package: UFBGA169 Flash: 1024KB Ram: 320KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 136
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284211.pdf
+$ENDCMP
+#
+$CMP STM32L496AGIxP
+D Core: ARM Cortex-M4 Package: UFBGA169 Flash: 1024KB Ram: 320KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 134
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284211.pdf
+$ENDCMP
+#
+$CMP STM32L496QEIx
+D Core: ARM Cortex-M4 Package: UFBGA132 Flash: 512KB Ram: 320KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 110
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284211.pdf
+$ENDCMP
+#
+$CMP STM32L496QGIx
+D Core: ARM Cortex-M4 Package: UFBGA132 Flash: 1024KB Ram: 320KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 110
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284211.pdf
+$ENDCMP
+#
+$CMP STM32L496RETx
+D Core: ARM Cortex-M4 Package: LQFP64 Flash: 512KB Ram: 320KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284211.pdf
+$ENDCMP
+#
+$CMP STM32L496RGTx
+D Core: ARM Cortex-M4 Package: LQFP64 Flash: 1024KB Ram: 320KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284211.pdf
+$ENDCMP
+#
+$CMP STM32L496RGTxP
+D Core: ARM Cortex-M4 Package: LQFP64 Flash: 1024KB Ram: 320KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 50
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284211.pdf
+$ENDCMP
+#
+$CMP STM32L496VETx
+D Core: ARM Cortex-M4 Package: LQFP100 Flash: 512KB Ram: 320KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 83
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284211.pdf
+$ENDCMP
+#
+$CMP STM32L496VGTx
+D Core: ARM Cortex-M4 Package: LQFP100 Flash: 1024KB Ram: 320KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 83
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284211.pdf
+$ENDCMP
+#
+$CMP STM32L496VEYx
+D Core: ARM Cortex-M4 Package: WLCSP100-DIE461 Flash: 512KB Ram: 320KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 81
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284211.pdf
+$ENDCMP
+#
+$CMP STM32L496VGYx
+D Core: ARM Cortex-M4 Package: WLCSP100-DIE461 Flash: 1024KB Ram: 320KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 81
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284211.pdf
+$ENDCMP
+#
+$CMP STM32L496VGYxP
+D Core: ARM Cortex-M4 Package: WLCSP100-DIE461 Flash: 1024KB Ram: 320KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 80
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284211.pdf
+$ENDCMP
+#
+$CMP STM32L496ZETx
+D Core: ARM Cortex-M4 Package: LQFP144 Flash: 512KB Ram: 320KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 115
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284211.pdf
+$ENDCMP
+#
+$CMP STM32L496ZGTx
+D Core: ARM Cortex-M4 Package: LQFP144 Flash: 1024KB Ram: 320KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 115
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284211.pdf
+$ENDCMP
+#
+$CMP STM32L496ZGTxP
+D Core: ARM Cortex-M4 Package: LQFP144 Flash: 1024KB Ram: 320KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 113
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284211.pdf
+$ENDCMP
+#
+$CMP STM32L4A6AGIx
+D Core: ARM Cortex-M4 Package: UFBGA169 Flash: 1024KB Ram: 320KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 136
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284207.pdf
+$ENDCMP
+#
+$CMP STM32L4A6QGIx
+D Core: ARM Cortex-M4 Package: UFBGA132 Flash: 1024KB Ram: 320KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 110
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284207.pdf
+$ENDCMP
+#
+$CMP STM32L4A6RGTx
+D Core: ARM Cortex-M4 Package: LQFP64 Flash: 1024KB Ram: 320KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 52
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284207.pdf
+$ENDCMP
+#
+$CMP STM32L4A6VGTx
+D Core: ARM Cortex-M4 Package: LQFP100 Flash: 1024KB Ram: 320KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 83
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284207.pdf
+$ENDCMP
+#
+$CMP STM32L4A6VGYx
+D Core: ARM Cortex-M4 Package: WLCSP100-DIE461 Flash: 1024KB Ram: 320KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 81
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284207.pdf
+$ENDCMP
+#
+$CMP STM32L4A6ZGTx
+D Core: ARM Cortex-M4 Package: LQFP144 Flash: 1024KB Ram: 320KB Frequency: 80MHz Voltage: 1.71..3.6V IO-pins: 115
+K ARM Cortex-M4 STM32L4 STM32L4x6
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284207.pdf
+$ENDCMP
+#
+#End Doc Library
