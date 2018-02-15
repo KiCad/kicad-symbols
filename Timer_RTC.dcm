@@ -60,6 +60,12 @@ K RTC, I2C Timekeeping Chip
 F https://datasheets.maximintegrated.com/en/ds/DS1307.pdf
 $ENDCMP
 #
+$CMP DS1602
+D Elapsed Time Counter, -40 to +85 C, 2.5V to 5.5V VCC, DIP-8, SO-8
+K Elapsed Time Counter
+F https://datasheets.maximintegrated.com/en/ds/DS1602.pdf
+$ENDCMP
+#
 $CMP DS3231M
 D Extremely Accurate I2C-Integrated RTC/TCXO/Crystal SOIC-16
 K RTC TCXO Realtime Time Clock Crystal Oscillator I2C
