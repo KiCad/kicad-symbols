@@ -12,4 +12,10 @@ K DWM1000,Decawave,RF,ranging,UWB
 F https://www.decawave.com/sites/default/files/resources/dwm1000-datasheet-v1.3.pdf
 $ENDCMP
 #
+$CMP DWM1001
+D Ultra wide band RF module With ranging location capabilities
+K DWM1000,DWM1001,Decawave,RF,ranging,UWB
+F https://www.decawave.com/sites/default/files/dwm1001_datasheet.pdf
+$ENDCMP
+#
 #End Doc Library
