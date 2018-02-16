@@ -6,6 +6,12 @@ K mixer active
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADL5801.pdf
 $ENDCMP
 #
+$CMP HMC213
+D 1.5-4.5GHz double-balanced mixer
+K mixer active
+F http://www.analog.com/media/en/technical-documentation/data-sheets/hmc213a.pdf
+$ENDCMP
+#
 $CMP LT5560
 D 0.01MHz to 4GHz Low Power Active Mixer, DFN-8
 K rf mixer
