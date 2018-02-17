@@ -4122,6 +4122,18 @@ K Step-Down DC-DC Converter
 F http://www.ti.com/lit/ds/symlink/tps62201.pdf
 $ENDCMP
 #
+$CMP TPS63060
+D Buck-Boost Converter, 2.5-12V Input Voltage, 2-A Switch Current, Adjustable 2.5-8V Output Voltage
+K Buck-Boost adjustable converter
+F http://www.ti.com/lit/ds/symlink/tps63060.pdf
+$ENDCMP
+#
+$CMP TPS63061
+D Buck-Boost Converter, 2.5-12V Input Voltage, 2-A Switch Current, Fixed 5V Output Voltage
+K Buck-Boost converter 5V
+F http://www.ti.com/lit/ds/symlink/tps63060.pdf
+$ENDCMP
+#
 $CMP TSR_1-2412
 D 1A step-down regulator module, fixed 1.2V output voltage, 6-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement
 K dc-dc traco buck
