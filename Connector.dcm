@@ -636,6 +636,24 @@ K screw terminal
 F ~
 $ENDCMP
 #
+$CMP SpeakON_NL2
+D speakON Connector, Male or Female, NL2
+K speakon connector
+F  ~
+$ENDCMP
+#
+$CMP SpeakON_NL4
+D speakON Connector, Male or Female, NL4
+K speakon connector
+F  ~
+$ENDCMP
+#
+$CMP SpeakON_NL8
+D speakON Connector, Male or Female, NL8
+K speakon connector
+F  ~
+$ENDCMP
+#
 $CMP Test_Point
 D test point
 K test point tp
