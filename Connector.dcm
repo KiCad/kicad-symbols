@@ -732,6 +732,24 @@ K xlr connector
 F  ~
 $ENDCMP
 #
+$CMP XLR3_AudioJack2_Combo_Ground
+D XLR (Male or Female) and Audio Jack (Mono / TS) Combo Connector, Discrete Ground Pin
+K xlr connector
+F  ~
+$ENDCMP
+#
+$CMP XLR3_AudioJack3_Combo_Ground
+D XLR (Male or Female) and Audio Jack (Stereo / TRS) Combo Connector, Discrete Ground Pin
+K xlr connector
+F  ~
+$ENDCMP
+#
+$CMP XLR3_AudioJack3_Combo_Ground_Switch
+D XLR (Male or Female) and Audio Jack (Stereo / TRS, Switched Poles (Normalling)) Combo Connector, Discrete Ground Pin
+K xlr connector
+F  ~
+$ENDCMP
+#
 $CMP XLR3_Ground
 D XLR Connector, Male or Female, 3 Pins, Discrete Ground Pin
 K xlr connector
