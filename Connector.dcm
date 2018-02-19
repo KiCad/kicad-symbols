@@ -36,43 +36,43 @@ K AVR TPI Connector
 F  ~
 $ENDCMP
 #
-$CMP AudioJack_2Pole_Ground
+$CMP AudioJack2_Ground
 D Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve
 K audio jack receptacle mono phone headphone TS connector
 F ~
 $ENDCMP
 #
-$CMP AudioJack_2Pole_Ground_Switch
+$CMP AudioJack2_Ground_Switch
 D Audio Jack, 2 Poles (Mono / TS), Switched Pole (Normalling)
 K audio jack receptacle mono headphones phone TS connector
 F ~
 $ENDCMP
 #
-$CMP AudioJack_3Pole_Ground
+$CMP AudioJack3_Ground
 D Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve
 K audio jack receptacle stereo headphones phones TRS connector
 F ~
 $ENDCMP
 #
-$CMP AudioJack_3Pole_Ground_Switch
+$CMP AudioJack3_Ground_Switch
 D D Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched Poles (Normalling)
 K audio jack receptacle stereo headphones phones TRS connector
 F ~
 $ENDCMP
 #
-$CMP AudioJack_3Pole_Switch
+$CMP AudioJack3_Switch
 D D Audio Jack, 3 Poles (Stereo / TRS), Switched Poles (Normalling)
 K audio jack receptacle stereo headphones connector
 F ~
 $ENDCMP
 #
-$CMP AudioJack_4Pole_Ground
+$CMP AudioJack4_Ground
 D Audio Jack, 4 Poles (TRRS), Grounded Sleeve
 K audio jack receptacle stereo headphones TRRS connector
 F ~
 $ENDCMP
 #
-$CMP AudioJack_5Pole_Ground
+$CMP AudioJack5_Ground
 D Audio Jack, 5 Poles (TRRRS), Grounded Sleeve
 K audio jack receptacle stereo headphones TRRRS connector
 F ~
