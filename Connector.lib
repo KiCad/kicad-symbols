@@ -177,11 +177,11 @@ X GND 6 -100 -400 150 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# AudioJack_2Pole_Ground
+# AudioJack2_Ground
 #
-DEF AudioJack_2Pole_Ground J 0 40 Y Y 1 F N
+DEF AudioJack2_Ground J 0 40 Y Y 1 F N
 F0 "J" -25 175 50 H V C CNN
-F1 "AudioJack_2Pole_Ground" -25 -75 50 H V C CNN
+F1 "AudioJack2_Ground" -25 -75 50 H V C CNN
 F2 "" 250 0 50 H I C CNN
 F3 "" 250 0 50 H I C CNN
 DRAW
@@ -195,11 +195,11 @@ X ~ 2 -200 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# AudioJack_2Pole_Ground_Switch
+# AudioJack2_Ground_Switch
 #
-DEF AudioJack_2Pole_Ground_Switch J 0 40 Y Y 1 F N
+DEF AudioJack2_Ground_Switch J 0 40 Y Y 1 F N
 F0 "J" -50 175 50 H V C CNN
-F1 "AudioJack_2Pole_Ground_Switch" 225 -75 50 H V C CNN
+F1 "AudioJack2_Ground_Switch" 225 -75 50 H V C CNN
 F2 "" 250 100 50 H I C CNN
 F3 "" 250 100 50 H I C CNN
 DRAW
@@ -215,11 +215,11 @@ X ~ 3 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# AudioJack_3Pole_Ground
+# AudioJack3_Ground
 #
-DEF AudioJack_3Pole_Ground J 0 40 Y Y 1 F N
+DEF AudioJack3_Ground J 0 40 Y Y 1 F N
 F0 "J" -50 175 50 H V C CNN
-F1 "AudioJack_3Pole_Ground" 100 -70 50 H V C CNN
+F1 "AudioJack3_Ground" 100 -70 50 H V C CNN
 F2 "" 250 100 50 H I C CNN
 F3 "" 250 100 50 H I C CNN
 DRAW
@@ -235,11 +235,11 @@ X ~ 3 -200 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# AudioJack_3Pole_Ground_Switch
+# AudioJack3_Ground_Switch
 #
-DEF AudioJack_3Pole_Ground_Switch J 0 40 Y Y 1 F N
+DEF AudioJack3_Ground_Switch J 0 40 Y Y 1 F N
 F0 "J" 0 290 50 H V C CNN
-F1 "AudioJack_3Pole_Ground_Switch" -150 -200 50 H V L CNN
+F1 "AudioJack3_Ground_Switch" -150 -200 50 H V L CNN
 F2 "" 250 100 50 H I C CNN
 F3 "" 250 100 50 H I C CNN
 DRAW
@@ -262,11 +262,11 @@ X ~ 5 200 200 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# AudioJack_3Pole_Switch
+# AudioJack3_Switch
 #
-DEF AudioJack_3Pole_Switch J 0 40 Y Y 1 F N
+DEF AudioJack3_Switch J 0 40 Y Y 1 F N
 F0 "J" -50 300 50 H V C CNN
-F1 "AudioJack_3Pole_Switch" 120 -370 50 H V C CNN
+F1 "AudioJack3_Switch" 120 -370 50 H V C CNN
 F2 "" 250 100 50 H I C CNN
 F3 "" 250 100 50 H I C CNN
 DRAW
@@ -293,11 +293,11 @@ X ~ 6 200 100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# AudioJack_4Pole_Ground
+# AudioJack4_Ground
 #
-DEF AudioJack_4Pole_Ground J 0 40 Y Y 1 F N
+DEF AudioJack4_Ground J 0 40 Y Y 1 F N
 F0 "J" -50 80 50 H V C CNN
-F1 "AudioJack_4Pole_Ground" 120 -370 50 H V C CNN
+F1 "AudioJack4_Ground" 120 -370 50 H V C CNN
 F2 "" 250 100 50 H I C CNN
 F3 "" 250 100 50 H I C CNN
 DRAW
@@ -316,11 +316,11 @@ X ~ 4 -200 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# AudioJack_5Pole_Ground
+# AudioJack5_Ground
 #
-DEF AudioJack_5Pole_Ground J 0 40 Y Y 1 F N
+DEF AudioJack5_Ground J 0 40 Y Y 1 F N
 F0 "J" -50 210 50 H V C CNN
-F1 "AudioJack_5Pole_Ground" 25 -375 50 H V C CNN
+F1 "AudioJack5_Ground" 25 -375 50 H V C CNN
 F2 "" 250 100 50 H I C CNN
 F3 "" 250 100 50 H I C CNN
 DRAW
