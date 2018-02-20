@@ -120,6 +120,24 @@ K I2C ADC 12Bits
 F http://www.ti.com/lit/ds/symlink/ads7828.pdf
 $ENDCMP
 #
+$CMP ADS7866
+D Single Channel 12-bit ADC,  100-200ksps, SPI, micro-power, SOT-23-6
+K ADC
+F http://www.ti.com/lit/ds/symlink/ads7866.pdf
+$ENDCMP
+#
+$CMP ADS7867
+D Single Channel 10-bit ADC,  100-200ksps, SPI, micro-power, SOT-23-6
+K ADC
+F http://www.ti.com/lit/ds/symlink/ads7866.pdf
+$ENDCMP
+#
+$CMP ADS7868
+D Single Channel 8-bit ADC,  100-200ksps, SPI, micro-power, SOT-23-6
+K ADC
+F http://www.ti.com/lit/ds/symlink/ads7866.pdf
+$ENDCMP
+#
 $CMP CA3300
 D Convertisseur A->D 6 bits rapide
 K ADC CAN
