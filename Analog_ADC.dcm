@@ -54,6 +54,12 @@ K ADC CAN VIDEO
 F http://www.ti.com/lit/ds/symlink/adc1173.pdf
 $ENDCMP
 #
+$CMP ADC128D818
+D 12-Bit, 8-Channel, ADC System Monitor, I2C Interface, TSSOP-16
+K 12bit ADC 8 Channels TSSOP I2C
+F http://www.ti.com/lit/ds/symlink/adc128d818.pdf
+$ENDCMP
+#
 $CMP ADS1110
 D 16 Bit Analog to Digital converter with on board reference
 K 16 Bit Analog to digital converter ADC
@@ -100,12 +106,6 @@ $CMP ADS1251
 D Single channel 24-bit Analog to Digital Converter, 5V supply, differential input, 20kHz, 2-wire serial interface, SOIC-8
 K delta-sigma adc low-power
 F http://www.ti.com/lit/ds/symlink/ads1251.pdf
-$ENDCMP
-#
-$CMP ADS128D818
-D 16-bit ADC, 8 Channels, I2C compatible, PGA 1 to 128, TSSOP-16
-K 16bit ADC 8 Channels TSSOP I2C
-F http://www.ti.com/lit/ds/symlink/adc128d818.pdf
 $ENDCMP
 #
 $CMP ADS1298_TQFP
