@@ -295,33 +295,39 @@ F http://www.ti.com/lit/ds/symlink/ucc21520.pdf
 $ENDCMP
 #
 $CMP ZXGD3001E6
-D 9A (peak) Gate driver, 12V, 3ns delay
+D 9A (peak) Gate driver, 12V, 3ns delay, SOT-23-6
 K gate driver
 F http://www.diodes.com/_files/datasheets/ZXGD3001E6.pdf
 $ENDCMP
 #
 $CMP ZXGD3002E6
-D 9A (peak) Gate driver, 20V, 2ns delay
+D 9A (peak) Gate driver, 20V, 2ns delay, SOT-23-6
 K gate driver
 F http://www.diodes.com/_files/datasheets/ZXGD3002E6.pdf
 $ENDCMP
 #
 $CMP ZXGD3003E6
-D 5A (peak) Gate driver, 40V, 2ns delay
+D 5A (peak) Gate driver, 40V, 2ns delay, SOT-23-6
 K gate driver
 F http://www.diodes.com/_files/datasheets/ZXGD3003E6.pdf
 $ENDCMP
 #
 $CMP ZXGD3004E6
-D 8A (peak) Gate driver, 40V, 1ns delay
+D 8A (peak) Gate driver, 40V, 1ns delay, SOT-23-6
 K gate driver
 F http://www.diodes.com/_files/datasheets/ZXGD3004E6.pdf
 $ENDCMP
 #
 $CMP ZXGD3006E6
-D 40V 10A gate driver
+D 40V 10A gate driver, SOT-23-6
 K mosfet igbt driver buffer
 F https://www.diodes.com/assets/Datasheets/ZXGD3006E6.pdf
+$ENDCMP
+#
+$CMP ZXGD3009E6
+D 2A (peak) Gate driver, 40V, SOT-23-6
+K gate driver
+F https://www.diodes.com/assets/Datasheets/ZXGD3009E6.pdf
 $ENDCMP
 #
 #End Doc Library
