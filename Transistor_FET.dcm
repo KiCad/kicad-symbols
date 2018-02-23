@@ -1176,8 +1176,14 @@ K dual-cool-powertrench mosfet fairchild
 F https://www.fairchildsemi.com/datasheets/FD/FDMT80080DC.pdf
 $ENDCMP
 #
+$CMP FDS2734
+D 4.5A Id, 60V Vds, N-Channel MOSFET, 117mOhm Ron, SOIC-8
+K N-Channel MOSFET
+F http://www.onsemi.com/pub/Collateral/FDS2734-D.pdf
+$ENDCMP
+#
 $CMP FDS4559
-D 4.5A Id, 60V Vds, Dual N and P Channel MOSFET, 55mOhm Ron, 10V Vgs, SO8L
+D 3.0A Id, 250V Vds, N Channel MOSFET, 55mOhm Ron, 10V Vgs, SO8L
 K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/FD/FDS4559.pdf
 $ENDCMP
@@ -1771,7 +1777,7 @@ F https://www.infineon.com/dgdl/irf8327spbf.pdf?fileId=5546d462533600a40153560d4
 $ENDCMP
 #
 $CMP IRF8721PBF-1
-D 14A Id, 30V Vds, HEXFET N-Channel  MOSFET, SO-8
+D 14A Id, 30V Vds, HEXFET N-Channel MOSFET, SO-8
 K HEXFET N-Channel MOSFET
 F http://www.irf.com/product-info/datasheets/data/irf8721pbf-1.pdf
 $ENDCMP
