@@ -223,7 +223,13 @@ F http://cds.linear.com/docs/en/datasheet/4440fb.pdf
 $ENDCMP
 #
 $CMP MC33152
-D High Speed Dual MOSFET Drivers, 1.5A, DIP-8/SOIC-8
+D High Speed Dual MOSFET Drivers, 1.5A, -40 to 125C, DIP-8/SOIC-8
+K Driver, Dual MOSFET
+F https://www.onsemi.com/pub/Collateral/MC34152-D.PDF
+$ENDCMP
+#
+$CMP MC34152
+D High Speed Dual MOSFET Drivers, 1.5A, 0 to 70C, DIP-8/SOIC-8
 K Driver, Dual MOSFET
 F https://www.onsemi.com/pub/Collateral/MC34152-D.PDF
 $ENDCMP
