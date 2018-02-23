@@ -72,18 +72,6 @@ K CMOS Analog Switch
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf
 $ENDCMP
 #
-$CMP CD74HC4067M
-D High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24
-K multiplexer demultiplexer mux demux
-F http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf
-$ENDCMP
-#
-$CMP CD74HC4067SM
-D High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SSOP-24
-K multiplexer demultiplexer mux demux
-F http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf
-$ENDCMP
-#
 $CMP DG308AxJ
 D Quad SPST Analog Switches, normally OFF, 60Ohm Ron, DIP-16
 K CMOS Analog Switch
