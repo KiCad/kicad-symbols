@@ -84,8 +84,14 @@ K RTC TCXO Realtime Time Clock MEMS SRAM I2C
 F http://datasheets.maximintegrated.com/en/ds/DS3232M.pdf
 $ENDCMP
 #
-$CMP PCF8563
-D Realtime Clock/Calendar I2C Interface, DIP/SOIC/TSSOP-8
+$CMP PCF8563T
+D Realtime Clock/Calendar I2C Interface, SOIC-8
+K I2C RTC Clock Calendar
+F http://www.nxp.com/documents/data_sheet/PCF8563.pdf
+$ENDCMP
+#
+$CMP PCF8563TS
+D Realtime Clock/Calendar I2C Interface, TSSOP-8
 K I2C RTC Clock Calendar
 F http://www.nxp.com/documents/data_sheet/PCF8563.pdf
 $ENDCMP
