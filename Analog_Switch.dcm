@@ -30,6 +30,18 @@ K CMOS Analog Switch
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG419.pdf
 $ENDCMP
 #
+$CMP ADG633YCP
+D Triple SPDT CMOS Analog Switch, 52Ohm Ron, LFCSP-16
+K CMOS Analog Switch
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG633.pdf
+$ENDCMP
+#
+$CMP ADG633YRU
+D Triple SPDT CMOS Analog Switch, 52Ohm Ron, TSSOP-16
+K CMOS Analog Switch
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG633.pdf
+$ENDCMP
+#
 $CMP ADG728
 D Single 8-to-1 CMOS Low Voltage 2-Wire Serially Controlled, Matrix Switches
 K analog switch selector multiplexer TWI I2C IIC 8-to-1
@@ -40,6 +52,24 @@ $CMP ADG729
 D Dual 4-to-1 CMOS Low Voltage 2-Wire Serially Controlled, Matrix Switches
 K analog switch selector multiplexer TWI I2C IIC 4-to-1
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG728_729.pdf
+$ENDCMP
+#
+$CMP ADG733BRQ
+D Triple SPDT CMOS Analog Switch, 2.5Ohm Ron, QSOP-16
+K CMOS Analog Switch
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf
+$ENDCMP
+#
+$CMP ADG733BRU
+D Triple SPDT CMOS Analog Switch, 2.5Ohm Ron, TSSOP-16
+K CMOS Analog Switch
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf
+$ENDCMP
+#
+$CMP ADG734
+D Quad SPDT CMOS Analog Switch, 2.5Ohm Ron, TSSOP-20
+K CMOS Analog Switch
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf
 $ENDCMP
 #
 $CMP DG308AxJ
@@ -466,6 +496,18 @@ $CMP MAX325CUA
 D Dual SPST CMOS Analog Switches, normally 1xOFF and 1xON, 60Ohm Ron, MSOP-8
 K CMOS Analog Switch
 F https://datasheets.maximintegrated.com/en/ds/MAX323-MAX325.pdf
+$ENDCMP
+#
+$CMP MAX333
+D Quad SPDT CMOS Analog Switch, DIP-20/SOIC-20/SSOP-20
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/MAX333.pdf
+$ENDCMP
+#
+$CMP MAX333A
+D Quad SPDT CMOS Analog Switch, 17Ohm Ron, DIP-20/SOIC-20/SSOP-20/TSSOP-20
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/MAX333A.pdf
 $ENDCMP
 #
 $CMP NC7SB3157L6X
