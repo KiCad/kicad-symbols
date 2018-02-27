@@ -102,9 +102,9 @@ K delta-sigma adc low-power
 F http://www.ti.com/lit/ds/symlink/ads1251.pdf
 $ENDCMP
 #
-$CMP ADS128D818
-D 16-bit ADC, 8 Channels, I2C compatible, PGA 1 to 128, TSSOP-16
-K 16bit ADC 8 Channels TSSOP I2C
+$CMP ADC128D818
+D 12-Bit, 8-Channel, ADC System Monitor With Temperature Sensor, I2C Interface, TSSOP-16
+K ADC 8 Channels TSSOP I2C
 F http://www.ti.com/lit/ds/symlink/adc128d818.pdf
 $ENDCMP
 #
