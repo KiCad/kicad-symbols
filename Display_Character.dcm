@@ -1,17 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 7SEGMENT_CA
-D Generic 7 segment display, common anode
-K display LED
-F ~
-$ENDCMP
-#
-$CMP 7SEGMENT_CC
-D Generic 7 segment display, common cathode
-K display LED 7-segment
-F ~
-$ENDCMP
-#
 $CMP AD-121F2
 D Single Digit 7-segment RGB LED Display, 1-inch digit height, common anode
 K display RGB LED digit 7-segment
