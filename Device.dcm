@@ -918,6 +918,18 @@ K inductor choke coil reactor magnetic
 F ~
 $ENDCMP
 #
+$CMP L_Coupled
+D Coupled inductor
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Coupled_Small
+D Coupled inductor, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
 $CMP L_Small
 D Inductor, small symbol
 K inductor choke coil reactor magnetic
