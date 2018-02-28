@@ -3560,8 +3560,8 @@ ENDDEF
 DEF L_Core_Ferrite_Coupled L 0 10 Y N 1 F N
 F0 "L" 0 175 50 H V C CNN
 F1 "L_Core_Ferrite_Coupled" 0 -175 50 H V C CNN
-F2 "" 0 0 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  Choke_*
  *Coil*
@@ -3609,8 +3609,8 @@ ENDDEF
 DEF L_Core_Ferrite_Coupled_Small L 0 10 Y N 1 F N
 F0 "L" 0 125 50 H V C CNN
 F1 "L_Core_Ferrite_Coupled_Small" 0 -125 50 H V C CNN
-F2 "" 0 0 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  Choke_*
  *Coil*
@@ -3718,8 +3718,8 @@ ENDDEF
 DEF L_Core_Iron_Coupled L 0 10 Y N 1 F N
 F0 "L" 0 175 50 H V C CNN
 F1 "L_Core_Iron_Coupled" 0 -175 50 H V C CNN
-F2 "" 0 0 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  Choke_*
  *Coil*
@@ -3757,8 +3757,8 @@ ENDDEF
 DEF L_Core_Iron_Coupled_Small L 0 10 Y N 1 F N
 F0 "L" 0 125 50 H V C CNN
 F1 "L_Core_Iron_Coupled_Small" 0 -125 50 H V C CNN
-F2 "" 0 0 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  Choke_*
  *Coil*
@@ -3815,8 +3815,8 @@ ENDDEF
 DEF L_Coupled L 0 10 Y N 1 F N
 F0 "L" 0 175 50 H V C CNN
 F1 "L_Coupled" 0 -175 50 H V C CNN
-F2 "" 0 0 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  Choke_*
  *Coil*
@@ -3852,8 +3852,8 @@ ENDDEF
 DEF L_Coupled_Small L 0 10 Y N 1 F N
 F0 "L" 0 125 50 H V C CNN
 F1 "L_Coupled_Small" 0 -125 50 H V C CNN
-F2 "" 0 0 50 V V C CNN
-F3 "" 0 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  Choke_*
  *Coil*
