@@ -876,6 +876,18 @@ K inductor choke coil reactor magnetic
 F ~
 $ENDCMP
 #
+$CMP L_Core_Ferrite_Coupled
+D Coupled inductor with Ferrite Core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Ferrite_Coupled_Small
+D Coupled inductor with Ferrite Core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
 $CMP L_Core_Ferrite_Small
 D Inductor with ferrite core, small symbol
 K inductor choke coil reactor magnetic
@@ -885,6 +897,18 @@ $ENDCMP
 $CMP L_Core_Iron
 D Inductor with Iron Core
 K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP L_Core_Iron_Coupled
+D Coupled inductor with Iron Core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Iron_Coupled_Small
+D Coupled inductor with Iron Core, small symbol
+K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
