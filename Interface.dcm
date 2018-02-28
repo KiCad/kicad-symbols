@@ -111,8 +111,14 @@ K Floppy disk controller
 F https://amaus.net/static/S100/western%20digital/datasheet/Western%20Digital%20FD1771%20Specification%20197710.pdf
 $ENDCMP
 #
-$CMP FIN1019
-D 400Mbps LVDS Differential Driver/Reciever
+$CMP FIN1019M
+D 400Mbps LVDS Differential Driver/Reciever, SOIC-14
+K lvds
+F http://www.onsemi.com/pub/Collateral/FIN1019-D.pdf
+$ENDCMP
+#
+$CMP FIN1019MTC
+D 400Mbps LVDS Differential Driver/Reciever, TSSOP-14
 K lvds
 F http://www.onsemi.com/pub/Collateral/FIN1019-D.pdf
 $ENDCMP
