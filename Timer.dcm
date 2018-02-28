@@ -114,6 +114,12 @@ K single opamp
 F http://cds.linear.com/docs/en/datasheet/1012afbs.pdf
 $ENDCMP
 #
+$CMP MC1455
+D Timers, DIP-8/SOIC-8
+K timer
+F https://www.onsemi.com/pub/Collateral/MC1455-D.PDF
+$ENDCMP
+#
 $CMP MCP7940N
 D Real-Time Clock, I2C, Battery Backup
 K realtime clock RTC
