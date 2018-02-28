@@ -24,6 +24,12 @@ K IQRF data controlled transceiver, GMSK modulation
 F http://iqrf.org/weben/downloads.php?id=337
 $ENDCMP
 #
+$CMP MAADSS0008
+D 0-2GHz, 15dB step attenuator, SOT-23-5
+K RF attenuator
+F http://cdn.macom.com/datasheets/maadss0008.pdf
+$ENDCMP
+#
 $CMP MM002
 D NEMEUS Modem dual-mode LoRa/SIGFOX
 K IOT LoRa SIGFOX
