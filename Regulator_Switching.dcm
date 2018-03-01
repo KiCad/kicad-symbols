@@ -1308,6 +1308,24 @@ K step-down dc-dc buck regulator fixed 3V3
 F http://www.ti.com/lit/ds/symlink/lm5165.pdf
 $ENDCMP
 #
+$CMP LM5166
+D 500mA Synchronous Buck Converter With Ultra-Low IQ, 3V-65V input, adjustable output voltage, DFN-10
+K step-down dc-dc buck regulator adjustable
+F http://www.ti.com/lit/ds/symlink/lm5166.pdf
+$ENDCMP
+#
+$CMP LM5166X
+D 500mA Synchronous Buck Converter With Ultra-Low IQ, 3V-65V input, 5.0V fixed output voltage, DFN-10
+K step-down dc-dc buck regulator fixed 5V
+F http://www.ti.com/lit/ds/symlink/lm5166.pdf
+$ENDCMP
+#
+$CMP LM5166Y
+D 500mA Synchronous Buck Converter With Ultra-Low IQ, 3V-65V input, 3.3V fixed output voltage, DFN-10
+K step-down dc-dc buck regulator fixed 3V3
+F http://www.ti.com/lit/ds/symlink/lm5166.pdf
+$ENDCMP
+#
 $CMP LM5175PWP
 D 42-V wide Vin synchronous 4-switch Buck-Boost controller, HTSSOP-28 package
 K Buck Boost step-up step-down
@@ -4102,6 +4120,18 @@ $CMP TPS62208DBV
 D 300mA High-Efficiency Step-Down DC-DC Converter, fixed 1.875V output voltage, 2.5-6V input voltage, SOT-23-5
 K Step-Down DC-DC Converter
 F http://www.ti.com/lit/ds/symlink/tps62201.pdf
+$ENDCMP
+#
+$CMP TPS63060
+D Buck-Boost Converter, 2.5-12V Input Voltage, 2-A Switch Current, Adjustable 2.5-8V Output Voltage, S-PWSON-N10
+K Buck-Boost adjustable converter
+F http://www.ti.com/lit/ds/symlink/tps63060.pdf
+$ENDCMP
+#
+$CMP TPS63061
+D Buck-Boost Converter, 2.5-12V Input Voltage, 2-A Switch Current, Fixed 5V Output Voltage, S-PWSON-10
+K Buck-Boost converter 5V
+F http://www.ti.com/lit/ds/symlink/tps63060.pdf
 $ENDCMP
 #
 $CMP TSR_1-2412
