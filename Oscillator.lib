@@ -455,7 +455,7 @@ ENDDEF
 DEF Si570 U 0 40 Y Y 1 F N
 F0 "U" -350 350 50 H V C CNN
 F1 "Si570" 300 -350 50 H V C CNN
-F2 "Oscillator:Oscillator_SI570_SI571_Standard" 0 -300 50 H I C CNN
+F2 "Oscillator:Oscillator_SMD_SI570_SI571_Standard" 0 -300 50 H I C CNN
 F3 "" -400 700 50 H I C CNN
 $FPLIST
  *:Oscillator*SI570*SI571*
@@ -479,7 +479,7 @@ ENDDEF
 DEF Si571 U 0 40 Y Y 1 F N
 F0 "U" -400 400 50 H V C CNN
 F1 "Si571" 350 -400 50 H V C CNN
-F2 "Oscillator:Oscillator_SI570_SI571_Standard" -550 600 50 H I C CNN
+F2 "Oscillator:Oscillator_SMD_SI570_SI571_Standard" -550 600 50 H I C CNN
 F3 "" -400 700 50 H I C CNN
 $FPLIST
  *:Oscillator*SI570*SI571*
