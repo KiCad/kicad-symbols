@@ -33,6 +33,12 @@ K rs232 uart transceiver line-driver
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM101E.pdf
 $ENDCMP
 #
+$CMP ADM1491EBR
+D RS-485, RS-422 full duplex 16Mbps transceiver, SOIC-14
+K RS485 RS422 transceiver full duplex
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM1490E_1491E.pdf
+$ENDCMP
+#
 $CMP ADM222
 D Dual RS232 driver/receiver, 5V supply, 200kb/s
 K rs232 uart transceiver
@@ -241,6 +247,24 @@ $CMP MAX3232
 D 3.0V to 5.5V, Low-Power, up to 1Mbps, True RS-232 Transceivers Using Four 0.1μF External Capacitors
 K rs232 uart transceiver line-driver
 F https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf
+$ENDCMP
+#
+$CMP MAX3483
+D True RS-485/RS-422, 0.25Mbps, Slew-Rate Limited, with low-power shutdown, with receiver/driver enable, 32 receiver drive capacitity, DIP-8 and SOIC-8
+K RS-485 RS-422 UART line-driver transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf
+$ENDCMP
+#
+$CMP MAX3485
+D True RS-485/RS-422, 10Mbps, Slew-Rate Limited, with low-power shutdown, with receiver/driver enable, 32 receiver drive capacitity, DIP-8 and SOIC-8
+K RS-485 RS-422 UART line-driver transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf
+$ENDCMP
+#
+$CMP MAX3486
+D True RS-485/RS-422, 2.5Mbps, Slew-Rate Limited, with low-power shutdown, with receiver/driver enable, 32 receiver drive capacitity, DIP-8 and SOIC-8
+K RS-485 RS-422 UART line-driver transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf
 $ENDCMP
 #
 $CMP MAX481E

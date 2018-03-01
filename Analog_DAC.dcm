@@ -318,6 +318,12 @@ K DAC CNA
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD775.pdf
 $ENDCMP
 #
+$CMP AD9142
+D 1.6GSPS 16bit dual-channel DAC, LFCSP-72
+K 16bit DAC 2CH
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9142.pdf 
+$ENDCMP
+#
 $CMP AD9744
 D 210MSPS 14bit DAC, TSSOP-28
 K 14bit DAC 1CH
@@ -406,6 +412,12 @@ $CMP MAX5139
 D Low-Power, Single, 12-Bit, Buffered Voltage-Output DAC
 K 12-bit DAC 1CH
 F https://datasheets.maximintegrated.com/en/ds/MAX5138-MAX5139.pdf
+$ENDCMP
+#
+$CMP MAX5741
+D Digital to analog, 10 Bit, 4 ch, 2.7 - 5.5 VDD, SPI, uMAX-10
+K DA 8 Bit 4 ch
+F https://datasheets.maximintegrated.com/en/ds/MAX5741.pdf
 $ENDCMP
 #
 $CMP MAX5813

@@ -111,6 +111,42 @@ K Floppy disk controller
 F https://amaus.net/static/S100/western%20digital/datasheet/Western%20Digital%20FD1771%20Specification%20197710.pdf
 $ENDCMP
 #
+$CMP FIN1019M
+D 3.3V LVDS High Speed Differential Driver/Receiver, 400Mbps, SOIC-14
+K lvds driver reciever
+F http://www.onsemi.com/pub/Collateral/FIN1019-D.pdf
+$ENDCMP
+#
+$CMP FIN1019MTC
+D 3.3V LVDS High Speed Differential Driver/Receiver, 400Mbps, TSSOP-14
+K lvds driver reciever
+F http://www.onsemi.com/pub/Collateral/FIN1019-D.pdf
+$ENDCMP
+#
+$CMP LTC1518
+D 52Mbps Precision Delay RS485 Quad Line Receivers
+K receiver rs485 rs422 differential
+F http://cds.linear.com/docs/en/datasheet/15189fa.pdf
+$ENDCMP
+#
+$CMP LTC1519
+D 52Mbps Precision Delay RS485 Quad Line Receivers
+K receiver rs485 rs422 differential
+F http://cds.linear.com/docs/en/datasheet/15189fa.pdf
+$ENDCMP
+#
+$CMP LTC1688
+D 100Mbps RS485 Hot Swapable Quad Drivers
+K driver rs485 rs422 differential
+F http://cds.linear.com/docs/en/datasheet/16889fa.pdf
+$ENDCMP
+#
+$CMP LTC1689
+D 100Mbps RS485 Hot Swapable Quad Drivers
+K driver rs485 rs422 differential
+F http://cds.linear.com/docs/en/datasheet/16889fa.pdf
+$ENDCMP
+#
 $CMP MC6840
 D Peripheral Interface Adapter 1MHz, DIP-40
 K PIA
