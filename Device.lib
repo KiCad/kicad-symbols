@@ -2628,7 +2628,7 @@ $FPLIST
  Choke_*
  *Coil*
  Inductor_*
- L_*
+ *:L_*
 $ENDFPLIST
 DRAW
 A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
@@ -3505,7 +3505,7 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Inductor_*
- L_*
+ *:L_*
 $ENDFPLIST
 DRAW
 A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
@@ -3531,7 +3531,7 @@ $FPLIST
  Choke_*
  *Coil*
  Inductor_*
- L_*
+ *:L_*
 $ENDFPLIST
 DRAW
 A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
@@ -3566,7 +3566,7 @@ $FPLIST
  Choke_*
  *Coil*
  Inductor_*
- L_*
+ *:L_*
 $ENDFPLIST
 DRAW
 A -80 -80 20 1 1799 0 1 0 N -60 -80 -100 -80
@@ -3615,7 +3615,7 @@ $FPLIST
  Choke_*
  *Coil*
  Inductor_*
- L_*
+ *:L_*
 $ENDFPLIST
 DRAW
 A -60 -50 20 1 1799 0 1 0 N -40 -50 -80 -50
@@ -3660,7 +3660,7 @@ $FPLIST
  Choke_*
  *Coil*
  Inductor_*
- L_*
+ *:L_*
 $ENDFPLIST
 DRAW
 A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
@@ -3699,7 +3699,7 @@ $FPLIST
  Choke_*
  *Coil*
  Inductor_*
- L_*
+ *:L_*
 $ENDFPLIST
 DRAW
 A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
@@ -3724,7 +3724,7 @@ $FPLIST
  Choke_*
  *Coil*
  Inductor_*
- L_*
+ *:L_*
 $ENDFPLIST
 DRAW
 A -80 -80 20 1 1799 0 1 0 N -60 -80 -100 -80
@@ -3763,7 +3763,7 @@ $FPLIST
  Choke_*
  *Coil*
  Inductor_*
- L_*
+ *:L_*
 $ENDFPLIST
 DRAW
 A -60 -50 20 1 1799 0 1 0 N -40 -50 -80 -50
@@ -3796,7 +3796,7 @@ $FPLIST
  Choke_*
  *Coil*
  Inductor_*
- L_*
+ *:L_*
 $ENDFPLIST
 DRAW
 A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
@@ -3821,7 +3821,7 @@ $FPLIST
  Choke_*
  *Coil*
  Inductor_*
- L_*
+ *:L_*
 $ENDFPLIST
 DRAW
 A -80 -80 20 1 1799 0 1 0 N -60 -80 -100 -80
@@ -3858,7 +3858,7 @@ $FPLIST
  Choke_*
  *Coil*
  Inductor_*
- L_*
+ *:L_*
 $ENDFPLIST
 DRAW
 A -60 -50 20 1 1799 0 1 0 N -40 -50 -80 -50
@@ -3889,7 +3889,7 @@ $FPLIST
  Choke_*
  *Coil*
  Inductor_*
- L_*
+ *:L_*
 $ENDFPLIST
 DRAW
 A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
