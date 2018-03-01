@@ -30,6 +30,18 @@ K CMOS Analog Switch
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG419.pdf
 $ENDCMP
 #
+$CMP ADG633YCP
+D Triple SPDT CMOS Analog Switch, 52Ohm Ron, LFCSP-16
+K CMOS Analog Switch
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG633.pdf
+$ENDCMP
+#
+$CMP ADG633YRU
+D Triple SPDT CMOS Analog Switch, 52Ohm Ron, TSSOP-16
+K CMOS Analog Switch
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG633.pdf
+$ENDCMP
+#
 $CMP ADG728
 D Single 8-to-1 CMOS Low Voltage 2-Wire Serially Controlled, Matrix Switches
 K analog switch selector multiplexer TWI I2C IIC 8-to-1
@@ -40,6 +52,24 @@ $CMP ADG729
 D Dual 4-to-1 CMOS Low Voltage 2-Wire Serially Controlled, Matrix Switches
 K analog switch selector multiplexer TWI I2C IIC 4-to-1
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG728_729.pdf
+$ENDCMP
+#
+$CMP ADG733BRQ
+D Triple SPDT CMOS Analog Switch, 2.5Ohm Ron, QSOP-16
+K CMOS Analog Switch
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf
+$ENDCMP
+#
+$CMP ADG733BRU
+D Triple SPDT CMOS Analog Switch, 2.5Ohm Ron, TSSOP-16
+K CMOS Analog Switch
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf
+$ENDCMP
+#
+$CMP ADG734
+D Quad SPDT CMOS Analog Switch, 2.5Ohm Ron, TSSOP-20
+K CMOS Analog Switch
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf
 $ENDCMP
 #
 $CMP DG308AxJ
@@ -468,6 +498,18 @@ K CMOS Analog Switch
 F https://datasheets.maximintegrated.com/en/ds/MAX323-MAX325.pdf
 $ENDCMP
 #
+$CMP MAX333
+D Quad SPDT CMOS Analog Switch, DIP-20/SOIC-20/SSOP-20
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/MAX333.pdf
+$ENDCMP
+#
+$CMP MAX333A
+D Quad SPDT CMOS Analog Switch, 17Ohm Ron, DIP-20/SOIC-20/SSOP-20/TSSOP-20
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/MAX333A.pdf
+$ENDCMP
+#
 $CMP NC7SB3157L6X
 D Single SPDT Low-Voltage Analog Switch or 2:1 Multiplexer/De-Multiplexer Bus Switch, 10Ohm Ron, MicroPak-6
 K CMOS Analog Switch
@@ -478,6 +520,24 @@ $CMP NC7SB3157P6X
 D Single SPDT Low-Voltage Analog Switch or 2:1 Multiplexer/De-Multiplexer Bus Switch, 10Ohm Ron, SC-70-6
 K CMOS Analog Switch
 F https://www.fairchildsemi.com/datasheets/NC/NC7SB3157.pdf
+$ENDCMP
+#
+$CMP TS3A24159DGSR
+D Dual SPDT 0.3Ω Bidirectional Analog Switch, TSSOP-10
+K switch analog SPDT
+F http://www.ti.com/lit/ds/symlink/ts3a24159.pdf
+$ENDCMP
+#
+$CMP TS3A24159DRCR
+D Dual SPDT 0.3Ω Bidirectional Analog Switch, VSON-10
+K switch analog SPDT
+F http://www.ti.com/lit/ds/symlink/ts3a24159.pdf
+$ENDCMP
+#
+$CMP TS3A24159YZPR
+D Dual SPDT 0.3Ω Bidirectional Analog Switch, DSBGA-10
+K switch analog SPDT
+F http://www.ti.com/lit/ds/symlink/ts3a24159.pdf
 $ENDCMP
 #
 $CMP TS5A3159ADBVR
