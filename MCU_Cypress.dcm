@@ -2,7 +2,13 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP CY7C68013A-56LTX
 D FX2LP 8-bit USB MCU QFN-56
-K CY7C68013A, MCU, USB
+K Microcontroller, 48MHz 8051, 16KB RAM, USB 2.0, I2C, QFN-56
+F http://www.cypress.com/file/138911/download
+$ENDCMP
+#
+$CMP CY7C68013A-56PVX
+D FX2LP 8-bit USB MCU SSOP-56
+K Microcontroller, 48MHz 8051, 16KB RAM, USB 2.0, I2C, SSOP-56
 F http://www.cypress.com/file/138911/download
 $ENDCMP
 #
