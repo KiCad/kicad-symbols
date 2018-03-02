@@ -78,6 +78,24 @@ K USB-Serial single channel bridge
 F http://www.cypress.com/file/129956/download
 $ENDCMP
 #
+$CMP CY7C68013A-PVXC
+D EZ-USB® FX2LP™ USB Microcontroller, SSOP-56, 300µA suspend current
+K USB FIFO FX2LP
+F http://www.cypress.com/file/138911/download
+$ENDCMP
+#
+$CMP CY7C68013A-PVXI
+D EZ-USB® FX2LP™ USB Microcontroller, SSOP-56, 300µA suspend current
+K USB FIFO FX2LP
+F http://www.cypress.com/file/138911/download
+$ENDCMP
+#
+$CMP CY7C68014A-PVXC
+D EZ-USB® FX2LP™ USB Microcontroller, SSOP-56, 100µA suspend current
+K USB FIFO FX2LP
+F http://www.cypress.com/file/138911/download
+$ENDCMP
+#
 $CMP FT200XD
 D Full Speed USB to I2C Bridge, DFN-10
 K FTDI USB I2C Interface Converter
