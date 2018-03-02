@@ -198,7 +198,7 @@ F1 "C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- C_*
+ *:C_*
 $ENDFPLIST
 DRAW
 P 2 0 1 20 -80 -30 80 -30 N
@@ -216,7 +216,7 @@ F1 "CP" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- CP_*
+ *:CP_*
 $ENDFPLIST
 DRAW
 S -90 20 -90 40 0 1 0 N
@@ -239,7 +239,7 @@ F1 "CP1" 25 -100 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- CP_*
+ *:CP_*
 $ENDFPLIST
 DRAW
 A 0 -150 128 1287 513 0 1 20 N -80 -50 80 -50
@@ -259,7 +259,7 @@ F1 "CP1_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- CP_*
+ *:CP_*
 $ENDFPLIST
 DRAW
 A 0 -140 125 1186 614 0 1 12 N -60 -30 60 -30
@@ -279,7 +279,7 @@ F1 "CP_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- CP_*
+ *:CP_*
 $ENDFPLIST
 DRAW
 S -60 -12 60 -27 0 1 0 F
@@ -358,7 +358,7 @@ F1 "C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- C_*
+ *:C_*
 $ENDFPLIST
 DRAW
 P 2 0 1 13 -60 -20 60 -20 N
@@ -628,7 +628,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 8 -50 50 -50 -50 N
@@ -651,7 +651,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 8 -50 0 -50 -100 N
@@ -675,7 +675,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 8 -50 0 -50 -100 N
@@ -699,7 +699,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 8 -50 50 -50 -50 N
@@ -718,8 +718,8 @@ F1 "D_Bridge_+-AA" 100 200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- D*Bridge*
- D*Rectifier*
+ *:D*Bridge*
+ *:D*Rectifier*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -100 150 -50 100 N
@@ -746,8 +746,8 @@ F1 "D_Bridge_+A-A" 100 200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- D*Bridge*
- D*Rectifier*
+ *:D*Bridge*
+ *:D*Rectifier*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -100 150 -50 100 N
@@ -774,8 +774,8 @@ F1 "D_Bridge_+AA-" 100 200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- D*Bridge*
- D*Rectifier*
+ *:D*Bridge*
+ *:D*Rectifier*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -100 150 -50 100 N
@@ -802,8 +802,8 @@ F1 "D_Bridge_-A+A" 100 200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- D*Bridge*
- D*Rectifier*
+ *:D*Bridge*
+ *:D*Rectifier*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -100 150 -50 100 N
@@ -830,8 +830,8 @@ F1 "D_Bridge_-AA+" 100 200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- D*Bridge*
- D*Rectifier*
+ *:D*Bridge*
+ *:D*Rectifier*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -100 150 -50 100 N
@@ -862,7 +862,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -50 -70 -6 -70 N
@@ -889,7 +889,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -50 -70 -6 -70 N
@@ -1010,7 +1010,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 50 0 -50 0 N
@@ -1033,7 +1033,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
@@ -1057,7 +1057,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
@@ -1081,7 +1081,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 4 0 1 0 -200 100 -150 100 -150 0 100 0 N
@@ -1105,7 +1105,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 50 0 -50 0 N
@@ -1179,7 +1179,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -30 -40 -30 40 N
@@ -1204,7 +1204,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -30 -40 -30 40 N
@@ -1520,7 +1520,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -50 0 50 0 N
@@ -1566,7 +1566,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -30 -40 -30 40 N
@@ -1589,7 +1589,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -30 -40 -30 40 N
@@ -1612,7 +1612,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 50 0 -50 0 N
@@ -1636,7 +1636,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 50 0 -50 0 N
@@ -1720,7 +1720,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 A -104 -54 7 -265 818 0 1 0 N -98 -57 -103 -47
@@ -1751,7 +1751,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 A -104 -54 7 -265 818 0 1 0 N -98 -57 -103 -47
@@ -1782,7 +1782,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 50 0 -50 0 N
@@ -1805,7 +1805,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 50 0 -50 0 N
@@ -1828,7 +1828,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 50 0 -50 0 N
@@ -1851,7 +1851,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 50 0 -50 0 N
@@ -1874,7 +1874,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 50 0 -50 0 N
@@ -1897,7 +1897,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 50 0 -50 0 N
@@ -1920,7 +1920,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 30 0 -30 0 N
@@ -1943,7 +1943,7 @@ $FPLIST
  *SingleDiode
  *_Diode_*
  *SingleDiode*
- D_*
+ *:D_*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 30 0 -30 0 N
@@ -2298,7 +2298,7 @@ F2 "" 0 40 50 V V C CNN
 F3 "" 0 40 50 V V C CNN
 ALIAS EMI_Filter_CommonMode
 $FPLIST
- L_*
+ *:L_*
  L_CommonMode*
 $ENDFPLIST
 DRAW
@@ -2351,7 +2351,7 @@ F2 "" -25 100 50 V I C CNN
 F3 "" -25 100 50 V I C CNN
 $FPLIST
  Inductor_*
- L_*
+ *:L_*
 $ENDFPLIST
 DRAW
 S -100 100 100 0 0 1 10 N
@@ -2370,7 +2370,7 @@ F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Inductor_*
- L_*
+ *:L_*
  *Ferrite*
 $ENDFPLIST
 DRAW
@@ -2391,7 +2391,7 @@ F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Inductor_*
- L_*
+ *:L_*
  *Ferrite*
 $ENDFPLIST
 DRAW
@@ -2466,7 +2466,7 @@ F1 "Fuse_Polarized_Small" 0 60 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- SM*
+ *:SM*
 $ENDFPLIST
 DRAW
 S -50 20 -30 -20 0 1 0 F
@@ -2485,7 +2485,7 @@ F1 "Fuse_Small" 0 60 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- SM*
+ *:SM*
 $ENDFPLIST
 DRAW
 S -50 20 50 -20 0 1 0 N
@@ -6734,8 +6734,7 @@ F1 "R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- R_*
- R_*
+ *:R_*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
@@ -6825,8 +6824,7 @@ F1 "RTRIM" -100 -25 50 V V L CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- R_*
- R_*
+ *:R_*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
@@ -8899,7 +8897,7 @@ F1 "R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- R_*
+ *:R_*
 $ENDFPLIST
 DRAW
 S -30 70 30 -70 0 1 8 N
@@ -8916,7 +8914,7 @@ F1 "R_Variable" -100 -50 50 V V L CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- R_*
+ *:R_*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N
@@ -9070,7 +9068,7 @@ F1 "SPARK_GAP" 0 -75 50 H V C CNN
 F2 "" 0 -70 50 H I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
- SG*
+ *:SG*
 $ENDFPLIST
 DRAW
 P 4 0 1 0 -100 25 -100 -25 -25 0 -100 25 N
@@ -9176,7 +9174,7 @@ F1 "Thermistor" -100 0 50 V V C BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- R_*
+ *:R_*
  SM0603
  SM0805
 $ENDFPLIST
@@ -9751,7 +9749,7 @@ F1 "Varistor" -125 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- RV_*
+ *:RV_*
  Varistor*
 $ENDFPLIST
 DRAW
