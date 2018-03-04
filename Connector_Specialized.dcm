@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 4P2C
+D 4 positions 2 connected modular connector
+K registered jack female connector
+$ENDCMP
+#
 $CMP 4P4C
 D 4P4C connector
 K 4P4C RJ9 RJ10 RJ22 female connector
@@ -28,6 +33,36 @@ $ENDCMP
 $CMP AVR-TPI-6
 D Atmel 6-pin TPI connector
 K AVR TPI Connector
+$ENDCMP
+#
+$CMP 6P2C
+D 6 positions 2 connected modular connector
+K registered jack RJ11 female connector
+$ENDCMP
+#
+$CMP 6P4C
+D 6P4C modular connector
+K RJ13 RJ14 female connector
+$ENDCMP
+#
+$CMP 6P6C
+D 6P6C modular connector
+K RJ12 RJ18 RJ25 female connector
+$ENDCMP
+#
+$CMP 8P4C
+D 8 positions 4 connected modular connector
+K registered jack female connector
+$ENDCMP
+#
+$CMP 8P8C
+D 8 positions 8 connected modular connector
+K registered jack female connector
+$ENDCMP
+#
+$CMP 8P8C_LEDS
+D 8 positions 8 connected modular connector, two status LEDs
+K registered jack female connector ethernet led
 $ENDCMP
 #
 $CMP Audio-Jack-2
@@ -419,9 +454,29 @@ D 4P4C connector
 K RJ9 RJ10 RJ22 4P4C female connector
 $ENDCMP
 #
+$CMP RJ11
+D 6 positions 2 connected modular connector
+K registered jack RJ11 female connector
+$ENDCMP
+#
 $CMP RJ12
-D RJ12 connector with 2 shield pins
-K RJ12 connector
+D 6P6C modular connector
+K registered jack RJ12 RJ18 RJ25 female connector
+$ENDCMP
+#
+$CMP RJ13
+D 6P4C modular connector
+K female connector RJ13 RJ14
+$ENDCMP
+#
+$CMP RJ14
+D 6P4C modular connector
+K female connector RJ13 RJ14
+$ENDCMP
+#
+$CMP RJ18
+D 6P6C modular connector
+K registered jack RJ12 RJ18 RJ25 female connector
 $ENDCMP
 #
 $CMP RJ22
@@ -429,9 +484,44 @@ D 4P4C connector
 K 4P4C RJ9 RJ10 RJ22 female connector
 $ENDCMP
 #
+$CMP RJ25
+D 6P6C modular connector
+K registered jack RJ12 RJ18 RJ25 female connector
+$ENDCMP
+#
+$CMP RJ31
+D 8 positions 8 connected modular connector
+K registered jack female connector
+$ENDCMP
+#
+$CMP RJ32
+D 8 positions 8 connected modular connector
+K registered jack female connector
+$ENDCMP
+#
+$CMP RJ33
+D 8 positions 8 connected modular connector
+K registered jack female connector
+$ENDCMP
+#
+$CMP RJ34
+D 8 positions 8 connected modular connector
+K registered jack female connector
+$ENDCMP
+#
+$CMP RJ35
+D 8 positions 8 connected modular connector
+K registered jack female connector
+$ENDCMP
+#
+$CMP RJ38
+D 8 positions 4 connected modular connector
+K registered jack female connector
+$ENDCMP
+#
 $CMP RJ45
-D RJ45 connector with shield
-K RJ45
+D 8 positions 8 connected modular connector
+K registered jack female connector ethernet
 $ENDCMP
 #
 $CMP RJ45-TRANSFO
@@ -441,8 +531,23 @@ F ~
 $ENDCMP
 #
 $CMP RJ45_LEDS
-D RJ45, status leds
-K RJ45 RJ45_LEDS
+D 8 positions 8 connected modular connector, two status LEDs
+K registered jack female connector ethernet led
+$ENDCMP
+#
+$CMP RJ48
+D 8 positions 4 connected modular connector
+K registered jack female connector
+$ENDCMP
+#
+$CMP RJ49
+D 8 positions 8 connected modular connector
+K registered jack female connector
+$ENDCMP
+#
+$CMP RJ61
+D 8 positions 8 connected modular connector
+K registered jack female connector
 $ENDCMP
 #
 $CMP RJ9
