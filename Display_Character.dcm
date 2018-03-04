@@ -342,30 +342,6 @@ K display LED 7-segment
 F https://docs.broadcom.com/docs/AV02-2553EN
 $ENDCMP
 #
-$CMP HDSP-7xxx-A
-D 7 segement display
-K display LED 7-segment
-F https://docs.broadcom.com/docs/AV02-2553EN
-$ENDCMP
-#
-$CMP HDSP-7xxx-B
-D 7 segement display
-K display LED 7-segment
-F https://docs.broadcom.com/docs/AV02-2553EN
-$ENDCMP
-#
-$CMP HDSP-7xxx-C
-D 7 segement display
-K display LED 7-segment
-F https://docs.broadcom.com/docs/AV02-2553EN
-$ENDCMP
-#
-$CMP HDSP-7xxx-D
-D 7 segement display
-K display LED 7-segment
-F https://docs.broadcom.com/docs/AV02-2553EN
-$ENDCMP
-#
 $CMP HDSP-A151
 D One digit 7 segment red, common anode
 K display LED 7-segment
