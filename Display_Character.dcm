@@ -1,17 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 7SEGMENT_CA
-D Generic 7 segment display, common anode
-K display LED
-F ~
-$ENDCMP
-#
-$CMP 7SEGMENT_CC
-D Generic 7 segment display, common cathode
-K display LED 7-segment
-F ~
-$ENDCMP
-#
 $CMP AD-121F2
 D Single Digit 7-segment RGB LED Display, 1-inch digit height, common anode
 K display RGB LED digit 7-segment
@@ -490,6 +478,12 @@ $CMP MAN74A
 D Single digit 7 segment red LED common anode right hand decimal
 K display LED 7-segment
 F https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php
+$ENDCMP
+#
+$CMP NHD-0420H1Z
+D LCD 20x4 Alphanumeric 16pin Blue/White/Green Backlight, 8bit parallel, 3.3V VDD
+K display LCD 20x4
+F http://www.newhavendisplay.com/specs/NHD-0420H1Z-FSW-GBW-33V3.pdf
 $ENDCMP
 #
 $CMP RC1602A

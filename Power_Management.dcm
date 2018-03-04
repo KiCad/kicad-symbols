@@ -540,4 +540,28 @@ K efuse protection switch
 F http://www.ti.com/lit/ds/symlink/tps25925.pdf
 $ENDCMP
 #
+$CMP TSM102
+D Dual Operational Amplifier and Dual Comparator and 1% Voltage Reference, SOIC-16
+K dual opamp comparator reference
+F http://www.st.com/resource/en/datasheet/tsm102.pdf
+$ENDCMP
+#
+$CMP TSM102A
+D Dual Operational Amplifier and Dual Comparator and 0.4% Voltage Reference, SOIC-16
+K dual opamp comparator reference
+F http://www.st.com/resource/en/datasheet/tsm102.pdf
+$ENDCMP
+#
+$CMP TSM103W
+D Dual Operational Amplifier and 2.5V 1% Voltage Reference, SOIC-8
+K dual opamp reference
+F http://www.st.com/resource/en/datasheet/tsm103w.pdf
+$ENDCMP
+#
+$CMP TSM103WA
+D Dual Operational Amplifier and 2.5V 0.4% Voltage Reference, SOIC-8
+K dual opamp reference
+F http://www.st.com/resource/en/datasheet/tsm103w.pdf
+$ENDCMP
+#
 #End Doc Library
