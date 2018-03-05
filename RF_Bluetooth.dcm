@@ -72,8 +72,20 @@ K MCU, ARM, BLE, 2.4GHz
 F http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.3.pdf
 $ENDCMP
 #
+$CMP nRF52810-QCxx
+D Multiprotocol BLE/2.4GHz Cortex-M4 SoC, QFN-32
+K MCU, ARM, BLE, 2.4GHz
+F http://infocenter.nordicsemi.com/pdf/nRF52810_PS_v1.1.pdf
+$ENDCMP
+#
+$CMP nRF52810-QFxx
+D Multiprotocol BLE/2.4GHz Cortex-M4 SoC, QFN-48
+K MCU, ARM, BLE, 2.4GHz
+F http://infocenter.nordicsemi.com/pdf/nRF52810_PS_v1.1.pdf
+$ENDCMP
+#
 $CMP nRF52832-QFxx
-D Multiprotocol BLE/2.4GHz Cortex-M4 SoC
+D Multiprotocol BLE/2.4GHz Cortex-M4 SoC, QFN-48
 K MCU, ARM, BLE, 2.4GHz
 F http://infocenter.nordicsemi.com/pdf/nRF52832_PS_v1.4.pdf
 $ENDCMP
