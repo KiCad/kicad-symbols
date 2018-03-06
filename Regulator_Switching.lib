@@ -2559,6 +2559,10 @@ F0 "U" -300 350 50 H V C CNN
 F1 "LT8610" 200 350 50 H V C CNN
 F2 "Package_SO:MSOP-16-1EP_3x4mm_P0.5mm_EP1.65x2.85mm_ThermalVias" 100 -600 60 H I C CNN
 F3 "http://cds.linear.com/docs/en/datasheet/8610fa.pdf" 150 -750 60 H I C CNN
+$FPLIST
+ MSOP*16*1EP*Pitch0.5mm*
+ Package*:*ThermalVias*
+$ENDFPLIST
 DRAW
 S -350 300 350 -300 0 1 10 f
 X SYNC 1 -450 -50 100 R 50 50 1 1 I
