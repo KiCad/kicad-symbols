@@ -1,5 +1,293 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP DSPIC33EV128GM002
+D 70 MIPS, 128k flash, 8k SRAM, No CAN bus, 4.5 to 5.5V, DIP-28/SOIC-28/SSOP-28
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV128GM002_QFN
+D 70 MIPS, 128k flash, 8k SRAM, No CAN bus, 4.5 to 5.5V, QFN-28
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV128GM004
+D 70 MIPS, 128k flash, 8k SRAM, No CAN bus, 4.5 to 5.5V, TQFP-44
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV128GM004_QFN
+D 70 MIPS, 128k flash, 8k SRAM, No CAN bus, 4.5 to 5.5V, QFN-44
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV128GM006
+D 70 MIPS, 128k flash, 8k SRAM, No CAN bus, 4.5 to 5.5V, TQFP-64
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV128GM006_QFN
+D 70 MIPS, 128k flash, 8k SRAM, No CAN bus, 4.5 to 5.5V, QFN-64
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV128GM102
+D 70 MIPS, 128k flash, 8k SRAM, 1 CAN bus, 4.5 to 5.5V, DIP-28/SOIC-28/SSOP-28
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV128GM102_QFN
+D 70 MIPS, 128k flash, 8k SRAM, 1 CAN bus, 4.5 to 5.5V, QFN-28
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV128GM104
+D 70 MIPS, 128k flash, 8k SRAM, 1 CAN bus, 4.5 to 5.5V, TQFP-44
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV128GM104_QFN
+D 70 MIPS, 128k flash, 8k SRAM, 1 CAN bus, 4.5 to 5.5V, QFN-44
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV128GM106
+D 70 MIPS, 128k flash, 8k SRAM, 1 CAN bus, 4.5 to 5.5V, TQFP-64
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV128GM106_QFN
+D 70 MIPS, 128k flash, 8k SRAM, 1 CAN bus, 4.5 to 5.5V, QFN-64
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV256GM002
+D 70 MIPS, 256k flash, 16k SRAM, No CAN bus, 4.5 to 5.5V, DIP-28/SOIC-28/SSOP-28
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV256GM002_QFN
+D 70 MIPS, 256k flash, 16k SRAM, No CAN bus, 4.5 to 5.5V, QFN-28
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV256GM004
+D 70 MIPS, 256k flash, 16k SRAM, No CAN bus, 4.5 to 5.5V, TQFP-44
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV256GM004_QFN
+D 70 MIPS, 256k flash, 16k SRAM, No CAN bus, 4.5 to 5.5V, QFN-44
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV256GM006
+D 70 MIPS, 256k flash, 16k SRAM, No CAN bus, 4.5 to 5.5V, TQFP-64
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV256GM006_QFN
+D 70 MIPS, 256k flash, 16k SRAM, No CAN bus, 4.5 to 5.5V, QFN-64
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV256GM102
+D 70 MIPS, 256k flash, 16k SRAM, 1 CAN bus, 4.5 to 5.5V, DIP-28/SOIC-28/SSOP-28
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV256GM102_QFN
+D 70 MIPS, 256k flash, 16k SRAM, 1 CAN bus, 4.5 to 5.5V, QFN-28
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV256GM104
+D 70 MIPS, 256k flash, 16k SRAM, 1 CAN bus, 4.5 to 5.5V, TQFP-44
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV256GM104_QFN
+D 70 MIPS, 256k flash, 16k SRAM, 1 CAN bus, 4.5 to 5.5V, QFN-44
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV256GM106
+D 70 MIPS, 256k flash, 16k SRAM, 1 CAN bus, 4.5 to 5.5V, TQFP-64
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV256GM106_QFN
+D 70 MIPS, 256k flash, 16k SRAM, 1 CAN bus, 4.5 to 5.5V, QFN-64
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV32GM002
+D 70 MIPS, 32k flash, 4k SRAM, No CAN bus, 4.5 to 5.5V, DIP-28/SOIC-28/SSOP-28
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV32GM002_QFN
+D 70 MIPS, 32k flash, 4k SRAM, No CAN bus, 4.5 to 5.5V, QFN-28
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV32GM004
+D 70 MIPS, 32k flash, 4k SRAM, No CAN bus, 4.5 to 5.5V, TQFP-44
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV32GM004_QFN
+D 70 MIPS, 32k flash, 4k SRAM, No CAN bus, 4.5 to 5.5V, QFN-44
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV32GM006
+D 70 MIPS, 32k flash, 4k SRAM, No CAN bus, 4.5 to 5.5V, TQFP-64
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV32GM006_QFN
+D 70 MIPS, 32k flash, 4k SRAM, No CAN bus, 4.5 to 5.5V, QFN-64
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV32GM102
+D 70 MIPS, 32k flash, 4k SRAM, 1 CAN bus, 4.5 to 5.5V, DIP-28/SOIC-28/SSOP-28
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV32GM102_QFN
+D 70 MIPS, 32k flash, 4k SRAM, 1 CAN bus, 4.5 to 5.5V, QFN-28
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV32GM104
+D 70 MIPS, 32k flash, 4k SRAM, 1 CAN bus, 4.5 to 5.5V, TQFP-44
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV32GM104_QFN
+D 70 MIPS, 32k flash, 4k SRAM, 1 CAN bus, 4.5 to 5.5V, QFN-44
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV32GM106
+D 70 MIPS, 32k flash, 4k SRAM, 1 CAN bus, 4.5 to 5.5V, TQFP-64
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV32GM106_QFN
+D 70 MIPS, 32k flash, 4k SRAM, 1 CAN bus, 4.5 to 5.5V, QFN-64
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV64GM002
+D 70 MIPS, 64k flash, 8k SRAM, No CAN bus, 4.5 to 5.5V, DIP-28/SOIC-28/SSOP-28
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV64GM002_QFN
+D 70 MIPS, 64k flash, 8k SRAM, No CAN bus, 4.5 to 5.5V, QFN-28
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV64GM004
+D 70 MIPS, 64k flash, 8k SRAM, No CAN bus, 4.5 to 5.5V, TQFP-44
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV64GM004_QFN
+D 70 MIPS, 64k flash, 8k SRAM, No CAN bus, 4.5 to 5.5V, QFN-44
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV64GM006
+D 70 MIPS, 64k flash, 8k SRAM, No CAN bus, 4.5 to 5.5V, TQFP-64
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV64GM006_QFN
+D 70 MIPS, 64k flash, 8k SRAM, No CAN bus, 4.5 to 5.5V, QFN-64
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV64GM102
+D 70 MIPS, 64k flash, 8k SRAM, 1 CAN bus, 4.5 to 5.5V, DIP-28/SOIC-28/SSOP-28
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV64GM102_QFN
+D 70 MIPS, 64k flash, 8k SRAM, 1 CAN bus, 4.5 to 5.5V, QFN-28
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV64GM104
+D 70 MIPS, 64k flash, 8k SRAM, 1 CAN bus, 4.5 to 5.5V, TQFP-44
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV64GM104_QFN
+D 70 MIPS, 64k flash, 8k SRAM, 1 CAN bus, 4.5 to 5.5V, QFN-44
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV64GM106
+D 70 MIPS, 64k flash, 8k SRAM, 1 CAN bus, 4.5 to 5.5V, TQFP-64
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
+$CMP DSPIC33EV64GM106_QFN
+D 70 MIPS, 64k flash, 8k SRAM, 1 CAN bus, 4.5 to 5.5V, QFN-64
+K 16-bit Digital Signal Controller Microchip dsPIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/70005144e.pdf
+$ENDCMP
+#
 $CMP DSPIC33FJ128GP204
 D 40MIPS, 128k Flash, 8k SRAM
 K 16-bit Digital Signal Controller Microchip dsPIC
