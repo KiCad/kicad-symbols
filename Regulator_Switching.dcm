@@ -2208,6 +2208,12 @@ K high efficiency speed synchronous monolithic buck step-down switching regulato
 F http://cds.linear.com/docs/en/datasheet/8610fa.pdf
 $ENDCMP
 #
+$CMP LT8610AC
+D 42V, 3.5A Synchronous Step-Down Regulator with 2.5uA Quiescent Current with Lower Feedback Voltage, Lower Minimum Vin, MSOP-16
+K high efficiency speed synchronous monolithic buck step-down switching regulator 42V 2.5A
+F http://cds.linear.com/docs/en/datasheet/8610fa.pdf
+$ENDCMP
+#
 $CMP LTC1436A
 D High Efficiency Low Noise Synchronous Step-Down Switching Regulators, SSOP-24
 K buck controller 36V
