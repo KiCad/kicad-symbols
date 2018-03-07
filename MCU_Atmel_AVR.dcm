@@ -79,19 +79,19 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/doc0839.pdf
 $ENDCMP
 #
 $CMP AT90S2323-4PC
-D AT90S/LS2323, PDIP8, 2k Flash, 128B SRAM, 128B EEPROM
+D PDIP8, 2k Flash, 128B SRAM, 128B EEPROM
 K AVR 8bit Microcontroller ClassicAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc1004.pdf
 $ENDCMP
 #
 $CMP AT90S2323-4SC
-D AT90S/LS2323, SO8 Wide, 2k Flash, 128B SRAM, 128B EEPROM
+D SO8 Wide, 2k Flash, 128B SRAM, 128B EEPROM
 K AVR 8bit Microcontroller ClassicAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc1004.pdf
 $ENDCMP
 #
 $CMP AT90S2333-4AC
-D AT90S4433, TQFP32, 2k Flash, 128B SRAM, 256B EEPROM
+D TQFP32, 2k Flash, 128B SRAM, 256B EEPROM
 K AVR 8bit Microcontroller ClassicAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc1042.pdf
 $ENDCMP
@@ -103,13 +103,13 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/doc1042.pdf
 $ENDCMP
 #
 $CMP AT90S2343-4PC
-D AT90S/LS2343, PDIP8, 2k Flash, 128B SRAM, 128B EEPROM
+D PDIP8, 2k Flash, 128B SRAM, 128B EEPROM
 K AVR 8bit Microcontroller ClassicAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc1004.pdf
 $ENDCMP
 #
 $CMP AT90S2343-4SC
-D AT90S/LS2343, SO8 Wide, 2k Flash, 128B SRAM, 128B EEPROM
+D SO8 Wide, 2k Flash, 128B SRAM, 128B EEPROM
 K AVR 8bit Microcontroller ClassicAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc1004.pdf
 $ENDCMP
