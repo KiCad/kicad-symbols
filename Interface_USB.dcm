@@ -211,9 +211,15 @@ F https://www.fairchildsemi.com/datasheets/FU/FUSB302B.pdf
 $ENDCMP
 #
 $CMP FUSB302BMPX
-D Fairchild USB Interface IC 302B Type-C Control IC with PD, MLP14D
-K USB PD PHY
-F https://www.fairchildsemi.com/datasheets/FU/FUSB302B.pdf
+D ON Semiconductor USB Interface IC 302B Type-C Control IC with PD, WQFN14
+K USB USB-C PD Power Delivery PHY
+F http://www.onsemi.com/pub/Collateral/FUSB302B-D.PDF
+$ENDCMP
+#
+$CMP FUSB307BMPX
+D ON Semiconductor USB Interface IC 302B Type-C Port Control IC with PD, WQFN16
+K USB USB-C PD Power Delivery PHY manager TCPM
+F http://www.onsemi.com/pub/Collateral/FUSB307B-D.PDF
 $ENDCMP
 #
 $CMP MCP2200-E-SS
