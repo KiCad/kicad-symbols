@@ -2215,7 +2215,7 @@ F http://cds.linear.com/docs/en/datasheet/8610acfa.pdf
 $ENDCMP
 #
 $CMP LT8610AC-1
-D 42V, 3.5A Synchronous Step-Down Regulator with 2.5uA Quiescent Current, Internal Compensation at Higher Currents, Soft-Start at Dropout and Brownout, MSOP-16
+D 42V, 3.5A Synchronous Step-Down Regulator with 2.5uA Quiescent Current, Internal Compensation for Improved Transient, Soft-Start at Dropout and Brownout, MSOP-16
 K high efficiency speed synchronous monolithic buck step-down switching regulator 42V 3.5A lower feedback voltage minimum vin internal compensation soft-start
 F http://cds.linear.com/docs/en/datasheet/8610acfa.pdf
 $ENDCMP
