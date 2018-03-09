@@ -36,6 +36,30 @@ K audio adc 2ch 24bit 192kHz
 F http://www.akm.com/akm/en/file/datasheet/AK5394AVS.pdf
 $ENDCMP
 #
+$CMP CEM3310
+D CEM3310 Voltage Controlled Envelope Generator
+K CEM3310 VCEG
+F https://static.miraheze.org/sdiywiki/f/ff/CEM3310_datasheet_long.pdf
+$ENDCMP
+#
+$CMP CEM3320
+D CEM3320 Voltage Controlled Filter (VCF)
+K CEM3320 VCF
+F https://static.miraheze.org/sdiywiki/d/d1/CEM3320_datasheet_long.pdf
+$ENDCMP
+#
+$CMP CEM3330
+D CEM3330 Dual Voltage Controlled Amplifier (VCA)
+K CEM3330 dual VCA
+F https://static.miraheze.org/sdiywiki/5/5c/CEM_3330-3335_long.pdf
+$ENDCMP
+#
+$CMP CEM3340
+D CEM3340 Voltage Controlled Oscillator (VCO)
+K CEM3340 VCO
+F https://static.miraheze.org/sdiywiki/e/e4/CEM_3340-3345_long.pdf
+$ENDCMP
+#
 $CMP CS4245
 D 104 dB, 24-Bit, 192 kHz Stereo Audio CODEC, LQFP-48
 K audio codec 2ch 24bit 192kHz
