@@ -1113,6 +1113,7 @@ $ENDCMP
 $CMP Q_DUAL_NMOS_G1S2G2D2S1D1
 D Dual NMOS/NMOS transistor, 6-pin package
 K dual nmosfet nmos/nmos
+F ~
 $ENDCMP
 #
 $CMP Q_DUAL_NPN_C2C1E1E2
@@ -1136,6 +1137,7 @@ $ENDCMP
 $CMP Q_DUAL_PMOS_G1S2G2D2S1D1
 D Dual PMOS/PMOS transistor, 6-pin package
 K dual pmos/pmos mosfet
+F ~
 $ENDCMP
 #
 $CMP Q_DUAL_PNP_C2C1E1E2
