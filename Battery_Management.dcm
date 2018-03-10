@@ -30,6 +30,11 @@ K energy harvesting li-ion battery solar TEG
 F http://www.ti.com/lit/ds/symlink/bq25504.pdf
 $ENDCMP
 #
+$CMP BQ25601
+D Single cell LiPo 3A battery charger, with i2c configurable currnet.
+F http://www.ti.com/lit/ds/symlink/bq25601.pdf
+$ENDCMP
+#
 $CMP BQ27441-G1
 D System Side Li Ion/Polymer Fuel Gauge, PDSON-12
 K Fuel Gauge
