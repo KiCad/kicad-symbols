@@ -37,26 +37,26 @@ F http://www.akm.com/akm/en/file/datasheet/AK5394AVS.pdf
 $ENDCMP
 #
 $CMP CEM3310
-D CEM 3310 Voltage Controlled Envelope Generator
+D Voltage Controlled Envelope Generator, DIP-16
 K OnChip Curtis 3310 VCEG
 F https://static.miraheze.org/sdiywiki/f/ff/CEM3310_datasheet_long.pdf
 $ENDCMP
 #
 $CMP CEM3320
-D CEM 3320 Voltage Controlled Filter (VCF)
+D Voltage Controlled Filter (VCF), DIP-18
 K OnChip Curtis 3320 VCF
 F https://static.miraheze.org/sdiywiki/d/d1/CEM3320_datasheet_long.pdf
 $ENDCMP
 #
-$CMP CEM3330
-D CEM 3330 Dual Voltage Controlled Amplifier (VCA)
-K OnChip Curtis 3330 dual VCA
+$CMP CEM3330 
+D Dual Voltage Controlled Amplifier (VCA), DIP-18
+K OnChip Curtis 3330 3335 dual VCA
 F https://static.miraheze.org/sdiywiki/5/5c/CEM_3330-3335_long.pdf
 $ENDCMP
 #
-$CMP CEM3340
-D CEM 3340 Voltage Controlled Oscillator (VCO)
-K OnChip Curtis 3340 VCO
+$CMP CEM3340 
+D Voltage Controlled Oscillator (VCO), DIP-16
+K OnChip Curtis 3340 3345 VCO
 F https://static.miraheze.org/sdiywiki/e/e4/CEM_3340-3345_long.pdf
 $ENDCMP
 #
