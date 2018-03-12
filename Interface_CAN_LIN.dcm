@@ -18,6 +18,18 @@ K High-Speed CAN Transceiver
 F http://cds.linear.com/docs/en/datasheet/2875f.pdf
 $ENDCMP
 #
+$CMP MCP2021A-330
+D LIN Transceiver with Voltage Regulator, 3.3V, 3.3V
+K LIN Transceiver regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002298C.pdf
+$ENDCMP
+#
+$CMP MCP2021A-330-EP
+D LIN Transceiver with Voltage Regulator, 3.3V, 3.3V
+K LIN Transceiver regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002298C.pdf
+$ENDCMP
+#
 $CMP MCP2050-330-EMQ
 D LIN Transceiver with Voltage Regulator, 3.3V, QFN
 K LIN transceiver regulator
