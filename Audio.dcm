@@ -60,6 +60,12 @@ K Curtis OnChip Alfa 3340 VCO
 F http://www.alfarzpp.lv/eng/sc/AS3340.pdf
 $ENDCMP
 #
+$CMP AS3360
+D Dual Voltage Controlled Amplifier (VCA), DIP-14
+K Curtis OnChip Alfa 3360 VCA
+F http://www.alfarzpp.lv/eng/sc/AS3360.pdf
+$ENDCMP
+#
 $CMP CS4245
 D 104 dB, 24-Bit, 192 kHz Stereo Audio CODEC, LQFP-48
 K audio codec 2ch 24bit 192kHz
