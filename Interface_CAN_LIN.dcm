@@ -66,6 +66,18 @@ K CAN Controller SPI
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf
 $ENDCMP
 #
+$CMP MCP2517FD-xJHA
+D External CAN FD Controller with SPI Interface, VDFN-14
+K CAN FD Controller SPI
+F https://ww1.microchip.com/downloads/en/DeviceDoc/20005688A.pdf
+$ENDCMP
+#
+$CMP MCP2517FD-xSL
+D External CAN FD Controller with SPI Interface, SOIC-14
+K CAN FD Controller SPI
+F https://ww1.microchip.com/downloads/en/DeviceDoc/20005688A.pdf
+$ENDCMP
+#
 $CMP MCP2551-I-P
 D High-Speed CAN Transceiver, 1Mbps, 5V supply, PDIP8 package
 K High-Speed CAN Transceiver
@@ -76,6 +88,42 @@ $CMP MCP2551-I-SN
 D High-Speed CAN Transceiver, 1Mbps, 5V supply, SOIC8 package
 K High-Speed CAN Transceiver
 F http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf
+$ENDCMP
+#
+$CMP MCP2557FD-xMF
+D CAN FD Transceiver with Silent Mode, up to 8 Mbps, DFN-8
+K CAN FD Transceiver
+F https://ww1.microchip.com/downloads/en/DeviceDoc/20005533A.pdf
+$ENDCMP
+#
+$CMP MCP2557FD-xMNY
+D CAN FD Transceiver with Silent Mode, up to 8 Mbps, TDFN-8
+K CAN FD Transceiver
+F https://ww1.microchip.com/downloads/en/DeviceDoc/20005533A.pdf
+$ENDCMP
+#
+$CMP MCP2557FD-xSN
+D CAN FD Transceiver with Silent Mode, up to 8 Mbps, SOIC-8
+K CAN FD Transceiver
+F https://ww1.microchip.com/downloads/en/DeviceDoc/20005533A.pdf
+$ENDCMP
+#
+$CMP MCP2558FD-xMF
+D CAN FD Transceiver with Silent Mode, up to 8 Mbps, DFN-8
+K CAN FD Transceiver
+F https://ww1.microchip.com/downloads/en/DeviceDoc/20005533A.pdf
+$ENDCMP
+#
+$CMP MCP2558FD-xMNY
+D CAN FD Transceiver with Silent Mode, up to 8 Mbps, TDFN-8
+K CAN FD Transceiver
+F https://ww1.microchip.com/downloads/en/DeviceDoc/20005533A.pdf
+$ENDCMP
+#
+$CMP MCP2558FD-xSN
+D CAN FD Transceiver with Silent Mode, up to 8 Mbps, SOIC-8
+K CAN FD Transceiver
+F https://ww1.microchip.com/downloads/en/DeviceDoc/20005533A.pdf
 $ENDCMP
 #
 $CMP MCP2561-E-MF

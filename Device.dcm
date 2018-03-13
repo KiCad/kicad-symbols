@@ -876,6 +876,18 @@ K inductor choke coil reactor magnetic
 F ~
 $ENDCMP
 #
+$CMP L_Core_Ferrite_Coupled
+D Coupled inductor with Ferrite Core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Ferrite_Coupled_Small
+D Coupled inductor with Ferrite Core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
 $CMP L_Core_Ferrite_Small
 D Inductor with ferrite core, small symbol
 K inductor choke coil reactor magnetic
@@ -888,9 +900,33 @@ K inductor choke coil reactor magnetic
 F ~
 $ENDCMP
 #
+$CMP L_Core_Iron_Coupled
+D Coupled inductor with Iron Core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Iron_Coupled_Small
+D Coupled inductor with Iron Core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
 $CMP L_Core_Iron_Small
 D Inductor with iron core, small symbol
 K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP L_Coupled
+D Coupled inductor
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Coupled_Small
+D Coupled inductor, small symbol
+K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
@@ -1074,6 +1110,12 @@ K resettable fuse PTC PPTC polyfuse polyswitch
 F ~
 $ENDCMP
 #
+$CMP Q_DUAL_NMOS_G1S2G2D2S1D1
+D Dual NMOS/NMOS transistor, 6-pin package
+K dual nmosfet nmos/nmos
+F ~
+$ENDCMP
+#
 $CMP Q_DUAL_NPN_C2C1E1E2
 D Double NPN Transistors, Current mirror configuration
 K Transistor Double NPN
@@ -1089,6 +1131,12 @@ $ENDCMP
 $CMP Q_DUAL_NPN_PNP_E1B1C2E2B2C1
 D Dual NPN/PNP Transistor, 6-pin package
 K NPN/PNP Transistor
+F ~
+$ENDCMP
+#
+$CMP Q_DUAL_PMOS_G1S2G2D2S1D1
+D Dual PMOS/PMOS transistor, 6-pin package
+K dual pmos/pmos mosfet
 F ~
 $ENDCMP
 #
@@ -1560,42 +1608,6 @@ K NPN phototransistor
 F ~
 $ENDCMP
 #
-$CMP Q_TRIAC_A1A2G
-D triode for alternating current (TRIAC), pinordering A1=1, A2=2, G=3
-K triode for alternating current TRIAC
-F ~
-$ENDCMP
-#
-$CMP Q_TRIAC_A1GA2
-D triode for alternating current (TRIAC), pinordering A1=1, A2=3, G=2
-K triode for alternating current TRIAC
-F ~
-$ENDCMP
-#
-$CMP Q_TRIAC_A2A1G
-D triode for alternating current (TRIAC), pinordering A1=2, A2=1, G=3
-K triode for alternating current TRIAC
-F ~
-$ENDCMP
-#
-$CMP Q_TRIAC_A2GA1
-D triode for alternating current (TRIAC), pinordering A1=3, A2=1, G=2
-K triode for alternating current TRIAC
-F ~
-$ENDCMP
-#
-$CMP Q_TRIAC_GA1A2
-D triode for alternating current (TRIAC), pinordering A1=2, A2=3, G=1
-K triode for alternating current TRIAC
-F ~
-$ENDCMP
-#
-$CMP Q_TRIAC_GA2A1
-D triode for alternating current (TRIAC), pinordering A1=3, A2=2, G=1
-K triode for alternating current TRIAC
-F ~
-$ENDCMP
-#
 $CMP Q_SCR_AGK
 D silicon controlled rectifier (SCR, Thyristor)
 K Thyristor silicon controlled rectifier
@@ -1629,6 +1641,42 @@ $ENDCMP
 $CMP Q_SCR_KGA
 D silicon controlled rectifier (SCR, Thyristor)
 K Thyristor silicon controlled rectifier
+F ~
+$ENDCMP
+#
+$CMP Q_TRIAC_A1A2G
+D triode for alternating current (TRIAC), pinordering A1=1, A2=2, G=3
+K triode for alternating current TRIAC
+F ~
+$ENDCMP
+#
+$CMP Q_TRIAC_A1GA2
+D triode for alternating current (TRIAC), pinordering A1=1, A2=3, G=2
+K triode for alternating current TRIAC
+F ~
+$ENDCMP
+#
+$CMP Q_TRIAC_A2A1G
+D triode for alternating current (TRIAC), pinordering A1=2, A2=1, G=3
+K triode for alternating current TRIAC
+F ~
+$ENDCMP
+#
+$CMP Q_TRIAC_A2GA1
+D triode for alternating current (TRIAC), pinordering A1=3, A2=1, G=2
+K triode for alternating current TRIAC
+F ~
+$ENDCMP
+#
+$CMP Q_TRIAC_GA1A2
+D triode for alternating current (TRIAC), pinordering A1=2, A2=3, G=1
+K triode for alternating current TRIAC
+F ~
+$ENDCMP
+#
+$CMP Q_TRIAC_GA2A1
+D triode for alternating current (TRIAC), pinordering A1=3, A2=2, G=1
+K triode for alternating current TRIAC
 F ~
 $ENDCMP
 #
