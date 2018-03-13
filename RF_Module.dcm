@@ -12,4 +12,10 @@ K DWM1000,Decawave,RF,ranging,UWB
 F https://www.decawave.com/sites/default/files/resources/dwm1000-datasheet-v1.3.pdf
 $ENDCMP
 #
+$CMP DWM1001
+D  Ultra wide band RF module With ranging location capabilities, I2C, UART, SPI, +2.8V to +3.6V VCC
+K DWM1000  DecaWave RF ranging UWB
+F https://www.decawave.com/sites/default/files/dwm1001_datasheet.pdf
+$ENDCMP
+#
 #End Doc Library
