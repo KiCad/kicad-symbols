@@ -2202,6 +2202,24 @@ K Boost flyback SEPIC inverting DC/DC regulator
 F http://cds.linear.com/docs/en/datasheet/3757Afe.pdf
 $ENDCMP
 #
+$CMP LT8610
+D 42V, 2.5A Synchronous Step-Down Regulator with 2.5uA Quiescent Current, MSOP-16
+K high efficiency speed synchronous monolithic buck step-down switching regulator 42V 2.5A
+F http://cds.linear.com/docs/en/datasheet/8610fa.pdf
+$ENDCMP
+#
+$CMP LT8610AC
+D 42V, 3.5A Synchronous Step-Down Regulator with 2.5uA Quiescent Current, 0.8V Feedback Voltage, 3.0V Minimum Vin, MSOP-16
+K high efficiency speed synchronous monolithic buck step-down switching regulator 42V 3.5A lower feedback voltage minimum vin
+F http://cds.linear.com/docs/en/datasheet/8610acfa.pdf
+$ENDCMP
+#
+$CMP LT8610AC-1
+D 42V, 3.5A Synchronous Step-Down Regulator with 2.5uA Quiescent Current, Internal Compensation for Improved Transient, Soft-Start at Dropout and Brownout, MSOP-16
+K high efficiency speed synchronous monolithic buck step-down switching regulator 42V 3.5A lower feedback voltage minimum vin internal compensation soft-start
+F http://cds.linear.com/docs/en/datasheet/8610acfa.pdf
+$ENDCMP
+#
 $CMP LTC1436A
 D High Efficiency Low Noise Synchronous Step-Down Switching Regulators, SSOP-24
 K buck controller 36V
