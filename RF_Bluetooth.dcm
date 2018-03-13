@@ -90,4 +90,10 @@ K MCU, ARM, BLE, 2.4GHz
 F http://infocenter.nordicsemi.com/pdf/nRF52832_PS_v1.4.pdf
 $ENDCMP
 #
+$CMP nRF52840
+D Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, AQFN-73
+K MCU, ARM, BLE, ANT, 2.4GHz, 802.15.4
+F http://infocenter.nordicsemi.com/topic/com.nordic.infocenter.nrf52/dita/nrf52/chips/nrf52840.html
+$ENDCMP
+#
 #End Doc Library
