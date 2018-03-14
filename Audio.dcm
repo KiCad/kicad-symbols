@@ -72,6 +72,36 @@ K Curtis OnChip Alfa CEM3360 VCA
 F http://www.alfarzpp.lv/eng/sc/AS3360.pdf
 $ENDCMP
 #
+$CMP CEM3310
+D Voltage Controlled Envelope Generator, DIP-16
+K ADSR Curtis OnChip CEM3310 VCEG
+F https://static.miraheze.org/sdiywiki/f/ff/CEM3310_datasheet_long.pdf
+$ENDCMP
+#
+$CMP CEM3320
+D Voltage Controlled Filter (VCF), DIP-18
+K Curtis OnChip CEM3320 VCF
+F https://static.miraheze.org/sdiywiki/d/d1/CEM3320_datasheet_long.pdf
+$ENDCMP
+#
+$CMP CEM3330
+D Dual Voltage Controlled Amplifier (VCA), DIP-18
+K Curtis OnChip CEM3330 VCA
+F https://static.miraheze.org/sdiywiki/5/5c/CEM_3330-3335_long.pdf
+$ENDCMP
+#
+$CMP CEM3340
+D Dual Voltage Controlled Amplifier (VCA), DIP-16
+K Curtis OnChip CEM3340 VCA
+F https://static.miraheze.org/sdiywiki/e/e4/CEM_3340-3345_long.pdf
+$ENDCMP
+#
+$CMP CEM3360
+D Dual Voltage Controlled Amplifier (VCA), DIP-14
+K Curtis OnChip CEM3360 VCA
+F https://static.miraheze.org/sdiywiki/e/e4/CEM_3360.pdf
+$ENDCMP
+#
 $CMP CS4245
 D 104 dB, 24-Bit, 192 kHz Stereo Audio CODEC, LQFP-48
 K audio codec 2ch 24bit 192kHz
