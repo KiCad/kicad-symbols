@@ -38,31 +38,37 @@ $ENDCMP
 #
 $CMP AS3310
 D Voltage Controlled Envelope Generator, DIP-16
-K Curtis OnChip Alfa 3310 VCEG ADSR
+K ADSR Curtis OnChip Alfa CEM3310 VCEG
 F http://www.alfarzpp.lv/eng/sc/AS3310.pdf
 $ENDCMP
 #
 $CMP AS3320
 D Voltage Controlled Filter (VCF), DIP-18
-K Curtis OnChip Alfa 3320 VCF
+K Curtis OnChip Alfa CEM3320 VCF
 F http://www.alfarzpp.lv/eng/sc/AS3320.pdf
 $ENDCMP
 #
 $CMP AS3330
 D Dual Voltage Controlled Amplifier (VCA), DIP-18
-K Curtis OnChip Alfa 3330 VCA
+K Curtis OnChip Alfa CEM3330 VCA
 F http://www.alfarzpp.lv/eng/sc/AS3330.pdf
 $ENDCMP
 #
 $CMP AS3340
 D Voltage Controlled Oscillator (VCO), DIP-16
-K Curtis OnChip Alfa 3340 VCO 
+K Curtis OnChip Alfa CEM340 VCO
+F http://www.alfarzpp.lv/eng/sc/AS3340.pdf
+$ENDCMP
+#
+$CMP AS3345
+D Voltage Controlled Oscillator (VCO), DIP-18
+K Curtis OnChip Alfa CEM345 VCO
 F http://www.alfarzpp.lv/eng/sc/AS3340.pdf
 $ENDCMP
 #
 $CMP AS3360
 D Dual Voltage Controlled Amplifier (VCA), DIP-14
-K Curtis OnChip Alfa 3360 VCA
+K Curtis OnChip Alfa CEM3360 VCA
 F http://www.alfarzpp.lv/eng/sc/AS3360.pdf
 $ENDCMP
 #
