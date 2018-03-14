@@ -96,6 +96,13 @@ K Curtis OnChip CEM3340 VCA
 F https://static.miraheze.org/sdiywiki/e/e4/CEM_3340-3345_long.pdf
 $ENDCMP
 #
+#
+$CMP CEM3345
+D Dual Voltage Controlled Amplifier (VCA), DIP-16
+K Curtis OnChip CEM3345 VCA
+F https://static.miraheze.org/sdiywiki/e/e4/CEM_3340-3345_long.pdf
+$ENDCMP
+#
 $CMP CEM3360
 D Dual Voltage Controlled Amplifier (VCA), DIP-14
 K Curtis OnChip CEM3360 VCA
