@@ -18,6 +18,12 @@ K counter
 F http://www.ti.com/lit/gpn/sn74469
 $ENDCMP
 #
+$CMP 74CBTLV3257
+D Quad 1:2 FET Multiplexer/Demultiplexer, Low-Voltage
+K mux demux low-voltage
+F http://www.ti.com/lit/ds/symlink/sn74cbtlv3257.pdf
+$ENDCMP
+#
 $CMP 74CBTLV3861
 D Low-voltage 10-bit FET Bus switch
 K bus
@@ -74,8 +80,8 @@ $ENDCMP
 #
 $CMP 74HC7014
 D Hex non-inverting buffer with precision Schmitt Trigger inputs, SOIC-14
-K Hex non-inverting Schmitt buffer 
-F https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf 
+K Hex non-inverting Schmitt buffer
+F https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf
 $ENDCMP
 #
 $CMP 74HC74
