@@ -38,74 +38,73 @@ $ENDCMP
 #
 $CMP AS3310
 D Voltage Controlled Envelope Generator, DIP-16
-K ADSR Curtis OnChip Alfa CEM3310 VCEG
+K ADSR VCEG CEM3310 Alfa 
 F http://www.alfarzpp.lv/eng/sc/AS3310.pdf
 $ENDCMP
 #
 $CMP AS3320
 D Voltage Controlled Filter (VCF), DIP-18
-K Curtis OnChip Alfa CEM3320 VCF
+K VCF CEM3320 Alfa
 F http://www.alfarzpp.lv/eng/sc/AS3320.pdf
 $ENDCMP
 #
 $CMP AS3330
 D Dual Voltage Controlled Amplifier (VCA), DIP-18
-K Curtis OnChip Alfa CEM3330 VCA
+K VCA CEM3330 Alfa 
 F http://www.alfarzpp.lv/eng/sc/AS3330.pdf
 $ENDCMP
 #
 $CMP AS3340
 D Voltage Controlled Oscillator (VCO), DIP-16
-K Curtis OnChip Alfa CEM340 VCO
+K VCO CEM340 Alfa  
 F http://www.alfarzpp.lv/eng/sc/AS3340.pdf
 $ENDCMP
 #
 $CMP AS3345
 D Voltage Controlled Oscillator (VCO), DIP-18
-K Curtis OnChip Alfa CEM345 VCO
+K VCO CEM345 Alfa 
 F http://www.alfarzpp.lv/eng/sc/AS3340.pdf
 $ENDCMP
 #
 $CMP AS3360
 D Dual Voltage Controlled Amplifier (VCA), DIP-14
-K Curtis OnChip Alfa CEM3360 VCA
+K VCA CEM3360 Alfa
 F http://www.alfarzpp.lv/eng/sc/AS3360.pdf
 $ENDCMP
 #
 $CMP CEM3310
 D Voltage Controlled Envelope Generator, DIP-16
-K ADSR Curtis OnChip CEM3310 VCEG
-F https://static.miraheze.org/sdiywiki/f/ff/CEM3310_datasheet_long.pdf
+K ADSR VCEG CEM3310 Curtis OnChip 
+F https://web.archive.org/web/20160131222157/http://curtiselectromusic.com/uploads/CEM_3310_Long.pdf
 $ENDCMP
 #
 $CMP CEM3320
 D Voltage Controlled Filter (VCF), DIP-18
-K Curtis OnChip CEM3320 VCF
-F https://static.miraheze.org/sdiywiki/d/d1/CEM3320_datasheet_long.pdf
+K VCF CEM3320 Curtis OnChip 
+F https://web.archive.org/web/20110708214007/http://curtiselectromusic.com/uploads/CEM_3320_Long.pdf
 $ENDCMP
 #
 $CMP CEM3330
 D Dual Voltage Controlled Amplifier (VCA), DIP-18
-K Curtis OnChip CEM3330 VCA
-F https://static.miraheze.org/sdiywiki/5/5c/CEM_3330-3335_long.pdf
+K VCA CEM3330 Curtis OnChip 
+F https://web.archive.org/web/20110708214201/http://curtiselectromusic.com/uploads/CEM_3330-3335_Long.pdf
 $ENDCMP
 #
 $CMP CEM3340
-D Dual Voltage Controlled Amplifier (VCA), DIP-16
-K Curtis OnChip CEM3340 VCA
-F https://static.miraheze.org/sdiywiki/e/e4/CEM_3340-3345_long.pdf
+D Voltage Controlled Oscillator (VCO), DIP-16
+K VCA CEM3340 Curtis OnChip 
+F https://web.archive.org/web/20110708214118/http://curtiselectromusic.com/uploads/CEM_3340-3345_Long.pdf
 $ENDCMP
 #
-#
 $CMP CEM3345
-D Dual Voltage Controlled Amplifier (VCA), DIP-16
-K Curtis OnChip CEM3345 VCA
-F https://static.miraheze.org/sdiywiki/e/e4/CEM_3340-3345_long.pdf
+D Voltage Controlled Oscillator (VCO), DIP-18
+K VCO CEM3345 Curtis OnChip 
+F https://web.archive.org/web/20110708214118/http://curtiselectromusic.com/uploads/CEM_3340-3345_Long.pdf
 $ENDCMP
 #
 $CMP CEM3360
 D Dual Voltage Controlled Amplifier (VCA), DIP-14
-K Curtis OnChip CEM3360 VCA
+K VCA CEM3360 Curtis OnChip 
 F https://static.miraheze.org/sdiywiki/e/e4/CEM_3360.pdf
 $ENDCMP
 #
@@ -275,6 +274,18 @@ $CMP UDA1334ATS
 D Low Power Audio DAC with PLL, SSOP-16
 K audio dac 2ch 24bit 96kHz
 F http://www.nxp.com/docs/en/data-sheet/UDA1334ATS.pdf
+$ENDCMP
+#
+$CMP V3320
+D Voltage Controlled Filter (VCF), DIP-18
+K VCF CEM3320 CoolAudio
+F http://coolaudio.com/docs/Cool%20Audio_Data_Sheet_V3320_VCF.pdf
+$ENDCMP
+#
+$CMP V3340
+D Voltage Controlled Oscillator (VCO), DIP-16
+K VCA CEM3340 CoolAudio
+F http://coolaudio.com/docs/COOLAUDIO_V3340_DATASHEETS.pdf
 $ENDCMP
 #
 #End Doc Library
