@@ -74,8 +74,8 @@ $ENDCMP
 #
 $CMP 74HC7014
 D Hex non-inverting buffer with precision Schmitt Trigger inputs, SOIC-14
-K Hex non-inverting Schmitt buffer 
-F https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf 
+K Hex non-inverting Schmitt buffer
+F https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf
 $ENDCMP
 #
 $CMP 74HC74
@@ -1084,6 +1084,12 @@ $CMP MM74C923
 D 20-key encoder
 K encoder
 F http://www.ti.com/lit/gpn/snMM74C923
+$ENDCMP
+#
+$CMP SN74CBTLV3257
+D Quad 1:2 FET Multiplexer/Demultiplexer, Low-Voltage
+K mux demux low-voltage
+F http://www.ti.com/lit/ds/symlink/sn74cbtlv3257.pdf
 $ENDCMP
 #
 #End Doc Library
