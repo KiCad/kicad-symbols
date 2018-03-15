@@ -1,3 +1,27 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AT89S2051-24PU
+D 8-bit Microcontroller with 2K Bytes Flash, DIP-20
+K 8-bit microcontroller 2K bytes flash
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc3390.pdf
+$ENDCMP
+#
+$CMP AT89S2051-24SU
+D 8-bit Microcontroller with 2K Bytes Flash, SOIC-20
+K 8-bit microcontroller 2K bytes flash 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc3390.pdf
+$ENDCMP
+#
+$CMP AT89S4051-24PU
+D 8-bit Microcontroller with 4K Bytes Flash, DIP-20
+K 8-bit microcontroller 4K bytes flash
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc3390.pdf
+$ENDCMP
+#
+$CMP AT89S4051-24SU
+D 8-bit Microcontroller with 4K Bytes Flash, SOIC-20
+K 8-bit microcontroller 4K bytes flash 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc3390.pdf
+$ENDCMP
+#
 #End Doc Library
