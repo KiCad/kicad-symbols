@@ -1,5 +1,29 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP MAX6355
+D Dual/Triple-Voltage μP Supervisory Circuits
+K Power Supervisor
+F https://datasheets.maximintegrated.com/en/ds/MAX6351-MAX6360.pdf
+$ENDCMP
+#
+$CMP MAX691
+D Microprocessor Supervisory Circuit, DIP-16
+K Power Supervisor
+F https://datasheets.maximintegrated.com/en/ds/MAX690-MAX695.pdf
+$ENDCMP
+#
+$CMP MC33064D
+D Undervoltage Sensing Circuit
+K Power Supervisor
+F https://www.onsemi.com/pub/Collateral/MC34064-D.PDF
+$ENDCMP
+#
+$CMP MC34064P
+D Undervoltage Sensing Circuit, TO-92
+K Power Supervisor
+F https://www.onsemi.com/pub/Collateral/MC34064-D.PDF
+$ENDCMP
+#
 $CMP MCP100-270D
 D Microcontroller reset monitor, 2.70V threshold, active low output
 K supervisor reset push-pull
