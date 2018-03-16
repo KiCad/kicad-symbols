@@ -6,6 +6,12 @@ K Power Supervisor
 F https://datasheets.maximintegrated.com/en/ds/MAX6351-MAX6360.pdf
 $ENDCMP
 #
+$CMP MAX691
+D Microprocessor Supervisory Circuit, DIP-16
+K Power Supervisor
+F https://datasheets.maximintegrated.com/en/ds/MAX690-MAX695.pdf
+$ENDCMP
+#
 $CMP MCP100-270D
 D Microcontroller reset monitor, 2.70V threshold, active low output
 K supervisor reset push-pull
