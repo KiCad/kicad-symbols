@@ -12,6 +12,30 @@ K Power Supervisor
 F https://datasheets.maximintegrated.com/en/ds/MAX690-MAX695.pdf
 $ENDCMP
 #
+$CMP MC33064D
+D Undervoltage Sensing Circuit, −40°C to +85°C, SOIC-8
+K Power Supervisor
+F https://www.onsemi.com/pub/Collateral/MC34064-D.PDF
+$ENDCMP
+#
+$CMP MC33064P
+D Undervoltage Sensing Circuit, −40°C to +85°C, TO-92
+K Power Supervisor
+F https://www.onsemi.com/pub/Collateral/MC34064-D.PDF
+$ENDCMP
+#
+$CMP MC34064D
+D Undervoltage Sensing Circuit, 0°C to +70°C, SOIC-8
+K Power Supervisor
+F https://www.onsemi.com/pub/Collateral/MC34064-D.PDF
+$ENDCMP
+#
+$CMP MC34064P
+D Undervoltage Sensing Circuit, 0°C to +70°C, TO-92
+K Power Supervisor
+F https://www.onsemi.com/pub/Collateral/MC34064-D.PDF
+$ENDCMP
+#
 $CMP MCP100-270D
 D Microcontroller reset monitor, 2.70V threshold, active low output
 K supervisor reset push-pull
