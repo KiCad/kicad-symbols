@@ -1,17 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP ATtiny10-P
-D DIP8, 1k OTP Flash, No SRAM, 64B EEPROM (For reference only)
-K AVR 8-bit Microcontroller tinyAVR Discontinued
-F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny%2011_12%20Complete.pdf
-$ENDCMP
-#
-$CMP ATtiny10-S
-D SO8, 1k OTP FLash, No SRAM, 64B EEPROM (For reference only)
-K AVR 8-bit Microcontroller tinyAVR Discontinued
-F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny%2011_12%20Complete.pdf
-$ENDCMP
-#
 $CMP ATtiny10-TS
 D SOT-23-6, 1k Flash, 32B SRAM, No EEPROM, ADC
 K AVR 8bit Microcontroller tinyAVR
