@@ -58,6 +58,11 @@ $CMP nRF24L01P
 D nRF24L01+, Ultra low power 2.4GHz RF Transceiver, QFN20 4x4mm
 K Low Power RF Transciever
 F http://www.nordicsemi.com/eng/content/download/2726/34069/file/nRF24L01P_Product_Specification_1_0.pdf
+#
+$CMP CC2500
+D Single Chip Low Power RF Transceiver, QFN20
+K Low Power RF Transciever
+F http://www.ti.com/lit/ds/symlink/cc2500.pdf
 $ENDCMP
 #
 #End Doc Library
