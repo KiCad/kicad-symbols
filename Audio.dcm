@@ -37,75 +37,39 @@ F http://www.akm.com/akm/en/file/datasheet/AK5394AVS.pdf
 $ENDCMP
 #
 $CMP AS3310
-D Voltage Controlled Envelope Generator, DIP-16
-K ADSR VCEG CEM3310 Alfa 
+D ADSR Voltage Controlled Envelope Generator, DIP-16
+K VCEG CEM3310 Alfa
 F http://www.alfarzpp.lv/eng/sc/AS3310.pdf
 $ENDCMP
 #
 $CMP AS3320
 D Voltage Controlled Filter (VCF), DIP-18
-K VCF CEM3320 Alfa
+K VCF CEM3320 ALFA
 F http://www.alfarzpp.lv/eng/sc/AS3320.pdf
 $ENDCMP
 #
 $CMP AS3330
 D Dual Voltage Controlled Amplifier (VCA), DIP-18
-K VCA CEM3330 Alfa 
+K VCA CEM3330 ALFA
 F http://www.alfarzpp.lv/eng/sc/AS3330.pdf
 $ENDCMP
 #
 $CMP AS3340
 D Voltage Controlled Oscillator (VCO), DIP-16
-K VCO CEM340 Alfa  
+K VCO CEM340 ALFA
 F http://www.alfarzpp.lv/eng/sc/AS3340.pdf
 $ENDCMP
 #
 $CMP AS3345
 D Voltage Controlled Oscillator (VCO), DIP-18
-K VCO CEM345 Alfa 
+K VCO CEM345 ALFA
 F http://www.alfarzpp.lv/eng/sc/AS3340.pdf
 $ENDCMP
 #
 $CMP AS3360
 D Dual Voltage Controlled Amplifier (VCA), DIP-14
-K VCA CEM3360 Alfa
+K VCA CEM3360 ALFA
 F http://www.alfarzpp.lv/eng/sc/AS3360.pdf
-$ENDCMP
-#
-$CMP CEM3310
-D Voltage Controlled Envelope Generator, DIP-16
-K ADSR VCEG CEM3310 Curtis OnChip 
-F https://web.archive.org/web/20160131222157/http://curtiselectromusic.com/uploads/CEM_3310_Long.pdf
-$ENDCMP
-#
-$CMP CEM3320
-D Voltage Controlled Filter (VCF), DIP-18
-K VCF CEM3320 Curtis OnChip 
-F https://web.archive.org/web/20110708214007/http://curtiselectromusic.com/uploads/CEM_3320_Long.pdf
-$ENDCMP
-#
-$CMP CEM3330
-D Dual Voltage Controlled Amplifier (VCA), DIP-18
-K VCA CEM3330 Curtis OnChip 
-F https://web.archive.org/web/20110708214201/http://curtiselectromusic.com/uploads/CEM_3330-3335_Long.pdf
-$ENDCMP
-#
-$CMP CEM3340
-D Voltage Controlled Oscillator (VCO), DIP-16
-K VCA CEM3340 Curtis OnChip 
-F https://web.archive.org/web/20110708214118/http://curtiselectromusic.com/uploads/CEM_3340-3345_Long.pdf
-$ENDCMP
-#
-$CMP CEM3345
-D Voltage Controlled Oscillator (VCO), DIP-18
-K VCO CEM3345 Curtis OnChip 
-F https://web.archive.org/web/20110708214118/http://curtiselectromusic.com/uploads/CEM_3340-3345_Long.pdf
-$ENDCMP
-#
-$CMP CEM3360
-D Dual Voltage Controlled Amplifier (VCA), DIP-14
-K VCA CEM3360 Curtis OnChip 
-F http://www.buchty.net/ensoniq/files/cem3360.pdf
 $ENDCMP
 #
 $CMP CS4245
