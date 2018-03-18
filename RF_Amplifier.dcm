@@ -18,6 +18,66 @@ K RF GAIN BLOCK
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADL5610.pdf
 $ENDCMP
 #
+$CMP BGA2800
+D DC-2.2GHz  +20.2dB RF amplifier, 3.3V, SOT-363-6
+K RF GAIN BLOCK
+F https://www.nxp.com/docs/en/data-sheet/BGA2800.pdf
+$ENDCMP
+#
+$CMP BGA2801
+D DC-0.75GHz  +22.2dB RF amplifier, 3.3V, SOT-363-6
+K RF GAIN BLOCK
+F https://www.nxp.com/docs/en/data-sheet/BGA2801.pdf
+$ENDCMP
+#
+$CMP BGA2803
+D DC-2.2GHz  +23.4dB RF amplifier, 3V, SOT-363-6
+K RF GAIN BLOCK
+F https://www.nxp.com/docs/en/data-sheet/BGA2803.pdf
+$ENDCMP
+#
+$CMP BGA2815
+D 0.25-2.15GHz  +25.1dB RF amplifier, 3.3V, SOT-363-6
+K RF GAIN BLOCK
+F https://www.nxp.com/docs/en/data-sheet/BGA2815.pdf
+$ENDCMP
+#
+$CMP BGA2817
+D DC-2.2GHz  +25.1dB RF amplifier, 3-3.6V, SOT-363-6
+K RF GAIN BLOCK
+F https://www.nxp.com/docs/en/data-sheet/BGA2817.pdf
+$ENDCMP
+#
+$CMP BGA2818
+D DC-2.2GHz  +30dB RF amplifier, 3.3V, SOT-363-6
+K RF GAIN BLOCK
+F https://www.nxp.com/docs/en/data-sheet/BGA2818.pdf
+$ENDCMP
+#
+$CMP BGA2851
+D DC-2.2GHz  +24.7dB RF amplifier, 5V, SOT-363-6
+K RF GAIN BLOCK
+F https://www.nxp.com/docs/en/data-sheet/BGA2851.pdf
+$ENDCMP
+#
+$CMP BGA2866
+D DC-2.2GHz  +24.3dB RF amplifier, 5V, SOT-363-6
+K RF GAIN BLOCK
+F https://www.nxp.com/docs/en/data-sheet/BGA2866.pdf
+$ENDCMP
+#
+$CMP BGA2869
+D DC-2.2GHz  +31.7dB RF amplifier, 5V, SOT-363-6
+K RF GAIN BLOCK
+F https://www.nxp.com/docs/en/data-sheet/BGA2869.pdf
+$ENDCMP
+#
+$CMP BGA2870
+D DC-0.75GHz  +31.1dB RF amplifier, 2.3-2.7V, SOT-363-6
+K RF GAIN BLOCK
+F https://www.nxp.com/docs/en/data-sheet/BGA2870.pdf
+$ENDCMP
+#
 $CMP MAX2679
 D GPS/GNSS low-power ultra-low-noise amplifier, WLP-4
 K RF GAIN BLOCK
