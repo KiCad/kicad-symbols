@@ -19,6 +19,7 @@
   (lib (name Battery_Management)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Battery_Management.lib)(options "")(descr "Battery management ICs"))
   (lib (name Comparator)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Comparator.lib)(options "")(descr "Comperator symbols"))
   (lib (name Connector_Generic)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connector_Generic.lib)(options "")(descr "Generic connector symbols"))
+  (lib (name Connector_Generic_MountingPin)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connector_Generic_MountingPin.lib)(options "")(descr "Generic connectors with mechanical mounting pin"))
   (lib (name Connector_Generic_Shielded)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connector_Generic_Shielded.lib)(options "")(descr "Generic shielded connector symbols"))
   (lib (name Connector_Specialized)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connector_Specialized.lib)(options "")(descr "Specialized connector symbols (Examples: Terminal Block, D-SUB, Din, ...)"))
   (lib (name Converter_ACDC)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Converter_ACDC.lib)(options "")(descr "AC to DC converter modules"))
