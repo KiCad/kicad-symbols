@@ -1177,7 +1177,7 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8067-8-and-16-bit-AVR-Mi
 $ENDCMP
 #
 $CMP ATxmega128A1U-AU
-D TQFP-100, 128kB Flash, 8kB Boot, 8kB SRAM, 2kB EEPROM, USB, JTAG
+D TQFP-100, 128kB Flash, 8kB Boot, 8kB SRAM, 2kB EEPROM, JTAG, USB
 K AVR 8/16bit Microcontroller XMegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8385-8-and-16-bit-AVR-Microcontroller-ATxmega64A1U-ATxmega128A1U_datasheet.pdf
 $ENDCMP
@@ -1543,7 +1543,7 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8067-8-and-16-bit-AVR-Mi
 $ENDCMP
 #
 $CMP ATxmega64A1U-AU
-D TQFP-100, 64kB Flash, 4kB Boot, 4kB SRAM, 2kB EEPROM, USB, JTAG
+D TQFP-100, 64kB Flash, 4kB Boot, 4kB SRAM, 2kB EEPROM, JTAG, USB
 K AVR 8/16bit Microcontroller XMegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8385-8-and-16-bit-AVR-Microcontroller-ATxmega64A1U-ATxmega128A1U_datasheet.pdf
 $ENDCMP
