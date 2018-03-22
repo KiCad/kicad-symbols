@@ -733,13 +733,13 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U
 $ENDCMP
 #
 $CMP ATmega32U4RC-AU
-D TQFP-44, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0
+D TQFP-44, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, RC Osc
 K AVR 8bit Microcontroller MegaAVR USB
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
 $ENDCMP
 #
 $CMP ATmega32U4RC-MU
-D QFN-44, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0
+D QFN-44, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, RC Osc
 K AVR 8bit Microcontroller MegaAVR USB
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
 $ENDCMP
