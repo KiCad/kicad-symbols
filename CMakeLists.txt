@@ -6,7 +6,12 @@ cmake_minimum_required( VERSION 2.6.1 FATAL_ERROR )
 # Locations for install targets.
 #================================================
 if( APPLE )
-    # Like all variables, CMAKE_INSTALL_PREFIX can be over-ridden on the command line.
+    # The project call sets the CMAKE_INSTALL_PREFIX, so it cannot be changed without using FORCE.
+    # This check makes sure CMAKE_INSTALL_PREFIX can still be overridden from the command line.
+   if(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
+       set( CMAKE_INSTALL_PREFIX "/Library/Application Support/kicad/" CACHE PATH "" FORCE)
+   endif(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
+ 
     set( CMAKE_INSTALL_PREFIX "/Library/Application Support/kicad/" CACHE PATH "" )
 
     # Everything without leading / is relative to CMAKE_INSTALL_PREFIX.
