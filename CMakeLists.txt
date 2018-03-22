@@ -57,4 +57,3 @@ install(FILES ${lib_files}
 install(FILES sym-lib-table
         DESTINATION ${KICAD_TEMPLATE}
         COMPONENT resources)
-
