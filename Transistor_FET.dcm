@@ -708,6 +708,12 @@ K N-Channel SiC MOSFET
 F https://www.wolfspeed.com/media/downloads/820/C2M1000170J.pdf
 $ENDCMP
 #
+$CMP C3M0030090K
+D 63A Id, 900V Vds, 30mOhm, N-channel SiC MOSFET, TO-247-4
+K N-Channel SiC MOSFET
+F https://www.wolfspeed.com/media/downloads/961/C3M0030090K.pdf
+$ENDCMP
+#
 $CMP C3M0065090D
 D 36A Id, 900V Vds, 65mOhm, N-channel SiC MOSFET, TO-247
 K N-Channel SiC MOSFET
