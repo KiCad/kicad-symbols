@@ -42,8 +42,20 @@ K VCEG CEM3310 ALFA
 F http://www.alfarzpp.lv/eng/sc/AS3310.pdf
 $ENDCMP
 #
+$CMP AS3310D
+D ADSR Voltage Controlled Envelope Generator, SOIC-16
+K VCEG CEM3310 ALFA
+F http://www.alfarzpp.lv/eng/sc/AS3310.pdf
+$ENDCMP
+#
 $CMP AS3320
 D Voltage Controlled Filter (VCF), DIP-18
+K VCF CEM3320 ALFA
+F http://www.alfarzpp.lv/eng/sc/AS3320.pdf
+$ENDCMP
+#
+$CMP AS3320F
+D Voltage Controlled Filter (VCF), QFN-24
 K VCF CEM3320 ALFA
 F http://www.alfarzpp.lv/eng/sc/AS3320.pdf
 $ENDCMP
@@ -54,8 +66,20 @@ K VCA CEM3330 ALFA
 F http://www.alfarzpp.lv/eng/sc/AS3330.pdf
 $ENDCMP
 #
+$CMP AS3330F
+D Dual Voltage Controlled Amplifier (VCA), QFN-24
+K VCA CEM3330 ALFA
+F http://www.alfarzpp.lv/eng/sc/AS3330.pdf
+$ENDCMP
+#
 $CMP AS3340
 D Voltage Controlled Oscillator (VCO), DIP-16
+K VCO CEM340 ALFA
+F http://www.alfarzpp.lv/eng/sc/AS3340.pdf
+$ENDCMP
+#
+$CMP AS3340D
+D Voltage Controlled Oscillator (VCO), SOIC-16
 K VCO CEM340 ALFA
 F http://www.alfarzpp.lv/eng/sc/AS3340.pdf
 $ENDCMP
@@ -66,8 +90,20 @@ K VCO CEM345 ALFA
 F http://www.alfarzpp.lv/eng/sc/AS3340.pdf
 $ENDCMP
 #
+$CMP AS3345F
+D Voltage Controlled Oscillator (VCO), QFN-24
+K VCO CEM345 ALFA
+F http://www.alfarzpp.lv/eng/sc/AS3340.pdf
+$ENDCMP
+#
 $CMP AS3360
 D Dual Voltage Controlled Amplifier (VCA), DIP-14
+K VCA CEM3360 ALFA
+F http://www.alfarzpp.lv/eng/sc/AS3360.pdf
+$ENDCMP
+#
+$CMP AS3360D
+D Dual Voltage Controlled Amplifier (VCA), SOIC-14
 K VCA CEM3360 ALFA
 F http://www.alfarzpp.lv/eng/sc/AS3360.pdf
 $ENDCMP
@@ -246,8 +282,14 @@ K VCF CEM3320 CoolAudio
 F http://coolaudio.com/docs/Cool%20Audio_Data_Sheet_V3320_VCF.pdf
 $ENDCMP
 #
-$CMP V3340
+$CMP V3340D
 D Voltage Controlled Oscillator (VCO), DIP-16
+K VCA CEM3340 CoolAudio
+F http://coolaudio.com/docs/COOLAUDIO_V3340_DATASHEETS.pdf
+$ENDCMP
+#
+$CMP V3340M
+D Voltage Controlled Oscillator (VCO), SOP-16
 K VCA CEM3340 CoolAudio
 F http://coolaudio.com/docs/COOLAUDIO_V3340_DATASHEETS.pdf
 $ENDCMP
