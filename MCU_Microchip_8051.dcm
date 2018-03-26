@@ -24,13 +24,13 @@ K MCS-51 8bit Flash Microcontroller
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc1001.pdf
 $ENDCMP
 #
-$CMP AT89S2051-PU
+$CMP AT89S2051-24PU
 D DIP-20, 2kB Flash, 256B SRAM
 K MCS-51 8bit Flash Microcontroller
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc3390.pdf
 $ENDCMP
 #
-$CMP AT89S2051-SU
+$CMP AT89S2051-24SU
 D SOIC-20, 2kB Flash, 256B SRAM
 K MCS-51 8bit Flash Microcontroller
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc3390.pdf
