@@ -138,39 +138,33 @@ K 5V 4A 20W miniature AC-DC module-type power supply
 F http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF
 $ENDCMP
 #
-$CMP TMLM04103
-D 3.3V 4W AC/DC power modules for PCB mounting
-K 3.3V 4W AC-DC module power supply
+$CMP TMLM041xx
+D 4W AC/DC low noise power module
+K Traco Power 4W AC-DC module power supply
 F https://www.tracopower.com/products/tmlm.pdf
 $ENDCMP
 #
-$CMP TMLM04105
-D 5V 4W AC/DC power modules for PCB mounting
-K 5V 4W AC/DC power module
+$CMP TMLM042xx
+D 4W AC/DC dual output, low noise power module
+K Traco Power 4W AC-DC module power supply
 F https://www.tracopower.com/products/tmlm.pdf
 $ENDCMP
 #
-$CMP TMLM04109
-D 9V 4W AC/DC power modules for PCB mounting
-K 9V 4W AC/DC power module
+$CMP TMLM051xx
+D 5W AC/DC low noise power module
+K Traco Power 5W AC-DC module power supply
 F https://www.tracopower.com/products/tmlm.pdf
 $ENDCMP
 #
-$CMP TMLM04112
-D 12V 4W AC/DC power modules for PCB mounting
-K 12V 4W AC/DC power module
+$CMP TMLM101xx
+D 10W AC/DC low noise power module
+K Traco Power 10W AC-DC module power supply
 F https://www.tracopower.com/products/tmlm.pdf
 $ENDCMP
 #
-$CMP TMLM04115
-D 15V 4W AC/DC power modules for PCB mounting
-K 15V 4W AC/DC power module
-F https://www.tracopower.com/products/tmlm.pdf
-$ENDCMP
-#
-$CMP TMLM04124
-D 24V 4W AC/DC power modules for PCB mounting
-K 24V 4W AC/DC power module
+$CMP TMLM201xx
+D 20W AC/DC low noise power module
+K Traco Power 20W AC-DC module power supply
 F https://www.tracopower.com/products/tmlm.pdf
 $ENDCMP
 #
