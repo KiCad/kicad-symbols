@@ -1,781 +1,781 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP STM32L100C6Ux
-D Core: ARM Cortex-M3 Package: UFQFPN48 Flash: 32KB Ram: 4KB Frequency: 32MHz Voltage: 1.8..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 32KB flash, 4KB RAM, 32MHz, 1.8-3.6V, 37 GPIO, UFQFPN-48
 K ARM Cortex-M3 STM32L1 STM32L100 Value Line
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00078075.pdf
 $ENDCMP
 #
 $CMP STM32L100C6UxA
-D Core: ARM Cortex-M3 Package: UFQFPN48 Flash: 32KB Ram: 10KB Frequency: 32MHz Voltage: 1.8..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 32KB flash, 10KB RAM, 32MHz, 1.8-3.6V, 37 GPIO, UFQFPN-48
 K ARM Cortex-M3 STM32L1 STM32L100 Value Line
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00078075.pdf
 $ENDCMP
 #
 $CMP STM32L100R8Tx
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 64KB Ram: 8KB Frequency: 32MHz Voltage: 1.8..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 64KB flash, 8KB RAM, 32MHz, 1.8-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L100 Value Line
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00078075.pdf
 $ENDCMP
 #
 $CMP STM32L100RBTx
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 128KB Ram: 10KB Frequency: 32MHz Voltage: 1.8..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 128KB flash, 10KB RAM, 32MHz, 1.8-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L100 Value Line
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00078075.pdf
 $ENDCMP
 #
 $CMP STM32L100R8TxA
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 64KB Ram: 10KB Frequency: 32MHz Voltage: 1.8..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.8-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L100 Value Line
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00078075.pdf
 $ENDCMP
 #
 $CMP STM32L100RBTxA
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 128KB Ram: 10KB Frequency: 32MHz Voltage: 1.8..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 128KB flash, 10KB RAM, 32MHz, 1.8-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L100 Value Line
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00078075.pdf
 $ENDCMP
 #
 $CMP STM32L100RCTx
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 256KB Ram: 16KB Frequency: 32MHz Voltage: 1.8..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 256KB flash, 16KB RAM, 32MHz, 1.8-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L100 Value Line
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090183.pdf
 $ENDCMP
 #
 $CMP STM32L151C6Tx
-D Core: ARM Cortex-M3 Package: LQFP48 Flash: 32KB Ram: 10KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 32KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151C8Tx
-D Core: ARM Cortex-M3 Package: LQFP48 Flash: 64KB Ram: 10KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151CBTx
-D Core: ARM Cortex-M3 Package: LQFP48 Flash: 128KB Ram: 16KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151C6TxA
-D Core: ARM Cortex-M3 Package: LQFP48 Flash: 32KB Ram: 16KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 32KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151C8TxA
-D Core: ARM Cortex-M3 Package: LQFP48 Flash: 64KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151CBTxA
-D Core: ARM Cortex-M3 Package: LQFP48 Flash: 128KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 128KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151C6Ux
-D Core: ARM Cortex-M3 Package: UFQFPN48 Flash: 32KB Ram: 10KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 32KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, UFQFPN-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151C8Ux
-D Core: ARM Cortex-M3 Package: UFQFPN48 Flash: 64KB Ram: 10KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, UFQFPN-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151CBUx
-D Core: ARM Cortex-M3 Package: UFQFPN48 Flash: 128KB Ram: 16KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, UFQFPN-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151C6UxA
-D Core: ARM Cortex-M3 Package: UFQFPN48 Flash: 32KB Ram: 16KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 32KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, UFQFPN-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151C8UxA
-D Core: ARM Cortex-M3 Package: UFQFPN48 Flash: 64KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, UFQFPN-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151CBUxA
-D Core: ARM Cortex-M3 Package: UFQFPN48 Flash: 128KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 128KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, UFQFPN-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151CCTx
-D Core: ARM Cortex-M3 Package: LQFP48 Flash: 256KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00048356.pdf
 $ENDCMP
 #
 $CMP STM32L151CCUx
-D Core: ARM Cortex-M3 Package: UFQFPN48 Flash: 256KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, UFQFPN-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00048356.pdf
 $ENDCMP
 #
 $CMP STM32L151QCHx
-D Core: ARM Cortex-M3 Package: UFBGA132 Flash: 256KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 112
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 112 GPIO, UFBGA-132
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00111457.pdf
 $ENDCMP
 #
 $CMP STM32L151QDHx
-D Core: ARM Cortex-M3 Package: UFBGA132 Flash: 384KB Ram: 48KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 112
+D ARM Cortex-M3 MCU, 384KB flash, 48KB RAM, 32MHz, 1.65-3.6V, 112 GPIO, UFBGA-132
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00034689.pdf
 $ENDCMP
 #
 $CMP STM32L151QEHx
-D Core: ARM Cortex-M3 Package: UFBGA132 Flash: 512KB Ram: 80KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 111
+D ARM Cortex-M3 MCU, 512KB flash, 80KB RAM, 32MHz, 1.65-3.6V, 111 GPIO, UFBGA-132
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00098321.pdf
 $ENDCMP
 #
 $CMP STM32L151R6Hx
-D Core: ARM Cortex-M3 Package: TFBGA64 Flash: 32KB Ram: 10KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M3 MCU, 32KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151R8Hx
-D Core: ARM Cortex-M3 Package: TFBGA64 Flash: 64KB Ram: 10KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151RBHx
-D Core: ARM Cortex-M3 Package: TFBGA64 Flash: 128KB Ram: 16KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151R6HxA
-D Core: ARM Cortex-M3 Package: TFBGA64 Flash: 32KB Ram: 16KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M3 MCU, 32KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151R8HxA
-D Core: ARM Cortex-M3 Package: TFBGA64 Flash: 64KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151RBHxA
-D Core: ARM Cortex-M3 Package: TFBGA64 Flash: 128KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M3 MCU, 128KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151R6Tx
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 32KB Ram: 10KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 32KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151R8Tx
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 64KB Ram: 10KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151RBTx
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 128KB Ram: 16KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151R6TxA
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 32KB Ram: 16KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 32KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151R8TxA
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 64KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151RBTxA
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 128KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 128KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151RCTx
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 256KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00048356.pdf
 $ENDCMP
 #
 $CMP STM32L151RCTxA
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 256KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00048356.pdf
 $ENDCMP
 #
 $CMP STM32L151RCYx
-D Core: ARM Cortex-M3 Package: WLCSP64-DIE427 Flash: 256KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, WLCSP-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00048356.pdf
 $ENDCMP
 #
 $CMP STM32L151RDTx
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 384KB Ram: 48KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 384KB flash, 48KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00034689.pdf
 $ENDCMP
 #
 $CMP STM32L151RDYx
-D Core: ARM Cortex-M3 Package: WLCSP64-DIE436 Flash: 384KB Ram: 48KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 384KB flash, 48KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, WLCSP-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00034689.pdf
 $ENDCMP
 #
 $CMP STM32L151RETx
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 512KB Ram: 80KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 512KB flash, 80KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00098321.pdf
 $ENDCMP
 #
 $CMP STM32L151UCYx
-D Core: ARM Cortex-M3 Package: WLCSP63-DIE427 Flash: 256KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, WLCSP-63
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00048356.pdf
 $ENDCMP
 #
 $CMP STM32L151V8Hx
-D Core: ARM Cortex-M3 Package: UFBGA100 Flash: 64KB Ram: 10KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, UFBGA-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151VBHx
-D Core: ARM Cortex-M3 Package: UFBGA100 Flash: 128KB Ram: 16KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, UFBGA-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151V8HxA
-D Core: ARM Cortex-M3 Package: UFBGA100 Flash: 64KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, UFBGA-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151VBHxA
-D Core: ARM Cortex-M3 Package: UFBGA100 Flash: 128KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 128KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, UFBGA-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151V8Tx
-D Core: ARM Cortex-M3 Package: LQFP100 Flash: 64KB Ram: 10KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151VBTx
-D Core: ARM Cortex-M3 Package: LQFP100 Flash: 128KB Ram: 16KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151V8TxA
-D Core: ARM Cortex-M3 Package: LQFP100 Flash: 64KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151VBTxA
-D Core: ARM Cortex-M3 Package: LQFP100 Flash: 128KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 128KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L151VCHx
-D Core: ARM Cortex-M3 Package: UFBGA100 Flash: 256KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, UFBGA-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00048356.pdf
 $ENDCMP
 #
 $CMP STM32L151VCTx
-D Core: ARM Cortex-M3 Package: LQFP100 Flash: 256KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00048356.pdf
 $ENDCMP
 #
 $CMP STM32L151VCTxA
-D Core: ARM Cortex-M3 Package: LQFP100 Flash: 256KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00048356.pdf
 $ENDCMP
 #
 $CMP STM32L151VDTx
-D Core: ARM Cortex-M3 Package: LQFP100 Flash: 384KB Ram: 48KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 384KB flash, 48KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00034689.pdf
 $ENDCMP
 #
 $CMP STM32L151VDTxX
-D Core: ARM Cortex-M3 Package: LQFP100 Flash: 384KB Ram: 80KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 384KB flash, 80KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00034689.pdf
 $ENDCMP
 #
 $CMP STM32L151VDYxX
-D Core: ARM Cortex-M3 Package: WLCSP104-DIE437 Flash: 384KB Ram: 80KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 384KB flash, 80KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, WLCSP-104
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00034689.pdf
 $ENDCMP
 #
 $CMP STM32L151VETx
-D Core: ARM Cortex-M3 Package: LQFP100 Flash: 512KB Ram: 80KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 512KB flash, 80KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00098321.pdf
 $ENDCMP
 #
 $CMP STM32L151VEYx
-D Core: ARM Cortex-M3 Package: WLCSP104-DIE437 Flash: 512KB Ram: 80KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 512KB flash, 80KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, WLCSP-104
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00098321.pdf
 $ENDCMP
 #
 $CMP STM32L151ZCTx
-D Core: ARM Cortex-M3 Package: LQFP144 Flash: 256KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 115
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 115 GPIO, LQFP-144
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00111457.pdf
 $ENDCMP
 #
 $CMP STM32L151ZDTx
-D Core: ARM Cortex-M3 Package: LQFP144 Flash: 384KB Ram: 48KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 115
+D ARM Cortex-M3 MCU, 384KB flash, 48KB RAM, 32MHz, 1.65-3.6V, 115 GPIO, LQFP-144
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00034689.pdf
 $ENDCMP
 #
 $CMP STM32L151ZETx
-D Core: ARM Cortex-M3 Package: LQFP144 Flash: 512KB Ram: 80KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 115
+D ARM Cortex-M3 MCU, 512KB flash, 80KB RAM, 32MHz, 1.65-3.6V, 115 GPIO, LQFP-144
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00098321.pdf
 $ENDCMP
 #
 $CMP STM32L152C6Tx
-D Core: ARM Cortex-M3 Package: LQFP48 Flash: 32KB Ram: 10KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 32KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152C8Tx
-D Core: ARM Cortex-M3 Package: LQFP48 Flash: 64KB Ram: 10KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152CBTx
-D Core: ARM Cortex-M3 Package: LQFP48 Flash: 128KB Ram: 16KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152C6TxA
-D Core: ARM Cortex-M3 Package: LQFP48 Flash: 32KB Ram: 16KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 32KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152C8TxA
-D Core: ARM Cortex-M3 Package: LQFP48 Flash: 64KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152CBTxA
-D Core: ARM Cortex-M3 Package: LQFP48 Flash: 128KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 128KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152C6Ux
-D Core: ARM Cortex-M3 Package: UFQFPN48 Flash: 32KB Ram: 10KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 32KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, UFQFPN-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152C8Ux
-D Core: ARM Cortex-M3 Package: UFQFPN48 Flash: 64KB Ram: 10KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, UFQFPN-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152CBUx
-D Core: ARM Cortex-M3 Package: UFQFPN48 Flash: 128KB Ram: 16KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, UFQFPN-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152C6UxA
-D Core: ARM Cortex-M3 Package: UFQFPN48 Flash: 32KB Ram: 16KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 32KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, UFQFPN-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152C8UxA
-D Core: ARM Cortex-M3 Package: UFQFPN48 Flash: 64KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, UFQFPN-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152CBUxA
-D Core: ARM Cortex-M3 Package: UFQFPN48 Flash: 128KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 128KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, UFQFPN-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152CCTx
-D Core: ARM Cortex-M3 Package: LQFP48 Flash: 256KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00048356.pdf
 $ENDCMP
 #
 $CMP STM32L152CCUx
-D Core: ARM Cortex-M3 Package: UFQFPN48 Flash: 256KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, UFQFPN-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00048356.pdf
 $ENDCMP
 #
 $CMP STM32L152QCHx
-D Core: ARM Cortex-M3 Package: UFBGA132 Flash: 256KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 112
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 112 GPIO, UFBGA-132
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00111457.pdf
 $ENDCMP
 #
 $CMP STM32L152QDHx
-D Core: ARM Cortex-M3 Package: UFBGA132 Flash: 384KB Ram: 48KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 112
+D ARM Cortex-M3 MCU, 384KB flash, 48KB RAM, 32MHz, 1.65-3.6V, 112 GPIO, UFBGA-132
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00034689.pdf
 $ENDCMP
 #
 $CMP STM32L152QEHx
-D Core: ARM Cortex-M3 Package: UFBGA132 Flash: 512KB Ram: 80KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 111
+D ARM Cortex-M3 MCU, 512KB flash, 80KB RAM, 32MHz, 1.65-3.6V, 111 GPIO, UFBGA-132
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00098321.pdf
 $ENDCMP
 #
 $CMP STM32L152R6Hx
-D Core: ARM Cortex-M3 Package: TFBGA64 Flash: 32KB Ram: 10KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M3 MCU, 32KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152R8Hx
-D Core: ARM Cortex-M3 Package: TFBGA64 Flash: 64KB Ram: 10KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152RBHx
-D Core: ARM Cortex-M3 Package: TFBGA64 Flash: 128KB Ram: 16KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152R6HxA
-D Core: ARM Cortex-M3 Package: TFBGA64 Flash: 32KB Ram: 16KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M3 MCU, 32KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152R8HxA
-D Core: ARM Cortex-M3 Package: TFBGA64 Flash: 64KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152RBHxA
-D Core: ARM Cortex-M3 Package: TFBGA64 Flash: 128KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M3 MCU, 128KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152R6Tx
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 32KB Ram: 10KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 32KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152R8Tx
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 64KB Ram: 10KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152RBTx
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 128KB Ram: 16KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152R6TxA
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 32KB Ram: 16KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 32KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152R8TxA
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 64KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152RBTxA
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 128KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 128KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152RCTx
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 256KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00048356.pdf
 $ENDCMP
 #
 $CMP STM32L152RCTxA
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 256KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00048356.pdf
 $ENDCMP
 #
 $CMP STM32L152RDTx
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 384KB Ram: 48KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 384KB flash, 48KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00034689.pdf
 $ENDCMP
 #
 $CMP STM32L152RDYx
-D Core: ARM Cortex-M3 Package: WLCSP64-DIE436 Flash: 384KB Ram: 48KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 384KB flash, 48KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, WLCSP-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00034689.pdf
 $ENDCMP
 #
 $CMP STM32L152RETx
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 512KB Ram: 80KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 512KB flash, 80KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00098321.pdf
 $ENDCMP
 #
 $CMP STM32L152UCYx
-D Core: ARM Cortex-M3 Package: WLCSP63-DIE427 Flash: 256KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, WLCSP-63
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00048356.pdf
 $ENDCMP
 #
 $CMP STM32L152V8Hx
-D Core: ARM Cortex-M3 Package: UFBGA100 Flash: 64KB Ram: 10KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, UFBGA-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152VBHx
-D Core: ARM Cortex-M3 Package: UFBGA100 Flash: 128KB Ram: 16KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, UFBGA-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152V8HxA
-D Core: ARM Cortex-M3 Package: UFBGA100 Flash: 64KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, UFBGA-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152VBHxA
-D Core: ARM Cortex-M3 Package: UFBGA100 Flash: 128KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 128KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, UFBGA-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152V8Tx
-D Core: ARM Cortex-M3 Package: LQFP100 Flash: 64KB Ram: 10KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152VBTx
-D Core: ARM Cortex-M3 Package: LQFP100 Flash: 128KB Ram: 16KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152V8TxA
-D Core: ARM Cortex-M3 Package: LQFP100 Flash: 64KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152VBTxA
-D Core: ARM Cortex-M3 Package: LQFP100 Flash: 128KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 128KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
 $CMP STM32L152VCHx
-D Core: ARM Cortex-M3 Package: UFBGA100 Flash: 256KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, UFBGA-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00048356.pdf
 $ENDCMP
 #
 $CMP STM32L152VCTx
-D Core: ARM Cortex-M3 Package: LQFP100 Flash: 256KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00048356.pdf
 $ENDCMP
 #
 $CMP STM32L152VCTxA
-D Core: ARM Cortex-M3 Package: LQFP100 Flash: 256KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00048356.pdf
 $ENDCMP
 #
 $CMP STM32L152VDTx
-D Core: ARM Cortex-M3 Package: LQFP100 Flash: 384KB Ram: 48KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 384KB flash, 48KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00034689.pdf
 $ENDCMP
 #
 $CMP STM32L152VDTxX
-D Core: ARM Cortex-M3 Package: LQFP100 Flash: 384KB Ram: 80KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 384KB flash, 80KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00034689.pdf
 $ENDCMP
 #
 $CMP STM32L152VETx
-D Core: ARM Cortex-M3 Package: LQFP100 Flash: 512KB Ram: 80KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 512KB flash, 80KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00098321.pdf
 $ENDCMP
 #
 $CMP STM32L152VEYx
-D Core: ARM Cortex-M3 Package: WLCSP104-DIE437 Flash: 512KB Ram: 80KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 512KB flash, 80KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, WLCSP-104
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00098321.pdf
 $ENDCMP
 #
 $CMP STM32L152ZCTx
-D Core: ARM Cortex-M3 Package: LQFP144 Flash: 256KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 115
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 115 GPIO, LQFP-144
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00111457.pdf
 $ENDCMP
 #
 $CMP STM32L152ZDTx
-D Core: ARM Cortex-M3 Package: LQFP144 Flash: 384KB Ram: 48KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 115
+D ARM Cortex-M3 MCU, 384KB flash, 48KB RAM, 32MHz, 1.65-3.6V, 115 GPIO, LQFP-144
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00034689.pdf
 $ENDCMP
 #
 $CMP STM32L152ZETx
-D Core: ARM Cortex-M3 Package: LQFP144 Flash: 512KB Ram: 80KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 115
+D ARM Cortex-M3 MCU, 512KB flash, 80KB RAM, 32MHz, 1.65-3.6V, 115 GPIO, LQFP-144
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00098321.pdf
 $ENDCMP
 #
 $CMP STM32L162QDHx
-D Core: ARM Cortex-M3 Package: UFBGA132 Flash: 384KB Ram: 48KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 112
+D ARM Cortex-M3 MCU, 384KB flash, 48KB RAM, 32MHz, 1.65-3.6V, 112 GPIO, UFBGA-132
 K ARM Cortex-M3 STM32L1 STM32L162
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039232.pdf
 $ENDCMP
 #
 $CMP STM32L162RCTx
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 256KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L162
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00049732.pdf
 $ENDCMP
 #
 $CMP STM32L162RCTxA
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 256KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L162
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00049732.pdf
 $ENDCMP
 #
 $CMP STM32L162RDTx
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 384KB Ram: 48KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 384KB flash, 48KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L162
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039232.pdf
 $ENDCMP
 #
 $CMP STM32L162RDYx
-D Core: ARM Cortex-M3 Package: WLCSP64-DIE436 Flash: 384KB Ram: 48KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 384KB flash, 48KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, WLCSP-64
 K ARM Cortex-M3 STM32L1 STM32L162
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039232.pdf
 $ENDCMP
 #
 $CMP STM32L162RETx
-D Core: ARM Cortex-M3 Package: LQFP64 Flash: 512KB Ram: 80KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M3 MCU, 512KB flash, 80KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L162
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00106442.pdf
 $ENDCMP
 #
 $CMP STM32L162VCHx
-D Core: ARM Cortex-M3 Package: UFBGA100 Flash: 256KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, UFBGA-100
 K ARM Cortex-M3 STM32L1 STM32L162
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00049732.pdf
 $ENDCMP
 #
 $CMP STM32L162VCTx
-D Core: ARM Cortex-M3 Package: LQFP100 Flash: 256KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M3 STM32L1 STM32L162
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00049732.pdf
 $ENDCMP
 #
 $CMP STM32L162VCTxA
-D Core: ARM Cortex-M3 Package: LQFP100 Flash: 256KB Ram: 32KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M3 STM32L1 STM32L162
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00049732.pdf
 $ENDCMP
 #
 $CMP STM32L162VDTx
-D Core: ARM Cortex-M3 Package: LQFP100 Flash: 384KB Ram: 48KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 384KB flash, 48KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M3 STM32L1 STM32L162
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039232.pdf
 $ENDCMP
 #
 $CMP STM32L162VDYxX
-D Core: ARM Cortex-M3 Package: WLCSP104-DIE437 Flash: 384KB Ram: 80KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 384KB flash, 80KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, WLCSP-104
 K ARM Cortex-M3 STM32L1 STM32L162
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039232.pdf
 $ENDCMP
 #
 $CMP STM32L162VETx
-D Core: ARM Cortex-M3 Package: LQFP100 Flash: 512KB Ram: 80KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 512KB flash, 80KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M3 STM32L1 STM32L162
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00106442.pdf
 $ENDCMP
 #
 $CMP STM32L162VEYx
-D Core: ARM Cortex-M3 Package: WLCSP104-DIE437 Flash: 512KB Ram: 80KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 83
+D ARM Cortex-M3 MCU, 512KB flash, 80KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, WLCSP-104
 K ARM Cortex-M3 STM32L1 STM32L162
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00106442.pdf
 $ENDCMP
 #
 $CMP STM32L162ZDTx
-D Core: ARM Cortex-M3 Package: LQFP144 Flash: 384KB Ram: 48KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 115
+D ARM Cortex-M3 MCU, 384KB flash, 48KB RAM, 32MHz, 1.65-3.6V, 115 GPIO, LQFP-144
 K ARM Cortex-M3 STM32L1 STM32L162
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039232.pdf
 $ENDCMP
 #
 $CMP STM32L162ZETx
-D Core: ARM Cortex-M3 Package: LQFP144 Flash: 512KB Ram: 80KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 115
+D ARM Cortex-M3 MCU, 512KB flash, 80KB RAM, 32MHz, 1.65-3.6V, 115 GPIO, LQFP-144
 K ARM Cortex-M3 STM32L1 STM32L162
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00106442.pdf
 $ENDCMP
