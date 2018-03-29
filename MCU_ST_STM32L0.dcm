@@ -1,901 +1,901 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP STM32L011D3Px
-D Core: ARM Cortex-M0+ Package: TSSOP14 Flash: 8KB Ram: 2KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 11
+D ARM Cortex-M0+ MCU, 8KB flash, 2KB RAM, 32MHz, 1.65-3.6V, 11 GPIO, TSSOP-14
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00206508.pdf
 $ENDCMP
 #
 $CMP STM32L011D4Px
-D Core: ARM Cortex-M0+ Package: TSSOP14 Flash: 16KB Ram: 2KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 11
+D ARM Cortex-M0+ MCU, 16KB flash, 2KB RAM, 32MHz, 1.65-3.6V, 11 GPIO, TSSOP-14
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00206508.pdf
 $ENDCMP
 #
 $CMP STM32L011E3Yx
-D Core: ARM Cortex-M0+ Package: WLCSP25-DIE457 Flash: 8KB Ram: 2KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 21
+D ARM Cortex-M0+ MCU, 8KB flash, 2KB RAM, 32MHz, 1.65-3.6V, 21 GPIO, WLCSP-25
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00206508.pdf
 $ENDCMP
 #
 $CMP STM32L011E4Yx
-D Core: ARM Cortex-M0+ Package: WLCSP25-DIE457 Flash: 16KB Ram: 2KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 21
+D ARM Cortex-M0+ MCU, 16KB flash, 2KB RAM, 32MHz, 1.65-3.6V, 21 GPIO, WLCSP-25
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00206508.pdf
 $ENDCMP
 #
 $CMP STM32L011F3Px
-D Core: ARM Cortex-M0+ Package: TSSOP20 Flash: 8KB Ram: 2KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 16
+D ARM Cortex-M0+ MCU, 8KB flash, 2KB RAM, 32MHz, 1.65-3.6V, 16 GPIO, TSSOP-20
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00206508.pdf
 $ENDCMP
 #
 $CMP STM32L011F4Px
-D Core: ARM Cortex-M0+ Package: TSSOP20 Flash: 16KB Ram: 2KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 16
+D ARM Cortex-M0+ MCU, 16KB flash, 2KB RAM, 32MHz, 1.65-3.6V, 16 GPIO, TSSOP-20
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00206508.pdf
 $ENDCMP
 #
 $CMP STM32L011F3Ux
-D Core: ARM Cortex-M0+ Package: UFQFPN20 Flash: 8KB Ram: 2KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 16
+D ARM Cortex-M0+ MCU, 8KB flash, 2KB RAM, 32MHz, 1.65-3.6V, 16 GPIO, UFQFPN-20
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00206508.pdf
 $ENDCMP
 #
 $CMP STM32L011F4Ux
-D Core: ARM Cortex-M0+ Package: UFQFPN20 Flash: 16KB Ram: 2KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 16
+D ARM Cortex-M0+ MCU, 16KB flash, 2KB RAM, 32MHz, 1.65-3.6V, 16 GPIO, UFQFPN-20
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00206508.pdf
 $ENDCMP
 #
 $CMP STM32L011G3Ux
-D Core: ARM Cortex-M0+ Package: UFQFPN28 Flash: 8KB Ram: 2KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 24
+D ARM Cortex-M0+ MCU, 8KB flash, 2KB RAM, 32MHz, 1.65-3.6V, 24 GPIO, UFQFPN-28
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00206508.pdf
 $ENDCMP
 #
 $CMP STM32L011G4Ux
-D Core: ARM Cortex-M0+ Package: UFQFPN28 Flash: 16KB Ram: 2KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 24
+D ARM Cortex-M0+ MCU, 16KB flash, 2KB RAM, 32MHz, 1.65-3.6V, 24 GPIO, UFQFPN-28
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00206508.pdf
 $ENDCMP
 #
 $CMP STM32L011K3Tx
-D Core: ARM Cortex-M0+ Package: LQFP32 Flash: 8KB Ram: 2KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 26
+D ARM Cortex-M0+ MCU, 8KB flash, 2KB RAM, 32MHz, 1.65-3.6V, 26 GPIO, LQFP-32
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00206508.pdf
 $ENDCMP
 #
 $CMP STM32L011K4Tx
-D Core: ARM Cortex-M0+ Package: LQFP32 Flash: 16KB Ram: 2KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 26
+D ARM Cortex-M0+ MCU, 16KB flash, 2KB RAM, 32MHz, 1.65-3.6V, 26 GPIO, LQFP-32
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00206508.pdf
 $ENDCMP
 #
 $CMP STM32L011K3Ux
-D Core: ARM Cortex-M0+ Package: UFQFPN32 Flash: 8KB Ram: 2KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 28
+D ARM Cortex-M0+ MCU, 8KB flash, 2KB RAM, 32MHz, 1.65-3.6V, 28 GPIO, UFQFPN-32
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00206508.pdf
 $ENDCMP
 #
 $CMP STM32L011K4Ux
-D Core: ARM Cortex-M0+ Package: UFQFPN32 Flash: 16KB Ram: 2KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 28
+D ARM Cortex-M0+ MCU, 16KB flash, 2KB RAM, 32MHz, 1.65-3.6V, 28 GPIO, UFQFPN-32
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00206508.pdf
 $ENDCMP
 #
 $CMP STM32L021D4Px
-D Core: ARM Cortex-M0+ Package: TSSOP14 Flash: 16KB Ram: 2KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 11
+D ARM Cortex-M0+ MCU, 16KB flash, 2KB RAM, 32MHz, 1.65-3.6V, 11 GPIO, TSSOP-14
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00206858.pdf
 $ENDCMP
 #
 $CMP STM32L021F4Px
-D Core: ARM Cortex-M0+ Package: TSSOP20 Flash: 16KB Ram: 2KB IO-pins: 16
+D ARM Cortex-M0+ MCU, 16KB flash, 2KB RAM, 16 GPIO, TSSOP-20
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00206858.pdf
 $ENDCMP
 #
 $CMP STM32L021F4Ux
-D Core: ARM Cortex-M0+ Package: UFQFPN20 Flash: 16KB Ram: 2KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 16
+D ARM Cortex-M0+ MCU, 16KB flash, 2KB RAM, 32MHz, 1.65-3.6V, 16 GPIO, UFQFPN-20
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00206858.pdf
 $ENDCMP
 #
 $CMP STM32L021G4Ux
-D Core: ARM Cortex-M0+ Package: UFQFPN28 Flash: 16KB Ram: 2KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 24
+D ARM Cortex-M0+ MCU, 16KB flash, 2KB RAM, 32MHz, 1.65-3.6V, 24 GPIO, UFQFPN-28
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00206858.pdf
 $ENDCMP
 #
 $CMP STM32L021K4Tx
-D Core: ARM Cortex-M0+ Package: LQFP32 Flash: 16KB Ram: 2KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 26
+D ARM Cortex-M0+ MCU, 16KB flash, 2KB RAM, 32MHz, 1.65-3.6V, 26 GPIO, LQFP-32
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00206858.pdf
 $ENDCMP
 #
 $CMP STM32L021K4Ux
-D Core: ARM Cortex-M0+ Package: UFQFPN32 Flash: 16KB Ram: 2KB IO-pins: 28
+D ARM Cortex-M0+ MCU, 16KB flash, 2KB RAM, 28 GPIO, UFQFPN-32
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00206858.pdf
 $ENDCMP
 #
 $CMP STM32L031C4Tx
-D Core: ARM Cortex-M0+ Package: LQFP48 Flash: 16KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 38
+D ARM Cortex-M0+ MCU, 16KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 38 GPIO, LQFP-48
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140359.pdf
 $ENDCMP
 #
 $CMP STM32L031C6Tx
-D Core: ARM Cortex-M0+ Package: LQFP48 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 38
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 38 GPIO, LQFP-48
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140359.pdf
 $ENDCMP
 #
 $CMP STM32L031C6Ux
-D Core: ARM Cortex-M0+ Package: UFQFPN48 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 38
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 38 GPIO, UFQFPN-48
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140359.pdf
 $ENDCMP
 #
 $CMP STM32L031E4Yx
-D Core: ARM Cortex-M0+ Package: WLCSP25-DIE425 Flash: 16KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 20
+D ARM Cortex-M0+ MCU, 16KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 20 GPIO, WLCSP-25
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140359.pdf
 $ENDCMP
 #
 $CMP STM32L031E6Yx
-D Core: ARM Cortex-M0+ Package: WLCSP25-DIE425 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 20
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 20 GPIO, WLCSP-25
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140359.pdf
 $ENDCMP
 #
 $CMP STM32L031F4Px
-D Core: ARM Cortex-M0+ Package: TSSOP20 Flash: 16KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 15
+D ARM Cortex-M0+ MCU, 16KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 15 GPIO, TSSOP-20
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140359.pdf
 $ENDCMP
 #
 $CMP STM32L031F6Px
-D Core: ARM Cortex-M0+ Package: TSSOP20 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 15
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 15 GPIO, TSSOP-20
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140359.pdf
 $ENDCMP
 #
 $CMP STM32L031G4Ux
-D Core: ARM Cortex-M0+ Package: UFQFPN28 Flash: 16KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 21
+D ARM Cortex-M0+ MCU, 16KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 21 GPIO, UFQFPN-28
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140359.pdf
 $ENDCMP
 #
 $CMP STM32L031G6Ux
-D Core: ARM Cortex-M0+ Package: UFQFPN28 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 21
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 21 GPIO, UFQFPN-28
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140359.pdf
 $ENDCMP
 #
 $CMP STM32L031G6UxS
-D Core: ARM Cortex-M0+ Package: UFQFPN28 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 23
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 23 GPIO, UFQFPN-28
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140359.pdf
 $ENDCMP
 #
 $CMP STM32L031K4Tx
-D Core: ARM Cortex-M0+ Package: LQFP32 Flash: 16KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 25
+D ARM Cortex-M0+ MCU, 16KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 25 GPIO, LQFP-32
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140359.pdf
 $ENDCMP
 #
 $CMP STM32L031K6Tx
-D Core: ARM Cortex-M0+ Package: LQFP32 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 25
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 25 GPIO, LQFP-32
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140359.pdf
 $ENDCMP
 #
 $CMP STM32L031K4Ux
-D Core: ARM Cortex-M0+ Package: UFQFPN32 Flash: 16KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 27
+D ARM Cortex-M0+ MCU, 16KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 27 GPIO, UFQFPN-32
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140359.pdf
 $ENDCMP
 #
 $CMP STM32L031K6Ux
-D Core: ARM Cortex-M0+ Package: UFQFPN32 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 27
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 27 GPIO, UFQFPN-32
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140359.pdf
 $ENDCMP
 #
 $CMP STM32L041E6Yx
-D Core: ARM Cortex-M0+ Package: WLCSP25-DIE425 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 20
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 20 GPIO, WLCSP-25
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00152023.pdf
 $ENDCMP
 #
 $CMP STM32L041F6Px
-D Core: ARM Cortex-M0+ Package: TSSOP20 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 15
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 15 GPIO, TSSOP-20
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00152023.pdf
 $ENDCMP
 #
 $CMP STM32L041G6Ux
-D Core: ARM Cortex-M0+ Package: UFQFPN28 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 21
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 21 GPIO, UFQFPN-28
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00152023.pdf
 $ENDCMP
 #
 $CMP STM32L041G6UxS
-D Core: ARM Cortex-M0+ Package: UFQFPN28 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 23
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 23 GPIO, UFQFPN-28
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00152023.pdf
 $ENDCMP
 #
 $CMP STM32L041K6Tx
-D Core: ARM Cortex-M0+ Package: LQFP32 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 25
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 25 GPIO, LQFP-32
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00152023.pdf
 $ENDCMP
 #
 $CMP STM32L041K6Ux
-D Core: ARM Cortex-M0+ Package: UFQFPN32 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 27
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 27 GPIO, UFQFPN-32
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00152023.pdf
 $ENDCMP
 #
 $CMP STM32L051C6Tx
-D Core: ARM Cortex-M0+ Package: LQFP48 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108219.pdf
 $ENDCMP
 #
 $CMP STM32L051C8Tx
-D Core: ARM Cortex-M0+ Package: LQFP48 Flash: 64KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M0+ MCU, 64KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108219.pdf
 $ENDCMP
 #
 $CMP STM32L051K6Tx
-D Core: ARM Cortex-M0+ Package: LQFP32 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 25
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 25 GPIO, LQFP-32
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108219.pdf
 $ENDCMP
 #
 $CMP STM32L051K8Tx
-D Core: ARM Cortex-M0+ Package: LQFP32 Flash: 64KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 25
+D ARM Cortex-M0+ MCU, 64KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 25 GPIO, LQFP-32
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108219.pdf
 $ENDCMP
 #
 $CMP STM32L051K6Ux
-D Core: ARM Cortex-M0+ Package: UFQFPN32 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 27
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 27 GPIO, UFQFPN-32
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108219.pdf
 $ENDCMP
 #
 $CMP STM32L051K8Ux
-D Core: ARM Cortex-M0+ Package: UFQFPN32 Flash: 64KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 27
+D ARM Cortex-M0+ MCU, 64KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 27 GPIO, UFQFPN-32
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108219.pdf
 $ENDCMP
 #
 $CMP STM32L051R6Hx
-D Core: ARM Cortex-M0+ Package: TFBGA64 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108219.pdf
 $ENDCMP
 #
 $CMP STM32L051R8Hx
-D Core: ARM Cortex-M0+ Package: TFBGA64 Flash: 64KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M0+ MCU, 64KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108219.pdf
 $ENDCMP
 #
 $CMP STM32L051R6Tx
-D Core: ARM Cortex-M0+ Package: LQFP64 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108219.pdf
 $ENDCMP
 #
 $CMP STM32L051R8Tx
-D Core: ARM Cortex-M0+ Package: LQFP64 Flash: 64KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M0+ MCU, 64KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108219.pdf
 $ENDCMP
 #
 $CMP STM32L051T6Yx
-D Core: ARM Cortex-M0+ Package: WLCSP36-DIE417 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 29
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 29 GPIO, WLCSP-36
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108219.pdf
 $ENDCMP
 #
 $CMP STM32L051T8Yx
-D Core: ARM Cortex-M0+ Package: WLCSP36-DIE417 Flash: 64KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 29
+D ARM Cortex-M0+ MCU, 64KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 29 GPIO, WLCSP-36
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108219.pdf
 $ENDCMP
 #
 $CMP STM32L052C6Tx
-D Core: ARM Cortex-M0+ Package: LQFP48 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108217.pdf
 $ENDCMP
 #
 $CMP STM32L052C8Tx
-D Core: ARM Cortex-M0+ Package: LQFP48 Flash: 64KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M0+ MCU, 64KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108217.pdf
 $ENDCMP
 #
 $CMP STM32L052K6Tx
-D Core: ARM Cortex-M0+ Package: LQFP32 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 25
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 25 GPIO, LQFP-32
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108217.pdf
 $ENDCMP
 #
 $CMP STM32L052K8Tx
-D Core: ARM Cortex-M0+ Package: LQFP32 Flash: 64KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 25
+D ARM Cortex-M0+ MCU, 64KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 25 GPIO, LQFP-32
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108217.pdf
 $ENDCMP
 #
 $CMP STM32L052K6Ux
-D Core: ARM Cortex-M0+ Package: UFQFPN32 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 27
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 27 GPIO, UFQFPN-32
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108217.pdf
 $ENDCMP
 #
 $CMP STM32L052K8Ux
-D Core: ARM Cortex-M0+ Package: UFQFPN32 Flash: 64KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 27
+D ARM Cortex-M0+ MCU, 64KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 27 GPIO, UFQFPN-32
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108217.pdf
 $ENDCMP
 #
 $CMP STM32L052R6Hx
-D Core: ARM Cortex-M0+ Package: TFBGA64 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108217.pdf
 $ENDCMP
 #
 $CMP STM32L052R8Hx
-D Core: ARM Cortex-M0+ Package: TFBGA64 Flash: 64KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M0+ MCU, 64KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108217.pdf
 $ENDCMP
 #
 $CMP STM32L052R6Tx
-D Core: ARM Cortex-M0+ Package: LQFP64 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108217.pdf
 $ENDCMP
 #
 $CMP STM32L052R8Tx
-D Core: ARM Cortex-M0+ Package: LQFP64 Flash: 64KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M0+ MCU, 64KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108217.pdf
 $ENDCMP
 #
 $CMP STM32L052T6Yx
-D Core: ARM Cortex-M0+ Package: WLCSP36-DIE417 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 29
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 29 GPIO, WLCSP-36
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108217.pdf
 $ENDCMP
 #
 $CMP STM32L052T8Yx
-D Core: ARM Cortex-M0+ Package: WLCSP36-DIE417 Flash: 64KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 29
+D ARM Cortex-M0+ MCU, 64KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 29 GPIO, WLCSP-36
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108217.pdf
 $ENDCMP
 #
 $CMP STM32L052T8Fx
-D Core: ARM Cortex-M0+ Package: WLCSP36-DIE417 Flash: 64KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 29
+D ARM Cortex-M0+ MCU, 64KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 29 GPIO, WLCSP-36
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108217.pdf
 $ENDCMP
 #
 $CMP STM32L053C6Tx
-D Core: ARM Cortex-M0+ Package: LQFP48 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105960.pdf
 $ENDCMP
 #
 $CMP STM32L053C8Tx
-D Core: ARM Cortex-M0+ Package: LQFP48 Flash: 64KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M0+ MCU, 64KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105960.pdf
 $ENDCMP
 #
 $CMP STM32L053R6Hx
-D Core: ARM Cortex-M0+ Package: TFBGA64 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105960.pdf
 $ENDCMP
 #
 $CMP STM32L053R8Hx
-D Core: ARM Cortex-M0+ Package: TFBGA64 Flash: 64KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M0+ MCU, 64KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105960.pdf
 $ENDCMP
 #
 $CMP STM32L053R6Tx
-D Core: ARM Cortex-M0+ Package: LQFP64 Flash: 32KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M0+ MCU, 32KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105960.pdf
 $ENDCMP
 #
 $CMP STM32L053R8Tx
-D Core: ARM Cortex-M0+ Package: LQFP64 Flash: 64KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M0+ MCU, 64KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105960.pdf
 $ENDCMP
 #
 $CMP STM32L062K8Tx
-D Core: ARM Cortex-M0+ Package: LQFP32 Flash: 64KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 25
+D ARM Cortex-M0+ MCU, 64KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 25 GPIO, LQFP-32
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108218.pdf
 $ENDCMP
 #
 $CMP STM32L062K8Ux
-D Core: ARM Cortex-M0+ Package: UFQFPN32 Flash: 64KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 27
+D ARM Cortex-M0+ MCU, 64KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 27 GPIO, UFQFPN-32
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108218.pdf
 $ENDCMP
 #
 $CMP STM32L063C8Tx
-D Core: ARM Cortex-M0+ Package: LQFP48 Flash: 64KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M0+ MCU, 64KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00102435.pdf
 $ENDCMP
 #
 $CMP STM32L063R8Tx
-D Core: ARM Cortex-M0+ Package: LQFP64 Flash: 64KB Ram: 8KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M0+ MCU, 64KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00102435.pdf
 $ENDCMP
 #
 $CMP STM32L071C8Tx
-D Core: ARM Cortex-M0+ Package: LQFP48 Flash: 64KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M0+ MCU, 64KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141136.pdf
 $ENDCMP
 #
 $CMP STM32L071CBTx
-D Core: ARM Cortex-M0+ Package: LQFP48 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141136.pdf
 $ENDCMP
 #
 $CMP STM32L071CZTx
-D Core: ARM Cortex-M0+ Package: LQFP48 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141136.pdf
 $ENDCMP
 #
 $CMP STM32L071CBYx
-D Core: ARM Cortex-M0+ Package: WLCSP49-DIE447 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 40
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 40 GPIO, WLCSP-49
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141136.pdf
 $ENDCMP
 #
 $CMP STM32L071CZYx
-D Core: ARM Cortex-M0+ Package: WLCSP49-DIE447 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 40
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 40 GPIO, WLCSP-49
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141136.pdf
 $ENDCMP
 #
 $CMP STM32L071K8Ux
-D Core: ARM Cortex-M0+ Package: UFQFPN32 Flash: 64KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 23
+D ARM Cortex-M0+ MCU, 64KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 23 GPIO, UFQFPN-32
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141136.pdf
 $ENDCMP
 #
 $CMP STM32L071KBTx
-D Core: ARM Cortex-M0+ Package: LQFP32 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 25
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 25 GPIO, LQFP-32
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141136.pdf
 $ENDCMP
 #
 $CMP STM32L071KZTx
-D Core: ARM Cortex-M0+ Package: LQFP32 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 25
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 25 GPIO, LQFP-32
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141136.pdf
 $ENDCMP
 #
 $CMP STM32L071KBUx
-D Core: ARM Cortex-M0+ Package: UFQFPN32 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 23
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 23 GPIO, UFQFPN-32
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141136.pdf
 $ENDCMP
 #
 $CMP STM32L071KZUx
-D Core: ARM Cortex-M0+ Package: UFQFPN32 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 23
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 23 GPIO, UFQFPN-32
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141136.pdf
 $ENDCMP
 #
 $CMP STM32L071RBHx
-D Core: ARM Cortex-M0+ Package: TFBGA64 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141136.pdf
 $ENDCMP
 #
 $CMP STM32L071RZHx
-D Core: ARM Cortex-M0+ Package: TFBGA64 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141136.pdf
 $ENDCMP
 #
 $CMP STM32L071RBTx
-D Core: ARM Cortex-M0+ Package: LQFP64 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141136.pdf
 $ENDCMP
 #
 $CMP STM32L071RZTx
-D Core: ARM Cortex-M0+ Package: LQFP64 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141136.pdf
 $ENDCMP
 #
 $CMP STM32L071V8Ix
-D Core: ARM Cortex-M0+ Package: UFBGA100 Flash: 64KB Ram: 20KB IO-pins: 84
+D ARM Cortex-M0+ MCU, 64KB flash, 20KB RAM, 84 GPIO, UFBGA-100
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141136.pdf
 $ENDCMP
 #
 $CMP STM32L071V8Tx
-D Core: ARM Cortex-M0+ Package: LQFP100 Flash: 64KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 84
+D ARM Cortex-M0+ MCU, 64KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 84 GPIO, LQFP-100
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141136.pdf
 $ENDCMP
 #
 $CMP STM32L071VBIx
-D Core: ARM Cortex-M0+ Package: UFBGA100 Flash: 128KB Ram: 20KB IO-pins: 84
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 84 GPIO, UFBGA-100
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141136.pdf
 $ENDCMP
 #
 $CMP STM32L071VZIx
-D Core: ARM Cortex-M0+ Package: UFBGA100 Flash: 192KB Ram: 20KB IO-pins: 84
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 84 GPIO, UFBGA-100
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141136.pdf
 $ENDCMP
 #
 $CMP STM32L071VBTx
-D Core: ARM Cortex-M0+ Package: LQFP100 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 84
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 84 GPIO, LQFP-100
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141136.pdf
 $ENDCMP
 #
 $CMP STM32L071VZTx
-D Core: ARM Cortex-M0+ Package: LQFP100 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 84
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 84 GPIO, LQFP-100
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141136.pdf
 $ENDCMP
 #
 $CMP STM32L072CBTx
-D Core: ARM Cortex-M0+ Package: LQFP48 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141133.pdf
 $ENDCMP
 #
 $CMP STM32L072CZTx
-D Core: ARM Cortex-M0+ Package: LQFP48 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141133.pdf
 $ENDCMP
 #
 $CMP STM32L072CBYx
-D Core: ARM Cortex-M0+ Package: WLCSP49-DIE447 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 40
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 40 GPIO, WLCSP-49
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141133.pdf
 $ENDCMP
 #
 $CMP STM32L072CZYx
-D Core: ARM Cortex-M0+ Package: WLCSP49-DIE447 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 40
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 40 GPIO, WLCSP-49
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141133.pdf
 $ENDCMP
 #
 $CMP STM32L072CZEx
-D Core: ARM Cortex-M0+ Package: EWLCSP49-DIE447 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 40
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 40 GPIO, EWLCSP-49
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141133.pdf
 $ENDCMP
 #
 $CMP STM32L072KBTx
-D Core: ARM Cortex-M0+ Package: LQFP32 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 25
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 25 GPIO, LQFP-32
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141133.pdf
 $ENDCMP
 #
 $CMP STM32L072KZTx
-D Core: ARM Cortex-M0+ Package: LQFP32 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 25
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 25 GPIO, LQFP-32
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141133.pdf
 $ENDCMP
 #
 $CMP STM32L072KBUx
-D Core: ARM Cortex-M0+ Package: UFQFPN32 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 23
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 23 GPIO, UFQFPN-32
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141133.pdf
 $ENDCMP
 #
 $CMP STM32L072KZUx
-D Core: ARM Cortex-M0+ Package: UFQFPN32 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 23
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 23 GPIO, UFQFPN-32
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141133.pdf
 $ENDCMP
 #
 $CMP STM32L072RBHx
-D Core: ARM Cortex-M0+ Package: TFBGA64 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141133.pdf
 $ENDCMP
 #
 $CMP STM32L072RZHx
-D Core: ARM Cortex-M0+ Package: TFBGA64 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141133.pdf
 $ENDCMP
 #
 $CMP STM32L072RBIx
-D Core: ARM Cortex-M0+ Package: UFBGA64 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, UFBGA-64
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141133.pdf
 $ENDCMP
 #
 $CMP STM32L072RZIx
-D Core: ARM Cortex-M0+ Package: UFBGA64 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, UFBGA-64
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141133.pdf
 $ENDCMP
 #
 $CMP STM32L072RBTx
-D Core: ARM Cortex-M0+ Package: LQFP64 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141133.pdf
 $ENDCMP
 #
 $CMP STM32L072RZTx
-D Core: ARM Cortex-M0+ Package: LQFP64 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141133.pdf
 $ENDCMP
 #
 $CMP STM32L072V8Ix
-D Core: ARM Cortex-M0+ Package: UFBGA100 Flash: 64KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 84
+D ARM Cortex-M0+ MCU, 64KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 84 GPIO, UFBGA-100
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141133.pdf
 $ENDCMP
 #
 $CMP STM32L072V8Tx
-D Core: ARM Cortex-M0+ Package: LQFP100 Flash: 64KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 84
+D ARM Cortex-M0+ MCU, 64KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 84 GPIO, LQFP-100
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141133.pdf
 $ENDCMP
 #
 $CMP STM32L072VBIx
-D Core: ARM Cortex-M0+ Package: UFBGA100 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 84
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 84 GPIO, UFBGA-100
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141133.pdf
 $ENDCMP
 #
 $CMP STM32L072VZIx
-D Core: ARM Cortex-M0+ Package: UFBGA100 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 84
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 84 GPIO, UFBGA-100
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141133.pdf
 $ENDCMP
 #
 $CMP STM32L072VBTx
-D Core: ARM Cortex-M0+ Package: LQFP100 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 84
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 84 GPIO, LQFP-100
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141133.pdf
 $ENDCMP
 #
 $CMP STM32L072VZTx
-D Core: ARM Cortex-M0+ Package: LQFP100 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 84
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 84 GPIO, LQFP-100
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141133.pdf
 $ENDCMP
 #
 $CMP STM32L073CBTx
-D Core: ARM Cortex-M0+ Package: LQFP48 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141036.pdf
 $ENDCMP
 #
 $CMP STM32L073CZTx
-D Core: ARM Cortex-M0+ Package: LQFP48 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141036.pdf
 $ENDCMP
 #
 $CMP STM32L073RBHx
-D Core: ARM Cortex-M0+ Package: TFBGA64 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141036.pdf
 $ENDCMP
 #
 $CMP STM32L073RZHx
-D Core: ARM Cortex-M0+ Package: TFBGA64 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141036.pdf
 $ENDCMP
 #
 $CMP STM32L073RBTx
-D Core: ARM Cortex-M0+ Package: LQFP64 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141036.pdf
 $ENDCMP
 #
 $CMP STM32L073RZTx
-D Core: ARM Cortex-M0+ Package: LQFP64 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141036.pdf
 $ENDCMP
 #
 $CMP STM32L073RZIx
-D Core: ARM Cortex-M0+ Package: UFBGA64 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, UFBGA-64
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141036.pdf
 $ENDCMP
 #
 $CMP STM32L073V8Ix
-D Core: ARM Cortex-M0+ Package: UFBGA100 Flash: 64KB Ram: 20KB IO-pins: 84
+D ARM Cortex-M0+ MCU, 64KB flash, 20KB RAM, 84 GPIO, UFBGA-100
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141036.pdf
 $ENDCMP
 #
 $CMP STM32L073V8Tx
-D Core: ARM Cortex-M0+ Package: LQFP100 Flash: 64KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 84
+D ARM Cortex-M0+ MCU, 64KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 84 GPIO, LQFP-100
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141036.pdf
 $ENDCMP
 #
 $CMP STM32L073VBIx
-D Core: ARM Cortex-M0+ Package: UFBGA100 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 84
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 84 GPIO, UFBGA-100
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141036.pdf
 $ENDCMP
 #
 $CMP STM32L073VZIx
-D Core: ARM Cortex-M0+ Package: UFBGA100 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 84
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 84 GPIO, UFBGA-100
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141036.pdf
 $ENDCMP
 #
 $CMP STM32L073VBTx
-D Core: ARM Cortex-M0+ Package: LQFP100 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 84
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 84 GPIO, LQFP-100
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141036.pdf
 $ENDCMP
 #
 $CMP STM32L073VZTx
-D Core: ARM Cortex-M0+ Package: LQFP100 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 84
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 84 GPIO, LQFP-100
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141036.pdf
 $ENDCMP
 #
 $CMP STM32L081CBTx
-D Core: ARM Cortex-M0+ Package: LQFP48 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00162467.pdf
 $ENDCMP
 #
 $CMP STM32L081CZTx
-D Core: ARM Cortex-M0+ Package: LQFP48 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00162467.pdf
 $ENDCMP
 #
 $CMP STM32L081KZTx
-D Core: ARM Cortex-M0+ Package: LQFP32 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 25
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 25 GPIO, LQFP-32
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00162467.pdf
 $ENDCMP
 #
 $CMP STM32L081KZUx
-D Core: ARM Cortex-M0+ Package: UFQFPN32 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 23
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 23 GPIO, UFQFPN-32
 K ARM Cortex-M0+ STM32L0 STM32L0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00162467.pdf
 $ENDCMP
 #
 $CMP STM32L082CZYx
-D Core: ARM Cortex-M0+ Package: WLCSP49-DIE447 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 40
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 40 GPIO, WLCSP-49
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141132.pdf
 $ENDCMP
 #
 $CMP STM32L082KBTx
-D Core: ARM Cortex-M0+ Package: LQFP32 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 25
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 25 GPIO, LQFP-32
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141132.pdf
 $ENDCMP
 #
 $CMP STM32L082KZTx
-D Core: ARM Cortex-M0+ Package: LQFP32 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 25
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 25 GPIO, LQFP-32
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141132.pdf
 $ENDCMP
 #
 $CMP STM32L082KBUx
-D Core: ARM Cortex-M0+ Package: UFQFPN32 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 23
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 23 GPIO, UFQFPN-32
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141132.pdf
 $ENDCMP
 #
 $CMP STM32L082KZUx
-D Core: ARM Cortex-M0+ Package: UFQFPN32 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 23
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 23 GPIO, UFQFPN-32
 K ARM Cortex-M0+ STM32L0 STM32L0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141132.pdf
 $ENDCMP
 #
 $CMP STM32L083CBTx
-D Core: ARM Cortex-M0+ Package: LQFP48 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140762.pdf
 $ENDCMP
 #
 $CMP STM32L083CZTx
-D Core: ARM Cortex-M0+ Package: LQFP48 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 37
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140762.pdf
 $ENDCMP
 #
 $CMP STM32L083RBHx
-D Core: ARM Cortex-M0+ Package: TFBGA64 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140762.pdf
 $ENDCMP
 #
 $CMP STM32L083RZHx
-D Core: ARM Cortex-M0+ Package: TFBGA64 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 50
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140762.pdf
 $ENDCMP
 #
 $CMP STM32L083RBTx
-D Core: ARM Cortex-M0+ Package: LQFP64 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140762.pdf
 $ENDCMP
 #
 $CMP STM32L083RZTx
-D Core: ARM Cortex-M0+ Package: LQFP64 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 51
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140762.pdf
 $ENDCMP
 #
 $CMP STM32L083V8Ix
-D Core: ARM Cortex-M0+ Package: UFBGA100 Flash: 64KB Ram: 20KB IO-pins: 84
+D ARM Cortex-M0+ MCU, 64KB flash, 20KB RAM, 84 GPIO, UFBGA-100
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140762.pdf
 $ENDCMP
 #
 $CMP STM32L083V8Tx
-D Core: ARM Cortex-M0+ Package: LQFP100 Flash: 64KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 84
+D ARM Cortex-M0+ MCU, 64KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 84 GPIO, LQFP-100
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140762.pdf
 $ENDCMP
 #
 $CMP STM32L083VBIx
-D Core: ARM Cortex-M0+ Package: UFBGA100 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 84
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 84 GPIO, UFBGA-100
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140762.pdf
 $ENDCMP
 #
 $CMP STM32L083VZIx
-D Core: ARM Cortex-M0+ Package: UFBGA100 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 84
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 84 GPIO, UFBGA-100
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140762.pdf
 $ENDCMP
 #
 $CMP STM32L083VBTx
-D Core: ARM Cortex-M0+ Package: LQFP100 Flash: 128KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 84
+D ARM Cortex-M0+ MCU, 128KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 84 GPIO, LQFP-100
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140762.pdf
 $ENDCMP
 #
 $CMP STM32L083VZTx
-D Core: ARM Cortex-M0+ Package: LQFP100 Flash: 192KB Ram: 20KB Frequency: 32MHz Voltage: 1.65..3.6V IO-pins: 84
+D ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 84 GPIO, LQFP-100
 K ARM Cortex-M0+ STM32L0 STM32L0x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140762.pdf
 $ENDCMP
