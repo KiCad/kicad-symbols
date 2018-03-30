@@ -204,6 +204,24 @@ K EG&G RETICON BBD N-channel silicon-gate
 F http://thmq.mysteria.cz/em1022/SAD1024.pdf
 $ENDCMP
 #
+$CMP SSI2144
+D Four-pole VCF, SSOP-16
+K Sound Semiconductor VCF SSM2044
+F http://www.soundsemiconductor.com/downloads/ssi2144datasheet.pdf
+$ENDCMP
+#
+$CMP SSI2164
+D Quad VCA, SOP-16
+K Sound Semiconductor VCA SSM2164
+F http://www.soundsemiconductor.com/downloads/ssi2164datasheet.pdf
+$ENDCMP
+#
+$CMP V2164
+D Quad VCA, DIP-16/SOP-16
+K CoolAudio VCA SSM2164
+F http://coolaudio.com/docs/COOLAUDIO_V2164MD_DATASHEET.pdf
+$ENDCMP
+#
 $CMP TDA1022
 D BUCKET BRIGADE DELAY LINE FOR ANALOGUE SIGNALS, 512 stages, delay time 0.512ms to 51.2ms, signal frequency range 0 to 45KHz, clock frequency range 5KHz to 500KHz
 K PHILIPS BBD MOS monolithic delay analogue
