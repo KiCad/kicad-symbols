@@ -1878,6 +1878,12 @@ K P-Channel MOSFET
 F http://www.onsemi.com/pub/Collateral/NTR2101P-D.PDF
 $ENDCMP
 #
+$CMP PSMN5R2-60YL
+D 100A, 60V Vds, N-Channel Power MOSFET, 5.2mOhm Rds, LFPAK56
+K N-Channel MOSFET
+F https://assets.nexperia.com/documents/data-sheet/PSMN5R2-60YL.pdf
+$ENDCMP
+#
 $CMP QM6006D
 D 60V Id, 35A Vds, N-Channel Power MOSFET, 18mOhm Ron, 19.3nC Qg (typ), TO252
 K N-Channel MOSFET
