@@ -1225,13 +1225,13 @@ F http://www.fairchildsemi.com/ds/FD/FDS6898A.pdf
 $ENDCMP
 #
 $CMP FDS6930A
-D 5.5A Id, 30V Vds, Dual N-Channel Logic Level MOSFET, 40mOhm Ron
+D 5.5A Id, 30V Vds, Dual N-Channel Logic Level MOSFET, 40mOhm Ron, SO-8
 K Dual N-Channel MOSFET
 F http://www.onsemi.com/pub/Collateral/FDS6930A-D.PDF
 $ENDCMP
 #
 $CMP FDS6930B
-D 5.5A Id, 30V Vds, Dual N-Channel Logic Level MOSFET, 38mOhm Ron
+D 5.5A Id, 30V Vds, Dual N-Channel Logic Level MOSFET, 38mOhm Ron, SO-8
 K Dual N-Channel MOSFET
 F http://www.onsemi.com/pub/Collateral/FDS6930B-D.pdf
 $ENDCMP
