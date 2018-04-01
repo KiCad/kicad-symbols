@@ -808,16 +808,34 @@ K circular DIN connector
 F http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf
 $ENDCMP
 #
+$CMP HDMI_1.3_C
+D HDMI 1.3+ type C connector
+K hdmi conn
+F http://pinoutguide.com/PortableDevices/mini_hdmi_pinout.shtml
+$ENDCMP
+#
 $CMP HDMI_1.4_A
 D HDMI 1.4+ type A connector
 K hdmi conn
-F http://pinouts.ru/Video/hdmi_pinout.shtml
+F https://en.wikipedia.org/wiki/HDMI
+$ENDCMP
+#
+$CMP HDMI_1.4_C
+D HDMI 1.4+ type C connector
+K hdmi conn
+F http://pinoutguide.com/PortableDevices/mini_hdmi_pinout.shtml
+$ENDCMP
+#
+$CMP HDMI_1.4_D
+D HDMI 1.4+ type D connector
+K hdmi conn
+F http://pinoutguide.com/PortableDevices/micro_hdmi_type_d_pinout.shtml
 $ENDCMP
 #
 $CMP HDMI_A
 D HDMI 1.0 - 1.3 type A connector
 K hdmi conn
-F http://pinouts.ru/Video/hdmi_pinout.shtml
+F https://en.wikipedia.org/wiki/HDMI
 $ENDCMP
 #
 $CMP HDMI_B
@@ -826,16 +844,10 @@ K hdmi conn
 F http://pinouts.ru/Video/hdmi_pinout.shtml
 $ENDCMP
 #
-$CMP HDMI_C
-D HDMI type C connector
+$CMP HDMI_E
+D HDMI type E connector
 K hdmi conn
-F http://pinouts.ru/Video/hdmi_pinout.shtml
-$ENDCMP
-#
-$CMP HDMI_D
-D HDMI type D connector
-K hdmi conn
-F http://pinouts.ru/Video/hdmi_pinout.shtml
+F https://www.hdmi.org/manufacturer/specification.aspx
 $ENDCMP
 #
 $CMP IEEE1394a
