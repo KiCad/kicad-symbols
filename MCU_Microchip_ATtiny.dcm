@@ -138,6 +138,12 @@ K AVR 8bit Microcontroller tinyAVR Automotive
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8265-8-bit-AVR-Microcontroller-tinyAVR-ATtiny87-ATtiny167_datasheet.pdf
 $ENDCMP
 #
+$CMP ATtiny20-CCU
+D BGA-15, 2kB Flash, 128B SRAM, No EEPROM
+K AVR 8bit Microcontroller tinyAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8235-8-bit-avr-microcontroller-attiny20_datasheet.pdf
+$ENDCMP
+#
 $CMP ATtiny20-MMH
 D QFN-20, 2kB Flash, 128B SRAM, No EEPROM
 K AVR 8bit Microcontroller tinyAVR
@@ -214,6 +220,12 @@ $CMP ATtiny24-20SSU
 D SOIC-14, 2kB Flash, 128B SRAM, 128B EEPROM, debugWIRE
 K AVR 8bit Microcontroller tinyAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8006.pdf
+$ENDCMP
+#
+$CMP ATtiny24A-CCU
+D BGA-15, 2kB Flash, 128B SRAM, 128B EEPROM, debugWIRE
+K AVR 8bit Microcontroller tinyAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8183.pdf
 $ENDCMP
 #
 $CMP ATtiny24A-MMH
@@ -426,6 +438,12 @@ K AVR 8bit Microcontroller tinyAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8495-8-bit-AVR-Microcontrollers-ATtiny441-ATtiny841_Datasheet.pdf
 $ENDCMP
 #
+$CMP ATtiny44A-CCU
+D BGA-15, 4kB Flash, 256B SRAM, 256B EEPROM, debugWIRE
+K AVR 8bit Microcontroller tinyAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8183.pdf
+$ENDCMP
+#
 $CMP ATtiny44A-MMH
 D QFN-20, 4kB Flash, 256B SRAM, 256B EEPROM, debugWIRE
 K AVR 8bit Microcontroller tinyAVR
@@ -516,6 +534,12 @@ K AVR 8bit Microcontroller tinyAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8008.pdf
 $ENDCMP
 #
+$CMP ATtiny48-CCU
+D BGA-32, 4kB Flash, 256B SRAM, 64B EEPROM
+K AVR 8bit Microcontroller tinyAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8008.pdf
+$ENDCMP
+#
 $CMP ATtiny48-MMH
 D QFN-28, 4kB Flash, 256B SRAM, 64B EEPROM
 K AVR 8bit Microcontroller tinyAVR
@@ -574,6 +598,12 @@ $CMP ATtiny841-SSU
 D SOIC-14, 8kB Flash, 512B SRAM, 512B EEPROM, ADC, ACI, debugWIRE
 K AVR 8bit Microcontroller tinyAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8495-8-bit-AVR-Microcontrollers-ATtiny441-ATtiny841_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATtiny84A-CCU
+D BGA-15, 8kB Flash, 512B SRAM, 512B EEPROM, debugWIRE
+K AVR 8bit Microcontroller tinyAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8183.pdf
 $ENDCMP
 #
 $CMP ATtiny84A-MMH
@@ -680,6 +710,12 @@ $ENDCMP
 #
 $CMP ATtiny88-AU
 D TQFP-32, 8kB Flash, 512B SRAM, 64B EEPROM
+K AVR 8bit Microcontroller tinyAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8008.pdf
+$ENDCMP
+#
+$CMP ATtiny88-CCU
+D BGA-32, 8kB Flash, 512B SRAM, 64B EEPROM
 K AVR 8bit Microcontroller tinyAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8008.pdf
 $ENDCMP
