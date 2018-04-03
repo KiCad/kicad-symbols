@@ -18,6 +18,42 @@ K High-Speed CAN Transceiver
 F http://cds.linear.com/docs/en/datasheet/2875f.pdf
 $ENDCMP
 #
+$CMP MCP2021A-xxxxMD
+D LIN Transceiver with Voltage Regulator, 3.3V/5V, DFN-8
+K LIN Transceiver regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002298C.pdf
+$ENDCMP
+#
+$CMP MCP2021A-xxxxP
+D LIN Transceiver with Voltage Regulator, 3.3V/5V, DIP-8
+K LIN Transceiver regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002298C.pdf
+$ENDCMP
+#
+$CMP MCP2021A-xxxxSN
+D LIN Transceiver with Voltage Regulator, 3.3V/5V, SOIC-8
+K LIN Transceiver regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002298C.pdf
+$ENDCMP
+#
+$CMP MCP2022A-xxxxP
+D LIN Transceiver with Voltage Regulator, 3.3V/5V, DIP-14
+K LIN Transceiver regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002298C.pdf
+$ENDCMP
+#
+$CMP MCP2022A-xxxxSL
+D LIN Transceiver with Voltage Regulator, 3.3V/5V, SOIC-14
+K LIN Transceiver regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002298C.pdf
+$ENDCMP
+#
+$CMP MCP2022A-xxxxST
+D LIN Transceiver with Voltage Regulator, 3.3V/5V, TSSOP-14
+K LIN Transceiver regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002298C.pdf
+$ENDCMP
+#
 $CMP MCP2050-330-EMQ
 D LIN Transceiver with Voltage Regulator, 3.3V, QFN
 K LIN transceiver regulator
