@@ -1,9 +1,83 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 4P2C
+D RJ connector, 4P2C (4 positions 2 connected)
+K registered jack female connector
+$ENDCMP
+#
+$CMP 4P2C_Shielded
+D RJ connector, 4P2C (4 positions 2 connected), Shielded
+K registered jack female connector
+$ENDCMP
+#
 $CMP 4P4C
-D 4P4C connector
+D RJ connector, 4P4C (4 positions 4 connected)
 K 4P4C RJ9 RJ10 RJ22 female connector
-F  ~
+$ENDCMP
+#
+$CMP 4P4C_Shielded
+D RJ connector, 4P4C (4 positions 4 connected), Shielded
+K 4P4C RJ9 RJ10 RJ22 female connector
+$ENDCMP
+#
+$CMP 6P2C
+D RJ connector, 6P2C (6 positions 2 connected)
+K registered jack RJ11 female connector
+$ENDCMP
+#
+$CMP 6P2C_Shielded
+D RJ connector, 6P2C (6 positions 2 connected), Shielded
+K registered jack RJ11 female connector
+$ENDCMP
+#
+$CMP 6P4C
+D RJ connector, 6P4C (6 positions 4 connected)
+K RJ13 RJ14 female connector
+$ENDCMP
+#
+$CMP 6P4C_Shielded
+D RJ connector, 6P4C (6 positions 4 connected), Shielded
+K RJ13 RJ14 female connector
+$ENDCMP
+#
+$CMP 6P6C
+D RJ connector, 6P6C (6 positions 6 connected)
+K RJ12 RJ18 RJ25 female connector
+$ENDCMP
+#
+$CMP 6P6C_Shielded
+D RJ connector, 6P6C (6 positions 6 connected), Shielded
+K RJ12 RJ18 RJ25 female connector
+$ENDCMP
+#
+$CMP 8P4C
+D RJ connector, 8P4C (8 positions 4 connected)
+K registered jack female connector
+$ENDCMP
+#
+$CMP 8P4C_Shielded
+D RJ connector, 8P4C (8 positions 4 connected), Shielded
+K registered jack female connector
+$ENDCMP
+#
+$CMP 8P8C
+D RJ connector, 8P8C (8 positions 8 connected)
+K registered jack female connector
+$ENDCMP
+#
+$CMP 8P8C_Shielded
+D RJ connector, 8P8C (8 positions 8 connected), Shielded
+K registered jack female connector
+$ENDCMP
+#
+$CMP 8P8C_LEDS
+D RJ connector, 8P8C (8 positions 8 connected), two LEDs
+K registered jack female connector ethernet led
+$ENDCMP
+#
+$CMP 8P8C_LEDS_Shielded
+D RJ connector, 8P8C (8 positions 8 connected), two LEDs
+K registered jack female connector ethernet led
 $ENDCMP
 #
 $CMP AVR-ISP-10
