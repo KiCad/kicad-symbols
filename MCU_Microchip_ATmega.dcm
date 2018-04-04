@@ -78,12 +78,6 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega1284-CU
-D BGA-49, 20MHz, 128kB Flash, 16kB SRAM, 4kB EEPROM, JTAG
-K AVR 8bit Microcontroller MegaAVR
-F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf
-$ENDCMP
-#
 $CMP ATmega1284-MU
 D QFN-44, 20MHz, 128kB Flash, 16kB SRAM, 4kB EEPROM, JTAG
 K AVR 8bit Microcontroller MegaAVR
@@ -98,12 +92,6 @@ $ENDCMP
 #
 $CMP ATmega1284P-AU
 D TQFP-44, 20MHz, 128kB Flash, 16kB SRAM, 4kB EEPROM, JTAG
-K AVR 8bit Microcontroller MegaAVR PicoPower
-F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf
-$ENDCMP
-#
-$CMP ATmega1284P-CU
-D BGA-49, 20MHz, 128kB Flash, 16kB SRAM, 4kB EEPROM, JTAG
 K AVR 8bit Microcontroller MegaAVR PicoPower
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf
 $ENDCMP
@@ -1254,12 +1242,6 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega644A-CU
-D BGA-49, 20MHz, 64kB Flash, 4kB SRAM, 2kB EEPROM, JTAG
-K AVR 8bit Microcontroller MegaAVR
-F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf
-$ENDCMP
-#
 $CMP ATmega644A-MU
 D QFN-44, 20MHz, 64kB Flash, 4kB SRAM, 2kB EEPROM, JTAG
 K AVR 8bit Microcontroller MegaAVR
@@ -1310,12 +1292,6 @@ $ENDCMP
 #
 $CMP ATmega644PA-AU
 D TQFP-44, 20MHz, 64kB Flash, 4kB SRAM, 2kB EEPROM, JTAG
-K AVR 8bit Microcontroller MegaAVR PicoPower
-F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf
-$ENDCMP
-#
-$CMP ATmega644PA-CU
-D BGA-49, 20MHz, 64kB Flash, 4kB SRAM, 2kB EEPROM, JTAG
 K AVR 8bit Microcontroller MegaAVR PicoPower
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf
 $ENDCMP
