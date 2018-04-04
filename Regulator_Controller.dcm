@@ -198,6 +198,12 @@ K Switching Regulator Controller
 F http://cds.linear.com/docs/en/datasheet/1624f.pdf
 $ENDCMP
 #
+$CMP LTC3805xMSE
+D Adjustable Frequency current Mode Flyback DC/DC controller, MSOP-10
+K flyback dc-dc switcher switching
+F http://cds.linear.com/docs/en/datasheet/3805fg.pdf
+$ENDCMP
+#
 $CMP NCP1200D100
 D PWM Current-Mode Controller for Off-Line Supplies, AC-DC, 100kHz, SOIC-8
 K SMPS Controller AC-DC
