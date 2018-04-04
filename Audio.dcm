@@ -240,16 +240,4 @@ K audio dac 2ch 24bit 96kHz
 F http://www.nxp.com/docs/en/data-sheet/UDA1334ATS.pdf
 $ENDCMP
 #
-$CMP V3320
-D Voltage Controlled Filter (VCF), SOP-18
-K VCF CEM3320 CoolAudio
-F http://coolaudio.com/docs/Cool%20Audio_Data_Sheet_V3320_VCF.pdf
-$ENDCMP
-#
-$CMP V3340
-D Voltage Controlled Oscillator (VCO), DIP-16
-K VCA CEM3340 CoolAudio
-F http://coolaudio.com/docs/COOLAUDIO_V3340_DATASHEETS.pdf
-$ENDCMP
-#
 #End Doc Library
