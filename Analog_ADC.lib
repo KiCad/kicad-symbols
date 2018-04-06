@@ -32,11 +32,11 @@ ENDDEF
 DEF AD7616 U 0 40 Y Y 1 F N
 F0 "U" -900 2500 50 H V L CNN
 F1 "AD7616" 600 2500 50 H V L CNN
-F2 "LQFP-80_14x14mm_Pitch0.65mm" 0 0 50 H I C CIN
-F3 "http://www.analog.com/media/en/technical-documentation/data-sheets/AD7616.pdf" 100 -3000 50 H I C CNN
+F2 "Housings_QFP:LQFP-80_14x14mm_Pitch0.65mm" 0 0 50 H I C CIN
+F3 "" 100 -3000 50 H I C CNN
 ALIAS AD7616BSTZ
 $FPLIST
- LQFP-80_14x14mm_Pitch0.65mm
+ LQFP*14x14mm*P*0.65mm*
 $ENDFPLIST
 DRAW
 S -900 2400 900 -2400 1 1 10 f
