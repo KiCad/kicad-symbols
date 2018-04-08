@@ -4818,6 +4818,66 @@ K linear low dropout Regulator fixed
 F http://www.ti.com/lit/ds/symlink/tps722.pdf
 $ENDCMP
 #
+$CMP TPS73101DBV
+D Cap free NMOS 150mA Low Drop Adjustable Out Regulator, SOT-23-5
+K Cap free Adjustable LDO 150mA
+F http://www.ti.com/lit/ds/symlink/tps731.pdf
+$ENDCMP
+#
+$CMP TPS731125DBV
+D Cap free NMOS 150mA Low Drop 1.25V Regulator, SOT-23-5
+K Cap free Fixed LDO 150mA
+F http://www.ti.com/lit/ds/symlink/tps731.pdf
+$ENDCMP
+#
+$CMP TPS73115DBV
+D Cap free NMOS 150mA Low Drop 1.5V Regulator, SOT-23-5
+K Cap free Fixed LDO 150mA
+F http://www.ti.com/lit/ds/symlink/tps731.pdf
+$ENDCMP
+#
+$CMP TPS73118DBV
+D Cap free NMOS 150mA Low Drop 1.8V Regulator, SOT-23-5
+K Cap free Fixed LDO 150mA
+F http://www.ti.com/lit/ds/symlink/tps731.pdf
+$ENDCMP
+#
+$CMP TPS73125DBV
+D Cap free NMOS 150mA Low Drop 2.5V Regulator, SOT-23-5
+K Cap free Fixed LDO 150mA
+F http://www.ti.com/lit/ds/symlink/tps731.pdf
+$ENDCMP
+#
+$CMP TPS73130DBV
+D Cap free NMOS 150mA Low Drop 3.0V Regulator, SOT-23-5
+K Cap free Fixed LDO 150mA
+F http://www.ti.com/lit/ds/symlink/tps731.pdf
+$ENDCMP
+#
+$CMP TPS73131DBV
+D Cap free NMOS 150mA Low Drop 3.1V Regulator, SOT-23-5
+K Cap free Fixed LDO 150mA
+F http://www.ti.com/lit/ds/symlink/tps731.pdf
+$ENDCMP
+#
+$CMP TPS73132DBV
+D Cap free NMOS 150mA Low Drop 3.2V Regulator, SOT-23-5
+K Cap free Fixed LDO 150mA
+F http://www.ti.com/lit/ds/symlink/tps731.pdf
+$ENDCMP
+#
+$CMP TPS73133DBV
+D Cap free NMOS 150mA Low Drop 3.3V Regulator, SOT-23-5
+K Cap free Fixed LDO 150mA
+F http://www.ti.com/lit/ds/symlink/tps731.pdf
+$ENDCMP
+#
+$CMP TPS73150DBV
+D Cap free NMOS 150mA Low Drop 5.0V Regulator, SOT-23-5
+K Cap free Fixed LDO 150mA
+F http://www.ti.com/lit/ds/symlink/tps731.pdf
+$ENDCMP
+#
 $CMP TPS73601DBV
 D Cap free NMOS 400mA Low Drop Adjustable Out Regulator, SOT-23-5
 K Cap free Adjustable LDO 400mA
