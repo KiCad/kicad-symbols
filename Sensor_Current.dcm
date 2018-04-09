@@ -1218,6 +1218,12 @@ K hall effect current sensor
 F http://www.akm.com/akm/en/file/datasheet/CZ-3815.pdf
 $ENDCMP
 #
+$CMP INA260
+D  High/Low-Side Digital Current/Power Monitor with Integrated 2mΩ Shunt Resistor
+K power voltage current sensor i2c digital
+F http://www.ti.com/lit/ds/symlink/ina260.pdf
+$ENDCMP
+#
 $CMP LA100-P
 D LA 100-P Current transducer
 K LEM current transducer
