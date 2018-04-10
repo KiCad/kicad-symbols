@@ -72,6 +72,12 @@ K Fuel Gauge
 F http://www.ti.com/lit/ds/symlink/bq27441-g1.pdf
 $ENDCMP
 #
+$CMP BQ27750
+D System Side Li Ion/Polymer Fuel Gauge, VSON-12
+K Fuel Gauge
+F http://www.ti.com/lit/ds/symlink/bq27750.pdf
+$ENDCMP
+#
 $CMP BQ297xy
 D Voltage and Current Protection for Single-Cell Li-Ion and Li-Polymer Batteries
 K protection Li-Ion Li-Pol
