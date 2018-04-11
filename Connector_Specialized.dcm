@@ -5,6 +5,11 @@ D 4P4C connector
 K 4P4C RJ9 RJ10 RJ22 female connector
 $ENDCMP
 #
+$CMP 6P6C
+D RJ12 connector
+K RJ12 connector 6P6C
+$ENDCMP
+#
 $CMP AVR-ISP-10
 D Atmel 10-pin ISP connector
 K AVR ISP Connector
