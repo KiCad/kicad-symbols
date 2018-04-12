@@ -150,9 +150,9 @@ K ADC CAN
 $ENDCMP
 #
 $CMP INA226
-D Dual Channel 16-bit Analor to Digital Converter, 80mV current shunt amplifier, 36V bus voltage, oversampling, I2C
-K ADC, I2C 16-Bit Oversampling, Current Shunt
-F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=INA226&fileType=pdf
+D High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C Compatible Interface, MSOP-10
+K ADC I2C 16-Bit Oversampling Current Shunt
+F http://www.ti.com/lit/ds/symlink/ina226.pdf
 $ENDCMP
 #
 $CMP LTC1406CGN
