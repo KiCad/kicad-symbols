@@ -48,6 +48,12 @@ K Power Sequencer SOT-23-6
 F http://www.ti.com/lit/ds/symlink/lm3880.pdf
 $ENDCMP
 #
+$CMP LM3880-Q1
+D Simple Power Sequencer, Automotive, SOT-23-6
+K Power Sequencer SOT-23-6 Automotive
+F http://www.ti.com/lit/ds/symlink/lm3880.pdf
+$ENDCMP
+#
 $CMP MAX811LEUS-T
 D Power supply supervisor, Manual reset, Threshold 4.63V, SOT-143
 K Supervisor Reset
