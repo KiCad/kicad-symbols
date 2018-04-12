@@ -205,7 +205,7 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8265-8-bit-AVR-Microcont
 $ENDCMP
 #
 $CMP ATtiny20-CCU
-D 12MHz, 2kB Flash, 128B SRAM, No EEPROM, BGA-15
+D 12MHz, 2kB Flash, 128B SRAM, No EEPROM, UFBGA-15
 K AVR 8bit Microcontroller tinyAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8235-8-bit-avr-microcontroller-attiny20_datasheet.pdf
 $ENDCMP
@@ -307,7 +307,7 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8006.pdf
 $ENDCMP
 #
 $CMP ATtiny24A-CCU
-D 20MHz, 2kB Flash, 128B SRAM, 128B EEPROM, debugWIRE, BGA-15
+D 20MHz, 2kB Flash, 128B SRAM, 128B EEPROM, debugWIRE, UFBGA-15
 K AVR 8bit Microcontroller tinyAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8183.pdf
 $ENDCMP
@@ -619,7 +619,7 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8495-8-bit-AVR-Microcont
 $ENDCMP
 #
 $CMP ATtiny44A-CCU
-D 20MHz, 4kB Flash, 256B SRAM, 256B EEPROM, debugWIRE, BGA-15
+D 20MHz, 4kB Flash, 256B SRAM, 256B EEPROM, debugWIRE, UFBGA-15
 K AVR 8bit Microcontroller tinyAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8183.pdf
 $ENDCMP
@@ -829,7 +829,7 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8495-8-bit-AVR-Microcont
 $ENDCMP
 #
 $CMP ATtiny84A-CCU
-D 20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, debugWIRE, BGA-15
+D 20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, debugWIRE, UFBGA-15
 K AVR 8bit Microcontroller tinyAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8183.pdf
 $ENDCMP
