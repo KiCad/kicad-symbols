@@ -44,13 +44,7 @@ $ENDCMP
 #
 $CMP LM3880
 D Simple Power Sequencer, SOT-23-6
-K Power Sequencer SOT-23-6
-F http://www.ti.com/lit/ds/symlink/lm3880.pdf
-$ENDCMP
-#
-$CMP LM3880-Q1
-D Simple Power Sequencer, Automotive, SOT-23-6
-K Power Sequencer SOT-23-6 Automotive
+K Power Sequencer
 F http://www.ti.com/lit/ds/symlink/lm3880.pdf
 $ENDCMP
 #
