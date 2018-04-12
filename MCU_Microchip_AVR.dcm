@@ -168,14 +168,14 @@ K AVR 8bit Microcontroller ClassicAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc1004.pdf
 $ENDCMP
 #
-$CMP AT90S2343-8PC
-D 8MHz, 2kB Flash, 128B SRAM, 128B EEPROM, DIP-8
+$CMP AT90S2343-10PC
+D 10MHz, 2kB Flash, 128B SRAM, 128B EEPROM, DIP-8
 K AVR 8bit Microcontroller ClassicAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc1004.pdf
 $ENDCMP
 #
-$CMP AT90S2343-8SC
-D 8MHz, 2kB Flash, 128B SRAM, 128B EEPROM, SOIJ-8
+$CMP AT90S2343-10SC
+D 10MHz, 2kB Flash, 128B SRAM, 128B EEPROM, SOIJ-8
 K AVR 8bit Microcontroller ClassicAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc1004.pdf
 $ENDCMP

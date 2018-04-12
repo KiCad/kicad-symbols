@@ -12,13 +12,13 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2467.pdf
 $ENDCMP
 #
-$CMP ATmega128-8AU
+$CMP ATmega128L-8AU
 D 8MHz, 128kB Flash, 4kB SRAM, 4kB EEPROM, JTAG, TQFP-64
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2467.pdf
 $ENDCMP
 #
-$CMP ATmega128-8MU
+$CMP ATmega128L-8MU
 D 8MHz, 128kB Flash, 4kB SRAM, 4kB EEPROM, JTAG, QFN-64
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2467.pdf
@@ -36,13 +36,13 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega1280-8AU
+$CMP ATmega1280V-8AU
 D 8MHz, 128kB Flash, 8kB SRAM, 4kB EEPROM, JTAG, TQFP-100
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega1280-8CU
+$CMP ATmega1280V-8CU
 D 8MHz, 128kB Flash, 8kB SRAM, 4kB EEPROM, JTAG, BGA-100
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
@@ -60,13 +60,13 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega1281-8AU
+$CMP ATmega1281V-8AU
 D 8MHz, 128kB Flash, 8kB SRAM, 4kB EEPROM, JTAG, TQFP-64
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega1281-8MU
+$CMP ATmega1281V-8MU
 D 8MHz, 128kB Flash, 8kB SRAM, 4kB EEPROM, JTAG, QFN-64
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
@@ -138,19 +138,19 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2466.pdf
 $ENDCMP
 #
-$CMP ATmega16-8AU
+$CMP ATmega16L-8AU
 D 8MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, JTAG, TQFP-44
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2466.pdf
 $ENDCMP
 #
-$CMP ATmega16-8MU
+$CMP ATmega16L-8MU
 D 8MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, JTAG, QFN-44
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2466.pdf
 $ENDCMP
 #
-$CMP ATmega16-8PU
+$CMP ATmega16L-8PU
 D 8MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, JTAG, DIP-40
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2466.pdf
@@ -198,31 +198,31 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2513-8-bit-AVR-Microntroller-ATmega162_Datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega162-8AU
+$CMP ATmega162V-8AU
 D 8MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, JTAG, TQFP-44
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2513-8-bit-AVR-Microntroller-ATmega162_Datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega162-8MU
+$CMP ATmega162V-8MU
 D 8MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, JTAG, QFN-44
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2513-8-bit-AVR-Microntroller-ATmega162_Datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega162-8PU
+$CMP ATmega162V-8PU
 D 8MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, JTAG, DIP-40
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2513-8-bit-AVR-Microntroller-ATmega162_Datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega163-4AC
+$CMP ATmega163L-4AC
 D 4MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, TQFP-44
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc1142.pdf
 $ENDCMP
 #
-$CMP ATmega163-4PC
+$CMP ATmega163L-4PC
 D 4MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, DIP-40
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc1142.pdf
@@ -264,19 +264,19 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega164P-10AU
+$CMP ATmega164PV-10AU
 D 10MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, JTAG, TQFP-44
 K AVR 8bit Microcontroller MegaAVR PicoPower
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42742-ATmega164P_Datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega164P-10MU
+$CMP ATmega164PV-10MU
 D 10MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, JTAG, QFN-44
 K AVR 8bit Microcontroller MegaAVR PicoPower
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42742-ATmega164P_Datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega164P-10PU
+$CMP ATmega164PV-10PU
 D 10MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, JTAG, DIP-40
 K AVR 8bit Microcontroller MegaAVR PicoPower
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42742-ATmega164P_Datasheet.pdf
@@ -336,13 +336,13 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2573.pdf
 $ENDCMP
 #
-$CMP ATmega165-8AU
+$CMP ATmega165V-8AU
 D 8MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, TQFP-64
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2573.pdf
 $ENDCMP
 #
-$CMP ATmega165-8MU
+$CMP ATmega165V-8MU
 D 8MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, QFN-64
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2573.pdf
@@ -372,13 +372,13 @@ K AVR 8bit Microcontroller MegaAVR PicoPower
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8019.pdf
 $ENDCMP
 #
-$CMP ATmega165P-8AU
+$CMP ATmega165PV-8AU
 D 8MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, TQFP-64
 K AVR 8bit Microcontroller MegaAVR PicoPower
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8019.pdf
 $ENDCMP
 #
-$CMP ATmega165P-8MU
+$CMP ATmega165PV-8MU
 D 8MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, QFN-64
 K AVR 8bit Microcontroller MegaAVR PicoPower
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8019.pdf
@@ -396,19 +396,19 @@ K AVR 8bit Microcontroller MegaAVR PicoPower
 F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8285-8-bit-avr-microcontroller-atmega165a_pa_325a_pa_3250a_pa_645a_p_6450a_p_datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega168-10AU
+$CMP ATmega168V-10AU
 D 10MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, TQFP-32
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2545-8-bit-AVR-Microcontroller-ATmega48-88-168_Datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega168-10MU
+$CMP ATmega168V-10MU
 D 10MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, QFN-32
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2545-8-bit-AVR-Microcontroller-ATmega48-88-168_Datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega168-10PU
+$CMP ATmega168V-10PU
 D 10MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, DIP-28
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2545-8-bit-AVR-Microcontroller-ATmega48-88-168_Datasheet.pdf
@@ -504,13 +504,13 @@ K AVR 8bit Microcontroller MegaAVR LCD
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2514.pdf
 $ENDCMP
 #
-$CMP ATmega169-8AU
+$CMP ATmega169V-8AU
 D 8MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, TQFP-64
 K AVR 8bit Microcontroller MegaAVR LCD
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2514.pdf
 $ENDCMP
 #
-$CMP ATmega169-8MU
+$CMP ATmega169V-8MU
 D 8MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, QFN-64
 K AVR 8bit Microcontroller MegaAVR LCD
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2514.pdf
@@ -540,13 +540,13 @@ K AVR 8bit Microcontroller MegaAVR LCD PicoPower
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8018.pdf
 $ENDCMP
 #
-$CMP ATmega169P-8AU
+$CMP ATmega169PV-8AU
 D 8MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, TQFP-64
 K AVR 8bit Microcontroller MegaAVR LCD PicoPower
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8018.pdf
 $ENDCMP
 #
-$CMP ATmega169P-8MU
+$CMP ATmega169PV-8MU
 D 8MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, QFN-64
 K AVR 8bit Microcontroller MegaAVR LCD PicoPower
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8018.pdf
@@ -636,13 +636,13 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega2560-8AU
+$CMP ATmega2560V-8AU
 D 8MHz, 256kB Flash, 8kB SRAM, 4kB EEPROM, JTAG, TQFP-100
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega2560-8CU
+$CMP ATmega2560V-8CU
 D 8MHz, 256kB Flash, 8kB SRAM, 4kB EEPROM, JTAG, BGA-100
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
@@ -660,13 +660,13 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega2561-8AU
+$CMP ATmega2561V-8AU
 D 8MHz, 256kB Flash, 8kB SRAM, 4kB EEPROM, JTAG, TQFP-64
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega2561-8MU
+$CMP ATmega2561V-8MU
 D 8MHz, 256kB Flash, 8kB SRAM, 4kB EEPROM, JTAG, QFN-64
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
@@ -690,31 +690,31 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2503.pdf
 $ENDCMP
 #
-$CMP ATmega32-8AU
+$CMP ATmega32L-8AU
 D 8MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, TQFP-44
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2503.pdf
 $ENDCMP
 #
-$CMP ATmega32-8MU
+$CMP ATmega32L-8MU
 D 8MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, QFN-44
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2503.pdf
 $ENDCMP
 #
-$CMP ATmega32-8PU
+$CMP ATmega32L-8PU
 D 8MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, DIP-40
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2503.pdf
 $ENDCMP
 #
-$CMP ATmega323-4AC
+$CMP ATmega323L-4AC
 D 4MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, TQFP-44
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc1457.pdf
 $ENDCMP
 #
-$CMP ATmega323-4PC
+$CMP ATmega323L-4PC
 D 4MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, DIP-40
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc1457.pdf
@@ -756,19 +756,19 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega324P-10AU
+$CMP ATmega324PV-10AU
 D 10MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, TQFP-44
 K AVR 8bit Microcontroller MegaAVR PicoPower
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42743-ATmega324P_Datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega324P-10MU
+$CMP ATmega324PV-10MU
 D 10MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, QFN-44
 K AVR 8bit Microcontroller MegaAVR PicoPower
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42743-ATmega324P_Datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega324P-10PU
+$CMP ATmega324PV-10PU
 D 10MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, DIP-40
 K AVR 8bit Microcontroller MegaAVR PicoPower
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42743-ATmega324P_Datasheet.pdf
@@ -828,13 +828,13 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2570.pdf
 $ENDCMP
 #
-$CMP ATmega325-8AU
+$CMP ATmega325V-8AU
 D 8MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, TQFP-64
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2570.pdf
 $ENDCMP
 #
-$CMP ATmega325-8MU
+$CMP ATmega325V-8MU
 D 8MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, QFN-64
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2570.pdf
@@ -846,7 +846,7 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2570.pdf
 $ENDCMP
 #
-$CMP ATmega3250-8AU
+$CMP ATmega3250V-8AU
 D 8MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, TQFP-100
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2570.pdf
@@ -948,13 +948,13 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2552.pdf
 $ENDCMP
 #
-$CMP ATmega329-8AU
+$CMP ATmega329V-8AU
 D 8MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, TQFP-64
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2552.pdf
 $ENDCMP
 #
-$CMP ATmega329-8MU
+$CMP ATmega329V-8MU
 D 8MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, QFN-64
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2552.pdf
@@ -966,7 +966,7 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2552.pdf
 $ENDCMP
 #
-$CMP ATmega3290-8AU
+$CMP ATmega3290V-8AU
 D 8MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, TQFP-100
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2552.pdf
@@ -1056,19 +1056,19 @@ K AVR 8bit Microcontroller MegaAVR USB
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega48-10AU
+$CMP ATmega48V-10AU
 D 10MHz, 4kB Flash, 512B SRAM, 256B EEPROM, TQFP-32
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2545-8-bit-AVR-Microcontroller-ATmega48-88-168_Datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega48-10MU
+$CMP ATmega48V-10MU
 D 10MHz, 4kB Flash, 512B SRAM, 256B EEPROM, QFN-32
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2545-8-bit-AVR-Microcontroller-ATmega48-88-168_Datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega48-10PU
+$CMP ATmega48V-10PU
 D 10MHz, 4kB Flash, 512B SRAM, 256B EEPROM, DIP-28
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2545-8-bit-AVR-Microcontroller-ATmega48-88-168_Datasheet.pdf
@@ -1164,13 +1164,13 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2490-8-bit-avr-microcontroller-atmega64-l_datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega64-8AU
+$CMP ATmega64L-8AU
 D 8MHz, 64kB Flash, 4kB SRAM, 2kB EEPROM, TQFP-64
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2490-8-bit-avr-microcontroller-atmega64-l_datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega64-8MU
+$CMP ATmega64L-8MU
 D 8MHz, 64kB Flash, 4kB SRAM, 2kB EEPROM, QFN-64
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2490-8-bit-avr-microcontroller-atmega64-l_datasheet.pdf
@@ -1188,31 +1188,31 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega640-8AU
+$CMP ATmega640V-8AU
 D 8MHz, 64kB Flash, 8kB SRAM, 4kB EEPROM, JTAG, TQFP-100
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega640-8CU
+$CMP ATmega640V-8CU
 D 8MHz, 64kB Flash, 8kB SRAM, 4kB EEPROM, JTAG, BGA-100
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega644-10AU
+$CMP ATmega644V-10AU
 D 10MHz, 64kB Flash, 4kB SRAM, 2kB EEPROM, JTAG, TQFP-44
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2593.pdf
 $ENDCMP
 #
-$CMP ATmega644-10MU
+$CMP ATmega644V-10MU
 D 10MHz, 64kB Flash, 4kB SRAM, 2kB EEPROM, JTAG, QFN-44
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2593.pdf
 $ENDCMP
 #
-$CMP ATmega644-10PU
+$CMP ATmega644V-10PU
 D 10MHz, 64kB Flash, 4kB SRAM, 2kB EEPROM, JTAG, DIP-40
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2593.pdf
@@ -1254,19 +1254,19 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega644P-10AU
+$CMP ATmega644PV-10AU
 D 10MHz, 64kB Flash, 4kB SRAM, 2kB EEPROM, JTAG, TQFP-44
 K AVR 8bit Microcontroller MegaAVR PicoPower
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42744-ATmega644P_Datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega644P-10MU
+$CMP ATmega644PV-10MU
 D 10MHz, 64kB Flash, 4kB SRAM, 2kB EEPROM, JTAG, QFN-44
 K AVR 8bit Microcontroller MegaAVR PicoPower
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42744-ATmega644P_Datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega644P-10PU
+$CMP ATmega644PV-10PU
 D 10MHz, 64kB Flash, 4kB SRAM, 2kB EEPROM, JTAG, DIP-40
 K AVR 8bit Microcontroller MegaAVR PicoPower
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42744-ATmega644P_Datasheet.pdf
@@ -1320,13 +1320,13 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2570.pdf
 $ENDCMP
 #
-$CMP ATmega645-8AU
+$CMP ATmega645V-8AU
 D 8MHz, 64kB Flash, 4kB SRAM, 2kB EEPROM, JTAG, TQFP-64
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2570.pdf
 $ENDCMP
 #
-$CMP ATmega645-8MU
+$CMP ATmega645V-8MU
 D 8MHz, 64kB Flash, 4kB SRAM, 2kB EEPROM, JTAG, QFN-64
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2570.pdf
@@ -1338,7 +1338,7 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2570.pdf
 $ENDCMP
 #
-$CMP ATmega6450-8AU
+$CMP ATmega6450V-8AU
 D 8MHz, 64kB Flash, 4kB SRAM, 2kB EEPROM, JTAG, TQFP-100
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2570.pdf
@@ -1380,13 +1380,13 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2552.pdf
 $ENDCMP
 #
-$CMP ATmega649-8AU
+$CMP ATmega649V-8AU
 D 8MHz, 64kB Flash, 4kB SRAM, 2kB EEPROM, JTAG, TQFP-64
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2552.pdf
 $ENDCMP
 #
-$CMP ATmega649-8MU
+$CMP ATmega649V-8MU
 D 8MHz, 64kB Flash, 4kB SRAM, 2kB EEPROM, JTAG, QFN-64
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2552.pdf
@@ -1398,7 +1398,7 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2552.pdf
 $ENDCMP
 #
-$CMP ATmega6490-8AU
+$CMP ATmega6490V-8AU
 D 8MHz, 64kB Flash, 4kB SRAM, 2kB EEPROM, JTAG, TQFP-100
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2552.pdf
@@ -1470,19 +1470,19 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2486-8-bit-avr-microcontroller-atmega8_l_datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega8-8AU
+$CMP ATmega8L-8AU
 D 8MHz, 8kB Flash, 1kB SRAM, 512B EEPROM, TQFP-32
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2486-8-bit-avr-microcontroller-atmega8_l_datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega8-8MU
+$CMP ATmega8L-8MU
 D 8MHz, 8kB Flash, 1kB SRAM, 512B EEPROM, QFN-32
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2486-8-bit-avr-microcontroller-atmega8_l_datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega8-8PU
+$CMP ATmega8L-8PU
 D 8MHz, 8kB Flash, 1kB SRAM, 512B EEPROM, DIP-28
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2486-8-bit-avr-microcontroller-atmega8_l_datasheet.pdf
@@ -1512,25 +1512,25 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2512.pdf
 $ENDCMP
 #
-$CMP ATmega8515-8AU
+$CMP ATmega8515L-8AU
 D 8MHz, 8kB Flash, 512B SRAM, 512B EEPROM, TQFP-44
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2512.pdf
 $ENDCMP
 #
-$CMP ATmega8515-8JU
+$CMP ATmega8515L-8JU
 D 8MHz, 8kB Flash, 512B SRAM, 512B EEPROM, PLCC-44
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2512.pdf
 $ENDCMP
 #
-$CMP ATmega8515-8MU
+$CMP ATmega8515L-8MU
 D 8MHz, 8kB Flash, 512B SRAM, 512B EEPROM, QFN-44
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2512.pdf
 $ENDCMP
 #
-$CMP ATmega8515-8PU
+$CMP ATmega8515L-8PU
 D 8MHz, 8kB Flash, 512B SRAM, 512B EEPROM, DIP-40
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2512.pdf
@@ -1560,43 +1560,43 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2502.pdf
 $ENDCMP
 #
-$CMP ATmega8535-8AU
+$CMP ATmega8535L-8AU
 D 8MHz, 8kB Flash, 512B SRAM, 512B EEPROM, TQFP-44
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2502.pdf
 $ENDCMP
 #
-$CMP ATmega8535-8JU
+$CMP ATmega8535L-8JU
 D 8MHz, 8kB Flash, 512B SRAM, 512B EEPROM, PLCC-44
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2502.pdf
 $ENDCMP
 #
-$CMP ATmega8535-8MU
+$CMP ATmega8535L-8MU
 D 8MHz, 8kB Flash, 512B SRAM, 512B EEPROM, QFN-44
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2502.pdf
 $ENDCMP
 #
-$CMP ATmega8535-8PU
+$CMP ATmega8535L-8PU
 D 8MHz, 8kB Flash, 512B SRAM, 512B EEPROM, DIP-40
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2502.pdf
 $ENDCMP
 #
-$CMP ATmega88-10AU
+$CMP ATmega88V-10AU
 D 10MHz, 8kB Flash, 1kB SRAM, 512B EEPROM, TQFP-32
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2545-8-bit-AVR-Microcontroller-ATmega48-88-168_Datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega88-10MU
+$CMP ATmega88V-10MU
 D 10MHz, 8kB Flash, 1kB SRAM, 512B EEPROM, QFN-32
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2545-8-bit-AVR-Microcontroller-ATmega48-88-168_Datasheet.pdf
 $ENDCMP
 #
-$CMP ATmega88-10PU
+$CMP ATmega88V-10PU
 D 10MHz, 8kB Flash, 1kB SRAM, 512B EEPROM, DIP-28
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2545-8-bit-AVR-Microcontroller-ATmega48-88-168_Datasheet.pdf
