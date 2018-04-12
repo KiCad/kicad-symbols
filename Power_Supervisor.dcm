@@ -42,6 +42,12 @@ K Supervisor Reset
 F http://www.onsemi.com/pub/Collateral/CAT811-D.PDF
 $ENDCMP
 #
+$CMP LM3880
+D Simple Power Sequencer, SOT-23-6
+K Power Sequencer SOT-23-6
+F http://www.ti.com/lit/ds/symlink/lm3880.pdf
+$ENDCMP
+#
 $CMP MAX811LEUS-T
 D Power supply supervisor, Manual reset, Threshold 4.63V, SOT-143
 K Supervisor Reset
