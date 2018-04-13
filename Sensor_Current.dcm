@@ -1219,7 +1219,7 @@ F http://www.akm.com/akm/en/file/datasheet/CZ-3815.pdf
 $ENDCMP
 #
 $CMP INA260
-D  High/Low-Side Digital Current/Power Monitor with Integrated 2mΩ Shunt Resistor
+D High/Low-Side Digital Current/Power Monitor with Integrated 2mΩ Shunt Resistor, TSSOP-16
 K power voltage current sensor i2c digital
 F http://www.ti.com/lit/ds/symlink/ina260.pdf
 $ENDCMP
