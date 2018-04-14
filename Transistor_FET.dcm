@@ -1224,6 +1224,18 @@ K Dual N-Channel MOSFET
 F http://www.fairchildsemi.com/ds/FD/FDS6898A.pdf
 $ENDCMP
 #
+$CMP FDS6930A
+D 5.5A Id, 30V Vds, Dual N-Channel Logic Level MOSFET, 40mOhm Ron, SO-8
+K Dual N-Channel MOSFET
+F http://www.onsemi.com/pub/Collateral/FDS6930A-D.PDF
+$ENDCMP
+#
+$CMP FDS6930B
+D 5.5A Id, 30V Vds, Dual N-Channel Logic Level MOSFET, 38mOhm Ron, SO-8
+K Dual N-Channel MOSFET
+F http://www.onsemi.com/pub/Collateral/FDS6930B-D.PDF
+$ENDCMP
+#
 $CMP FDS8960C
 D 7A Id, 35V Vds, Dual N and P Channel MOSFET, 24mOhm Ron, 10V Vgs, SO8L
 K Dual N-Channel P-Channel MOSFET
@@ -1876,6 +1888,12 @@ $CMP QM6015D
 D -35A Id, -60V Vds, P-Channel Power MOSFET, 25mOhm Ron, 25.0nC Qg (typ), TO252
 K P-Channel MOSFET
 F http://www.jaolen.com/images/pdf/QM6015D.pdf
+$ENDCMP
+#
+$CMP Si2319CDS
+D -4.4A Id, -40V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://www.vishay.com/docs/66709/si2319cd.pdf
 $ENDCMP
 #
 $CMP STS2DNE60
