@@ -638,51 +638,51 @@ F http://www.electronica-pt.com/datasheets/bd/BD234.pdf
 $ENDCMP
 #
 $CMP BD249
-D 25A Ic, 55V Vce, Silicon Power NPN Transistors, SOT-93
+D 25A Ic, 55V Vce, Silicon Power NPN Transistors, SOT-93/TO247
 K Power NPN Transistor
-F http://www.bourns.com/data/global/pdfs/bd249.pdf
+F http://www.mospec.com.tw/pdf/power/BD249.pdf
 $ENDCMP
 #
 $CMP BD249A
-D 25A Ic, 70V Vce, Silicon Power NPN Transistors, SOT-93
+D 25A Ic, 70V Vce, Silicon Power NPN Transistors, SOT-93/TO247
 K Power NPN Transistor
-F http://www.bourns.com/data/global/pdfs/bd249.pdf
+F http://www.mospec.com.tw/pdf/power/BD249.pdf
 $ENDCMP
 #
 $CMP BD249B
-D 25A Ic, 90V Vce, Silicon Power NPN Transistors, SOT-93
+D 25A Ic, 90V Vce, Silicon Power NPN Transistors, SOT-93/TO247
 K Power NPN Transistor
-F http://www.bourns.com/data/global/pdfs/bd249.pdf
+F http://www.mospec.com.tw/pdf/power/BD249.pdf
 $ENDCMP
 #
 $CMP BD249C
-D 25A Ic, 115V Vce, Silicon Power NPN Transistors, SOT-93
+D 25A Ic, 115V Vce, Silicon Power NPN Transistors, SOT-93/TO247
 K Power NPN Transistor
-F http://www.bourns.com/data/global/pdfs/bd249.pdf
+F http://www.mospec.com.tw/pdf/power/BD249.pdf
 $ENDCMP
 #
 $CMP BD250
-D 25A Ic, 55V Vce, Silicon Power PNP Transistors, SOT-93
+D 25A Ic, 55V Vce, Silicon Power PNP Transistors, SOT-93/TO247
 K Power PNP Transistor
-F http://www.bourns.com/data/global/pdfs/bd250.pdf
+F http://www.mospec.com.tw/pdf/power/BD249.pdf
 $ENDCMP
 #
 $CMP BD250A
-D 25A Ic, 70V Vce, Silicon Power PNP Transistors, SOT-93
+D 25A Ic, 70V Vce, Silicon Power PNP Transistors, SOT-93/TO247
 K Power PNP Transistor
-F http://www.bourns.com/data/global/pdfs/bd250.pdf
+F http://www.mospec.com.tw/pdf/power/BD249.pdf
 $ENDCMP
 #
 $CMP BD250B
-D 25A Ic, 90V Vce, Silicon Power PNP Transistors, SOT-93
+D 25A Ic, 90V Vce, Silicon Power PNP Transistors, SOT-93/TO247
 K Power PNP Transistor
-F http://www.bourns.com/data/global/pdfs/bd250.pdf
+F http://www.mospec.com.tw/pdf/power/BD249.pdf
 $ENDCMP
 #
 $CMP BD250C
-D 25A Ic, 115V Vce, Silicon Power PNP Transistors, SOT-93
+D 25A Ic, 115V Vce, Silicon Power PNP Transistors, SOT-93/TO247
 K Power PNP Transistor
-F http://www.bourns.com/data/global/pdfs/bd250.pdf
+F http://www.mospec.com.tw/pdf/power/BD249.pdf
 $ENDCMP
 #
 $CMP BD433
@@ -1563,13 +1563,25 @@ F http://www.fairchildsemi.com/ds/TI/TIP125.pdf
 $ENDCMP
 #
 $CMP TIP2955
-D -15A Ic, -60V Vce, Power PNP Transistor, TO-218/TO-247
+D -15A Ic, -60V Vce, Power PNP Transistor, TO-218
+K power PNP Transistor
+F http://www.onsemi.com/pub_link/Collateral/TIP3055-D.PDF
+$ENDCMP
+#
+$CMP TIP2955G
+D -15A Ic, -60V Vce, Power PNP Transistor, TO-247
 K power PNP Transistor
 F http://www.onsemi.com/pub_link/Collateral/TIP3055-D.PDF
 $ENDCMP
 #
 $CMP TIP3055
-D 15A Ic, 60V Vce, Power NPN Transistor, TO-218/TO-247
+D 15A Ic, 60V Vce, Power NPN Transistor, TO-218
+K power NPN Transistor
+F http://www.onsemi.com/pub_link/Collateral/TIP3055-D.PDF
+$ENDCMP
+#
+$CMP TIP3055G
+D 15A Ic, 60V Vce, Power NPN Transistor, TO-247
 K power NPN Transistor
 F http://www.onsemi.com/pub_link/Collateral/TIP3055-D.PDF
 $ENDCMP
