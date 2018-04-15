@@ -1902,6 +1902,12 @@ K resistor variable trimpot trimmer
 F ~
 $ENDCMP
 #
+$CMP R_POT_US
+D Potentiometer US symbol
+K resistor variable
+F ~
+$ENDCMP
+#
 $CMP R_Pack02
 D 2 Resistor network, parallel topology, DIP package
 K R Network parallel topology
