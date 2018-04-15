@@ -2046,6 +2046,12 @@ K thermistor NTC resistor sensor RTD
 F ~
 $ENDCMP
 #
+$CMP Thermistor_NTC_US
+D temperature dependent resistor, negative temperature coefficient (NTC) US symbol
+K thermistor NTC resistor sensor RTD
+F ~
+$ENDCMP
+#
 $CMP Thermistor_PTC
 D temperature dependent resistor, positive temperature coefficient (PTC)
 K resistor PTC thermistor sensor RTD
