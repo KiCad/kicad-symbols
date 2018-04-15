@@ -2148,6 +2148,12 @@ K resistor PTC thermistor sensor RTD
 F ~
 $ENDCMP
 #
+$CMP Thermistor_PTC_US
+D temperature dependent resistor, positive temperature coefficient (PTC) US symbol
+K resistor PTC thermistor sensor RTD
+F ~
+$ENDCMP
+#
 $CMP Thermistor_US
 D Thermistor, temperature-dependent resistor US symbol
 K r res thermistor
