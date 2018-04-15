@@ -1902,6 +1902,12 @@ K resistor variable trimpot trimmer
 F ~
 $ENDCMP
 #
+$CMP R_POT_TRIM_US
+D Trim-Potentiometer US symbol
+K resistor variable trimpot trimmer
+F ~
+$ENDCMP
+#
 $CMP R_POT_US
 D Potentiometer US symbol
 K resistor variable
