@@ -1956,6 +1956,12 @@ K r res resistor variable potentiometer
 F ~
 $ENDCMP
 #
+$CMP R_Variable_US
+D variable Resistor (Rheostat) US symbol
+K r res resistor variable potentiometer
+F ~
+$ENDCMP
+#
 $CMP Resonator
 D Three pin ceramic resonator
 K Ceramic Resonator
