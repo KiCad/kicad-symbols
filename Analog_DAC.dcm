@@ -360,6 +360,18 @@ K I2C DAC 8-bit
 F http://www.ti.com/lit/ds/symlink/dac081c081.pdf
 $ENDCMP
 #
+$CMP DAC101C081CIMK
+D 10-bit Micropower DAC with I2C-Compatible Interface, SOT-23-6
+K I2C DAC 10-bit
+F http://www.ti.com/lit/ds/symlink/dac101c081.pdf
+$ENDCMP
+#
+$CMP DAC121C081CIMK
+D 12-bit Micropower DAC with I2C-Compatible Interface, SOT-23-6
+K I2C DAC 12-bit
+F http://www.ti.com/lit/ds/symlink/dac121c081.pdf
+$ENDCMP
+#
 $CMP DAC7513_DCN
 D Low-Power, Rail-to-Rail Output, 12-Bit Serial Input DAC
 K TI DAC 12 bit
