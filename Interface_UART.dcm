@@ -255,6 +255,12 @@ K rs232 uart transceiver line-driver
 F https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf
 $ENDCMP
 #
+$CMP MAX3284E
+D ±15kV ESD-Protected 52Mbps, 3V to 5.5V, SOT23 RS-485/RS-422 True Fail-Safe Receivers
+K ±15kV ESD-Protected 52Mbps, 3V to 5.5V, RS-485/RS-422 True Fail-Safe Receivers
+F https://datasheets.maximintegrated.com/en/ds/MAX3280E-MAX3284E.pdf
+$ENDCMP
+#
 $CMP MAX3483
 D True RS-485/RS-422, 0.25Mbps, Slew-Rate Limited, with low-power shutdown, with receiver/driver enable, 32 receiver drive capacitity, DIP-8 and SOIC-8
 K RS-485 RS-422 UART line-driver transceiver
