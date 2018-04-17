@@ -30,6 +30,12 @@ K energy harvesting li-ion battery solar TEG
 F http://www.ti.com/lit/ds/symlink/bq25504.pdf
 $ENDCMP
 #
+$CMP BQ25601
+D I2C Controlled 3A Single-Cell Battery Charger for High Input Voltage and Narrow Voltage DC Power Path Management, WQFN-32
+K LiPO charger
+F http://www.ti.com/lit/ds/symlink/bq25601.pdf
+$ENDCMP
+#
 $CMP BQ27441-G1
 D System Side Li Ion/Polymer Fuel Gauge, PDSON-12
 K Fuel Gauge

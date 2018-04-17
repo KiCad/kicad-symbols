@@ -42,6 +42,12 @@ K ADC CAN VIDEO
 F http://www.ti.com/lit/ds/symlink/adc08060.pdf
 $ENDCMP
 #
+$CMP ADC081C021CIMM
+D I2C-Compatible, 8-Bit Analog-to-Digital Converter with Alert Function, MSOP-8
+K ADC I2C 8-bit Alert
+F http://www.ti.com/lit/ds/symlink/adc081c021.pdf
+$ENDCMP
+#
 $CMP ADC0832
 D 2 inputs AD Converter (serial output),
 K ADC CAN
@@ -141,6 +147,12 @@ $ENDCMP
 $CMP CA3300
 D Convertisseur A->D 6 bits rapide
 K ADC CAN
+$ENDCMP
+#
+$CMP INA226
+D High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C Compatible Interface, MSOP-10
+K ADC I2C 16-Bit Oversampling Current Shunt
+F http://www.ti.com/lit/ds/symlink/ina226.pdf
 $ENDCMP
 #
 $CMP LTC1406CGN

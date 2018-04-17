@@ -1548,6 +1548,54 @@ K REGULATOR LDO 5.0V
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
 $ENDCMP
 #
+$CMP LD39015M08R
+D 150 mA low quiescent current low noise voltage regulator, Fixed Output 0.8V, SOT-23-5
+K 150mA LDO Regulator Fixed Positive
+F http://www.st.com/resource/en/datasheet/ld39015.pdf
+$ENDCMP
+#
+$CMP LD39015M10R
+D 150 mA low quiescent current low noise voltage regulator, Fixed Output 1.0V, SOT-23-5
+K 150mA LDO Regulator Fixed Positive
+F http://www.st.com/resource/en/datasheet/ld39015.pdf
+$ENDCMP
+#
+$CMP LD39015M12R
+D 150 mA low quiescent current low noise voltage regulator, Fixed Output 1.2V, SOT-23-5
+K 150mA LDO Regulator Fixed Positive
+F http://www.st.com/resource/en/datasheet/ld39015.pdf
+$ENDCMP
+#
+$CMP LD39015M125R
+D 150 mA low quiescent current low noise voltage regulator, Fixed Output 1.25V, SOT-23-5
+K 150mA LDO Regulator Fixed Positive
+F http://www.st.com/resource/en/datasheet/ld39015.pdf
+$ENDCMP
+#
+$CMP LD39015M15R
+D 150 mA low quiescent current low noise voltage regulator, Fixed Output 1.5V, SOT-23-5
+K 150mA LDO Regulator Fixed Positive
+F http://www.st.com/resource/en/datasheet/ld39015.pdf
+$ENDCMP
+#
+$CMP LD39015M18R
+D 150 mA low quiescent current low noise voltage regulator, Fixed Output 1.8V, SOT-23-5
+K 150mA LDO Regulator Fixed Positive
+F http://www.st.com/resource/en/datasheet/ld39015.pdf
+$ENDCMP
+#
+$CMP LD39015M25R
+D 150 mA low quiescent current low noise voltage regulator, Fixed Output 2.5V, SOT-23-5
+K 150mA LDO Regulator Fixed Positive
+F http://www.st.com/resource/en/datasheet/ld39015.pdf
+$ENDCMP
+#
+$CMP LD39015M33R
+D 150 mA low quiescent current low noise voltage regulator, Fixed Output 3.3V, SOT-23-5
+K 150mA LDO Regulator Fixed Positive
+F http://www.st.com/resource/en/datasheet/ld39015.pdf
+$ENDCMP
+#
 $CMP LD3985G122R_TSOT23
 D 150 mA Low Dropout Voltage Regulator, Fixed Output 1.22V, TSOT-23-5
 K 150mA LDO Regulator Fixed Positive
@@ -4768,6 +4816,66 @@ $CMP TPS72218
 D Low input voltage 50mA LDO, 1.8V fixed output voltage, SOT-23-5
 K linear low dropout Regulator fixed
 F http://www.ti.com/lit/ds/symlink/tps722.pdf
+$ENDCMP
+#
+$CMP TPS73101DBV
+D Cap free NMOS 150mA Low Drop Adjustable Out Regulator, SOT-23-5
+K Cap free Adjustable LDO 150mA
+F http://www.ti.com/lit/ds/symlink/tps731.pdf
+$ENDCMP
+#
+$CMP TPS731125DBV
+D Cap free NMOS 150mA Low Drop 1.25V Regulator, SOT-23-5
+K Cap free Fixed LDO 150mA
+F http://www.ti.com/lit/ds/symlink/tps731.pdf
+$ENDCMP
+#
+$CMP TPS73115DBV
+D Cap free NMOS 150mA Low Drop 1.5V Regulator, SOT-23-5
+K Cap free Fixed LDO 150mA
+F http://www.ti.com/lit/ds/symlink/tps731.pdf
+$ENDCMP
+#
+$CMP TPS73118DBV
+D Cap free NMOS 150mA Low Drop 1.8V Regulator, SOT-23-5
+K Cap free Fixed LDO 150mA
+F http://www.ti.com/lit/ds/symlink/tps731.pdf
+$ENDCMP
+#
+$CMP TPS73125DBV
+D Cap free NMOS 150mA Low Drop 2.5V Regulator, SOT-23-5
+K Cap free Fixed LDO 150mA
+F http://www.ti.com/lit/ds/symlink/tps731.pdf
+$ENDCMP
+#
+$CMP TPS73130DBV
+D Cap free NMOS 150mA Low Drop 3.0V Regulator, SOT-23-5
+K Cap free Fixed LDO 150mA
+F http://www.ti.com/lit/ds/symlink/tps731.pdf
+$ENDCMP
+#
+$CMP TPS73131DBV
+D Cap free NMOS 150mA Low Drop 3.1V Regulator, SOT-23-5
+K Cap free Fixed LDO 150mA
+F http://www.ti.com/lit/ds/symlink/tps731.pdf
+$ENDCMP
+#
+$CMP TPS73132DBV
+D Cap free NMOS 150mA Low Drop 3.2V Regulator, SOT-23-5
+K Cap free Fixed LDO 150mA
+F http://www.ti.com/lit/ds/symlink/tps731.pdf
+$ENDCMP
+#
+$CMP TPS73133DBV
+D Cap free NMOS 150mA Low Drop 3.3V Regulator, SOT-23-5
+K Cap free Fixed LDO 150mA
+F http://www.ti.com/lit/ds/symlink/tps731.pdf
+$ENDCMP
+#
+$CMP TPS73150DBV
+D Cap free NMOS 150mA Low Drop 5.0V Regulator, SOT-23-5
+K Cap free Fixed LDO 150mA
+F http://www.ti.com/lit/ds/symlink/tps731.pdf
 $ENDCMP
 #
 $CMP TPS73601DBV

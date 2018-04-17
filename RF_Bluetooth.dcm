@@ -24,8 +24,8 @@ K Bluetooth Low Energy nRF8001
 F https://www.olimex.com/Products/Modules/RF/MOD-nRF8001/
 $ENDCMP
 #
-$CMP NRF8001
-D BLE chip from Nordic Semiconductor
+$CMP nRF8001
+D BLE LE Connectivity IC, QFN-32
 K BLE, bluetooth
 F https://www.nordicsemi.com/eng/nordic/content_download/2981/38488/file/nRF8001_PS_v1.3.pdf
 $ENDCMP
@@ -64,30 +64,6 @@ $CMP SPBTLE-RF0
 D Very Low Power network processor module for BLE v4.1
 K BLE bluetooth module low-power
 F http://www.st.com/resource/en/datasheet/spbtle-rf0.pdf
-$ENDCMP
-#
-$CMP nRF51x22-QFxx
-D Multiprotocol BLE/2.4GHz Cortex-M0+ SoC
-K MCU, ARM, BLE, 2.4GHz
-F http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.3.pdf
-$ENDCMP
-#
-$CMP nRF52810-QCxx
-D Multiprotocol BLE/2.4GHz Cortex-M4 SoC, QFN-32
-K MCU, ARM, BLE, 2.4GHz
-F http://infocenter.nordicsemi.com/pdf/nRF52810_PS_v1.1.pdf
-$ENDCMP
-#
-$CMP nRF52810-QFxx
-D Multiprotocol BLE/2.4GHz Cortex-M4 SoC, QFN-48
-K MCU, ARM, BLE, 2.4GHz
-F http://infocenter.nordicsemi.com/pdf/nRF52810_PS_v1.1.pdf
-$ENDCMP
-#
-$CMP nRF52832-QFxx
-D Multiprotocol BLE/2.4GHz Cortex-M4 SoC, QFN-48
-K MCU, ARM, BLE, 2.4GHz
-F http://infocenter.nordicsemi.com/pdf/nRF52832_PS_v1.4.pdf
 $ENDCMP
 #
 #End Doc Library
