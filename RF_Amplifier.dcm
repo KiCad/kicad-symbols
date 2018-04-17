@@ -1,0 +1,124 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADL5541
+D 20-6000MHz RF/IF +15dB gain block, LFCSP-8
+K RF GAIN BLOCK
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADL5541.pdf
+$ENDCMP
+#
+$CMP ADL5542
+D 20-6000MHz RF/IF +20dB gain block, LFCSP-8
+K RF GAIN BLOCK
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADL5542.pdf
+$ENDCMP
+#
+$CMP ADL5610
+D 30-6000MHz RF/IF +18.4dB gain block, SOT-89
+K RF GAIN BLOCK
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADL5610.pdf
+$ENDCMP
+#
+$CMP BGA2800
+D MMIC wideband amplifier, DC-2.2GHz, +20.2dB @ 2150MHz, 3.3V, SOT-363
+K RF GAIN BLOCK
+F https://www.nxp.com/docs/en/data-sheet/BGA2800.pdf
+$ENDCMP
+#
+$CMP BGA2801
+D MMIC wideband amplifier, DC-2.2GHz, +23dB @ 2120MHz, 3.3V, SOT-363
+K RF GAIN BLOCK
+F https://www.nxp.com/docs/en/data-sheet/BGA2801.pdf
+$ENDCMP
+#
+$CMP BGA2803
+D MMIC wideband amplifier, DC-2.2GHz, +23.6dB @ 950MHz, 3V, SOT-363
+K RF GAIN BLOCK
+F https://www.nxp.com/docs/en/data-sheet/BGA2803.pdf
+$ENDCMP
+#
+$CMP BGA2815
+D MMIC wideband amplifier, DC-2.2GHz, +24.7dB @ 2150MHz, 3.3V, SOT-363
+K RF GAIN BLOCK
+F https://www.nxp.com/docs/en/data-sheet/BGA2815.pdf
+$ENDCMP
+#
+$CMP BGA2817
+D MMIC wideband amplifier, DC-2.2GHz, +24.4dB @ 2150MHz, 3.3V, SOT-363
+K RF GAIN BLOCK
+F https://www.nxp.com/docs/en/data-sheet/BGA2817.pdf
+$ENDCMP
+#
+$CMP BGA2818
+D MMIC wideband amplifier, DC-2.2GHz, +30dB @ 2150MHz, 3.3V, SOT-363
+K RF GAIN BLOCK
+F https://www.nxp.com/docs/en/data-sheet/BGA2818.pdf
+$ENDCMP
+#
+$CMP BGA2850
+D MMIC wideband amplifier, DC-2.2GHz, +24dB @ 950MHz, 5V, SOT-363
+D DC-2.2GHz  +24.7dB RF amplifier, 5V, SOT-363-6
+K RF GAIN BLOCK
+F https://www.nxp.com/docs/en/data-sheet/BGA2850.pdf
+$ENDCMP
+$CMP BGA2851
+D MMIC wideband amplifier, DC-2.2GHz, +24.8dB @ 950MHz, 5V, SOT-363
+D DC-2.2GHz  +24.7dB RF amplifier, 5V, SOT-363-6
+K RF GAIN BLOCK
+F https://www.nxp.com/docs/en/data-sheet/BGA2851.pdf
+$ENDCMP
+#
+$CMP BGA2865
+D MMIC wideband amplifier, DC-2.2GHz, +32.2dB @ 950MHz, 5V, SOT-363
+K RF GAIN BLOCK
+F https://www.nxp.com/docs/en/data-sheet/BGA2865.pdf
+$ENDCMP
+#
+$CMP BGA2866
+D MMIC wideband amplifier, DC-2.2GHz, +24.3dB @ 2150MHz, 5V, SOT-363
+K RF GAIN BLOCK
+F https://www.nxp.com/docs/en/data-sheet/BGA2866.pdf
+$ENDCMP
+#
+$CMP BGA2867
+D MMIC wideband amplifier, DC-2.2GHz, +26.4dB @ 2150MHz, 5V, SOT-363
+K RF GAIN BLOCK
+F https://www.nxp.com/docs/en/data-sheet/BGA2867.pdf
+$ENDCMP
+#
+$CMP BGA2869
+D MMIC wideband amplifier, DC-2.2GHz, +31.7dB @ 950MHz, 5V, SOT-363
+K RF GAIN BLOCK
+F https://www.nxp.com/docs/en/data-sheet/BGA2869.pdf
+$ENDCMP
+#
+$CMP BGA2870
+D MMIC wideband amplifier, DC-2.2GHz, +31.1dB @ 500MHz, 2.5V, SOT-363
+K RF GAIN BLOCK
+F https://www.nxp.com/docs/en/data-sheet/BGA2870.pdf
+$ENDCMP
+#
+$CMP BGA2874
+D MMIC wideband amplifier, DC-2.2GHz, +31dB @ 750MHz, 2.5V, SOT-363
+K RF GAIN BLOCK
+F https://www.nxp.com/docs/en/data-sheet/BGA2874.pdf
+$ENDCMP
+#
+$CMP MAX2679
+D GPS/GNSS Ultra-Low Current Low-Noise Amplifier, +19dB @ 1.57GHz, WLP-4
+K RF GAIN BLOCK
+F https://datasheets.maximintegrated.com/en/ds/MAX2679-MAX2679B.pdf
+$ENDCMP
+#
+$CMP MAX2679B
+D GPS/GNSS Ultra-Low Current Low-Noise Amplifier, +16.5dB @ 1.57GHz, WLP-4
+K RF GAIN BLOCK
+F https://datasheets.maximintegrated.com/en/ds/MAX2679-MAX2679B.pdf
+$ENDCMP
+#
+$CMP SPF5189Z
+D 50MHz to 4000MHz, GaAs pHEMT low noise MMIC amplifier, SOT-89
+K RF GAIN BLOCK
+F www.qorvo.com/products/d/da001910
+$ENDCMP
+#
+#End Doc Library

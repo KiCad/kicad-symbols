@@ -1,27 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP ESP-12E
-D 802.11 b/g/n Wi-Fi Module
-K 802.11 Wi-Fi
-F http://wiki.ai-thinker.com/_media/esp8266/docs/aithinker_esp_12f_datasheet_en.pdf
-$ENDCMP
-#
-$CMP ESP8266EX
-D Highly integrated Wi-Fi SoC by Espressif, QFN-32
-K espressif esp8266ex wifi soc
-F http://espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf
-$ENDCMP
-#
 $CMP HF-A11-SMT
 D WiFi IEEE802.11b/g/n with Ethernet Module, UART, GPIO
 K WiFi IEEE802.11 b/g/n
 F http://www.hi-flying.com/index.php?route=tool/upload/download&code=190ec6c62d497905ed783d140f8e5af7a753b8ab
-$ENDCMP
-#
-$CMP Particle_P1
-D Wi-Fi module, 1MB flash, 128KB RAM
-K Wi-Fi module
-F https://docs.particle.io/datasheets/p1-datasheet/
 $ENDCMP
 #
 #End Doc Library
