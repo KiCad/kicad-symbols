@@ -73,13 +73,13 @@ F http://www.ti.com/lit/gpn/sn74HC245
 $ENDCMP
 #
 $CMP 74HC590
-D 8-bit Binary Counter with Output Register 3-State Outputs
+D 8-bit Binary Counter with Output Register 3-State Outputs, SOIC-16/TSSOP-16
 K HCMOS Counter 3State
 F https://assets.nexperia.com/documents/data-sheet/74HC590.pdf
 $ENDCMP
 #
 $CMP 74HC590A
-D 8-bit Binary Counter with Output Register 3-State Outputs
+D 8-bit Binary Counter with Output Register 3-State Outputs, DIP-16/SOIC-16/SOIC-16W
 K HCMOS Counter 3State
 F http://www.ti.com/lit/ds/symlink/sn74hc590a.pdf
 $ENDCMP
@@ -967,7 +967,7 @@ F http://www.ti.com/lit/gpn/sn74LS574
 $ENDCMP
 #
 $CMP 74LS590
-D 8-bit Binary Counter with Output Register 3-State Outputs
+D 8-bit Binary Counter with Output Register 3-State Outputs, DIP-16/SOIC-16/SOIC-16W
 K TTL Counter 3State
 F http://www.ti.com/lit/gpn/sn74ls590
 $ENDCMP
