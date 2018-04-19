@@ -78,6 +78,12 @@ K HCMOS Counter 3State
 F https://assets.nexperia.com/documents/data-sheet/74HC590.pdf
 $ENDCMP
 #
+$CMP 74HC590A
+D 8-bit Binary Counter with Output Register 3-State Outputs
+K HCMOS Counter 3State
+F http://www.ti.com/lit/ds/symlink/sn74hc590a.pdf
+$ENDCMP
+#
 $CMP 74HC595
 D 8-bit serial in/out Shift Register 3-State Outputs
 K HCMOS SR 3State
