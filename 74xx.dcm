@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 54HC4051
+D 8-channel analog multiplexer/demultiplexer
+K HCMOS Multiplexer Demultiplexer Analog
+F http://www.ti.com/lit/ds/symlink/cd54hc4051.pdf
+$ENDCMP
+#
+$CMP 54HCT4051
+D 8-channel analog multiplexer/demultiplexer
+K HCMOS Multiplexer Demultiplexer Analog
+F http://www.ti.com/lit/ds/symlink/cd54hct4051.pdf
+$ENDCMP
+#
 $CMP 7400
 D quad 2-input NAND gate
 K TTL nand 2-input
@@ -72,6 +84,24 @@ K HCMOS BUS 3State
 F http://www.ti.com/lit/gpn/sn74HC245
 $ENDCMP
 #
+$CMP 74HC4051
+D 8-channel analog multiplexer/demultiplexer
+K HCMOS Multiplexer Demultiplexer Analog
+F http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf
+$ENDCMP
+#
+$CMP 74HC4051-EP
+D 8-channel analog multiplexer/demultiplexer
+K HCMOS Multiplexer Demultiplexer Analog HiRel
+F http://www.ti.com/lit/ds/symlink/cd74hc4051-ep.pdf
+$ENDCMP
+#
+$CMP 74HC4051-Q1
+D 8-channel analog multiplexer/demultiplexer
+K HCMOS Multiplexer Demultiplexer Analog Automotive
+F http://www.ti.com/lit/ds/symlink/cd74hc4051-q1.pdf
+$ENDCMP
+#
 $CMP 74HC595
 D 8-bit serial in/out Shift Register 3-State Outputs
 K HCMOS SR 3State
@@ -124,6 +154,12 @@ $CMP 74HCT244
 D 8-bit Buffer/Line Driver 3-state
 K TTL BUFFER 3State
 F http://www.nxp.com/documents/data_sheet/74HC_HCT244.pdf
+$ENDCMP
+#
+$CMP 74HCT4051
+D 8-channel analog multiplexer/demultiplexer
+K TTL Multiplexer Demultiplexer Analog
+F http://www.ti.com/lit/ds/symlink/cd74hct4051.pdf
 $ENDCMP
 #
 $CMP 74HCT541
