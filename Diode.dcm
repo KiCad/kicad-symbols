@@ -882,6 +882,12 @@ K diode
 F http://www.diodes.com/datasheets/ds30153.pdf
 $ENDCMP
 #
+$CMP MMBZxx
+D Double Zener Diode, Common Anode, 225mW, SOT-23
+K dual zener diode
+F http://www.onsemi.com/pub/Collateral/MMBZ5V6ALT1-D.PDF
+$ENDCMP
+#
 $CMP MMSD914
 D 100V 0.2A Switching Diode, SOD-123
 K diode
