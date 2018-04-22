@@ -90,6 +90,12 @@ K Dual H-Bridge motor driver
 F http://www.ti.com/lit/ds/symlink/drv8848.pdf
 $ENDCMP
 #
+$CMP DRV8870DDA
+D H-Bridge Motor Driver, 45v, 3.6A, Dynamic current limiting,  HTSOP-8EP
+K H-bridge driver motor current limit
+F http://www.ti.com/lit/ds/symlink/drv8870.pdf
+$ENDCMP
+#
 $CMP L293
 D Quadruple Half-H Drivers
 K Half-H Driver Motor
