@@ -60,6 +60,12 @@ K AC Motor
 F ~
 $ENDCMP
 #
+$CMP Motor_AC_3phase_Delta
+D 3-phase AC Motor with Delta Configuration
+K three phase ac motor
+F https://en.wikipedia.org/wiki/AC_motor
+$ENDCMP
+#
 $CMP Motor_DC
 D DC Motor
 K DC Motor
@@ -112,6 +118,12 @@ $CMP Motor_Servo_Robbe
 D Servo Motor (Robbe connector)
 K Servo Motor
 F http://forums.parallax.com/uploads/attachments/46831/74481.png
+$ENDCMP
+#
+$CMP Stepper_Motor_3phase
+D 3-wire three-phase stepper motor
+K three phase stepper motor
+F https://www.trinamic.com/fileadmin/assets/Support/Appnotes/AN030-TMC5062_3_Phase_Motor.pdf
 $ENDCMP
 #
 $CMP Stepper_Motor_bipolar
