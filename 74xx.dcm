@@ -78,18 +78,6 @@ K HCMOS Multiplexer Demultiplexer Analog
 F http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf
 $ENDCMP
 #
-$CMP 74HC4051-EP
-D 8-channel analog multiplexer/demultiplexer, SOIC-16
-K HCMOS Multiplexer Demultiplexer Analog
-F http://www.ti.com/lit/ds/symlink/cd74hc4051-ep.pdf
-$ENDCMP
-#
-$CMP 74HC4051-Q1
-D 8-channel analog multiplexer/demultiplexer, SOIC-16/TSSOP-16
-K HCMOS Multiplexer Demultiplexer Analog
-F http://www.ti.com/lit/ds/symlink/cd74hc4051-q1.pdf
-$ENDCMP
-#
 $CMP 74HC590
 D 8-bit Binary Counter with Output Register 3-State Outputs, SOIC-16/TSSOP-16
 K HCMOS Counter 3State
