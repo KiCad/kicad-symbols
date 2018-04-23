@@ -177,9 +177,9 @@ K rs485 transceiver
 F https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf
 $ENDCMP
 #
-$CMP MAX14783E
-D High-Speed 42Mbps 3.3V/5V RS-485/RS-422 Transceiver with ±35kV HBM ESD Protection SOIC-8
-K High-Speed 42Mbps 3.3V/5V RS-485/RS-422 Transceiver with ±35kV HBM ESD Protection
+$CMP MAX14783ExS
+D High-Speed 3.3V/5V RS-485/RS-422 Transceiver with ±35kV HBM ESD Protection, SOIC8
+K High-Speed 3.3V/5V RS-485/RS-422 Transceiver ESD 42Mbps
 F https://datasheets.maximintegrated.com/en/ds/MAX14783E.pdf
 $ENDCMP
 #
