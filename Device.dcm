@@ -2262,4 +2262,16 @@ K Voltmeter DC
 F ~
 $ENDCMP
 #
+$CMP Quadrature_Encoder
+D General Quadrature Encoder, Differencial Output
+K encoder quadrature
+F https://en.wikipedia.org/wiki/Rotary_encoder#Incremental_rotary_encoder
+$ENDCMP
+#
+$CMP Quadrature_Encoder_Z
+D General Quadrature Encoder with Z Phase, Differencial Output
+K encoder quadrature
+F https://en.wikipedia.org/wiki/Rotary_encoder#Incremental_rotary_encoder
+$ENDCMP
+#
 #End Doc Library
