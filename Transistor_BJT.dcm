@@ -1408,6 +1408,18 @@ K PNP Transistor
 F https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf
 $ENDCMP
 #
+$CMP MMBT5550L
+D 0.6A Ic, 140V Vce, NPN Transistor, SOT-23
+K NPN Transistor
+F www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF
+$ENDCMP
+#
+$CMP MMBT5551L
+D 0.6A Ic, 160V Vce, NPN Transistor, SOT-23
+K NPN Transistor
+F www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF
+$ENDCMP
+#
 $CMP MMDT2222A
 D 600mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
 K NPN Transistor/NPN
