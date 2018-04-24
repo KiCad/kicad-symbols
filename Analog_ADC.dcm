@@ -54,10 +54,22 @@ K ADC CAN
 F http://www.ti.com/lit/ds/symlink/adc0831-n.pdf
 $ENDCMP
 #
+$CMP ADC101C021CIMM
+D I2C-Compatible, 10-Bit Analog-to-Digital Converter with Alert Function, MSOP-8
+K ADC I2C 10-bit Alert
+F http://www.ti.com/lit/ds/symlink/adc101c021.pdf
+$ENDCMP
+#
 $CMP ADC1173
 D Fast ADC  (15 Mhz), TSSOP-24
 K ADC CAN VIDEO
 F http://www.ti.com/lit/ds/symlink/adc1173.pdf
+$ENDCMP
+#
+$CMP ADC121C021CIMM
+D I2C-Compatible, 12-Bit Analog-to-Digital Converter with Alert Function, MSOP-8
+K ADC I2C 12-bit Alert
+F http://www.ti.com/lit/ds/symlink/adc121c021.pdf
 $ENDCMP
 #
 $CMP ADC128D818
