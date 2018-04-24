@@ -6,66 +6,6 @@ K AVR 8bit Microcontroller tinyAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8127-AVR-8-bit-Microcontroller-ATtiny4-ATtiny5-ATtiny9-ATtiny10_Datasheet.pdf
 $ENDCMP
 #
-$CMP ATtiny11-6PC
-D 6MHz, 1kB Flash, No SRAM, No EEPROM, DIP-8
-K AVR 8bit Microcontroller tinyAVR
-F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny%2011_12%20Complete.pdf
-$ENDCMP
-#
-$CMP ATtiny11-6SC
-D 6MHz, 1kB Flash, No SRAM, No EEPROM, SOIJ-8
-K AVR 8bit Microcontroller tinyAVR
-F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny%2011_12%20Complete.pdf
-$ENDCMP
-#
-$CMP ATtiny11L-2PC
-D 2MHz, 1kB Flash, No SRAM, No EEPROM, DIP-8
-K AVR 8bit Microcontroller tinyAVR
-F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny%2011_12%20Complete.pdf
-$ENDCMP
-#
-$CMP ATtiny11L-2SC
-D 2MHz, 1kB Flash, No SRAM, No EEPROM, SOIJ-8
-K AVR 8bit Microcontroller tinyAVR
-F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny%2011_12%20Complete.pdf
-$ENDCMP
-#
-$CMP ATtiny12-8PC
-D 8MHz, 1kB Flash, No SRAM, 64B EEPROM, DIP-8
-K AVR 8bit Microcontroller tinyAVR
-F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny%2011_12%20Complete.pdf
-$ENDCMP
-#
-$CMP ATtiny12-8SC
-D 8MHz, 1kB Flash, No SRAM, 64B EEPROM, SOIJ-8
-K AVR 8bit Microcontroller tinyAVR
-F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny%2011_12%20Complete.pdf
-$ENDCMP
-#
-$CMP ATtiny12L-4PC
-D 4MHz, 1kB Flash, No SRAM, 64B EEPROM, DIP-8
-K AVR 8bit Microcontroller tinyAVR
-F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny%2011_12%20Complete.pdf
-$ENDCMP
-#
-$CMP ATtiny12L-4SC
-D 4MHz, 1kB Flash, No SRAM, 64B EEPROM, SOIJ-8
-K AVR 8bit Microcontroller tinyAVR
-F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny%2011_12%20Complete.pdf
-$ENDCMP
-#
-$CMP ATtiny12V-1PC
-D 1.2MHz, 1kB Flash, No SRAM, 64B EEPROM, DIP-8
-K AVR 8bit Microcontroller tinyAVR
-F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny%2011_12%20Complete.pdf
-$ENDCMP
-#
-$CMP ATtiny12V-1SC
-D 1.2MHz, 1kB Flash, No SRAM, 64B EEPROM, SOIJ-8
-K AVR 8bit Microcontroller tinyAVR
-F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny%2011_12%20Complete.pdf
-$ENDCMP
-#
 $CMP ATtiny13-20MMU
 D 20MHz, 1kB Flash, 64B SRAM, 64B EEPROM, debugWIRE, DFN-10
 K AVR 8bit Microcontroller tinyAVR
@@ -156,18 +96,6 @@ K AVR 8bit Microcontroller tinyAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2535.pdf
 $ENDCMP
 #
-$CMP ATtiny15L-1PC
-D 1.6MHz, 1kB Flash, No SRAM, 64B EEPROM, DIP-8
-K AVR 8bit Microcontroller tinyAVR
-F http://ww1.microchip.com/downloads/en/DeviceDoc/doc1187.pdf
-$ENDCMP
-#
-$CMP ATtiny15L-1SC
-D 1.6MHz, 1kB Flash, No SRAM, 64B EEPROM, SOIJ-8
-K AVR 8bit Microcontroller tinyAVR
-F http://ww1.microchip.com/downloads/en/DeviceDoc/doc1187.pdf
-$ENDCMP
-#
 $CMP ATtiny1634-MN
 D 12MHz, 16kB Flash, 1kB SRAM, 256B EEPROM, ADC, ACI, debugWIRE, QFN-20
 K AVR 8bit Microcontroller tinyAVR
@@ -226,18 +154,6 @@ $CMP ATtiny20-XU
 D 12MHz, 2kB Flash, 128B SRAM, No EEPROM, TSSOP-14
 K AVR 8bit Microcontroller tinyAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8235-8-bit-avr-microcontroller-attiny20_datasheet.pdf
-$ENDCMP
-#
-$CMP ATtiny22L-1PC
-D 1MHz, 2kB Flash, 128B SRAM, 128B EEPROM, DIP-8
-K AVR 8bit Microcontroller tinyAVR
-F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny22L.pdf
-$ENDCMP
-#
-$CMP ATtiny22L-1SC
-D 1MHz, 2kB Flash, 128B SRAM, 128B EEPROM, SOIJ-8
-K AVR 8bit Microcontroller tinyAVR
-F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny22L.pdf
 $ENDCMP
 #
 $CMP ATtiny2313-20MU
@@ -420,24 +336,6 @@ K AVR 8bit Microcontroller tinyAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc1477.pdf
 $ENDCMP
 #
-$CMP ATtiny261-20MU
-D 20MHz, 2kB Flash, 128B SRAM, 128B EEPROM, QFN-32
-K AVR 8bit Microcontroller tinyAVR
-F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2588-8-bit-avr-microcontrollers-tinyavr-attiny261-attiny461-attiny861_datasheet.pdf
-$ENDCMP
-#
-$CMP ATtiny261-20PU
-D 20MHz, 2kB Flash, 128B SRAM, 128B EEPROM, DIP-20
-K AVR 8bit Microcontroller tinyAVR
-F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2588-8-bit-avr-microcontrollers-tinyavr-attiny261-attiny461-attiny861_datasheet.pdf
-$ENDCMP
-#
-$CMP ATtiny261-20SU
-D 20MHz, 2kB Flash, 128B SRAM, 128B EEPROM, SOIC-20
-K AVR 8bit Microcontroller tinyAVR
-F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2588-8-bit-avr-microcontrollers-tinyavr-attiny261-attiny461-attiny861_datasheet.pdf
-$ENDCMP
-#
 $CMP ATtiny261A-MU
 D 20MHz, 2kB Flash, 128B SRAM, 128B EEPROM, QFN-32
 K AVR 8bit Microcontroller tinyAVR
@@ -460,24 +358,6 @@ $CMP ATtiny261A-XU
 D 20MHz, 2kB Flash, 128B SRAM, 128B EEPROM, TSSOP-20
 K AVR 8bit Microcontroller tinyAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8197.pdf
-$ENDCMP
-#
-$CMP ATtiny261V-10MU
-D 10MHz, 2kB Flash, 128B SRAM, 128B EEPROM, QFN-32
-K AVR 8bit Microcontroller tinyAVR
-F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2588-8-bit-avr-microcontrollers-tinyavr-attiny261-attiny461-attiny861_datasheet.pdf
-$ENDCMP
-#
-$CMP ATtiny261V-10PU
-D 10MHz, 2kB Flash, 128B SRAM, 128B EEPROM, DIP-20
-K AVR 8bit Microcontroller tinyAVR
-F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2588-8-bit-avr-microcontrollers-tinyavr-attiny261-attiny461-attiny861_datasheet.pdf
-$ENDCMP
-#
-$CMP ATtiny261V-10SU
-D 10MHz, 2kB Flash, 128B SRAM, 128B EEPROM, SOIC-20
-K AVR 8bit Microcontroller tinyAVR
-F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2588-8-bit-avr-microcontrollers-tinyavr-attiny261-attiny461-attiny861_datasheet.pdf
 $ENDCMP
 #
 $CMP ATtiny26L-8MU
@@ -702,24 +582,6 @@ K AVR 8bit Microcontroller tinyAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf
 $ENDCMP
 #
-$CMP ATtiny461-20MU
-D 20MHz, 4kB Flash, 256B SRAM, 256B EEPROM, QFN-32
-K AVR 8bit Microcontroller tinyAVR
-F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2588-8-bit-avr-microcontrollers-tinyavr-attiny261-attiny461-attiny861_datasheet.pdf
-$ENDCMP
-#
-$CMP ATtiny461-20PU
-D 20MHz, 4kB Flash, 256B SRAM, 256B EEPROM, DIP-20
-K AVR 8bit Microcontroller tinyAVR
-F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2588-8-bit-avr-microcontrollers-tinyavr-attiny261-attiny461-attiny861_datasheet.pdf
-$ENDCMP
-#
-$CMP ATtiny461-20SU
-D 20MHz, 4kB Flash, 256B SRAM, 256B EEPROM, SOIC-20
-K AVR 8bit Microcontroller tinyAVR
-F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2588-8-bit-avr-microcontrollers-tinyavr-attiny261-attiny461-attiny861_datasheet.pdf
-$ENDCMP
-#
 $CMP ATtiny461A-MU
 D 20MHz, 4kB Flash, 256B SRAM, 256B EEPROM, QFN-32
 K AVR 8bit Microcontroller tinyAVR
@@ -742,24 +604,6 @@ $CMP ATtiny461A-XU
 D 20MHz, 4kB Flash, 256B SRAM, 256B EEPROM, TSSOP-20
 K AVR 8bit Microcontroller tinyAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8197.pdf
-$ENDCMP
-#
-$CMP ATtiny461V-10MU
-D 10MHz, 4kB Flash, 256B SRAM, 256B EEPROM, QFN-32
-K AVR 8bit Microcontroller tinyAVR
-F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2588-8-bit-avr-microcontrollers-tinyavr-attiny261-attiny461-attiny861_datasheet.pdf
-$ENDCMP
-#
-$CMP ATtiny461V-10PU
-D 10MHz, 4kB Flash, 256B SRAM, 256B EEPROM, DIP-20
-K AVR 8bit Microcontroller tinyAVR
-F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2588-8-bit-avr-microcontrollers-tinyavr-attiny261-attiny461-attiny861_datasheet.pdf
-$ENDCMP
-#
-$CMP ATtiny461V-10SU
-D 10MHz, 4kB Flash, 256B SRAM, 256B EEPROM, SOIC-20
-K AVR 8bit Microcontroller tinyAVR
-F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2588-8-bit-avr-microcontrollers-tinyavr-attiny261-attiny461-attiny861_datasheet.pdf
 $ENDCMP
 #
 $CMP ATtiny48-AU
@@ -912,24 +756,6 @@ K AVR 8bit Microcontroller tinyAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf
 $ENDCMP
 #
-$CMP ATtiny861-20MU
-D 20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, QFN-32
-K AVR 8bit Microcontroller tinyAVR
-F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2588-8-bit-avr-microcontrollers-tinyavr-attiny261-attiny461-attiny861_datasheet.pdf
-$ENDCMP
-#
-$CMP ATtiny861-20PU
-D 20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, DIP-20
-K AVR 8bit Microcontroller tinyAVR
-F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2588-8-bit-avr-microcontrollers-tinyavr-attiny261-attiny461-attiny861_datasheet.pdf
-$ENDCMP
-#
-$CMP ATtiny861-20SU
-D 20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, SOIC-20
-K AVR 8bit Microcontroller tinyAVR
-F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2588-8-bit-avr-microcontrollers-tinyavr-attiny261-attiny461-attiny861_datasheet.pdf
-$ENDCMP
-#
 $CMP ATtiny861A-MU
 D 20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, QFN-32
 K AVR 8bit Microcontroller tinyAVR
@@ -952,24 +778,6 @@ $CMP ATtiny861A-XU
 D 20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, TSSOP-20
 K AVR 8bit Microcontroller tinyAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8197.pdf
-$ENDCMP
-#
-$CMP ATtiny861V-10MU
-D 10MHz, 8kB Flash, 512B SRAM, 512B EEPROM, QFN-32
-K AVR 8bit Microcontroller tinyAVR
-F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2588-8-bit-avr-microcontrollers-tinyavr-attiny261-attiny461-attiny861_datasheet.pdf
-$ENDCMP
-#
-$CMP ATtiny861V-10PU
-D 10MHz, 8kB Flash, 512B SRAM, 512B EEPROM, DIP-20
-K AVR 8bit Microcontroller tinyAVR
-F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2588-8-bit-avr-microcontrollers-tinyavr-attiny261-attiny461-attiny861_datasheet.pdf
-$ENDCMP
-#
-$CMP ATtiny861V-10SU
-D 10MHz, 8kB Flash, 512B SRAM, 512B EEPROM, SOIC-20
-K AVR 8bit Microcontroller tinyAVR
-F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2588-8-bit-avr-microcontrollers-tinyavr-attiny261-attiny461-attiny861_datasheet.pdf
 $ENDCMP
 #
 $CMP ATtiny87-MU
