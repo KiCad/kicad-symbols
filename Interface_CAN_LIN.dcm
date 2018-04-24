@@ -234,6 +234,12 @@ K High-Speed CAN Transceiver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf
 $ENDCMP
 #
+$CMP MCP25625-x-SS
+D Stand-Alone CAN Controller with SPI Interface and integated Transceiver, SSOP-28
+K CAN Controller SPI Transceiver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005282B.pdf
+$ENDCMP
+#
 $CMP PCA82C251
 D CAN Transceiver for 24V Systems, SOIC-8
 K BUS CAN
