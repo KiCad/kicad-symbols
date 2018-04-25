@@ -396,10 +396,16 @@ K FLASH-Based 8-Bit CMOS Microcontroller Low Power
 F http://ww1.microchip.com/downloads/en/DeviceDoc/40001839B.pdf
 $ENDCMP
 #
-$CMP PIC16F18346-SS
+$CMP PIC16F18346-SS_0
 D 16384W FLASH, 2048B RAM, 256B EEPROM, SSOP-20
 K FLASH-Based 8-Bit CMOS Microcontroller Low Power
 F http://ww1.microchip.com/downloads/en/DeviceDoc/40001839B.pdf
+$ENDCMP
+#
+$CMP PIC16F18854-SO
+D 4096W FLASH, 512B RAM, 256B EEPROM, SO-28
+K FLASH-Based 8-Bit CMOS Microcontroller Low Power CRC DSM  ADC^2 CLC PLL 32MHz
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC16(L)F18854%20Data%20Sheet_DS40001826C.pdf
 $ENDCMP
 #
 $CMP PIC16F1934-IML
