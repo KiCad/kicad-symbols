@@ -435,6 +435,12 @@ K Low Power Half-Duplex RS-485 Transceiver 10Mbps
 F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
 $ENDCMP
 #
+$CMP ST485EBDR
+D Half duplex RS-485/RS-422, 5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, with low-power shutdown, with receiver/driver enable, 256 transceiver on the bus - 40 to 85 °C, SOIC-8
+K Half duplex RS-485/RS-422, 5 Mbps, ±15kV  256 transceiver bus
+F http://www.st.com/resource/en/datasheet/st485eb.pdf
+$ENDCMP
+#
 $CMP Z8530
 D SCC Serial Communication Controller, DIP-40
 K SCC Serial Communication
