@@ -37,13 +37,7 @@ F http://www.akm.com/akm/en/file/datasheet/AK5394AVS.pdf
 $ENDCMP
 #
 $CMP AS3310
-D ADSR Voltage Controlled Envelope Generator, DIP-16
-K VCEG CEM3310 ALFA
-F http://www.alfarzpp.lv/eng/sc/AS3310.pdf
-$ENDCMP
-#
-$CMP AS3310D
-D ADSR Voltage Controlled Envelope Generator, SOIC-16
+D ADSR Voltage Controlled Envelope Generator, DIP-16/SOIC-16
 K VCEG CEM3310 ALFA
 F http://www.alfarzpp.lv/eng/sc/AS3310.pdf
 $ENDCMP
@@ -73,13 +67,7 @@ F http://www.alfarzpp.lv/eng/sc/AS3330.pdf
 $ENDCMP
 #
 $CMP AS3340
-D Voltage Controlled Oscillator (VCO), DIP-16
-K VCO CEM340 ALFA
-F http://www.alfarzpp.lv/eng/sc/AS3340.pdf
-$ENDCMP
-#
-$CMP AS3340D
-D Voltage Controlled Oscillator (VCO), SOIC-16
+D Voltage Controlled Oscillator (VCO), DIP-16/SOIC-16
 K VCO CEM340 ALFA
 F http://www.alfarzpp.lv/eng/sc/AS3340.pdf
 $ENDCMP
@@ -97,13 +85,7 @@ F http://www.alfarzpp.lv/eng/sc/AS3340.pdf
 $ENDCMP
 #
 $CMP AS3360
-D Dual Voltage Controlled Amplifier (VCA), DIP-14
-K VCA CEM3360 ALFA
-F http://www.alfarzpp.lv/eng/sc/AS3360.pdf
-$ENDCMP
-#
-$CMP AS3360D
-D Dual Voltage Controlled Amplifier (VCA), SOIC-14
+D Dual Voltage Controlled Amplifier (VCA), DIP-14/SOIC-14
 K VCA CEM3360 ALFA
 F http://www.alfarzpp.lv/eng/sc/AS3360.pdf
 $ENDCMP
