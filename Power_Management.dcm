@@ -378,6 +378,18 @@ K high-voltage mosfet-driver hot-swap
 F http://www.ti.com/lit/ds/symlink/lm5060.pdf
 $ENDCMP
 #
+$CMP LMG3410
+D 600-V 12-A Integrated GaN Power Stage, RWH0032A
+K N-Channel GaN MOSFET
+F http://www.ti.com/lit/ds/snosd10c/snosd10c.pdf
+$ENDCMP
+#
+$CMP LMG5200
+D 80-V, 10-A GaN Half-Bridge Power Stage, MOF0009A
+K Dual N-Channel GaN MOSFET
+F http://www.ti.com/lit/ds/symlink/lmg5200.pdf
+$ENDCMP
+#
 $CMP LT1641-1
 D High voltage hot swap controller, +9V to +80V operation, with latching feature
 K high-voltage hot-swap
