@@ -2520,6 +2520,42 @@ K Micropower Voltage Regulator 100mA Positive
 F http://www.ti.com/lit/ds/symlink/lp2950-n.pdf
 $ENDCMP
 #
+$CMP LP2951-30D
+D 100mA Linear LDO Regulator, MicroPower, Fixed Output 3.0V, SO8
+K Linear LDO Regulator 100mA 3V
+F http://www.ti.com/lit/ds/symlink/lp2951.pdf
+$ENDCMP
+#
+$CMP LP2951-33D
+D 100mA Linear LDO Regulator, MicroPower, Fixed Output 3.3V, SO8
+K Linear LDO Regulator 100mA 3.3V
+F http://www.ti.com/lit/ds/symlink/lp2951.pdf
+$ENDCMP
+#
+$CMP LP2951-50D
+D 100mA Linear LDO Regulator, MicroPower, Fixed Output 5.0V, SO8
+K Linear LDO Regulator 100mA 5V
+F http://www.ti.com/lit/ds/symlink/lp2951.pdf
+$ENDCMP
+#
+$CMP LP2951-50DRG
+D 100mA Linear LDO Regulator, MicroPower, Fixed Output 5.0V, PWSON8
+K Linear LDO Regulator 100mA 5V
+F http://www.ti.com/lit/ds/symlink/lp2951.pdf
+$ENDCMP
+#
+$CMP LP2951-50P
+D 100mA Linear LDO Regulator, MicroPower, Fixed Output 5.0V, DIP8
+K Linear LDO Regulator 100mA 5V
+F http://www.ti.com/lit/ds/symlink/lp2951.pdf
+$ENDCMP
+#
+$CMP LP2951D
+D 100mA Linear LDO Regulator, MicroPower, Variable Output, SO8
+K Linear LDO Regulator 100mA variable
+F http://www.ti.com/lit/ds/symlink/lp2951.pdf
+$ENDCMP
+#
 $CMP LP2985-1.8
 D 150mA 16V Low-noise Low-dropout Regulator With Shutdown, 1.8V output voltage, SOT-23-5
 K LDO regulator linear  SOT-23-5
@@ -2574,7 +2610,7 @@ K LDO regulator linear  SOT-23-5
 F http://www.ti.com/lit/ds/symlink/lp2985.pdf
 $ENDCMP
 #
-$CMP LP2987-3.0_SOIC8_VSSOP8
+$CMP LP2987-3.0_SOIC8_VSSOP8_0
 D 200mA Linear LDO Regulator, MicroPower, Fixed Output 3.0V, SO8/MSOP8
 K Linear LDO Regulator 200mA 5V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
@@ -2586,7 +2622,7 @@ K Linear LDO Regulator 200mA 5V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
-$CMP LP2987-3.3_SOIC8_VSSOP8
+$CMP LP2987-3.3_SOIC8_VSSOP8_0
 D 200mA Linear LDO Regulator, MicroPower, Fixed Output 3.3V, SO8/MSOP8
 K Linear LDO Regulator 200mA 5V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
@@ -2598,7 +2634,7 @@ K Linear LDO Regulator 200mA 5V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
-$CMP LP2987-5.0_SOIC8_VSSOP8
+$CMP LP2987-5.0_SOIC8_VSSOP8_0
 D 200mA Linear LDO Regulator, MicroPower, Fixed Output 5.0V, SO8/MSOP8
 K Linear LDO Regulator 200mA 5V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
