@@ -2526,8 +2526,20 @@ K Linear LDO Regulator 100mA 3V
 F http://www.ti.com/lit/ds/symlink/lp2951.pdf
 $ENDCMP
 #
+$CMP LP2951-30DRG
+D 100mA Linear LDO Regulator, MicroPower, Fixed Output 3.0V, PWSON8
+K Linear LDO Regulator 100mA 3V
+F http://www.ti.com/lit/ds/symlink/lp2951.pdf
+$ENDCMP
+#
 $CMP LP2951-33D
 D 100mA Linear LDO Regulator, MicroPower, Fixed Output 3.3V, SO8
+K Linear LDO Regulator 100mA 3.3V
+F http://www.ti.com/lit/ds/symlink/lp2951.pdf
+$ENDCMP
+#
+$CMP LP2951-33DRG
+D 100mA Linear LDO Regulator, MicroPower, Fixed Output 3.3V, PWSON8
 K Linear LDO Regulator 100mA 3.3V
 F http://www.ti.com/lit/ds/symlink/lp2951.pdf
 $ENDCMP
@@ -2553,6 +2565,12 @@ $ENDCMP
 $CMP LP2951D
 D 100mA Linear LDO Regulator, MicroPower, Variable Output, SO8
 K Linear LDO Regulator 100mA variable
+F http://www.ti.com/lit/ds/symlink/lp2951.pdf
+$ENDCMP
+#
+$CMP LP2951DRG
+D 100mA Linear LDO Regulator, MicroPower, Adjustable Output, PWSON8
+K Linear LDO Regulator 100mA Adjustable
 F http://www.ti.com/lit/ds/symlink/lp2951.pdf
 $ENDCMP
 #
