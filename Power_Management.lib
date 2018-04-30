@@ -699,6 +699,18 @@ X OUT 9 200 400 100 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+$CMP LMG3410
+D 600-V 12-A Integrated GaN Power Stage, RWH0032A
+K N-Channel GaN MOSFET
+F http://www.ti.com/lit/ds/snosd10c/snosd10c.pdf
+$ENDCMP
+#
+$CMP LMG5200
+D 80-V, 10-A GaN Half-Bridge Power Stage, MOF0009A
+K Dual N-Channel GaN MOSFET
+F http://www.ti.com/lit/ds/symlink/lmg5200.pdf
+$ENDCMP
+#
 # LT1641-1
 #
 DEF LT1641-1 U 0 40 Y Y 1 F N
