@@ -600,6 +600,10 @@ K Single Pole Reed Relay SPDT
 F https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_SIL.pdf
 $ENDCMP
 #
+$CMP TE-OZ-SS-103LM1
+D TE OZ-SS-103LM1 Power Relay
+$ENDCMP
+#
 $CMP TIANBO-HJR-4102-L
 D TIANBO HJR-4102-L, Single Pole Relay, 5mm Pitch, 3A
 K Single Pole Relay
