@@ -942,6 +942,30 @@ K switching regulator
 F http://www.ti.com/lit/ds/symlink/lm3578a.pdf
 $ENDCMP
 #
+$CMP LM2594-3.3
+D SIMPLE SWITCHER® Power Converter 150-kHz 0.5-A Step-Down Voltage Regulator, 3.3V
+K buck converter switching regulator step-down voltage fixed
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594-5.0
+D SIMPLE SWITCHER® Power Converter 150-kHz 0.5-A Step-Down Voltage Regulator, 5.0V
+K buck converter switching regulator step-down voltage fixed
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594-12
+D SIMPLE SWITCHER® Power Converter 150-kHz 0.5-A Step-Down Voltage Regulator, 12V
+K buck converter switching regulator step-down voltage fixed
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594-ADJ
+D SIMPLE SWITCHER® Power Converter 150-kHz 0.5-A Step-Down Voltage Regulator, adjustable
+K buck converter switching regulator step-down voltage adjustable
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
 $CMP LM2595S-12
 D 12V, 1A Step-Down Voltage Regulator, TO-263-5
 K Step-Down Voltage Regulator 12V 1A
