@@ -251,6 +251,18 @@ K LT ADC 12bit I2C SAR TSSOP
 F http://cds.linear.com/docs/en/datasheet/2309fd.pdf
 $ENDCMP
 #
+$CMP LTC2358-16
+D LTC2358 Buffered Octal, 16 bit, 200ksps/Ch Differential +-10.24V Simultaneous Sampling ADC, 30Vpp common mode range, LQFP-48
+K 16bit Simultaneous Sampling ADC 8 Channels SPI buffered
+F http://www.analog.com/media/en/technical-documentation/data-sheets/235816f.pdf
+$ENDCMP
+#
+$CMP LTC2358-18
+D LTC2358 Buffered Octal, 18 bit, 200ksps/Ch Differential +-10.24V Simultaneous Sampling ADC, 30Vpp common mode range, LQFP-48
+K 18bit Simultaneous Sampling ADC 8 Channels SPI buffered
+F http://www.analog.com/media/en/technical-documentation/data-sheets/235818f.pdf
+$ENDCMP
+#
 $CMP LTC2508CDKD-32
 D 32-Bit Oversampling ADC with Configurable Digital Filter, 0°0C to 70°C, DFN-24 package
 K LT ADC 32bit
