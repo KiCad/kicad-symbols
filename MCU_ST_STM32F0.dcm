@@ -1,0 +1,669 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32F030C6Tx
+D ARM Cortex-M0 MCU, 32KB flash, 4KB RAM, 48MHz, 2.4-3.6V, 39 GPIO, LQFP-48
+K ARM Cortex-M0 STM32F0 STM32F0x0 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00088500.pdf
+$ENDCMP
+#
+$CMP STM32F030C8Tx
+D ARM Cortex-M0 MCU, 64KB flash, 8KB RAM, 48MHz, 2.4-3.6V, 39 GPIO, LQFP-48
+K ARM Cortex-M0 STM32F0 STM32F0x0 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00088500.pdf
+$ENDCMP
+#
+$CMP STM32F030CCTx
+D ARM Cortex-M0 MCU, 256KB flash, 32KB RAM, 48MHz, 2.4-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M0 STM32F0 STM32F0x0 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00088500.pdf
+$ENDCMP
+#
+$CMP STM32F030F4Px
+D ARM Cortex-M0 MCU, 16KB flash, 4KB RAM, 48MHz, 2.4-3.6V, 15 GPIO, TSSOP-20
+K ARM Cortex-M0 STM32F0 STM32F0x0 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00088500.pdf
+$ENDCMP
+#
+$CMP STM32F030K6Tx
+D ARM Cortex-M0 MCU, 32KB flash, 4KB RAM, 48MHz, 2.4-3.6V, 25 GPIO, LQFP-32
+K ARM Cortex-M0 STM32F0 STM32F0x0 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00088500.pdf
+$ENDCMP
+#
+$CMP STM32F030R8Tx
+D ARM Cortex-M0 MCU, 64KB flash, 8KB RAM, 48MHz, 2.4-3.6V, 55 GPIO, LQFP-64
+K ARM Cortex-M0 STM32F0 STM32F0x0 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00088500.pdf
+$ENDCMP
+#
+$CMP STM32F030RCTx
+D ARM Cortex-M0 MCU, 256KB flash, 32KB RAM, 48MHz, 2.4-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M0 STM32F0 STM32F0x0 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00088500.pdf
+$ENDCMP
+#
+$CMP STM32F031C4Tx
+D ARM Cortex-M0 MCU, 16KB flash, 4KB RAM, 48MHz, 2-3.6V, 39 GPIO, LQFP-48
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00104043.pdf
+$ENDCMP
+#
+$CMP STM32F031C6Tx
+D ARM Cortex-M0 MCU, 32KB flash, 4KB RAM, 48MHz, 2-3.6V, 39 GPIO, LQFP-48
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00104043.pdf
+$ENDCMP
+#
+$CMP STM32F031E6Yx
+D ARM Cortex-M0 MCU, 32KB flash, 4KB RAM, 48MHz, 2-3.6V, 20 GPIO, WLCSP-25
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00104043.pdf
+$ENDCMP
+#
+$CMP STM32F031F4Px
+D ARM Cortex-M0 MCU, 16KB flash, 4KB RAM, 48MHz, 2-3.6V, 15 GPIO, TSSOP-20
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00104043.pdf
+$ENDCMP
+#
+$CMP STM32F031F6Px
+D ARM Cortex-M0 MCU, 32KB flash, 4KB RAM, 48MHz, 2-3.6V, 15 GPIO, TSSOP-20
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00104043.pdf
+$ENDCMP
+#
+$CMP STM32F031G4Ux
+D ARM Cortex-M0 MCU, 16KB flash, 4KB RAM, 48MHz, 2-3.6V, 23 GPIO, UFQFPN-28
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00104043.pdf
+$ENDCMP
+#
+$CMP STM32F031G6Ux
+D ARM Cortex-M0 MCU, 32KB flash, 4KB RAM, 48MHz, 2-3.6V, 23 GPIO, UFQFPN-28
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00104043.pdf
+$ENDCMP
+#
+$CMP STM32F031K4Ux
+D ARM Cortex-M0 MCU, 16KB flash, 4KB RAM, 48MHz, 2-3.6V, 27 GPIO, UFQFPN-32
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00104043.pdf
+$ENDCMP
+#
+$CMP STM32F031K6Ux
+D ARM Cortex-M0 MCU, 32KB flash, 4KB RAM, 48MHz, 2-3.6V, 27 GPIO, UFQFPN-32
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00104043.pdf
+$ENDCMP
+#
+$CMP STM32F031K6Tx
+D ARM Cortex-M0 MCU, 32KB flash, 4KB RAM, 48MHz, 2-3.6V, 25 GPIO, LQFP-32
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00104043.pdf
+$ENDCMP
+#
+$CMP STM32F038C6Tx
+D ARM Cortex-M0 MCU, 32KB flash, 4KB RAM, 48MHz, 1.65-1.95V, 38 GPIO, LQFP-48
+K ARM Cortex-M0 STM32F0 STM32F0x8
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00110868.pdf
+$ENDCMP
+#
+$CMP STM32F038E6Yx
+D ARM Cortex-M0 MCU, 32KB flash, 4KB RAM, 48MHz, 1.65-1.95V, 20 GPIO, WLCSP-25
+K ARM Cortex-M0 STM32F0 STM32F0x8
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00110868.pdf
+$ENDCMP
+#
+$CMP STM32F038F6Px
+D ARM Cortex-M0 MCU, 32KB flash, 4KB RAM, 48MHz, 1.65-1.95V, 14 GPIO, TSSOP-20
+K ARM Cortex-M0 STM32F0 STM32F0x8
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00110868.pdf
+$ENDCMP
+#
+$CMP STM32F038G6Ux
+D ARM Cortex-M0 MCU, 32KB flash, 4KB RAM, 48MHz, 1.65-1.95V, 22 GPIO, UFQFPN-28
+K ARM Cortex-M0 STM32F0 STM32F0x8
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00110868.pdf
+$ENDCMP
+#
+$CMP STM32F038K6Ux
+D ARM Cortex-M0 MCU, 32KB flash, 4KB RAM, 48MHz, 1.65-1.95V, 26 GPIO, UFQFPN-32
+K ARM Cortex-M0 STM32F0 STM32F0x8
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00110868.pdf
+$ENDCMP
+#
+$CMP STM32F042C4Tx
+D ARM Cortex-M0 MCU, 16KB flash, 6KB RAM, 48MHz, 2-3.6V, 38 GPIO, LQFP-48
+K ARM Cortex-M0 STM32F0 STM32F0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf
+$ENDCMP
+#
+$CMP STM32F042C6Tx
+D ARM Cortex-M0 MCU, 32KB flash, 6KB RAM, 48MHz, 2-3.6V, 38 GPIO, LQFP-48
+K ARM Cortex-M0 STM32F0 STM32F0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf
+$ENDCMP
+#
+$CMP STM32F042C4Ux
+D ARM Cortex-M0 MCU, 16KB flash, 6KB RAM, 48MHz, 2-3.6V, 38 GPIO, UFQFPN-48
+K ARM Cortex-M0 STM32F0 STM32F0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf
+$ENDCMP
+#
+$CMP STM32F042C6Ux
+D ARM Cortex-M0 MCU, 32KB flash, 6KB RAM, 48MHz, 2-3.6V, 38 GPIO, UFQFPN-48
+K ARM Cortex-M0 STM32F0 STM32F0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf
+$ENDCMP
+#
+$CMP STM32F042F4Px
+D ARM Cortex-M0 MCU, 16KB flash, 6KB RAM, 48MHz, 2-3.6V, 16 GPIO, TSSOP-20
+K ARM Cortex-M0 STM32F0 STM32F0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf
+$ENDCMP
+#
+$CMP STM32F042F6Px
+D ARM Cortex-M0 MCU, 32KB flash, 6KB RAM, 48MHz, 2-3.6V, 16 GPIO, TSSOP-20
+K ARM Cortex-M0 STM32F0 STM32F0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf
+$ENDCMP
+#
+$CMP STM32F042G4Ux
+D ARM Cortex-M0 MCU, 16KB flash, 6KB RAM, 48MHz, 2-3.6V, 23 GPIO, UFQFPN-28
+K ARM Cortex-M0 STM32F0 STM32F0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf
+$ENDCMP
+#
+$CMP STM32F042G6Ux
+D ARM Cortex-M0 MCU, 32KB flash, 6KB RAM, 48MHz, 2-3.6V, 23 GPIO, UFQFPN-28
+K ARM Cortex-M0 STM32F0 STM32F0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf
+$ENDCMP
+#
+$CMP STM32F042K4Tx
+D ARM Cortex-M0 MCU, 16KB flash, 6KB RAM, 48MHz, 2-3.6V, 26 GPIO, LQFP-32
+K ARM Cortex-M0 STM32F0 STM32F0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf
+$ENDCMP
+#
+$CMP STM32F042K6Tx
+D ARM Cortex-M0 MCU, 32KB flash, 6KB RAM, 48MHz, 2-3.6V, 26 GPIO, LQFP-32
+K ARM Cortex-M0 STM32F0 STM32F0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf
+$ENDCMP
+#
+$CMP STM32F042K4Ux
+D ARM Cortex-M0 MCU, 16KB flash, 6KB RAM, 48MHz, 2-3.6V, 28 GPIO, UFQFPN-32
+K ARM Cortex-M0 STM32F0 STM32F0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf
+$ENDCMP
+#
+$CMP STM32F042K6Ux
+D ARM Cortex-M0 MCU, 32KB flash, 6KB RAM, 48MHz, 2-3.6V, 28 GPIO, UFQFPN-32
+K ARM Cortex-M0 STM32F0 STM32F0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf
+$ENDCMP
+#
+$CMP STM32F042T6Yx
+D ARM Cortex-M0 MCU, 32KB flash, 6KB RAM, 48MHz, 2-3.6V, 30 GPIO, WLCSP-36
+K ARM Cortex-M0 STM32F0 STM32F0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf
+$ENDCMP
+#
+$CMP STM32F048C6Ux
+D ARM Cortex-M0 MCU, 32KB flash, 6KB RAM, 48MHz, 1.65-1.95V, 37 GPIO, UFQFPN-48
+K ARM Cortex-M0 STM32F0 STM32F0x8
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00109264.pdf
+$ENDCMP
+#
+$CMP STM32F048G6Ux
+D ARM Cortex-M0 MCU, 32KB flash, 6KB RAM, 48MHz, 1.65-1.95V, 22 GPIO, UFQFPN-28
+K ARM Cortex-M0 STM32F0 STM32F0x8
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00109264.pdf
+$ENDCMP
+#
+$CMP STM32F048T6Yx
+D ARM Cortex-M0 MCU, 32KB flash, 6KB RAM, 48MHz, 1.65-1.95V, 29 GPIO, WLCSP-36
+K ARM Cortex-M0 STM32F0 STM32F0x8
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00109264.pdf
+$ENDCMP
+#
+$CMP STM32F051C4Tx
+D ARM Cortex-M0 MCU, 16KB flash, 8KB RAM, 48MHz, 2-3.6V, 39 GPIO, LQFP-48
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039193.pdf
+$ENDCMP
+#
+$CMP STM32F051C4Ux
+D ARM Cortex-M0 MCU, 16KB flash, 8KB RAM, 48MHz, 2-3.6V, 39 GPIO, UFQFPN-48
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039193.pdf
+$ENDCMP
+#
+$CMP STM32F051C6Tx
+D ARM Cortex-M0 MCU, 32KB flash, 8KB RAM, 48MHz, 2-3.6V, 39 GPIO, LQFP-48
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039193.pdf
+$ENDCMP
+#
+$CMP STM32F051C6Ux
+D ARM Cortex-M0 MCU, 32KB flash, 8KB RAM, 48MHz, 2-3.6V, 39 GPIO, UFQFPN-48
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039193.pdf
+$ENDCMP
+#
+$CMP STM32F051C8Tx
+D ARM Cortex-M0 MCU, 64KB flash, 8KB RAM, 48MHz, 2-3.6V, 39 GPIO, LQFP-48
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039193.pdf
+$ENDCMP
+#
+$CMP STM32F051C8Ux
+D ARM Cortex-M0 MCU, 64KB flash, 8KB RAM, 48MHz, 2-3.6V, 39 GPIO, UFQFPN-48
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039193.pdf
+$ENDCMP
+#
+$CMP STM32F051K4Tx
+D ARM Cortex-M0 MCU, 16KB flash, 8KB RAM, 48MHz, 2-3.6V, 25 GPIO, LQFP-32
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039193.pdf
+$ENDCMP
+#
+$CMP STM32F051K4Ux
+D ARM Cortex-M0 MCU, 16KB flash, 8KB RAM, 48MHz, 2-3.6V, 27 GPIO, UFQFPN-32
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039193.pdf
+$ENDCMP
+#
+$CMP STM32F051K6Tx
+D ARM Cortex-M0 MCU, 32KB flash, 8KB RAM, 48MHz, 2-3.6V, 25 GPIO, LQFP-32
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039193.pdf
+$ENDCMP
+#
+$CMP STM32F051K6Ux
+D ARM Cortex-M0 MCU, 32KB flash, 8KB RAM, 48MHz, 2-3.6V, 27 GPIO, UFQFPN-32
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039193.pdf
+$ENDCMP
+#
+$CMP STM32F051K8Tx
+D ARM Cortex-M0 MCU, 64KB flash, 8KB RAM, 48MHz, 2-3.6V, 25 GPIO, LQFP-32
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039193.pdf
+$ENDCMP
+#
+$CMP STM32F051K8Ux
+D ARM Cortex-M0 MCU, 64KB flash, 8KB RAM, 48MHz, 2-3.6V, 27 GPIO, UFQFPN-32
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039193.pdf
+$ENDCMP
+#
+$CMP STM32F051R4Tx
+D ARM Cortex-M0 MCU, 16KB flash, 8KB RAM, 48MHz, 2-3.6V, 55 GPIO, LQFP-64
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039193.pdf
+$ENDCMP
+#
+$CMP STM32F051R6Tx
+D ARM Cortex-M0 MCU, 32KB flash, 8KB RAM, 48MHz, 2-3.6V, 55 GPIO, LQFP-64
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039193.pdf
+$ENDCMP
+#
+$CMP STM32F051R8Hx
+D ARM Cortex-M0 MCU, 64KB flash, 8KB RAM, 48MHz, 2-3.6V, 55 GPIO, UFBGA-64
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039193.pdf
+$ENDCMP
+#
+$CMP STM32F051R8Tx
+D ARM Cortex-M0 MCU, 64KB flash, 8KB RAM, 48MHz, 2-3.6V, 55 GPIO, LQFP-64
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039193.pdf
+$ENDCMP
+#
+$CMP STM32F051T8Yx
+D ARM Cortex-M0 MCU, 64KB flash, 8KB RAM, 48MHz, 2-3.6V, 29 GPIO, WLCSP-36
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039193.pdf
+$ENDCMP
+#
+$CMP STM32F058C8Ux
+D ARM Cortex-M0 MCU, 64KB flash, 8KB RAM, 48MHz, 1.65-1.95V, 38 GPIO, UFQFPN-48
+K ARM Cortex-M0 STM32F0 STM32F0x8
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00059126.pdf
+$ENDCMP
+#
+$CMP STM32F058R8Hx
+D ARM Cortex-M0 MCU, 64KB flash, 8KB RAM, 48MHz, 1.65-1.95V, 54 GPIO, UFBGA-64
+K ARM Cortex-M0 STM32F0 STM32F0x8
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00059126.pdf
+$ENDCMP
+#
+$CMP STM32F058R8Tx
+D ARM Cortex-M0 MCU, 64KB flash, 8KB RAM, 48MHz, 1.65-1.95V, 54 GPIO, LQFP-64
+K ARM Cortex-M0 STM32F0 STM32F0x8
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00059126.pdf
+$ENDCMP
+#
+$CMP STM32F058T8Yx
+D ARM Cortex-M0 MCU, 64KB flash, 8KB RAM, 48MHz, 1.65-1.95V, 28 GPIO, WLCSP-36
+K ARM Cortex-M0 STM32F0 STM32F0x8
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00059126.pdf
+$ENDCMP
+#
+$CMP STM32F070C6Tx
+D ARM Cortex-M0 MCU, 32KB flash, 6KB RAM, 48MHz, 2.4-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M0 STM32F0 STM32F0x0 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141386.pdf
+$ENDCMP
+#
+$CMP STM32F070CBTx
+D ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 2.4-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M0 STM32F0 STM32F0x0 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141386.pdf
+$ENDCMP
+#
+$CMP STM32F070F6Px
+D ARM Cortex-M0 MCU, 32KB flash, 6KB RAM, 48MHz, 2.4-3.6V, 15 GPIO, TSSOP-20
+K ARM Cortex-M0 STM32F0 STM32F0x0 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141386.pdf
+$ENDCMP
+#
+$CMP STM32F070RBTx
+D ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 2.4-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M0 STM32F0 STM32F0x0 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141386.pdf
+$ENDCMP
+#
+$CMP STM32F071C8Tx
+D ARM Cortex-M0 MCU, 64KB flash, 16KB RAM, 48MHz, 2-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00098745.pdf
+$ENDCMP
+#
+$CMP STM32F071CBTx
+D ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 2-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00098745.pdf
+$ENDCMP
+#
+$CMP STM32F071C8Ux
+D ARM Cortex-M0 MCU, 64KB flash, 16KB RAM, 48MHz, 2-3.6V, 37 GPIO, UFQFPN-48
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00098745.pdf
+$ENDCMP
+#
+$CMP STM32F071CBUx
+D ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 2-3.6V, 37 GPIO, UFQFPN-48
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00098745.pdf
+$ENDCMP
+#
+$CMP STM32F071CBYx
+D ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 2-3.6V, 37 GPIO, WLCSP-49
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00098745.pdf
+$ENDCMP
+#
+$CMP STM32F071RBTx
+D ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00098745.pdf
+$ENDCMP
+#
+$CMP STM32F071V8Hx
+D ARM Cortex-M0 MCU, 64KB flash, 16KB RAM, 48MHz, 2-3.6V, 87 GPIO, UFBGA-100
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00098745.pdf
+$ENDCMP
+#
+$CMP STM32F071VBHx
+D ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 2-3.6V, 87 GPIO, UFBGA-100
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00098745.pdf
+$ENDCMP
+#
+$CMP STM32F071V8Tx
+D ARM Cortex-M0 MCU, 64KB flash, 16KB RAM, 48MHz, 2-3.6V, 87 GPIO, LQFP-100
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00098745.pdf
+$ENDCMP
+#
+$CMP STM32F071VBTx
+D ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 2-3.6V, 87 GPIO, LQFP-100
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00098745.pdf
+$ENDCMP
+#
+$CMP STM32F072C8Tx
+D ARM Cortex-M0 MCU, 64KB flash, 16KB RAM, 48MHz, 2-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M0 STM32F0 STM32F0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf
+$ENDCMP
+#
+$CMP STM32F072CBTx
+D ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 2-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M0 STM32F0 STM32F0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf
+$ENDCMP
+#
+$CMP STM32F072C8Ux
+D ARM Cortex-M0 MCU, 64KB flash, 16KB RAM, 48MHz, 2-3.6V, 37 GPIO, UFQFPN-48
+K ARM Cortex-M0 STM32F0 STM32F0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf
+$ENDCMP
+#
+$CMP STM32F072CBUx
+D ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 2-3.6V, 37 GPIO, UFQFPN-48
+K ARM Cortex-M0 STM32F0 STM32F0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf
+$ENDCMP
+#
+$CMP STM32F072CBYx
+D ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 2-3.6V, 37 GPIO, WLCSP-49
+K ARM Cortex-M0 STM32F0 STM32F0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf
+$ENDCMP
+#
+$CMP STM32F072R8Tx
+D ARM Cortex-M0 MCU, 64KB flash, 16KB RAM, 48MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M0 STM32F0 STM32F0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf
+$ENDCMP
+#
+$CMP STM32F072RBTx
+D ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M0 STM32F0 STM32F0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf
+$ENDCMP
+#
+$CMP STM32F072RBHx
+D ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 2-3.6V, 51 GPIO, UFBGA-64
+K ARM Cortex-M0 STM32F0 STM32F0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf
+$ENDCMP
+#
+$CMP STM32F072RBIx
+D ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 2-3.6V, 51 GPIO, UFBGA-64
+K ARM Cortex-M0 STM32F0 STM32F0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf
+$ENDCMP
+#
+$CMP STM32F072V8Hx
+D ARM Cortex-M0 MCU, 64KB flash, 16KB RAM, 48MHz, 2-3.6V, 87 GPIO, UFBGA-100
+K ARM Cortex-M0 STM32F0 STM32F0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf
+$ENDCMP
+#
+$CMP STM32F072VBHx
+D ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 2-3.6V, 87 GPIO, UFBGA-100
+K ARM Cortex-M0 STM32F0 STM32F0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf
+$ENDCMP
+#
+$CMP STM32F072V8Tx
+D ARM Cortex-M0 MCU, 64KB flash, 16KB RAM, 48MHz, 2-3.6V, 87 GPIO, LQFP-100
+K ARM Cortex-M0 STM32F0 STM32F0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf
+$ENDCMP
+#
+$CMP STM32F072VBTx
+D ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 2-3.6V, 87 GPIO, LQFP-100
+K ARM Cortex-M0 STM32F0 STM32F0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf
+$ENDCMP
+#
+$CMP STM32F078CBTx
+D ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 1.65-1.95V, 36 GPIO, LQFP-48
+K ARM Cortex-M0 STM32F0 STM32F0x8
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00109263.pdf
+$ENDCMP
+#
+$CMP STM32F078CBUx
+D ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 1.65-1.95V, 36 GPIO, UFQFPN-48
+K ARM Cortex-M0 STM32F0 STM32F0x8
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00109263.pdf
+$ENDCMP
+#
+$CMP STM32F078CBYx
+D ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 1.65-1.95V, 36 GPIO, WLCSP-49
+K ARM Cortex-M0 STM32F0 STM32F0x8
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00109263.pdf
+$ENDCMP
+#
+$CMP STM32F078RBHx
+D ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 1.65-1.95V, 50 GPIO, UFBGA-64
+K ARM Cortex-M0 STM32F0 STM32F0x8
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00109263.pdf
+$ENDCMP
+#
+$CMP STM32F078RBTx
+D ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 1.65-1.95V, 50 GPIO, LQFP-64
+K ARM Cortex-M0 STM32F0 STM32F0x8
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00109263.pdf
+$ENDCMP
+#
+$CMP STM32F078VBHx
+D ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 1.65-1.95V, 86 GPIO, UFBGA-100
+K ARM Cortex-M0 STM32F0 STM32F0x8
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00109263.pdf
+$ENDCMP
+#
+$CMP STM32F078VBTx
+D ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 1.65-1.95V, 86 GPIO, LQFP-100
+K ARM Cortex-M0 STM32F0 STM32F0x8
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00109263.pdf
+$ENDCMP
+#
+$CMP STM32F091CBTx
+D ARM Cortex-M0 MCU, 128KB flash, 32KB RAM, 48MHz, 2-3.6V, 38 GPIO, LQFP-48
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00115237.pdf
+$ENDCMP
+#
+$CMP STM32F091CCTx
+D ARM Cortex-M0 MCU, 256KB flash, 32KB RAM, 48MHz, 2-3.6V, 38 GPIO, LQFP-48
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00115237.pdf
+$ENDCMP
+#
+$CMP STM32F091CBUx
+D ARM Cortex-M0 MCU, 128KB flash, 32KB RAM, 48MHz, 2-3.6V, 38 GPIO, UFQFPN-48
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00115237.pdf
+$ENDCMP
+#
+$CMP STM32F091CCUx
+D ARM Cortex-M0 MCU, 256KB flash, 32KB RAM, 48MHz, 2-3.6V, 38 GPIO, UFQFPN-48
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00115237.pdf
+$ENDCMP
+#
+$CMP STM32F091RBTx
+D ARM Cortex-M0 MCU, 128KB flash, 32KB RAM, 48MHz, 2-3.6V, 52 GPIO, LQFP-64
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00115237.pdf
+$ENDCMP
+#
+$CMP STM32F091RCTx
+D ARM Cortex-M0 MCU, 256KB flash, 32KB RAM, 48MHz, 2-3.6V, 52 GPIO, LQFP-64
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00115237.pdf
+$ENDCMP
+#
+$CMP STM32F091RCHx
+D ARM Cortex-M0 MCU, 256KB flash, 32KB RAM, 48MHz, 2-3.6V, 52 GPIO, UFBGA-64
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00115237.pdf
+$ENDCMP
+#
+$CMP STM32F091RCYx
+D ARM Cortex-M0 MCU, 256KB flash, 32KB RAM, 48MHz, 2-3.6V, 52 GPIO, WLCSP-64
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00115237.pdf
+$ENDCMP
+#
+$CMP STM32F091VBTx
+D ARM Cortex-M0 MCU, 128KB flash, 32KB RAM, 48MHz, 2-3.6V, 88 GPIO, LQFP-100
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00115237.pdf
+$ENDCMP
+#
+$CMP STM32F091VCTx
+D ARM Cortex-M0 MCU, 256KB flash, 32KB RAM, 48MHz, 2-3.6V, 88 GPIO, LQFP-100
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00115237.pdf
+$ENDCMP
+#
+$CMP STM32F091VCHx
+D ARM Cortex-M0 MCU, 256KB flash, 32KB RAM, 48MHz, 2-3.6V, 88 GPIO, UFBGA-100
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00115237.pdf
+$ENDCMP
+#
+$CMP STM32F098CCTx
+D ARM Cortex-M0 MCU, 256KB flash, 32KB RAM, 48MHz, 1.65-1.95V, 37 GPIO, LQFP-48
+K ARM Cortex-M0 STM32F0 STM32F0x8
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00135027.pdf
+$ENDCMP
+#
+$CMP STM32F098CCUx
+D ARM Cortex-M0 MCU, 256KB flash, 32KB RAM, 48MHz, 1.65-1.95V, 37 GPIO, UFQFPN-48
+K ARM Cortex-M0 STM32F0 STM32F0x8
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00135027.pdf
+$ENDCMP
+#
+$CMP STM32F098RCHx
+D ARM Cortex-M0 MCU, 256KB flash, 32KB RAM, 48MHz, 1.65-1.95V, 51 GPIO, UFBGA-64
+K ARM Cortex-M0 STM32F0 STM32F0x8
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00135027.pdf
+$ENDCMP
+#
+$CMP STM32F098RCTx
+D ARM Cortex-M0 MCU, 256KB flash, 32KB RAM, 48MHz, 1.65-1.95V, 51 GPIO, LQFP-64
+K ARM Cortex-M0 STM32F0 STM32F0x8
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00135027.pdf
+$ENDCMP
+#
+$CMP STM32F098RCYx
+D ARM Cortex-M0 MCU, 256KB flash, 32KB RAM, 48MHz, 1.65-1.95V, 51 GPIO, WLCSP-64
+K ARM Cortex-M0 STM32F0 STM32F0x8
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00135027.pdf
+$ENDCMP
+#
+$CMP STM32F098VCHx
+D ARM Cortex-M0 MCU, 256KB flash, 32KB RAM, 48MHz, 1.65-1.95V, 87 GPIO, UFBGA-100
+K ARM Cortex-M0 STM32F0 STM32F0x8
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00135027.pdf
+$ENDCMP
+#
+$CMP STM32F098VCTx
+D ARM Cortex-M0 MCU, 256KB flash, 32KB RAM, 48MHz, 1.65-1.95V, 87 GPIO, LQFP-100
+K ARM Cortex-M0 STM32F0 STM32F0x8
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00135027.pdf
+$ENDCMP
+#
+#End Doc Library
