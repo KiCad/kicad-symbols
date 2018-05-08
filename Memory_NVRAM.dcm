@@ -1,5 +1,29 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 47C04
+D 4kbit I2C serial EERAM, SRAM with EEPROM backup, 4.5-5.5V, DIP-8/SOIC-8/TSSOP-8
+K 4kb 5V I2C serial EERAM SRAM EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005371C.pdf
+$ENDCMP
+#
+$CMP 47C16
+D 16kbit I2C serial EERAM, SRAM with EEPROM backup, 4.5-5.5V, DIP-8/SOIC-8/TSSOP-8
+K 16kb 5V I2C serial EERAM SRAM EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005371C.pdf
+$ENDCMP
+#
+$CMP 47L04
+D 4kbit I2C serial EERAM, SRAM with EEPROM backup, 2.7-3.6V, DIP-8/SOIC-8/TSSOP-8
+K 4kb 3V I2C serial EERAM SRAM EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005371C.pdf
+$ENDCMP
+#
+$CMP 47L16
+D 16kbit I2C serial EERAM, SRAM with EEPROM backup, 2.7-3.6V, DIP-8/SOIC-8/TSSOP-8
+K 16kb 3V I2C serial EERAM SRAM EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005371C.pdf
+$ENDCMP
+#
 $CMP FM1608B-SG
 D 64Kb FRAM nonvolatile memory, SOIC-28
 K FRAM 5V Parallel
