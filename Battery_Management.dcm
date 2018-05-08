@@ -181,9 +181,9 @@ F http://cds.linear.com/docs/en/datasheet/4002f.pdf
 $ENDCMP
 #
 $CMP LTC4007
-D 4A high efficiency standalone battery charger
-K lion lithium battery
-F http://cds.linear.com/docs/en/datasheet/4007fc.pdf
+D 4A high efficiency standalone Li-ion battery charger, SSOP24
+K lithium ion polymer li-po battery
+F http://www.analog.com/media/en/technical-documentation/data-sheets/4007fc.pdf
 $ENDCMP
 #
 $CMP LTC4054ES5-4.2
