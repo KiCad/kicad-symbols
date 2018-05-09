@@ -115,8 +115,8 @@ F http://ams.com/eng/content/download/552323/1541717/file/AS5055A_Datasheet_EN_v
 $ENDCMP
 #
 $CMP MMC5883MA
-D 3-axis Magnetic Sensor, I2C Interface
-K I2C, magnetic, 3-axis, sensor
+D 3-axis Magnetic Sensor, I2C Interface, LGA-16
+K I2C magnetic 3-axis sensor
 F http://www.memsic.com/userfiles/files/DataSheets/Magnetic-Sensors-Datasheets/MMC5883MA-RevC.pdf
 $ENDCMP
 #
