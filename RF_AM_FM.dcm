@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP RFM69HCW
+D Low power ISM Radio Transceiver Module, SPI interface, AES encryption, 434 or 915 MHz, up to 100mW, up to 300 kb/s, SMD-16, DIP-16
+K low power Radio ISM Transceiver Module AES encryption SPI HopeRF
+F http://www.hoperf.com/upload/rf/RFM69HCW-V1.1.pdf
+$ENDCMP
+#
 $CMP RFM69HW
 D ISM Radio Transciever Module, SPI interface
 K Radio, ISM, Transciever, Module, AES
