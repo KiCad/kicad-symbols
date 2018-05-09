@@ -12,7 +12,13 @@ K ZIGBEE
 F https://www.nxp.com/products/no-longer-manufactured/2.4-ghz-low-power-transceiver-for-802.15.4:MC13192
 $ENDCMP
 #
-$CMP TWELITE
+$CMP MW-R-WX
+D NXP JN5164/JN5169 breakout module, SMD
+K TWELITE
+F https://www.mono-wireless.com/jp/products/TWE-LITE/MW-PDS-TWELITE-JP.pdf
+$ENDCMP
+#
+$CMP TWE-L-WX
 D NXP JN5164/JN5169 breakout module, SMD
 K TWELITE
 F https://www.mono-wireless.com/jp/products/TWE-LITE/MW-PDS-TWELITE-JP.pdf
