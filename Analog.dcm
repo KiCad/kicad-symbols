@@ -6,12 +6,6 @@ K 8channel 12bit ADC DAC GPIO I2C Temperature
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5593R.pdf
 $ENDCMP
 #
-$CMP ADG715
-D CMOS, Low Voltage, Serially Controlled, Octal SPST Switch, I2C interface, TSSOP-24
-K CMOS, Low Voltage, Serially Controlled, Octal SPST Switch, I2C interface
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf
-$ENDCMP
-#
 $CMP LF398H
 D Sample And Hold Unity Gain Follower, TO-99-8
 K sample hold buffer unity gain
