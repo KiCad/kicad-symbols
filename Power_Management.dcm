@@ -630,6 +630,12 @@ K high-side power distribution switch
 F http://www.ti.com/lit/ds/symlink/tps22929d.pdf
 $ENDCMP
 #
+$CMP TPS22993
+D Quad Channel Load Switch with GPIO and I2C Control, 4.5V-17.2V, 1.0V-3.6V, 1.2A, QFN-20 package
+K quad channel power distribution/load switch
+F http://www.ti.com/lit/gpn/tps22993
+$ENDCMP
+#
 $CMP TPS2592xx
 D 5V/12V eFuse Protection Switch (VSON-10)
 K efuse protection switch
