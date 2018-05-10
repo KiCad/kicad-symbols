@@ -174,6 +174,12 @@ K DC power barrel jack connector
 F ~
 $ENDCMP
 #
+$CMP Barrel_Jack_CUI_PJ-063AH
+D Barrel Jack, 2.1mm ID, 5.5mm OD, 8A, no switch
+K barrel jack cui dc power
+F https://www.cui.com/product/resource/digikeypdf/pj-063ah.pdf
+$ENDCMP
+#
 $CMP Bus_ISA_16bit
 D 16-bit ISA-AT bus connector
 K ISA
