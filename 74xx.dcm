@@ -72,6 +72,12 @@ K HCMOS BUS 3State
 F http://www.ti.com/lit/gpn/sn74HC245
 $ENDCMP
 #
+$CMP 74HC4051
+D 8-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16
+K HCMOS Multiplexer Demultiplexer Analog
+F http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf
+$ENDCMP
+#
 $CMP 74HC590
 D 8-bit Binary Counter with Output Register 3-State Outputs, SOIC-16/TSSOP-16
 K HCMOS Counter 3State
@@ -136,6 +142,12 @@ $CMP 74HCT244
 D 8-bit Buffer/Line Driver 3-state
 K TTL BUFFER 3State
 F http://www.nxp.com/documents/data_sheet/74HC_HCT244.pdf
+$ENDCMP
+#
+$CMP 74HCT4051
+D 8-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16
+K TTL Multiplexer Demultiplexer Analog
+F http://www.ti.com/lit/ds/symlink/cd74hct4051.pdf
 $ENDCMP
 #
 $CMP 74HCT541
