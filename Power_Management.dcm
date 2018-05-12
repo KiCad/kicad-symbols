@@ -31,8 +31,8 @@ F http://www.infineon.com/dgdl/Infineon-BTS443P-DS-v01_00-EN.pdf?fileId=5546d462
 $ENDCMP
 #
 $CMP BTS50010-1TAD
-D Single channel Smart High-Side Power Switch
-K BTS50010-1TAD
+D Smart High-Side Power Switch, PROFET, Single, 1mOhm, 40A, 18V, TO-263-7
+K BTS50010 PROFET
 F https://www.infineon.com/dgdl/Infineon-BTS50010-1TAD-DS-v01_00-EN.pdf?fileId=5546d462576f34750157c38810ca55cd
 $ENDCMP
 #
