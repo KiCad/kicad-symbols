@@ -6,6 +6,12 @@ K Level shifter translator bidirectional
 F http://www.onsemi.com/pub/Collateral/FXMA108-D.pdf
 $ENDCMP
 #
+$CMP SN74AUP1T34DCK
+D 1-Bit Unidirectional Voltage-Level Translator
+K Level Translator 1-bit Unidirectional Noninverting
+F http://www.ti.com/lit/ds/symlink/sn74aup1t34.pdf
+$ENDCMP
+#
 $CMP TXB0102DCT
 D 2-Bit Bidirectional Voltage-Level Translator in TSSOP Package With Auto Direction Sensing and ±15-kV ESD Protection
 K Level-Shifter CMOS-TTL-Translation
