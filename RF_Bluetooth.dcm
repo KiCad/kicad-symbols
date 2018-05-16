@@ -18,6 +18,18 @@ K Bluetooth BT SPP Module
 F https://www.tme.eu/de/Document/b90358c53cd65c9b10d2914f55812666/btm222_datasheet.pdf
 $ENDCMP
 #
+$CMP E73-2G4M04S1A
+D An nRF52810 based BLE module
+K BLE Bluetooth nRF
+F https://ia601504.us.archive.org/12/items/E732G4M04SDatasheetENV1.1/E73-2G4M04S_Datasheet_EN_v1.1.pdf
+$ENDCMP
+#
+$CMP E73-2G4M04S1B
+D An nRF52832 based BLE module
+K BLE Bluetooth nRF
+F https://ia801505.us.archive.org/1/items/E73UsermanualCNV1.11/E73_Usermanual_CN_v1.11.pdf
+$ENDCMP
+#
 $CMP MOD-nRF8001
 D Bluetooth Low Energy module based on nRF8001 chipset
 K Bluetooth Low Energy nRF8001
