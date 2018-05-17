@@ -78,16 +78,58 @@ K ADC 8 Channels TSSOP I2C
 F http://www.ti.com/lit/ds/symlink/adc128d818.pdf
 $ENDCMP
 #
+$CMP ADS1013IDGS
+D Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference and Oscillator, VSSOP-10
+K 12 bit single channel I2C ADC
+F http://www.ti.com/lit/ds/symlink/ads1015.pdf
+$ENDCMP
+#
+$CMP ADS1014IDGS
+D Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10
+K 12 bit single channel I2C ADC
+F http://www.ti.com/lit/ds/symlink/ads1015.pdf
+$ENDCMP
+#
+$CMP ADS1015IDGS
+D Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10
+K 12 bit 4 channel I2C ADC
+F http://www.ti.com/lit/ds/symlink/ads1015.pdf
+$ENDCMP
+#
+$CMP ADS1018IDGS
+D  Ultrasmall, Low-Power, SPI-Compatible, 12-Bit, Analog-to-Digital Converter With Internal Reference and Temperature Sensor, VSSOP-10
+K 12 bit 4 channel SPI ADC
+F http://www.ti.com/lit/ds/symlink/ads1018.pdf
+$ENDCMP
+#
 $CMP ADS1110
 D 16 Bit Analog to Digital converter with on board reference
 K 16 Bit Analog to digital converter ADC
 F http://www.ti.com/lit/ds/symlink/ads1110.pdf
 $ENDCMP
 #
-$CMP ADS1118I
-D 16-bit analog to digital converter, 2 or 4 inputs, integrated temperature sensor, SPI interface
-K adc spi quad double
-F http://www.ti.com/lit/ds/sbas457e/sbas457e.pdf
+$CMP ADS1113IDGS
+D Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference and Oscillator, VSSOP-10
+K 16 bit single channel I2C ADC
+F http://www.ti.com/lit/ds/symlink/ads1113.pdf
+$ENDCMP
+#
+$CMP ADS1114IDGS
+D Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10
+K 16 bit single channel I2C ADC
+F http://www.ti.com/lit/ds/symlink/ads1113.pdf
+$ENDCMP
+#
+$CMP ADS1115IDGS
+D Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10
+K 16 bit 4 channel I2C ADC
+F http://www.ti.com/lit/ds/symlink/ads1113.pdf
+$ENDCMP
+#
+$CMP ADS1118IDGS
+D Ultrasmall, Low-Power, SPI-Compatible, 16-Bit Analog-to-Digital Converter with Internal Reference and Temperature Sensor, VSSOP-10
+K 16 bit 4 channel SPI ADC
+F http://www.ti.com/lit/ds/symlink/ads1118.pdf
 $ENDCMP
 #
 $CMP ADS1120-PW
