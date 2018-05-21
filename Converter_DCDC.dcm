@@ -1,49 +1,19 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP TC7662ACPA
-D Charge Pump DC-to-DC Converter, 3V to 18V up to 40mA, 0°C to +70°C, DIP-8
+$CMP TC7662AX0A
+D Charge Pump DC-to-DC Converter, 3 - 18V, 40mA, CERDIP-8
 K charge pump DC-to-DC converter
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21468B.pdf
 $ENDCMP
 #
-$CMP TC7662AEPA
-D Charge Pump DC-to-DC Converter, 3V to 18V up to 40mA, -40°C to +85°C, DIP-8
+$CMP TC7662AXPA
+D Charge Pump DC-to-DC Converter, 3 - 18V, 40mA, DIP-8
 K charge pump DC-to-DC converter
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21468B.pdf
 $ENDCMP
 #
-$CMP TC7662AIJA
-D Charge Pump DC-to-DC Converter, 3V to 18V up to 40mA, -25°C to +85°C, CERDIP-8
-K charge pump DC-to-DC converter
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21468B.pdf
-$ENDCMP
-#
-$CMP TC7662AMJA
-D Charge Pump DC-to-DC Converter, 3V to 18V up to 40mA, -55°C to +125°C, CERDIP-8
-K charge pump DC-to-DC converter
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21468B.pdf
-$ENDCMP
-#
-$CMP TC7662BCOA
-D Charge Pump DC-to-DC Converter, 1.5V to 15V, 0°C to +70°C, SOIC-8
-K charge pump DC-to-DC converter
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21469a.pdf
-$ENDCMP
-#
-$CMP TC7662BCPA
-D Charge Pump DC-to-DC Converter, 1.5V to 15V, 0°C to +70°C, DIP-8
-K charge pump DC-to-DC converter
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21469a.pdf
-$ENDCMP
-#
-$CMP TC7662BEOA
-D Charge Pump DC-to-DC Converter, 1.5V to 15V, -40°C to +85°C, SO-8
-K charge pump DC-to-DC converter
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21469a.pdf
-$ENDCMP
-#
-$CMP TC7662BEPA
-D Charge Pump DC-to-DC Converter, 1.5V to 15V, -40°C to +85°C, DIP-8
+$CMP TC7662BXPA
+D Charge Pump DC-to-DC Converter, 1.5 - 15V, 100mA, DIP-8
 K charge pump DC-to-DC converter
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21469a.pdf
 $ENDCMP
