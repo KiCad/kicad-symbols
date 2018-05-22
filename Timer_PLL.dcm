@@ -25,7 +25,7 @@ F http://www.analog.com/media/en/technical-documentation/data-sheets/ADF4351.pdf
 $ENDCMP
 #
 $CMP CDCVF2505
-D PLL clock driver, 24 MHz to 200 MHz, 3.3 V, SOIC-8, TSSOP-8
+D Clock Phase-Lock Loop Clock Driver, 24-200MHz, 3.3V, SOIC-8/TSSOP-8
 K pll clock driver
 F http://www.ti.com/lit/ds/symlink/cdcvf2505.pdf
 $ENDCMP
