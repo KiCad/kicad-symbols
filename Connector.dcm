@@ -1334,14 +1334,8 @@ $ENDCMP
 #
 $CMP SD_Card
 D SD Card Reader
-K connector SD
-F http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf
-$ENDCMP
-#
-$CMP SD_Card_TE_2041021
-D Secure Digital Card Connector, Top Mount, SMT Type, H=2.80mm
-K sd card holder smt
-F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2041021&DocType=Customer+Drawing&DocLang=English
+K connector SD card holder reader secure digital
+F ~
 $ENDCMP
 #
 $CMP SIM_Card
