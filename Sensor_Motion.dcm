@@ -6,14 +6,8 @@ K 9-axis motion sensor IMU SAMD20 ARM Cortex-M0+
 F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST_BMF055_DS000_01.pdf
 $ENDCMP
 #
-$CMP L3G4200D
-D 16-bit 3 Axis Digital MEMS Gyroscope, LGA-16
-K 3-Axis MEMS Gyroscope
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00265057.pdf
-$ENDCMP
-#
 $CMP L3GD20
-D 16-bit 3 Axis Digital MEMS Gyroscope, LGA-16
+D [Not recommended for new designs] 16-bit 3 Axis Digital MEMS Gyroscope, LGA-16
 K 3-Axis MEMS Gyroscope
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00036465.pdf
 $ENDCMP
@@ -43,19 +37,19 @@ F www.st.com/resource/en/datasheet/lsm303c.pdf
 $ENDCMP
 #
 $CMP LSM303D
-D I2C/SPI, 3D Accelerometer and 3D Magnetometer
+D [not recommended for new designs] I2C/SPI, 3D Accelerometer and 3D Magnetometer
 K Accelerometer Magnetometer MEMS
 F http://www.st.com/web/en/resource/technical/document/datasheet/DM00057547.pdf
 $ENDCMP
 #
 $CMP LSM303DLHC
-D I2C, 3D Accelerometer and 3D Magnetometer
+D [not recommended for new designs] I2C, 3D Accelerometer and 3D Magnetometer
 K Accelerometer Magnetometer MEMS
 F http://www.st.com/web/en/resource/technical/document/datasheet/DM00027543.pdf
 $ENDCMP
 #
 $CMP LSM6DS3
-D I2C/SPI, iNEMO inertial module: always-on 3D accelerometer and 3D gyroscope 
+D I2C/SPI, iNEMO inertial module: always-on 3D accelerometer and 3D gyroscope
 K Accelerometer Gyroscope MEMS
 F www.st.com/resource/en/datasheet/lsm6ds3.pdf
 $ENDCMP

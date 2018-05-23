@@ -282,4 +282,10 @@ K supply voltage supervisor
 F http://www.ti.com/lit/ds/sbvs193d/sbvs193d.pdf
 $ENDCMP
 #
+$CMP TPS3702
+D High-Accuracy, Overvoltage and Undervoltage Monitor, SOT-23-6
+K protection overvoltage unvervoltage monitor
+F http://www.ti.com/lit/ds/symlink/tps3702.pdf
+$ENDCMP
+#
 #End Doc Library
