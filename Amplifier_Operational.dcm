@@ -619,21 +619,21 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf
 $ENDCMP
 #
 $CMP NCS2325
-D Dual operational amplifier, 50uV Offset, 0.25uV/C, Zero-Drift, Low Power SOT-23-5
-K single opamp low-power
-F http://www.onsemi.cn/PowerSolutions/document/NCS325-D.PDF
+D Dual operational amplifier, 50uV Offset, 0.25uV/C, 35uA Zero-Drift
+K dual opamp low-power
+F http://www.onsemi.com/PowerSolutions/document/NCS325-D.PDF
 $ENDCMP
 #
 $CMP NCS325
-D Single operational amplifier, 50uV Offset, 0.25uV/C, Zero-Drift, Low Power SOT-23-5
+D Single operational amplifier, 50uV Offset, 0.25uV/C, 35uA Zero-Drift, SOT-23-5
 K single opamp low-power
-F http://www.onsemi.cn/PowerSolutions/document/NCS325-D.PDF
+F http://www.onsemi.com/pub/Collateral/NCS325-D.PDF
 $ENDCMP
 #
 $CMP NCS4325
-D Quad operational amplifier, 50uV Offset, 0.25uV/C, Zero-Drift, Low Power SOT-23-5
-K single opamp low-power
-F http://www.onsemi.cn/PowerSolutions/document/NCS325-D.PDF
+D Quad operational amplifier, 50uV Offset, 0.25uV/C, 35uA Zero-Drift, SOIC-14
+K quad opamp low-power
+F http://www.onsemi.com/pub/Collateral/NCS325-D.PDF
 $ENDCMP
 #
 $CMP NE5532
