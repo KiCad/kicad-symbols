@@ -1890,12 +1890,6 @@ K P-Channel MOSFET
 F http://www.jaolen.com/images/pdf/QM6015D.pdf
 $ENDCMP
 #
-$CMP Si2319CDS
-D -4.4A Id, -40V Vds, P-Channel MOSFET, SOT-23
-K P-Channel MOSFET
-F http://www.vishay.com/docs/66709/si2319cd.pdf
-$ENDCMP
-#
 $CMP STS2DNE60
 D 2A Id, 60V Vds, Dual N-Channel MOSFET, 180mOhm Ron, SO-8
 K Dual N-Channel MOSFET
@@ -1950,6 +1944,12 @@ K TrenchFET P-Channel Power MOSFET
 F https://www.vishay.com/docs/62504/sud50p10-43l-ge3.pdf
 $ENDCMP
 #
+$CMP Si2319CDS
+D -4.4A Id, -40V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://www.vishay.com/docs/66709/si2319cd.pdf
+$ENDCMP
+#
 $CMP Si4532DY
 D 3.9A Id, 30V Vds, Dual N and P Channel MOSFET, 65mOhm Ron, 10V Vgs, SO8L
 K Dual N-Channel P-Channel MOSFET
@@ -1960,6 +1960,12 @@ $CMP Si4542DY
 D Dual N and P Channel MOSFET, 6A Id, 30V Vds, 28mOhm Ron, 10V Vgs, SO8L
 K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/SI/SI4542DY.pdf
+$ENDCMP
+#
+$CMP SiA453EDJ
+D -10A Id, -30V Vds, P-Channel MOSFET
+K P-Channel MOSFET
+F http://www.vishay.com/docs/62864/sia453edj.pdf
 $ENDCMP
 #
 $CMP TP0610L
