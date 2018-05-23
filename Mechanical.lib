@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
 # Heatsink
@@ -105,15 +105,15 @@ X PAD 1 -200 -200 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Mounting_Hole
+# MountingHole
 #
-DEF Mounting_Hole MK 0 40 Y Y 1 F N
+DEF MountingHole MK 0 40 Y Y 1 F N
 F0 "MK" 0 200 50 H V C CNN
-F1 "Mounting_Hole" 0 125 50 H V C CNN
+F1 "MountingHole" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Mounting?Hole*
+ MountingHole*
  Hole*
 $ENDFPLIST
 DRAW
@@ -121,15 +121,15 @@ C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
-# Mounting_Hole_PAD
+# MountingHole_PAD
 #
-DEF Mounting_Hole_PAD MK 0 40 N N 1 F N
+DEF MountingHole_PAD MK 0 40 N N 1 F N
 F0 "MK" 0 250 50 H V C CNN
-F1 "Mounting_Hole_PAD" 0 175 50 H V C CNN
+F1 "MountingHole_PAD" 0 175 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Mounting?Hole*
+ MountingHole*
  Hole*
 $ENDFPLIST
 DRAW
