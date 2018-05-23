@@ -449,6 +449,11 @@ D positive voltage power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP VDDF
+D positive voltage power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP VEE
 D negative voltage power-flag symbol
 K Power Flag Symbol

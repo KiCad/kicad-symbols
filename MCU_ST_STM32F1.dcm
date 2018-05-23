@@ -1,0 +1,753 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32F100C4Tx
+D ARM Cortex-M3 MCU, 16KB flash, 4KB RAM, 24MHz, 2-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M3 STM32F1 STM32F100 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00251732.pdf
+$ENDCMP
+#
+$CMP STM32F100C6Tx
+D ARM Cortex-M3 MCU, 32KB flash, 4KB RAM, 24MHz, 2-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M3 STM32F1 STM32F100 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00251732.pdf
+$ENDCMP
+#
+$CMP STM32F100C8Tx
+D ARM Cortex-M3 MCU, 64KB flash, 8KB RAM, 24MHz, 2-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M3 STM32F1 STM32F100 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00251732.pdf
+$ENDCMP
+#
+$CMP STM32F100CBTx
+D ARM Cortex-M3 MCU, 128KB flash, 8KB RAM, 24MHz, 2-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M3 STM32F1 STM32F100 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00251732.pdf
+$ENDCMP
+#
+$CMP STM32F100R4Hx
+D ARM Cortex-M3 MCU, 16KB flash, 4KB RAM, 24MHz, 2-3.6V, 50 GPIO, TFBGA-64
+K ARM Cortex-M3 STM32F1 STM32F100 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00251732.pdf
+$ENDCMP
+#
+$CMP STM32F100R6Hx
+D ARM Cortex-M3 MCU, 32KB flash, 4KB RAM, 24MHz, 2-3.6V, 50 GPIO, TFBGA-64
+K ARM Cortex-M3 STM32F1 STM32F100 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00251732.pdf
+$ENDCMP
+#
+$CMP STM32F100R4Tx
+D ARM Cortex-M3 MCU, 16KB flash, 4KB RAM, 24MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F100 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00251732.pdf
+$ENDCMP
+#
+$CMP STM32F100R6Tx
+D ARM Cortex-M3 MCU, 32KB flash, 4KB RAM, 24MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F100 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00251732.pdf
+$ENDCMP
+#
+$CMP STM32F100R8Hx
+D ARM Cortex-M3 MCU, 64KB flash, 8KB RAM, 24MHz, 2-3.6V, 50 GPIO, TFBGA-64
+K ARM Cortex-M3 STM32F1 STM32F100 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00251732.pdf
+$ENDCMP
+#
+$CMP STM32F100RBHx
+D ARM Cortex-M3 MCU, 128KB flash, 8KB RAM, 24MHz, 2-3.6V, 50 GPIO, TFBGA-64
+K ARM Cortex-M3 STM32F1 STM32F100 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00251732.pdf
+$ENDCMP
+#
+$CMP STM32F100R8Tx
+D ARM Cortex-M3 MCU, 64KB flash, 8KB RAM, 24MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F100 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00251732.pdf
+$ENDCMP
+#
+$CMP STM32F100RBTx
+D ARM Cortex-M3 MCU, 128KB flash, 8KB RAM, 24MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F100 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00251732.pdf
+$ENDCMP
+#
+$CMP STM32F100RCTx
+D ARM Cortex-M3 MCU, 256KB flash, 24KB RAM, 24MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F100 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00212417.pdf
+$ENDCMP
+#
+$CMP STM32F100RDTx
+D ARM Cortex-M3 MCU, 384KB flash, 32KB RAM, 24MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F100 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00212417.pdf
+$ENDCMP
+#
+$CMP STM32F100RETx
+D ARM Cortex-M3 MCU, 512KB flash, 32KB RAM, 24MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F100 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00212417.pdf
+$ENDCMP
+#
+$CMP STM32F100V8Tx
+D ARM Cortex-M3 MCU, 64KB flash, 8KB RAM, 24MHz, 2-3.6V, 82 GPIO, LQFP-100
+K ARM Cortex-M3 STM32F1 STM32F100 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00251732.pdf
+$ENDCMP
+#
+$CMP STM32F100VBTx
+D ARM Cortex-M3 MCU, 128KB flash, 8KB RAM, 24MHz, 2-3.6V, 82 GPIO, LQFP-100
+K ARM Cortex-M3 STM32F1 STM32F100 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00251732.pdf
+$ENDCMP
+#
+$CMP STM32F100VCTx
+D ARM Cortex-M3 MCU, 256KB flash, 24KB RAM, 24MHz, 2-3.6V, 82 GPIO, LQFP-100
+K ARM Cortex-M3 STM32F1 STM32F100 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00212417.pdf
+$ENDCMP
+#
+$CMP STM32F100VDTx
+D ARM Cortex-M3 MCU, 384KB flash, 32KB RAM, 24MHz, 2-3.6V, 82 GPIO, LQFP-100
+K ARM Cortex-M3 STM32F1 STM32F100 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00212417.pdf
+$ENDCMP
+#
+$CMP STM32F100VETx
+D ARM Cortex-M3 MCU, 512KB flash, 32KB RAM, 24MHz, 2-3.6V, 82 GPIO, LQFP-100
+K ARM Cortex-M3 STM32F1 STM32F100 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00212417.pdf
+$ENDCMP
+#
+$CMP STM32F100ZCTx
+D ARM Cortex-M3 MCU, 256KB flash, 24KB RAM, 24MHz, 2-3.6V, 114 GPIO, LQFP-144
+K ARM Cortex-M3 STM32F1 STM32F100 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00212417.pdf
+$ENDCMP
+#
+$CMP STM32F100ZDTx
+D ARM Cortex-M3 MCU, 384KB flash, 32KB RAM, 24MHz, 2-3.6V, 114 GPIO, LQFP-144
+K ARM Cortex-M3 STM32F1 STM32F100 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00212417.pdf
+$ENDCMP
+#
+$CMP STM32F100ZETx
+D ARM Cortex-M3 MCU, 512KB flash, 32KB RAM, 24MHz, 2-3.6V, 114 GPIO, LQFP-144
+K ARM Cortex-M3 STM32F1 STM32F100 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00212417.pdf
+$ENDCMP
+#
+$CMP STM32F101C4Tx
+D ARM Cortex-M3 MCU, 16KB flash, 6KB RAM, 36MHz, 2-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210837.pdf
+$ENDCMP
+#
+$CMP STM32F101C6Tx
+D ARM Cortex-M3 MCU, 32KB flash, 6KB RAM, 36MHz, 2-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210837.pdf
+$ENDCMP
+#
+$CMP STM32F101C8Tx
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 36MHz, 2-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161561.pdf
+$ENDCMP
+#
+$CMP STM32F101CBTx
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 36MHz, 2-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161561.pdf
+$ENDCMP
+#
+$CMP STM32F101C8Ux
+D ARM Cortex-M3 MCU, 64KB flash, 16KB RAM, 36MHz, 2-3.6V, 37 GPIO, UFQFPN-48
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161561.pdf
+$ENDCMP
+#
+$CMP STM32F101CBUx
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 36MHz, 2-3.6V, 37 GPIO, UFQFPN-48
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161561.pdf
+$ENDCMP
+#
+$CMP STM32F101R4Tx
+D ARM Cortex-M3 MCU, 16KB flash, 4KB RAM, 36MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210837.pdf
+$ENDCMP
+#
+$CMP STM32F101R6Tx
+D ARM Cortex-M3 MCU, 32KB flash, 6KB RAM, 36MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210837.pdf
+$ENDCMP
+#
+$CMP STM32F101R8Tx
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 36MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161561.pdf
+$ENDCMP
+#
+$CMP STM32F101RBTx
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 36MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161561.pdf
+$ENDCMP
+#
+$CMP STM32F101RBHx
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 36MHz, 2-3.6V, 50 GPIO, TFBGA-64
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161561.pdf
+$ENDCMP
+#
+$CMP STM32F101RCTx
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 36MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191174.pdf
+$ENDCMP
+#
+$CMP STM32F101RDTx
+D ARM Cortex-M3 MCU, 384KB flash, 48KB RAM, 36MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191174.pdf
+$ENDCMP
+#
+$CMP STM32F101RETx
+D ARM Cortex-M3 MCU, 512KB flash, 48KB RAM, 36MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191174.pdf
+$ENDCMP
+#
+$CMP STM32F101RFTx
+D ARM Cortex-M3 MCU, 768KB flash, 80KB RAM, 36MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00253739.pdf
+$ENDCMP
+#
+$CMP STM32F101RGTx
+D ARM Cortex-M3 MCU, 1024KB flash, 80KB RAM, 36MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00253739.pdf
+$ENDCMP
+#
+$CMP STM32F101T4Ux
+D ARM Cortex-M3 MCU, 16KB flash, 4KB RAM, 36MHz, 2-3.6V, 26 GPIO, VFQFPN-36
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210837.pdf
+$ENDCMP
+#
+$CMP STM32F101T6Ux
+D ARM Cortex-M3 MCU, 32KB flash, 6KB RAM, 36MHz, 2-3.6V, 26 GPIO, VFQFPN-36
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210837.pdf
+$ENDCMP
+#
+$CMP STM32F101T8Ux
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 36MHz, 2-3.6V, 26 GPIO, VFQFPN-36
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161561.pdf
+$ENDCMP
+#
+$CMP STM32F101TBUx
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 36MHz, 2-3.6V, 26 GPIO, VFQFPN-36
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161561.pdf
+$ENDCMP
+#
+$CMP STM32F101V8Tx
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 36MHz, 2-3.6V, 82 GPIO, LQFP-100
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161561.pdf
+$ENDCMP
+#
+$CMP STM32F101VBTx
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 36MHz, 2-3.6V, 82 GPIO, LQFP-100
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161561.pdf
+$ENDCMP
+#
+$CMP STM32F101VCTx
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 36MHz, 2-3.6V, 82 GPIO, LQFP-100
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191174.pdf
+$ENDCMP
+#
+$CMP STM32F101VDTx
+D ARM Cortex-M3 MCU, 384KB flash, 48KB RAM, 36MHz, 2-3.6V, 82 GPIO, LQFP-100
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191174.pdf
+$ENDCMP
+#
+$CMP STM32F101VETx
+D ARM Cortex-M3 MCU, 512KB flash, 48KB RAM, 36MHz, 2-3.6V, 82 GPIO, LQFP-100
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191174.pdf
+$ENDCMP
+#
+$CMP STM32F101VFTx
+D ARM Cortex-M3 MCU, 768KB flash, 80KB RAM, 36MHz, 2-3.6V, 82 GPIO, LQFP-100
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00253739.pdf
+$ENDCMP
+#
+$CMP STM32F101VGTx
+D ARM Cortex-M3 MCU, 1024KB flash, 80KB RAM, 36MHz, 2-3.6V, 82 GPIO, LQFP-100
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00253739.pdf
+$ENDCMP
+#
+$CMP STM32F101ZCTx
+D ARM Cortex-M3 MCU, 256KB flash, 32KB RAM, 36MHz, 2-3.6V, 114 GPIO, LQFP-144
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191174.pdf
+$ENDCMP
+#
+$CMP STM32F101ZDTx
+D ARM Cortex-M3 MCU, 384KB flash, 48KB RAM, 36MHz, 2-3.6V, 114 GPIO, LQFP-144
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191174.pdf
+$ENDCMP
+#
+$CMP STM32F101ZETx
+D ARM Cortex-M3 MCU, 512KB flash, 48KB RAM, 36MHz, 2-3.6V, 114 GPIO, LQFP-144
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191174.pdf
+$ENDCMP
+#
+$CMP STM32F101ZFTx
+D ARM Cortex-M3 MCU, 768KB flash, 80KB RAM, 36MHz, 2-3.6V, 114 GPIO, LQFP-144
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00253739.pdf
+$ENDCMP
+#
+$CMP STM32F101ZGTx
+D ARM Cortex-M3 MCU, 1024KB flash, 80KB RAM, 36MHz, 2-3.6V, 114 GPIO, LQFP-144
+K ARM Cortex-M3 STM32F1 STM32F101
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00253739.pdf
+$ENDCMP
+#
+$CMP STM32F102C4Tx
+D ARM Cortex-M3 MCU, 16KB flash, 4KB RAM, 48MHz, 2-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M3 STM32F1 STM32F102
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210833.pdf
+$ENDCMP
+#
+$CMP STM32F102C6Tx
+D ARM Cortex-M3 MCU, 32KB flash, 6KB RAM, 48MHz, 2-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M3 STM32F1 STM32F102
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210833.pdf
+$ENDCMP
+#
+$CMP STM32F102C8Tx
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 48MHz, 2-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M3 STM32F1 STM32F102
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210831.pdf
+$ENDCMP
+#
+$CMP STM32F102CBTx
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 48MHz, 2-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M3 STM32F1 STM32F102
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210831.pdf
+$ENDCMP
+#
+$CMP STM32F102R4Tx
+D ARM Cortex-M3 MCU, 16KB flash, 4KB RAM, 48MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F102
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210833.pdf
+$ENDCMP
+#
+$CMP STM32F102R6Tx
+D ARM Cortex-M3 MCU, 32KB flash, 6KB RAM, 48MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F102
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210833.pdf
+$ENDCMP
+#
+$CMP STM32F102R8Tx
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 48MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F102
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210831.pdf
+$ENDCMP
+#
+$CMP STM32F102RBTx
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 48MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F102
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210831.pdf
+$ENDCMP
+#
+$CMP STM32F103C4Tx
+D ARM Cortex-M3 MCU, 16KB flash, 6KB RAM, 72MHz, 2-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210843.pdf
+$ENDCMP
+#
+$CMP STM32F103C6Tx
+D ARM Cortex-M3 MCU, 32KB flash, 10KB RAM, 72MHz, 2-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210843.pdf
+$ENDCMP
+#
+$CMP STM32F103C6Ux
+D ARM Cortex-M3 MCU, 32KB flash, 10KB RAM, 72MHz, 2-3.6V, 37 GPIO, UFQFPN-48
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210843.pdf
+$ENDCMP
+#
+$CMP STM32F103C8Tx
+D ARM Cortex-M3 MCU, 64KB flash, 20KB RAM, 72MHz, 2-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf
+$ENDCMP
+#
+$CMP STM32F103CBTx
+D ARM Cortex-M3 MCU, 128KB flash, 20KB RAM, 72MHz, 2-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf
+$ENDCMP
+#
+$CMP STM32F103CBUx
+D ARM Cortex-M3 MCU, 128KB flash, 20KB RAM, 72MHz, 2-3.6V, 37 GPIO, UFQFPN-48
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf
+$ENDCMP
+#
+$CMP STM32F103R4Hx
+D ARM Cortex-M3 MCU, 16KB flash, 6KB RAM, 72MHz, 2-3.6V, 50 GPIO, TFBGA-64
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210843.pdf
+$ENDCMP
+#
+$CMP STM32F103R6Hx
+D ARM Cortex-M3 MCU, 32KB flash, 10KB RAM, 72MHz, 2-3.6V, 50 GPIO, TFBGA-64
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210843.pdf
+$ENDCMP
+#
+$CMP STM32F103R4Tx
+D ARM Cortex-M3 MCU, 16KB flash, 6KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210843.pdf
+$ENDCMP
+#
+$CMP STM32F103R6Tx
+D ARM Cortex-M3 MCU, 32KB flash, 10KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210843.pdf
+$ENDCMP
+#
+$CMP STM32F103R8Hx
+D ARM Cortex-M3 MCU, 64KB flash, 20KB RAM, 72MHz, 2-3.6V, 50 GPIO, TFBGA-64
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf
+$ENDCMP
+#
+$CMP STM32F103RBHx
+D ARM Cortex-M3 MCU, 128KB flash, 20KB RAM, 72MHz, 2-3.6V, 50 GPIO, TFBGA-64
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf
+$ENDCMP
+#
+$CMP STM32F103R8Tx
+D ARM Cortex-M3 MCU, 64KB flash, 20KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf
+$ENDCMP
+#
+$CMP STM32F103RBTx
+D ARM Cortex-M3 MCU, 128KB flash, 20KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf
+$ENDCMP
+#
+$CMP STM32F103RCTx
+D ARM Cortex-M3 MCU, 256KB flash, 48KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191185.pdf
+$ENDCMP
+#
+$CMP STM32F103RDTx
+D ARM Cortex-M3 MCU, 384KB flash, 64KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191185.pdf
+$ENDCMP
+#
+$CMP STM32F103RETx
+D ARM Cortex-M3 MCU, 512KB flash, 64KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191185.pdf
+$ENDCMP
+#
+$CMP STM32F103RCYx
+D ARM Cortex-M3 MCU, 256KB flash, 64KB RAM, 72MHz, 2-3.6V, 50 GPIO, WLCSP-64
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191185.pdf
+$ENDCMP
+#
+$CMP STM32F103RDYx
+D ARM Cortex-M3 MCU, 384KB flash, 64KB RAM, 72MHz, 2-3.6V, 50 GPIO, WLCSP-64
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191185.pdf
+$ENDCMP
+#
+$CMP STM32F103REYx
+D ARM Cortex-M3 MCU, 512KB flash, 64KB RAM, 72MHz, 2-3.6V, 50 GPIO, WLCSP-64
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191185.pdf
+$ENDCMP
+#
+$CMP STM32F103RFTx
+D ARM Cortex-M3 MCU, 768KB flash, 96KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00253742.pdf
+$ENDCMP
+#
+$CMP STM32F103RGTx
+D ARM Cortex-M3 MCU, 1024KB flash, 96KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00253742.pdf
+$ENDCMP
+#
+$CMP STM32F103T4Ux
+D ARM Cortex-M3 MCU, 16KB flash, 6KB RAM, 72MHz, 2-3.6V, 26 GPIO, VFQFPN-36
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210843.pdf
+$ENDCMP
+#
+$CMP STM32F103T6Ux
+D ARM Cortex-M3 MCU, 32KB flash, 10KB RAM, 72MHz, 2-3.6V, 26 GPIO, VFQFPN-36
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210843.pdf
+$ENDCMP
+#
+$CMP STM32F103T8Ux
+D ARM Cortex-M3 MCU, 64KB flash, 20KB RAM, 72MHz, 2-3.6V, 26 GPIO, VFQFPN-36
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf
+$ENDCMP
+#
+$CMP STM32F103TBUx
+D ARM Cortex-M3 MCU, 128KB flash, 20KB RAM, 72MHz, 2-3.6V, 26 GPIO, VFQFPN-36
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf
+$ENDCMP
+#
+$CMP STM32F103V8Hx
+D ARM Cortex-M3 MCU, 64KB flash, 20KB RAM, 72MHz, 2-3.6V, 82 GPIO, LFBGA-100
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf
+$ENDCMP
+#
+$CMP STM32F103VBHx
+D ARM Cortex-M3 MCU, 128KB flash, 20KB RAM, 72MHz, 2-3.6V, 82 GPIO, LFBGA-100
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf
+$ENDCMP
+#
+$CMP STM32F103V8Tx
+D ARM Cortex-M3 MCU, 64KB flash, 20KB RAM, 72MHz, 2-3.6V, 82 GPIO, LQFP-100
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf
+$ENDCMP
+#
+$CMP STM32F103VBTx
+D ARM Cortex-M3 MCU, 128KB flash, 20KB RAM, 72MHz, 2-3.6V, 82 GPIO, LQFP-100
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf
+$ENDCMP
+#
+$CMP STM32F103VBIx
+D ARM Cortex-M3 MCU, 128KB flash, 20KB RAM, 72MHz, 2-3.6V, 82 GPIO, UFBGA-100
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf
+$ENDCMP
+#
+$CMP STM32F103VCHx
+D ARM Cortex-M3 MCU, 256KB flash, 48KB RAM, 72MHz, 2-3.6V, 82 GPIO, LFBGA-100
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191185.pdf
+$ENDCMP
+#
+$CMP STM32F103VDHx
+D ARM Cortex-M3 MCU, 384KB flash, 64KB RAM, 72MHz, 2-3.6V, 82 GPIO, LFBGA-100
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191185.pdf
+$ENDCMP
+#
+$CMP STM32F103VEHx
+D ARM Cortex-M3 MCU, 512KB flash, 64KB RAM, 72MHz, 2-3.6V, 82 GPIO, LFBGA-100
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191185.pdf
+$ENDCMP
+#
+$CMP STM32F103VCTx
+D ARM Cortex-M3 MCU, 256KB flash, 48KB RAM, 72MHz, 2-3.6V, 82 GPIO, LQFP-100
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191185.pdf
+$ENDCMP
+#
+$CMP STM32F103VDTx
+D ARM Cortex-M3 MCU, 384KB flash, 64KB RAM, 72MHz, 2-3.6V, 82 GPIO, LQFP-100
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191185.pdf
+$ENDCMP
+#
+$CMP STM32F103VETx
+D ARM Cortex-M3 MCU, 512KB flash, 64KB RAM, 72MHz, 2-3.6V, 82 GPIO, LQFP-100
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191185.pdf
+$ENDCMP
+#
+$CMP STM32F103VFTx
+D ARM Cortex-M3 MCU, 768KB flash, 96KB RAM, 72MHz, 2-3.6V, 82 GPIO, LQFP-100
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00253742.pdf
+$ENDCMP
+#
+$CMP STM32F103VGTx
+D ARM Cortex-M3 MCU, 1024KB flash, 96KB RAM, 72MHz, 2-3.6V, 82 GPIO, LQFP-100
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00253742.pdf
+$ENDCMP
+#
+$CMP STM32F103ZCHx
+D ARM Cortex-M3 MCU, 256KB flash, 48KB RAM, 72MHz, 2-3.6V, 114 GPIO, LFBGA-144
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191185.pdf
+$ENDCMP
+#
+$CMP STM32F103ZDHx
+D ARM Cortex-M3 MCU, 384KB flash, 64KB RAM, 72MHz, 2-3.6V, 114 GPIO, LFBGA-144
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191185.pdf
+$ENDCMP
+#
+$CMP STM32F103ZEHx
+D ARM Cortex-M3 MCU, 512KB flash, 64KB RAM, 72MHz, 2-3.6V, 114 GPIO, LFBGA-144
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191185.pdf
+$ENDCMP
+#
+$CMP STM32F103ZCTx
+D ARM Cortex-M3 MCU, 256KB flash, 48KB RAM, 72MHz, 2-3.6V, 114 GPIO, LQFP-144
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191185.pdf
+$ENDCMP
+#
+$CMP STM32F103ZDTx
+D ARM Cortex-M3 MCU, 384KB flash, 64KB RAM, 72MHz, 2-3.6V, 114 GPIO, LQFP-144
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191185.pdf
+$ENDCMP
+#
+$CMP STM32F103ZETx
+D ARM Cortex-M3 MCU, 512KB flash, 64KB RAM, 72MHz, 2-3.6V, 114 GPIO, LQFP-144
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00191185.pdf
+$ENDCMP
+#
+$CMP STM32F103ZFHx
+D ARM Cortex-M3 MCU, 768KB flash, 96KB RAM, 72MHz, 2-3.6V, 114 GPIO, LFBGA-144
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00253742.pdf
+$ENDCMP
+#
+$CMP STM32F103ZGHx
+D ARM Cortex-M3 MCU, 1024KB flash, 96KB RAM, 72MHz, 2-3.6V, 114 GPIO, LFBGA-144
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00253742.pdf
+$ENDCMP
+#
+$CMP STM32F103ZFTx
+D ARM Cortex-M3 MCU, 768KB flash, 96KB RAM, 72MHz, 2-3.6V, 114 GPIO, LQFP-144
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00253742.pdf
+$ENDCMP
+#
+$CMP STM32F103ZGTx
+D ARM Cortex-M3 MCU, 1024KB flash, 96KB RAM, 72MHz, 2-3.6V, 114 GPIO, LQFP-144
+K ARM Cortex-M3 STM32F1 STM32F103
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00253742.pdf
+$ENDCMP
+#
+$CMP STM32F105R8Tx
+D ARM Cortex-M3 MCU, 64KB flash, 64KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F105/107
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00220364.pdf
+$ENDCMP
+#
+$CMP STM32F105RBTx
+D ARM Cortex-M3 MCU, 128KB flash, 64KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F105/107
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00220364.pdf
+$ENDCMP
+#
+$CMP STM32F105RCTx
+D ARM Cortex-M3 MCU, 256KB flash, 64KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F105/107
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00220364.pdf
+$ENDCMP
+#
+$CMP STM32F105V8Hx
+D ARM Cortex-M3 MCU, 64KB flash, 64KB RAM, 72MHz, 2-3.6V, 82 GPIO, LFBGA-100
+K ARM Cortex-M3 STM32F1 STM32F105/107
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00220364.pdf
+$ENDCMP
+#
+$CMP STM32F105VBHx
+D ARM Cortex-M3 MCU, 128KB flash, 64KB RAM, 72MHz, 2-3.6V, 82 GPIO, LFBGA-100
+K ARM Cortex-M3 STM32F1 STM32F105/107
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00220364.pdf
+$ENDCMP
+#
+$CMP STM32F105V8Tx
+D ARM Cortex-M3 MCU, 64KB flash, 64KB RAM, 72MHz, 2-3.6V, 82 GPIO, LQFP-100
+K ARM Cortex-M3 STM32F1 STM32F105/107
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00220364.pdf
+$ENDCMP
+#
+$CMP STM32F105VBTx
+D ARM Cortex-M3 MCU, 128KB flash, 64KB RAM, 72MHz, 2-3.6V, 82 GPIO, LQFP-100
+K ARM Cortex-M3 STM32F1 STM32F105/107
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00220364.pdf
+$ENDCMP
+#
+$CMP STM32F105VCTx
+D ARM Cortex-M3 MCU, 256KB flash, 64KB RAM, 72MHz, 2-3.6V, 82 GPIO, LQFP-100
+K ARM Cortex-M3 STM32F1 STM32F105/107
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00220364.pdf
+$ENDCMP
+#
+$CMP STM32F107RBTx
+D ARM Cortex-M3 MCU, 128KB flash, 64KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F105/107
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00220364.pdf
+$ENDCMP
+#
+$CMP STM32F107RCTx
+D ARM Cortex-M3 MCU, 256KB flash, 64KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F1 STM32F105/107
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00220364.pdf
+$ENDCMP
+#
+$CMP STM32F107VBTx
+D ARM Cortex-M3 MCU, 128KB flash, 64KB RAM, 72MHz, 2-3.6V, 82 GPIO, LQFP-100
+K ARM Cortex-M3 STM32F1 STM32F105/107
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00220364.pdf
+$ENDCMP
+#
+$CMP STM32F107VCTx
+D ARM Cortex-M3 MCU, 256KB flash, 64KB RAM, 72MHz, 2-3.6V, 82 GPIO, LQFP-100
+K ARM Cortex-M3 STM32F1 STM32F105/107
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00220364.pdf
+$ENDCMP
+#
+$CMP STM32F107VCHx
+D ARM Cortex-M3 MCU, 256KB flash, 64KB RAM, 72MHz, 2-3.6V, 82 GPIO, LFBGA-100
+K ARM Cortex-M3 STM32F1 STM32F105/107
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00220364.pdf
+$ENDCMP
+#
+#End Doc Library

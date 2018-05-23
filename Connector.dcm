@@ -78,12 +78,6 @@ K 8P8C RJ female connector
 F ~
 $ENDCMP
 #
-$CMP 8P8C_Shielded
-D RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61, Shielded
-K 8P8C RJ female connector
-F ~
-$ENDCMP
-#
 $CMP 8P8C_LED
 D RJ connector, 8P8C (8 positions 8 connected), two LEDs, RJ45
 K 8P8C RJ female connector led
@@ -93,6 +87,12 @@ $ENDCMP
 $CMP 8P8C_LED_Shielded
 D RJ connector, 8P8C (8 positions 8 connected), two LEDs, RJ45, Shielded
 K 8P8C RJ female connector led
+F ~
+$ENDCMP
+#
+$CMP 8P8C_Shielded
+D RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61, Shielded
+K 8P8C RJ female connector
 F ~
 $ENDCMP
 #
@@ -170,6 +170,18 @@ $ENDCMP
 #
 $CMP Barrel_Jack
 D DC Barrel Jack
+K DC power barrel jack connector
+F ~
+$ENDCMP
+#
+$CMP Barrel_Jack_MountingPin
+D DC Barrel Jack with a mounting pin
+K DC power barrel jack connector
+F ~
+$ENDCMP
+#
+$CMP Barrel_Jack_Switch_MountingPin
+D DC Barrel Jack with an internal switch and a mounting pin
 K DC power barrel jack connector
 F ~
 $ENDCMP
@@ -1026,6 +1038,12 @@ K connector SD microsd
 F https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1
 $ENDCMP
 #
+$CMP Microsemi_FlashPro-JTAG-10
+D ACTEL FLASH PRO 3/4, JTAG, IDC10 Male Connector
+K JTAG IDC10 Male Connector
+F https://www.microsemi.com/document-portal/doc_view/129973-lpf-ac386-an
+$ENDCMP
+#
 $CMP Mini-DIN-3
 D 3-pin Mini-DIN connector
 K Mini-DIN
@@ -1060,18 +1078,6 @@ $CMP Mini-DIN-8
 D 8-pin Mini-DIN connector
 K Mini-DIN
 F http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf
-$ENDCMP
-#
-$CMP RJ9
-D RJ connector, 4P4C (4 positions 4 connected)
-K 4P4C RJ female connector
-F ~
-$ENDCMP
-#
-$CMP RJ9_Shielded
-D RJ connector, 4P4C (4 positions 4 connected), Shielded
-K 4P4C RJ female connector
-F ~
 $ENDCMP
 #
 $CMP RJ10
@@ -1314,10 +1320,22 @@ K 8P8C RJ female connector
 F ~
 $ENDCMP
 #
+$CMP RJ9
+D RJ connector, 4P4C (4 positions 4 connected)
+K 4P4C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ9_Shielded
+D RJ connector, 4P4C (4 positions 4 connected), Shielded
+K 4P4C RJ female connector
+F ~
+$ENDCMP
+#
 $CMP Raspberry_Pi_2_3
 D expansion header for Raspberry Pi 2 & 3
 K raspberrypi gpio
-F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/RPI-3B-V1_2-SCHEMATIC-REDUCED.pdf
+F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf
 $ENDCMP
 #
 $CMP SCART-F
