@@ -1680,6 +1680,18 @@ K r res resistor variable potentiometer trimmer
 F ~
 $ENDCMP
 #
+$CMP R_Kelvin
+D Shunt Resistor with Kelvin contacts
+K r res shunt kelvin resistor
+F ~
+$ENDCMP
+#
+$CMP R_Kelvin_US
+D Shunt Resistor with Kelvin contacts US symbol
+K r res shunt kelvin resistor
+F ~
+$ENDCMP
+#
 $CMP R_Network03
 D 3 Resistor network, star topology, bussed resistors, small symbol
 K R Network star-topology
