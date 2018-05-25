@@ -180,6 +180,12 @@ K DC power barrel jack connector
 F ~
 $ENDCMP
 #
+$CMP Barrel_Jack_Switch
+D DC Barrel Jack with an internal switch
+K DC power barrel jack connector
+F ~
+$ENDCMP
+#
 $CMP Barrel_Jack_Switch_MountingPin
 D DC Barrel Jack with an internal switch and a mounting pin
 K DC power barrel jack connector
