@@ -12,6 +12,12 @@ K DDPAK LDO MCP1825
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22057B.pdf
 $ENDCMP
 #
+$CMP TPS75005RGW
+D Texas Instruments Integrated MCU Power Solution for C2000™ Microcontrollers
+K C2000 500mA LDO Monitor
+F http://www.ti.com/lit/ds/symlink/tps75005.pdf
+$ENDCMP
+#
 $CMP TPS77801_HTSSOP20
 D Texas Instruments FAST TRANSIENT RESPONSE 750 mA LOW DROPOUT LINEAR REGULATORS
 K 750mA LDO
