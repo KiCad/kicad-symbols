@@ -942,6 +942,102 @@ K switching regulator
 F http://www.ti.com/lit/ds/symlink/lm3578a.pdf
 $ENDCMP
 #
+$CMP LM2594HVM-12
+D 12V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 60V, SOIC-8
+K buck converter regulator step-down voltage simple switcher fixed
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594HVM-3.3
+D 3.3V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 60V, SOIC-8
+K buck converter regulator step-down voltage simple switcher fixed
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594HVM-5.0
+D 5.0V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 60V, SOIC-8
+K buck converter regulator step-down voltage simple switcher fixed
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594HVM-ADJ
+D Adjustable Output Voltage, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 60V, SOIC-8
+K buck converter regulator step-down voltage simple switcher adjustable
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594HVN-12
+D 12V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 60V, DIP-8
+K buck converter regulator step-down voltage simple switcher fixed
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594HVN-3.3
+D 3.3V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 60V, DIP-8
+K buck converter regulator step-down voltage simple switcher fixed
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594HVN-5.0
+D 5.0V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 60V, DIP-8
+K buck converter regulator step-down voltage simple switcher fixed
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594HVN-ADJ
+D Adjustable Output Voltage, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 60V, DIP-8
+K buck converter regulator step-down voltage simple switcher adjustable
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594M-12
+D 12V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 45V, SOIC-8
+K buck converter regulator step-down voltage simple switcher fixed
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594M-3.3
+D 3.3V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 45V, SOIC-8
+K buck converter regulator step-down voltage simple switcher fixed
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594M-5.0
+D 5.0V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 45V, SOIC-8
+K buck converter regulator step-down voltage simple switcher fixed
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594M-ADJ
+D Adjustable Output Voltage, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 45V, SOIC-8
+K buck converter regulator step-down voltage simple switcher adjustable
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594N-12
+D 12V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 45V, DIP-8
+K buck converter regulator step-down voltage simple switcher fixed
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594N-3.3
+D 3.3V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 45V, DIP-8
+K buck converter regulator step-down voltage simple switcher fixed
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594N-5.0
+D 5.0V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 45V, DIP-8
+K buck converter regulator step-down voltage simple switcher fixed
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594N-ADJ
+D Adjustable Output Voltage, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 45V, DIP-8
+K buck converter regulator step-down voltage simple switcher adjustable
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
 $CMP LM2595S-12
 D 12V, 1A Step-Down Voltage Regulator, TO-263-5
 K Step-Down Voltage Regulator 12V 1A
