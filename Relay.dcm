@@ -618,4 +618,10 @@ K Single Pole Reed Relay SPST
 F https://standexelectronics.com/de/produkte/ums-reed-relais/
 $ENDCMP
 #
+$CMP Y14x-1C-xxDS
+D Hsin Da Y14-series relay, Single Pole Dual Throw
+K Relay SPDT
+F http://www.hsinda.com.cn/en/imgdown.asp?FileName=UploadFiles/201431310240386.pdf
+$ENDCMP
+#
 #End Doc Library
