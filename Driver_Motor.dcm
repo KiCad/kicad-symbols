@@ -138,6 +138,12 @@ K H-bridge motor driver
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000240.pdf
 $ENDCMP
 #
+$CMP LMD18200
+D 3A, 55V H-Bridge, Motion Control Applications, TO-220-11
+K H-Bridge DC stepper servo motor driver Motion Control Applications
+F http://www.ti.com/lit/ds/symlink/lmd18200.pdf
+$ENDCMP
+#
 $CMP PG001M
 D Parallel to serial data converter for SLA7042M/SLA7044M
 K Support IC for SLA7042M/SLA7044M
