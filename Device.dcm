@@ -1068,30 +1068,6 @@ K Oscilloscope
 F ~
 $ENDCMP
 #
-$CMP POT
-D Potentiometer
-K resistor variable
-F ~
-$ENDCMP
-#
-$CMP POT_Dual
-D Dual Potentiometer
-K resistor variable
-F ~
-$ENDCMP
-#
-$CMP POT_Dual_Separate
-D Dual Potentiometer, separate units
-K resistor variable
-F ~
-$ENDCMP
-#
-$CMP POT_TRIM
-D Trim-Potentiometer
-K resistor variable trimpot trimmer
-F ~
-$ENDCMP
-#
 $CMP Peltier_Element
 D Peltier Element, Thermoelectric Cooler (TEC)
 K Peltier TEC
@@ -1710,8 +1686,20 @@ K R Network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
+$CMP R_Network03_US
+D 3 Resistor network, star topology, bussed resistors, small US symbol
+K R Network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
 $CMP R_Network04
 D 4 Resistor network, star topology, bussed resistors, small symbol
+K R Network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_Network04_US
+D 4 Resistor network, star topology, bussed resistors, small SU symbol
 K R Network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
@@ -1722,8 +1710,20 @@ K R Network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
+$CMP R_Network05_US
+D 5 Resistor network, star topology, bussed resistors, small US symbol
+K R Network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
 $CMP R_Network06
 D 6 Resistor network, star topology, bussed resistors, small symbol
+K R Network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_Network06_US
+D 6 Resistor network, star topology, bussed resistors, small US symbol
 K R Network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
@@ -1734,8 +1734,20 @@ K R Network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
+$CMP R_Network07_US
+D 7 Resistor network, star topology, bussed resistors, small US symbol
+K R Network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
 $CMP R_Network08
 D 8 Resistor network, star topology, bussed resistors, small symbol
+K R Network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_Network08_US
+D 8 Resistor network, star topology, bussed resistors, small US symbol
 K R Network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
@@ -1746,8 +1758,20 @@ K R Network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
+$CMP R_Network09_US
+D 9 Resistor network, star topology, bussed resistors, small US symbol
+K R Network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
 $CMP R_Network10
 D 10 Resistor network, star topology, bussed resistors, small symbol
+K R Network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_Network10_US
+D 10 Resistor network, star topology, bussed resistors, small US symbol
 K R Network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
@@ -1758,14 +1782,32 @@ K R Network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
+$CMP R_Network11_US
+D 11 Resistor network, star topology, bussed resistors, small US symbol
+K R Network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
 $CMP R_Network12
 D 12 Resistor network, star topology, bussed resistors, small symbol
 K R Network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
+$CMP R_Network12_US
+D 12 Resistor network, star topology, bussed resistors, small US symbol
+K R Network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
 $CMP R_Network13
 D 13 Resistor network, star topology, bussed resistors, small symbol
+K R Network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_Network13_US
+D 13 Resistor network, star topology, bussed resistors, small US symbol
 K R Network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
@@ -1833,6 +1875,42 @@ $ENDCMP
 $CMP R_PHOTO
 D Photoresistor, light sensitive resistor, LDR
 K resistor variable light opto LDR
+F ~
+$ENDCMP
+#
+$CMP R_POT
+D Potentiometer
+K resistor variable
+F ~
+$ENDCMP
+#
+$CMP R_POT_Dual
+D Dual Potentiometer
+K resistor variable
+F ~
+$ENDCMP
+#
+$CMP R_POT_Dual_Separate
+D Dual Potentiometer, separate units
+K resistor variable
+F ~
+$ENDCMP
+#
+$CMP R_POT_TRIM
+D Trim-Potentiometer
+K resistor variable trimpot trimmer
+F ~
+$ENDCMP
+#
+$CMP R_POT_TRIM_US
+D Trim-Potentiometer US symbol
+K resistor variable trimpot trimmer
+F ~
+$ENDCMP
+#
+$CMP R_POT_US
+D Potentiometer US symbol
+K resistor variable
 F ~
 $ENDCMP
 #
@@ -1944,8 +2022,20 @@ K r resistor
 F ~
 $ENDCMP
 #
+$CMP R_US
+D Resistor US symbol
+K r res resistor
+F ~
+$ENDCMP
+#
 $CMP R_Variable
 D variable Resistor (Rheostat)
+K r res resistor variable potentiometer
+F ~
+$ENDCMP
+#
+$CMP R_Variable_US
+D variable Resistor (Rheostat) US symbol
 K r res resistor variable potentiometer
 F ~
 $ENDCMP
@@ -2034,6 +2124,12 @@ K thermistor NTC resistor sensor RTD
 F ~
 $ENDCMP
 #
+$CMP Thermistor_NTC_US
+D temperature dependent resistor, negative temperature coefficient (NTC) US symbol
+K thermistor NTC resistor sensor RTD
+F ~
+$ENDCMP
+#
 $CMP Thermistor_PTC
 D temperature dependent resistor, positive temperature coefficient (PTC)
 K resistor PTC thermistor sensor RTD
@@ -2049,6 +2145,18 @@ $ENDCMP
 $CMP Thermistor_PTC_4wire
 D temperature dependent resistor, positive temperature coefficient (PTC), 3-wire interface
 K resistor PTC thermistor sensor RTD
+F ~
+$ENDCMP
+#
+$CMP Thermistor_PTC_US
+D temperature dependent resistor, positive temperature coefficient (PTC) US symbol
+K resistor PTC thermistor sensor RTD
+F ~
+$ENDCMP
+#
+$CMP Thermistor_US
+D Thermistor, temperature-dependent resistor US symbol
+K r res thermistor
 F ~
 $ENDCMP
 #
@@ -2114,6 +2222,12 @@ $ENDCMP
 #
 $CMP Varistor
 D Voltage dependent resistor
+K vdr resistance
+F ~
+$ENDCMP
+#
+$CMP Varistor_US
+D Voltage dependent resistor US symbol
 K vdr resistance
 F ~
 $ENDCMP

@@ -72,10 +72,34 @@ K HCMOS BUS 3State
 F http://www.ti.com/lit/gpn/sn74HC245
 $ENDCMP
 #
+$CMP 74HC4051
+D 8-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16
+K HCMOS Multiplexer Demultiplexer Analog
+F http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf
+$ENDCMP
+#
+$CMP 74HC590
+D 8-bit Binary Counter with Output Register 3-State Outputs, SOIC-16/TSSOP-16
+K HCMOS Counter 3State
+F https://assets.nexperia.com/documents/data-sheet/74HC590.pdf
+$ENDCMP
+#
+$CMP 74HC590A
+D 8-bit Binary Counter with Output Register 3-State Outputs, DIP-16/SOIC-16/SOIC-16W
+K HCMOS Counter 3State
+F http://www.ti.com/lit/ds/symlink/sn74hc590a.pdf
+$ENDCMP
+#
 $CMP 74HC595
 D 8-bit serial in/out Shift Register 3-State Outputs
 K HCMOS SR 3State
-F http://www.nxp.com/documents/data_sheet/74HC_HCT595.pdf
+F http://www.ti.com/lit/ds/symlink/sn74hc595.pdf
+$ENDCMP
+#
+$CMP 74HC596
+D 8-bit serial in/out Shift Register Open Collector Outputs
+K HCMOS SR OpenCollector
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf
 $ENDCMP
 #
 $CMP 74HC7014
@@ -126,6 +150,12 @@ K TTL BUFFER 3State
 F http://www.nxp.com/documents/data_sheet/74HC_HCT244.pdf
 $ENDCMP
 #
+$CMP 74HCT4051
+D 8-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16
+K TTL Multiplexer Demultiplexer Analog
+F http://www.ti.com/lit/ds/symlink/cd74hct4051.pdf
+$ENDCMP
+#
 $CMP 74HCT541
 D 8-bit Buffer/Line Driver 3-state outputs
 K TTL BUFFER 3State BUS
@@ -136,6 +166,18 @@ $CMP 74HCT574
 D 8-bit Register, 3-state outputs
 K TTL REG DFF DFF8 3State
 F http://www.ti.com/lit/gpn/sn74HCT574
+$ENDCMP
+#
+$CMP 74HCT595
+D 8-bit serial in/out Shift Register 3-State Outputs
+K HCTMOS SR 3State
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf
+$ENDCMP
+#
+$CMP 74HCT596
+D 8-bit serial in/out Shift Register Open Collector Outputs
+K HCTMOS SR OpenCollector
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf
 $ENDCMP
 #
 $CMP 74LCX07
@@ -952,6 +994,12 @@ $CMP 74LS574
 D 8-bit Register, 3-state outputs
 K TTL REG DFF DFF8 3State
 F http://www.ti.com/lit/gpn/sn74LS574
+$ENDCMP
+#
+$CMP 74LS590
+D 8-bit Binary Counter with Output Register 3-State Outputs, DIP-16/SOIC-16/SOIC-16W
+K TTL Counter 3State
+F http://www.ti.com/lit/gpn/sn74ls590
 $ENDCMP
 #
 $CMP 74LS595

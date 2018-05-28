@@ -18,6 +18,24 @@ K DWM1000  DecaWave RF ranging UWB
 F https://www.decawave.com/sites/default/files/dwm1001_datasheet.pdf
 $ENDCMP
 #
+$CMP E18-MS1-PCB
+D Zigbee RF Module
+K Zigbee, RF, 802.15.4
+F http://www.cdebyte.com/en/downpdf.aspx?id=122
+$ENDCMP
+#
+$CMP E73-2G4M04S-52810
+D nRF52810 BLE5 Module
+K BLE5, BLE, nRF52810
+F http://www.cdebyte.com/en/downpdf.aspx?id=243
+$ENDCMP
+#
+$CMP E73-2G4M04S-52832
+D nRF52832 BLE5 Module
+K BLE5, BLE, nRF52832
+F http://www.cdebyte.com/en/downpdf.aspx?id=243
+$ENDCMP
+#
 $CMP ESP-12E
 D 802.11 b/g/n Wi-Fi Module
 K 802.11 Wi-Fi

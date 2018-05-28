@@ -1,0 +1,87 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32F050C4Tx
+D Core: ARM Cortex-M0, Package: LQFP48, Flash: 16 kB, RAM: 4 kB, Frequency: 48 MHz, Voltage: 2..3.6V, I/O pins: 38
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00065136.pdf
+$ENDCMP
+#
+$CMP STM32F050C6Tx
+D Core: ARM Cortex-M0, Package: LQFP48, Flash: 16 kB, RAM: 4 kB, Frequency: 48 MHz, Voltage: 2..3.6V, I/O pins: 38
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00065136.pdf
+$ENDCMP
+#
+$CMP STM32F050G4Ux
+D Core: ARM Cortex-M0, Package: UFQFPN28, Flash: 16 kB, RAM: 4 kB, Frequency: 48 MHz, Voltage: 2..3.6V, I/O pins: 23
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00065136.pdf
+$ENDCMP
+#
+$CMP STM32F050G6Ux
+D Core: ARM Cortex-M0, Package: UFQFPN28, Flash: 16 kB, RAM: 4 kB, Frequency: 48 MHz, Voltage: 2..3.6V, I/O pins: 23
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00065136.pdf
+$ENDCMP
+#
+$CMP STM32F050K4Ux
+D Core: ARM Cortex-M0, Package: UFQFPN32, Flash: 16 kB, RAM: 4 kB, Frequency: 48 MHz, Voltage: 2..3.6V, I/O pins: 26
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00065136.pdf
+$ENDCMP
+#
+$CMP STM32F050K6Ux
+D Core: ARM Cortex-M0, Package: UFQFPN32, Flash: 16 kB, RAM: 4 kB, Frequency: 48 MHz, Voltage: 2..3.6V, I/O pins: 26
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00065136.pdf
+$ENDCMP
+#
+$CMP STM32F313CCTx
+D Core: ARM Cortex-M4, Package: LQFP48, Flash: 256 kB, RAM: 48 kB, Frequency: 72 MHz, Voltage: 1.65..1.95V, I/O pins: 36
+K ARM Cortex-M4 STM32F3 STM32F303/313
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00081611.pdf
+$ENDCMP
+#
+$CMP STM32F313RCTx
+D Core: ARM Cortex-M4, Package: LQFP64, Flash: 256 kB, RAM: 48 kB, Frequency: 72 MHz, Voltage: 1.65..1.95V, I/O pins: 51
+K ARM Cortex-M4 STM32F3 STM32F303/313
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00081611.pdf
+$ENDCMP
+#
+$CMP STM32F313VCTx
+D Core: ARM Cortex-M4, Package: LQFP100, Flash: 256 kB, RAM: 48 kB, Frequency: 72 MHz, Voltage: 1.65..1.95V, I/O pins: 86
+K ARM Cortex-M4 STM32F3 STM32F303/313
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00081611.pdf
+$ENDCMP
+#
+$CMP STM32F334R4Tx
+D Core: ARM Cortex-M4, Package: LQFP64, Flash: 16 kB, RAM: 12 kB, Frequency: 72 MHz, Voltage: 2..3.6V, I/O pins: 51
+K ARM Cortex-M4 STM32F3 STM32F334
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00097745.pdf
+$ENDCMP
+#
+$CMP STM32F334R6Tx
+D Core: ARM Cortex-M4, Package: LQFP64, Flash: 32 kB, RAM: 12 kB, Frequency: 72 MHz, Voltage: 2..3.6V, I/O pins: 51
+K ARM Cortex-M4 STM32F3 STM32F334
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00097745.pdf
+$ENDCMP
+#
+$CMP STM32F334R8Tx
+D Core: ARM Cortex-M4, Package: LQFP64, Flash: 64 kB, RAM: 12 kB, Frequency: 72 MHz, Voltage: 2..3.6V, I/O pins: 51
+K ARM Cortex-M4 STM32F3 STM32F334
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00097745.pdf
+$ENDCMP
+#
+$CMP STM32L041C4Tx
+D Core: ARM Cortex-M0+, Package: LQFP48, Flash: 16 kB, RAM: 8 kB, Frequency: 32 MHz, Voltage: 1.65..3.6V, I/O pins: 38
+K ARM Cortex-M0+ STM32L0 STM32L0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00152023.pdf
+$ENDCMP
+#
+$CMP STM32L041C6Tx
+D Core: ARM Cortex-M0+, Package: LQFP48, Flash: 16 kB, RAM: 8 kB, Frequency: 32 MHz, Voltage: 1.65..3.6V, I/O pins: 38
+K ARM Cortex-M0+ STM32L0 STM32L0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00152023.pdf
+$ENDCMP
+#
+#End Doc Library

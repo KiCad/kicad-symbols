@@ -1560,14 +1560,14 @@ K 150mA LDO Regulator Fixed Positive
 F http://www.st.com/resource/en/datasheet/ld39015.pdf
 $ENDCMP
 #
-$CMP LD39015M12R
-D 150 mA low quiescent current low noise voltage regulator, Fixed Output 1.2V, SOT-23-5
+$CMP LD39015M125R
+D 150 mA low quiescent current low noise voltage regulator, Fixed Output 1.25V, SOT-23-5
 K 150mA LDO Regulator Fixed Positive
 F http://www.st.com/resource/en/datasheet/ld39015.pdf
 $ENDCMP
 #
-$CMP LD39015M125R
-D 150 mA low quiescent current low noise voltage regulator, Fixed Output 1.25V, SOT-23-5
+$CMP LD39015M12R
+D 150 mA low quiescent current low noise voltage regulator, Fixed Output 1.2V, SOT-23-5
 K 150mA LDO Regulator Fixed Positive
 F http://www.st.com/resource/en/datasheet/ld39015.pdf
 $ENDCMP
@@ -3994,6 +3994,78 @@ $CMP MIC5219-5.0
 D 500mA LDO fixed output voltage 5.0V ultra-low-noise, SOT-23-5
 K linear low dropout Regulator fixed ultra-low-noise
 F http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf
+$ENDCMP
+#
+$CMP MIC5355-G4YMME
+D Dual 500mA μCap Low Dropout Micropower Linear Regulator, 1.8V/1.2V, MSOP-8
+K Dual LDO 500mA MSOP-8
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5355_6.pdf
+$ENDCMP
+#
+$CMP MIC5355-JGYMME
+D Dual 500mA μCap Low Dropout Micropower Linear Regulator, 2.5V/1.8V, MSOP-8
+K Dual LDO 500mA MSOP-8
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5355_6.pdf
+$ENDCMP
+#
+$CMP MIC5355-S4YMME
+D Dual 500mA μCap Low Dropout Micropower Linear Regulator, 3.3V/1.2V, MSOP-8
+K Dual LDO 500mA MSOP-8
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5355_6.pdf
+$ENDCMP
+#
+$CMP MIC5355-SCYMME
+D Dual 500mA μCap Low Dropout Micropower Linear Regulator, 3.3V/1.0V, MSOP-8
+K Dual LDO 500mA MSOP-8
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5355_6.pdf
+$ENDCMP
+#
+$CMP MIC5355-SGYMME
+D Dual 500mA μCap Low Dropout Micropower Linear Regulator, 3.3V/1.8V, MSOP-8
+K Dual LDO 500mA MSOP-8
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5355_6.pdf
+$ENDCMP
+#
+$CMP MIC5356-G4YMME
+D Dual 500mA μCap Low Dropout Micropower Linear Regulator, 1.8V/1.2V, MSOP-8
+K Dual LDO 500mA MSOP-8
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5355_6.pdf
+$ENDCMP
+#
+$CMP MIC5356-JGYMME
+D Dual 500mA μCap Low Dropout Micropower Linear Regulator, 2.5V/1.8V, MSOP-8
+K Dual LDO 500mA MSOP-8
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5355_6.pdf
+$ENDCMP
+#
+$CMP MIC5356-MGYML
+D Dual 500mA μCap Low Dropout Micropower Linear Regulator, 2.8V/1.8V, DFN-8
+K Dual LDO 500mA DFN-8
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5355_6.pdf
+$ENDCMP
+#
+$CMP MIC5356-MMYML
+D Dual 500mA μCap Low Dropout Micropower Linear Regulator, 2.8V/2.8V, DFN-8
+K Dual LDO 500mA DFN-8
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5355_6.pdf
+$ENDCMP
+#
+$CMP MIC5356-S4YMME
+D Dual 500mA μCap Low Dropout Micropower Linear Regulator, 3.3V/1.2V, MSOP-8
+K Dual LDO 500mA MSOP-8
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5355_6.pdf
+$ENDCMP
+#
+$CMP MIC5356-SCYMME
+D Dual 500mA μCap Low Dropout Micropower Linear Regulator, 3.3V/1.0V, MSOP-8
+K Dual LDO 500mA MSOP-8
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5355_6.pdf
+$ENDCMP
+#
+$CMP MIC5356-SGYMME
+D Dual 500mA μCap Low Dropout Micropower Linear Regulator, 3.3V/1.8V, MSOP-8
+K Dual LDO 500mA MSOP-8
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5355_6.pdf
 $ENDCMP
 #
 $CMP MIC5501-3.0YM5
