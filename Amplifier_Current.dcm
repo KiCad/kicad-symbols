@@ -186,10 +186,22 @@ K current monitor shunt sensor bidirectional
 F http://www.ti.com/lit/ds/symlink/ina282.pdf
 $ENDCMP
 #
+$CMP LT6101HV
+D Current Shunt Monitor, 5V to 100V, SOT-23-5
+K current sense shunt monitor
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ltc6101.pdf
+$ENDCMP
+#
 $CMP LT6106
 D 36V Low Cost, High Side Current Sense, SOT-23-5
 K current sense
 F http://cds.linear.com/docs/en/datasheet/6106fb.pdf
+$ENDCMP
+#
+$CMP LTC6101
+D Current Shunt Monitor, 4V to 60V, SOT-23-5
+K current sense shunt monitor
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ltc6101.pdf
 $ENDCMP
 #
 $CMP LTC6102HVxDD
