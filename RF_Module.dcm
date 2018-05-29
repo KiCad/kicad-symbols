@@ -42,16 +42,16 @@ K 802.11 Wi-Fi
 F http://wiki.ai-thinker.com/_media/esp8266/docs/aithinker_esp_12f_datasheet_en.pdf
 $ENDCMP
 #
-$CMP iM880A
-D IMST Long Range Radio Module
-K IOT LoRa
-F http://www.wireless-solutions.de/images/stories/downloads/Radio%20Modules/iM880A/General_Information/iM880A_Datasheet_V1_1.pdf
+$CMP HYM730
+D UHF RFID Reader Module, 1 channel
+K UHF RFID Reader 1ch
+F http://www.winnix.net/ewebeditor/UploadFile/201262993929764.pdf
 $ENDCMP
 #
-$CMP iM880B
-D IMST Long Range Radio Module - LoRa Alliance Certified
-K IOT LoRa
-F http://www.wireless-solutions.de/images/stories/downloads/Radio%20Modules/iM880B/General_Information/iM880B_Datasheet_V1_0.pdf
+$CMP HYM750
+D UHF RFID Reader Module, 4 channels
+K UHF RFID Reader 4ch
+F http://www.winnix.net/uploadfile/20130802154623204.pdf
 $ENDCMP
 #
 $CMP MM002
@@ -82,6 +82,18 @@ $CMP UL865
 D Telit 3G Module (GSM/GPRS/UMTS/HSPA), 3.8V, Digital voice and SMS, I2S, USB 2.0, UART, SPI. Manufacturer package
 K gsm 3g gprs umts hspa
 F http://www.telit.com/fileadmin/user_upload/products/Downloads/3G/Telit_UL865_Hardware_User_Guide_r8.pdf
+$ENDCMP
+#
+$CMP iM880A
+D IMST Long Range Radio Module
+K IOT LoRa
+F http://www.wireless-solutions.de/images/stories/downloads/Radio%20Modules/iM880A/General_Information/iM880A_Datasheet_V1_1.pdf
+$ENDCMP
+#
+$CMP iM880B
+D IMST Long Range Radio Module - LoRa Alliance Certified
+K IOT LoRa
+F http://www.wireless-solutions.de/images/stories/downloads/Radio%20Modules/iM880B/General_Information/iM880B_Datasheet_V1_0.pdf
 $ENDCMP
 #
 #End Doc Library
