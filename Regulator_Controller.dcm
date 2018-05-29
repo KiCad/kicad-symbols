@@ -234,6 +234,12 @@ K switching buck converter regulator dual-output
 F http://www.analog.com/media/en/technical-documentation/data-sheets/38921fc.pdf
 $ENDCMP
 #
+$CMP LTC7810
+D 150V dual 2-phase synchronous step-down DC/DC controller, LQPF-48
+K switching buck converter regulator dual-output
+F http://www.analog.com/media/en/technical-documentation/data-sheets/LTC7810.pdf
+$ENDCMP
+#
 $CMP NCP1200D100
 D PWM Current-Mode Controller for Off-Line Supplies, AC-DC, 100kHz, SOIC-8
 K SMPS Controller AC-DC
