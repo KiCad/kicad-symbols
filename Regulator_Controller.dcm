@@ -204,6 +204,42 @@ K flyback dc-dc switcher switching
 F http://cds.linear.com/docs/en/datasheet/3805fg.pdf
 $ENDCMP
 #
+$CMP LTC3890
+D 60V dual 2-phase synchronous step-down DC/DC controller, QFN-32
+K switching buck converter regulator dual-output
+F http://cds.linear.com/docs/en/datasheet/3890fc.pdf
+$ENDCMP
+#
+$CMP LTC3890-1
+D 60V dual 2-phase synchronous step-down DC/DC controller, SSOP-28
+K switching buck converter regulator dual-output
+F http://cds.linear.com/docs/en/datasheet/38901fb.pdf
+$ENDCMP
+#
+$CMP LTC3892
+D 60V dual 2-phase synchronous step-down DC/DC controller, continuous conduction, QFN-32
+K switching buck converter regulator dual-output
+F http://www.analog.com/media/en/technical-documentation/data-sheets/38921fc.pdf
+$ENDCMP
+#
+$CMP LTC3892-1
+D 60V dual 2-phase synchronous step-down DC/DC controller, forced continuous conduction mode, TSSOP-28
+K switching buck converter regulator dual-output
+F http://www.analog.com/media/en/technical-documentation/data-sheets/38921fc.pdf
+$ENDCMP
+#
+$CMP LTC3892-2
+D 60V dual 2-phase synchronous step-down DC/DC controller, pulse-skipping, QFN-32
+K switching buck converter regulator dual-output
+F http://www.analog.com/media/en/technical-documentation/data-sheets/38921fc.pdf
+$ENDCMP
+#
+$CMP LTC7810
+D 150V dual 2-phase synchronous step-down DC/DC controller, LQPF-48
+K switching buck converter regulator dual-output
+F http://www.analog.com/media/en/technical-documentation/data-sheets/LTC7810.pdf
+$ENDCMP
+#
 $CMP NCP1200D100
 D PWM Current-Mode Controller for Off-Line Supplies, AC-DC, 100kHz, SOIC-8
 K SMPS Controller AC-DC
