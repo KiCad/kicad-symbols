@@ -1284,27 +1284,21 @@ K current transducer
 F http://www.lem.com/docs/products/ho-np_sp33-1000_series.pdf
 $ENDCMP
 #
-$CMP LEM_LTSR-NP
-D Generic symbol for LEM current transducer LTSR-NP 5V supply voltage series
-K Current Transducer
-F https://www.lem.com/sites/default/files/products_datasheets/ltsr_6-np.pdf
-$ENDCMP
-#
-$CMP LEM_LTSR_15-NP
-D Generic symbol for LEM current transducer LTSR_15-NP 5V supply voltage series
-K Current Transducer
+$CMP LTSR_15-NP
+D LEM current transducer LTSR_15-NP 5V supply voltage series
+K Current Transducer, Unipolar, 15A, 5V supply, DC, AC, pulsed
 F https://www.lem.com/sites/default/files/products_datasheets/ltsr_15-np.pdf
 $ENDCMP
 #
-$CMP LEM_LTSR_25-NP
-D Generic symbol for LEM current transducer LTSR_25-NP 5V supply voltage series
-K Current Transducer
+$CMP LTSR_25-NP
+D LEM current transducer LTSR_25-NP 5V supply voltage series
+K Current Transducer, Unipolar, 25A, 5V supply, DC, AC, pulsed
 F https://www.lem.com/sites/default/files/products_datasheets/ltsr_25-np.pdf
 $ENDCMP
 #
-$CMP LEM_LTSR_6-NP
-D Generic symbol for LEM current transducer LTSR_6-NP 5V supply voltage series
-K Current Transducer
+$CMP LTSR_6-NP
+D LEM current transducer LTSR_6-NP 5V supply voltage series
+K Current Transducer, Unipolar, 6A, 5V supply, DC, AC, pulsed
 F https://www.lem.com/sites/default/files/products_datasheets/ltsr_6-np.pdf
 $ENDCMP
 #
