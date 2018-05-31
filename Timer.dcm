@@ -84,6 +84,12 @@ K single timer
 F http://www.ti.com/lit/ds/symlink/lmc555.pdf
 $ENDCMP
 #
+$CMP LTC6902
+D Multiphase oscillator, spread spectrum frequency modulation, MSOP-10
+K clock generator dual triple quad signal
+F http://www.analog.com/media/en/technical-documentation/data-sheets/6902f.pdf
+$ENDCMP
+#
 $CMP MC1455
 D Timers, DIP-8/SOIC-8
 K timer
