@@ -6,6 +6,12 @@ K sigma delta adc spi 1ch
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7171.pdf
 $ENDCMP
 #
+$CMP AD7616
+D 16-Channel DAS with 16-Bit, Bipolar Input, Dual Simultaneous Sampling ADC, 2x1MSPS ADC, Serial and parallel IO, LQFP-80
+K 16bit DAS ADC 16channel 1MSPS
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7616.pdf
+$ENDCMP
+#
 $CMP AD7722
 D 16-Bit, 195 kSPS CMOS, Sigma-Delta ADC, MQFP-44
 K adc 1ch 16bit parallel serial
