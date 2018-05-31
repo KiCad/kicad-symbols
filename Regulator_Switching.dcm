@@ -2526,18 +2526,6 @@ K step down switch manager I2C telemetry fault current sense
 F http://cds.linear.com/docs/en/datasheet/3886fe.pdf
 $ENDCMP
 #
-$CMP LTC3890
-D 60V dual 2-phase synchronous step-down DC/DC controller, QFN-32
-K switching buck converter regulator dual-output
-F http://cds.linear.com/docs/en/datasheet/3890fc.pdf
-$ENDCMP
-#
-$CMP LTC3890-1
-D 60V dual 2-phase synchronous step-down DC/DC controller, SSOP-28
-K switching buck converter regulator dual-output
-F http://cds.linear.com/docs/en/datasheet/38901fb.pdf
-$ENDCMP
-#
 $CMP MAX15062A
 D 60V, 300mA, synchronous step-down dc-dc converter, 3.3V fixed output voltage, DFN-8
 K step-down dc-dc switching regulator
