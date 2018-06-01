@@ -1020,10 +1020,9 @@ K LEMO connector
 F  ~
 $ENDCMP
 #
-$CMP MicroSD_MicroSIM_Molex_1041681620
-D Connecor for microSD with detect and microSIM
+$CMP MicroSD_MicroSIM
+D Generic combo connecor for microSD with detect and microSIM
 K uSD, uSIM, combo connector
-F https://www.molex.com/pdm_docs/sd/1041681620_sd.pdf
 $ENDCMP
 #
 $CMP Micro_SD_Card
