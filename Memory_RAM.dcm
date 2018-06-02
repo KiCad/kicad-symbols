@@ -17,6 +17,12 @@ K memory SRAM
 F http://www.alliancememory.com/pdf/AS6C1616(1).pdf
 $ENDCMP
 #
+$CMP ESP-PSRAM32
+D 32 Mbit serial pseudo SRAM device organized as 4Mx8 bits, 1.8 VCC, SOP8
+K 32 Mbit serial pseudo SRAM
+F https://www.espressif.com/sites/default/files/documentation/esp-psram32_datasheet_en.pdf
+$ENDCMP
+#
 $CMP IDT71V65903S
 D 165 pins BGA 3.3V high-speed 9 Megabit synchronous SRAMs 512K x 18 (or  256K x 36)
 $ENDCMP
