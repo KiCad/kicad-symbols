@@ -48,6 +48,12 @@ K WiFi SMD module
 F https://www.espressif.com/sites/default/files/documentation/0c-esp-wroom-02_datasheet_en.pdf
 $ENDCMP
 #
+$CMP ESP32-WROOM-32
+D Generic Wi-Fi+BT+BLE MCU module, 2.7 -> 3.6 VCC, 500mA
+K Generic Wi-Fi+BT+BLE MCU module
+F https://www.espressif.com/sites/default/files/documentation/esp-wroom-32_datasheet_en.pdf
+$ENDCMP
+#
 $CMP MM002
 D NEMEUS Modem dual-mode LoRa/SIGFOX
 K IOT LoRa SIGFOX
