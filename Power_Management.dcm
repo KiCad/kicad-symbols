@@ -42,12 +42,6 @@ K BTS50055 PROFET
 F http://www.infineon.com/dgdl/Infineon-BTS50055-1TMA-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9b00de935ed
 $ENDCMP
 #
-$CMP BTS50055-1TMC1
-D Smart High-Side Power Switch, PROFET, Single, 1mOhm, 55A, 18V, TO220-7
-K BTS50055 PROFET
-F https://www.infineon.com/dgdl/Infineon-BTS50055-1TMA-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9b00de935ed
-$ENDCMP
-#
 $CMP BTS50080-1TEA
 D Smart High-Side Power Switch PROFET One Channel
 K infineon power switch
@@ -58,24 +52,6 @@ $CMP BTS50080-1TEB
 D Smart High-Side Power Switch PROFET One Channel
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS50080-1TEB-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa435e5601157
-$ENDCMP
-#
-$CMP BTS50080-1TMA1
-D Smart High-Side Power Switch, PROFET, Single, 1mOhm, 55A, 18V, TO220-7
-K BTS50080 PROFET
-F https://www.infineon.com/dgdl/Infineon-BTS50080-1TMA-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa435d7fe1153
-$ENDCMP
-#
-$CMP BTS50080-1TMC1
-D Smart High-Side Power Switch, PROFET, Single, 1mOhm, 55A, 18V, TO220-7
-K BTS50080 PROFET
-F https://www.infineon.com/dgdl/Infineon-BTS50080_1TMC-DS-v01_00-en.pdf?fileId=db3a3043266237920126992737c951ee
-$ENDCMP
-#
-$CMP BTS50085-1TMA1
-D Smart High-Side Power Switch, PROFET, Single, 1mOhm, 55A, 18V, TO220-7
-K BTS50085 PROFET
-F https://www.infineon.com/dgdl/Infineon-BTS50085-1TMA-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa435bccd114b
 $ENDCMP
 #
 $CMP BTS5012SDA
