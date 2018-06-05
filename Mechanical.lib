@@ -3,10 +3,10 @@ EESchema-LIBRARY Version 2.4
 #
 # Fiducial
 #
-DEF Fiducial F 0 40 Y Y 1 F N
+DEF Fiducial F 0 20 Y Y 1 F N
 F0 "F" 0 100 50 H V C CNN
 F1 "Fiducial" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "Fiducial:Fiducial_1mm_Dia_2mm_Outer" -100 0 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 $FPLIST
  Fiducial*
