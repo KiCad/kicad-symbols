@@ -3048,6 +3048,42 @@ K SMPS Converter
 F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
 $ENDCMP
 #
+$CMP NCS1S1203SC
+D Isolated 1W 4:1 input DC/DC converter module, 4.5-18V input voltage, 3.3V output voltage, SIP
+K Murata isolated isolation dc-dc converter step-down
+F https://power.murata.com/data/power/ncl/kdc_ncs1.pdf
+$ENDCMP
+#
+$CMP NCS1S1205SC
+D Isolated 1W 4:1 input DC/DC converter module, 4.5-18V input voltage, 5V output voltage, SIP
+K Murata isolated isolation dc-dc converter step-down
+F https://power.murata.com/data/power/ncl/kdc_ncs1.pdf
+$ENDCMP
+#
+$CMP NCS1S1212SC
+D Isolated 1W 4:1 input DC/DC converter module, 4.5-18V input voltage, 12V output voltage, SIP
+K Murata isolated isolation dc-dc converter step-down
+F https://power.murata.com/data/power/ncl/kdc_ncs1.pdf
+$ENDCMP
+#
+$CMP NCS1S2403SC
+D Isolated 1W 4:1 input DC/DC converter module, 9-36V input voltage, 3.3V output voltage, SIP
+K Murata isolated isolation dc-dc converter step-down
+F https://power.murata.com/data/power/ncl/kdc_ncs1.pdf
+$ENDCMP
+#
+$CMP NCS1S2405SC
+D Isolated 1W 4:1 input DC/DC converter module, 9-36V input voltage, 5V output voltage, SIP
+K Murata isolated isolation dc-dc converter step-down
+F https://power.murata.com/data/power/ncl/kdc_ncs1.pdf
+$ENDCMP
+#
+$CMP NCS1S2412SC
+D Isolated 1W 4:1 input DC/DC converter module, 9-36V input voltage, 12V output voltage, SIP
+K Murata isolated isolation dc-dc converter step-down
+F https://power.murata.com/data/power/ncl/kdc_ncs1.pdf
+$ENDCMP
+#
 $CMP NCV33063AVD
 D 1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, SO-8
 K smps buck boost inverting
