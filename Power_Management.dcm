@@ -18,6 +18,12 @@ K Hiside power switch
 F http://www.irf.com/product-info/datasheets/data/auir3315.pdf
 $ENDCMP
 #
+$CMP BTN8982TA
+D High Current PN Half Bridge, TO-263-7
+K half bridge for motor drive applications
+F https://www.infineon.com/dgdl/Infineon-BTN8982TA-DS-v01_00-EN.pdf?fileId=db3a30433fa9412f013fbe32289b7c17
+$ENDCMP
+#
 $CMP BTS40K2-1EJC
 D Smart High-Side Power Switch PROFET One Channel
 K infineon power switch
