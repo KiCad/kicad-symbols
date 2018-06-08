@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP SAMC2xExxA-A
+D ARM Cortex-M0+ MCU, 48MHz, 2.7-5.5V, 26 GPIO, TQFP-32
+K ARM Cortex-M0+ SAM C20 C21
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
+$ENDCMP
+#
 $CMP SAMC20E15A-A
 D ARM Cortex-M0+ MCU, 48MHz, 32KB Flash, 4KB RAM, 2.7-5.5V, 26 GPIO, TQFP-32
 K ARM Cortex-M0+ SAM C20E15
