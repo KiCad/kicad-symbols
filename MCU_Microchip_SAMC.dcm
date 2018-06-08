@@ -1,54 +1,48 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP ATSAMC20E15
+$CMP SAMC20E15A-A
 D ARM Cortex-M0+ MCU, 48MHz, 32KB Flash, 4KB RAM, 2.7-5.5V, 26 GPIO, TQFP-32
 K ARM Cortex-M0+ SAM C20E15
 F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
 $ENDCMP
 #
-$CMP ATSAMC20E16
+$CMP SAMC20E16A-A
 D ARM Cortex-M0+ MCU, 48MHz, 64KB Flash, 8KB RAM, 2.7-5.5V, 26 GPIO, TQFP-32
 K ARM Cortex-M0+ SAM C20E16
 F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
 $ENDCMP
 #
-$CMP ATSAMC20E17
+$CMP SAMC20E17A-A
 D ARM Cortex-M0+ MCU, 48MHz, 128KB Flash, 16KB RAM, 2.7-5.5V, 26 GPIO, TQFP-32
 K ARM Cortex-M0+ SAM C20E17
 F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
 $ENDCMP
 #
-$CMP ATSAMC20E18
+$CMP SAMC20E18A-A
 D ARM Cortex-M0+ MCU, 48MHz, 256KB Flash, 32KB RAM, 2.7-5.5V, 26 GPIO, TQFP-32
 K ARM Cortex-M0+ SAM C20E18
 F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
 $ENDCMP
 #
-$CMP ATSAMC21E15
+$CMP SAMC21E15A-A
 D ARM Cortex-M0+ MCU, 48MHz, 32KB Flash, 4KB RAM, 2.7-5.5V, CAN-FD, 26 GPIO, TQFP-32
 K ARM Cortex-M0+ SAM C21E15
 F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
 $ENDCMP
 #
-$CMP ATSAMC21E16
+$CMP SAMC21E16A-A
 D ARM Cortex-M0+ MCU, 48MHz, 64KB Flash, 8KB RAM, 2.7-5.5V, CAN-FD, 26 GPIO, TQFP-32
 K ARM Cortex-M0+ SAM C21E16
 F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
 $ENDCMP
 #
-$CMP ATSAMC21E17
+$CMP SAMC21E17A-A
 D ARM Cortex-M0+ MCU, 48MHz, 128KB Flash, 16KB RAM, 2.7-5.5V, CAN-FD, 26 GPIO, TQFP-32
 K ARM Cortex-M0+ SAM C21E17
 F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
 $ENDCMP
 #
-$CMP ATSAMC21E18
-D ARM Cortex-M0+ MCU, 48MHz, 256KB Flash, 32KB RAM, 2.7-5.5V, CAN-FD, 26 GPIO, TQFP-32
-K ARM Cortex-M0+ SAM C21E18
-F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
-$ENDCMP
-#
-$CMP ATSAMC2xE
+$CMP SAMC21E18A-A
 D ARM Cortex-M0+ MCU, 48MHz, 2.7-5.5V, 26 GPIO, TQFP-32
 K ARM Cortex-M0+ SAM C20E C21E
 F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
