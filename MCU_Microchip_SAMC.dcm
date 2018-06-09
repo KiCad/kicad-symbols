@@ -288,6 +288,54 @@ K ARM Cortex-M0+ SAM C21J
 F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
 $ENDCMP
 #
+$CMP SAMC20N15A-A
+D ARM Cortex-M0+ MCU, 48MHz, 32KB Flash, 4KB RAM, 2.7-5.5V, 84 GPIO, TQFP-100
+K ARM Cortex-M0+ SAM C20N
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
+$ENDCMP
+#
+$CMP SAMC20N16A-A
+D ARM Cortex-M0+ MCU, 48MHz, 64KB Flash, 8KB RAM, 2.7-5.5V, 84 GPIO, TQFP-100
+K ARM Cortex-M0+ SAM C20N
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
+$ENDCMP
+#
+$CMP SAMC20N17A-A
+D ARM Cortex-M0+ MCU, 48MHz, 128KB Flash, 16KB RAM, 2.7-5.5V, 84 GPIO, TQFP-100
+K ARM Cortex-M0+ SAM C20N
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
+$ENDCMP
+#
+$CMP SAMC20N18A-A
+D ARM Cortex-M0+ MCU, 48MHz, 256KB Flash, 32KB RAM, 2.7-5.5V, 84 GPIO, TQFP-100
+K ARM Cortex-M0+ SAM C20N
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
+$ENDCMP
+#
+$CMP SAMC21N15A-A
+D ARM Cortex-M0+ MCU, 48MHz, 32KB Flash, 4KB RAM, 2.7-5.5V, CAN-FD, 84 GPIO, TQFP-100
+K ARM Cortex-M0+ SAM C21N
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
+$ENDCMP
+#
+$CMP SAMC21N16A-A
+D ARM Cortex-M0+ MCU, 48MHz, 64KB Flash, 8KB RAM, 2.7-5.5V, CAN-FD, 84 GPIO, TQFP-100
+K ARM Cortex-M0+ SAM C21N
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
+$ENDCMP
+#
+$CMP SAMC21N17A-A
+D ARM Cortex-M0+ MCU, 48MHz, 128KB Flash, 16KB RAM, 2.7-5.5V, CAN-FD, 84 GPIO, TQFP-100
+K ARM Cortex-M0+ SAM C21N
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
+$ENDCMP
+#
+$CMP SAMC21N18A-A
+D ARM Cortex-M0+ MCU, 48MHz, 256KB Flash, 32KB RAM, 2.7-5.5V, CAN-FD, 84 GPIO, TQFP-100
+K ARM Cortex-M0+ SAM C21N
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
+$ENDCMP
+#
 $CMP SAMC2xExxA-A
 D ARM Cortex-M0+ MCU, 48MHz, 2.7-5.5V, 26 GPIO, TQFP-32
 K ARM Cortex-M0+ SAM C20 C21
@@ -321,6 +369,12 @@ $ENDCMP
 $CMP SAMC2xJxxA-M
 D ARM Cortex-M0+ MCU, 48MHz, 2.7-5.5V, 52 GPIO, QFN-64
 K ARM Cortex-M0+ SAM C20J C21J
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
+$ENDCMP
+#
+$CMP SAMC2xNxxA-A
+D ARM Cortex-M0+ MCU, 48MHz, 2.7-5.5V, 84 GPIO, TQFP-100
+K ARM Cortex-M0+ SAM C20N C21N
 F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
 $ENDCMP
 #
