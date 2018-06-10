@@ -1,0 +1,40 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# BatteryHolder_1x18650
+#
+DEF BatteryHolder_1x18650 U 0 40 Y Y 1 F N
+F0 "U" 100 250 50 H V C CNN
+F1 "BatteryHolder_1x18650" 50 -250 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ BatteryHolder*1x18650*
+$ENDFPLIST
+DRAW
+S -100 200 100 -200 0 1 10 f
+X + 1 0 300 100 D 50 50 1 1 w
+X - 2 0 -300 100 U 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# BatteryHolder_2x18650
+#
+DEF BatteryHolder_2x18650 U 0 20 Y Y 1 F N
+F0 "U" 100 250 50 H V C CNN
+F1 "BatteryHolder_2x18650" 50 -250 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ BatteryHolder*2x18650*
+$ENDFPLIST
+DRAW
+S -200 200 200 -200 0 1 10 f
+X + 1 -100 300 100 D 50 50 1 1 w
+X - 2 -100 -300 100 U 50 50 1 1 w
+X + 3 0 300 100 D 50 50 1 1 w
+X - 4 0 -300 100 U 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+#End Library
