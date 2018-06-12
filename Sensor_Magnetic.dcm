@@ -3,7 +3,7 @@ EESchema-DOCLIB  Version 2.0
 $CMP A1101ELHL
 D Hall effect switch, unipolar, Bop=100G, Brp=45G, -40C to +85C
 K hall switch
-F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+F www.allegromicro.com/~/media/Files/Datasheets/A110x-Datasheet.ashx
 $ENDCMP
 #
 $CMP A1101LLHL
@@ -87,25 +87,25 @@ $ENDCMP
 $CMP AS5045B
 D Magnetic Position Sensor, 12-bit, PWM Output, ABI Output, SPI Interface
 K Magnetic Hall Encoder
-F http://ams.com/eng/content/download/438063/1340357/246195
+F http://ams.com/documents/20143/36005/AS5045B_DS000397_2-00.pdf
 $ENDCMP
 #
 $CMP AS5048A
 D Magnetic position sensor, 14-bit, PWM output, SPI Interface
 K sensor magnetic hall position rotation spi
-F http://ams.com/eng/content/download/438523/1341157/file/AS5048_Datasheet.pdf
+F http://ams.com/documents/20143/36005/AS5048_DS000298_4-00.pdf
 $ENDCMP
 #
 $CMP AS5048B
 D Magnetic position sensor, 14-bit, PWM output, I2C Interface
 K sensor magnetic hall position rotation i2c
-F http://ams.com/eng/content/download/438523/1341157/file/AS5048_Datasheet.pdf
+F https://ams.com/documents/20143/36005/AS5048_DS000298_4-00.pdf
 $ENDCMP
 #
 $CMP AS5050A
 D Magnetic position sensor, 10-bit, SPI interface
 K sensor magnetic hall position rotation spi
-F http://ams.com/eng/content/download/552303/1541697/file/AS5050A_Datasheet_EN_v6.pdf
+F https://ams.com/documents/20143/36005/AS5055A_DS000304_2-00.pdf
 $ENDCMP
 #
 $CMP AS5055A
