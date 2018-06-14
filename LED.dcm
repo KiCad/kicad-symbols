@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP APFA3010
+D LED RGB, Common Anode, SMD, 3.0x1.5mm, Horizontal
+K LED RGB SMD Kingbright APFA3010 Horizontal
+F http://www.kingbrightusa.com/images/catalog/SPEC/APFA3010LSEEZGKQBKC.pdf
+$ENDCMP
+#
 $CMP ASMB-MTB0-0A3A2
 D Tricolor Black Surface LED, Common Anode Pin 1, PLCC-4
 K led rgb diode
@@ -150,9 +156,9 @@ K led diode
 F http://www.cree.com/%7E/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
 $ENDCMP
 #
-$CMP Neopixel_THT
-D WS2812B ("Neopixel") digital RGB LED, 5mm/8mm LED package
-K led diode Neopixel WS2811 WS2812
+$CMP NeoPixel_THT
+D RGB LED with integrated controller, 5mm/8mm LED package
+K RGB LED NeoPixel addressable
 F https://www.adafruit.com/product/1938
 $ENDCMP
 #
@@ -198,6 +204,24 @@ K opto IR LED
 F http://www.osram-os.com/Graphics/XPic2/00182155_0.pdf/SFH%20482%20E7800,%20Lead%20(Pb)%20Free%20Product%20-%20RoHS%20Compliant.pdf
 $ENDCMP
 #
+$CMP SK6805
+D RGB LED with integrated controller
+K RGB LED NeoPixel Nano addressable
+F https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf
+$ENDCMP
+#
+$CMP SK6812
+D RGB LED with integrated controller
+K RGB LED NeoPixel addressable
+F https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf
+$ENDCMP
+#
+$CMP SK6812MINI
+D RGB LED with integrated controller
+K RGB LED NeoPixel Mini addressable
+F https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf
+$ENDCMP
+#
 $CMP TSAL4400
 D Infrared LED , 3mm LED package
 K opto IR LED
@@ -206,38 +230,32 @@ $ENDCMP
 #
 $CMP WS2812
 D RGB LED with integrated controller
-K RGB LED
-F http://www.world-semi.com/uploads/soft/140305/1-140305113P8.pdf
+K RGB LED NeoPixel addressable
+F https://cdn-shop.adafruit.com/datasheets/WS2812.pdf
 $ENDCMP
 #
 $CMP WS2812B
 D RGB LED with integrated controller
-K RGB LED NeoPixel
-F http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf
+K RGB LED NeoPixel addressable
+F https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
 $ENDCMP
 #
 $CMP WS2812S
 D RGB LED with integrated controller
-K RGB LED
-F http://www.world-semi.com/uploads/soft/140305/1-140305113P8.pdf
+K RGB LED addressable
+F http://www.world-semi.com/DownLoadFile/115
 $ENDCMP
 #
 $CMP WS2813
-D digital RGB LED, 5050 LED package
-K led diode RGB
+D RGB LED with integrated controller
+K RGB LED addressable
 F http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf
 $ENDCMP
 #
-$CMP WS2822S_A
+$CMP WS2822S
 D RGB LED with integrated controller
-K RGB LED
-F http://www.world-semi.com/en/Driver/illumination_LED_driver_chip/WS2901/index.html
-$ENDCMP
-#
-$CMP WS2822S_B
-D RGB LED with integrated controller
-K RGB LED
-F http://www.world-semi.com/en/Driver/illumination_LED_driver_chip/WS2901/index.html
+K RGB LED addressable
+F http://akizukidenshi.com/download/ds/worldsemi/WS2822S.pdf
 $ENDCMP
 #
 #End Doc Library

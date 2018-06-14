@@ -24,10 +24,10 @@ K IQRF data controlled transceiver, GMSK modulation
 F http://iqrf.org/weben/downloads.php?id=337
 $ENDCMP
 #
-$CMP MM002
-D NEMEUS Modem dual-mode LoRa/SIGFOX
-K IOT LoRa SIGFOX
-F http://www.nemeus.fr/resources/uploads/2015/04/MM002-xx-EU_datasheet_v0.11.pdf
+$CMP MAADSS0008
+D 0-2GHz, 15dB step attenuator, SOT-23-5
+K RF attenuator
+F http://cdn.macom.com/datasheets/maadss0008.pdf
 $ENDCMP
 #
 $CMP NRF24L01
@@ -45,7 +45,7 @@ $ENDCMP
 $CMP SIM900
 D GSM Quad-Band Communication Module, GPRS, Audio Engine, AT Command Set
 K GSM GPRS Quad-Band SMS FAX
-F https://www.tme.eu/it/Document/3428bae894bc311e83c44aca8a5e5174/sim900.pdf
+F http://simcom.ee/documents/SIM900/SIM900_Hardware%20Design_V2.05.pdf
 $ENDCMP
 #
 $CMP SX1272
@@ -60,18 +60,6 @@ K low-power lora transceiver
 F http://www.semtech.com/images/datasheet/sx1272.pdf
 $ENDCMP
 #
-$CMP TD1205
-D High-Performance, Low-Current SIGFOX™ Gateway And GPS Receiver With Integrated Antennas
-K IOT SIGFOX GPS
-F https://github.com/Telecom-Design/Documentation_TD_RF_Module/blob/master/TD1205%20Datasheet.pdf
-$ENDCMP
-#
-$CMP TD1208
-D High-Performance, Low-Current SIGFOX™ Gateway
-K IOT SIGFOX
-F https://github.com/Telecom-Design/Documentation_TD_RF_Module/blob/master/TD1208%20Datasheet.pdf
-$ENDCMP
-#
 $CMP TR-52D
 D IQRF common transceiver, FSK modulation
 K IQRF common transceiver, FSK modulation
@@ -82,24 +70,6 @@ $CMP TR-72D
 D IQRF common transceiver, GMSK modulation
 K IQRF common transceiver, GMSK modulation
 F http://iqrf.org/weben/downloads.php?id=337
-$ENDCMP
-#
-$CMP UL865
-D Telit 3G Module (GSM/GPRS/UMTS/HSPA), 3.8V, Digital voice and SMS, I2S, USB 2.0, UART, SPI. Manufacturer package
-K gsm 3g gprs umts hspa
-F http://www.telit.com/fileadmin/user_upload/products/Downloads/3G/Telit_UL865_Hardware_User_Guide_r8.pdf
-$ENDCMP
-#
-$CMP iM880A
-D IMST Long Range Radio Module
-K IOT LoRa
-F http://www.wireless-solutions.de/images/stories/downloads/Radio%20Modules/iM880A/General_Information/iM880A_Datasheet_V1_1.pdf
-$ENDCMP
-#
-$CMP iM880B
-D IMST Long Range Radio Module - LoRa Alliance Certified
-K IOT LoRa
-F http://www.wireless-solutions.de/images/stories/downloads/Radio%20Modules/iM880B/General_Information/iM880B_Datasheet_V1_0.pdf
 $ENDCMP
 #
 $CMP nRF24L01P

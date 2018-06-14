@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MC6845
+D CRT Controller 1MHz, DIP-40
+K CRT controller
+F http://pdf.datasheetcatalog.com/datasheet_pdf/motorola/MC6845L_and_MC6845P.pdf
+$ENDCMP
+#
+$CMP MC68A45
+D CRT Controller 1.5MHz, DIP-40
+K CRT controller
+F http://pdf.datasheetcatalog.com/datasheet_pdf/motorola/MC6845L_and_MC6845P.pdf
+$ENDCMP
+#
+$CMP MC68B45
+D CRT Controller 2MHz, DIP-40
+K CRT controller
+F http://pdf.datasheetcatalog.com/datasheet_pdf/motorola/MC6845L_and_MC6845P.pdf
+$ENDCMP
+#
+#End Doc Library

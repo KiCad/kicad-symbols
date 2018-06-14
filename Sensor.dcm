@@ -9,7 +9,7 @@ $ENDCMP
 $CMP AS3935
 D Programmable fully integrated Lightning Sensor IC
 K lightening sensor
-F http://ams.com/eng/content/download/249847/974777/143418
+F https://www.embeddedadventures.com/datasheets/AS3935_Datasheet_EN_v2.pdf
 $ENDCMP
 #
 $CMP BME280
@@ -24,16 +24,28 @@ K BME680 gas pressure humidity temperatiure measurement
 F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001-00.pdf
 $ENDCMP
 #
+$CMP DHT11
+D Temperature and humidity module
+K digital temperature humidity sensor
+F http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
+$ENDCMP
+#
 $CMP LTC2990
 D Temperature Voltage and Current Monitor, I2C Interface, MSOP-10
 K Temperature Voltage Current Monitor I2C AFE
-F http://cds.linear.com/docs/en/datasheet/2990fd.pdf
+F http://cds.linear.com/docs/en/datasheet/2990fe.pdf
 $ENDCMP
 #
 $CMP MAX30102
 D Heart Rate Sensor, 14-OLGA
 K Heart Rate
 F https://datasheets.maximintegrated.com/en/ds/MAX30102.pdf
+$ENDCMP
+#
+$CMP SHT1x
+D Temperature and humidity module
+K digital temperature humidity sensor
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Sensirion_Humidity_Sensors_SHT1x_Datasheet.pdf
 $ENDCMP
 #
 #End Doc Library

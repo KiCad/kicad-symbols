@@ -12,4 +12,76 @@ K DWM1000,Decawave,RF,ranging,UWB
 F https://www.decawave.com/sites/default/files/resources/dwm1000-datasheet-v1.3.pdf
 $ENDCMP
 #
+$CMP DWM1001
+D  Ultra wide band RF module With ranging location capabilities, I2C, UART, SPI, +2.8V to +3.6V VCC
+K DWM1000  DecaWave RF ranging UWB
+F https://www.decawave.com/sites/default/files/dwm1001_datasheet.pdf
+$ENDCMP
+#
+$CMP E18-MS1-PCB
+D Zigbee RF Module
+K Zigbee, RF, 802.15.4
+F http://www.cdebyte.com/en/downpdf.aspx?id=122
+$ENDCMP
+#
+$CMP E73-2G4M04S-52810
+D nRF52810 BLE5 Module
+K BLE5, BLE, nRF52810
+F http://www.cdebyte.com/en/downpdf.aspx?id=243
+$ENDCMP
+#
+$CMP E73-2G4M04S-52832
+D nRF52832 BLE5 Module
+K BLE5, BLE, nRF52832
+F http://www.cdebyte.com/en/downpdf.aspx?id=243
+$ENDCMP
+#
+$CMP ESP-12E
+D 802.11 b/g/n Wi-Fi Module
+K 802.11 Wi-Fi
+F http://wiki.ai-thinker.com/_media/esp8266/docs/aithinker_esp_12f_datasheet_en.pdf
+$ENDCMP
+#
+$CMP iM880A
+D IMST Long Range Radio Module
+K IOT LoRa
+F http://www.wireless-solutions.de/images/stories/downloads/Radio%20Modules/iM880A/General_Information/iM880A_Datasheet_V1_1.pdf
+$ENDCMP
+#
+$CMP iM880B
+D IMST Long Range Radio Module - LoRa Alliance Certified
+K IOT LoRa
+F http://www.wireless-solutions.de/images/stories/downloads/Radio%20Modules/iM880B/General_Information/iM880B_Datasheet_V1_0.pdf
+$ENDCMP
+#
+$CMP MM002
+D NEMEUS Modem dual-mode LoRa/SIGFOX
+K IOT LoRa SIGFOX
+F http://www.nemeus.fr/resources/uploads/2015/04/MM002-xx-EU_datasheet_v0.11.pdf
+$ENDCMP
+#
+$CMP Particle_P1
+D Wi-Fi module, 1MB flash, 128KB RAM
+K Wi-Fi module
+F https://docs.particle.io/datasheets/p1-datasheet/
+$ENDCMP
+#
+$CMP TD1205
+D High-Performance, Low-Current SIGFOX™ Gateway And GPS Receiver With Integrated Antennas
+K IOT SIGFOX GPS
+F https://github.com/Telecom-Design/Documentation_TD_RF_Module/blob/master/TD1205%20Datasheet.pdf
+$ENDCMP
+#
+$CMP TD1208
+D High-Performance, Low-Current SIGFOX™ Gateway
+K IOT SIGFOX
+F https://github.com/Telecom-Design/Documentation_TD_RF_Module/blob/master/TD1208%20Datasheet.pdf
+$ENDCMP
+#
+$CMP UL865
+D Telit 3G Module (GSM/GPRS/UMTS/HSPA), 3.8V, Digital voice and SMS, I2S, USB 2.0, UART, SPI. Manufacturer package
+K gsm 3g gprs umts hspa
+F http://www.telit.com/fileadmin/user_upload/products/Downloads/3G/Telit_UL865_Hardware_User_Guide_r8.pdf
+$ENDCMP
+#
 #End Doc Library

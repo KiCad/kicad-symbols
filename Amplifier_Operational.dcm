@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD797
+D Ultralow Distortion, Ultralow Noise Op Amp, DIP-8/SOIC-8
+K single opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD797.pdf
+$ENDCMP
+#
 $CMP AD8610
 D Single Precision, Very Low Noise, Low Input Bias Current, Wide Bandwidth JFET Operational Amplifiers, SOIC-8
 K single opamp
@@ -144,6 +150,12 @@ K single jfet opamp
 F http://www.ti.com/lit/ds/symlink/lf357.pdf
 $ENDCMP
 #
+$CMP LM101
+D Operational Amplifier, DIP-8/TO-99-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/lm101a-n.pdf
+$ENDCMP
+#
 $CMP LM13600
 D Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16
 K operational transconductance amplifier OTA
@@ -156,6 +168,12 @@ K operational transconductance amplifier OTA
 F http://www.ti.com/lit/ds/symlink/lm13700.pdf
 $ENDCMP
 #
+$CMP LM201
+D Operational Amplifier, DIP-8/TO-99-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/lm101a-n.pdf
+$ENDCMP
+#
 $CMP LM2902
 D Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14
 K quad opamp
@@ -166,6 +184,12 @@ $CMP LM2904
 D Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8
 K dual opamp
 F http://www.ti.com/lit/ds/symlink/lm358.pdf
+$ENDCMP
+#
+$CMP LM301
+D Operational Amplifier, DIP-8/TO-99-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/lm101a-n.pdf
 $ENDCMP
 #
 $CMP LM318H
@@ -316,6 +340,12 @@ $CMP LMV601
 D 1MHz, Low-Power, General-Purpose, 2.7V Operational Amplifiers, SC-70-6
 K single opamp
 F http://www.ti.com/lit/ds/symlink/lmv601.pdf
+$ENDCMP
+#
+$CMP LT1012
+D Single Picoamp Input Current, Microvolt Offset, Low Noise Op Amp, DIP-8/SOIC-8/TO-5-8
+K single opamp
+F http://cds.linear.com/docs/en/datasheet/1012afbs.pdf
 $ENDCMP
 #
 $CMP LT1363
@@ -624,10 +654,40 @@ K quad opamp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf
 $ENDCMP
 #
+$CMP NCS2325D
+D Dual operational amplifier, 50uV Offset, 0.25uV/C, 35uA Zero-Drift, SOIC-8
+K dual opamp low-power
+F http://www.onsemi.com/PowerSolutions/document/NCS325-D.PDF
+$ENDCMP
+#
+$CMP NCS2325DM
+D Dual operational amplifier, 50uV Offset, 0.25uV/C, 35uA Zero-Drift, MSOP-8
+K dual opamp low-power
+F http://www.onsemi.com/PowerSolutions/document/NCS325-D.PDF
+$ENDCMP
+#
+$CMP NCS325
+D Single operational amplifier, 50uV Offset, 0.25uV/C, 35uA Zero-Drift, SOT-23-5
+K single opamp low-power
+F http://www.onsemi.com/pub/Collateral/NCS325-D.PDF
+$ENDCMP
+#
+$CMP NCS4325
+D Quad operational amplifier, 50uV Offset, 0.25uV/C, 35uA Zero-Drift, SOIC-14
+K quad opamp low-power
+F http://www.onsemi.com/pub/Collateral/NCS325-D.PDF
+$ENDCMP
+#
 $CMP NE5532
 D Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8
 K dual opamp
 F http://www.ti.com/lit/ds/symlink/ne5532.pdf
+$ENDCMP
+#
+$CMP NE5534
+D Single Low-Noise Operational Amplifiers, DIP-8/SOIC-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/ne5534.pdf
 $ENDCMP
 #
 $CMP NJM2043
@@ -964,6 +1024,12 @@ $CMP SA5532
 D Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8
 K dual opamp
 F http://www.ti.com/lit/ds/symlink/ne5532.pdf
+$ENDCMP
+#
+$CMP SA5534
+D Single Low-Noise Operational Amplifiers, DIP-8/SOIC-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/ne5534.pdf
 $ENDCMP
 #
 $CMP THS4631D

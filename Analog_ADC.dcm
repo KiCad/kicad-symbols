@@ -6,6 +6,12 @@ K sigma delta adc spi 1ch
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7171.pdf
 $ENDCMP
 #
+$CMP AD7616
+D 16-Channel DAS with 16-Bit, Bipolar Input, Dual Simultaneous Sampling ADC, 2x1MSPS ADC, Serial and parallel IO, LQFP-80
+K 16bit DAS ADC 16channel 1MSPS
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7616.pdf
+$ENDCMP
+#
 $CMP AD7722
 D 16-Bit, 195 kSPS CMOS, Sigma-Delta ADC, MQFP-44
 K adc 1ch 16bit parallel serial
@@ -42,10 +48,22 @@ K ADC CAN VIDEO
 F http://www.ti.com/lit/ds/symlink/adc08060.pdf
 $ENDCMP
 #
+$CMP ADC081C021CIMM
+D I2C-Compatible, 8-Bit Analog-to-Digital Converter with Alert Function, MSOP-8
+K ADC I2C 8-bit Alert
+F http://www.ti.com/lit/ds/symlink/adc081c021.pdf
+$ENDCMP
+#
 $CMP ADC0832
 D 2 inputs AD Converter (serial output),
 K ADC CAN
 F http://www.ti.com/lit/ds/symlink/adc0831-n.pdf
+$ENDCMP
+#
+$CMP ADC101C021CIMM
+D I2C-Compatible, 10-Bit Analog-to-Digital Converter with Alert Function, MSOP-8
+K ADC I2C 10-bit Alert
+F http://www.ti.com/lit/ds/symlink/adc101c021.pdf
 $ENDCMP
 #
 $CMP ADC1173
@@ -54,16 +72,70 @@ K ADC CAN VIDEO
 F http://www.ti.com/lit/ds/symlink/adc1173.pdf
 $ENDCMP
 #
+$CMP ADC121C021CIMM
+D I2C-Compatible, 12-Bit Analog-to-Digital Converter with Alert Function, MSOP-8
+K ADC I2C 12-bit Alert
+F http://www.ti.com/lit/ds/symlink/adc121c021.pdf
+$ENDCMP
+#
+$CMP ADC128D818
+D 12-Bit, 8-Channel, ADC System Monitor With Temperature Sensor, I2C Interface, TSSOP-16
+K ADC 8 Channels TSSOP I2C
+F http://www.ti.com/lit/ds/symlink/adc128d818.pdf
+$ENDCMP
+#
+$CMP ADS1013IDGS
+D Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference and Oscillator, VSSOP-10
+K 12 bit single channel I2C ADC
+F http://www.ti.com/lit/ds/symlink/ads1015.pdf
+$ENDCMP
+#
+$CMP ADS1014IDGS
+D Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10
+K 12 bit single channel I2C ADC
+F http://www.ti.com/lit/ds/symlink/ads1015.pdf
+$ENDCMP
+#
+$CMP ADS1015IDGS
+D Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10
+K 12 bit 4 channel I2C ADC
+F http://www.ti.com/lit/ds/symlink/ads1015.pdf
+$ENDCMP
+#
+$CMP ADS1018IDGS
+D  Ultrasmall, Low-Power, SPI-Compatible, 12-Bit, Analog-to-Digital Converter With Internal Reference and Temperature Sensor, VSSOP-10
+K 12 bit 4 channel SPI ADC
+F http://www.ti.com/lit/ds/symlink/ads1018.pdf
+$ENDCMP
+#
 $CMP ADS1110
 D 16 Bit Analog to Digital converter with on board reference
 K 16 Bit Analog to digital converter ADC
 F http://www.ti.com/lit/ds/symlink/ads1110.pdf
 $ENDCMP
 #
-$CMP ADS1118I
-D 16-bit analog to digital converter, 2 or 4 inputs, integrated temperature sensor, SPI interface
-K adc spi quad double
-F http://www.ti.com/lit/ds/sbas457e/sbas457e.pdf
+$CMP ADS1113IDGS
+D Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference and Oscillator, VSSOP-10
+K 16 bit single channel I2C ADC
+F http://www.ti.com/lit/ds/symlink/ads1113.pdf
+$ENDCMP
+#
+$CMP ADS1114IDGS
+D Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10
+K 16 bit single channel I2C ADC
+F http://www.ti.com/lit/ds/symlink/ads1113.pdf
+$ENDCMP
+#
+$CMP ADS1115IDGS
+D Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10
+K 16 bit 4 channel I2C ADC
+F http://www.ti.com/lit/ds/symlink/ads1113.pdf
+$ENDCMP
+#
+$CMP ADS1118IDGS
+D Ultrasmall, Low-Power, SPI-Compatible, 16-Bit Analog-to-Digital Converter with Internal Reference and Temperature Sensor, VSSOP-10
+K 16 bit 4 channel SPI ADC
+F http://www.ti.com/lit/ds/symlink/ads1118.pdf
 $ENDCMP
 #
 $CMP ADS1120-PW
@@ -102,12 +174,6 @@ K delta-sigma adc low-power
 F http://www.ti.com/lit/ds/symlink/ads1251.pdf
 $ENDCMP
 #
-$CMP ADS128D818
-D 16-bit ADC, 8 Channels, I2C compatible, PGA 1 to 128, TSSOP-16
-K 16bit ADC 8 Channels TSSOP I2C
-F http://www.ti.com/lit/ds/symlink/adc128d818.pdf
-$ENDCMP
-#
 $CMP ADS1298_TQFP
 D ADS1298 Low-Power, 8-Channel, 24-Bit Analog Front-End for Biopotential Measurements, TQFP-64
 K 24bit ADC 8 Channels PGA SPI Biopotential
@@ -120,9 +186,33 @@ K I2C ADC 12Bits
 F http://www.ti.com/lit/ds/symlink/ads7828.pdf
 $ENDCMP
 #
+$CMP ADS7866
+D Single Channel 12-bit ADC,  100-200ksps, SPI, micro-power, SOT-23-6
+K ADC
+F http://www.ti.com/lit/ds/symlink/ads7866.pdf
+$ENDCMP
+#
+$CMP ADS7867
+D Single Channel 10-bit ADC,  100-200ksps, SPI, micro-power, SOT-23-6
+K ADC
+F http://www.ti.com/lit/ds/symlink/ads7866.pdf
+$ENDCMP
+#
+$CMP ADS7868
+D Single Channel 8-bit ADC,  100-200ksps, SPI, micro-power, SOT-23-6
+K ADC
+F http://www.ti.com/lit/ds/symlink/ads7866.pdf
+$ENDCMP
+#
 $CMP CA3300
 D Convertisseur A->D 6 bits rapide
 K ADC CAN
+$ENDCMP
+#
+$CMP INA226
+D High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C Compatible Interface, MSOP-10
+K ADC I2C 16-Bit Oversampling Current Shunt
+F http://www.ti.com/lit/ds/symlink/ina226.pdf
 $ENDCMP
 #
 $CMP LTC1406CGN
@@ -207,6 +297,18 @@ $CMP LTC2309_TSSOP
 D 8 Channels, 12-Bit SAR ADC, I2C interface, TSSOP-20 package
 K LT ADC 12bit I2C SAR TSSOP
 F http://cds.linear.com/docs/en/datasheet/2309fd.pdf
+$ENDCMP
+#
+$CMP LTC2358-16
+D LTC2358 Buffered Octal, 16 bit, 200ksps/Ch Differential +-10.24V Simultaneous Sampling ADC, 30Vpp common mode range, LQFP-48
+K 16bit Simultaneous Sampling ADC 8 Channels SPI buffered
+F http://www.analog.com/media/en/technical-documentation/data-sheets/235816f.pdf
+$ENDCMP
+#
+$CMP LTC2358-18
+D LTC2358 Buffered Octal, 18 bit, 200ksps/Ch Differential +-10.24V Simultaneous Sampling ADC, 30Vpp common mode range, LQFP-48
+K 18bit Simultaneous Sampling ADC 8 Channels SPI buffered
+F http://www.analog.com/media/en/technical-documentation/data-sheets/235818f.pdf
 $ENDCMP
 #
 $CMP LTC2508CDKD-32

@@ -1,3 +1,7 @@
+language: python
+python:
+  - "2.7"
+
 before_install:
 - git clone --depth 1 https://github.com/KiCad/kicad-library-utils /home/travis/build/kicad-library-utils
 - git clone --depth 1 https://github.com/KiCad/kicad-symbols /home/travis/build/kicad-library-old

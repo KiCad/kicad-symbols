@@ -2,13 +2,13 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP PIC18F1220-SO
 D 18-Pin Flash Microcontroller 4K Flash 256byte RAM
-K RAM ADC UART PWM 
+K RAM ADC UART PWM
 F http://ww1.microchip.com/downloads/en/DeviceDoc/39605F.pdf
 $ENDCMP
 #
 $CMP PIC18F1320-SO
 D 18-Pin Flash Microcontroller 8K Flash 256byte RAM
-K RAM ADC UART PWM 
+K RAM ADC UART PWM
 F http://ww1.microchip.com/downloads/en/DeviceDoc/39605F.pdf
 $ENDCMP
 #
@@ -426,6 +426,12 @@ K microcontroller Flash EEPROM SPI I2C CAN UART USART ADC TQFP
 F http://ww1.microchip.com/downloads/en/DeviceDoc/39977f.pdf
 $ENDCMP
 #
+$CMP PIC18F46K22-xPT
+D 64K Flash, 3.5K RAM, 1K EEPROM PIC18 Microcontroller ADC PWM SPI I2C USART in TQFP44 package
+K microchip microcontroller PIC18 flash XLP nanoWatt
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001412G.pdf
+$ENDCMP
+#
 $CMP PIC18F46K80-IML
 D 64K Flash, 3.5K RAM, 1K EEPROM PIC18 Microcontroller ADC PWM CAN SPI I2C USART in QFN44 package
 K microcontroller PIC18 flash ECAN XLP nanoWatt
@@ -494,13 +500,13 @@ $ENDCMP
 #
 $CMP PIC18LF1220-SO
 D 18-Pin Flash Microcontroller 4K Flash 256byte RAM
-K RAM ADC UART PWM 
+K RAM ADC UART PWM
 F http://ww1.microchip.com/downloads/en/DeviceDoc/39605F.pdf
 $ENDCMP
 #
 $CMP PIC18LF1320-SO
 D 18-Pin Flash Microcontroller 8K Flash 256byte RAM
-K RAM ADC UART PWM 
+K RAM ADC UART PWM
 F http://ww1.microchip.com/downloads/en/DeviceDoc/39605F.pdf
 $ENDCMP
 #

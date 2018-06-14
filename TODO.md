@@ -67,7 +67,7 @@
 - [x] modules
 - [x] motor_drivers
 - [x] Motor
-- [ ] motorola
+- [x] motorola
 - [x] nordicsemi
 - [x] nxp
 - [x] onsemi
