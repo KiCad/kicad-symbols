@@ -84,6 +84,30 @@ K hall switch
 F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
 $ENDCMP
 #
+$CMP AH1806-P-A
+D Omnipolar Hall Switch, SIP-3 (Ammo Pack)
+K hall switch
+F https://www.diodes.com/assets/Datasheets/AH1806.pdf
+$ENDCMP
+#
+$CMP AH1806-P-B
+D Omnipolar Hall Switch, SIP-3 (Bulk Pack)
+K hall switch
+F https://www.diodes.com/assets/Datasheets/AH1806.pdf
+$ENDCMP
+#
+$CMP AH1806-W-7
+D Omnipolar Hall Switch, SC59
+K hall switch
+F https://www.diodes.com/assets/Datasheets/AH1806.pdf
+$ENDCMP
+#
+$CMP AH1806-Z-7
+D Omnipolar Hall Switch, SOT553
+K hall switch
+F https://www.diodes.com/assets/Datasheets/AH1806.pdf
+$ENDCMP
+#
 $CMP AS5045B
 D Magnetic Position Sensor, 12-bit, PWM Output, ABI Output, SPI Interface
 K Magnetic Hall Encoder
