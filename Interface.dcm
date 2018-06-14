@@ -1,5 +1,32 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 6821
+D Peripheral Interface Adapter 1MHz, DIP-40
+K PIA
+F http://pdf.datasheetcatalog.com/datasheet/motorola/6821.pdf
+$ENDCMP
+#
+$CMP 6822
+D Peripheral Interface Adapter 1MHz, DIP-40
+K PIA
+F http://pdf1.alldatasheet.com/datasheet-pdf/view/135452/MOTOROLA/MC6822.html
+$ENDCMP
+#
+$CMP 68230
+D PIT Interface parallele et Timer
+K MPRO
+$ENDCMP
+#
+$CMP 68681
+D Interface serie 2 voies + 1 port parallele
+K MPRO
+$ENDCMP
+#
+$CMP 68901_PLCC
+D Parallel Interface
+K MPRO
+$ENDCMP
+#
 $CMP 8237
 D Programmable DMA Controller, PDIP-40
 K 8237 DMA
@@ -19,6 +46,18 @@ F http://aturing.umcs.maine.edu/~meadow/courses/cos335/Intel8255A.pdf
 $ENDCMP
 #
 $CMP 8259
+D 8259, Programmable Interrupt Controller, PDIP-28
+K PIC
+F http://pdos.csail.mit.edu/6.828/2005/readings/hardware/8259A.pdf
+$ENDCMP
+#
+$CMP 8259A
+D 8259, Programmable Interrupt Controller, PDIP-28
+K PIC
+F http://pdos.csail.mit.edu/6.828/2005/readings/hardware/8259A.pdf
+$ENDCMP
+#
+$CMP 8259A-2
 D 8259, Programmable Interrupt Controller, PDIP-28
 K PIC
 F http://pdos.csail.mit.edu/6.828/2005/readings/hardware/8259A.pdf
@@ -48,6 +87,12 @@ K Direct Digital Synthesizer DDS
 F http://www.analog.com/static/imported-files/data_sheets/AD9834.pdf
 $ENDCMP
 #
+$CMP AD9910
+D 1 GSPS, 14-Bit, 3.3 V CMOS, Direct Digital Synthesizer, QFP-100
+K dds direct digital synthesizer
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9910.pdf
+$ENDCMP
+#
 $CMP AD9951
 D 14-Bit Direct Digital Synthesizer with 400MSPS DAC, 1.8V, TQFP48
 K Direct Digital Synthesizer DDS
@@ -70,6 +115,144 @@ $CMP FD1771
 D Floppy disk controller, DIP-40
 K Floppy disk controller
 F https://amaus.net/static/S100/western%20digital/datasheet/Western%20Digital%20FD1771%20Specification%20197710.pdf
+$ENDCMP
+#
+$CMP FIN1019M
+D 3.3V LVDS High Speed Differential Driver/Receiver, 400Mbps, SOIC-14
+K lvds driver reciever
+F http://www.onsemi.com/pub/Collateral/FIN1019-D.pdf
+$ENDCMP
+#
+$CMP FIN1019MTC
+D 3.3V LVDS High Speed Differential Driver/Receiver, 400Mbps, TSSOP-14
+K lvds driver reciever
+F http://www.onsemi.com/pub/Collateral/FIN1019-D.pdf
+$ENDCMP
+#
+$CMP LTC1518
+D 52Mbps Precision Delay RS485 Quad Line Receivers
+K receiver rs485 rs422 differential
+F http://cds.linear.com/docs/en/datasheet/15189fa.pdf
+$ENDCMP
+#
+$CMP LTC1519
+D 52Mbps Precision Delay RS485 Quad Line Receivers
+K receiver rs485 rs422 differential
+F http://cds.linear.com/docs/en/datasheet/15189fa.pdf
+$ENDCMP
+#
+$CMP LTC1688
+D 100Mbps RS485 Hot Swapable Quad Drivers
+K driver rs485 rs422 differential
+F http://cds.linear.com/docs/en/datasheet/16889fa.pdf
+$ENDCMP
+#
+$CMP LTC1689
+D 100Mbps RS485 Hot Swapable Quad Drivers
+K driver rs485 rs422 differential
+F http://cds.linear.com/docs/en/datasheet/16889fa.pdf
+$ENDCMP
+#
+$CMP LTC6957xDD-1
+D Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, LVPECL, DFN-12
+K LTC clock converter
+F http://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
+$ENDCMP
+#
+$CMP LTC6957xDD-2
+D Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, LVDS, DFN-12
+K LTC clock converter
+F http://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
+$ENDCMP
+#
+$CMP LTC6957xDD-3
+D Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, CMOS In-Phase Outputs, DFN-12
+K LTC clock converter
+F http://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
+$ENDCMP
+#
+$CMP LTC6957xDD-4
+D Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, CMOS Complementary Outputs, DFN-12
+K LTC clock converter
+F http://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
+$ENDCMP
+#
+$CMP LTC6957xMS-1
+D Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, LVPECL, MSOP-12
+K LTC clock converter
+F http://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
+$ENDCMP
+#
+$CMP LTC6957xMS-2
+D Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, LVDS, MSOP-12
+K LTC clock converter
+F http://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
+$ENDCMP
+#
+$CMP LTC6957xMS-3
+D Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, CMOS In-Phase Outputs, MSOP-12
+K LTC clock converter
+F http://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
+$ENDCMP
+#
+$CMP LTC6957xMS-4
+D Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, CMOS Complementary Outputs, MSOP-12
+K LTC clock converter
+F http://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
+$ENDCMP
+#
+$CMP MC6840
+D Peripheral Interface Adapter 1MHz, DIP-40
+K PIA
+F http://pdf.datasheetcatalog.com/datasheet/motorola/MC6840.pdf
+$ENDCMP
+#
+$CMP MC6843
+D Floppy Disc Controller, DIP-40
+K FDC
+F http://www.datasheetarchive.com/pdf/download.php?id=355f4f5379c550317997643252fd5cac1bb08e&type=M&query=MC6843P
+$ENDCMP
+#
+$CMP MC6844
+D Direct Memory Access Controller 1MHz, DIP-40
+K Direct Memory Access Controller
+F http://pdf.datasheetcatalog.com/datasheets/560/501527_DS.pdf
+$ENDCMP
+#
+$CMP MC68A21
+D Peripheral Interface Adapter 1.5MHz, DIP-40
+K PIA
+F http://pdf.datasheetcatalog.com/datasheet/motorola/6821.pdf
+$ENDCMP
+#
+$CMP MC68A40
+D Peripheral Interface Adapter 1.5MHz, DIP-40
+K PIA
+F http://pdf.datasheetcatalog.com/datasheet/motorola/MC6840.pdf
+$ENDCMP
+#
+$CMP MC68A44
+D Direct Memory Access Controller 1.5MHz, DIP-40
+K Direct Memory Access Controller
+F http://pdf.datasheetcatalog.com/datasheets/560/501527_DS.pdf
+$ENDCMP
+#
+$CMP MC68B21
+D Peripheral Interface Adapter 2MHz, DIP-40
+K PIA
+F http://pdf.datasheetcatalog.com/datasheet/motorola/6821.pdf
+$ENDCMP
+#
+$CMP MC68B40
+D Peripheral Interface Adapter 2MHz, DIP-40
+K PIA
+F http://pdf.datasheetcatalog.com/datasheet/motorola/MC6840.pdf
+$ENDCMP
+#
+$CMP MC68B44
+D Direct Memory Access Controller 2MHz, DIP-40
+K Direct Memory Access Controller
+F http://pdf.datasheetcatalog.com/datasheets/560/501527_DS.pdf
 $ENDCMP
 #
 $CMP PCA9306

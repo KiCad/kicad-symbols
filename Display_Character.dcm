@@ -1,17 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 7SEGMENT_CA
-D Generic 7 segment display, common anode
-K display LED
-F ~
-$ENDCMP
-#
-$CMP 7SEGMENT_CC
-D Generic 7 segment display, common cathode
-K display LED 7-segment
-F ~
-$ENDCMP
-#
 $CMP AD-121F2
 D Single Digit 7-segment RGB LED Display, 1-inch digit height, common anode
 K display RGB LED digit 7-segment
@@ -294,26 +282,86 @@ K display LED 7-segment
 F https://docs.broadcom.com/docs/AV02-1588EN
 $ENDCMP
 #
-$CMP HDSP-7xxx-A
-D 7 segement display
+$CMP HDSP-7401
+D One digit 7 segment yellow, common anode
 K display LED 7-segment
 F https://docs.broadcom.com/docs/AV02-2553EN
 $ENDCMP
 #
-$CMP HDSP-7xxx-B
-D 7 segement display
+$CMP HDSP-7403
+D One digit 7 segment yellow, common cathode
 K display LED 7-segment
 F https://docs.broadcom.com/docs/AV02-2553EN
 $ENDCMP
 #
-$CMP HDSP-7xxx-C
-D 7 segement display
+$CMP HDSP-7501
+D One digit 7 segment high efficiency red, common anode
 K display LED 7-segment
 F https://docs.broadcom.com/docs/AV02-2553EN
 $ENDCMP
 #
-$CMP HDSP-7xxx-D
-D 7 segement display
+$CMP HDSP-7503
+D One digit 7 segment high efficiency red, common cathode
+K display LED 7-segment
+F https://docs.broadcom.com/docs/AV02-2553EN
+$ENDCMP
+#
+$CMP HDSP-7507
+D +-1 overflow 7 segment high efficiency red, common anode
+K display LED 7-segment
+F https://docs.broadcom.com/docs/AV02-2553EN
+$ENDCMP
+#
+$CMP HDSP-7508
+D +-1 overflow 7 segment high efficiency red, common cathode
+K display LED 7-segment
+F https://docs.broadcom.com/docs/AV02-2553EN
+$ENDCMP
+#
+$CMP HDSP-7801
+D One digit 7 segment green, common anode
+K display LED 7-segment
+F https://docs.broadcom.com/docs/AV02-2553EN
+$ENDCMP
+#
+$CMP HDSP-7803
+D One digit 7 segment green, common cathode
+K display LED 7-segment
+F https://docs.broadcom.com/docs/AV02-2553EN
+$ENDCMP
+#
+$CMP HDSP-7807
+D +-1 overflow 7 segment green, common anode
+K display LED 7-segment
+F https://docs.broadcom.com/docs/AV02-2553EN
+$ENDCMP
+#
+$CMP HDSP-7808
+D +-1 overflow 7 segment green, common cathode
+K display LED 7-segment
+F https://docs.broadcom.com/docs/AV02-2553EN
+$ENDCMP
+#
+$CMP HDSP-A151
+D One digit 7 segment red, common anode
+K display LED 7-segment
+F https://docs.broadcom.com/docs/AV02-2553EN
+$ENDCMP
+#
+$CMP HDSP-A153
+D One digit 7 segment red, common cathode
+K display LED 7-segment
+F https://docs.broadcom.com/docs/AV02-2553EN
+$ENDCMP
+#
+$CMP HDSP-A401
+D One digit 7 segment orange, common anode
+K display LED 7-segment
+F https://docs.broadcom.com/docs/AV02-2553EN
+$ENDCMP
+#
+$CMP HDSP-A403
+D One digit 7 segment orange, common cathode
 K display LED 7-segment
 F https://docs.broadcom.com/docs/AV02-2553EN
 $ENDCMP
@@ -490,6 +538,12 @@ $CMP MAN74A
 D Single digit 7 segment red LED common anode right hand decimal
 K display LED 7-segment
 F https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php
+$ENDCMP
+#
+$CMP NHD-0420H1Z
+D LCD 20x4 Alphanumeric 16pin Blue/White/Green Backlight, 8bit parallel, 3.3V VDD
+K display LCD 20x4
+F http://www.newhavendisplay.com/specs/NHD-0420H1Z-FSW-GBW-33V3.pdf
 $ENDCMP
 #
 $CMP RC1602A

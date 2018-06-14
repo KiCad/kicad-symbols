@@ -396,6 +396,7 @@ $ENDCMP
 $CMP PWR_FLAG
 D general power-flag symbol
 K Power Flag Symbol
+F ~
 $ENDCMP
 #
 $CMP VAA
@@ -414,6 +415,11 @@ K Power Flag Symbol
 $ENDCMP
 #
 $CMP VCC
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP VCCQ
 D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
@@ -439,6 +445,11 @@ K Power Flag Symbol
 $ENDCMP
 #
 $CMP VDDA
+D positive voltage power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP VDDF
 D positive voltage power-flag symbol
 K Power Flag Symbol
 $ENDCMP

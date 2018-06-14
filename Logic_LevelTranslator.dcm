@@ -1,5 +1,29 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP FXMA108
+D Dual-Supply, 8-Bit Signal Translator with Configurable Voltage Supplies and Signals Levels, 3-State Outputs and Auto Direction Sensing, WQFN-20
+K Level shifter translator bidirectional
+F http://www.onsemi.com/pub/Collateral/FXMA108-D.pdf
+$ENDCMP
+#
+$CMP SN74LVC1T45DBV
+D Single-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, SOT-23-6
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf
+$ENDCMP
+#
+$CMP SN74LVC1T45DCK
+D Single-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, SOT-363
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf
+$ENDCMP
+#
+$CMP SN74LVC1T45DRL
+D Single-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, SOT-563
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf
+$ENDCMP
+#
 $CMP TXB0102DCT
 D 2-Bit Bidirectional Voltage-Level Translator in TSSOP Package With Auto Direction Sensing and ±15-kV ESD Protection
 K Level-Shifter CMOS-TTL-Translation
