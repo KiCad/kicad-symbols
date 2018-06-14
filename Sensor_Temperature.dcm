@@ -213,7 +213,7 @@ $ENDCMP
 $CMP LTC2983
 D Multi-Sensor Temperature Measurement System, High Accuracy, LQFP-48 (7x7mm)
 K Flexible Temperature Measurement RTD NTC Cold Junction Termocouple
-F http://cds.linear.com/docs/en/datasheet/2983f.pdf
+F http://cds.linear.com/docs/en/datasheet/2983fc.pdf
 $ENDCMP
 #
 $CMP MAX31820
@@ -384,6 +384,36 @@ K platinum temperature sensor RTD
 F https://www.heraeus.com/media/media/group/doc_group/products_1/hst/sot_to/de_15/to_92_d.pdf
 $ENDCMP
 #
+$CMP Si7050-A20
+D I2C Temperature Sensor, ±1.0ºC, DFN-6
+K I2C Temperature Sensor
+F https://www.silabs.com/documents/public/data-sheets/Si7050-1-3-4-5-A20.pdf
+$ENDCMP
+#
+$CMP Si7051-A20
+D I2C Temperature Sensor, ±0.1ºC, DFN-6
+K I2C Temperature Sensor
+F https://www.silabs.com/documents/public/data-sheets/Si7050-1-3-4-5-A20.pdf
+$ENDCMP
+#
+$CMP Si7053-A20
+D I2C Temperature Sensor, ±0.3ºC, DFN-6
+K I2C Temperature Sensor
+F https://www.silabs.com/documents/public/data-sheets/Si7050-1-3-4-5-A20.pdf
+$ENDCMP
+#
+$CMP Si7054-A20
+D I2C Temperature Sensor, ±0.4ºC, DFN-6
+K I2C Temperature Sensor
+F https://www.silabs.com/documents/public/data-sheets/Si7050-1-3-4-5-A20.pdf
+$ENDCMP
+#
+$CMP Si7055-A20
+D I2C Temperature Sensor, ±0.5ºC, DFN-6
+K I2C Temperature Sensor
+F https://www.silabs.com/documents/public/data-sheets/Si7050-1-3-4-5-A20.pdf
+$ENDCMP
+#
 $CMP TMP20AIDCK
 D Analog thermistor temperature sensor, ±2.5C accuracy, -55C to +130C, SC-70-5
 K temperature sensor thermistor
@@ -394,6 +424,12 @@ $CMP TMP20AIDRL
 D Analog thermistor temperature sensor, ±2.5C accuracy, -55C to +130C, SOT-563-6
 K temperature sensor thermistor
 F http://www.ti.com/lit/ds/symlink/tmp20.pdf
+$ENDCMP
+#
+$CMP TMP36xS
+D Low Voltage Temperature Sensor, SOIC-8
+K Temperature Sensor SOIC-8
+F http://www.analog.com/media/en/technical-documentation/data-sheets/TMP35_36_37.pdf
 $ENDCMP
 #
 $CMP TMP411

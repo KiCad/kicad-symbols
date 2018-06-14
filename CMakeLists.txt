@@ -1,4 +1,4 @@
-project( kicad-symbols )
+project( kicad-symbols NONE )
 
 cmake_minimum_required( VERSION 2.6.1 FATAL_ERROR )
 

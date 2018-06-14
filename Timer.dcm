@@ -30,12 +30,6 @@ K Timer Counter
 F http://download.intel.com/design/archives/periphrl/docs/23124406.pdf
 $ENDCMP
 #
-$CMP AD797
-D Ultralow Distortion, Ultralow Noise Op Amp, DIP-8/SOIC-8
-K single opamp
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD797.pdf
-$ENDCMP
-#
 $CMP ICM7209
 D Timebase generator, DIP-8
 K Timebase generator
@@ -52,24 +46,6 @@ $CMP ICM7556
 D Dual CMOS General Purpose Timer, DIP-14/SOIC-14
 K dual timer 556
 F http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf
-$ENDCMP
-#
-$CMP LM101
-D Operational Amplifier, DIP-8/TO-99-8
-K single opamp
-F http://www.ti.com/lit/ds/symlink/lm101a-n.pdf
-$ENDCMP
-#
-$CMP LM201
-D Operational Amplifier, DIP-8/TO-99-8
-K single opamp
-F http://www.ti.com/lit/ds/symlink/lm101a-n.pdf
-$ENDCMP
-#
-$CMP LM301
-D Operational Amplifier, DIP-8/TO-99-8
-K single opamp
-F http://www.ti.com/lit/ds/symlink/lm101a-n.pdf
 $ENDCMP
 #
 $CMP LM555
@@ -108,26 +84,56 @@ K single timer
 F http://www.ti.com/lit/ds/symlink/lmc555.pdf
 $ENDCMP
 #
-$CMP LT1012
-D Single Picoamp Input Current, Microvolt Offset, Low Noise Op Amp, DIP-8/SOIC-8/TO-5-8
-K single opamp
-F http://cds.linear.com/docs/en/datasheet/1012afbs.pdf
+$CMP LTC6902
+D Multiphase oscillator, spread spectrum frequency modulation, MSOP-10
+K clock generator dual triple quad signal
+F http://www.analog.com/media/en/technical-documentation/data-sheets/6902f.pdf
 $ENDCMP
 #
-$CMP MCP7940N
-D Real-Time Clock, I2C, Battery Backup
+$CMP MC1455
+D Timers, DIP-8/SOIC-8
+K timer
+F https://www.onsemi.com/pub/Collateral/MC1455-D.PDF
+$ENDCMP
+#
+$CMP MCP7940N-xMNY
+D Real-Time Clock, I2C, Battery Backup, TDFN-8
+K realtime clock RTC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf
+$ENDCMP
+#
+$CMP MCP7940N-xMS
+D Real-Time Clock, I2C, Battery Backup, MSOP-8
+K realtime clock RTC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf
+$ENDCMP
+#
+$CMP MCP7940N-xP
+D Real-Time Clock, I2C, Battery Backup, DIP-8
+K realtime clock RTC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf
+$ENDCMP
+#
+$CMP MCP7940N-xSN
+D Real-Time Clock, I2C, Battery Backup, SOIC-8
+K realtime clock RTC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf
+$ENDCMP
+#
+$CMP MCP7940N-xST
+D Real-Time Clock, I2C, Battery Backup, TSSOP-8
 K realtime clock RTC
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf
 $ENDCMP
 #
 $CMP MN3101
-D CLOCK GENERATOR/DRIVER CMOS LSI FOR BBD (bucket brigade device), for the MN3000 series BBD, self and separate oscillations, two phase clock output, single power supply -8V to -16V
+D Clock Generator Driver/Driver for MN3000 Series BBD (bucket brigade device), -8V to -16V, DIP-8
 K Matsushita Panasonic BBD CMOS
 F http://www.experimentalistsanonymous.com/diy/Datasheets/MN3101.pdf
 $ENDCMP
 #
 $CMP MN3102
-D CMOS CLOCK GENERATOR/DRIVER FOR LOW VOLTAGE OPERATION BBD (bucket brigade device), for the MN3200 series BBD, self oscillation and separate exitation, two phase clock output, single supply source 4V to 10V
+D Clock Generator Driver/Driver for MN3000 Series BBD (bucket brigade device), 4V to 10V, DIP-8
 K Matsushita Panasonic BBD CMOS
 F http://www.experimentalistsanonymous.com/diy/Datasheets/MN3102.pdf
 $ENDCMP
@@ -142,12 +148,6 @@ $CMP NA556
 D Dual Precision Timers, DIP-14/SOIC-14/SSOP-14
 K dual timer
 F http://www.ti.com/lit/ds/symlink/se556.pdf
-$ENDCMP
-#
-$CMP NE5534
-D Single Low-Noise Operational Amplifiers, DIP-8/SOIC-8
-K single opamp
-F http://www.ti.com/lit/ds/symlink/ne5534.pdf
 $ENDCMP
 #
 $CMP NE555
@@ -166,12 +166,6 @@ $CMP NE567
 D Tone Decoder/Phase-Locked Loop, DIP-8/SOIC-8
 K tone decoder PLL
 F http://www.ti.com/lit/ds/symlink/lm567.pdf
-$ENDCMP
-#
-$CMP SA5534
-D Single Low-Noise Operational Amplifiers, DIP-8/SOIC-8
-K single opamp
-F http://www.ti.com/lit/ds/symlink/ne5534.pdf
 $ENDCMP
 #
 $CMP SA555
