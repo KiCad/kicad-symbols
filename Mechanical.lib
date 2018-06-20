@@ -107,8 +107,8 @@ ENDDEF
 #
 # MountingHole
 #
-DEF MountingHole MK 0 40 Y Y 1 F N
-F0 "MK" 0 200 50 H V C CNN
+DEF MountingHole MH 0 40 Y Y 1 F N
+F0 "MH" 0 200 50 H V C CNN
 F1 "MountingHole" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
@@ -122,8 +122,8 @@ ENDDEF
 #
 # MountingHole_Pad
 #
-DEF MountingHole_Pad MK 0 40 N N 1 F N
-F0 "MK" 0 250 50 H V C CNN
+DEF MountingHole_Pad MH 0 40 N N 1 F N
+F0 "MH" 0 250 50 H V C CNN
 F1 "MountingHole_Pad" 0 175 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
