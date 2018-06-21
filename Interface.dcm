@@ -112,8 +112,8 @@ F http://www.ti.com/lit/ds/symlink/ds90c241.pdf
 $ENDCMP
 #
 $CMP DS90LV011A
-D LVDS Driver SOT-23-5
-K LVDS Driver SOT-23-5 400Mbps
+D LVDS Single High Speed Differential Driver, 400Mbps, SOT-23-5
+K LVDS Driver
 F http://www.ti.com/lit/ds/symlink/ds90lv011a.pdf
 $ENDCMP
 #
@@ -286,8 +286,8 @@ F http://www.vishay.com/docs/70007/si9986.pdf
 $ENDCMP
 #
 $CMP SN65LVDS1DBV
-D LVDS Driver SOT-23-5
-K LVDS Driver SOT-23-5
+D High-Speed Differential Line Driver, 630Mbps, SOT-23-5
+K LVDS Driver
 F http://www.ti.com/lit/ds/symlink/sn65lvds1.pdf
 $ENDCMP
 #
