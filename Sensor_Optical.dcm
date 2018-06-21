@@ -126,6 +126,24 @@ K npn phototransistor
 F https://www.vishay.com/docs/81531/bpw85a.pdf
 $ENDCMP
 #
+$CMP BPW85A
+D NPN Phototransistor
+K npn phototransistor
+F https://www.vishay.com/docs/81531/bpw85a.pdf
+$ENDCMP
+#
+$CMP BPW85B
+D NPN Phototransistor
+K npn phototransistor
+F https://www.vishay.com/docs/81531/bpw85a.pdf
+$ENDCMP
+#
+$CMP BPW85C
+D NPN Phototransistor
+K npn phototransistor
+F https://www.vishay.com/docs/81531/bpw85a.pdf
+$ENDCMP
+#
 $CMP BPX61
 D Silicon Photodiode for the visible spectral range
 K photodiode opto
