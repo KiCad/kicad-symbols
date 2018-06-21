@@ -858,6 +858,18 @@ K diode device shunt regulator
 F http://www.ti.com/lit/ds/symlink/tl431.pdf
 $ENDCMP
 #
+$CMP TLE2425xD
+D 2.5V Precision virtual ground for 5V/GND Analog Systems
+K Rail splitter precision virtual ground 2.5V
+F http://www.ti.com/lit/ds/symlink/tle2425.pdf
+$ENDCMP
+#
+$CMP TLE2425xLP
+D 2.5V Precision virtual ground for 5V/GND Analog Systems
+K Rail splitter precision virtual ground 2.5V
+F http://www.ti.com/lit/ds/symlink/tle2425.pdf
+$ENDCMP
+#
 $CMP TLE2426xD
 D Rail splitter precision virtual ground with noice reduction, 4V to 40V, SO-8
 K Rail splitter precision virtual ground
