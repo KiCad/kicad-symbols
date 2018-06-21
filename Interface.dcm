@@ -111,6 +111,12 @@ K DC-Balanced 24-Bit FPD-Link II Serializer
 F http://www.ti.com/lit/ds/symlink/ds90c241.pdf
 $ENDCMP
 #
+$CMP DS90LV011A
+D LVDS Driver SOT-23-5
+K LVDS Driver SOT-23-5 400Mbps
+F http://www.ti.com/lit/ds/symlink/ds90lv011a.pdf
+$ENDCMP
+#
 $CMP FD1771
 D Floppy disk controller, DIP-40
 K Floppy disk controller
@@ -277,6 +283,12 @@ $CMP SI9986
 D Integrated, buffered H-bridge with TTL compatible inputs, 1A, 12V, SOIC-8
 K integrated, buffered H-bridge
 F http://www.vishay.com/docs/70007/si9986.pdf
+$ENDCMP
+#
+$CMP SN65LVDS1DBV
+D LVDS Driver SOT-23-5
+K LVDS Driver SOT-23-5
+F http://www.ti.com/lit/ds/symlink/sn65lvds1.pdf
 $ENDCMP
 #
 $CMP TB5D1MD
