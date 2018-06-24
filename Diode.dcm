@@ -624,6 +624,12 @@ K diode
 F www.nxp.com/documents/data_sheet/BAV99_SER.pdf
 $ENDCMP
 #
+$CMP BAV99S
+D Quad diode package with 2x series pairs, SOT363/SC-88
+K Diode
+F https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf
+$ENDCMP
+#
 $CMP BAW56DW
 D Switching diode array 2 pair Com A
 K diode
