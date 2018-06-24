@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP A1101ELHL
-D Hall effect switch, unipolar, Bop=175G, Brp=10G, -40C to +85C, SOT23W
+D Hall effect switch, unipolar, Bop=175G, Brp=10G, -40C to +85C, SOT-23W
 K hall switch
 F www.allegromicro.com/~/media/Files/Datasheets/A110x-Datasheet.ashx
 $ENDCMP
@@ -13,7 +13,7 @@ F www.allegromicro.com/~/media/Files/Datasheets/A110x-Datasheet.ashx
 $ENDCMP
 #
 $CMP A1101LLHL
-D Hall effect switch, unipolar, Bop=175G, Brp=10G, -40C to +150C, SOT23W
+D Hall effect switch, unipolar, Bop=175G, Brp=10G, -40C to +150C, SOT-23W
 K hall switch
 F www.allegromicro.com/~/media/Files/Datasheets/A110x-Datasheet.ashx
 $ENDCMP
@@ -25,7 +25,7 @@ F www.allegromicro.com/~/media/Files/Datasheets/A110x-Datasheet.ashx
 $ENDCMP
 #
 $CMP A1102ELHL
-D Hall effect switch, unipolar, Bop=245G, Brp=60G, -40C to +85C, SOT23W
+D Hall effect switch, unipolar, Bop=245G, Brp=60G, -40C to +85C, SOT-23W
 K hall switch
 F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
 $ENDCMP
@@ -37,7 +37,7 @@ F www.allegromicro.com/~/media/Files/Datasheets/A110x-Datasheet.ashx
 $ENDCMP
 #
 $CMP A1102LLHL
-D Hall effect switch, unipolar, Bop=245G, Brp=60G, -40C to +150C, SOT23W
+D Hall effect switch, unipolar, Bop=245G, Brp=60G, -40C to +150C, SOT-23W
 K hall switch
 F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
 $ENDCMP
@@ -49,13 +49,13 @@ F www.allegromicro.com/~/media/Files/Datasheets/A110x-Datasheet.ashx
 $ENDCMP
 #
 $CMP A1103ELHL
-D Hall effect switch, unipolar, Bop=355G, Brp=150G, -40C to +85C, SOT23W
+D Hall effect switch, unipolar, Bop=355G, Brp=150G, -40C to +85C, SOT-23W
 K hall switch
 F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
 $ENDCMP
 #
 $CMP A1103LLHL
-D Hall effect switch, unipolar, Bop=355G, Brp=150G, -40C to +150C, SOT23W
+D Hall effect switch, unipolar, Bop=355G, Brp=150G, -40C to +150C, SOT-23W
 K hall switch
 F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
 $ENDCMP
@@ -73,7 +73,7 @@ F www.allegromicro.com/~/media/Files/Datasheets/A110x-Datasheet.ashx
 $ENDCMP
 #
 $CMP A1104LLHL
-D Hall effect switch, unipolar, Bop=450G, Brp=25G, -40C to +125C, SOT23W
+D Hall effect switch, unipolar, Bop=450G, Brp=25G, -40C to +125C, SOT-23W
 K hall switch
 F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
 $ENDCMP
@@ -91,13 +91,13 @@ F www.allegromicro.com/~/media/Files/Datasheets/A110x-Datasheet.ashx
 $ENDCMP
 #
 $CMP A1106LLHL
-D Hall effect switch, unipolar, Bop=430G, Brp=160G, -40C to +125C, SOT23W
+D Hall effect switch, unipolar, Bop=430G, Brp=160G, -40C to +125C, SOT-23W
 K hall switch
 F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
 $ENDCMP
 #
 $CMP A1106LUA
-D Hall effect switch, unipolar, Bop=430G, Brp=160G, -40C to +125C, SOT23W
+D Hall effect switch, unipolar, Bop=430G, Brp=160G, -40C to +125C, SOT-23W
 K hall switch
 F www.allegromicro.com/~/media/Files/Datasheets/A110x-Datasheet.ashx
 $ENDCMP
@@ -165,13 +165,13 @@ $ENDCMP
 $CMP AS5045B
 D Magnetic Position Sensor, 12-bit, PWM Output, ABI Output, SPI Interface
 K Magnetic Hall Encoder
-F http://ams.com/documents/20143/36005/AS5045B_DS000397_2-00.pdf
+F https://ams.com/documents/20143/36005/AS5045B_DS000397_2-00.pdf
 $ENDCMP
 #
 $CMP AS5048A
 D Magnetic position sensor, 14-bit, PWM output, SPI Interface
 K sensor magnetic hall position rotation spi
-F http://ams.com/documents/20143/36005/AS5048_DS000298_4-00.pdf
+F https://ams.com/documents/20143/36005/AS5048_DS000298_4-00.pdf
 $ENDCMP
 #
 $CMP AS5048B
@@ -189,7 +189,7 @@ $ENDCMP
 $CMP AS5055A
 D Magnetic position sensor, 12-bit, SPI interface
 K sensor magnetic hall position rotation spi
-F http://ams.com/eng/content/download/552323/1541717/file/AS5055A_Datasheet_EN_v6.pdf
+F https://ams.com/documents/20143/36005/AS5055A_DS000304_2-00.pdf
 $ENDCMP
 #
 $CMP MMC5883MA
@@ -199,13 +199,13 @@ F http://www.memsic.com/userfiles/files/DataSheets/Magnetic-Sensors-Datasheets/M
 $ENDCMP
 #
 $CMP SM351LT
-D Hall Effect Switch, SOT23
+D Hall Effect Switch, SOT-23
 K Hall Effect Switch Sensor
 F https://sensing.honeywell.com/honeywell-sensing-nanopower-series-product-sheet-50095501-a-en.pdf
 $ENDCMP
 #
 $CMP SM353LT
-D Hall Effect Switch, SOT23
+D Hall Effect Switch, SOT-23
 K Hall Effect Switch Sensor
 F https://sensing.honeywell.com/honeywell-sensing-nanopower-series-product-sheet-50095501-a-en.pdf
 $ENDCMP
