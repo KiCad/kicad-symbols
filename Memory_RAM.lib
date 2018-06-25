@@ -218,6 +218,9 @@ F0 "U" -600 2300 50 H V C CNN
 F1 "H5AN8G8NAFR-UHC" 0 -2300 50 H V C CNN
 F2 "" -600 2300 60 H V C CNN
 F3 "https://www.skhynix.com/product/filedata/fileDownload.do?seq=7687" -50 2450 50 H I C CNN
+$FPLIST
+ FBGA-78*7.5x11mm*
+$ENDFPLIST
 DRAW
 T 0 -150 350 84 0 1 1 DDR4 Normal 0 L B
 S -650 -2250 650 2250 0 1 10 f
