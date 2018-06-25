@@ -96,6 +96,12 @@ K 8P8C RJ female connector
 F ~
 $ENDCMP
 #
+$CMP ASP-134602-01
+D FPGA Mezzanine Card Terminal Connector
+K FPGA Mezzanine Card Terminal Connector
+F http://suddendocs.samtec.com/prints/asp-134602-01-mkt.pdf
+$ENDCMP
+#
 $CMP AVR-ISP-10
 D Atmel 10-pin ISP connector
 K AVR ISP Connector
