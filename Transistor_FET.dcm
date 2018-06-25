@@ -660,6 +660,132 @@ K N-Channel Power MOSFET
 F http://www.fairchildsemi.com/ds/BU/BUZ11.pdf
 $ENDCMP
 #
+$CMP C2M0025120D
+D 90A Id, 1200V Vds, 25mOhm, N-channel SiC MOSFET, TO-247
+K N-Channel SiC MOSFET
+F https://www.wolfspeed.com/media/downloads/161/C2M0025120D.pdf
+$ENDCMP
+#
+$CMP C2M0040120D
+D 60A Id, 1200V Vds, 40mOhm, N-channel SiC MOSFET, TO-247
+K N-Channel SiC MOSFET
+F https://www.wolfspeed.com/media/downloads/165/C2M0040120D.pdf
+$ENDCMP
+#
+$CMP C2M0045170D
+D 72A Id, 1700V Vds, 45mOhm, N-channel SiC MOSFET, TO-247
+K N-Channel SiC MOSFET
+F https://www.wolfspeed.com/media/downloads/960/C2M0045170D.000.pdf
+$ENDCMP
+#
+$CMP C2M0080120D
+D 36A Id, 1200V Vds, 80mOhm, N-channel SiC MOSFET, TO-247
+K N-Channel SiC MOSFET
+F https://www.wolfspeed.com/media/downloads/167/C2M0080120D.pdf
+$ENDCMP
+#
+$CMP C2M0160120D
+D 19A Id, 1200V Vds, 160mOhm, N-channel SiC MOSFET, TO-247
+K N-Channel SiC MOSFET
+F https://www.wolfspeed.com/media/downloads/169/C2M0160120D.pdf
+$ENDCMP
+#
+$CMP C2M0280120D
+D 10A Id, 1200V Vds, 280mOhm, N-channel SiC MOSFET, TO-247
+K N-Channel SiC MOSFET
+F https://www.wolfspeed.com/media/downloads/171/C2M0280120D.pdf
+$ENDCMP
+#
+$CMP C2M1000170D
+D 5A Id, 1700V Vds, 1000mOhm, N-channel SiC MOSFET, TO-247
+K N-Channel SiC MOSFET
+F https://www.wolfspeed.com/media/downloads/173/C2M1000170D.pdf
+$ENDCMP
+#
+$CMP C2M1000170J
+D 5.3A Id, 1700V Vds, 1000mOhm, N-channel SiC MOSFET, TO-263-7
+K N-Channel SiC MOSFET
+F https://www.wolfspeed.com/media/downloads/820/C2M1000170J.pdf
+$ENDCMP
+#
+$CMP C3M0030090K
+D 63A Id, 900V Vds, 30mOhm, N-channel SiC MOSFET, TO-247-4
+K N-Channel SiC MOSFET
+F https://www.wolfspeed.com/media/downloads/1185/C3M0030090K.pdf
+$ENDCMP
+#
+$CMP C3M0065090D
+D 36A Id, 900V Vds, 65mOhm, N-channel SiC MOSFET, TO-247
+K N-Channel SiC MOSFET
+F https://www.wolfspeed.com/media/downloads/176/C3M0065090D.pdf
+$ENDCMP
+#
+$CMP C3M0065090J
+D 35A Id, 900V Vds, 65mOhm, N-channel SiC MOSFET, TO-263-7
+K N-Channel SiC MOSFET
+F https://www.wolfspeed.com/media/downloads/145/C3M0065090J.pdf
+$ENDCMP
+#
+$CMP C3M0065100J
+D 35A Id, 1000V Vds, 65mOhm, N-channel SiC MOSFET, TO-263-7
+K N-Channel SiC MOSFET
+F https://www.wolfspeed.com/media/downloads/958/C3M0065100J.pdf
+$ENDCMP
+#
+$CMP C3M0065100K
+D 35A Id, 1000V Vds, 65mOhm, N-channel SiC MOSFET, TO-247-4
+K N-Channel SiC MOSFET
+F https://www.wolfspeed.com/media/downloads/961/C3M0065100K.pdf
+$ENDCMP
+#
+$CMP C3M0075120J
+D 30A Id, 1200V Vds, 75mOhm, N-channel SiC MOSFET, TO-263-7
+K N-Channel SiC MOSFET
+F https://www.wolfspeed.com/media/downloads/997/C3M0075120J.pdf
+$ENDCMP
+#
+$CMP C3M0075120K
+D 30A Id, 1200V Vds, 75mOhm, N-channel SiC MOSFET, TO-247-4
+K N-Channel SiC MOSFET
+F https://www.wolfspeed.com/media/downloads/959/c3m0075120k.pdf
+$ENDCMP
+#
+$CMP C3M0120090D
+D 23A Id, 900V Vds, 120mOhm, N-channel SiC MOSFET, TO-247
+K N-Channel SiC MOSFET
+F https://www.wolfspeed.com/media/downloads/824/C3M0120090D.pdf
+$ENDCMP
+#
+$CMP C3M0120090J
+D 22A Id, 900V Vds, 120mOhm, N-channel SiC MOSFET, TO-263-7
+K N-Channel SiC MOSFET
+F https://www.wolfspeed.com/media/downloads/834/C3M0120090J.pdf
+$ENDCMP
+#
+$CMP C3M0120100J
+D 22A Id, 1000V Vds, 120mOhm, N-channel SiC MOSFET, TO-263-7
+K N-Channel SiC MOSFET
+F https://www.wolfspeed.com/media/downloads/957/C3M0120100J.pdf
+$ENDCMP
+#
+$CMP C3M0120100K
+D 22A Id, 1000V Vds, 120mOhm, N-channel SiC MOSFET, TO-247-4
+K N-Channel SiC MOSFET
+F https://www.wolfspeed.com/media/downloads/962/C3M0120100K.pdf
+$ENDCMP
+#
+$CMP C3M0280090D
+D 11.5A Id, 900V Vds, 280mOhm, N-channel SiC MOSFET, TO-247
+K N-Channel SiC MOSFET
+F https://www.wolfspeed.com/media/downloads/825/C3M0280090D.pdf
+$ENDCMP
+#
+$CMP C3M0280090J
+D 11.5A Id, 900V Vds, 280mOhm, N-channel SiC MOSFET, TO-263-7
+K N-Channel SiC MOSFET
+F https://www.wolfspeed.com/media/downloads/835/C3M0280090J.pdf
+$ENDCMP
+#
 $CMP CSD16321Q5
 D 100A Id, 25V Vds, NexFET N-Channel Power MOSFET, 2.6mOhm Ron, 14nC Qg(typ), SON8 5x6mm
 K NexFET Power MOSFET N-MOS
@@ -1044,6 +1170,12 @@ K NexFET Power MOSFET N-MOS
 F http://www.ti.com/lit/ds/symlink/csd19537q3.pdf
 $ENDCMP
 #
+$CMP DMP3013SFV
+D -12A Id, -30V Vds, P-Channel Power MOSFET, 9.5mOhm Ron, 33.7nC Qg (typ), PowerDI3333-8
+K P-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf
+$ENDCMP
+#
 $CMP FDG1024NZ
 D 1.2A Id, 20V Vds, Dual N-Channel MOSFET, 175mOhm Ron, SC-70-6
 K Dual N-Channel MOSFET Logic Level
@@ -1206,12 +1338,6 @@ K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/FD/FDS4897C.pdf
 $ENDCMP
 #
-$CMP FDS6630A
-D 6.5A Id, 30V Vds, N-Channel MOSFET, 38mOhm Ron, SOIC-8
-K N-Channel MOSFET
-F http://www.onsemi.com/pub/Collateral/FDS6630A-D.pdf
-$ENDCMP
-#
 $CMP FDS6890A
 D 7.5A Id, 20V Vds, Dual N-Channel MOSFET, 18mOhm Ron, SO-8
 K Dual N-Channel MOSFET
@@ -1228,18 +1354,6 @@ $CMP FDS6898A
 D 9.4A Id, 20V Vds, Dual N-Channel MOSFET, 14mOhm Ron, SO-8
 K Dual N-Channel MOSFET
 F http://www.fairchildsemi.com/ds/FD/FDS6898A.pdf
-$ENDCMP
-#
-$CMP FDS6930A
-D 5.5A Id, 30V Vds, Dual N-Channel Logic Level MOSFET, 40mOhm Ron, SO-8
-K Dual N-Channel MOSFET
-F http://www.onsemi.com/pub/Collateral/FDS6930A-D.PDF
-$ENDCMP
-#
-$CMP FDS6930B
-D 5.5A Id, 30V Vds, Dual N-Channel Logic Level MOSFET, 38mOhm Ron, SO-8
-K Dual N-Channel MOSFET
-F http://www.onsemi.com/pub/Collateral/FDS6930B-D.PDF
 $ENDCMP
 #
 $CMP FDS8960C
@@ -1830,6 +1944,24 @@ K HEXFET P-Channel MOSFET
 F http://www.irf.com/product-info/datasheets/data/irf9540n.pdf
 $ENDCMP
 #
+$CMP IRFI4019H
+D 8.7A Id, 150V Vds, 80mOhm, Dual Half Bridge N-channel MOSFET, TO-220-5
+K Dual N-Channel MOSFET
+F https://www.infineon.com/dgdl/irfi4019h-117p.pdf?fileId=5546d462533600a401535623d74d1f6f
+$ENDCMP
+#
+$CMP IRFI4020H
+D 9.1A Id, 200V Vds, 80mOhm, Dual Half Bridge N-channel MOSFET, TO-220-5
+K Dual N-Channel MOSFET
+F https://www.infineon.com/dgdl/irfi4020h-117p.pdf?fileId=5546d462533600a401535623e7271f73
+$ENDCMP
+#
+$CMP IRFI4212H
+D 11A Id, 100V Vds, 58mOhm, Dual Half Bridge N-channel MOSFET, TO-220-5
+K Dual N-Channel MOSFET
+F https://www.infineon.com/dgdl/irfi4212h-117p.pdf?fileId=5546d462533600a401535623fc841f7a
+$ENDCMP
+#
 $CMP IRL6283M
 D 38A Id, 20V Vds, 0.75mOhm Rds, N-Channel MOSFET, DirectFET MD
 K N-Channel MOSFET
@@ -1888,6 +2020,12 @@ $CMP NTR2101P
 D -3.7A Id, -8V Vds, P-Channel MOSFET, SOT-23-3
 K P-Channel MOSFET
 F http://www.onsemi.com/pub/Collateral/NTR2101P-D.PDF
+$ENDCMP
+#
+$CMP PSMN5R2-60YL
+D 100A, 60V Vds, N-Channel MOSFET, 5.2mOhm Ron, LFPAK56
+K N-Channel MOSFET
+F https://assets.nexperia.com/documents/data-sheet/PSMN5R2-60YL.pdf
 $ENDCMP
 #
 $CMP QM6006D
@@ -1972,6 +2110,12 @@ $CMP Si4542DY
 D Dual N and P Channel MOSFET, 6A Id, 30V Vds, 28mOhm Ron, 10V Vgs, SO8L
 K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/SI/SI4542DY.pdf
+$ENDCMP
+#
+$CMP SiA453EDJ
+D -10A Id, -30V Vds, P-Channel MOSFET
+K P-Channel MOSFET
+F http://www.vishay.com/docs/62864/sia453edj.pdf
 $ENDCMP
 #
 $CMP TP0610L

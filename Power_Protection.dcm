@@ -216,6 +216,18 @@ K ESD-Protection
 F http://www.ti.com/lit/ds/symlink/tpd3e001.pdf
 $ENDCMP
 #
+$CMP TPD3S014
+D Current Limit Switch and D+/D– ESD Protection for USB Host Port, 0.5A, SOT-23-6
+K ESD-Protection
+F http://www.ti.com/lit/ds/symlink/tpd3s014.pdf
+$ENDCMP
+#
+$CMP TPD3S044
+D Current Limit Switch and D+/D– ESD Protection for USB Host Port, 1.5A, SOT-23-6
+K ESD-Protection
+F http://www.ti.com/lit/ds/symlink/tpd3s014.pdf
+$ENDCMP
+#
 $CMP TPD4EUSB30
 D 4-Channel ESD Protection for Super-Speed USB 3.0 Interface, USON-10
 K ESD protection USB 3.0
@@ -250,6 +262,84 @@ $CMP USBLC6-2SC6
 D Bidirectional ESD Protection Diode, SOT-23-6
 K usb ethernet
 F http://www2.st.com/resource/en/datasheet/CD00050750.pdf
+$ENDCMP
+#
+$CMP ZEN056V075A48LS
+D Polymer Protected Zener Diode, 5.6V, 0.75A, 48V, LS
+K Polymer zener
+F http://m.littelfuse.com/~/media/electronics/datasheets/polyzen_devices/littelfuse_polyzen_standard_polyzen_catalog_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP ZEN056V115A24LS
+D Polymer Protected Zener Diode, 5.6V, 1.15A, 24V, LS
+K Polymer zener
+F http://m.littelfuse.com/~/media/electronics/datasheets/polyzen_devices/littelfuse_polyzen_standard_polyzen_catalog_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP ZEN056V130A24LS
+D Polymer Protected Zener Diode, 5.6V, 1.30A, 24V, LS
+K Polymer zener
+F http://m.littelfuse.com/~/media/electronics/datasheets/polyzen_devices/littelfuse_polyzen_standard_polyzen_catalog_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP ZEN056V230A16LS
+D Polymer Protected Zener Diode, 5.6V, 2.30A, 16V, LS
+K Polymer zener
+F http://m.littelfuse.com/~/media/electronics/datasheets/polyzen_devices/littelfuse_polyzen_standard_polyzen_catalog_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP ZEN059V130A24LS
+D Polymer Protected Zener Diode, 5.9V, 1.30A, 24V, LS
+K Polymer zener
+F http://m.littelfuse.com/~/media/electronics/datasheets/polyzen_devices/littelfuse_polyzen_standard_polyzen_catalog_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP ZEN065V130A24LS
+D Polymer Protected Zener Diode, 6.5V, 1.30A, 24V, LS
+K Polymer zener
+F http://m.littelfuse.com/~/media/electronics/datasheets/polyzen_devices/littelfuse_polyzen_standard_polyzen_catalog_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP ZEN065V230A16LS
+D Polymer Protected Zener Diode, 6.5V, 2.30A, 16V, LS
+K Polymer zener
+F http://m.littelfuse.com/~/media/electronics/datasheets/polyzen_devices/littelfuse_polyzen_standard_polyzen_catalog_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP ZEN098V130A24LS
+D Polymer Protected Zener Diode, 9.8V, 1.30A, 24V, LS
+K Polymer zener
+F http://m.littelfuse.com/~/media/electronics/datasheets/polyzen_devices/littelfuse_polyzen_standard_polyzen_catalog_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP ZEN098V230A16LS
+D Polymer Protected Zener Diode, 9.8V, 2.30A, 16V, LS
+K Polymer zener
+F http://m.littelfuse.com/~/media/electronics/datasheets/polyzen_devices/littelfuse_polyzen_standard_polyzen_catalog_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP ZEN132V075A48LS
+D Polymer Protected Zener Diode, 13.2V, 0.75A, 48V, LS
+K Polymer zener
+F http://m.littelfuse.com/~/media/electronics/datasheets/polyzen_devices/littelfuse_polyzen_standard_polyzen_catalog_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP ZEN132V130A24LS
+D Polymer Protected Zener Diode, 13.2V, 1.30A, 24V, LS
+K Polymer zener
+F http://m.littelfuse.com/~/media/electronics/datasheets/polyzen_devices/littelfuse_polyzen_standard_polyzen_catalog_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP ZEN132V230A16LS
+D Polymer Protected Zener Diode, 13.2V, 2.30A, 16V, LS
+K Polymer zener
+F http://m.littelfuse.com/~/media/electronics/datasheets/polyzen_devices/littelfuse_polyzen_standard_polyzen_catalog_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP ZEN164V130A24LS
+D Polymer Protected Zener Diode, 16.4V, 1.30A, 24V, LS
+K Polymer zener
+F http://m.littelfuse.com/~/media/electronics/datasheets/polyzen_devices/littelfuse_polyzen_standard_polyzen_catalog_datasheet.pdf.pdf
 $ENDCMP
 #
 #End Doc Library
