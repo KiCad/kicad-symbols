@@ -3390,6 +3390,18 @@ K STEP-DOWN Dual channel 1A Out1 ADJ, Out2 ADJ
 F https://www.diodes.com/assets/Datasheets/PAM2306.pdf
 $ENDCMP
 #
+$CMP PAM2306AYPBB
+D 1A, Dual Step-Down DC/DC-Converter, Out1 1.2V, Out2 1.2V, 1.5MHz, W-DFN3x3
+K STEP-DOWN Dual channel 1A Out1 1.2V, Out2 1.2V
+F https://www.diodes.com/assets/Datasheets/PAM2306.pdf
+$ENDCMP
+#
+$CMP PAM2306AYPBK
+D 1A, Dual Step-Down DC/DC-Converter, Out1 1.2V, Out2 3.3V, 1.5MHz, W-DFN3x3
+K STEP-DOWN Dual channel 1A Out1 1.5V, Out2 3.3V
+F https://www.diodes.com/assets/Datasheets/PAM2306.pdf
+$ENDCMP
+#
 $CMP PAM2306AYPCB
 D 1A, Dual Step-Down DC/DC-Converter, Out1 1.5V, Out2 1.2V, 1.5MHz, W-DFN3x3
 K STEP-DOWN Dual channel 1A Out1 1.5V, Out2 1.2V
