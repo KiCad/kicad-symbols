@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADAU1701
+D SigmaDSP 28-/56-Bit Audio Processor with Two ADCs and Four DACs, 50 MIPS, 1kword Program RAM, 2kword Data RAM, LQFP-48
+K sigmadsp audio adc dac
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADAU1701.pdf
+$ENDCMP
+#
+$CMP ADAU1702
+D SigmaDSP 28-/56-Bit Audio Processor with Two ADCs and Four DACs, 25 MIPS, 512kword Program RAM, 512kword Data RAM, LQFP-48
+K sigmadsp audio adc dac
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADAU1702.pdf
+$ENDCMP
+#
+#End Doc Library
