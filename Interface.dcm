@@ -111,6 +111,12 @@ K DC-Balanced 24-Bit FPD-Link II Serializer
 F http://www.ti.com/lit/ds/symlink/ds90c241.pdf
 $ENDCMP
 #
+$CMP DS90C402
+D Dual LVDS Receiver, >155Mbps, 5V, SOIC-8
+K Dual LVDS Receiver
+F http://www.ti.com/lit/ds/symlink/ds90c402.pdf
+$ENDCMP
+#
 $CMP FD1771
 D Floppy disk controller, DIP-40
 K Floppy disk controller
