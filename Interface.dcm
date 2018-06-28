@@ -117,6 +117,12 @@ K Dual LVDS Receiver
 F http://www.ti.com/lit/ds/symlink/ds90c402.pdf
 $ENDCMP
 #
+$CMP DS90LV011A
+D LVDS Single High Speed Differential Driver, 400Mbps, SOT-23-5
+K LVDS Driver
+F http://www.ti.com/lit/ds/symlink/ds90lv011a.pdf
+$ENDCMP
+#
 $CMP FD1771
 D Floppy disk controller, DIP-40
 K Floppy disk controller
@@ -295,6 +301,12 @@ $CMP SN65LVDS047PW
 D Quad LVDS Differential Line Driver, 400Mbps, TSSOP-16
 K Quad LVDS Driver
 F http://www.ti.com/lit/ds/symlink/sn65lvds047.pdf
+$ENDCMP
+#
+$CMP SN65LVDS1DBV
+D High-Speed Differential Line Driver, 630Mbps, SOT-23-5
+K LVDS Driver
+F http://www.ti.com/lit/ds/symlink/sn65lvds1.pdf
 $ENDCMP
 #
 $CMP TB5D1MD
