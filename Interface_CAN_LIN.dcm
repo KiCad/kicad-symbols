@@ -390,4 +390,10 @@ K can transceiver isolated protected
 F https://www.nxp.com/docs/en/data-sheet/TJA1052I.pdf
 $ENDCMP
 #
+$CMP TJA1059TK
+D Dual High-Speed CAN Transceiver, seperate VIO, standby mode, HVSON14
+K CAN-FD
+F https://www.nxp.com/docs/en/data-sheet/TJA1059.pdf
+$ENDCMP
+#
 #End Doc Library
