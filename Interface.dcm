@@ -123,6 +123,12 @@ K LVDS Driver
 F http://www.ti.com/lit/ds/symlink/ds90lv011a.pdf
 $ENDCMP
 #
+$CMP DS90LV027A
+D LVDS Dual High Speed Differential Driver, >600MBps, SOIC-8
+K Dual LVDS Driver
+F http://www.ti.com/lit/ds/symlink/ds90lv027a.pdf
+$ENDCMP
+#
 $CMP FD1771
 D Floppy disk controller, DIP-40
 K Floppy disk controller
