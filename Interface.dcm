@@ -291,6 +291,18 @@ K integrated, buffered H-bridge
 F http://www.vishay.com/docs/70007/si9986.pdf
 $ENDCMP
 #
+$CMP SN65LVDS047D
+D Quad LVDS Differential Line Driver, 400Mbps, SOIC-16
+K Quad LVDS Driver
+F http://www.ti.com/lit/ds/symlink/sn65lvds047.pdf
+$ENDCMP
+#
+$CMP SN65LVDS047PW
+D Quad LVDS Differential Line Driver, 400Mbps, TSSOP-16
+K Quad LVDS Driver
+F http://www.ti.com/lit/ds/symlink/sn65lvds047.pdf
+$ENDCMP
+#
 $CMP SN65LVDS1DBV
 D High-Speed Differential Line Driver, 630Mbps, SOT-23-5
 K LVDS Driver
