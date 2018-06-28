@@ -150,6 +150,12 @@ K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTT6200-1EJA-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3756ec20fcc
 $ENDCMP
 #
+$CMP BTS7004-1EPP
+D Smart High-Side Power Switch, PROFET, One Channel, 12V, 15A, Rds(on) 4.4mΩ, PG-TSDSO-14-22
+K BTS7004
+F https://www.infineon.com/dgdl/Infineon-BTS7004-1EPP-DS-v01_00-EN.pdf?fileId=5546d4626102d35a016147550a725555
+$ENDCMP
+#
 $CMP BTS716G
 D Smart Quad Channel High Side Powertrain Switch (140mOhm)
 K High_Side_Switch Power
@@ -511,21 +517,39 @@ F http://www.linear.com/docs/29832
 $ENDCMP
 #
 $CMP LTC4417CGN
-D Prioritized PowerPath controller QFN-24
+D Prioritized PowerPath Controller, Selects Highest Priority Supply from Three Inputs, SSOP
 K switch power FET sequence
-F http://cds.linear.com/docs/en/datasheet/4417f.pdf
+F http://www.analog.com/media/en/technical-documentation/data-sheets/4417f.pdf
+$ENDCMP
+#
+$CMP LTC4417CUF
+D Prioritized PowerPath Controller, Selects Highest Priority Supply from Three Inputs, QFN
+K switch power FET sequence
+F http://www.analog.com/media/en/technical-documentation/data-sheets/4417f.pdf
 $ENDCMP
 #
 $CMP LTC4417HGN
-D Prioritized PowerPath controller QFN-24, extended temperature range
+D Prioritized PowerPath Controller, Selects Highest Priority Supply from Three Inputs, –40°C to 125°C, SSOP
 K switch power FET sequence
-F http://cds.linear.com/docs/en/datasheet/4417f.pdf
+F http://www.analog.com/media/en/technical-documentation/data-sheets/4417f.pdf
+$ENDCMP
+#
+$CMP LTC4417HUF
+D Prioritized PowerPath Controller, Selects Highest Priority Supply from Three Inputs, –40°C to 125°C, QFN
+K switch power FET sequence
+F http://www.analog.com/media/en/technical-documentation/data-sheets/4417f.pdf
 $ENDCMP
 #
 $CMP LTC4417IGN
-D Prioritized PowerPath controller QFN-24, industrial temperature range
+D Prioritized PowerPath Controller, Selects Highest Priority Supply from Three Inputs, –40°C to 85°C, SSOP
 K switch power FET sequence
-F http://cds.linear.com/docs/en/datasheet/4417f.pdf
+F http://www.analog.com/media/en/technical-documentation/data-sheets/4417f.pdf
+$ENDCMP
+#
+$CMP LTC4417IUF
+D Prioritized PowerPath Controller, Selects Highest Priority Supply from Three Inputs, –40°C to 85°C, QFN
+K switch power FET sequence
+F http://www.analog.com/media/en/technical-documentation/data-sheets/4417f.pdf
 $ENDCMP
 #
 $CMP MIC2026-1BM
