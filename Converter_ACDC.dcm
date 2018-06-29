@@ -108,6 +108,36 @@ K 5V 3W AC-DC module power supply
 F http://www.mouser.com/ds/2/260/IRM-03-spec-881203.pdf
 $ENDCMP
 #
+$CMP IRM-20-12
+D 12V 1.8A 20W miniature AC-DC module-type power supply MeanWell
+K 12V 1.8A 20W miniature AC-DC module-type power supply
+F http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF
+$ENDCMP
+#
+$CMP IRM-20-15
+D 15V 1.4A 20W miniature AC-DC module-type power supply MeanWell
+K 15V 1.4A 20W miniature AC-DC module-type power supply
+F http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF
+$ENDCMP
+#
+$CMP IRM-20-24
+D 24V 0.9A 20W miniature AC-DC module-type power supply MeanWell
+K 24V 0.9A 20W miniature AC-DC module-type power supply
+F http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF
+$ENDCMP
+#
+$CMP IRM-20-3.3
+D 3.3V 4.5A 14.85W miniature AC-DC module-type power supply MeanWell
+K 3.3V 4.5A 14.85W miniature AC-DC module-type power supply
+F http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF
+$ENDCMP
+#
+$CMP IRM-20-5
+D 5V 4A 20W miniature AC-DC module-type power supply MeanWell
+K 5V 4A 20W miniature AC-DC module-type power supply
+F http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF
+$ENDCMP
+#
 $CMP TMLM04103
 D 3.3V 4W AC/DC power modules for PCB mounting
 K 3.3V 4W AC-DC module power supply

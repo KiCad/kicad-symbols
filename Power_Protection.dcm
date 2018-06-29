@@ -216,6 +216,18 @@ K ESD-Protection
 F http://www.ti.com/lit/ds/symlink/tpd3e001.pdf
 $ENDCMP
 #
+$CMP TPD3S014
+D Current Limit Switch and D+/D– ESD Protection for USB Host Port, 0.5A, SOT-23-6
+K ESD-Protection
+F http://www.ti.com/lit/ds/symlink/tpd3s014.pdf
+$ENDCMP
+#
+$CMP TPD3S044
+D Current Limit Switch and D+/D– ESD Protection for USB Host Port, 1.5A, SOT-23-6
+K ESD-Protection
+F http://www.ti.com/lit/ds/symlink/tpd3s014.pdf
+$ENDCMP
+#
 $CMP TPD4EUSB30
 D 4-Channel ESD Protection for Super-Speed USB 3.0 Interface, USON-10
 K ESD protection USB 3.0

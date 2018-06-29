@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP A4403GEU
+D Valley current mode buck converter, 46V, 3A, up to 2MHz, QFN-16
+K buck regulator adjustable
+F https://www.allegromicro.com/~/media/Files/Datasheets/A4403-Datasheet.ashx
+$ENDCMP
+#
 $CMP ADP1108AN
 D Micropower DC-DC conveter, step-up or step-down operation, 2V-30Vin, adjustable output voltage, DIP-8
 K switching buck boost converter step-down step-up
