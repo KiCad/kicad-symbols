@@ -8,6 +8,7 @@ $ENDCMP
 $CMP Heatsink_Pad
 D Heatsink with electrical connection
 K thermal heat temperature
+F ~
 $ENDCMP
 #
 $CMP Housing
@@ -18,6 +19,7 @@ $ENDCMP
 $CMP Housing_Pad
 D Housing with connection pin
 K housing
+F ~
 $ENDCMP
 #
 $CMP MountingHole
