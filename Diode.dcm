@@ -630,6 +630,12 @@ K diode
 F www.nxp.com/documents/data_sheet/BAV99_SER.pdf
 $ENDCMP
 #
+$CMP BAV99S
+D High-speed switching diodes, dual series, SOT-363
+K Diode
+F https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf
+$ENDCMP
+#
 $CMP BAW56DW
 D Switching diode array 2 pair Com A
 K diode
