@@ -1441,13 +1441,13 @@ F http://www.ti.com/lit/ds/symlink/lm5017.pdf
 $ENDCMP
 #
 $CMP LM5022MM
-D 60-V Low-Side Controller for Boost and SEPIC, MSOP-10
-K boost switching controller
-F http://www.ti.com/lit/ds/symlink/lm5022.pdf
+D High Voltage (75V) Step-Down Switching Regulator, HTTSSOP-16
+K LM5088
+F http://www.ti.com/lit/ds/symlink/lm5088.pdf
 $ENDCMP
 #
-$CMP LM5088-1
-D High Voltage (75V) Step-Down Switching Regulator, HTTSSOP-16
+$CMP LM5088
+D High Voltage (75V) Step-Down Switching Regulator, HTSSOP-16-1EP
 K LM5088
 F http://www.ti.com/lit/ds/symlink/lm5088.pdf
 $ENDCMP
