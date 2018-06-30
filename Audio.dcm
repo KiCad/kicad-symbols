@@ -37,7 +37,7 @@ F http://www.akm.com/akm/en/file/datasheet/AK5394AVS.pdf
 $ENDCMP
 #
 $CMP AS3310
-D ADSR Voltage Controlled Envelope Generator, DIP-16
+D ADSR Voltage Controlled Envelope Generator, DIP-16/SOIC-16
 K VCEG CEM3310 ALFA
 F http://www.alfarzpp.lv/eng/sc/AS3310.pdf
 $ENDCMP
@@ -48,14 +48,26 @@ K VCF CEM3320 ALFA
 F http://www.alfarzpp.lv/eng/sc/AS3320.pdf
 $ENDCMP
 #
+$CMP AS3320F
+D Voltage Controlled Filter (VCF), QFN-24
+K VCF CEM3320 ALFA
+F http://www.alfarzpp.lv/eng/sc/AS3320.pdf
+$ENDCMP
+#
 $CMP AS3330
 D Dual Voltage Controlled Amplifier (VCA), DIP-18
 K VCA CEM3330 ALFA
 F http://www.alfarzpp.lv/eng/sc/AS3330.pdf
 $ENDCMP
 #
+$CMP AS3330F
+D Dual Voltage Controlled Amplifier (VCA), QFN-24
+K VCA CEM3330 ALFA
+F http://www.alfarzpp.lv/eng/sc/AS3330.pdf
+$ENDCMP
+#
 $CMP AS3340
-D Voltage Controlled Oscillator (VCO), DIP-16
+D Voltage Controlled Oscillator (VCO), DIP-16/SOIC-16
 K VCO CEM340 ALFA
 F http://www.alfarzpp.lv/eng/sc/AS3340.pdf
 $ENDCMP
@@ -66,8 +78,14 @@ K VCO CEM345 ALFA
 F http://www.alfarzpp.lv/eng/sc/AS3340.pdf
 $ENDCMP
 #
+$CMP AS3345F
+D Voltage Controlled Oscillator (VCO), QFN-24
+K VCO CEM345 ALFA
+F http://www.alfarzpp.lv/eng/sc/AS3340.pdf
+$ENDCMP
+#
 $CMP AS3360
-D Dual Voltage Controlled Amplifier (VCA), DIP-14
+D Dual Voltage Controlled Amplifier (VCA), DIP-14/SOIC-14
 K VCA CEM3360 ALFA
 F http://www.alfarzpp.lv/eng/sc/AS3360.pdf
 $ENDCMP
@@ -204,8 +222,20 @@ K EG&G RETICON BBD N-channel silicon-gate
 F http://thmq.mysteria.cz/em1022/SAD1024.pdf
 $ENDCMP
 #
+$CMP SSI2144
+D Four-pole VCF, SSOP-16
+K Sound Semiconductor VCF SSM2044
+F http://www.soundsemiconductor.com/downloads/ssi2144datasheet.pdf
+$ENDCMP
+#
+$CMP SSI2164
+D Quad VCA, SOIC-16
+K Sound Semiconductor VCA SSM2164
+F http://www.soundsemiconductor.com/downloads/ssi2164datasheet.pdf
+$ENDCMP
+#
 $CMP TDA1022
-D BUCKET BRIGADE DELAY LINE FOR ANALOGUE SIGNALS, 512 stages, delay time 0.512ms to 51.2ms, signal frequency range 0 to 45KHz, clock frequency range 5KHz to 500KHz
+D BUCKET BRIGADE DELAY LINE FOR ANALOGUE SIGNALS, 512 stages, delay time 0.512ms to 51.2ms, signal frequency range 0 to 45KHz, clock frequency range 5KHz to 500KHz, DIP-16
 K PHILIPS BBD MOS monolithic delay analogue
 F http://thmq.mysteria.cz/em1022/TDA1022.pdf
 $ENDCMP

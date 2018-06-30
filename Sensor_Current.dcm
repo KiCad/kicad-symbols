@@ -1218,70 +1218,190 @@ K hall effect current sensor
 F http://www.akm.com/akm/en/file/datasheet/CZ-3815.pdf
 $ENDCMP
 #
+$CMP HO120-NP
+D Current Transducer, 40A, Unipolar, 5V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/ho-np_0100__1100_series.pdf
+$ENDCMP
+#
+$CMP HO15-NP
+D Current Transducer, 15A, Unipolar, 5V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/ho-np-0000_series.pdf
+$ENDCMP
+#
+$CMP HO15-NSM
+D Current Transducer, 15A, Unipolar, 5V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/ho-nsm-0000_series.pdf
+$ENDCMP
+#
+$CMP HO150-NP
+D Current Transducer, 40A, Unipolar, 5V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/ho-np_0100__1100_series.pdf
+$ENDCMP
+#
+$CMP HO25-NP
+D Current Transducer, 25A, Unipolar, 5V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/ho-np-0000_series.pdf
+$ENDCMP
+#
+$CMP HO25-NSM
+D Current Transducer, 25A, Unipolar, 5V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/ho-nsm-0000_series.pdf
+$ENDCMP
+#
+$CMP HO40-NP
+D Current Transducer, 40A, Unipolar, 5V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/ho-np_0100__1100_series.pdf
+$ENDCMP
+#
+$CMP HO60-NP
+D Current Transducer, 60A, Unipolar, 5V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/ho-np_0100__1100_series.pdf
+$ENDCMP
+#
+$CMP HO8-NP
+D Current Transducer, 8A, Unipolar, 5V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/ho-np-0000_series.pdf
+$ENDCMP
+#
+$CMP HO8-NSM
+D Current Transducer, 8A, Unipolar, 5V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/ho-nsm-0000_series.pdf
+$ENDCMP
+#
+$CMP HTFS200-P
+D Current Transducer, 200A, Unipolar, 5V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/htfs_200_800-p.pdf
+$ENDCMP
+#
+$CMP HTFS400-P
+D Current Transducer, 400A, Unipolar, 5V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/htfs_200_800-p.pdf
+$ENDCMP
+#
+$CMP HTFS600-P
+D Current Transducer, 600A, Unipolar, 5V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/htfs_200_800-p.pdf
+$ENDCMP
+#
+$CMP HTFS800-P
+D Current Transducer, 800A, Unipolar, 5V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/htfs_200_800-p.pdf
+$ENDCMP
+#
+$CMP HX02-P
+D Current Transducer, 2A, Bipolar, +/-15V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/hx%202_6-p_e%20v5.pdf
+$ENDCMP
+#
+$CMP HX03-P-SP2
+D Current Transducer, 3A, Unipolar, +/-15V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/hx%203_50-p_sp2_e%20v07.pdf
+$ENDCMP
+#
+$CMP HX04-P
+D Current Transducer, 4A, Bipolar, +/-15V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/hx%202_6-p_e%20v5.pdf
+$ENDCMP
+#
+$CMP HX05-NP
+D Current Transducer, 5A, Bipolar, +/-15V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/hx%205_15-np_e%20v10.pdf
+$ENDCMP
+#
+$CMP HX05-P-SP2
+D Current Transducer, 5A, Unipolar, +/-15V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/hx%203_50-p_sp2_e%20v07.pdf
+$ENDCMP
+#
+$CMP HX06-P
+D Current Transducer, 6A, Bipolar, +/-15V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/hx%202_6-p_e%20v5.pdf
+$ENDCMP
+#
+$CMP HX10-NP
+D Current Transducer, 10A, Bipolar, +/-15V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/hx%205_15-np_e%20v10.pdf
+$ENDCMP
+#
+$CMP HX10-P-SP2
+D Current Transducer, 10A, Unipolar, +/-15V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/hx%203_50-p_sp2_e%20v07.pdf
+$ENDCMP
+#
+$CMP HX15-NP
+D Current Transducer, 15A, Bipolar, +/-15V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/hx%205_15-np_e%20v10.pdf
+$ENDCMP
+#
+$CMP HX15-P-SP2
+D Current Transducer, 15A, Unipolar, +/-15V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/hx%203_50-p_sp2_e%20v07.pdf
+$ENDCMP
+#
+$CMP HX20-P-SP2
+D Current Transducer, 20A, Unipolar, +/-15V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/hx%203_50-p_sp2_e%20v07.pdf
+$ENDCMP
+#
+$CMP HX25-P-SP2
+D Current Transducer, 25A, Unipolar, +/-15V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/hx%203_50-p_sp2_e%20v07.pdf
+$ENDCMP
+#
+$CMP HX50-P-SP2
+D Current Transducer, 50A, Unipolar, +/-15V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/hx%203_50-p_sp2_e%20v07.pdf
+$ENDCMP
+#
+$CMP L6599
+D High Voltage Resonant Controller, DIP-16/SOIC-16
+K SMPS controller
+F www.st.com/resource/en/datasheet/l6599.pdf
+$ENDCMP
+#
 $CMP LA100-P
-D LA 100-P Current transducer
-K LEM current transducer
-F http://www.lem.com/docs/products/la_100-p_e_.pdf
+D Current Transducer, 100A, Bipolar, +/-15V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/la_100-p_e_.pdf
 $ENDCMP
 #
 $CMP LA25-P
-D LA 25-P Current transducer
-K LEM current transducers
-F http://www.lem.com/docs/products/la_25-p.pdf
+D Current Transducer, 25A, Bipolar, +/-15V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/la_25-p.pdf
 $ENDCMP
 #
 $CMP LA55-P
-D LA 55-P Current transducer
-K LEM current transducer
-F http://www.lem.com/docs/products/la_55-p_e.pdf
-$ENDCMP
-#
-$CMP LEM_HO-NP
-D Generic symbol for LEM current transducer HO-NP 5V supply voltage series
+D Current Transducer, 50A, Bipolar, +/-15V
 K current transducer
-F http://www.lem.com/docs/products/ho-np-0000_series.pdf
-$ENDCMP
-#
-$CMP LEM_HO-NP_SP33
-D Generic symbol for LEM current transducer HO-NP/SP33 3.3V supply voltage series
-K current transducer
-F http://www.lem.com/docs/products/ho-np_sp33-1000_series.pdf
-$ENDCMP
-#
-$CMP LEM_HO_15-NP
-D LEM current transducer HO 15-NP-xxxx, 5V supply voltage, Nominal measurement current (Ipn) 15A, Standard option xxxx = 0000: 2.5V reference, 3.5us response time, EEPROM Control=yes, over current detection = 2,9*Ipn
-K current transducer
-F http://www.lem.com/docs/products/ho-np-0000_series.pdf
-$ENDCMP
-#
-$CMP LEM_HO_15-NP_SP33
-D LEM current transducer HO 15-NP/SP33-xxxx, 3.3V supply voltage, Nominal measurement current (Ipn) 15A, Standard option xxxx = 1000: 1.65V reference, 3.5us response time, EEPROM Control=yes, over current detection = 2,9*Ipn
-K current transducer
-F http://www.lem.com/docs/products/ho-np_sp33-1000_series.pdf
-$ENDCMP
-#
-$CMP LEM_HO_25-NP
-D LEM current transducer HO 25-NP-xxxx, 5V supply voltage, Nominal measurement current (Ipn) 25A, Standard option xxxx = 0000: 2.5V reference, 3.5us response time, EEPROM Control=yes, over current detection = 2,9*Ipn
-K current transducer
-F http://www.lem.com/docs/products/ho-np-0000_series.pdf
-$ENDCMP
-#
-$CMP LEM_HO_25-NP_SP33
-D LEM current transducer HO 25-NP/SP33-xxxx, 3.3V supply voltage, Nominal measurement current (Ipn) 25A, Standard option xxxx = 1000: 1.65V reference, 3.5us response time, EEPROM Control=yes, over current detection = 2,9*Ipn
-K current transducer
-F http://www.lem.com/docs/products/ho-np_sp33-1000_series.pdf
-$ENDCMP
-#
-$CMP LEM_HO_8-NP
-D LEM current transducer HO 8-NP-xxxx, 5V supply voltage, Nominal measurement current (Ipn) 8A, Standard option xxxx = 0000: 2.5V reference, 3.5us response time, EEPROM Control=yes, over current detection = 2,9*Ipn
-K current transducer
-F http://www.lem.com/docs/products/ho-np-0000_series.pdf
-$ENDCMP
-#
-$CMP LEM_HO_8-NP_SP33
-D LEM current transducer HO 8-NP/SP33-xxxx, 3.3V supply voltage, Nominal measurement current (Ipn) 8A, Standard option xxxx = 1000: 1.65V reference, 3.5us response time, EEPROM Control=yes, over current detection = 2,9*Ipn
-K current transducer
-F http://www.lem.com/docs/products/ho-np_sp33-1000_series.pdf
+F https://www.lem.com/sites/default/files/products_datasheets/la_55-p_e.pdf
 $ENDCMP
 #
 #End Doc Library

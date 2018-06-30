@@ -12,6 +12,12 @@ K MOSFET Driver IGBT Driver Optocoupler
 F http://www.avagotech.com/docs/AV02-2928EN
 $ENDCMP
 #
+$CMP AN34092B
+D Single-Channel GaN-Tr High-Speed Gate Driver, Output Current 6.0A, 24V, -5V Negative Gate Voltage, HQFN-16
+K GaN Gate Driver
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/AN34092B_E.pdf
+$ENDCMP
+#
 $CMP EL7202CN
 D High Speed, Dual Channel Power MOSFET Driver, DIP-8/SOIC-8
 K Driver, Dual MOSFET
