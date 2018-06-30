@@ -255,6 +255,12 @@ K rs232 uart transceiver line-driver
 F https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf
 $ENDCMP
 #
+$CMP MAX3284E
+D ±15kV ESD-Protected 52Mbps, 3V to 5.5V RS-485/RS-422 True Fail-Safe Receivers, SOT23
+K RS-485 RS-422 True Fail-Safe Receivers 1/4 unit load receiver
+F https://datasheets.maximintegrated.com/en/ds/MAX3280E-MAX3284E.pdf
+$ENDCMP
+#
 $CMP MAX3483
 D True RS-485/RS-422, 0.25Mbps, Slew-Rate Limited, with low-power shutdown, with receiver/driver enable, 32 receiver drive capacitity, DIP-8 and SOIC-8
 K RS-485 RS-422 UART line-driver transceiver
@@ -427,6 +433,12 @@ $CMP SP3485EP
 D Industrial 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, DIP8
 K Low Power Half-Duplex RS-485 Transceiver 10Mbps
 F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
+$ENDCMP
+#
+$CMP ST485EBDR
+D Half duplex RS-485/RS-422, 5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, with low-power shutdown, with receiver/driver enable, 256 transceiver on the bus - 40 to 85 °C, SOIC-8
+K Half duplex RS-485/RS-422, 5 Mbps, ±15kV  256 transceiver bus
+F http://www.st.com/resource/en/datasheet/st485eb.pdf
 $ENDCMP
 #
 $CMP Z8530

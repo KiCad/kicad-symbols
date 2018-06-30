@@ -90,6 +90,24 @@ K Dual H-Bridge motor driver
 F http://www.ti.com/lit/ds/symlink/drv8848.pdf
 $ENDCMP
 #
+$CMP DRV8870DDA
+D Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Dynamic current limiting, HTSOP-8
+K H-bridge driver motor current limit
+F http://www.ti.com/lit/ds/symlink/drv8870.pdf
+$ENDCMP
+#
+$CMP DRV8871DDA
+D Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Current limiting, HTSOP-8
+K H-bridge driver motor current limit
+F http://www.ti.com/lit/ds/symlink/drv8871.pdf
+$ENDCMP
+#
+$CMP DRV8872DDA
+D Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Current limiting, Fault Reporting, HTSOP-8
+K H-bridge driver motor current limit
+F http://www.ti.com/lit/ds/symlink/drv8872.pdf
+$ENDCMP
+#
 $CMP L293
 D Quadruple Half-H Drivers
 K Half-H Driver Motor
@@ -118,6 +136,12 @@ $CMP L298P
 D Dual full bridge motor driver, up to 46V, 4A
 K H-bridge motor driver
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000240.pdf
+$ENDCMP
+#
+$CMP LMD18200
+D 3A, 55V H-Bridge, Motion Control Applications, TO-220-11
+K H-Bridge DC stepper servo motor driver Motion Control Applications
+F http://www.ti.com/lit/ds/symlink/lmd18200.pdf
 $ENDCMP
 #
 $CMP PG001M
