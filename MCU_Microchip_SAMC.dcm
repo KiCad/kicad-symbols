@@ -108,6 +108,12 @@ K ARM Cortex-M0+ SAM C20J
 F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
 $ENDCMP
 #
+$CMP SAMC20J15A-U
+D ARM Cortex-M0+ MCU, 48MHz, 32KB Flash, 4KB RAM, 2.7-5.5V, 44 GPIO, WLCSP-56
+K ARM Cortex-M0+ SAM C20J
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
+$ENDCMP
+#
 $CMP SAMC20J16A-A
 D ARM Cortex-M0+ MCU, 48MHz, 64KB Flash, 8KB RAM, 2.7-5.5V, 52 GPIO, TQFP-64
 K ARM Cortex-M0+ SAM C20J
@@ -116,6 +122,12 @@ $ENDCMP
 #
 $CMP SAMC20J16A-M
 D ARM Cortex-M0+ MCU, 48MHz, 64KB Flash, 8KB RAM, 2.7-5.5V, 52 GPIO, QFN-64
+K ARM Cortex-M0+ SAM C20J
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
+$ENDCMP
+#
+$CMP SAMC20J16A-U
+D ARM Cortex-M0+ MCU, 48MHz, 64KB Flash, 8KB RAM, 2.7-5.5V, 44 GPIO, WLCSP-56
 K ARM Cortex-M0+ SAM C20J
 F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
 $ENDCMP
@@ -132,6 +144,12 @@ K ARM Cortex-M0+ SAM C20J
 F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
 $ENDCMP
 #
+$CMP SAMC20J17A-U
+D ARM Cortex-M0+ MCU, 48MHz, 128KB Flash, 16KB RAM, 2.7-5.5V, 44 GPIO, WLCSP-56
+K ARM Cortex-M0+ SAM C20J
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
+$ENDCMP
+#
 $CMP SAMC20J18A-A
 D ARM Cortex-M0+ MCU, 48MHz, 256KB Flash, 32KB RAM, 2.7-5.5V, 52 GPIO, TQFP-64
 K ARM Cortex-M0+ SAM C20J
@@ -140,6 +158,12 @@ $ENDCMP
 #
 $CMP SAMC20J18A-M
 D ARM Cortex-M0+ MCU, 48MHz, 256KB Flash, 32KB RAM, 2.7-5.5V, 52 GPIO, QFN-64
+K ARM Cortex-M0+ SAM C20J
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
+$ENDCMP
+#
+$CMP SAMC20J18A-U
+D ARM Cortex-M0+ MCU, 48MHz, 256KB Flash, 32KB RAM, 2.7-5.5V, 44 GPIO, WLCSP-56
 K ARM Cortex-M0+ SAM C20J
 F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
 $ENDCMP
@@ -276,6 +300,12 @@ K ARM Cortex-M0+ SAM C21J
 F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
 $ENDCMP
 #
+$CMP SAMC21J15A-U
+D ARM Cortex-M0+ MCU, 48MHz, 32KB Flash, 4KB RAM, 2.7-5.5V, 44 GPIO, WLCSP-56
+K ARM Cortex-M0+ SAM C21J
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
+$ENDCMP
+#
 $CMP SAMC21J16A-A
 D ARM Cortex-M0+ MCU, 48MHz, 64KB Flash, 8KB RAM, 2.7-5.5V, CAN-FD, 52 GPIO, TQFP-64
 K ARM Cortex-M0+ SAM C21J
@@ -284,6 +314,12 @@ $ENDCMP
 #
 $CMP SAMC21J16A-M
 D ARM Cortex-M0+ MCU, 48MHz, 64KB Flash, 8KB RAM, 2.7-5.5V, CAN-FD, 52 GPIO, QFN-64
+K ARM Cortex-M0+ SAM C21J
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
+$ENDCMP
+#
+$CMP SAMC21J16A-U
+D ARM Cortex-M0+ MCU, 48MHz, 64KB Flash, 8KB RAM, 2.7-5.5V, 44 GPIO, WLCSP-56
 K ARM Cortex-M0+ SAM C21J
 F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
 $ENDCMP
@@ -300,6 +336,12 @@ K ARM Cortex-M0+ SAM C21J
 F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
 $ENDCMP
 #
+$CMP SAMC21J17A-U
+D ARM Cortex-M0+ MCU, 48MHz, 128KB Flash, 16KB RAM, 2.7-5.5V, 44 GPIO, WLCSP-56
+K ARM Cortex-M0+ SAM C21J
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
+$ENDCMP
+#
 $CMP SAMC21J18A-A
 D ARM Cortex-M0+ MCU, 48MHz, 256KB Flash, 32KB RAM, 2.7-5.5V, CAN-FD, 52 GPIO, TQFP-64
 K ARM Cortex-M0+ SAM C21J
@@ -308,6 +350,12 @@ $ENDCMP
 #
 $CMP SAMC21J18A-M
 D ARM Cortex-M0+ MCU, 48MHz, 256KB Flash, 32KB RAM, 2.7-5.5V, CAN-FD, 52 GPIO, QFN-64
+K ARM Cortex-M0+ SAM C21J
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
+$ENDCMP
+#
+$CMP SAMC21J18A-U
+D ARM Cortex-M0+ MCU, 48MHz, 256KB Flash, 32KB RAM, 2.7-5.5V, 44 GPIO, WLCSP-56
 K ARM Cortex-M0+ SAM C21J
 F http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf
 $ENDCMP
