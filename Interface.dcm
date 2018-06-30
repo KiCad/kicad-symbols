@@ -111,6 +111,24 @@ K DC-Balanced 24-Bit FPD-Link II Serializer
 F http://www.ti.com/lit/ds/symlink/ds90c241.pdf
 $ENDCMP
 #
+$CMP DS90C402
+D Dual LVDS Receiver, >155Mbps, 5V, SOIC-8
+K Dual LVDS Receiver
+F http://www.ti.com/lit/ds/symlink/ds90c402.pdf
+$ENDCMP
+#
+$CMP DS90LV011A
+D LVDS Single High Speed Differential Driver, 400Mbps, SOT-23-5
+K LVDS Driver
+F http://www.ti.com/lit/ds/symlink/ds90lv011a.pdf
+$ENDCMP
+#
+$CMP DS90LV027A
+D LVDS Dual High Speed Differential Driver, >600MBps, SOIC-8
+K Dual LVDS Driver
+F http://www.ti.com/lit/ds/symlink/ds90lv027a.pdf
+$ENDCMP
+#
 $CMP FD1771
 D Floppy disk controller, DIP-40
 K Floppy disk controller
@@ -277,6 +295,24 @@ $CMP SI9986
 D Integrated, buffered H-bridge with TTL compatible inputs, 1A, 12V, SOIC-8
 K integrated, buffered H-bridge
 F http://www.vishay.com/docs/70007/si9986.pdf
+$ENDCMP
+#
+$CMP SN65LVDS047D
+D Quad LVDS Differential Line Driver, 400Mbps, SOIC-16
+K Quad LVDS Driver
+F http://www.ti.com/lit/ds/symlink/sn65lvds047.pdf
+$ENDCMP
+#
+$CMP SN65LVDS047PW
+D Quad LVDS Differential Line Driver, 400Mbps, TSSOP-16
+K Quad LVDS Driver
+F http://www.ti.com/lit/ds/symlink/sn65lvds047.pdf
+$ENDCMP
+#
+$CMP SN65LVDS1DBV
+D High-Speed Differential Line Driver, 630Mbps, SOT-23-5
+K LVDS Driver
+F http://www.ti.com/lit/ds/symlink/sn65lvds1.pdf
 $ENDCMP
 #
 $CMP TB5D1MD
