@@ -777,13 +777,13 @@ ENDDEF
 # AudioJack3_Switch
 #
 DEF AudioJack3_Switch J 0 40 Y Y 1 F N
-F0 "J" 0 400 50 H V C CNN
-F1 "AudioJack3_Switch" 0 300 50 H V C CNN
+F0 "J" 0 450 50 H V C CNN
+F1 "AudioJack3_Switch" 0 350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 S -175 -300 -205 -200 0 1 0 F
-S 100 -325 -180 225 0 1 10 f
+S 100 -325 -180 275 0 1 10 f
 P 2 0 1 0 -50 190 -40 170 N
 P 2 0 1 0 20 -10 30 -30 N
 P 2 0 1 0 70 -210 80 -230 N
