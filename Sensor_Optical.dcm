@@ -121,25 +121,25 @@ F http://www.vishay.com/docs/81529/bpw82.pdf
 $ENDCMP
 #
 $CMP BPW85
-D NPN Phototransistor
+D Silicon NPN Phototransistor, Ica = 0.8-8mA, T-1
 K npn phototransistor
 F https://www.vishay.com/docs/81531/bpw85a.pdf
 $ENDCMP
 #
 $CMP BPW85A
-D NPN Phototransistor
+D Silicon NPN Phototransistor, Ica = 0.8-2.5mA, T-1
 K npn phototransistor
 F https://www.vishay.com/docs/81531/bpw85a.pdf
 $ENDCMP
 #
 $CMP BPW85B
-D NPN Phototransistor
+D Silicon NPN Phototransistor, Ica = 1.5-4mA, T-1
 K npn phototransistor
 F https://www.vishay.com/docs/81531/bpw85a.pdf
 $ENDCMP
 #
 $CMP BPW85C
-D NPN Phototransistor
+D Silicon NPN Phototransistor, Ica = 3-8mA, T-1
 K npn phototransistor
 F https://www.vishay.com/docs/81531/bpw85a.pdf
 $ENDCMP
@@ -319,8 +319,8 @@ F https://dammedia.osram.info/media/resource/hires/osram-dam-2495980/SFH%203201.
 $ENDCMP
 #
 $CMP TEPT4400
-D NPN Epitaxial Planar Phototransistor
-K npn phototransistor
+D Ambient Light Sensor, NPN Epitaxial Planar Phototransistor, T-1
+K npn phototransistor ambient light sensor
 F https://www.vishay.com/docs/81341/tept4400.pdf
 $ENDCMP
 #
