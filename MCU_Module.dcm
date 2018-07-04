@@ -72,4 +72,10 @@ K STM32 Nucleo ST
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/data_brief/DM00105918.pdf
 $ENDCMP
 #
+$CMP WeMos_D1_mini
+D 32-bit microcontroller module with WiFi
+K ESP8266 WiFi microcontroller ESP8266EX
+F https://wiki.wemos.cc/products:d1:d1_mini#documentation
+$ENDCMP
+#
 #End Doc Library
