@@ -6,6 +6,12 @@ K Ra-01 LoRa
 F https://mikroelectron.com/Product/10KM-433M-LORA-LONG-RANGE-WIRELESS-MODULE-RA-01
 $ENDCMP
 #
+$CMP DCTR-52D
+D IQRF data controlled transceiver with antenna pad-hole, FSK modulation
+K IQRF data controlled transceiver, antenna pad-hole, FSK modulation
+F https://iqrf.org/weben/downloads.php?id=213
+$ENDCMP
+#
 $CMP DCTR-52DA
 D IQRF data controlled transceiver with PCB antenna, FSK modulation
 K IQRF data controlled transceiver, PCB antenna, FSK modulation
@@ -15,6 +21,24 @@ $ENDCMP
 $CMP DCTR-52DAT
 D IQRF data controlled transceiver with PCB antenna and thermometer, FSK modulation
 K IQRF data controlled transceiver, PCB antenna, thermometer, FSK modulation
+F https://iqrf.org/weben/downloads.php?id=213
+$ENDCMP
+#
+$CMP DCTR-52DC
+D IQRF data controlled transceiver with coaxial antenna connector, FSK modulation
+K IQRF data controlled transceiver, coaxial antenna connector, FSK modulation
+F https://iqrf.org/weben/downloads.php?id=213
+$ENDCMP
+#
+$CMP DCTR-52DCT
+D IQRF data controlled transceiver with coaxial antenna connector and thermometer, FSK modulation
+K IQRF data controlled transceiver, coaxial antenna connector, thermometer, FSK modulation
+F https://iqrf.org/weben/downloads.php?id=213
+$ENDCMP
+#
+$CMP DCTR-52DT
+D IQRF data controlled transceiver with antenna pad-hole and thermometer, FSK modulation
+K IQRF data controlled transceiver, antenna pad-hole, thermometer, FSK modulation
 F https://iqrf.org/weben/downloads.php?id=213
 $ENDCMP
 #
@@ -90,6 +114,12 @@ K IOT SIGFOX
 F https://github.com/Telecom-Design/Documentation_TD_RF_Module/blob/master/TD1208%20Datasheet.pdf
 $ENDCMP
 #
+$CMP TR-52D
+D IQRF common transceiver with antenna pad-hole, FSK modulation
+K IQRF common transceiver, antenna pad-hole, FSK modulation
+F https://iqrf.org/weben/downloads.php?id=213
+$ENDCMP
+#
 $CMP TR-52DA
 D IQRF common transceiver with PCB antenna, FSK modulation
 K IQRF common transceiver, PCB antenna, FSK modulation
@@ -102,6 +132,30 @@ K IQRF common transceiver, PCB antenna, thermometer, FSK modulation
 F https://iqrf.org/weben/downloads.php?id=213
 $ENDCMP
 #
+$CMP TR-52DC
+D IQRF common transceiver with coaxial antenna connector, FSK modulation
+K IQRF common transceiver, coaxial antenna connector, FSK modulation
+F https://iqrf.org/weben/downloads.php?id=213
+$ENDCMP
+#
+$CMP TR-52DCT
+D IQRF common transceiver with coaxial antenna connector and thermometer, FSK modulation
+K IQRF common transceiver, coaxial antenna connector, thermometer, FSK modulation
+F https://iqrf.org/weben/downloads.php?id=213
+$ENDCMP
+#
+$CMP TR-52DT
+D IQRF common transceiver with antenna pad-hole and thermometer, FSK modulation
+K IQRF common transceiver, antenna pad-hole, thermometer, FSK modulation
+F https://iqrf.org/weben/downloads.php?id=213
+$ENDCMP
+#
+$CMP TR-72D
+D IQRF transceiver with antenna pad-hole, GMSK modulation
+K IQRF transceiver, antenna pad-hole, GMSK modulation
+F https://iqrf.org/weben/downloads.php?id=337
+$ENDCMP
+#
 $CMP TR-72DA
 D IQRF transceiver with PCB antenna, GMSK modulation
 K IQRF transceiver, PCB antenna, GMSK modulation
@@ -111,6 +165,24 @@ $ENDCMP
 $CMP TR-72DAT
 D IQRF transceiver with PCB antenna and thermometer, GMSK modulation
 K IQRF transceiver, PCB antenna, thermometer, GMSK modulation
+F https://iqrf.org/weben/downloads.php?id=337
+$ENDCMP
+#
+$CMP TR-72DC
+D IQRF transceiver with coaxial antenna connector, GMSK modulation
+K IQRF transceiver, coaxial antenna connector, GMSK modulation
+F https://iqrf.org/weben/downloads.php?id=337
+$ENDCMP
+#
+$CMP TR-72DCT
+D IQRF transceiver with coaxial antenna connector and thermometer, GMSK modulation
+K IQRF transceiver, coaxial antenna connector, thermometer, GMSK modulation
+F https://iqrf.org/weben/downloads.php?id=337
+$ENDCMP
+#
+$CMP TR-72DT
+D IQRF transceiver with antenna pad-hole and thermometer, GMSK modulation
+K IQRF transceiver, antenna pad-hole, thermometer, GMSK modulation
 F https://iqrf.org/weben/downloads.php?id=337
 $ENDCMP
 #
