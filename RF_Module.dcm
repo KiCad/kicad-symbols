@@ -66,6 +66,12 @@ K 802.11 Wi-Fi
 F http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf
 $ENDCMP
 #
+$CMP ESP32-PICO-D4
+D RF SIP Module
+K WiFi Bluetooth ESP32
+F https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf
+$ENDCMP
+#
 $CMP MM002
 D NEMEUS Modem dual-mode LoRa/SIGFOX
 K IOT LoRa SIGFOX
