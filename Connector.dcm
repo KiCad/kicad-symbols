@@ -1,79 +1,193 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 4P2C
+D RJ connector, 4P2C (4 positions 2 connected)
+K 4P2C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP 4P2C_Shielded
+D RJ connector, 4P2C (4 positions 2 connected), Shielded
+K 4P2C RJ female connector
+F ~
+$ENDCMP
+#
 $CMP 4P4C
-D 4P4C connector
-K 4P4C RJ9 RJ10 RJ22 female connector
+D RJ connector, 4P4C (4 positions 4 connected), RJ9/RJ10/RJ22
+K 4P4C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP 4P4C_Shielded
+D RJ connector, 4P4C (4 positions 4 connected), RJ9/RJ10/RJ22, Shielded
+K 4P4C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP 6P2C
+D RJ connector, 6P2C (6 positions 2 connected), RJ11
+K 6P2C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP 6P2C_Shielded
+D RJ connector, 6P2C (6 positions 2 connected), RJ11, Shielded
+K 6P2C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP 6P4C
+D RJ connector, 6P4C (6 positions 4 connected), RJ13/RJ14
+K 6P4C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP 6P4C_Shielded
+D RJ connector, 6P4C (6 positions 4 connected), RJ13/RJ14, Shielded
+K 6P4C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP 6P6C
+D RJ connector, 6P6C (6 positions 6 connected), RJ12/RJ18/RJ25
+K 6P6C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP 6P6C_Shielded
+D RJ connector, 6P6C (6 positions 6 connected), RJ12/RJ18/RJ25, Shielded
+K 6P6C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP 8P4C
+D RJ connector, 8P4C (8 positions 4 connected), RJ38/RJ48
+K 8P4C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP 8P4C_Shielded
+D RJ connector, 8P4C (8 positions 4 connected), RJ38/RJ48, Shielded
+K 8P4C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP 8P8C
+D RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP 8P8C_LED
+D RJ connector, 8P8C (8 positions 8 connected), two LEDs, RJ45
+K 8P8C RJ female connector led
+F ~
+$ENDCMP
+#
+$CMP 8P8C_LED_Shielded
+D RJ connector, 8P8C (8 positions 8 connected), two LEDs, RJ45, Shielded
+K 8P8C RJ female connector led
+F ~
+$ENDCMP
+#
+$CMP 8P8C_Shielded
+D RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61, Shielded
+K 8P8C RJ female connector
+F ~
 $ENDCMP
 #
 $CMP AVR-ISP-10
 D Atmel 10-pin ISP connector
 K AVR ISP Connector
+F  ~
 $ENDCMP
 #
 $CMP AVR-ISP-6
 D Atmel 6-pin ISP connector
 K AVR ISP Connector
+F  ~
 $ENDCMP
 #
 $CMP AVR-JTAG-10
 D Atmel 10-pin JTAG connector
 K AVR JTAG Connector
+F  ~
 $ENDCMP
 #
 $CMP AVR-PDI-6
 D Atmel 10-pin PDI connector
 K AVR PDI Connector
+F  ~
 $ENDCMP
 #
 $CMP AVR-TPI-6
 D Atmel 6-pin TPI connector
 K AVR TPI Connector
+F  ~
 $ENDCMP
 #
-$CMP Audio-Jack-2
-D 2-pin audio jack receptable (mono/TS connector)
-K audio jack receptable mono phone headphone TS connector
+$CMP AudioJack2_Ground
+D Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve
+K audio jack receptacle mono phone headphone TS connector
 F ~
 $ENDCMP
 #
-$CMP Audio-Jack-2_Switch
-D 2-pin audio jack receptable (mono/TS connector) with switching contact
-K audio jack receptable mono headphones phone TS connector
+$CMP AudioJack2_Ground_Switch
+D Audio Jack, 2 Poles (Mono / TS), Switched Pole (Normalling)
+K audio jack receptacle mono headphones phone TS connector
 F ~
 $ENDCMP
 #
-$CMP Audio-Jack-3
-D 3-pin audio jack receptable (stereo/TRS connector)
-K audio jack receptable stereo headphones phones TRS connector
+$CMP AudioJack3_Ground
+D Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve
+K audio jack receptacle stereo headphones phones TRS connector
 F ~
 $ENDCMP
 #
-$CMP Audio-Jack-3_2Switches
-D 3-pin audio jack receptable (stereo/TRS connector) with 2 switching contacts
-K audio jack receptable stereo headphones phones TRS connector
+$CMP AudioJack3_Ground_Switch
+D D Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched Poles (Normalling)
+K audio jack receptacle stereo headphones phones TRS connector
 F ~
 $ENDCMP
 #
-$CMP Audio-Jack-3_3Switches
-D 3-pin (audio) jack receptable (stereo/TRS connector) with 3 switching contacts
-K audio jack receptable stereo headphones connector
+$CMP AudioJack3_Switch
+D D Audio Jack, 3 Poles (Stereo / TRS), Switched Poles (Normalling)
+K audio jack receptacle stereo headphones connector
 F ~
 $ENDCMP
 #
-$CMP Audio-Jack-4
-D 4-pin (audio) jack receptable (stereo + 4th pin/TRRS connector)
-K audio jack receptable stereo headphones TRRS connector
+$CMP AudioJack4_Ground
+D Audio Jack, 4 Poles (TRRS), Grounded Sleeve
+K audio jack receptacle stereo headphones TRRS connector
 F ~
 $ENDCMP
 #
-$CMP Audio-Jack-5
-D 5-pin (audio) jack receptable (TRRRS connector)
-K audio jack receptable stereo headphones TRRRS connector
+$CMP AudioJack5_Ground
+D Audio Jack, 5 Poles (TRRRS), Grounded Sleeve
+K audio jack receptacle stereo headphones TRRRS connector
 F ~
 $ENDCMP
 #
 $CMP Barrel_Jack
-D DC Barrel Jack
+D DC Barrel Jack
+K DC power barrel jack connector
+F ~
+$ENDCMP
+#
+$CMP Barrel_Jack_MountingPin
+D DC Barrel Jack with a mounting pin
+K DC power barrel jack connector
+F ~
+$ENDCMP
+#
+$CMP Barrel_Jack_Switch
+D DC Barrel Jack with an internal switch
+K DC power barrel jack connector
+F ~
+$ENDCMP
+#
+$CMP Barrel_Jack_Switch_MountingPin
+D DC Barrel Jack with an internal switch and a mounting pin
 K DC power barrel jack connector
 F ~
 $ENDCMP
@@ -105,16 +219,19 @@ $ENDCMP
 $CMP C64AB
 D Connector Europe 64 contacts ranges A,B
 K connector DIN
+F  ~
 $ENDCMP
 #
 $CMP C64AC
 D Connector Europe 64 contacts, ranges A,B,C
 K connector DIN
+F  ~
 $ENDCMP
 #
 $CMP C96ABC
 D Connector Europe, 96 contacts, ranges A,B,C
 K connector
+F  ~
 $ENDCMP
 #
 $CMP CUI_PD-30
@@ -606,6 +723,7 @@ $ENDCMP
 $CMP Conn_15X4
 D Connector Europe, 60 contacts, ranges A,B,C,D
 K connector
+F  ~
 $ENDCMP
 #
 $CMP Conn_ARM_JTAG_SWD_10
@@ -623,6 +741,7 @@ $ENDCMP
 $CMP Conn_Coaxial
 D coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
 K BNC SMA SMB SMC coaxial connector CINCH RCA
+F  ~
 $ENDCMP
 #
 $CMP Conn_Coaxial_Power
@@ -634,6 +753,7 @@ $ENDCMP
 $CMP Conn_Coaxial_x2
 D double coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
 K BNC SMA SMB SMC coaxial connector CINCH RCA
+F  ~
 $ENDCMP
 #
 $CMP Conn_WallPlug
@@ -663,101 +783,121 @@ $ENDCMP
 $CMP DB15_Female
 D 15-pin female D-SUB connector (low-density/2 columns)
 K female D-SUB connector
+F  ~
 $ENDCMP
 #
 $CMP DB15_Female_HighDensity
 D 15-pin female D-SUB connector, High density (3 columns), Triple Row, Generic, VGA-connector
 K connector db15 VGA female D-SUB
+F  ~
 $ENDCMP
 #
 $CMP DB15_Female_HighDensity_MountingHoles
 D 15-pin female D-SUB connector, High density (3 columns), Triple Row, Generic, VGA-connector, Mounting Hole
 K connector db15 female D-SUB VGA
+F  ~
 $ENDCMP
 #
 $CMP DB15_Female_MountingHoles
 D 15-pin female D-SUB connector (low-density/2 columns), Mounting Hole
 K female D-SUB connector
+F  ~
 $ENDCMP
 #
 $CMP DB15_Male
 D 15-pin male D-SUB connector (low-density/2 columns)
 K male D-SUB connector
+F  ~
 $ENDCMP
 #
 $CMP DB15_Male_HighDensity
 D 15-pin male D-SUB connector, High density (3 columns), Triple Row, Generic, VGA-connector
 K connector male VGA D-SUB
+F  ~
 $ENDCMP
 #
 $CMP DB15_Male_HighDensity_MountingHoles
 D 15-pin male D-SUB connector, High density (3 columns), Triple Row, Generic, VGA-connector, Mounting Hole
 K connector male D-SUB VGA
+F  ~
 $ENDCMP
 #
 $CMP DB15_Male_MountingHoles
 D 15-pin male D-SUB connector (low-density/2 columns), Mounting Hole
 K male D-SUB connector
+F  ~
 $ENDCMP
 #
 $CMP DB25_Female
 D 25-pin female D-SUB connector
 K female D-SUB connector
+F  ~
 $ENDCMP
 #
 $CMP DB25_Female_MountingHoles
 D 25-pin female D-SUB connector, Mounting Hole
 K female D-SUB connector
+F  ~
 $ENDCMP
 #
 $CMP DB25_Male
 D 25-pin male D-SUB connector
 K male D-SUB connector
+F  ~
 $ENDCMP
 #
 $CMP DB25_Male_MountingHoles
 D 25-pin male D-SUB connector, Mounting Hole
 K male D-SUB connector
+F  ~
 $ENDCMP
 #
 $CMP DB37_Female
 D 37-pin female D-SUB connector
 K female D-SUB connector
+F  ~
 $ENDCMP
 #
 $CMP DB37_Female_MountingHoles
 D 37-pin female D-SUB connector, Mounting Hole
 K female D-SUB connector
+F  ~
 $ENDCMP
 #
 $CMP DB37_Male
 D 37-pin male D-SUB connector
 K male D-SUB connector
+F  ~
 $ENDCMP
 #
 $CMP DB37_Male_MountingHoles
 D 37-pin male D-SUB connector, Mounting Hole
 K male D-SUB connector
+F  ~
 $ENDCMP
 #
 $CMP DB9_Female
 D 9-pin female D-SUB connector
 K connector female D-SUB
+F  ~
 $ENDCMP
 #
 $CMP DB9_Female_MountingHoles
 D 9-pin female D-SUB connector, Mounting Hole
 K connector female D-SUB
+F  ~
 $ENDCMP
 #
 $CMP DB9_Male
 D 9-pin male D-SUB connector
 K connector male D-SUB
+F  ~
 $ENDCMP
 #
 $CMP DB9_Male_MountingHoles
 D 9-pin male D-SUB connector, Mounting Hole
 K connector male D-SUB
+F  ~
 $ENDCMP
 #
 $CMP DIN-3
@@ -808,6 +948,48 @@ K circular DIN connector
 F http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf
 $ENDCMP
 #
+$CMP HDMI_A
+D HDMI type A connector
+K hdmi conn
+F https://en.wikipedia.org/wiki/HDMI
+$ENDCMP
+#
+$CMP HDMI_A_1.4
+D HDMI 1.4+ type A connector
+K hdmi conn
+F https://en.wikipedia.org/wiki/HDMI
+$ENDCMP
+#
+$CMP HDMI_B
+D HDMI type B connector
+K hdmi conn
+F http://pinouts.ru/Video/hdmi_pinout.shtml
+$ENDCMP
+#
+$CMP HDMI_C_1.3
+D HDMI 1.3+ type C connector
+K hdmi conn
+F http://pinoutguide.com/PortableDevices/mini_hdmi_pinout.shtml
+$ENDCMP
+#
+$CMP HDMI_C_1.4
+D HDMI 1.4+ type C connector
+K hdmi conn
+F http://pinoutguide.com/PortableDevices/mini_hdmi_pinout.shtml
+$ENDCMP
+#
+$CMP HDMI_D_1.4
+D HDMI 1.4+ type D connector
+K hdmi conn
+F http://pinoutguide.com/PortableDevices/micro_hdmi_type_d_pinout.shtml
+$ENDCMP
+#
+$CMP HDMI_E
+D HDMI type E connector
+K hdmi conn
+F https://www.hdmi.org/manufacturer/specification.aspx
+$ENDCMP
+#
 $CMP IEEE1394a
 D FireWire/IEEE1394a 6-pin connector
 K connector IEEE1394a FireWire
@@ -815,7 +997,7 @@ F ~
 $ENDCMP
 #
 $CMP Jack-DC
-D DC Barrel Jack
+D DC Barrel Jack
 K DC power barrel jack connector
 F ~
 $ENDCMP
@@ -823,21 +1005,25 @@ $ENDCMP
 $CMP LEMO2
 D 2-pin LEMO connector
 K LEMO connector
+F  ~
 $ENDCMP
 #
 $CMP LEMO4
 D 4-pin LEMO connector
 K LEMO connector
+F  ~
 $ENDCMP
 #
 $CMP LEMO5
 D 5-pin LEMO connector
 K LEMO connector
+F  ~
 $ENDCMP
 #
 $CMP LEMO6
 D 6-pin LEMO connector
 K LEMO connector
+F  ~
 $ENDCMP
 #
 $CMP Micro_SD_Card
@@ -856,6 +1042,12 @@ $CMP Micro_SD_Card_Det_Hirose_DM3AT
 D Micro SD Card Socket with card detection pins
 K connector SD microsd
 F https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1
+$ENDCMP
+#
+$CMP Microsemi_FlashPro-JTAG-10
+D ACTEL FLASH PRO 3/4, JTAG, IDC10 Male Connector
+K JTAG IDC10 Male Connector
+F https://www.microsemi.com/document-portal/doc_view/129973-lpf-ac386-an
 $ENDCMP
 #
 $CMP Mini-DIN-3
@@ -895,50 +1087,267 @@ F http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf
 $ENDCMP
 #
 $CMP RJ10
-D 4P4C connector
-K RJ9 RJ10 RJ22 4P4C female connector
-$ENDCMP
-#
-$CMP RJ12
-D RJ12 connector with 2 shield pins
-K RJ12 connector
-$ENDCMP
-#
-$CMP RJ22
-D 4P4C connector
-K 4P4C RJ9 RJ10 RJ22 female connector
-$ENDCMP
-#
-$CMP RJ45
-D RJ45 connector with shield
-K RJ45
-$ENDCMP
-#
-$CMP RJ45-TRANSFO
-D RJ45 with transformer + leds WURTH
-K RJ45
+D RJ connector, 4P4C (4 positions 4 connected)
+K 4P4C RJ female connector
 F ~
 $ENDCMP
 #
-$CMP RJ45_LEDS
-D RJ45, status leds
-K RJ45 RJ45_LEDS
+$CMP RJ10_Shielded
+D RJ connector, 4P4C (4 positions 4 connected), Shielded
+K 4P4C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ11
+D RJ connector, 6P2C (6 positions 2 connected)
+K 6P2C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ11_Shielded
+D RJ connector, 6P2C (6 positions 2 connected), Shielded
+K 6P2C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ12
+D RJ connector, 6P6C (6 positions 6 connected)
+K 6P6C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ12_Shielded
+D RJ connector, 6P6C (6 positions 6 connected), Shielded
+K 6P6C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ13
+D RJ connector, 6P4C (6 positions 4 connected)
+K 6P4C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ13_Shielded
+D RJ connector, 6P4C (6 positions 4 connected), Shielded
+K 6P4C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ14
+D RJ connector, 6P4C (6 positions 4 connected)
+K 6P4C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ14_Shielded
+D RJ connector, 6P4C (6 positions 4 connected), Shielded
+K 6P4C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ18
+D RJ connector, 6P6C (6 positions 6 connected)
+K 6P6C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ18_Shielded
+D RJ connector, 6P6C (6 positions 6 connected), Shielded
+K 6P6C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ22
+D RJ connector, 4P4C (4 positions 4 connected)
+K 4P4C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ22_Shielded
+D RJ connector, 4P4C (4 positions 4 connected), Shielded
+K 4P4C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ25
+D RJ connector, 6P6C (6 positions 6 connected)
+K 6P6C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ25_Shielded
+D RJ connector, 6P6C (6 positions 6 connected), Shielded
+K 6P6C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ31
+D RJ connector, 8P8C (8 positions 8 connected)
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ31_Shielded
+D RJ connector, 8P8C (8 positions 8 connected), Shielded
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ32
+D RJ connector, 8P8C (8 positions 8 connected)
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ32_Shielded
+D RJ connector, 8P8C (8 positions 8 connected), Shielded
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ33
+D RJ connector, 8P8C (8 positions 8 connected)
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ33_Shielded
+D RJ connector, 8P8C (8 positions 8 connected), Shielded
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ34
+D RJ connector, 8P8C (8 positions 8 connected)
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ34_Shielded
+D RJ connector, 8P8C (8 positions 8 connected), Shielded
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ35
+D RJ connector, 8P8C (8 positions 8 connected)
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ35_Shielded
+D RJ connector, 8P8C (8 positions 8 connected), Shielded
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ38
+D RJ connector, 8P4C (8 positions 4 connected)
+K 8P4C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ38_Shielded
+D RJ connector, 8P4C (8 positions 4 connected), Shielded
+K 8P4C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ41
+D RJ connector, 8P8C (8 positions 8 connected)
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ41_Shielded
+D RJ connector, 8P8C (8 positions 8 connected), Shielded
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ45
+D RJ connector, 8P8C (8 positions 8 connected)
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ45_LED
+D RJ connector, 8P8C (8 positions 8 connected), two LEDs
+K 8P8C RJ female connector led
+F ~
+$ENDCMP
+#
+$CMP RJ45_LED_Shielded
+D RJ connector, 8P8C (8 positions 8 connected), two LEDs, Shielded
+K 8P8C RJ female connector led
+F ~
+$ENDCMP
+#
+$CMP RJ45_Shielded
+D RJ connector, 8P8C (8 positions 8 connected), Shielded
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ48
+D RJ connector, 8P4C (8 positions 4 connected)
+K 8P4C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ48_Shielded
+D RJ connector, 8P4C (8 positions 4 connected), Shielded
+K 8P4C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ49
+D RJ connector, 8P8C (8 positions 8 connected)
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ49_Shielded
+D RJ connector, 8P8C (8 positions 8 connected), Shielded
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ61
+D RJ connector, 8P8C (8 positions 8 connected)
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ61_Shielded
+D RJ connector, 8P8C (8 positions 8 connected), Shielded
+K 8P8C RJ female connector
+F ~
 $ENDCMP
 #
 $CMP RJ9
-D 4P4C connector
-K 4P4C RJ9 RJ10 RJ22 female connector
+D RJ connector, 4P4C (4 positions 4 connected)
+K 4P4C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ9_Shielded
+D RJ connector, 4P4C (4 positions 4 connected), Shielded
+K 4P4C RJ female connector
+F ~
 $ENDCMP
 #
 $CMP Raspberry_Pi_2_3
 D expansion header for Raspberry Pi 2 & 3
 K raspberrypi gpio
-F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/RPI-3B-V1_2-SCHEMATIC-REDUCED.pdf
+F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf
 $ENDCMP
 #
 $CMP SCART-F
 D Prise Peritel
 K connector
+F  ~
 $ENDCMP
 #
 $CMP SD_Card
@@ -950,6 +1359,7 @@ $ENDCMP
 $CMP SIM_Card
 D SIM Card
 K SIM card UICC
+F  ~
 $ENDCMP
 #
 $CMP Screw_Terminal_01x01
@@ -1072,6 +1482,24 @@ K screw terminal
 F ~
 $ENDCMP
 #
+$CMP SpeakON_NL2
+D speakON Connector, Male or Female, NL2
+K speakon connector
+F http://www.neutrik.com/en/speakon/
+$ENDCMP
+#
+$CMP SpeakON_NL4
+D speakON Connector, Male or Female, NL4
+K speakon connector
+F http://www.neutrik.com/en/speakon/
+$ENDCMP
+#
+$CMP SpeakON_NL8
+D speakON Connector, Male or Female, NL8
+K speakon connector
+F http://www.neutrik.com/en/speakon/
+$ENDCMP
+#
 $CMP Test_Point
 D test point
 K test point tp
@@ -1117,11 +1545,13 @@ $ENDCMP
 $CMP USB_A
 D USB Type A connector
 K connector USB
+F  ~
 $ENDCMP
 #
 $CMP USB_B
 D USB Type B connector
 K connector USB
+F  ~
 $ENDCMP
 #
 $CMP USB_B_Micro
@@ -1151,21 +1581,67 @@ $ENDCMP
 $CMP USB_OTG
 D USB mini/micro connector
 K connector USB
+F  ~
+$ENDCMP
+#
+$CMP Wuerth_7499151120
+D Dual LAN Transformer Jack, RJ45, 10/100/1000 BaseT
+K dual lan jack transformer
+F http://katalog.we-online.de/pbs/datasheet/7499151120.pdf
 $ENDCMP
 #
 $CMP XLR3
-D 3 pins
-K connector
+D XLR Connector, Male or Female, 3 Pins
+K xlr connector
+F  ~
+$ENDCMP
+#
+$CMP XLR3_AudioJack2_Combo_Ground
+D XLR (Male or Female) and Audio Jack (Mono / TS) Combo Connector, Discrete Ground Pin
+K xlr connector
+F  ~
+$ENDCMP
+#
+$CMP XLR3_AudioJack3_Combo_Ground
+D XLR (Male or Female) and Audio Jack (Stereo / TRS) Combo Connector, Discrete Ground Pin
+K xlr connector
+F  ~
+$ENDCMP
+#
+$CMP XLR3_AudioJack3_Combo_Ground_Switch
+D XLR (Male or Female) and Audio Jack (Stereo / TRS, Switched Poles (Normalling)) Combo Connector, Discrete Ground Pin
+K xlr connector
+F  ~
+$ENDCMP
+#
+$CMP XLR3_Ground
+D XLR Connector, Male or Female, 3 Pins, Discrete Ground Pin
+K xlr connector
+F  ~
+$ENDCMP
+#
+$CMP XLR3_Ground_Switched
+D XLR Connector, Male or Female, 3 Pins, Discrete Ground Pin, SPDT Switch
+K xlr connector
+F  ~
+$ENDCMP
+#
+$CMP XLR3_Switched
+D XLR Connector, Male or Female, 3 Pins, SPDT Switch
+K xlr connector
+F  ~
 $ENDCMP
 #
 $CMP XLR4
-D 4 pins
-K connector
+D XLR Connector, Male or Female, 4 Pins
+K xlr connector
+F  ~
 $ENDCMP
 #
 $CMP XLR5
-D 5 pins
-K connector
+D XLR Connector, Male or Female, 5 Pins
+K xlr connector
+F  ~
 $ENDCMP
 #
 #End Doc Library

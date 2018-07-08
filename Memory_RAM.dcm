@@ -21,6 +21,42 @@ $CMP IDT71V65903S
 D 165 pins BGA 3.3V high-speed 9 Megabit synchronous SRAMs 512K x 18 (or  256K x 36)
 $ENDCMP
 #
+$CMP IDT7203
+D 2048x9 CMOS Asynchronous FIFO, DIP28
+K asynchronous fifo memory
+F http://www.idt.com/document/7203-7208-datasheet
+$ENDCMP
+#
+$CMP IDT7204
+D 4096x9 CMOS Asynchronous FIFO, DIP28
+K asynchronous fifo memory
+F http://www.idt.com/document/7203-7208-datasheet
+$ENDCMP
+#
+$CMP IDT7205
+D 8192x9 CMOS Asynchronous FIFO, DIP28
+K asynchronous fifo memory
+F http://www.idt.com/document/7203-7208-datasheet
+$ENDCMP
+#
+$CMP IDT7206
+D 16384x9 CMOS Asynchronous FIFO, DIP28
+K asynchronous fifo memory
+F http://www.idt.com/document/7203-7208-datasheet
+$ENDCMP
+#
+$CMP IDT7207
+D 32768x9 CMOS Asynchronous FIFO, DIP28
+K asynchronous fifo memory
+F http://www.idt.com/document/7203-7208-datasheet
+$ENDCMP
+#
+$CMP IDT7208
+D 65536x9 CMOS Asynchronous FIFO, DIP28
+K asynchronous fifo memory
+F http://www.idt.com/document/7203-7208-datasheet
+$ENDCMP
+#
 $CMP IS42S16400J-xC
 D 64Mb Synchronous DRAM, 1 Mb x 16 b x 4 Banks, Cu leadframe plated with matte Sn, TSOP-II-54
 K DRAM

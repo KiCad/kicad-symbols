@@ -18,6 +18,12 @@ K led rgb diode
 F https://docs.broadcom.com/docs/AV02-4194EN
 $ENDCMP
 #
+$CMP ASMT-YTB7-0AA02
+D Triple LED RVB (Avago Technology)
+K LED RGB
+F https://docs.broadcom.com/docs/AV02-3793EN
+$ENDCMP
+#
 $CMP ASMT-YTC2-0AA02
 D Triple LED RVB (Avago Technology)
 K LED RGB
@@ -202,6 +208,12 @@ $CMP SFH482
 D GaAlAs Infrared LED (880 nm), TO-18 package
 K opto IR LED
 F http://www.osram-os.com/Graphics/XPic2/00182155_0.pdf/SFH%20482%20E7800,%20Lead%20(Pb)%20Free%20Product%20-%20RoHS%20Compliant.pdf
+$ENDCMP
+#
+$CMP SK6805
+D RGB LED with integrated controller
+K RGB LED NeoPixel Nano addressable
+F https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf
 $ENDCMP
 #
 $CMP SK6812

@@ -321,7 +321,7 @@ $ENDCMP
 $CMP AD9142
 D 1.6GSPS 16bit dual-channel DAC, LFCSP-72
 K 16bit DAC 2CH
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9142.pdf 
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9142.pdf
 $ENDCMP
 #
 $CMP AD9744
@@ -352,6 +352,24 @@ $CMP DAC0808_SOIC
 D 8-bit multiplying DAC
 K 8 bit multiplying DAC
 F http://www.ti.com/lit/ds/symlink/dac0808.pdf
+$ENDCMP
+#
+$CMP DAC081C081CIMK
+D 8-bit Micropower DAC with I2C-Compatible Interface, SOT-23-6
+K I2C DAC 8-bit
+F http://www.ti.com/lit/ds/symlink/dac081c081.pdf
+$ENDCMP
+#
+$CMP DAC101C081CIMK
+D 10-bit Micropower DAC with I2C-Compatible Interface, SOT-23-6
+K I2C DAC 10-bit
+F http://www.ti.com/lit/ds/symlink/dac101c081.pdf
+$ENDCMP
+#
+$CMP DAC121C081CIMK
+D 12-bit Micropower DAC with I2C-Compatible Interface, SOT-23-6
+K I2C DAC 12-bit
+F http://www.ti.com/lit/ds/symlink/dac121c081.pdf
 $ENDCMP
 #
 $CMP DAC7513_DCN

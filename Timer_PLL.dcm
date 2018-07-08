@@ -13,15 +13,21 @@ F http://www.analog.com/media/en/technical-documentation/data-sheets/ADF4002.pdf
 $ENDCMP
 #
 $CMP ADF4350
-D 137.5-4400MHz fractional-N PLL, LFCSP-32 
+D 137.5-4400MHz fractional-N PLL, LFCSP-32
 K fractional-N PLL
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADF4350.pdf
 $ENDCMP
 #
 $CMP ADF4351
-D 35-4400MHz fractional-N PLL, LFCSP-32 
+D 35-4400MHz fractional-N PLL, LFCSP-32
 K fractional-N PLL
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADF4351.pdf
+$ENDCMP
+#
+$CMP CDCVF2505
+D Clock Phase-Lock Loop Clock Driver, 24-200MHz, 3.3V, SOIC-8/TSSOP-8
+K pll clock driver
+F http://www.ti.com/lit/ds/symlink/cdcvf2505.pdf
 $ENDCMP
 #
 #End Doc Library

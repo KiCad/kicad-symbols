@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP A4403GEU
+D Valley current mode buck converter, 46V, 3A, up to 2MHz, QFN-16
+K buck regulator adjustable
+F https://www.allegromicro.com/~/media/Files/Datasheets/A4403-Datasheet.ashx
+$ENDCMP
+#
 $CMP ADP1108AN
 D Micropower DC-DC conveter, step-up or step-down operation, 2V-30Vin, adjustable output voltage, DIP-8
 K switching buck boost converter step-down step-up
@@ -340,6 +346,60 @@ $CMP CRE1S2412SC
 D 24V to 12V 83mA DC-DC Converter with 1kV isolation, SIP-4
 K Murata isolated isolation dc-dc converter transformer
 F http://power.murata.com/datasheet?/data/power/ncl/kdc_cre1.pdf
+$ENDCMP
+#
+$CMP FSBH0170
+D Green Mode Fairchild Power Switch, 700V Vds, 1.0A Id, 15W/13W 230V/85-265V, VIN Pin, DIP-8
+K smps regulator
+F https://www.fairchildsemi.com/datasheets/FS/FSBH0370.pdf
+$ENDCMP
+#
+$CMP FSBH0170A
+D Green Mode Fairchild Power Switch, 700V Vds, 1.0A Id, 15W/13W 230V/85-265V, DIP-8
+K smps regulator
+F https://www.fairchildsemi.com/datasheets/FS/FSBH0370.pdf
+$ENDCMP
+#
+$CMP FSBH0170W
+D Green Mode Fairchild Power Switch, 700V Vds, 1.0A Id, 15W/13W 230V/85-265V, VIN Pin, DIP-8
+K smps regulator
+F http://www.onsemi.com/pub/Collateral/FSBH0270W-D.pdf
+$ENDCMP
+#
+$CMP FSBH0270
+D Green Mode Fairchild Power Switch, 700V Vds, 2.0A Id, 20W/16W 230V/85-265V, VIN Pin, DIP-8
+K smps regulator
+F https://www.fairchildsemi.com/datasheets/FS/FSBH0370.pdf
+$ENDCMP
+#
+$CMP FSBH0270A
+D Green Mode Fairchild Power Switch, 700V Vds, 2.0A Id, 20W/16W 230V/85-265V, DIP-8
+K smps regulator
+F https://www.fairchildsemi.com/datasheets/FS/FSBH0370.pdf
+$ENDCMP
+#
+$CMP FSBH0270W
+D Green Mode Fairchild Power Switch, 700V Vds, 2.0A Id, 20W/16W 230V/85-265V, VIN Pin, DIP-8
+K smps regulator
+F http://www.onsemi.com/pub/Collateral/FSBH0270W-D.pdf
+$ENDCMP
+#
+$CMP FSBH0370
+D Green Mode Fairchild Power Switch, 700V Vds, 3.0A Id, 25W/19W 230V/85-265V, VIN Pin, DIP-8
+K smps regulator
+F https://www.fairchildsemi.com/datasheets/FS/FSBH0370.pdf
+$ENDCMP
+#
+$CMP FSBH0F70A
+D Green Mode Fairchild Power Switch, 700V Vds, 0.5A Id, 10W/8W 230V/85-265V, DIP-8
+K smps regulator
+F https://www.fairchildsemi.com/datasheets/FS/FSBH0370.pdf
+$ENDCMP
+#
+$CMP FSBH0F70WA
+D Green Mode Fairchild Power Switch, 700V Vds, 0.5A Id, 10W/8W 230V/85-265V, DIP-8
+K smps regulator
+F http://www.onsemi.com/pub/Collateral/FSBH0270W-D.pdf
 $ENDCMP
 #
 $CMP FSDH321
@@ -886,6 +946,102 @@ $CMP LM2578
 D 750mA, Switching Regulator, adjustable output voltage, DIP-8/SOIC-8
 K switching regulator
 F http://www.ti.com/lit/ds/symlink/lm3578a.pdf
+$ENDCMP
+#
+$CMP LM2594HVM-12
+D 12V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 60V, SOIC-8
+K buck converter regulator step-down voltage simple switcher fixed
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594HVM-3.3
+D 3.3V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 60V, SOIC-8
+K buck converter regulator step-down voltage simple switcher fixed
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594HVM-5.0
+D 5.0V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 60V, SOIC-8
+K buck converter regulator step-down voltage simple switcher fixed
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594HVM-ADJ
+D Adjustable Output Voltage, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 60V, SOIC-8
+K buck converter regulator step-down voltage simple switcher adjustable
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594HVN-12
+D 12V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 60V, DIP-8
+K buck converter regulator step-down voltage simple switcher fixed
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594HVN-3.3
+D 3.3V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 60V, DIP-8
+K buck converter regulator step-down voltage simple switcher fixed
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594HVN-5.0
+D 5.0V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 60V, DIP-8
+K buck converter regulator step-down voltage simple switcher fixed
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594HVN-ADJ
+D Adjustable Output Voltage, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 60V, DIP-8
+K buck converter regulator step-down voltage simple switcher adjustable
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594M-12
+D 12V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 45V, SOIC-8
+K buck converter regulator step-down voltage simple switcher fixed
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594M-3.3
+D 3.3V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 45V, SOIC-8
+K buck converter regulator step-down voltage simple switcher fixed
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594M-5.0
+D 5.0V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 45V, SOIC-8
+K buck converter regulator step-down voltage simple switcher fixed
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594M-ADJ
+D Adjustable Output Voltage, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 45V, SOIC-8
+K buck converter regulator step-down voltage simple switcher adjustable
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594N-12
+D 12V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 45V, DIP-8
+K buck converter regulator step-down voltage simple switcher fixed
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594N-3.3
+D 3.3V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 45V, DIP-8
+K buck converter regulator step-down voltage simple switcher fixed
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594N-5.0
+D 5.0V, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 45V, DIP-8
+K buck converter regulator step-down voltage simple switcher fixed
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
+$ENDCMP
+#
+$CMP LM2594N-ADJ
+D Adjustable Output Voltage, 0.5A SIMPLE SWITCHER® Step-Down Voltage Regulator, Maximum VIN 45V, DIP-8
+K buck converter regulator step-down voltage simple switcher adjustable
+F http://www.ti.com/lit/ds/symlink/lm2594.pdf
 $ENDCMP
 #
 $CMP LM2595S-12
@@ -2058,6 +2214,12 @@ K switching buck boost converter step-down step-up
 F http://cds.linear.com/docs/en/datasheet/lt1108.pdf
 $ENDCMP
 #
+$CMP LT1301
+D Micropower High Efficiency 5V/12V Step-Up DC/DC Converter for Flash Memory, DIP-8/SOIC-8
+K 5v 12v dc converter boost
+F http://www.linear.com/docs/3451
+$ENDCMP
+#
 $CMP LT1307BCMS8
 D Single Cell Micropower 600kHz PWM DC/DC Converter, 10µA Quiescent Current, MSOP-8
 K Micropower PWM DC/DC Converter
@@ -2364,22 +2526,16 @@ K buck dc-dc switcher switching
 F http://cds.linear.com/docs/en/datasheet/3630fd.pdf
 $ENDCMP
 #
+$CMP LTC3638
+D 250mA High efficiency 140V step-down converter, MSOP-16(12)
+K buck dc-dc switcher switching
+F http://www.analog.com/media/en/technical-documentation/data-sheets/3638fa.pdf
+$ENDCMP
+#
 $CMP LTC3886
 D 60V dual output buck output with digital power system management, UKG52(46)
 K step down switch manager I2C telemetry fault current sense
 F http://cds.linear.com/docs/en/datasheet/3886fe.pdf
-$ENDCMP
-#
-$CMP LTC3890
-D 60V dual 2-phase synchronous step-down DC/DC controller, QFN-32
-K switching buck converter regulator dual-output
-F http://cds.linear.com/docs/en/datasheet/3890fc.pdf
-$ENDCMP
-#
-$CMP LTC3890-1
-D 60V dual 2-phase synchronous step-down DC/DC controller, SSOP-28
-K switching buck converter regulator dual-output
-F http://cds.linear.com/docs/en/datasheet/38901fb.pdf
 $ENDCMP
 #
 $CMP MAX15062A
@@ -2680,6 +2836,222 @@ $CMP MIC4690
 D 1A, 500kHz SuperSwitcher Buck Regulator, 4-34V Input Voltage, Adjustable Output Voltage, SO-8
 K regulator switching adjustable
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic4690.pdf
+$ENDCMP
+#
+$CMP NCP1070P065
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 14W/7.75W, 230V/85-265V, 65kHz, 22Ohm Rds(on), 250mA Ipk, DIP-7
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1070P100
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 14W/7.75W, 230V/85-265V, 100kHz, 22Ohm Rds(on), 250mA Ipk, DIP-7
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1070P130
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 14W/7.75W, 230V/85-265V, 130kHz, 22Ohm Rds(on), 250mA Ipk, DIP-7
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1070STAT
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 14W/7.75W, 230V/85-265V, 65kHz, 22Ohm Rds(on), 250mA Ipk, SOT-223
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1070STBT
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 14W/7.75W, 230V/85-265V, 100kHz, 22Ohm Rds(on), 250mA Ipk, SOT-223
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1070STCT
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 14W/7.75W, 230V/85-265V, 130kHz, 22Ohm Rds(on), 250mA Ipk, SOT-223
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1071P065
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 14W/7.75W, 230V/85-265V, 65kHz, 22Ohm Rds(on), 350mA Ipk, DIP-7
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1071P100
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 14W/7.75W, 230V/85-265V, 100kHz, 22Ohm Rds(on), 350mA Ipk, DIP-7
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1071P130
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 14W/7.75W, 230V/85-265V, 130kHz, 22Ohm Rds(on), 350mA Ipk, DIP-7
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1071STAT
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 14W/7.75W, 230V/85-265V, 65kHz, 22Ohm Rds(on), 350mA Ipk, SOT-223
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1071STBT
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 14W/7.75W, 230V/85-265V, 100kHz, 22Ohm Rds(on), 350mA Ipk, SOT-223
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1071STCT
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 14W/7.75W, 230V/85-265V, 130kHz, 22Ohm Rds(on), 350mA Ipk, SOT-223
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1072P065
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 19W/10W, 230V/85-265V, 65kHz, 11Ohm Rds(on), 250mA Ipk, DIP-7
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1072P100
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 19W/10W, 230V/85-265V, 100kHz, 11Ohm Rds(on), 250mA Ipk, DIP-7
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1072P130
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 19W/10W, 230V/85-265V, 130kHz, 11Ohm Rds(on), 250mA Ipk, DIP-7
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1072STAT
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 19W/10W, 230V/85-265V, 65kHz, 11Ohm Rds(on), 250mA Ipk, SOT-223
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1072STBT
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 19W/10W, 230V/85-265V, 100kHz, 11Ohm Rds(on), 250mA Ipk, SOT-223
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1072STCT
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 19W/10W, 230V/85-265V, 130kHz, 11Ohm Rds(on), 250mA Ipk, SOT-223
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1075P065
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 19W/10W, 230V/85-265V, 65kHz, 11Ohm Rds(on), 450mA Ipk, DIP-7
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1075P100
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 19W/10W, 230V/85-265V, 100kHz, 11Ohm Rds(on), 450mA Ipk, DIP-7
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1075P130
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 19W/10W, 230V/85-265V, 130kHz, 11Ohm Rds(on), 450mA Ipk, DIP-7
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1075STAT
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 19W/10W, 230V/85-265V, 65kHz, 11Ohm Rds(on), 450mA Ipk, SOT-223
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1075STBT
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 19W/10W, 230V/85-265V, 100kHz, 11Ohm Rds(on), 450mA Ipk, SOT-223
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1075STCT
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 19W/10W, 230V/85-265V, 130kHz, 11Ohm Rds(on), 450mA Ipk, SOT-223
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1076P065
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 25W/15W, 230V/85-265V, 65kHz, 4.7Ohm Rds(on), 650mA Ipk, DIP-7
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1076P100
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 25W/15W, 230V/85-265V, 100kHz, 4.7Ohm Rds(on), 650mA Ipk, DIP-7
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1076P130
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 25W/15W, 230V/85-265V, 130kHz, 4.7Ohm Rds(on), 650mA Ipk, DIP-7
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1076STAT
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 25W/15W, 230V/85-265V, 65kHz, 4.7Ohm Rds(on), 650mA Ipk, SOT-223
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1076STBT
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 25W/15W, 230V/85-265V, 100kHz, 4.7Ohm Rds(on), 650mA Ipk, SOT-223
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1076STCT
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 25W/15W, 230V/85-265V, 130kHz, 4.7Ohm Rds(on), 650mA Ipk, SOT-223
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1077P065
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 25W/15W, 230V/85-265V, 65kHz, 4.7Ohm Rds(on), 800mA Ipk, DIP-7
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1077P100
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 25W/15W, 230V/85-265V, 100kHz, 4.7Ohm Rds(on), 800mA Ipk, DIP-7
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1077P130
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 25W/15W, 230V/85-265V, 130kHz, 4.7Ohm Rds(on), 800mA Ipk, DIP-7
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1077STAT
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 25W/15W, 230V/85-265V, 65kHz, 4.7Ohm Rds(on), 800mA Ipk, SOT-223
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1077STBT
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 25W/15W, 230V/85-265V, 100kHz, 4.7Ohm Rds(on), 800mA Ipk, SOT-223
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1077STCT
+D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 25W/15W, 230V/85-265V, 130kHz, 4.7Ohm Rds(on), 800mA Ipk, SOT-223
+K SMPS Converter
+F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
 $ENDCMP
 #
 $CMP NCV33063AVD
@@ -3844,6 +4216,588 @@ $CMP TNY290P
 D TinySwitch-4 Family, 28.5W Output Power, PDIP-8C
 K Energy-Efficient, Off-Line Switcher With Line Compensated Overload Power
 F https://ac-dc.power.com/sites/default/files/product-docs/tinyswitch-4_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP100YN
+D TOPSwitch Family, 20W Max Output Power, TO-220
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top100.pdf
+$ENDCMP
+#
+$CMP TOP101YN
+D TOPSwitch Family, 35W Max Output Power, TO-220
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top100.pdf
+$ENDCMP
+#
+$CMP TOP102YN
+D TOPSwitch Family, 45W Max Output Power, TO-220
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top100.pdf
+$ENDCMP
+#
+$CMP TOP103YN
+D TOPSwitch Family, 55W Max Output Power, TO-220
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top100.pdf
+$ENDCMP
+#
+$CMP TOP104YN
+D TOPSwitch Family, 60W Max Output Power, TO-220
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top100.pdf
+$ENDCMP
+#
+$CMP TOP200YAI
+D TOPSwitch Family, 12W Max Output Power, TO-220
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top200-204214.pdf
+$ENDCMP
+#
+$CMP TOP201YAI
+D TOPSwitch Family, 22W Max Output Power, TO-220
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top200-204214.pdf
+$ENDCMP
+#
+$CMP TOP202YAI
+D TOPSwitch Family, 30W Max Output Power, TO-220
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top200-204214.pdf
+$ENDCMP
+#
+$CMP TOP203YAI
+D TOPSwitch Family, 35W Max Output Power, TO-220
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top200-204214.pdf
+$ENDCMP
+#
+$CMP TOP204YAI
+D TOPSwitch Family, 50W Max Output Power, TO-220
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top200-204214.pdf
+$ENDCMP
+#
+$CMP TOP209G
+D TOPSwitch Family, 2W Max Output Power, SMD-8
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top209210.pdf
+$ENDCMP
+#
+$CMP TOP209P
+D TOPSwitch Family, 2W Max Output Power, DIP-8
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top209210.pdf
+$ENDCMP
+#
+$CMP TOP210G
+D TOPSwitch Family, 5W Max Output Power, SMD-8
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top209210.pdf
+$ENDCMP
+#
+$CMP TOP210PFI
+D TOPSwitch Family, 5W Max Output Power, DIP-8
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top209210.pdf
+$ENDCMP
+#
+$CMP TOP214YAI
+D TOPSwitch Family, 42W Max Output Power, TO-220
+K Three-terminal Off-line PWM Switch
+F http://www.powerint.com/sites/default/files/product-docs/top200-204214.pdf
+$ENDCMP
+#
+$CMP TOP252EG
+D TOPSwitch-HX Family, 13W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP252EN
+D TOPSwitch-HX Family, 13W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP252GN
+D TOPSwitch-HX Family, 10W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP252MN
+D TOPSwitch-HX Family, 10W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP252PN
+D TOPSwitch-HX Family, 10W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP253EG
+D TOPSwitch-HX Family, 29W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP253EN
+D TOPSwitch-HX Family, 29W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP253GN
+D TOPSwitch-HX Family, 15W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP253MN
+D TOPSwitch-HX Family, 15W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP253PN
+D TOPSwitch-HX Family, 15W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP254EG
+D TOPSwitch-HX Family, 43W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP254EN
+D TOPSwitch-HX Family, 43W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP254GN
+D TOPSwitch-HX Family, 20W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP254MN
+D TOPSwitch-HX Family, 20W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP254PN
+D TOPSwitch-HX Family, 20W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP254YN
+D TOPSwitch-HX Family, 43W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP255EG
+D TOPSwitch-HX Family, 57W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP255EN
+D TOPSwitch-HX Family, 57W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP255GN
+D TOPSwitch-HX Family, 22W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP255LN
+D TOPSwitch-HX Family, 57W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP255MN
+D TOPSwitch-HX Family, 22W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP255PN
+D TOPSwitch-HX Family, 22W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP255YN
+D TOPSwitch-HX Family, 57W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP256EG
+D TOPSwitch-HX Family, 86W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP256EN
+D TOPSwitch-HX Family, 86W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP256GN
+D TOPSwitch-HX Family, 26W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP256LN
+D TOPSwitch-HX Family, 64W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP256MN
+D TOPSwitch-HX Family, 26W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP256PN
+D TOPSwitch-HX Family, 26W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP256YN
+D TOPSwitch-HX Family, 86W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP257EG
+D TOPSwitch-HX Family, 119W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP257EN
+D TOPSwitch-HX Family, 119W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP257GN
+D TOPSwitch-HX Family, 30W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP257LN
+D TOPSwitch-HX Family, 78W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP257MN
+D TOPSwitch-HX Family, 30W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP257PN
+D TOPSwitch-HX Family, 30W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP257YN
+D TOPSwitch-HX Family, 119W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP258EG
+D TOPSwitch-HX Family, 148W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP258EN
+D TOPSwitch-HX Family, 148W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP258GN
+D TOPSwitch-HX Family, 35W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP258LN
+D TOPSwitch-HX Family, 92W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP258MN
+D TOPSwitch-HX Family, 35W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP258PN
+D TOPSwitch-HX Family, 35W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP258YN
+D TOPSwitch-HX Family, 148W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP259EG
+D TOPSwitch-HX Family, 171W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP259EN
+D TOPSwitch-HX Family, 171W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP259LN
+D TOPSwitch-HX Family, 120W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP259YN
+D TOPSwitch-HX Family, 171W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP260EG
+D TOPSwitch-HX Family, 200W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP260EN
+D TOPSwitch-HX Family, 200W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP260LN
+D TOPSwitch-HX Family, 140W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP260YN
+D TOPSwitch-HX Family, 200W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP261EG
+D TOPSwitch-HX Family, 254W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP261EN
+D TOPSwitch-HX Family, 254W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP261LN
+D TOPSwitch-HX Family, 177W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP261YN
+D TOPSwitch-HX Family, 254W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP262EN
+D TOPSwitch-HX Family, 254W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP262LN
+D TOPSwitch-HX Family, 177W Output Power
+K Eco Smart Off-Line Switcher, Extendend Power Range
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-hx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP264EG
+D TOPSwitch-JX Family, 43W Output Power, eSIP-7C
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP264KG
+D TOPSwitch-JX Family, 30W Output Power, eSOP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP264VG
+D TOPSwitch-JX Family, 43W Output Power, eDIP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP265EG
+D TOPSwitch-JX Family, 57W Output Power, eSIP-7C
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP265KG
+D TOPSwitch-JX Family, 34W Output Power, eSOP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP265VG
+D TOPSwitch-JX Family, 57W Output Power, eDIP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP266EG
+D TOPSwitch-JX Family, 86W Output Power, eSIP-7C
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP266KG
+D TOPSwitch-JX Family, 39W Output Power, eSOP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP266VG
+D TOPSwitch-JX Family, 86W Output Power, eDIP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP267EG
+D TOPSwitch-JX Family, 103W Output Power, eSIP-7C
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP267KG
+D TOPSwitch-JX Family, 45W Output Power, eSOP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP267VG
+D TOPSwitch-JX Family, 103W Output Power, eDIP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP268EG
+D TOPSwitch-JX Family, 112W Output Power, eSIP-7C
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP268KG
+D TOPSwitch-JX Family, 50W Output Power, eSOP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP268VG
+D TOPSwitch-JX Family, 112W Output Power, eDIP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP269EG
+D TOPSwitch-JX Family, 120W Output Power, eSIP-7C
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP269KG
+D TOPSwitch-JX Family, 55W Output Power, eSOP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP269VG
+D TOPSwitch-JX Family, 120W Output Power, eDIP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP270EG
+D TOPSwitch-JX Family, 140W Output Power, eSIP-7C
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP270KG
+D TOPSwitch-JX Family, 60W Output Power, eSOP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP270VG
+D TOPSwitch-JX Family, 140W Output Power, eDIP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP271EG
+D TOPSwitch-JX Family, 177W Output Power, eSIP-7C
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP271KG
+D TOPSwitch-JX Family, 66W Output Power, eSOP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
+$ENDCMP
+#
+$CMP TOP271VG
+D TOPSwitch-JX Family, 177W Output Power, eDIP-12B
+K Integrated Off-Line Switcher with EcoSmart™ Technology
+F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
 $ENDCMP
 #
 $CMP TPS5430DDA

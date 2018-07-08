@@ -198,4 +198,10 @@ K LED current driver 12bit PWM
 F http://www.ti.com/lit/ds/symlink/tlc5973.pdf
 $ENDCMP
 #
+$CMP WS2811
+D 3-Channel 8-Bit PWM LED Driver, DIP-8/SOIC-8
+K PWM LED driver
+F https://cdn-shop.adafruit.com/datasheets/WS2811.pdf
+$ENDCMP
+#
 #End Doc Library

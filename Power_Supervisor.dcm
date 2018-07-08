@@ -1,5 +1,83 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CAT811JTBI-GT3
+D Power supply supervisor, Manual reset, Threshold 4.00V, SOT-143
+K Supervisor Reset
+F http://www.onsemi.com/pub/Collateral/CAT811-D.PDF
+$ENDCMP
+#
+$CMP CAT811LTBI-GT3
+D Power supply supervisor, Manual reset, Threshold 4.63V, SOT-143
+K Supervisor Reset
+F http://www.onsemi.com/pub/Collateral/CAT811-D.PDF
+$ENDCMP
+#
+$CMP CAT811MTBI-GT3
+D Power supply supervisor, Manual reset, Threshold 4.38V, SOT-143
+K Supervisor Reset
+F http://www.onsemi.com/pub/Collateral/CAT811-D.PDF
+$ENDCMP
+#
+$CMP CAT811RTBI-GT3
+D Power supply supervisor, Manual reset, Threshold 2.63V, SOT-143
+K Supervisor Reset
+F http://www.onsemi.com/pub/Collateral/CAT811-D.PDF
+$ENDCMP
+#
+$CMP CAT811STBI-GT3
+D Power supply supervisor, Manual reset, Threshold 2.93V, SOT-143
+K Supervisor Reset
+F http://www.onsemi.com/pub/Collateral/CAT811-D.PDF
+$ENDCMP
+#
+$CMP CAT811TTBI-GT3
+D Power supply supervisor, Manual reset, Threshold 3.08V, SOT-143
+K Supervisor Reset
+F http://www.onsemi.com/pub/Collateral/CAT811-D.PDF
+$ENDCMP
+#
+$CMP CAT811ZTBI-GT3
+D Power supply supervisor, Manual reset, Threshold 2.32V, SOT-143
+K Supervisor Reset
+F http://www.onsemi.com/pub/Collateral/CAT811-D.PDF
+$ENDCMP
+#
+$CMP LM3880
+D Simple Power Sequencer, SOT-23-6
+K Power Sequencer
+F http://www.ti.com/lit/ds/symlink/lm3880.pdf
+$ENDCMP
+#
+$CMP MAX811LEUS-T
+D Power supply supervisor, Manual reset, Threshold 4.63V, SOT-143
+K Supervisor Reset
+F https://datasheets.maximintegrated.com/en/ds/MAX811-MAX812.pdf
+$ENDCMP
+#
+$CMP MAX811MEUS-T
+D Power supply supervisor, Manual reset, Threshold 4.38V, SOT-143
+K Supervisor Reset
+F https://datasheets.maximintegrated.com/en/ds/MAX811-MAX812.pdf
+$ENDCMP
+#
+$CMP MAX811REUS-T
+D Power supply supervisor, Manual reset, Threshold 2.63V, SOT-143
+K Supervisor Reset
+F https://datasheets.maximintegrated.com/en/ds/MAX811-MAX812.pdf
+$ENDCMP
+#
+$CMP MAX811SEUS-T
+D Power supply supervisor, Manual reset, Threshold 2.93V, SOT-143
+K Supervisor Reset
+F https://datasheets.maximintegrated.com/en/ds/MAX811-MAX812.pdf
+$ENDCMP
+#
+$CMP MAX811TEUS-T
+D Power supply supervisor, Manual reset, Threshold 3.08V, SOT-143
+K Supervisor Reset
+F https://datasheets.maximintegrated.com/en/ds/MAX811-MAX812.pdf
+$ENDCMP
+#
 $CMP MCP100-270D
 D Microcontroller reset monitor, 2.70V threshold, active low output
 K supervisor reset push-pull
@@ -84,6 +162,42 @@ K supervisor reset push-pull
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
 $ENDCMP
 #
+$CMP MIC811JUY
+D Power supply supervisor, Manual reset, Threshold 4.00V, SOT-143
+K Supervisor Reset
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic811.pdf
+$ENDCMP
+#
+$CMP MIC811LUY
+D Power supply supervisor, Manual reset, Threshold 4.63V, SOT-143
+K Supervisor Reset
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic811.pdf
+$ENDCMP
+#
+$CMP MIC811MUY
+D Power supply supervisor, Manual reset, Threshold 4.38V, SOT-143
+K Supervisor Reset
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic811.pdf
+$ENDCMP
+#
+$CMP MIC811RUY
+D Power supply supervisor, Manual reset, Threshold 2.63V, SOT-143
+K Supervisor Reset
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic811.pdf
+$ENDCMP
+#
+$CMP MIC811SUY
+D Power supply supervisor, Manual reset, Threshold 2.93V, SOT-143
+K Supervisor Reset
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic811.pdf
+$ENDCMP
+#
+$CMP MIC811TUY
+D Power supply supervisor, Manual reset, Threshold 3.08V, SOT-143
+K Supervisor Reset
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic811.pdf
+$ENDCMP
+#
 $CMP TCM809
 D Microcontroller reset monitor, active low output
 K supervisor reset push-pull
@@ -166,6 +280,12 @@ $CMP TPS3839DQN
 D 150-nA, Ultralow Power, Supply Voltage Monitor, X2SON-4
 K supply voltage supervisor
 F http://www.ti.com/lit/ds/sbvs193d/sbvs193d.pdf
+$ENDCMP
+#
+$CMP TPS3702
+D High-Accuracy, Overvoltage and Undervoltage Monitor, SOT-23-6
+K protection overvoltage unvervoltage monitor
+F http://www.ti.com/lit/ds/symlink/tps3702.pdf
 $ENDCMP
 #
 #End Doc Library
