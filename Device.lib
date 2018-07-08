@@ -9631,7 +9631,7 @@ F1 "R_Shunt_US" -120 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- R*
+ R_*Shunt*
 $ENDFPLIST
 DRAW
 P 2 1 1 0 0 -100 50 -100 N
