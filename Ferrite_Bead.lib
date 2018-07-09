@@ -3,7 +3,7 @@ EESchema-LIBRARY Version 2.4
 #
 # BLM02xxxxxxx1x
 #
-DEF BLM02xxxxxxx1x U 0 40 Y Y 1 F N
+DEF BLM02xxxxxxx1x U 0 20 Y Y 1 F N
 F0 "U" -50 150 50 H V C CNN
 F1 "BLM02xxxxxxx1x" 0 -150 50 H V C CNN
 F2 "Inductor_SMD:L_01005_0402Metric" 0 -250 50 H I C CNN
@@ -23,7 +23,7 @@ ENDDEF
 #
 # BLM03xxxxxxx1x
 #
-DEF BLM03xxxxxxx1x U 0 40 Y Y 1 F N
+DEF BLM03xxxxxxx1x U 0 20 Y Y 1 F N
 F0 "U" -50 150 50 H V C CNN
 F1 "BLM03xxxxxxx1x" 0 -150 50 H V C CNN
 F2 "Inductor_SMD:L_0201_0603Metric" 0 -250 50 H I C CNN
@@ -43,7 +43,7 @@ ENDDEF
 #
 # BLM15xxxxxxx1x
 #
-DEF BLM15xxxxxxx1x U 0 40 Y Y 1 F N
+DEF BLM15xxxxxxx1x U 0 20 Y Y 1 F N
 F0 "U" -50 150 50 H V C CNN
 F1 "BLM15xxxxxxx1x" 0 -150 50 H V C CNN
 F2 "Inductor_SMD:L_0402_1005Metric" 0 -250 50 H I C CNN
@@ -63,7 +63,7 @@ ENDDEF
 #
 # BLM18xxxxxxx1x
 #
-DEF BLM18xxxxxxx1x U 0 40 Y Y 1 F N
+DEF BLM18xxxxxxx1x U 0 20 Y Y 1 F N
 F0 "U" -50 150 50 H V C CNN
 F1 "BLM18xxxxxxx1x" 0 -150 50 H V C CNN
 F2 "Inductor_SMD:L_0603_1608Metric" 0 -250 50 H I C CNN
@@ -83,7 +83,7 @@ ENDDEF
 #
 # BLM21xxxxxxx1x
 #
-DEF BLM21xxxxxxx1x U 0 40 Y Y 1 F N
+DEF BLM21xxxxxxx1x U 0 20 Y Y 1 F N
 F0 "U" -50 150 50 H V C CNN
 F1 "BLM21xxxxxxx1x" 0 -150 50 H V C CNN
 F2 "Inductor_SMD:L_0805_2012Metric" 0 -250 50 H I C CNN
@@ -103,7 +103,7 @@ ENDDEF
 #
 # BLM31xxxxxxx1x
 #
-DEF BLM31xxxxxxx1x U 0 40 Y Y 1 F N
+DEF BLM31xxxxxxx1x U 0 20 Y Y 1 F N
 F0 "U" -50 150 50 H V C CNN
 F1 "BLM31xxxxxxx1x" 0 -150 50 H V C CNN
 F2 "Inductor_SMD:L_1206_3216Metric" 0 -250 50 H I C CNN
@@ -123,7 +123,7 @@ ENDDEF
 #
 # BLM41xxxxxxx1x
 #
-DEF BLM41xxxxxxx1x U 0 40 Y Y 1 F N
+DEF BLM41xxxxxxx1x U 0 20 Y Y 1 F N
 F0 "U" -50 150 50 H V C CNN
 F1 "BLM41xxxxxxx1x" 0 -150 50 H V C CNN
 F2 "Inductor_SMD:L_1806_4516Metric" 0 -250 50 H I C CNN
