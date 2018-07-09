@@ -6,6 +6,18 @@ K Ra-01 LoRa
 F https://mikroelectron.com/Product/10KM-433M-LORA-LONG-RANGE-WIRELESS-MODULE-RA-01
 $ENDCMP
 #
+$CMP DCTR-52DA
+D IQRF data controlled transceiver with PCB antenna, FSK modulation
+K IQRF data controlled transceiver, PCB antenna, FSK modulation
+F https://iqrf.org/weben/downloads.php?id=213
+$ENDCMP
+#
+$CMP DCTR-52DAT
+D IQRF data controlled transceiver with PCB antenna and thermometer, FSK modulation
+K IQRF data controlled transceiver, PCB antenna, thermometer, FSK modulation
+F https://iqrf.org/weben/downloads.php?id=213
+$ENDCMP
+#
 $CMP DWM1000
 D Ultra wide band RF module With ranging location capabilities
 K DWM1000,Decawave,RF,ranging,UWB
@@ -36,22 +48,22 @@ K BLE5, BLE, nRF52832
 F http://www.cdebyte.com/en/downpdf.aspx?id=243
 $ENDCMP
 #
+$CMP ESP-07
+D 802.11 b/g/n Wi-Fi Module
+K 802.11 Wi-Fi
+F http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf
+$ENDCMP
+#
 $CMP ESP-12E
 D 802.11 b/g/n Wi-Fi Module
 K 802.11 Wi-Fi
-F http://wiki.ai-thinker.com/_media/esp8266/docs/aithinker_esp_12f_datasheet_en.pdf
+F http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf
 $ENDCMP
 #
-$CMP iM880A
-D IMST Long Range Radio Module
-K IOT LoRa
-F http://www.wireless-solutions.de/images/stories/downloads/Radio%20Modules/iM880A/General_Information/iM880A_Datasheet_V1_1.pdf
-$ENDCMP
-#
-$CMP iM880B
-D IMST Long Range Radio Module - LoRa Alliance Certified
-K IOT LoRa
-F http://www.wireless-solutions.de/images/stories/downloads/Radio%20Modules/iM880B/General_Information/iM880B_Datasheet_V1_0.pdf
+$CMP ESP-12F
+D 802.11 b/g/n Wi-Fi Module
+K 802.11 Wi-Fi
+F http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf
 $ENDCMP
 #
 $CMP MM002
@@ -78,10 +90,46 @@ K IOT SIGFOX
 F https://github.com/Telecom-Design/Documentation_TD_RF_Module/blob/master/TD1208%20Datasheet.pdf
 $ENDCMP
 #
+$CMP TR-52DA
+D IQRF common transceiver with PCB antenna, FSK modulation
+K IQRF common transceiver, PCB antenna, FSK modulation
+F https://iqrf.org/weben/downloads.php?id=213
+$ENDCMP
+#
+$CMP TR-52DAT
+D IQRF common transceiver with PCB antenna and thermometer, FSK modulation
+K IQRF common transceiver, PCB antenna, thermometer, FSK modulation
+F https://iqrf.org/weben/downloads.php?id=213
+$ENDCMP
+#
+$CMP TR-72DA
+D IQRF transceiver with PCB antenna, GMSK modulation
+K IQRF transceiver, PCB antenna, GMSK modulation
+F https://iqrf.org/weben/downloads.php?id=337
+$ENDCMP
+#
+$CMP TR-72DAT
+D IQRF transceiver with PCB antenna and thermometer, GMSK modulation
+K IQRF transceiver, PCB antenna, thermometer, GMSK modulation
+F https://iqrf.org/weben/downloads.php?id=337
+$ENDCMP
+#
 $CMP UL865
 D Telit 3G Module (GSM/GPRS/UMTS/HSPA), 3.8V, Digital voice and SMS, I2S, USB 2.0, UART, SPI. Manufacturer package
 K gsm 3g gprs umts hspa
 F http://www.telit.com/fileadmin/user_upload/products/Downloads/3G/Telit_UL865_Hardware_User_Guide_r8.pdf
+$ENDCMP
+#
+$CMP iM880A
+D IMST Long Range Radio Module
+K IOT LoRa
+F http://www.wireless-solutions.de/images/stories/downloads/Radio%20Modules/iM880A/General_Information/iM880A_Datasheet_V1_1.pdf
+$ENDCMP
+#
+$CMP iM880B
+D IMST Long Range Radio Module - LoRa Alliance Certified
+K IOT LoRa
+F http://www.wireless-solutions.de/images/stories/downloads/Radio%20Modules/iM880B/General_Information/iM880B_Datasheet_V1_0.pdf
 $ENDCMP
 #
 #End Doc Library

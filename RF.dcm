@@ -12,18 +12,6 @@ K RF Tx Rx
 F http://www.ti.com/lit/ds/symlink/cc1200.pdf
 $ENDCMP
 #
-$CMP DCTR-52D
-D IQRF data controlled transceiver, FSK modulation
-K IQRF data controlled transceiver, FSK modulation
-F http://iqrf.org/weben/downloads.php?id=213
-$ENDCMP
-#
-$CMP DCTR-72D
-D IQRF data controlled transceiver, GMSK modulation
-K IQRF data controlled transceiver, GMSK modulation
-F http://iqrf.org/weben/downloads.php?id=337
-$ENDCMP
-#
 $CMP MAADSS0008
 D 0-2GHz, 15dB step attenuator, SOT-23-5
 K RF attenuator
@@ -64,18 +52,6 @@ $CMP SX1273
 D 860 MHz to 1020 MHz Low Power Long Range Transceiver, spreading factor from 6 to 9, LoRA, QFN-28
 K low-power lora transceiver
 F http://www.semtech.com/images/datasheet/sx1272.pdf
-$ENDCMP
-#
-$CMP TR-52D
-D IQRF common transceiver, FSK modulation
-K IQRF common transceiver, FSK modulation
-F http://iqrf.org/weben/downloads.php?id=213
-$ENDCMP
-#
-$CMP TR-72D
-D IQRF common transceiver, GMSK modulation
-K IQRF common transceiver, GMSK modulation
-F http://iqrf.org/weben/downloads.php?id=337
 $ENDCMP
 #
 $CMP nRF24L01P
