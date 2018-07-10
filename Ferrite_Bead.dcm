@@ -1,86 +1,56 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP BLE02xxxxxxx1x
-D Chip Ferrite Beads/Frequency Specified Filters, SMD size 0402
-K Chip Ferrite Beads DC Bias Characteristics Improved Type
-F https://www.murata.com/en-global/search/productsearch?cate=luNoiseSupprFilteChipFerriBead&scon=emiSupprFilteFilte-sizeCodeinmm;0603&scon=productionStatus;1_avairable%40In%20Production&rows=100
-$ENDCMP
-#
-$CMP BLE03xxxxxxx1x
-D Chip Ferrite Beads/Frequency Specified Filters, SMD size 0603
-K Chip Ferrite Beads DC Bias Characteristics Improved Type
-F https://www.murata.com/en-global/search/productsearch?cate=luNoiseSupprFilteChipFerriBead&scon=emiSupprFilteFilte-sizeCodeinmm;0603&scon=productionStatus;1_avairable%40In%20Production&rows=100
-$ENDCMP
-#
-$CMP BLE15xxxxxxx1x
-D Chip Ferrite Beads/Frequency Specified Filters, SMD size 1005
-K Chip Ferrite Beads DC Bias Characteristics Improved Type
-F https://www.murata.com/en-global/search/productsearch?cate=luNoiseSupprFilteChipFerriBead&scon=emiSupprFilteFilte-sizeCodeinmm;0603&scon=productionStatus;1_avairable%40In%20Production&rows=100
+$CMP BLE18PS080xx1x
+D Ferrite Bead, 1608
+K Ferrite Bead
+F https://www.murata.com/en-global/search/productsearch?cate=luNoiseSupprFilteChipFerriBead&partno=BLM18
 $ENDCMP
 #
 $CMP BLE18xxxxxxx1x
-D Chip Ferrite Beads/Frequency Specified Filters, SMD size 1608
-K Chip Ferrite Beads DC Bias Characteristics Improved Type
-F https://www.murata.com/en-global/search/productsearch?cate=luNoiseSupprFilteChipFerriBead&scon=emiSupprFilteFilte-sizeCodeinmm;0603&scon=productionStatus;1_avairable%40In%20Production&rows=100
+D Ferrite Bead, 1608
+K Ferrite Bead
+F https://www.murata.com/en-global/search/productsearch?cate=luNoiseSupprFilteChipFerriBead&partno=BLE18
 $ENDCMP
 #
-$CMP BLE21xxxxxxx1x
-D Chip Ferrite Beads/Frequency Specified Filters, SMD size 2012
-K Chip Ferrite Beads DC Bias Characteristics Improved Type
-F https://www.murata.com/en-global/search/productsearch?cate=luNoiseSupprFilteChipFerriBead&scon=emiSupprFilteFilte-sizeCodeinmm;0603&scon=productionStatus;1_avairable%40In%20Production&rows=100
+$CMP BLE32PNxx0Sx1x
+D Ferrite Bead, 3225
+K Ferrite Bead
+F https://www.murata.com/en-global/search/productsearch?cate=luNoiseSupprFilteChipFerriBead&partno=BLE32
 $ENDCMP
 #
-$CMP BLE31xxxxxxx1x
-D Chip Ferrite Beads/Frequency Specified Filters, SMD size 3216
-K Chip Ferrite Beads DC Bias Characteristics Improved Type
-F https://www.murata.com/en-global/search/productsearch?cate=luNoiseSupprFilteChipFerriBead&scon=emiSupprFilteFilte-sizeCodeinmm;0603&scon=productionStatus;1_avairable%40In%20Production&rows=100
-$ENDCMP
-#
-$CMP BLE41xxxxxxx1x
-D Chip Ferrite Beads/Frequency Specified Filters, SMD size 4516
-K Chip Ferrite Beads DC Bias Characteristics Improved Type
-F https://www.murata.com/en-global/search/productsearch?cate=luNoiseSupprFilteChipFerriBead&scon=emiSupprFilteFilte-sizeCodeinmm;0603&scon=productionStatus;1_avairable%40In%20Production&rows=100
-$ENDCMP
-#
-$CMP BLM02xxxxxxx1x
-D Chip Ferrite Beads/Frequency Specified Filters, SMD size 0603
-K Chip Ferrite Beads Single Type
+$CMP BLM02xxxxxSx1x
+D Ferrite Bead, 0402
+K Ferrite Bead
 F https://www.murata.com/en-global/search/productsearch?cate=luNoiseSupprFilteChipFerriBead&partno=BLM02
 $ENDCMP
 #
-$CMP BLM03xxxxxxx1x
-D Chip Ferrite Beads/Frequency Specified Filters, SMD size 0603
-K Chip Ferrite Beads Single Type
-F https://www.murata.com/en-global/search/productsearch?cate=luNoiseSupprFilteChipFerriBead&partno=BLM03&rows=100
+$CMP BLM03xxxxxSx1x
+D Ferrite Bead, 0603
+K Ferrite Bead
+F https://www.murata.com/en-global/search/productsearch?cate=luNoiseSupprFilteChipFerriBead&partno=BLM03
 $ENDCMP
 #
-$CMP BLM15xxxxxxx1x
-D Chip Ferrite Beads/Frequency Specified Filters, SMD size 1005
-K Chip Ferrite Beads Single Type
-F https://www.murata.com/en-global/search/productsearch?cate=luNoiseSupprFilteChipFerriBead&partno=BLM15&rows=100
-$ENDCMP
-#
-$CMP BLM18xxxxxxx1x
-D Chip Ferrite Beads/Frequency Specified Filters, SMD size 1608
-K Chip Ferrite Beads Single Type
-F https://www.murata.com/en-global/search/productsearch?cate=luNoiseSupprFilteChipFerriBead&partno=BLM18&rows=100
+$CMP BLM15xxxxxSx1x
+D Ferrite Bead, 1005
+K Ferrite Bead
+F https://www.murata.com/en-global/search/productsearch?cate=luNoiseSupprFilteChipFerriBead&partno=BLM15
 $ENDCMP
 #
 $CMP BLM21xxxxxxx1x
-D Chip Ferrite Beads/Frequency Specified Filters, SMD size 2012
-K Chip Ferrite Beads Single Type
-F https://www.murata.com/en-global/search/productsearch?cate=luNoiseSupprFilteChipFerriBead&partno=BLM21&rows=100
+D Ferrite Bead, 2012
+K Ferrite Bead
+F https://www.murata.com/en-global/search/productsearch?cate=luNoiseSupprFilteChipFerriBead&partno=BLM21
 $ENDCMP
 #
 $CMP BLM31xxxxxxx1x
-D Chip Ferrite Beads/Frequency Specified Filters, SMD size 3216
-K Chip Ferrite Beads Single Type
-F https://www.murata.com/en-global/search/productsearch?cate=luNoiseSupprFilteChipFerriBead&partno=BLM31&rows=100
+D Ferrite Bead, 3216
+K Ferrite Bead
+F https://www.murata.com/en-global/search/productsearch?cate=luNoiseSupprFilteChipFerriBead&partno=BLM31
 $ENDCMP
 #
-$CMP BLM41xxxxxxx1x
-D Chip Ferrite Beads/Frequency Specified Filters, SMD size 4516
-K Chip Ferrite Beads Single Type
+$CMP BLM41PGxxxSx1x
+D Ferrite Bead, 4516
+K Ferrite Bead
 F https://www.murata.com/en-global/search/productsearch?cate=luNoiseSupprFilteChipFerriBead&partno=BLM41
 $ENDCMP
 #
