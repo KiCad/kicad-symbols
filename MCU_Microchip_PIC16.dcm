@@ -354,6 +354,12 @@ K FLASH-Based 8-Bit CMOS Microcontroller Low Power
 F http://ww1.microchip.com/downloads/en/devicedoc/40001795b.pdf
 $ENDCMP
 #
+$CMP PIC16F18325-xJQ
+D PIC16F18325, 8192W FLASH, 1024B SRAM, QFN16
+K FLASH-Based 8-Bit CMOS Microcontroller Low Power
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001795E.pdf
+$ENDCMP
+#
 $CMP PIC16F18344-GZ
 D 4096W FLASH, 512B RAM, 256B EEPROM, UQFN-20
 K FLASH-Based 8-Bit CMOS Microcontroller Low Power
@@ -1012,6 +1018,12 @@ $CMP PIC16LF18325-ISL
 D PIC16LF18325, 8192W FLASH, 1024B SRAM, SOIC14
 K FLASH-Based 8-Bit CMOS Microcontroller Low Power
 F http://ww1.microchip.com/downloads/en/devicedoc/40001795b.pdf
+$ENDCMP
+#
+$CMP PIC16LF18325-xJQ
+D PIC16F18325, 8192W FLASH, 1024B SRAM, QFN16
+K FLASH-Based 8-Bit CMOS Microcontroller Low Power
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001795E.pdf
 $ENDCMP
 #
 #End Doc Library
