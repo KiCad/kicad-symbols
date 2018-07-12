@@ -6,6 +6,12 @@ K ESD Protection diodes transient suppressor
 F http://www.onsemi.com/pub_link/Collateral/CM1213A-D.PDF
 $ENDCMP
 #
+$CMP ESDA6V1-5SC6
+D Quintuple bidirectional transil, Suppressor for ESD protection, 6V1 Breakdown, SOT-23-6
+K ESD protection suppression transient
+F www.st.com/resource/en/datasheet/esda6v1-5sc6.pdf
+$ENDCMP
+#
 $CMP ESDA6V1BC6
 D Quad bidirectional transil, Suppressor for ESD protection, 5V Standoff, 4 Channels, SOT-23-6
 K ESD protection suppression transient
@@ -214,6 +220,18 @@ $CMP TPD3E001DRLR
 D TPD3E001 Low-Capacitance 3-Channel ESD-Protection for High-Speed Data Interfaces
 K ESD-Protection
 F http://www.ti.com/lit/ds/symlink/tpd3e001.pdf
+$ENDCMP
+#
+$CMP TPD3S014
+D Current Limit Switch and D+/D– ESD Protection for USB Host Port, 0.5A, SOT-23-6
+K ESD-Protection
+F http://www.ti.com/lit/ds/symlink/tpd3s014.pdf
+$ENDCMP
+#
+$CMP TPD3S044
+D Current Limit Switch and D+/D– ESD Protection for USB Host Port, 1.5A, SOT-23-6
+K ESD-Protection
+F http://www.ti.com/lit/ds/symlink/tpd3s014.pdf
 $ENDCMP
 #
 $CMP TPD4EUSB30
