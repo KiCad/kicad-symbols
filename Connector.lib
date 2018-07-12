@@ -12044,11 +12044,11 @@ X 1+ 1+ 0 300 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Test_Point
+# TestPoint
 #
-DEF Test_Point TP 0 30 N N 1 F N
+DEF TestPoint TP 0 30 N N 1 F N
 F0 "TP" 0 270 50 H V C CNN
-F1 "Test_Point" 0 200 50 H V C CNN
+F1 "TestPoint" 0 200 50 H V C CNN
 F2 "" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 $FPLIST
@@ -12061,11 +12061,11 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Test_Point_2Pole
+# TestPoint_2Pole
 #
-DEF Test_Point_2Pole TP 0 30 Y N 1 F N
+DEF TestPoint_2Pole TP 0 30 Y N 1 F N
 F0 "TP" 0 60 50 H V C CNN
-F1 "Test_Point_2Pole" 0 -70 50 H V C CNN
+F1 "TestPoint_2Pole" 0 -70 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -12080,11 +12080,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# Test_Point_ALT
+# TestPoint_Alt
 #
-DEF Test_Point_ALT TP 0 30 N N 1 F N
+DEF TestPoint_Alt TP 0 30 N N 1 F N
 F0 "TP" 0 270 50 H V C CNN
-F1 "Test_Point_ALT" 0 200 50 H V C CNN
+F1 "TestPoint_Alt" 0 200 50 H V C CNN
 F2 "" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 $FPLIST
@@ -12097,11 +12097,11 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Test_Point_Flag
+# TestPoint_Flag
 #
-DEF Test_Point_Flag TP 0 30 N N 1 F N
+DEF TestPoint_Flag TP 0 30 N N 1 F N
 F0 "TP" 135 70 50 H V C CNN
-F1 "Test_Point_Flag" 130 165 50 H V C CNN
+F1 "TestPoint_Flag" 130 165 50 H V C CNN
 F2 "" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 $FPLIST
@@ -12115,11 +12115,11 @@ X 1 1 0 0 0 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Test_Point_Probe
+# TestPoint_Probe
 #
-DEF Test_Point_Probe TP 0 30 N N 1 F N
+DEF TestPoint_Probe TP 0 30 N N 1 F N
 F0 "TP" 65 230 50 H V C CNN
-F1 "Test_Point_Probe" 65 160 50 H V C CNN
+F1 "TestPoint_Probe" 65 160 50 H V C CNN
 F2 "" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 $FPLIST
