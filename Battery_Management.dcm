@@ -72,10 +72,22 @@ K protection Li-Ion Li-Pol
 F http://www.ti.com/lit/ds/symlink/bq2970.pdf
 $ENDCMP
 #
+$CMP BQ76920
+D Lithium battery monitor, 3-5 cells, integrated balancing, I2C interface
+K lithium battery balance charge afe
+F http://www.ti.com/lit/ds/symlink/bq76920.pdf
+$ENDCMP
+#
+$CMP BQ76930
+D Lithium battery monitor, 6-10 cells, integrated balancing, I2C interface
+K lithium battery balance charge afe
+F http://www.ti.com/lit/ds/symlink/bq76930.pdf
+$ENDCMP
+#
 $CMP BQ76940
 D Lithium battery monitor, 9-15 cells, integrated balancing, I2C interface
 K lithium battery balance charge afe
-F http://www.ti.com/lit/gpn/bq76940
+F http://www.ti.com/lit/ds/symlink/bq76940.pdf
 $ENDCMP
 #
 $CMP BQ78350
