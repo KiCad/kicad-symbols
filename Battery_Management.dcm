@@ -79,9 +79,15 @@ F http://www.ti.com/lit/gpn/bq76940
 $ENDCMP
 #
 $CMP BQ78350
-D Lithium battery fuel gauge, companion controller for BQ769x0
-K lithium battery
+D Lithium battery fuel gauge, battery management controller for BQ769x0
+K BMS
 F http://www.ti.com/lit/ds/symlink/bq78350.pdf
+$ENDCMP
+#
+$CMP BQ78350-R1
+D Lithium battery fuel gauge, battery management controller
+K BMS
+F http://www.ti.com/lit/ds/symlink/bq78350-r1.pdf
 $ENDCMP
 #
 $CMP DS2745U
