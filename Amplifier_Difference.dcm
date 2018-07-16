@@ -6,6 +6,12 @@ K highside HS current sense difference amplifier linear buffered
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8207.pdf
 $ENDCMP
 #
+$CMP AD8276
+D Low Power, Wide Supply Range, Low Cost Unity-Gain Difference Amplifier, SOIC-8/MSOP-8
+K difference amplifier
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8276_8277.pdf
+$ENDCMP
+#
 $CMP LM733CH
 D Single Differential Amplifier, TO-5-10
 K single differential video opamp
