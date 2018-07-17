@@ -6,6 +6,12 @@ K single opamp
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD797.pdf
 $ENDCMP
 #
+$CMP AD8603
+D Precision Micropower, Low Noise CMOS, Rail-to-Rail Input/Output Operational Amplifier, TSOT-23-5
+K single opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8603_8607_8609.pdf
+$ENDCMP
+#
 $CMP AD8610
 D Single Precision, Very Low Noise, Low Input Bias Current, Wide Bandwidth JFET Operational Amplifiers, SOIC-8
 K single opamp
