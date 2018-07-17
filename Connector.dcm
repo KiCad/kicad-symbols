@@ -1500,31 +1500,31 @@ K speakon connector
 F http://www.neutrik.com/en/speakon/
 $ENDCMP
 #
-$CMP Test_Point
+$CMP TestPoint
 D test point
 K test point tp
 F ~
 $ENDCMP
 #
-$CMP Test_Point_2Pole
+$CMP TestPoint_2Pole
 D 2-polar test point
 K point tp
 F ~
 $ENDCMP
 #
-$CMP Test_Point_ALT
+$CMP TestPoint_Alt
 D test point (alternative shape)
 K test point tp
 F ~
 $ENDCMP
 #
-$CMP Test_Point_Flag
+$CMP TestPoint_Flag
 D test point (alternative flag-style design)
 K test point tp
 F ~
 $ENDCMP
 #
-$CMP Test_Point_Probe
+$CMP TestPoint_Probe
 D test point (alternative probe-style design)
 K test point tp
 F ~
