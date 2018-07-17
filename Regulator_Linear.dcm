@@ -48,6 +48,12 @@ K linear regulator ldo fixed positive
 F http://www.advanced-monolithic.com/pdf/ds1117.pdf
 $ENDCMP
 #
+$CMP AMS1117-ADJ
+D 1A Low Dropout regulator, positive, adjustable output, SOT-223
+K linear regulator ldo adjustable positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
 $CMP AMS1117CD-1.5
 D 1A Low Dropout regulator, positive, 1.5V fixed output, TO-252
 K linear regulator ldo fixed positive
@@ -84,6 +90,12 @@ K linear regulator ldo fixed positive
 F http://www.advanced-monolithic.com/pdf/ds1117.pdf
 $ENDCMP
 #
+$CMP AMS1117CD-ADJ
+D 1A Low Dropout regulator, positive, adjustable output, TO-252
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
 $CMP AMS1117CS-1.5
 D 1A Low Dropout regulator, positive, 1.5V fixed output, SOIC-8
 K linear regulator ldo fixed positive
@@ -116,6 +128,12 @@ $ENDCMP
 #
 $CMP AMS1117CS-5.0
 D 1A Low Dropout regulator, positive, 5.0V fixed output, SOIC-8
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117CS-ADJ
+D 1A Low Dropout regulator, positive, adjustable output, SOIC-8
 K linear regulator ldo fixed positive
 F http://www.advanced-monolithic.com/pdf/ds1117.pdf
 $ENDCMP
