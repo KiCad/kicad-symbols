@@ -47,6 +47,7 @@
   (lib (name Driver_Motor)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Driver_Motor.lib)(options "")(descr "Integrated motor driver and controller ICs"))
   (lib (name Driver_Relay)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Driver_Relay.lib)(options "")(descr "Relay drivers and controllers"))
   (lib (name Filter)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Filter.lib)(options "")(descr "Filter symbols"))
+  (lib (name FPGA_Lattice)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/FPGA_Lattice.lib)(options "")(descr "Lattice FPGA symbols"))
   (lib (name FPGA_Microsemi)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/FPGA_Microsemi.lib)(options "")(descr "Microsemi FPGA symbols"))
   (lib (name FPGA_Xilinx)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/FPGA_Xilinx.lib)(options "")(descr "Assorted Xilinx FPGA symbols"))
   (lib (name FPGA_Xilinx_Artix7)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/FPGA_Xilinx_Artix7.lib)(options "")(descr "Xilinx Artix7 FPGA symbols"))
