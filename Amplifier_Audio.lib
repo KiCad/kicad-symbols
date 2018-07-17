@@ -1003,7 +1003,7 @@ F1 "TDA2003" 150 150 50 H V C CNN
 F2 "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical" 0 0 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- TO*220*StaggerOdd*
+ TO?220*StaggerOdd*
 $ENDFPLIST
 DRAW
 P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
@@ -1051,7 +1051,7 @@ F2 "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical" 0 0 50
 F3 "" 0 0 50 H I C CNN
 ALIAS TDA2050
 $FPLIST
- TO*220*StaggerOdd*
+ TO?220*StaggerOdd*
 $ENDFPLIST
 DRAW
 P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
