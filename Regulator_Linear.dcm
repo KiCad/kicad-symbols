@@ -12,6 +12,12 @@ K linear regulator ldo adjustable negative
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP7182.pdf
 $ENDCMP
 #
+$CMP AMS1117
+D 1A Low Dropout regulator, positive, adjustable output, SOT-223
+K linear regulator ldo adjustable positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
 $CMP AMS1117-1.5
 D 1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223
 K linear regulator ldo fixed positive
@@ -45,12 +51,6 @@ $ENDCMP
 $CMP AMS1117-5.0
 D 1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223
 K linear regulator ldo fixed positive
-F http://www.advanced-monolithic.com/pdf/ds1117.pdf
-$ENDCMP
-#
-$CMP AMS1117
-D 1A Low Dropout regulator, positive, adjustable output, SOT-223
-K linear regulator ldo adjustable positive
 F http://www.advanced-monolithic.com/pdf/ds1117.pdf
 $ENDCMP
 #
