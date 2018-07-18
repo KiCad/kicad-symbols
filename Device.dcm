@@ -2016,6 +2016,12 @@ K r res shunt resistor
 F ~
 $ENDCMP
 #
+$CMP R_Shunt_US
+D Shunt Resistor US symbol
+K r res shunt resistor
+F ~
+$ENDCMP
+#
 $CMP R_Small
 D Resistor, small symbol
 K r resistor

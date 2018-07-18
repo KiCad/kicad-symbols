@@ -6,6 +6,12 @@ K ESD Protection diodes transient suppressor
 F http://www.onsemi.com/pub_link/Collateral/CM1213A-D.PDF
 $ENDCMP
 #
+$CMP ESDA6V1-5SC6
+D Quintuple bidirectional transil, Suppressor for ESD protection, 6V1 Breakdown, SOT-23-6
+K ESD protection suppression transient
+F www.st.com/resource/en/datasheet/esda6v1-5sc6.pdf
+$ENDCMP
+#
 $CMP ESDA6V1BC6
 D Quad bidirectional transil, Suppressor for ESD protection, 5V Standoff, 4 Channels, SOT-23-6
 K ESD protection suppression transient
