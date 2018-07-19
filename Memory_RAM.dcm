@@ -17,6 +17,12 @@ K memory SRAM
 F http://www.alliancememory.com/pdf/AS6C1616(1).pdf
 $ENDCMP
 #
+$CMP DDR3_16bit
+D General DDR3 SDRAM 16bit 1-8Gb (BGA-96)
+K DDR3 SDRAM
+F http://www.issi.com/WW/pdf/43-46TR16512A.pdf
+$ENDCMP
+#
 $CMP IDT71V65903S
 D 165 pins BGA 3.3V high-speed 9 Megabit synchronous SRAMs 512K x 18 (or  256K x 36)
 $ENDCMP
@@ -67,6 +73,78 @@ $CMP IS42S16400J-xT
 D 64Mb Synchronous DRAM, 1 Mb x 16 b x 4 Banks, Alloy42 leadframe plated with matte Sn, TSOP-II-54
 K DRAM
 F http://www.issi.com/WW/pdf/42-45S16400J.pdf
+$ENDCMP
+#
+$CMP MT41K128M16
+D Micron DDR3L SDRAM 2Gb – 16 Meg x 16 x 8 banks (FBGA-96)
+K DDR3L SDRAM
+F https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/2gb_1_35v_ddr3l.pdf
+$ENDCMP
+#
+$CMP MT41K128M8
+D Micron DDR3L SDRAM 1Gb – 16 Meg x 8 x 8 banks (FBGA-78)
+K DDR3L SDRAM
+F https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/1gb_1_35v_ddr3l.pdf
+$ENDCMP
+#
+$CMP MT41K1G4
+D Micron DDR3L SDRAM 4Gb – 128 Meg x 4 x 8 banks (FBGA-78)
+K DDR3L SDRAM
+F https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/4gb_1_35v_ddr3l.pdf
+$ENDCMP
+#
+$CMP MT41K1G8
+D Micron DDR3L SDRAM 8Gb – 128 Meg x 8 x 8 banks (FBGA-78)
+K DDR3L SDRAM
+F https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/8gb_ddr3l.pdf
+$ENDCMP
+#
+$CMP MT41K256M16
+D Micron DDR3L SDRAM 4Gb – 32 Meg x 16 x 8 banks (FBGA-96)
+K DDR3L SDRAM
+F https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/4gb_1_35v_ddr3l.pdf
+$ENDCMP
+#
+$CMP MT41K256M4
+D Micron DDR3L SDRAM 1Gb – 32 Meg x 4 x 8 banks (FBGA-78)
+K DDR3L SDRAM
+F https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/1gb_1_35v_ddr3l.pdf
+$ENDCMP
+#
+$CMP MT41K256M8
+D Micron DDR3L SDRAM 2Gb – 32 Meg x 8 x 8 banks (FBGA-78)
+K DDR3L SDRAM
+F https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/2gb_1_35v_ddr3l.pdf
+$ENDCMP
+#
+$CMP MT41K2G4
+D Micron DDR3L SDRAM 8Gb – 256 Meg x 4 x 8 banks (FBGA-78)
+K DDR3L SDRAM
+F https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/8gb_ddr3l.pdf
+$ENDCMP
+#
+$CMP MT41K512M16
+D Micron DDR3L SDRAM 8Gb – 64 Meg x 16 x 8 banks (FBGA-96)
+K DDR3L SDRAM
+F https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/8gb_ddr3l.pdf
+$ENDCMP
+#
+$CMP MT41K512M4
+D Micron DDR3L SDRAM 2Gb – 64 Meg x 4 x 8 banks (FBGA-78)
+K DDR3L SDRAM
+F https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/2gb_1_35v_ddr3l.pdf
+$ENDCMP
+#
+$CMP MT41K512M8
+D Micron DDR3L SDRAM 4Gb – 64 Meg x 8 x 8 banks (FBGA-78)
+K DDR3L SDRAM
+F https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/4gb_1_35v_ddr3l.pdf
+$ENDCMP
+#
+$CMP MT41K64M16
+D Micron DDR3L SDRAM 1Gb – 8 Meg x 16 x 8 banks (FBGA-96)
+K DDR3L SDRAM
+F https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/1gb_1_35v_ddr3l.pdf
 $ENDCMP
 #
 #End Doc Library
