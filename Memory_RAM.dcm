@@ -1,8 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP 628128
-D RAM 128 Ko
-K RAM 128KO
+D 1 M SRAM (128-kword × 8-bit) SOP/DIP32
+K SRAM
+F http://www.futurlec.com/Datasheet/Memory/628128.pdf
 $ENDCMP
 #
 $CMP AS4C4M16SA
@@ -42,8 +43,9 @@ F https://www.idt.com/document/dst/713242-datasheet
 $ENDCMP
 #
 $CMP IDT71V65903S
-D 165 pins BGA 3.3V high-speed 9 Megabit synchronous SRAMs 512K x 18 (or  256K x 36)
+D 165 pins BGA 3.3V high-speed 9 Megabit synchronous SRAMs 512K x 18
 K SRAM
+F https://www.idt.com/document/dst/71v65703903-datasheet
 $ENDCMP
 #
 $CMP IDT7201
