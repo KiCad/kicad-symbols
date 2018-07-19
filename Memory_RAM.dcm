@@ -17,14 +17,45 @@ K memory SRAM
 F http://www.alliancememory.com/pdf/AS6C1616(1).pdf
 $ENDCMP
 #
+$CMP CY7C199
+D 32K x 8 Static RAM
+K SRAM
+F http://www.cypress.com/part/cy7c199-1xw14
+$ENDCMP
+#
 $CMP DDR3_16bit
-D General DDR3 SDRAM 16bit 1-8Gb (BGA-96)
+D General DDR3(L) SDRAM 16bit 1-8Gb (BGA-96)
 K DDR3 SDRAM
 F http://www.issi.com/WW/pdf/43-46TR16512A.pdf
 $ENDCMP
 #
+$CMP IDT7027_TQ100
+D HIGH-SPEED 32K x 16 DUAL-PORT STATIC RAM
+K SRAM
+F https://www.idt.com/document/dst/7027-data-sheet
+$ENDCMP
+#
+$CMP IDT7132
+D HIGH SPEED 2K x 8 DUAL PORT STATIC RAM
+K SRAM
+F https://www.idt.com/document/dst/713242-datasheet
+$ENDCMP
+#
 $CMP IDT71V65903S
 D 165 pins BGA 3.3V high-speed 9 Megabit synchronous SRAMs 512K x 18 (or  256K x 36)
+K SRAM
+$ENDCMP
+#
+$CMP IDT7201
+D CMOS ASYNCHRONOUS FIFO
+K FIFO
+F https://www.idt.com/document/dst/720072017202-datasheet
+$ENDCMP
+#
+$CMP IDT7202
+D CMOS ASYNCHRONOUS FIFO
+K FIFO
+F https://www.idt.com/document/dst/720072017202-datasheet
 $ENDCMP
 #
 $CMP IDT7203
