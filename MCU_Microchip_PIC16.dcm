@@ -307,7 +307,7 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/41458B.pdf
 $ENDCMP
 #
 $CMP PIC16F1709-IML
-D 8192W FLASH, 1024B SRAM, PDIP-20
+D 8192W FLASH, 1024B SRAM, QFN
 K FLASH-Based 8-Bit Microcontroller Low Power
 F http://ww1.microchip.com/downloads/en/DeviceDoc/40001729C.pdf
 $ENDCMP
@@ -315,6 +315,18 @@ $ENDCMP
 $CMP PIC16F1709-IP
 D 8192W FLASH, 1024B SRAM, PDIP-20
 K FLASH-Based 8-Bit Microcontroller Low Power
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001729C.pdf
+$ENDCMP
+#
+$CMP PIC16LF1709-IML
+D 8192W FLASH, 1024B SRAM, QFN
+K FLASH-Based CMOS 8-Bit Microcontroller Low Power
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001729C.pdf
+$ENDCMP
+#
+$CMP PIC16LF1709-IP
+D 8192W FLASH, 1024B SRAM, PDIP-20
+K FLASH-Based CMOS 8-Bit Microcontroller Low Power
 F http://ww1.microchip.com/downloads/en/DeviceDoc/40001729C.pdf
 $ENDCMP
 #
