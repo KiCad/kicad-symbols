@@ -6,6 +6,18 @@ K Ra-01 LoRa
 F https://mikroelectron.com/Product/10KM-433M-LORA-LONG-RANGE-WIRELESS-MODULE-RA-01
 $ENDCMP
 #
+$CMP DCTR-52DA
+D IQRF data controlled transceiver with PCB antenna, FSK modulation
+K IQRF data controlled transceiver, PCB antenna, FSK modulation
+F https://iqrf.org/weben/downloads.php?id=213
+$ENDCMP
+#
+$CMP DCTR-52DAT
+D IQRF data controlled transceiver with PCB antenna and thermometer, FSK modulation
+K IQRF data controlled transceiver, PCB antenna, thermometer, FSK modulation
+F https://iqrf.org/weben/downloads.php?id=213
+$ENDCMP
+#
 $CMP DWM1000
 D Ultra wide band RF module With ranging location capabilities
 K DWM1000,Decawave,RF,ranging,UWB
@@ -76,6 +88,30 @@ $CMP TD1208
 D High-Performance, Low-Current SIGFOX™ Gateway
 K IOT SIGFOX
 F https://github.com/Telecom-Design/Documentation_TD_RF_Module/blob/master/TD1208%20Datasheet.pdf
+$ENDCMP
+#
+$CMP TR-52DA
+D IQRF common transceiver with PCB antenna, FSK modulation
+K IQRF common transceiver, PCB antenna, FSK modulation
+F https://iqrf.org/weben/downloads.php?id=213
+$ENDCMP
+#
+$CMP TR-52DAT
+D IQRF common transceiver with PCB antenna and thermometer, FSK modulation
+K IQRF common transceiver, PCB antenna, thermometer, FSK modulation
+F https://iqrf.org/weben/downloads.php?id=213
+$ENDCMP
+#
+$CMP TR-72DA
+D IQRF transceiver with PCB antenna, GMSK modulation
+K IQRF transceiver, PCB antenna, GMSK modulation
+F https://iqrf.org/weben/downloads.php?id=337
+$ENDCMP
+#
+$CMP TR-72DAT
+D IQRF transceiver with PCB antenna and thermometer, GMSK modulation
+K IQRF transceiver, PCB antenna, thermometer, GMSK modulation
+F https://iqrf.org/weben/downloads.php?id=337
 $ENDCMP
 #
 $CMP UL865

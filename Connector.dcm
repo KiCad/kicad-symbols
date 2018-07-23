@@ -1362,6 +1362,12 @@ K SIM card UICC
 F  ~
 $ENDCMP
 #
+$CMP SODIMM-200
+D SODIMM 200 Pin socket
+K SODIMM SO-DIMM DDR1 DDR2
+F ~
+$ENDCMP
+#
 $CMP Screw_Terminal_01x01
 D Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
 K screw terminal
@@ -1500,31 +1506,31 @@ K speakon connector
 F http://www.neutrik.com/en/speakon/
 $ENDCMP
 #
-$CMP Test_Point
+$CMP TestPoint
 D test point
 K test point tp
 F ~
 $ENDCMP
 #
-$CMP Test_Point_2Pole
+$CMP TestPoint_2Pole
 D 2-polar test point
 K point tp
 F ~
 $ENDCMP
 #
-$CMP Test_Point_ALT
+$CMP TestPoint_Alt
 D test point (alternative shape)
 K test point tp
 F ~
 $ENDCMP
 #
-$CMP Test_Point_Flag
+$CMP TestPoint_Flag
 D test point (alternative flag-style design)
 K test point tp
 F ~
 $ENDCMP
 #
-$CMP Test_Point_Probe
+$CMP TestPoint_Probe
 D test point (alternative probe-style design)
 K test point tp
 F ~

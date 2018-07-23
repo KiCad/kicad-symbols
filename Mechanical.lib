@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
 # Heatsink
@@ -14,11 +14,11 @@ P 13 0 1 10 -13 50 -13 150 12 150 12 50 37 50 37 150 62 150 62 50 87 50 87 150 1
 ENDDRAW
 ENDDEF
 #
-# Heatsink_PAD
+# Heatsink_Pad
 #
-DEF Heatsink_PAD HS 0 0 Y Y 1 F N
+DEF Heatsink_Pad HS 0 0 Y Y 1 F N
 F0 "HS" 0 225 50 H V C CNN
-F1 "Heatsink_PAD" 0 150 50 H V C CNN
+F1 "Heatsink_Pad" 0 150 50 H V C CNN
 F2 "" 12 -50 50 H I C CNN
 F3 "" 12 -50 50 H I C CNN
 DRAW
@@ -66,11 +66,11 @@ P 7 0 1 0 -225 0 -225 -175 -25 -175 125 -25 125 150 -75 150 -225 0 f
 ENDDRAW
 ENDDEF
 #
-# Housing_PAD
+# Housing_Pad
 #
-DEF Housing_PAD MK 0 40 N N 1 F N
+DEF Housing_Pad MK 0 40 N N 1 F N
 F0 "MK" 175 0 50 H V L CNN
-F1 "Housing_PAD" 175 -75 50 H V L CNN
+F1 "Housing_Pad" 175 -75 50 H V L CNN
 F2 "" 75 50 50 H I C CNN
 F3 "" 75 50 50 H I C CNN
 DRAW
@@ -105,32 +105,30 @@ X PAD 1 -200 -200 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Mounting_Hole
+# MountingHole
 #
-DEF Mounting_Hole MK 0 40 Y Y 1 F N
-F0 "MK" 0 200 50 H V C CNN
-F1 "Mounting_Hole" 0 125 50 H V C CNN
+DEF MountingHole MH 0 40 Y Y 1 F N
+F0 "MH" 0 200 50 H V C CNN
+F1 "MountingHole" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Mounting?Hole*
- Hole*
+ MountingHole*
 $ENDFPLIST
 DRAW
 C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
-# Mounting_Hole_PAD
+# MountingHole_Pad
 #
-DEF Mounting_Hole_PAD MK 0 40 N N 1 F N
-F0 "MK" 0 250 50 H V C CNN
-F1 "Mounting_Hole_PAD" 0 175 50 H V C CNN
+DEF MountingHole_Pad MH 0 40 N N 1 F N
+F0 "MH" 0 250 50 H V C CNN
+F1 "MountingHole_Pad" 0 175 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Mounting?Hole*
- Hole*
+ MountingHole*Pad*
 $ENDFPLIST
 DRAW
 C 0 50 50 0 1 50 N
