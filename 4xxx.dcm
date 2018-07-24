@@ -210,6 +210,12 @@ K CMOS And2
 F http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf
 $ENDCMP
 #
+$CMP 4504
+D Hex voltage uni-directional level-shifter, with selectable logic-level, SOIC-16
+K Level-shifter
+F http://www.ti.com/lit/ds/schs369/schs369.pdf
+$ENDCMP
+#
 $CMP 4510
 D 4 bits programmable counter
 K CMOS CNT CNT4
