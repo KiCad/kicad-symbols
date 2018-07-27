@@ -1,13 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP 74LVC2T45DC
-D Dual-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, VSSOP8
+D Dual supply translating transceiver, 3-state, 2-bit, VSSOP-8
 K Level-Shifter CMOS-TTL-Translation
 F https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH2T45.pdf
 $ENDCMP
 #
 $CMP 74LVCH2T45DC
-D Dual-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, VSSOP8
+D Dual supply translating transceiver with bus-hold for unused/floating inputs, 3-state, 2-bit, VSSOP-8
 K Level-Shifter CMOS-TTL-Translation
 F https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH2T45.pdf
 $ENDCMP
