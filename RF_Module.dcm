@@ -72,6 +72,18 @@ K ESP32 802.11 Bluetooth
 F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
 $ENDCMP
 #
+$CMP ESP32-WROOM-32D
+D Wi-Fi+BT+BLE MCU module
+K ESP32 802.11 Bluetooth
+F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
+$ENDCMP
+#
+$CMP ESP32-WROOM-32U
+D Wi-Fi+BT+BLE MCU module
+K ESP32 802.11 Bluetooth
+F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
+$ENDCMP
+#
 $CMP MM002
 D NEMEUS Modem dual-mode LoRa/SIGFOX
 K IOT LoRa SIGFOX
