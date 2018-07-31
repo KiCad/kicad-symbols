@@ -210,6 +210,12 @@ K CMOS And2
 F http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf
 $ENDCMP
 #
+$CMP 4504
+D CMOS Hex Voltage-Level Shifter for TTL-to-CMOS or CMOS-to-CMOS, DIP-16/SOIC-16/TSSOP-16
+K Level-shifter
+F http://www.ti.com/lit/ds/symlink/cd4504b.pdf
+$ENDCMP
+#
 $CMP 4510
 D 4 bits programmable counter
 K CMOS CNT CNT4
