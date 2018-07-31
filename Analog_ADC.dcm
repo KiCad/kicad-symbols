@@ -204,6 +204,24 @@ K ADC
 F http://www.ti.com/lit/ds/symlink/ads7866.pdf
 $ENDCMP
 #
+$CMP ADS8681RUM
+D 16-bit single supply bipolar ADC, 1MSPS, SPI, micro-power, QFN package
+K ADC SPI analog digital
+F http://www.ti.com/lit/ds/symlink/ads8681.pdf
+$ENDCMP
+#
+$CMP ADS8685RUM
+D 16-bit single supply bipolar ADC, 500kSPS, SPI, micro-power, QFN package
+K ADC SPI analog digital
+F http://www.ti.com/lit/ds/symlink/ads8681.pdf
+$ENDCMP
+#
+$CMP ADS8689RUM
+D 16-bit single supply bipolar ADC, 100kSPS, SPI, micro-power, QFN package
+K ADC SPI analog digital
+F http://www.ti.com/lit/ds/symlink/ads8681.pdf
+$ENDCMP
+#
 $CMP CA3300
 D Convertisseur A->D 6 bits rapide
 K ADC CAN
