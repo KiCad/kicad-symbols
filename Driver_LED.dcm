@@ -192,6 +192,18 @@ K PWM LED driver QFN
 F http://www.ti.com/lit/ds/symlink/tlc5947.pdf
 $ENDCMP
 #
+$CMP TLC5971PWP
+D 12-Channel, 16-Bit Enhanced Spectrum PWM LED Driver, HTSSOP
+K PWM LED driver HTSSOP Enhanced Spectrum
+F http://www.ti.com/lit/ds/symlink/tlc5971.pdf
+$ENDCMP
+#
+$CMP TLC5971PWPR
+D 12-Channel, 16-Bit Enhanced Spectrum PWM LED Driver, HTSSOP
+K PWM LED driver HTSSOP Enhanced Spectrum
+F http://www.ti.com/lit/ds/symlink/tlc5971.pdf
+$ENDCMP
+#
 $CMP TLC5973
 D 3 Channel 12bit PWM constant currend LED Driver with single wire interface
 K LED current driver 12bit PWM
