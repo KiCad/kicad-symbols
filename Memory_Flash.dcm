@@ -83,11 +83,13 @@ $ENDCMP
 $CMP M29W004
 D Flash EEProm 512Ko (TSOP 40 pack.) 3,3V
 K EEPROM FLASH 512KO
+F http://pdf.datasheetcatalog.com/datasheets/166/398278_DS.pdf
 $ENDCMP
 #
 $CMP M29W008
 D Flash EEProm 1MO (TSOP 40 pack.) 3,3V
 K EEPROM FLASH 1MO
+F http://pdf.datasheetcatalog.com/datasheet/stmicroelectronics/6669.pdf
 $ENDCMP
 #
 $CMP SST39SF010
