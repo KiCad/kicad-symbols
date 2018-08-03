@@ -92,20 +92,20 @@ $ENDCMP
 #
 $CMP SST39SF010
 D Silicon Storage Technology (SSF) 128k x 8 Flash ROM
-K 128k flash rom
-F http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf
+K 1 Mbit
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005022C.pdf
 $ENDCMP
 #
 $CMP SST39SF020
 D Silicon Storage Technology (SSF) 256k x 8 Flash ROM
-K 256k flash rom
-F http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf
+K 2 Mbit
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005022C.pdf
 $ENDCMP
 #
 $CMP SST39SF040
 D Silicon Storage Technology (SSF) 512k x 8 Flash ROM
-K 512k flash rom
-F http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf
+K 4 Mbit
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005022C.pdf
 $ENDCMP
 #
 #End Doc Library
