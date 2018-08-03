@@ -12,6 +12,132 @@ K linear regulator ldo adjustable negative
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP7182.pdf
 $ENDCMP
 #
+$CMP AMS1117
+D 1A Low Dropout regulator, positive, adjustable output, SOT-223
+K linear regulator ldo adjustable positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117-1.5
+D 1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117-1.8
+D 1A Low Dropout regulator, positive, 1.8V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117-2.5
+D 1A Low Dropout regulator, positive, 2.5V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117-2.85
+D 1A Low Dropout regulator, positive, 2.85V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117-3.3
+D 1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117-5.0
+D 1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117CD
+D 1A Low Dropout regulator, positive, adjustable output, TO-252
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117CD-1.5
+D 1A Low Dropout regulator, positive, 1.5V fixed output, TO-252
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117CD-1.8
+D 1A Low Dropout regulator, positive, 1.8V fixed output, TO-252
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117CD-2.5
+D 1A Low Dropout regulator, positive, 2.5V fixed output, TO-252
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117CD-2.85
+D 1A Low Dropout regulator, positive, 2.85V fixed output, TO-252
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117CD-3.3
+D 1A Low Dropout regulator, positive, 3.3V fixed output, TO-252
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117CD-5.0
+D 1A Low Dropout regulator, positive, 5.0V fixed output, TO-252
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117CS
+D 1A Low Dropout regulator, positive, adjustable output, SOIC-8
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117CS-1.5
+D 1A Low Dropout regulator, positive, 1.5V fixed output, SOIC-8
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117CS-1.8
+D 1A Low Dropout regulator, positive, 1.8V fixed output, SOIC-8
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117CS-2.5
+D 1A Low Dropout regulator, positive, 2.5V fixed output, SOIC-8
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117CS-2.85
+D 1A Low Dropout regulator, positive, 2.85V fixed output, SOIC-8
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117CS-3.3
+D 1A Low Dropout regulator, positive, 3.3V fixed output, SOIC-8
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
+$CMP AMS1117CS-5.0
+D 1A Low Dropout regulator, positive, 5.0V fixed output, SOIC-8
+K linear regulator ldo fixed positive
+F http://www.advanced-monolithic.com/pdf/ds1117.pdf
+$ENDCMP
+#
 $CMP AP1117-15
 D 1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223
 K linear regulator ldo fixed positive obsolete
@@ -1840,6 +1966,54 @@ $CMP LDK130PU33R_DFN6
 D 300mA low dropout linear regulator, low quiescent current very, low noise, shutdown pin, fixed 3.3V positive output, DFN-6
 K linear regulator ldo fixed positive low noise low quienscent current
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/29/10/f7/87/2f/66/47/f4/DM00076097.pdf/files/DM00076097.pdf/jcr:content/translations/en.DM00076097.pdf
+$ENDCMP
+#
+$CMP LK112M15TR
+D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 1.5V, SOT-23-5
+K LDO regulator voltage
+F https://www.st.com/resource/ja/datasheet/lk112.pdf
+$ENDCMP
+#
+$CMP LK112M18TR
+D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 1.8V, SOT-23-5
+K LDO regulator voltage
+F https://www.st.com/resource/ja/datasheet/lk112.pdf
+$ENDCMP
+#
+$CMP LK112M25TR
+D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 2.5V, SOT-23-5
+K LDO regulator voltage
+F https://www.st.com/resource/ja/datasheet/lk112.pdf
+$ENDCMP
+#
+$CMP LK112M33TR
+D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 3.3V, SOT-23-5
+K LDO regulator voltage
+F https://www.st.com/resource/ja/datasheet/lk112.pdf
+$ENDCMP
+#
+$CMP LK112M50TR
+D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 5.0V, SOT-23-5
+K LDO regulator voltage
+F https://www.st.com/resource/ja/datasheet/lk112.pdf
+$ENDCMP
+#
+$CMP LK112M55TR
+D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 5.5V, SOT-23-5
+K LDO regulator voltage
+F https://www.st.com/resource/ja/datasheet/lk112.pdf
+$ENDCMP
+#
+$CMP LK112M60TR
+D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 6.0V, SOT-23-5
+K LDO regulator voltage
+F https://www.st.com/resource/ja/datasheet/lk112.pdf
+$ENDCMP
+#
+$CMP LK112M80TR
+D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 8.0V, SOT-23-5
+K LDO regulator voltage
+F https://www.st.com/resource/ja/datasheet/lk112.pdf
 $ENDCMP
 #
 $CMP LF120_TO220
