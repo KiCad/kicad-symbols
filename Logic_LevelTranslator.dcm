@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74LVC2T45DC
+D Dual supply translating transceiver, 3-state, 2-bit, VSSOP-8
+K Level-Shifter CMOS-TTL-Translation
+F https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH2T45.pdf
+$ENDCMP
+#
+$CMP 74LVCH2T45DC
+D Dual supply translating transceiver with bus-hold for unused/floating inputs, 3-state, 2-bit, VSSOP-8
+K Level-Shifter CMOS-TTL-Translation
+F https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH2T45.pdf
+$ENDCMP
+#
 $CMP FXMA108
 D Dual-Supply, 8-Bit Signal Translator with Configurable Voltage Supplies and Signals Levels, 3-State Outputs and Auto Direction Sensing, WQFN-20
 K Level shifter translator bidirectional
