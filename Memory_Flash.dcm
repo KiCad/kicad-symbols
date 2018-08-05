@@ -12,8 +12,9 @@ K EEPROM FLASH 128KO
 $ENDCMP
 #
 $CMP 29W040
-D Flash EEProm 512PP (TSOP 32) 3,3V
+D Flash EEProm 512PP 3,3V
 K EEPROM FLASH 512KO
+F http://pdf.datasheetcatalog.com/datasheets/208/489791_DS.pdf
 $ENDCMP
 #
 $CMP AM29PDL128G
