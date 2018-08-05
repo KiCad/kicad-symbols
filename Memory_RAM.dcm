@@ -29,6 +29,12 @@ K DDR4 DRAM
 F https://www.skhynix.com/product/filedata/fileDownload.do?seq=7687
 $ENDCMP
 #
+$CMP IDT7027_TQ100
+D HIGH-SPEED 32K  x  16  DUAL-PORT STATIC  RAM
+K Low-power
+F http://www.farnell.com/datasheets/2553502.pdf
+$ENDCMP
+#
 $CMP IDT7132
 D HIGH  SPEED 2K x 8 DUAL PORT STATIC  RAM
 K EOL
