@@ -17,7 +17,9 @@ K EEPROM FLASH 512KO
 $ENDCMP
 #
 $CMP AM29PDL128G
-D 128 Megabit (8 M x 16-Bit/4 M x 32-Bit), Simultaneous Operation Flash Memory with VersatileIO™ Control
+D 8 M x 16-Bit/4 M x 32-Bit, Simultaneous Operation Flash Memory with VersatileIO™ Control
+K 128 Megabit
+F http://pdf.datasheetcatalog.com/datasheet/AdvancedMicroDevices/mXuuxw.pdf
 $ENDCMP
 #
 $CMP AT45DB161-JC
