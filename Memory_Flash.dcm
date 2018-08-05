@@ -9,6 +9,7 @@ $ENDCMP
 $CMP 29F010-TSOP-SP
 D Flash EEProm 128Ko (TSOP 32 pack.) 5V prog
 K EEPROM FLASH 128KO
+F http://pdf.datasheetcatalog.com/datasheets/400/135239_DS.pdf
 $ENDCMP
 #
 $CMP 29W040
