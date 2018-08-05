@@ -42,7 +42,9 @@ F https://www.idt.com/document/dst/713242-datasheet
 $ENDCMP
 #
 $CMP IDT71V65903S
-D 165 pins BGA 3.3V high-speed 9 Megabit synchronous SRAMs 512K x 18 (or  256K x 36)
+D 165 pins BGA 3.3V high-speed synchronous SRAMs 512K x 18 (or  256K x 36)
+K 9 Megabit
+F https://www.idt.com/document/dst/71v65703903-datasheet
 $ENDCMP
 #
 $CMP IDT7201
