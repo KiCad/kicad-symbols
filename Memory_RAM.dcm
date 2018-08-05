@@ -45,6 +45,12 @@ $CMP IDT71V65903S
 D 165 pins BGA 3.3V high-speed 9 Megabit synchronous SRAMs 512K x 18 (or  256K x 36)
 $ENDCMP
 #
+$CMP IDT7201
+D CMOS  ASYNCHRONOUS  FIFO 512 x 9
+K EOL
+F https://www.idt.com/document/dst/720072017202-datasheet
+$ENDCMP
+#
 $CMP IDT7203
 D 2048x9 CMOS Asynchronous FIFO, DIP28
 K asynchronous fifo memory
