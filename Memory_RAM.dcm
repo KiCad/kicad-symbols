@@ -29,6 +29,12 @@ K DDR4 DRAM
 F https://www.skhynix.com/product/filedata/fileDownload.do?seq=7687
 $ENDCMP
 #
+$CMP IDT7132
+D HIGH  SPEED 2K x 8 DUAL PORT STATIC  RAM
+K EOL
+F https://www.idt.com/document/dst/713242-datasheet
+$ENDCMP
+#
 $CMP IDT71V65903S
 D 165 pins BGA 3.3V high-speed 9 Megabit synchronous SRAMs 512K x 18 (or  256K x 36)
 $ENDCMP
