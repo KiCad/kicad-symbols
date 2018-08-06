@@ -701,7 +701,7 @@ DEF NodeMCU_ESP-12E U 0 40 Y Y 1 F N
 F0 "U" 0 850 60 H V C CNN
 F1 "NodeMCU_ESP-12E" 0 -850 60 H V C CNN
 F2 "Module:NodeMCU_ESP-12E" -50 -1000 60 H V C CNN
-F3 "https://github.com/nodemcu/nodemcu-devkit-v1.0/blob/master/NODEMCU_DEVKIT_V1.0.PDF" -200 -1150 60 H V C CNN
+F3 "" -200 -1150 60 H V C CNN
 ALIAS WeMos_D1_R2_(ESP8266)
 $FPLIST
  NodeMCU*ESP-12E*
@@ -750,7 +750,7 @@ DEF NodeMCU_ESP-32S U 0 40 Y Y 1 F N
 F0 "U" 0 1050 60 H V C CNN
 F1 "NodeMCU_ESP-32S" 50 -1050 60 H V C CNN
 F2 "Module:NodeMCU_ESP-32S" 0 -1150 60 H V C CNN
-F3 "https://einstronic.com/wp-content/uploads/2017/06/NodeMCU-32S-Catalogue.pdf" 0 -1250 60 H V C CNN
+F3 "" 0 -1250 60 H V C CNN
 $FPLIST
  NodeMCU*ESP-32S*
 $ENDFPLIST
