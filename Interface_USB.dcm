@@ -312,6 +312,12 @@ K 2-Port, 3-Port, 3.3V, EEPROM, Full Speed, Hub, Texas Instruments, USB1.1
 F http://www.ti.com/lit/ds/symlink/tusb2036.pdf
 $ENDCMP
 #
+$CMP TUSB4020BI
+D four port USB 2.0 Hub
+K USB2.0 hub
+F http://www.ti.com/lit/ds/symlink/tusb4041i.pdf
+$ENDCMP
+#
 $CMP TUSB4041I
 D four port USB 2.0 Hub
 K USB2.0 hub
