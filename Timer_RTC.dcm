@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BQ32000
+D Serial, I2C Real-time clock, Trickle charger, 3V to 3.6V VCC, -40°C to +85°C, SOIC-8
+K RTC, I2C Timekeeping Chip
+F http://www.ti.com/lit/ds/symlink/bq32000.pdf
+$ENDCMP
+#
+$CMP BQ32002
+D Serial, I2C Real-time clock, 3V to 3.6V VCC, -40°C to +85°C, SOIC-8
+K RTC, I2C Timekeeping Chip
+F http://www.ti.com/lit/ds/symlink/bq32002.pdf
+$ENDCMP
+#
 $CMP DS1302+
 D Trickle-Charge Timekeeping Chip, 2.0V to 5.5V VCC, 0°C to +70°C, DIP-8
 K RTC, Trickle-Charge Timekeeping Chip
