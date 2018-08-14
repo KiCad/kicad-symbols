@@ -1,8 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP 628128
-D RAM 128 Ko
-K RAM 128KO
+D 128 kwords x 8 bit, DIP-32
+K 1Mbit
+F http://ee-classes.usc.edu/ee459/library/datasheets/628128.pdf
 $ENDCMP
 #
 $CMP AS4C4M16SA
