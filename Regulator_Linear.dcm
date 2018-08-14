@@ -2886,6 +2886,12 @@ K LDO Linear Regulator adjustable
 F http://www.ti.com/lit/ds/symlink/lp3966.pdf
 $ENDCMP
 #
+$CMP LP5907MFX-1.8
+D 250-mA Ultra-Low-Noise Low-IQ LDO
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
 $CMP LR8K4-G
 D 30mA 450V High-Voltage Linear Regulator (Adjustable), TO-252 (D-PAK)
 K High-Voltage Regulator Adjustable Positive
