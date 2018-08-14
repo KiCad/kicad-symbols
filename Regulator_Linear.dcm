@@ -4398,6 +4398,12 @@ K REGULATOR LDO ADJUSTABLE
 F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
 $ENDCMP
 #
+$CMP NCP133AMX100TCG
+D 500  mA  VLDO  equipped  with  NMOS  pass transistor  and  a  separate  bias  supply  voltage
+K Single Output LDO
+F http://www.onsemi.com/pub/Collateral/NCP133-D.PDF
+$ENDCMP
+#
 $CMP OM1323_TO220
 D Negative 1.5A 35V Adjustable Linear Regulator, TO-220
 K Adjustable Voltage Regulator 1.5A Negative
