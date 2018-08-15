@@ -1,5 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADAU1450
+D SigmaDSP SigmaDSP Digital Audio Processor, 147.456 MHz, 8kword Data RAM, I2C/SPI, LFCSP-72
+K sigmadsp audio
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADAU1452_1451_1450.pdf
+$ENDCMP
+#
+$CMP ADAU1451
+D SigmaDSP SigmaDSP Digital Audio Processor, 294.912 MHz, 40kword Data RAM, I2C/SPI, S/PDIF I/O, 16-Channel ASRC, LFCSP-72
+K sigmadsp audio
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADAU1452_1451_1450.pdf
+$ENDCMP
+#
+$CMP ADAU1452
+D SigmaDSP SigmaDSP Digital Audio Processor, 294.912 MHz, 40kword Data RAM, I2C/SPI, S/PDIF I/O, 16-Channel ASRC, LFCSP-72
+K sigmadsp audio
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADAU1452_1451_1450.pdf
+$ENDCMP
+#
 $CMP ADAU1701
 D SigmaDSP 28-/56-Bit Audio Processor with Two ADCs and Four DACs, 50 MIPS, 1kword Program RAM, 2kword Data RAM, LQFP-48
 K sigmadsp audio adc dac
