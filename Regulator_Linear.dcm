@@ -2886,6 +2886,12 @@ K LDO Linear Regulator adjustable
 F http://www.ti.com/lit/ds/symlink/lp3966.pdf
 $ENDCMP
 #
+$CMP LP5907MFX-1.8
+D 250-mA Ultra-Low-Noise Low-IQ LDO
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
 $CMP LR8K4-G
 D 30mA 450V High-Voltage Linear Regulator (Adjustable), TO-252 (D-PAK)
 K High-Voltage Regulator Adjustable Positive
@@ -4170,6 +4176,48 @@ K linear low dropout Regulator fixed ultra-low-noise
 F http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf
 $ENDCMP
 #
+$CMP MIC5353-1.8YMT
+D High-performance, single-output,  ultra-low  LDO regulator
+K Single LDO
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5353.pdf
+$ENDCMP
+#
+$CMP MIC5353-2.5YMT
+D High-performance, single-output,  ultra-low  LDO regulator
+K Single LDO
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5353.pdf
+$ENDCMP
+#
+$CMP MIC5353-2.6YMT
+D High-performance, single-output,  ultra-low  LDO regulator
+K Single LDO
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5353.pdf
+$ENDCMP
+#
+$CMP MIC5353-2.8YMT
+D High-performance, single-output,  ultra-low  LDO regulator
+K Single LDO
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5353.pdf
+$ENDCMP
+#
+$CMP MIC5353-3.0YMT
+D High-performance, single-output,  ultra-low  LDO regulator
+K Single LDO
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5353.pdf
+$ENDCMP
+#
+$CMP MIC5353-3.3YMT
+D High-performance, single-output,  ultra-low  LDO regulator
+K Single LDO
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5353.pdf
+$ENDCMP
+#
+$CMP MIC5353YMT
+D High-performance, single-output,  ultra-low  LDO regulator
+K Single LDO
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5353.pdf
+$ENDCMP
+#
 $CMP MIC5355-G4YMME
 D Dual 500mA μCap Low Dropout Micropower Linear Regulator, 1.8V/1.2V, MSOP-8
 K Dual LDO 500mA MSOP-8
@@ -4390,6 +4438,12 @@ $CMP NCP1117-ADJ_TO252
 D 1A Low drop-out regulator, Adjustable Output 1.25 - 18.8V, TO-252 (DPAK)
 K REGULATOR LDO ADJUSTABLE
 F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP133AMX100TCG
+D 500  mA  VLDO  equipped  with  NMOS  pass transistor  and  a  separate  bias  supply  voltage
+K Single Output LDO
+F http://www.onsemi.com/pub/Collateral/NCP133-D.PDF
 $ENDCMP
 #
 $CMP OM1323_TO220

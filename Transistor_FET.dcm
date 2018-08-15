@@ -1374,6 +1374,42 @@ K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/FD/FDS9934C.pdf
 $ENDCMP
 #
+$CMP IPDD60R050G7
+D 47A Id, 600V Vds, 50mOhm, N-channel MOSFET, CoolMOS G7, PG-HDSOP-10-1 (DDPAK)
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/Infineon-IPDD60R050G7-DS-v02_00-EN.pdf?fileId=5546d4626102d35a0161707eb2f97810
+$ENDCMP
+#
+$CMP IPDD60R080G7
+D 29A Id, 600V Vds, 80mOhm, N-channel MOSFET, CoolMOS G7, PG-HDSOP-10-1 (DDPAK)
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/Infineon-IPDD60R080G7-DS-v02_00-EN.pdf?fileId=5546d4626102d35a016170882f757a07
+$ENDCMP
+#
+$CMP IPDD60R102G7
+D 23A Id, 600V Vds, 102mOhm, N-channel MOSFET, CoolMOS G7, PG-HDSOP-10-1 (DDPAK)
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/Infineon-IPDD60R102G7-DS-v02_00-EN.pdf?fileId=5546d4626102d35a01617087ee7379ed
+$ENDCMP
+#
+$CMP IPDD60R125G7
+D 20A Id, 600V Vds, 125mOhm, N-channel MOSFET, CoolMOS G7, PG-HDSOP-10-1 (DDPAK)
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/Infineon-IPDD60R125G7-DS-v02_00-EN.pdf?fileId=5546d4626102d35a0161706cba27778f
+$ENDCMP
+#
+$CMP IPDD60R150G7
+D 16A Id, 600V Vds, 150mOhm, N-channel MOSFET, CoolMOS G7, PG-HDSOP-10-1 (DDPAK)
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/Infineon-IPDD60R150G7-DS-v02_00-EN.pdf?fileId=5546d4626102d35a016170806aa57863
+$ENDCMP
+#
+$CMP IPDD60R190G7
+D 13A Id, 600V Vds, 190mOhm, N-channel MOSFET, CoolMOS G7, PG-HDSOP-10-1 (DDPAK)
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/Infineon-IPDD60R190G7-DS-v02_00-EN.pdf?fileId=5546d4626102d35a01617087dc0f79ea
+$ENDCMP
+#
 $CMP IPD50R380CE
 D 14.1A Id, 500V Vds, CoolMOS N-Channel Power MOSFET, 380mOhm Ron, 24.8nC Qg (typ), TO-252-2
 K CoolMOS Power MOSFET N-MOS
@@ -2038,6 +2074,18 @@ $CMP QM6015D
 D -35A Id, -60V Vds, P-Channel Power MOSFET, 25mOhm Ron, 25.0nC Qg (typ), TO252
 K P-Channel MOSFET
 F http://www.jaolen.com/images/pdf/QM6015D.pdf
+$ENDCMP
+#
+$CMP PGA26E07BA
+D 26A Id, 600V Vds, 56mOhm, N-channel GaN MOSFET, DFN-8
+K N-Channel GaN MOSFET
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/PGA26E07BA_E.pdf
+$ENDCMP
+#
+$CMP PGA26E19BA
+D 13A Id, 600V Vds, 140mOhm, N-channel GaN MOSFET, DFN-8
+K N-Channel GaN MOSFET
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/PGA26E19BA_E.pdf
 $ENDCMP
 #
 $CMP STS2DNE60
