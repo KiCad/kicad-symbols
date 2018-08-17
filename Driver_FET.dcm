@@ -372,6 +372,30 @@ K Dual Isolated Gate Driver
 F http://www.ti.com/lit/ds/symlink/ucc21520.pdf
 $ENDCMP
 #
+$CMP UCC27523DSD
+D Dual 5A-Peak Low-Side MOSFET Driver, Enable Inputs, Inverting/Inverting, DFN-8
+K Driver, Dual MOSFET
+F http://www.ti.com/lit/ds/symlink/ucc27524.pdf
+$ENDCMP
+#
+$CMP UCC27524DSD
+D Dual 5A-Peak Low-Side MOSFET Driver, Enable Inputs, Non-Inverting/Non-Inverting, DFN-8
+K Driver, Dual MOSFET
+F http://www.ti.com/lit/ds/symlink/ucc27524.pdf
+$ENDCMP
+#
+$CMP UCC27525DSD
+D Dual 5A-Peak Low-Side MOSFET Driver, Enable Inputs, Inverting/Non-Inverting, DFN-8
+K Driver, Dual MOSFET
+F http://www.ti.com/lit/ds/symlink/ucc27524.pdf
+$ENDCMP
+#
+$CMP UCC27528DSD
+D Dual 5A-Peak Low-Side MOSFET Driver, Enable Inputs, Non-Inverting/Non-Inverting, DFN-8
+K Driver, Dual MOSFET
+F http://www.ti.com/lit/ds/symlink/ucc27528.pdf
+$ENDCMP
+#
 $CMP ZXGD3001E6
 D 9A (peak) Gate driver, 12V, 3ns delay, SOT-23-6
 K gate driver
