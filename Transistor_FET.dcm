@@ -2166,6 +2166,12 @@ K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/SI/SI4542DY.pdf
 $ENDCMP
 #
+$CMP Si5504BDC
+D 30V Nch+Pch MOSFET, 1206-8
+K pmos p-mos nmos n-mos dual transistor
+F https://www.vishay.com/docs/74483/si5504bdc.pdf
+$ENDCMP
+#
 $CMP SiA453EDJ
 D -10A Id, -30V Vds, P-Channel MOSFET
 K P-Channel MOSFET
