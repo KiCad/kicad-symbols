@@ -174,14 +174,32 @@ K Gate Driver
 F http://www.infineon.com/dgdl/irs21867spbf.pdf?fileId=5546d462533600a4015356770e8327eb
 $ENDCMP
 #
+$CMP IX4426MTR
+D Dual 1.5A-Peak Low-Side MOSFET Driver, Inverting/Inverting, DFN-8
+K Driver, Dual MOSFET
+F http://www.ixysic.com/home/pdfs.nsf/www/IX4426-27-28.pdf/$file/IX4426-27-28.pdf
+$ENDCMP
+#
 $CMP IX4426N
 D Dual 1.5A-Peak Low-Side MOSFET Driver, Inverting/Inverting, SOIC-8
 K Driver, Dual MOSFET
 F http://www.ixysic.com/home/pdfs.nsf/www/IX4426-27-28.pdf/$file/IX4426-27-28.pdf
 $ENDCMP
 #
+$CMP IX4427MTR
+D Dual 1.5A-Peak Low-Side MOSFET Driver, Non-Inverting/Non-Inverting, DFN-8
+K Driver, Dual MOSFET
+F http://www.ixysic.com/home/pdfs.nsf/www/IX4426-27-28.pdf/$file/IX4426-27-28.pdf
+$ENDCMP
+#
 $CMP IX4427N
 D Dual 1.5A-Peak Low-Side MOSFET Driver, Non-Inverting/Non-Inverting, SOIC-8
+K Driver, Dual MOSFET
+F http://www.ixysic.com/home/pdfs.nsf/www/IX4426-27-28.pdf/$file/IX4426-27-28.pdf
+$ENDCMP
+#
+$CMP IX4428MTR
+D Dual 1.5A-Peak Low-Side MOSFET Driver, Inverting/Non-Inverting, DFN-8
 K Driver, Dual MOSFET
 F http://www.ixysic.com/home/pdfs.nsf/www/IX4426-27-28.pdf/$file/IX4426-27-28.pdf
 $ENDCMP
