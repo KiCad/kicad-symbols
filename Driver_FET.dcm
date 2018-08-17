@@ -300,6 +300,24 @@ K mosfet gate driver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf
 $ENDCMP
 #
+$CMP MIC4126YML
+D Dual 1.5A-Peak Low-Side MOSFET Driver, Inverting/Inverting, DFN-8
+K Driver, Dual MOSFET
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC4126-7-8.pdf
+$ENDCMP
+#
+$CMP MIC4127YML
+D Dual 1.5A-Peak Low-Side MOSFET Driver, Non-Inverting/Non-Inverting, DFN-8
+K Driver, Dual MOSFET
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC4126-7-8.pdf
+$ENDCMP
+#
+$CMP MIC4128YML
+D Dual 1.5A-Peak Low-Side MOSFET Driver, Inverting/Non-Inverting, DFN-8
+K Driver, Dual MOSFET
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC4126-7-8.pdf
+$ENDCMP
+#
 $CMP MIC4426
 D Dual 1.5A-Peak Low-Side MOSFET Driver, DIP-8/SOIC-8/MSOP-8
 K Driver, Dual MOSFET
