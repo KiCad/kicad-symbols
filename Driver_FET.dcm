@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2EDN7523G
+D Dual 5A-Peak Low-Side MOSFET Driver, Enable Inputs, Inverting/Inverting, DFN-8
+K Driver, Dual MOSFET
+F https://www.infineon.com/dgdl/Infineon-2EDN752x-2EDN852x-DS--DS-v02_03-EN.pdf?fileId=5546d462525dbac40152abcc7dbb1727
+$ENDCMP
+#
+$CMP 2EDN7524G
+D Dual 5A-Peak Low-Side MOSFET Driver, Enable Inputs, Non-Inverting/Non-Inverting, DFN-8
+K Driver, Dual MOSFET
+F https://www.infineon.com/dgdl/Infineon-2EDN752x-2EDN852x-DS--DS-v02_03-EN.pdf?fileId=5546d462525dbac40152abcc7dbb1727
+$ENDCMP
+#
 $CMP ACPL-P343
 D Gate Drive Optocoupler, Output Current 4.0/4.0A, Propagation Delay 200ns, SSO-6
 K MOSFET Driver IGBT Driver Optocoupler
