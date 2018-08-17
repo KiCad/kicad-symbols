@@ -36,6 +36,30 @@ K Driver, Dual MOSFET
 F http://www.intersil.com/content/dam/Intersil/documents/el72/el7202-12-22.pdf
 $ENDCMP
 #
+$CMP FAN3223CMPX
+D Dual 5A-Peak Low-Side MOSFET Driver, CMOS, Enable Inputs, Inverting/Inverting, DFN-8
+K Driver, Dual MOSFET
+F http://www.onsemi.com/pub/Collateral/FAN3224TU_F085-D.PDF
+$ENDCMP
+#
+$CMP FAN3223TMPX
+D Dual 5A-Peak Low-Side MOSFET Driver, TTL, Enable Inputs, Inverting/Inverting, DFN-8
+K Driver, Dual MOSFET
+F http://www.onsemi.com/pub/Collateral/FAN3224TU_F085-D.PDF
+$ENDCMP
+#
+$CMP FAN3224CMPX
+D Dual 5A-Peak Low-Side MOSFET Driver, CMOS, Enable Inputs, Non-Inverting/Non-Inverting, DFN-8
+K Driver, Dual MOSFET
+F http://www.onsemi.com/pub/Collateral/FAN3224TU_F085-D.PDF
+$ENDCMP
+#
+$CMP FAN3224TMPX
+D Dual 5A-Peak Low-Side MOSFET Driver, TTL, Enable Inputs, Non-Inverting/Non-Inverting, DFN-8
+K Driver, Dual MOSFET
+F http://www.onsemi.com/pub/Collateral/FAN3224TU_F085-D.PDF
+$ENDCMP
+#
 $CMP FAN3268
 D Low-Voltage 18V PMOS-NMOS Bridge Driver, SOIC-8
 K Driver MOSFET
