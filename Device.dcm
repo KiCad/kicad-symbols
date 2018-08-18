@@ -1,13 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP Amperemeter_AC
-D AC Amperemeter
+D AC amperemeter
 K amperemeter AC
 F ~
 $ENDCMP
 #
 $CMP Amperemeter_DC
-D DC Amperemeter
+D DC amperemeter
 K amperemeter DC
 F ~
 $ENDCMP
@@ -19,19 +19,19 @@ F ~
 $ENDCMP
 #
 $CMP Antenna_Chip
-D Ceramic Chip Antenna symbol with pin for PCB trace
+D Ceramic chip antenna symbol with pin for PCB trace
 K antenna
 F ~
 $ENDCMP
 #
 $CMP Antenna_Dipole
-D Dipole Antenna symbol
+D Dipole antenna symbol
 K dipole antenna
 F ~
 $ENDCMP
 #
 $CMP Antenna_Loop
-D Loop Antenna symbol
+D Loop antenna symbol
 K loop antenna
 F ~
 $ENDCMP
@@ -49,7 +49,7 @@ F ~
 $ENDCMP
 #
 $CMP Battery_Cell
-D single battery cell
+D Single battery cell
 K battery cell
 F ~
 $ENDCMP
@@ -103,7 +103,7 @@ F ~
 $ENDCMP
 #
 $CMP C_Feedthrough
-D feedthrough capacitor
+D Feedthrough capacitor
 K EMI filter feedthrough capacitor
 F ~
 $ENDCMP
@@ -187,13 +187,13 @@ F ~
 $ENDCMP
 #
 $CMP DIAC
-D diode for alternating current
+D Diode for alternating current
 K AC diode DIAC
 F ~
 $ENDCMP
 #
 $CMP DIAC_ALT
-D diode for alternating current, alternativ symbol
+D Diode for alternating current, alternativ symbol
 K AC diode DIAC
 F ~
 $ENDCMP
@@ -235,13 +235,13 @@ F ~
 $ENDCMP
 #
 $CMP D_Capacitance
-D variable capacitance diode (varicap, varactor)
+D Variable capacitance diode (varicap, varactor)
 K capacitance diode varicap varactor
 F ~
 $ENDCMP
 #
 $CMP D_Capacitance_ALT
-D variable capacitance diode (varicap, varactor), alternativ symbol
+D Variable capacitance diode (varicap, varactor), alternativ symbol
 K capacitance diode varicap varactor
 F ~
 $ENDCMP
@@ -259,13 +259,13 @@ F ~
 $ENDCMP
 #
 $CMP D_Radiation
-D semiconductor radiation detector
+D Semiconductor radiation detector
 K radiation detector diode
 F ~
 $ENDCMP
 #
 $CMP D_Radiation_ALT
-D semiconductor radiation detector, alternativ symbol
+D Semiconductor radiation detector, alternativ symbol
 K radiation detector diode
 F ~
 $ENDCMP
@@ -331,79 +331,79 @@ F ~
 $ENDCMP
 #
 $CMP D_Schottky_x2_ACom_AKK
-D Dual schottky diode, common anode
+D Dual Schottky diode, common anode
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Schottky_x2_ACom_KAK
-D Dual schottky diode, common anode
+D Dual Schottky diode, common anode
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Schottky_x2_ACom_KKA
-D Dual schottky diode, common anode
+D Dual Schottky diode, common anode
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Schottky_x2_KCom_AAK
-D Dual schottky diode, common cathode
+D Dual Schottky diode, common cathode
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Schottky_x2_KCom_AKA
-D Dual schottky diode, common cathode
+D Dual Schottky diode, common cathode
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Schottky_x2_KCom_KAA
-D Dual schottky diode, common cathode
+D Dual Schottky diode, common cathode
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Schottky_x2_Serial_ACK
-D Dual schottky diode
+D Dual Schottky diode
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Schottky_x2_Serial_AKC
-D Dual schottky diode
+D Dual Schottky diode
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Schottky_x2_Serial_CAK
-D Dual schottky diode
+D Dual Schottky diode
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Schottky_x2_Serial_CKA
-D Dual schottky diode
+D Dual Schottky diode
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Schottky_x2_Serial_KAC
-D Dual schottky diode
+D Dual Schottky diode
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Schottky_x2_Serial_KCA
-D Dual schottky diode
+D Dual Schottky diode
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Shockley
-D Shockley Diode (PNPN Diode)
+D Shockley diode (PNPN diode)
 K Shockley diode
 F ~
 $ENDCMP
@@ -457,61 +457,61 @@ F ~
 $ENDCMP
 #
 $CMP D_Temperature_Dependent
-D temperature dependent diode
+D Temperature dependent diode
 K temperature sensor diode
 F ~
 $ENDCMP
 #
 $CMP D_Temperature_Dependent_ALT
-D temperature dependent diode, alternativ symbol
+D Temperature dependent diode, alternativ symbol
 K temperature sensor diode
 F ~
 $ENDCMP
 #
 $CMP D_Tunnel
-D Tunnel Diode (Esaki Diode)
+D Tunnel diode (Esaki diode)
 K tunnel diode
 F ~
 $ENDCMP
 #
 $CMP D_Tunnel_ALT
-D Tunnel Diode (Esaki Diode), alternativ symbol
+D Tunnel diode (Esaki diode), alternativ symbol
 K tunnel diode
 F ~
 $ENDCMP
 #
 $CMP D_Unitunnel
-D Unitunnel Diode
+D Unitunnel diode
 K unitunnel diode
 F ~
 $ENDCMP
 #
 $CMP D_Unitunnel_ALT
-D Unitunnel Diode, alternativ symbol
+D Unitunnel diode, alternativ symbol
 K unitunnel diode
 F ~
 $ENDCMP
 #
 $CMP D_Zener
-D Zener Diode
+D Zener diode
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Zener_ALT
-D Zener Diode, alternativ symbol
+D Zener diode, alternativ symbol
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Zener_Small
-D Zener Diode, small symbol
+D Zener diode, small symbol
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Zener_Small_ALT
-D Zener Diode, small symbol, alternativ symbol
+D Zener diode, small symbol, alternativ symbol
 K diode
 F ~
 $ENDCMP
@@ -607,7 +607,7 @@ F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/
 $ENDCMP
 #
 $CMP EMI_Filter_CommonMode
-D EMI 2-inductor common-mode-filter
+D EMI 2-inductor common mode filter
 K EMI common mode filter
 F ~
 $ENDCMP
@@ -619,19 +619,19 @@ F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/
 $ENDCMP
 #
 $CMP EMI_Filter_LL
-D EMI 2-inductor-filter
+D EMI 2-inductor filter
 K EMI filter
 F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c30e.ashx?la=en-gb
 $ENDCMP
 #
 $CMP Earphone
-D earphone, polar
+D Earphone, polar
 K earphone speaker headphone
 F ~
 $ENDCMP
 #
 $CMP Electromagnetic_Actor
-D electro-magnetic actor
+D Electromagnetic actor
 K electromagnet coil inductor
 F ~
 $ENDCMP
@@ -649,7 +649,7 @@ F ~
 $ENDCMP
 #
 $CMP Frequency_Counter
-D Frequency Counter
+D Frequency counter
 K frequency counter
 F ~
 $ENDCMP
@@ -691,7 +691,7 @@ F ~
 $ENDCMP
 #
 $CMP Heater
-D Resistive Heater
+D Resistive heater
 K heater R resistor
 F ~
 $ENDCMP
@@ -703,7 +703,7 @@ F ~
 $ENDCMP
 #
 $CMP Jumper_NC_Dual
-D Dual Jumper, normally closed
+D Dual jumper, normally closed
 K jumper bridge link NC
 F ~
 $ENDCMP
@@ -751,7 +751,7 @@ F ~
 $ENDCMP
 #
 $CMP LED_CRGB
-D LED RGB, Common Cathode
+D LED RGB, common cathode
 K LED RGB diode
 F ~
 $ENDCMP
@@ -817,13 +817,13 @@ F ~
 $ENDCMP
 #
 $CMP LED_RCBG
-D LED RGB, Common Cathode
+D LED RGB, common cathode
 K LED RGB diode
 F ~
 $ENDCMP
 #
 $CMP LED_RCGB
-D LED RGB, Common Cathode
+D LED RGB, common cathode
 K LED RGB diode
 F ~
 $ENDCMP
@@ -841,7 +841,7 @@ F ~
 $ENDCMP
 #
 $CMP LED_Series
-D several LEDs in series
+D Several LEDs in series
 K LED diode
 F ~
 $ENDCMP
@@ -865,25 +865,25 @@ F ~
 $ENDCMP
 #
 $CMP LTRIM
-D Variable Inductor
+D Variable inductor
 K inductor choke coil reactor magnetic
 F ~
 $ENDCMP
 #
 $CMP L_Core_Ferrite
-D Inductor with Ferrite Core
+D Inductor with ferrite core
 K inductor choke coil reactor magnetic
 F ~
 $ENDCMP
 #
 $CMP L_Core_Ferrite_Coupled
-D Coupled inductor with Ferrite Core
+D Coupled inductor with ferrite core
 K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
 $CMP L_Core_Ferrite_Coupled_Small
-D Coupled inductor with Ferrite Core, small symbol
+D Coupled inductor with ferrite core, small symbol
 K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
@@ -895,19 +895,19 @@ F ~
 $ENDCMP
 #
 $CMP L_Core_Iron
-D Inductor with Iron Core
+D Inductor with iron core
 K inductor choke coil reactor magnetic
 F ~
 $ENDCMP
 #
 $CMP L_Core_Iron_Coupled
-D Coupled inductor with Iron Core
+D Coupled inductor with iron core
 K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
 $CMP L_Core_Iron_Coupled_Small
-D Coupled inductor with Iron Core, small symbol
+D Coupled inductor with iron core, small symbol
 K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
@@ -937,49 +937,49 @@ F ~
 $ENDCMP
 #
 $CMP Lamp
-D lamp
+D Lamp
 K lamp
 F ~
 $ENDCMP
 #
 $CMP Lamp_Flash
-D flash lamp tube
+D Flash lamp tube
 K flash lamp
 F ~
 $ENDCMP
 #
 $CMP Lamp_Neon
-D neon lamp
+D Neon lamp
 K neon lamp
 F ~
 $ENDCMP
 #
 $CMP Laserdiode_1A3C
-D Laser Diode in a 2-pin package
+D Laser diode in a 2-pin package
 K opto laserdiode
 F ~
 $ENDCMP
 #
 $CMP Laserdiode_1C2A
-D Laser Diode in a 2-pin package
+D Laser diode in a 2-pin package
 K opto laserdiode
 F ~
 $ENDCMP
 #
 $CMP Laserdiode_M_TYPE
-D Laser Diode in a 3-pin package with photodiode (1=LD-A, 2=LD-C/PD-C, 3=PD-A)
+D Laser diode in a 3-pin package with photodiode (1=LD-A, 2=LD-C/PD-C, 3=PD-A)
 K opto laserdiode photodiode
 F http://www.egismos.disonhu.com/laser/diode-package.htm
 $ENDCMP
 #
 $CMP Laserdiode_N_TYPE
-D Laser Diode in a 3-pin package with photodiode (1=LD-C, 2=LD-A/PD-C, 3=PD-A)
+D Laser diode in a 3-pin package with photodiode (1=LD-C, 2=LD-A/PD-C, 3=PD-A)
 K opto laserdiode photodiode
 F http://www.egismos.disonhu.com/laser/diode-package.htm
 $ENDCMP
 #
 $CMP Laserdiode_P_TYPE
-D Laser Diode in a 3-pin package with photodiode (1=LD-A, 2=LD-C/PD-A, 3=PD-C)
+D Laser diode in a 3-pin package with photodiode (1=LD-A, 2=LD-C/PD-A, 3=PD-C)
 K opto laserdiode photodiode
 F http://www.egismos.disonhu.com/laser/diode-package.htm
 $ENDCMP
@@ -997,13 +997,13 @@ F ~
 $ENDCMP
 #
 $CMP Microphone_Condenser
-D Condenser Microspcope
+D Condenser microphone
 K capacitance condenser microphone
 F ~
 $ENDCMP
 #
 $CMP Microphone_Crystal
-D crystal microphone
+D Crystal microphone
 K microphone crystal
 F ~
 $ENDCMP
@@ -1015,31 +1015,31 @@ F ~
 $ENDCMP
 #
 $CMP Net-Tie_2
-D Net Tie, 2 pins
+D Net tie, 2 pins
 K net tie short
 F ~
 $ENDCMP
 #
 $CMP Net-Tie_3
-D Net Tie, 3 pins
+D Net tie, 3 pins
 K net tie short
 F ~
 $ENDCMP
 #
 $CMP Net-Tie_3_Tee
-D Net Tie, 3 pins, tee
+D Net tie, 3 pins, tee
 K net tie short
 F ~
 $ENDCMP
 #
 $CMP Net-Tie_4
-D Net Tie, 4 pins
+D Net tie, 4 pins
 K net tie short
 F ~
 $ENDCMP
 #
 $CMP Net-Tie_4_Cross
-D Net Tie, 4 pins, cross
+D Net tie, 4 pins, cross
 K net tie short
 F ~
 $ENDCMP
@@ -1051,13 +1051,13 @@ F ~
 $ENDCMP
 #
 $CMP Opamp_Dual_Generic
-D Dual Opamp, SOIC-8/DIP-8/SSOP-8/TO-99
+D Dual opamp, SOIC-8/DIP-8/SSOP-8/TO-99
 K dual opamp
 F ~
 $ENDCMP
 #
 $CMP Opamp_Quad_Generic
-D Quad Opamp, SOIC-14/DIP-14/SSOP-14
+D Quad opamp, SOIC-14/DIP-14/SSOP-14
 K quad opamp
 F ~
 $ENDCMP
@@ -1069,19 +1069,19 @@ F ~
 $ENDCMP
 #
 $CMP Peltier_Element
-D Peltier Element, Thermoelectric Cooler (TEC)
+D Peltier element, thermoelectric cooler (TEC)
 K Peltier TEC
 F ~
 $ENDCMP
 #
 $CMP Polyfuse
-D resettable fuse, polymeric positive temperature coefficient (PPTC)
+D Resettable fuse, polymeric positive temperature coefficient (PPTC)
 K resettable fuse PTC PPTC polyfuse polyswitch
 F ~
 $ENDCMP
 #
 $CMP Polyfuse_Small
-D resettable fuse, polymeric positive temperature coefficient (PPTC), small symbol
+D Resettable fuse, polymeric positive temperature coefficient (PPTC), small symbol
 K resettable fuse PTC PPTC polyfuse polyswitch
 F ~
 $ENDCMP
@@ -1093,19 +1093,19 @@ F ~
 $ENDCMP
 #
 $CMP Q_DUAL_NPN_C2C1E1E2
-D Double NPN Transistors, Current mirror configuration
+D Double NPN transistors, current mirror configuration
 K transistor double NPN
 F ~
 $ENDCMP
 #
 $CMP Q_DUAL_NPN_NPN_E1B1C2E2B2C1
-D Dual NPN/NPN Transistor, 6-pin package
+D Dual NPN/NPN transistor, 6-pin package
 K NPN/NPN transistor
 F ~
 $ENDCMP
 #
 $CMP Q_DUAL_NPN_PNP_E1B1C2E2B2C1
-D Dual NPN/PNP Transistor, 6-pin package
+D Dual NPN/PNP transistor, 6-pin package
 K NPN/PNP transistor
 F ~
 $ENDCMP
@@ -1117,19 +1117,19 @@ F ~
 $ENDCMP
 #
 $CMP Q_DUAL_PNP_C2C1E1E2
-D Double PNP Transistors, Current mirror configuration
+D Double PNP transistors, current mirror configuration
 K transistor double PNP
 F ~
 $ENDCMP
 #
 $CMP Q_DUAL_PNP_PNP_C1B1B2C2E2E1
-D Dual PNP/PNP Transistor, 6-pin package
+D Dual PNP/PNP transistor, 6-pin package
 K PNP/PNP transistor
 F https://www.diodes.com/assets/Datasheets/ds30437.pdf
 $ENDCMP
 #
 $CMP Q_DUAL_PNP_PNP_E1B1C2E2B2C1
-D Dual PNP/PNP Transistor, 6-pin package
+D Dual PNP/PNP transistor, 6-pin package
 K PNP/PNP transistor
 F ~
 $ENDCMP
@@ -1237,31 +1237,31 @@ F ~
 $ENDCMP
 #
 $CMP Q_NMOS_GDSD
-D Transistor N-MOSFETwith substrate diode, drain connected to mounting plane (general)
+D Transistor N-MOSFET with substrate diode, drain connected to mounting plane (general)
 K NMOS N-MOS N-MOSFET transistor
 F ~
 $ENDCMP
 #
 $CMP Q_NMOS_GSD
-D Transistor N-MOSFETwith substrate diode (general)
+D Transistor N-MOSFET with substrate diode (general)
 K NMOS N-MOS N-MOSFET transistor
 F ~
 $ENDCMP
 #
 $CMP Q_NMOS_SDG
-D Transistor N-MOSFETwith substrate diode (general)
+D Transistor N-MOSFET with substrate diode (general)
 K NMOS N-MOS N-MOSFET transistor
 F ~
 $ENDCMP
 #
 $CMP Q_NMOS_SDGD
-D Transistor N-MOSFETwith substrate diode, drain connected to mounting plane (general)
+D Transistor N-MOSFET with substrate diode, drain connected to mounting plane (general)
 K NMOS N-MOS N-MOSFET transistor
 F ~
 $ENDCMP
 #
 $CMP Q_NMOS_SGD
-D Transistor N-MOSFETwith substrate diode (general)
+D Transistor N-MOSFET with substrate diode (general)
 K NMOS N-MOS N-MOSFET transistor
 F ~
 $ENDCMP
@@ -1297,49 +1297,49 @@ F ~
 $ENDCMP
 #
 $CMP Q_NPN_Darlington_BCE
-D Darlington Transistor NPN (general)
+D Darlington transistor NPN (general)
 K NPN transistor Darlington
 F ~
 $ENDCMP
 #
 $CMP Q_NPN_Darlington_BCEC
-D Darlington Transistor NPN (general)
+D Darlington transistor NPN (general)
 K NPN transistor Darlington
 F ~
 $ENDCMP
 #
 $CMP Q_NPN_Darlington_BEC
-D Darlington Transistor NPN (general)
+D Darlington transistor NPN (general)
 K NPN transistor Darlington
 F ~
 $ENDCMP
 #
 $CMP Q_NPN_Darlington_CBE
-D Darlington Transistor NPN (general)
+D Darlington transistor NPN (general)
 K NPN transistor Darlington
 F ~
 $ENDCMP
 #
 $CMP Q_NPN_Darlington_CEB
-D Darlington Transistor NPN (general)
+D Darlington transistor NPN (general)
 K NPN transistor Darlington
 F ~
 $ENDCMP
 #
 $CMP Q_NPN_Darlington_EBC
-D Darlington Transistor NPN (general)
+D Darlington transistor NPN (general)
 K NPN transistor Darlington
 F ~
 $ENDCMP
 #
 $CMP Q_NPN_Darlington_ECB
-D Darlington Transistor NPN (general)
+D Darlington transistor NPN (general)
 K NPN transistor Darlington
 F ~
 $ENDCMP
 #
 $CMP Q_NPN_Darlington_ECBC
-D Darlington Transistor NPN (general)
+D Darlington transistor NPN (general)
 K NPN transistor Darlington
 F ~
 $ENDCMP
@@ -1363,7 +1363,7 @@ F ~
 $ENDCMP
 #
 $CMP Q_NUJT_BEB
-D Transistor N-Type Unijunction (UJT, general)
+D Transistor N-Type unijunction (UJT, general)
 K UJT transistor
 F ~
 $ENDCMP
@@ -1483,49 +1483,49 @@ F ~
 $ENDCMP
 #
 $CMP Q_PNP_Darlington_BCE
-D Darlington Transistor PNP (general)
+D Darlington transistor PNP (general)
 K PNP transistor Darlington
 F ~
 $ENDCMP
 #
 $CMP Q_PNP_Darlington_BCEC
-D Darlington Transistor PNP, collector connected to mounting plane (general)
+D Darlington transistor PNP, collector connected to mounting plane (general)
 K PNP transistor Darlington
 F ~
 $ENDCMP
 #
 $CMP Q_PNP_Darlington_BEC
-D Darlington Transistor PNP (general)
+D Darlington transistor PNP (general)
 K PNP transistor Darlington
 F ~
 $ENDCMP
 #
 $CMP Q_PNP_Darlington_CBE
-D Darlington Transistor PNP (general)
+D Darlington transistor PNP (general)
 K PNP transistor Darlington
 F ~
 $ENDCMP
 #
 $CMP Q_PNP_Darlington_CEB
-D Darlington Transistor PNP (general)
+D Darlington transistor PNP (general)
 K PNP transistor Darlington
 F ~
 $ENDCMP
 #
 $CMP Q_PNP_Darlington_EBC
-D Darlington Transistor PNP (general)
+D Darlington transistor PNP (general)
 K PNP transistor Darlington
 F ~
 $ENDCMP
 #
 $CMP Q_PNP_Darlington_ECB
-D Darlington Transistor PNP (general)
+D Darlington transistor PNP (general)
 K PNP transistor Darlington
 F ~
 $ENDCMP
 #
 $CMP Q_PNP_Darlington_ECBC
-D Darlington Transistor PNP, collector connected to mounting plane (general)
+D Darlington transistor PNP, collector connected to mounting plane (general)
 K PNP transistor Darlington
 F ~
 $ENDCMP
@@ -1549,7 +1549,7 @@ F ~
 $ENDCMP
 #
 $CMP Q_PUJT_BEB
-D Transistor P-Type Unijunction (UJT, general)
+D Transistor P-Type unijunction (UJT, general)
 K UJT transistor
 F ~
 $ENDCMP
@@ -1585,73 +1585,73 @@ F ~
 $ENDCMP
 #
 $CMP Q_SCR_AGK
-D silicon controlled rectifier (SCR, Thyristor)
+D Silicon controlled rectifier (SCR, Thyristor)
 K thyristor silicon controlled rectifier
 F ~
 $ENDCMP
 #
 $CMP Q_SCR_AKG
-D silicon controlled rectifier (SCR, Thyristor)
+D Silicon controlled rectifier (SCR, Thyristor)
 K thyristor silicon controlled rectifier
 F ~
 $ENDCMP
 #
 $CMP Q_SCR_GAK
-D silicon controlled rectifier (SCR, Thyristor)
+D Silicon controlled rectifier (SCR, Thyristor)
 K thyristor silicon controlled rectifier
 F ~
 $ENDCMP
 #
 $CMP Q_SCR_GKA
-D silicon controlled rectifier (SCR, Thyristor)
+D Silicon controlled rectifier (SCR, Thyristor)
 K thyristor silicon controlled rectifier
 F ~
 $ENDCMP
 #
 $CMP Q_SCR_KAG
-D silicon controlled rectifier (SCR, Thyristor)
+D Silicon controlled rectifier (SCR, Thyristor)
 K thyristor silicon controlled rectifier
 F ~
 $ENDCMP
 #
 $CMP Q_SCR_KGA
-D silicon controlled rectifier (SCR, Thyristor)
+D Silicon controlled rectifier (SCR, Thyristor)
 K thyristor silicon controlled rectifier
 F ~
 $ENDCMP
 #
 $CMP Q_TRIAC_A1A2G
-D triode for alternating current (TRIAC), pinordering A1=1, A2=2, G=3
+D Triode for alternating current (TRIAC), pinordering A1=1, A2=2, G=3
 K triode for alternating current TRIAC
 F ~
 $ENDCMP
 #
 $CMP Q_TRIAC_A1GA2
-D triode for alternating current (TRIAC), pinordering A1=1, A2=3, G=2
+D Triode for alternating current (TRIAC), pinordering A1=1, A2=3, G=2
 K triode for alternating current TRIAC
 F ~
 $ENDCMP
 #
 $CMP Q_TRIAC_A2A1G
-D triode for alternating current (TRIAC), pinordering A1=2, A2=1, G=3
+D Triode for alternating current (TRIAC), pinordering A1=2, A2=1, G=3
 K triode for alternating current TRIAC
 F ~
 $ENDCMP
 #
 $CMP Q_TRIAC_A2GA1
-D triode for alternating current (TRIAC), pinordering A1=3, A2=1, G=2
+D Triode for alternating current (TRIAC), pinordering A1=3, A2=1, G=2
 K triode for alternating current TRIAC
 F ~
 $ENDCMP
 #
 $CMP Q_TRIAC_GA1A2
-D triode for alternating current (TRIAC), pinordering A1=2, A2=3, G=1
+D Triode for alternating current (TRIAC), pinordering A1=2, A2=3, G=1
 K triode for alternating current TRIAC
 F ~
 $ENDCMP
 #
 $CMP Q_TRIAC_GA2A1
-D triode for alternating current (TRIAC), pinordering A1=3, A2=2, G=1
+D Triode for alternating current (TRIAC), pinordering A1=3, A2=2, G=1
 K triode for alternating current TRIAC
 F ~
 $ENDCMP
@@ -1663,211 +1663,211 @@ F ~
 $ENDCMP
 #
 $CMP RF_Shield_One_Piece
-D One-Piece EMI RF Shielding Cabinet
+D One-piece EMI RF shielding cabinet
 K RF EMI shielding cabinet
 F ~
 $ENDCMP
 #
 $CMP RF_Shield_Two_Pieces
-D Two-Piece EMI RF Shielding Cabinet
+D Two-piece EMI RF shielding cabinet
 K RF EMI shielding cabinet
 F ~
 $ENDCMP
 #
 $CMP RTRIM
-D trimmable Resistor (Preset resistor)
+D Trimmable resistor (preset resistor)
 K R res resistor variable potentiometer trimmer
 F ~
 $ENDCMP
 #
 $CMP R_Network03
-D 3 Resistor network, star topology, bussed resistors, small symbol
+D 3 resistor network, star topology, bussed resistors, small symbol
 K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network03_US
-D 3 Resistor network, star topology, bussed resistors, small US symbol
+D 3 resistor network, star topology, bussed resistors, small US symbol
 K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network04
-D 4 Resistor network, star topology, bussed resistors, small symbol
+D 4 resistor network, star topology, bussed resistors, small symbol
 K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network04_US
-D 4 Resistor network, star topology, bussed resistors, small SU symbol
+D 4 resistor network, star topology, bussed resistors, small US symbol
 K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network05
-D 5 Resistor network, star topology, bussed resistors, small symbol
+D 5 resistor network, star topology, bussed resistors, small symbol
 K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network05_US
-D 5 Resistor network, star topology, bussed resistors, small US symbol
+D 5 resistor network, star topology, bussed resistors, small US symbol
 K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network06
-D 6 Resistor network, star topology, bussed resistors, small symbol
+D 6 resistor network, star topology, bussed resistors, small symbol
 K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network06_US
-D 6 Resistor network, star topology, bussed resistors, small US symbol
+D 6 resistor network, star topology, bussed resistors, small US symbol
 K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network07
-D 7 Resistor network, star topology, bussed resistors, small symbol
+D 7 resistor network, star topology, bussed resistors, small symbol
 K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network07_US
-D 7 Resistor network, star topology, bussed resistors, small US symbol
+D 7 resistor network, star topology, bussed resistors, small US symbol
 K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network08
-D 8 Resistor network, star topology, bussed resistors, small symbol
+D 8 resistor network, star topology, bussed resistors, small symbol
 K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network08_US
-D 8 Resistor network, star topology, bussed resistors, small US symbol
+D 8 resistor network, star topology, bussed resistors, small US symbol
 K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network09
-D 9 Resistor network, star topology, bussed resistors, small symbol
+D 9 resistor network, star topology, bussed resistors, small symbol
 K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network09_US
-D 9 Resistor network, star topology, bussed resistors, small US symbol
+D 9 resistor network, star topology, bussed resistors, small US symbol
 K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network10
-D 10 Resistor network, star topology, bussed resistors, small symbol
+D 10 resistor network, star topology, bussed resistors, small symbol
 K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network10_US
-D 10 Resistor network, star topology, bussed resistors, small US symbol
+D 10 resistor network, star topology, bussed resistors, small US symbol
 K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network11
-D 11 Resistor network, star topology, bussed resistors, small symbol
+D 11 resistor network, star topology, bussed resistors, small symbol
 K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network11_US
-D 11 Resistor network, star topology, bussed resistors, small US symbol
+D 11 resistor network, star topology, bussed resistors, small US symbol
 K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network12
-D 12 Resistor network, star topology, bussed resistors, small symbol
+D 12 resistor network, star topology, bussed resistors, small symbol
 K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network12_US
-D 12 Resistor network, star topology, bussed resistors, small US symbol
+D 12 resistor network, star topology, bussed resistors, small US symbol
 K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network13
-D 13 Resistor network, star topology, bussed resistors, small symbol
+D 13 resistor network, star topology, bussed resistors, small symbol
 K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network13_US
-D 13 Resistor network, star topology, bussed resistors, small US symbol
+D 13 resistor network, star topology, bussed resistors, small US symbol
 K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network_Dividers_x02_SIP
-D 2 Voltage Dividers network, Dual Terminator, SIP package
+D 2 voltage dividers network, dual terminator, SIP package
 K R network divider topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network_Dividers_x03_SIP
-D 3 Voltage Dividers network, Dual Terminator, SIP package
+D 3 voltage dividers network, dual terminator, SIP package
 K R network divider topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network_Dividers_x04_SIP
-D 4 Voltage Dividers network, Dual Terminator, SIP package
+D 4 voltage dividers network, dual terminator, SIP package
 K R network divider topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network_Dividers_x05_SIP
-D 5 Voltage Dividers network, Dual Terminator, SIP package
+D 5 voltage dividers network, dual terminator, SIP package
 K R network divider topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network_Dividers_x06_SIP
-D 6 Voltage Dividers network, Dual Terminator, SIP package
+D 6 voltage dividers network, dual terminator, SIP package
 K R network divider topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network_Dividers_x07_SIP
-D 7 Voltage Dividers network, Dual Terminator, SIP package
+D 7 voltage dividers network, dual terminator, SIP package
 K R network divider topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network_Dividers_x08_SIP
-D 8 Voltage Dividers network, Dual Terminator, SIP package
+D 8 voltage dividers network, dual terminator, SIP package
 K R network divider topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network_Dividers_x09_SIP
-D 9 Voltage Dividers network, Dual Terminator, SIP package
+D 9 voltage dividers network, dual terminator, SIP package
 K R network divider topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network_Dividers_x10_SIP
-D 10 Voltage Dividers network, Dual Terminator, SIP package
+D 10 voltage dividers network, dual terminator, SIP package
 K R network divider topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Network_Dividers_x11_SIP
-D 11 Voltage Dividers network, Dual Terminator, SIP package
+D 11 voltage dividers network, dual terminator, SIP package
 K R network divider topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
@@ -1885,25 +1885,25 @@ F ~
 $ENDCMP
 #
 $CMP R_POT_Dual
-D Dual Potentiometer
+D Dual potentiometer
 K resistor variable
 F ~
 $ENDCMP
 #
 $CMP R_POT_Dual_Separate
-D Dual Potentiometer, separate units
+D Dual potentiometer, separate units
 K resistor variable
 F ~
 $ENDCMP
 #
 $CMP R_POT_TRIM
-D Trim-Potentiometer
+D Trim-potentiometer
 K resistor variable trimpot trimmer
 F ~
 $ENDCMP
 #
 $CMP R_POT_TRIM_US
-D Trim-Potentiometer US symbol
+D Trim-potentiometer US symbol
 K resistor variable trimpot trimmer
 F ~
 $ENDCMP
@@ -1915,109 +1915,109 @@ F ~
 $ENDCMP
 #
 $CMP R_Pack02
-D 2 Resistor network, parallel topology, DIP package
+D 2 resistor network, parallel topology, DIP package
 K R network parallel topology isolated
 F ~
 $ENDCMP
 #
 $CMP R_Pack02_SIP
-D 2 Resistor network, parallel topology, SIP package
+D 2 resistor network, parallel topology, SIP package
 K R network parallel topology isolated
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Pack03
-D 3 Resistor network, parallel topology, DIP package
+D 3 resistor network, parallel topology, DIP package
 K R network parallel topology isolated
 F ~
 $ENDCMP
 #
 $CMP R_Pack03_SIP
-D 3 Resistor network, parallel topology, SIP package
+D 3 resistor network, parallel topology, SIP package
 K R network parallel topology isolated
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Pack04
-D 4 Resistor network, parallel topology, DIP package
+D 4 resistor network, parallel topology, DIP package
 K R network parallel topology isolated
 F ~
 $ENDCMP
 #
 $CMP R_Pack04_SIP
-D 4 Resistor network, parallel topology, SIP package
+D 4 resistor network, parallel topology, SIP package
 K R network parallel topology isolated
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Pack05
-D 5 Resistor network, parallel topology, DIP package
+D 5 resistor network, parallel topology, DIP package
 K R network parallel topology isolated
 F ~
 $ENDCMP
 #
 $CMP R_Pack05_SIP
-D 5 Resistor network, parallel topology, SIP package
+D 5 resistor network, parallel topology, SIP package
 K R network parallel topology isolated
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Pack06
-D 6 Resistor network, parallel topology, DIP package
+D 6 resistor network, parallel topology, DIP package
 K R network parallel topology isolated
 F ~
 $ENDCMP
 #
 $CMP R_Pack06_SIP
-D 6 Resistor network, parallel topology, SIP package
+D 6 resistor network, parallel topology, SIP package
 K R network parallel topology isolated
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Pack07
-D 7 Resistor network, parallel topology, DIP package
+D 7 resistor network, parallel topology, DIP package
 K R network parallel topology isolated
 F ~
 $ENDCMP
 #
 $CMP R_Pack07_SIP
-D 7 Resistor network, parallel topology, SIP package
+D 7 resistor network, parallel topology, SIP package
 K R network parallel topology isolated
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Pack08
-D 8 Resistor network, parallel topology, DIP package
+D 8 resistor network, parallel topology, DIP package
 K R network parallel topology isolated
 F ~
 $ENDCMP
 #
 $CMP R_Pack09
-D 9 Resistor network, parallel topology, DIP package
+D 9 resistor network, parallel topology, DIP package
 K R network parallel topology isolated
 F ~
 $ENDCMP
 #
 $CMP R_Pack10
-D 10 Resistor network, parallel topology, DIP package
+D 10 resistor network, parallel topology, DIP package
 K R network parallel topology isolated
 F ~
 $ENDCMP
 #
 $CMP R_Pack11
-D 11 Resistor network, parallel topology, DIP package
+D 11 resistor network, parallel topology, DIP package
 K R network parallel topology isolated
 F ~
 $ENDCMP
 #
 $CMP R_Shunt
-D Shunt Resistor
+D Shunt resistor
 K R res shunt resistor
 F ~
 $ENDCMP
 #
 $CMP R_Shunt_US
-D Shunt Resistor US symbol
+D Shunt resistor US symbol
 K R res shunt resistor
 F ~
 $ENDCMP
@@ -2035,13 +2035,13 @@ F ~
 $ENDCMP
 #
 $CMP R_Variable
-D variable Resistor (Rheostat)
+D Variable resistor (rheostat)
 K R res resistor variable potentiometer
 F ~
 $ENDCMP
 #
 $CMP R_Variable_US
-D variable Resistor (Rheostat) US symbol
+D Variable resistor (rheostat) US symbol
 K R res resistor variable potentiometer
 F ~
 $ENDCMP
@@ -2071,115 +2071,115 @@ F ~
 $ENDCMP
 #
 $CMP SPARK_GAP
-D Spark Gap
+D Spark gap
 K spark gap ESD electrostatic suppression
 F ~
 $ENDCMP
 #
 $CMP Solar_Cell
-D single solar cell
+D Single solar cell
 K solar cell
 F ~
 $ENDCMP
 #
 $CMP Solar_Cells
-D multiple solar cells
+D Multiple solar cells
 K solar cell
 F ~
 $ENDCMP
 #
 $CMP Speaker
-D speaker
+D Speaker
 K speaker sound
 F ~
 $ENDCMP
 #
 $CMP Speaker_Crystal
-D crystal speaker/transducer
+D Crystal speaker/transducer
 K crystal speaker ultrasonic transducer
 F ~
 $ENDCMP
 #
 $CMP Speaker_Ultrasound
-D ultrasonic transducer
+D Ultrasonic transducer
 K crystal speaker ultrasonic transducer
 F ~
 $ENDCMP
 #
 $CMP Thermistor
-D Thermistor, temperature-dependent resistor
+D Thermistor, temperature dependent resistor
 K R res thermistor
 F ~
 $ENDCMP
 #
 $CMP Thermistor_NTC
-D temperature dependent resistor, negative temperature coefficient (NTC)
+D Temperature dependent resistor, negative temperature coefficient (NTC)
 K thermistor NTC resistor sensor RTD
 F ~
 $ENDCMP
 #
 $CMP Thermistor_NTC_3wire
-D temperature dependent resistor, negative temperature coefficient (NTC), 3-wire interface
+D Temperature dependent resistor, negative temperature coefficient (NTC), 3-wire interface
 K thermistor NTC resistor sensor RTD
 F ~
 $ENDCMP
 #
 $CMP Thermistor_NTC_4wire
-D temperature dependent resistor, negative temperature coefficient (NTC), 4-wire interface
+D Temperature dependent resistor, negative temperature coefficient (NTC), 4-wire interface
 K thermistor NTC resistor sensor RTD
 F ~
 $ENDCMP
 #
 $CMP Thermistor_NTC_US
-D temperature dependent resistor, negative temperature coefficient (NTC) US symbol
+D Temperature dependent resistor, negative temperature coefficient (NTC) US symbol
 K thermistor NTC resistor sensor RTD
 F ~
 $ENDCMP
 #
 $CMP Thermistor_PTC
-D temperature dependent resistor, positive temperature coefficient (PTC)
+D Temperature dependent resistor, positive temperature coefficient (PTC)
 K resistor PTC thermistor sensor RTD
 F ~
 $ENDCMP
 #
 $CMP Thermistor_PTC_3wire
-D temperature dependent resistor, positive temperature coefficient (PTC), 3-wire interface
+D Temperature dependent resistor, positive temperature coefficient (PTC), 3-wire interface
 K resistor PTC thermistor sensor RTD
 F ~
 $ENDCMP
 #
 $CMP Thermistor_PTC_4wire
-D temperature dependent resistor, positive temperature coefficient (PTC), 3-wire interface
+D Temperature dependent resistor, positive temperature coefficient (PTC), 3-wire interface
 K resistor PTC thermistor sensor RTD
 F ~
 $ENDCMP
 #
 $CMP Thermistor_PTC_US
-D temperature dependent resistor, positive temperature coefficient (PTC) US symbol
+D Temperature dependent resistor, positive temperature coefficient (PTC) US symbol
 K resistor PTC thermistor sensor RTD
 F ~
 $ENDCMP
 #
 $CMP Thermistor_US
-D Thermistor, temperature-dependent resistor US symbol
+D Thermistor, temperature dependent resistor US symbol
 K R res thermistor
 F ~
 $ENDCMP
 #
 $CMP Thermocouple
-D thermocouple
+D Thermocouple
 K thermocouple temperature sensor cold junction
 F ~
 $ENDCMP
 #
 $CMP Thermocouple_ALT
-D thermocouple with connector block
+D Thermocouple with connector block
 K thermocouple temperature sensor cold junction
 F ~
 $ENDCMP
 #
 $CMP Thermocouple_Block
-D thermocouple with isothermal block
+D Thermocouple with isothermal block
 K thermocouple temperature sensor cold junction
 F ~
 $ENDCMP
@@ -2239,31 +2239,31 @@ F ~
 $ENDCMP
 #
 $CMP Voltage_Divider
-D voltage divider in a single package
+D Voltage divider in a single package
 K R network voltage divider
 F ~
 $ENDCMP
 #
 $CMP Voltage_Divider_CenterPin1
-D Voltage Divider (center=pin1)
+D Voltage divider (center=pin1)
 K R network voltage divider
 F ~
 $ENDCMP
 #
 $CMP Voltage_Divider_CenterPin3
-D Voltage Divider (center=pin3)
+D Voltage divider (center=pin3)
 K R network voltage divider
 F ~
 $ENDCMP
 #
 $CMP Voltmeter_AC
-D AC Voltmeter
+D AC voltmeter
 K voltmeter AC
 F ~
 $ENDCMP
 #
 $CMP Voltmeter_DC
-D DC Voltmeter
+D DC voltmeter
 K voltmeter DC
 F ~
 $ENDCMP
