@@ -120,6 +120,12 @@ K sensor magnetic hall position rotation spi
 F http://ams.com/eng/content/download/552323/1541717/file/AS5055A_Datasheet_EN_v6.pdf
 $ENDCMP
 #
+$CMP MA730
+D Magnetic rotary angle sensor, 14-bit, SPI interface, ABZ, PWM
+K sensor magnetic hall position rotation spi
+F https://www.monolithicpower.com/pub/media/document/m/a/ma730_r1.01.pdf
+$ENDCMP
+#
 $CMP MMC5883MA
 D 3-axis Magnetic Sensor, I2C Interface, LGA-16
 K I2C magnetic 3-axis sensor
