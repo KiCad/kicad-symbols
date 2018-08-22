@@ -1916,102 +1916,108 @@ $ENDCMP
 #
 $CMP R_Pack02
 D 2 Resistor network, parallel topology, DIP package
-K R Network parallel topology
+K R Network parallel topology isolated
 F ~
 $ENDCMP
 #
 $CMP R_Pack02_SIP
 D 2 Resistor network, parallel topology, SIP package
-K R Network parallel topology
+K R Network parallel topology isolated
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Pack03
 D 3 Resistor network, parallel topology, DIP package
-K R Network parallel topology
+K R Network parallel topology isolated
 F ~
 $ENDCMP
 #
 $CMP R_Pack03_SIP
 D 3 Resistor network, parallel topology, SIP package
-K R Network parallel topology
+K R Network parallel topology isolated
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Pack04
 D 4 Resistor network, parallel topology, DIP package
-K R Network parallel topology
+K R Network parallel topology isolated
 F ~
 $ENDCMP
 #
 $CMP R_Pack04_SIP
 D 4 Resistor network, parallel topology, SIP package
-K R Network parallel topology
+K R Network parallel topology isolated
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Pack05
 D 5 Resistor network, parallel topology, DIP package
-K R Network parallel topology
+K R Network parallel topology isolated
 F ~
 $ENDCMP
 #
 $CMP R_Pack05_SIP
 D 5 Resistor network, parallel topology, SIP package
-K R Network parallel topology
+K R Network parallel topology isolated
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Pack06
 D 6 Resistor network, parallel topology, DIP package
-K R Network parallel topology
+K R Network parallel topology isolated
 F ~
 $ENDCMP
 #
 $CMP R_Pack06_SIP
 D 6 Resistor network, parallel topology, SIP package
-K R Network parallel topology
+K R Network parallel topology isolated
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Pack07
 D 7 Resistor network, parallel topology, DIP package
-K R Network parallel topology
+K R Network parallel topology isolated
 F ~
 $ENDCMP
 #
 $CMP R_Pack07_SIP
 D 7 Resistor network, parallel topology, SIP package
-K R Network parallel topology
+K R Network parallel topology isolated
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP R_Pack08
 D 8 Resistor network, parallel topology, DIP package
-K R Network parallel topology
+K R Network parallel topology isolated
 F ~
 $ENDCMP
 #
 $CMP R_Pack09
 D 9 Resistor network, parallel topology, DIP package
-K R Network parallel topology
+K R Network parallel topology isolated
 F ~
 $ENDCMP
 #
 $CMP R_Pack10
 D 10 Resistor network, parallel topology, DIP package
-K R Network parallel topology
+K R Network parallel topology isolated
 F ~
 $ENDCMP
 #
 $CMP R_Pack11
 D 11 Resistor network, parallel topology, DIP package
-K R Network parallel topology
+K R Network parallel topology isolated
 F ~
 $ENDCMP
 #
 $CMP R_Shunt
 D Shunt Resistor
+K r res shunt resistor
+F ~
+$ENDCMP
+#
+$CMP R_Shunt_US
+D Shunt Resistor US symbol
 K r res shunt resistor
 F ~
 $ENDCMP

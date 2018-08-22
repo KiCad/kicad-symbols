@@ -282,6 +282,12 @@ K Driver, Dual MOSFET
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic4426.pdf
 $ENDCMP
 #
+$CMP MIC4604YM
+D 85V Half-Bridge MOSFET Driver with up to 16V Programmable Gate Drive, SOIC-8
+K Half-Bridge Gate Driver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005852A.pdf
+$ENDCMP
+#
 $CMP PM8834
 D 4 A dual low-side MOSFET driver, SOIC-8
 K mosfet driver
