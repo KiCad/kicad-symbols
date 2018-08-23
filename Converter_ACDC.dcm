@@ -288,6 +288,96 @@ K 5V 4A 20W miniature AC-DC module-type power supply
 F http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF
 $ENDCMP
 #
+$CMP IRM-30-12
+D 12V 2.5A 30W AC-DC module supply MeanWell
+K 12V 2.5A 30W AC-DC module supply
+F http://www.meanwell.com/Upload/PDF/IRM-30/IRM-30-SPEC.PDF
+$ENDCMP
+#
+$CMP IRM-30-15
+D 15V 2A 30W AC-DC module supply MeanWell
+K 15V 2A 30W AC-DC module supply
+F http://www.meanwell.com/Upload/PDF/IRM-30/IRM-30-SPEC.PDF
+$ENDCMP
+#
+$CMP IRM-30-24
+D 24V 1.3A 31.2W AC-DC module supply MeanWell
+K 24V 1.3A 31.2W AC-DC module supply
+F http://www.meanwell.com/Upload/PDF/IRM-30/IRM-30-SPEC.PDF
+$ENDCMP
+#
+$CMP IRM-30-48
+D 48V 0.63A 30.2W AC-DC module supply MeanWell
+K 48V 0.63A 30.2W AC-DC module supply
+F http://www.meanwell.com/Upload/PDF/IRM-30/IRM-30-SPEC.PDF
+$ENDCMP
+#
+$CMP IRM-30-5
+D 5V 6A 30W AC-DC module supply MeanWell
+K 5V 6A 30W AC-DC module supply
+F http://www.meanwell.com/Upload/PDF/IRM-30/IRM-30-SPEC.PDF
+$ENDCMP
+#
+$CMP IRM-45-12
+D 12V 3.8A 45W AC-DC module supply MeanWell
+K 12V 3.8A 45W AC-DC module supply
+F https://www.meanwell-web.com/content/files/pdfs/productPdfs/MW/IRM-45/IRM-45-spec.pdf
+$ENDCMP
+#
+$CMP IRM-45-15
+D 15V 3A 45W AC-DC module supply MeanWell
+K 15V 3A 45W AC-DC module supply
+F https://www.meanwell-web.com/content/files/pdfs/productPdfs/MW/IRM-45/IRM-45-spec.pdf
+$ENDCMP
+#
+$CMP IRM-45-24
+D 24V 1.9A 45W AC-DC module supply MeanWell
+K 24V 1.9A 45W AC-DC module supply
+F https://www.meanwell-web.com/content/files/pdfs/productPdfs/MW/IRM-45/IRM-45-spec.pdf
+$ENDCMP
+#
+$CMP IRM-45-48
+D 48V 0.94A 45W AC-DC module supply MeanWell
+K 48V 0.94A 45W AC-DC module supply
+F https://www.meanwell-web.com/content/files/pdfs/productPdfs/MW/IRM-45/IRM-45-spec.pdf
+$ENDCMP
+#
+$CMP IRM-45-5
+D 5V 8A 40W AC-DC module supply MeanWell
+K 5V 8A 40W AC-DC module supply
+F https://www.meanwell-web.com/content/files/pdfs/productPdfs/MW/IRM-45/IRM-45-spec.pdf
+$ENDCMP
+#
+$CMP IRM-60-12
+D 12V 5A 60W AC-DC module supply MeanWell
+K 12V 5A 60W AC-DC module supply
+F https://www.meanwell-web.com/content/files/pdfs/productPdfs/MW/IRM-60/IRM-60-spec.pdf
+$ENDCMP
+#
+$CMP IRM-60-15
+D 15V 4A 60W AC-DC module supply MeanWell
+K 15V 4A 60W AC-DC module supply
+F https://www.meanwell-web.com/content/files/pdfs/productPdfs/MW/IRM-60/IRM-60-spec.pdf
+$ENDCMP
+#
+$CMP IRM-60-24
+D 24V 2.5A 60W AC-DC module supply MeanWell
+K 24V 2.5A 60W AC-DC module supply
+F https://www.meanwell-web.com/content/files/pdfs/productPdfs/MW/IRM-60/IRM-60-spec.pdf
+$ENDCMP
+#
+$CMP IRM-60-48
+D 48V 1.25A 60W AC-DC module supply MeanWell
+K 48V 1.25A 60W AC-DC module supply
+F https://www.meanwell-web.com/content/files/pdfs/productPdfs/MW/IRM-60/IRM-60-spec.pdf
+$ENDCMP
+#
+$CMP IRM-60-5
+D 5V 10A 50W AC-DC module supply MeanWell
+K 5V 10A 50W AC-DC module supply
+F https://www.meanwell-web.com/content/files/pdfs/productPdfs/MW/IRM-60/IRM-60-spec.pdf
+$ENDCMP
+#
 $CMP RAC01-05SGB
 D 1 Watt Single Output EMC Class B AC/DC 5V 200mA power supply with regulated and short-circuit-proof isolated DC outputs and low standby power consumption.
 K ac dc power supply
