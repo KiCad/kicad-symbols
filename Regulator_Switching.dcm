@@ -636,6 +636,12 @@ K step down buck regulator
 F http://www.st.com/resource/en/datasheet/l5973d.pdf
 $ENDCMP
 #
+$CMP LD7575
+D Green-Mode PWM Controller with High-Voltage Start-Up Circuit, DIP-8/SOIC-8
+K smps controller
+F http://www.leadtrend.com.tw/archive/doc/product/sheets/LD7575-DS-04b.pdf
+$ENDCMP
+#
 $CMP LM25085MM
 D 42V Constant On-Time PFET Buck Switching Controller, MSOP-8
 K buck switching contoller
@@ -3684,6 +3690,29 @@ K buck regulator
 F http://www.ti.com/lit/ds/symlink/tl497a.pdf
 $ENDCMP
 #
+$CMP TLV62080DSGx
+D High-efficiency Step-down Converter
+K Synchronous Buck
+F http://www.ti.com/lit/ds/symlink/tlv62080.pdf
+$ENDCMP
+#
+$CMP TLV62084ADSGx
+D High-efficiency Step-down Converter
+K Synchronous Buck
+F http://www.ti.com/lit/ds/symlink/tlv62080.pdf
+$ENDCMP
+#
+$CMP TLV62084DSGx
+D High-efficiency Step-down Converter
+K Synchronous Buck
+F http://www.ti.com/lit/ds/symlink/tlv62080.pdf
+$ENDCMP
+$CMP TLV62095RGTx
+D High efficiency step-down converter
+K Synchronous Buck
+F http://www.ti.com/lit/ds/symlink/tlv62095.pdf
+$ENDCMP
+#
 $CMP TMR_1-0511
 D 200mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, 5V fixed Output Voltage, SIP-6
 K Murata isolated isolation dc-dc converter transformer
@@ -4810,6 +4839,12 @@ $CMP TPS5431DDA
 D 3A, Step Down Swift Converter, Adjustable Output Voltage, 5.5-23V Input Voltage, PowerSO-8
 K Step-Down DC-DC Switching Regulator
 F http://www.ti.com/lit/ds/symlink/tps5430.pdf
+$ENDCMP
+#
+$CMP TPS54336ADDA
+D  4.5V to 28V Input, 3A, Synchronous Step-Down Converter with Eco-mode(tm)
+K Step-Down DC-DC Switching Regulator
+F http://www.ti.com/lit/ds/symlink/tps54336a.pdf
 $ENDCMP
 #
 $CMP TPS54340DDA
