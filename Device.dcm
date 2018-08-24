@@ -73,13 +73,13 @@ F ~
 $ENDCMP
 #
 $CMP CP1
-D Polarized capacitor, alternative symbol
+D Polarized capacitor, curved cathode
 K cap capacitor
 F ~
 $ENDCMP
 #
 $CMP CP1_Small
-D Polarized capacitor, small symbol, alternative symbol
+D Polarized capacitor, curved cathode, small symbol
 K cap capacitor
 F ~
 $ENDCMP
@@ -193,13 +193,13 @@ F ~
 $ENDCMP
 #
 $CMP DIAC_ALT
-D Diode for alternating current, alternative symbol
+D Diode for alternating current, filled shape
 K AC diode DIAC
 F ~
 $ENDCMP
 #
 $CMP D_ALT
-D Diode, alternative symbol
+D Diode, filled shape
 K diode
 F ~
 $ENDCMP
@@ -241,7 +241,7 @@ F ~
 $ENDCMP
 #
 $CMP D_Capacitance_ALT
-D Variable capacitance diode, alternative symbol
+D Variable capacitance diode, filled shape
 K capacitance diode varicap varactor
 F ~
 $ENDCMP
@@ -253,7 +253,7 @@ F ~
 $ENDCMP
 #
 $CMP D_Photo_ALT
-D Photodiode, alternative symbol
+D Photodiode, filled shape
 K photodiode diode opto
 F ~
 $ENDCMP
@@ -265,7 +265,7 @@ F ~
 $ENDCMP
 #
 $CMP D_Radiation_ALT
-D Semiconductor radiation detector, alternative symbol
+D Semiconductor radiation detector, filled shape
 K radiation detector diode
 F ~
 $ENDCMP
@@ -295,7 +295,7 @@ F ~
 $ENDCMP
 #
 $CMP D_Schottky_ALT
-D Schottky diode, alternative symbol
+D Schottky diode, filled shape
 K diode Schottky
 F ~
 $ENDCMP
@@ -325,7 +325,7 @@ F ~
 $ENDCMP
 #
 $CMP D_Schottky_Small_ALT
-D Schottky diode, small symbol, alternative symbol
+D Schottky diode, small symbol, filled shape
 K diode Schottky
 F ~
 $ENDCMP
@@ -421,7 +421,7 @@ F ~
 $ENDCMP
 #
 $CMP D_Small_ALT
-D Diode, small symbol, alternative symbol
+D Diode, small symbol, filled shape
 K diode
 F ~
 $ENDCMP
@@ -433,7 +433,7 @@ F ~
 $ENDCMP
 #
 $CMP D_TVS_ALT
-D Bidirectional transient-voltage-suppression diode, alternative symbol
+D Bidirectional transient-voltage-suppression diode, filled shape
 K diode TVS thyrector
 F ~
 $ENDCMP
@@ -463,7 +463,7 @@ F ~
 $ENDCMP
 #
 $CMP D_Temperature_Dependent_ALT
-D Temperature dependent diode, alternative symbol
+D Temperature dependent diode, filled shape
 K temperature sensor diode
 F ~
 $ENDCMP
@@ -475,7 +475,7 @@ F ~
 $ENDCMP
 #
 $CMP D_Tunnel_ALT
-D Tunnel diode (Esaki diode), alternative symbol
+D Tunnel diode (Esaki diode), filled shape
 K tunnel diode
 F ~
 $ENDCMP
@@ -487,7 +487,7 @@ F ~
 $ENDCMP
 #
 $CMP D_Unitunnel_ALT
-D Unitunnel diode, alternative symbol
+D Unitunnel diode, filled shape
 K unitunnel diode
 F ~
 $ENDCMP
@@ -499,7 +499,7 @@ F ~
 $ENDCMP
 #
 $CMP D_Zener_ALT
-D Zener diode, alternative symbol
+D Zener diode, filled shape
 K diode
 F ~
 $ENDCMP
@@ -511,7 +511,7 @@ F ~
 $ENDCMP
 #
 $CMP D_Zener_Small_ALT
-D Zener diode, small symbol, alternative symbol
+D Zener diode, small symbol, filled shape
 K diode
 F ~
 $ENDCMP
@@ -733,7 +733,7 @@ F ~
 $ENDCMP
 #
 $CMP LED_ALT
-D Light emitting diode, alternative symbol
+D Light emitting diode, filled shape
 K LED diode
 F ~
 $ENDCMP
@@ -859,7 +859,7 @@ F ~
 $ENDCMP
 #
 $CMP LED_Small_ALT
-D Light emitting diode, small symbol, alternative symbol
+D Light emitting diode, small symbol, filled shape
 K LED diode light-emitting-diode
 F ~
 $ENDCMP
