@@ -97,6 +97,7 @@
   (lib (name MCU_Microchip_PIC18)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_PIC18.lib)(options "")(descr "Microchip PIC18 microcontrollers"))
   (lib (name MCU_Microchip_PIC24)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_PIC24.lib)(options "")(descr "Microchip PIC24 microcontrollers"))
   (lib (name MCU_Microchip_PIC32)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_PIC32.lib)(options "")(descr "Microchip PIC32 microcontrollers"))
+  (lib (name MCU_Microchip_SAMD)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_SAMD.lib)(options "")(descr "Microchip SAMD microcontrollers"))
   (lib (name MCU_Module)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Module.lib)(options "")(descr "Microcontroller Modules and Breakouts (Arduino ...)"))
   (lib (name MCU_NXP_ColdFire)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_NXP_ColdFire.lib)(options "")(descr "NXP ColdFire microcontrollers (formerly Motorola)"))
   (lib (name MCU_NXP_HC11)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_NXP_HC11.lib)(options "")(descr "NXP HC11 microcontrollers"))
