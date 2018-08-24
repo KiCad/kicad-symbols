@@ -282,6 +282,12 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/lm6161.pdf
 $ENDCMP
 #
+$CMP LM675
+D Power Operational Amplifier, TO-220
+K single opamp
+F http://www.ti.com/lit/ds/symlink/lm675.pdf
+$ENDCMP
+#
 $CMP LM7332
 D Dual Rail-to-Rail Input and Output 30-V, Wide Voltage Range, High Output, Operational Amplifier, SOIC-8/SSOP-8
 K dual opamp
