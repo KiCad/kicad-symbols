@@ -1272,6 +1272,12 @@ K 8P8C RJ female connector
 F ~
 $ENDCMP
 #
+$CMP RJ45_Amphenol_RJMG1BD3B8K1ANR
+D 1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, AutoMDIX
+K RJ45 Magjack
+F https://www.amphenolcanada.com/ProductSearch/Drawings/AC/RJMG1BD3B8K1ANR.PDF
+$ENDCMP
+#
 $CMP RJ45_LED
 D RJ connector, 8P8C (8 positions 8 connected), two LEDs
 K 8P8C RJ female connector led
