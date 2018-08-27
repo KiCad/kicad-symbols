@@ -30,8 +30,8 @@ ENDDEF
 #
 # Housing
 #
-DEF Housing H 0 40 Y Y 1 F N
-F0 "H" 150 0 50 H V L CNN
+DEF Housing N 0 40 Y Y 1 F N
+F0 "N" 150 0 50 H V L CNN
 F1 "Housing" 150 -75 50 H V L CNN
 F2 "" 50 50 50 H I C CNN
 F3 "" 50 50 50 H I C CNN
@@ -72,8 +72,8 @@ ENDDEF
 #
 # Housing_Pad
 #
-DEF Housing_Pad H 0 40 N N 1 F N
-F0 "H" 175 0 50 H V L CNN
+DEF Housing_Pad N 0 40 N N 1 F N
+F0 "N" 175 0 50 H V L CNN
 F1 "Housing_Pad" 175 -75 50 H V L CNN
 F2 "" 75 50 50 H I C CNN
 F3 "" 75 50 50 H I C CNN
