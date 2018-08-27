@@ -9,15 +9,19 @@ $ENDCMP
 $CMP 29F010-TSOP-SP
 D Flash EEProm 128Ko (TSOP 32 pack.) 5V prog
 K EEPROM FLASH 128KO
+F https://www.jameco.com/Jameco/Products/ProdDS/242608AMD.pdf
 $ENDCMP
 #
 $CMP 29W040
 D Flash EEProm 512PP (TSOP 32) 3,3V
 K EEPROM FLASH 512KO
+F https://pdf1.alldatasheet.com/datasheet-pdf/view/22984/STMICROELECTRONICS/29W040.html
 $ENDCMP
 #
 $CMP AM29PDL128G
 D 128 Megabit (8 M x 16-Bit/4 M x 32-Bit), Simultaneous Operation Flash Memory with VersatileIO™ Control
+K 128Mb 128Mbit FLASH CMOS
+F http://pdf.datasheetcatalog.com/datasheet/AdvancedMicroDevices/mXuuxw.pdf
 $ENDCMP
 #
 $CMP AT45DB161-JC
@@ -77,11 +81,13 @@ $ENDCMP
 $CMP M29W004
 D Flash EEProm 512Ko (TSOP 40 pack.) 3,3V
 K EEPROM FLASH 512KO
+F https://pdf1.alldatasheet.com/datasheet-pdf/view/22931/STMICROELECTRONICS/M29W004.html
 $ENDCMP
 #
 $CMP M29W008
 D Flash EEProm 1MO (TSOP 40 pack.) 3,3V
 K EEPROM FLASH 1MO
+F http://pdf.datasheetcatalog.com/datasheet/stmicroelectronics/6669.pdf
 $ENDCMP
 #
 $CMP SST39SF010
