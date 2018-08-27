@@ -78,13 +78,13 @@ K CMOS Analog Switch
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf
 $ENDCMP
 #
-$CMP CD5041B
+$CMP CD4051B
 D Dual 4-to-1 analog multiplexer demultiplexer
 K analog switch selector multiplexer
 F http://www.ti.com/lit/ds/symlink/cd4052b.pdf
 $ENDCMP
 #
-$CMP CD5042B
+$CMP CD4052B
 D Dual 4-to-1 analog multiplexer demultiplexer
 K analog switch selector multiplexer
 F http://www.ti.com/lit/ds/symlink/cd4052b.pdf
