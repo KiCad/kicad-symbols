@@ -1338,6 +1338,12 @@ K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/FD/FDS4897C.pdf
 $ENDCMP
 #
+$CMP FDS6630A
+D 6.5A Id, 30V Vds, N-Channel MOSFET, 38mOhm Ron, SOIC-8
+K N-Channel MOSFET
+F http://www.onsemi.com/pub/Collateral/FDS6630A-D.pdf
+$ENDCMP
+#
 $CMP FDS6890A
 D 7.5A Id, 20V Vds, Dual N-Channel MOSFET, 18mOhm Ron, SO-8
 K Dual N-Channel MOSFET
@@ -1354,6 +1360,18 @@ $CMP FDS6898A
 D 9.4A Id, 20V Vds, Dual N-Channel MOSFET, 14mOhm Ron, SO-8
 K Dual N-Channel MOSFET
 F http://www.fairchildsemi.com/ds/FD/FDS6898A.pdf
+$ENDCMP
+#
+$CMP FDS6930A
+D 5.5A Id, 30V Vds, Dual N-Channel Logic Level MOSFET, 40mOhm Ron, SO-8
+K Dual N-Channel MOSFET
+F http://www.onsemi.com/pub/Collateral/FDS6930A-D.PDF
+$ENDCMP
+#
+$CMP FDS6930B
+D 5.5A Id, 30V Vds, Dual N-Channel Logic Level MOSFET, 38mOhm Ron, SO-8
+K Dual N-Channel MOSFET
+F http://www.onsemi.com/pub/Collateral/FDS6930B-D.PDF
 $ENDCMP
 #
 $CMP FDS8960C

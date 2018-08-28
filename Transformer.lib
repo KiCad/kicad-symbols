@@ -6,10 +6,10 @@ EESchema-LIBRARY Version 2.3
 DEF ADT1-1 TR 0 20 Y N 1 F N
 F0 "TR" 0 250 50 H V C CNN
 F1 "ADT1-1" 0 -250 50 H V C CNN
-F2 "Transformer_SMD:Transformer_Mini-Circuits_CD542_H2.84mm" 0 -350 50 H I C CNN
+F2 "Package_SO:Mini-Circuits_CD542_H2.84mm" 0 -350 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Transformer*Mini?Circuits*CD542*
+ Mini?Circuits*CD542*
 $ENDFPLIST
 DRAW
 A -60 -90 30 -899 899 0 1 8 N -60 -120 -60 -60
@@ -36,11 +36,11 @@ ENDDEF
 DEF ADT1-1WT TR 0 20 Y N 1 F N
 F0 "TR" 0 250 50 H V C CNN
 F1 "ADT1-1WT" 0 -250 50 H V C CNN
-F2 "Transformer_SMD:Transformer_Mini-Circuits_CD542_H2.84mm" 0 -350 50 H I C CNN
+F2 "Package_SO:Mini-Circuits_CD542_H2.84mm" 0 -350 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS ADT1-1WT-1 ADT1.5-1 ADT2-1T ADT2-1T-1P ADT3-1T ADT3-1T-75 ADT4-1T ADT4-1WT ADT9-1T ADT16-1T
 $FPLIST
- Transformer*Mini?Circuits*CD542*
+ Mini?Circuits*CD542*
 $ENDFPLIST
 DRAW
 A -60 -90 30 -899 899 0 1 8 N -60 -120 -60 -60
@@ -69,11 +69,11 @@ ENDDEF
 DEF ADT1-6T TR 0 20 Y N 1 F N
 F0 "TR" 0 250 50 H V C CNN
 F1 "ADT1-6T" 0 -250 50 H V C CNN
-F2 "Transformer_SMD:Transformer_Mini-Circuits_CD637_H5.23mm" 0 -350 50 H I C CNN
+F2 "Package_SO:Mini-Circuits_CD637_H5.23mm" 0 -350 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS ADT2-71T ADT4-5WT ADT4-6T ADT8-1T ADT16-6T
 $FPLIST
- Transformer*Mini?Circuits*CD637*
+ Mini?Circuits*CD637*
 $ENDFPLIST
 DRAW
 A -60 -90 30 -899 899 0 1 8 N -60 -120 -60 -60
@@ -102,10 +102,10 @@ ENDDEF
 DEF ADT1.5-122 TR 0 20 Y N 1 F N
 F0 "TR" 0 150 50 H V C CNN
 F1 "ADT1.5-122" 0 -300 50 H V C CNN
-F2 "Transformer_SMD:Transformer_Mini-Circuits_CD542_H2.84mm" 0 -400 50 H I C CNN
+F2 "Package_SO:Mini-Circuits_CD542_H2.84mm" 0 -400 50 H I C CNN
 F3 "" -150 0 50 V I C CNN
 $FPLIST
- Transformer*Mini?Circuits*CD542*
+ Mini?Circuits*CD542*
 $ENDFPLIST
 DRAW
 A -240 -190 30 -1799 -1 0 1 8 N -270 -190 -210 -190
@@ -158,10 +158,10 @@ ENDDEF
 DEF ADT1.5-17 TR 0 20 Y N 1 F N
 F0 "TR" 0 250 50 H V C CNN
 F1 "ADT1.5-17" 0 350 50 H V C CNN
-F2 "Transformer_SMD:Transformer_Mini-Circuits_CD542_H2.84mm" 0 0 50 H I C CNN
+F2 "Package_SO:Mini-Circuits_CD542_H2.84mm" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Transformer*Mini?Circuits*CD542*
+ Mini?Circuits*CD542*
 $ENDFPLIST
 DRAW
 A -60 -90 30 -899 899 0 1 8 N -60 -120 -60 -60
@@ -186,11 +186,11 @@ ENDDEF
 DEF ADT1.5-2 TR 0 20 Y N 1 F N
 F0 "TR" 0 250 50 H V C CNN
 F1 "ADT1.5-2" 0 -250 50 H V C CNN
-F2 "Transformer_SMD:Transformer_Mini-Circuits_CD636_H4.11mm" 0 -350 50 H I C CNN
+F2 "Package_SO:Mini-Circuits_CD636_H4.11mm" 0 -350 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS ADT16-6
 $FPLIST
- Transformer*Mini?Circuits*CD636*
+ Mini?Circuits*CD636*
 $ENDFPLIST
 DRAW
 A -60 -90 30 -899 899 0 1 8 N -60 -120 -60 -60
@@ -217,11 +217,11 @@ ENDDEF
 DEF ADT3-6T TR 0 20 Y N 1 F N
 F0 "TR" 0 250 50 H V C CNN
 F1 "ADT3-6T" 0 -250 50 H V C CNN
-F2 "Transformer_SMD:Transformer_Mini-Circuits_CD636_H4.11mm" 0 -350 50 H I C CNN
+F2 "Package_SO:Mini-Circuits_CD636_H4.11mm" 0 -350 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS ADT4-6WT
 $FPLIST
- Transformer*Mini?Circuits*CD636*
+ Mini?Circuits*CD636*
 $ENDFPLIST
 DRAW
 A -60 -90 30 -899 899 0 1 8 N -60 -120 -60 -60
@@ -250,10 +250,10 @@ ENDDEF
 DEF ADT4-6 TR 0 20 Y N 1 F N
 F0 "TR" 0 250 50 H V C CNN
 F1 "ADT4-6" 0 -250 50 H V C CNN
-F2 "Transformer_SMD:Transformer_Mini-Circuits_CD637_H5.23mm" 0 -350 50 H I C CNN
+F2 "Package_SO:Mini-Circuits_CD637_H5.23mm" 0 -350 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Transformer*Mini?Circuits*CD637*
+ Mini?Circuits*CD637*
 $ENDFPLIST
 DRAW
 A -60 -90 30 -899 899 0 1 8 N -60 -120 -60 -60
@@ -280,10 +280,10 @@ ENDDEF
 DEF ADTL1-15-75 TR 0 20 Y N 1 F N
 F0 "TR" 0 150 50 H V C CNN
 F1 "ADTL1-15-75" 0 -300 50 H V C CNN
-F2 "Transformer_SMD:Transformer_Mini-Circuits_CD542_H2.84mm" 0 -400 50 H I C CNN
+F2 "Package_SO:Mini-Circuits_CD542_H2.84mm" 0 -400 50 H I C CNN
 F3 "" -150 0 50 V I C CNN
 $FPLIST
- Transformer*Mini?Circuits*CD542*
+ Mini?Circuits*CD542*
 $ENDFPLIST
 DRAW
 A -240 -190 30 -1799 -1 0 1 8 N -270 -190 -210 -190
@@ -335,11 +335,11 @@ ENDDEF
 DEF ADTL1-4-75 TR 0 20 Y N 1 F N
 F0 "TR" 0 150 50 H V C CNN
 F1 "ADTL1-4-75" 0 -150 50 H V C CNN
-F2 "Transformer_SMD:Transformer_Mini-Circuits_CD542_H2.84mm" 0 -250 50 H I C CNN
+F2 "Package_SO:Mini-Circuits_CD542_H2.84mm" 0 -250 50 H I C CNN
 F3 "" -150 0 50 V I C CNN
 ALIAS ADTL1-12 ADTL1-18-75 ADTL2-18
 $FPLIST
- Transformer*Mini?Circuits*CD542*
+ Mini?Circuits*CD542*
 $ENDFPLIST
 DRAW
 A -240 -60 30 1 -1801 0 1 8 N -210 -60 -270 -60
@@ -376,10 +376,10 @@ ENDDEF
 DEF ADTT1-1 TR 0 20 Y N 1 F N
 F0 "TR" 0 250 50 H V C CNN
 F1 "ADTT1-1" 0 -250 50 H V C CNN
-F2 "Transformer_SMD:Transformer_Mini-Circuits_CD542_H2.84mm" 0 -350 50 H I C CNN
+F2 "Package_SO:Mini-Circuits_CD542_H2.84mm" 0 -350 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Transformer*Mini?Circuits*CD542*
+ Mini?Circuits*CD542*
 $ENDFPLIST
 DRAW
 A -60 -90 30 -899 899 0 1 8 N -60 -120 -60 -60
@@ -410,10 +410,10 @@ ENDDEF
 DEF ADTT1-6 TR 0 20 Y N 1 F N
 F0 "TR" 0 250 50 H V C CNN
 F1 "ADTT1-6" 0 -250 50 H V C CNN
-F2 "Transformer_SMD:Transformer_Mini-Circuits_CD637_H5.23mm" 0 -350 50 H I C CNN
+F2 "Package_SO:Mini-Circuits_CD637_H5.23mm" 0 -350 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Transformer*Mini?Circuits*CD637*
+ Mini?Circuits*CD637*
 $ENDFPLIST
 DRAW
 A -60 -90 30 -899 899 0 1 8 N -60 -120 -60 -60
@@ -444,11 +444,11 @@ ENDDEF
 DEF ADTT1.5-1 TR 0 20 Y N 1 F N
 F0 "TR" 0 250 50 H V C CNN
 F1 "ADTT1.5-1" 0 -250 50 H V C CNN
-F2 "Transformer_SMD:Transformer_Mini-Circuits_CD636_H4.11mm" 0 -350 50 H I C CNN
+F2 "Package_SO:Mini-Circuits_CD636_H4.11mm" 0 -350 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS ADTT3-2 ADTT4-1
 $FPLIST
- Transformer*Mini?Circuits*CD636*
+ Mini?Circuits*CD636*
 $ENDFPLIST
 DRAW
 A -60 -90 30 -899 899 0 1 8 N -60 -120 -60 -60
