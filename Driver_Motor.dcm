@@ -258,7 +258,7 @@ K H-bridge motor driver
 F https://toshiba.semicon-storage.com/us/product/linear/motordriver/detail.TB6612FNG.html
 $ENDCMP
 #
-$CMP TMC2130
+$CMP TMC2130-LA
 D Smart Driver for two-phase stepper motors with external mosfet and automatic current adjust
 K trinamic tmc2130 smart stepper
 F http://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2130_datasheet.pdf
