@@ -2335,8 +2335,8 @@ ENDDEF
 #
 # Ferrite_Bead
 #
-DEF Ferrite_Bead L 0 0 N Y 1 F N
-F0 "L" -150 25 50 V V C CNN
+DEF Ferrite_Bead FB 0 0 N Y 1 F N
+F0 "FB" -150 25 50 V V C CNN
 F1 "Ferrite_Bead" 150 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
@@ -2356,8 +2356,8 @@ ENDDEF
 #
 # Ferrite_Bead_Small
 #
-DEF Ferrite_Bead_Small L 0 0 N Y 1 F N
-F0 "L" 75 50 50 H V L CNN
+DEF Ferrite_Bead_Small FB 0 0 N Y 1 F N
+F0 "FB" 75 50 50 H V L CNN
 F1 "Ferrite_Bead_Small" 75 -50 50 H V L CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
