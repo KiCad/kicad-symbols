@@ -1128,6 +1128,48 @@ K diode
 F http://www.onsemi.com/pub_link/Collateral/HN2D02FUTW1T1-D.PDF
 $ENDCMP
 #
+$CMP IDDD04G65C6
+D 650V, 4A, SiC Schottky Diode, CoolSiC, PG-HDSOP-10-1 (DDPAK)
+K sic diode
+F https://www.infineon.com/dgdl/Infineon-IDDD04G65C6-DS-v02_00-EN.pdf?fileId=5546d462625a528f01628f749daa0e03
+$ENDCMP
+#
+$CMP IDDD06G65C6
+D 650V, 6A, SiC Schottky Diode, CoolSiC, PG-HDSOP-10-1 (DDPAK)
+K sic diode
+F https://www.infineon.com/dgdl/Infineon-IDDD06G65C6-DS-v02_00-EN.pdf?fileId=5546d462625a528f01628f86ff8c0e09
+$ENDCMP
+#
+$CMP IDDD08G65C6
+D 650V, 8A, SiC Schottky Diode, CoolSiC, PG-HDSOP-10-1 (DDPAK)
+K sic diode
+F https://www.infineon.com/dgdl/Infineon-IDDD08G65C6-DS-v02_00-EN.pdf?fileId=5546d462625a528f01628ff7d31a104b
+$ENDCMP
+#
+$CMP IDDD10G65C6
+D 650V, 10A, SiC Schottky Diode, CoolSiC, PG-HDSOP-10-1 (DDPAK)
+K sic diode
+F https://www.infineon.com/dgdl/Infineon-IDDD10G65C6-DS-v02_00-EN.pdf?fileId=5546d462625a528f01628ff848ec1051
+$ENDCMP
+#
+$CMP IDDD12G65C6
+D 650V, 12A, SiC Schottky Diode, CoolSiC, PG-HDSOP-10-1 (DDPAK)
+K sic diode
+F https://www.infineon.com/dgdl/Infineon-IDDD12G65C6-DS-v02_00-EN.pdf?fileId=5546d462625a528f01628f86ec3e0e06
+$ENDCMP
+#
+$CMP IDDD16G65C6
+D 650V, 16A, SiC Schottky Diode, CoolSiC, PG-HDSOP-10-1 (DDPAK)
+K sic diode
+F https://www.infineon.com/dgdl/Infineon-IDDD16G65C6-DS-v02_00-EN.pdf?fileId=5546d462625a528f01628f8711b50e0c
+$ENDCMP
+#
+$CMP IDDD20G65C6
+D 650V, 20A, SiC Schottky Diode, CoolSiC, PG-HDSOP-10-1 (DDPAK)
+K sic diode
+F https://www.infineon.com/dgdl/Infineon-IDDD20G65C6-DS-v02_00-EN.pdf?fileId=5546d462625a528f01628ff837cf104e
+$ENDCMP
+#
 $CMP LL41
 D 100V 0.1A Small Signal Schottky diode, MiniMELF
 K diode Schottky
