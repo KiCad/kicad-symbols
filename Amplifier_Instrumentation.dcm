@@ -168,6 +168,18 @@ K ad8429 instumentation amplifier soic-8
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8429.pdf
 $ENDCMP
 #
+$CMP INA128
+D Precision, Low Power Instrumentation Amplifier G = 1 + 50kOhm/Rg, DIP-8/SOIC-8
+K instrumentation opamp
+F http://www.ti.com/lit/ds/symlink/ina128.pdf
+$ENDCMP
+#
+$CMP INA129
+D Precision, Low Power Instrumentation Amplifier G = 1 + 49.4kOhm/Rg, DIP-8/SOIC-8
+K instrumentation opamp
+F http://www.ti.com/lit/ds/symlink/ina128.pdf
+$ENDCMP
+#
 $CMP INA326
 D Precision, Rail-to-Rail I/O Instrumentation Amplifier, MSOP-8 package
 K instrumentation opamp
