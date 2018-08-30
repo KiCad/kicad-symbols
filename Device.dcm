@@ -2028,6 +2028,12 @@ K r resistor
 F ~
 $ENDCMP
 #
+$CMP R_Small_US
+D Resistor, small US symbol
+K r resistor
+F ~
+$ENDCMP
+#
 $CMP R_US
 D Resistor US symbol
 K r res resistor
