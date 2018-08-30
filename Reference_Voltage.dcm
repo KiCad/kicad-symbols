@@ -300,6 +300,42 @@ K Precision Micropower Low Dropout Voltage Reference 2.5V
 F http://www.ti.com/lit/ds/symlink/lm4125.pdf
 $ENDCMP
 #
+$CMP LM4132BMF-1.8
+D 1.8V ±0.1% Precision Low Dropout Voltage Reference, SOT-23-5
+K Precision Low Dropout Voltage Reference 1.8V
+F http://www.ti.com/lit/ds/symlink/lm4132.pdf
+$ENDCMP
+#
+$CMP LM4132BMF-2.0
+D 2.048V ±0.1% Precision Low Dropout Voltage Reference, SOT-23-5
+K Precision Low Dropout Voltage Reference 2.048V
+F http://www.ti.com/lit/ds/symlink/lm4132.pdf
+$ENDCMP
+#
+$CMP LM4132BMF-2.5
+D 2.5V ±0.1% Precision Low Dropout Voltage Reference, SOT-23-5
+K Precision Low Dropout Voltage Reference 2.5V
+F http://www.ti.com/lit/ds/symlink/lm4132.pdf
+$ENDCMP
+#
+$CMP LM4132BMF-3.0
+D 3.0V ±0.1% Precision Low Dropout Voltage Reference, SOT-23-5
+K Precision Low Dropout Voltage Reference 3.0V
+F http://www.ti.com/lit/ds/symlink/lm4132.pdf
+$ENDCMP
+#
+$CMP LM4132BMF-3.3
+D 3.3V ±0.1% Precision Low Dropout Voltage Reference, SOT-23-5
+K Precision Low Dropout Voltage Reference 3.3V
+F http://www.ti.com/lit/ds/symlink/lm4132.pdf
+$ENDCMP
+#
+$CMP LM4132BMF-4.1
+D 4.096V ±0.1% Precision Low Dropout Voltage Reference, SOT-23-5
+K Precision Low Dropout Voltage Reference 4.096V
+F http://www.ti.com/lit/ds/symlink/lm4132.pdf
+$ENDCMP
+#
 $CMP LT6657AHMS8-2.5
 D Precision voltage reference, 40V input, 10mA output, 1.5ppm/C drift, 2.5V output, MSOP-8
 K voltage reference vref
