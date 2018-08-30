@@ -636,6 +636,12 @@ K step down buck regulator
 F http://www.st.com/resource/en/datasheet/l5973d.pdf
 $ENDCMP
 #
+$CMP LD7575
+D Green-Mode PWM Controller with High-Voltage Start-Up Circuit, DIP-8/SOIC-8
+K smps controller
+F http://www.leadtrend.com.tw/archive/doc/product/sheets/LD7575-DS-04b.pdf
+$ENDCMP
+#
 $CMP LM25085MM
 D 42V Constant On-Time PFET Buck Switching Controller, MSOP-8
 K buck switching contoller
@@ -3682,6 +3688,35 @@ $CMP TL497A
 D 500 mA step up/step down switching regulator
 K buck regulator
 F http://www.ti.com/lit/ds/symlink/tl497a.pdf
+$ENDCMP
+#
+$CMP TLV61046ADB
+D 28-V Output Voltage Boost Converter with Power Diode and Isolation Switch, SOT-23-6
+K Step-Up DC-DC Converter
+F http://www.ti.com/lit/ds/symlink/tlv61046a.pdf
+$ENDCMP
+#
+$CMP TLV62080DSGx
+D High-efficiency Step-down Converter
+K Synchronous Buck
+F http://www.ti.com/lit/ds/symlink/tlv62080.pdf
+$ENDCMP
+#
+$CMP TLV62084ADSGx
+D High-efficiency Step-down Converter
+K Synchronous Buck
+F http://www.ti.com/lit/ds/symlink/tlv62080.pdf
+$ENDCMP
+#
+$CMP TLV62084DSGx
+D High-efficiency Step-down Converter
+K Synchronous Buck
+F http://www.ti.com/lit/ds/symlink/tlv62080.pdf
+$ENDCMP
+$CMP TLV62095RGTx
+D High efficiency step-down converter
+K Synchronous Buck
+F http://www.ti.com/lit/ds/symlink/tlv62095.pdf
 $ENDCMP
 #
 $CMP TMR_1-0511
