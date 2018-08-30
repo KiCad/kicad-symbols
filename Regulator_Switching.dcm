@@ -3690,6 +3690,12 @@ K buck regulator
 F http://www.ti.com/lit/ds/symlink/tl497a.pdf
 $ENDCMP
 #
+$CMP TLV61046ADB
+D 28-V Output Voltage Boost Converter with Power Diode and Isolation Switch, SOT-23-6
+K Step-Up DC-DC Converter
+F http://www.ti.com/lit/ds/symlink/tlv61046a.pdf
+$ENDCMP
+#
 $CMP TLV62080DSGx
 D High-efficiency Step-down Converter
 K Synchronous Buck
