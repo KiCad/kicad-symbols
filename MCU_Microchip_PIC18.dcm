@@ -162,6 +162,18 @@ K Flash-Based 8-Bit Microcontroller XLP
 F http://ww1.microchip.com/downloads/en/devicedoc/30000684B.pdf
 $ENDCMP
 #
+$CMP PIC18F2520-xML
+D MCU 32k Flash,1536b SRAM, 256b EEPROM, ADC, QFN-28
+K MCU 32k Flash,1536b SRAM, 256b EEPROM, ADC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/39631E.pdf
+$ENDCMP
+#
+$CMP PIC18F2520-xSP
+D MCU 32k Flash,1536b SRAM, 256b EEPROM, ADC, DIP-28
+K MCU 32k Flash,1536b SRAM, 256b EEPROM, ADC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/39631E.pdf
+$ENDCMP
+#
 $CMP PIC18F2550-ISO
 D 32K Flash, 2K SRAM, 256 EEPROM, USB, nanoWatt XLP, SOIC28
 K Flash-Based 8-Bit Microcontroller XLP
