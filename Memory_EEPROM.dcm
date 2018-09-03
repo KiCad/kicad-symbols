@@ -336,6 +336,12 @@ K EEPROM memory SPI serial
 F http://www.rohm.com/web/global/products/-/product/BR25G128F-3
 $ENDCMP
 #
+$CMP CAT24C128
+D 128 kb CMOS Serial EEPROM, SOIC-8/TSSOP-8/DFN-8
+K I2C EEPROM Serial 128kb
+F https://www.onsemi.com/pub/Collateral/CAT24C128-D.PDF
+$ENDCMP
+#
 $CMP CAT24C256
 D 256 kb CMOS Serial EEPROM, DIP-8/SOIC-8/TSSOP-8/DFN-8
 K I2C EEPROM Serial 256kb
