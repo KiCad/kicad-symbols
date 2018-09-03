@@ -79,13 +79,19 @@ F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.
 $ENDCMP
 #
 $CMP CD4051B
-D Dual 4-to-1 analog multiplexer demultiplexer
+D 8-to-1 analog multiplexer demultiplexer
 K analog switch selector multiplexer
 F http://www.ti.com/lit/ds/symlink/cd4052b.pdf
 $ENDCMP
 #
 $CMP CD4052B
-D Dual 4-to-1 analog multiplexer demultiplexer
+D Dual 4-to-1 analog multiplexer/demultiplexer
+K analog switch selector multiplexer
+F http://www.ti.com/lit/ds/symlink/cd4052b.pdf
+$ENDCMP
+#
+$CMP CD4053B
+D Three channel 2-to-1 analog multiplexer/demultiplexer
 K analog switch selector multiplexer
 F http://www.ti.com/lit/ds/symlink/cd4052b.pdf
 $ENDCMP
