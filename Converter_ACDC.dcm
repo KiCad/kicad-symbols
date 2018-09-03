@@ -48,10 +48,22 @@ K 12V 2W miniature AC-DC module-type power supply
 F http://www.meanwell.com/productPdf.aspx?i=675
 $ENDCMP
 #
+$CMP IRM-02-12S
+D 12V 2W miniature AC-DC module-type power supply MeanWell SMD
+K 12V 2W miniature AC-DC module-type power supply SMD
+F http://www.meanwell.com/scripts/resource/pdfViewer/web/viewer.html?f=IRM-02&pdf=IRM-02-SPEC.PDF&r=aHR0cDovL3d3dy5tZWFud2VsbC5jb20=
+$ENDCMP
+#
 $CMP IRM-02-15
 D 15V 2W miniature AC-DC module-type power supply MeanWell
 K 15V 2W miniature AC-DC module-type power supply
 F http://www.meanwell.com/productPdf.aspx?i=675
+$ENDCMP
+#
+$CMP IRM-02-15S
+D 15V 2W miniature AC-DC module-type power supply MeanWell SMD
+K 15V 2W miniature AC-DC module-type power supply SMD
+F http://www.meanwell.com/scripts/resource/pdfViewer/web/viewer.html?f=IRM-02&pdf=IRM-02-SPEC.PDF&r=aHR0cDovL3d3dy5tZWFud2VsbC5jb20=
 $ENDCMP
 #
 $CMP IRM-02-24
@@ -60,10 +72,22 @@ K 24V 2W miniature AC-DC module-type power supply
 F http://www.meanwell.com/productPdf.aspx?i=675
 $ENDCMP
 #
+$CMP IRM-02-24S
+D 24V 2W miniature AC-DC module-type power supply MeanWell SMD
+K 24V 2W miniature AC-DC module-type power supply SMD
+F http://www.meanwell.com/scripts/resource/pdfViewer/web/viewer.html?f=IRM-02&pdf=IRM-02-SPEC.PDF&r=aHR0cDovL3d3dy5tZWFud2VsbC5jb20=
+$ENDCMP
+#
 $CMP IRM-02-3.3
 D 3.3V 2W miniature AC-DC module-type power supply MeanWell
 K 3.3V 2W miniature AC-DC module-type power supply
 F http://www.meanwell.com/productPdf.aspx?i=675
+$ENDCMP
+#
+$CMP IRM-02-3.3S
+D 3.3V 2W miniature AC-DC module-type power supply MeanWell SMD
+K 3.3V 2W miniature AC-DC module-type power supply SMD
+F http://www.meanwell.com/scripts/resource/pdfViewer/web/viewer.html?f=IRM-02&pdf=IRM-02-SPEC.PDF&r=aHR0cDovL3d3dy5tZWFud2VsbC5jb20=
 $ENDCMP
 #
 $CMP IRM-02-5
@@ -72,10 +96,22 @@ K 5V 2W miniature AC-DC module-type power supply
 F http://www.meanwell.com/productPdf.aspx?i=675
 $ENDCMP
 #
+$CMP IRM-02-5S
+D 5V 2W miniature AC-DC module-type power supply MeanWell SMD
+K 5V 2W miniature AC-DC module-type power supply SMD
+F http://www.meanwell.com/scripts/resource/pdfViewer/web/viewer.html?f=IRM-02&pdf=IRM-02-SPEC.PDF&r=aHR0cDovL3d3dy5tZWFud2VsbC5jb20=
+$ENDCMP
+#
 $CMP IRM-02-9
 D 9V 2W miniature AC-DC module-type power supply MeanWell
 K 9V 2W miniature AC-DC module-type power supply
 F http://www.meanwell.com/productPdf.aspx?i=675
+$ENDCMP
+#
+$CMP IRM-02-9S
+D 9V 2W miniature AC-DC module-type power supply MeanWell SMD
+K 9V 2W miniature AC-DC module-type power supply SMD
+F http://www.meanwell.com/scripts/resource/pdfViewer/web/viewer.html?f=IRM-02&pdf=IRM-02-SPEC.PDF&r=aHR0cDovL3d3dy5tZWFud2VsbC5jb20=
 $ENDCMP
 #
 $CMP IRM-03-12S
@@ -139,38 +175,140 @@ F http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF
 $ENDCMP
 #
 $CMP TMLM04103
-D 3.3V 4W AC/DC power modules for PCB mounting
-K 3.3V 4W AC-DC module power supply
+D 3.3V 1200mA AC/DC low noise power module
+K Traco Power 4W AC-DC module power supply
 F https://www.tracopower.com/products/tmlm.pdf
 $ENDCMP
 #
 $CMP TMLM04105
-D 5V 4W AC/DC power modules for PCB mounting
-K 5V 4W AC/DC power module
+D 5V 800mA AC/DC low noise power module
+K Traco Power 4W AC-DC module power supply
 F https://www.tracopower.com/products/tmlm.pdf
 $ENDCMP
 #
 $CMP TMLM04109
-D 9V 4W AC/DC power modules for PCB mounting
-K 9V 4W AC/DC power module
+D 9V 444mA AC/DC low noise power module
+K Traco Power 4W AC-DC module power supply
 F https://www.tracopower.com/products/tmlm.pdf
 $ENDCMP
 #
 $CMP TMLM04112
-D 12V 4W AC/DC power modules for PCB mounting
-K 12V 4W AC/DC power module
+D 12V 333mA AC/DC low noise power module
+K Traco Power 4W AC-DC module power supply
 F https://www.tracopower.com/products/tmlm.pdf
 $ENDCMP
 #
 $CMP TMLM04115
-D 15V 4W AC/DC power modules for PCB mounting
-K 15V 4W AC/DC power module
+D 15V 267mA AC/DC low noise power module
+K Traco Power 4W AC-DC module power supply
 F https://www.tracopower.com/products/tmlm.pdf
 $ENDCMP
 #
 $CMP TMLM04124
-D 24V 4W AC/DC power modules for PCB mounting
-K 24V 4W AC/DC power module
+D 24V 167mA AC/DC low noise power module
+K Traco Power 4W AC-DC module power supply
+F https://www.tracopower.com/products/tmlm.pdf
+$ENDCMP
+#
+$CMP TMLM04225
+D 12V 250mA / 5V 120mA AC/DC dual output, low noise power module
+K Traco Power 4W AC-DC module power supply
+F https://www.tracopower.com/products/tmlm.pdf
+$ENDCMP
+#
+$CMP TMLM04253
+D 5V 600mA / 3.3V 150mA AC/DC dual output, low noise power module
+K Traco Power 4W AC-DC module power supply
+F https://www.tracopower.com/products/tmlm.pdf
+$ENDCMP
+#
+$CMP TMLM05103
+D 3.3V 1250mA AC/DC low noise power module
+K Traco Power 5W AC-DC module power supply
+F https://www.tracopower.com/products/tmlm.pdf
+$ENDCMP
+#
+$CMP TMLM05105
+D 5V 1000mA AC/DC low noise power module
+K Traco Power 5W AC-DC module power supply
+F https://www.tracopower.com/products/tmlm.pdf
+$ENDCMP
+#
+$CMP TMLM05112
+D 12V 420mA AC/DC low noise power module
+K Traco Power 5W AC-DC module power supply
+F https://www.tracopower.com/products/tmlm.pdf
+$ENDCMP
+#
+$CMP TMLM05115
+D 15V 333mA AC/DC low noise power module
+K Traco Power 5W AC-DC module power supply
+F https://www.tracopower.com/products/tmlm.pdf
+$ENDCMP
+#
+$CMP TMLM05124
+D 24V 230mA AC/DC low noise power module
+K Traco Power 5W AC-DC module power supply
+F https://www.tracopower.com/products/tmlm.pdf
+$ENDCMP
+#
+$CMP TMLM10103
+D 3.3V 2500mA AC/DC low noise power module
+K Traco Power 10W AC-DC module power supply
+F https://www.tracopower.com/products/tmlm.pdf
+$ENDCMP
+#
+$CMP TMLM10105
+D 5V 2000mA AC/DC low noise power module
+K Traco Power 10W AC-DC module power supply
+F https://www.tracopower.com/products/tmlm.pdf
+$ENDCMP
+#
+$CMP TMLM10112
+D 12V 833mA AC/DC low noise power module
+K Traco Power 10W AC-DC module power supply
+F https://www.tracopower.com/products/tmlm.pdf
+$ENDCMP
+#
+$CMP TMLM10115
+D 15V 667mA AC/DC low noise power module
+K Traco Power 10W AC-DC module power supply
+F https://www.tracopower.com/products/tmlm.pdf
+$ENDCMP
+#
+$CMP TMLM10124
+D 24V 417mA AC/DC low noise power module
+K Traco Power 10W AC-DC module power supply
+F https://www.tracopower.com/products/tmlm.pdf
+$ENDCMP
+#
+$CMP TMLM20103
+D 3.3V 3600mA AC/DC low noise power module
+K Traco Power 20W AC-DC module power supply
+F https://www.tracopower.com/products/tmlm.pdf
+$ENDCMP
+#
+$CMP TMLM20105
+D 5V 3600mA AC/DC low noise power module
+K Traco Power 20W AC-DC module power supply
+F https://www.tracopower.com/products/tmlm.pdf
+$ENDCMP
+#
+$CMP TMLM20112
+D 12V 1660mA AC/DC low noise power module
+K Traco Power 20W AC-DC module power supply
+F https://www.tracopower.com/products/tmlm.pdf
+$ENDCMP
+#
+$CMP TMLM20115
+D 12V 1330mA AC/DC low noise power module
+K Traco Power 20W AC-DC module power supply
+F https://www.tracopower.com/products/tmlm.pdf
+$ENDCMP
+#
+$CMP TMLM20124
+D 24V 833mA AC/DC low noise power module
+K Traco Power 20W AC-DC module power supply
 F https://www.tracopower.com/products/tmlm.pdf
 $ENDCMP
 #
