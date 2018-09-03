@@ -1306,6 +1306,12 @@ K NPN Transistor/NPN
 F https://www.fairchildsemi.com/datasheets/FF/FFB2222A.pdf
 $ENDCMP
 #
+$CMP FFB2227A
+D 500mA IC, 30V Vce, Dual NPN/PNP Transistors, SuperSOT-6
+K NPN Transistor/PNP
+F http://www.onsemi.com/pub/Collateral/FMB2227A-D.PDF
+$ENDCMP
+#
 $CMP FFB3904
 D 200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
 K NPN Transistor/NPN
@@ -1328,6 +1334,12 @@ $CMP FFB5551
 D 200mA IC, 160V Vce, Dual NPN/NPN Transistors, SOT-363
 K NPN Transistor/NPN
 F https://www.fairchildsemi.com/datasheets/FF/FFB5551.pdf
+$ENDCMP
+#
+$CMP FMB2227A
+D 500mA IC, 30V Vce, Dual NPN/PNP Transistors, SuperSOT-6
+K NPN Transistor/PNP
+F http://www.onsemi.com/pub/Collateral/FMB2227A-D.PDF
 $ENDCMP
 #
 $CMP KTD1624
