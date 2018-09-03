@@ -351,7 +351,7 @@ $ENDCMP
 $CMP BC846BPN
 D 100mA IC, 65V Vce, Dual NPN/PNP Transistors, SOT-363
 K NPN Transistor/PNP
-F http://www.nxp.com/documents/data_sheet/BC846BPN.pdf
+F https://assets.nexperia.com/documents/data-sheet/BC846BPN.pdf
 $ENDCMP
 #
 $CMP BC846BS
@@ -1307,7 +1307,7 @@ F https://www.fairchildsemi.com/datasheets/FF/FFB2222A.pdf
 $ENDCMP
 #
 $CMP FFB2227A
-D 500mA IC, 30V Vce, Dual NPN/PNP Transistors, SuperSOT-6
+D 500mA IC, 30V Vce, Dual NPN/PNP Transistors, SC-70-6
 K NPN Transistor/PNP
 F http://www.onsemi.com/pub/Collateral/FMB2227A-D.PDF
 $ENDCMP
@@ -1340,6 +1340,12 @@ $CMP FMB2227A
 D 500mA IC, 30V Vce, Dual NPN/PNP Transistors, SuperSOT-6
 K NPN Transistor/PNP
 F http://www.onsemi.com/pub/Collateral/FMB2227A-D.PDF
+$ENDCMP
+#
+$CMP FMB3946
+D 200mA IC, 40V Vce, Dual NPN/PNP Transistors, SuperSOT-6
+K NPN Transistor/PNP
+F https://www.fairchildsemi.com/datasheets/FF/FFB3946.pdf
 $ENDCMP
 #
 $CMP KTD1624
