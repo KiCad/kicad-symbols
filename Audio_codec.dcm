@@ -1,3 +1,33 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CS4245
+D 104 dB, 24-Bit, 192 kHz Stereo Audio CODEC, LQFP-48
+K audio codec 2ch 24bit 192kHz
+F https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/CS4245_F3.pdf
+$ENDCMP
+#
+$CMP CS8406
+D 192 kHz Digital Audio Interface Transmitter, SOIC-28/TSSOP-28
+K audio digital interface transmitter 192kHz
+F https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/CS8406_F6.pdf
+$ENDCMP
+#
+$CMP TLV320AIC23BPW
+D Stero Audio CODEC, 8- to 96-kHz, With Integrated Headphone Amplifier, TSSOP-28
+K audio codec 2ch 96kHz headphone amplifier
+F http://www.ti.com/lit/ds/symlink/tlv320aic23b.pdf
+$ENDCMP
+#
+$CMP TLV320AIC23BRHD
+D Stero Audio CODEC, 8- to 96-kHz, With Integrated Headphone Amplifier, QFN-28
+K audio codec 2ch 96kHz headphone amplifier
+F http://www.ti.com/lit/ds/symlink/tlv320aic23b.pdf
+$ENDCMP
+#
+$CMP TLV320AIC23BxQE
+D Stero Audio CODEC, 8- to 96-kHz, With Integrated Headphone Amplifier, BGA-32
+K audio codec 2ch 96kHz headphone amplifier
+F http://www.ti.com/lit/ds/symlink/tlv320aic23b.pdf
+$ENDCMP
+#
 #End Doc Library
