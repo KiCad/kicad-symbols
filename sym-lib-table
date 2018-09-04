@@ -15,7 +15,6 @@
   (lib (name Analog_ADC)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Analog_ADC.lib)(options "")(descr "Analog to digital converters"))
   (lib (name Analog_DAC)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Analog_DAC.lib)(options "")(descr "Digital to analog converters"))
   (lib (name Analog_Switch)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Analog_Switch.lib)(options "")(descr "Analog switches"))
-  (lib (name Audio)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Audio.lib)(options "")(descr "Audio devices"))
   (lib (name Battery_Management)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Battery_Management.lib)(options "")(descr "Battery management ICs"))
   (lib (name Comparator)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Comparator.lib)(options "")(descr "Comparator symbols"))
   (lib (name Connector)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connector.lib)(options "")(descr "Connector symbols (Examples: Terminal Block, D-SUB, DIN, USB...)"))
