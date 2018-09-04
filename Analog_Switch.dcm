@@ -78,6 +78,24 @@ K CMOS Analog Switch
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf
 $ENDCMP
 #
+$CMP CD4051B
+D CMOS single 8-channel analog multiplexer demultiplexer, TSSOP-16/DIP-16/SOIC-16
+K analog switch selector multiplexer
+F http://www.ti.com/lit/ds/symlink/cd4052b.pdf
+$ENDCMP
+#
+$CMP CD4052B
+D CMOS double 4-channel analog multiplexer/demultiplexer, TSSOP-16/DIP-16/SOIC-16
+K analog switch selector multiplexer
+F http://www.ti.com/lit/ds/symlink/cd4052b.pdf
+$ENDCMP
+#
+$CMP CD4053B
+D CMOS triple 2-channel analog multiplexer/demultiplexer, TSSOP-16/DIP-16/SOIC-16
+K analog switch selector multiplexer
+F http://www.ti.com/lit/ds/symlink/cd4052b.pdf
+$ENDCMP
+#
 $CMP DG308AxJ
 D Quad SPST Analog Switches, normally OFF, 60Ohm Ron, DIP-16
 K CMOS Analog Switch
