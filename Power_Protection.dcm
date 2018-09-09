@@ -246,6 +246,12 @@ K firewire ESD clamp
 F http://www.ti.com/lit/ds/symlink/tpd4s1394.pdf
 $ENDCMP
 #
+$CMP TPD6F003
+D 6 channel EMI filters with integrated ESD protection
+K EMI, ESD protection
+F http://www.ti.com/lit/ds/symlink/tpd6f003.pdf
+$ENDCMP
+#
 $CMP TPD8F003
 D 8 channel EMI filters with integrated ESD protection
 K EMI, ESD protection

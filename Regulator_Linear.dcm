@@ -2886,6 +2886,12 @@ K LDO Linear Regulator adjustable
 F http://www.ti.com/lit/ds/symlink/lp3966.pdf
 $ENDCMP
 #
+$CMP LP5907MFX-1.8
+D 250-mA Ultra-Low-Noise Low-IQ LDO
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
 $CMP LR8K4-G
 D 30mA 450V High-Voltage Linear Regulator (Adjustable), TO-252 (D-PAK)
 K High-Voltage Regulator Adjustable Positive
@@ -4026,148 +4032,244 @@ K regulator linear ldo
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22057B.pdf
 $ENDCMP
 #
-$CMP MIC5205-2.5
-D 150mA Low Dropout Voltage Regulator, Fixed Output 2.5V, SOT-23-5
-K 150mA Low-Noise LDO Linear Regulator Fixed Positive
-F http://ww1.microchip.com/downloads/en/devicedoc/mic5205.pdf
+$CMP MIC5205-2.5YM5
+D 150mA low dropout linear regulator, fixed 2.5V output, SOT-23-5
+K 150mA low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005785A.pdf
 $ENDCMP
 #
-$CMP MIC5205-2.7
-D 150mA Low Dropout Voltage Regulator, Fixed Output 2.7V, SOT-23-5
-K 150mA Low-Noise LDO Linear Regulator Fixed Positive
-F http://ww1.microchip.com/downloads/en/devicedoc/mic5205.pdf
+$CMP MIC5205-2.7YM5
+D 150mA low dropout linear regulator, fixed 2.7V output, SOT-23-5
+K 150mA low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005785A.pdf
 $ENDCMP
 #
-$CMP MIC5205-2.8
-D 150mA Low Dropout Voltage Regulator, Fixed Output 2.8V, SOT-23-5
-K 150mA Low-Noise LDO Linear Regulator Fixed Positive
-F http://ww1.microchip.com/downloads/en/devicedoc/mic5205.pdf
+$CMP MIC5205-2.8YM5
+D 150mA low dropout linear regulator, fixed 2.8V output, SOT-23-5
+K 150mA low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005785A.pdf
 $ENDCMP
 #
-$CMP MIC5205-2.85
-D 150mA Low Dropout Voltage Regulator, Fixed Output 2.85V, SOT-23-5
-K 150mA Low-Noise LDO Linear Regulator Fixed Positive
-F http://ww1.microchip.com/downloads/en/devicedoc/mic5205.pdf
+$CMP MIC5205-2.85YM5
+D 150mA low dropout linear regulator, fixed 2.85V output, SOT-23-5
+K 150mA low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005785A.pdf
 $ENDCMP
 #
-$CMP MIC5205-2.9
-D 150mA Low Dropout Voltage Regulator, Fixed Output 2.9V, SOT-23-5
-K 150mA Low-Noise LDO Linear Regulator Fixed Positive
-F http://ww1.microchip.com/downloads/en/devicedoc/mic5205.pdf
+$CMP MIC5205-2.9YM5
+D 150mA low dropout linear regulator, fixed 2.9V output, SOT-23-5
+K 150mA low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005785A.pdf
 $ENDCMP
 #
-$CMP MIC5205-3.0
-D 150mA Low Dropout Voltage Regulator, Fixed Output 3.0V, SOT-23-5
-K 150mA Low-Noise LDO Linear Regulator Fixed Positive
-F http://ww1.microchip.com/downloads/en/devicedoc/mic5205.pdf
+$CMP MIC5205-3.0YM5
+D 150mA low dropout linear regulator, fixed 3.0V output, SOT-23-5
+K 150mA low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005785A.pdf
 $ENDCMP
 #
-$CMP MIC5205-3.1
-D 150mA Low Dropout Voltage Regulator, Fixed Output 3.1V, SOT-23-5
-K 150mA Low-Noise LDO Linear Regulator Fixed Positive
-F http://ww1.microchip.com/downloads/en/devicedoc/mic5205.pdf
+$CMP MIC5205-3.1YM5
+D 150mA low dropout linear regulator, fixed 3.1V output, SOT-23-5
+K 150mA low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005785A.pdf
 $ENDCMP
 #
-$CMP MIC5205-3.2
-D 150mA Low Dropout Voltage Regulator, Fixed Output 3.2V, SOT-23-5
-K 150mA Low-Noise LDO Linear Regulator Fixed Positive
-F http://ww1.microchip.com/downloads/en/devicedoc/mic5205.pdf
+$CMP MIC5205-3.2YM5
+D 150mA low dropout linear regulator, fixed 3.2V output, SOT-23-5
+K 150mA low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005785A.pdf
 $ENDCMP
 #
-$CMP MIC5205-3.3
-D 150mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5
-K 150mA Low-Noise LDO Linear Regulator Fixed Positive
-F http://ww1.microchip.com/downloads/en/devicedoc/mic5205.pdf
+$CMP MIC5205-3.3YM5
+D 150mA low dropout linear regulator, fixed 3.3V output, SOT-23-5
+K 150mA low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005785A.pdf
 $ENDCMP
 #
-$CMP MIC5205-3.6
-D 150mA Low Dropout Voltage Regulator, Fixed Output 3.6V, SOT-23-5
-K 150mA Low-Noise LDO Linear Regulator Fixed Positive
-F http://ww1.microchip.com/downloads/en/devicedoc/mic5205.pdf
+$CMP MIC5205-3.6YM5
+D 150mA low dropout linear regulator, fixed 3.6V output, SOT-23-5
+K 150mA low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005785A.pdf
 $ENDCMP
 #
-$CMP MIC5205-3.8
-D 150mA Low Dropout Voltage Regulator, Fixed Output 3.8V, SOT-23-5
-K 150mA Low-Noise LDO Linear Regulator Fixed Positive
-F http://ww1.microchip.com/downloads/en/devicedoc/mic5205.pdf
+$CMP MIC5205-3.8YM5
+D 150mA low dropout linear regulator, fixed 3.8V output, SOT-23-5
+K 150mA low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005785A.pdf
 $ENDCMP
 #
-$CMP MIC5205-4.0
-D 150mA Low Dropout Voltage Regulator, Fixed Output 4.0V, SOT-23-5
-K 150mA Low-Noise LDO Linear Regulator Fixed Positive
-F http://ww1.microchip.com/downloads/en/devicedoc/mic5205.pdf
+$CMP MIC5205-4.0YM5
+D 150mA low dropout linear regulator, fixed 4.0V output, SOT-23-5
+K 150mA low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005785A.pdf
 $ENDCMP
 #
-$CMP MIC5205-5.0
-D 150mA Low Dropout Voltage Regulator, Fixed Output 5.0V, SOT-23-5
-K 150mA Low-Noise LDO Linear Regulator Fixed Positive
-F http://ww1.microchip.com/downloads/en/devicedoc/mic5205.pdf
+$CMP MIC5205-5.0YM5
+D 150mA low dropout linear regulator, fixed 5.0V output, SOT-23-5
+K 150mA low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005785A.pdf
 $ENDCMP
 #
-$CMP MIC5205-ADJ
-D 300mA low dropout linear regulator, shutdown pin, adjustable positive output, SOT-23-5
-K linear regulator ldo adjustable positive
-F http://ww1.microchip.com/downloads/en/devicedoc/mic5205.pdf
+$CMP MIC5205YM5
+D 150mA low dropout linear regulator, adjustable output, SOT-23-5
+K 150mA low-noise LDO linear voltage regulator adjustable positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005785A.pdf
 $ENDCMP
 #
-$CMP MIC5219-2.5
-D 500mA LDO fixed output voltage 2.5V ultra-low-noise, SOT-23-5
-K linear low dropout Regulator fixed ultra-low-noise
-F http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf
+$CMP MIC5219-2.5YM5
+D 500mA low dropout linear regulator, fixed 2.5V output, SOT-23-5
+K 500mA ultra-low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf
 $ENDCMP
 #
-$CMP MIC5219-2.6
-D 500mA LDO fixed output voltage 2.6V ultra-low-noise, SOT-23-5
-K linear low dropout Regulator fixed ultra-low-noise
-F http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf
+$CMP MIC5219-2.5YMM
+D 500mA low dropout linear regulator, fixed 2.5V output, MSOP-8
+K 500mA ultra-low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf
 $ENDCMP
 #
-$CMP MIC5219-2.7
-D 500mA LDO fixed output voltage 2.7V ultra-low-noise, SOT-23-5
-K linear low dropout Regulator fixed ultra-low-noise
-F http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf
+$CMP MIC5219-2.6YM5
+D 500mA low dropout linear regulator, fixed 2.6V output, SOT-23-5
+K 500mA ultra-low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf
 $ENDCMP
 #
-$CMP MIC5219-2.8
-D 500mA LDO fixed output voltage 2.8V ultra-low-noise, SOT-23-5
-K linear low dropout Regulator fixed ultra-low-noise
-F http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf
+$CMP MIC5219-2.7YM5
+D 500mA low dropout linear regulator, fixed 2.7V output, SOT-23-5
+K 500mA ultra-low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf
 $ENDCMP
 #
-$CMP MIC5219-2.9
-D 500mA LDO fixed output voltage 2.9V ultra-low-noise, SOT-23-5
-K linear low dropout Regulator fixed ultra-low-noise
-F http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf
+$CMP MIC5219-2.8YM5
+D 500mA low dropout linear regulator, fixed 2.8V output, SOT-23-5
+K 500mA ultra-low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf
 $ENDCMP
 #
-$CMP MIC5219-3.0
-D 500mA LDO fixed output voltage 3.0V ultra-low-noise, SOT-23-5
-K linear low dropout Regulator fixed ultra-low-noise
-F http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf
+$CMP MIC5219-2.85YM5
+D 500mA low dropout linear regulator, fixed 2.85V output, SOT-23-5
+K 500mA ultra-low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf
 $ENDCMP
 #
-$CMP MIC5219-3.1
-D 500mA LDO fixed output voltage 3.1V ultra-low-noise, SOT-23-5
-K linear low dropout Regulator fixed ultra-low-noise
-F http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf
+$CMP MIC5219-2.85YMM
+D 500mA low dropout linear regulator, fixed 2.85V output, MSOP-8
+K 500mA ultra-low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf
 $ENDCMP
 #
-$CMP MIC5219-3.3
-D 500mA LDO fixed output voltage 3.3V ultra-low-noise, SOT-23-5
-K linear low dropout Regulator fixed ultra-low-noise
-F http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf
+$CMP MIC5219-2.9YM5
+D 500mA low dropout linear regulator, fixed 2.9V output, SOT-23-5
+K 500mA ultra-low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf
 $ENDCMP
 #
-$CMP MIC5219-3.6
-D 500mA LDO fixed output voltage 3.6V ultra-low-noise, SOT-23-5
-K linear low dropout Regulator fixed ultra-low-noise
-F http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf
+$CMP MIC5219-3.0YM5
+D 500mA low dropout linear regulator, fixed 3.0V output, SOT-23-5
+K 500mA ultra-low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf
 $ENDCMP
 #
-$CMP MIC5219-5.0
-D 500mA LDO fixed output voltage 5.0V ultra-low-noise, SOT-23-5
-K linear low dropout Regulator fixed ultra-low-noise
-F http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf
+$CMP MIC5219-3.0YMM
+D 500mA low dropout linear regulator, fixed 3.0V output, MSOP-8
+K 500mA ultra-low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf
+$ENDCMP
+#
+$CMP MIC5219-3.1YM5
+D 500mA low dropout linear regulator, fixed 3.1V output, SOT-23-5
+K 500mA ultra-low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf
+$ENDCMP
+#
+$CMP MIC5219-3.3YM5
+D 500mA low dropout linear regulator, fixed 3.3V output, SOT-23-5
+K 500mA ultra-low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf
+$ENDCMP
+#
+$CMP MIC5219-3.3YMM
+D 500mA low dropout linear regulator, fixed 3.3V output, MSOP-8
+K 500mA ultra-low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf
+$ENDCMP
+#
+$CMP MIC5219-3.6YM5
+D 500mA low dropout linear regulator, fixed 3.6V output, SOT-23-5
+K 500mA ultra-low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf
+$ENDCMP
+#
+$CMP MIC5219-3.6YMM
+D 500mA low dropout linear regulator, fixed 3.6V output, MSOP-8
+K 500mA ultra-low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf
+$ENDCMP
+#
+$CMP MIC5219-5.0YM5
+D 500mA low dropout linear regulator, fixed 5.0V output, SOT-23-5
+K 500mA ultra-low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf
+$ENDCMP
+#
+$CMP MIC5219-5.0YMM
+D 500mA low dropout linear regulator, fixed 5.0V output, MSOP-8
+K 500mA ultra-low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf
+$ENDCMP
+#
+$CMP MIC5219YM5
+D 500mA low dropout linear regulator, adjustable output, SOT-23-5
+K 500mA ultra-low-noise LDO linear voltage regulator adjustable positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf
+$ENDCMP
+#
+$CMP MIC5219YMM
+D 500mA low dropout linear regulator, adjustable output, MSOP-8
+K 500mA ultra-low-noise LDO linear voltage regulator adjustable positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf
+$ENDCMP
+#
+$CMP MIC5353-1.8YMT
+D High-performance, single-output,  ultra-low  LDO regulator
+K Single LDO
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5353.pdf
+$ENDCMP
+#
+$CMP MIC5353-2.5YMT
+D High-performance, single-output,  ultra-low  LDO regulator
+K Single LDO
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5353.pdf
+$ENDCMP
+#
+$CMP MIC5353-2.6YMT
+D High-performance, single-output,  ultra-low  LDO regulator
+K Single LDO
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5353.pdf
+$ENDCMP
+#
+$CMP MIC5353-2.8YMT
+D High-performance, single-output,  ultra-low  LDO regulator
+K Single LDO
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5353.pdf
+$ENDCMP
+#
+$CMP MIC5353-3.0YMT
+D High-performance, single-output,  ultra-low  LDO regulator
+K Single LDO
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5353.pdf
+$ENDCMP
+#
+$CMP MIC5353-3.3YMT
+D High-performance, single-output,  ultra-low  LDO regulator
+K Single LDO
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5353.pdf
+$ENDCMP
+#
+$CMP MIC5353YMT
+D High-performance, single-output,  ultra-low  LDO regulator
+K Single LDO
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5353.pdf
 $ENDCMP
 #
 $CMP MIC5355-G4YMME
@@ -4390,6 +4492,12 @@ $CMP NCP1117-ADJ_TO252
 D 1A Low drop-out regulator, Adjustable Output 1.25 - 18.8V, TO-252 (DPAK)
 K REGULATOR LDO ADJUSTABLE
 F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP133AMX100TCG
+D 500  mA  VLDO  equipped  with  NMOS  pass transistor  and  a  separate  bias  supply  voltage
+K Single Output LDO
+F http://www.onsemi.com/pub/Collateral/NCP133-D.PDF
 $ENDCMP
 #
 $CMP OM1323_TO220
@@ -4936,6 +5044,12 @@ $CMP TLV71333PDBV
 D 150mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5
 K LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv713p.pdf
+$ENDCMP
+#
+$CMP TPS51200DRC
+D Sink and Source DDR Termination Regulator, VSON-10
+K DDR LDO
+F http://www.ti.com/lit/ds/symlink/tps51200.pdf
 $ENDCMP
 #
 $CMP TPS70202_HTSSOP20
