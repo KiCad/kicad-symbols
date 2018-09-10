@@ -1968,54 +1968,6 @@ K linear regulator ldo fixed positive low noise low quienscent current
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/29/10/f7/87/2f/66/47/f4/DM00076097.pdf/files/DM00076097.pdf/jcr:content/translations/en.DM00076097.pdf
 $ENDCMP
 #
-$CMP LK112M15TR
-D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 1.5V, SOT-23-5
-K LDO regulator voltage
-F https://www.st.com/resource/ja/datasheet/lk112.pdf
-$ENDCMP
-#
-$CMP LK112M18TR
-D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 1.8V, SOT-23-5
-K LDO regulator voltage
-F https://www.st.com/resource/ja/datasheet/lk112.pdf
-$ENDCMP
-#
-$CMP LK112M25TR
-D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 2.5V, SOT-23-5
-K LDO regulator voltage
-F https://www.st.com/resource/ja/datasheet/lk112.pdf
-$ENDCMP
-#
-$CMP LK112M33TR
-D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 3.3V, SOT-23-5
-K LDO regulator voltage
-F https://www.st.com/resource/ja/datasheet/lk112.pdf
-$ENDCMP
-#
-$CMP LK112M50TR
-D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 5.0V, SOT-23-5
-K LDO regulator voltage
-F https://www.st.com/resource/ja/datasheet/lk112.pdf
-$ENDCMP
-#
-$CMP LK112M55TR
-D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 5.5V, SOT-23-5
-K LDO regulator voltage
-F https://www.st.com/resource/ja/datasheet/lk112.pdf
-$ENDCMP
-#
-$CMP LK112M60TR
-D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 6.0V, SOT-23-5
-K LDO regulator voltage
-F https://www.st.com/resource/ja/datasheet/lk112.pdf
-$ENDCMP
-#
-$CMP LK112M80TR
-D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 8.0V, SOT-23-5
-K LDO regulator voltage
-F https://www.st.com/resource/ja/datasheet/lk112.pdf
-$ENDCMP
-#
 $CMP LF120_TO220
 D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 12.0V, TO-220
 K LDO regulator voltage
@@ -2146,6 +2098,54 @@ $CMP LF90_TO252
 D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 9.0V, TO-252 (DPAK)
 K LDO regulator voltage
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP LK112M15TR
+D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 1.5V, SOT-23-5
+K LDO regulator voltage
+F https://www.st.com/resource/ja/datasheet/lk112.pdf
+$ENDCMP
+#
+$CMP LK112M18TR
+D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 1.8V, SOT-23-5
+K LDO regulator voltage
+F https://www.st.com/resource/ja/datasheet/lk112.pdf
+$ENDCMP
+#
+$CMP LK112M25TR
+D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 2.5V, SOT-23-5
+K LDO regulator voltage
+F https://www.st.com/resource/ja/datasheet/lk112.pdf
+$ENDCMP
+#
+$CMP LK112M33TR
+D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 3.3V, SOT-23-5
+K LDO regulator voltage
+F https://www.st.com/resource/ja/datasheet/lk112.pdf
+$ENDCMP
+#
+$CMP LK112M50TR
+D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 5.0V, SOT-23-5
+K LDO regulator voltage
+F https://www.st.com/resource/ja/datasheet/lk112.pdf
+$ENDCMP
+#
+$CMP LK112M55TR
+D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 5.5V, SOT-23-5
+K LDO regulator voltage
+F https://www.st.com/resource/ja/datasheet/lk112.pdf
+$ENDCMP
+#
+$CMP LK112M60TR
+D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 6.0V, SOT-23-5
+K LDO regulator voltage
+F https://www.st.com/resource/ja/datasheet/lk112.pdf
+$ENDCMP
+#
+$CMP LK112M80TR
+D Low noise and low drop voltage regulator with shutdown function, 150mA, Vout = 8.0V, SOT-23-5
+K LDO regulator voltage
+F https://www.st.com/resource/ja/datasheet/lk112.pdf
 $ENDCMP
 #
 $CMP LM1084-3.3
@@ -4044,14 +4044,14 @@ K 150mA low-noise LDO linear voltage regulator fixed positive
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005785A.pdf
 $ENDCMP
 #
-$CMP MIC5205-2.8YM5
-D 150mA low dropout linear regulator, fixed 2.8V output, SOT-23-5
+$CMP MIC5205-2.85YM5
+D 150mA low dropout linear regulator, fixed 2.85V output, SOT-23-5
 K 150mA low-noise LDO linear voltage regulator fixed positive
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005785A.pdf
 $ENDCMP
 #
-$CMP MIC5205-2.85YM5
-D 150mA low dropout linear regulator, fixed 2.85V output, SOT-23-5
+$CMP MIC5205-2.8YM5
+D 150mA low dropout linear regulator, fixed 2.8V output, SOT-23-5
 K 150mA low-noise LDO linear voltage regulator fixed positive
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005785A.pdf
 $ENDCMP
@@ -4140,12 +4140,6 @@ K 500mA ultra-low-noise LDO linear voltage regulator fixed positive
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf
 $ENDCMP
 #
-$CMP MIC5219-2.8YM5
-D 500mA low dropout linear regulator, fixed 2.8V output, SOT-23-5
-K 500mA ultra-low-noise LDO linear voltage regulator fixed positive
-F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf
-$ENDCMP
-#
 $CMP MIC5219-2.85YM5
 D 500mA low dropout linear regulator, fixed 2.85V output, SOT-23-5
 K 500mA ultra-low-noise LDO linear voltage regulator fixed positive
@@ -4154,6 +4148,12 @@ $ENDCMP
 #
 $CMP MIC5219-2.85YMM
 D 500mA low dropout linear regulator, fixed 2.85V output, MSOP-8
+K 500mA ultra-low-noise LDO linear voltage regulator fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf
+$ENDCMP
+#
+$CMP MIC5219-2.8YM5
+D 500mA low dropout linear regulator, fixed 2.8V output, SOT-23-5
 K 500mA ultra-low-noise LDO linear voltage regulator fixed positive
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf
 $ENDCMP
@@ -5044,6 +5044,72 @@ $CMP TLV71333PDBV
 D 150mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5
 K LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv713p.pdf
+$ENDCMP
+#
+$CMP TLV75509PDBV
+D 500 mA Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 0.9V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
+$ENDCMP
+#
+$CMP TLV75510PDBV
+D 500 mA Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.0V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
+$ENDCMP
+#
+$CMP TLV75512PDBV
+D 500 mA Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
+$ENDCMP
+#
+$CMP TLV75515PDBV
+D 500 mA Low Dropout Voltage Regulator, Fixed Output 1.5V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
+$ENDCMP
+#
+$CMP TLV75518PDBV
+D 500 mA Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
+$ENDCMP
+#
+$CMP TLV75519PDBV
+D 500 mA Low Dropout Voltage Regulator, Fixed Output 1.9V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
+$ENDCMP
+#
+$CMP TLV75525PDBV
+D 500 mA Low Dropout Voltage Regulator, Fixed Output 2.5V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
+$ENDCMP
+#
+$CMP TLV75528PDBV
+D 500 mA Low Dropout Voltage Regulator, Fixed Output 2.8V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
+$ENDCMP
+#
+$CMP TLV75529PDBV
+D 500 mA Low Dropout Voltage Regulator, Fixed Output 2.9V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
+$ENDCMP
+#
+$CMP TLV75530PDBV
+D 500 mA Low Dropout Voltage Regulator, Fixed Output 3.0V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
+$ENDCMP
+#
+$CMP TLV75533PDBV
+D 500 mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
 $ENDCMP
 #
 $CMP TPS51200DRC
