@@ -5058,6 +5058,12 @@ K LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
 $ENDCMP
 #
+$CMP TLV75512PDBV
+D 500 mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
+$ENDCMP
+#
 $CMP TLV75515PDBV
 D 500 mA Low Dropout Voltage Regulator, Fixed Output 1.5V, SOT-23-5
 K LDO Regulator Fixed Positive
