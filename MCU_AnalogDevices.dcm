@@ -6,4 +6,10 @@ K 8051 CORE MCU ADC DAC
 F http://www.analog.com/static/imported-files/data_sheets/ADUC816.pdf
 $ENDCMP
 #
+$CMP ADuCM4050BCPZ
+D Ultra Low Power Arm Cortex-M4F MCU with Integrated Power Management
+K MCU M4F
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuCM4050.pdf
+$ENDCMP
+#
 #End Doc Library
