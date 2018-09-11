@@ -1392,6 +1392,18 @@ K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/FD/FDS9934C.pdf
 $ENDCMP
 #
+$CMP IPD50R380CE
+D 14.1A Id, 500V Vds, CoolMOS N-Channel Power MOSFET, 380mOhm Ron, 24.8nC Qg (typ), TO-252-2
+K CoolMOS Power MOSFET N-MOS
+F https://www.infineon.com/dgdl/Infineon-IPD50R380CE-DS-v02_01-en.pdf?fileId=db3a30433ecb86d4013ed0a2ef580f38
+$ENDCMP
+#
+$CMP IPD50R3K0CE
+D 1.7A Id, 500V Vds, CoolMOS N-Channel Power MOSFET, 3Ohm Ron, 4.3nC Qg (typ), TO-252-2
+K CoolMOS Power MOSFET N-MOS
+F https://www.infineon.com/dgdl/IPx50R3K0CE_2_0.pdf?folderId=db3a3043163797a6011637d4bae7003b&fileId=db3a304339dcf4b10139e7e9ff592ce4
+$ENDCMP
+#
 $CMP IPDD60R050G7
 D 47A Id, 600V Vds, 50mOhm, N-channel MOSFET, CoolMOS G7, PG-HDSOP-10-1 (DDPAK)
 K N-Channel MOSFET
@@ -1426,18 +1438,6 @@ $CMP IPDD60R190G7
 D 13A Id, 600V Vds, 190mOhm, N-channel MOSFET, CoolMOS G7, PG-HDSOP-10-1 (DDPAK)
 K N-Channel MOSFET
 F https://www.infineon.com/dgdl/Infineon-IPDD60R190G7-DS-v02_00-EN.pdf?fileId=5546d4626102d35a01617087dc0f79ea
-$ENDCMP
-#
-$CMP IPD50R380CE
-D 14.1A Id, 500V Vds, CoolMOS N-Channel Power MOSFET, 380mOhm Ron, 24.8nC Qg (typ), TO-252-2
-K CoolMOS Power MOSFET N-MOS
-F https://www.infineon.com/dgdl/Infineon-IPD50R380CE-DS-v02_01-en.pdf?fileId=db3a30433ecb86d4013ed0a2ef580f38
-$ENDCMP
-#
-$CMP IPD50R3K0CE
-D 1.7A Id, 500V Vds, CoolMOS N-Channel Power MOSFET, 3Ohm Ron, 4.3nC Qg (typ), TO-252-2
-K CoolMOS Power MOSFET N-MOS
-F https://www.infineon.com/dgdl/IPx50R3K0CE_2_0.pdf?folderId=db3a3043163797a6011637d4bae7003b&fileId=db3a304339dcf4b10139e7e9ff592ce4
 $ENDCMP
 #
 $CMP IPT012N08N5
@@ -2076,6 +2076,18 @@ K P-Channel MOSFET
 F http://www.onsemi.com/pub/Collateral/NTR2101P-D.PDF
 $ENDCMP
 #
+$CMP PGA26E07BA
+D 26A Id, 600V Vds, 56mOhm, N-channel GaN MOSFET, DFN-8
+K N-Channel GaN MOSFET
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/PGA26E07BA_E.pdf
+$ENDCMP
+#
+$CMP PGA26E19BA
+D 13A Id, 600V Vds, 140mOhm, N-channel GaN MOSFET, DFN-8
+K N-Channel GaN MOSFET
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/PGA26E19BA_E.pdf
+$ENDCMP
+#
 $CMP PSMN5R2-60YL
 D 100A, 60V Vds, N-Channel MOSFET, 5.2mOhm Ron, LFPAK56
 K N-Channel MOSFET
@@ -2092,18 +2104,6 @@ $CMP QM6015D
 D -35A Id, -60V Vds, P-Channel Power MOSFET, 25mOhm Ron, 25.0nC Qg (typ), TO252
 K P-Channel MOSFET
 F http://www.jaolen.com/images/pdf/QM6015D.pdf
-$ENDCMP
-#
-$CMP PGA26E07BA
-D 26A Id, 600V Vds, 56mOhm, N-channel GaN MOSFET, DFN-8
-K N-Channel GaN MOSFET
-F https://industrial.panasonic.com/content/data/SC/ds/ds4/PGA26E07BA_E.pdf
-$ENDCMP
-#
-$CMP PGA26E19BA
-D 13A Id, 600V Vds, 140mOhm, N-channel GaN MOSFET, DFN-8
-K N-Channel GaN MOSFET
-F https://industrial.panasonic.com/content/data/SC/ds/ds4/PGA26E19BA_E.pdf
 $ENDCMP
 #
 $CMP STS2DNE60
@@ -2176,6 +2176,12 @@ $CMP Si4542DY
 D Dual N and P Channel MOSFET, 6A Id, 30V Vds, 28mOhm Ron, 10V Vgs, SO8L
 K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/SI/SI4542DY.pdf
+$ENDCMP
+#
+$CMP Si7336ADP
+D 30A Id, 30V Vds, 2.4 mOhm Ron, SO-8
+K N-Channel MOSFET
+F www.vishay.com/docs/73152/si7336adp.pdf
 $ENDCMP
 #
 $CMP SiA453EDJ
