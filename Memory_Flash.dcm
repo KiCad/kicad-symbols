@@ -62,6 +62,12 @@ K Atmel DataFlash
 F http://ww1.microchip.com/downloads/en/devicedoc/doc2224.pdf
 $ENDCMP
 #
+$CMP IS25WP256D
+D SERIAL FLASH MEMORY WITH 166/133MHZ MULTI I/O SPI&QUAD I/O QPI DTR INTERFACE
+K QSPI NOR FLASH
+F http://www.issi.com/WW/pdf/IS25LP(WP)256D.pdf
+$ENDCMP
+#
 $CMP M25PX32-VMP
 D 32Mb, Dual I/O, 4KB Subsector Erase, 3V Serial Flash Memory with 75 MHz SPI Bus Interface, QFN package
 K NOR Serial Flash Embedded Memory
