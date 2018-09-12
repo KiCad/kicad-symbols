@@ -414,6 +414,12 @@ K high-voltage hot-swap
 F http://cds.linear.com/docs/en/datasheet/164112fc.pdf
 $ENDCMP
 #
+$CMP LTC4242CUHF
+D Hot-Swap Power Controller, QFN
+K Dual-Slot PCIe
+F http://www.analog.com/media/en/technical-documentation/data-sheets/4242f.pdf
+$ENDCMP
+#
 $CMP LTC4357DCB
 D Ideal diode controller, 9-80V operation, DFN-6 package
 K ideal-diode or-ing
