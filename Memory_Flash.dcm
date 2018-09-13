@@ -20,6 +20,18 @@ $CMP AM29PDL128G
 D 128 Megabit (8 M x 16-Bit/4 M x 32-Bit), Simultaneous Operation Flash Memory with VersatileIO™ Control
 $ENDCMP
 #
+$CMP AT25SF081-SSHD-X
+D 8-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support
+K SPI DSPI QSPI 8Mbit 2.5V
+F https://www.mouser.com/datasheet/2/590/DS-AT25SF081_045-1385733.pdf
+$ENDCMP
+#
+$CMP AT25SF081-XMHD-X
+D 8-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support
+K SPI DSPI QSPI 8Mbit 2.5V
+F https://www.mouser.com/datasheet/2/590/DS-AT25SF081_045-1385733.pdf
+$ENDCMP
+#
 $CMP AT45DB161-JC
 D 16Mb Serial DataFlash, 2.7V Vcc, PLCC-32
 K Atmel DataFlash
