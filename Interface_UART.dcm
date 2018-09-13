@@ -232,8 +232,8 @@ F https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf
 $ENDCMP
 #
 $CMP MAX3218
-D RS-232 Transceiver, 1.8V to 4.25V-Powered
-K 1μA Supply Current, AutoShutdown
+D Dual RS-232 Transceiver, 1.8V to 4.25V, AutoShutdown, DIP-20/SSOP-20
+K 1μA Supply Current
 F https://datasheets.maximintegrated.com/en/ds/MAX3218.pdf
 $ENDCMP
 #
