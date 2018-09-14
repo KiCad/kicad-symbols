@@ -228,6 +228,36 @@ K linear regulator ldo fixed positive
 F http://www.diodes.com/_files/datasheets/AP131.pdf
 $ENDCMP
 #
+$CMP AP2112K-1.2
+D 600mA low dropout linear regulator, with enable pin, 2.5V-6V input voltage range, 1.2V fixed positive output, SOT-23-5 package
+K linear regulator ldo fixed positive
+F https://www.diodes.com/assets/Datasheets/AP2112.pdf
+$ENDCMP
+#
+$CMP AP2112K-1.8
+D 600mA low dropout linear regulator, with enable pin, 2.5V-6V input voltage range, 1.8V fixed positive output, SOT-23-5 package
+K linear regulator ldo fixed positive
+F https://www.diodes.com/assets/Datasheets/AP2112.pdf
+$ENDCMP
+#
+$CMP AP2112K-2.5
+D 600mA low dropout linear regulator, with enable pin, 3V-6V input voltage range, 2.5V fixed positive output, SOT-23-5 package
+K linear regulator ldo fixed positive
+F https://www.diodes.com/assets/Datasheets/AP2112.pdf
+$ENDCMP
+#
+$CMP AP2112K-2.6
+D 600mA low dropout linear regulator, with enable pin, 3.1V-6V input voltage range, 2.6V fixed positive output, SOT-23-5 package
+K linear regulator ldo fixed positive
+F https://www.diodes.com/assets/Datasheets/AP2112.pdf
+$ENDCMP
+#
+$CMP AP2112K-3.3
+D 600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5 package
+K linear regulator ldo fixed positive
+F https://www.diodes.com/assets/Datasheets/AP2112.pdf
+$ENDCMP
+#
 $CMP AP2127K-1.0
 D 300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 1.0V fixed positive output, SOT-23-5 package
 K linear regulator ldo fixed positive
