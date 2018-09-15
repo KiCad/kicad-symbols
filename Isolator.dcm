@@ -181,26 +181,26 @@ F http://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1410_14
 $ENDCMP
 #
 $CMP ADuM5401
-D isoPower quad digital isolator, 3/1, SOIC-16
-K digital isolator galvanic
+D Quad-Channel 2.5kV isolator with integrated isoPower dc-dc converter, 3 Input / 1 output, SOIC-16
+K digital isolator galvanic isopower
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM5401_5402_5403_5404.pdf
 $ENDCMP
 #
 $CMP ADuM5402
-D isoPower quad digital isolator, 2/2,  SOIC-16
-K digital isolator galvanic
+D Quad-Channel 2.5kV isolator with integrated isoPower dc-dc converter, 2 Input / 2 output, SOIC-16
+K digital isolator galvanic isopower
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM5401_5402_5403_5404.pdf
 $ENDCMP
 #
 $CMP ADuM5403
-D isoPower quad digital isolator, 1/3, SOIC-16
-K digital isolator galvanic
+D Quad-Channel 2.5kV isolator with integrated isoPower dc-dc converter, 1 Input / 3 output, SOIC-16
+K digital isolator galvanic isopower
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM5401_5402_5403_5404.pdf
 $ENDCMP
 #
 $CMP ADuM5404
-D isoPower quad digital isolator, 0/4, SOIC-16
-K digital isolator galvanic
+D Quad-Channel 2.5kV isolator with integrated isoPower dc-dc converter, 0 Input / 4 output, SOIC-16
+K digital isolator galvanic isopower
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM5401_5402_5403_5404.pdf
 $ENDCMP
 #
