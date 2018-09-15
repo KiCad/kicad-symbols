@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BD8314NUV
+D 3.0V to 12V, Integrated 2.5A MOSFET 1ch Boost Converter
+K DCDC converter
+F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/switching_regulator/bd8314nuv-e.pdf
+$ENDCMP
+#
 $CMP TC7662AxPA
 D Charge Pump DC-to-DC Converter, 3 - 18V, 40mA, DIP-8
 K charge pump DC-to-DC converter
