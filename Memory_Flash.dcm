@@ -21,7 +21,7 @@ D 128 Megabit (8 M x 16-Bit/4 M x 32-Bit), Simultaneous Operation Flash Memory w
 $ENDCMP
 #
 $CMP AT25SF081-SSHD-X
-D 8-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support
+D 8-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC
 K SPI DSPI QSPI 8Mbit 2.5V
 F https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf
 $ENDCMP
@@ -33,7 +33,7 @@ F https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf
 $ENDCMP
 #
 $CMP AT25SF081-XMHD-X
-D 8-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support
+D 8-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, TSSOP
 K SPI DSPI QSPI 8Mbit 2.5V
 F https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf
 $ENDCMP
