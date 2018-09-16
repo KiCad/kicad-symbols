@@ -1581,13 +1581,13 @@ $ENDCMP
 $CMP USB_C_Plug
 D USB Type-C Plug connector
 K usb universal serial bus
-F http://www.usb.org/developers/docs/usb_31_033017.zip
+F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
 $ENDCMP
 #
 $CMP USB_C_Receptacle
 D USB Type-C Receptacle connector
 K usb universal serial bus
-F http://www.usb.org/developers/docs/usb_31_033017.zip
+F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
 $ENDCMP
 #
 $CMP USB_OTG
