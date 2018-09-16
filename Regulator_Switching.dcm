@@ -3713,6 +3713,7 @@ D High-efficiency Step-down Converter
 K Synchronous Buck
 F http://www.ti.com/lit/ds/symlink/tlv62080.pdf
 $ENDCMP
+#
 $CMP TLV62095RGTx
 D High efficiency step-down converter
 K Synchronous Buck
@@ -5148,19 +5149,19 @@ F http://www.ti.com/lit/ds/symlink/tps63060.pdf
 $ENDCMP
 #
 $CMP TPS82130
-D 17V Input 3A Step-Down Converter MicroSiP Module with Integrated Inductor
+D 17V Input 3A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8
 K 17V 3A Step-down Buck Module
 F http://www.ti.com/lit/ds/symlink/tps82130.pdf
 $ENDCMP
 #
 $CMP TPS82140
-D 17V Input 2A Step-Down Converter MicroSiP Module with Integrated Inductor
+D 17V Input 2A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8
 K 17V 2A Step-down Buck Module
 F http://www.ti.com/lit/ds/symlink/tps82140.pdf
 $ENDCMP
 #
 $CMP TPS82150
-D 17V Input 1A Step-Down Converter MicroSiP Module with Integrated Inductor
+D 17V Input 1A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8
 K 17V 1A Step-down Buck Module
 F http://www.ti.com/lit/ds/symlink/tps82150.pdf
 $ENDCMP
