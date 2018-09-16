@@ -72,6 +72,42 @@ K ETH PHY RMII
 F http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf
 $ENDCMP
 #
+$CMP LAN9512
+D Two USB 2.0 hub with an integrated 10/100 Ethernet controller (0°C to +70°C), QFN-48
+K USB HUB Ethernet 10/100
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00002304A.pdf
+$ENDCMP
+#
+$CMP LAN9512i
+D Two USB 2.0 hub with an integrated 10/100 Ethernet controller (-40° to 85°C), QFN-48
+K USB HUB Ethernet 10/100
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00002304A.pdf
+$ENDCMP
+#
+$CMP LAN9513
+D Three USB 2.0 hub with an integrated 10/100 Ethernet controller (0°C to +70°C), QFN-48
+K USB HUB Ethernet 10/100
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00002305A.pdf
+$ENDCMP
+#
+$CMP LAN9513i
+D Three USB 2.0 hub with an integrated 10/100 Ethernet controller (-40° to 85°C), QFN-48
+K USB HUB Ethernet 10/100
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00002305A.pdf
+$ENDCMP
+#
+$CMP LAN9514
+D Four USB 2.0 hub with an integrated 10/100 Ethernet controller (0°C to +70°C), QFN-48
+K USB HUB Ethernet 10/100
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00002306A.pdf
+$ENDCMP
+#
+$CMP LAN9514i
+D Four USB 2.0 hub with an integrated 10/100 Ethernet controller (-40° to 85°C), QFN-48
+K USB HUB Ethernet 10/100
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00002306A.pdf
+$ENDCMP
+#
 $CMP W5100
 D 10/100Mb Ethernet controller with TCP/IP stack, LQFP-80
 K Wiznet Ethernet controller
