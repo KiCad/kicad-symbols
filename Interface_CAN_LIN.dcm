@@ -282,6 +282,54 @@ K can transeiver ti
 F http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf
 $ENDCMP
 #
+$CMP TCAN330
+D High-Speed CAN Transceiver, 1Mbps, 3.3V supply, silent mode, shutdown mode, SOT-23-8/SOIC-8
+K High-Speed CAN Transceiver
+F http://www.ti.com/lit/ds/symlink/tcan337.pdf
+$ENDCMP
+#
+$CMP TCAN330G
+D High-Speed CAN Transceiver with CAN FD, 5Mbps, 3.3V supply, silent mode, shutdown mode, SOT-23-8/SOIC-8
+K High-Speed CAN Transceiver
+F http://www.ti.com/lit/ds/symlink/tcan337.pdf
+$ENDCMP
+#
+$CMP TCAN332
+D High-Speed CAN Transceiver, 1Mbps, 3.3V supply, SOT-23-8/SOIC-8
+K High-Speed CAN Transceiver
+F http://www.ti.com/lit/ds/symlink/tcan337.pdf
+$ENDCMP
+#
+$CMP TCAN332G
+D High-Speed CAN Transceiver with CAN FD, 5Mbps, 3.3V supply, SOT-23-8/SOIC-8
+K High-Speed CAN Transceiver
+F http://www.ti.com/lit/ds/symlink/tcan337.pdf
+$ENDCMP
+#
+$CMP TCAN334
+D High-Speed CAN Transceiver, 1Mbps, 3.3V supply, low power standby mode, shutdown mode, SOT-23-8/SOIC-8
+K High-Speed CAN Transceiver
+F http://www.ti.com/lit/ds/symlink/tcan337.pdf
+$ENDCMP
+#
+$CMP TCAN334G
+D High-Speed CAN Transceiver with CAN FD, 5Mbps, 3.3V supply, low power standby mode, shutdown mode, SOT-23-8/SOIC-8
+K High-Speed CAN Transceiver
+F http://www.ti.com/lit/ds/symlink/tcan337.pdf
+$ENDCMP
+#
+$CMP TCAN337
+D High-Speed CAN Transceiver, 1Mbps, 3.3V supply, silent mode, fault output, SOT-23-8/SOIC-8
+K High-Speed CAN Transceiver
+F http://www.ti.com/lit/ds/symlink/tcan337.pdf
+$ENDCMP
+#
+$CMP TCAN337G
+D High-Speed CAN Transceiver with CAN FD, 5Mbps, 3.3V supply, silent mode, fault output, SOT-23-8/SOIC-8
+K High-Speed CAN Transceiver
+F http://www.ti.com/lit/ds/symlink/tcan337.pdf
+$ENDCMP
+#
 $CMP TJA1021T
 D LIN 2.1/SAE J2602 transceiver, SOIC-8
 K LIN 2.1 SAE J2602 Transceiver
