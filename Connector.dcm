@@ -1584,6 +1584,12 @@ K usb universal serial bus
 F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
 $ENDCMP
 #
+$CMP USB_C_Plug_USB2.0
+D USB 2.0-only Type-C Plug connector
+K usb universal serial bus type-C USB2.0
+F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+$ENDCMP
+#
 $CMP USB_C_Receptacle
 D USB Full-Featured Type-C Receptacle connector
 K usb universal serial bus type-C full-featured
