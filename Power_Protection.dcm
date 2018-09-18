@@ -6,6 +6,12 @@ K ESD Protection diodes transient suppressor
 F http://www.onsemi.com/pub_link/Collateral/CM1213A-D.PDF
 $ENDCMP
 #
+$CMP EMI2121MTTAG
+D Single Pair Common Mode Filter with ESD Protection
+K Common Mode ESD
+F https://www.onsemi.com/pub/Collateral/EMI2121MT-D.PDF
+$ENDCMP
+#
 $CMP ESDA6V1-5SC6
 D Quintuple bidirectional transil, Suppressor for ESD protection, 6V1 Breakdown, SOT-23-6
 K ESD protection suppression transient
