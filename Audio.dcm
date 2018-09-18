@@ -264,12 +264,6 @@ K audio codec 2ch 96kHz headphone amplifier
 F http://www.ti.com/lit/ds/symlink/tlv320aic23b.pdf
 $ENDCMP
 #
-$CMP TPA3126D2
-D 50-W Stereo, Analog-Input, Class-D Audio Amplifier with Low, 15-mA Idle, HTSSOP-32
-K class-D stereo audio amplifier
-F http://www.ti.com/lit/ds/symlink/tpa3126d2.pdf
-$ENDCMP
-#
 $CMP TPA5050
 D Stereo Digital Audio Lip-Sync Delay Processor With I2C Control, QFN-16
 K audio delay

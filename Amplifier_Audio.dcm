@@ -378,4 +378,10 @@ K audio vca
 F http://www.thatcorp.com/datashts/THAT_2181-Series_Datasheet.pdf
 $ENDCMP
 #
+$CMP TPA3126D2
+D 50-W Stereo, Analog-Input, Class-D Audio Amplifier with Low, 15-mA Idle, HTSSOP-32
+K class-D stereo audio amplifier
+F http://www.ti.com/lit/ds/symlink/tpa3126d2.pdf
+$ENDCMP
+#
 #End Doc Library
