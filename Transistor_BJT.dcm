@@ -1486,6 +1486,12 @@ K PNP High Voltage Transistor
 F http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF
 $ENDCMP
 #
+$CMP PBSS301PZ
+D -5.7A Ic, -12V Vce, Small Signal PNP Transistor, SOT-223
+K PNP Transistor
+F https://assets.nexperia.com/documents/data-sheet/PBSS301PZ.pdf
+$ENDCMP
+#
 $CMP PMBT2222AYS
 D 600mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
 K NPN Transistor/NPN
