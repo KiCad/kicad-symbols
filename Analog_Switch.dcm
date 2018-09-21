@@ -378,6 +378,12 @@ K Video Multiplexer analog switch
 F https://www.intersil.com/content/dam/Intersil/documents/hi-5/hi-524.pdf
 $ENDCMP
 #
+$CMP MAX14763
+D Above- and Below-the-Rails Low On-Resistance Analog Switches, 10-TDFN
+K analog switch low resistance above below rails
+F https://datasheets.maximintegrated.com/en/ds/MAX14759-MAX14763.pdf
+$ENDCMP
+#
 $CMP MAX312CPE
 D Quad SPST CMOS Analog Switches, normally ON, 6.5Ohm Ron, DIP-16
 K CMOS Analog Switch
