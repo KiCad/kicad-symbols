@@ -175,19 +175,31 @@ F http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF
 $ENDCMP
 #
 $CMP RAC01-05SGB
-D AC/DC 5V power supply with regulated and short-circuit-proof isolated DC outputs and low standby power consumption.
+D 1 Watt Single Output EMC Class B AC/DC 5V 200mA power supply with regulated and short-circuit-proof isolated DC outputs and low standby power consumption.
 K ac dc power supply
 F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC01-GB.pdf
 $ENDCMP
 #
 $CMP RAC01-12SGB
-D AC/DC 12V power supply with regulated and short-circuit-proof isolated DC outputs and low standby power consumption.
+D 1 Watt Single Output EMC Class B AC/DC 12V 83mA power supply with regulated and short-circuit-proof isolated DC outputs and low standby power consumption.
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC01-GB.pdf
+$ENDCMP
+#
+$CMP RAC01-24SGB
+D 1 Watt Single Output EMC Class B AC/DC 24V 42mA power supply with regulated and short-circuit-proof isolated DC outputs and low standby power consumption.
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC01-GB.pdf
+$ENDCMP
+#
+$CMP RAC01-3.3SGB
+D 1 Watt Single Output EMC Class B AC/DC 3.3V 303mA power supply with regulated and short-circuit-proof isolated DC outputs and low standby power consumption.
 K ac dc power supply
 F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC01-GB.pdf
 $ENDCMP
 #
 $CMP RAC01-xxSGB
-D AC/DC power supply with regulated and short-circuit-proof isolated DC outputs and low standby power consumption.
+D 1 Watt Single Output EMC Class B AC/DC power supply with regulated and short-circuit-proof isolated DC outputs and low standby power consumption.
 K ac dc power supply
 F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC01-GB.pdf
 $ENDCMP
