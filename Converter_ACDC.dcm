@@ -204,6 +204,90 @@ K ac dc power supply
 F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC01-GB.pdf
 $ENDCMP
 #
+$CMP RAC04-05SGA
+D 4 Watt Single Output EMC Class A - 5V 800mA
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GA.pdf
+$ENDCMP
+#
+$CMP RAC04-05SGB
+D 4 Watt Single Output EMC Class B - 5V 800mA
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GB.pdf
+$ENDCMP
+#
+$CMP RAC04-09SGA
+D 4 Watt Single Output EMC Class A - 9V 440mA
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GA.pdf
+$ENDCMP
+#
+$CMP RAC04-09SGB
+D 4 Watt Single Output EMC Class B - 9V 440mA
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GB.pdf
+$ENDCMP
+#
+$CMP RAC04-12SGA
+D 4 Watt Single Output EMC Class A - 12V 330mA
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GA.pdf
+$ENDCMP
+#
+$CMP RAC04-12SGB
+D 4 Watt Single Output EMC Class B - 12V 330mA
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GB.pdf
+$ENDCMP
+#
+$CMP RAC04-15SGA
+D 4 Watt Single Output EMC Class A - 15V 270mA
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GA.pdf
+$ENDCMP
+#
+$CMP RAC04-15SGB
+D 4 Watt Single Output EMC Class B - 15V 270mA
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GB.pdf
+$ENDCMP
+#
+$CMP RAC04-24SGA
+D 4 Watt Single Output EMC Class A - 24V 170mA
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GA.pdf
+$ENDCMP
+#
+$CMP RAC04-24SGB
+D 4 Watt Single Output EMC Class B - 24V 170mA
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GB.pdf
+$ENDCMP
+#
+$CMP RAC04-3.3SGA
+D 4 Watt Single Output EMC Class A - 3.3V 1210mA
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GA.pdf
+$ENDCMP
+#
+$CMP RAC04-3.3SGB
+D 4 Watt Single Output EMC Class B - 3.3V 1210mA
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GB.pdf
+$ENDCMP
+#
+$CMP RAC04-xxSGA
+D 4 Watt Single Output EMC Class A
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GA.pdf
+$ENDCMP
+#
+$CMP RAC04-xxSGB
+D 4 Watt Single Output EMC Class B
+K ac dc power supply
+F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC04-GB.pdf
+$ENDCMP
+#
 $CMP TMLM04103
 D 3.3V 1200mA AC/DC low noise power module
 K Traco Power 4W AC-DC module power supply
