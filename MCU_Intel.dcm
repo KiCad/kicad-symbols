@@ -6,6 +6,12 @@ K MPRO
 F http://datasheets.chipdb.org/Intel/x86/8018x/datashts/27243002.PDF
 $ENDCMP
 #
+$CMP 80188
+D High-Integration 16-Bit Microprocessor
+K MPRO
+F http://datasheets.chipdb.org/Intel/x86/8018x/datashts/27243002.PDF
+$ENDCMP
+#
 $CMP 8035
 D MCS-48 8-bit Microcontroller, No (EP)ROM, 64B RAM, DIP-40
 K MCS-48 uC Microcontroller
