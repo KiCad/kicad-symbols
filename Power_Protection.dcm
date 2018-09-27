@@ -240,6 +240,12 @@ K ESD protection USB 3.0
 F http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf
 $ENDCMP
 #
+$CMP TPD4S014
+D USB Charger Port Protection Including ESD Protection for All Lines and Overvoltage Protection on VBUS
+K USB  Port Protection
+F http://www.ti.com/lit/ds/symlink/tpd4s014.pdf
+$ENDCMP
+#
 $CMP TPD4S1394
 D Firewire ESD Clamp With Live-Insertion Detection Circuit, X2SON-8
 K firewire ESD clamp
