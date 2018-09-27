@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP MCS3142
+D Microchip KEELOQ classic / ultimate encoder - keyfob IC sending button state, serial and authentiation as PWM/manchester encoded AM/FM signal in ISM bands
+K KEELOQ classic ultimate keyless entry keyfob ISM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001747A.pdf
+$ENDCMP
+#
+$CMP RFM69CW
+D ISM Radio Transciever Module, SPI interface
+K Radio, ISM, Transciever, Module, AES
+F http://www.hoperf.com/upload/rf/RFM69CW-V1.1.pdf
+$ENDCMP
+#
 $CMP RFM69HCW
 D Low power ISM Radio Transceiver Module, SPI interface, AES encryption, 434 or 915 MHz, up to 100mW, up to 300 kb/s, SMD-16, DIP-16
 K low power Radio ISM Transceiver Module AES encryption SPI HopeRF
@@ -124,12 +136,6 @@ $CMP ZETA-915-SO
 D FM ZETA TRANSCEIVER MODULE, OPTIMISED FOR 915MHZ
 K RF TRANSCEIVER MODULE
 F https://www.rfsolutions.co.uk/downloads/1456219226DS-ZETA.pdf
-$ENDCMP
-#
-$CMP MCS3142
-D Microchip KEELOQ classic / ultimate encoder - keyfob IC sending button state, serial and authentiation as PWM/manchester encoded AM/FM signal in ISM bands
-K KEELOQ classic ultimate keyless entry keyfob ISM
-F http://ww1.microchip.com/downloads/en/DeviceDoc/40001747A.pdf
 $ENDCMP
 #
 #End Doc Library
