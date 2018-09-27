@@ -1188,6 +1188,12 @@ K Dual N-Channel MOSFET
 F http://www.gneic.com/product/datasheet/FDG6335N-1122853.pdf
 $ENDCMP
 #
+$CMP FDMC8032L
+D 7A Id, 40V Vds, Dual N-Channel MOSFET, 20mOhm Ron, Power33 Package
+K Dual N-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/FD/FDMC8032L.pdf
+$ENDCMP
+#
 $CMP FDMS8050
 D 55A Id, 30V Vds, N-Channel PowerTrench MOSFET, 0.65mOhm Ron, 285nC Qgmax, -55 to 150 °C, 5x6mm SON8
 K powertrench mosfet fairchild
