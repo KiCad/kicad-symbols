@@ -193,26 +193,14 @@ F http://www.ti.com/lit/ds/symlink/tlc5947.pdf
 $ENDCMP
 #
 $CMP TLC5971PWP
-D 12-Channel, 16-Bit Enhanced Spectrum PWM LED Driver, HTSSOP
-K PWM LED driver HTSSOP Enhanced Spectrum
-F http://www.ti.com/lit/ds/symlink/tlc5971.pdf
-$ENDCMP
-#
-$CMP TLC5971PWPR
-D 12-Channel, 16-Bit Enhanced Spectrum PWM LED Driver, HTSSOP
-K PWM LED driver HTSSOP Enhanced Spectrum
-F http://www.ti.com/lit/ds/symlink/tlc5971.pdf
-$ENDCMP
-#
-$CMP TLC5971RGER
-D 12-Channel, 16-Bit Enhanced Spectrum PWM LED Driver, VQFN
-K PWM LED driver VQFN Enhanced Spectrum
+D 12-Channel, 16-Bit, Enhanced Spectrum, PWM, RGB, LED Driver With 3.3-V Linear Regulator, HTSSOP-20
+K led driver
 F http://www.ti.com/lit/ds/symlink/tlc5971.pdf
 $ENDCMP
 #
 $CMP TLC5971RGET
-D 12-Channel, 16-Bit Enhanced Spectrum PWM LED Driver, VQFN
-K PWM LED driver VQFN Enhanced Spectrum
+D 12-Channel, 16-Bit, Enhanced Spectrum, PWM, RGB, LED Driver With 3.3-V Linear Regulator, WQFN-24
+K led driver
 F http://www.ti.com/lit/ds/symlink/tlc5971.pdf
 $ENDCMP
 #
