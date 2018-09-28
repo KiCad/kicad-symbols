@@ -504,6 +504,12 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf
 $ENDCMP
 #
+$CMP ATmega16U2-MU
+D 16MHz, 16kB Flash, 512B SRAM, 512B EEPROM, QFN-32
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf
+$ENDCMP
+#
 $CMP ATmega16U4-AU
 D 16MHz, 16kB Flash, 1.25kB SRAM, 512B EEPROM, USB 2.0, TQFP-44
 K AVR 8bit Microcontroller MegaAVR USB
@@ -908,6 +914,12 @@ $ENDCMP
 #
 $CMP ATmega32U2-AU
 D 16MHz, 32kB Flash, 1kB SRAM, 1kB EEPROM, TQFP-32
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf
+$ENDCMP
+#
+$CMP ATmega32U2-MU
+D 16MHz, 32kB Flash, 1kB SRAM, 1kB EEPROM, QFN-32
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf
 $ENDCMP
@@ -1580,6 +1592,12 @@ $ENDCMP
 #
 $CMP ATmega8U2-AU
 D 16MHz, 8kB Flash, 512B SRAM, 512B EEPROM, TQFP-32
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf
+$ENDCMP
+#
+$CMP ATmega8U2-MU
+D 16MHz, 8kB Flash, 512B SRAM, 512B EEPROM, QFN-32
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf
 $ENDCMP
