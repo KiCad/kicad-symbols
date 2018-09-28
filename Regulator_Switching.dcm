@@ -1566,6 +1566,18 @@ K Miniature Step-Up Boost Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lmr64010.pdf
 $ENDCMP
 #
+$CMP LMZM23600
+D 36V 0.5A Step-Down DC/DC Power Module in 3.8x3mm Package
+K 36V 0.5A Step-Down DC/DC Module
+F http://www.ti.com/lit/ds/symlink/lmzm23600.pdf
+$ENDCMP
+#
+$CMP LMZM23601
+D 36V 1A Step-Down DC/DC Power Module in 3.8x3mm Package
+K 36V 1A Step-Down DC/DC Module
+F http://www.ti.com/lit/ds/symlink/lmzm23600.pdf
+$ENDCMP
+#
 $CMP LNK302D
 D LinkSwitch-TN Family, 80mA Output Current, SO-8C
 K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
