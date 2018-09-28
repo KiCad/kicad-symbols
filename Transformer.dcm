@@ -486,4 +486,10 @@ K Single Port Gigabit Ethernet Transformer
 F https://www.haloelectronics.com/pdf/discrete-genesus.pdf
 $ENDCMP
 #
+$CMP TRANSF_LAN_100
+D Ethernet LAN Transformer 16Pin with center taps
+K Ethernet LAN Transformer 16Pin center-tap
+F https://www.bourns.com/docs/Product-Datasheets/PT61017PEL.pdf
+$ENDCMP
+#
 #End Doc Library
