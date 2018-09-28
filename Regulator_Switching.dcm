@@ -1452,6 +1452,18 @@ K boost switching controller
 F http://www.ti.com/lit/ds/symlink/lm5022.pdf
 $ENDCMP
 #
+$CMP LM5088-1
+D Wide Input Range Non-Synchronous Buck Controller, Frequency Dithering, 75V, HTSSOP-16
+K step down buck high voltage
+F http://www.ti.com/lit/ds/symlink/lm5088.pdf
+$ENDCMP
+#
+$CMP LM5088-2
+D Wide Input Range Non-Synchronous Buck Controller, Hiccup Mode Restart, 75V, HTSSOP-16
+K step down buck high voltage
+F http://www.ti.com/lit/ds/symlink/lm5088.pdf
+$ENDCMP
+#
 $CMP LM5165
 D 150mA Synchronous Buck Converter With Ultra-Low IQ, 3V-65V input, adjustable output voltage, DFN-10
 K step-down dc-dc buck regulator adjustable
