@@ -408,6 +408,12 @@ K ARM, 32-bit, Cortex-M0, M0, NXP, microcontroller
 F http://www.nxp.com/documents/data_sheet/LPC11U3X.pdf
 $ENDCMP
 #
+$CMP LPC11U35FHI33-501
+D 32-bit ARM Cortex-M0 microcontroller, USB, 64KB flash, 12KB SRAM
+K ARM, 32-bit, Cortex-M0, M0, NXP, microcontroller
+F https://www.nxp.com/docs/en/data-sheet/LPC11U3X.pdf
+$ENDCMP
+#
 $CMP LPC11U36FBD48-401
 D 32-bit ARM Cortex-M0 microcontroller, USB, 96KB flash, 10KB SRAM
 K ARM, 32-bit, Cortex-M0, M0, NXP, microcontroller
