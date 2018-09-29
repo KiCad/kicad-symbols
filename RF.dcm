@@ -12,6 +12,12 @@ K RF Tx Rx
 F http://www.ti.com/lit/ds/symlink/cc1200.pdf
 $ENDCMP
 #
+$CMP CC2500
+D Single Chip Low Power RF Transceiver, QFN20
+K Low Power RF Transciever
+F http://www.ti.com/lit/ds/symlink/cc2500.pdf
+$ENDCMP
+#
 $CMP MAADSS0008
 D 0-2GHz, 15dB step attenuator, SOT-23-5
 K RF attenuator
