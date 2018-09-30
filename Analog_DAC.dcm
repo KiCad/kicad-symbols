@@ -330,6 +330,18 @@ K 14bit DAC 1CH
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9744.pdf
 $ENDCMP
 #
+$CMP AD9850
+D DDS/DAC Synthesizer, 125 MHz, CMOS
+K DDS synthesizer
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9850.pdf
+$ENDCMP
+#
+$CMP AD9851
+D DDS/DAC Synthesizer, 180 MHz, CMOS
+K DDS synthesizer
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9851.pdf
+$ENDCMP
+#
 $CMP ADS7830
 D Single-supply, 8bit, 8 ch, SAR, 70kHz SR, 2.7 - 5 VDD, I2C, TSSOP-16
 K 8bit DAC 8CH
