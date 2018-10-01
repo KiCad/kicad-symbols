@@ -331,14 +331,14 @@ F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9744.pdf
 $ENDCMP
 #
 $CMP AD9850
-D DDS/DAC Synthesizer, 125 MHz, CMOS
-K DDS synthesizer
+D CMOS, 125 MHz, Complete DDS Synthesizer, SSOP-28
+K DDS direct digital synthesizer
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9850.pdf
 $ENDCMP
 #
 $CMP AD9851
-D DDS/DAC Synthesizer, 180 MHz, CMOS
-K DDS synthesizer
+D CMOS, 180 MHz, DDS/DAC Synthesizer, SSOP-28
+K DDS direct digital synthesizer
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9851.pdf
 $ENDCMP
 #
