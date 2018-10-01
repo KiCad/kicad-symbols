@@ -624,6 +624,12 @@ K AVR 8bit Microcontroller tinyAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8008.pdf
 $ENDCMP
 #
+$CMP ATtiny48-CCU
+D 12MHz, 4kB Flash, 256B SRAM, 64B EEPROM, UFBGA-32
+K AVR 8bit Microcontroller tinyAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8008.pdf
+$ENDCMP
+#
 $CMP ATtiny48-MMH
 D 12MHz, 4kB Flash, 256B SRAM, 64B EEPROM, QFN-28
 K AVR 8bit Microcontroller tinyAVR
@@ -812,6 +818,12 @@ $ENDCMP
 #
 $CMP ATtiny88-AU
 D 12MHz, 8kB Flash, 512B SRAM, 64B EEPROM, TQFP-32
+K AVR 8bit Microcontroller tinyAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8008.pdf
+$ENDCMP
+#
+$CMP ATtiny88-CCU
+D 12MHz, 8kB Flash, 512B SRAM, 64B EEPROM, UFBGA-32
 K AVR 8bit Microcontroller tinyAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8008.pdf
 $ENDCMP
