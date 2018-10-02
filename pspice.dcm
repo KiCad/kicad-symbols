@@ -1,18 +1,81 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 0
+D 0V reference potential for simulation
+K simulation
+F ~
+$ENDCMP
+#
+$CMP C
+D Capacitor symbol for simulation only
+K simulation
+F ~
+$ENDCMP
+#
+$CMP CAP
+D Capacitor symbol for simulation only
+K simulation
+F ~
+$ENDCMP
+#
+$CMP DIODE
+D Diode symbol for simulation only. Pin order incompatible with official kicad footprints
+K simulation
+F ~
+$ENDCMP
+#
+$CMP INDUCTOR
+D Capacitor symbol for simulation only
+K simulation
+F ~
+$ENDCMP
+#
+$CMP ISOURCE
+D Current source symbol for simulation only
+K simulation
+F ~
+$ENDCMP
+#
 $CMP MNMOS
-D N-channel MOSFET
-K mosfet nmos
+D N-channel MOSFET symbol for simulation only
+K mosfet nmos simulation
+F ~
 $ENDCMP
 #
 $CMP MPMOS
-D P-channel MOSFET
-K mosfet pmos
+D P-channel MOSFET symbol for simulation only
+K mosfet pmos simulation
+F ~
+$ENDCMP
+#
+$CMP OPAMP
+D OPAmp symbol for simulation only
+K simulation
+F ~
+$ENDCMP
+#
+$CMP QNPN
+D Bibolar transistor symbol for simulation only
+K simulation
+F ~
+$ENDCMP
+#
+$CMP QPNP
+D Bibolar transistor symbol for simulation only
+K simulstaion
+F ~
 $ENDCMP
 #
 $CMP R
-D Resistance
-K R DEV
+D Resistor symbol for simulation only
+K resistor simulation
+F ~
+$ENDCMP
+#
+$CMP VSOURCE
+D Voltage source symbol for simulation only
+K simulation
+F ~
 $ENDCMP
 #
 #End Doc Library

@@ -49,9 +49,15 @@ F https://www.fairchildsemi.com/datasheets/FA/FAN7371.pdf
 $ENDCMP
 #
 $CMP FAN7842
-D High- and Low-Side Gate Driver, SOIC-8
-K gate driver
-F https://www.fairchildsemi.com/datasheets/FA/FAN7842.pdf
+D High and Low Side Gate Driver, 200V operation, Output Current 350/650mA, SOIC-8
+K Gate Driver
+F http://www.onsemi.com/pub/Collateral/FAN7842-D.pdf
+$ENDCMP
+#
+$CMP FAN7888
+D 3 Half-Bridge Gate-Drive IC, 200V operation, Output Current 350/650mA, SOIC-20
+K 3 Phase Gate Driver
+F http://www.onsemi.com/pub/Collateral/FAN7888-D.pdf
 $ENDCMP
 #
 $CMP HCPL-3120
@@ -132,44 +138,68 @@ K MOSFET driver array
 F http://www.intersil.com/content/dam/Intersil/documents/icl7/icl7667.pdf
 $ENDCMP
 #
-$CMP IR2104
-D High and Low Side Gate Driver,  Output Current 130/270mA, PDIP-8/SOIC-8
+$CMP IR2101
+D High and Low Side Gate Driver, 600V operation, Output Current 130/270mA, PDIP-8/SOIC-8
 K Gate Driver
-F http://www.irf.com/product-info/datasheets/data/ir2104.pdf
+F https://www.infineon.com/dgdl/ir2101.pdf?fileId=5546d462533600a4015355c7a755166c
+$ENDCMP
+#
+$CMP IR2102
+D High and Low Side Gate Driver, 600V operation, Output Current 130/270mA, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2101.pdf?fileId=5546d462533600a4015355c7a755166c
+$ENDCMP
+#
+$CMP IR2103
+D High and Low Side Gate Driver, 600V operation, Output Current 130/270mA, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2103.pdf?fileId=5546d462533600a4015355c7b54b166f
+$ENDCMP
+#
+$CMP IR2104
+D High and Low Side Gate Driver, 600V operation, Output Current 130/270mA, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2104.pdf?fileId=5546d462533600a4015355c7c1c31671
+$ENDCMP
+#
+$CMP IR2105
+D High and Low Side Gate Driver, 600V operation, Output Current 130/270mA, PDIP-8/SOIC-8
+K Gate Driver
+F http://www.irf.com/product-info/datasheets/data/ir2105.pdf
 $ENDCMP
 #
 $CMP IR2106
-D High and Low Side Driver, 600V operation, Output Current 120/200mA,  PDIP-8/SOIC-8
+D High and Low Side Gate Driver, 600V operation, Output Current 120/200mA, PDIP-8/SOIC-8
 K Gate Driver
-F http://www.irf.com/product-info/datasheets/data/ir2106.pdf
+F https://www.infineon.com/dgdl/ir2106.pdf?fileId=5546d462533600a4015355c7cfc51673
 $ENDCMP
 #
 $CMP IR2110
-D High and Low Side Gate Driver,  Output Current 2.0/2.0A, PDIP-14/SOIC-14
+D High and Low Side Gate Driver, 500V operation, Output Current 2.0/2.0A, PDIP-14/SOIC-14
 K Gate Driver
-F http://www.irf.com/product-info/datasheets/data/ir2110.pdf
+F https://www.infineon.com/dgdl/ir2110.pdf?fileId=5546d462533600a4015355c80333167e
 $ENDCMP
 #
 $CMP IR2113
-D High and Low Side Gate Driver,  Output Current 2.0/2.0A, PDIP-14/SOIC-14
+D High and Low Side Gate Driver, 600V operation, Output Current 2.0/2.0A, PDIP-14/SOIC-14
 K Gate Driver
-F http://www.irf.com/product-info/datasheets/data/ir2110.pdf
+F https://www.infineon.com/dgdl/ir2110.pdf?fileId=5546d462533600a4015355c80333167e
 $ENDCMP
 #
 $CMP IRS2181
-D High and Low Side Gate Driver,  Output Current 1.4/1.8A, PDIP-8/SOIC-8
+D High and Low Side Gate Driver, 600V operation, Output Current 1.4/1.8A, PDIP-8/SOIC-8
 K Gate Driver
-F http://www.irf.com/product-info/datasheets/data/irs2181.pdf
+F https://www.infineon.com/dgdl/irs2181.pdf?fileId=5546d462533600a401535676c12b27d3
 $ENDCMP
 #
 $CMP IRS2186
-D High and Low Side Gate Driver,  600V operation, 4A output current, DIP-8/SOIC-8
+D High and Low Side Gate Driver, 600V operation, Output current 4.0/4.0A, DIP-8/SOIC-8
 K gate driver
-F http://www.irf.com/product-info/datasheets/data/irs2186pbf.pdf
+F https://www.infineon.com/dgdl/irs2186pbf.pdf?fileId=5546d462533600a40153567716c427ed
 $ENDCMP
 #
 $CMP IRS21867S
-D High and Low Side Gate Driver, Output Current 4.0/4.0A, 600V, SOIC-8
+D High and Low Side Gate Driver, 600V operation, Output Current 4.0/4.0A, SOIC-8
 K Gate Driver
 F http://www.infineon.com/dgdl/irs21867spbf.pdf?fileId=5546d462533600a4015356770e8327eb
 $ENDCMP
@@ -280,6 +310,12 @@ $CMP MIC4428
 D Dual 1.5A-Peak Low-Side MOSFET Driver, DIP-8/SOIC-8/MSOP-8
 K Driver, Dual MOSFET
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic4426.pdf
+$ENDCMP
+#
+$CMP MIC4604YM
+D 85V Half-Bridge MOSFET Driver with up to 16V Programmable Gate Drive, SOIC-8
+K Half-Bridge Gate Driver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005852A.pdf
 $ENDCMP
 #
 $CMP PM8834

@@ -30,7 +30,7 @@
   (lib (name CPU_NXP_6800)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/CPU_NXP_6800.lib)(options "")(descr "NXP (formerly Motorola) 6800 CPUs"))
   (lib (name CPU_NXP_68000)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/CPU_NXP_68000.lib)(options "")(descr "NXP (formerly Motorola) 68000 CPUs"))
   (lib (name CPU_PowerPC)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/CPU_PowerPC.lib)(options "")(descr "PowerPC-based CPUs"))
-  (lib (name Device)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Device.lib)(options "")(descr "Generic devices, common symbols"))
+  (lib (name Device)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Device.lib)(options "")(descr "Generic symbols for common devices"))
   (lib (name DSP_AnalogDevices)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/DSP_AnalogDevices.lib)(options "")(descr "Analog Devices DSP symbols"))
   (lib (name DSP_Freescale)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/DSP_Freescale.lib)(options "")(descr "Freescale DSP symbols"))
   (lib (name DSP_Microchip_DSPIC33)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/DSP_Microchip_DSPIC33.lib)(options "")(descr "Microchip DSPIC33 symbols"))
