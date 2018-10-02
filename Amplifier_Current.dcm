@@ -162,6 +162,54 @@ K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina193.pdf
 $ENDCMP
 #
+$CMP INA240A1D
+D High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 20V/V, SOIC-8
+K current monitor shunt sensor bidirectional high low
+F http://www.ti.com/lit/ds/symlink/ina240.pdf
+$ENDCMP
+#
+$CMP INA240A1PW
+D High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 20V/V, TSSOP-8
+K current monitor shunt sensor bidirectional high low
+F http://www.ti.com/lit/ds/symlink/ina240.pdf
+$ENDCMP
+#
+$CMP INA240A2D
+D High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 50V/V, SOIC-8
+K current monitor shunt sensor bidirectional high low
+F http://www.ti.com/lit/ds/symlink/ina240.pdf
+$ENDCMP
+#
+$CMP INA240A2PW
+D High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 50V/V, TSSOP-8
+K current monitor shunt sensor bidirectional high low
+F http://www.ti.com/lit/ds/symlink/ina240.pdf
+$ENDCMP
+#
+$CMP INA240A3D
+D High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 100V/V, SOIC-8
+K current monitor shunt sensor bidirectional high low
+F http://www.ti.com/lit/ds/symlink/ina240.pdf
+$ENDCMP
+#
+$CMP INA240A3PW
+D High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 100V/V, TSSOP-8
+K current monitor shunt sensor bidirectional high low
+F http://www.ti.com/lit/ds/symlink/ina240.pdf
+$ENDCMP
+#
+$CMP INA240A4D
+D High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 200V/V, SOIC-8
+K current monitor shunt sensor bidirectional high low
+F http://www.ti.com/lit/ds/symlink/ina240.pdf
+$ENDCMP
+#
+$CMP INA240A4PW
+D High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 200V/V, TSSOP-8
+K current monitor shunt sensor bidirectional high low
+F http://www.ti.com/lit/ds/symlink/ina240.pdf
+$ENDCMP
+#
 $CMP INA282
 D High-Accuracy, Wide Common-Mode Range, Bidirectional Current Shunt Monitors, Zero-Drift Series, 50V/V, SOIC-8/VSSOP-8
 K current monitor shunt sensor bidirectional
