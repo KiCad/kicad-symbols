@@ -72,6 +72,22 @@ K protection Li-Ion Li-Pol
 F http://www.ti.com/lit/ds/symlink/bq2970.pdf
 $ENDCMP
 #
+$CMP BQ51003
+D HighlyIntegratedWirelessReceiverQi (WPC v1.2) CompliantPowerSupply
+$ENDCMP
+#
+$CMP BQ5105xB_DSBGA
+D high-efficiency, Qi-compliant wireless power receiver with an integrated Li-Ion/Li- Pol battery charge controller
+K qi
+F http://www.ti.com/lit/ds/symlink/bq51050b.pdf
+$ENDCMP
+#
+$CMP BQ5105xB_VQFN
+D high-efficiency, Qi-compliant wireless power receiver with an integrated Li-Ion/Li- Pol battery charge controller
+K qi
+F http://www.ti.com/lit/ds/symlink/bq51050b.pdf
+$ENDCMP
+#
 $CMP BQ76940
 D Lithium battery monitor, 9-15 cells, integrated balancing, I2C interface
 K lithium battery balance charge afe
@@ -181,9 +197,9 @@ F http://cds.linear.com/docs/en/datasheet/4002f.pdf
 $ENDCMP
 #
 $CMP LTC4007
-D 4A high efficiency standalone Li-ion battery charger, SSOP24
-K lithium ion polymer li-po battery
-F http://www.analog.com/media/en/technical-documentation/data-sheets/4007fc.pdf
+D 4A high efficiency standalone battery charger
+K lion lithium battery
+F http://cds.linear.com/docs/en/datasheet/4007fc.pdf
 $ENDCMP
 #
 $CMP LTC4054ES5-4.2
