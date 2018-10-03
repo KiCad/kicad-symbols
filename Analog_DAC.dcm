@@ -636,6 +636,12 @@ K Dual DAC 1ch 12bit SPI
 F http://ww1.microchip.com/downloads/en/devicedoc/21897a.pdf
 $ENDCMP
 #
+$CMP THS5641A
+D 8-bit, 100 MS/s, parallel current DAC
+K DAC,parallel,IDAC
+F http://www.ti.com/lit/ds/symlink/ths5641a.pdf
+$ENDCMP
+#
 $CMP TLV5627CD
 D 4-Channel DAC, 8bit, w/ Power Down, SOIC-16
 K DAC 4CH 8bit
