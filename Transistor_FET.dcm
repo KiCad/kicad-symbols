@@ -2161,7 +2161,7 @@ F https://www.vishay.com/docs/62504/sud50p10-43l-ge3.pdf
 $ENDCMP
 #
 $CMP Si1442DH
-D Power N-MOSFET
+D 12Vds Power N-Channel MOSFET, SC-70-6
 K NMOS n-mos n-mosfet transistor
 F http://www.vishay.com/docs/63772/si1442dh.pdf
 $ENDCMP
