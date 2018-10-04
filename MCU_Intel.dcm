@@ -117,4 +117,10 @@ K MPRO
 F http://datasheets.chipdb.org/Intel/x86/8018x/datashts/80186/27050008.PDF
 $ENDCMP
 #
+$CMP M80C186XL
+D 16-bit High-Integration Embedded Processor
+K MPRO
+F http://datasheets.chipdb.org/Intel/x86/8018x/datashts/80186/27127602.pdf
+$ENDCMP
+#
 #End Doc Library
