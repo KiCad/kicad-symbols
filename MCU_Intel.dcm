@@ -99,6 +99,12 @@ D Intel I386EX Embedded microprocessor, PQFP-132
 K MPRO
 $ENDCMP
 #
+$CMP IA186XLPLC68IR2
+D MCU Replacement for Intel 80C186XL
+K MPRO
+F http://www.innovasic.com/upload/products/Innovasic_IA186XL_IA188XL_Data_Sheet_20110706_2.pdf
+$ENDCMP
+#
 $CMP IA188XLPLC68IR2
 D MCU Replacement for Intel 80C188XL
 K MPRO
