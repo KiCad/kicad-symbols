@@ -286,13 +286,7 @@ F http://www.farnell.com/datasheets/94393.pdf
 $ENDCMP
 #
 $CMP W83627DHG-P
-D Nuvoton LPC Super I/O Controller w/HW Monitor and SPI Flash Bridge
-K lpc superio uart ps2 parallel spi gpio acpi peci kbc fdc smbus i2c
-F http://www.nuvoton.com/resource-files/DA00-WW83627DHG-P.pdf
-$ENDCMP
-#
-$CMP W83627DHG-PT
-D Nuvoton LPC Super I/O Controller w/HW Monitor and SPI Flash Bridge
+D LPC Super I/O Controller w/HW Monitor and SPI Flash Bridge, QFP-128
 K lpc superio uart ps2 parallel spi gpio acpi peci kbc fdc smbus i2c
 F http://www.nuvoton.com/resource-files/DA00-WW83627DHG-P.pdf
 $ENDCMP
