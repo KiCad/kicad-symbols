@@ -90,6 +90,12 @@ K serial DAC i2c digital analog converter
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5693R_5692R_5691R_5693.pdf
 $ENDCMP
 #
+$CMP AD5693RxRM
+D Tiny, 16-Bit, I2C, nanoDAC+, 2 ppm/°C Reference, MSOP-10
+K serial DAC i2c digital analog converter
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5693R_5692R_5691R_5693.pdf
+$ENDCMP
+#
 $CMP AD5693RxRMZ
 D Tiny, 16-Bit, I2C, nanoDAC+, 2 ppm/°C Reference, MSOP-10
 K serial DAC i2c digital analog converter
