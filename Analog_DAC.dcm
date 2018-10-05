@@ -96,12 +96,6 @@ K serial DAC i2c digital analog converter
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5693R_5692R_5691R_5693.pdf
 $ENDCMP
 #
-$CMP AD5693RxRMZ
-D Tiny, 16-Bit, I2C, nanoDAC+, 2 ppm/°C Reference, MSOP-10
-K serial DAC i2c digital analog converter
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5693R_5692R_5691R_5693.pdf
-$ENDCMP
-#
 $CMP AD5697RBCPZ
 D Dual, 12-Bit nanoDAC+ with 2 ppm/°C Reference, I2C Interface, LFCSP-16
 K dac 2nch 12bit i2c
@@ -346,18 +340,6 @@ $CMP AD9744
 D 210MSPS 14bit DAC, TSSOP-28
 K 14bit DAC 1CH
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9744.pdf
-$ENDCMP
-#
-$CMP AD9850
-D CMOS, 125 MHz, Complete DDS Synthesizer, SSOP-28
-K DDS direct digital synthesizer
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9850.pdf
-$ENDCMP
-#
-$CMP AD9851
-D CMOS, 180 MHz, DDS/DAC Synthesizer, SSOP-28
-K DDS direct digital synthesizer
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9851.pdf
 $ENDCMP
 #
 $CMP ADS7830
