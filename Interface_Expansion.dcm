@@ -6,6 +6,54 @@ K Expander I2C Parallel Port GPIO Maxim
 F https://datasheets.maximintegrated.com/en/ds/MAX7325.pdf
 $ENDCMP
 #
+$CMP MCP23017_ML
+D 16-bit I/O expander, I2C, interrupts, w pull-ups, QFN-28
+K I2C parallel port expander
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf
+$ENDCMP
+#
+$CMP MCP23017_SO
+D 16-bit I/O expander, I2C, interrupts, w pull-ups, SOIC-28
+K I2C parallel port expander
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf
+$ENDCMP
+#
+$CMP MCP23017_SP
+D 16-bit I/O expander, I2C, interrupts, w pull-ups, SPDIP-28
+K I2C parallel port expander
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf
+$ENDCMP
+#
+$CMP MCP23017_SS
+D 16-bit I/O expander, I2C, interrupts, w pull-ups, SSOP-28
+K I2C parallel port expander
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf
+$ENDCMP
+#
+$CMP MCP23S17_ML
+D 16-bit I/O expander, SPI, interrupts, w pull-ups, QFN-28
+K SPI parallel port expander
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf
+$ENDCMP
+#
+$CMP MCP23S17_SO
+D 16-bit I/O expander, SPI, interrupts, w pull-ups, SOIC-28
+K SPI parallel port expander
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf
+$ENDCMP
+#
+$CMP MCP23S17_SP
+D 16-bit I/O expander, SPI, interrupts, w pull-ups, SPDIP-28
+K microchip i2c parallel port expander
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf
+$ENDCMP
+#
+$CMP MCP23S17_SS
+D 16-bit I/O expander, I2C, interrupts, w pull-ups, SSOP-28
+K SPI parallel port expander
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf
+$ENDCMP
+#
 $CMP P82B96
 D Dual I2C Bus Buffer, DIP8/SO8/TSSOP8
 K I2C Bus Buffer
