@@ -12,6 +12,12 @@ K usb isolation
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM4160.pdf
 $ENDCMP
 #
+$CMP CH340G
+D USB serial converter, UART, SOIC-16
+K USB UART Serial Converter Interface
+F http://www.datasheet5.com/pdf-local-2195953
+$ENDCMP
+#
 $CMP CP2102N-A01-GQFN24
 D USB to UART master bridge
 K USB UART bridge
