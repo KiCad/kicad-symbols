@@ -318,6 +318,18 @@ K quad opamp
 F http://www.ti.com/lit/ds/symlink/lmc6484.pdf
 $ENDCMP
 #
+$CMP LMH6551MA
+D Differential, High-Speed, Op Amp, SOIC-8
+K differential opamp operational amplifier
+F http://www.ti.com/lit/ds/symlink/lmh6551.pdf
+$ENDCMP
+#
+$CMP LMH6551MM
+D Differential, High-Speed, Op Amp, VSSOP-8
+K differential opamp operational amplifier
+F http://www.ti.com/lit/ds/symlink/lmh6551.pdf
+$ENDCMP
+#
 $CMP LMV321
 D Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOT-23-5/SC-70-5
 K single opamp
