@@ -20,6 +20,36 @@ $CMP AM29PDL128G
 D 128 Megabit (8 M x 16-Bit/4 M x 32-Bit), Simultaneous Operation Flash Memory with VersatileIO™ Control
 $ENDCMP
 #
+$CMP AT25DF041x-UxN-x
+D 4-Mbit, 1.65V Minimum SPI Serial Flash Memory with Dual-I/O, WLCSP-8
+K SPI DSPI 4Mbit 1.65V
+F http://www.adestotech.com/wp-content/uploads/DS-AT25DF041B_040.pdf
+$ENDCMP
+#
+$CMP AT25SF081-SSHD-X
+D 8-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8
+K SPI DSPI QSPI 8Mbit 2.5V
+F https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf
+$ENDCMP
+#
+$CMP AT25SF081-SSHF-X
+D 8-Mbit, 2.3V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8
+K SPI DSPI QSPI 8Mbit 2.3V
+F https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf
+$ENDCMP
+#
+$CMP AT25SF081-XMHD-X
+D 8-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, TSSOP-8
+K SPI DSPI QSPI 8Mbit 2.5V
+F https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf
+$ENDCMP
+#
+$CMP AT25SF081-XMHF-X
+D 8-Mbit, 2.3V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, TSSOP-8
+K SPI DSPI QSPI 8Mbit 2.3V
+F https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf
+$ENDCMP
+#
 $CMP AT45DB161-JC
 D 16Mb Serial DataFlash, 2.7V Vcc, PLCC-32
 K Atmel DataFlash

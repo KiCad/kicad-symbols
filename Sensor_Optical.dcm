@@ -120,6 +120,30 @@ K opto photo diode
 F http://www.vishay.com/docs/81529/bpw82.pdf
 $ENDCMP
 #
+$CMP BPW85
+D Silicon NPN Phototransistor, Ica = 0.8-8mA, T-1
+K npn phototransistor
+F https://www.vishay.com/docs/81531/bpw85a.pdf
+$ENDCMP
+#
+$CMP BPW85A
+D Silicon NPN Phototransistor, Ica = 0.8-2.5mA, T-1
+K npn phototransistor
+F https://www.vishay.com/docs/81531/bpw85a.pdf
+$ENDCMP
+#
+$CMP BPW85B
+D Silicon NPN Phototransistor, Ica = 1.5-4mA, T-1
+K npn phototransistor
+F https://www.vishay.com/docs/81531/bpw85a.pdf
+$ENDCMP
+#
+$CMP BPW85C
+D Silicon NPN Phototransistor, Ica = 3-8mA, T-1
+K npn phototransistor
+F https://www.vishay.com/docs/81531/bpw85a.pdf
+$ENDCMP
+#
 $CMP BPX61
 D Silicon Photodiode for the visible spectral range
 K photodiode opto
@@ -292,6 +316,12 @@ $CMP SFH3201
 D Silicon NPN phototransistor, SMD-6
 K NPN phototransistor
 F https://dammedia.osram.info/media/resource/hires/osram-dam-2495980/SFH%203201.pdf
+$ENDCMP
+#
+$CMP TEPT4400
+D Ambient Light Sensor, NPN Epitaxial Planar Phototransistor, T-1
+K npn phototransistor ambient light sensor
+F https://www.vishay.com/docs/81341/tept4400.pdf
 $ENDCMP
 #
 $CMP TSL2550D
