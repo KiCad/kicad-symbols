@@ -259,8 +259,8 @@ F https://toshiba.semicon-storage.com/us/product/linear/motordriver/detail.TB661
 $ENDCMP
 #
 $CMP TMC2041-LA
-D Standalone Dual step/Direction driver for two-phase bipolar stepper motor, 2.0A, 4.75-46V, SPI, QFN48
-K Dual Step/Direction driver stepper motor
+D Standalone Dual driver for two-phase bipolar stepper motor, 2.2A, 4.75-26V, SPI, UART, QFN-48
+K Dual driver stepper motor
 F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2041_datasheet.pdf
 $ENDCMP
 #
@@ -270,9 +270,9 @@ K Step/Direction driver stepper motor
 F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2100_datasheet_Rev1.08.pdf
 $ENDCMP
 #
-$CMP TMC2100-LA_TQFP-EP48
-D Standalone Step/Direction driver for two-phase bipolar stepper motor, 2.0A, 4.75-46V, QFN48
-K Step/Direction driver stepper motor
+$CMP TMC2100-TA
+D Standalone driver for two-phase bipolar stepper motor, 2.0A, 4.75-46V, QFN-48
+K Standalone driver stepper motor
 F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2100_datasheet_Rev1.08.pdf
 $ENDCMP
 #
