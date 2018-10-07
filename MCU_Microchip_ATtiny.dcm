@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ATtiny10-MA
+D 12MHz, 1kB Flash, 32B SRAM, No EEPROM, ADC, DFN-8
+K AVR 8bit Microcontroller tinyAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8127-AVR-8-bit-Microcontroller-ATtiny4-ATtiny5-ATtiny9-ATtiny10_Datasheet.pdf
+$ENDCMP
+#
 $CMP ATtiny10-TS
 D 12MHz, 1kB Flash, 32B SRAM, No EEPROM, ADC, SOT-23-6
 K AVR 8bit Microcontroller tinyAVR
@@ -414,6 +420,12 @@ K AVR 8bit Microcontroller tinyAVR IR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc1062.pdf
 $ENDCMP
 #
+$CMP ATtiny4-MA
+D 12MHz, 512B Flash, 32B SRAM, No EEPROM, DFN-8
+K AVR 8bit Microcontroller tinyAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8127-AVR-8-bit-Microcontroller-ATtiny4-ATtiny5-ATtiny9-ATtiny10_Datasheet.pdf
+$ENDCMP
+#
 $CMP ATtiny4-TS
 D 12MHz, 512B Flash, 32B SRAM, No EEPROM, SOT-23-6
 K AVR 8bit Microcontroller tinyAVR
@@ -648,6 +660,12 @@ K AVR 8bit Microcontroller tinyAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8008.pdf
 $ENDCMP
 #
+$CMP ATtiny5-MA
+D 12MHz, 512B Flash, 32B SRAM, No EEPROM, ADC, DFN-8
+K AVR 8bit Microcontroller tinyAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8127-AVR-8-bit-Microcontroller-ATtiny4-ATtiny5-ATtiny9-ATtiny10_Datasheet.pdf
+$ENDCMP
+#
 $CMP ATtiny5-TS
 D 12MHz, 512B Flash, 32B SRAM, No EEPROM, ADC, SOT-23-6
 K AVR 8bit Microcontroller tinyAVR
@@ -844,6 +862,12 @@ $CMP ATtiny88-PU
 D 12MHz, 8kB Flash, 512B SRAM, 64B EEPROM, DIP-28
 K AVR 8bit Microcontroller tinyAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8008.pdf
+$ENDCMP
+#
+$CMP ATtiny9-MA
+D 12MHz, 1kB Flash, 32B SRAM, No EEPROM, DFN-8
+K AVR 8bit Microcontroller tinyAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8127-AVR-8-bit-Microcontroller-ATtiny4-ATtiny5-ATtiny9-ATtiny10_Datasheet.pdf
 $ENDCMP
 #
 $CMP ATtiny9-TS
