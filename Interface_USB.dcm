@@ -12,6 +12,12 @@ K usb isolation
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM4160.pdf
 $ENDCMP
 #
+$CMP CH340G
+D USB serial converter, UART, SOIC-16
+K USB UART Serial Converter Interface
+F http://www.datasheet5.com/pdf-local-2195953
+$ENDCMP
+#
 $CMP CP2102N-A01-GQFN24
 D USB to UART master bridge
 K USB UART bridge
@@ -193,25 +199,25 @@ F http://www.ftdichip.com/Products/ICs/FT245B.html
 $ENDCMP
 #
 $CMP FUSB302B01MPX
-D Programmable USB Type‐C Controller w/PD, I2C address 0x23, WQFN-14
+D Programmable USB Type-C Controller w/PD, I2C address 0x23, WQFN-14
 K USB USB-C PD Power Delivery PHY
 F http://www.onsemi.com/pub/Collateral/FUSB302B-D.PDF
 $ENDCMP
 #
 $CMP FUSB302B10MPX
-D Programmable USB Type‐C Controller w/PD, I2C address 0x24, WQFN-14
+D Programmable USB Type-C Controller w/PD, I2C address 0x24, WQFN-14
 K USB USB-C PD Power Delivery PHY
 F http://www.onsemi.com/pub/Collateral/FUSB302B-D.PDF
 $ENDCMP
 #
 $CMP FUSB302B11MPX
-D Programmable USB Type‐C Controller w/PD, I2C address 0x25, WQFN-14
+D Programmable USB Type-C Controller w/PD, I2C address 0x25, WQFN-14
 K USB USB-C PD Power Delivery PHY
 F http://www.onsemi.com/pub/Collateral/FUSB302B-D.PDF
 $ENDCMP
 #
 $CMP FUSB302BMPX
-D Programmable USB Type‐C Controller w/PD, I2C address 0x22, WQFN-14
+D Programmable USB Type-C Controller w/PD, I2C address 0x22, WQFN-14
 K USB USB-C PD Power Delivery PHY
 F http://www.onsemi.com/pub/Collateral/FUSB302B-D.PDF
 $ENDCMP
@@ -340,6 +346,18 @@ $CMP USB3300-EZK
 D Hi-Speed USB Host, Device or OTG PHY with ULPI Interface
 K USB OTG Hi-Speed PHY ULPI Interface
 F http://ww1.microchip.com/downloads/en/DeviceDoc/00001783C.pdf
+$ENDCMP
+#
+$CMP USB3740B-AI2
+D USB 2.0 Switch with ESD Protection, UQFN-10 Pitch 0.4 mm
+K USB 2.0 High Speed Switch
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00001725D.pdf
+$ENDCMP
+#
+$CMP USB3740B-AI9
+D USB 2.0 Switch with ESD Protection, UQFN-10 Pitch 0.5mm
+K USB 2.0 High Speed Switch
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00001725D.pdf
 $ENDCMP
 #
 #End Doc Library

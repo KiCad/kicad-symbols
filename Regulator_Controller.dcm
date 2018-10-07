@@ -162,6 +162,12 @@ K SMPS controller
 F www.st.com/resource/en/datasheet/l6598.pdf
 $ENDCMP
 #
+$CMP L6599
+D High Voltage Resonant Controller, DIP-16/SOIC-16
+K SMPS controller
+F www.st.com/resource/en/datasheet/l6599.pdf
+$ENDCMP
+#
 $CMP L6727
 D Single Phase PWM Controller, SOIC-8
 K SMPS controller
@@ -328,6 +334,42 @@ $CMP NCP1653A
 D Compact, Fixed-Frequency, Continuous Conduction Mode PFC Controller, 67kHz, DIP-8/SOIC-8
 K PFC SMPS Controller
 F https://www.onsemi.com/pub/Collateral/NCP1653-D.PDF
+$ENDCMP
+#
+$CMP NCP4308AD
+D Synchronous Rectifier Controller, 4A/8A, 4V UVLO, GaN Capable, SOIC-8
+K synchronous rectifier controller
+F http://www.onsemi.com/pub/Collateral/NCP4308-D.PDF
+$ENDCMP
+#
+$CMP NCP4308AMT
+D Synchronous Rectifier Controller, 4A/8A, 4V UVLO, GaN Capable, WDFN-8
+K synchronous rectifier controller
+F http://www.onsemi.com/pub/Collateral/NCP4308-D.PDF
+$ENDCMP
+#
+$CMP NCP4308DD
+D Synchronous Rectifier Controller, 4A/8A, 4V UVLO, SOIC-8
+K synchronous rectifier controller
+F http://www.onsemi.com/pub/Collateral/NCP4308-D.PDF
+$ENDCMP
+#
+$CMP NCP4308DMN
+D Synchronous Rectifier Controller, 4A/8A, 4V UVLO, DFN-8
+K synchronous rectifier controller
+F http://www.onsemi.com/pub/Collateral/NCP4308-D.PDF
+$ENDCMP
+#
+$CMP NCP4308DMT
+D Synchronous Rectifier Controller, 4A/8A, 4V UVLO, WDFN-8
+K synchronous rectifier controller
+F http://www.onsemi.com/pub/Collateral/NCP4308-D.PDF
+$ENDCMP
+#
+$CMP NCP4308QD
+D Synchronous Rectifier Controller, 4A/8A, 4V UVLO, Max TON, SOIC-8
+K synchronous rectifier controller
+F http://www.onsemi.com/pub/Collateral/NCP4308-D.PDF
 $ENDCMP
 #
 $CMP SG3525
