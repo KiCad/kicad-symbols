@@ -73,9 +73,9 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf
 $ENDCMP
 #
 $CMP VSC8541XMV-0x
-D Single Port Gigabit Ethernet Copper PHY with GMII/RGMII/MII/RMII Interfaces
+D Single Port Gigabit Ethernet, GMII/RGMII/MII/RMII Interfaces, QFN-68
 K Gigabit Ethernet PHY GMII RGMII MII RMII
-F https://www.mouser.com/ds/2/523/Microsemi_VSC8541-01_Datasheet_10496_V40-1148034.pdf
+F https://ethernet.microsemi.com/products/download.php?fid=7978&number=vsc8541
 $ENDCMP
 #
 $CMP W5100
