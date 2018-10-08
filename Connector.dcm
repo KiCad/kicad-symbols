@@ -174,6 +174,24 @@ K DC power barrel jack connector
 F ~
 $ENDCMP
 #
+$CMP Barrel_Jack_MountingPin
+D DC Barrel Jack with a mounting pin
+K DC power barrel jack connector
+F ~
+$ENDCMP
+#
+$CMP Barrel_Jack_Switch
+D DC Barrel Jack with an internal switch
+K DC power barrel jack connector
+F ~
+$ENDCMP
+#
+$CMP Barrel_Jack_Switch_MountingPin
+D DC Barrel Jack with an internal switch and a mounting pin
+K DC power barrel jack connector
+F ~
+$ENDCMP
+#
 $CMP Bus_ISA_16bit
 D 16-bit ISA-AT bus connector
 K ISA
@@ -1254,6 +1272,12 @@ K 8P8C RJ female connector
 F ~
 $ENDCMP
 #
+$CMP RJ45_Amphenol_RJMG1BD3B8K1ANR
+D 1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, AutoMDIX
+K RJ45 Magjack
+F https://www.amphenolcanada.com/ProductSearch/Drawings/AC/RJMG1BD3B8K1ANR.PDF
+$ENDCMP
+#
 $CMP RJ45_LED
 D RJ connector, 8P8C (8 positions 8 connected), two LEDs
 K 8P8C RJ female connector led
@@ -1342,6 +1366,12 @@ $CMP SIM_Card
 D SIM Card
 K SIM card UICC
 F  ~
+$ENDCMP
+#
+$CMP SODIMM-200
+D SODIMM 200 Pin socket
+K SODIMM SO-DIMM DDR1 DDR2
+F ~
 $ENDCMP
 #
 $CMP Screw_Terminal_01x01
@@ -1482,31 +1512,31 @@ K speakon connector
 F http://www.neutrik.com/en/speakon/
 $ENDCMP
 #
-$CMP Test_Point
+$CMP TestPoint
 D test point
 K test point tp
 F ~
 $ENDCMP
 #
-$CMP Test_Point_2Pole
+$CMP TestPoint_2Pole
 D 2-polar test point
 K point tp
 F ~
 $ENDCMP
 #
-$CMP Test_Point_ALT
+$CMP TestPoint_Alt
 D test point (alternative shape)
 K test point tp
 F ~
 $ENDCMP
 #
-$CMP Test_Point_Flag
+$CMP TestPoint_Flag
 D test point (alternative flag-style design)
 K test point tp
 F ~
 $ENDCMP
 #
-$CMP Test_Point_Probe
+$CMP TestPoint_Probe
 D test point (alternative probe-style design)
 K test point tp
 F ~
@@ -1551,13 +1581,25 @@ $ENDCMP
 $CMP USB_C_Plug
 D USB Type-C Plug connector
 K usb universal serial bus
-F http://www.usb.org/developers/docs/usb_31_033017.zip
+F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+$ENDCMP
+#
+$CMP USB_C_Plug_USB2.0
+D USB 2.0-only Type-C Plug connector
+K usb universal serial bus type-C USB2.0
+F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
 $ENDCMP
 #
 $CMP USB_C_Receptacle
-D USB Type-C Receptacle connector
-K usb universal serial bus
-F http://www.usb.org/developers/docs/usb_31_033017.zip
+D USB Full-Featured Type-C Receptacle connector
+K usb universal serial bus type-C full-featured
+F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+$ENDCMP
+#
+$CMP USB_C_Receptacle_USB2.0
+D USB 2.0-only Type-C Receptacle connector
+K usb universal serial bus type-C USB2.0
+F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
 $ENDCMP
 #
 $CMP USB_OTG

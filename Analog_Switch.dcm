@@ -42,6 +42,12 @@ K CMOS Analog Switch
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG633.pdf
 $ENDCMP
 #
+$CMP ADG715
+D CMOS, Low Voltage, Serially Controlled, Octal SPST Switch, I2C interface, TSSOP-24
+K CMOS, Switch, I2C
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG714_715.pdf
+$ENDCMP
+#
 $CMP ADG728
 D Single 8-to-1 CMOS Low Voltage 2-Wire Serially Controlled, Matrix Switches
 K analog switch selector multiplexer TWI I2C IIC 8-to-1
@@ -70,6 +76,24 @@ $CMP ADG734
 D Quad SPDT CMOS Analog Switch, 2.5Ohm Ron, TSSOP-20
 K CMOS Analog Switch
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf
+$ENDCMP
+#
+$CMP CD4051B
+D CMOS single 8-channel analog multiplexer demultiplexer, TSSOP-16/DIP-16/SOIC-16
+K analog switch selector multiplexer
+F http://www.ti.com/lit/ds/symlink/cd4052b.pdf
+$ENDCMP
+#
+$CMP CD4052B
+D CMOS double 4-channel analog multiplexer/demultiplexer, TSSOP-16/DIP-16/SOIC-16
+K analog switch selector multiplexer
+F http://www.ti.com/lit/ds/symlink/cd4052b.pdf
+$ENDCMP
+#
+$CMP CD4053B
+D CMOS triple 2-channel analog multiplexer/demultiplexer, TSSOP-16/DIP-16/SOIC-16
+K analog switch selector multiplexer
+F http://www.ti.com/lit/ds/symlink/cd4052b.pdf
 $ENDCMP
 #
 $CMP DG308AxJ

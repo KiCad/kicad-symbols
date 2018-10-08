@@ -84,6 +84,12 @@ K hall switch
 F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
 $ENDCMP
 #
+$CMP AK7452
+D Magnetic rotary angle sensor, 14-bit, SPI interface, ABZ, UVW, TSSOP-16
+K sensor magnetic hall position rotation spi
+F https://www.akm.com/akm/en/file/datasheet/AK7452.pdf
+$ENDCMP
+#
 $CMP AS5045B
 D Magnetic Position Sensor, 12-bit, PWM Output, ABI Output, SPI Interface
 K Magnetic Hall Encoder
@@ -112,6 +118,12 @@ $CMP AS5055A
 D Magnetic position sensor, 12-bit, SPI interface
 K sensor magnetic hall position rotation spi
 F http://ams.com/eng/content/download/552323/1541717/file/AS5055A_Datasheet_EN_v6.pdf
+$ENDCMP
+#
+$CMP MA730
+D Magnetic rotary angle sensor, 14-bit, SPI interface, ABZ, PWM, QFN-16
+K sensor magnetic hall position rotation spi
+F https://www.monolithicpower.com/pub/media/document/m/a/ma730_r1.01.pdf
 $ENDCMP
 #
 $CMP MMC5883MA

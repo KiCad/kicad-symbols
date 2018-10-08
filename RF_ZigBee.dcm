@@ -12,6 +12,30 @@ K ZIGBEE
 F https://www.nxp.com/products/no-longer-manufactured/2.4-ghz-low-power-transceiver-for-802.15.4:MC13192
 $ENDCMP
 #
+$CMP MW-R-DP-W
+D NXP JN5164/JN5169 breakout module, DIP
+K TWELITE
+F https://www.mono-wireless.com/jp/products/TWE-Lite-DIP/MW-PDS-TWELITEDIP-JP.pdf
+$ENDCMP
+#
+$CMP MW-R-WX
+D NXP JN5164/JN5169 breakout module, SMD
+K TWELITE
+F https://www.mono-wireless.com/jp/products/TWE-LITE/MW-PDS-TWELITE-JP.pdf
+$ENDCMP
+#
+$CMP TWE-L-DP-W
+D NXP JN5164/JN5169 breakout module, DIP
+K TWELITE
+F https://www.mono-wireless.com/jp/products/TWE-Lite-DIP/MW-PDS-TWELITEDIP-JP.pdf
+$ENDCMP
+#
+$CMP TWE-L-WX
+D NXP JN5164/JN5169 breakout module, SMD
+K TWELITE
+F https://www.mono-wireless.com/jp/products/TWE-LITE/MW-PDS-TWELITE-JP.pdf
+$ENDCMP
+#
 $CMP XBee_SMT
 D Digi Xbee SMT RF module
 K Digi XBee
