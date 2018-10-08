@@ -42,4 +42,13 @@ K analog multiplier
 F http://www.ti.com/lit/ds/symlink/mpy634.pdf
 $ENDCMP
 #
+$CMP PGA112
+D Zero-Drift Programmable Gain Amplifier With Mux, VSSOP-10
+K PGA VSSOP SPI
+$ENDCMP
+#
+$CMP PGA113
+F http://www.ti.com/lit/ds/sbos424c/sbos424c.pdf
+$ENDCMP
+#
 #End Doc Library
