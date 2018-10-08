@@ -30,11 +30,15 @@ ENDDEF
 #
 # Housing
 #
-DEF Housing MK 0 40 Y Y 1 F N
-F0 "MK" 150 0 50 H V L CNN
+DEF Housing N 0 40 Y Y 1 F N
+F0 "N" 150 0 50 H V L CNN
 F1 "Housing" 150 -75 50 H V L CNN
 F2 "" 50 50 50 H I C CNN
 F3 "" 50 50 50 H I C CNN
+$FPLIST
+ Enclosure*
+ Housing*
+$ENDFPLIST
 DRAW
 C -175 -125 25 0 1 0 F
 C -75 -125 25 0 1 0 F
@@ -68,8 +72,8 @@ ENDDEF
 #
 # Housing_Pad
 #
-DEF Housing_Pad MK 0 40 N N 1 F N
-F0 "MK" 175 0 50 H V L CNN
+DEF Housing_Pad N 0 40 N N 1 F N
+F0 "N" 175 0 50 H V L CNN
 F1 "Housing_Pad" 175 -75 50 H V L CNN
 F2 "" 75 50 50 H I C CNN
 F3 "" 75 50 50 H I C CNN
@@ -107,8 +111,8 @@ ENDDEF
 #
 # MountingHole
 #
-DEF MountingHole MH 0 40 Y Y 1 F N
-F0 "MH" 0 200 50 H V C CNN
+DEF MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
 F1 "MountingHole" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
@@ -122,8 +126,8 @@ ENDDEF
 #
 # MountingHole_Pad
 #
-DEF MountingHole_Pad MH 0 40 N N 1 F N
-F0 "MH" 0 250 50 H V C CNN
+DEF MountingHole_Pad H 0 40 N N 1 F N
+F0 "H" 0 250 50 H V C CNN
 F1 "MountingHole_Pad" 0 175 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
