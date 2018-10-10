@@ -888,10 +888,22 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8284-8-bit-avr-microcontroller-atmega169a_pa_329a_pa_3290a_pa_649a_p_6490a_p_datasheet.pdf
 $ENDCMP
 #
+$CMP ATmega3290P-20AU
+D 20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, TQFP-100
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8021-AVR-ATmega329P-3290P_Datasheet.pdf
+$ENDCMP
+#
 $CMP ATmega3290PA-AU
 D 20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, TQFP-100
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8284-8-bit-avr-microcontroller-atmega169a_pa_329a_pa_3290a_pa_649a_p_6490a_p_datasheet.pdf
+$ENDCMP
+#
+$CMP ATmega3290PV-10AU
+D 10MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, TQFP-100
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8021-AVR-ATmega329P-3290P_Datasheet.pdf
 $ENDCMP
 #
 $CMP ATmega3290V-8AU
@@ -912,6 +924,18 @@ K AVR 8bit Microcontroller MegaAVR LCD PicoPower
 F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8284-8-bit-avr-microcontroller-atmega169a_pa_329a_pa_3290a_pa_649a_p_6490a_p_datasheet.pdf
 $ENDCMP
 #
+$CMP ATmega329P-20AU
+D 20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, TQFP-64
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8021-AVR-ATmega329P-3290P_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATmega329P-20MU
+D 20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, QFN-64
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8021-AVR-ATmega329P-3290P_Datasheet.pdf
+$ENDCMP
+#
 $CMP ATmega329PA-AU
 D 20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, TQFP-64
 K AVR 8bit Microcontroller MegaAVR LCD PicoPower
@@ -922,6 +946,18 @@ $CMP ATmega329PA-MU
 D 20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, QFN-64
 K AVR 8bit Microcontroller MegaAVR LCD PicoPower
 F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8284-8-bit-avr-microcontroller-atmega169a_pa_329a_pa_3290a_pa_649a_p_6490a_p_datasheet.pdf
+$ENDCMP
+#
+$CMP ATmega329PV-10AU
+D 10MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, TQFP-64
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8021-AVR-ATmega329P-3290P_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATmega329PV-10MU
+D 10MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, QFN-64
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8021-AVR-ATmega329P-3290P_Datasheet.pdf
 $ENDCMP
 #
 $CMP ATmega329V-8AU
