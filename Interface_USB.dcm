@@ -12,6 +12,12 @@ K usb isolation
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM4160.pdf
 $ENDCMP
 #
+$CMP CH330N
+D USB serial converter, UART, SOIC-8
+K usb uart wch serial
+F http://www.wch.cn/downloads/file/240.html
+$ENDCMP
+#
 $CMP CH340G
 D USB serial converter, UART, SOIC-16
 K USB UART Serial Converter Interface
