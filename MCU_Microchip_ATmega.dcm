@@ -2250,6 +2250,18 @@ K AVR 8/16bit Microcontroller XMegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8153-8-and-16-bit-AVR-Microcontroller-XMEGA-E-ATxmega8E5-ATxmega16E5-ATxmega32E5_Datasheet.pdf
 $ENDCMP
 #
+$CMP ATxmega384C3-AU
+D 32MHz, 384kB Flash, 8kB Boot, 32kB SRAM, 4kB EEPROM, JTAG, USB, TQFP-64
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8361-8-and-16-bit-AVR-XMEGA-Microcontrollers-ATxmega384C3_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATxmega384C3-MH
+D 32MHz, 384kB Flash, 8kB Boot, 32kB SRAM, 4kB EEPROM, JTAG, USB, QFN-64
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8361-8-and-16-bit-AVR-XMEGA-Microcontrollers-ATxmega384C3_Datasheet.pdf
+$ENDCMP
+#
 $CMP ATxmega384D3-AU
 D 32MHz, 384kB Flash, 8kB Boot, 32kB SRAM, 4kB EEPROM, JTAG, TQFP-64
 K AVR 8/16bit Microcontroller XMegaAVR
