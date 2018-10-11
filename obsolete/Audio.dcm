@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RD5106A
+D Analog Delay Line 256 sample bucket brigade device, 512usec to more than 1second, input signal frequency range 0 to 170KHz, clock frequency range 500Hz to 1MHz
+K EG&G RETICON BBD N-channel silicon-gate
+F http://pdf.datasheetarchive.com/indexerfiles/Scans-091/DSAHI00048836.pdf
+$ENDCMP
+#
+$CMP RD5107A
+D Analog Delay Line 512 sample bucket brigade device, 1msec to more than 2seconds, input signal frequency range 0 to 170KHz, clock frequency range 500Hz to 1MHz
+K EG&G RETICON BBD N-channel silicon-gate
+F http://pdf.datasheetarchive.com/indexerfiles/Scans-091/DSAHI00048836.pdf
+$ENDCMP
+#
+$CMP SAD1024
+D SAD-1024 DUAL ANALOG DELAY LINE, bucket brigade device, 2 independent 512 stages, signal frequency range 0 to 200KHz, clock frequency range 1.5KHz to 1.5MHz
+K EG&G RETICON BBD N-channel silicon-gate
+F http://thmq.mysteria.cz/em1022/SAD1024.pdf
+$ENDCMP
+#
+$CMP SAD512
+D SAD-512 ANALOG DELAY LINE, bucket brigade device, 512 stages, signal frequency range 0 to 200KHz, clock frequency range 1.5KHz to 1.5MHz
+K EG&G RETICON BBD N-channel silicon-gate
+F http://thmq.mysteria.cz/em1022/SAD1024.pdf
+$ENDCMP
+#
+$CMP TDA1022
+D BUCKET BRIGADE DELAY LINE FOR ANALOGUE SIGNALS, 512 stages, delay time 0.512ms to 51.2ms, signal frequency range 0 to 45KHz, clock frequency range 5KHz to 500KHz, DIP-16
+K PHILIPS BBD MOS monolithic delay analogue
+F http://thmq.mysteria.cz/em1022/TDA1022.pdf
+$ENDCMP
+#
+#End Doc Library
