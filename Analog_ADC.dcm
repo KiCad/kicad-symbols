@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD6644
+D A/D Converter, 14-Bit, 40 MSPS/65 MSPS, TQFP-52
+K ADC differential analog digital converter
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD6644.pdf
+$ENDCMP
+#
+$CMP AD6645
+D A/D Converter, 14-Bit, 80 MSPS/105 MSPS, TQFP-52
+K ADC differential analog digital converter
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD6645.pdf
+$ENDCMP
+#
 $CMP AD7171
 D Single channel Analog to Digial Converter, 16-bit, differential input, 125Hz, SPI interface
 K sigma delta adc spi 1ch
