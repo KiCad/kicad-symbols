@@ -984,6 +984,12 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/opa340.pdf
 $ENDCMP
 #
+$CMP OPA355NA
+D 200MHz, CMOS, Operational amplifier, with shutdown, SOT-23-6
+K operational amplifier opamp shutdown high-speed
+F http://www.ti.com/lit/ds/symlink/opa355.pdf
+$ENDCMP
+#
 $CMP OPA356xxD
 D Single High Speed CMOS Operational Amplifier, SOIC-8
 K single opamp
