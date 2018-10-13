@@ -265,13 +265,13 @@ F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2041_datas
 $ENDCMP
 #
 $CMP TMC2100-LA
-D Standalone Step/Direction driver for two-phase bipolar stepper motor, 2.0A, 4.75-46V, QFN36
-K Step/Direction driver stepper motor
+D Standalone driver for two-phase bipolar stepper motor, 2.0A, 4.75-46V, QFN-36
+K Driver stepper motor
 F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2100_datasheet_Rev1.08.pdf
 $ENDCMP
 #
 $CMP TMC2100-TA
-D Standalone driver for two-phase bipolar stepper motor, 2.0A, 4.75-46V, QFN-48
+D Standalone driver for two-phase bipolar stepper motor, 2.0A, 4.75-46V, TQFN-48
 K Standalone driver stepper motor
 F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2100_datasheet_Rev1.08.pdf
 $ENDCMP
