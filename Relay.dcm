@@ -156,6 +156,18 @@ K relay monostable
 F https://www.elpro.org/de/index.php?controller=attachment&id_attachment=8663
 $ENDCMP
 #
+$CMP Fujitsu_FTR-F1A
+D Fujitsu Low Profile Power Relay
+K double pole single throw relay
+F https://www.fujitsu.com/downloads/MICRO/fcai/relays/ftr-f1.pdf
+$ENDCMP
+#
+$CMP Fujitsu_FTR-F1C
+D Fujitsu Low Profile Power Relay
+K double pole double throw relay
+F https://www.fujitsu.com/downloads/MICRO/fcai/relays/ftr-f1.pdf
+$ENDCMP
+#
 $CMP G5LE-1
 D Omron G5LE relay, Miniature Single Pole, SPDT, 10A
 K Miniature Single Pole Relay

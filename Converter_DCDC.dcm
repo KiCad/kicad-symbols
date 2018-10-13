@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BD8314NUV
+D 3.0V to 12V, Integrated 2.5A MOSFET 1ch Boost Converter, VSON-10
+K DCDC converter
+F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/switching_regulator/bd8314nuv-e.pdf
+$ENDCMP
+#
 $CMP TC7662AxPA
 D Charge Pump DC-to-DC Converter, 3 - 18V, 40mA, DIP-8
 K charge pump DC-to-DC converter
@@ -100,6 +106,36 @@ $CMP TEN20-4823WIN
 D 665mA Isolated DC/DC Dual Supply Converter Module, fixed +-15V Output Voltage, 18-75V Input Voltage
 K Traco isolated DC/DC Converter module
 F http://www.tracopower.com/products/ten20win.pdf
+$ENDCMP
+#
+$CMP XP_POWER-JTE0624D03
+D 6W Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, 9-36V Input Voltage
+K XP_POWER isolated DC/DC Converter module
+F https://www.xppower.com/Portals/0/pdfs/SF_JTE06.pdf
+$ENDCMP
+#
+$CMP XP_POWER-JTE0624D05
+D 6W Isolated DC/DC Converter Module, Dual Output Voltage ±5V, 9-36V Input Voltage
+K XP_POWER isolated DC/DC Converter module
+F https://www.xppower.com/Portals/0/pdfs/SF_JTE06.pdf
+$ENDCMP
+#
+$CMP XP_POWER-JTE0624D12
+D 6W Isolated DC/DC Converter Module, Dual Output Voltage ±12V, 9-36V Input Voltage
+K XP_POWER isolated DC/DC Converter module
+F https://www.xppower.com/Portals/0/pdfs/SF_JTE06.pdf
+$ENDCMP
+#
+$CMP XP_POWER-JTE0624D15
+D 6W Isolated DC/DC Converter Module, Dual Output Voltage ±15V, 9-36V Input Voltage
+K XP_POWER isolated DC/DC Converter module
+F https://www.xppower.com/Portals/0/pdfs/SF_JTE06.pdf
+$ENDCMP
+#
+$CMP XP_POWER-JTE0624D24
+D 6W Isolated DC/DC Converter Module, Dual Output Voltage ±24V, 9-36V Input Voltage
+K XP_POWER isolated DC/DC Converter module
+F https://www.xppower.com/Portals/0/pdfs/SF_JTE06.pdf
 $ENDCMP
 #
 #End Doc Library

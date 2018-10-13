@@ -84,6 +84,18 @@ K dac 2nch 16bit spi
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5689R_5687R.pdf
 $ENDCMP
 #
+$CMP AD5691RxRM
+D Tiny, 12-Bit, I2C, nanoDAC+, 2 ppm/°C Reference, MSOP-10
+K serial DAC i2c digital analog converter
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5693R_5692R_5691R_5693.pdf
+$ENDCMP
+#
+$CMP AD5693RxRM
+D Tiny, 16-Bit, I2C, nanoDAC+, 2 ppm/°C Reference, MSOP-10
+K serial DAC i2c digital analog converter
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5693R_5692R_5691R_5693.pdf
+$ENDCMP
+#
 $CMP AD5697RBCPZ
 D Dual, 12-Bit nanoDAC+ with 2 ppm/°C Reference, I2C Interface, LFCSP-16
 K dac 2nch 12bit i2c

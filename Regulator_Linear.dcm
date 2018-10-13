@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADP3336ARMZ
+D High Accuracy Ultralow IQ, 500 mA anyCAP Adjustable Low Dropout Regulator, MSOP-8
+K linear regulator ldo adjustable positive
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP3336.pdf
+$ENDCMP
+#
 $CMP ADP7142AUZJ
 D 40 V, 200 mA, Low Noise, CMOS LDO Linear Regulator, TSOT-23-5
 K linear regulator ldo adjustable positive
@@ -4048,6 +4054,174 @@ $CMP MCP1754-5002E_SOT89
 D Fixed 150mA Low Dropout Voltage Regulator, Positive, SOT-89
 K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
+$CMP MCP1804x-1802xDB
+D 150mA, 28V LDO Regulator With Shutdown, 1.8V Fixed Output, SOT-223
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
+$ENDCMP
+#
+$CMP MCP1804x-1802xMB
+D 150mA, 28V LDO Regulator With Shutdown, 1.8V Fixed Output, SOT-89-3
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
+$ENDCMP
+#
+$CMP MCP1804x-1802xMT
+D 150mA, 28V LDO Regulator With Shutdown, 1.8V Fixed Output, SOT-89-5
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
+$ENDCMP
+#
+$CMP MCP1804x-1802xOT
+D 150mA, 28V LDO Regulator With Shutdown, 1.8V Fixed Output, SOT-23-5
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
+$ENDCMP
+#
+$CMP MCP1804x-2502xDB
+D 150mA, 28V LDO Regulator With Shutdown, 2.5V Fixed Output, SOT-223
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
+$ENDCMP
+#
+$CMP MCP1804x-2502xMB
+D 150mA, 28V LDO Regulator With Shutdown, 2.5V Fixed Output, SOT-89-3
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
+$ENDCMP
+#
+$CMP MCP1804x-2502xMT
+D 150mA, 28V LDO Regulator With Shutdown, 2.5V Fixed Output, SOT-89-5
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
+$ENDCMP
+#
+$CMP MCP1804x-2502xOT
+D 150mA, 28V LDO Regulator With Shutdown, 2.5V Fixed Output, SOT-23-5
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
+$ENDCMP
+#
+$CMP MCP1804x-3002xDB
+D 150mA, 28V LDO Regulator With Shutdown, 3.0V Fixed Output, SOT-223
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
+$ENDCMP
+#
+$CMP MCP1804x-3002xMB
+D 150mA, 28V LDO Regulator With Shutdown, 3.0V Fixed Output, SOT-89-3
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
+$ENDCMP
+#
+$CMP MCP1804x-3002xMT
+D 150mA, 28V LDO Regulator With Shutdown, 3.0V Fixed Output, SOT-89-5
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
+$ENDCMP
+#
+$CMP MCP1804x-3002xOT
+D 150mA, 28V LDO Regulator With Shutdown, 3.0V Fixed Output, SOT-23-5
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
+$ENDCMP
+#
+$CMP MCP1804x-3302xDB
+D 150mA, 28V LDO Regulator With Shutdown, 3.3V Fixed Output, SOT-223
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
+$ENDCMP
+#
+$CMP MCP1804x-3302xMB
+D 150mA, 28V LDO Regulator With Shutdown, 3.3V Fixed Output, SOT-89-3
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
+$ENDCMP
+#
+$CMP MCP1804x-3302xMT
+D 150mA, 28V LDO Regulator With Shutdown, 3.3V Fixed Output, SOT-89-5
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
+$ENDCMP
+#
+$CMP MCP1804x-3302xOT
+D 150mA, 28V LDO Regulator With Shutdown, 3.3V Fixed Output, SOT-23-5
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
+$ENDCMP
+#
+$CMP MCP1804x-5002xDB
+D 150mA, 28V LDO Regulator With Shutdown, 5.0V Fixed Output, SOT-223
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
+$ENDCMP
+#
+$CMP MCP1804x-5002xMB
+D 150mA, 28V LDO Regulator With Shutdown, 5.0V Fixed Output, SOT-89-3
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
+$ENDCMP
+#
+$CMP MCP1804x-5002xMT
+D 150mA, 28V LDO Regulator With Shutdown, 5.0V Fixed Output, SOT-89-5
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
+$ENDCMP
+#
+$CMP MCP1804x-5002xOT
+D 150mA, 28V LDO Regulator With Shutdown, 5.0V Fixed Output, SOT-23-5
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
+$ENDCMP
+#
+$CMP MCP1804x-A002xDB
+D 150mA, 28V LDO Regulator With Shutdown, 10.0V Fixed Output, SOT-223
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
+$ENDCMP
+#
+$CMP MCP1804x-A002xMB
+D 150mA, 28V LDO Regulator With Shutdown, 10.0V Fixed Output, SOT-89-3
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
+$ENDCMP
+#
+$CMP MCP1804x-A002xMT
+D 150mA, 28V LDO Regulator With Shutdown, 10.0V Fixed Output, SOT-89-5
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
+$ENDCMP
+#
+$CMP MCP1804x-A002xOT
+D 150mA, 28V LDO Regulator With Shutdown, 10.0V Fixed Output, SOT-23-5
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
+$ENDCMP
+#
+$CMP MCP1804x-C002xDB
+D 150mA, 28V LDO Regulator With Shutdown, 12.0V Fixed Output, SOT-223
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
+$ENDCMP
+#
+$CMP MCP1804x-C002xMB
+D 150mA, 28V LDO Regulator With Shutdown, 12.0V Fixed Output, SOT-89-3
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
+$ENDCMP
+#
+$CMP MCP1804x-C002xMT
+D 150mA, 28V LDO Regulator With Shutdown, 12.0V Fixed Output, SOT-89-5
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
+$ENDCMP
+#
+$CMP MCP1804x-C002xOT
+D 150mA, 28V LDO Regulator With Shutdown, 12.0V Fixed Output, SOT-23-5
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf
 $ENDCMP
 #
 $CMP MCP1825S
