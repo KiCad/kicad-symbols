@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCIMX6D
+D i.MX 6Dual Application Processor
+K Dual-Core ARM Cortex A9 SOC
+F https://www.nxp.com/docs/en/data-sheet/IMX6DQCEC.pdf
+$ENDCMP
+#
+$CMP MCIMX6DP
+D i.MX 6DualPlus Application Processor
+K Dual-Core ARM Cortex A9 SOC
+F https://www.nxp.com/docs/en/data-sheet/IMX6DQPCEC.pdf
+$ENDCMP
+#
+$CMP MCIMX6Q
+D i.MX 6Quad Application Processor
+K Quad-Core ARM Cortex A9 SOC
+F https://www.nxp.com/docs/en/data-sheet/IMX6DQCEC.pdf
+$ENDCMP
+#
+$CMP MCIMX6QP
+D i.MX 6QuadPlus Application Processor
+K Quad-Core ARM Cortex A9 SOC
+F https://www.nxp.com/docs/en/data-sheet/IMX6DQPCEC.pdf
+$ENDCMP
+#
+#End Doc Library
