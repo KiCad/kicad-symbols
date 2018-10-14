@@ -714,4 +714,10 @@ K dual opamp reference
 F http://www.st.com/resource/en/datasheet/tsm103w.pdf
 $ENDCMP
 #
+$CMP MAX8586
+D Single 1.2A USB Current Limiting Switch
+K 1-channel USB current limiting power switch
+F https://datasheets.maximintegrated.com/en/ds/MAX8586.pdf
+$ENDCMP
+#
 #End Doc Library
