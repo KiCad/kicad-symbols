@@ -4854,6 +4854,12 @@ K Integrated Off-Line Switcher with EcoSmart™ Technology
 F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
 $ENDCMP
 #
+$CMP TPS51363
+D High-voltage input, synchronous converter with integrated FET, QFN-28
+K Step-down
+F http://www.ti.com/lit/ds/symlink/tps51363.pdf
+$ENDCMP
+#
 $CMP TPS5430DDA
 D 3A, Step Down Swift Converter, Adjustable Output Voltage, 5.5-36V Input Voltage, PowerSO-8
 K Step-Down DC-DC Switching Regulator
