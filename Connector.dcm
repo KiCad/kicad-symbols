@@ -1350,6 +1350,12 @@ K raspberrypi gpio
 F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf
 $ENDCMP
 #
+$CMP Samtec_ASP-134602-01
+D Connector array, 10x40, 1.27mm pitch, male pins, gold finish, VITA 57.1 FMC, SMD
+K FPGA Mezzanine Card FMC Terminal Connector Header
+F http://suddendocs.samtec.com/prints/asp-134602-01-mkt.pdf
+$ENDCMP
+#
 $CMP SCART-F
 D Prise Peritel
 K connector
