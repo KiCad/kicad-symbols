@@ -798,6 +798,12 @@ K LED diode bicolor dual
 F ~
 $ENDCMP
 #
+$CMP LED_Dual_CACA
+D Dual LED, cathodes on pins 2 and 4
+K LED diode bicolor dual
+F ~
+$ENDCMP
+#
 $CMP LED_Dual_CCA
 D Dual LED, common anode on pin 3
 K LED diode bicolor dual
