@@ -24,9 +24,9 @@ K RF attenuator
 F http://cdn.macom.com/datasheets/maadss0008.pdf
 $ENDCMP
 #
-$CMP MICRF112
-D ASK/FSK Transmitter IC 300-450MHz
-K ask fsk tpms tpm
+$CMP MICRF112MM
+D ASK/FSK Transmitter, 1.8-3.6V, 300-450MHz, +10dBm, MSOP-10
+K ask fsk ism transmitter
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MICRF112.pdf
 $ENDCMP
 #
