@@ -24,6 +24,12 @@ K RF attenuator
 F http://cdn.macom.com/datasheets/maadss0008.pdf
 $ENDCMP
 #
+$CMP MICRF112YMM
+D ASK/FSK Transmitter, 1.8-3.6V, 300-450MHz, +10dBm, MSOP-10
+K ask fsk ism transmitter
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MICRF112.pdf
+$ENDCMP
+#
 $CMP NRF24L01
 D Ultra low power 2.4GHz RF Transceiver, QFN20 4x4mm
 K Low Power RF Transciever
