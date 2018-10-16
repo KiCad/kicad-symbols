@@ -13,12 +13,13 @@ $ENDCMP
 #
 $CMP Housing
 D Housing
-K housing
+K housing enclosure
+F ~
 $ENDCMP
 #
 $CMP Housing_Pad
 D Housing with connection pin
-K housing
+K housing enclosure shield
 F ~
 $ENDCMP
 #

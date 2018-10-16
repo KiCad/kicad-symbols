@@ -282,6 +282,12 @@ K Thermocouple converter serial
 F https://datasheets.maximintegrated.com/en/ds/MAX31856.pdf
 $ENDCMP
 #
+$CMP MAX6654
+D Remote and Local Temperature Sensor, SSOP-16
+K I2C SMBus Serial
+F https://datasheets.maximintegrated.com/en/ds/MAX6654.pdf
+$ENDCMP
+#
 $CMP MCP9501
 D Temperature Switch with Selectable Hysteresis, Open-Drain, Active-Low Output (Hot Option), SOT-23-5
 K Temperature Switch sensor
