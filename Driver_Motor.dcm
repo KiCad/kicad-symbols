@@ -258,12 +258,6 @@ K H-bridge motor driver
 F https://toshiba.semicon-storage.com/us/product/linear/motordriver/detail.TB6612FNG.html
 $ENDCMP
 #
-$CMP TMC2130-LA
-D Driver for two-phase bipolar stepper motor. 2.0A, SPI, QFN36
-K stepper motor driver
-F http://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2130_datasheet.pdf
-$ENDCMP
-#
 $CMP TMC2041-LA
 D Standalone Dual driver for two-phase bipolar stepper motor, 2.2A, 4.75-26V, SPI, UART, QFN-48
 K Dual driver stepper motor
@@ -280,6 +274,12 @@ $CMP TMC2100-TA
 D Standalone driver for two-phase bipolar stepper motor, 2.0A, 4.75-46V, TQFP-48
 K Standalone driver stepper motor
 F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2100_datasheet_Rev1.08.pdf
+$ENDCMP
+#
+$CMP TMC2130-LA
+D Driver for two-phase bipolar stepper motor. 2.0A, SPI, QFN36
+K stepper motor driver
+F http://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2130_datasheet.pdf
 $ENDCMP
 #
 $CMP TMC262
