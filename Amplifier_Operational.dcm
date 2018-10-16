@@ -318,6 +318,12 @@ K quad opamp
 F http://www.ti.com/lit/ds/symlink/lmc6484.pdf
 $ENDCMP
 #
+$CMP LMH6611
+D Single Supply, 345 MHz, Rail-to-Rail Output, Amplifier, TSOT-23-6
+K opamp operational amplifier single
+F http://www.ti.com/lit/ds/symlink/lmh6612.pdf
+$ENDCMP
+#
 $CMP LMV321
 D Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOT-23-5/SC-70-5
 K single opamp
@@ -976,6 +982,12 @@ $CMP OPA340UA
 D Single Single-Supply, Rail-to-Rail Operational Amplifier, MicroAmplifier Series, SOIC-8
 K single opamp
 F http://www.ti.com/lit/ds/symlink/opa340.pdf
+$ENDCMP
+#
+$CMP OPA355NA
+D 200MHz, CMOS, Operational amplifier, with shutdown, SOT-23-6
+K operational amplifier opamp shutdown high-speed
+F http://www.ti.com/lit/ds/symlink/opa355.pdf
 $ENDCMP
 #
 $CMP OPA356xxD
