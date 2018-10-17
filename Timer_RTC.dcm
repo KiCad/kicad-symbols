@@ -102,6 +102,11 @@ K I2C RTC Alarm interrupt
 F http://www.st.com/resource/en/datasheet/m41t62.pdf
 $ENDCMP
 #
+$CMP PCF8523T
+D CMOS RTC for low power, I2C-bus, SOIC-8
+K PCF8523
+$ENDCMP
+#
 $CMP PCF8563T
 D Realtime Clock/Calendar I2C Interface, SOIC-8
 K I2C RTC Clock Calendar
