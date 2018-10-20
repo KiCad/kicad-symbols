@@ -66,6 +66,12 @@ K Crystal Clock Oscillator
 F http://www.conwin.com/datasheets/cx/cx030.pdf
 $ENDCMP
 #
+$CMP ECS-2520MV-xxx-xx
+D HCMOS Crystal Clock Oscillator, 2.5 x 2.0 mm SMD
+K Crystal Clock Oscillator ECS SMD
+F http://www.conwin.com/datasheets/cx/cx030.pdf
+$ENDCMP
+#
 $CMP GTXO-14T
 D Crystal Clock Oscillator, DIP14-style metal package
 K Crystal Clock Oscillator
