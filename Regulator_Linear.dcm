@@ -2730,6 +2730,30 @@ K Micropower Voltage Regulator 100mA Positive
 F http://www.ti.com/lit/ds/symlink/lp2950-n.pdf
 $ENDCMP
 #
+$CMP LP2951-30N
+D Micropower Voltage Regulators with Shutdown, 100mA, Fixed Output 3.0V, LDO, VSSOP-8, WSON-8, SOIC-8
+K Micropower Voltage Regulators with Shutdown
+F http://www.ti.com/lit/ds/symlink/lp2951-n.pdf
+$ENDCMP
+#
+$CMP LP2951-33N
+D Micropower Voltage Regulators with Shutdown, 100mA, Fixed Output 3.3V, LDO, VSSOP-8, WSON-8, SOIC-8
+K Micropower Voltage Regulators with Shutdown
+F http://www.ti.com/lit/ds/symlink/lp2951-n.pdf
+$ENDCMP
+#
+$CMP LP2951-50N
+D Micropower Voltage Regulators with Shutdown, 100mA, Fixed Output 5.0V, LDO, VSSOP-8, WSON-8, SOIC-8
+K Micropower Voltage Regulators with Shutdown
+F http://www.ti.com/lit/ds/symlink/lp2951-n.pdf
+$ENDCMP
+#
+$CMP LP2951-50NP
+D Micropower Voltage Regulators with Shutdown, 100mA, Fixed Output 5.0V, LDO, DIP-8
+K Micropower Voltage Regulators with Shutdown
+F http://www.ti.com/lit/ds/symlink/lp2951-n.pdf
+$ENDCMP
+#
 $CMP LP2985-1.8
 D 150mA 16V Low-noise Low-dropout Regulator With Shutdown, 1.8V output voltage, SOT-23-5
 K LDO regulator linear  SOT-23-5
