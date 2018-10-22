@@ -164,6 +164,56 @@ X ON/~OFF 6 -500 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# XP_POWER-IA1205S
+#
+DEF XP_POWER-IA1205S PS 0 30 Y Y 1 F N
+F0 "PS" 350 250 50 H V L CNN
+F1 "XP_POWER-IA1205S" 250 150 50 H V L CNN
+F2 "Converter_DCDC:IH2412S" 1050 -200 50 H I L CNN
+F3 "https://www.xppower.com/pdfs/SF_IA.pdf" 1050 -300 50 H I L CNN
+F4 "XP Power Through Hole 2W Isolated DC-DC Converter, Vin 10.8  13.2 V dc, I/O isolation 1kV dc, Vout 5V dc" 1050 -400 50 H I L CNN "Description"
+F5 "10" 1050 -200 50 H I L CNN "Height"
+F6 "XP POWER" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "IA1205S" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "1619127" 1050 -500 50 H I L CNN "RS Part Number"
+F9 "http://uk.rs-online.com/web/p/products/1619127" 1050 -600 50 H I L CNN "RS Price/Stock"
+F10 "IA1205S" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "http://uk.rs-online.com/web/p/products/1619127" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 650 100 650 -500 200 -500 200 100 N
+X +VIN 1 0 0 200 R 50 50 0 0 W
+X -VIN 2 0 -100 200 R 50 50 0 0 W
+X -VOUT 4 0 -200 200 R 50 50 0 0 w
+X 0V 5 0 -300 200 R 50 50 0 0 w
+X +VOUT 6 0 -400 200 R 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# XP_POWER-IH1205S
+#
+DEF XP_POWER-IH1205S PS 0 30 Y Y 1 F N
+F0 "PS" 350 250 50 H V L CNN
+F1 "XP_Power-IH1205S" 250 150 50 H V L CNN
+F2 "ConverterDCDC:IH2412S" 1050 -200 50 H I L CNN
+F3 "https://www.xppower.com/pdfs/SF_IH.pdf" 1050 -300 50 H I L CNN
+F4 "XP Power Through Hole 2W Isolated DC-DC Converter, Vin 10.8  13.2 V dc, I/O isolation 1kV dc, Vout 5V dc" 1050 -400 50 H I L CNN "Description"
+F5 "10" 1050 -200 50 H I L CNN "Height"
+F6 "XP POWER" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "IH1205S" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "1619127" 1050 -500 50 H I L CNN "RS Part Number"
+F9 "http://uk.rs-online.com/web/p/products/1619127" 1050 -600 50 H I L CNN "RS Price/Stock"
+F10 "IH1205S" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "http://uk.rs-online.com/web/p/products/1619127" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 650 100 650 -500 200 -500 200 100 N
+X +VIN 1 0 0 200 R 50 50 0 0 W
+X -VIN 2 0 -100 200 R 50 50 0 0 W
+X -VOUT 4 0 -200 200 R 50 50 0 0 w
+X 0V 5 0 -300 200 R 50 50 0 0 w
+X +VOUT 6 0 -400 200 R 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
 # XP_POWER-JTE0624D03
 #
 DEF XP_POWER-JTE0624D03 U 0 20 Y Y 1 F N
