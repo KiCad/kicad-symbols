@@ -2184,6 +2184,12 @@ K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/SI/SI4532DY.pdf
 $ENDCMP
 #
+$CMP Si7336ADP
+D 30A Id, 30V Vds, 2.4 mOhm Ron, PowerPAK-8
+K N-Channel MOSFET
+F www.vishay.com/docs/73152/si7336adp.pdf
+$ENDCMP
+#
 $CMP Si4542DY
 D Dual N and P Channel MOSFET, 6A Id, 30V Vds, 28mOhm Ron, 10V Vgs, SO8L
 K Dual N-Channel P-Channel MOSFET
