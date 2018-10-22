@@ -214,6 +214,33 @@ X +VOUT 6 0 -400 200 R 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
+# XP_POWER-ITX1205S
+#
+DEF XP_POWER-ITX1205S PS 0 30 Y Y 1 F N
+F0 "PS" 150 350 50 H V L CNN
+F1 "XP_POWER-ITX1205S" 50 250 50 H V L CNN
+F2 "ConverterDCDC:ITQ4815S" 50 150 50 H I L CNN
+F3 "https://www.xppower.com/Portals/0/pdfs/SF_ITX.pdf" 1450 0 50 H I L CNN
+F4 "XP Power ITX 6W Isolated DC-DC Converter Through Hole, Vin 9  18 V dc, Vout 5V dc, I/O isolation 1.5kV dc" 1450 -100 50 H I L CNN "Description"
+F5 "10" 1450 -200 50 H I L CNN "Height"
+F6 "XP POWER" 1450 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ITX1205S" 1450 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "1619164" 1450 -500 50 H I L CNN "RS Part Number"
+F9 "http://uk.rs-online.com/web/p/products/1619164" 1450 -600 50 H I L CNN "RS Price/Stock"
+F10 "ITX1205S" 1450 -700 50 H I L CNN "Arrow Part Number"
+F11 "http://uk.rs-online.com/web/p/products/1619164" 1450 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 750 100 750 -500 200 -500 200 100 N
+X -VIN 1 0 -100 200 R 50 50 0 0 W
+X +VIN 2 0 0 200 R 50 50 0 0 W
+X N.C. 3 950 -100 200 L 50 50 0 0 N
+X N.C. 5 950 0 200 L 50 50 0 0 N
+X +VOUT 6 0 -400 200 R 50 50 0 0 w
+X Common 7 0 -300 200 R 50 50 0 0 w
+X -VOUT 8 0 -200 200 R 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
 # XP_POWER-JTE0624D03
 #
 DEF XP_POWER-JTE0624D03 U 0 20 Y Y 1 F N
