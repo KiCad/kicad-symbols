@@ -1487,13 +1487,7 @@ F http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF
 $ENDCMP
 #
 $CMP MUN5211DW1
-D 0.2A Ic, 50V Vce, Small Signal Dual NPN Bias Resistor Transistors, SOT-363
-K Dual NPN Transistor
-F http://www.onsemi.com/pub/Collateral/DTC114ED-D.PDF
-$ENDCMP
-#
-$CMP NSVMUN5211DW1
-D 0.2A Ic, 50V Vce, Small Signal Dual NPN Bias Resistor Transistors, SOT-363, AEC-Q101 Qualified
+D 0.1A Ic, 50V Vce, Dual NPN Bias Resistor Transistors, SOT-363
 K Dual NPN Transistor
 F http://www.onsemi.com/pub/Collateral/DTC114ED-D.PDF
 $ENDCMP
@@ -1568,12 +1562,6 @@ $CMP S8550
 D 0.7A Ic, 20V Vce, Low Voltage High Current PNP Transistor, TO-92
 K S8550 PNP Low Voltage High Current Transistor
 F http://www.unisonic.com.tw/datasheet/S8550.pdf
-$ENDCMP
-#
-$CMP SMUN5211DW1
-D 0.2A Ic, 50V Vce, Small Signal Dual NPN Bias Resistor Transistors, SOT-363, AEC-Q101 Qualified
-K Dual NPN Transistor
-F http://www.onsemi.com/pub/Collateral/DTC114ED-D.PDF
 $ENDCMP
 #
 $CMP SSM2210
