@@ -30,6 +30,12 @@ K digital temperature humidity sensor
 F http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
 $ENDCMP
 #
+$CMP INA260
+D Current/power/voltage monitor with Integrated 2mΩ Shunt Resistor, 2.7V - 5.5V, I2C, TSSOP-16
+K Current/power/voltage monitor
+F http://www.ti.com/lit/ds/symlink/ina260.pdf
+$ENDCMP
+#
 $CMP LTC2990
 D Temperature Voltage and Current Monitor, I2C Interface, MSOP-10
 K Temperature Voltage Current Monitor I2C AFE
