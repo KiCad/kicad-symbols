@@ -84,6 +84,18 @@ K dac 2nch 16bit spi
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5689R_5687R.pdf
 $ENDCMP
 #
+$CMP AD5691RxRM
+D Tiny, 12-Bit, I2C, nanoDAC+, 2 ppm/°C Reference, MSOP-10
+K serial DAC i2c digital analog converter
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5693R_5692R_5691R_5693.pdf
+$ENDCMP
+#
+$CMP AD5693RxRM
+D Tiny, 16-Bit, I2C, nanoDAC+, 2 ppm/°C Reference, MSOP-10
+K serial DAC i2c digital analog converter
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5693R_5692R_5691R_5693.pdf
+$ENDCMP
+#
 $CMP AD5697RBCPZ
 D Dual, 12-Bit nanoDAC+ with 2 ppm/°C Reference, I2C Interface, LFCSP-16
 K dac 2nch 12bit i2c
@@ -376,6 +388,18 @@ $CMP DAC7513_DCN
 D Low-Power, Rail-to-Rail Output, 12-Bit Serial Input DAC
 K TI DAC 12 bit
 F http://www.ti.com.cn/cn/lit/ds/symlink/dac7513.pdf
+$ENDCMP
+#
+$CMP DAC7750xRHA
+D Single-Channel, 12bit Programmable Current Output DAC for 4-mA to 20-mA Current Loop Applications, VQFN-40
+K DAC Current Loop 20mA
+F http://www.ti.com/lit/ds/symlink/dac7750.pdf
+$ENDCMP
+#
+$CMP DAC8750xRHA
+D Single-Channel, 16bit Programmable Current Output DAC for 4-mA to 20-mA Current Loop Applications, VQFN-40
+K DAC Current Loop 20mA
+F http://www.ti.com/lit/ds/symlink/dac7750.pdf
 $ENDCMP
 #
 $CMP LTC1257

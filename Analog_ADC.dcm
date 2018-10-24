@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD6644
+D A/D Converter, 14-Bit, 40 MSPS/65 MSPS, TQFP-52
+K ADC differential analog digital converter
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD6644.pdf
+$ENDCMP
+#
+$CMP AD6645
+D A/D Converter, 14-Bit, 80 MSPS/105 MSPS, TQFP-52
+K ADC differential analog digital converter
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD6645.pdf
+$ENDCMP
+#
 $CMP AD7171
 D Single channel Analog to Digial Converter, 16-bit, differential input, 125Hz, SPI interface
 K sigma delta adc spi 1ch
@@ -273,6 +285,30 @@ $CMP LTC1598IG
 D Micropower 12-bit 8 Channel ADC, Serial IO, SSOP-24
 K 12bit ADC 4 Channel
 F http://cds.linear.com/docs/en/datasheet/15948fb.pdf
+$ENDCMP
+#
+$CMP LTC1742
+D 14-Bit, 65Msps, Low Noise, ADC, TSSOP-48
+K ADC analog digital converter pipeline
+F http://www.analog.com/media/en/technical-documentation/data-sheets/1742f.pdf
+$ENDCMP
+#
+$CMP LTC1744
+D 14-Bit, 50Msps, ADC, TSSOP-48
+K ADC analog digital converter pipeline
+F http://www.analog.com/media/en/technical-documentation/data-sheets/1744f.pdf
+$ENDCMP
+#
+$CMP LTC1746
+D Low Power, 14-Bit, 25Msps, ADC, TSSOP-48
+K ADC analog digital converter pipeline
+F http://www.analog.com/media/en/technical-documentation/data-sheets/1746f.pdf
+$ENDCMP
+#
+$CMP LTC1748
+D 14-Bit, 80Msps, Low Noise, ADC, TSSOP-48
+K ADC analog digital converter pipeline
+F http://www.analog.com/media/en/technical-documentation/data-sheets/1748fa.pdf
 $ENDCMP
 #
 $CMP LTC1864

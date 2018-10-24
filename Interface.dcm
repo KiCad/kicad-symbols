@@ -87,6 +87,18 @@ K Direct Digital Synthesizer DDS
 F http://www.analog.com/static/imported-files/data_sheets/AD9834.pdf
 $ENDCMP
 #
+$CMP AD9850
+D CMOS, 125 MHz, Complete DDS Synthesizer, SSOP-28
+K DDS direct digital synthesizer
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9850.pdf
+$ENDCMP
+#
+$CMP AD9851
+D CMOS, 180 MHz, DDS/DAC Synthesizer, SSOP-28
+K DDS direct digital synthesizer
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9851.pdf
+$ENDCMP
+#
 $CMP AD9910
 D 1 GSPS, 14-Bit, 3.3 V CMOS, Direct Digital Synthesizer, QFP-100
 K dds direct digital synthesizer

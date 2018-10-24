@@ -744,6 +744,12 @@ K LED RGB diode
 F ~
 $ENDCMP
 #
+$CMP LED_BARG
+D RGB LED, blue/anode/red/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP LED_BGRA
 D RGB LED, blue/green/red/anode
 K LED RGB diode
