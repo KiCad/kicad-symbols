@@ -18,6 +18,12 @@ K Level shifter translator bidirectional
 F http://www.onsemi.com/pub/Collateral/FXMA108-D.pdf
 $ENDCMP
 #
+$CMP SN74AHCT123A
+D Dual retriggerable monostable multivibrator
+K monostable, multivibrator
+F http://www.ti.com/lit/gpn/sn74ahct123a
+$ENDCMP
+#
 $CMP SN74AUP1T34DCK
 D 1-Bit Unidirectional Voltage-Level Translator, SC-70
 K Noninverting
