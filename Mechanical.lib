@@ -141,14 +141,13 @@ ENDDRAW
 ENDDEF
 #
 # DIN_Rail_Adapter
-#
 DEF DIN_Rail_Adapter DRA 0 40 Y Y 1 F N
 F0 "DRA" 0 150 50 H V C CNN
 F1 "DIN_Rail_Adapter" 0 250 50 H V C CNN
-F2 "PhoenixContact_1201578" 0 -200 50 H I C CNN
+F2 "MountingHole:DINRailAdapter_M3" 0 -200 50 H I C CNN
 F3 "" 0 150 50 H I C CNN
 $FPLIST
- PhoenixContact_1201578
+ DINRailAdapter*
 $ENDFPLIST
 DRAW
 C -300 0 50 0 1 50 N
