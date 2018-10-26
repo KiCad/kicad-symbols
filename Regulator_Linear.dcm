@@ -2766,6 +2766,12 @@ K Micropower Voltage Regulators with Shutdown
 F http://www.ti.com/lit/ds/symlink/lp2951-n.pdf
 $ENDCMP
 #
+$CMP LP2951-3.3_VSSOP
+D Micropower Voltage Regulators with Shutdown, 100mA, Fixed Output 3.3V, LDO, VSSOP-8
+K Micropower Voltage Regulators with Shutdown
+F http://www.ti.com/lit/ds/symlink/lp2951-n.pdf
+$ENDCMP
+#
 $CMP LP2951-3.3_WSON
 D Micropower Voltage Regulators with Shutdown, 100mA, Fixed Output 3.3V, LDO, WSON-8
 K Micropower Voltage Regulators with Shutdown
