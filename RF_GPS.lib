@@ -41,9 +41,9 @@ ENDDEF
 # ublox_MAX-8C
 #
 DEF ublox_MAX-8C U 0 20 Y Y 1 F N
-F0 "U" 0 0 50 H V C CNN
-F1 "ublox_MAX-8C" 300 -650 50 H V C CNN
-F2 "RF_Module:ublox_MAX" 450 -750 50 H I C CNN
+F0 "U" -400 650 50 H V C CNN
+F1 "ublox_MAX-8C" 450 650 50 H V C CNN
+F2 "RF_Module:ublox_MAX" 450 -650 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS ublox_MAX-8Q ublox_MAX-M8C ublox_MAX-M8Q
 $FPLIST
@@ -75,9 +75,9 @@ ENDDEF
 # ublox_MAX-M8W
 #
 DEF ublox_MAX-M8W U 0 20 Y Y 1 F N
-F0 "U" 0 0 50 H V C CNN
-F1 "ublox_MAX-M8W" 350 -650 50 H V C CNN
-F2 "RF_Module:ublox_MAX" 450 -750 50 H I C CNN
+F0 "U" -400 650 50 H V C CNN
+F1 "ublox_MAX-M8W" 500 650 50 H V C CNN
+F2 "RF_Module:ublox_MAX" 450 -650 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  ublox*MAX*
