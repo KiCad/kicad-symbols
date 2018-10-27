@@ -176,7 +176,7 @@ DEF CLS6B-FKW D 0 20 Y N 1 F N
 F0 "D" -200 250 50 H V L CNN
 F1 "CLS6B-FKW" -200 -250 50 H V L CNN
 F2 "LED_SMD:LED_Cree-PLCC6_4.7x1.5mm" -200 -320 50 H I L CNN
-F3 "http://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf" -200 -400 50 H I L CNN
+F3 "" -200 -400 50 H I L CNN
 ALIAS QLS6B-FKW
 $FPLIST
  LED?Cree?PLCC6?4.7x1.5mm*
@@ -1128,7 +1128,7 @@ DEF QLS6A-FKW D 0 20 Y N 1 F N
 F0 "D" -200 300 50 H V L CNN
 F1 "QLS6A-FKW" -200 -300 50 H V L CNN
 F2 "LED_SMD:LED_Cree-PLCC6_4.7x1.5mm" -200 -375 50 H I L CNN
-F3 "http://www.cree.com/led-components/media/documents/1381-QLS6AFKW.pdf" -200 -450 50 H I L CNN
+F3 "" -200 -400 50 H I L CNN
 $FPLIST
  LED?Cree?PLCC6?4.7x1.5mm*
 $ENDFPLIST
