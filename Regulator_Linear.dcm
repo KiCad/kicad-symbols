@@ -5352,6 +5352,66 @@ K Dual 3.3V 2.5V LDO Regulator 500mA 250mA Voltage Supervisor
 F http://www.ti.com/lit/ds/symlink/tps702.pdf
 $ENDCMP
 #
+$CMP TPS70302
+D Dual-Output, Low Dropout Voltage Regulators With Integrated SVS For Split Voltage Systems, Sequenced Outputs, ADJ 1A/ADJ 2A, HTSSOP-24
+K dual ldo regulator
+F http://www.ti.com/lit/ds/symlink/tps703.pdf
+$ENDCMP
+#
+$CMP TPS70345
+D Dual-Output, Low Dropout Voltage Regulators With Integrated SVS For Split Voltage Systems, Sequenced Outputs, 3.3V 1A/1.2V 2A, HTSSOP-24
+K dual ldo regulator
+F http://www.ti.com/lit/ds/symlink/tps703.pdf
+$ENDCMP
+#
+$CMP TPS70348
+D Dual-Output, Low Dropout Voltage Regulators With Integrated SVS For Split Voltage Systems, Sequenced Outputs, 3.3V 1A/1.5V 2A, HTSSOP-24
+K dual ldo regulator
+F http://www.ti.com/lit/ds/symlink/tps703.pdf
+$ENDCMP
+#
+$CMP TPS70351
+D Dual-Output, Low Dropout Voltage Regulators With Integrated SVS For Split Voltage Systems, Sequenced Outputs, 3.3V 1A/1.8V 2A, HTSSOP-24
+K dual ldo regulator
+F http://www.ti.com/lit/ds/symlink/tps703.pdf
+$ENDCMP
+#
+$CMP TPS70358
+D Dual-Output, Low Dropout Voltage Regulators With Integrated SVS For Split Voltage Systems, Sequenced Outputs, 3.3V 1A/2.5V 2A, HTSSOP-24
+K dual ldo regulator
+F http://www.ti.com/lit/ds/symlink/tps703.pdf
+$ENDCMP
+#
+$CMP TPS70402
+D Dual-Output, Low Dropout Voltage Regulators With Integrated SVS For Split Voltage Systems, Independent Enable, ADJ 1A/ADJ 2A, HTSSOP-24
+K dual ldo regulator
+F http://www.ti.com/lit/ds/symlink/tps704.pdf
+$ENDCMP
+#
+$CMP TPS70445
+D Dual-Output, Low Dropout Voltage Regulators With Integrated SVS For Split Voltage Systems, Independent Enable, 3.3V 1A/1.2V 2A, HTSSOP-24
+K dual ldo regulator
+F http://www.ti.com/lit/ds/symlink/tps704.pdf
+$ENDCMP
+#
+$CMP TPS70448
+D Dual-Output, Low Dropout Voltage Regulators With Integrated SVS For Split Voltage Systems, Independent Enable, 3.3V 1A/1.5V 2A, HTSSOP-24
+K dual ldo regulator
+F http://www.ti.com/lit/ds/symlink/tps704.pdf
+$ENDCMP
+#
+$CMP TPS70451
+D Dual-Output, Low Dropout Voltage Regulators With Integrated SVS For Split Voltage Systems, Independent Enable, 3.3V 1A/1.8V 2A, HTSSOP-24
+K dual ldo regulator
+F http://www.ti.com/lit/ds/symlink/tps704.pdf
+$ENDCMP
+#
+$CMP TPS70458
+D Dual-Output, Low Dropout Voltage Regulators With Integrated SVS For Split Voltage Systems, Independent Enable, 3.3V 1A/2.5V 2A, HTSSOP-24
+K dual ldo regulator
+F http://www.ti.com/lit/ds/symlink/tps704.pdf
+$ENDCMP
+#
 $CMP TPS7101
 D 500mA Adjustable 1.2-9.75V Low Drop-out Voltage Regualtor, SO-8/DIP-8
 K LDO Voltage Regulator 500mA Adjustable
