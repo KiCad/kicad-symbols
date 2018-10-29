@@ -4806,6 +4806,24 @@ K REGULATOR LDO 5.0V
 F https://www.exar.com/content/document.ashx?id=22106&languageid=1033&type=Datasheet&partnumber=SPX3819&filename=SPX3819.pdf&part=SPX3819
 $ENDCMP
 #
+$CMP TC1017-x.xxCTxx_SOT23
+D 150 mA, Tiny CMOS LDO With Shutdown
+K LDO Linear Voltage Regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21813F.pdf
+$ENDCMP
+#
+$CMP TC1017-x.xxLTxx_SC70
+D 150 mA, Tiny CMOS LDO With Shutdown
+K LDO Linear Voltage Regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21813F.pdf
+$ENDCMP
+#
+$CMP TC1017R-x.xxLTxx_SC70
+D 150 mA, Tiny CMOS LDO With Shutdown
+K LDO Linear Voltage Regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21813F.pdf
+$ENDCMP
+#
 $CMP TC1054
 D 50mA Low Dropout Regulator with ERROR output in 5-Pin SOT-23 package
 K LDO regulator voltage
