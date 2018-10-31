@@ -30,7 +30,25 @@ K pll clock driver
 F http://www.ti.com/lit/ds/symlink/cdcvf2505.pdf
 $ENDCMP
 #
-$CMP SI5351C
+$CMP SI5351A-B-GM
+D I2C-Programmable, Any-Frequency, CMOS, Clock Generator
+K clock synthesizer distribution frequency divider
+F https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf
+$ENDCMP
+#
+$CMP SI5351A-B-GT
+D I2C-Programmable, Any-Frequency, CMOS, Clock Generator
+K clock synthesizer distribution frequency divider
+F https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf
+$ENDCMP
+#
+$CMP SI5351B-B-GM
+D I2C-Programmable, Any-Frequency, CMOS, Clock Generator
+K clock synthesizer distribution frequency divider
+F https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf
+$ENDCMP
+#
+$CMP SI5351C-B-GM
 D I2C-Programmable, Any-Frequency, CMOS, Clock Generator
 K clock synthesizer distribution frequency divider
 F https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf
