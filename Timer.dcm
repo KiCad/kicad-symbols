@@ -96,8 +96,14 @@ K clock generator signal
 F http://www.analog.com/media/en/technical-documentation/data-sheets/6909fa.pdf
 $ENDCMP
 #
+$CMP LTC6994_DCB
+D TimerBlox: Delay Block/Debouncer, programmable, noise discriminator, DCB package SMD DFN-6-1EP
+K delay block, timer, noise discriminator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/699412fb.pdf https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-dfn/(DCB6)%20DFN%2005-08-1715%20Rev%20A.pdf
+$ENDCMP
+#
 $CMP LTC6994_S6
-D TimerBlox: Delay Block/Debouncer, programmable, noise discriminator
+D TimerBlox: Delay Block/Debouncer, programmable, noise discriminator, S6 package SMD TSOT-23-6
 K delay block, timer, noise discriminator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/699412fb.pdf
 $ENDCMP
