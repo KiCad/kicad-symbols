@@ -1,5 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADG901BCPZ
+D SPST DC-4.5GHz absorbative switch, 40dB isolation at 1GHz, LFCSP-8
+K Analog Devices RF SPST switch CMOS LVTTL
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG901_902.pdf
+$ENDCMP
+#
+$CMP ADG901BRMZ
+D SPST DC-4.5GHz absorbative switch, 40dB isolation at 1GHz, MSOP-8
+K Analog Devices RF SPST switch CMOS LVTTL
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG901_902.pdf
+$ENDCMP
+#
+$CMP ADG902BRMZ
+D SPST DC-4.5GHz reflective switch, 40dB isolation at 1GHz, MSOP-8
+K Analog Devices RF SPST switch CMOS LVTTL
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG901_902.pdf
+$ENDCMP
+#
 $CMP MASW-007221
 D Macom GaAs RF SPDT switch, DC-3GHz, 0.56/12dB loss/isolation, SOT-363
 K RF SWITCH SPDT
