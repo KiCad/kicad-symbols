@@ -96,6 +96,12 @@ K clock generator signal
 F http://www.analog.com/media/en/technical-documentation/data-sheets/6909fa.pdf
 $ENDCMP
 #
+$CMP LTC6994_S6
+D TimerBlox: Delay Block/Debouncer, programmable, noise discriminator
+K delay block, timer, noise discriminator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/699412fb.pdf
+$ENDCMP
+#
 $CMP MC1455
 D Timers, DIP-8/SOIC-8
 K timer
