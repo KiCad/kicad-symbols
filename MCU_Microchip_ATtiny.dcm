@@ -102,12 +102,6 @@ K AVR 8bit Microcontroller tinyAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2535.pdf
 $ENDCMP
 #
-$CMP ATtiny1634-MN
-D 12MHz, 16kB Flash, 1kB SRAM, 256B EEPROM, ADC, ACI, debugWIRE, QFN-20
-K AVR 8bit Microcontroller tinyAVR
-F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8303-8-bit-AVR-Microcontroller-tinyAVR-ATtiny1634_Datasheet.pdf
-$ENDCMP
-#
 $CMP ATtiny1634-MU
 D 12MHz, 16kB Flash, 1kB SRAM, 256B EEPROM, ADC, ACI, debugWIRE, QFN-20
 K AVR 8bit Microcontroller tinyAVR
