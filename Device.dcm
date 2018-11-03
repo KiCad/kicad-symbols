@@ -438,6 +438,18 @@ K diode TVS thyrector
 F ~
 $ENDCMP
 #
+$CMP D_TVS_Uni
+D Unidirectional transient-voltage-suppression diode
+K diode TVS thyrector
+F ~
+$ENDCMP
+#
+$CMP D_TVS_Uni_ALT
+D Unidirectional transient-voltage-suppression diode
+K diode TVS thyrector
+F ~
+$ENDCMP
+#
 $CMP D_TVS_x2_AAC
 D Bidirectional dual transient-voltage-suppression diode, center on pin 3
 K diode TVS thyrector
