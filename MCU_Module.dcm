@@ -36,6 +36,11 @@ K Arduino UNO R3 Microcontroller Module Atmel AVR USB
 F https://www.arduino.cc/en/Main/arduinoBoardUno
 $ENDCMP
 #
+$CMP BluePill
+D STM32F103-based "Blue Pill" micro-controller development board
+K stm32 stm32f1 stm32f103 bluepill
+$ENDCMP
+#
 $CMP CHIP
 D NextThingCo C.H.I.P. Module
 K nextthingco chip module
