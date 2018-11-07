@@ -420,14 +420,14 @@ K ARM, 32-bit, Cortex-M0, M0, NXP, microcontroller
 F http://www.nxp.com/documents/data_sheet/LPC11U3X.pdf
 $ENDCMP
 #
-$CMP LPC122xFBD48
-D LPC122x MCU LQFP48
+$CMP LPC1224FBD48-101
+D LPC122x 32-bit ARM Cortex-M0 microcontroller, LQFP-48
 K ARM, 32-bit, Cortex-M0, M0, NXP, microcontroller
 F https://www.nxp.com/docs/en/data-sheet/LPC122X.pdf
 $ENDCMP
 #
-$CMP LPC122xFBD64
-D LPC122x MCU LQFP48
+$CMP LPC1224FBD64-101
+D LPC122x 32-bit ARM Cortex-M0 microcontroller, LQFP-64
 K ARM, 32-bit, Cortex-M0, M0, NXP, microcontroller
 F https://www.nxp.com/docs/en/data-sheet/LPC122X.pdf
 $ENDCMP
