@@ -90,8 +90,20 @@ K LIN transceiver regulator
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22299B.pdf
 $ENDCMP
 #
+$CMP MCP2515-ESO
+D Stand-Alone CAN Controller with SPI Interface, SOIC-18, Extended temperature range
+K CAN Controller SPI
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf
+$ENDCMP
+#
 $CMP MCP2515-EST
 D Stand-Alone CAN Controller with SPI Interface, TSSOP-20, Extended temperature range
+K CAN Controller SPI
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf
+$ENDCMP
+#
+$CMP MCP2515-ISO
+D Stand-Alone CAN Controller with SPI Interface, SOIC-18, Industrial temperature range
 K CAN Controller SPI
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf
 $ENDCMP
