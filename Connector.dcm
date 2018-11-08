@@ -1290,6 +1290,11 @@ K 8P8C RJ female connector led
 F ~
 $ENDCMP
 #
+$CMP RJ45_Magjack_LEDS
+D 1 Port RJ45 Magjack Connector 10/100 Base-T
+K RJ45 Magjack
+$ENDCMP
+#
 $CMP RJ45_Shielded
 D RJ connector, 8P8C (8 positions 8 connected), Shielded
 K 8P8C RJ female connector
