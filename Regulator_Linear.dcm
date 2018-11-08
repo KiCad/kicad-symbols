@@ -3336,6 +3336,36 @@ K REGULATOR POSITIVE POWER LDO adjustable
 F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
 $ENDCMP
 #
+$CMP LT1762
+D 150mA, Adjustable, Low Noise, Micropower LDO Regulator, MSOP-8
+K LDO ADJ
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1762.pdf
+$ENDCMP
+#
+$CMP LT1762-2.5
+D 2.5V, 150mA, Low Noise, Micropower LDO Regulator, MSOP-8
+K LDO ADJ
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1762.pdf
+$ENDCMP
+#
+$CMP LT1762-3
+D 3V, 150mA, Low Noise, Micropower LDO Regulator, MSOP-8
+K LDO ADJ
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1762.pdf
+$ENDCMP
+#
+$CMP LT1762-3.3
+D 3.3V, 150mA, Low Noise, Micropower LDO Regulator, MSOP-8
+K LDO ADJ
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1762.pdf
+$ENDCMP
+#
+$CMP LT1762-5
+D 5V, 150mA, Low Noise, Micropower LDO Regulator, MSOP-8
+K LDO ADJ
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1762.pdf
+$ENDCMP
+#
 $CMP LT1962
 D 300mA, Adjustable, Low Noise, Micropower LDO Regulator, MSOP-8
 K LDO ADJ
