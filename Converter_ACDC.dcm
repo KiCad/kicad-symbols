@@ -1,5 +1,29 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP HLK-PM01
+D Compact AC/DC board mount power module 3W 5V
+K AC/DC module power supply
+F http://www.hlktech.net/product_detail.php?ProId=54
+$ENDCMP
+#
+$CMP HLK-PM03
+D Compact AC/DC board mount power module 3W 3V3
+K AC/DC module power supply
+F http://www.hlktech.net/product_detail.php?ProId=59
+$ENDCMP
+#
+$CMP HLK-PM12
+D Compact AC/DC board mount power module 3W 12V
+K AC/DC module power supply
+F http://www.hlktech.net/product_detail.php?ProId=56
+$ENDCMP
+#
+$CMP HLK-PM24
+D Compact AC/DC board mount power module 3W 24V
+K AC/DC module power supply
+F http://www.hlktech.net/product_detail.php?ProId=81
+$ENDCMP
+#
 $CMP HS-40003
 D 3.3V, 3W, AC-DC module power supply, Hahn
 K 3.3V 3W AC-DC module power supply
