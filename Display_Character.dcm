@@ -570,6 +570,12 @@ K display LED 7-segment
 F http://www.kingbright.com/attachments/file/psearch/000/00/00/SBC18-11SURKCGKWA(Ver.6A).pdf
 $ENDCMP
 #
+$CMP SA15-11SRWA
+D Super bright red Single-digit Numeric Display with white diffused lens, common anode
+K display LED 7-segment
+F http://www.kingbrightusa.com/images/catalog/SPEC/SA15-11SRWA.pdf
+$ENDCMP
+#
 $CMP WC1602A
 D LCD 16x2 Alphanumeric , 8 bit parallel bus, 5V VDD
 K display LCD dot-matrix
