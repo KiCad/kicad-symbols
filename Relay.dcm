@@ -498,6 +498,42 @@ K Panasonic Relay Dual Pole
 F http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok
 $ENDCMP
 #
+$CMP L90
+D RAYEX ELECTRONICS L90 Relay, SPDT, 30A
+K 30A Single Pole Relay
+F https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+$ENDCMP
+#
+$CMP L90A
+D RAYEX ELECTRONICS L90A Relay, NO, SPST, 30A
+K 30A Single Pole Relay
+F https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+$ENDCMP
+#
+$CMP L90AS
+D RAYEX ELECTRONICS L90AS Relay, Without Common Terminal between coil terminals, NO, SPST, 30A
+K 30A Single Pole Relay
+F https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+$ENDCMP
+#
+$CMP L90B
+D RAYEX ELECTRONICS L90B Relay, NC, SPST, 30A
+K 30A Single Pole Relay
+F https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+$ENDCMP
+#
+$CMP L90BS
+D RAYEX ELECTRONICS L90BS Relay, Without Common Terminal between coil terminals, NC, SPST, 30A
+K 30A Single Pole Relay
+F https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+$ENDCMP
+#
+$CMP L90S
+D RAYEX ELECTRONICS L90S Relay, Without Common Terminal between coil terminals, SPDT, 30A
+K 30A Single Pole Relay
+F https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+$ENDCMP
+#
 $CMP MSxx-1Axx-75
 D Standex Meder MS reed relay, SPST, Closing Contact
 K Single Pole Reed Relay SPST
