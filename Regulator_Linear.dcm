@@ -3438,6 +3438,36 @@ K REGULATOR POSITIVE POWER LDO adjustable
 F http://cds.linear.com/docs/en/datasheet/30105fe.pdf
 $ENDCMP
 #
+$CMP LT3032
+D Low Dropout Linear Regulator, Adjustable, Positive/Negative Low Noise, Dual 150mA
+K LDO low noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT3032.pdf
+$ENDCMP
+#
+$CMP LT3032-3.3
+D Low Dropout Linear Regulator, 3.3V, Positive/Negative Low Noise, Dual 150mA
+K LDO low noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT3032.pdf
+$ENDCMP
+#
+$CMP LT3032-5
+D Low Dropout Linear Regulator, 5V, Positive/Negative Low Noise, Dual 150mA
+K LDO low noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT3032.pdf
+$ENDCMP
+#
+$CMP LT3032-12
+D Low Dropout Linear Regulator, 12V, Positive/Negative Low Noise, Dual 150mA
+K LDO low noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT3032.pdf
+$ENDCMP
+#
+$CMP LT3032-15
+D Low Dropout Linear Regulator, 15V, Positive/Negative Low Noise, Dual 150mA
+K LDO low noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT3032.pdf
+$ENDCMP
+#
 $CMP LT3080xDD
 D Adjustable 1.1A Single Resistor Low Dropout Regulator, DFN-8
 K Adjustable 1.1A Low Dropout Regulator
