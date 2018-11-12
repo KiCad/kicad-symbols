@@ -12,6 +12,24 @@ K AVR 8bit Microcontroller tinyAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8127-AVR-8-bit-Microcontroller-ATtiny4-ATtiny5-ATtiny9-ATtiny10_Datasheet.pdf
 $ENDCMP
 #
+$CMP ATtiny102-M
+D 12MHz, 1kB Flash, 32B SRAM, No EEPROM, DFN-8
+K AVR 8bit Microcontroller tinyAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42505-8-bit-AVR-Microcontrollers-ATtiny102-ATtiny104_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATtiny102-SS
+D 12MHz, 1kB Flash, 32B SRAM, No EEPROM, SOIC-8
+K AVR 8bit Microcontroller tinyAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42505-8-bit-AVR-Microcontrollers-ATtiny102-ATtiny104_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATtiny104-SS
+D 12MHz, 1kB Flash, 32B SRAM, No EEPROM, SOIC-14
+K AVR 8bit Microcontroller tinyAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42505-8-bit-AVR-Microcontrollers-ATtiny102-ATtiny104_Datasheet.pdf
+$ENDCMP
+#
 $CMP ATtiny13-20MMU
 D 20MHz, 1kB Flash, 64B SRAM, 64B EEPROM, debugWIRE, DFN-10
 K AVR 8bit Microcontroller tinyAVR
