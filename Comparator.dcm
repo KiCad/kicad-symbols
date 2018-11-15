@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD8561
+D Ultrafast 7 ns Single Supply Comparator, DIP-8/SOIC-8/TSSOP-8
+K comparator ultrafast
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ad8561.pdf
+$ENDCMP
+#
 $CMP ADCMP350
 D Single-input comparator, internal 0.6V reference, Active-Low Open-Drain output, SC-70-4 package
 K single comparator with reference
