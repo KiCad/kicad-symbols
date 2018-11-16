@@ -267,6 +267,30 @@ K Switch Debouncer
 F https://datasheets.maximintegrated.com/en/ds/1896.pdf
 $ENDCMP
 #
+$CMP MC100EPT22D
+D 3.3 V Dual LVTTL/LVCMOS to Differential LVPECL Translator SOIC-8
+K PECL buffer interface
+F https://www.onsemi.com/pub/Collateral/MC100EPT22-D.PDF
+$ENDCMP
+#
+$CMP MC100EPT22DT
+D 3.3 V Dual LVTTL/LVCMOS to Differential LVPECL Translator TSSOP-8
+K PECL buffer interface
+F https://www.onsemi.com/pub/Collateral/MC100EPT22-D.PDF
+$ENDCMP
+#
+$CMP MC100LVELT22D
+D 3.3 V Dual LVTTL/LVCMOS to Differential LVPECL Translator SOIC-8
+K PECL buffer interface
+F https://www.onsemi.com/pub/Collateral/MC100LVELT22-D.PDF
+$ENDCMP
+#
+$CMP MC100LVELT22DT
+D 3.3 V Dual LVTTL/LVCMOS to Differential LVPECL Translator TSSOP-8
+K PECL buffer interface
+F https://www.onsemi.com/pub/Collateral/MC100LVELT22-D.PDF
+$ENDCMP
+#
 $CMP MC6840
 D Peripheral Interface Adapter 1MHz, DIP-40
 K PIA
