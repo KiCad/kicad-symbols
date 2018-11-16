@@ -1,5 +1,101 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ARTESYN-ATA00A18S-L
+D 3W Isolated DC/DC Converter Module, 5V Output Voltage, 9-36V Input Voltage
+K DC/DC converter single
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ARTESYN-ATA00A36S-L
+D 3W Isolated DC/DC Converter Module, 5V Output Voltage, 18-75V Input Voltage
+K DC/DC converter single
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ARTESYN-ATA00AA18S-L
+D 3W Isolated DC/DC Converter Module, ±5V Output Voltage, 9-36V Input Voltage
+K DC/DC converter dual
+F https://www.xppower.com/Portals/0/pdfs/SF_ISU02.pdf
+$ENDCMP
+#
+$CMP ARTESYN-ATA00AA36S-L
+D 3W Isolated DC/DC Converter Module, ±5V Output Voltage, 18-75V Input Voltage
+K DC/DC converter dual
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ARTESYN-ATA00B18S-L
+D 3W Isolated DC/DC Converter Module, 12V Output Voltage, 9-36V Input Voltage
+K DC/DC converter single
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ARTESYN-ATA00B36S-L
+D 3W Isolated DC/DC Converter Module, 12V Output Voltage, 18-75V Input Voltage
+K DC/DC converter single
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ARTESYN-ATA00BB18S-L
+D 3W Isolated DC/DC Converter Module, ±12V Output Voltage, 9-36V Input Voltage
+K DC/DC converter dual
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ARTESYN-ATA00BB36S-L
+D 3W Isolated DC/DC Converter Module, ±12V Output Voltage, 18-75V Input Voltage
+K DC/DC converter dual
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ARTESYN-ATA00C18S-L
+D 3W Isolated DC/DC Converter Module, 15V Output Voltage, 9-36V Input Voltage
+K DC/DC converter single
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ARTESYN-ATA00C36S-L
+D 3W Isolated DC/DC Converter Module, 15V Output Voltage, 18-75V Input Voltage
+K DC/DC converter single
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ARTESYN-ATA00CC18S-L
+D 3W Isolated DC/DC Converter Module, ±15V Output Voltage, 9-36V Input Voltage
+K DC/DC converter dual
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ARTESYN-ATA00CC36S-L
+D 3W Isolated DC/DC Converter Module, ±15V Output Voltage, 9-36V Input Voltage
+K DC/DC converter dual
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ARTESYN-ATA00F18S-L
+D 3W Isolated DC/DC Converter Module, 3.3V Output Voltage, 9-36V Input Voltage
+K DC/DC converter single
+F https://www.xppower.com/Portals/0/pdfs/SF_ISU02.pdf
+$ENDCMP
+#
+$CMP ARTESYN-ATA00F36S-L
+D 2W Isolated DC/DC Converter Module, 3.3V Output Voltage, 18-75V Input Voltage
+K DC/DC converter single
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ARTESYN-ATA00H18S-L
+D 3W Isolated DC/DC Converter Module, 24V Output Voltage, 18-75V Input Voltage
+K DC/DC converter single
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ARTESYN-ATA00H36S-L
+D 3W Isolated DC/DC Converter Module, 24V Output Voltage, 18-75V Input Voltage
+K DC/DC converter single
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
 $CMP BD8314NUV
 D 3.0V to 12V, Integrated 2.5A MOSFET 1ch Boost Converter, VSON-10
 K DCDC converter
