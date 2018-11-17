@@ -66,6 +66,12 @@ K dual comparator
 F http://www.ti.com/lit/ds/symlink/lm393-n.pdf
 $ENDCMP
 #
+$CMP LM397
+D Single General-Purpose Voltage Comparator with Open-Collector Output, SOT-23-5
+K single comparator
+F http://www.ti.com/lit/ds/symlink/lm397.pdf
+$ENDCMP
+#
 $CMP LMV331
 D Single General-Purpose Low-Voltage Comparator, SOT-23-5/SC-70-5
 K single comparator
@@ -178,6 +184,12 @@ $CMP TL3116
 D Single Ultra-Fast Low-Power Precision Comparators, SOIC-8/SSOP-8
 K single comparator
 F http://www.ti.com/lit/ds/symlink/tl3116.pdf
+$ENDCMP
+#
+$CMP TL331
+D Single Differential Comparator with Open-Collector Output, SOT-23-5
+K single comparator
+F http://www.ti.com/lit/ds/symlink/tl331.pdf
 $ENDCMP
 #
 #End Doc Library
