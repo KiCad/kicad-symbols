@@ -15,6 +15,7 @@ $ENDCMP
 $CMP ATA00AA18S-L
 D Artesyn 3W Isolated DC/DC Converter Module, ±5V Output Voltage, 9-36V Input Voltage
 K DC/DC converter dual
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
 $ENDCMP
 #
 $CMP ATA00AA36S-L
@@ -67,13 +68,14 @@ $ENDCMP
 #
 $CMP ATA00CC36S-L
 D Artesyn 3W Isolated DC/DC Converter Module, ±15V Output Voltage, 18-75V Input Voltage
-K DC/DC converter single
+K DC/DC converter dual
 F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
 $ENDCMP
 #
 $CMP ATA00F18S-L
 D Artesyn 2W Isolated DC/DC Converter Module, 3.3V Output Voltage, 9-36V Input Voltage
 K DC/DC converter single
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
 $ENDCMP
 #
 $CMP ATA00F36S-L
