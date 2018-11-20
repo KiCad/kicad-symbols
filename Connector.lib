@@ -695,11 +695,14 @@ ENDDEF
 #
 # AudioJack2
 #
-DEF AudioJack2 J 0 40 Y Y 1 F N
+DEF AudioJack2 J 0 20 Y Y 1 F N
 F0 "J" 0 350 50 H V C CNN
 F1 "AudioJack2" 0 250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jack*
+$ENDFPLIST
 DRAW
 S -175 -100 -205 0 0 1 0 F
 S 100 -125 -180 175 0 1 10 f
@@ -712,11 +715,14 @@ ENDDEF
 #
 # AudioJack2_Dual_Ground_Switch
 #
-DEF AudioJack2_Dual_Ground_Switch J 0 40 Y Y 2 F N
+DEF AudioJack2_Dual_Ground_Switch J 0 20 Y Y 2 F N
 F0 "J" 0 450 50 H V C CNN
 F1 "AudioJack2_Dual_Ground_Switch" 0 350 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
+$FPLIST
+ Jack*
+$ENDFPLIST
 DRAW
 S -175 -100 -205 0 1 1 0 F
 S 100 -125 -180 250 1 1 10 f
@@ -752,11 +758,14 @@ ENDDEF
 #
 # AudioJack2_Dual_Switch
 #
-DEF AudioJack2_Dual_Switch J 0 40 Y Y 2 F N
+DEF AudioJack2_Dual_Switch J 0 20 Y Y 2 F N
 F0 "J" 0 450 50 H V C CNN
 F1 "AudioJack2_Dual_Switch" 0 350 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
+$FPLIST
+ Jack*
+$ENDFPLIST
 DRAW
 S -175 -100 -205 0 1 1 0 F
 S 100 -125 -180 250 1 1 10 f
@@ -791,11 +800,14 @@ ENDDEF
 #
 # AudioJack2_Ground
 #
-DEF AudioJack2_Ground J 0 40 Y Y 1 F N
+DEF AudioJack2_Ground J 0 20 Y Y 1 F N
 F0 "J" 0 350 50 H V C CNN
 F1 "AudioJack2_Ground" 0 250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jack*
+$ENDFPLIST
 DRAW
 S -175 -100 -205 0 0 1 0 F
 S 100 -125 -180 175 0 1 10 f
@@ -809,11 +821,14 @@ ENDDEF
 #
 # AudioJack2_Ground_Switch
 #
-DEF AudioJack2_Ground_Switch J 0 40 Y Y 1 F N
+DEF AudioJack2_Ground_Switch J 0 20 Y Y 1 F N
 F0 "J" 0 450 50 H V C CNN
 F1 "AudioJack2_Ground_Switch" 0 350 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
+$FPLIST
+ Jack*
+$ENDFPLIST
 DRAW
 S -175 -100 -205 0 1 1 0 F
 S 100 -125 -180 250 1 1 10 f
@@ -833,11 +848,14 @@ ENDDEF
 #
 # AudioJack2_Ground_SwitchT
 #
-DEF AudioJack2_Ground_SwitchT J 0 40 Y Y 1 F N
+DEF AudioJack2_Ground_SwitchT J 0 20 Y Y 1 F N
 F0 "J" 0 350 50 H V C CNN
 F1 "AudioJack2_Ground_SwitchT" 0 250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jack*
+$ENDFPLIST
 DRAW
 S -175 -100 -205 0 0 1 0 F
 S 100 -125 -180 175 0 1 10 f
@@ -854,11 +872,14 @@ ENDDEF
 #
 # AudioJack2_Switch
 #
-DEF AudioJack2_Switch J 0 40 Y Y 1 F N
+DEF AudioJack2_Switch J 0 20 Y Y 1 F N
 F0 "J" 0 450 50 H V C CNN
 F1 "AudioJack2_Switch" 0 350 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
+$FPLIST
+ Jack*
+$ENDFPLIST
 DRAW
 S -175 -100 -205 0 1 1 0 F
 S 100 -125 -180 250 1 1 10 f
@@ -877,11 +898,14 @@ ENDDEF
 #
 # AudioJack3
 #
-DEF AudioJack3 J 0 40 Y Y 1 F N
+DEF AudioJack3 J 0 20 Y Y 1 F N
 F0 "J" 0 350 50 H V C CNN
 F1 "AudioJack3" 0 250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jack*
+$ENDFPLIST
 DRAW
 S -175 -200 -205 -100 0 1 0 F
 S 100 -225 -180 175 0 1 10 f
@@ -896,11 +920,14 @@ ENDDEF
 #
 # AudioJack3_Dual_Ground_Switch
 #
-DEF AudioJack3_Dual_Ground_Switch J 0 40 Y Y 2 F N
+DEF AudioJack3_Dual_Ground_Switch J 0 20 Y Y 2 F N
 F0 "J" 0 450 50 H V C CNN
 F1 "AudioJack3_Dual_Ground_Switch" 0 350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jack*
+$ENDFPLIST
 DRAW
 S -175 -300 -205 -200 1 1 0 F
 S 100 -325 -180 275 1 1 10 f
@@ -946,11 +973,14 @@ ENDDEF
 #
 # AudioJack3_Dual_Switch
 #
-DEF AudioJack3_Dual_Switch J 0 40 Y Y 2 F N
+DEF AudioJack3_Dual_Switch J 0 20 Y Y 2 F N
 F0 "J" 0 450 50 H V C CNN
 F1 "AudioJack3_Dual_Switch" 0 350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jack*
+$ENDFPLIST
 DRAW
 S -175 -300 -205 -200 1 1 0 F
 S 100 -325 -180 275 1 1 10 f
@@ -994,11 +1024,14 @@ ENDDEF
 #
 # AudioJack3_Ground
 #
-DEF AudioJack3_Ground J 0 40 Y Y 1 F N
+DEF AudioJack3_Ground J 0 20 Y Y 1 F N
 F0 "J" 0 350 50 H V C CNN
 F1 "AudioJack3_Ground" 0 250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jack*
+$ENDFPLIST
 DRAW
 S -175 -200 -205 -100 0 1 0 F
 S 100 -225 -180 175 0 1 10 f
@@ -1014,11 +1047,14 @@ ENDDEF
 #
 # AudioJack3_Ground_Switch
 #
-DEF AudioJack3_Ground_Switch J 0 40 Y Y 1 F N
+DEF AudioJack3_Ground_Switch J 0 20 Y Y 1 F N
 F0 "J" 0 450 50 H V C CNN
 F1 "AudioJack3_Ground_Switch" 0 350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jack*
+$ENDFPLIST
 DRAW
 S -175 -300 -205 -200 1 1 0 F
 S 100 -325 -180 275 1 1 10 f
@@ -1043,11 +1079,14 @@ ENDDEF
 #
 # AudioJack3_Ground_SwitchTR
 #
-DEF AudioJack3_Ground_SwitchTR J 0 40 Y Y 1 F N
+DEF AudioJack3_Ground_SwitchTR J 0 20 Y Y 1 F N
 F0 "J" 0 350 50 H V C CNN
 F1 "AudioJack3_Ground_SwitchTR" 0 250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jack*
+$ENDFPLIST
 DRAW
 S -175 -300 -205 -200 0 1 0 F
 S 100 -325 -180 175 0 1 10 f
@@ -1069,11 +1108,14 @@ ENDDEF
 #
 # AudioJack3_Switch
 #
-DEF AudioJack3_Switch J 0 40 Y Y 1 F N
+DEF AudioJack3_Switch J 0 20 Y Y 1 F N
 F0 "J" 0 450 50 H V C CNN
 F1 "AudioJack3_Switch" 0 350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jack*
+$ENDFPLIST
 DRAW
 S -175 -300 -205 -200 0 1 0 F
 S 100 -325 -180 275 0 1 10 f
@@ -1097,11 +1139,14 @@ ENDDEF
 #
 # AudioJack4
 #
-DEF AudioJack4 J 0 40 Y Y 1 F N
+DEF AudioJack4 J 0 20 Y Y 1 F N
 F0 "J" 0 350 50 H V C CNN
 F1 "AudioJack4" 0 250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jack*
+$ENDFPLIST
 DRAW
 S -250 -300 -280 -200 0 1 0 F
 S 100 -325 -255 175 0 1 10 f
@@ -1118,11 +1163,14 @@ ENDDEF
 #
 # AudioJack4_Ground
 #
-DEF AudioJack4_Ground J 0 40 Y Y 1 F N
+DEF AudioJack4_Ground J 0 20 Y Y 1 F N
 F0 "J" 0 350 50 H V C CNN
 F1 "AudioJack4_Ground" 0 250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jack*
+$ENDFPLIST
 DRAW
 S -250 -300 -280 -200 0 1 0 F
 S 100 -325 -255 175 0 1 10 f
@@ -1140,11 +1188,14 @@ ENDDEF
 #
 # AudioJack5
 #
-DEF AudioJack5 J 0 40 Y Y 1 F N
+DEF AudioJack5 J 0 20 Y Y 1 F N
 F0 "J" 0 450 50 H V C CNN
 F1 "AudioJack5" 0 350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jack*
+$ENDFPLIST
 DRAW
 S -325 -300 -355 -200 0 1 0 F
 S 100 -325 -330 275 0 1 10 f
@@ -1163,11 +1214,14 @@ ENDDEF
 #
 # AudioJack5_Ground
 #
-DEF AudioJack5_Ground J 0 40 Y Y 1 F N
+DEF AudioJack5_Ground J 0 20 Y Y 1 F N
 F0 "J" 0 450 50 H V C CNN
 F1 "AudioJack5_Ground" 0 350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jack*
+$ENDFPLIST
 DRAW
 S -325 -300 -355 -200 0 1 0 F
 S 100 -325 -330 275 0 1 10 f
@@ -14805,7 +14859,7 @@ F1 "XLR3" 0 250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- XLR*
+ Jack*XLR*
 $ENDFPLIST
 DRAW
 C -140 0 40 0 1 0 N
@@ -14832,7 +14886,7 @@ F1 "XLR3_AudioJack2_Combo" 0 300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- XLR*Combo*
+ Jack*XLR*6.35mm*
 $ENDFPLIST
 DRAW
 C -140 0 40 1 1 0 N
@@ -14867,7 +14921,7 @@ F1 "XLR3_AudioJack2_Combo_Ground" 0 300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- XLR*Combo*
+ Jack*XLR*6.35mm*
 $ENDFPLIST
 DRAW
 C -140 0 40 1 1 0 N
@@ -14904,7 +14958,7 @@ F1 "XLR3_AudioJack3_Combo" 0 300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- XLR*Combo*
+ Jack*XLR*6.35mm*
 $ENDFPLIST
 DRAW
 C -140 0 40 1 1 0 N
@@ -14942,7 +14996,7 @@ F1 "XLR3_AudioJack3_Combo_Ground" 0 300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- XLR*Combo*
+ Jack*XLR*6.35mm*
 $ENDFPLIST
 DRAW
 C -140 0 40 1 1 0 N
@@ -14982,7 +15036,7 @@ F1 "XLR3_AudioJack3_Combo_GroundSwitch_Switch" 0 300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- XLR*Combo*
+ Jack*XLR*6.35mm*
 $ENDFPLIST
 DRAW
 C -140 0 40 1 1 0 N
@@ -15034,7 +15088,7 @@ F1 "XLR3_AudioJack3_Combo_Ground_Switch" 0 300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- XLR*Combo*
+ Jack*XLR*6.35mm*
 $ENDFPLIST
 DRAW
 C -140 0 40 1 1 0 N
@@ -15083,7 +15137,7 @@ F1 "XLR3_AudioJack3_Combo_Switch" 0 300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- XLR*Combo*
+ Jack*XLR*6.35mm*
 $ENDFPLIST
 DRAW
 C -140 0 40 1 1 0 N
@@ -15130,7 +15184,7 @@ F1 "XLR3_Ground" 0 250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- XLR*
+ Jack*XLR*
 $ENDFPLIST
 DRAW
 C -140 0 40 0 1 0 N
@@ -15159,7 +15213,7 @@ F1 "XLR3_Ground_Switched" 0 250 50 H V C CNN
 F2 "" 0 100 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 $FPLIST
- XLR*
+ Jack*XLR*
 $ENDFPLIST
 DRAW
 C -140 0 40 1 1 0 N
@@ -15199,7 +15253,7 @@ F1 "XLR3_Switched" 0 250 50 H V C CNN
 F2 "" 0 100 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 $FPLIST
- XLR*
+ Jack*XLR*
 $ENDFPLIST
 DRAW
 C -140 0 40 1 1 0 N
@@ -15237,7 +15291,7 @@ F1 "XLR4" 0 250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- XLR*
+ Jack*XLR*
 $ENDFPLIST
 DRAW
 C -140 0 40 0 1 0 N
@@ -15270,7 +15324,7 @@ F1 "XLR5" 0 250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- XLR*
+ Jack*XLR*
 $ENDFPLIST
 DRAW
 C -140 0 40 0 1 0 N
