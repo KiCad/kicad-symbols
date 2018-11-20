@@ -1068,6 +1068,18 @@ K single opamp wideband low-power
 F http://www.ti.com/lit/ds/symlink/opa847.pdf
 $ENDCMP
 #
+$CMP OPA890xD
+D Single Low-Power, Wideband, Voltage-Feedback Operational Amplifier with Disable, SO-8
+K single opamp wideband low-power
+F https://www.ti.com/lit/ds/symlink/opa890.pdf
+$ENDCMP
+#
+$CMP OPA847xD
+D Single Low-Power, 3.9GHz, Wideband, Ultra-Low Noise, Voltage-Feedback Operational Amplifier with Disable, SO-8
+K single opamp wideband low-power
+F http://www.ti.com/lit/ds/symlink/opa847.pdf
+$ENDCMP
+#
 $CMP RC4558
 D Dual General Purpose, Operational Amplifier, DIP-8/SOIC-8/SSOP-8
 K dual opamp
