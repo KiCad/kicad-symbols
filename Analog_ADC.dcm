@@ -186,6 +186,12 @@ K adc spi
 F http://www.ti.com/lit/ds/symlink/ads1120.pdf
 $ENDCMP
 #
+$CMP ADS1230IPW
+D 20-Bit ADC For Bridge Sensors  - TSSOP-16
+K ADC 20bit Sensors
+F http://www.ti.com/lit/ds/symlink/ads1230.pdf
+$ENDCMP
+#
 $CMP ADS1232IPW
 D Single Bridge 24bit ADC for Sensors, TSSOP-24
 K ADC 24bit Sensors Dual Channel
