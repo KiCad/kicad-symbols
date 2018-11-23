@@ -138,6 +138,16 @@ K H-bridge motor driver
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000240.pdf
 $ENDCMP
 #
+$CMP L6201
+D Double Half-H Drivers
+K Double Half-H driver
+$ENDCMP
+#
+$CMP L6202
+D Double Half-H Drivers
+K Double Half-H driver
+$ENDCMP
+#
 $CMP LMD18200
 D 3A, 55V H-Bridge, Motion Control Applications, TO-220-11
 K H-Bridge DC stepper servo motor driver Motion Control Applications
