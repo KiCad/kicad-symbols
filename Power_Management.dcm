@@ -24,12 +24,6 @@ K half bridge for motor drive applications
 F https://www.infineon.com/dgdl/Infineon-BTN8982TA-DS-v01_00-EN.pdf?fileId=db3a30433fa9412f013fbe32289b7c17
 $ENDCMP
 #
-$CMP BTS40K2-1EJC
-D Smart High-Side Power Switch, PROFET, Single, 200mOhm, 1.5A, 36V, DSO-8
-K infineon power switch
-F http://www.infineon.com/dgdl/Infineon-BTS40K2-1EJC-DS-v01_00-EN.pdf?fileId=5546d462518ffd85015254ee4e601f99
-$ENDCMP
-#
 $CMP BTS443P
 D Smart High-Side Power Switch, PROFET, Single, 16mOhm, 7.6A, 36V, TO252-5
 K infineon power switch
@@ -42,22 +36,10 @@ K BTS50010 PROFET
 F https://www.infineon.com/dgdl/Infineon-BTS50010-1TAD-DS-v01_00-EN.pdf?fileId=5546d462576f34750157c38810ca55cd
 $ENDCMP
 #
-$CMP BTS50055-1TMA
-D Smart High-Side Power Switch, PROFET, Single, 6mOhm, 70A, 34V, TO220-7
-K BTS50055 PROFET
-F http://www.infineon.com/dgdl/Infineon-BTS50055-1TMA-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9b00de935ed
-$ENDCMP
-#
 $CMP BTS50055-1TMC
 D Smart High-Side Power Switch, PROFET, Single, 6mOhm, 17A, 34V, TO220-7
 K BTS50055 PROFET
 F https://www.infineon.com/dgdl/Infineon-BTS50055-1TMC-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9b0007235e9
-$ENDCMP
-#
-$CMP BTS50080-1TEA
-D Smart High-Side Power Switch, PROFET, Single, 16mOhm, 10A, 30V, TO252-5
-K infineon power switch
-F http://www.infineon.com/dgdl/Infineon-BTS50080-1TEA-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa435f2d2115b
 $ENDCMP
 #
 $CMP BTS50080-1TEB
@@ -174,18 +156,6 @@ K High_Side_Switch Power
 F https://www.infineon.com/dgdl/Infineon-BTS716GB-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3be94e21008
 $ENDCMP
 #
-$CMP BTS724G
-D Smart High-Side Power Switch, PROFET, 4 Channel, 90mOhm, 3.3A, 40V, DSO-20
-K High_Side_Switch Power
-F https://www.infineon.com/dgdl/Infineon-BTS724G-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3a2f1030ff1
-$ENDCMP
-#
-$CMP CAP002DG
-D CapZero Automatic Capacitor Discarger, Vdss 875V, Cmax < 500nF, SO8
-K CapZero Automatic Capacitor Discarger 875V 500nF
-F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
-$ENDCMP
-#
 $CMP CAP003DG
 D CapZero Automatic Capacitor Discarger, Vdss 875V, Cmax 750nF, SO8
 K CapZero Automatic Capacitor Discarger 875V 750nF
@@ -280,24 +250,6 @@ $CMP HF81
 D X capacitor bleeder, SOIC-8
 K X capacitor discharge
 F http://www.monolithicpower.com/DesktopModules/DocumentManage/API/Document/getDocument?id=142
-$ENDCMP
-#
-$CMP IPS6011PBF
-D 39V, 60A, Intelligent Power Switch High Side, TO-220-5
-K Intelligent Power Switch High Side MOSFET
-F http://www.irf.com/product-info/datasheets/data/ips6011pbf.pdf
-$ENDCMP
-#
-$CMP IPS6011RPBF
-D 39V, 60A, Intelligent Power Switch High Side, D-PAK 5pin
-K Intelligent Power Switch High Side MOSFET
-F http://www.irf.com/product-info/datasheets/data/ips6011pbf.pdf
-$ENDCMP
-#
-$CMP IPS6011SPBF
-D 39V, 60A, Intelligent Power Switch High Side, D2-PAK 5pin
-K Intelligent Power Switch High Side MOSFET
-F http://www.irf.com/product-info/datasheets/data/ips6011pbf.pdf
 $ENDCMP
 #
 $CMP IPS6021PBF
@@ -408,12 +360,6 @@ K Dual N-Channel GaN MOSFET
 F http://www.ti.com/lit/ds/symlink/lmg5200.pdf
 $ENDCMP
 #
-$CMP LT1641-1
-D High voltage hot swap controller, +9V to +80V operation, with latching feature
-K high-voltage hot-swap
-F http://cds.linear.com/docs/en/datasheet/164112fc.pdf
-$ENDCMP
-#
 $CMP LT1641-2
 D High voltage hot swap controller, +9V to +80V operation, with auto-retry feature
 K high-voltage hot-swap
@@ -442,24 +388,6 @@ $CMP LTC4359-MS8
 D Ideal diode controller with reverse input protection, MSOP-8 package
 K ideal-diode or-ing reverse-protection
 F http://cds.linear.com/docs/en/datasheet/4359fb.pdf
-$ENDCMP
-#
-$CMP LTC4364CDE
-D Surge stopper with ideal diode, UV and OV protection, -40V to +80V operation, DFN-14 package, 0°C to +40°C
-K ideal-diode or-ing reverse-protection undervoltage overvoltage surge-stopper
-F http://cds.linear.com/docs/en/datasheet/436412f.pdf
-$ENDCMP
-#
-$CMP LTC4364CMS
-D Surge stopper with ideal diode, UV and OV protection, -40V to +80V operation, MSOP-16 package, 0°C to +40°C
-K ideal-diode or-ing reverse-protection undervoltage overvoltage surge-stopper
-F http://cds.linear.com/docs/en/datasheet/436412f.pdf
-$ENDCMP
-#
-$CMP LTC4364CS
-D Surge stopper with ideal diode, UV and OV protection -40V to +80V in SOIC-16 package, 0°C to +40°C
-K ideal-diode or-ing reverse-protection undervoltage overvoltage surge-stopper
-F http://cds.linear.com/docs/en/datasheet/436412f.pdf
 $ENDCMP
 #
 $CMP LTC4364HDE
@@ -498,40 +426,16 @@ K surge overvoltage undervoltage reverse-polarity protection diode ORing MOSFET 
 F http://cds.linear.com/docs/en/datasheet/436412f.pdf
 $ENDCMP
 #
-$CMP LTC4365DDB
-D Overvoltage, Undervoltage and Reverse Supply Protection Controller, 3x2mm DFN-8 package, 50Hz/60Hz noise rejection
-K overvoltage undervoltage reverse-polarity protection
-F http://cds.linear.com/docs/en/datasheet/4365fa.pdf
-$ENDCMP
-#
 $CMP LTC4365DDB-1
 D Overvoltage, Undervoltage and Reverse Supply Protection Controller, 3x2mm DFN-8 package, 1ms fault recovery
 K overvoltage undervoltage reverse-polarity protection
 F http://www.linear.com/docs/29832
 $ENDCMP
 #
-$CMP LTC4365TS8
-D Overvoltage, Undervoltage and Reverse Supply Protection Controller, TSOT23-8 package, 50Hz/60Hz noise rejection
-K overvoltage undervoltage reverse-polarity protection
-F http://cds.linear.com/docs/en/datasheet/4365fa.pdf
-$ENDCMP
-#
 $CMP LTC4365TS8-1
 D Overvoltage, Undervoltage and Reverse Supply Protection Controller, TSOT23-8 package, 1ms fault recovery
 K overvoltage undervoltage reverse-polarity protection
 F http://www.linear.com/docs/29832
-$ENDCMP
-#
-$CMP LTC4417CGN
-D Prioritized PowerPath Controller, Selects Highest Priority Supply from Three Inputs, SSOP
-K switch power FET sequence
-F http://www.analog.com/media/en/technical-documentation/data-sheets/4417f.pdf
-$ENDCMP
-#
-$CMP LTC4417CUF
-D Prioritized PowerPath Controller, Selects Highest Priority Supply from Three Inputs, QFN
-K switch power FET sequence
-F http://www.analog.com/media/en/technical-documentation/data-sheets/4417f.pdf
 $ENDCMP
 #
 $CMP LTC4417HGN
@@ -558,14 +462,14 @@ K switch power FET sequence
 F http://www.analog.com/media/en/technical-documentation/data-sheets/4417f.pdf
 $ENDCMP
 #
-$CMP MIC2026-1BM
-D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, in SOIC-8 Package
-K mosfet distribution
-F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
+$CMP MAX8586
+D Single 1.2A USB Current Limiting Switch
+K 1-channel USB current limiting power switch
+F https://datasheets.maximintegrated.com/en/ds/MAX8586.pdf
 $ENDCMP
 #
-$CMP MIC2026-1BN
-D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, in DIP-8 Package
+$CMP MIC2026-1BM
+D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, in SOIC-8 Package
 K mosfet distribution
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
 $ENDCMP
@@ -594,12 +498,6 @@ K power switch FET driver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2587-87r.pdf
 $ENDCMP
 #
-$CMP NPC45560-H
-D Controlled load switch with low Ron
-K load switch
-F http://www.onsemi.com/pub/Collateral/NCP45560-D.PDF
-$ENDCMP
-#
 $CMP NPC45560-L
 D Controlled load switch with low Ron
 K load switch
@@ -616,12 +514,6 @@ $CMP RT9701
 D 100 milliohm power distribution switch
 K power distribution switch
 F https://www.richtek.com/assets/product_file/RT9701/DS9701-16.pdf
-$ENDCMP
-#
-$CMP STM6600
-D Smart push-button on/off controller, power-on lockout, Low Power, 1.6-5.5V, TDFN12
-K push-button-controller low-power
-F http://www.st.com/resource/en/datasheet/stm6600.pdf
 $ENDCMP
 #
 $CMP STM6601
@@ -672,6 +564,12 @@ K 4-chanel power-distribution USB
 F http://www.ti.com/lit/ds/symlink/tps2044.pdf
 $ENDCMP
 #
+$CMP TPS22917
+D Ultra-Low Leakage Load Switch
+K 1-chanel Ultra-Low Leakage Load Switch
+F http://www.ti.com/lit/ds/symlink/tps2042.pdf
+$ENDCMP
+#
 $CMP TPS22929D
 D High side, power distribution switch, 1.4V-5.5V, 1.8A, SOT23-6 package
 K high-side power distribution switch
@@ -690,34 +588,16 @@ K efuse protection switch
 F http://www.ti.com/lit/ds/symlink/tps25925.pdf
 $ENDCMP
 #
-$CMP TSM102
-D Dual Operational Amplifier and Dual Comparator and 1% Voltage Reference, SOIC-16
-K dual opamp comparator reference
-F http://www.st.com/resource/en/datasheet/tsm102.pdf
-$ENDCMP
-#
 $CMP TSM102A
 D Dual Operational Amplifier and Dual Comparator and 0.4% Voltage Reference, SOIC-16
 K dual opamp comparator reference
 F http://www.st.com/resource/en/datasheet/tsm102.pdf
 $ENDCMP
 #
-$CMP TSM103W
-D Dual Operational Amplifier and 2.5V 1% Voltage Reference, SOIC-8
-K dual opamp reference
-F http://www.st.com/resource/en/datasheet/tsm103w.pdf
-$ENDCMP
-#
 $CMP TSM103WA
 D Dual Operational Amplifier and 2.5V 0.4% Voltage Reference, SOIC-8
 K dual opamp reference
 F http://www.st.com/resource/en/datasheet/tsm103w.pdf
-$ENDCMP
-#
-$CMP MAX8586
-D Single 1.2A USB Current Limiting Switch
-K 1-channel USB current limiting power switch
-F https://datasheets.maximintegrated.com/en/ds/MAX8586.pdf
 $ENDCMP
 #
 #End Doc Library
