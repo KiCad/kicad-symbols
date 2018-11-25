@@ -3366,6 +3366,12 @@ K LDO ADJ
 F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1762.pdf
 $ENDCMP
 #
+$CMP LT1763
+D 1.5A, Low Noise, Fast Transient Response, LDO Regulators
+K ldo low noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1963fc.pdf
+$ENDCMP
+#
 $CMP LT1962
 D 300mA, Adjustable, Low Noise, Micropower LDO Regulator, MSOP-8
 K LDO ADJ
@@ -3406,6 +3412,18 @@ $CMP LT1962-5
 D 5.0V, 300mA, Low Noise, Micropower LDO Regulator, MSOP-8
 K LDO 5V
 F http://cds.linear.com/docs/en/datasheet/1962fb.pdf
+$ENDCMP
+#
+$CMP LT1963AEQ
+D 1.5A, Adjustable, Low Noise, Linear Voltage Regulator
+K low noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf
+$ENDCMP
+#
+$CMP LT1963EQ
+D 1.5A, Adjustable, Low Noise, Linear Voltage Regulator
+K low noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1963fc.pdf
 $ENDCMP
 #
 $CMP LT1964-5
