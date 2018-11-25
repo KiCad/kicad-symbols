@@ -300,6 +300,12 @@ K Crystal Clock Oscillator
 F http://www.scsiglobal.com/Hosonic/Documents/SCSI-VC-81&83.pdf
 $ENDCMP
 #
+$CMP VCXO_Abracon_ABLNO
+D LVCMOS Ultra Low Phase Noise XO / VCXO
+K XO VCXO
+F https://abracon.com/Precisiontiming/ABLNO.pdf
+$ENDCMP
+#
 $CMP VTCXO-14
 D Voltage-Controlled Crystal Clock Oscillator, DIP14-style metal package
 K Crystal Clock Oscillator
