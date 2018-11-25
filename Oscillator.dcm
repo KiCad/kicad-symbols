@@ -138,6 +138,18 @@ K Silicon Clock Oscillator 8MHz 8000kHz
 F https://datasheets.maximintegrated.com/en/ds/MAX7375.pdf
 $ENDCMP
 #
+$CMP Morion_OCXO_MV267
+D Low Phase-Noise Precision OCXO
+K OCXO
+F http://www.morion.com.ru/catalog_pdf/MV267.pdf
+$ENDCMP
+#
+$CMP Morion_OCXO_MV317
+D 100MHz Oven Controlled Crystal Oscillator
+K OCXO
+F https://www.morion-us.com/catalog_pdf/mv317.pdf
+$ENDCMP
+#
 $CMP NB3N511
 D 3.3V / 5.0V 14 MHz to 200 MHz PLL Clock Multiplier, SOIC-8
 K oscillator clock multiplier PLL
