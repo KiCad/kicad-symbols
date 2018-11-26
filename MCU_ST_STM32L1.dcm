@@ -18,14 +18,14 @@ K ARM Cortex-M3 STM32L1 STM32L100 Value Line
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00078075.pdf
 $ENDCMP
 #
-$CMP STM32L100RBTx
-D ARM Cortex-M3 MCU, 128KB flash, 10KB RAM, 32MHz, 1.8-3.6V, 51 GPIO, LQFP-64
+$CMP STM32L100R8TxA
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.8-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L100 Value Line
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00078075.pdf
 $ENDCMP
 #
-$CMP STM32L100R8TxA
-D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.8-3.6V, 51 GPIO, LQFP-64
+$CMP STM32L100RBTx
+D ARM Cortex-M3 MCU, 128KB flash, 10KB RAM, 32MHz, 1.8-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L100 Value Line
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00078075.pdf
 $ENDCMP
@@ -48,32 +48,8 @@ K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
-$CMP STM32L151C8Tx
-D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
-$CMP STM32L151CBTx
-D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
 $CMP STM32L151C6TxA
 D ARM Cortex-M3 MCU, 32KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
-$CMP STM32L151C8TxA
-D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
-$CMP STM32L151CBTxA
-D ARM Cortex-M3 MCU, 128KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
@@ -84,26 +60,50 @@ K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
-$CMP STM32L151C8Ux
-D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, UFQFPN-48
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
-$CMP STM32L151CBUx
-D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, UFQFPN-48
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
 $CMP STM32L151C6UxA
 D ARM Cortex-M3 MCU, 32KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, UFQFPN-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
+$CMP STM32L151C8Tx
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
+$CMP STM32L151C8TxA
+D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
+$CMP STM32L151C8Ux
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, UFQFPN-48
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
 $CMP STM32L151C8UxA
 D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, UFQFPN-48
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
+$CMP STM32L151CBTx
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
+$CMP STM32L151CBTxA
+D ARM Cortex-M3 MCU, 128KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
+$CMP STM32L151CBUx
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, UFQFPN-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
@@ -150,32 +150,8 @@ K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
-$CMP STM32L151R8Hx
-D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
-$CMP STM32L151RBHx
-D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
 $CMP STM32L151R6HxA
 D ARM Cortex-M3 MCU, 32KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
-$CMP STM32L151R8HxA
-D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
-$CMP STM32L151RBHxA
-D ARM Cortex-M3 MCU, 128KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
@@ -186,26 +162,50 @@ K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
-$CMP STM32L151R8Tx
-D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
-$CMP STM32L151RBTx
-D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
 $CMP STM32L151R6TxA
 D ARM Cortex-M3 MCU, 32KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
+$CMP STM32L151R8Hx
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
+$CMP STM32L151R8HxA
+D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
+$CMP STM32L151R8Tx
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
 $CMP STM32L151R8TxA
 D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
+$CMP STM32L151RBHx
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
+$CMP STM32L151RBHxA
+D ARM Cortex-M3 MCU, 128KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
+$CMP STM32L151RBTx
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
@@ -264,20 +264,8 @@ K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
-$CMP STM32L151VBHx
-D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, UFBGA-100
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
 $CMP STM32L151V8HxA
 D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, UFBGA-100
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
-$CMP STM32L151VBHxA
-D ARM Cortex-M3 MCU, 128KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, UFBGA-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
@@ -288,14 +276,26 @@ K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
-$CMP STM32L151VBTx
-D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
+$CMP STM32L151V8TxA
+D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
-$CMP STM32L151V8TxA
-D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
+$CMP STM32L151VBHx
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, UFBGA-100
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
+$CMP STM32L151VBHxA
+D ARM Cortex-M3 MCU, 128KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, UFBGA-100
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
+$CMP STM32L151VBTx
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
@@ -378,32 +378,8 @@ K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
-$CMP STM32L152C8Tx
-D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
-$CMP STM32L152CBTx
-D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
 $CMP STM32L152C6TxA
 D ARM Cortex-M3 MCU, 32KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
-$CMP STM32L152C8TxA
-D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
-$CMP STM32L152CBTxA
-D ARM Cortex-M3 MCU, 128KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
@@ -414,26 +390,50 @@ K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
-$CMP STM32L152C8Ux
-D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, UFQFPN-48
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
-$CMP STM32L152CBUx
-D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, UFQFPN-48
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
 $CMP STM32L152C6UxA
 D ARM Cortex-M3 MCU, 32KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, UFQFPN-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
+$CMP STM32L152C8Tx
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
+$CMP STM32L152C8TxA
+D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
+$CMP STM32L152C8Ux
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, UFQFPN-48
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
 $CMP STM32L152C8UxA
 D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, UFQFPN-48
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
+$CMP STM32L152CBTx
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
+$CMP STM32L152CBTxA
+D ARM Cortex-M3 MCU, 128KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
+$CMP STM32L152CBUx
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, UFQFPN-48
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
@@ -480,32 +480,8 @@ K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
-$CMP STM32L152R8Hx
-D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
-$CMP STM32L152RBHx
-D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
 $CMP STM32L152R6HxA
 D ARM Cortex-M3 MCU, 32KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
-$CMP STM32L152R8HxA
-D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
-$CMP STM32L152RBHxA
-D ARM Cortex-M3 MCU, 128KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
@@ -516,26 +492,50 @@ K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
-$CMP STM32L152R8Tx
-D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
-$CMP STM32L152RBTx
-D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
 $CMP STM32L152R6TxA
 D ARM Cortex-M3 MCU, 32KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
+$CMP STM32L152R8Hx
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
+$CMP STM32L152R8HxA
+D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
+$CMP STM32L152R8Tx
+D ARM Cortex-M3 MCU, 64KB flash, 10KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
 $CMP STM32L152R8TxA
 D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
+$CMP STM32L152RBHx
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
+$CMP STM32L152RBHxA
+D ARM Cortex-M3 MCU, 128KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 50 GPIO, TFBGA-64
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
+$CMP STM32L152RBTx
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 51 GPIO, LQFP-64
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
@@ -588,20 +588,8 @@ K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
-$CMP STM32L152VBHx
-D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, UFBGA-100
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
 $CMP STM32L152V8HxA
 D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, UFBGA-100
-K ARM Cortex-M3 STM32L1 STM32L151/152
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
-$ENDCMP
-#
-$CMP STM32L152VBHxA
-D ARM Cortex-M3 MCU, 128KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, UFBGA-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
@@ -612,14 +600,26 @@ K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
-$CMP STM32L152VBTx
-D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
+$CMP STM32L152V8TxA
+D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP
 #
-$CMP STM32L152V8TxA
-D ARM Cortex-M3 MCU, 64KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
+$CMP STM32L152VBHx
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, UFBGA-100
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
+$CMP STM32L152VBHxA
+D ARM Cortex-M3 MCU, 128KB flash, 32KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, UFBGA-100
+K ARM Cortex-M3 STM32L1 STM32L151/152
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
+$ENDCMP
+#
+$CMP STM32L152VBTx
+D ARM Cortex-M3 MCU, 128KB flash, 16KB RAM, 32MHz, 1.65-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M3 STM32L1 STM32L151/152
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00277537.pdf
 $ENDCMP

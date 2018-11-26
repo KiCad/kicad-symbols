@@ -6,26 +6,26 @@ K ARM Cortex-M4 STM32L4 STM32L4x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
 $ENDCMP
 #
-$CMP STM32L431CCTx
-D ARM Cortex-M4 MCU, 256KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 38 GPIO, LQFP-48
-K ARM Cortex-M4 STM32L4 STM32L4x1
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
-$ENDCMP
-#
 $CMP STM32L431CBUx
 D ARM Cortex-M4 MCU, 128KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 38 GPIO, UFQFPN-48
 K ARM Cortex-M4 STM32L4 STM32L4x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
 $ENDCMP
 #
-$CMP STM32L431CCUx
-D ARM Cortex-M4 MCU, 256KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 38 GPIO, UFQFPN-48
+$CMP STM32L431CBYx
+D ARM Cortex-M4 MCU, 128KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 39 GPIO, WLCSP-49
 K ARM Cortex-M4 STM32L4 STM32L4x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
 $ENDCMP
 #
-$CMP STM32L431CBYx
-D ARM Cortex-M4 MCU, 128KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 39 GPIO, WLCSP-49
+$CMP STM32L431CCTx
+D ARM Cortex-M4 MCU, 256KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 38 GPIO, LQFP-48
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
+$ENDCMP
+#
+$CMP STM32L431CCUx
+D ARM Cortex-M4 MCU, 256KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 38 GPIO, UFQFPN-48
 K ARM Cortex-M4 STM32L4 STM32L4x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
 $ENDCMP
@@ -54,26 +54,26 @@ K ARM Cortex-M4 STM32L4 STM32L4x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
 $ENDCMP
 #
-$CMP STM32L431RCIx
-D ARM Cortex-M4 MCU, 256KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, UFBGA-64
-K ARM Cortex-M4 STM32L4 STM32L4x1
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
-$ENDCMP
-#
 $CMP STM32L431RBTx
 D ARM Cortex-M4 MCU, 128KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, LQFP-64
 K ARM Cortex-M4 STM32L4 STM32L4x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
 $ENDCMP
 #
-$CMP STM32L431RCTx
-D ARM Cortex-M4 MCU, 256KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, LQFP-64
+$CMP STM32L431RBYx
+D ARM Cortex-M4 MCU, 128KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, WLCSP-64
 K ARM Cortex-M4 STM32L4 STM32L4x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
 $ENDCMP
 #
-$CMP STM32L431RBYx
-D ARM Cortex-M4 MCU, 128KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, WLCSP-64
+$CMP STM32L431RCIx
+D ARM Cortex-M4 MCU, 256KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, UFBGA-64
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
+$ENDCMP
+#
+$CMP STM32L431RCTx
+D ARM Cortex-M4 MCU, 256KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, LQFP-64
 K ARM Cortex-M4 STM32L4 STM32L4x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf
 $ENDCMP
@@ -114,26 +114,26 @@ K ARM Cortex-M4 STM32L4 STM32L4x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
 $ENDCMP
 #
-$CMP STM32L433CCTx
-D ARM Cortex-M4 MCU, 256KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 38 GPIO, LQFP-48
-K ARM Cortex-M4 STM32L4 STM32L4x3
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
-$ENDCMP
-#
 $CMP STM32L433CBUx
 D ARM Cortex-M4 MCU, 128KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 38 GPIO, UFQFPN-48
 K ARM Cortex-M4 STM32L4 STM32L4x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
 $ENDCMP
 #
-$CMP STM32L433CCUx
-D ARM Cortex-M4 MCU, 256KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 38 GPIO, UFQFPN-48
+$CMP STM32L433CBYx
+D ARM Cortex-M4 MCU, 128KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 39 GPIO, WLCSP-49
 K ARM Cortex-M4 STM32L4 STM32L4x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
 $ENDCMP
 #
-$CMP STM32L433CBYx
-D ARM Cortex-M4 MCU, 128KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 39 GPIO, WLCSP-49
+$CMP STM32L433CCTx
+D ARM Cortex-M4 MCU, 256KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 38 GPIO, LQFP-48
+K ARM Cortex-M4 STM32L4 STM32L4x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
+$ENDCMP
+#
+$CMP STM32L433CCUx
+D ARM Cortex-M4 MCU, 256KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 38 GPIO, UFQFPN-48
 K ARM Cortex-M4 STM32L4 STM32L4x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
 $ENDCMP
@@ -150,20 +150,8 @@ K ARM Cortex-M4 STM32L4 STM32L4x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
 $ENDCMP
 #
-$CMP STM32L433RCIx
-D ARM Cortex-M4 MCU, 256KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, UFBGA-64
-K ARM Cortex-M4 STM32L4 STM32L4x3
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
-$ENDCMP
-#
 $CMP STM32L433RBTx
 D ARM Cortex-M4 MCU, 128KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, LQFP-64
-K ARM Cortex-M4 STM32L4 STM32L4x3
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
-$ENDCMP
-#
-$CMP STM32L433RCTx
-D ARM Cortex-M4 MCU, 256KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, LQFP-64
 K ARM Cortex-M4 STM32L4 STM32L4x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
 $ENDCMP
@@ -174,14 +162,26 @@ K ARM Cortex-M4 STM32L4 STM32L4x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
 $ENDCMP
 #
-$CMP STM32L433RCYx
-D ARM Cortex-M4 MCU, 256KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, WLCSP-64
+$CMP STM32L433RCIx
+D ARM Cortex-M4 MCU, 256KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, UFBGA-64
+K ARM Cortex-M4 STM32L4 STM32L4x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
+$ENDCMP
+#
+$CMP STM32L433RCTx
+D ARM Cortex-M4 MCU, 256KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, LQFP-64
 K ARM Cortex-M4 STM32L4 STM32L4x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
 $ENDCMP
 #
 $CMP STM32L433RCTxP
 D ARM Cortex-M4 MCU, 256KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 50 GPIO, LQFP-64
+K ARM Cortex-M4 STM32L4 STM32L4x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
+$ENDCMP
+#
+$CMP STM32L433RCYx
+D ARM Cortex-M4 MCU, 256KB flash, 64KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, WLCSP-64
 K ARM Cortex-M4 STM32L4 STM32L4x3
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf
 $ENDCMP
@@ -270,26 +270,26 @@ K ARM Cortex-M4 STM32L4 STM32L4x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340475.pdf
 $ENDCMP
 #
-$CMP STM32L451REIx
-D ARM Cortex-M4 MCU, 512KB flash, 160KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, UFBGA-64
-K ARM Cortex-M4 STM32L4 STM32L4x1
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340475.pdf
-$ENDCMP
-#
 $CMP STM32L451RCTx
 D ARM Cortex-M4 MCU, 256KB flash, 160KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, LQFP-64
 K ARM Cortex-M4 STM32L4 STM32L4x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340475.pdf
 $ENDCMP
 #
-$CMP STM32L451RETx
-D ARM Cortex-M4 MCU, 512KB flash, 160KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, LQFP-64
+$CMP STM32L451RCYx
+D ARM Cortex-M4 MCU, 256KB flash, 160KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, WLCSP-64
 K ARM Cortex-M4 STM32L4 STM32L4x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340475.pdf
 $ENDCMP
 #
-$CMP STM32L451RCYx
-D ARM Cortex-M4 MCU, 256KB flash, 160KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, WLCSP-64
+$CMP STM32L451REIx
+D ARM Cortex-M4 MCU, 512KB flash, 160KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, UFBGA-64
+K ARM Cortex-M4 STM32L4 STM32L4x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340475.pdf
+$ENDCMP
+#
+$CMP STM32L451RETx
+D ARM Cortex-M4 MCU, 512KB flash, 160KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, LQFP-64
 K ARM Cortex-M4 STM32L4 STM32L4x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340475.pdf
 $ENDCMP
@@ -306,14 +306,14 @@ K ARM Cortex-M4 STM32L4 STM32L4x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340475.pdf
 $ENDCMP
 #
-$CMP STM32L451VEIx
-D ARM Cortex-M4 MCU, 512KB flash, 160KB RAM, 80MHz, 1.71-3.6V, 83 GPIO, UFBGA-100
+$CMP STM32L451VCTx
+D ARM Cortex-M4 MCU, 256KB flash, 160KB RAM, 80MHz, 1.71-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M4 STM32L4 STM32L4x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340475.pdf
 $ENDCMP
 #
-$CMP STM32L451VCTx
-D ARM Cortex-M4 MCU, 256KB flash, 160KB RAM, 80MHz, 1.71-3.6V, 83 GPIO, LQFP-100
+$CMP STM32L451VEIx
+D ARM Cortex-M4 MCU, 512KB flash, 160KB RAM, 80MHz, 1.71-3.6V, 83 GPIO, UFBGA-100
 K ARM Cortex-M4 STM32L4 STM32L4x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340475.pdf
 $ENDCMP
@@ -342,20 +342,8 @@ K ARM Cortex-M4 STM32L4 STM32L4x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340549.pdf
 $ENDCMP
 #
-$CMP STM32L452REIx
-D ARM Cortex-M4 MCU, 512KB flash, 160KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, UFBGA-64
-K ARM Cortex-M4 STM32L4 STM32L4x2
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340549.pdf
-$ENDCMP
-#
 $CMP STM32L452RCTx
 D ARM Cortex-M4 MCU, 256KB flash, 160KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, LQFP-64
-K ARM Cortex-M4 STM32L4 STM32L4x2
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340549.pdf
-$ENDCMP
-#
-$CMP STM32L452RETx
-D ARM Cortex-M4 MCU, 512KB flash, 160KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, LQFP-64
 K ARM Cortex-M4 STM32L4 STM32L4x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340549.pdf
 $ENDCMP
@@ -366,8 +354,14 @@ K ARM Cortex-M4 STM32L4 STM32L4x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340549.pdf
 $ENDCMP
 #
-$CMP STM32L452REYx
-D ARM Cortex-M4 MCU, 512KB flash, 160KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, WLCSP-64
+$CMP STM32L452REIx
+D ARM Cortex-M4 MCU, 512KB flash, 160KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, UFBGA-64
+K ARM Cortex-M4 STM32L4 STM32L4x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340549.pdf
+$ENDCMP
+#
+$CMP STM32L452RETx
+D ARM Cortex-M4 MCU, 512KB flash, 160KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, LQFP-64
 K ARM Cortex-M4 STM32L4 STM32L4x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340549.pdf
 $ENDCMP
@@ -378,20 +372,26 @@ K ARM Cortex-M4 STM32L4 STM32L4x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340549.pdf
 $ENDCMP
 #
+$CMP STM32L452REYx
+D ARM Cortex-M4 MCU, 512KB flash, 160KB RAM, 80MHz, 1.71-3.6V, 52 GPIO, WLCSP-64
+K ARM Cortex-M4 STM32L4 STM32L4x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340549.pdf
+$ENDCMP
+#
 $CMP STM32L452VCIx
 D ARM Cortex-M4 MCU, 256KB flash, 160KB RAM, 80MHz, 1.71-3.6V, 83 GPIO, UFBGA-100
 K ARM Cortex-M4 STM32L4 STM32L4x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340549.pdf
 $ENDCMP
 #
-$CMP STM32L452VEIx
-D ARM Cortex-M4 MCU, 512KB flash, 160KB RAM, 80MHz, 1.71-3.6V, 83 GPIO, UFBGA-100
+$CMP STM32L452VCTx
+D ARM Cortex-M4 MCU, 256KB flash, 160KB RAM, 80MHz, 1.71-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M4 STM32L4 STM32L4x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340549.pdf
 $ENDCMP
 #
-$CMP STM32L452VCTx
-D ARM Cortex-M4 MCU, 256KB flash, 160KB RAM, 80MHz, 1.71-3.6V, 83 GPIO, LQFP-100
+$CMP STM32L452VEIx
+D ARM Cortex-M4 MCU, 512KB flash, 160KB RAM, 80MHz, 1.71-3.6V, 83 GPIO, UFBGA-100
 K ARM Cortex-M4 STM32L4 STM32L4x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00340549.pdf
 $ENDCMP
@@ -702,14 +702,14 @@ K ARM Cortex-M4 STM32L4 STM32L4x6
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284211.pdf
 $ENDCMP
 #
-$CMP STM32L496VGTx
-D ARM Cortex-M4 MCU, 1024KB flash, 320KB RAM, 80MHz, 1.71-3.6V, 83 GPIO, LQFP-100
+$CMP STM32L496VEYx
+D ARM Cortex-M4 MCU, 512KB flash, 320KB RAM, 80MHz, 1.71-3.6V, 81 GPIO, WLCSP-100
 K ARM Cortex-M4 STM32L4 STM32L4x6
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284211.pdf
 $ENDCMP
 #
-$CMP STM32L496VEYx
-D ARM Cortex-M4 MCU, 512KB flash, 320KB RAM, 80MHz, 1.71-3.6V, 81 GPIO, WLCSP-100
+$CMP STM32L496VGTx
+D ARM Cortex-M4 MCU, 1024KB flash, 320KB RAM, 80MHz, 1.71-3.6V, 83 GPIO, LQFP-100
 K ARM Cortex-M4 STM32L4 STM32L4x6
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00284211.pdf
 $ENDCMP
