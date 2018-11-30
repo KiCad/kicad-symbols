@@ -72,6 +72,12 @@ K quad opamp
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf
 $ENDCMP
 #
+$CMP ADA4841-1YRJ
+D Low Power, Low Noise and Distorsion, Rail-to-Rail Output Amplifier, SOT-23-6
+K single opamp low-noise rail-to-rail
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADA4841-1_4841-2.pdf
+$ENDCMP
+#
 $CMP ADA4870ARRZ
 D High Speed, High Voltage, 1A Output Drive Amplifier, PSOP-20
 K single opamp
@@ -1068,10 +1074,10 @@ K quad opamp
 F http://www.ti.com/lit/ds/symlink/opa376.pdf
 $ENDCMP
 #
-$CMP OPA890xDBV
-D Single Low-Power, Wideband, Voltage-Feedback Operational Amplifier with Disable, SOT-23-6
+$CMP OPA847xD
+D Single Low-Power, 3.9GHz, Wideband, Ultra-Low Noise, Voltage-Feedback Operational Amplifier with Disable, SO-8
 K single opamp wideband low-power
-F https://www.ti.com/lit/ds/symlink/opa890.pdf
+F http://www.ti.com/lit/ds/symlink/opa847.pdf
 $ENDCMP
 #
 $CMP OPA847xDBV
@@ -1086,10 +1092,10 @@ K single opamp wideband low-power
 F https://www.ti.com/lit/ds/symlink/opa890.pdf
 $ENDCMP
 #
-$CMP OPA847xD
-D Single Low-Power, 3.9GHz, Wideband, Ultra-Low Noise, Voltage-Feedback Operational Amplifier with Disable, SO-8
+$CMP OPA890xDBV
+D Single Low-Power, Wideband, Voltage-Feedback Operational Amplifier with Disable, SOT-23-6
 K single opamp wideband low-power
-F http://www.ti.com/lit/ds/symlink/opa847.pdf
+F https://www.ti.com/lit/ds/symlink/opa890.pdf
 $ENDCMP
 #
 $CMP RC4558
