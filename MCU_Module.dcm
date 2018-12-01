@@ -72,4 +72,16 @@ K STM32 Nucleo ST
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/data_brief/DM00105918.pdf
 $ENDCMP
 #
+$CMP VisionSOM-6UL
+D i.MX6-UL NXP ARM Cortex-A7 single core industrial SoM computer
+K somlabs nxp arm cortex module
+F https://somlabs.com/product/visionsom-6ul
+$ENDCMP
+#
+$CMP VisionSOM-6ULL
+D i.MX6-UL NXP ARM Cortex-A7 single core industrial SoM computer
+K somlabs nxp arm cortex module
+F https://somlabs.com/product/visionsom-6ull
+$ENDCMP
+#
 #End Doc Library
