@@ -150,6 +150,18 @@ K Crystal Clock Oscillator
 F http://www.petermann-technik.de/fileadmin/petermann/pdf/crystal-oscillators/OCXO-14_PETERMANN-TECHNIK.pdf
 $ENDCMP
 #
+$CMP Oscillator_SMD_MiniCircuits_JTOS-25
+D Voltage Controlled Oscillator, 12.5 to 25 MHz
+K VCXO
+F https://ww2.minicircuits.com/pdfs/JTOS-25+.pdf
+$ENDCMP
+#
+$CMP Oscillator_SMD_MiniCircuits_JTOS-50
+D Voltage Controlled Oscillator, 25 to 47 MHz
+K VCXO
+F https://ww2.minicircuits.com/pdfs/JTOS-50+.pdf
+$ENDCMP
+#
 $CMP SG-210SCD
 D Crystal Oscillator Low Profile / High Stability SPXO
 K Crystal Clock Oscillator
