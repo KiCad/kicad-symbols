@@ -36,6 +36,12 @@ K darlington transistor array
 F http://www.ti.com/lit/ds/slrs023e/slrs023e.pdf
 $ENDCMP
 #
+$CMP TBD62783A
+D 8-Channel Source Type Transistor Array, TTL and CMOS compatible, 500mA, 50V, DIP-18/SOP-18/SSOP-18/SOIC-18W
+K relays solenoids lamps steppers servos LEDs
+F http://toshiba.semicon-storage.com/info/docget.jsp?did=30523&prodName=TBD62783APG
+$ENDCMP
+#
 $CMP ULN2002
 D High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16
 K darlington transistor array

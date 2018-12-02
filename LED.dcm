@@ -228,6 +228,12 @@ K RGB LED NeoPixel Mini addressable
 F https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf
 $ENDCMP
 #
+$CMP SMLVN6RGB
+D High Brightness Tri-Color LED, RGB, 3.5x2.8mm
+K LED RGB Diode
+F https://www.rohm.com/datasheet/SMLVN6RGB1U
+$ENDCMP
+#
 $CMP TSAL4400
 D Infrared LED , 3mm LED package
 K opto IR LED
