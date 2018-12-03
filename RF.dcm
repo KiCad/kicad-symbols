@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADP-2-1W
+D Power splitter combiner, 1 to 650 MHz, 2 way 0-degree, 50 ohm
+K splitter combiner
+F https://ww2.minicircuits.com/pdfs/ADP-2-1W.pdf
+$ENDCMP
+#
 $CMP CC1000
 D Single Chip Low Power RF Transceiver, TSSOP28
 K Low Power RF Transciever
@@ -40,6 +46,12 @@ $CMP NRF24L01_Breakout
 D Ultra low power 2.4GHz RF Transceiver, Carrier PCB
 K Low Power RF Transciever breakout carrier
 F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf
+$ENDCMP
+#
+$CMP RMK-5-51
+D 5x Frequency Multiplier, Output 37.5 to 52.5 MHz
+K frequency multiplier
+F https://ww2.minicircuits.com/pdfs/RMK-5-51+.pdf
 $ENDCMP
 #
 $CMP SIM800C
