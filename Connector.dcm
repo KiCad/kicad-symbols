@@ -151,19 +151,25 @@ F ~
 $ENDCMP
 #
 $CMP AudioJack2_Ground_Switch
-D Audio Jack, 2 Poles (Mono / TS), Switched Pole (Normalling)
+D Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve, Switched Pole (Normalling)
 K audio jack receptacle mono headphones phone TS connector
 F ~
 $ENDCMP
 #
 $CMP AudioJack2_Ground_SwitchT
-D Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)
+D Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve, Switched T Pole (Normalling)
 K audio jack receptacle mono headphones phone TS connector
 F ~
 $ENDCMP
 #
 $CMP AudioJack2_Switch
 D Audio Jack, 2 Poles (Mono / TS), Switched Pole (Normalling)
+K audio jack receptacle mono headphones phone TS connector
+F ~
+$ENDCMP
+#
+$CMP AudioJack2_SwitchT
+D Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)
 K audio jack receptacle mono headphones phone TS connector
 F ~
 $ENDCMP
@@ -207,6 +213,12 @@ $ENDCMP
 $CMP AudioJack3_Switch
 D Audio Jack, 3 Poles (Stereo / TRS), Switched Poles (Normalling)
 K audio jack receptacle stereo headphones connector
+F ~
+$ENDCMP
+#
+$CMP AudioJack3_SwitchTR
+D Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)
+K audio jack receptacle stereo headphones phones TRS connector
 F ~
 $ENDCMP
 #
