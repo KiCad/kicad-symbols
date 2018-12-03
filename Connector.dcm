@@ -175,13 +175,13 @@ F ~
 $ENDCMP
 #
 $CMP AudioJack3_Dual_Ground_Switch
-D D Audio Jack, Dual, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched Poles (Normalling)
+D Audio Jack, Dual, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched Poles (Normalling)
 K audio jack dual receptacle stereo headphones phones TRS connector
 F ~
 $ENDCMP
 #
 $CMP AudioJack3_Dual_Switch
-D D Audio Jack, Dual, 3 Poles (Stereo / TRS), Switched Poles (Normalling)
+D Audio Jack, Dual, 3 Poles (Stereo / TRS), Switched Poles (Normalling)
 K audio jack dual receptacle stereo headphones phones TRS connector
 F ~
 $ENDCMP
@@ -193,19 +193,19 @@ F ~
 $ENDCMP
 #
 $CMP AudioJack3_Ground_Switch
-D D Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched Poles (Normalling)
+D Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched Poles (Normalling)
 K audio jack receptacle stereo headphones phones TRS connector
 F ~
 $ENDCMP
 #
 $CMP AudioJack3_Ground_SwitchTR
-D D Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched TR Poles (Normalling)
+D Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched TR Poles (Normalling)
 K audio jack receptacle stereo headphones phones TRS connector
 F ~
 $ENDCMP
 #
 $CMP AudioJack3_Switch
-D D Audio Jack, 3 Poles (Stereo / TRS), Switched Poles (Normalling)
+D Audio Jack, 3 Poles (Stereo / TRS), Switched Poles (Normalling)
 K audio jack receptacle stereo headphones connector
 F ~
 $ENDCMP
@@ -219,6 +219,18 @@ $ENDCMP
 $CMP AudioJack4_Ground
 D Audio Jack, 4 Poles (TRRS), Grounded Sleeve
 K audio jack receptacle stereo headphones TRRS connector
+F ~
+$ENDCMP
+#
+$CMP AudioJack4_Ground_SwitchTR1
+D Audio Jack, 4 Poles (Stereo / TRRS), Grounded Sleeve, Switched TR1 Poles (Normalling)
+K audio jack receptacle stereo headphones phones TRS connector
+F ~
+$ENDCMP
+#
+$CMP AudioJack4_SwitchTR1
+D Audio Jack, 4 Poles (Stereo / TRRS), Switched TR1 Poles (Normalling)
+K audio jack receptacle stereo headphones phones TRS connector
 F ~
 $ENDCMP
 #
