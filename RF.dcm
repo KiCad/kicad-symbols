@@ -66,6 +66,30 @@ K low-power lora transceiver
 F http://www.semtech.com/images/datasheet/sx1272.pdf
 $ENDCMP
 #
+$CMP SXBP-100
+D Bandpass Filter, 87 to 117 MHz 
+K bandpass filter
+F https://ww2.minicircuits.com/pdfs/SXBP-100+.pdf
+$ENDCMP
+#
+$CMP SXBP-140
+D Bandpass Filter, 130 to 150 MHz
+K Mini-Circuits Band-Pass Filter
+F https://ww2.minicircuits.com/pdfs/SXBP-140+.pdf
+$ENDCMP
+#
+$CMP SXBP-202
+D Bandpass Filter, 198 to 206 MHz 
+K bandpass filter
+F https://ww2.minicircuits.com/pdfs/SXBP-202+.pdf
+$ENDCMP
+#
+$CMP SXBP-27R5
+D Bandpass Filter, 24 to 31 MHz
+K bandpass filter
+F https://ww2.minicircuits.com/pdfs/SXBP-27R5+.pdf
+$ENDCMP
+#
 $CMP nRF24L01P
 D nRF24L01+, Ultra low power 2.4GHz RF Transceiver, QFN20 4x4mm
 K Low Power RF Transciever
