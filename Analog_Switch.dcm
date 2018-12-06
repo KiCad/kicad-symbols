@@ -33,7 +33,6 @@ $ENDCMP
 $CMP ADG633YCP
 D Triple SPDT CMOS Analog Switch, 52Ohm Ron, LFCSP-16
 K CMOS Analog Switch
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG633.pdf
 $ENDCMP
 #
 $CMP ADG633YRU
@@ -376,6 +375,18 @@ $CMP HI524
 D 4-Channel Wideband and Video Multiplexer, DIP-18
 K Video Multiplexer analog switch
 F https://www.intersil.com/content/dam/Intersil/documents/hi-5/hi-524.pdf
+$ENDCMP
+#
+$CMP MAX14761
+D Above- and Below-the-Rails Low On-Resistance Analog Switches, max 2 Ohm On resistor, TDFN-10
+K analog switch low resistance above below rails
+F https://datasheets.maximintegrated.com/en/ds/MAX14759-MAX14763.pdf
+$ENDCMP
+#
+$CMP MAX14759
+D Above- and Below-the-Rails Low On-Resistance Analog Switches, max 2 Ohms On-Resistance, TDFN-8
+K analog switch low resistance above below rails
+F https://datasheets.maximintegrated.com/en/ds/MAX14759-MAX14763.pdf
 $ENDCMP
 #
 $CMP MAX312CPE

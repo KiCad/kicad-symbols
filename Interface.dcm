@@ -87,6 +87,18 @@ K Direct Digital Synthesizer DDS
 F http://www.analog.com/static/imported-files/data_sheets/AD9834.pdf
 $ENDCMP
 #
+$CMP AD9850
+D CMOS, 125 MHz, Complete DDS Synthesizer, SSOP-28
+K DDS direct digital synthesizer
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9850.pdf
+$ENDCMP
+#
+$CMP AD9851
+D CMOS, 180 MHz, DDS/DAC Synthesizer, SSOP-28
+K DDS direct digital synthesizer
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9851.pdf
+$ENDCMP
+#
 $CMP AD9910
 D 1 GSPS, 14-Bit, 3.3 V CMOS, Direct Digital Synthesizer, QFP-100
 K dds direct digital synthesizer
@@ -217,6 +229,12 @@ $CMP LTC6957xMS-4
 D Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, CMOS Complementary Outputs, MSOP-12
 K LTC clock converter
 F http://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
+$ENDCMP
+#
+$CMP MAX6816
+D Single Switch  Debouncer, SOT-143
+K Switch Debouncer
+F https://datasheets.maximintegrated.com/en/ds/1896.pdf
 $ENDCMP
 #
 $CMP MC6840
@@ -361,6 +379,12 @@ $CMP TB5R2DW
 D Quad differential PECL reciver
 K differential PECL reciver
 F http://www.ti.com/lit/ds/symlink/tb5r1.pdf
+$ENDCMP
+#
+$CMP TCA9406DC
+D 2-Bit Bidirectional 1-MHz, I2C Bus and SMBus Voltage-Level Translator With 8-kV HBM ESD
+K Bidirectional 1-MHz I2C SMBus Voltage-Level Translator 8kV HBM ESD
+F www.ti.com/lit/ds/symlink/tca9406.pdf
 $ENDCMP
 #
 $CMP U2270B
