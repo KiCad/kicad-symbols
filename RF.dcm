@@ -42,6 +42,12 @@ K Low Power RF Transciever breakout carrier
 F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf
 $ENDCMP
 #
+$CMP RLP-30
+D Low Pass Filter, DC to 30 MHz
+K Low Pass Filter
+F https://ww2.minicircuits.com/pdfs/RLP-30+.pdf
+$ENDCMP
+#
 $CMP SIM800C
 D GSM Quad-Band Communication Module, GPRS, Audio Engine, AT Command Set, Bluetooth is Optional
 K GSM GPRS Quad-Band SMS
