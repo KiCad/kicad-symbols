@@ -348,6 +348,12 @@ K differential opamp operational amplifier
 F http://www.ti.com/lit/ds/symlink/lmh6551.pdf
 $ENDCMP
 #
+$CMP LMH6609MF
+D 900MHz Voltage Feedback Op Amp, SOT-23-5
+K wideband unity-gain stable
+F http://www.ti.com/lit/ds/symlink/lmh6609.pdf
+$ENDCMP
+#
 $CMP LMH6611
 D Single Supply, 345 MHz, Rail-to-Rail Output, Amplifier, TSOT-23-6
 K opamp operational amplifier single
