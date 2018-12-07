@@ -96,6 +96,12 @@ K clock generator signal
 F http://www.analog.com/media/en/technical-documentation/data-sheets/6909fa.pdf
 $ENDCMP
 #
+$CMP LTC6993
+D TimerBlox Monostable Pulse Generator (One Shot)
+K Timer TimerBlox monostable pulse
+F https://www.analog.com/media/en/technical-documentation/data-sheets/69931234fc.pdf
+$ENDCMP
+#
 $CMP MC1455
 D Timers, DIP-8/SOIC-8
 K timer
