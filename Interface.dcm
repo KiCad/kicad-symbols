@@ -159,6 +159,12 @@ K lvds driver reciever
 F http://www.onsemi.com/pub/Collateral/FIN1019-D.pdf
 $ENDCMP
 #
+$CMP IDT5PB1108PGG
+D  1:8 LVCMOS High-Performance Clock Buffer, 1.8V to 3.3V
+K clock buffer lvcmos
+F https://www.idt.com/document/dst/5pb11xx-datasheet
+$ENDCMP
+#
 $CMP LTC1518
 D 52Mbps Precision Delay RS485 Quad Line Receivers
 K receiver rs485 rs422 differential
