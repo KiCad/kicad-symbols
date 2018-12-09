@@ -8,7 +8,7 @@ $ENDCMP
 #
 $CMP ADR420ARMZ
 D 2.048 V Voltage Reference, Ultraprecision, Low Noise, MSOP-8
-K 2.048V voltage reference
+K voltage reference Ultraprecision Low Noise
 F https://www.analog.com/media/en/technical-documentation/data-sheets/adr420_421_423_425.pdf
 $ENDCMP
 #
@@ -27,12 +27,6 @@ $ENDCMP
 $CMP ADR425ARMZ
 D 5.00 V Voltage Reference, Ultraprecision, Low Noise, MSOP-8
 K 5V voltage reference
-F https://www.analog.com/media/en/technical-documentation/data-sheets/adr420_421_423_425.pdf
-$ENDCMP
-#
-$CMP ADR42xARMZ
-D 2.048 V/2.500 V/3.00 V/5.00 V Voltage References, Ultraprecision, Low Noise, MSOP-8
-K voltage reference Ultraprecision Low Noise
 F https://www.analog.com/media/en/technical-documentation/data-sheets/adr420_421_423_425.pdf
 $ENDCMP
 #
