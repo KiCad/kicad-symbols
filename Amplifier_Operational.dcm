@@ -350,7 +350,7 @@ $ENDCMP
 #
 $CMP LMH6609MA
 D 900MHz Voltage Feedback Op Amp, SOIC-8
-K wideband unity-gain stable
+K opamp single wideband unity-gain stable
 F http://www.ti.com/lit/ds/symlink/lmh6609.pdf
 $ENDCMP
 #
@@ -362,7 +362,7 @@ $ENDCMP
 #
 $CMP LMH6702MA
 D 1.7 GHz Ultra-Low Distortion Wideband Op Amp, SOIC-8
-K low distortion wideband
+K opamp single low distortion wideband
 F http://www.ti.com/lit/ds/symlink/lmh6702.pdf
 $ENDCMP
 #
