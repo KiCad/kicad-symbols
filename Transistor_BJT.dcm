@@ -1486,6 +1486,12 @@ K PNP High Voltage Transistor
 F http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF
 $ENDCMP
 #
+$CMP MUN5211DW1
+D 0.1A Ic, 50V Vce, Dual NPN Bias Resistor Transistors, SOT-363
+K Dual NPN Transistor
+F http://www.onsemi.com/pub/Collateral/DTC114ED-D.PDF
+$ENDCMP
+#
 $CMP PBSS301PZ
 D -5.7A Ic, -12V Vce, Small Signal PNP Transistor, SOT-223
 K PNP Transistor
