@@ -25,7 +25,7 @@ F http://www.ti.com/lit/ds/symlink/lm27762.pdf
 $ENDCMP
 #
 $CMP LM7705
-D Switched capacitor inverter, inverts 3V to 5.25V to regulated negative 0.23V, VSSOP-8
+D Negative bias generator, low-noise, 3-5.25V input, -0.232V fixed output, VSSOP-8
 K switched capacitor voltage converter inverter negative bias regulator
 F http://www.ti.com/lit/ds/symlink/lm7705.pdf
 $ENDCMP
