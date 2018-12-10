@@ -152,6 +152,7 @@
   (lib (name Reference_Voltage)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Reference_Voltage.lib)(options "")(descr "Precision voltage references"))
   (lib (name Relay)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Relay.lib)(options "")(descr "Relay symbols"))
   (lib (name Relay_SolidState)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Relay_SolidState.lib)(options "")(descr "Solid state relays (Transistor and Triac based)"))
+  (lib (name Security)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Security.lib)(options "")(descr "Security devices"))
   (lib (name Sensor)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Sensor.lib)(options "")(descr "Multi-function sensors, assorted sensors"))
   (lib (name Sensor_Audio)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Sensor_Audio.lib)(options "")(descr "Audio / sound / microphone sensors"))
   (lib (name Sensor_Current)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Sensor_Current.lib)(options "")(descr "Current sensors"))
