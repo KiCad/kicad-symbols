@@ -201,10 +201,11 @@ ENDDEF
 DEF LMV7272 U 0 5 Y Y 3 L N
 F0 "U" 50 250 50 H V C CNN
 F1 "LMV7272" 150 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "Package_BGA:Texas_DSBGA-8_1.5195x1.5195mm_Layout3x3_P0.5mm" -50 150 50 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/lmv7272.pdf" 50 250 50 H I C CNN
+F4 "Texas Instruments" 150 350 50 H V C CNN "Manufacturer"
 $FPLIST
- Texas*DSBGA*P0.5mm*
+ Texas*DSBGA-8*1.5195x1.5195*Layout3x3*P0.5mm*
 $ENDFPLIST
 DRAW
 P 4 1 1 10 -200 200 200 0 -200 -200 -200 200 f
