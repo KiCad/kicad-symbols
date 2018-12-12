@@ -6871,7 +6871,7 @@ ENDDEF
 #
 # R_Network03
 #
-DEF R_Network03 RN 0 0 N N 1 F N
+DEF R_Network03 RN 0 0 Y N 1 F N
 F0 "RN" -200 0 50 V V C CNN
 F1 "R_Network03" 200 0 50 V V C CNN
 F2 "Resistor_THT:R_Array_SIP4" 275 0 50 V I C CNN
@@ -6898,7 +6898,7 @@ ENDDEF
 #
 # R_Network03_US
 #
-DEF R_Network03_US RN 0 0 N N 1 F N
+DEF R_Network03_US RN 0 0 Y N 1 F N
 F0 "RN" -200 0 50 V V C CNN
 F1 "R_Network03_US" 200 0 50 V V C CNN
 F2 "Resistor_THT:R_Array_SIP4" 275 0 50 V I C CNN
@@ -6929,7 +6929,7 @@ ENDDEF
 #
 # R_Network04
 #
-DEF R_Network04 RN 0 0 N N 1 F N
+DEF R_Network04 RN 0 0 Y N 1 F N
 F0 "RN" -300 0 50 V V C CNN
 F1 "R_Network04" 200 0 50 V V C CNN
 F2 "Resistor_THT:R_Array_SIP5" 275 0 50 V I C CNN
@@ -6960,7 +6960,7 @@ ENDDEF
 #
 # R_Network04_US
 #
-DEF R_Network04_US RN 0 0 N N 1 F N
+DEF R_Network04_US RN 0 0 Y N 1 F N
 F0 "RN" -300 0 50 V V C CNN
 F1 "R_Network04_US" 200 0 50 V V C CNN
 F2 "Resistor_THT:R_Array_SIP5" 275 0 50 V I C CNN
@@ -6994,7 +6994,7 @@ ENDDEF
 #
 # R_Network05
 #
-DEF R_Network05 RN 0 0 N N 1 F N
+DEF R_Network05 RN 0 0 Y N 1 F N
 F0 "RN" -300 0 50 V V C CNN
 F1 "R_Network05" 300 0 50 V V C CNN
 F2 "Resistor_THT:R_Array_SIP6" 375 0 50 V I C CNN
@@ -7029,7 +7029,7 @@ ENDDEF
 #
 # R_Network05_US
 #
-DEF R_Network05_US RN 0 0 N N 1 F N
+DEF R_Network05_US RN 0 0 Y N 1 F N
 F0 "RN" -300 0 50 V V C CNN
 F1 "R_Network05_US" 300 0 50 V V C CNN
 F2 "Resistor_THT:R_Array_SIP6" 375 0 50 V I C CNN
@@ -7068,7 +7068,7 @@ ENDDEF
 #
 # R_Network06
 #
-DEF R_Network06 RN 0 0 N N 1 F N
+DEF R_Network06 RN 0 0 Y N 1 F N
 F0 "RN" -400 0 50 V V C CNN
 F1 "R_Network06" 300 0 50 V V C CNN
 F2 "Resistor_THT:R_Array_SIP7" 375 0 50 V I C CNN
@@ -7107,7 +7107,7 @@ ENDDEF
 #
 # R_Network06_US
 #
-DEF R_Network06_US RN 0 0 N N 1 F N
+DEF R_Network06_US RN 0 0 Y N 1 F N
 F0 "RN" -400 0 50 V V C CNN
 F1 "R_Network06_US" 300 0 50 V V C CNN
 F2 "Resistor_THT:R_Array_SIP7" 375 0 50 V I C CNN
@@ -7151,7 +7151,7 @@ ENDDEF
 #
 # R_Network07
 #
-DEF R_Network07 RN 0 0 N N 1 F N
+DEF R_Network07 RN 0 0 Y N 1 F N
 F0 "RN" -400 0 50 V V C CNN
 F1 "R_Network07" 400 0 50 V V C CNN
 F2 "Resistor_THT:R_Array_SIP8" 475 0 50 V I C CNN
@@ -7194,7 +7194,7 @@ ENDDEF
 #
 # R_Network07_US
 #
-DEF R_Network07_US RN 0 0 N N 1 F N
+DEF R_Network07_US RN 0 0 Y N 1 F N
 F0 "RN" -400 0 50 V V C CNN
 F1 "R_Network07_US" 400 0 50 V V C CNN
 F2 "Resistor_THT:R_Array_SIP8" 475 0 50 V I C CNN
@@ -7243,7 +7243,7 @@ ENDDEF
 #
 # R_Network08
 #
-DEF R_Network08 RN 0 0 N N 1 F N
+DEF R_Network08 RN 0 0 Y N 1 F N
 F0 "RN" -500 0 50 V V C CNN
 F1 "R_Network08" 400 0 50 V V C CNN
 F2 "Resistor_THT:R_Array_SIP9" 475 0 50 V I C CNN
@@ -7290,7 +7290,7 @@ ENDDEF
 #
 # R_Network08_US
 #
-DEF R_Network08_US RN 0 0 N N 1 F N
+DEF R_Network08_US RN 0 0 Y N 1 F N
 F0 "RN" -500 0 50 V V C CNN
 F1 "R_Network08_US" 400 0 50 V V C CNN
 F2 "Resistor_THT:R_Array_SIP9" 475 0 50 V I C CNN
@@ -7344,7 +7344,7 @@ ENDDEF
 #
 # R_Network09
 #
-DEF R_Network09 RN 0 0 N N 1 F N
+DEF R_Network09 RN 0 0 Y N 1 F N
 F0 "RN" -500 0 50 V V C CNN
 F1 "R_Network09" 500 0 50 V V C CNN
 F2 "Resistor_THT:R_Array_SIP10" 575 0 50 V I C CNN
@@ -7395,7 +7395,7 @@ ENDDEF
 #
 # R_Network09_US
 #
-DEF R_Network09_US RN 0 0 N N 1 F N
+DEF R_Network09_US RN 0 0 Y N 1 F N
 F0 "RN" -500 0 50 V V C CNN
 F1 "R_Network09_US" 500 0 50 V V C CNN
 F2 "Resistor_THT:R_Array_SIP10" 575 0 50 V I C CNN
@@ -7454,7 +7454,7 @@ ENDDEF
 #
 # R_Network10
 #
-DEF R_Network10 RN 0 0 N N 1 F N
+DEF R_Network10 RN 0 0 Y N 1 F N
 F0 "RN" -600 0 50 V V C CNN
 F1 "R_Network10" 500 0 50 V V C CNN
 F2 "Resistor_THT:R_Array_SIP11" 575 0 50 V I C CNN
@@ -7509,7 +7509,7 @@ ENDDEF
 #
 # R_Network10_US
 #
-DEF R_Network10_US RN 0 0 N N 1 F N
+DEF R_Network10_US RN 0 0 Y N 1 F N
 F0 "RN" -600 0 50 V V C CNN
 F1 "R_Network10_US" 500 0 50 V V C CNN
 F2 "Resistor_THT:R_Array_SIP11" 575 0 50 V I C CNN
@@ -7573,7 +7573,7 @@ ENDDEF
 #
 # R_Network11
 #
-DEF R_Network11 RN 0 0 N N 1 F N
+DEF R_Network11 RN 0 0 Y N 1 F N
 F0 "RN" -600 0 50 V V C CNN
 F1 "R_Network11" 600 0 50 V V C CNN
 F2 "Resistor_THT:R_Array_SIP12" 675 0 50 V I C CNN
@@ -7632,7 +7632,7 @@ ENDDEF
 #
 # R_Network11_US
 #
-DEF R_Network11_US RN 0 0 N N 1 F N
+DEF R_Network11_US RN 0 0 Y N 1 F N
 F0 "RN" -600 0 50 V V C CNN
 F1 "R_Network11_US" 600 0 50 V V C CNN
 F2 "Resistor_THT:R_Array_SIP12" 675 0 50 V I C CNN
@@ -7701,7 +7701,7 @@ ENDDEF
 #
 # R_Network12
 #
-DEF R_Network12 RN 0 0 N N 1 F N
+DEF R_Network12 RN 0 0 Y N 1 F N
 F0 "RN" -700 0 50 V V C CNN
 F1 "R_Network12" 600 0 50 V V C CNN
 F2 "Resistor_THT:R_Array_SIP13" 675 0 50 V I C CNN
@@ -7764,7 +7764,7 @@ ENDDEF
 #
 # R_Network12_US
 #
-DEF R_Network12_US RN 0 0 N N 1 F N
+DEF R_Network12_US RN 0 0 Y N 1 F N
 F0 "RN" -700 0 50 V V C CNN
 F1 "R_Network12_US" 600 0 50 V V C CNN
 F2 "Resistor_THT:R_Array_SIP13" 675 0 50 V I C CNN
@@ -7838,7 +7838,7 @@ ENDDEF
 #
 # R_Network13
 #
-DEF R_Network13 RN 0 0 N N 1 F N
+DEF R_Network13 RN 0 0 Y N 1 F N
 F0 "RN" -700 0 50 V V C CNN
 F1 "R_Network13" 700 0 50 V V C CNN
 F2 "Resistor_THT:R_Array_SIP14" 775 0 50 V I C CNN
@@ -7905,7 +7905,7 @@ ENDDEF
 #
 # R_Network13_US
 #
-DEF R_Network13_US RN 0 0 N N 1 F N
+DEF R_Network13_US RN 0 0 Y N 1 F N
 F0 "RN" -700 0 50 V V C CNN
 F1 "R_Network13_US" 700 0 50 V V C CNN
 F2 "Resistor_THT:R_Array_SIP14" 775 0 50 V I C CNN
