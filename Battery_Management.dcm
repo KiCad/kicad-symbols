@@ -30,6 +30,12 @@ K energy harvesting li-ion battery solar TEG
 F http://www.ti.com/lit/ds/symlink/bq25504.pdf
 $ENDCMP
 #
+$CMP BQ25601
+D I2C Controlled 3A Single-Cell Battery Charger for High Input Voltage and Narrow Voltage DC Power Path Management, WQFN-32
+K LiPO charger
+F http://www.ti.com/lit/ds/symlink/bq25601.pdf
+$ENDCMP
+#
 $CMP BQ27441-G1
 D System Side Li Ion/Polymer Fuel Gauge, PDSON-12
 K Fuel Gauge
@@ -64,6 +70,18 @@ $CMP BQ297xy
 D Voltage and Current Protection for Single-Cell Li-Ion and Li-Polymer Batteries
 K protection Li-Ion Li-Pol
 F http://www.ti.com/lit/ds/symlink/bq2970.pdf
+$ENDCMP
+#
+$CMP BQ51050BRHL
+D Qi v1.2, Wireless Power Receiver and Battery Charger, Vout 4.2V, VQFN-20
+K Qi Wireless Power Receiver Battery Charger 4.2V
+F http://www.ti.com/lit/ds/symlink/bq51050b.pdf
+$ENDCMP
+#
+$CMP BQ51051BRHL
+D Qi v1.2, Wireless Power Receiver and Battery Charger, Vout 4.35V, VQFN-20
+K Qi Wireless Power Receiver Battery Charger 4.35V
+F http://www.ti.com/lit/ds/symlink/bq51051b.pdf
 $ENDCMP
 #
 $CMP BQ76940
@@ -172,6 +190,12 @@ $CMP LTC4002ES8-8.4
 D Standalone Li-Ion Switch Mode Battery Charger, 8.9-22V input, double cell, SOIC-8
 K lithium li-ion battery charger
 F http://cds.linear.com/docs/en/datasheet/4002f.pdf
+$ENDCMP
+#
+$CMP LTC4007
+D 4A high efficiency standalone Li-ion battery charger, SSOP24
+K lithium ion polymer li-po battery
+F http://www.analog.com/media/en/technical-documentation/data-sheets/4007fc.pdf
 $ENDCMP
 #
 $CMP LTC4054ES5-4.2

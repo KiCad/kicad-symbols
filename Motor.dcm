@@ -3,6 +3,7 @@ EESchema-DOCLIB  Version 2.0
 $CMP Fan
 D Fan
 K Fan Motor
+F ~
 $ENDCMP
 #
 $CMP Fan_3pin
@@ -20,6 +21,7 @@ $ENDCMP
 $CMP Fan_ALT
 D Fan without PWM or tach, alternative symbol
 K Fan Motor
+F ~
 $ENDCMP
 #
 $CMP Fan_CPU_4pin
@@ -31,6 +33,7 @@ $ENDCMP
 $CMP Fan_IEC60617
 D Fan (according to IEC-60617)
 K Fan Motor IEC-60617
+F ~
 $ENDCMP
 #
 $CMP Fan_PC_Chassis
@@ -54,16 +57,19 @@ $ENDCMP
 $CMP Motor_AC
 D AC Motor
 K AC Motor
+F ~
 $ENDCMP
 #
 $CMP Motor_DC
 D DC Motor
 K DC Motor
+F ~
 $ENDCMP
 #
 $CMP Motor_DC_ALT
 D DC Motor, alternative symbol
 K DC Motor
+F ~
 $ENDCMP
 #
 $CMP Motor_Servo

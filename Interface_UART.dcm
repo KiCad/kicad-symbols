@@ -1,9 +1,42 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 16450
+D PC16450, Universal Asynchronous Receiver/Transmitter, PDIP-40
+K 1ch UART
+$ENDCMP
+#
+$CMP 16550
+D PC16550D, Universal Asynchronous Receiver/Transmitter with FIFOs, PDIP-40
+K 1ch UART FIFO
+F http://www.ti.com/lit/ds/symlink/pc16550d.pdf
+$ENDCMP
+#
+$CMP 68C681
+D CMOS Dual Channel UART
+K UART serial
+F https://www.elektronik.ropla.eu/pdf/stock/exa/xr68c681.pdf
+$ENDCMP
+#
+$CMP 8250
+D PC8250A, Universal Asynchronous Receiver/Transmitter, PDIP-40
+K 1ch UART
+$ENDCMP
+#
+$CMP 8252
+D Universal Asynchronous Receiver/Transmitter, PDIP-28
+K UART Serial Interface
+$ENDCMP
+#
 $CMP ADM101E
 D Single RS232 driver/receiver, 5V supply, 460kb/s
 K rs232 uart transceiver line-driver
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM101E.pdf
+$ENDCMP
+#
+$CMP ADM1491EBR
+D RS-485, RS-422 full duplex 16Mbps transceiver, SOIC-14
+K RS485 RS422 transceiver full duplex
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM1490E_1491E.pdf
 $ENDCMP
 #
 $CMP ADM222
@@ -144,6 +177,12 @@ K rs485 transceiver
 F https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf
 $ENDCMP
 #
+$CMP MAX14783ExS
+D High-Speed 3.3V/5V RS-485/RS-422 Transceiver with ±35kV HBM ESD Protection, SOIC8
+K High-Speed 3.3V/5V RS-485/RS-422 Transceiver ESD 42Mbps
+F https://datasheets.maximintegrated.com/en/ds/MAX14783E.pdf
+$ENDCMP
+#
 $CMP MAX1487E
 D Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 128 receiver drive kapacitity, DIP-8 and SOIC-8
 K Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 128 receiver drive kapacitity, DIP-8 and SOIC-8
@@ -216,6 +255,30 @@ K rs232 uart transceiver line-driver
 F https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf
 $ENDCMP
 #
+$CMP MAX3284E
+D ±15kV ESD-Protected 52Mbps, 3V to 5.5V RS-485/RS-422 True Fail-Safe Receivers, SOT23
+K RS-485 RS-422 True Fail-Safe Receivers 1/4 unit load receiver
+F https://datasheets.maximintegrated.com/en/ds/MAX3280E-MAX3284E.pdf
+$ENDCMP
+#
+$CMP MAX3483
+D True RS-485/RS-422, 0.25Mbps, Slew-Rate Limited, with low-power shutdown, with receiver/driver enable, 32 receiver drive capacitity, DIP-8 and SOIC-8
+K RS-485 RS-422 UART line-driver transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf
+$ENDCMP
+#
+$CMP MAX3485
+D True RS-485/RS-422, 10Mbps, Slew-Rate Limited, with low-power shutdown, with receiver/driver enable, 32 receiver drive capacitity, DIP-8 and SOIC-8
+K RS-485 RS-422 UART line-driver transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf
+$ENDCMP
+#
+$CMP MAX3486
+D True RS-485/RS-422, 2.5Mbps, Slew-Rate Limited, with low-power shutdown, with receiver/driver enable, 32 receiver drive capacitity, DIP-8 and SOIC-8
+K RS-485 RS-422 UART line-driver transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf
+$ENDCMP
+#
 $CMP MAX481E
 D Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, with low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8
 K Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, with low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8
@@ -262,6 +325,24 @@ $CMP MAX491E
 D Full duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate limited, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, 0 to +70 degree Celcius, DIP-14 and SOIC-14
 K Full duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate limited, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, 0 to +70 degree Celcius, DIP-14 and SOIC-14
 F https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+$ENDCMP
+#
+$CMP MC6850
+D Asynchronous Communications Interface Adapter 1MHz, DIP-40
+K ACIA
+F http://pdf.datasheetcatalog.com/datasheet/motorola/MC6850.pdf
+$ENDCMP
+#
+$CMP MC68A50
+D Asynchronous Communications Interface Adapter 1.5MHz, DIP-40
+K ACIA
+F http://pdf.datasheetcatalog.com/datasheet/motorola/MC6850.pdf
+$ENDCMP
+#
+$CMP MC68B50
+D Asynchronous Communications Interface Adapter 2MHz, DIP-40
+K ACIA
+F http://pdf.datasheetcatalog.com/datasheet/motorola/MC6850.pdf
 $ENDCMP
 #
 $CMP SN65LBC176D
@@ -352,6 +433,12 @@ $CMP SP3485EP
 D Industrial 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, DIP8
 K Low Power Half-Duplex RS-485 Transceiver 10Mbps
 F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
+$ENDCMP
+#
+$CMP ST485EBDR
+D Half duplex RS-485/RS-422, 5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, with low-power shutdown, with receiver/driver enable, 256 transceiver on the bus - 40 to 85 °C, SOIC-8
+K Half duplex RS-485/RS-422, 5 Mbps, ±15kV  256 transceiver bus
+F http://www.st.com/resource/en/datasheet/st485eb.pdf
 $ENDCMP
 #
 $CMP Z8530

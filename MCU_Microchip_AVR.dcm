@@ -1,0 +1,117 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AT90CAN128-16AU
+D 16MHz, 128kB Flash, 4kB SRAM, 4kB EEPROM, JTAG, CAN, TQFP-64
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7679.pdf
+$ENDCMP
+#
+$CMP AT90CAN128-16MU
+D 16MHz, 128kB Flash, 4kB SRAM, 4kB EEPROM, JTAG, CAN, QFN-64
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7679.pdf
+$ENDCMP
+#
+$CMP AT90CAN32-16AU
+D 16MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, CAN, TQFP-64
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7679.pdf
+$ENDCMP
+#
+$CMP AT90CAN32-16MU
+D 16MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, CAN, QFN-64
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7679.pdf
+$ENDCMP
+#
+$CMP AT90CAN64-16AU
+D 16MHz, 64kB Flash, 4kB SRAM, 2kB EEPROM, JTAG, CAN, TQFP-64
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7679.pdf
+$ENDCMP
+#
+$CMP AT90CAN64-16MU
+D 16MHz, 64kB Flash, 4kB SRAM, 2kB EEPROM, JTAG, CAN, QFN-64
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7679.pdf
+$ENDCMP
+#
+$CMP AT90PWM1-16MU
+D 16MHz, 8kB Flash, 512B SRAM, 512B EEPROM, QFN-32
+K AVR 8bit Microcontroller LightingAVR PWM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc4378.pdf
+$ENDCMP
+#
+$CMP AT90PWM1-16SU
+D 16MHz, 8kB Flash, 512B SRAM, 512B EEPROM, SOIC-24
+K AVR 8bit Microcontroller LightingAVR PWM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc4378.pdf
+$ENDCMP
+#
+$CMP AT90USB1286-AU
+D 16MHz, 128kB Flash, 8kB SRAM, 4kB EEPROM, USB 2.0, TQFP-64
+K AVR 8bit Microcontroller USB
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf
+$ENDCMP
+#
+$CMP AT90USB1286-MU
+D 16MHz, 128kB Flash, 8kB SRAM, 4kB EEPROM, USB 2.0, QFN-64
+K AVR 8bit Microcontroller USB
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf
+$ENDCMP
+#
+$CMP AT90USB1287-AU
+D 16MHz, 128kB Flash, 8kB SRAM, 4kB EEPROM, USB 2.0 OTG, TQFP-64
+K AVR 8bit Microcontroller USB
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf
+$ENDCMP
+#
+$CMP AT90USB1287-MU
+D 16MHz, 128kB Flash, 8kB SRAM, 4kB EEPROM, USB 2.0 OTG, QFN-64
+K AVR 8bit Microcontroller USB
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf
+$ENDCMP
+#
+$CMP AT90USB162-16AU
+D 16MHz, 16kB Flash, 512B SRAM, 512B EEPROM, USB 2.0, TQFP-32
+K AVR 8bit Microcontroller USB
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7707.pdf
+$ENDCMP
+#
+$CMP AT90USB162-16MU
+D 16MHz, 16kB Flash, 512B SRAM, 512B EEPROM, USB 2.0, QFN-32
+K AVR 8bit Microcontroller USB
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7707.pdf
+$ENDCMP
+#
+$CMP AT90USB646-AU
+D 16MHz, 64kB Flash, 4kB SRAM, 2kB EEPROM, USB 2.0, TQFP-64
+K AVR 8bit Microcontroller USB
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf
+$ENDCMP
+#
+$CMP AT90USB646-MU
+D 16MHz, 64kB Flash, 4kB SRAM, 2kB EEPROM, USB 2.0, QFN-64
+K AVR 8bit Microcontroller USB
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf
+$ENDCMP
+#
+$CMP AT90USB647-AU
+D 16MHz, 64kB Flash, 4kB SRAM, 2kB EEPROM, USB 2.0 OTG, TQFP-64
+K AVR 8bit Microcontroller USB
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf
+$ENDCMP
+#
+$CMP AT90USB647-MU
+D 16MHz, 64kB Flash, 4kB SRAM, 2kB EEPROM, USB 2.0 OTG, QFN-64
+K AVR 8bit Microcontroller USB
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf
+$ENDCMP
+#
+$CMP AT90USB82-16MU
+D 16MHz, 8kB Flash, 512B SRAM, 512B EEPROM, USB 2.0, QFN-32
+K AVR 8bit Microcontroller USB
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc7707.pdf
+$ENDCMP
+#
+#End Doc Library

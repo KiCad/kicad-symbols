@@ -18,148 +18,268 @@ K Hiside power switch
 F http://www.irf.com/product-info/datasheets/data/auir3315.pdf
 $ENDCMP
 #
+$CMP BTN8982TA
+D High Current PN Half Bridge, TO-263-7
+K half bridge for motor drive applications
+F https://www.infineon.com/dgdl/Infineon-BTN8982TA-DS-v01_00-EN.pdf?fileId=db3a30433fa9412f013fbe32289b7c17
+$ENDCMP
+#
 $CMP BTS40K2-1EJC
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 200mOhm, 1.5A, 36V, DSO-8
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS40K2-1EJC-DS-v01_00-EN.pdf?fileId=5546d462518ffd85015254ee4e601f99
 $ENDCMP
 #
 $CMP BTS443P
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 16mOhm, 7.6A, 36V, TO252-5
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS443P-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9afbc5035d5
 $ENDCMP
 #
+$CMP BTS50010-1TAD
+D Smart High-Side Power Switch, PROFET, Single, 1mOhm, 40A, 18V, TO-263-7
+K BTS50010 PROFET
+F https://www.infineon.com/dgdl/Infineon-BTS50010-1TAD-DS-v01_00-EN.pdf?fileId=5546d462576f34750157c38810ca55cd
+$ENDCMP
+#
 $CMP BTS50055-1TMA
-D Smart High-Side Power Switch PROFET One Channel
-K infineon power switch
+D Smart High-Side Power Switch, PROFET, Single, 6mOhm, 70A, 34V, TO220-7
+K BTS50055 PROFET
 F http://www.infineon.com/dgdl/Infineon-BTS50055-1TMA-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9b00de935ed
 $ENDCMP
 #
 $CMP BTS50055-1TMC
-D Smart High-Side Power Switch PROFET One Channel
-K infineon power switch
-F http://www.infineon.com/dgdl/Infineon-BTS50055-1TMC-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9b0007235e9
+D Smart High-Side Power Switch, PROFET, Single, 6mOhm, 17A, 34V, TO220-7
+K BTS50055 PROFET
+F https://www.infineon.com/dgdl/Infineon-BTS50055-1TMC-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9b0007235e9
 $ENDCMP
 #
 $CMP BTS50080-1TEA
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 16mOhm, 10A, 30V, TO252-5
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS50080-1TEA-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa435f2d2115b
 $ENDCMP
 #
 $CMP BTS50080-1TEB
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 16mOhm, 10A, 30V, TO252-5
 K infineon power switch
-F http://www.infineon.com/dgdl/Infineon-BTS50080-1TEB-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa435e5601157
+F https://www.infineon.com/dgdl/Infineon-BTS50080-1TEB-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa435e5601157
 $ENDCMP
 #
 $CMP BTS50080-1TMA
-D Smart High-Side Power Switch PROFET One Channel
-K infineon power switch
-F http://www.infineon.com/dgdl/Infineon-BTS50080-1TMA-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa435d7fe1153
+D Smart High-Side Power Switch, PROFET, Single, 16mOhm, 9.5A, 38V, TO220-7
+K BTS50080 PROFET
+F https://www.infineon.com/dgdl/Infineon-BTS50080-1TMA-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa435d7fe1153
 $ENDCMP
 #
 $CMP BTS50080-1TMC
-D Smart High-Side Power Switch PROFET One Channel
-K infineon power switch
-F http://www.infineon.com/dgdl/Infineon-BTS50080_1TMC-DS-v01_00-en.pdf?fileId=db3a3043266237920126992737c951ee
+D Smart High-Side Power Switch, PROFET, Single, 16mOhm, 9.5A, 38V, TO220-7
+K BTS50080 PROFET
+F https://www.infineon.com/dgdl/Infineon-BTS50080_1TMC-DS-v01_00-en.pdf?fileId=db3a3043266237920126992737c951ee
 $ENDCMP
 #
 $CMP BTS50085-1TMA
-D Smart High-Side Power Switch PROFET One Channel
-K infineon power switch
-F http://www.infineon.com/dgdl/Infineon-BTS50085-1TMA-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa435bccd114b
+D Smart High-Side Power Switch, PROFET, Single, 9mOhm, 11.1A, 58V, TO220-7
+K BTS50085 PROFET
+F https://www.infineon.com/dgdl/Infineon-BTS50085-1TMA-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa435bccd114b
 $ENDCMP
 #
 $CMP BTS5012SDA
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 24mOhm, 6.5A, 20V, TO252-5
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS5012SDA-DS-v01_01-en.pdf?fileId=db3a30431d8a6b3c011db95c6eba237d
 $ENDCMP
 #
 $CMP BTS5014SDA
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 28mOhm, 6A, 20V, TO252-5
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS5014SDA-DS-v01_01-EN.pdf?fileId=5546d4625a888733015aa42c708e1142
 $ENDCMP
 #
 $CMP BTS5016SDA
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 32mOhm, 5.5A, 20V, TO252-5
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS5016SDA-DS-v01_01-EN.pdf?fileId=5546d4625a888733015aa41a6c38112d
 $ENDCMP
 #
 $CMP BTS5030-1EJA
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 30mOhm, 5A, 28V, DSO-8
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS5030-1EJA-DS-v02_20-EN.pdf?fileId=5546d46259d9a4bf015a84f3e686758a
 $ENDCMP
 #
 $CMP BTS5045-1EJA
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 45mOhm, 4A, 28V, DSO-8
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS5045-1EJA-DS-v02_02-EN.pdf?fileId=5546d4625a888733015aa411125b1069
 $ENDCMP
 #
 $CMP BTS5090-1EJA
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 90mOhm, 3A, 28V, DSO-8
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS5090-1EJA-DS-v02_02-EN.pdf?fileId=5546d4625a888733015aa410fc371059
 $ENDCMP
 #
 $CMP BTS5200-1EJA
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 200mOhm, 1.5A, 28V, DSO-8
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS5200-1EJA-DS-v01_00-EN.pdf?fileId=5546d46250cc1fdf0151636cd945402e
 $ENDCMP
 #
 $CMP BTS6133D
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 10mOhm, 8A, 38V, TO-252-5
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS6133D-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3e3286f102a
 $ENDCMP
 #
 $CMP BTS6142D
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 12mOhm, 7A, 24V, TO252-5
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS6142D-DS-v01_01-EN.pdf?fileId=5546d4625a888733015aa3da1e0e1026
 $ENDCMP
 #
 $CMP BTS6143D
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 10mOhm, 8A, 38V, TO252-5
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS6143D-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3da10821022
 $ENDCMP
 #
 $CMP BTS6163D
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 20mOhm, 5.5A, 62V, TO252-5
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS6163D-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3da01a1101e
 $ENDCMP
 #
 $CMP BTS6200-1EJA
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 200mOhm, 1.5A, 36V, DSO-8
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTT6200-1EJA-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3756ec20fcc
 $ENDCMP
 #
+$CMP BTS7004-1EPP
+D Smart High-Side Power Switch, PROFET, One Channel, 12V, 15A, Rds(on) 4.4mΩ, PG-TSDSO-14-22
+K BTS7004
+F https://www.infineon.com/dgdl/Infineon-BTS7004-1EPP-DS-v01_00-EN.pdf?fileId=5546d4626102d35a016147550a725555
+$ENDCMP
+#
 $CMP BTS716G
-D Smart Quad Channel High Side Powertrain Switch (140mOhm)
+D Smart High-Side Power Switch, PROFET, 4 Channel, 140mOhm, 2.6A, 40V, DSO-20
 K High_Side_Switch Power
 F https://www.infineon.com/dgdl/Infineon-BTS716G-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3be86601004
 $ENDCMP
 #
 $CMP BTS716GB
-D Smart Quad Channel High Side Powertrain Switch (140mOhm)
+D Smart High-Side Power Switch, PROFET, 4 Channel, 140mOhm, 2.6A, 40V, DSO-20
 K High_Side_Switch Power
-F http://www.infineon.com/dgdl/Infineon-BTS716GB-DS-v01_00-en.pdf?fileId=db3a30431c48a312011c4c2a11d90028
+F https://www.infineon.com/dgdl/Infineon-BTS716GB-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3be94e21008
 $ENDCMP
 #
 $CMP BTS724G
-D Smart Quad Channel High Side Powertrain Switch (90mOhm)
+D Smart High-Side Power Switch, PROFET, 4 Channel, 90mOhm, 3.3A, 40V, DSO-20
 K High_Side_Switch Power
 F https://www.infineon.com/dgdl/Infineon-BTS724G-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3a2f1030ff1
+$ENDCMP
+#
+$CMP CAP002DG
+D CapZero Automatic Capacitor Discarger, Vdss 875V, Cmax < 500nF, SO8
+K CapZero Automatic Capacitor Discarger 875V 500nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP003DG
+D CapZero Automatic Capacitor Discarger, Vdss 875V, Cmax 750nF, SO8
+K CapZero Automatic Capacitor Discarger 875V 750nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP004DG
+D CapZero Automatic Capacitor Discarger, Vdss 875V, Cmax 1000nF, SO8
+K CapZero Automatic Capacitor Discarger 875V 1000nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP005DG
+D CapZero Automatic Capacitor Discarger, Vdss 875V, Cmax 1500nF, SO8
+K CapZero Automatic Capacitor Discarger 875V 1500nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP006DG
+D CapZero Automatic Capacitor Discarger, Vdss 875V, Cmax 2000nF, SO8
+K CapZero Automatic Capacitor Discarger 875V 2000nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP007DG
+D CapZero Automatic Capacitor Discarger, Vdss 875V, Cmax 2500nF, SO8
+K CapZero Automatic Capacitor Discarger 875V 2500nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP008DG
+D CapZero Automatic Capacitor Discarger, Vdss 875V, Cmax 3500nF, SO8
+K CapZero Automatic Capacitor Discarger 875V 3500nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP009DG
+D CapZero Automatic Capacitor Discarger, Vdss 875V, Cmax 5000nF, SO8
+K CapZero Automatic Capacitor Discarger 875V 5000nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP012DG
+D CapZero Automatic Capacitor Discarger, Vdss 1000V, Cmax < 500nF, SO8
+K CapZero Automatic Capacitor Discarger 1000V 500nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP013DG
+D CapZero Automatic Capacitor Discarger, Vdss 1000V, Cmax 750nF, SO8
+K CapZero Automatic Capacitor Discarger 1000V 750nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP014DG
+D CapZero Automatic Capacitor Discarger, Vdss 1000V, Cmax 1000nF, SO8
+K CapZero Automatic Capacitor Discarger 1000V 1000nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP015DG
+D CapZero Automatic Capacitor Discarger, Vdss 1000V, Cmax 1500nF, SO8
+K CapZero Automatic Capacitor Discarger 1000V 1500nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP016DG
+D CapZero Automatic Capacitor Discarger, Vdss 1000V, Cmax 2000nF, SO8
+K CapZero Automatic Capacitor Discarger 1000V 2000nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP017DG
+D CapZero Automatic Capacitor Discarger, Vdss 1000V, Cmax 2500nF, SO8
+K CapZero Automatic Capacitor Discarger 1000V 2500nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP018DG
+D CapZero Automatic Capacitor Discarger, Vdss 1000V, Cmax 3500nF, SO8
+K CapZero Automatic Capacitor Discarger 1000V 3500nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP CAP019DG
+D CapZero Automatic Capacitor Discarger, Vdss 1000V, Cmax 5000nF, SO8
+K CapZero Automatic Capacitor Discarger 1000V 5000nF
+F http://www.powerint.com/sites/default/files/product-docs/capzero_family_datasheet.pdf
+$ENDCMP
+#
+$CMP HF81
+D X capacitor bleeder, SOIC-8
+K X capacitor discharge
+F http://www.monolithicpower.com/DesktopModules/DocumentManage/API/Document/getDocument?id=142
 $ENDCMP
 #
 $CMP IPS6011PBF
@@ -264,6 +384,258 @@ K High_Side_Switch Power
 F http://www.infineon.com/dgdl/Infineon-ITS5215L-DS-v01_01-en.pdf?fileId=db3a304412b407950112b428dba73e98
 $ENDCMP
 #
+$CMP LM5051
+D Low side OR-ing FET controller, -6V to -100V operation
+K negative low-side or-ing ideal-diode
+F http://www.ti.com/lit/ds/symlink/lm5051.pdf
+$ENDCMP
+#
+$CMP LM5060
+D High side protection controller, +5.5V to +65V operation, VSSOP-10 package
+K high-voltage mosfet-driver hot-swap
+F http://www.ti.com/lit/ds/symlink/lm5060.pdf
+$ENDCMP
+#
+$CMP LMG3410
+D 600-V 12-A Integrated GaN Power Stage, RWH0032A
+K N-Channel GaN MOSFET
+F http://www.ti.com/lit/ds/snosd10c/snosd10c.pdf
+$ENDCMP
+#
+$CMP LMG5200
+D 80-V, 10-A GaN Half-Bridge Power Stage, MOF0009A
+K Dual N-Channel GaN MOSFET
+F http://www.ti.com/lit/ds/symlink/lmg5200.pdf
+$ENDCMP
+#
+$CMP LT1641-1
+D High voltage hot swap controller, +9V to +80V operation, with latching feature
+K high-voltage hot-swap
+F http://cds.linear.com/docs/en/datasheet/164112fc.pdf
+$ENDCMP
+#
+$CMP LT1641-2
+D High voltage hot swap controller, +9V to +80V operation, with auto-retry feature
+K high-voltage hot-swap
+F http://cds.linear.com/docs/en/datasheet/164112fc.pdf
+$ENDCMP
+#
+$CMP LTC4357DCB
+D Ideal diode controller, 9-80V operation, DFN-6 package
+K ideal-diode or-ing
+F http://cds.linear.com/docs/en/datasheet/4357fd.pdf
+$ENDCMP
+#
+$CMP LTC4357MS8
+D Ideal diode controller, 9-80V operation, MSOP-8 package
+K ideal-diode or-ing
+F http://cds.linear.com/docs/en/datasheet/4357fd.pdf
+$ENDCMP
+#
+$CMP LTC4359-DCB
+D Ideal diode controller with reverse input protection, DFN-6 package
+K ideal-diode or-ing reverse-protection
+F http://cds.linear.com/docs/en/datasheet/4359fb.pdf
+$ENDCMP
+#
+$CMP LTC4359-MS8
+D Ideal diode controller with reverse input protection, MSOP-8 package
+K ideal-diode or-ing reverse-protection
+F http://cds.linear.com/docs/en/datasheet/4359fb.pdf
+$ENDCMP
+#
+$CMP LTC4364CDE
+D Surge stopper with ideal diode, UV and OV protection, -40V to +80V operation, DFN-14 package, 0°C to +40°C
+K ideal-diode or-ing reverse-protection undervoltage overvoltage surge-stopper
+F http://cds.linear.com/docs/en/datasheet/436412f.pdf
+$ENDCMP
+#
+$CMP LTC4364CMS
+D Surge stopper with ideal diode, UV and OV protection, -40V to +80V operation, MSOP-16 package, 0°C to +40°C
+K ideal-diode or-ing reverse-protection undervoltage overvoltage surge-stopper
+F http://cds.linear.com/docs/en/datasheet/436412f.pdf
+$ENDCMP
+#
+$CMP LTC4364CS
+D Surge stopper with ideal diode, UV and OV protection -40V to +80V in SOIC-16 package, 0°C to +40°C
+K ideal-diode or-ing reverse-protection undervoltage overvoltage surge-stopper
+F http://cds.linear.com/docs/en/datasheet/436412f.pdf
+$ENDCMP
+#
+$CMP LTC4364HDE
+D Surge stopper with ideal diode, UV and OV protection -40V to +80V in DFN-14 package, -40°C to +125°C
+K surge overvoltage undervoltage reverse-polarity protection diode ORing MOSFET driver
+F http://cds.linear.com/docs/en/datasheet/436412f.pdf
+$ENDCMP
+#
+$CMP LTC4364HMS
+D Surge stopper with ideal diode, UV and OV protection -40V to +80V in MSOP-16 package, -40°C to +125°C
+K surge overvoltage undervoltage reverse-polarity protection diode ORing MOSFET driver
+F http://cds.linear.com/docs/en/datasheet/436412f.pdf
+$ENDCMP
+#
+$CMP LTC4364HS
+D Surge stopper with ideal diode, UV and OV protection -40V to +80V in SOIC-16 package, -40°C to +125°C
+K surge overvoltage undervoltage reverse-polarity protection diode ORing MOSFET driver
+F http://cds.linear.com/docs/en/datasheet/436412f.pdf
+$ENDCMP
+#
+$CMP LTC4364IDE
+D Surge stopper with ideal diode, UV and OV protection -40V to +80V in DFN-14 package, -40°C to +85°C
+K surge overvoltage undervoltage reverse-polarity protection diode ORing MOSFET driver
+F http://cds.linear.com/docs/en/datasheet/436412f.pdf
+$ENDCMP
+#
+$CMP LTC4364IMS
+D Surge stopper with ideal diode, UV and OV protection -40V to +80V in MSOP-16 package, -40°C to +85°C
+K surge overvoltage undervoltage reverse-polarity protection diode ORing MOSFET driver
+F http://cds.linear.com/docs/en/datasheet/436412f.pdf
+$ENDCMP
+#
+$CMP LTC4364IS
+D Surge stopper with ideal diode, UV and OV protection -40V to +80V in SOIC-16 package, -40°C to +85°C
+K surge overvoltage undervoltage reverse-polarity protection diode ORing MOSFET driver
+F http://cds.linear.com/docs/en/datasheet/436412f.pdf
+$ENDCMP
+#
+$CMP LTC4365DDB
+D Overvoltage, Undervoltage and Reverse Supply Protection Controller, 3x2mm DFN-8 package, 50Hz/60Hz noise rejection
+K overvoltage undervoltage reverse-polarity protection
+F http://cds.linear.com/docs/en/datasheet/4365fa.pdf
+$ENDCMP
+#
+$CMP LTC4365DDB-1
+D Overvoltage, Undervoltage and Reverse Supply Protection Controller, 3x2mm DFN-8 package, 1ms fault recovery
+K overvoltage undervoltage reverse-polarity protection
+F http://www.linear.com/docs/29832
+$ENDCMP
+#
+$CMP LTC4365TS8
+D Overvoltage, Undervoltage and Reverse Supply Protection Controller, TSOT23-8 package, 50Hz/60Hz noise rejection
+K overvoltage undervoltage reverse-polarity protection
+F http://cds.linear.com/docs/en/datasheet/4365fa.pdf
+$ENDCMP
+#
+$CMP LTC4365TS8-1
+D Overvoltage, Undervoltage and Reverse Supply Protection Controller, TSOT23-8 package, 1ms fault recovery
+K overvoltage undervoltage reverse-polarity protection
+F http://www.linear.com/docs/29832
+$ENDCMP
+#
+$CMP LTC4417CGN
+D Prioritized PowerPath Controller, Selects Highest Priority Supply from Three Inputs, SSOP
+K switch power FET sequence
+F http://www.analog.com/media/en/technical-documentation/data-sheets/4417f.pdf
+$ENDCMP
+#
+$CMP LTC4417CUF
+D Prioritized PowerPath Controller, Selects Highest Priority Supply from Three Inputs, QFN
+K switch power FET sequence
+F http://www.analog.com/media/en/technical-documentation/data-sheets/4417f.pdf
+$ENDCMP
+#
+$CMP LTC4417HGN
+D Prioritized PowerPath Controller, Selects Highest Priority Supply from Three Inputs, –40°C to 125°C, SSOP
+K switch power FET sequence
+F http://www.analog.com/media/en/technical-documentation/data-sheets/4417f.pdf
+$ENDCMP
+#
+$CMP LTC4417HUF
+D Prioritized PowerPath Controller, Selects Highest Priority Supply from Three Inputs, –40°C to 125°C, QFN
+K switch power FET sequence
+F http://www.analog.com/media/en/technical-documentation/data-sheets/4417f.pdf
+$ENDCMP
+#
+$CMP LTC4417IGN
+D Prioritized PowerPath Controller, Selects Highest Priority Supply from Three Inputs, –40°C to 85°C, SSOP
+K switch power FET sequence
+F http://www.analog.com/media/en/technical-documentation/data-sheets/4417f.pdf
+$ENDCMP
+#
+$CMP LTC4417IUF
+D Prioritized PowerPath Controller, Selects Highest Priority Supply from Three Inputs, –40°C to 85°C, QFN
+K switch power FET sequence
+F http://www.analog.com/media/en/technical-documentation/data-sheets/4417f.pdf
+$ENDCMP
+#
+$CMP MIC2026-1BM
+D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, in SOIC-8 Package
+K mosfet distribution
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
+$ENDCMP
+#
+$CMP MIC2026-1BN
+D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, in DIP-8 Package
+K mosfet distribution
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
+$ENDCMP
+#
+$CMP MIC2026-2BM
+D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active Low Output, in SOIC-8 Package
+K mosfet distribution
+F http://www.micrel.com/_PDF/mic2026.pdf
+$ENDCMP
+#
+$CMP MIC2026-2BN
+D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active Low Output, in DIP-8 Package
+K mosfet distribution
+F http://www.micrel.com/_PDF/mic2026.pdf
+$ENDCMP
+#
+$CMP MIC2587-1
+D Positive high voltage hot swap controller +10V to +80V with latched operation
+K power switch FET driver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2587-87r.pdf
+$ENDCMP
+#
+$CMP MIC2587R-1
+D Positive high voltage hot swap controller +10V to +80V with auto-retry operation
+K power switch FET driver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2587-87r.pdf
+$ENDCMP
+#
+$CMP NPC45560-H
+D Controlled load switch with low Ron
+K load switch
+F http://www.onsemi.com/pub/Collateral/NCP45560-D.PDF
+$ENDCMP
+#
+$CMP NPC45560-L
+D Controlled load switch with low Ron
+K load switch
+F http://www.onsemi.com/pub/Collateral/NCP45560-D.PDF
+$ENDCMP
+#
+$CMP PD70224
+D Ideal Dual Diode Bridge, QFN-40
+K dual ideal diode bridge
+F https://www.microsemi.com/document-portal/doc_download/131677-pd70224-data-sheet
+$ENDCMP
+#
+$CMP RT9701
+D 100 milliohm power distribution switch
+K power distribution switch
+F https://www.richtek.com/assets/product_file/RT9701/DS9701-16.pdf
+$ENDCMP
+#
+$CMP STM6600
+D Smart push-button on/off controller, power-on lockout, Low Power, 1.6-5.5V, TDFN12
+K push-button-controller low-power
+F http://www.st.com/resource/en/datasheet/stm6600.pdf
+$ENDCMP
+#
+$CMP STM6601
+D Smart push-button on/off controller, power-on lockout, Low Power, 1.6-5.5V, TDFN12
+K push-button-controller low-power
+F http://www.st.com/resource/en/datasheet/stm6600.pdf
+$ENDCMP
+#
+$CMP TEA1708T
+D GreenChip X capacitor discharge IC, SOIC-8
+K X capacitor discharge
+F https://www.nxp.com/docs/en/data-sheet/TEA1708T.pdf
+$ENDCMP
+#
 $CMP TLE8102SG
 D Smart Dual Channel Powertrain Switch 2x8A (max 360mOhm)
 K Low_Side_Switch Power
@@ -298,6 +670,54 @@ $CMP TPS2054D
 D Quad power-distribution switcher
 K 4-chanel power-distribution USB
 F http://www.ti.com/lit/ds/symlink/tps2044.pdf
+$ENDCMP
+#
+$CMP TPS22929D
+D High side, power distribution switch, 1.4V-5.5V, 1.8A, SOT23-6 package
+K high-side power distribution switch
+F http://www.ti.com/lit/ds/symlink/tps22929d.pdf
+$ENDCMP
+#
+$CMP TPS22993
+D Quad Channel Load Switch with GPIO and I2C Control, Bias voltage: 4.5V-17.2V, Input voltage: 1.0V-3.6V, Max 1.2A per channel, WQFN-20
+K quad channel power distribution/load switch
+F http://www.ti.com/lit/gpn/tps22993
+$ENDCMP
+#
+$CMP TPS2592xx
+D 5V/12V eFuse Protection Switch (VSON-10)
+K efuse protection switch
+F http://www.ti.com/lit/ds/symlink/tps25925.pdf
+$ENDCMP
+#
+$CMP TSM102
+D Dual Operational Amplifier and Dual Comparator and 1% Voltage Reference, SOIC-16
+K dual opamp comparator reference
+F http://www.st.com/resource/en/datasheet/tsm102.pdf
+$ENDCMP
+#
+$CMP TSM102A
+D Dual Operational Amplifier and Dual Comparator and 0.4% Voltage Reference, SOIC-16
+K dual opamp comparator reference
+F http://www.st.com/resource/en/datasheet/tsm102.pdf
+$ENDCMP
+#
+$CMP TSM103W
+D Dual Operational Amplifier and 2.5V 1% Voltage Reference, SOIC-8
+K dual opamp reference
+F http://www.st.com/resource/en/datasheet/tsm103w.pdf
+$ENDCMP
+#
+$CMP TSM103WA
+D Dual Operational Amplifier and 2.5V 0.4% Voltage Reference, SOIC-8
+K dual opamp reference
+F http://www.st.com/resource/en/datasheet/tsm103w.pdf
+$ENDCMP
+#
+$CMP MAX8586
+D Single 1.2A USB Current Limiting Switch
+K 1-channel USB current limiting power switch
+F https://datasheets.maximintegrated.com/en/ds/MAX8586.pdf
 $ENDCMP
 #
 #End Doc Library

@@ -163,6 +163,12 @@ K switch normally-open pushbutton push-button LCD
 F http://latest.ledswitches.co.uk/media/pdf/Q5-PCB-V1-withQ5data.pdf
 $ENDCMP
 #
+$CMP SW_NKK_GW12LJPCF
+D Switch, single pole double throw, illuminated paddle, red and green LEDs
+K switch single-pole double-throw spdt ON-ON illuminated red green
+F http://www.nkkswitches.com/pdf/gwillum.pdf
+$ENDCMP
+#
 $CMP SW_Push
 D Push button switch, generic, two pins
 K switch normally-open pushbutton push-button

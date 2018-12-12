@@ -84,6 +84,18 @@ K dac 2nch 16bit spi
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5689R_5687R.pdf
 $ENDCMP
 #
+$CMP AD5691RxRM
+D Tiny, 12-Bit, I2C, nanoDAC+, 2 ppm/°C Reference, MSOP-10
+K serial DAC i2c digital analog converter
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5693R_5692R_5691R_5693.pdf
+$ENDCMP
+#
+$CMP AD5693RxRM
+D Tiny, 16-Bit, I2C, nanoDAC+, 2 ppm/°C Reference, MSOP-10
+K serial DAC i2c digital analog converter
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5693R_5692R_5691R_5693.pdf
+$ENDCMP
+#
 $CMP AD5697RBCPZ
 D Dual, 12-Bit nanoDAC+ with 2 ppm/°C Reference, I2C Interface, LFCSP-16
 K dac 2nch 12bit i2c
@@ -318,6 +330,18 @@ K DAC CNA
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD775.pdf
 $ENDCMP
 #
+$CMP AD9142
+D 1.6GSPS 16bit dual-channel DAC, LFCSP-72
+K 16bit DAC 2CH
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9142.pdf
+$ENDCMP
+#
+$CMP AD9744
+D 210MSPS 14bit DAC, TSSOP-28
+K 14bit DAC 1CH
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9744.pdf
+$ENDCMP
+#
 $CMP ADS7830
 D Single-supply, 8bit, 8 ch, SAR, 70kHz SR, 2.7 - 5 VDD, I2C, TSSOP-16
 K 8bit DAC 8CH
@@ -342,10 +366,40 @@ K 8 bit multiplying DAC
 F http://www.ti.com/lit/ds/symlink/dac0808.pdf
 $ENDCMP
 #
+$CMP DAC081C081CIMK
+D 8-bit Micropower DAC with I2C-Compatible Interface, SOT-23-6
+K I2C DAC 8-bit
+F http://www.ti.com/lit/ds/symlink/dac081c081.pdf
+$ENDCMP
+#
+$CMP DAC101C081CIMK
+D 10-bit Micropower DAC with I2C-Compatible Interface, SOT-23-6
+K I2C DAC 10-bit
+F http://www.ti.com/lit/ds/symlink/dac101c081.pdf
+$ENDCMP
+#
+$CMP DAC121C081CIMK
+D 12-bit Micropower DAC with I2C-Compatible Interface, SOT-23-6
+K I2C DAC 12-bit
+F http://www.ti.com/lit/ds/symlink/dac121c081.pdf
+$ENDCMP
+#
 $CMP DAC7513_DCN
 D Low-Power, Rail-to-Rail Output, 12-Bit Serial Input DAC
 K TI DAC 12 bit
 F http://www.ti.com.cn/cn/lit/ds/symlink/dac7513.pdf
+$ENDCMP
+#
+$CMP DAC7750xRHA
+D Single-Channel, 12bit Programmable Current Output DAC for 4-mA to 20-mA Current Loop Applications, VQFN-40
+K DAC Current Loop 20mA
+F http://www.ti.com/lit/ds/symlink/dac7750.pdf
+$ENDCMP
+#
+$CMP DAC8750xRHA
+D Single-Channel, 16bit Programmable Current Output DAC for 4-mA to 20-mA Current Loop Applications, VQFN-40
+K DAC Current Loop 20mA
+F http://www.ti.com/lit/ds/symlink/dac7750.pdf
 $ENDCMP
 #
 $CMP LTC1257
@@ -400,6 +454,12 @@ $CMP MAX5139
 D Low-Power, Single, 12-Bit, Buffered Voltage-Output DAC
 K 12-bit DAC 1CH
 F https://datasheets.maximintegrated.com/en/ds/MAX5138-MAX5139.pdf
+$ENDCMP
+#
+$CMP MAX5741
+D Digital to analog, 10 Bit, 4 ch, 2.7 - 5.5 VDD, SPI, uMAX-10
+K DA 8 Bit 4 ch
+F https://datasheets.maximintegrated.com/en/ds/MAX5741.pdf
 $ENDCMP
 #
 $CMP MAX5813

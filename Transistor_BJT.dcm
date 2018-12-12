@@ -42,12 +42,6 @@ K PNP Transistor
 F https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf
 $ENDCMP
 #
-$CMP 2N7000
-D 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92
-K N-Channel MOSFET Logic-Level
-F https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf
-$ENDCMP
-#
 $CMP 2SA1015
 D -0.15A Ic, -50V Vce, Low Noise Audio PNP Transistor, TO-92
 K Low Noise Audio PNP Transistor
@@ -63,26 +57,31 @@ $ENDCMP
 $CMP 2SB817
 D -12A Ic, -140V Vce, Silicon Power PNP Transistors, TO-3PB
 K Power PNP Transistor
+F http://skory.gylcomp.hu/alkatresz/2SB817.pdf
 $ENDCMP
 #
 $CMP 2SC1815
 D 0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92
 K Low Noise Audio NPN Transistor
+F https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf
 $ENDCMP
 #
 $CMP 2SC1941
 D 50mA Ic, 160V Vce, Audio High Voltage NPN Transistor, TO-92
 K Audio High Voltage NPN Transistor
+F http://rtellason.com/transdata/2sc1941.pdf
 $ENDCMP
 #
 $CMP 2SC1945
 D 6A Ic, 80V Vce, Silicon 27MHz RF Power NPN Transistors, TO-220
 K RF Power NPN Transistor
+F http://rtellason.com/transdata/2sc1945.pdf
 $ENDCMP
 #
 $CMP 2SD1047
 D 12A Ic, 140V Vce, Silicon Power NPN Transistors, TO-3PB
 K Power NPN Transistor
+F http://www.st.com/resource/en/datasheet/2sd1047.pdf
 $ENDCMP
 #
 $CMP 2SD600
@@ -352,7 +351,7 @@ $ENDCMP
 $CMP BC846BPN
 D 100mA IC, 65V Vce, Dual NPN/PNP Transistors, SOT-363
 K NPN Transistor/PNP
-F http://www.nxp.com/documents/data_sheet/BC846BPN.pdf
+F https://assets.nexperia.com/documents/data-sheet/BC846BPN.pdf
 $ENDCMP
 #
 $CMP BC846BS
@@ -644,51 +643,51 @@ F http://www.electronica-pt.com/datasheets/bd/BD234.pdf
 $ENDCMP
 #
 $CMP BD249
-D 25A Ic, 55V Vce, Silicon Power NPN Transistors, SOT-93
+D 25A Ic, 55V Vce, Silicon Power NPN Transistors, SOT-93/TO247
 K Power NPN Transistor
-F http://www.bourns.com/data/global/pdfs/bd249.pdf
+F http://www.mospec.com.tw/pdf/power/BD249.pdf
 $ENDCMP
 #
 $CMP BD249A
-D 25A Ic, 70V Vce, Silicon Power NPN Transistors, SOT-93
+D 25A Ic, 70V Vce, Silicon Power NPN Transistors, SOT-93/TO247
 K Power NPN Transistor
-F http://www.bourns.com/data/global/pdfs/bd249.pdf
+F http://www.mospec.com.tw/pdf/power/BD249.pdf
 $ENDCMP
 #
 $CMP BD249B
-D 25A Ic, 90V Vce, Silicon Power NPN Transistors, SOT-93
+D 25A Ic, 90V Vce, Silicon Power NPN Transistors, SOT-93/TO247
 K Power NPN Transistor
-F http://www.bourns.com/data/global/pdfs/bd249.pdf
+F http://www.mospec.com.tw/pdf/power/BD249.pdf
 $ENDCMP
 #
 $CMP BD249C
-D 25A Ic, 115V Vce, Silicon Power NPN Transistors, SOT-93
+D 25A Ic, 115V Vce, Silicon Power NPN Transistors, SOT-93/TO247
 K Power NPN Transistor
-F http://www.bourns.com/data/global/pdfs/bd249.pdf
+F http://www.mospec.com.tw/pdf/power/BD249.pdf
 $ENDCMP
 #
 $CMP BD250
-D 25A Ic, 55V Vce, Silicon Power PNP Transistors, SOT-93
+D 25A Ic, 55V Vce, Silicon Power PNP Transistors, SOT-93/TO247
 K Power PNP Transistor
-F http://www.bourns.com/data/global/pdfs/bd250.pdf
+F http://www.mospec.com.tw/pdf/power/BD249.pdf
 $ENDCMP
 #
 $CMP BD250A
-D 25A Ic, 70V Vce, Silicon Power PNP Transistors, SOT-93
+D 25A Ic, 70V Vce, Silicon Power PNP Transistors, SOT-93/TO247
 K Power PNP Transistor
-F http://www.bourns.com/data/global/pdfs/bd250.pdf
+F http://www.mospec.com.tw/pdf/power/BD249.pdf
 $ENDCMP
 #
 $CMP BD250B
-D 25A Ic, 90V Vce, Silicon Power PNP Transistors, SOT-93
+D 25A Ic, 90V Vce, Silicon Power PNP Transistors, SOT-93/TO247
 K Power PNP Transistor
-F http://www.bourns.com/data/global/pdfs/bd250.pdf
+F http://www.mospec.com.tw/pdf/power/BD249.pdf
 $ENDCMP
 #
 $CMP BD250C
-D 25A Ic, 115V Vce, Silicon Power PNP Transistors, SOT-93
+D 25A Ic, 115V Vce, Silicon Power PNP Transistors, SOT-93/TO247
 K Power PNP Transistor
-F http://www.bourns.com/data/global/pdfs/bd250.pdf
+F http://www.mospec.com.tw/pdf/power/BD249.pdf
 $ENDCMP
 #
 $CMP BD433
@@ -832,16 +831,19 @@ $ENDCMP
 $CMP BF457
 D 0.1A Ic, 160V Vce, High Voltage NPN Transistor, TO-126
 K NPN HV High Voltage Transistor
+F https://www.pcpaudio.com/pcpfiles/transistores/BF457-8-9.pdf
 $ENDCMP
 #
 $CMP BF458
 D 0.1A Ic, 250V Vce, High Voltage NPN Transistor, TO-126
 K NPN HV High Voltage Transistor
+F https://www.pcpaudio.com/pcpfiles/transistores/BF457-8-9.pdf
 $ENDCMP
 #
 $CMP BF459
 D 0.1A Ic, 300V Vce, High Voltage NPN Transistor, TO-126
 K NPN HV High Voltage Transistor
+F https://www.pcpaudio.com/pcpfiles/transistores/BF457-8-9.pdf
 $ENDCMP
 #
 $CMP BFR92
@@ -866,12 +868,6 @@ $CMP BUT11A
 D 5A Ic, 450V Vce, Silicon Power NPN Transistors, TO-220
 K High Voltage Power NPN Transistor
 F http://www.fairchildsemi.com/ds/BU/BUT11.pdf
-$ENDCMP
-#
-$CMP BUZ11
-D 30A Id, 50V Vds, N-Channel Power MOSFET, TO-220
-K N-Channel Power MOSFET
-F http://www.fairchildsemi.com/ds/BU/BUZ11.pdf
 $ENDCMP
 #
 $CMP DTA113T
@@ -1310,6 +1306,12 @@ K NPN Transistor/NPN
 F https://www.fairchildsemi.com/datasheets/FF/FFB2222A.pdf
 $ENDCMP
 #
+$CMP FFB2227A
+D 500mA IC, 30V Vce, Dual NPN/PNP Transistors, SC-70-6
+K NPN Transistor/PNP
+F http://www.onsemi.com/pub/Collateral/FMB2227A-D.PDF
+$ENDCMP
+#
 $CMP FFB3904
 D 200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
 K NPN Transistor/NPN
@@ -1325,7 +1327,7 @@ $ENDCMP
 $CMP FFB3946
 D 200mA IC, 40V Vce, Dual NPN/PNP Transistors, SOT-363
 K NPN Transistor/PNP
-F https://www.fairchildsemi.com/datasheets/FF/FFB3946.pdf
+F http://www.onsemi.com/pub/Collateral/FMB3946-D.pdf
 $ENDCMP
 #
 $CMP FFB5551
@@ -1334,34 +1336,16 @@ K NPN Transistor/NPN
 F https://www.fairchildsemi.com/datasheets/FF/FFB5551.pdf
 $ENDCMP
 #
-$CMP IRF3205
-D 110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB
-K Single N-Channel HEXFET Power MOSFET
-F http://www.irf.com/product-info/datasheets/data/irf3205.pdf
+$CMP FMB2227A
+D 500mA IC, 30V Vce, Dual NPN/PNP Transistors, SuperSOT-6
+K NPN Transistor/PNP
+F http://www.onsemi.com/pub/Collateral/FMB2227A-D.PDF
 $ENDCMP
 #
-$CMP IRF540N
-D 33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220
-K HEXFET N-Channel MOSFET
-F http://www.irf.com/product-info/datasheets/data/irf540n.pdf
-$ENDCMP
-#
-$CMP IRLIZ44N
-D 30A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 22mOhm Ron, TO-220AB
-K Single N-Channel HEXFET Power MOSFET
-F http://www.irf.com/product-info/datasheets/data/irliz44n.pdf
-$ENDCMP
-#
-$CMP IRLZ34N
-D 30A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 35mOhm Ron, TO-220AB
-K Single N-Channel HEXFET Power MOSFET
-F http://www.infineon.com/dgdl/irlz34npbf.pdf?fileId=5546d462533600a40153567206892720
-$ENDCMP
-#
-$CMP IRLZ44N
-D 47A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 22mOhm Ron, TO-220AB
-K Single N-Channel HEXFET Power MOSFET
-F http://www.irf.com/product-info/datasheets/data/irlz44n.pdf
+$CMP FMB3946
+D 200mA IC, 40V Vce, Dual NPN/PNP Transistors, SuperSOT-6
+K NPN Transistor/PNP
+F http://www.onsemi.com/pub/Collateral/FMB3946-D.pdf
 $ENDCMP
 #
 $CMP KTD1624
@@ -1442,6 +1426,18 @@ K PNP Transistor
 F https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf
 $ENDCMP
 #
+$CMP MMBT5550L
+D 0.6A Ic, 140V Vce, NPN Transistor, SOT-23
+K NPN Transistor
+F www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF
+$ENDCMP
+#
+$CMP MMBT5551L
+D 0.6A Ic, 160V Vce, NPN Transistor, SOT-23
+K NPN Transistor
+F www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF
+$ENDCMP
+#
 $CMP MMDT2222A
 D 600mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
 K NPN Transistor/NPN
@@ -1488,6 +1484,18 @@ $CMP MPSA92
 D 0.5A Ic, 300V Vce, PNP High Voltage Transistor, TO-92
 K PNP High Voltage Transistor
 F http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF
+$ENDCMP
+#
+$CMP MUN5211DW1
+D 0.1A Ic, 50V Vce, Dual NPN Bias Resistor Transistors, SOT-363
+K Dual NPN Transistor
+F http://www.onsemi.com/pub/Collateral/DTC114ED-D.PDF
+$ENDCMP
+#
+$CMP PBSS301PZ
+D -5.7A Ic, -12V Vce, Small Signal PNP Transistor, SOT-223
+K PNP Transistor
+F https://assets.nexperia.com/documents/data-sheet/PBSS301PZ.pdf
 $ENDCMP
 #
 $CMP PMBT2222AYS
@@ -1605,13 +1613,25 @@ F http://www.fairchildsemi.com/ds/TI/TIP125.pdf
 $ENDCMP
 #
 $CMP TIP2955
-D -15A Ic, -60V Vce, Power PNP Transistor, TO-218/TO-247
+D -15A Ic, -60V Vce, Power PNP Transistor, TO-218
+K power PNP Transistor
+F http://www.onsemi.com/pub_link/Collateral/TIP3055-D.PDF
+$ENDCMP
+#
+$CMP TIP2955G
+D -15A Ic, -60V Vce, Power PNP Transistor, TO-247
 K power PNP Transistor
 F http://www.onsemi.com/pub_link/Collateral/TIP3055-D.PDF
 $ENDCMP
 #
 $CMP TIP3055
-D 15A Ic, 60V Vce, Power NPN Transistor, TO-218/TO-247
+D 15A Ic, 60V Vce, Power NPN Transistor, TO-218
+K power NPN Transistor
+F http://www.onsemi.com/pub_link/Collateral/TIP3055-D.PDF
+$ENDCMP
+#
+$CMP TIP3055G
+D 15A Ic, 60V Vce, Power NPN Transistor, TO-247
 K power NPN Transistor
 F http://www.onsemi.com/pub_link/Collateral/TIP3055-D.PDF
 $ENDCMP
@@ -1662,18 +1682,6 @@ $CMP TIP42C
 D -6A Ic, -100V Vce, Power PNP Transistor, TO-220
 K power PNP Transistor
 F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF
-$ENDCMP
-#
-$CMP TP0610L
-D -0.18A Id, -60V Vds, P-Channel MOSFET, TO-92
-K P-Channel MOSFET
-F http://www.vishay.com/docs/70209/70209.pdf
-$ENDCMP
-#
-$CMP VP0610L
-D -0.18A Id, -60V Vds, P-Channel MOSFET, TO-92
-K P-Channel MOSFET
-F http://www.vishay.com/docs/70209/70209.pdf
 $ENDCMP
 #
 #End Doc Library

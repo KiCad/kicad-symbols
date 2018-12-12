@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP P4080-BGA1295
+D QorIQ P4080 Communications Processor, BGA-1295
+K Communications Processor
+F https://www.nxp.com/jp/products/microcontrollers-and-processors/power-architecture-processors/qoriq-platforms/p-series/qoriq-p4080-p4040-p4081-multicore-communications-processors:P4080?&tab=Documentation_Tab&linkline=Data-Sheet
+$ENDCMP
+#
 $CMP Z80CPU
 D 8-bit General Purpose Microprocessor, DIP-40
 K Z80 CPU uP

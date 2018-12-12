@@ -1,0 +1,75 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CC1000
+D Single Chip Low Power RF Transceiver, TSSOP28
+K Low Power RF Transciever
+F www.ti.com/lit/ds/symlink/cc1000.pdf
+$ENDCMP
+#
+$CMP CC1200
+D Low-Power, High-Performance RF Transceiver, QFN-32
+K RF Tx Rx
+F http://www.ti.com/lit/ds/symlink/cc1200.pdf
+$ENDCMP
+#
+$CMP CC2500
+D Single Chip Low Power RF Transceiver, QFN20
+K Low Power RF Transciever
+F http://www.ti.com/lit/ds/symlink/cc2500.pdf
+$ENDCMP
+#
+$CMP MAADSS0008
+D 0-2GHz, 15dB step attenuator, SOT-23-5
+K RF attenuator
+F http://cdn.macom.com/datasheets/maadss0008.pdf
+$ENDCMP
+#
+$CMP MICRF112YMM
+D ASK/FSK Transmitter, 1.8-3.6V, 300-450MHz, +10dBm, MSOP-10
+K ask fsk ism transmitter
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MICRF112.pdf
+$ENDCMP
+#
+$CMP NRF24L01
+D Ultra low power 2.4GHz RF Transceiver, QFN20 4x4mm
+K Low Power RF Transciever
+F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf
+$ENDCMP
+#
+$CMP NRF24L01_Breakout
+D Ultra low power 2.4GHz RF Transceiver, Carrier PCB
+K Low Power RF Transciever breakout carrier
+F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf
+$ENDCMP
+#
+$CMP SIM800C
+D GSM Quad-Band Communication Module, GPRS, Audio Engine, AT Command Set, Bluetooth is Optional
+K GSM GPRS Quad-Band SMS
+F http://simcom.ee/documents/SIM800C/SIM800C_Hardware_Design_V1.05.pdf
+$ENDCMP
+#
+$CMP SIM900
+D GSM Quad-Band Communication Module, GPRS, Audio Engine, AT Command Set
+K GSM GPRS Quad-Band SMS FAX
+F http://simcom.ee/documents/SIM900/SIM900_Hardware%20Design_V2.05.pdf
+$ENDCMP
+#
+$CMP SX1272
+D 860 MHz to 1020 MHz Low Power Long Range Transceiver, spreading factor from 6 to 12, LoRA, QFN-28
+K low-power lora transceiver
+F http://www.semtech.com/images/datasheet/sx1272.pdf
+$ENDCMP
+#
+$CMP SX1273
+D 860 MHz to 1020 MHz Low Power Long Range Transceiver, spreading factor from 6 to 9, LoRA, QFN-28
+K low-power lora transceiver
+F http://www.semtech.com/images/datasheet/sx1272.pdf
+$ENDCMP
+#
+$CMP nRF24L01P
+D nRF24L01+, Ultra low power 2.4GHz RF Transceiver, QFN20 4x4mm
+K Low Power RF Transciever
+F http://www.nordicsemi.com/eng/content/download/2726/34069/file/nRF24L01P_Product_Specification_1_0.pdf
+$ENDCMP
+#
+#End Doc Library

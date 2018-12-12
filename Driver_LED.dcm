@@ -3,61 +3,61 @@ EESchema-DOCLIB  Version 2.0
 $CMP CL220K4-G
 D Temperature Compensated Constant Current LED IC, D-PAK
 K Constant Current LED Driver IC
-F http://www.supertex.com/pdf/datasheets/CL220x.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005413A.pdf
 $ENDCMP
 #
 $CMP CL220N5-G
 D Temperature Compensated Constant Current LED IC, TO-220
 K Constant Current LED Driver IC
-F http://www.supertex.com/pdf/datasheets/CL220x.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005413A.pdf
 $ENDCMP
 #
 $CMP HV9921N8-G
 D 3pin Constant Current 20mA LED Driver, SOT89
 K CC LED Driver High Voltage
-F http://www.supertex.com/pdf/datasheets/HV9921.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005311A.pdf
 $ENDCMP
 #
 $CMP HV9922N8-G
 D 3pin Constant Current 50mA LED Driver, SOT89
 K CC LED Driver High Voltage
-F http://www.supertex.com/pdf/datasheets/HV9922.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005311A.pdf
 $ENDCMP
 #
 $CMP HV9923N8-G
 D 3pin Constant Current 30mA LED Driver, SOT89
 K CC LED Driver High Voltage
-F http://www.supertex.com/pdf/datasheets/HV9923.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005311A.pdf
 $ENDCMP
 #
 $CMP HV9925SG-G
 D Programmable Current LED Lamp Driver, SO8 w/Heat Slug
 K Programmable Current LED Lamp Driver High Voltage
-F http://www.supertex.com/pdf/datasheets/HV9925.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/hv9925.pdf
 $ENDCMP
 #
 $CMP HV9930LG-G
 D Boost-Buck LED Lamp Driver, SO8
 K Buck-Boost LED Lamp Driver High Voltage
-F http://www.supertex.com/pdf/datasheets/HV9930.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/hv9930.pdf
 $ENDCMP
 #
 $CMP HV9931LG-G
 D PFC Boost-Buck LED Lamp Driver, SO8
 K Buck-Boost LED Lamp Driver High Voltage PFC
-F http://www.supertex.com/pdf/datasheets/HV9931.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/hv9931.pdf
 $ENDCMP
 #
 $CMP HV9961LG-G
 D Buck LED Lamp Driver Average-Mode Constant Current, SO8
 K Buck LED Lamp Driver High Voltage Average CC
-F http://www.supertex.com/pdf/datasheets/HV9961.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005588A.pdf
 $ENDCMP
 #
 $CMP HV9961NG-G
 D Buck LED Lamp Driver Average-Mode Constant Current, SO16
 K Buck LED Lamp Driver High Voltage Average CC
-F http://www.supertex.com/pdf/datasheets/HV9961.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005588A.pdf
 $ENDCMP
 #
 $CMP HV9967BK7-G
@@ -69,13 +69,13 @@ $ENDCMP
 $CMP HV9967BMG-G
 D Buck LED Lamp Driver Average-Mode Constant Current, MSOP8
 K Buck LED Lamp Driver Low Voltage Average CC
-F http://www.supertex.com/pdf/datasheets/HV9967B.pdf
+F http://ww1.microchip.com/downloads/en/devicedoc/hv9967b.pdf
 $ENDCMP
 #
 $CMP HV9972LG-G
 D Isolated LED Lamp Driver Constant Current, SO8
 K Isolated LED Lamp Driver High Voltage CC
-F http://www.supertex.com/pdf/datasheets/HV9972.pdf
+F https://www.mouser.com/ds/2/268/HV9972-272498-1181261.pdf
 $ENDCMP
 #
 $CMP IS31FL3216
@@ -192,10 +192,28 @@ K PWM LED driver QFN
 F http://www.ti.com/lit/ds/symlink/tlc5947.pdf
 $ENDCMP
 #
+$CMP TLC5971PWP
+D 12-Channel, 16-Bit, Enhanced Spectrum, PWM, RGB, LED Driver With 3.3-V Linear Regulator, HTSSOP-20
+K led driver
+F http://www.ti.com/lit/ds/symlink/tlc5971.pdf
+$ENDCMP
+#
+$CMP TLC5971RGE
+D 12-Channel, 16-Bit, Enhanced Spectrum, PWM, RGB, LED Driver With 3.3-V Linear Regulator, VQFN-24
+K led driver
+F http://www.ti.com/lit/ds/symlink/tlc5971.pdf
+$ENDCMP
+#
 $CMP TLC5973
 D 3 Channel 12bit PWM constant currend LED Driver with single wire interface
 K LED current driver 12bit PWM
 F http://www.ti.com/lit/ds/symlink/tlc5973.pdf
+$ENDCMP
+#
+$CMP WS2811
+D 3-Channel 8-Bit PWM LED Driver, DIP-8/SOIC-8
+K PWM LED driver
+F https://cdn-shop.adafruit.com/datasheets/WS2811.pdf
 $ENDCMP
 #
 #End Doc Library

@@ -36,8 +36,32 @@ K ENC Ethernet
 F http://ww1.microchip.com/downloads/en/devicedoc/39662e.pdf
 $ENDCMP
 #
+$CMP ENC424J600-ML
+D Stand-Alone 10/100 Ethernet Controller with SPI or Parallel Interface, QFN Package
+K ENC Ethernet
+F http://ww1.microchip.com/downloads/en/DeviceDoc/39935c.pdf
+$ENDCMP
+#
+$CMP ENC424J600-PT
+D Stand-Alone 10/100 Ethernet Controller with SPI or Parallel Interface, TQFP Package
+K ENC Ethernet
+F http://ww1.microchip.com/downloads/en/DeviceDoc/39935c.pdf
+$ENDCMP
+#
+$CMP KSZ8081RNA
+D 10BASE-T/100BASE-TX PHY with RMII Support, 25 MHz input clock/50 MHz output, QFN-24
+K ETH PHY RMII
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00002199A.pdf
+$ENDCMP
+#
+$CMP KSZ8081RND
+D 10BASE-T/100BASE-TX PHY with RMII Support, 50 MHz input clock, QFN-24
+K ETH PHY RMII
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00002199A.pdf
+$ENDCMP
+#
 $CMP KSZ9031RNXCA
-D 10/1000/1000Mbps Ethernet Transciever with RGMII Interface
+D 10/100/1000Mbps Ethernet Transciever with RGMII Interface
 K ETHERNET PHY RGMII WOL IEEE 802.3 MICROCHIP
 F http://ww1.microchip.com/downloads/en/DeviceDoc/00002117C.pdf
 $ENDCMP
@@ -48,10 +72,52 @@ K ETH PHY RMII
 F http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf
 $ENDCMP
 #
+$CMP LAN9512
+D Two USB 2.0 hub with an integrated 10/100 Ethernet controller (0°C to +70°C), QFN-48
+K USB HUB Ethernet 10/100
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00002304A.pdf
+$ENDCMP
+#
+$CMP LAN9512i
+D Two USB 2.0 hub with an integrated 10/100 Ethernet controller (-40° to 85°C), QFN-48
+K USB HUB Ethernet 10/100
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00002304A.pdf
+$ENDCMP
+#
+$CMP LAN9513
+D Three USB 2.0 hub with an integrated 10/100 Ethernet controller (0°C to +70°C), QFN-48
+K USB HUB Ethernet 10/100
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00002305A.pdf
+$ENDCMP
+#
+$CMP LAN9513i
+D Three USB 2.0 hub with an integrated 10/100 Ethernet controller (-40° to 85°C), QFN-48
+K USB HUB Ethernet 10/100
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00002305A.pdf
+$ENDCMP
+#
+$CMP LAN9514
+D Four USB 2.0 hub with an integrated 10/100 Ethernet controller (0°C to +70°C), QFN-48
+K USB HUB Ethernet 10/100
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00002306A.pdf
+$ENDCMP
+#
+$CMP LAN9514i
+D Four USB 2.0 hub with an integrated 10/100 Ethernet controller (-40° to 85°C), QFN-48
+K USB HUB Ethernet 10/100
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00002306A.pdf
+$ENDCMP
+#
+$CMP VSC8541XMV-0x
+D Single Port Gigabit Ethernet, GMII/RGMII/MII/RMII Interfaces, QFN-68
+K Gigabit Ethernet PHY GMII RGMII MII RMII
+F https://ethernet.microsemi.com/products/download.php?fid=7978&number=vsc8541
+$ENDCMP
+#
 $CMP W5100
 D 10/100Mb Ethernet controller with TCP/IP stack, LQFP-80
 K Wiznet Ethernet controller
-F https://www.sparkfun.com/datasheets/DevTools/Arduino/W5100_Datasheet_v1_1_6.pdf
+F http://www.wiznet.io/wp-content/uploads/wiznethome/Chip/W5100/Document/W5100_Datasheet_v1.2.7.pdf
 $ENDCMP
 #
 #End Doc Library

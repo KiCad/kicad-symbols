@@ -1,6 +1,84 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP DS3231
+$CMP BQ32000
+D Serial, I2C Real-time clock, Trickle charger, 3V to 3.6V VCC, -40°C to +85°C, SOIC-8
+K RTC, I2C Timekeeping Chip
+F http://www.ti.com/lit/ds/symlink/bq32000.pdf
+$ENDCMP
+#
+$CMP BQ32002
+D Serial, I2C Real-time clock, 3V to 3.6V VCC, -40°C to +85°C, SOIC-8
+K RTC, I2C Timekeeping Chip
+F http://www.ti.com/lit/ds/symlink/bq32002.pdf
+$ENDCMP
+#
+$CMP DS1302+
+D Trickle-Charge Timekeeping Chip, 2.0V to 5.5V VCC, 0°C to +70°C, DIP-8
+K RTC, Trickle-Charge Timekeeping Chip
+F https://datasheets.maximintegrated.com/en/ds/DS1302.pdf
+$ENDCMP
+#
+$CMP DS1302N+
+D Trickle-Charge Timekeeping Chip, 2.0V to 5.5V VCC, -40°C to +85°C, DIP-8
+K RTC, Trickle-Charge Timekeeping Chip
+F https://datasheets.maximintegrated.com/en/ds/DS1302.pdf
+$ENDCMP
+#
+$CMP DS1302S+
+D Trickle-Charge Timekeeping Chip, 2.0V to 5.5V VCC, 0°C to +70°C, SO-8
+K RTC, Trickle-Charge Timekeeping Chip
+F https://datasheets.maximintegrated.com/en/ds/DS1302.pdf
+$ENDCMP
+#
+$CMP DS1302SN+
+D Trickle-Charge Timekeeping Chip, 2.0V to 5.5V VCC, -40°C to +85°C, SO-8
+K RTC, Trickle-Charge Timekeeping Chip
+F https://datasheets.maximintegrated.com/en/ds/DS1302.pdf
+$ENDCMP
+#
+$CMP DS1302Z+
+D Trickle-Charge Timekeeping Chip, 2.0V to 5.5V VCC, 0°C to +70°C, SOIC-8
+K RTC, Trickle-Charge Timekeeping Chip
+F https://datasheets.maximintegrated.com/en/ds/DS1302.pdf
+$ENDCMP
+#
+$CMP DS1302ZN+
+D Trickle-Charge Timekeeping Chip, 2.0V to 5.5V VCC, -40°C to +85°C, SOIC-8
+K RTC, Trickle-Charge Timekeeping Chip
+F https://datasheets.maximintegrated.com/en/ds/DS1302.pdf
+$ENDCMP
+#
+$CMP DS1307+
+D 64 x 8, Serial, I2C Real-time clock, 4.5V to 5.5V VCC, 0°C to +70°C, DIP-8
+K RTC, Trickle-Charge Timekeeping Chip
+F https://datasheets.maximintegrated.com/en/ds/DS1307.pdf
+$ENDCMP
+#
+$CMP DS1307N+
+D 64 x 8, Serial, I2C Real-time clock, 4.5V to 5.5V VCC, -40°C to +85°C, DIP-8
+K RTC, Trickle-Charge Timekeeping Chip
+F https://datasheets.maximintegrated.com/en/ds/DS1307.pdf
+$ENDCMP
+#
+$CMP DS1307Z+
+D 64 x 8, Serial, I2C Real-time clock, 4.5V to 5.5V VCC, 0°C to +70°C, SOIC-8
+K RTC, I2C Timekeeping Chip
+F https://datasheets.maximintegrated.com/en/ds/DS1307.pdf
+$ENDCMP
+#
+$CMP DS1307ZN+
+D 64 x 8, Serial, I2C Real-time clock, 4.5V to 5.5V VCC, -40°C to +85°C, SOIC-8
+K RTC, I2C Timekeeping Chip
+F https://datasheets.maximintegrated.com/en/ds/DS1307.pdf
+$ENDCMP
+#
+$CMP DS1602
+D Elapsed Time Counter, -40 to +85 C, 2.5V to 5.5V VCC, DIP-8, SO-8
+K Elapsed Time Counter
+F https://datasheets.maximintegrated.com/en/ds/DS1602.pdf
+$ENDCMP
+#
+$CMP DS3231M
 D Extremely Accurate I2C-Integrated RTC/TCXO/Crystal SOIC-16
 K RTC TCXO Realtime Time Clock Crystal Oscillator I2C
 F http://datasheets.maximintegrated.com/en/ds/DS3231.pdf
@@ -18,8 +96,20 @@ K RTC TCXO Realtime Time Clock MEMS SRAM I2C
 F http://datasheets.maximintegrated.com/en/ds/DS3232M.pdf
 $ENDCMP
 #
-$CMP PCF8563
-D Realtime Clock/Calendar I2C Interface, DIP/SOIC/TSSOP-8
+$CMP M41T62Q
+D Low-power I2C RTC with alarm interrupt QFN
+K I2C RTC Alarm interrupt
+F http://www.st.com/resource/en/datasheet/m41t62.pdf
+$ENDCMP
+#
+$CMP PCF8563T
+D Realtime Clock/Calendar I2C Interface, SOIC-8
+K I2C RTC Clock Calendar
+F http://www.nxp.com/documents/data_sheet/PCF8563.pdf
+$ENDCMP
+#
+$CMP PCF8563TS
+D Realtime Clock/Calendar I2C Interface, TSSOP-8
 K I2C RTC Clock Calendar
 F http://www.nxp.com/documents/data_sheet/PCF8563.pdf
 $ENDCMP

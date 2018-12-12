@@ -1,0 +1,789 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ABS10
+D Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 700V Vrms, 0.8A If, ABS SMD package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/abs2.pdf
+$ENDCMP
+#
+$CMP ABS2
+D Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 140V Vrms, 0.8A If, ABS SMD package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/abs2.pdf
+$ENDCMP
+#
+$CMP ABS4
+D Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 280V Vrms, 0.8A If, ABS SMD package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/abs2.pdf
+$ENDCMP
+#
+$CMP ABS6
+D Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 420V Vrms, 0.8A If, ABS SMD package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/abs2.pdf
+$ENDCMP
+#
+$CMP ABS8
+D Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 450V Vrms, 0.8A If, ABS SMD package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/abs2.pdf
+$ENDCMP
+#
+$CMP B125C1500G
+D Glass Passivated Single-Phase Bridge Rectifier, 125V Vrms, 1.5A If, WOG package
+K rectifier acdc
+F https://www.vishay.com/docs/88501/b40c1500g.pdf
+$ENDCMP
+#
+$CMP B125C2300-1500A
+D Silicon Bridge Rectifier, 125V Vrms, 1.5A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c2300.pdf
+$ENDCMP
+#
+$CMP B125C2300-1500B
+D Silicon Bridge Rectifier, 125V Vrms, 1.5A If, pins=-A+A, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c2300.pdf
+$ENDCMP
+#
+$CMP B125C3x00-2200A
+D Silicon Bridge Rectifier, 125V Vrms, 2.2A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c3700
+$ENDCMP
+#
+$CMP B125C5000-3x00A
+D Silicon Bridge Rectifier, 125V Vrms, 3.3A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c500033
+$ENDCMP
+#
+$CMP B125C800DM
+D Glass Passivated Single-Phase Bridge Rectifier, 125V Vrms, 0.8A If, DIP-4
+K rectifier acdc
+F https://www.vishay.com/docs/88533/800dm.pdf
+$ENDCMP
+#
+$CMP B125R
+D Single-Phase Bridge Rectifier, 125V Vrms, 1.6A If, WOG-like package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40r.pdf
+$ENDCMP
+#
+$CMP B250C1500G
+D Glass Passivated Single-Phase Bridge Rectifier, 250V Vrms, 1.5A If, WOG package
+K rectifier acdc
+F https://www.vishay.com/docs/88501/b40c1500g.pdf
+$ENDCMP
+#
+$CMP B250C2300-1500A
+D Silicon Bridge Rectifier, 250V Vrms, 1.5A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c2300.pdf
+$ENDCMP
+#
+$CMP B250C2300-1500B
+D Silicon Bridge Rectifier, 250V Vrms, 1.5A If, pins=-A+A, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c2300.pdf
+$ENDCMP
+#
+$CMP B250C3x00-2200A
+D Silicon Bridge Rectifier, 250V Vrms, 2.2A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c3700
+$ENDCMP
+#
+$CMP B250C5000-3x00A
+D Silicon Bridge Rectifier, 250V Vrms, 3.3A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c500033
+$ENDCMP
+#
+$CMP B250C800DM
+D Glass Passivated Single-Phase Bridge Rectifier, 250V Vrms, 0.8A If, DIP-4
+K rectifier acdc
+F https://www.vishay.com/docs/88533/800dm.pdf
+$ENDCMP
+#
+$CMP B250R
+D Single-Phase Bridge Rectifier, 250V Vrms, 1.6A If, WOG-like package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40r.pdf
+$ENDCMP
+#
+$CMP B380C1500G
+D Glass Passivated Single-Phase Bridge Rectifier, 380V Vrms, 1.5A If, WOG package
+K rectifier acdc
+F https://www.vishay.com/docs/88501/b40c1500g.pdf
+$ENDCMP
+#
+$CMP B380C2300-1500A
+D Silicon Bridge Rectifier, 380V Vrms, 1.5A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c2300.pdf
+$ENDCMP
+#
+$CMP B380C2300-1500B
+D Silicon Bridge Rectifier, 380V Vrms, 1.5A If, pins=-A+A, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c2300.pdf
+$ENDCMP
+#
+$CMP B380C3x00-2200A
+D Silicon Bridge Rectifier, 380V Vrms, 2.2A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c3700
+$ENDCMP
+#
+$CMP B380C5000-3x00A
+D Silicon Bridge Rectifier, 380V Vrms, 3.3A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c500033
+$ENDCMP
+#
+$CMP B380C800DM
+D Glass Passivated Single-Phase Bridge Rectifier, 380V Vrms, 0.8A If, DIP-4
+K rectifier acdc
+F https://www.vishay.com/docs/88533/800dm.pdf
+$ENDCMP
+#
+$CMP B380R
+D Single-Phase Bridge Rectifier, 380V Vrms, 1.6A If, WOG-like package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40r.pdf
+$ENDCMP
+#
+$CMP B40C1500G
+D Glass Passivated Single-Phase Bridge Rectifier, 40V Vrms, 1.5A If, WOG package
+K rectifier acdc
+F https://www.vishay.com/docs/88501/b40c1500g.pdf
+$ENDCMP
+#
+$CMP B40C2300-1500A
+D Silicon Bridge Rectifier, 40V Vrms, 1.5A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c2300.pdf
+$ENDCMP
+#
+$CMP B40C2300-1500B
+D Silicon Bridge Rectifier, 40V Vrms, 1.5A If, pins=-A+A, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c2300.pdf
+$ENDCMP
+#
+$CMP B40C3x00-2200A
+D Silicon Bridge Rectifier, 40V Vrms, 2.2A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c3700
+$ENDCMP
+#
+$CMP B40C5000-3x00A
+D Silicon Bridge Rectifier, 40V Vrms, 3.3A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c500033
+$ENDCMP
+#
+$CMP B40C800DM
+D Glass Passivated Single-Phase Bridge Rectifier, 40V Vrms, 0.8A If, DIP-4
+K rectifier acdc
+F https://www.vishay.com/docs/88533/800dm.pdf
+$ENDCMP
+#
+$CMP B40R
+D Single-Phase Bridge Rectifier, 40V Vrms, 1.6A If, WOG-like package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40r.pdf
+$ENDCMP
+#
+$CMP B500C2300-1500A
+D Silicon Bridge Rectifier, 500V Vrms, 1.5A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c2300.pdf
+$ENDCMP
+#
+$CMP B500C3x00-2200A
+D Silicon Bridge Rectifier, 500V Vrms, 2.2A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c3700
+$ENDCMP
+#
+$CMP B500C5000-3x00A
+D Silicon Bridge Rectifier, 500V Vrms, 3.3A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c500033
+$ENDCMP
+#
+$CMP B500R
+D Single-Phase Bridge Rectifier, 500V Vrms, 1.6A If, WOG-like package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40r.pdf
+$ENDCMP
+#
+$CMP B700C2300-1500B
+D Silicon Bridge Rectifier, 500V Vrms, 1.5A If, pins=-A+A, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c2300.pdf
+$ENDCMP
+#
+$CMP B80C1500G
+D Glass Passivated Single-Phase Bridge Rectifier, 80V Vrms, 1.5A If, WOG package
+K rectifier acdc
+F https://www.vishay.com/docs/88501/b40c1500g.pdf
+$ENDCMP
+#
+$CMP B80C2300-1500A
+D Silicon Bridge Rectifier, 80V Vrms, 1.5A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c2300.pdf
+$ENDCMP
+#
+$CMP B80C2300-1500B
+D Silicon Bridge Rectifier, 80V Vrms, 1.5A If, pins=-A+A, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c2300.pdf
+$ENDCMP
+#
+$CMP B80C3x00-2200A
+D Silicon Bridge Rectifier, 80V Vrms, 2.2A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c3700
+$ENDCMP
+#
+$CMP B80C5000-3x00A
+D Silicon Bridge Rectifier, 80V Vrms, 3.3A If, pins=-AA+, SIL-package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c500033
+$ENDCMP
+#
+$CMP B80C800DM
+D Glass Passivated Single-Phase Bridge Rectifier, 80V Vrms, 0.8A If, DIP-4
+K rectifier acdc
+F https://www.vishay.com/docs/88533/800dm.pdf
+$ENDCMP
+#
+$CMP B80R
+D Single-Phase Bridge Rectifier, 80V Vrms, 1.6A If, WOG-like package
+K rectifier acdc
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40r.pdf
+$ENDCMP
+#
+$CMP DF005M
+D Miniature Glass Passivated Single-Phase Bridge Rectifiers, 35V Vrms, 1.0A If, DIP-4
+K rectifier acdc
+F http://www.vishay.com/docs/88571/dfm.pdf
+$ENDCMP
+#
+$CMP DF01M
+D Miniature Glass Passivated Single-Phase Bridge Rectifiers, 70V Vrms, 1.0A If, DIP-4
+K rectifier acdc
+F http://www.vishay.com/docs/88571/dfm.pdf
+$ENDCMP
+#
+$CMP DF02M
+D Miniature Glass Passivated Single-Phase Bridge Rectifiers, 140V Vrms, 1.0A If, DIP-4
+K rectifier acdc
+F http://www.vishay.com/docs/88571/dfm.pdf
+$ENDCMP
+#
+$CMP DF04M
+D Miniature Glass Passivated Single-Phase Bridge Rectifiers, 280V Vrms, 1.0A If, DIP-4
+K rectifier acdc
+F http://www.vishay.com/docs/88571/dfm.pdf
+$ENDCMP
+#
+$CMP DF06M
+D Miniature Glass Passivated Single-Phase Bridge Rectifiers, 420V Vrms, 1.0A If, DIP-4
+K rectifier acdc
+F http://www.vishay.com/docs/88571/dfm.pdf
+$ENDCMP
+#
+$CMP DF08M
+D Miniature Glass Passivated Single-Phase Bridge Rectifiers, 560V Vrms, 1.0A If, DIP-4
+K rectifier acdc
+F http://www.vishay.com/docs/88571/dfm.pdf
+$ENDCMP
+#
+$CMP DF10M
+D Miniature Glass Passivated Single-Phase Bridge Rectifiers, 700V Vrms, 1.0A If, DIP-4
+K rectifier acdc
+F http://www.vishay.com/docs/88571/dfm.pdf
+$ENDCMP
+#
+$CMP GBU4A
+D Single-Phase Bridge Rectifier, 35V Vrms, 4.0A If, GBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/gbu4a.pdf
+$ENDCMP
+#
+$CMP GBU4B
+D Single-Phase Bridge Rectifier, 70V Vrms, 4.0A If, GBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/gbu4a.pdf
+$ENDCMP
+#
+$CMP GBU4D
+D Single-Phase Bridge Rectifier, 140V Vrms, 4.0A If, GBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/gbu4a.pdf
+$ENDCMP
+#
+$CMP GBU4G
+D Single-Phase Bridge Rectifier, 280V Vrms, 4.0A If, GBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/gbu4a.pdf
+$ENDCMP
+#
+$CMP GBU4J
+D Single-Phase Bridge Rectifier, 420V Vrms, 4.0A If, GBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/gbu4a.pdf
+$ENDCMP
+#
+$CMP GBU4K
+D Single-Phase Bridge Rectifier, 560V Vrms, 4.0A If, GBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/gbu4a.pdf
+$ENDCMP
+#
+$CMP GBU4M
+D Single-Phase Bridge Rectifier, 700V Vrms, 4.0A If, GBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/gbu4a.pdf
+$ENDCMP
+#
+$CMP GBU6A
+D Single-Phase Bridge Rectifier, 35V Vrms, 6.0A If, GBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/gbu6a.pdf
+$ENDCMP
+#
+$CMP GBU6B
+D Single-Phase Bridge Rectifier, 70V Vrms, 6.0A If, GBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/gbu6a.pdf
+$ENDCMP
+#
+$CMP GBU6D
+D Single-Phase Bridge Rectifier, 140V Vrms, 6.0A If, GBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/gbu6a.pdf
+$ENDCMP
+#
+$CMP GBU6G
+D Single-Phase Bridge Rectifier, 280V Vrms, 6.0A If, GBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/gbu6a.pdf
+$ENDCMP
+#
+$CMP GBU6J
+D Single-Phase Bridge Rectifier, 420V Vrms, 6.0A If, GBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/gbu6a.pdf
+$ENDCMP
+#
+$CMP GBU6K
+D Single-Phase Bridge Rectifier, 560V Vrms, 6.0A If, GBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/gbu6a.pdf
+$ENDCMP
+#
+$CMP GBU6M
+D Single-Phase Bridge Rectifier, 700V Vrms, 6.0A If, GBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/gbu6a.pdf
+$ENDCMP
+#
+$CMP GBU8A
+D Single-Phase Bridge Rectifier, 35V Vrms, 8.0A If, GBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/gbu8a.pdf
+$ENDCMP
+#
+$CMP GBU8B
+D Single-Phase Bridge Rectifier, 70V Vrms, 8.0A If, GBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/gbu8a.pdf
+$ENDCMP
+#
+$CMP GBU8D
+D Single-Phase Bridge Rectifier, 140V Vrms, 8.0A If, GBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/gbu8a.pdf
+$ENDCMP
+#
+$CMP GBU8G
+D Single-Phase Bridge Rectifier, 280V Vrms, 8.0A If, GBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/gbu8a.pdf
+$ENDCMP
+#
+$CMP GBU8J
+D Single-Phase Bridge Rectifier, 420V Vrms, 8.0A If, GBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/gbu8a.pdf
+$ENDCMP
+#
+$CMP GBU8K
+D Single-Phase Bridge Rectifier, 560V Vrms, 8.0A If, GBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/gbu8a.pdf
+$ENDCMP
+#
+$CMP GBU8M
+D Single-Phase Bridge Rectifier, 700V Vrms, 8.0A If, GBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/gbu8a.pdf
+$ENDCMP
+#
+$CMP KBU4A
+D Single-Phase Bridge Rectifier, 35V Vrms, 4.0A If, KBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/kbu4.pdf
+$ENDCMP
+#
+$CMP KBU4B
+D Single-Phase Bridge Rectifier, 70V Vrms, 4.0A If, KBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/kbu4.pdf
+$ENDCMP
+#
+$CMP KBU4D
+D Single-Phase Bridge Rectifier, 140V Vrms, 4.0A If, KBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/kbu4.pdf
+$ENDCMP
+#
+$CMP KBU4G
+D Single-Phase Bridge Rectifier, 280V Vrms, 4.0A If, KBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/kbu4.pdf
+$ENDCMP
+#
+$CMP KBU4J
+D Single-Phase Bridge Rectifier, 420V Vrms, 4.0A If, KBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/kbu4.pdf
+$ENDCMP
+#
+$CMP KBU4K
+D Single-Phase Bridge Rectifier, 560V Vrms, 4.0A If, KBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/kbu4.pdf
+$ENDCMP
+#
+$CMP KBU4M
+D Single-Phase Bridge Rectifier, 700V Vrms, 4.0A If, KBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/kbu4.pdf
+$ENDCMP
+#
+$CMP KBU6A
+D Single-Phase Bridge Rectifier, 35V Vrms, 6.0A If, KBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/kbu6.pdf
+$ENDCMP
+#
+$CMP KBU6B
+D Single-Phase Bridge Rectifier, 70V Vrms, 6.0A If, KBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/kbu6.pdf
+$ENDCMP
+#
+$CMP KBU6D
+D Single-Phase Bridge Rectifier, 140V Vrms, 6.0A If, KBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/kbu6.pdf
+$ENDCMP
+#
+$CMP KBU6G
+D Single-Phase Bridge Rectifier, 280V Vrms, 6.0A If, KBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/kbu6.pdf
+$ENDCMP
+#
+$CMP KBU6J
+D Single-Phase Bridge Rectifier, 420V Vrms, 6.0A If, KBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/kbu6.pdf
+$ENDCMP
+#
+$CMP KBU6K
+D Single-Phase Bridge Rectifier, 560V Vrms, 6.0A If, KBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/kbu6.pdf
+$ENDCMP
+#
+$CMP KBU6M
+D Single-Phase Bridge Rectifier, 700V Vrms, 6.0A If, KBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/kbu6.pdf
+$ENDCMP
+#
+$CMP KBU8A
+D Single-Phase Bridge Rectifier, 35V Vrms, 8.0A If, KBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/kbu8.pdf
+$ENDCMP
+#
+$CMP KBU8B
+D Single-Phase Bridge Rectifier, 70V Vrms, 8.0A If, KBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/kbu8.pdf
+$ENDCMP
+#
+$CMP KBU8D
+D Single-Phase Bridge Rectifier, 140V Vrms, 8.0A If, KBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/kbu8.pdf
+$ENDCMP
+#
+$CMP KBU8G
+D Single-Phase Bridge Rectifier, 280V Vrms, 8.0A If, KBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/kbu8.pdf
+$ENDCMP
+#
+$CMP KBU8J
+D Single-Phase Bridge Rectifier, 420V Vrms, 8.0A If, KBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/kbu8.pdf
+$ENDCMP
+#
+$CMP KBU8K
+D Single-Phase Bridge Rectifier, 560V Vrms, 8.0A If, KBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/kbu8.pdf
+$ENDCMP
+#
+$CMP KBU8M
+D Single-Phase Bridge Rectifier, 700V Vrms, 8.0A If, KBU package
+K rectifier acdc
+F http://www.vishay.com/docs/88656/kbu8.pdf
+$ENDCMP
+#
+$CMP MB2S
+D Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 140V Vrms, 0.5A If, TO-269AA
+K rectifier acdc
+F http://www.vishay.com/docs/88661/mb2s.pdf
+$ENDCMP
+#
+$CMP MB4S
+D Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 280V Vrms, 0.5A If, TO-269AA
+K rectifier acdc
+F http://www.vishay.com/docs/88661/mb2s.pdf
+$ENDCMP
+#
+$CMP MB6S
+D Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 700V Vrms, 1.0A If, DFS SMD package
+K rectifier acdc
+F http://www.vishay.com/docs/88573/dfs.pdf
+$ENDCMP
+#
+$CMP MBL104S
+D Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 280V Vrms, 1.0A If, MBLS SMD package
+K rectifier acdc
+F http://www.vishay.com/docs/89959/mbl104s.pdf
+$ENDCMP
+#
+$CMP MBL106S
+D Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 420V Vrms, 1.0A If, MBLS SMD package
+K rectifier acdc
+F http://www.vishay.com/docs/89959/mbl104s.pdf
+$ENDCMP
+#
+$CMP MBL108S
+D Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 560V Vrms, 1.0A If, MBLS SMD package
+K rectifier acdc
+F http://www.vishay.com/docs/89959/mbl104s.pdf
+$ENDCMP
+#
+$CMP MBL110S
+D Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 700V Vrms, 1.0A If, MBLS SMD package
+K rectifier acdc
+F http://www.vishay.com/docs/89959/mbl104s.pdf
+$ENDCMP
+#
+$CMP RMB2S
+D Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 140V Vrms, 0.5A If, TO-269AA
+K rectifier acdc
+F http://www.vishay.com/docs/88705/rmbs.pdf
+$ENDCMP
+#
+$CMP RMB4S
+D Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 280V Vrms, 0.5A If, TO-269AA
+K rectifier acdc
+F http://www.vishay.com/docs/88705/rmbs.pdf
+$ENDCMP
+#
+$CMP VS-KBPC1005
+D Single-Phase Bridge Rectifier, 20V Vrms, 3.0A If, KBPC1 package
+K rectifier acdc
+F http://www.vishay.com/docs/93585/vs-kbpc1series.pdf
+$ENDCMP
+#
+$CMP VS-KBPC101
+D Single-Phase Bridge Rectifier, 40V Vrms, 3.0A If, KBPC1 package
+K rectifier acdc
+F http://www.vishay.com/docs/93585/vs-kbpc1series.pdf
+$ENDCMP
+#
+$CMP VS-KBPC102
+D Single-Phase Bridge Rectifier, 80V Vrms, 3.0A If, KBPC1 package
+K rectifier acdc
+F http://www.vishay.com/docs/93585/vs-kbpc1series.pdf
+$ENDCMP
+#
+$CMP VS-KBPC104
+D Single-Phase Bridge Rectifier, 125V Vrms, 3.0A If, KBPC1 package
+K rectifier acdc
+F http://www.vishay.com/docs/93585/vs-kbpc1series.pdf
+$ENDCMP
+#
+$CMP VS-KBPC106
+D Single-Phase Bridge Rectifier, 250V Vrms, 3.0A If, KBPC1 package
+K rectifier acdc
+F http://www.vishay.com/docs/93585/vs-kbpc1series.pdf
+$ENDCMP
+#
+$CMP VS-KBPC108
+D Single-Phase Bridge Rectifier, 380V Vrms, 3.0A If, KBPC1 package
+K rectifier acdc
+F http://www.vishay.com/docs/93585/vs-kbpc1series.pdf
+$ENDCMP
+#
+$CMP VS-KBPC110
+D Single-Phase Bridge Rectifier, 500V Vrms, 3.0A If, KBPC1 package
+K rectifier acdc
+F http://www.vishay.com/docs/93585/vs-kbpc1series.pdf
+$ENDCMP
+#
+$CMP VS-KBPC6005
+D Single-Phase Bridge Rectifier, 20V Vrms, 6.0A If, KBPC6 package
+K rectifier acdc
+F http://www.vishay.com/docs/93585/vs-kbpc1series.pdf
+$ENDCMP
+#
+$CMP VS-KBPC601
+D Single-Phase Bridge Rectifier, 40V Vrms, 6.0A If, KBPC6 package
+K rectifier acdc
+F http://www.vishay.com/docs/93585/vs-kbpc1series.pdf
+$ENDCMP
+#
+$CMP VS-KBPC602
+D Single-Phase Bridge Rectifier, 80V Vrms, 6.0A If, KBPC6 package
+K rectifier acdc
+F http://www.vishay.com/docs/93585/vs-kbpc1series.pdf
+$ENDCMP
+#
+$CMP VS-KBPC604
+D Single-Phase Bridge Rectifier, 125V Vrms, 6.0A If, KBPC6 package
+K rectifier acdc
+F http://www.vishay.com/docs/93585/vs-kbpc1series.pdf
+$ENDCMP
+#
+$CMP VS-KBPC606
+D Single-Phase Bridge Rectifier, 250V Vrms, 6.0A If, KBPC6 package
+K rectifier acdc
+F http://www.vishay.com/docs/93585/vs-kbpc1series.pdf
+$ENDCMP
+#
+$CMP VS-KBPC608
+D Single-Phase Bridge Rectifier, 380V Vrms, 6.0A If, KBPC6 package
+K rectifier acdc
+F http://www.vishay.com/docs/93585/vs-kbpc1series.pdf
+$ENDCMP
+#
+$CMP VS-KBPC610
+D Single-Phase Bridge Rectifier, 500V Vrms, 6.0A If, KBPC6 package
+K rectifier acdc
+F http://www.vishay.com/docs/93585/vs-kbpc1series.pdf
+$ENDCMP
+#
+$CMP VS-KBPC8005
+D Single-Phase Bridge Rectifier, 20V Vrms, 8.0A If, KBPC6 package
+K rectifier acdc
+F http://www.vishay.com/docs/93586/kbpc8series.pdf
+$ENDCMP
+#
+$CMP VS-KBPC801
+D Single-Phase Bridge Rectifier, 40V Vrms, 8.0A If, KBPC6 package
+K rectifier acdc
+F http://www.vishay.com/docs/93586/kbpc8series.pdf
+$ENDCMP
+#
+$CMP VS-KBPC802
+D Single-Phase Bridge Rectifier, 80V Vrms, 8.0A If, KBPC6 package
+K rectifier acdc
+F http://www.vishay.com/docs/93586/kbpc8series.pdf
+$ENDCMP
+#
+$CMP VS-KBPC804
+D Single-Phase Bridge Rectifier, 125V Vrms, 8.0A If, KBPC6 package
+K rectifier acdc
+F http://www.vishay.com/docs/93586/kbpc8series.pdf
+$ENDCMP
+#
+$CMP VS-KBPC806
+D Single-Phase Bridge Rectifier, 250V Vrms, 8.0A If, KBPC6 package
+K rectifier acdc
+F http://www.vishay.com/docs/93586/kbpc8series.pdf
+$ENDCMP
+#
+$CMP VS-KBPC808
+D Single-Phase Bridge Rectifier, 380V Vrms, 8.0A If, KBPC6 package
+K rectifier acdc
+F http://www.vishay.com/docs/93586/kbpc8series.pdf
+$ENDCMP
+#
+$CMP VS-KBPC810
+D Single-Phase Bridge Rectifier, 500V Vrms, 8.0A If, KBPC6 package
+K rectifier acdc
+F http://www.vishay.com/docs/93586/kbpc8series.pdf
+$ENDCMP
+#
+$CMP W005G
+D Glass Passivated Single-Phase Bridge Rectifier, 35V Vrms, 1.5A If, WOG package
+K Bridge Rectifier acdc
+F https://www.vishay.com/docs/88769/woo5g.pdf
+$ENDCMP
+#
+$CMP W01G
+D Glass Passivated Single-Phase Bridge Rectifier, 70V Vrms, 1.5A If, WOG package
+K Bridge Rectifier acdc
+F https://www.vishay.com/docs/88769/woo5g.pdf
+$ENDCMP
+#
+$CMP W02G
+D Glass Passivated Single-Phase Bridge Rectifier, 140V Vrms, 1.5A If, WOG package
+K Bridge Rectifier acdc
+F https://www.vishay.com/docs/88769/woo5g.pdf
+$ENDCMP
+#
+$CMP W04G
+D Glass Passivated Single-Phase Bridge Rectifier, 280V Vrms, 1.5A If, WOG package
+K Bridge Rectifier acdc
+F https://www.vishay.com/docs/88769/woo5g.pdf
+$ENDCMP
+#
+$CMP W06G
+D Glass Passivated Single-Phase Bridge Rectifier, 420V Vrms, 1.5A If, WOG package
+K Bridge Rectifier acdc
+F https://www.vishay.com/docs/88769/woo5g.pdf
+$ENDCMP
+#
+$CMP W08G
+D Glass Passivated Single-Phase Bridge Rectifier, 560V Vrms, 1.5A If, WOG package
+K Bridge Rectifier acdc
+F https://www.vishay.com/docs/88769/woo5g.pdf
+$ENDCMP
+#
+$CMP W10G
+D Glass Passivated Single-Phase Bridge Rectifier, 700V Vrms, 1.5A If, WOG package
+K Bridge Rectifier acdc
+F https://www.vishay.com/docs/88769/woo5g.pdf
+$ENDCMP
+#
+#End Doc Library

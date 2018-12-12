@@ -1,54 +1,98 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP XC7336
+D Xilinx CPLD, Obsolete
+$ENDCMP
+#
 $CMP XC95108PC84
+D Xilinx CPLD, Obsolete
 F xilinx/xc95108.pdf
 $ENDCMP
 #
 $CMP XC95108PQ100
+D Xilinx CPLD, Obsolete
 F xilinx/xc95108.pdf
 $ENDCMP
 #
+$CMP XC95144PQ100
+D Xilinx CPLD, Obsolete
+$ENDCMP
+#
 $CMP XC95144XL-TQ100
-D CPLD, 144 macrocells, 3200 usable gates
+D CPLD, 144 Macrocells, 3200 Usable Gates
 K CPLD
 F https://www.xilinx.com/support/documentation/data_sheets/ds056.pdf
 $ENDCMP
 #
 $CMP XC95144XL-TQ144
-D CPLD, 144 macrocells, 3200 usable gates
+D CPLD, 144 Macrocells, 3200 Usable Gates
 K CPLD
 F https://www.xilinx.com/support/documentation/data_sheets/ds056.pdf
 $ENDCMP
 #
 $CMP XC9536PC44
+D Xilinx CPLD, Obsolete
 F xilinx/xc9536.pdf
 $ENDCMP
 #
 $CMP XC9572XL-TQ100
-D CPLD, 72 macrocells, 1600 usable gates
+D CPLD, 72 Macrocells, 1600 Usable Gates
 K CPLD
 F http://www.xilinx.com/support/documentation/data_sheets/ds057.pdf
 $ENDCMP
 #
 $CMP XC9572XL-VQ64
-D CPLD, 72 macrocells, 1600 usable gates
+D CPLD, 72 Macrocells, 1600 Usable Gates
 K CPLD
 F http://www.xilinx.com/support/documentation/data_sheets/ds057.pdf
 $ENDCMP
 #
 $CMP XCR3064-VQ100
-D Xilinx CoolRunner
-F xilinx/xcr3064xl.pdf
+D Xilinx CoolRunner 64-Macrocell CPLD, 3.3V, VQFP-100, Obsolete
+K CPLD
+F https://www.xilinx.com/support/documentation/data_sheets/ds017.pdf
 $ENDCMP
 #
 $CMP XCR3064-VQ44
-D Xilinx CoolRunner
-F xilinx/xcr3064xl.pdf
+D Xilinx CoolRunner 64-Macrocell CPLD, 3.3V, VQFP-44, Obsolete
+K CPLD
+F https://www.xilinx.com/support/documentation/data_sheets/ds017.pdf
+$ENDCMP
+#
+$CMP XCR3064XL-VQ100
+D Xilinx CoolRunner 64-Macrocell CPLD, 3.3V, VQFP-100
+K CPLD
+F https://www.xilinx.com/support/documentation/data_sheets/ds017.pdf
+$ENDCMP
+#
+$CMP XCR3064XL-VQ44
+D Xilinx CoolRunner 64-Macrocell CPLD, 3.3V, VQFP-44
+K CPLD
+F https://www.xilinx.com/support/documentation/data_sheets/ds017.pdf
 $ENDCMP
 #
 $CMP XCR3128-VQ100
-D Xilinx CoolRunner
-F xilinx/xcr3128xl.pdf
+D Xilinx CoolRunner 128-Macrocell CPLD, 3.3V, VQFP-100, Obsolete
+K CPLD
+F https://www.xilinx.com/support/documentation/data_sheets/ds016.pdf
+$ENDCMP
+#
+$CMP XCR3128XL-VQ100
+D Xilinx CoolRunner 128-Macrocell CPLD, 3.3V, VQFP-100
+K CPLD
+F https://www.xilinx.com/support/documentation/data_sheets/ds016.pdf
+$ENDCMP
+#
+$CMP XCR3256-TQ144
+D Xilinx CoolRunner 256-Macrocell CPLD, 3.3V, TQFP-144, Obsolete
+K CPLD
+F https://www.xilinx.com/support/documentation/data_sheets/ds013.pdf
+$ENDCMP
+#
+$CMP XCR3256XL-TQ144
+D Xilinx CoolRunner 256-Macrocell CPLD, 3.3V, TQFP-144
+K CPLD
+F https://www.xilinx.com/support/documentation/data_sheets/ds013.pdf
 $ENDCMP
 #
 #End Doc Library

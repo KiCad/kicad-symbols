@@ -1,5 +1,47 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BPR-105
+D Subminiature Reflective Optical Sensor, SMD-package with PCB-cutout
+K Reflective Optical Sensor Opto
+F http://www.ystone.com.tw/en/data/goods/IRPT/Photo%20Interrupters-Reflective%20Type.pdf
+$ENDCMP
+#
+$CMP BPR-105F
+D Subminiature Reflective Optical Sensor, DIP-like THT-package
+K Reflective Optical Sensor Opto
+F http://www.ystone.com.tw/en/data/goods/IRPT/Photo%20Interrupters-Reflective%20Type.pdf
+$ENDCMP
+#
+$CMP BPR-205
+D Subminiature Reflective Optical Sensor, Darlington photo transistor, SMD-package with PCB-cutout
+K Reflective Optical Sensor Opto
+F http://www.ystone.com.tw/en/data/goods/IRPT/Photo%20Interrupters-Reflective%20Type.pdf
+$ENDCMP
+#
+$CMP CNY70
+D Reflective Optical Sensor with Transistor Output
+K Reflective Optical Sensor Opto
+F https://www.vishay.com/docs/83751/cny70.pdf
+$ENDCMP
+#
+$CMP ITR1201SR10AR
+D Miniature Reflective Optical Object Sensor, SMD-4
+K Reflective Optical Sensor Opto reflex coupler
+F http://www.everlight.com/file/ProductFile/ITR1201SR10AR-TR.pdf
+$ENDCMP
+#
+$CMP ITR8307
+D Subminiature Reflective Optical Sensor, SMD-package with PCB-cutout
+K Reflective Optical Sensor Opto
+F http://www.everlight.com/file/ProductFile/ITR8307.pdf
+$ENDCMP
+#
+$CMP ITR8307-F43
+D Subminiature Reflective Optical Sensor, DIP-like THT-package
+K Reflective Optical Sensor Opto
+F https://everlighteurope.com/index.php?controller=attachment&id_attachment=5385
+$ENDCMP
+#
 $CMP KRC011
 D Subminiature Reflective Optical Sensor
 K Reflective Optical Sensor Opto
@@ -16,6 +58,66 @@ $CMP LG206L
 D Photointerrupter infrared LED with photo IC, inverting output, -0.5V to 17V VDD, -20 to +85 degree Celsius, LG206X
 K Photointerrupter infrared LED with photo IC, inverting output, -0.5V to 17V VDD, -20 to +85 degree Celsius, LG206X
 F http://kodenshi.co.jp/products/pdf/sensor/photointerrupter_ic/LG206L.pdf
+$ENDCMP
+#
+$CMP QRE1113
+D Miniature Reflective Optical Object Sensor, SMD-4
+K Reflective Optical Sensor Opto reflex coupler
+F http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF
+$ENDCMP
+#
+$CMP QRE1113GR
+D Subminiature Reflective Optical Sensor, DIP-like THT-package
+K Reflective Optical Sensor Opto
+F http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF
+$ENDCMP
+#
+$CMP SFH900
+D Miniature Light Reflection Switches
+K Reflective Optical Sensor Opto
+F https://www.batronix.com/pdf/sfh900.pdf
+$ENDCMP
+#
+$CMP SFH9201
+D Reflective Opto Interrupter/Coupler, SMD-6
+K Reflective Opto Interrupter Coupler
+F https://media.digikey.com/pdf/Data%20Sheets/Osram%20PDFs/SFH_9201.pdf
+$ENDCMP
+#
+$CMP SFH9202
+D Reflective Opto Interrupter/Coupler, SMD-6
+K Reflective Opto Interrupter Coupler
+F http://www.osram-os.com/Graphics/XPic0/00083379_0.pdf/SFH%209202,%20Lead%20%28Pb%29%20Free%20Product%20-%20RoHS%20Compliant.pdf
+$ENDCMP
+#
+$CMP SFH9206
+D Reflective Opto Interrupter/Coupler, SMD-6
+K Reflective Opto Interrupter Coupler
+F http://www.osram-os.com/Graphics/XPic6/00200860_0.pdf
+$ENDCMP
+#
+$CMP SG-105
+D Subminiature Reflective Optical Sensor, SMD-package with PCB-cutout
+K Reflective Optical Sensor Opto
+F http://www.kodenshi.co.jp/products/pdf/sensor/photointerrupter_ref/SG-105.pdf
+$ENDCMP
+#
+$CMP SG-105F
+D Subminiature Reflective Optical Sensor, DIP-lie THT-package
+K Reflective Optical Sensor Opto
+F http://www.kodenshi.co.jp/products/pdf/sensor/photointerrupter_ref/SG-105F.pdf
+$ENDCMP
+#
+$CMP SG-107
+D Subminiature Reflective Optical Sensor, SMD-package with PCB-cutout
+K Reflective Optical Sensor Opto
+F http://www.kodenshi.co.jp/products/pdf/sensor/photointerrupter_ref/SG-107.pdf
+$ENDCMP
+#
+$CMP SG-107F
+D Subminiature Reflective Optical Sensor, DIP-lie THT-package
+K Reflective Optical Sensor Opto
+F https://www.pacer.co.uk/Assets/User/1055-SG-107F.pdf
 $ENDCMP
 #
 $CMP TSSP58038

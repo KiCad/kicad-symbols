@@ -18,6 +18,42 @@ K Miniature Polarised Relay Dual Pole Bistable
 F http://www.azettler.com/pdfs/az850.pdf
 $ENDCMP
 #
+$CMP DIPxx-1Axx-11x
+D Standex Meder DIP reed relay, SPST, Closing Contact
+K Single Pole Reed Relay SPST
+F https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf
+$ENDCMP
+#
+$CMP DIPxx-1Axx-12x
+D Standex Meder DIP reed relay, SPST, Closing Contact
+K Single Pole Reed Relay SPST
+F https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf
+$ENDCMP
+#
+$CMP DIPxx-1Axx-12xD
+D Standex Meder DIP reed relay, SPST, Closing Contact, including diode
+K Single Pole Reed Relay SPST
+F https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf
+$ENDCMP
+#
+$CMP DIPxx-1Axx-13x
+D Standex Meder DIP reed relay, SPST, Closing Contact
+K Single Pole Reed Relay SPST
+F https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf
+$ENDCMP
+#
+$CMP DIPxx-1Cxx-51x
+D Standex Meder DIP reed relay, SPDT
+K Single Pole Reed Relay SPDT
+F https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf
+$ENDCMP
+#
+$CMP DIPxx-2Axx-21x
+D Standex Meder DIP reed relay, DPST, Closing Contacts
+K Single Pole Reed Relay DPST
+F https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf
+$ENDCMP
+#
 $CMP FINDER-30.22
 D FINDER 30.52, Dual Pole Relay, Subminiature 5mm Pitch, 2A
 K Dual Pole Relay
@@ -36,16 +72,46 @@ K Single Pole Relay SPST-NO
 F http://gfinder.findernet.com/assets/Series/355/S32EN.pdf
 $ENDCMP
 #
+$CMP FINDER-34.51
+D Ultra-slim 1 Pole - 6 A SPDT relay
+K Single Pole Relay SPDT
+F https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf
+$ENDCMP
+#
+$CMP FINDER-34.51.7xxx.x019
+D Ultra-slim 1 Pole - 6 A SPDT relay
+K Single Pole Relay SPDT
+F https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf
+$ENDCMP
+#
 $CMP FINDER-36.11-4301
 D FINDER 36.11-4301, Single Pole Relay SPST-NO Sugar Cube, 10A
 K Single Pole Relay SPST-NO Sugar Cube
 F http://gfinder.findernet.com/assets/Series/356/S36EN.pdf
 $ENDCMP
 #
+$CMP FINDER-40.11
+D PCB SPDT relay, 10A
+K Single Pole Relay SPDT Finder
+F https://www.finder-relais.net/de/finder-relais-serie-40.pdf
+$ENDCMP
+#
+$CMP FINDER-40.11-2016
+D PCB SPDT relay, 16A
+K Single Pole Relay SPDT Finder
+F https://www.finder-relais.net/de/finder-relais-serie-40.pdf
+$ENDCMP
+#
 $CMP FINDER-40.31
 D FINDER 40.31, Single Pole Relay, 3.5mm Pitch, 10A
 K Single Pole Relay
 F http://gfinder.findernet.com/assets/Series/353/S40EN.pdf
+$ENDCMP
+#
+$CMP FINDER-40.41
+D PCB SPDT relay, 10A
+K Single Pole Relay SPDT Finder
+F https://www.finder-relais.net/de/finder-relais-serie-40.pdf
 $ENDCMP
 #
 $CMP FINDER-40.51
@@ -90,6 +156,18 @@ K relay monostable
 F https://www.elpro.org/de/index.php?controller=attachment&id_attachment=8663
 $ENDCMP
 #
+$CMP Fujitsu_FTR-F1A
+D Fujitsu Low Profile Power Relay
+K double pole single throw relay
+F https://www.fujitsu.com/downloads/MICRO/fcai/relays/ftr-f1.pdf
+$ENDCMP
+#
+$CMP Fujitsu_FTR-F1C
+D Fujitsu Low Profile Power Relay
+K double pole double throw relay
+F https://www.fujitsu.com/downloads/MICRO/fcai/relays/ftr-f1.pdf
+$ENDCMP
+#
 $CMP G5LE-1
 D Omron G5LE relay, Miniature Single Pole, SPDT, 10A
 K Miniature Single Pole Relay
@@ -108,6 +186,12 @@ K Miniature Single Pole Relay
 F https://www.omron.com/ecb/products/pdf/en-g5q.pdf
 $ENDCMP
 #
+$CMP G5V-1
+D Ultra-miniature, Highly Sensitive SPDT Relay for Signal Circuits
+K Single Pole Relay SPDT
+F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_1.pdf
+$ENDCMP
+#
 $CMP G5V-2
 D Relay Miniature Omron DPDT
 K Miniature Relay Dual Pole DPDT Omron
@@ -115,7 +199,7 @@ F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf
 $ENDCMP
 #
 $CMP G6E
-D Omron G6E relay, Subminiature, Sensitive SPDT Signal Switching Relay, Single-Side Stable
+D Omron Subminiature Sensitive SPDT Signal Switching Relay, Single-Side Stable
 K Single Pole Relay SPDT
 F https://www.omron.com/ecb/products/pdf/en-g6e.pdf
 $ENDCMP
@@ -124,6 +208,42 @@ $CMP G6EU
 D Omron G6E relay, Subminiature, Sensitive SPDT Signal Switching Relay, Single-winding latching
 K Single Pole Relay SPDT
 F https://www.omron.com/ecb/products/pdf/en-g6e.pdf
+$ENDCMP
+#
+$CMP G6H-2
+D Omron Ultracompact, Ultrasensitive DPDT Relay, Single-side Stable
+K relay monostable
+F http://cdn-reichelt.de/documents/datenblatt/C300/G6H%23OMR.pdf
+$ENDCMP
+#
+$CMP G6HU-2
+D Omron Ultracompact, Ultrasensitive DPDT Relay, Single-winding Latching
+K relay monostable
+F http://cdn-reichelt.de/documents/datenblatt/C300/G6H%23OMR.pdf
+$ENDCMP
+#
+$CMP G6K-2
+D Miniature 2-pole relay, Single-side Stable
+K Miniature Relay Dual Pole DPDT Omron
+F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf
+$ENDCMP
+#
+$CMP G6KU-2
+D Miniature 2-pole relay, Single-winding Latching
+K Miniature Relay Dual Pole DPDT Omron
+F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf
+$ENDCMP
+#
+$CMP G6S-2
+D Compact, Industry-Standard 2-pole relay, designed to switch 2A Signal Loads, Single-side Stable
+K Miniature Relay Dual Pole DPDT Omron
+F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf
+$ENDCMP
+#
+$CMP G6SU-2
+D Compact, Industry-Standard 2-pole relay, designed to switch 2A Signal Loads, Single-winding Latching
+K Miniature Relay Dual Pole DPDT Omron
+F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf
 $ENDCMP
 #
 $CMP HF3-01
@@ -378,6 +498,18 @@ K Panasonic Relay Dual Pole
 F http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_jw.pdf?via=ok
 $ENDCMP
 #
+$CMP MSxx-1Axx-75
+D Standex Meder MS reed relay, SPST, Closing Contact
+K Single Pole Reed Relay SPST
+F https://standexelectronics.com/de/produkte/ms-reed-relais/
+$ENDCMP
+#
+$CMP MSxx-1Bxx-75
+D Standex Meder MS reed relay, SPST, Opening Contact
+K Single Pole Reed Relay SPST
+F https://standexelectronics.com/de/produkte/ms-reed-relais/
+$ENDCMP
+#
 $CMP RM50-xx21
 D RELPOL, Single Pole Relay SPST-NO, 6A
 K Single Pole Relay SPST-NO
@@ -462,10 +594,46 @@ K Single Pole Relay SPDT
 F http://www.sanyourelay.ca/public/products/pdf/SRD.pdf
 $ENDCMP
 #
+$CMP SILxx-1Axx-71x
+D Standex Meder SIL reed relay, SPST, Closing Contact
+K Single Pole Reed Relay SPST
+F https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_SIL.pdf
+$ENDCMP
+#
+$CMP SILxx-1Bxx-71x
+D Standex Meder SIL reed relay, SPST, Opening Contact
+K Single Pole Reed Relay SPST
+F https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_SIL.pdf
+$ENDCMP
+#
+$CMP SILxx-1Cxx-51x
+D Standex Meder SIL reed relay, SPDT
+K Single Pole Reed Relay SPDT
+F https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_SIL.pdf
+$ENDCMP
+#
 $CMP TIANBO-HJR-4102-L
 D TIANBO HJR-4102-L, Single Pole Relay, 5mm Pitch, 3A
 K Single Pole Relay
 F https://cdn-reichelt.de/documents/datenblatt/C300/DS_HJR4102E.pdf
+$ENDCMP
+#
+$CMP UMS05-1A80-75D
+D Standex Meder UMS reed relay, SPST, Closing Contact, with diode
+K Single Pole Reed Relay SPST
+F https://standexelectronics.com/de/produkte/ums-reed-relais/
+$ENDCMP
+#
+$CMP UMS05-1A80-75L
+D Standex Meder UMS reed relay, SPST, Closing Contact
+K Single Pole Reed Relay SPST
+F https://standexelectronics.com/de/produkte/ums-reed-relais/
+$ENDCMP
+#
+$CMP Y14x-1C-xxDS
+D Hsin Da Y14-series relay, Single Pole Dual Throw
+K Relay SPDT
+F http://www.hsinda.com.cn/en/imgdown.asp?FileName=UploadFiles/201431310240386.pdf
 $ENDCMP
 #
 #End Doc Library

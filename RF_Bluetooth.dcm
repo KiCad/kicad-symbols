@@ -1,9 +1,51 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP NRF8001
-D BLE chip from Nordic Semiconductor
+$CMP BL652
+D Bluetooth module
+K Bluetooth Nordic nRF52
+F http://cdn.lairdtech.com/home/brandworld/files/Datasheet%20-%20BL652.pdf
+$ENDCMP
+#
+$CMP BTM112
+D Bluetooth SPP Module, UART, Class 2
+K Bluetooth BT SPP Module
+F https://www.sparkfun.com/datasheets/Wireless/Bluetooth/BTM112_wATcommands.pdf
+$ENDCMP
+#
+$CMP BTM222
+D Bluetooth SPP Module, UART, Class 1
+K Bluetooth BT SPP Module
+F https://www.tme.eu/de/Document/b90358c53cd65c9b10d2914f55812666/btm222_datasheet.pdf
+$ENDCMP
+#
+$CMP MOD-nRF8001
+D Bluetooth Low Energy module based on nRF8001 chipset
+K Bluetooth Low Energy nRF8001
+F https://www.olimex.com/Products/Modules/RF/MOD-nRF8001/
+$ENDCMP
+#
+$CMP nRF8001
+D BLE LE Connectivity IC, QFN-32
 K BLE, bluetooth
-F STM32F446ZCT6
+F https://www.nordicsemi.com/eng/nordic/content_download/2981/38488/file/nRF8001_PS_v1.3.pdf
+$ENDCMP
+#
+$CMP RFD77101
+D Simblee Bluetooth Smart Module with ARM Cortex-M0 and integrated antenna
+K Simblee ARM Cortex-M0 Bluetooth antenna
+F https://www.simblee.com/Simblee%20RFD77101%20Datasheet%20v1.0.pdf
+$ENDCMP
+#
+$CMP RN42
+D Class 2 Bluetooth Module with on-board antenna
+K Bluetooth Module
+F http://ww1.microchip.com/downloads/en/DeviceDoc/rn-42-ds-v2.32r.pdf
+$ENDCMP
+#
+$CMP RN42N
+D Class 2 Bluetooth Module without antenna
+K Bluetooth Module
+F http://ww1.microchip.com/downloads/en/DeviceDoc/rn-42-ds-v2.32r.pdf
 $ENDCMP
 #
 $CMP RN4871
@@ -12,16 +54,16 @@ K Bluetooth Low Energy 4.2 Module
 F http://ww1.microchip.com/downloads/en/DeviceDoc/50002489A.pdf
 $ENDCMP
 #
-$CMP nRF51x22-QFxx
-D Multiprotocol BLE/2.4GHz Cortex-M0+ SoC
-K MCU, ARM, BLE, 2.4GHz
-F http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.3.pdf
+$CMP SPBTLE-RF
+D Very Low Power network processor module for BLE v4.1, Hub capabilities
+K BLE bluetooth module low-power
+F http://www.st.com/resource/en/datasheet/spbtle-rf.pdf
 $ENDCMP
 #
-$CMP nRF52832-QFxx
-D Multiprotocol BLE/2.4GHz Cortex-M4 SoC
-K MCU, ARM, BLE, 2.4GHz
-F http://infocenter.nordicsemi.com/pdf/nRF52832_PS_v1.4.pdf
+$CMP SPBTLE-RF0
+D Very Low Power network processor module for BLE v4.1
+K BLE bluetooth module low-power
+F http://www.st.com/resource/en/datasheet/spbtle-rf0.pdf
 $ENDCMP
 #
 #End Doc Library
