@@ -2237,7 +2237,7 @@ F1 "SiS415DNT" 200 0 50 H V L CNN
 F2 "Package_SO:Vishay_PowerPAK_1212-8_Single" 200 -75 50 H I L CIN
 F3 "" 0 0 50 V I L CNN
 $FPLIST
- *PowerPAK*1212-8*Single*
+ *PowerPAK*1212?8*Single*
 $ENDFPLIST
 DRAW
 C 65 0 111 0 1 10 N
