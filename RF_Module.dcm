@@ -66,6 +66,24 @@ K 802.11 Wi-Fi
 F http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf
 $ENDCMP
 #
+$CMP ESP-WROOM-02
+D Wi-Fi Module, ESP8266EX SoC, 32-bit, 802.11b/g/n, WPA/WPA2, 2.7-3.6V, SMD
+K RF Radio ESP Espressif
+F https://www.espressif.com/sites/default/files/documentation/0c-esp-wroom-02_datasheet_en.pdf
+$ENDCMP
+#
+$CMP ESP32-WROOM-32
+D RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, SMD
+K RF Radio BT ESP ESP32 Espressif
+F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
+$ENDCMP
+#
+$CMP ESP32-WROOM-32D
+D RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, SMD
+K RF Radio BT ESP ESP32 Espressif
+F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
+$ENDCMP
+#
 $CMP MM002
 D NEMEUS Modem dual-mode LoRa/SIGFOX
 K IOT LoRa SIGFOX
