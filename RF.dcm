@@ -42,6 +42,12 @@ K Low Power RF Transciever breakout carrier
 F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf
 $ENDCMP
 #
+$CMP SE5004L
+D 5 GHz, 26dBm Power Amplifier with Power Detector, QFN20 4x4mm
+K RF Power Amplifier
+F http://www.skyworksinc.com/uploads/documents/SE5004L_202393B.pdf
+$ENDCMP
+#
 $CMP SIM800C
 D GSM Quad-Band Communication Module, GPRS, Audio Engine, AT Command Set, Bluetooth is Optional
 K GSM GPRS Quad-Band SMS
