@@ -5317,9 +5317,9 @@ F http://www.ti.com/lit/ds/symlink/tps79333-ep.pdf
 $ENDCMP
 #
 $CMP XC6220B331MR
-D REG LINEAR 3.3V 1A SOT25 
-K REG LINEAR 3.3V 1A SOT25 
-F https://media.digikey.com/pdf/Data%20Sheets/Torex/XC6220.pdf
+D 1A, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-23-5
+K LDO Voltage Regulator 1A
+F https://www.torexsemi.com/file/xc6220/XC6220.pdf
 $ENDCMP
 #
 $CMP uA7805
