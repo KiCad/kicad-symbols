@@ -231,6 +231,12 @@ K LTC clock converter
 F http://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
 $ENDCMP
 #
+$CMP MAX6816
+D Single Switch  Debouncer, SOT-143
+K Switch Debouncer
+F https://datasheets.maximintegrated.com/en/ds/1896.pdf
+$ENDCMP
+#
 $CMP MC6840
 D Peripheral Interface Adapter 1MHz, DIP-40
 K PIA
