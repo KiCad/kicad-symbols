@@ -312,6 +312,24 @@ K TTL monostable
 F http://www.ti.com/lit/gpn/sn74LS123
 $ENDCMP
 #
+$CMP 74AHCT123
+D Dual retriggerable monostable multivibrator
+K TTL monostable, multivibrator
+F http://www.ti.com/lit/gpn/sn74ahct123a
+$ENDCMP
+#
+$CMP 74HCT123
+D Dual retriggerable monostable multivibrator
+K TTL monostable, multivibrator
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT123.pdf
+$ENDCMP
+#
+$CMP 74HC123
+D Dual retriggerable monostable multivibrator
+K TTL monostable, multivibrator
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT123.pdf
+$ENDCMP
+#
 $CMP 74LS125
 D Quad buffer 3-State outputs
 K TTL buffer 3State

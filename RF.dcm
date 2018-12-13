@@ -12,10 +12,22 @@ K RF Tx Rx
 F http://www.ti.com/lit/ds/symlink/cc1200.pdf
 $ENDCMP
 #
+$CMP CC2500
+D Single Chip Low Power RF Transceiver, QFN20
+K Low Power RF Transciever
+F http://www.ti.com/lit/ds/symlink/cc2500.pdf
+$ENDCMP
+#
 $CMP MAADSS0008
 D 0-2GHz, 15dB step attenuator, SOT-23-5
 K RF attenuator
 F http://cdn.macom.com/datasheets/maadss0008.pdf
+$ENDCMP
+#
+$CMP MICRF112YMM
+D ASK/FSK Transmitter, 1.8-3.6V, 300-450MHz, +10dBm, MSOP-10
+K ask fsk ism transmitter
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MICRF112.pdf
 $ENDCMP
 #
 $CMP NRF24L01
@@ -28,6 +40,12 @@ $CMP NRF24L01_Breakout
 D Ultra low power 2.4GHz RF Transceiver, Carrier PCB
 K Low Power RF Transciever breakout carrier
 F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf
+$ENDCMP
+#
+$CMP SE5004L
+D 5 GHz, 26dBm Power Amplifier with Power Detector, QFN20 4x4mm
+K RF Power Amplifier
+F http://www.skyworksinc.com/uploads/documents/SE5004L_202393B.pdf
 $ENDCMP
 #
 $CMP SIM7020C
