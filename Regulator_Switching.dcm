@@ -5178,6 +5178,12 @@ K Buck-Boost converter 5V
 F http://www.ti.com/lit/ds/symlink/tps63060.pdf
 $ENDCMP
 #
+$CMP TPS7A7200RGW
+D 2A, Low-Dropout Voltage Regulator, 1.5-6.5V Input, Adjustable 0.9-5V Output
+K linear regulator ldo voltage
+F http://www.ti.com/lit/ds/symlink/tps7a7200.pdf
+$ENDCMP
+#
 $CMP TPS82130
 D 17V Input 3A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8
 K 17V 3A Step-down Buck Module
