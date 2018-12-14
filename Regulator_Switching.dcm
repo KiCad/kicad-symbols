@@ -192,6 +192,18 @@ K Isolated DC-to-DC Converter 5kV
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM6000.PDF
 $ENDCMP
 #
+$CMP AP6502
+D 340kHz 18V 2A Synchronois DC/DC Buck Converter
+K buck switching converter
+F https://www.diodes.com/assets/Datasheets/AP6502.pdf
+$ENDCMP
+#
+$CMP AP6503
+D 340kHz 23V 3A Synchonous DC/DC Buck Converter
+K buck switching converter
+F https://www.diodes.com/assets/Datasheets/AP6503.pdf
+$ENDCMP
+#
 $CMP APE1707H-12-HF
 D 2A, 150KHz PWM Buck DC/DC Converter, fixed 12.0V output voltage, TO-252-5 (D-PAK)
 K 12V 2A 150KHz PWM Buck DC/DC
