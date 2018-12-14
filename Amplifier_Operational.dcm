@@ -1260,6 +1260,12 @@ K dual opamp
 F www.st.com/resource/en/datasheet/ts912.pdf
 $ENDCMP
 #
+$CMP TSV524xIQ4T
+D Quad CMOS Rail-to-Rail Input/Output Amplifier, 1.15MHz GBP, QFN-16
+K quad opamp
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/4a/50/94/16/69/af/4b/58/DM00047334.pdf/files/DM00047334.pdf/jcr:content/translations/en.DM00047334.pdf
+$ENDCMP
+#
 $CMP TSV911IDT
 D Single rail-to-rail input/output 8 MHz operational amplifiers, SOIC-8
 K single opamp
