@@ -84,6 +84,12 @@ K single opamp
 F www.analog.com/media/en/technical-documentation/data-sheets/ADA4870.pdf
 $ENDCMP
 #
+$CMP ADA4898-2
+D Dual High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp, SOIC-8-1EP
+K opamp dual low noise low distortion
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf
+$ENDCMP
+#
 $CMP CA3080
 D 2MHz, Operational Transconductance Amplifier (OTA), gM spread 2:1, DIP-8/SOIC-8
 K operational transconductance amplifier ota
