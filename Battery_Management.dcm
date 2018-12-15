@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADP5063
+D Linear LiFePO4 Battery Charger with Power Path and USB Compatibility, LFCSP
+K LiFePo4 Battery USB PMIC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5063.pdf
+$ENDCMP
+#
 $CMP AS8506C
 D Stackable cell monitor, cell balancer, 3-7 Cells, SPI Interface
 K battery balance lithium charge afe
