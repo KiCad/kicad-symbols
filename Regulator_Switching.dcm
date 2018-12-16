@@ -4872,6 +4872,12 @@ K Step-down
 F http://www.ti.com/lit/ds/symlink/tps51363.pdf
 $ENDCMP
 #
+$CMP TPS5420D
+D Adjustable Output, 2A Step-Down Converter, 5.5V-36V Input, 500kHz Switching Frequency
+K switching buck converter step-down
+F http://www.ti.com/lit/ds/symlink/tps5420.pdf
+$ENDCMP
+#
 $CMP TPS54233
 D 2A, Step Down DC-DC Converter with Eco-mode, 3.5-28V Input Voltage, SO-8
 K Step-Down DC-DC Switching Regulator High Voltage High Frequency
