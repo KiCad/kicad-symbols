@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CDNBS08-SLVU2.8-4
+D Quad bidirectional transil, Suppressor for ESD protection, 5V Standoff, 4 Channels, SOT-23-6
+K ESD protection suppression transient
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/21/07/21/e3/a8/df/42/a2/CD00001906.pdf/files/CD00001906.pdf/jcr:content/translations/en.CD00001906.pdf
+$ENDCMP
+#
 $CMP CM1213A-01SO
 D Single Channel ESD Protection Array
 K ESD Protection diodes transient suppressor
