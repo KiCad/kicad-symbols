@@ -1,97 +1,193 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ATSAMC20E15A-AU
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 32KB Flash, 4KB RAM, TQFP32
+K ARM MCU 5V Cortex M0 32
+F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
+$ENDCMP
+#
+$CMP ATSAMC20E15A-MU
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 32KB Flash, 4KB RAM, QFN32
+K ARM MCU 5V Cortex M0 32
+F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
+$ENDCMP
+#
+$CMP ATSAMC20E16A-AU
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 64KB Flash, 8KB RAM, TQFP32
+K ARM MCU 5V Cortex M0 32
+F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
+$ENDCMP
+#
+$CMP ATSAMC20E16A-MU
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 64KB Flash, 8KB RAM, QFN32
+K ARM MCU 5V Cortex M0 32
+F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
+$ENDCMP
+#
+$CMP ATSAMC20E17A-AU
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 128KB Flash, 16KB RAM, TQFP32
+K ARM MCU 5V Cortex M0 32
+F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
+$ENDCMP
+#
+$CMP ATSAMC20E17A-MU
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 128KB Flash, 16KB RAM, QFN32
+K ARM MCU 5V Cortex M0 32
+F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
+$ENDCMP
+#
+$CMP ATSAMC20E18A-AU
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 256KB Flash, 32KB RAM, TQFP32
+K ARM MCU 5V Cortex M0 32
+F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
+$ENDCMP
+#
+$CMP ATSAMC20E18A-MU
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 256KB Flash, 32KB RAM, QFN32
+K ARM MCU 5V Cortex M0 32
+F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
+$ENDCMP
+#
 $CMP ATSAMC20G15A-AU
-D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 32KB Flash, 4KB RAM, TQFP
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 32KB Flash, 4KB RAM, TQFP48
 K ARM MCU 5V Cortex M0 32
 F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
 $ENDCMP
 #
 $CMP ATSAMC20G15A-MU
-D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 32KB Flash, 4KB RAM, QFN
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 32KB Flash, 4KB RAM, QFN48
 K ARM MCU 5V Cortex M0 32
 F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
 $ENDCMP
 #
 $CMP ATSAMC20G16A-AU
-D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 64KB Flash, 8KB RAM, TQFP
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 64KB Flash, 8KB RAM, TQFP48
 K ARM MCU 5V Cortex M0 32
 F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
 $ENDCMP
 #
 $CMP ATSAMC20G16A-MU
-D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 64KB Flash, 8KB RAM, QFN
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 64KB Flash, 8KB RAM, QFN48
 K ARM MCU 5V Cortex M0 32
 F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
 $ENDCMP
 #
 $CMP ATSAMC20G17A-AU
-D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 128KB Flash, 16KB RAM, TQFP
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 128KB Flash, 16KB RAM, TQFP48
 K ARM MCU 5V Cortex M0 32
 F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
 $ENDCMP
 #
 $CMP ATSAMC20G17A-MU
-D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 128KB Flash, 16KB RAM, QFN
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 128KB Flash, 16KB RAM, QFN48
 K ARM MCU 5V Cortex M0 32
 F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
 $ENDCMP
 #
 $CMP ATSAMC20G18A-AU
-D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 256KB Flash, 32KB RAM, TQFP
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 256KB Flash, 32KB RAM, TQFP48
 K ARM MCU 5V Cortex M0 32
 F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
 $ENDCMP
 #
 $CMP ATSAMC20G18A-MU
-D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 256KB Flash, 32KB RAM, QFN
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 256KB Flash, 32KB RAM, QFN48
+K ARM MCU 5V Cortex M0 32
+F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
+$ENDCMP
+#
+$CMP ATSAMC21E15A-AU
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 32KB Flash, 4KB RAM, TQFP32
+K ARM MCU 5V Cortex M0 32
+F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
+$ENDCMP
+#
+$CMP ATSAMC21E15A-MU
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 32KB Flash, 4KB RAM, QFN32
+K ARM MCU 5V Cortex M0 32
+F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
+$ENDCMP
+#
+$CMP ATSAMC21E16A-AU
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 64KB Flash, 8KB RAM, TQFP32
+K ARM MCU 5V Cortex M0 32
+F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
+$ENDCMP
+#
+$CMP ATSAMC21E16A-MU
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 64KB Flash, 8KB RAM, QFN32
+K ARM MCU 5V Cortex M0 32
+F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
+$ENDCMP
+#
+$CMP ATSAMC21E17A-AU
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 128KB Flash, 16KB RAM, TQFP32
+K ARM MCU 5V Cortex M0 32
+F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
+$ENDCMP
+#
+$CMP ATSAMC21E17A-MU
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 128KB Flash, 16KB RAM, QFN32
+K ARM MCU 5V Cortex M0 32
+F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
+$ENDCMP
+#
+$CMP ATSAMC21E18A-AU
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 256KB Flash, 32KB RAM, TQFP32
+K ARM MCU 5V Cortex M0 32
+F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
+$ENDCMP
+#
+$CMP ATSAMC21E18A-MU
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 256KB Flash, 32KB RAM, QFN32
 K ARM MCU 5V Cortex M0 32
 F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
 $ENDCMP
 #
 $CMP ATSAMC21G15A-AU
-D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 32KB Flash, 4KB RAM, TQFP
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 32KB Flash, 4KB RAM, TQFP48
 K ARM MCU 5V Cortex M0 32
 F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
 $ENDCMP
 #
 $CMP ATSAMC21G15A-MU
-D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 32KB Flash, 4KB RAM, QFN
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 32KB Flash, 4KB RAM, QFN48
 K ARM MCU 5V Cortex M0 32
 F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
 $ENDCMP
 #
 $CMP ATSAMC21G16A-AU
-D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 64KB Flash, 8KB RAM, TQFP
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 64KB Flash, 8KB RAM, TQFP48
 K ARM MCU 5V Cortex M0 32
 F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
 $ENDCMP
 #
 $CMP ATSAMC21G16A-MU
-D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 64KB Flash, 8KB RAM, QFN
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 64KB Flash, 8KB RAM, QFN48
 K ARM MCU 5V Cortex M0 32
 F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
 $ENDCMP
 #
 $CMP ATSAMC21G17A-AU
-D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 128KB Flash, 16KB RAM, TQFP
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 128KB Flash, 16KB RAM, TQFP48
 K ARM MCU 5V Cortex M0 32
 F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
 $ENDCMP
 #
 $CMP ATSAMC21G17A-MU
-D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 128KB Flash, 16KB RAM, QFN
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 128KB Flash, 16KB RAM, QFN48
 K ARM MCU 5V Cortex M0 32
 F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
 $ENDCMP
 #
 $CMP ATSAMC21G18A-AU
-D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 256KB Flash, 32KB RAM, TQFP
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 256KB Flash, 32KB RAM, TQFP48
 K ARM MCU 5V Cortex M0 32
 F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
 $ENDCMP
 #
 $CMP ATSAMC21G18A-MU
-D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 256KB Flash, 32KB RAM, QFN
+D 32-bit ARM Cortex-M0+ with 5V Support, CAN-FD, PTC, and Advanced Analog, 256KB Flash, 32KB RAM, QFN48
 K ARM MCU 5V Cortex M0 32
 F https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en598829
 $ENDCMP
