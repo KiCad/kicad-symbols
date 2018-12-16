@@ -648,6 +648,24 @@ K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc2503.pdf
 $ENDCMP
 #
+$CMP ATmega3208-SSOP
+D 20MHz, 32kB Flash, 4kB SRAM, 256B EEPROM, SSOP-28
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40002018A.pdf
+$ENDCMP
+#
+$CMP ATmega3208-TQFP
+D 20MHz, 32kB Flash, 4kB SRAM, 256B EEPROM, TQFP-32
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40002017A.pdf
+$ENDCMP
+#
+$CMP ATmega3208-VQFN
+D 20MHz, 32kB Flash, 4kB SRAM, 256B EEPROM, VQFN-32
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40002017A.pdf
+$ENDCMP
+#
 $CMP ATmega324A-AU
 D 20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, TQFP-44
 K AVR 8bit Microcontroller MegaAVR
@@ -1126,6 +1144,24 @@ $CMP ATmega48-20PU
 D 20MHz, 4kB Flash, 512B SRAM, 256B EEPROM, DIP-28
 K AVR 8bit Microcontroller MegaAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2545-8-bit-AVR-Microcontroller-ATmega48-88-168_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATmega4808-SSOP
+D 20MHz, 48kB Flash, 6kB SRAM, 256B EEPROM, SSOP-28
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40002018A.pdf
+$ENDCMP
+#
+$CMP ATmega4808-TQFP
+D 20MHz, 48kB Flash, 6kB SRAM, 256B EEPROM, TQFP-32
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40002017A.pdf
+$ENDCMP
+#
+$CMP ATmega4808-VQFN
+D 20MHz, 48kB Flash, 6kB SRAM, 256B EEPROM, VQFN-32
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40002017A.pdf
 $ENDCMP
 #
 $CMP ATmega48A-AU
