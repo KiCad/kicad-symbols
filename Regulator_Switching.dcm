@@ -1567,15 +1567,39 @@ F http://www.ti.com/lit/ds/symlink/lmr64010.pdf
 $ENDCMP
 #
 $CMP LMZM23600
-D 36V 0.5A Step-Down DC/DC Power Module in 3.8x3mm Package
-K 36V 0.5A Step-Down DC/DC Module
+D 0.5A Adjustable Step-Down DC/DC Power Module in 3.8x3mm MicroSIP-10 Package
+K Step-Down DC/DC Module
 F http://www.ti.com/lit/ds/symlink/lmzm23600.pdf
 $ENDCMP
 #
-$CMP LMZM23601
-D 36V 1A Step-Down DC/DC Power Module in 3.8x3mm Package
-K 36V 1A Step-Down DC/DC Module
+$CMP LMZM23600V3
+D 0.5A 3.3V Step-Down DC/DC Power Module in 3.8x3mm MicroSIP-10 Package
+K Step-Down DC/DC Module
 F http://www.ti.com/lit/ds/symlink/lmzm23600.pdf
+$ENDCMP
+#
+$CMP LMZM23600V5
+D 1A 5V Step-Down DC/DC Power Module in 3.8x3mm MicroSIP-10 Package
+K Step-Down DC/DC Module
+F http://www.ti.com/lit/ds/symlink/lmzm23600.pdf
+$ENDCMP
+#
+$CMP LMZM23601V3
+D 1A 3.3V Step-Down DC/DC Power Module in 3.8x3mm MicroSIP-10 Package
+K Step-Down DC/DC Module
+F http://www.ti.com/lit/ds/symlink/lmzm23601.pdf
+$ENDCMP
+#
+$CMP LMZM23601V5
+D 1A 5V Step-Down DC/DC Power Module in 3.8x3mm MicroSIP-10 Package
+K Step-Down DC/DC Module
+F http://www.ti.com/lit/ds/symlink/lmzm23601.pdf
+$ENDCMP
+#
+$CMP LMZM2360x
+D 1A Adjustable Step-Down DC/DC Power Module in 3.8x3mm MicroSIP-10 Package
+K Step-Down DC/DC Module
+F http://www.ti.com/lit/ds/symlink/lmzm23601.pdf
 $ENDCMP
 #
 $CMP LNK302D
