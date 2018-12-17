@@ -46,6 +46,11 @@ $CMP SCHF-31+
 D High Pass Filter, 31 to 1500 MHz, Mini-Circuits YY161
 K highpass filter rf
 F https://ww2.minicircuits.com/pdfs/SCHF-31+.pdf
+#
+$CMP SE5004L
+D 5 GHz, 26dBm Power Amplifier with Power Detector, QFN20 4x4mm
+K RF Power Amplifier
+F http://www.skyworksinc.com/uploads/documents/SE5004L_202393B.pdf
 $ENDCMP
 #
 $CMP SIM800C
