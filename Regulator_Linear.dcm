@@ -2931,7 +2931,7 @@ $ENDCMP
 $CMP LR8K4-G
 D 30mA 450V High-Voltage Linear Regulator (Adjustable), TO-252 (D-PAK)
 K High-Voltage Regulator Adjustable Positive
-F http://www.supertex.com/pdf/datasheets/LR8.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005399B.pdf
 $ENDCMP
 #
 $CMP LR8N3-G
@@ -4264,6 +4264,84 @@ $CMP MCP1826S
 D 1000 mA, Low-Voltage, Low Quiescent Current LDO Regulator, SOT-223, TO-220, TO-263
 K regulator linear ldo
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22057B.pdf
+$ENDCMP
+#
+$CMP MIC29152WT
+D 1.5A low dropout linear regulator, adjustable output, TO-220
+K 1.5A LDO linear voltage regulator adjustable positive
+F http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf
+$ENDCMP
+#
+$CMP MIC29152WU
+D 1.5A low dropout linear regulator, adjustable output, TO-252
+K 1.5A LDO linear voltage regulator adjustable positive
+F http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf
+$ENDCMP
+#
+$CMP MIC29153WT
+D 1.5A low dropout linear regulator, adjustable output, TO-220
+K 1.5A LDO linear voltage regulator adjustable positive
+F http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf
+$ENDCMP
+#
+$CMP MIC29153WU
+D 1.5A low dropout linear regulator, adjustable output, TO-263
+K 1.5A LDO linear voltage regulator adjustable positive
+F http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf
+$ENDCMP
+#
+$CMP MIC29302WT
+D 3A low dropout linear regulator, adjustable output, TO-220
+K 3A LDO linear voltage regulator adjustable positive
+F http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf
+$ENDCMP
+#
+$CMP MIC29302WU
+D 3A low dropout linear regulator, adjustable output, TO-263
+K 3A LDO linear voltage regulator adjustable positive
+F http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf
+$ENDCMP
+#
+$CMP MIC29303WT
+D 3A low dropout linear regulator, adjustable output, TO-220
+K 3A LDO linear voltage regulator adjustable positive
+F http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf
+$ENDCMP
+#
+$CMP MIC29303WU
+D 3A low dropout linear regulator, adjustable output, TO-263
+K 3A LDO linear voltage regulator adjustable positive
+F http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf
+$ENDCMP
+#
+$CMP MIC29502WT
+D 5A low dropout linear regulator, adjustable output, TO-220
+K 5A LDO linear voltage regulator adjustable positive
+F http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf
+$ENDCMP
+#
+$CMP MIC29502WU
+D 5A low dropout linear regulator, adjustable output, TO-263
+K 5A LDO linear voltage regulator adjustable positive
+F http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf
+$ENDCMP
+#
+$CMP MIC29503WT
+D 5A low dropout linear regulator, adjustable output, TO-220
+K 5A LDO linear voltage regulator adjustable positive
+F http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf
+$ENDCMP
+#
+$CMP MIC29503WU
+D 5A low dropout linear regulator, adjustable output, TO-263
+K 5A LDO linear voltage regulator adjustable positive
+F http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf
+$ENDCMP
+#
+$CMP MIC29752WT
+D 7.5A low dropout linear regulator, adjustable output, TO-247
+K 7.5A LDO linear voltage regulator adjustable positive
+F http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf
 $ENDCMP
 #
 $CMP MIC5205-2.5YM5
