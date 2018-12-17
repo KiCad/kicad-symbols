@@ -86,7 +86,13 @@ $ENDCMP
 #
 $CMP ADA4898-1YRDZ
 D High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp
-K opamp single low noise
+K opamp single low noise low distortion
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf
+$ENDCMP
+#
+$CMP ADA4898-2
+D Dual High Voltage, Low Noise, Low Distortion, Unity-Gain Stable, High Speed Op Amp, SOIC-8-1EP
+K opamp dual low noise low distortion
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf
 $ENDCMP
 #
@@ -306,6 +312,12 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/lm6161.pdf
 $ENDCMP
 #
+$CMP LM675
+D Power Operational Amplifier, TO-220-5
+K single opamp
+F http://www.ti.com/lit/ds/symlink/lm675.pdf
+$ENDCMP
+#
 $CMP LM7332
 D Dual Rail-to-Rail Input and Output 30-V, Wide Voltage Range, High Output, Operational Amplifier, SOIC-8/SSOP-8
 K dual opamp
@@ -354,10 +366,22 @@ K differential opamp operational amplifier
 F http://www.ti.com/lit/ds/symlink/lmh6551.pdf
 $ENDCMP
 #
+$CMP LMH6609MA
+D 900MHz Voltage Feedback Op Amp, SOIC-8
+K opamp single wideband unity-gain stable
+F http://www.ti.com/lit/ds/symlink/lmh6609.pdf
+$ENDCMP
+#
 $CMP LMH6611
 D Single Supply, 345 MHz, Rail-to-Rail Output, Amplifier, TSOT-23-6
 K opamp operational amplifier single
 F http://www.ti.com/lit/ds/symlink/lmh6612.pdf
+$ENDCMP
+#
+$CMP LMH6702MA
+D 1.7 GHz Ultra-Low Distortion Wideband Op Amp, SOIC-8
+K opamp single low distortion wideband
+F http://www.ti.com/lit/ds/symlink/lmh6702.pdf
 $ENDCMP
 #
 $CMP LMV321
