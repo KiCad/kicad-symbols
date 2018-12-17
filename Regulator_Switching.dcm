@@ -192,6 +192,18 @@ K Isolated DC-to-DC Converter 5kV
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM6000.PDF
 $ENDCMP
 #
+$CMP AP6502
+D 340kHz 18V 2A Synchronois DC/DC Buck Converter
+K buck switching converter
+F https://www.diodes.com/assets/Datasheets/AP6502.pdf
+$ENDCMP
+#
+$CMP AP6503
+D 340kHz 23V 3A Synchonous DC/DC Buck Converter
+K buck switching converter
+F https://www.diodes.com/assets/Datasheets/AP6503.pdf
+$ENDCMP
+#
 $CMP APE1707H-12-HF
 D 2A, 150KHz PWM Buck DC/DC Converter, fixed 12.0V output voltage, TO-252-5 (D-PAK)
 K 12V 2A 150KHz PWM Buck DC/DC
@@ -4858,6 +4870,18 @@ $CMP TPS51363
 D High-voltage input, synchronous converter with integrated FET, QFN-28
 K Step-down
 F http://www.ti.com/lit/ds/symlink/tps51363.pdf
+$ENDCMP
+#
+$CMP TPS5420D
+D Adjustable Output, 2A Step-Down Converter, 5.5V-36V Input, 500kHz Switching Frequency
+K switching buck converter step-down
+F http://www.ti.com/lit/ds/symlink/tps5420.pdf
+$ENDCMP
+#
+$CMP TPS54233
+D 2A, Step Down DC-DC Converter with Eco-mode, 3.5-28V Input Voltage, SO-8
+K Step-Down DC-DC Switching Regulator High Voltage High Frequency
+F http://www.ti.com/lit/ds/symlink/tps54233.pdf
 $ENDCMP
 #
 $CMP TPS5430DDA
