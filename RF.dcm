@@ -19,8 +19,8 @@ F http://www.ti.com/lit/ds/symlink/cc2500.pdf
 $ENDCMP
 #
 $CMP LAT-3
-D Attenuator, 3dB, 0.5W, DC to 2500 MHz
-K attenuator
+D Attenuator, 3dB, 0.5W, DC to 2500 MHz, Mini-Circuits MMM168
+K attenuator rf
 F https://ww2.minicircuits.com/pdfs/LAT-3+.pdf
 $ENDCMP
 #
