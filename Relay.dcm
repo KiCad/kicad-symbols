@@ -84,10 +84,16 @@ K Single Pole Relay SPDT
 F https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf
 $ENDCMP
 #
+$CMP FINDER-36.11-4001
+D FINDER 36.11-4001, Single Pole Relay SPDT Sugar Cube, 10A
+K Single Pole Relay SPDT Sugar Cube
+F https://www.finder-relais.net/en/finder-relays-series-36.pdf
+$ENDCMP
+#
 $CMP FINDER-36.11-4301
 D FINDER 36.11-4301, Single Pole Relay SPST-NO Sugar Cube, 10A
 K Single Pole Relay SPST-NO Sugar Cube
-F http://gfinder.findernet.com/assets/Series/356/S36EN.pdf
+F https://www.finder-relais.net/en/finder-relays-series-36.pdf
 $ENDCMP
 #
 $CMP FINDER-40.11
@@ -511,9 +517,9 @@ F https://standexelectronics.com/de/produkte/ms-reed-relais/
 $ENDCMP
 #
 $CMP RM50-xx21
-D RELPOL, Single Pole Relay SPST-NO, 6A
-K Single Pole Relay SPST-NO
-F http://www.relpol.pl/en/content/download/13683/165953/file/e_RM50.pdf
+D Miniature Electromagnetic Relay, SPST-NO, 10A/15A
+K Single Pole Relay SPST-NO Sugar Cube
+F http://www.altechcorp.com/PDFS/IndustrialRelays/RM40-RM50.pdf
 $ENDCMP
 #
 $CMP RM84
