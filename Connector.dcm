@@ -1002,6 +1002,12 @@ K circular DIN connector
 F http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf
 $ENDCMP
 #
+$CMP DIN-41612-C-64-AC
+D Connector 41612, 64 contacts, ranges A-C
+K connector DIN 41612
+F https://www.mouser.com/datasheet/2/418/NG_CD_5650951_O1-668739.pdf
+$ENDCMP
+#
 $CMP DIN-5
 D 5-pin DIN connector
 K circular DIN connector
