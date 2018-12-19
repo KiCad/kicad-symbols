@@ -3408,6 +3408,18 @@ K LDO 5V
 F http://cds.linear.com/docs/en/datasheet/1962fb.pdf
 $ENDCMP
 #
+$CMP LT1963AEQ
+D 1.5A, Adjustable, Low Noise, Linear Voltage Regulator, TO-263-5
+K low noise voltage regulator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf
+$ENDCMP
+#
+$CMP LT1963EQ
+D 1.5A, Adjustable, Low Noise, Linear Voltage Regulator, TO-263-5
+K low noise voltage regulator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1963fc.pdf
+$ENDCMP
+#
 $CMP LT1964-5
 D MICROPOWER 200mA Low Noise LDO negative regulator, fixed output -5V, TSOT-23-5
 K REGULATOR POSITIVE POWER LDO fixed
@@ -3429,13 +3441,19 @@ $ENDCMP
 $CMP LT3010-5
 D 50mA 3-80V Micropower Low Dropout Regulator, fixed output 5V, MSOP-8
 K REGULATOR POSITIVE POWER LDO fixed
-F http://cds.linear.com/docs/en/datasheet/30105fe.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/30105fe.pdf
 $ENDCMP
 #
 $CMP LT3010-ADJ
 D 50mA 3-80V Micropower Low Dropout Regulator, adjustable output, MSOP-8
 K REGULATOR POSITIVE POWER LDO adjustable
-F http://cds.linear.com/docs/en/datasheet/30105fe.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/30105fe.pdf
+$ENDCMP
+#
+$CMP LT3015Q
+D 1.5A, Adjustable, Low Noise, Negative Voltage Regulator, TO-263-5
+K low noise voltage regulator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3015fb.pdf
 $ENDCMP
 #
 $CMP LT3080xDD
