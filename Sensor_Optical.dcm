@@ -210,6 +210,12 @@ K light dependent photo resistor LDR
 F http://cdn-reichelt.de/documents/datenblatt/A500/M996011a_b.pdf
 $ENDCMP
 #
+$CMP PMTx08Dyn
+D 8-stage photomultiplier tube
+K PMT 8-stage
+F ~
+$ENDCMP
+#
 $CMP S13360-3025CS
 D Multi-Pixel Photon Counter with 25µm pixel pitch
 K opto SiPM MPPC hamamatsu SPAD
