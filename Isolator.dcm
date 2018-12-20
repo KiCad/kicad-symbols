@@ -336,6 +336,12 @@ K NPN DC Dual Optocoupler
 F https://www.vishay.com/docs/83640/ild74.pdf
 $ENDCMP
 #
+$CMP ISO1541
+D I2C Isolator, 2.5 kVrms, Unidirectional Clock, Bidirectional data
+K digital isolator i2c
+F http://www.ti.com/lit/ds/symlink/iso1541.pdf
+$ENDCMP
+#
 $CMP ISO7320C
 D Low Power Dual-Channel 2/0 Digital Isolator, 25Mbps 33ns, Fail-Safe High, SO8
 K 2Ch Dual Digital Isolator 25Mbps
