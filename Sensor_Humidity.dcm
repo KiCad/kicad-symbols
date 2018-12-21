@@ -18,6 +18,30 @@ K Temerature Humidity Sensor
 F http://www.ti.com/lit/ds/symlink/hdc2080.pdf
 $ENDCMP
 #
+$CMP SHT30-DIS-B
+D SHT30-DIS-B  Sensirion humidity sensor digital output
+K SHT3x SENSOR HUMIDITY I2C
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/0_Datasheets/Humidity/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf
+$ENDCMP
+#
+$CMP SHT31-DIS-B
+D SHT31-DIS Sensirion humidity sensor digital output
+K SHT3x SENSOR HUMIDITY I2C
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/0_Datasheets/Humidity/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf
+$ENDCMP
+#
+$CMP SHT35-DIS-B
+D SHT35-DIS Sensirion humidity sensor digital output
+K SHT3x SENSOR HUMIDITY I2C
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/0_Datasheets/Humidity/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf
+$ENDCMP
+#
+$CMP SHT3x-DIS
+D SHT3x-DIS Sensirion humidity sensor digital output
+K SHT3x SENSOR HUMIDITY I2C
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/0_Datasheets/Humidity/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf
+$ENDCMP
+#
 $CMP Si7020-A20
 D I2C Humidity and Temperature Sensor, DFN-6
 K I2C Humidity Temperature Sensor
