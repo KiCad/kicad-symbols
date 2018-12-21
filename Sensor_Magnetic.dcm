@@ -84,6 +84,30 @@ K hall switch
 F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
 $ENDCMP
 #
+$CMP AH1806-P-A
+D Omnipolar Hall effect switch, VDD 2.5V - 5.5V, SIP-3
+K Omnipolar Hall effect switch
+F https://www.diodes.com/assets/Datasheets/AH1806.pdf
+$ENDCMP
+#
+$CMP AH1806-P-B
+D Omnipolar Hall effect switch, VDD 2.5V - 5.5V, SIP-3
+K Omnipolar Hall effect switch
+F https://www.diodes.com/assets/Datasheets/AH1806.pdf
+$ENDCMP
+#
+$CMP AH1806-W-7
+D Omnipolar Hall effect switch, VDD 2.5V - 5.5V, SC59
+K Omnipolar Hall effect switch
+F https://www.diodes.com/assets/Datasheets/AH1806.pdf
+$ENDCMP
+#
+$CMP AH1806-Z-7
+D Omnipolar Hall effect switch, VDD 2.5V - 5.5V, SOT-553
+K Omnipolar Hall effect switch
+F https://www.diodes.com/assets/Datasheets/AH1806.pdf
+$ENDCMP
+#
 $CMP AK7452
 D Magnetic rotary angle sensor, 14-bit, SPI interface, ABZ, UVW, TSSOP-16
 K sensor magnetic hall position rotation spi
