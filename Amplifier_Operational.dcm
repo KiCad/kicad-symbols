@@ -894,6 +894,12 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/opa1641.pdf
 $ENDCMP
 #
+$CMP OPA188AIDR
+D Precision, Low-Noise, Rail-to-Rail Output, 36-V, Zero-Drift Operational Amplifier, SOIC-8
+K single opamp zero-drift
+F http://www.ti.com/lit/ds/symlink/opa188.pdf
+$ENDCMP
+#
 $CMP OPA2134
 D Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8
 K dual opamp
