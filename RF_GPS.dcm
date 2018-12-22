@@ -1,5 +1,35 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP MAX-8C
+D GNSS Module MAX M8
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/MAX-8_DataSheet_%28UBX-16000093%29.pdf
+$ENDCMP
+#
+$CMP MAX-8Q
+D GNSS Module M8
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/MAX-8_DataSheet_%28UBX-16000093%29.pdf
+$ENDCMP
+#
+$CMP MAX-M8C
+D GNSS Module MAX M8
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/MAX-M8-FW3_DataSheet_%28UBX-15031506%29.pdf
+$ENDCMP
+#
+$CMP MAX-M8Q
+D GNSS Module MAX M8
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/MAX-M8-FW3_DataSheet_%28UBX-15031506%29.pdf
+$ENDCMP
+#
+$CMP MAX-M8W
+D GNSS Module MAX M8
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/MAX-M8-FW3_DataSheet_%28UBX-15031506%29.pdf
+$ENDCMP
+#
 $CMP RXM-GPS-FM
 D Module GPS Low Power, 14mA tracking, 22 channels
 K gps low-power
@@ -10,36 +40,6 @@ $CMP RXM-GPS-RM
 D Module GPS Low Power, 14mA tracking, 22 channels
 K gps low-power
 F https://linxtechnologies.com/wp/wp-content/uploads/rxm-gps-rm.pdf
-$ENDCMP
-#
-$CMP ublox_MAX-8C
-D GPS ublox MAX M8 variant
-K GPS module
-F https://www.u-blox.com/sites/default/files/MAX-8-M8-FW3_HardwareIntegrationManual_(UBX-15030059).pdf
-$ENDCMP
-#
-$CMP ublox_MAX-8Q
-D GPS ublox MAX M8 variant
-K GPS module
-F https://www.u-blox.com/sites/default/files/MAX-8-M8-FW3_HardwareIntegrationManual_%28UBX-15030059%29.pdf
-$ENDCMP
-#
-$CMP ublox_MAX-M8C
-D GPS ublox MAX M8 variant
-K GPS module
-F https://www.u-blox.com/sites/default/files/MAX-8-M8-FW3_HardwareIntegrationManual_%28UBX-15030059%29.pdf
-$ENDCMP
-#
-$CMP ublox_MAX-M8Q
-D GPS ublox MAX M8 variant
-K GPS module
-F https://www.u-blox.com/sites/default/files/MAX-8-M8-FW3_HardwareIntegrationManual_%28UBX-15030059%29.pdf
-$ENDCMP
-#
-$CMP ublox_MAX-M8W
-D GPS ublox MAX M8 variant
-K GPS module
-F https://www.u-blox.com/sites/default/files/MAX-8-M8-FW3_HardwareIntegrationManual_(UBX-15030059).pdf
 $ENDCMP
 #
 $CMP ublox_SAM-M8Q
