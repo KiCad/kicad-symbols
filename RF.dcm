@@ -24,6 +24,11 @@ K RF attenuator
 F http://cdn.macom.com/datasheets/maadss0008.pdf
 $ENDCMP
 #
+$CMP MC12080
+D 1.1 GHz Prescaler, divide by 10 20 40 80, SOIC-8
+K prescaler frequency divider
+F https://www.onsemi.com/pub/Collateral/MC12080-D.PDF
+$ENDCMP
 $CMP MC12093D
 D /2, /4, /8, 1.1 GHz Low Power Prescaler with Stand‐By Mode, SOIC-8
 K prescaler frequency divider
