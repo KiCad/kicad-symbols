@@ -1,5 +1,35 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP MAX-8C
+D GNSS Module MAX M8, VCC 1.65V to 3.6V
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/MAX-8_DataSheet_%28UBX-16000093%29.pdf
+$ENDCMP
+#
+$CMP MAX-8Q
+D GNSS Module M8, VCC 2.7V to 3.6V
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/MAX-8_DataSheet_%28UBX-16000093%29.pdf
+$ENDCMP
+#
+$CMP MAX-M8C
+D GNSS Module MAX M8, VCC 1.65V to 3.6V
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/MAX-M8-FW3_DataSheet_%28UBX-15031506%29.pdf
+$ENDCMP
+#
+$CMP MAX-M8Q
+D GNSS Module MAX M8, VCC 2.7V to 3.6V
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/MAX-M8-FW3_DataSheet_%28UBX-15031506%29.pdf
+$ENDCMP
+#
+$CMP MAX-M8W
+D GNSS Module MAX M8, VCC 2.7V to 3.6V
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/MAX-M8-FW3_DataSheet_%28UBX-15031506%29.pdf
+$ENDCMP
+#
 $CMP RXM-GPS-FM
 D Module GPS Low Power, 14mA tracking, 22 channels
 K gps low-power
