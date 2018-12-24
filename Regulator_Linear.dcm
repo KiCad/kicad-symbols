@@ -6078,6 +6078,12 @@ K LDO Voltage Regulator 200mA
 F http://www.ti.com/lit/ds/symlink/tps79333-ep.pdf
 $ENDCMP
 #
+$CMP XC6220B331MR
+D 1A, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-23-5
+K LDO Voltage Regulator 1A
+F https://www.torexsemi.com/file/xc6220/XC6220.pdf
+$ENDCMP
+#
 $CMP uA7805
 D Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263
 K Voltage Regulator 1A Positive

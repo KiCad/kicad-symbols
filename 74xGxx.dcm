@@ -48,6 +48,12 @@ K Single Gate OR LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
+$CMP 74AHC1G4210
+D 10-stage divider and oscillator, SOT353-1
+K divider oscillator
+F https://assets.nexperia.com/documents/data-sheet/74AHC1G4210.pdf
+$ENDCMP
+#
 $CMP 74AHC1G86
 D Single EX-OR Gate, Low-Voltage CMOS
 K Single Gate EX-OR LVC CMOS
