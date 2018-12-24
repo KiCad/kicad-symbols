@@ -1,5 +1,35 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP NEO-8Q
+D GNSS Module Neo-M8Q, VCC 1.65V to 3.6V
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/NEO-8Q_DataSheet_%28UBX-15031913%29.pdf
+$ENDCMP
+#
+$CMP NEO-M8M
+D GNSS Module Neo M8M, VCC 2.7V to 3.6V
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_%28UBX-15031086%29.pdf
+$ENDCMP
+#
+$CMP NEO-M8N
+D GNSS Module Neo M8N, VCC 2.7V to 3.6V
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_%28UBX-15031086%29.pdf
+$ENDCMP
+#
+$CMP NEO-M8Q
+D GNSS Module Neo M8Q, VCC 2.7V to 3.6V
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_%28UBX-15031086%29.pdf
+$ENDCMP
+#
+$CMP NEO-M8T
+D GNSS Module Neo M8T, VCC 2.7V to 3.6V
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/NEO-LEA-M8T-FW3_DataSheet_%28UBX-15025193%29.pdf
+$ENDCMP
+#
 $CMP RXM-GPS-FM
 D Module GPS Low Power, 14mA tracking, 22 channels
 K gps low-power
@@ -10,36 +40,6 @@ $CMP RXM-GPS-RM
 D Module GPS Low Power, 14mA tracking, 22 channels
 K gps low-power
 F https://linxtechnologies.com/wp/wp-content/uploads/rxm-gps-rm.pdf
-$ENDCMP
-#
-$CMP ublox_NEO-8Q
-D GPS ublox Neo M8 variant
-K GPS module
-F https://www.u-blox.com/sites/default/files/NEO-8Q-NEO-M8-FW3_HardwareIntegrationManual_%28UBX-15029985%29_0.pdf
-$ENDCMP
-#
-$CMP ublox_NEO-M8M
-D GPS ublox Neo M8 variant
-K GPS module
-F https://www.u-blox.com/sites/default/files/NEO-8Q-NEO-M8-FW3_HardwareIntegrationManual_%28UBX-15029985%29_0.pdf
-$ENDCMP
-#
-$CMP ublox_NEO-M8N
-D GPS ublox Neo M8 variant
-K GPS module
-F https://www.u-blox.com/sites/default/files/NEO-8Q-NEO-M8-FW3_HardwareIntegrationManual_%28UBX-15029985%29_0.pdf
-$ENDCMP
-#
-$CMP ublox_NEO-M8Q
-D GPS ublox Neo M8 variant
-K GPS module
-F https://www.u-blox.com/sites/default/files/NEO-8Q-NEO-M8-FW3_HardwareIntegrationManual_%28UBX-15029985%29_0.pdf
-$ENDCMP
-#
-$CMP ublox_NEO-M8T
-D GPS ublox Neo M8 variant
-K GPS module
-F https://www.u-blox.com/sites/default/files/NEO-8Q-NEO-M8-FW3_HardwareIntegrationManual_%28UBX-15029985%29_0.pdf
 $ENDCMP
 #
 $CMP ublox_SAM-M8Q
