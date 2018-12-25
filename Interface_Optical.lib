@@ -193,10 +193,7 @@ F1 "SFP_SFP+_CONNECTOR" 450 650 50 H V C CNN
 F2 "Connector:Connector_SFP_and_Cage.kicad_mod" 0 -850 50 H I C CNN
 F3 "" -450 650 50 H I C CNN
 $FPLIST
- Pin_Header_Straight_1X20
- Pin_Header_Angled_1X20
- Socket_Strip_Straight_1X20
- Socket_Strip_Angled_1X20
+ SFP*
 $ENDFPLIST
 DRAW
 T 0 -50 0 50 0 0 0 SFP/SFP+ Normal 0 C C
