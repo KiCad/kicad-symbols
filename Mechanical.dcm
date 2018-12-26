@@ -1,8 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Fiducial
+D Fiducial Marker
+K fiducial marker
+F ~
+$ENDCMP
+#
 $CMP Heatsink
 D Heatsink
 K thermal heat temperature
+F ~
 $ENDCMP
 #
 $CMP Heatsink_Pad
