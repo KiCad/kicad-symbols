@@ -6082,6 +6082,13 @@ $CMP TPS7A7001DDA
 D 2A, Low-Dropout Voltage Regulator, 1.425-6.5V Input, Adjustable Min 0.5V Output, PowerPad SO-8
 K ldo regulator voltage linear
 F http://www.ti.com/lit/ds/symlink/tps7a7001.pdf
+F http://www.ti.com/lit/ds/symlink/tps7a7001.pdf
+$ENDCMP
+#
+$CMP TPS7A7200RGW
+D 2A, Low-Dropout Voltage Regulator, 1.5-6.5V Input, Adjustable 0.9-5V Output, VQFN-20
+K linear regulator ldo voltage
+F http://www.ti.com/lit/ds/symlink/tps7a7200.pdf
 $ENDCMP
 #
 $CMP XC6220B331MR
