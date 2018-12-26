@@ -6078,6 +6078,12 @@ K LDO Voltage Regulator 200mA
 F http://www.ti.com/lit/ds/symlink/tps79333-ep.pdf
 $ENDCMP
 #
+$CMP TPS7A7001DDA
+D 2A, Low-Dropout Voltage Regulator, 1.425-6.5V Input, Adjustable Min 0.5V Output, PowerPad SO-8
+K ldo regulator voltage linear
+F http://www.ti.com/lit/ds/symlink/tps7a7001.pdf
+$ENDCMP
+#
 $CMP XC6220B331MR
 D 1A, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-23-5
 K LDO Voltage Regulator 1A
