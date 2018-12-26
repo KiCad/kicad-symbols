@@ -1,5 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LEA-M8F
+D GNSS Module LEA M8, VCC 3V to 3.6V
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/products/documents/LEA-M8F_DataSheet_%28UBX-14001772%29.pdf
+$ENDCMP
+#
+$CMP LEA-M8S
+D GNSS Module LEA M8, VCC 2.7V to 3.6V
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/LEA-M8S-FW3_DataSheet_%28UBX-16010205%29.pdf
+$ENDCMP
+#
+$CMP LEA-M8T
+D GNSS Module LEA M8, VCC 2.7V to 3.6V
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/NEO-LEA-M8T-FW3_DataSheet_%28UBX-15025193%29.pdf
+$ENDCMP
+#
 $CMP RXM-GPS-FM
 D Module GPS Low Power, 14mA tracking, 22 channels
 K gps low-power
@@ -10,24 +28,6 @@ $CMP RXM-GPS-RM
 D Module GPS Low Power, 14mA tracking, 22 channels
 K gps low-power
 F https://linxtechnologies.com/wp/wp-content/uploads/rxm-gps-rm.pdf
-$ENDCMP
-#
-$CMP ublox_LEA-M8F
-D GPS ublox LEA M8 variant
-K GPS module
-F https://www.u-blox.com/sites/default/files/products/documents/LEA-M8F_HIM_%28UBX-14000034%29.pdf
-$ENDCMP
-#
-$CMP ublox_LEA-M8S
-D GPS ublox LEA M8 variant
-K GPS module
-F https://www.u-blox.com/sites/default/files/LEA-M8S-M8T-FW3_HardwareIntegrationManual_%28UBX-15030060%29.pdf
-$ENDCMP
-#
-$CMP ublox_LEA-M8T
-D GPS ublox LEA M8 variant
-K GPS module
-F https://www.u-blox.com/sites/default/files/LEA-M8S-M8T-FW3_HardwareIntegrationManual_%28UBX-15030060%29.pdf
 $ENDCMP
 #
 $CMP ublox_SAM-M8Q
