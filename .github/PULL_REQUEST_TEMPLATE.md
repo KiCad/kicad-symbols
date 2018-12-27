@@ -1,4 +1,9 @@
-*Replace this line with your commit message! Please provide a description of your pull request*
+Zilog Z80 PIO Parallel I/O DIP-40 
+
+Sorry not familiar with python. Have not run scripts.
+Checked as thoroughly as I could.
+http://www.zilog.com/docs/z80/um0081.pdf
+Regards Phil
 
 ------------
 Thanks for creating a pull request to contribute to the KiCad libraries! To speed up integration of your PR, please check the following items:
