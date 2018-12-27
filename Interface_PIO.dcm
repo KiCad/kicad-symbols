@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Z80PIO
+D Z80PIO Parallel I/O, DIP-40
+K Z80 PIO parallel
+F http:://www.zilog.com/docs/z80/um0081.pdf
+$ENDCMP
+#
+$CMP Z8420
+D Z8420 Z80PIO Parallel I/O, DIP-40
+K Z80 PIO parallel
+F http:://www.zilog.com/docs/z80/um0081.pdf
+$ENDCMP
+#
+$CMP Z84C20
+D Z84C20 Z80PIO Parallel I/O, CMOS, DIP-40
+K Z80 PIO parallel
+F http:://www.zilog.com/docs/z80/um0081.pdf
+$ENDCMP
+#
+#End Doc Library
