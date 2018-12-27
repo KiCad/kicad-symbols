@@ -12,18 +12,6 @@ K Touch QTouch Sensor Key
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9542-AT42-QTouch-BSW-AT42QT1011_Datasheet.pdf
 $ENDCMP
 #
-$CMP AT42QT1070-MMUR
-D Seven-channel Touch Sensor, VQFN20
-K Touch QTouch Sensor Key
-F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9596-AT42-QTouch-BSW-AT42QT1070_Datasheet.pdf
-$ENDCMP
-#
-$CMP AT42QT1070-SSUR
-D Seven-channel Touch Sensor, SOIC14
-K Touch QTouch Sensor Key
-F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9596-AT42-QTouch-BSW-AT42QT1070_Datasheet.pdf
-$ENDCMP
-#
 $CMP CAP1206-x-AIA
 D 6-Channel Capacitive Touch Sensor, DFN-10
 K 6 Channel Capacitive Touch Sensor
