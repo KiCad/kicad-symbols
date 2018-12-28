@@ -1374,6 +1374,12 @@ K RJ45 Magjack
 F https://www.amphenolcanada.com/ProductSearch/Drawings/AC/RJMG1BD3B8K1ANR.PDF
 $ENDCMP
 #
+$CMP RJ45_Hanrun_HR911105A
+D LAN Transformer Jack, RJ45, 10/100 BaseT
+K lan jack transformer
+F http://www.kosmodrom.com.ua/pdf/HR911105A.pdf
+$ENDCMP
+#
 $CMP RJ45_LED
 D RJ connector, 8P8C (8 positions 8 connected), two LEDs
 K 8P8C RJ female connector led
