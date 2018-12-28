@@ -282,6 +282,12 @@ K X capacitor discharge
 F http://www.monolithicpower.com/DesktopModules/DocumentManage/API/Document/getDocument?id=142
 $ENDCMP
 #
+$CMP INA3221
+D Triple-Channel High-Side Measurement Shunt and Bus Voltage Monitor with I2C- and SMBUS-Compatible Interface
+K Shunt and Bus voltage monitor
+F http://www.ti.com/lit/ds/symlink/ina3221.pdf
+$ENDCMP
+#
 $CMP IPS6011PBF
 D 39V, 60A, Intelligent Power Switch High Side, TO-220-5
 K Intelligent Power Switch High Side MOSFET
@@ -558,6 +564,12 @@ K switch power FET sequence
 F http://www.analog.com/media/en/technical-documentation/data-sheets/4417f.pdf
 $ENDCMP
 #
+$CMP MAX8586
+D Single 1.2A USB Current Limiting Switch
+K 1-channel USB current limiting power switch
+F https://datasheets.maximintegrated.com/en/ds/MAX8586.pdf
+$ENDCMP
+#
 $CMP MIC2026-1BM
 D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, in SOIC-8 Package
 K mosfet distribution
@@ -712,12 +724,6 @@ $CMP TSM103WA
 D Dual Operational Amplifier and 2.5V 0.4% Voltage Reference, SOIC-8
 K dual opamp reference
 F http://www.st.com/resource/en/datasheet/tsm103w.pdf
-$ENDCMP
-#
-$CMP MAX8586
-D Single 1.2A USB Current Limiting Switch
-K 1-channel USB current limiting power switch
-F https://datasheets.maximintegrated.com/en/ds/MAX8586.pdf
 $ENDCMP
 #
 #End Doc Library
