@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADP5063
+D Linear LiFePO4 Battery Charger with Power Path and USB Compatibility, LFCSP
+K LiFePo4 Battery USB PMIC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5063.pdf
+$ENDCMP
+#
 $CMP AS8506C
 D Stackable cell monitor, cell balancer, 3-7 Cells, SPI Interface
 K battery balance lithium charge afe
@@ -70,6 +76,18 @@ $CMP BQ297xy
 D Voltage and Current Protection for Single-Cell Li-Ion and Li-Polymer Batteries
 K protection Li-Ion Li-Pol
 F http://www.ti.com/lit/ds/symlink/bq2970.pdf
+$ENDCMP
+#
+$CMP BQ51050BRHL
+D Qi v1.2, Wireless Power Receiver and Battery Charger, Vout 4.2V, VQFN-20
+K Qi Wireless Power Receiver Battery Charger 4.2V
+F http://www.ti.com/lit/ds/symlink/bq51050b.pdf
+$ENDCMP
+#
+$CMP BQ51051BRHL
+D Qi v1.2, Wireless Power Receiver and Battery Charger, Vout 4.35V, VQFN-20
+K Qi Wireless Power Receiver Battery Charger 4.35V
+F http://www.ti.com/lit/ds/symlink/bq51051b.pdf
 $ENDCMP
 #
 $CMP BQ76940
