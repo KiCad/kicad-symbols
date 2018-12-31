@@ -126,6 +126,18 @@ K IR LED
 F http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf
 $ENDCMP
 #
+$CMP Inolux_IN-PI554FCH
+D 5050 RGB LED 4-Pin with integrated IC
+K RGB LED NeoPixel addressable
+F http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf
+$ENDCMP
+#
+$CMP Inolux_IN-PI556FCH
+D 5050 RGB LED 6-Pin with integrated IC
+K RGB LED NeoPixel addressable
+F http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI556FCH.pdf
+$ENDCMP
+#
 $CMP LD271
 D 940nm IR-LED, 5mm
 K IR LED
