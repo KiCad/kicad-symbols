@@ -270,12 +270,6 @@ K ISA
 F https://en.wikipedia.org/wiki/Industry_Standard_Architecture
 $ENDCMP
 #
-$CMP Bus_PCI_Express_Mini
-D Mini-PCIe bus connector
-K mini pcie
-F https://s3.amazonaws.com/fit-iot/download/facet-cards/documents/PCI_Express_miniCard_Electromechanical_specs_rev1.2.pdf
-$ENDCMP
-#
 $CMP Bus_PCI_32bit_5V
 D PCI bus connector for 5V cards
 K PCI 5V
@@ -286,6 +280,12 @@ $CMP Bus_PCI_32bit_Universal
 D PCI bus connector for universal 5V/3.3V cards
 K PCI 5V 3.3V 3V3
 F http://pinouts.ru/Slots/PCI_pinout.shtml
+$ENDCMP
+#
+$CMP Bus_PCI_Express_Mini
+D Mini-PCI Express bus connector
+K mini pcie
+F https://s3.amazonaws.com/fit-iot/download/facet-cards/documents/PCI_Express_miniCard_Electromechanical_specs_rev1.2.pdf
 $ENDCMP
 #
 $CMP C64AB
