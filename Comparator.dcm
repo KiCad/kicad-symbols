@@ -84,6 +84,24 @@ K dual comparator
 F http://www.ti.com/lit/ds/symlink/lmv331.pdf
 $ENDCMP
 #
+$CMP LMV7271
+D Single, 1.8V Low Power, Rail-to-Rail Input, Push-Pull Output Comparator, SOT-23-5/SC-70-5
+K single comparator rail-to-rail
+F http://www.ti.com/lit/ds/symlink/lmv7271.pdf
+$ENDCMP
+#
+$CMP LMV7272
+D Dual, 1.8V Low Power, Rail-to-Rail Input, Push-Pull Output Comparator, DSBGA-8
+K dual comparator rail-to-rail
+F http://www.ti.com/lit/ds/symlink/lmv7272.pdf
+$ENDCMP
+#
+$CMP LMV7275
+D Single, 1.8V Low Power, Rail-to-Rail Input, Open Collector Output Comparator, SOT-23-5/SC-70-5
+K single comparator rail-to-rail
+F http://www.ti.com/lit/ds/symlink/lmv7275.pdf
+$ENDCMP
+#
 $CMP LT1011
 D Voltage Comparator, DIP-8/SOIC-8/TO-5-8
 K comp
