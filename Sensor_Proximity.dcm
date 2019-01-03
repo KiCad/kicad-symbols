@@ -48,6 +48,16 @@ K Reflective Optical Sensor Opto
 F http://www.kingbright.com/attachments/file/psearch/000/00/00/KRC011(Ver.15).pdf
 $ENDCMP
 #
+$CMP LDC1312
+D Inductance to digital converters, 2-channel 12-bit/28-bit LDC1312/LDC1612
+K inductance sensor
+$ENDCMP
+#
+$CMP LDC1314
+D Inductance to digital converters, 4-channel 12-bit/28-bit LDC1314/LDC1614
+K inductance sensor
+$ENDCMP
+#
 $CMP LG206D
 D Photointerrupter infrared LED with photo IC, non-inverting output, -0.5V to 17V VDD, -20 to +85 degree Celsius, LG206D
 K Photointerrupter infrared LED with photo IC, non-inverting output, -0.5V to 17V VDD, -20 to +85 degree Celsius, LG206D
