@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AS1115-BQFT
+D 64 LEDs, I2C Interfaced LED Driver with Keyscan, TQFN-24
+K led driver i2c
+F https://ams.com/documents/20143/36005/AS1115_DS000206_1-00.pdf/3d3e6d35-b184-1329-adf9-2d769eb2404f
+$ENDCMP
+#
+$CMP AS1115-BSST
+D 64 LEDs, I2C Interfaced LED Driver with Keyscan, QSOP-24
+K led driver i2c
+F https://ams.com/documents/20143/36005/AS1115_DS000206_1-00.pdf/3d3e6d35-b184-1329-adf9-2d769eb2404f
+$ENDCMP
+#
 $CMP MAX7325AEG+
 D I2C Port Expander with 8 Push-Pull and 8 Open-Drain I/Os, QSOP-24 package
 K Expander I2C Parallel Port GPIO Maxim
