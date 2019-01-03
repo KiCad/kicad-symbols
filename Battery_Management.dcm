@@ -96,10 +96,28 @@ K Qi Wireless Power Receiver Battery Charger 4.2V
 F http://www.ti.com/lit/ds/symlink/bq51050b.pdf
 $ENDCMP
 #
+$CMP BQ51050BYFP
+D Qi v1.2, Wireless Power Receiver and Battery Charger, Vout 4.2V, DSBGA-28
+K Qi Wireless Power Receiver Battery Charger 4.2V
+F http://www.ti.com/lit/ds/symlink/bq51050b.pdf
+$ENDCMP
+#
 $CMP BQ51051BRHL
 D Qi v1.2, Wireless Power Receiver and Battery Charger, Vout 4.35V, VQFN-20
 K Qi Wireless Power Receiver Battery Charger 4.35V
 F http://www.ti.com/lit/ds/symlink/bq51051b.pdf
+$ENDCMP
+#
+$CMP BQ51051BYFP
+D Qi v1.2, Wireless Power Receiver and Battery Charger, Vout 4.35V, DSBGA-28
+K Qi Wireless Power Receiver Battery Charger 4.35V
+F http://www.ti.com/lit/ds/symlink/bq51051b.pdf
+$ENDCMP
+#
+$CMP BQ51052BYFP
+D Qi v1.2, Wireless Power Receiver and Battery Charger, Vout 4.40V, DSBGA-28
+K Qi Wireless Power Receiver Battery Charger 4.40V
+F http://www.ti.com/lit/ds/symlink/bq51052b.pdf
 $ENDCMP
 #
 $CMP BQ76940
