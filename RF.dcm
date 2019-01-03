@@ -24,6 +24,12 @@ K Low Power RF Transciever
 F http://www.ti.com/lit/ds/symlink/cc2500.pdf
 $ENDCMP
 #
+$CMP LRPS-2-1
+D Power Splitter/Combiner, 5 to 500 MHz, 50 Ohm
+K power splitter combiner
+F https://ww2.minicircuits.com/pdfs/LRPS-2-1.pdf
+$ENDCMP
+#
 $CMP MAADSS0008
 D 0-2GHz, 15dB step attenuator, SOT-23-5
 K RF attenuator
