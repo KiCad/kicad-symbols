@@ -1230,6 +1230,12 @@ K current transducer
 F https://www.lem.com/sites/default/files/products_datasheets/ho-np-0000_series.pdf
 $ENDCMP
 #
+$CMP HO15-NPxSP33
+D Current Transducer, 15A, Unipolar, 3.3V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/ho-np_sp33-1000_series.pdf
+$ENDCMP
+#
 $CMP HO15-NSM
 D Current Transducer, 15A, Unipolar, 5V
 K current transducer
@@ -1246,6 +1252,12 @@ $CMP HO25-NP
 D Current Transducer, 25A, Unipolar, 5V
 K current transducer
 F https://www.lem.com/sites/default/files/products_datasheets/ho-np-0000_series.pdf
+$ENDCMP
+#
+$CMP HO25-NPxSP33
+D Current Transducer, 25A, Unipolar, 3.3V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/ho-np_sp33-1000_series.pdf
 $ENDCMP
 #
 $CMP HO25-NSM
@@ -1270,6 +1282,12 @@ $CMP HO8-NP
 D Current Transducer, 8A, Unipolar, 5V
 K current transducer
 F https://www.lem.com/sites/default/files/products_datasheets/ho-np-0000_series.pdf
+$ENDCMP
+#
+$CMP HO8-NPxSP33
+D Current Transducer, 8A, Unipolar, 3.3V
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/ho-np_sp33-1000_series.pdf
 $ENDCMP
 #
 $CMP HO8-NSM
@@ -1402,6 +1420,24 @@ $CMP LA55-P
 D Current Transducer, 50A, Bipolar, +/-15V
 K current transducer
 F https://www.lem.com/sites/default/files/products_datasheets/la_55-p_e.pdf
+$ENDCMP
+#
+$CMP LTSR15-NP
+D Current Transducer, Unipolar, 15A, 5V supply, DC, AC, pulsed
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/ltsr_15-np.pdf
+$ENDCMP
+#
+$CMP LTSR25-NP
+D Current Transducer, Unipolar, 25A, 5V supply, DC, AC, pulsed
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/ltsr_25-np.pdf
+$ENDCMP
+#
+$CMP LTSR6-NP
+D Current Transducer, Unipolar, 6A, 5V supply, DC, AC, pulsed
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/ltsr_6-np.pdf
 $ENDCMP
 #
 #End Doc Library

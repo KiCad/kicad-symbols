@@ -618,6 +618,36 @@ K diode
 F http://www.vishay.com/docs/85543/bav17.pdf
 $ENDCMP
 #
+$CMP BAV70
+D Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23
+K diode
+F https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf
+$ENDCMP
+#
+$CMP BAV70M
+D Dual 100V 150mA high-speed switching diodes, common cathode, SOT-883
+K diode
+F https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf
+$ENDCMP
+#
+$CMP BAV70S
+D 100V 250mA high-speed switching diodes, dual common cathode, SOT-363
+K diode
+F https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf
+$ENDCMP
+#
+$CMP BAV70T
+D Dual 100V 150mA high-speed switching diodes, common cathode, SOT-416
+K diode
+F https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf
+$ENDCMP
+#
+$CMP BAV70W
+D Dual 100V 175mA high-speed switching diodes, common cathode, SOT-323
+K diode
+F https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf
+$ENDCMP
+#
 $CMP BAV756S
 D High-speed switching diodes, dual common anode/common cathode, SOT-363
 K Diode
@@ -1128,6 +1158,48 @@ K diode
 F http://www.onsemi.com/pub_link/Collateral/HN2D02FUTW1T1-D.PDF
 $ENDCMP
 #
+$CMP IDDD04G65C6
+D 650V, 4A, SiC Schottky Diode, CoolSiC, PG-HDSOP-10-1 (DDPAK)
+K sic diode
+F https://www.infineon.com/dgdl/Infineon-IDDD04G65C6-DS-v02_00-EN.pdf?fileId=5546d462625a528f01628f749daa0e03
+$ENDCMP
+#
+$CMP IDDD06G65C6
+D 650V, 6A, SiC Schottky Diode, CoolSiC, PG-HDSOP-10-1 (DDPAK)
+K sic diode
+F https://www.infineon.com/dgdl/Infineon-IDDD06G65C6-DS-v02_00-EN.pdf?fileId=5546d462625a528f01628f86ff8c0e09
+$ENDCMP
+#
+$CMP IDDD08G65C6
+D 650V, 8A, SiC Schottky Diode, CoolSiC, PG-HDSOP-10-1 (DDPAK)
+K sic diode
+F https://www.infineon.com/dgdl/Infineon-IDDD08G65C6-DS-v02_00-EN.pdf?fileId=5546d462625a528f01628ff7d31a104b
+$ENDCMP
+#
+$CMP IDDD10G65C6
+D 650V, 10A, SiC Schottky Diode, CoolSiC, PG-HDSOP-10-1 (DDPAK)
+K sic diode
+F https://www.infineon.com/dgdl/Infineon-IDDD10G65C6-DS-v02_00-EN.pdf?fileId=5546d462625a528f01628ff848ec1051
+$ENDCMP
+#
+$CMP IDDD12G65C6
+D 650V, 12A, SiC Schottky Diode, CoolSiC, PG-HDSOP-10-1 (DDPAK)
+K sic diode
+F https://www.infineon.com/dgdl/Infineon-IDDD12G65C6-DS-v02_00-EN.pdf?fileId=5546d462625a528f01628f86ec3e0e06
+$ENDCMP
+#
+$CMP IDDD16G65C6
+D 650V, 16A, SiC Schottky Diode, CoolSiC, PG-HDSOP-10-1 (DDPAK)
+K sic diode
+F https://www.infineon.com/dgdl/Infineon-IDDD16G65C6-DS-v02_00-EN.pdf?fileId=5546d462625a528f01628f8711b50e0c
+$ENDCMP
+#
+$CMP IDDD20G65C6
+D 650V, 20A, SiC Schottky Diode, CoolSiC, PG-HDSOP-10-1 (DDPAK)
+K sic diode
+F https://www.infineon.com/dgdl/Infineon-IDDD20G65C6-DS-v02_00-EN.pdf?fileId=5546d462625a528f01628ff837cf104e
+$ENDCMP
+#
 $CMP LL41
 D 100V 0.1A Small Signal Schottky diode, MiniMELF
 K diode Schottky
@@ -1396,6 +1468,12 @@ $CMP SB160
 D 60V 1A Schottky Barrier Rectifier Diode, DO-41
 K diode Schottky
 F http://www.diodes.com/_files/datasheets/ds23022.pdf
+$ENDCMP
+#
+$CMP SD103ATW
+D Schottky Barrier Diode Array, SOT-363
+K schottky barrier diode array
+F https://www.diodes.com/assets/Datasheets/ds30374.pdf
 $ENDCMP
 #
 $CMP SM2000

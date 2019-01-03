@@ -36,6 +36,12 @@ K audio adc 2ch 24bit 192kHz
 F http://www.akm.com/akm/en/file/datasheet/AK5394AVS.pdf
 $ENDCMP
 #
+$CMP AK5720VT
+D Stereo, 96kHz, 24-Bit, Delta-Sigma ADC, TSSOP-16
+K audio adc 2ch 24bit 96kHz I2S MSB TDM
+F https://www.akm.com/akm/en/file/datasheet/AK5720VT.pdf
+$ENDCMP
+#
 $CMP AS3310
 D ADSR Voltage Controlled Envelope Generator, DIP-16/SOIC-16
 K VCEG CEM3310 ALFA
@@ -184,6 +190,24 @@ $CMP PCM1794A
 D 24-Bit, 192-kHz Sampling, Advanced Segment, Audio Stereo Digital-to-Analog Converter, HW Control, SSOP-28
 K audio dac 2ch 24bit 192kHz
 F http://www.ti.com/lit/ds/symlink/pcm1794a.pdf
+$ENDCMP
+#
+$CMP PCM5100
+D 2VRMS DirectPath, 100dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface, TSSOP-20
+K audio dac 2ch 32bit 384kHz
+F http://www.ti.com/lit/ds/symlink/pcm5100.pdf
+$ENDCMP
+#
+$CMP PCM5101
+D 2VRMS DirectPath, 106dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface, TSSOP-20
+K audio dac 2ch 32bit 384kHz
+F http://www.ti.com/lit/ds/symlink/pcm5101.pdf
+$ENDCMP
+#
+$CMP PCM5102
+D 2VRMS DirectPath, 112dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface, TSSOP-20
+K audio dac 2ch 32bit 384kHz
+F http://www.ti.com/lit/ds/symlink/pcm5102.pdf
 $ENDCMP
 #
 $CMP PGA4311

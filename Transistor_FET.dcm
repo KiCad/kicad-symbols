@@ -786,6 +786,12 @@ K N-Channel SiC MOSFET
 F https://www.wolfspeed.com/media/downloads/835/C3M0280090J.pdf
 $ENDCMP
 #
+$CMP CSD16301Q2
+D 5A Id, 25V Vds, NexFET N-Channel Power MOSFET, 19mOhm Ron, SON-6
+K NexFET Power MOSFET N-MOS
+F http://www.ti.com/lit/ds/symlink/csd16301q2.pdf
+$ENDCMP
+#
 $CMP CSD16321Q5
 D 100A Id, 25V Vds, NexFET N-Channel Power MOSFET, 2.6mOhm Ron, 14nC Qg(typ), SON8 5x6mm
 K NexFET Power MOSFET N-MOS
@@ -1188,6 +1194,12 @@ K Dual N-Channel MOSFET
 F http://www.gneic.com/product/datasheet/FDG6335N-1122853.pdf
 $ENDCMP
 #
+$CMP FDMC8032L
+D 7A Id, 40V Vds, Dual N-Channel MOSFET, 20mOhm Ron, Power33 Package
+K Dual N-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/FD/FDMC8032L.pdf
+$ENDCMP
+#
 $CMP FDMS8050
 D 55A Id, 30V Vds, N-Channel PowerTrench MOSFET, 0.65mOhm Ron, 285nC Qgmax, -55 to 150 °C, 5x6mm SON8
 K powertrench mosfet fairchild
@@ -1338,6 +1350,12 @@ K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/FD/FDS4897C.pdf
 $ENDCMP
 #
+$CMP FDS6630A
+D 6.5A Id, 30V Vds, N-Channel MOSFET, 38mOhm Ron, SOIC-8
+K N-Channel MOSFET
+F http://www.onsemi.com/pub/Collateral/FDS6630A-D.pdf
+$ENDCMP
+#
 $CMP FDS6890A
 D 7.5A Id, 20V Vds, Dual N-Channel MOSFET, 18mOhm Ron, SO-8
 K Dual N-Channel MOSFET
@@ -1356,6 +1374,18 @@ K Dual N-Channel MOSFET
 F http://www.fairchildsemi.com/ds/FD/FDS6898A.pdf
 $ENDCMP
 #
+$CMP FDS6930A
+D 5.5A Id, 30V Vds, Dual N-Channel Logic Level MOSFET, 40mOhm Ron, SO-8
+K Dual N-Channel MOSFET
+F http://www.onsemi.com/pub/Collateral/FDS6930A-D.PDF
+$ENDCMP
+#
+$CMP FDS6930B
+D 5.5A Id, 30V Vds, Dual N-Channel Logic Level MOSFET, 38mOhm Ron, SO-8
+K Dual N-Channel MOSFET
+F http://www.onsemi.com/pub/Collateral/FDS6930B-D.PDF
+$ENDCMP
+#
 $CMP FDS8960C
 D 7A Id, 35V Vds, Dual N and P Channel MOSFET, 24mOhm Ron, 10V Vgs, SO8L
 K Dual N-Channel P-Channel MOSFET
@@ -1372,6 +1402,42 @@ $CMP FDS9934C
 D 6.5A Id, 20V Vds, Dual N and P Channel MOSFET, 30mOhm Ron, 4.5V Vgs, SO8L
 K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/FD/FDS9934C.pdf
+$ENDCMP
+#
+$CMP IPDD60R050G7
+D 47A Id, 600V Vds, 50mOhm, N-channel MOSFET, CoolMOS G7, PG-HDSOP-10-1 (DDPAK)
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/Infineon-IPDD60R050G7-DS-v02_00-EN.pdf?fileId=5546d4626102d35a0161707eb2f97810
+$ENDCMP
+#
+$CMP IPDD60R080G7
+D 29A Id, 600V Vds, 80mOhm, N-channel MOSFET, CoolMOS G7, PG-HDSOP-10-1 (DDPAK)
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/Infineon-IPDD60R080G7-DS-v02_00-EN.pdf?fileId=5546d4626102d35a016170882f757a07
+$ENDCMP
+#
+$CMP IPDD60R102G7
+D 23A Id, 600V Vds, 102mOhm, N-channel MOSFET, CoolMOS G7, PG-HDSOP-10-1 (DDPAK)
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/Infineon-IPDD60R102G7-DS-v02_00-EN.pdf?fileId=5546d4626102d35a01617087ee7379ed
+$ENDCMP
+#
+$CMP IPDD60R125G7
+D 20A Id, 600V Vds, 125mOhm, N-channel MOSFET, CoolMOS G7, PG-HDSOP-10-1 (DDPAK)
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/Infineon-IPDD60R125G7-DS-v02_00-EN.pdf?fileId=5546d4626102d35a0161706cba27778f
+$ENDCMP
+#
+$CMP IPDD60R150G7
+D 16A Id, 600V Vds, 150mOhm, N-channel MOSFET, CoolMOS G7, PG-HDSOP-10-1 (DDPAK)
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/Infineon-IPDD60R150G7-DS-v02_00-EN.pdf?fileId=5546d4626102d35a016170806aa57863
+$ENDCMP
+#
+$CMP IPDD60R190G7
+D 13A Id, 600V Vds, 190mOhm, N-channel MOSFET, CoolMOS G7, PG-HDSOP-10-1 (DDPAK)
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/Infineon-IPDD60R190G7-DS-v02_00-EN.pdf?fileId=5546d4626102d35a01617087dc0f79ea
 $ENDCMP
 #
 $CMP IPD50R380CE
@@ -2040,6 +2106,18 @@ K P-Channel MOSFET
 F http://www.jaolen.com/images/pdf/QM6015D.pdf
 $ENDCMP
 #
+$CMP PGA26E07BA
+D 26A Id, 600V Vds, 56mOhm, N-channel GaN MOSFET, DFN-8
+K N-Channel GaN MOSFET
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/PGA26E07BA_E.pdf
+$ENDCMP
+#
+$CMP PGA26E19BA
+D 13A Id, 600V Vds, 140mOhm, N-channel GaN MOSFET, DFN-8
+K N-Channel GaN MOSFET
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/PGA26E19BA_E.pdf
+$ENDCMP
+#
 $CMP STS2DNE60
 D 2A Id, 60V Vds, Dual N-Channel MOSFET, 180mOhm Ron, SO-8
 K Dual N-Channel MOSFET
@@ -2094,6 +2172,12 @@ K TrenchFET P-Channel Power MOSFET
 F https://www.vishay.com/docs/62504/sud50p10-43l-ge3.pdf
 $ENDCMP
 #
+$CMP Si1442DH
+D 12Vds Power N-Channel MOSFET, SC-70-6
+K NMOS n-mos n-mosfet transistor
+F http://www.vishay.com/docs/63772/si1442dh.pdf
+$ENDCMP
+#
 $CMP Si2319CDS
 D -4.4A Id, -40V Vds, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET
@@ -2106,6 +2190,12 @@ K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/SI/SI4532DY.pdf
 $ENDCMP
 #
+$CMP Si7336ADP
+D 30A Id, 30V Vds, 2.4 mOhm Ron, PowerPAK-8
+K N-Channel MOSFET
+F www.vishay.com/docs/73152/si7336adp.pdf
+$ENDCMP
+#
 $CMP Si4542DY
 D Dual N and P Channel MOSFET, 6A Id, 30V Vds, 28mOhm Ron, 10V Vgs, SO8L
 K Dual N-Channel P-Channel MOSFET
@@ -2116,6 +2206,12 @@ $CMP SiA453EDJ
 D -10A Id, -30V Vds, P-Channel MOSFET
 K P-Channel MOSFET
 F http://www.vishay.com/docs/62864/sia453edj.pdf
+$ENDCMP
+#
+$CMP SiS415DNT
+D -35A Id, -20V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single
+K P-Channel MOSFET
+F https://www.vishay.com/docs/63684/sis415dnt.pdf
 $ENDCMP
 #
 $CMP TP0610L
