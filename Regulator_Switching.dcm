@@ -654,6 +654,18 @@ K smps controller
 F http://www.leadtrend.com.tw/archive/doc/product/sheets/LD7575-DS-04b.pdf
 $ENDCMP
 #
+$CMP LM22676MR-5
+D 3A Step-Down Switching Voltage Regulater, 4.5-42V Input, 5V Output, 500kHz Switching Frequency, SOIC-8
+K DC/DC Buck Converter 3A
+F http://www.ti.com/lit/ds/symlink/lm22676.pdf
+$ENDCMP
+#
+$CMP LM22676MR-ADJ
+D 3A Step-Down Switching Voltage Regulater, 4.5-42V Input, Adjustable Output, 500kHz Switching Frequency, SOIC-8
+K DC/DC Buck Converter 3A
+F http://www.ti.com/lit/ds/symlink/lm22676.pdf
+$ENDCMP
+#
 $CMP LM25085MM
 D 42V Constant On-Time PFET Buck Switching Controller, MSOP-8
 K buck switching contoller
@@ -1588,6 +1600,42 @@ $CMP LMR64010XMF
 D 1A, 40Vout Step-Up Voltage Regulator, 1.6MHz Frequency, SOT-23-5
 K Miniature Step-Up Boost Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lmr64010.pdf
+$ENDCMP
+#
+$CMP LMZM23600
+D 0.5A Adjustable Step-Down DC/DC Power Module in 3.8x3mm, MicroSIP-10
+K Step-Down DC/DC Module
+F http://www.ti.com/lit/ds/symlink/lmzm23600.pdf
+$ENDCMP
+#
+$CMP LMZM23600V3
+D 0.5A 3.3V Step-Down DC/DC Power Module in 3.8x3mm, MicroSIP-10
+K Step-Down DC/DC Module
+F http://www.ti.com/lit/ds/symlink/lmzm23600.pdf
+$ENDCMP
+#
+$CMP LMZM23600V5
+D 0.5A 5V Step-Down DC/DC Power Module in 3.8x3mm, MicroSIP-10
+K Step-Down DC/DC Module
+F http://www.ti.com/lit/ds/symlink/lmzm23600.pdf
+$ENDCMP
+#
+$CMP LMZM23601
+D 1A Adjustable Step-Down DC/DC Power Module in 3.8x3mm, MicroSIP-10
+K Step-Down DC/DC Module
+F http://www.ti.com/lit/ds/symlink/lmzm23601.pdf
+$ENDCMP
+#
+$CMP LMZM23601V3
+D 1A 3.3V Step-Down DC/DC Power Module in 3.8x3mm, MicroSIP-10
+K Step-Down DC/DC Module
+F http://www.ti.com/lit/ds/symlink/lmzm23601.pdf
+$ENDCMP
+#
+$CMP LMZM23601V5
+D 1A 5V Step-Down DC/DC Power Module in 3.8x3mm, MicroSIP-10
+K Step-Down DC/DC Module
+F http://www.ti.com/lit/ds/symlink/lmzm23601.pdf
 $ENDCMP
 #
 $CMP LNK302D
@@ -3424,6 +3472,48 @@ $CMP PAM2305CGFADJ
 D 1A, Step-Down DC/DC-Converter, Adjustable Output Voltage, 1.5MHz, DFN-6
 K Voltage regulator switching buck fixed output analog
 F https://www.diodes.com/assets/Datasheets/PAM2305.pdf
+$ENDCMP
+#
+$CMP PAM2306AYPAA
+D 1A, Dual Step-Down DC/DC-Converter, Out1 ADJ, Out2 ADJ, 1.5MHz, W-DFN3x3
+K STEP-DOWN Dual channel 1A Out1 ADJ, Out2 ADJ
+F https://www.diodes.com/assets/Datasheets/PAM2306.pdf
+$ENDCMP
+#
+$CMP PAM2306AYPBB
+D 1A, Dual Step-Down DC/DC-Converter, Out1 1.2V, Out2 1.2V, 1.5MHz, W-DFN3x3
+K STEP-DOWN Dual channel 1A Out1 1.2V, Out2 1.2V
+F https://www.diodes.com/assets/Datasheets/PAM2306.pdf
+$ENDCMP
+#
+$CMP PAM2306AYPBK
+D 1A, Dual Step-Down DC/DC-Converter, Out1 1.2V, Out2 3.3V, 1.5MHz, W-DFN3x3
+K STEP-DOWN Dual channel 1A Out1 1.5V, Out2 3.3V
+F https://www.diodes.com/assets/Datasheets/PAM2306.pdf
+$ENDCMP
+#
+$CMP PAM2306AYPCB
+D 1A, Dual Step-Down DC/DC-Converter, Out1 1.5V, Out2 1.2V, 1.5MHz, W-DFN3x3
+K STEP-DOWN Dual channel 1A Out1 1.5V, Out2 1.2V
+F https://www.diodes.com/assets/Datasheets/PAM2306.pdf
+$ENDCMP
+#
+$CMP PAM2306AYPKB
+D 1A, Dual Step-Down DC/DC-Converter, Out1 3.3V, Out2 1.2V, 1.5MHz, W-DFN3x3
+K STEP-DOWN Dual channel 1A Out1 3.3V, Out2 1.2V
+F https://www.diodes.com/assets/Datasheets/PAM2306.pdf
+$ENDCMP
+#
+$CMP PAM2306AYPKE
+D 1A, Dual Step-Down DC/DC-Converter, Out1 3.3V, Out2 1.8V, 1.5MHz, W-DFN3x3
+K STEP-DOWN Dual channel 1A Out1 3.3V, Out2 1.8V
+F https://www.diodes.com/assets/Datasheets/PAM2306.pdf
+$ENDCMP
+#
+$CMP PAM2306DYPAA
+D 1A, Dual Step-Down DC/DC-Converter, Out1 ADJ, Out2 ADJ, 1.5MHz, W-DFN3x3
+K STEP-DOWN Dual channel 1A Out1 ADJ, Out2 ADJ
+F https://www.diodes.com/assets/Datasheets/PAM2306D.pdf
 $ENDCMP
 #
 $CMP R-781.5-0.5
