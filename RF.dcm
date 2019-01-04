@@ -66,6 +66,12 @@ K Low Power RF Transciever breakout carrier
 F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf
 $ENDCMP
 #
+$CMP RMK-5-51
+D 5x Frequency Multiplier, Output 37.5 to 52.5 MHz, 50 Ohm, Mini-Circuits TT1224
+K frequency multiplier
+F https://ww2.minicircuits.com/pdfs/RMK-5-51+.pdf
+$ENDCMP
+#
 $CMP SARA-U201
 D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, AT Command Set, Worldwide , LGA-96
 K GSM HSPA 2G 3G
