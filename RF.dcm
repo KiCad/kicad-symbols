@@ -6,6 +6,12 @@ K mixer rf
 F www.minicircuits.com/pdfs/ADE-6.pdf
 $ENDCMP
 #
+$CMP ADP-2-1W
+D Power splitter combiner, 1 to 650 MHz, 2 way 0-degree, 50 ohm, Mini-Circuits CD636
+K splitter combiner
+F https://ww2.minicircuits.com/pdfs/ADP-2-1W.pdf
+$ENDCMP
+#
 $CMP AMK-2-13
 D 2x Frequency Multiplier, output 20 to 1000 MHz, 50 Ohm, Mini-Circuits CD542
 K frequency multiplier
