@@ -84,6 +84,12 @@ K bandpass filter rf
 F https://ww2.minicircuits.com/pdfs/RBP-280+.pdf
 $ENDCMP
 #
+$CMP RLP-30
+D Low Pass Filter, DC to 30 MHz, 50 Ohm, Mini-Circuits GP1212
+K Low Pass Filter
+F https://ww2.minicircuits.com/pdfs/RLP-30+.pdf
+$ENDCMP
+#
 $CMP RMK-3-451
 D 3x Frequency Multiplier, output 300 to 450 MHz, 50 Ohm, Mini-Circuits TT1224
 K frequency multiplier
