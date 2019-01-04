@@ -43,8 +43,8 @@ F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Produc
 $ENDCMP
 #
 $CMP RBP-280
-D Bandpass Filter, 260 to 310 MHz 
-K bandpass filter
+D Bandpass Filter, 260 to 310 MHz, 50 Ohm, Mini-Circuits GP731
+K bandpass filter rf
 F https://ww2.minicircuits.com/pdfs/RBP-280+.pdf
 $ENDCMP
 #
