@@ -377,14 +377,14 @@ K Video Multiplexer analog switch
 F https://www.intersil.com/content/dam/Intersil/documents/hi-5/hi-524.pdf
 $ENDCMP
 #
-$CMP MAX14761
-D Above- and Below-the-Rails Low On-Resistance Analog Switches, max 2 Ohm On resistor, TDFN-10
+$CMP MAX14759
+D Above- and Below-the-Rails Low On-Resistance Analog Switches, max 2 Ohms On-Resistance, TDFN-8
 K analog switch low resistance above below rails
 F https://datasheets.maximintegrated.com/en/ds/MAX14759-MAX14763.pdf
 $ENDCMP
 #
-$CMP MAX14759
-D Above- and Below-the-Rails Low On-Resistance Analog Switches, max 2 Ohms On-Resistance, TDFN-8
+$CMP MAX14761
+D Above- and Below-the-Rails Low On-Resistance Analog Switches, max 2 Ohm On resistor, TDFN-10
 K analog switch low resistance above below rails
 F https://datasheets.maximintegrated.com/en/ds/MAX14759-MAX14763.pdf
 $ENDCMP
@@ -543,6 +543,18 @@ $CMP MAX333A
 D Quad SPDT CMOS Analog Switch, 17Ohm Ron, DIP-20/SOIC-20/SSOP-20/TSSOP-20
 K CMOS Analog Switch
 F https://datasheets.maximintegrated.com/en/ds/MAX333A.pdf
+$ENDCMP
+#
+$CMP MAX40200ANS
+D Ideal Diode, Ultra-Low Voltage Drop, 1.5-5.5V, 1A, WLP-4
+K current switch
+F https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf
+$ENDCMP
+#
+$CMP MAX40200AUK
+D Ideal Diode, Ultra-Low Voltage Drop, 1.5-5.5V, 1A, SOT-23-5
+K current switch
+F https://datasheets.maximintegrated.com/en/ds/MAX40200.pdf
 $ENDCMP
 #
 $CMP NC7SB3157L6X
