@@ -306,6 +306,48 @@ K voltage reference vref
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1019fd.pdf
 $ENDCMP
 #
+$CMP LT1790-1.25
+D 1.25V Voltage Reference, Low Dropout, Micropower, TSOT-23-6
+K voltage reference Micropower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1790fc.pdf
+$ENDCMP
+#
+$CMP LT1790-2.048
+D 2.048V Voltage Reference, Low Dropout, Micropower, TSOT-23-6
+K voltage reference Micropower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1790fc.pdf
+$ENDCMP
+#
+$CMP LT1790-2.5
+D 2.5V Voltage Reference, Low Dropout, Micropower, TSOT-23-6
+K voltage reference Micropower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1790fc.pdf
+$ENDCMP
+#
+$CMP LT1790-3
+D 3V Voltage Reference, Low Dropout, Micropower, TSOT-23-6
+K voltage reference Micropower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1790fc.pdf
+$ENDCMP
+#
+$CMP LT1790-3.3
+D 3.3V Voltage Reference, Low Dropout, Micropower, TSOT-23-6
+K voltage reference Micropower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1790fc.pdf
+$ENDCMP
+#
+$CMP LT1790-4.096
+D 4.096V Voltage Reference, Low Dropout, Micropower, TSOT-23-6
+K voltage reference Micropower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1790fc.pdf
+$ENDCMP
+#
+$CMP LT1790-5
+D 5V Voltage Reference, Low Dropout, Micropower, TSOT-23-6
+K voltage reference Micropower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1790fc.pdf
+$ENDCMP
+#
 $CMP LT6657AHMS8-2.5
 D Precision voltage reference, 40V input, 10mA output, 1.5ppm/C drift, 2.5V output, MSOP-8
 K voltage reference vref
