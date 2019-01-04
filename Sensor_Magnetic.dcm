@@ -120,6 +120,18 @@ K sensor magnetic hall position rotation spi
 F https://ams.com/documents/20143/36005/AS5055A_DS000304_2-00.pdf
 $ENDCMP
 #
+$CMP DRV5033AJQDBZ
+D Hall effect switch, omnipolar, Bop=6.9mT, Brp=3.5, -40C to +125C
+K hall switch
+F http://www.ti.com/lit/ds/symlink/drv5033.pdf
+$ENDCMP
+#
+$CMP DRV5033FAQDBZ
+D Hall effect switch, omnipolar, Bop=3.5mT, Brp=2.0, -40C to +125C
+K hall switch
+F http://www.ti.com/lit/ds/symlink/drv5033.pdf
+$ENDCMP
+#
 $CMP MA730
 D Magnetic rotary angle sensor, 14-bit, SPI interface, ABZ, PWM, QFN-16
 K sensor magnetic hall position rotation spi
