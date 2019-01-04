@@ -47,6 +47,7 @@ D 1.1 GHz Prescaler, divide by 10 20 40 80, SOIC-8
 K prescaler frequency divider
 F https://www.onsemi.com/pub/Collateral/MC12080-D.PDF
 $ENDCMP
+#
 $CMP MC12093D
 D /2, /4, /8, 1.1 GHz Low Power Prescaler with Stand‐By Mode, SOIC-8
 K prescaler frequency divider
@@ -77,6 +78,12 @@ K frequency multiplier
 F https://ww2.minicircuits.com/pdfs/RMK-3-451+.pdf
 $ENDCMP
 #
+$CMP RMK-5-51
+D 5x Frequency Multiplier, Output 37.5 to 52.5 MHz, 50 Ohm, Mini-Circuits TT1224
+K frequency multiplier
+F https://ww2.minicircuits.com/pdfs/RMK-5-51+.pdf
+$ENDCMP
+#
 $CMP SARA-U201
 D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, AT Command Set, Worldwide , LGA-96
 K GSM HSPA 2G 3G
@@ -99,6 +106,12 @@ $CMP SARA-U280
 D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, Designed for America, LGA-96
 K GSM HSPA 2G 3G
 F https://www.u-blox.com/sites/default/files/SARA-U2_DataSheet_(UBX-13005287).pdf
+$ENDCMP
+#
+$CMP SCHF-31+
+D High Pass Filter, 31 to 1500 MHz, 50 Ohm, Mini-Circuits YY161
+K highpass filter rf
+F https://ww2.minicircuits.com/pdfs/SCHF-31+.pdf
 $ENDCMP
 #
 $CMP SE5004L
