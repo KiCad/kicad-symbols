@@ -12,6 +12,12 @@ K usb isolation
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM4160.pdf
 $ENDCMP
 #
+$CMP BQ24392
+D Dual SPST USB 2.0 High Speed Switch with USB Battery Charging Specification Revision 1.2 Detection, UQFN-10
+K USB BC detector charger
+F http://www.ti.com/lit/ds/symlink/bq24392.pdf
+$ENDCMP
+#
 $CMP CH330N
 D USB serial converter, UART, SOIC-8
 K usb uart wch serial
