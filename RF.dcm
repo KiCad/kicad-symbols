@@ -41,6 +41,7 @@ D 1.1 GHz Prescaler, divide by 10 20 40 80, SOIC-8
 K prescaler frequency divider
 F https://www.onsemi.com/pub/Collateral/MC12080-D.PDF
 $ENDCMP
+#
 $CMP MC12093D
 D /2, /4, /8, 1.1 GHz Low Power Prescaler with Stand‐By Mode, SOIC-8
 K prescaler frequency divider
@@ -66,7 +67,7 @@ F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Produc
 $ENDCMP
 #
 $CMP RBPF-246+
-D Bandpass Filter, 236 to 265 MHz
+D Bandpass Filter, 236 to 265 MHz, 50 Ohm, Mini-Circuits CK605
 K Bandpass Filter
 F https://ww2.minicircuits.com/pdfs/RBPF-246+.pdf
 $ENDCMP
