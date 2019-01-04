@@ -25,7 +25,7 @@ F http://www.ti.com/lit/ds/symlink/cc2500.pdf
 $ENDCMP
 #
 $CMP LPF-B0R3
-D Low Pass Filter, DC to 0.3 MHz, 50 Ohm
+D Low Pass Filter, DC to 0.3 MHz, 50 Ohm, Mini-Circuits HZ1198
 K low pass filter
 F https://ww2.minicircuits.com/pdfs/LPF-B0R3+.pdf
 $ENDCMP
@@ -47,6 +47,7 @@ D 1.1 GHz Prescaler, divide by 10 20 40 80, SOIC-8
 K prescaler frequency divider
 F https://www.onsemi.com/pub/Collateral/MC12080-D.PDF
 $ENDCMP
+#
 $CMP MC12093D
 D /2, /4, /8, 1.1 GHz Low Power Prescaler with Stand‐By Mode, SOIC-8
 K prescaler frequency divider
