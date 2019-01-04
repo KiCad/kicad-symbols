@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP ADC-10-1R
-D Directional Coupler, 5 to 900 MHz, 10 dB Coupling
+D Directional Coupler, 5 to 900 MHz, 10 dB Coupling, 50 Ohm, Mini-Circuits CD542
 K Directional Coupler
 F https://ww2.minicircuits.com/pdfs/ADC-10-1R.pdf
 $ENDCMP
@@ -47,6 +47,7 @@ D 1.1 GHz Prescaler, divide by 10 20 40 80, SOIC-8
 K prescaler frequency divider
 F https://www.onsemi.com/pub/Collateral/MC12080-D.PDF
 $ENDCMP
+#
 $CMP MC12093D
 D /2, /4, /8, 1.1 GHz Low Power Prescaler with Stand‐By Mode, SOIC-8
 K prescaler frequency divider
