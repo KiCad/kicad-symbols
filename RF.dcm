@@ -66,6 +66,12 @@ K Low Power RF Transciever breakout carrier
 F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf
 $ENDCMP
 #
+$CMP RMK-3-451
+D 3x Frequency Multiplier, output 300 to 450 MHz, 50 Ohm, Mini-Circuits TT1224
+K frequency multiplier
+F https://ww2.minicircuits.com/pdfs/RMK-3-451+.pdf
+$ENDCMP
+#
 $CMP RMK-5-51
 D 5x Frequency Multiplier, Output 37.5 to 52.5 MHz, 50 Ohm, Mini-Circuits TT1224
 K frequency multiplier
