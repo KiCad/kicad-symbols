@@ -1,6 +1,21 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Fiducial
+#
+DEF Fiducial FD 0 20 Y Y 1 F N
+F0 "FID" 0 200 50 H V C CNN
+F1 "Fiducial" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Fiducial*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 20 f
+ENDDRAW
+ENDDEF
+#
 # Heatsink
 #
 DEF Heatsink HS 0 40 Y Y 1 F N
@@ -137,6 +152,21 @@ $ENDFPLIST
 DRAW
 C 0 50 50 0 1 50 N
 X 1 1 0 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DIN_Rail_Adapter
+DEF DIN_Rail_Adapter DRA 0 20 Y Y 1 F N
+F0 "DRA" 0 250 50 H V C CNN
+F1 "DIN_Rail_Adapter" 0 150 50 H V C CNN
+F2 "" 0 -200 50 H I C CNN
+F3 "" 0 150 50 H I C CNN
+$FPLIST
+ DINRailAdapter?3xM3*
+ DINRailAdapter?2xM3*
+$ENDFPLIST
+DRAW
+P 14 0 1 0 400 100 -400 100 -400 -150 -300 -150 -300 -100 -350 -100 -350 -50 350 -50 350 -100 300 -100 300 -150 400 -150 400 100 -400 100 f
 ENDDRAW
 ENDDEF
 #
