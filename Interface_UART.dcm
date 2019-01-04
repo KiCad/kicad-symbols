@@ -231,6 +231,12 @@ K Low Power Half-Duplex RS-485 RS-422 Transceiver
 F https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf
 $ENDCMP
 #
+$CMP MAX3218
+D Dual RS-232 Transceiver, 1.8V to 4.25V, AutoShutdown, DIP-20/SSOP-20
+K 1μA Supply Current
+F https://datasheets.maximintegrated.com/en/ds/MAX3218.pdf
+$ENDCMP
+#
 $CMP MAX3221
 D RS232 transceiver with 15kV ESD protection
 K serial UART RS232
