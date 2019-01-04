@@ -1,15 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP AMK-2-13
-D 2x Frequency Multiplier, output 20 to 1000 MHz, 50 Ohm
-K frequency multiplier
-F https://ww2.minicircuits.com/pdfs/AMK-2-13+.pdf
-$ENDCMP
-#
 $CMP ADE-6
 D Mixer, +7 dBm LO, 0.05 to 250 MHz
 K mixer rf
 F www.minicircuits.com/pdfs/ADE-6.pdf
+$ENDCMP
+#
+$CMP AMK-2-13
+D 2x Frequency Multiplier, output 20 to 1000 MHz, 50 Ohm, Mini-Circuits CD542
+K frequency multiplier
+F https://ww2.minicircuits.com/pdfs/AMK-2-13+.pdf
 $ENDCMP
 #
 $CMP CC1000
@@ -41,6 +41,7 @@ D 1.1 GHz Prescaler, divide by 10 20 40 80, SOIC-8
 K prescaler frequency divider
 F https://www.onsemi.com/pub/Collateral/MC12080-D.PDF
 $ENDCMP
+#
 $CMP MC12093D
 D /2, /4, /8, 1.1 GHz Low Power Prescaler with Stand‐By Mode, SOIC-8
 K prescaler frequency divider
