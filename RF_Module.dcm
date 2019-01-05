@@ -73,14 +73,20 @@ F https://www.espressif.com/sites/default/files/documentation/0c-esp-wroom-02_da
 $ENDCMP
 #
 $CMP ESP32-WROOM-32
-D RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, SMD
-K RF Radio BT ESP ESP32 Espressif
+D RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD
+K RF Radio BT ESP ESP32 Espressif onboard PCB antenna
 F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
 $ENDCMP
 #
 $CMP ESP32-WROOM-32D
-D RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, SMD
-K RF Radio BT ESP ESP32 Espressif
+D RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD
+K RF Radio BT ESP ESP32 Espressif onboard PCB antenna
+F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
+$ENDCMP
+#
+$CMP ESP32-WROOM-32U
+D RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, SMD
+K RF Radio BT ESP ESP32 Espressif external U.FL antenna
 F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
 $ENDCMP
 #

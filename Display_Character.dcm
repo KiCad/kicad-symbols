@@ -240,6 +240,12 @@ K display LCD 7-segment
 F http://www.display-elektronik.de/filter/DE114-RS-20_635.pdf
 $ENDCMP
 #
+$CMP DE122-XX-XX
+D 6 digit 7 segment reflective standard LCD, pin length 6.35mm, -20°C to +70°C, 3V-5V VDD
+K display LCD 7-segment
+F http://www.display-elektronik.de/filter/DE122-RS-20_635.pdf
+$ENDCMP
+#
 $CMP DE170-XX-XX
 D 3 and half digit 7 segment reflective standard LCD with arrow, pin length 7.5mm, -20°C to +70°C, 3V-5V VDD
 K display LCD 7-segment
