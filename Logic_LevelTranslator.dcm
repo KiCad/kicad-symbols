@@ -1,9 +1,27 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74LVC2T45DC
+D Dual supply translating transceiver, 3-state, 2-bit, VSSOP-8
+K Level-Shifter CMOS-TTL-Translation
+F https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH2T45.pdf
+$ENDCMP
+#
+$CMP 74LVCH2T45DC
+D Dual supply translating transceiver with bus-hold for unused/floating inputs, 3-state, 2-bit, VSSOP-8
+K Level-Shifter CMOS-TTL-Translation
+F https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH2T45.pdf
+$ENDCMP
+#
 $CMP FXMA108
 D Dual-Supply, 8-Bit Signal Translator with Configurable Voltage Supplies and Signals Levels, 3-State Outputs and Auto Direction Sensing, WQFN-20
 K Level shifter translator bidirectional
 F http://www.onsemi.com/pub/Collateral/FXMA108-D.pdf
+$ENDCMP
+#
+$CMP SN74AUP1T34DCK
+D 1-Bit Unidirectional Voltage-Level Translator, SC-70
+K Noninverting
+F http://www.ti.com/lit/ds/symlink/sn74aup1t34.pdf
 $ENDCMP
 #
 $CMP SN74LVC1T45DBV
@@ -22,6 +40,12 @@ $CMP SN74LVC1T45DRL
 D Single-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, SOT-563
 K Level-Shifter CMOS-TTL-Translation
 F http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf
+$ENDCMP
+#
+$CMP SN74LVC2T45DCUR
+D Dual-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, VSSOP-8
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/sn74lvc2t45.pdf
 $ENDCMP
 #
 $CMP TXB0102DCT
@@ -82,6 +106,12 @@ $CMP TXB0108DQSR
 D 8-bit bidirectional voltage level translator with auto-direction sensing USON package
 K bidirectional voltage level translator
 F http://www.ti.com/lit/ds/symlink/txb0108.pdf
+$ENDCMP
+#
+$CMP TXS0108EPW
+D Bidirectional  level-shifting voltage translator, TSSOP-20
+K 8-bit
+F www.ti.com/lit/ds/symlink/txs0108e.pdf
 $ENDCMP
 #
 #End Doc Library
