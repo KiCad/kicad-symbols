@@ -258,6 +258,12 @@ K 10 MHZ TO 1.4 GHZ I2C PROGRAMMABLE XO/VCXO
 F http://www.silabs.com/Support%20Documents/TechnicalDocs/si570.pdf
 $ENDCMP
 #
+$CMP SiT9121
+D 1-220 MHz High Performance Differential Oscillator
+K Differential Oscillator LVPECL LVDS
+F https://www.sitime.com/datasheet/SiT9121
+$ENDCMP
+#
 $CMP TCXO-14
 D Temperature Compensated Crystal Clock Oscillator, DIP14-style metal package
 K Crystal Clock Oscillator
