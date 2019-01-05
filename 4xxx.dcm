@@ -198,6 +198,12 @@ K CMOS And3
 F http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf
 $ENDCMP
 #
+$CMP 4075
+D Triple Or 3 inputs
+K CMOS Or3
+F http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf
+$ENDCMP
+#
 $CMP 4077
 D Quad Xnor 2 inputs
 K CMOS XOR XNOR XNOR2
@@ -208,6 +214,12 @@ $CMP 4081
 D Quad And 2 inputs
 K CMOS And2
 F http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf
+$ENDCMP
+#
+$CMP 4504
+D CMOS Hex Voltage-Level Shifter for TTL-to-CMOS or CMOS-to-CMOS, DIP-16/SOIC-16/TSSOP-16
+K Level-shifter
+F http://www.ti.com/lit/ds/symlink/cd4504b.pdf
 $ENDCMP
 #
 $CMP 4510
