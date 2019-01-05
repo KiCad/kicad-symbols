@@ -339,6 +339,12 @@ K LVDS Driver
 F http://www.ti.com/lit/ds/symlink/sn65lvds1.pdf
 $ENDCMP
 #
+$CMP Si53307-B-GM
+D 2:2 Low Jitter Universal Buffer/Level Translator, 725 MHz, QFN-16
+K clock buffer multiplexer mux LVDS LVPECL CML LVCMOS
+F https://www.silabs.com/documents/public/data-sheets/Si53307.pdf
+$ENDCMP
+#
 $CMP TB5D1MD
 D Quad differential PECL driver
 K differential PECL driver
