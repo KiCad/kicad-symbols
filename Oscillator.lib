@@ -291,13 +291,13 @@ ENDDEF
 # Oscillator_SMD_MiniCircuits_JTOS-50
 #
 DEF Oscillator_SMD_MiniCircuits_JTOS-50 X 0 20 Y Y 1 F N
-F0 "X" -100 250 50 H V L CNN
-F1 "Oscillator_SMD_MiniCircuits_JTOS-50" 150 -250 50 H V L CNN
-F2 "" 550 -350 50 H I C CNN
+F0 "X" -300 250 50 H V L CNN
+F1 "Oscillator_SMD_MiniCircuits_JTOS-50" 100 250 50 H V L CNN
+F2 "Package_SO:Mini-Circuits_BK377_LandPatternPL-005" 0 -400 50 H I C CNN
 F3 "" -200 100 50 H I C CNN
 ALIAS Oscillator_SMD_MiniCircuits_JTOS-25
 $FPLIST
- Oscillator*JTOS*PL?005*
+ Mini?Circuits*BK377*
 $ENDFPLIST
 DRAW
 S -300 200 300 -200 0 1 10 f
