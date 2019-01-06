@@ -42,6 +42,12 @@ K 16bit DAS ADC 16channel 1MSPS
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7616.pdf
 $ENDCMP
 #
+$CMP AD7682BCP
+D 16-bit, 4-Channel, 250kSPS, PulSAR ADC, Bipolar-Unipolar, LFCSP-20
+K 16-Bit 4-Channel 250kSPS
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7682_7689.pdf
+$ENDCMP
+#
 $CMP AD7722
 D 16-Bit, 195 kSPS CMOS, Sigma-Delta ADC, MQFP-44
 K adc 1ch 16bit parallel serial
