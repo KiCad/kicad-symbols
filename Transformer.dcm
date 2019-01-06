@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 5400BL15B050
+D 4.9-5.9GHz 1:1 RF Transformer, Unbalanced to Balanced
+K balun rf transformer
+F https://www.johansontechnology.com/datasheets/5400BL15B050/5400BL15B050.pdf
+$ENDCMP
+#
 $CMP ADT1-1
 D 0.15-400MHz 1:1 RF Transformer, Balanced to Balanced, CD542
 K Mini-Circuits RF Transformer
