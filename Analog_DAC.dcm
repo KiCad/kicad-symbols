@@ -456,6 +456,18 @@ K 12-bit DAC 1CH
 F https://datasheets.maximintegrated.com/en/ds/MAX5138-MAX5139.pdf
 $ENDCMP
 #
+$CMP MAX5215
+D Digital to analog, 14 Bit, 1 ch, 2.7 - 5.5 VDD, I2C, uMAX-8
+K DA 14 Bit 1 ch
+F https://datasheets.maximintegrated.com/en/ds/MAX5215-MAX5217.pdf
+$ENDCMP
+#
+$CMP MAX5217
+D Digital to analog, 16 Bit, 1 ch, 2.7 - 5.5 VDD, I2C, uMAX-8
+K DA 16 Bit 1 ch
+F https://datasheets.maximintegrated.com/en/ds/MAX5215-MAX5217.pdf
+$ENDCMP
+#
 $CMP MAX5741
 D Digital to analog, 10 Bit, 4 ch, 2.7 - 5.5 VDD, SPI, uMAX-10
 K DA 8 Bit 4 ch
