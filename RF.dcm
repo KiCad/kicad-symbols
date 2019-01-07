@@ -114,30 +114,6 @@ K frequency multiplier
 F https://ww2.minicircuits.com/pdfs/RMK-5-51+.pdf
 $ENDCMP
 #
-$CMP SARA-U201
-D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, AT Command Set, Worldwide , LGA-96
-K GSM HSPA 2G 3G
-F https://www.u-blox.com/sites/default/files/SARA-U2_DataSheet_(UBX-13005287).pdf
-$ENDCMP
-#
-$CMP SARA-U260
-D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, Designed for America, LGA-96
-K GSM HSPA 2G 3G
-F https://www.u-blox.com/sites/default/files/SARA-U2_DataSheet_(UBX-13005287).pdf
-$ENDCMP
-#
-$CMP SARA-U270
-D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, Designed for Europe, Asia and Others, LGA-96
-K GSM HSPA 2G 3G
-F https://www.u-blox.com/sites/default/files/SARA-U2_DataSheet_(UBX-13005287).pdf
-$ENDCMP
-#
-$CMP SARA-U280
-D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, Designed for America, LGA-96
-K GSM HSPA 2G 3G
-F https://www.u-blox.com/sites/default/files/SARA-U2_DataSheet_(UBX-13005287).pdf
-$ENDCMP
-#
 $CMP SCHF-31+
 D High Pass Filter, 31 to 1500 MHz, 50 Ohm, Mini-Circuits YY161
 K highpass filter rf
@@ -148,30 +124,6 @@ $CMP SE5004L
 D 5 GHz, 26dBm Power Amplifier with Power Detector, QFN20 4x4mm
 K RF Power Amplifier
 F http://www.skyworksinc.com/uploads/documents/SE5004L_202393B.pdf
-$ENDCMP
-#
-$CMP SIM7020C
-D NB-IoT B1/B3/B5/B8, AT Command Set
-K NB-IoT Data SMS
-F https://simcom.ee/documents/SIM7020/SIM7020%20Hardware%20Design_V1.01.pdf
-$ENDCMP
-#
-$CMP SIM7020E
-D NB-IoT B1/B3/B5/B8/B20/B28, AT Command Set
-K NB-IoT Data SMS
-F https://simcom.ee/documents/SIM7020/SIM7020%20Hardware%20Design_V1.01.pdf
-$ENDCMP
-#
-$CMP SIM800C
-D GSM Quad-Band Communication Module, GPRS, Audio Engine, AT Command Set, Bluetooth is Optional
-K GSM GPRS Quad-Band SMS
-F http://simcom.ee/documents/SIM800C/SIM800C_Hardware_Design_V1.05.pdf
-$ENDCMP
-#
-$CMP SIM900
-D GSM Quad-Band Communication Module, GPRS, Audio Engine, AT Command Set
-K GSM GPRS Quad-Band SMS FAX
-F http://simcom.ee/documents/SIM900/SIM900_Hardware%20Design_V2.05.pdf
 $ENDCMP
 #
 $CMP SX1272
