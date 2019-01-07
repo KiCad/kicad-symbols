@@ -78,6 +78,12 @@ K darlington optocoupler
 F http://www.onsemi.com/pub/Collateral/HCPL2731-D.pdf
 $ENDCMP
 #
+$CMP HCPL-9000
+D High Speed Digital Isolator, CMOS, excellent transient immunity, active-low logic output enable, DIP-8
+K digital isolator, high speed
+F https://docs.broadcom.com/docs/AV02-0137EN
+$ENDCMP
+#
 $CMP ADuM1200AR
 D Dual-channel digital isolator, Bidirectional communication, 3 V/5 V level translation, SOIC-8
 K Dual-channel digital isolator
