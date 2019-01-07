@@ -3474,6 +3474,48 @@ K Voltage regulator switching buck fixed output analog
 F https://www.diodes.com/assets/Datasheets/PAM2305.pdf
 $ENDCMP
 #
+$CMP PAM2306AYPAA
+D 1A, Dual Step-Down DC/DC-Converter, Out1 ADJ, Out2 ADJ, 1.5MHz, W-DFN3x3
+K STEP-DOWN Dual channel 1A Out1 ADJ, Out2 ADJ
+F https://www.diodes.com/assets/Datasheets/PAM2306.pdf
+$ENDCMP
+#
+$CMP PAM2306AYPBB
+D 1A, Dual Step-Down DC/DC-Converter, Out1 1.2V, Out2 1.2V, 1.5MHz, W-DFN3x3
+K STEP-DOWN Dual channel 1A Out1 1.2V, Out2 1.2V
+F https://www.diodes.com/assets/Datasheets/PAM2306.pdf
+$ENDCMP
+#
+$CMP PAM2306AYPBK
+D 1A, Dual Step-Down DC/DC-Converter, Out1 1.2V, Out2 3.3V, 1.5MHz, W-DFN3x3
+K STEP-DOWN Dual channel 1A Out1 1.5V, Out2 3.3V
+F https://www.diodes.com/assets/Datasheets/PAM2306.pdf
+$ENDCMP
+#
+$CMP PAM2306AYPCB
+D 1A, Dual Step-Down DC/DC-Converter, Out1 1.5V, Out2 1.2V, 1.5MHz, W-DFN3x3
+K STEP-DOWN Dual channel 1A Out1 1.5V, Out2 1.2V
+F https://www.diodes.com/assets/Datasheets/PAM2306.pdf
+$ENDCMP
+#
+$CMP PAM2306AYPKB
+D 1A, Dual Step-Down DC/DC-Converter, Out1 3.3V, Out2 1.2V, 1.5MHz, W-DFN3x3
+K STEP-DOWN Dual channel 1A Out1 3.3V, Out2 1.2V
+F https://www.diodes.com/assets/Datasheets/PAM2306.pdf
+$ENDCMP
+#
+$CMP PAM2306AYPKE
+D 1A, Dual Step-Down DC/DC-Converter, Out1 3.3V, Out2 1.8V, 1.5MHz, W-DFN3x3
+K STEP-DOWN Dual channel 1A Out1 3.3V, Out2 1.8V
+F https://www.diodes.com/assets/Datasheets/PAM2306.pdf
+$ENDCMP
+#
+$CMP PAM2306DYPAA
+D 1A, Dual Step-Down DC/DC-Converter, Out1 ADJ, Out2 ADJ, 1.5MHz, W-DFN3x3
+K STEP-DOWN Dual channel 1A Out1 ADJ, Out2 ADJ
+F https://www.diodes.com/assets/Datasheets/PAM2306D.pdf
+$ENDCMP
+#
 $CMP R-781.5-0.5
 D 500mA Step-Down DC/DC-Regulator, 4.75-30V input, 1.5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3
 K dc-dc recom Step-Down DC/DC-Regulator
@@ -5242,12 +5284,6 @@ $CMP TPS63061
 D Buck-Boost Converter, 2.5-12V Input Voltage, 2-A Switch Current, Fixed 5V Output Voltage, S-PWSON-10
 K Buck-Boost converter 5V
 F http://www.ti.com/lit/ds/symlink/tps63060.pdf
-$ENDCMP
-#
-$CMP TPS7A7200RGW
-D 2A, Low-Dropout Voltage Regulator, 1.5-6.5V Input, Adjustable 0.9-5V Output, VQFN-20
-K linear regulator ldo voltage
-F http://www.ti.com/lit/ds/symlink/tps7a7200.pdf
 $ENDCMP
 #
 $CMP TPS82130
