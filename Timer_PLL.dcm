@@ -30,4 +30,10 @@ K pll clock driver
 F http://www.ti.com/lit/ds/symlink/cdcvf2505.pdf
 $ENDCMP
 #
+$CMP ICS525-01RILF
+D User configurable clock, SSOP-28
+K Integrated Device Technology
+F https://www.idt.com/document/dst/525-01-02-datasheet
+$ENDCMP
+#
 #End Doc Library
