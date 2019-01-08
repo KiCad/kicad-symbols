@@ -6,10 +6,9 @@ K SAW filter
 F https://product.tdk.com/search-template/en/documents/data_sheet/40/ds/mc/B9482.pdf
 $ENDCMP
 #
-$CMP EMI_Filter_Bourns_SRF0905
-D EMI 2-inductor filter, 6x9.2mm Bourns SRF0905
+$CMP EMI_Filter_LL_1423
+D EMI 2-inductor filter, pin-connections 1-4 and 2-3
 K EMI filter common-mode choke
-F https://www.bourns.com/docs/Product-Datasheets/SRF0905.pdf
 $ENDCMP
 #
 $CMP SAFFA1G58KA0F0A
