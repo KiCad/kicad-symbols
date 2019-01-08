@@ -180,6 +180,12 @@ K RF attenuator
 F https://www.susumu.co.jp/common/pdf/n_catalog_partition16_en.pdf
 $ENDCMP
 #
+$CMP PD4859J5050S2HF
+D 4.8-5.9GHz Wilkinson Power Divider
+K rf power divider wilkinson
+F https://cdn.anaren.com/product-documents/Xinger/PowerDividers/PD4859J5050S2HF/PD4859J5050S2HF_DataSheet(Rev_D).pdf
+$ENDCMP
+#
 $CMP RBP-280
 D Bandpass Filter, 260 to 310 MHz, 50 Ohm, Mini-Circuits GP731
 K bandpass filter rf
