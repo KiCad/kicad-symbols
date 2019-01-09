@@ -54,6 +54,12 @@ K RF coupler
 F https://cdn.anaren.com/product-documents/Xinger/DirectionalCouplers/DC4759J5020AHF/DC4759J5020AHF_DataSheet(Rev_E).pdf
 $ENDCMP
 #
+$CMP HMC431
+D 5.5-6.1GHz VCO, QFN-24
+K vco rf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/hmc431.pdf
+$ENDCMP
+#
 $CMP LAT-3
 D Attenuator, 3dB, 0.5W, DC to 2500 MHz, 50 Ohm, Mini-Circuits MMM168
 K attenuator rf
