@@ -72,4 +72,16 @@ K STM32 Nucleo ST
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/data_brief/DM00105918.pdf
 $ENDCMP
 #
+$CMP VisionSOM-6UL
+D i.MX6-UL NXP ARM Cortex-A7 696MHz single core industrial SoM computer
+K somlabs module
+F https://wiki.somlabs.com/extensions/JZPDFGen/pdf/VisionSOM-6UL%20Datasheet%20and%20Pinout-41.pdf
+$ENDCMP
+#
+$CMP VisionSOM-6ULL
+D i.MX6-ULL NXP ARM Cortex-A7 900MHz single core industrial SoM computer
+K somlabs module
+F https://wiki.somlabs.com/extensions/JZPDFGen/pdf/VisionSOM-6ULL%20Datasheet%20and%20Pinout-21.pdf
+$ENDCMP
+#
 #End Doc Library
