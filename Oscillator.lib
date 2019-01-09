@@ -623,7 +623,7 @@ ENDDEF
 DEF VCXO_Abracon_ABLNO X 0 20 Y Y 1 F N
 F0 "X" -350 250 50 H V L CNN
 F1 "VCXO_Abracon_ABLNO" 150 250 50 H V L CNN
-F2 "Oscillator:Oscillator_SMD_VCXO_Abracon_ABLNO" 550 -350 50 H I C CNN
+F2 "Oscillator:Oscillator_SMD_Abracon_ABLNO" 550 -350 50 H I C CNN
 F3 "" -200 100 50 H I C CNN
 $FPLIST
  Oscillator*Abracon*ABLNO*
