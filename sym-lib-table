@@ -74,6 +74,7 @@
   (lib (name Isolator_Analog)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Isolator_Analog.lib)(options "")(descr "Analog isolator devices"))
   (lib (name Jumper)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Jumper.lib)(options "")(descr "(Solder) jumper symbols"))
   (lib (name LED)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/LED.lib)(options "")(descr "Light Emitting Diode (LED) symbols"))
+  (lib (name Logic_Gate)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Logic_Gate.lib)(options "")(descr "Logic gates (AND, OR, inverter, etc.)"))
   (lib (name Logic_LevelTranslator)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Logic_LevelTranslator.lib)(options "")(descr "Logic level translators and level shifters"))
   (lib (name Logic_Programmable)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Logic_Programmable.lib)(options "")(descr "Programmable logic symbols"))
   (lib (name Memory_Controller)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Memory_Controller.lib)(options "")(descr "Memory controller devices"))
