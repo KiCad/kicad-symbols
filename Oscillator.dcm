@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ABLNO
+D LVCMOS Ultra Low Phase Noise XO / VCXO, Abracon ABLNO
+K XO VCXO
+F https://abracon.com/Precisiontiming/ABLNO.pdf
+$ENDCMP
+#
 $CMP ACO-xxxMHz
 D HCMOS Crystal Clock Oscillator, DIP14-style metal package
 K Crystal Clock Oscillator
