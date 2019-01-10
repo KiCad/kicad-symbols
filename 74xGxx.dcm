@@ -774,6 +774,12 @@ K Single Gate NOT LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
+$CMP 74LVC1GU04DRL
+D Single Inverter Gate, SOT-553
+K inverter cmos
+F http://www.ti.com/lit/ds/symlink/sn74lvc1gu04.pdf
+$ENDCMP
+#
 $CMP 74LVC2G00
 D Dual NAND Gate, Low-Voltage CMOS
 K Dual Gate NAND LVC CMOS
