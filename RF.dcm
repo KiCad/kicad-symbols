@@ -78,6 +78,12 @@ K ask fsk ism transmitter
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MICRF112.pdf
 $ENDCMP
 #
+$CMP MICRF220AYQS
+D ASK Receiver 3.0-3.6V, 300-450MHz, -110dBm, QSOP-16
+K ask receiver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/micrf220.pdf
+$ENDCMP
+#
 $CMP NRF24L01
 D Ultra low power 2.4GHz RF Transceiver, QFN20 4x4mm
 K Low Power RF Transciever
