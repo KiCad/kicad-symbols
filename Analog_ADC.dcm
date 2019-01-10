@@ -419,6 +419,12 @@ K sigma-delta adc 2ch
 F http://cds.linear.com/docs/en/datasheet/18645lfs.pdf
 $ENDCMP
 #
+$CMP LTC229x
+D Dual-Channel, 12-Bit Low Power ADC, 25/40/65Msps
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/229321fa.pdf
+$ENDCMP
+#
 $CMP LTC2309_QFN
 D 8 Channels, 12-Bit SAR ADC, I2C interface, QFN-24 package
 K LT ADC 12bit I2C SAR QFN
