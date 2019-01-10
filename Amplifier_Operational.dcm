@@ -1266,6 +1266,12 @@ K quad opamp
 F http://www.ti.com/lit/ds/symlink/tlc274.pdf
 $ENDCMP
 #
+$CMP TLV172IDCK
+D Low-power Operational Amplifier, SOT-353
+K op amp operational amplifier
+F http://www.ti.com/lit/ds/symlink/tlv172.pdf
+$ENDCMP
+#
 $CMP TS881xCx
 D Rail-to-rail 0.9 V nanopower comparator, SC-70-5
 K single comparator
