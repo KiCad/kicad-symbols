@@ -264,6 +264,18 @@ K Crystal Clock Oscillator
 F https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC
 $ENDCMP
 #
+$CMP Si512A_2.5x3.2mm
+D Dual frequency crystal oscillator (XO) 100 kHz to 250 MHz, Single-ended CMOS output
+K Dual frequency crystal oscillator
+F https://www.silabs.com/documents/public/data-sheets/si512-13.pdf
+$ENDCMP
+#
+$CMP Si513A_2.5x3.2mm
+D Dual frequency crystal oscillator (XO) 100 kHz to 250 MHz, Single-ended CMOS output
+K Dual frequency crystal oscillator
+F https://www.silabs.com/documents/public/data-sheets/si512-13.pdf
+$ENDCMP
+#
 $CMP Si570
 D 10 MHZ TO 1.4 GHZ I2C PROGRAMMABLE XO/VCXO
 K 10 MHZ TO 1.4 GHZ I2C PROGRAMMABLE XO/VCXO
