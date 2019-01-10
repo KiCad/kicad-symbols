@@ -298,7 +298,7 @@ F http://pdf.datasheetcatalog.com/datasheets/560/501527_DS.pdf
 $ENDCMP
 #
 $CMP NB3N551MN
-D 1:4 Low Skew Clock Buffer
+D 1:4 Low Skew Clock Buffer, DFN-8
 K clock buffer
 F https://www.onsemi.com/pub/Collateral/NB3N551-D.PDF
 $ENDCMP
