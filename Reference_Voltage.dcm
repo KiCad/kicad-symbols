@@ -6,6 +6,30 @@ K voltage reference
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD586.pdf
 $ENDCMP
 #
+$CMP ADR420ARMZ
+D 2.048 V Voltage Reference, Ultraprecision, Low Noise, MSOP-8
+K voltage reference Ultraprecision Low Noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adr420_421_423_425.pdf
+$ENDCMP
+#
+$CMP ADR421ARMZ
+D 2.50 V Voltage Reference, Ultraprecision, Low Noise, MSOP-8
+K 2.5 V voltage reference
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adr420_421_423_425.pdf
+$ENDCMP
+#
+$CMP ADR423ARMZ
+D 3.00 V Voltage Reference, Ultraprecision, Low Noise, MSOP-8
+K 3V voltage reference
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adr420_421_423_425.pdf
+$ENDCMP
+#
+$CMP ADR425ARMZ
+D 5.00 V Voltage Reference, Ultraprecision, Low Noise, MSOP-8
+K 5V voltage reference
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adr420_421_423_425.pdf
+$ENDCMP
+#
 $CMP CJ432
 D Shunt Regulator, SOT-23
 K diode device shunt regulator
