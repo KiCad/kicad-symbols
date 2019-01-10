@@ -1182,6 +1182,12 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/ne5534.pdf
 $ENDCMP
 #
+$CMP SKY65404
+D 4.9-5.9GHz, 13dB Low-Noise Amplifier, DFN-6
+K LNA low noise amplifier RF
+F http://www.skyworksinc.com/uploads/documents/SKY65404_31_201512K.pdf
+$ENDCMP
+#
 $CMP THS4631D
 D Single High-voltage, High Slew Rate, Wideband, FET-input Operational Amplifier, SOIC-8
 K single opamp
