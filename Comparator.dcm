@@ -120,6 +120,12 @@ K single comparator
 F http://cds.linear.com/docs/en/datasheet/1116fc.pdf
 $ENDCMP
 #
+$CMP LT1711xMS8
+D Single ultrafast 4.5 ns rail-to-rail comparator, MSOP-8
+K comparator latch
+F https://www.analog.com/media/en/technical-documentation/data-sheets/171112f.pdf
+$ENDCMP
+#
 $CMP MCP6562
 D Dual 1.8V Low-Power Push-Pull Output Comparator, SOIC-8/MSOP-8
 K dual comparator
