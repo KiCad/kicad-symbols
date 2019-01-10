@@ -624,6 +624,12 @@ K EMI filter
 F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c30e.ashx?la=en-gb
 $ENDCMP
 #
+$CMP EMI_Filter_LL_1423
+D EMI 2-inductor filter, pin-connections 1-4 and 2-3
+K EMI filter common-mode choke
+F ~
+$ENDCMP
+#
 $CMP Earphone
 D Earphone, polarized
 K earphone speaker headphone
