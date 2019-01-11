@@ -1,8 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Fiducial
+D Fiducial Marker
+K fiducial marker
+F ~
+$ENDCMP
+#
 $CMP Heatsink
 D Heatsink
 K thermal heat temperature
+F ~
 $ENDCMP
 #
 $CMP Heatsink_Pad
@@ -32,6 +39,12 @@ $ENDCMP
 $CMP MountingHole_Pad
 D Mounting Hole with connection
 K mounting hole
+F ~
+$ENDCMP
+#
+$CMP DIN_Rail_Adapter
+D DIN Rail adapter universal, mounting holes without connection
+K Mounting holes, DIN rail adapter
 F ~
 $ENDCMP
 #
