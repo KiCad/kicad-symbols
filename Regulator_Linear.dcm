@@ -516,6 +516,48 @@ K linear regulator ldo fixed positive
 F https://www.diodes.com/assets/Datasheets/AP2204.pdf
 $ENDCMP
 #
+$CMP AP7361C-10E
+D 1A Low Dropout regulator, positive, 1.0V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F https://www.diodes.com/assets/Datasheets/AP7361C.pdf
+$ENDCMP
+#
+$CMP AP7361C-12E
+D 1A Low Dropout regulator, positive, 1.2V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F https://www.diodes.com/assets/Datasheets/AP7361C.pdf
+$ENDCMP
+#
+$CMP AP7361C-15E
+D 1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F https://www.diodes.com/assets/Datasheets/AP7361C.pdf
+$ENDCMP
+#
+$CMP AP7361C-18E
+D 1A Low Dropout regulator, positive, 1.8V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F https://www.diodes.com/assets/Datasheets/AP7361C.pdf
+$ENDCMP
+#
+$CMP AP7361C-25E
+D 1A Low Dropout regulator, positive, 2.5V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F https://www.diodes.com/assets/Datasheets/AP7361C.pdf
+$ENDCMP
+#
+$CMP AP7361C-28E
+D 1A Low Dropout regulator, positive, 2.8V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F https://www.diodes.com/assets/Datasheets/AP7361C.pdf
+$ENDCMP
+#
+$CMP AP7361C-33E
+D 1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F https://www.diodes.com/assets/Datasheets/AP7361C.pdf
+$ENDCMP
+#
 $CMP APE8865N-12-HF-3
 D 300 mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23
 K 300mA LDO Regulator Fixed Positive
@@ -2922,8 +2964,74 @@ K LDO Linear Regulator adjustable
 F http://www.ti.com/lit/ds/symlink/lp3966.pdf
 $ENDCMP
 #
+$CMP LP5907MFX-1.2
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 1.2V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-1.5
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 1.5V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
 $CMP LP5907MFX-1.8
-D 250-mA Ultra-Low-Noise Low-IQ LDO
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 1.8V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-2.5
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 2.5V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-2.8
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 2.8V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-2.85
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 2.85V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-2.9
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 2.9V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-3.0
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 3.0V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-3.1
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 3.1V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-3.2
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 3.2V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-3.3
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-4.5
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 4.5V, SOT-23
 K Single Output LDO Low-Noise
 F http://www.ti.com/lit/ds/symlink/lp5907.pdf
 $ENDCMP
@@ -4734,6 +4842,24 @@ K Dual LDO 500mA MSOP-8
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5355_6.pdf
 $ENDCMP
 #
+$CMP MIC5365-3.3YC5
+D 150mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SC-70-5
+K Micrel LDO voltage regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf
+$ENDCMP
+#
+$CMP MIC5365-3.3YD5
+D 150mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23-5
+K Micrel LDO voltage regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf
+$ENDCMP
+#
+$CMP MIC5366-3.3YC5
+D 150mA Low-dropout Voltage Regulator, Vout 3.3V, Output discharge circuit, Vin up to 5.5V, SC-70-5
+K Micrel LDO voltage regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf
+$ENDCMP
+#
 $CMP MIC5501-3.0YM5
 D 300mA Low-dropout Voltage Regulator, Vout 3.0V, Vin up to 5.5V, SOT-23
 K Micrel LDO voltage regulator
@@ -6126,7 +6252,7 @@ K LDO Voltage Regulator 200mA
 F http://www.ti.com/lit/ds/symlink/tps79333-ep.pdf
 $ENDCMP
 #
-$CMP TPS793333-EP
+$CMP TPS79333-EP
 D 200mA UltraLow-Noise, High-Precision, Fast RF, Low Drop-out Voltage Regualtor, Fixed Output 3.3V, SOT-23
 K LDO Voltage Regulator 200mA
 F http://www.ti.com/lit/ds/symlink/tps79333-ep.pdf

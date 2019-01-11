@@ -96,6 +96,30 @@ K clock generator signal
 F http://www.analog.com/media/en/technical-documentation/data-sheets/6909fa.pdf
 $ENDCMP
 #
+$CMP LTC6993xS6-1
+D TimerBlox Monostable Pulse Generator (One Shot), Rising-edge input, non-retriggerable, TSOT-23-6
+K Timer TimerBlox monostable pulse
+F https://www.analog.com/media/en/technical-documentation/data-sheets/69931234fc.pdf
+$ENDCMP
+#
+$CMP LTC6993xS6-2
+D TimerBlox Monostable Pulse Generator (One Shot), Rising-edge input, retriggerable, TSOT-23-6
+K Timer TimerBlox monostable pulse
+F https://www.analog.com/media/en/technical-documentation/data-sheets/69931234fc.pdf
+$ENDCMP
+#
+$CMP LTC6993xS6-3
+D TimerBlox Monostable Pulse Generator (One Shot), Falling-edge input, non-retriggerable, TSOT-23-6
+K Timer TimerBlox monostable pulse
+F https://www.analog.com/media/en/technical-documentation/data-sheets/69931234fc.pdf
+$ENDCMP
+#
+$CMP LTC6993xS6-4
+D TimerBlox Monostable Pulse Generator (One Shot), Falling-edge input, retriggerable, TSOT-23-6
+K Timer TimerBlox monostable pulse
+F https://www.analog.com/media/en/technical-documentation/data-sheets/69931234fc.pdf
+$ENDCMP
+#
 $CMP MC1455
 D Timers, DIP-8/SOIC-8
 K timer
