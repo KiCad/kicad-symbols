@@ -168,6 +168,12 @@ K Crystal Clock Oscillator
 F http://www.petermann-technik.de/fileadmin/petermann/pdf/crystal-oscillators/OCXO-14_PETERMANN-TECHNIK.pdf
 $ENDCMP
 #
+$CMP OH300
+D 100MHz Sinewave output OCXO, low phase-noise, high stability, Connor-Winfield OH300
+K OCXO
+F http://www.conwin.com/datasheets/cx/cx282.pdf
+$ENDCMP
+#
 $CMP SG-210SCD
 D Crystal Oscillator Low Profile / High Stability SPXO
 K Crystal Clock Oscillator
