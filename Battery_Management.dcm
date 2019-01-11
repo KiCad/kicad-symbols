@@ -258,6 +258,12 @@ K Complete fast charging system for 2, 3 or 4 series NiMH or NiCd batteries, 0.4
 F http://cds.linear.com/docs/en/datasheet/405442xf.pdf
 $ENDCMP
 #
+$CMP LTC4156
+D Dual-Input Power Manager / 3.5A LiFePO4 Battery Charger with I2C Control and USB OTG, QFN-28
+K lifepo charger PMIC USB
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4156fa.pdf
+$ENDCMP
+#
 $CMP LTC6803-2
 D Multicell Battery Stack Monitor, 12-cell max, multi-chemistry, integrated balancing, stackable, serial interface
 K battery balance afe
