@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ABLNO
+D LVCMOS Ultra Low Phase Noise XO / VCXO, Abracon ABLNO
+K XO VCXO
+F https://abracon.com/Precisiontiming/ABLNO.pdf
+$ENDCMP
+#
 $CMP ACO-xxxMHz
 D HCMOS Crystal Clock Oscillator, DIP14-style metal package
 K Crystal Clock Oscillator
@@ -94,6 +100,18 @@ $CMP IQXO-70
 D Crystal Clock Oscillator, SMD package 7.5x5.0mm²
 K Crystal Clock Oscillator
 F http://www.iqdfrequencyproducts.com/products/details/iqxo-70-11-30.pdf
+$ENDCMP
+#
+$CMP JTOS-25
+D Voltage Controlled Oscillator, 12.5 to 25 MHz, Mini-Circuits BK377
+K VCXO
+F https://ww2.minicircuits.com/pdfs/JTOS-25+.pdf
+$ENDCMP
+#
+$CMP JTOS-50
+D Voltage Controlled Oscillator, 25 to 47 MHz, Mini-Circuits BK377
+K VCXO
+F https://ww2.minicircuits.com/pdfs/JTOS-50+.pdf
 $ENDCMP
 #
 $CMP MAX7375AXR105
@@ -244,6 +262,18 @@ $CMP SG-8002LB
 D CMOS Clock Oscillator
 K Crystal Clock Oscillator
 F https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC
+$ENDCMP
+#
+$CMP Si512A_2.5x3.2mm
+D Dual frequency crystal oscillator (XO) 100 kHz to 250 MHz, Single-ended CMOS output
+K Dual frequency crystal oscillator
+F https://www.silabs.com/documents/public/data-sheets/si512-13.pdf
+$ENDCMP
+#
+$CMP Si513A_2.5x3.2mm
+D Dual frequency crystal oscillator (XO) 100 kHz to 250 MHz, Single-ended CMOS output
+K Dual frequency crystal oscillator
+F https://www.silabs.com/documents/public/data-sheets/si512-13.pdf
 $ENDCMP
 #
 $CMP Si570

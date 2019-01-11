@@ -30,6 +30,12 @@ K USB Charge
 F http://www.ti.com/lit/ds/symlink/bq24075.pdf
 $ENDCMP
 #
+$CMP BQ2501x
+D 500mA Li-Ion Charger w/Integrated 150mA Synchronous Buck Converter, QFN-14
+K Li-ion buck
+F http://www.ti.com/lit/ds/symlink/bq25010.pdf
+$ENDCMP
+#
 $CMP BQ25504
 D Energy Harvesting Boost Converter with Battery Management, VQFN-16
 K energy harvesting li-ion battery solar TEG
@@ -72,6 +78,12 @@ K Fuel Gauge
 F http://www.ti.com/lit/ds/symlink/bq27441-g1.pdf
 $ENDCMP
 #
+$CMP BQ27750
+D System Side Li Ion/Polymer Fuel Gauge, VSON-12
+K Fuel Gauge
+F http://www.ti.com/lit/ds/symlink/bq27750.pdf
+$ENDCMP
+#
 $CMP BQ297xy
 D Voltage and Current Protection for Single-Cell Li-Ion and Li-Polymer Batteries
 K protection Li-Ion Li-Pol
@@ -84,10 +96,28 @@ K Qi Wireless Power Receiver Battery Charger 4.2V
 F http://www.ti.com/lit/ds/symlink/bq51050b.pdf
 $ENDCMP
 #
+$CMP BQ51050BYFP
+D Qi v1.2, Wireless Power Receiver and Battery Charger, Vout 4.2V, DSBGA-28
+K Qi Wireless Power Receiver Battery Charger 4.2V
+F http://www.ti.com/lit/ds/symlink/bq51050b.pdf
+$ENDCMP
+#
 $CMP BQ51051BRHL
 D Qi v1.2, Wireless Power Receiver and Battery Charger, Vout 4.35V, VQFN-20
 K Qi Wireless Power Receiver Battery Charger 4.35V
 F http://www.ti.com/lit/ds/symlink/bq51051b.pdf
+$ENDCMP
+#
+$CMP BQ51051BYFP
+D Qi v1.2, Wireless Power Receiver and Battery Charger, Vout 4.35V, DSBGA-28
+K Qi Wireless Power Receiver Battery Charger 4.35V
+F http://www.ti.com/lit/ds/symlink/bq51051b.pdf
+$ENDCMP
+#
+$CMP BQ51052BYFP
+D Qi v1.2, Wireless Power Receiver and Battery Charger, Vout 4.40V, DSBGA-28
+K Qi Wireless Power Receiver Battery Charger 4.40V
+F http://www.ti.com/lit/ds/symlink/bq51052b.pdf
 $ENDCMP
 #
 $CMP BQ76940
@@ -226,6 +256,12 @@ $CMP LTC4060EFE
 D Complete fast charging system for 2, 3 or 4 series NiMH or NiCd batteries, 0.4 to 2A, 4.5 to 10V VDD, -40 to +85 degree Celcisus, TSSOP-16
 K Complete fast charging system for 2, 3 or 4 series NiMH or NiCd batteries, 0.4 to 2A, 4.5 to 10V VDD, -40 to +85 degree Celcisus, TSSOP-16
 F http://cds.linear.com/docs/en/datasheet/405442xf.pdf
+$ENDCMP
+#
+$CMP LTC4156
+D Dual-Input Power Manager / 3.5A LiFePO4 Battery Charger with I2C Control and USB OTG, QFN-28
+K lifepo charger PMIC USB
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4156fa.pdf
 $ENDCMP
 #
 $CMP LTC6803-2

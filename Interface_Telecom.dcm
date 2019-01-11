@@ -6,6 +6,12 @@ K Bell Modem
 F https://www.cmlmicro.com/wp-content/uploads/2017/06/FX614_ds.pdf
 $ENDCMP
 #
+$CMP HT9170D
+D DTMF receiver with 4 bit output, SOIC-18
+K DTMF Receiver
+F http://www.holtek.com/documents/10179/116711/9170v111.pdf
+$ENDCMP
+#
 $CMP Si3210
 D ProSLIC Programmable cmos slic/codec with ringing/battery voltage generation
 K ProSLIC slic

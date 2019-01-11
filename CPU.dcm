@@ -1,5 +1,29 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CDP1802ACE
+D 8-bit, General Purpose, 5V, 3.2 MHz, DIP-40
+K CPU Processor
+F http://www.cosmacelf.com/publications/data-sheets/cdp1802.pdf
+$ENDCMP
+#
+$CMP CDP1802ACEX
+D 8-bit, General Purpose, 5V, 3.2 MHz, Burned-In, DIP-40
+K CPU Processor
+F http://www.cosmacelf.com/publications/data-sheets/cdp1802.pdf
+$ENDCMP
+#
+$CMP CDP1802BCE
+D 8-bit, General Purpose, 5V, 5 MHz, DIP-40
+K CPU Processor
+F http://www.cosmacelf.com/publications/data-sheets/cdp1802.pdf
+$ENDCMP
+#
+$CMP CDP1802BCEX
+D 8-bit, General Purpose, 5V, 5 MHz, Burned-In, DIP-40
+K CPU Processor
+F http://www.cosmacelf.com/publications/data-sheets/cdp1802.pdf
+$ENDCMP
+#
 $CMP P4080-BGA1295
 D QorIQ P4080 Communications Processor, BGA-1295
 K Communications Processor
