@@ -138,6 +138,18 @@ K Silicon Clock Oscillator 8MHz 8000kHz
 F https://datasheets.maximintegrated.com/en/ds/MAX7375.pdf
 $ENDCMP
 #
+$CMP MV267
+D 5/10 MHz Low Phase-Noise Precision OCXO, Morion MV267
+K OCXO
+F http://www.morion.com.ru/catalog_pdf/MV267.pdf
+$ENDCMP
+#
+$CMP MV317
+D 60, 80, 100, 120 & 122.76 MHz OCXO, Morion MV317
+K OCXO
+F https://www.morion-us.com/catalog_pdf/mv317.pdf
+$ENDCMP
+#
 $CMP NB3N511
 D 3.3V / 5.0V 14 MHz to 200 MHz PLL Clock Multiplier, SOIC-8
 K oscillator clock multiplier PLL
@@ -148,18 +160,6 @@ $CMP OCXO-14
 D Voltage-Controlled Crystal Clock Oscillator, DIP14-style metal package
 K Crystal Clock Oscillator
 F http://www.petermann-technik.de/fileadmin/petermann/pdf/crystal-oscillators/OCXO-14_PETERMANN-TECHNIK.pdf
-$ENDCMP
-#
-$CMP OCXO_Morion_MV267
-D Low Phase-Noise Precision OCXO
-K OCXO
-F http://www.morion.com.ru/catalog_pdf/MV267.pdf
-$ENDCMP
-#
-$CMP OCXO_Morion_MV317
-D 100MHz Low Phase-Noise Precision OCXO
-K OCXO
-F https://www.morion-us.com/catalog_pdf/mv317.pdf
 $ENDCMP
 #
 $CMP SG-210SCD
