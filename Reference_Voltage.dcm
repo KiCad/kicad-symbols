@@ -324,6 +324,12 @@ K Precision Micropower Low Dropout Voltage Reference 2.5V
 F http://www.ti.com/lit/ds/symlink/lm4125.pdf
 $ENDCMP
 #
+$CMP LM4128
+D 2.5V ±0.2% Precision Micropower Low Dropout Voltage Reference, SOT-23-5
+K Precision Micropower Low Dropout Voltage Reference 2.5V
+F http://www.ti.com/lit/ds/symlink/lm4128.pdf
+$ENDCMP
+#
 $CMP LT1019xN8
 D Precision Reference, Ultra Low Drift, DIP-8
 K voltage reference vref
