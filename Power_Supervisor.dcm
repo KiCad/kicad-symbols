@@ -162,6 +162,12 @@ K supervisor reset push-pull
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
 $ENDCMP
 #
+$CMP MCP39F521
+D Power Monitor, Calculation and Energy Accumulation, I2C, 16-bit, QFN-28
+K i2c power monitor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005442A.pdf
+$ENDCMP
+#
 $CMP MIC811JUY
 D Power supply supervisor, Manual reset, Threshold 4.00V, SOT-143
 K Supervisor Reset
@@ -264,6 +270,12 @@ K voltage supervisor
 F http://www.ti.com.cn/cn/lit/ds/symlink/tl7705b.pdf
 $ENDCMP
 #
+$CMP TPS3702
+D High-Accuracy, Overvoltage and Undervoltage Monitor, SOT-23-6
+K protection overvoltage unvervoltage monitor
+F http://www.ti.com/lit/ds/symlink/tps3702.pdf
+$ENDCMP
+#
 $CMP TPS3831
 D 150-nA, Ultralow Power, Supply Voltage Monitor, X2SON-4
 K supply voltage supervisor
@@ -280,12 +292,6 @@ $CMP TPS3839DQN
 D 150-nA, Ultralow Power, Supply Voltage Monitor, X2SON-4
 K supply voltage supervisor
 F http://www.ti.com/lit/ds/sbvs193d/sbvs193d.pdf
-$ENDCMP
-#
-$CMP TPS3702
-D High-Accuracy, Overvoltage and Undervoltage Monitor, SOT-23-6
-K protection overvoltage unvervoltage monitor
-F http://www.ti.com/lit/ds/symlink/tps3702.pdf
 $ENDCMP
 #
 #End Doc Library
