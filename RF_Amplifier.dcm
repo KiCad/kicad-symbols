@@ -55,13 +55,13 @@ F https://www.nxp.com/docs/en/data-sheet/BGA2818.pdf
 $ENDCMP
 #
 $CMP BGA2850
-D DC-2.2GHz  +24.7dB RF amplifier, 5V, SOT-363-6
+D MIC wideband amplifier, DC-2.2GHz, +24dB @ 950MHz, 5V, SOT-363-6
 K RF GAIN BLOCK
 F https://www.nxp.com/docs/en/data-sheet/BGA2850.pdf
 $ENDCMP
 #
 $CMP BGA2851
-D DC-2.2GHz  +24.7dB RF amplifier, 5V, SOT-363-6
+D MMIC wideband amplifier, DC-2.2GHz, +24.8dB @ 950MHz, 5V, SOT-363-6
 K RF GAIN BLOCK
 F https://www.nxp.com/docs/en/data-sheet/BGA2851.pdf
 $ENDCMP
