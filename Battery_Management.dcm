@@ -30,6 +30,12 @@ K USB Charge
 F http://www.ti.com/lit/ds/symlink/bq24075.pdf
 $ENDCMP
 #
+$CMP BQ2501x
+D 500mA Li-Ion Charger w/Integrated 150mA Synchronous Buck Converter, QFN-14
+K Li-ion buck
+F http://www.ti.com/lit/ds/symlink/bq25010.pdf
+$ENDCMP
+#
 $CMP BQ25504
 D Energy Harvesting Boost Converter with Battery Management, VQFN-16
 K energy harvesting li-ion battery solar TEG
@@ -70,6 +76,12 @@ $CMP BQ27441DRZT-G1B
 D System Side Li Ion/Polymer Fuel Gauge, 4.30-4.35V, PDSON-12
 K Fuel Gauge
 F http://www.ti.com/lit/ds/symlink/bq27441-g1.pdf
+$ENDCMP
+#
+$CMP BQ27750
+D System Side Li Ion/Polymer Fuel Gauge, VSON-12
+K Fuel Gauge
+F http://www.ti.com/lit/ds/symlink/bq27750.pdf
 $ENDCMP
 #
 $CMP BQ297xy

@@ -18,6 +18,12 @@ K counter
 F http://www.ti.com/lit/gpn/sn74469
 $ENDCMP
 #
+$CMP 74AHCT123
+D Dual retriggerable monostable multivibrator
+K TTL monostable, multivibrator
+F http://www.ti.com/lit/gpn/sn74ahct123a
+$ENDCMP
+#
 $CMP 74CBTLV3257
 D Quad 1:2 FET Multiplexer/Demultiplexer, Low-Voltage
 K mux demux low-voltage
@@ -46,6 +52,12 @@ $CMP 74HC04
 D hex inverter
 K HCMOS not inverter
 F http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf
+$ENDCMP
+#
+$CMP 74HC123
+D Dual retriggerable monostable multivibrator
+K TTL monostable, multivibrator
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT123.pdf
 $ENDCMP
 #
 $CMP 74HC14
@@ -136,6 +148,12 @@ $CMP 74HCT04
 D hex inverter
 K HCTMOS not inverter
 F http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf
+$ENDCMP
+#
+$CMP 74HCT123
+D Dual retriggerable monostable multivibrator
+K TTL monostable, multivibrator
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT123.pdf
 $ENDCMP
 #
 $CMP 74HCT240
@@ -310,24 +328,6 @@ $CMP 74LS123
 D Dual retriggerable Monostable
 K TTL monostable
 F http://www.ti.com/lit/gpn/sn74LS123
-$ENDCMP
-#
-$CMP 74AHCT123
-D Dual retriggerable monostable multivibrator
-K TTL monostable, multivibrator
-F http://www.ti.com/lit/gpn/sn74ahct123a
-$ENDCMP
-#
-$CMP 74HCT123
-D Dual retriggerable monostable multivibrator
-K TTL monostable, multivibrator
-F https://assets.nexperia.com/documents/data-sheet/74HC_HCT123.pdf
-$ENDCMP
-#
-$CMP 74HC123
-D Dual retriggerable monostable multivibrator
-K TTL monostable, multivibrator
-F https://assets.nexperia.com/documents/data-sheet/74HC_HCT123.pdf
 $ENDCMP
 #
 $CMP 74LS125
@@ -1162,6 +1162,12 @@ $CMP MM74C923
 D 20-key encoder
 K encoder
 F http://www.ti.com/lit/gpn/snMM74C923
+$ENDCMP
+#
+$CMP SN74AVC16827DGGR
+D 20-Bit Buffer/Driver With 3-State Outputs
+K Buffer Driver 3-State
+F http://www.ti.com/lit/ds/symlink/sn74avc16827.pdf
 $ENDCMP
 #
 #End Doc Library

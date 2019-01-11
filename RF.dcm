@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADE-6
+D Mixer, +7 dBm LO, 0.05 to 250 MHz
+K mixer rf
+F www.minicircuits.com/pdfs/ADE-6.pdf
+$ENDCMP
+#
 $CMP CC1000
 D Single Chip Low Power RF Transceiver, TSSOP28
 K Low Power RF Transciever
@@ -16,6 +22,12 @@ $CMP CC2500
 D Single Chip Low Power RF Transceiver, QFN20
 K Low Power RF Transciever
 F http://www.ti.com/lit/ds/symlink/cc2500.pdf
+$ENDCMP
+#
+$CMP LRPS-2-1
+D Power Splitter/Combiner, 5 to 500 MHz, 50 Ohm
+K power splitter combiner
+F https://ww2.minicircuits.com/pdfs/LRPS-2-1.pdf
 $ENDCMP
 #
 $CMP MAADSS0008
@@ -117,6 +129,30 @@ $CMP SX1273
 D 860 MHz to 1020 MHz Low Power Long Range Transceiver, spreading factor from 6 to 9, LoRA, QFN-28
 K low-power lora transceiver
 F https://www.semtech.com/uploads/documents/sx1272.pdf
+$ENDCMP
+#
+$CMP SXBP-100
+D Bandpass Filter, 87 to 117 MHz, 50 Ohm
+K bandpass filter
+F https://ww2.minicircuits.com/pdfs/SXBP-100+.pdf
+$ENDCMP
+#
+$CMP SXBP-140
+D Bandpass Filter, 130 to 150 MHz, 50 Ohm
+K Mini-Circuits Band-Pass Filter
+F https://ww2.minicircuits.com/pdfs/SXBP-140+.pdf
+$ENDCMP
+#
+$CMP SXBP-202
+D Bandpass Filter, 198 to 206 MHz, 50 Ohm
+K bandpass filter
+F https://ww2.minicircuits.com/pdfs/SXBP-202+.pdf
+$ENDCMP
+#
+$CMP SXBP-27R5
+D Bandpass Filter, 24 to 31 MHz, 50 Ohm
+K bandpass filter
+F https://ww2.minicircuits.com/pdfs/SXBP-27R5+.pdf
 $ENDCMP
 #
 $CMP nRF24L01P

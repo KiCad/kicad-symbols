@@ -324,6 +324,30 @@ K 2-Port, 3-Port, 3.3V, EEPROM, Full Speed, Hub, Texas Instruments, USB1.1
 F http://www.ti.com/lit/ds/symlink/tusb2036.pdf
 $ENDCMP
 #
+$CMP TUSB320
+D USB Type-C Configuration Channel Logic and Port Control, X2QFN-12
+K USB PD CC
+F http://www.ti.com/lit/ds/symlink/tusb320.pdf
+$ENDCMP
+#
+$CMP TUSB320I
+D USB Type-C Configuration Channel Logic and Port Control, industrial temperature range, X2QFN-12
+K USB PD CC
+F http://www.ti.com/lit/ds/symlink/tusb320.pdf
+$ENDCMP
+#
+$CMP TUSB321
+D USB Type-C Configuration Channel Logic and Port Control with VCONN, X2QFN-12
+K USB CC PD VCONN
+F http://www.ti.com/lit/ds/symlink/tusb321.pdf
+$ENDCMP
+#
+$CMP TUSB322I
+D USB Type-C Configuration Channel Logic and Port Control with VCONN, X2QFN-12
+K USB VCONN PD CC
+F www.ti.com/lit/ds/symlink/tusb322i.pdf
+$ENDCMP
+#
 $CMP TUSB4041I
 D four port USB 2.0 Hub
 K USB2.0 hub
