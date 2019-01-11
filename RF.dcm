@@ -24,6 +24,17 @@ K RF attenuator
 F http://cdn.macom.com/datasheets/maadss0008.pdf
 $ENDCMP
 #
+$CMP MC12080
+D 1.1 GHz Prescaler, divide by 10 20 40 80, SOIC-8
+K prescaler frequency divider
+F https://www.onsemi.com/pub/Collateral/MC12080-D.PDF
+$ENDCMP
+$CMP MC12093D
+D /2, /4, /8, 1.1 GHz Low Power Prescaler with Stand‐By Mode, SOIC-8
+K prescaler frequency divider
+F https://www.onsemi.com/pub/Collateral/MC12093-D.PDF
+$ENDCMP
+#
 $CMP MICRF112YMM
 D ASK/FSK Transmitter, 1.8-3.6V, 300-450MHz, +10dBm, MSOP-10
 K ask fsk ism transmitter
@@ -42,10 +53,46 @@ K Low Power RF Transciever breakout carrier
 F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf
 $ENDCMP
 #
+$CMP SARA-U201
+D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, AT Command Set, Worldwide , LGA-96
+K GSM HSPA 2G 3G
+F https://www.u-blox.com/sites/default/files/SARA-U2_DataSheet_(UBX-13005287).pdf
+$ENDCMP
+#
+$CMP SARA-U260
+D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, Designed for America, LGA-96
+K GSM HSPA 2G 3G
+F https://www.u-blox.com/sites/default/files/SARA-U2_DataSheet_(UBX-13005287).pdf
+$ENDCMP
+#
+$CMP SARA-U270
+D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, Designed for Europe, Asia and Others, LGA-96
+K GSM HSPA 2G 3G
+F https://www.u-blox.com/sites/default/files/SARA-U2_DataSheet_(UBX-13005287).pdf
+$ENDCMP
+#
+$CMP SARA-U280
+D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, Designed for America, LGA-96
+K GSM HSPA 2G 3G
+F https://www.u-blox.com/sites/default/files/SARA-U2_DataSheet_(UBX-13005287).pdf
+$ENDCMP
+#
 $CMP SE5004L
 D 5 GHz, 26dBm Power Amplifier with Power Detector, QFN20 4x4mm
 K RF Power Amplifier
 F http://www.skyworksinc.com/uploads/documents/SE5004L_202393B.pdf
+$ENDCMP
+#
+$CMP SIM7020C
+D NB-IoT B1/B3/B5/B8, AT Command Set
+K NB-IoT Data SMS
+F https://simcom.ee/documents/SIM7020/SIM7020%20Hardware%20Design_V1.01.pdf
+$ENDCMP
+#
+$CMP SIM7020E
+D NB-IoT B1/B3/B5/B8/B20/B28, AT Command Set
+K NB-IoT Data SMS
+F https://simcom.ee/documents/SIM7020/SIM7020%20Hardware%20Design_V1.01.pdf
 $ENDCMP
 #
 $CMP SIM800C
@@ -63,13 +110,13 @@ $ENDCMP
 $CMP SX1272
 D 860 MHz to 1020 MHz Low Power Long Range Transceiver, spreading factor from 6 to 12, LoRA, QFN-28
 K low-power lora transceiver
-F http://www.semtech.com/images/datasheet/sx1272.pdf
+F https://www.semtech.com/uploads/documents/sx1272.pdf
 $ENDCMP
 #
 $CMP SX1273
 D 860 MHz to 1020 MHz Low Power Long Range Transceiver, spreading factor from 6 to 9, LoRA, QFN-28
 K low-power lora transceiver
-F http://www.semtech.com/images/datasheet/sx1272.pdf
+F https://www.semtech.com/uploads/documents/sx1272.pdf
 $ENDCMP
 #
 $CMP nRF24L01P
