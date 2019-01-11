@@ -59,6 +59,7 @@ D MIC wideband amplifier, DC-2.2GHz, +24dB @ 950MHz, 5V, SOT-363-6
 K RF GAIN BLOCK
 F https://www.nxp.com/docs/en/data-sheet/BGA2850.pdf
 $ENDCMP
+#
 $CMP BGA2851
 D MMIC wideband amplifier, DC-2.2GHz, +24.8dB @ 950MHz, 5V, SOT-363-6
 K RF GAIN BLOCK
@@ -114,7 +115,7 @@ F https://datasheets.maximintegrated.com/en/ds/MAX2679-MAX2679B.pdf
 $ENDCMP
 #
 $CMP SKY65404
-D 4.9-5.9GHz, 13dB Low-Noise Amplifier, DFN-6
+D 4.9-5.9GHz, 13dB Low-Noise Amplifier, QFN-6
 K LNA low noise amplifier RF
 F http://www.skyworksinc.com/uploads/documents/SKY65404_31_201512K.pdf
 $ENDCMP
