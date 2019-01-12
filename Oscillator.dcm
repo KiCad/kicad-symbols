@@ -6,6 +6,12 @@ K Crystal Clock Oscillator
 F http://www.conwin.com/datasheets/cx/cx030.pdf
 $ENDCMP
 #
+$CMP ACO-xxxMHz-A
+D HCMOS Crystal Clock Oscillator, DIP14-style metal package
+K Crystal Clock Oscillator
+F http://www.conwin.com/datasheets/cx/cx030.pdf
+$ENDCMP
+#
 $CMP ASCO
 D Crystal Clock Oscillator, Abracon ASCO
 K Crystal Clock Oscillator
