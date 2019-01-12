@@ -534,15 +534,15 @@ F http://ww1.microchip.com/downloads/en/devicedoc/21950c.pdf
 $ENDCMP
 #
 $CMP RHD2216
-D 16 differential channels Analog to Digial Converter, 16-bit, 30kHz, SPI interface
+D 16 differential channels Analog to Digial Converter, 16-bit, 30kHz, SPI interface, QFN-56
 K 16 channels ADC digital electrophysiology interface
-F http://intantech.com/files/Intan_RHD2000_series_datasheet.pdfhttp://intantech.com/files/Intan_RHD2000_series_datasheet.pdf
+F http://intantech.com/files/Intan_RHD2000_series_datasheet.pdf
 $ENDCMP
 #
 $CMP RHD2232
-D 32 channels Analog to Digial Converter, 16-bit, 30kHz, SPI interface
+D 32 channels Analog to Digial Converter, 16-bit, 30kHz, SPI interface, QFN-56
 K 32 ADC channels digital electrophysiology interface
-F http://intantech.com/files/Intan_RHD2000_series_datasheet.pdfhttp://intantech.com/files/Intan_RHD2000_series_datasheet.pdf
+F http://intantech.com/files/Intan_RHD2000_series_datasheet.pdf
 $ENDCMP
 #
 #End Doc Library
