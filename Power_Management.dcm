@@ -25,127 +25,133 @@ F https://www.infineon.com/dgdl/Infineon-BTN8982TA-DS-v01_00-EN.pdf?fileId=db3a3
 $ENDCMP
 #
 $CMP BTS40K2-1EJC
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 200mOhm, 1.5A, 36V, DSO-8
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS40K2-1EJC-DS-v01_00-EN.pdf?fileId=5546d462518ffd85015254ee4e601f99
 $ENDCMP
 #
 $CMP BTS443P
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 16mOhm, 7.6A, 36V, TO252-5
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS443P-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9afbc5035d5
 $ENDCMP
 #
+$CMP BTS50010-1TAD
+D Smart High-Side Power Switch, PROFET, Single, 1mOhm, 40A, 18V, TO-263-7
+K BTS50010 PROFET
+F https://www.infineon.com/dgdl/Infineon-BTS50010-1TAD-DS-v01_00-EN.pdf?fileId=5546d462576f34750157c38810ca55cd
+$ENDCMP
+#
 $CMP BTS50055-1TMA
-D Smart High-Side Power Switch PROFET One Channel
-K infineon power switch
+D Smart High-Side Power Switch, PROFET, Single, 6mOhm, 70A, 34V, TO220-7
+K BTS50055 PROFET
 F http://www.infineon.com/dgdl/Infineon-BTS50055-1TMA-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9b00de935ed
 $ENDCMP
 #
 $CMP BTS50055-1TMC
-D Smart High-Side Power Switch PROFET One Channel
-K infineon power switch
-F http://www.infineon.com/dgdl/Infineon-BTS50055-1TMC-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9b0007235e9
+D Smart High-Side Power Switch, PROFET, Single, 6mOhm, 17A, 34V, TO220-7
+K BTS50055 PROFET
+F https://www.infineon.com/dgdl/Infineon-BTS50055-1TMC-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9b0007235e9
 $ENDCMP
 #
 $CMP BTS50080-1TEA
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 16mOhm, 10A, 30V, TO252-5
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS50080-1TEA-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa435f2d2115b
 $ENDCMP
 #
 $CMP BTS50080-1TEB
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 16mOhm, 10A, 30V, TO252-5
 K infineon power switch
-F http://www.infineon.com/dgdl/Infineon-BTS50080-1TEB-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa435e5601157
+F https://www.infineon.com/dgdl/Infineon-BTS50080-1TEB-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa435e5601157
 $ENDCMP
 #
 $CMP BTS50080-1TMA
-D Smart High-Side Power Switch PROFET One Channel
-K infineon power switch
-F http://www.infineon.com/dgdl/Infineon-BTS50080-1TMA-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa435d7fe1153
+D Smart High-Side Power Switch, PROFET, Single, 16mOhm, 9.5A, 38V, TO220-7
+K BTS50080 PROFET
+F https://www.infineon.com/dgdl/Infineon-BTS50080-1TMA-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa435d7fe1153
 $ENDCMP
 #
 $CMP BTS50080-1TMC
-D Smart High-Side Power Switch PROFET One Channel
-K infineon power switch
-F http://www.infineon.com/dgdl/Infineon-BTS50080_1TMC-DS-v01_00-en.pdf?fileId=db3a3043266237920126992737c951ee
+D Smart High-Side Power Switch, PROFET, Single, 16mOhm, 9.5A, 38V, TO220-7
+K BTS50080 PROFET
+F https://www.infineon.com/dgdl/Infineon-BTS50080_1TMC-DS-v01_00-en.pdf?fileId=db3a3043266237920126992737c951ee
 $ENDCMP
 #
 $CMP BTS50085-1TMA
-D Smart High-Side Power Switch PROFET One Channel
-K infineon power switch
-F http://www.infineon.com/dgdl/Infineon-BTS50085-1TMA-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa435bccd114b
+D Smart High-Side Power Switch, PROFET, Single, 9mOhm, 11.1A, 58V, TO220-7
+K BTS50085 PROFET
+F https://www.infineon.com/dgdl/Infineon-BTS50085-1TMA-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa435bccd114b
 $ENDCMP
 #
 $CMP BTS5012SDA
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 24mOhm, 6.5A, 20V, TO252-5
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS5012SDA-DS-v01_01-en.pdf?fileId=db3a30431d8a6b3c011db95c6eba237d
 $ENDCMP
 #
 $CMP BTS5014SDA
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 28mOhm, 6A, 20V, TO252-5
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS5014SDA-DS-v01_01-EN.pdf?fileId=5546d4625a888733015aa42c708e1142
 $ENDCMP
 #
 $CMP BTS5016SDA
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 32mOhm, 5.5A, 20V, TO252-5
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS5016SDA-DS-v01_01-EN.pdf?fileId=5546d4625a888733015aa41a6c38112d
 $ENDCMP
 #
 $CMP BTS5030-1EJA
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 30mOhm, 5A, 28V, DSO-8
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS5030-1EJA-DS-v02_20-EN.pdf?fileId=5546d46259d9a4bf015a84f3e686758a
 $ENDCMP
 #
 $CMP BTS5045-1EJA
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 45mOhm, 4A, 28V, DSO-8
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS5045-1EJA-DS-v02_02-EN.pdf?fileId=5546d4625a888733015aa411125b1069
 $ENDCMP
 #
 $CMP BTS5090-1EJA
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 90mOhm, 3A, 28V, DSO-8
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS5090-1EJA-DS-v02_02-EN.pdf?fileId=5546d4625a888733015aa410fc371059
 $ENDCMP
 #
 $CMP BTS5200-1EJA
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 200mOhm, 1.5A, 28V, DSO-8
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS5200-1EJA-DS-v01_00-EN.pdf?fileId=5546d46250cc1fdf0151636cd945402e
 $ENDCMP
 #
 $CMP BTS6133D
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 10mOhm, 8A, 38V, TO-252-5
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS6133D-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3e3286f102a
 $ENDCMP
 #
 $CMP BTS6142D
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 12mOhm, 7A, 24V, TO252-5
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS6142D-DS-v01_01-EN.pdf?fileId=5546d4625a888733015aa3da1e0e1026
 $ENDCMP
 #
 $CMP BTS6143D
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 10mOhm, 8A, 38V, TO252-5
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS6143D-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3da10821022
 $ENDCMP
 #
 $CMP BTS6163D
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 20mOhm, 5.5A, 62V, TO252-5
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS6163D-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3da01a1101e
 $ENDCMP
 #
 $CMP BTS6200-1EJA
-D Smart High-Side Power Switch PROFET One Channel
+D Smart High-Side Power Switch, PROFET, Single, 200mOhm, 1.5A, 36V, DSO-8
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTT6200-1EJA-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3756ec20fcc
 $ENDCMP
@@ -157,19 +163,19 @@ F https://www.infineon.com/dgdl/Infineon-BTS7004-1EPP-DS-v01_00-EN.pdf?fileId=55
 $ENDCMP
 #
 $CMP BTS716G
-D Smart Quad Channel High Side Powertrain Switch (140mOhm)
+D Smart High-Side Power Switch, PROFET, 4 Channel, 140mOhm, 2.6A, 40V, DSO-20
 K High_Side_Switch Power
 F https://www.infineon.com/dgdl/Infineon-BTS716G-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3be86601004
 $ENDCMP
 #
 $CMP BTS716GB
-D Smart Quad Channel High Side Powertrain Switch (140mOhm)
+D Smart High-Side Power Switch, PROFET, 4 Channel, 140mOhm, 2.6A, 40V, DSO-20
 K High_Side_Switch Power
-F http://www.infineon.com/dgdl/Infineon-BTS716GB-DS-v01_00-en.pdf?fileId=db3a30431c48a312011c4c2a11d90028
+F https://www.infineon.com/dgdl/Infineon-BTS716GB-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3be94e21008
 $ENDCMP
 #
 $CMP BTS724G
-D Smart Quad Channel High Side Powertrain Switch (90mOhm)
+D Smart High-Side Power Switch, PROFET, 4 Channel, 90mOhm, 3.3A, 40V, DSO-20
 K High_Side_Switch Power
 F https://www.infineon.com/dgdl/Infineon-BTS724G-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3a2f1030ff1
 $ENDCMP
@@ -412,6 +418,12 @@ $CMP LT1641-2
 D High voltage hot swap controller, +9V to +80V operation, with auto-retry feature
 K high-voltage hot-swap
 F http://cds.linear.com/docs/en/datasheet/164112fc.pdf
+$ENDCMP
+#
+$CMP LTC4242xUHF
+D Hot-Swap Power Controller, QFN-38
+K Dual-Slot PCIe
+F http://www.analog.com/media/en/technical-documentation/data-sheets/4242f.pdf
 $ENDCMP
 #
 $CMP LTC4357DCB
@@ -706,6 +718,12 @@ $CMP TSM103WA
 D Dual Operational Amplifier and 2.5V 0.4% Voltage Reference, SOIC-8
 K dual opamp reference
 F http://www.st.com/resource/en/datasheet/tsm103w.pdf
+$ENDCMP
+#
+$CMP MAX8586
+D Single 1.2A USB Current Limiting Switch
+K 1-channel USB current limiting power switch
+F https://datasheets.maximintegrated.com/en/ds/MAX8586.pdf
 $ENDCMP
 #
 #End Doc Library
