@@ -252,6 +252,60 @@ K microphone transformer
 F http://www.lundahl.se/wp-content/uploads/datasheets/1587.pdf
 $ENDCMP
 #
+$CMP P0544NL
+D SMT Gate Drive Transformer, 1:1:1
+K pulse
+F https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf
+$ENDCMP
+#
+$CMP P0926NL
+D SMT Gate Drive Transformer, 1:1:1
+K pulse
+F https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf
+$ENDCMP
+#
+$CMP PA0173NL
+D SMT Gate Drive Transformer, 1:1:1
+K pulse
+F https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf
+$ENDCMP
+#
+$CMP PA0184NL
+D SMT Gate Drive Transformer, 1:1
+K pulse
+F https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf
+$ENDCMP
+#
+$CMP PA0185NL
+D SMT Gate Drive Transformer, 1:1
+K pulse
+F https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf
+$ENDCMP
+#
+$CMP PA0264NL
+D SMT Gate Drive Transformer, 1:1:1
+K pulse
+F https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf
+$ENDCMP
+#
+$CMP PA0297NL
+D SMT Gate Drive Transformer, 2:1:1
+K pulse
+F https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf
+$ENDCMP
+#
+$CMP PA0510NL
+D SMT Gate Drive Transformer, 2.5:1:1
+K pulse
+F https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf
+$ENDCMP
+#
+$CMP PA1323NL
+D SMT Gate Drive Transformer, 1:1
+K pulse
+F https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf
+$ENDCMP
+#
 $CMP PA2001NL
 D SMT Gate Drive Transformer, 1:1
 K pulse
@@ -298,6 +352,24 @@ $CMP PA2009NL
 D SMT Gate Drive Transformer, 2.5:1:1
 K pulse
 F https://productfinder.pulseeng.com/products/datasheets/P663.pdf
+$ENDCMP
+#
+$CMP PA2777NL
+D SMT Gate Drive Transformer, 1:1
+K pulse
+F https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf
+$ENDCMP
+#
+$CMP PA3493NL
+D SMT Gate Drive Transformer, 1.25:1
+K pulse
+F https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf
+$ENDCMP
+#
+$CMP PE-68386NL
+D SMT Gate Drive Transformer, 1:1
+K pulse
+F https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf
 $ENDCMP
 #
 $CMP TEZ0.5-D-1
@@ -406,6 +478,12 @@ $CMP TEZ6.0-D-2
 D TEZ6.0/D/x-x, 6VA, Dual Secondary, Cast Resin Transformer, PCB
 K 6VA PCB Transformer Dual Secondary
 F http://www.breve.pl/pdf/ANG/TEZ_ang.pdf
+$ENDCMP
+#
+$CMP TG111-MSC13LF
+D Single Port Gigabit Ethernet Transformers
+K Single Port Gigabit Ethernet Transformer
+F https://www.haloelectronics.com/pdf/discrete-genesus.pdf
 $ENDCMP
 #
 #End Doc Library

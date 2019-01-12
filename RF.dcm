@@ -1,5 +1,29 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADC-10-1R
+D Directional Coupler, 5 to 900 MHz, 10 dB Coupling, 50 Ohm, Mini-Circuits CD542
+K Directional Coupler
+F https://ww2.minicircuits.com/pdfs/ADC-10-1R.pdf
+$ENDCMP
+#
+$CMP ADE-6
+D Mixer, +7 dBm LO, 0.05 to 250 MHz
+K mixer rf
+F www.minicircuits.com/pdfs/ADE-6.pdf
+$ENDCMP
+#
+$CMP ADP-2-1W
+D Power splitter combiner, 1 to 650 MHz, 2 way 0-degree, 50 ohm, Mini-Circuits CD636
+K splitter combiner
+F https://ww2.minicircuits.com/pdfs/ADP-2-1W.pdf
+$ENDCMP
+#
+$CMP AMK-2-13
+D 2x Frequency Multiplier, output 20 to 1000 MHz, 50 Ohm, Mini-Circuits CD542
+K frequency multiplier
+F https://ww2.minicircuits.com/pdfs/AMK-2-13+.pdf
+$ENDCMP
+#
 $CMP CC1000
 D Single Chip Low Power RF Transceiver, TSSOP28
 K Low Power RF Transciever
@@ -12,10 +36,52 @@ K RF Tx Rx
 F http://www.ti.com/lit/ds/symlink/cc1200.pdf
 $ENDCMP
 #
+$CMP CC2500
+D Single Chip Low Power RF Transceiver, QFN20
+K Low Power RF Transciever
+F http://www.ti.com/lit/ds/symlink/cc2500.pdf
+$ENDCMP
+#
+$CMP LAT-3
+D Attenuator, 3dB, 0.5W, DC to 2500 MHz, 50 Ohm, Mini-Circuits MMM168
+K attenuator rf
+F https://ww2.minicircuits.com/pdfs/LAT-3+.pdf
+$ENDCMP
+#
+$CMP LRPS-2-1
+D Power Splitter/Combiner, 5 to 500 MHz, 50 Ohm
+K power splitter combiner
+F https://ww2.minicircuits.com/pdfs/LRPS-2-1.pdf
+$ENDCMP
+#
 $CMP MAADSS0008
 D 0-2GHz, 15dB step attenuator, SOT-23-5
 K RF attenuator
 F http://cdn.macom.com/datasheets/maadss0008.pdf
+$ENDCMP
+#
+$CMP MC12080
+D 1.1 GHz Prescaler, divide by 10 20 40 80, SOIC-8
+K prescaler frequency divider
+F https://www.onsemi.com/pub/Collateral/MC12080-D.PDF
+$ENDCMP
+#
+$CMP MC12093D
+D /2, /4, /8, 1.1 GHz Low Power Prescaler with Stand‐By Mode, SOIC-8
+K prescaler frequency divider
+F https://www.onsemi.com/pub/Collateral/MC12093-D.PDF
+$ENDCMP
+#
+$CMP MICRF112YMM
+D ASK/FSK Transmitter, 1.8-3.6V, 300-450MHz, +10dBm, MSOP-10
+K ask fsk ism transmitter
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MICRF112.pdf
+$ENDCMP
+#
+$CMP MICRF220AYQS
+D ASK Receiver 3.0-3.6V, 300-450MHz, -110dBm, QSOP-16
+K ask receiver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/micrf220.pdf
 $ENDCMP
 #
 $CMP NRF24L01
@@ -30,28 +96,76 @@ K Low Power RF Transciever breakout carrier
 F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf
 $ENDCMP
 #
-$CMP SIM800C
-D GSM Quad-Band Communication Module, GPRS, Audio Engine, AT Command Set, Bluetooth is Optional
-K GSM GPRS Quad-Band SMS
-F http://simcom.ee/documents/SIM800C/SIM800C_Hardware_Design_V1.05.pdf
+$CMP RBP-280
+D Bandpass Filter, 260 to 310 MHz, 50 Ohm, Mini-Circuits GP731
+K bandpass filter rf
+F https://ww2.minicircuits.com/pdfs/RBP-280+.pdf
 $ENDCMP
 #
-$CMP SIM900
-D GSM Quad-Band Communication Module, GPRS, Audio Engine, AT Command Set
-K GSM GPRS Quad-Band SMS FAX
-F http://simcom.ee/documents/SIM900/SIM900_Hardware%20Design_V2.05.pdf
+$CMP RLP-30
+D Low Pass Filter, DC to 30 MHz, 50 Ohm, Mini-Circuits GP1212
+K Low Pass Filter
+F https://ww2.minicircuits.com/pdfs/RLP-30+.pdf
+$ENDCMP
+#
+$CMP RMK-3-451
+D 3x Frequency Multiplier, output 300 to 450 MHz, 50 Ohm, Mini-Circuits TT1224
+K frequency multiplier
+F https://ww2.minicircuits.com/pdfs/RMK-3-451+.pdf
+$ENDCMP
+#
+$CMP RMK-5-51
+D 5x Frequency Multiplier, Output 37.5 to 52.5 MHz, 50 Ohm, Mini-Circuits TT1224
+K frequency multiplier
+F https://ww2.minicircuits.com/pdfs/RMK-5-51+.pdf
+$ENDCMP
+#
+$CMP SCHF-31+
+D High Pass Filter, 31 to 1500 MHz, 50 Ohm, Mini-Circuits YY161
+K highpass filter rf
+F https://ww2.minicircuits.com/pdfs/SCHF-31+.pdf
+$ENDCMP
+#
+$CMP SE5004L
+D 5 GHz, 26dBm Power Amplifier with Power Detector, QFN20 4x4mm
+K RF Power Amplifier
+F http://www.skyworksinc.com/uploads/documents/SE5004L_202393B.pdf
 $ENDCMP
 #
 $CMP SX1272
 D 860 MHz to 1020 MHz Low Power Long Range Transceiver, spreading factor from 6 to 12, LoRA, QFN-28
 K low-power lora transceiver
-F http://www.semtech.com/images/datasheet/sx1272.pdf
+F https://www.semtech.com/uploads/documents/sx1272.pdf
 $ENDCMP
 #
 $CMP SX1273
 D 860 MHz to 1020 MHz Low Power Long Range Transceiver, spreading factor from 6 to 9, LoRA, QFN-28
 K low-power lora transceiver
-F http://www.semtech.com/images/datasheet/sx1272.pdf
+F https://www.semtech.com/uploads/documents/sx1272.pdf
+$ENDCMP
+#
+$CMP SXBP-100
+D Bandpass Filter, 87 to 117 MHz, 50 Ohm
+K bandpass filter
+F https://ww2.minicircuits.com/pdfs/SXBP-100+.pdf
+$ENDCMP
+#
+$CMP SXBP-140
+D Bandpass Filter, 130 to 150 MHz, 50 Ohm
+K Mini-Circuits Band-Pass Filter
+F https://ww2.minicircuits.com/pdfs/SXBP-140+.pdf
+$ENDCMP
+#
+$CMP SXBP-202
+D Bandpass Filter, 198 to 206 MHz, 50 Ohm
+K bandpass filter
+F https://ww2.minicircuits.com/pdfs/SXBP-202+.pdf
+$ENDCMP
+#
+$CMP SXBP-27R5
+D Bandpass Filter, 24 to 31 MHz, 50 Ohm
+K bandpass filter
+F https://ww2.minicircuits.com/pdfs/SXBP-27R5+.pdf
 $ENDCMP
 #
 $CMP nRF24L01P

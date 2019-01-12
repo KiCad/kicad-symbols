@@ -18,6 +18,12 @@ K counter
 F http://www.ti.com/lit/gpn/sn74469
 $ENDCMP
 #
+$CMP 74AHCT123
+D Dual retriggerable monostable multivibrator
+K TTL monostable, multivibrator
+F http://www.ti.com/lit/gpn/sn74ahct123a
+$ENDCMP
+#
 $CMP 74CBTLV3257
 D Quad 1:2 FET Multiplexer/Demultiplexer, Low-Voltage
 K mux demux low-voltage
@@ -45,7 +51,13 @@ $ENDCMP
 $CMP 74HC04
 D hex inverter
 K HCMOS not inverter
-F http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf
+$ENDCMP
+#
+$CMP 74HC123
+D Dual retriggerable monostable multivibrator
+K TTL monostable, multivibrator
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT123.pdf
 $ENDCMP
 #
 $CMP 74HC14
@@ -57,13 +69,13 @@ $ENDCMP
 $CMP 74HC240
 D 8-bit Buffer/Line Driver 3-state Inverting
 K TTL BUFFER 3State inv
-F http://www.nxp.com/documents/data_sheet/74HC_HCT240.pdf
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT240.pdf
 $ENDCMP
 #
 $CMP 74HC244
 D 8-bit Buffer/Line Driver 3-state
 K TTL BUFFER 3State
-F http://www.nxp.com/documents/data_sheet/74HC_HCT244.pdf
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT244.pdf
 $ENDCMP
 #
 $CMP 74HC245
@@ -135,19 +147,25 @@ $ENDCMP
 $CMP 74HCT04
 D hex inverter
 K HCTMOS not inverter
-F http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf
+$ENDCMP
+#
+$CMP 74HCT123
+D Dual retriggerable monostable multivibrator
+K TTL monostable, multivibrator
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT123.pdf
 $ENDCMP
 #
 $CMP 74HCT240
 D 8-bit buffer; 3-state; inverting
 K octal buffer line driver inverting
-F http://www.nxp.com/documents/data_sheet/74HC_HCT240.pdf
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT240.pdf
 $ENDCMP
 #
 $CMP 74HCT244
 D 8-bit Buffer/Line Driver 3-state
 K TTL BUFFER 3State
-F http://www.nxp.com/documents/data_sheet/74HC_HCT244.pdf
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT244.pdf
 $ENDCMP
 #
 $CMP 74HCT4051
@@ -1122,6 +1140,12 @@ K TTL not inv
 F http://www.ti.com/lit/gpn/sn74LV14
 $ENDCMP
 #
+$CMP 74LV8154
+D Dual 16-bit binary counter
+K counter binary
+F http://www.ti.com/lit/ds/symlink/sn74lv8154.pdf
+$ENDCMP
+#
 $CMP 74LVC125
 D Quad buffer 3-State outputs
 K TTL buffer 3State
@@ -1144,6 +1168,12 @@ $CMP MM74C923
 D 20-key encoder
 K encoder
 F http://www.ti.com/lit/gpn/snMM74C923
+$ENDCMP
+#
+$CMP SN74AVC16827DGGR
+D 20-Bit Buffer/Driver With 3-State Outputs
+K Buffer Driver 3-State
+F http://www.ti.com/lit/ds/symlink/sn74avc16827.pdf
 $ENDCMP
 #
 #End Doc Library
