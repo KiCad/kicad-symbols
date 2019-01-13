@@ -136,11 +136,13 @@ $CMP LTC6994xS6-1
 D TimerBlox Delay Block, Programmable, Noise Discriminator, TSOT-23-6
 K TimerBlox delay block noise discriminator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/699412fb.pdf
+$ENDCMP
 #
 $CMP LTC6994xS6-2
 D TimerBlox Debouncer, Programmable, Noise Discriminator, TSOT-23-6
 K TimerBlox debouncer noise discriminator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/699412fb.pdf
+$ENDCMP
 #
 $CMP MC1455
 D Timers, DIP-8/SOIC-8
