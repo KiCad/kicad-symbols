@@ -120,15 +120,15 @@ K Timer TimerBlox monostable pulse
 F https://www.analog.com/media/en/technical-documentation/data-sheets/69931234fc.pdf
 $ENDCMP
 #
-$CMP LTC6994xDCB
-D TimerBlox: Delay Block/Debouncer, programmable, noise discriminator, DCB package SMD DFN-6-1EP
-K delay block, timer, noise discriminator
-F https://www.analog.com/media/en/technical-documentation/data-sheets/699412fb.pdf https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-dfn/(DCB6)%20DFN%2005-08-1715%20Rev%20A.pdf
+$CMP LTC6994xDCB-1
+D TimerBlox Delay Block/Debouncer, Programmable, Noise Discriminator, DFN-6
+K delay block timer noise discriminator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/699412fb.pdf
 $ENDCMP
 #
-$CMP LTC6994xS6
-D TimerBlox: Delay Block/Debouncer, programmable, noise discriminator, S6 package SMD TSOT-23-6
-K delay block, timer, noise discriminator
+$CMP LTC6994xS6-1
+D TimerBlox Delay Block/Debouncer, Programmable, Noise Discriminator, TSOT-23-6
+K delay block timer noise discriminator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/699412fb.pdf
 #
 $CMP MC1455
