@@ -72,6 +72,18 @@ K STM32 Nucleo ST
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/data_brief/DM00105918.pdf
 $ENDCMP
 #
+$CMP NodeMCU_ESP-12E
+D 32-bit microcontroller module with WiFi
+K ESP8266 WiFi microcontroller
+F https://github.com/nodemcu/nodemcu-devkit-v1.0/blob/master/NODEMCU_DEVKIT_V1.0.PDF
+$ENDCMP
+#
+$CMP NodeMCU_ESP-32S
+D 32-bit microcontroller module with WiFi and Bluetooth
+K ESP32S WiFi Bluetooth microcontroller
+F https://einstronic.com/wp-content/uploads/2017/06/NodeMCU-32S-Catalogue.pdf
+$ENDCMP
+#
 $CMP VisionSOM-6UL
 D i.MX6-UL NXP ARM Cortex-A7 696MHz single core industrial SoM computer
 K somlabs module
@@ -82,6 +94,12 @@ $CMP VisionSOM-6ULL
 D i.MX6-ULL NXP ARM Cortex-A7 900MHz single core industrial SoM computer
 K somlabs module
 F https://wiki.somlabs.com/extensions/JZPDFGen/pdf/VisionSOM-6ULL%20Datasheet%20and%20Pinout-21.pdf
+$ENDCMP
+#
+$CMP WeMos_D1_R2_(ESP8266)
+D 32-bit microcontroller module with WiFi
+K ESP8266 WiFi microcontroller
+F https://wiki.wemos.cc/_media/products:d1:d1_v2.0.0.pdf
 $ENDCMP
 #
 #End Doc Library
