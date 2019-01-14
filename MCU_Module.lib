@@ -704,10 +704,7 @@ F2 "Module:NodeMCU_ESP-12E" 300 -850 50 H I C CNN
 F3 "" -200 -1150 50 H I C CNN
 ALIAS WeMos_D1_R2_(ESP8266)
 $FPLIST
- NodeMCU*ESP-12E*
- NodeMCU*ESP-12E*WithMountingHoles*
- NodeMCU*LoLinV3*
- NodeMCU*LoLinV3*WithMountingHoles*
+ NodeMCU*
 $ENDFPLIST
 DRAW
 S -800 -800 800 800 0 1 10 f
