@@ -120,6 +120,30 @@ K Timer TimerBlox monostable pulse
 F https://www.analog.com/media/en/technical-documentation/data-sheets/69931234fc.pdf
 $ENDCMP
 #
+$CMP LTC6994xDCB-1
+D TimerBlox Delay Block, Programmable, Noise Discriminator, Rising or Falling Edge, DFN-6
+K TimerBlox delay block noise discriminator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/699412fb.pdf
+$ENDCMP
+#
+$CMP LTC6994xDCB-2
+D TimerBlox Debouncer, Programmable, Noise Discriminator, Rising and Falling Edges, DFN-6
+K TimerBlox debouncer noise discriminator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/699412fb.pdf
+$ENDCMP
+#
+$CMP LTC6994xS6-1
+D TimerBlox Delay Block, Programmable, Noise Discriminator, Rising or Falling Edge, TSOT-23-6
+K TimerBlox delay block noise discriminator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/699412fb.pdf
+$ENDCMP
+#
+$CMP LTC6994xS6-2
+D TimerBlox Debouncer, Programmable, Noise Discriminator, Rising and Falling Edges, TSOT-23-6
+K TimerBlox debouncer noise discriminator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/699412fb.pdf
+$ENDCMP
+#
 $CMP MC1455
 D Timers, DIP-8/SOIC-8
 K timer
