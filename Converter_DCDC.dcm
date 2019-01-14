@@ -102,20 +102,38 @@ K DCDC converter
 F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/switching_regulator/bd8314nuv-e.pdf
 $ENDCMP
 #
-$CMP IAxxxx
-D 1W Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±5V, ±9V, ±12V, ±15V, ±24V, 3.3-48V Input Voltage
+$CMP IAxxxxD
+D 1W Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±5V, ±9V, ±12V, ±15V, ±24V, 3.3-48V Input Voltage, DIP
 K XP_POWER DC/DC isolated Converter module
 F https://www.xppower.com/pdfs/SF_IA.pdf
 $ENDCMP
 #
-$CMP IHxxxx
-D 2W Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±5V, ±9V, ±12V, ±15V, ±24V, 5-48V Input Voltage, 1000 VDC isolation
+$CMP IAxxxxS
+D 1W Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±5V, ±9V, ±12V, ±15V, ±24V, 3.3-48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IA.pdf
+$ENDCMP
+#
+$CMP IHxxxxD
+D 2W Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±5V, ±9V, ±12V, ±15V, ±24V, 5-48V Input Voltage, 1000 VDC isolation, DIP
 K XP_POWER DC/DC isolated Converter module
 F https://www.xppower.com/pdfs/SF_IH.pdf
 $ENDCMP
 #
-$CMP IHxxxxH
-D 2W Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±5V, ±9V, ±12V, ±15V, ±24V, 5-48V Input Voltage, >=3000 VDC isolation
+$CMP IHxxxxDH
+D 2W Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±5V, ±9V, ±12V, ±15V, ±24V, 5-48V Input Voltage, >=3000 VDC isolation, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IHxxxxS
+D 2W Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±5V, ±9V, ±12V, ±15V, ±24V, 5-48V Input Voltage, 1000 VDC isolation, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IHxxxxSH
+D 2W Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±5V, ±9V, ±12V, ±15V, ±24V, 5-48V Input Voltage, >=3000 VDC isolation, SIP
 K XP_POWER DC/DC isolated Converter module
 F https://www.xppower.com/pdfs/SF_IH.pdf
 $ENDCMP
