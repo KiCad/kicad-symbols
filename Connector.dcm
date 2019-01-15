@@ -990,18 +990,6 @@ K hdmi conn
 F https://www.hdmi.org/manufacturer/specification.aspx
 $ENDCMP
 #
-$CMP HSMC_ASP-12295x-01
-D Generic Intel/Altera HSMC Host and Card Connector
-K HSMC high-speed mezzanine Altera Intel
-F https://www.intel.com/content/dam/altera-www/global/en_US/pdfs/literature/ds/hsmc_spec.pdf
-$ENDCMP
-#
-$CMP HSMC_QxH-090-01-x-D-A
-D Generic Intel/Altera HSMC Host and Card Connector
-K HSMC high-speed mezzanine Altera Intel
-F https://www.intel.com/content/dam/altera-www/global/en_US/pdfs/literature/ds/hsmc_spec.pdf
-$ENDCMP
-#
 $CMP IEEE1394a
 D FireWire/IEEE1394a 6-pin connector
 K connector IEEE1394a FireWire
