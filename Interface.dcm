@@ -279,24 +279,6 @@ K Dual bidirectional I2C Bus and SMBus voltage level translator
 F http://www.ti.com/lit/ds/symlink/pca9306.pdf
 $ENDCMP
 #
-$CMP PCA9507
-D 2-wire serial bus extender for HDMI DDC I2C-bus and SMBus
-K level-shifter buffer line-driver I2C SMBus HDMI
-F https://www.nxp.com/docs/en/data-sheet/PCA9507.pdf
-$ENDCMP
-#
-$CMP PCA9508
-D Hot swappable level translating I2C-bus repeater
-K I2C repeater level-shifter hot-swap
-F https://www.nxp.com/docs/en/data-sheet/PCA9508.pdf
-$ENDCMP
-#
-$CMP PCA9517A
-D Level translating I2C-bus repeater
-K I2C level-shifter repeater
-F https://www.nxp.com/docs/en/data-sheet/PCA9517A.pdf
-$ENDCMP
-#
 $CMP PCI9030-PQFP176
 D PCI SMARTarget I/O Accelerator
 K PCI
@@ -379,12 +361,6 @@ $CMP TB5R2DW
 D Quad differential PECL reciver
 K differential PECL reciver
 F http://www.ti.com/lit/ds/symlink/tb5r1.pdf
-$ENDCMP
-#
-$CMP TCA9517A
-D Level-Shifting I2C Bus Repeater
-K I2C level-shifter repeater
-F https://www.ti.com/lit/ds/symlink/tca9517a.pdf
 $ENDCMP
 #
 $CMP U2270B
