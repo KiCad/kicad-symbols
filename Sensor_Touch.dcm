@@ -24,6 +24,18 @@ K Touch QTouch Sensor Key
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9542-AT42-QTouch-BSW-AT42QT1011_Datasheet.pdf
 $ENDCMP
 #
+$CMP AT42QT1012-M
+D Single-Key Touch Sensor IC, UDFN-8
+K Touch QTouch Sensor Key
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001948A.pdf
+$ENDCMP
+#
+$CMP AT42QT1012-T
+D Single-Key Touch Sensor IC, SOT-23-6
+K Touch QTouch Sensor Key
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001948A.pdf
+$ENDCMP
+#
 $CMP AT42QT1040-M
 D Four-key Touch Sensor IC, VQFN-20
 K Touch QTouch Sensor Key
