@@ -1338,6 +1338,12 @@ K dual zener diode
 F http://www.onsemi.com/pub/Collateral/MMBZ5V6ALT1-D.PDF
 $ENDCMP
 #
+$CMP MMSD4148
+D 100V 200mA Switching Diode, SOD-123
+K diode
+F https://www.onsemi.com/pub/Collateral/MMSD4148T1-D.PDF
+$ENDCMP
+#
 $CMP MMSD914
 D 100V 0.2A Switching Diode, SOD-123
 K diode
