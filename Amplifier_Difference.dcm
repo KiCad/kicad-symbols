@@ -18,6 +18,12 @@ K difference amplifier
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8276_8277.pdf
 $ENDCMP
 #
+$CMP ADA4940-2
+D Ultralow Power, Low Distortion, Fully Differential ADC Drivers, LFCSP-24
+K differential amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4940-1_4940-2.pdf
+$ENDCMP
+#
 $CMP LM733CH
 D Single Differential Amplifier, TO-5-10
 K single differential video opamp
