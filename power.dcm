@@ -469,6 +469,11 @@ D Power flag, programming voltage
 K power-flag
 $ENDCMP
 #
+$CMP VS
+D Power flag, direct current
+K power-flag dc
+$ENDCMP
+#
 $CMP VSS
 D Power flag, negative power supply/ground
 K power-flag
@@ -477,6 +482,11 @@ $ENDCMP
 $CMP VSSA
 D Power flag, negative power supply/ground
 K power-flag
+$ENDCMP
+#
+$CMP Vdrive
+D Power flag, direct current
+K power-flag dc
 $ENDCMP
 #
 #End Doc Library
