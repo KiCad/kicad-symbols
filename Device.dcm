@@ -624,6 +624,12 @@ K EMI filter
 F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c30e.ashx?la=en-gb
 $ENDCMP
 #
+$CMP EMI_Filter_LL_1423
+D EMI 2-inductor filter, pin-connections 1-4 and 2-3
+K EMI filter common-mode choke
+F ~
+$ENDCMP
+#
 $CMP Earphone
 D Earphone, polarized
 K earphone speaker headphone
@@ -1104,8 +1110,20 @@ K transistor NPN
 F ~
 $ENDCMP
 #
+$CMP Q_DUAL_NPN_NPN_BRT_E1B1C2E2B2C1
+D Dual NPN bias resistor transistor, 6 pin package
+K transistor NPN
+F ~
+$ENDCMP
+#
 $CMP Q_DUAL_NPN_NPN_E1B1C2E2B2C1
 D Dual NPN transistor, 6 pin package
+K transistor NPN
+F ~
+$ENDCMP
+#
+$CMP Q_DUAL_NPN_PNP_BRT_E1B1C2E2B2C1
+D Dual NPN/PNP bias resistor transistor, 6 pin package
 K transistor NPN
 F ~
 $ENDCMP
@@ -1125,6 +1143,18 @@ $ENDCMP
 $CMP Q_DUAL_PNP_C2C1E1E2
 D Double PNP transistors, current mirror configuration
 K transistor PNP
+F ~
+$ENDCMP
+#
+$CMP Q_DUAL_PNP_NPN_BRT_E1B1C2E2B2C1
+D Dual PNP/NPN bias resistor transistor, 6 pin package
+K transistor NPN
+F ~
+$ENDCMP
+#
+$CMP Q_DUAL_PNP_PNP_BRT_E1B1C2E2B2C1
+D Dual PNP bias resistor transistor, 6 pin package
+K transistor NPN
 F ~
 $ENDCMP
 #
@@ -1290,6 +1320,12 @@ K transistor NPN
 F ~
 $ENDCMP
 #
+$CMP Q_NPN_BEC_BRT
+D NPN bias resistor transistor, base/emitter/collector
+K transistor NPN
+F ~
+$ENDCMP
+#
 $CMP Q_NPN_CBE
 D NPN transistor, collector/base/emitter
 K transistor NPN
@@ -1357,6 +1393,12 @@ F ~
 $ENDCMP
 #
 $CMP Q_NPN_ECB
+D NPN transistor, emitter/collector/base
+K transistor NPN
+F ~
+$ENDCMP
+#
+$CMP Q_NPN_ECB_BRT
 D NPN transistor, emitter/collector/base
 K transistor NPN
 F ~
@@ -1476,6 +1518,12 @@ K transistor PNP
 F ~
 $ENDCMP
 #
+$CMP Q_PNP_BEC_BRT
+D PNP bias resistor transistor, base/emitter/collector
+K transistor PNP
+F ~
+$ENDCMP
+#
 $CMP Q_PNP_CBE
 D PNP transistor, collector/base/emitter
 K transistor PNP
@@ -1544,6 +1592,12 @@ $ENDCMP
 #
 $CMP Q_PNP_ECB
 D PNP transistor, emitter/collector/base
+K transistor PNP
+F ~
+$ENDCMP
+#
+$CMP Q_PNP_ECB_BRT
+D PNP bias resistor transistor, emitter/collector/base
 K transistor PNP
 F ~
 $ENDCMP

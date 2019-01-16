@@ -516,6 +516,48 @@ K linear regulator ldo fixed positive
 F https://www.diodes.com/assets/Datasheets/AP2204.pdf
 $ENDCMP
 #
+$CMP AP7361C-10E
+D 1A Low Dropout regulator, positive, 1.0V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F https://www.diodes.com/assets/Datasheets/AP7361C.pdf
+$ENDCMP
+#
+$CMP AP7361C-12E
+D 1A Low Dropout regulator, positive, 1.2V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F https://www.diodes.com/assets/Datasheets/AP7361C.pdf
+$ENDCMP
+#
+$CMP AP7361C-15E
+D 1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F https://www.diodes.com/assets/Datasheets/AP7361C.pdf
+$ENDCMP
+#
+$CMP AP7361C-18E
+D 1A Low Dropout regulator, positive, 1.8V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F https://www.diodes.com/assets/Datasheets/AP7361C.pdf
+$ENDCMP
+#
+$CMP AP7361C-25E
+D 1A Low Dropout regulator, positive, 2.5V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F https://www.diodes.com/assets/Datasheets/AP7361C.pdf
+$ENDCMP
+#
+$CMP AP7361C-28E
+D 1A Low Dropout regulator, positive, 2.8V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F https://www.diodes.com/assets/Datasheets/AP7361C.pdf
+$ENDCMP
+#
+$CMP AP7361C-33E
+D 1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223
+K linear regulator ldo fixed positive
+F https://www.diodes.com/assets/Datasheets/AP7361C.pdf
+$ENDCMP
+#
 $CMP APE8865N-12-HF-3
 D 300 mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23
 K 300mA LDO Regulator Fixed Positive
@@ -2730,6 +2772,12 @@ K Micropower Voltage Regulator 100mA Positive
 F http://www.ti.com/lit/ds/symlink/lp2950-n.pdf
 $ENDCMP
 #
+$CMP LP2980-ADJ
+D 50mA 15V Low-noise Low-dropout Regulator, 1.23-15V adjustable output voltage, SOT-23-5
+K LDO Voltage Regulator 50mA Positive
+F http://www.ti.com/lit/ds/symlink/lp2980-adj.pdf
+$ENDCMP
+#
 $CMP LP2985-1.8
 D 150mA 16V Low-noise Low-dropout Regulator With Shutdown, 1.8V output voltage, SOT-23-5
 K LDO regulator linear  SOT-23-5
@@ -2922,8 +2970,74 @@ K LDO Linear Regulator adjustable
 F http://www.ti.com/lit/ds/symlink/lp3966.pdf
 $ENDCMP
 #
+$CMP LP5907MFX-1.2
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 1.2V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-1.5
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 1.5V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
 $CMP LP5907MFX-1.8
-D 250-mA Ultra-Low-Noise Low-IQ LDO
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 1.8V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-2.5
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 2.5V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-2.8
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 2.8V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-2.85
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 2.85V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-2.9
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 2.9V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-3.0
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 3.0V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-3.1
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 3.1V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-3.2
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 3.2V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-3.3
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-4.5
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 4.5V, SOT-23
 K Single Output LDO Low-Noise
 F http://www.ti.com/lit/ds/symlink/lp5907.pdf
 $ENDCMP
@@ -3414,6 +3528,30 @@ K low noise voltage regulator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf
 $ENDCMP
 #
+$CMP LT1963AxQ-1.5
+D 1.5V, 1.5A, Low Noise, Fast Transient Response LDO Regulator, TO-263-5
+K voltage regulator linear ldo
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf
+$ENDCMP
+#
+$CMP LT1963AxQ-1.8
+D 1.8V, 1.5A, Low Noise, Fast Transient Response LDO Regulator, TO-263-5
+K voltage regulator linear ldo
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf
+$ENDCMP
+#
+$CMP LT1963AxQ-2.5
+D 2.5V, 1.5A, Low Noise, Fast Transient Response LDO Regulator, TO-263-5
+K voltage regulator linear ldo
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf
+$ENDCMP
+#
+$CMP LT1963AxQ-3.3
+D 3.3V, 1.5A, Low Noise, Fast Transient Response LDO Regulator, TO-263-5
+K voltage regulator linear ldo
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf
+$ENDCMP
+#
 $CMP LT1963EQ
 D 1.5A, Adjustable, Low Noise, Linear Voltage Regulator, TO-263-5
 K low noise voltage regulator
@@ -3453,6 +3591,42 @@ $ENDCMP
 $CMP LT3015Q
 D 1.5A, Adjustable, Low Noise, Negative Voltage Regulator, TO-263-5
 K low noise voltage regulator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3015fb.pdf
+$ENDCMP
+#
+$CMP LT3015xQ-12
+D -12V, 1.5A, Low Noise, Negative Linear Regulator with Precision Current Limit, TO-263-5
+K negative voltage regulator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3015fb.pdf
+$ENDCMP
+#
+$CMP LT3015xQ-15
+D -15V, 1.5A, Low Noise, Negative Linear Regulator with Precision Current Limit, TO-263-5
+K negative voltage regulator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3015fb.pdf
+$ENDCMP
+#
+$CMP LT3015xQ-2.5
+D -2.5V, 1.5A, Low Noise, Negative Linear Regulator with Precision Current Limit, TO-263-5
+K negative voltage regulator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3015fb.pdf
+$ENDCMP
+#
+$CMP LT3015xQ-3
+D -3V, 1.5A, Low Noise, Negative Linear Regulator with Precision Current Limit, TO-263-5
+K negative voltage regulator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3015fb.pdf
+$ENDCMP
+#
+$CMP LT3015xQ-3.3
+D -3.3V, 1.5A, Low Noise, Negative Linear Regulator with Precision Current Limit, TO-263-5
+K negative voltage regulator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3015fb.pdf
+$ENDCMP
+#
+$CMP LT3015xQ-5
+D -5V, 1.5A, Low Noise, Negative Linear Regulator with Precision Current Limit, TO-263-5
+K negative voltage regulator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3015fb.pdf
 $ENDCMP
 #
@@ -4672,6 +4846,24 @@ $CMP MIC5356-SGYMME
 D Dual 500mA μCap Low Dropout Micropower Linear Regulator, 3.3V/1.8V, MSOP-8
 K Dual LDO 500mA MSOP-8
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5355_6.pdf
+$ENDCMP
+#
+$CMP MIC5365-3.3YC5
+D 150mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SC-70-5
+K Micrel LDO voltage regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf
+$ENDCMP
+#
+$CMP MIC5365-3.3YD5
+D 150mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23-5
+K Micrel LDO voltage regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf
+$ENDCMP
+#
+$CMP MIC5366-3.3YC5
+D 150mA Low-dropout Voltage Regulator, Vout 3.3V, Output discharge circuit, Vin up to 5.5V, SC-70-5
+K Micrel LDO voltage regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf
 $ENDCMP
 #
 $CMP MIC5501-3.0YM5
@@ -6066,7 +6258,7 @@ K LDO Voltage Regulator 200mA
 F http://www.ti.com/lit/ds/symlink/tps79333-ep.pdf
 $ENDCMP
 #
-$CMP TPS793333-EP
+$CMP TPS79333-EP
 D 200mA UltraLow-Noise, High-Precision, Fast RF, Low Drop-out Voltage Regualtor, Fixed Output 3.3V, SOT-23
 K LDO Voltage Regulator 200mA
 F http://www.ti.com/lit/ds/symlink/tps79333-ep.pdf
@@ -6076,6 +6268,24 @@ $CMP TPS793475-EP
 D 200mA UltraLow-Noise, High-Precision, Fast RF, Low Drop-out Voltage Regualtor, Fixed Output 4.75V, SOT-23
 K LDO Voltage Regulator 200mA
 F http://www.ti.com/lit/ds/symlink/tps79333-ep.pdf
+$ENDCMP
+#
+$CMP TPS7A7001DDA
+D 2A, Low-Dropout Voltage Regulator, 1.425-6.5V Input, Adjustable Min 0.5V Output, PowerPad SO-8
+K ldo regulator voltage linear
+F http://www.ti.com/lit/ds/symlink/tps7a7001.pdf
+$ENDCMP
+#
+$CMP TPS7A7200RGW
+D 2A, Low-Dropout Voltage Regulator, 1.5-6.5V Input, Adjustable 0.9-5V Output, VQFN-20
+K linear regulator ldo voltage
+F http://www.ti.com/lit/ds/symlink/tps7a7200.pdf
+$ENDCMP
+#
+$CMP XC6220B331MR
+D 1A, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-23-5
+K LDO Voltage Regulator 1A
+F https://www.torexsemi.com/file/xc6220/XC6220.pdf
 $ENDCMP
 #
 $CMP uA7805

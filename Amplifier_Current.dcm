@@ -240,6 +240,12 @@ K current monitor shunt sensor bidirectional
 F http://www.ti.com/lit/ds/symlink/ina282.pdf
 $ENDCMP
 #
+$CMP LMP8640
+D Precision High Voltage Current Sense Amplifiers, 42V/76V, SOT-23-6
+K current monitor shunt sensor
+F http://www.ti.com/lit/ds/symlink/lmp8640.pdf
+$ENDCMP
+#
 $CMP LT6101HV
 D Current Shunt Monitor, 5V to 100V, SOT-23-5
 K current sense shunt monitor
