@@ -204,6 +204,24 @@ K digital isolator galvanic isopower
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM5401_5402_5403_5404.pdf
 $ENDCMP
 #
+$CMP ADuM5410
+D Quad-Channel 2.5kV isolator with integrated dc-dc converter, 4 Input / 0 output, SSOP-24
+K digital isolator galvanic isopower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM5410-5411-5412.pdf
+$ENDCMP
+#
+$CMP ADuM5411
+D Quad-Channel 2.5kV isolator with integrated dc-dc converter, 3 Input / 1 output, SSOP-24
+K digital isolator galvanic isopower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM5410-5411-5412.pdf
+$ENDCMP
+#
+$CMP ADuM5412
+D Quad-Channel 2.5kV isolator with integrated dc-dc converter, 2 Input / 2 output, SSOP-24
+K digital isolator galvanic isopower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM5410-5411-5412.pdf
+$ENDCMP
+#
 $CMP ADuM7643
 D Low Power Six-Channel 3/3 Digital Isolator, 25Mbps 6ns, Fail-Safe High, QSOP20
 K 6Ch Quad Digital Isolator 25Mbps
