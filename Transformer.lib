@@ -1100,11 +1100,10 @@ ENDDEF
 DEF PT61017PEL TR 0 20 Y N 1 F N
 F0 "TR" 0 425 50 H V C CNN
 F1 "PT61017PEL" 0 -425 50 H V C CNN
-F2 "Transformer_SMD:Transformer_Ethernet_Bel_S558-5999-T7-F" 0 -500 50 H I C CNN
+F2 "Transformer_SMD:Transformer_Ethernet_Bourns_PT61017PEL" 0 -500 50 H I C CNN
 F3 "" -700 350 50 H I C CNN
-ALIAS S558-5999-T7-F
 $FPLIST
- Transformer*Ethernet*Bel*S558?5999?T7?F*
+ Transformer*Ethernet*Bourns*PT61017PEL*
 $ENDFPLIST
 DRAW
 A -200 275 25 -899 899 0 1 0 N -200 250 -200 300
