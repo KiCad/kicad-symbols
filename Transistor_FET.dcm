@@ -1339,13 +1339,13 @@ F http://www.diodes.com/assets/Datasheets/DMN30H4D0L.pdf
 $ENDCMP
 #
 $CMP DMN3110S
-D 5.5 A Id, 30 V Vds, N-Channel MOSFET, SOT-23
+D 3.3 A Id, 30 V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
 F http://www.diodes.com/assets/Datasheets/DMN3110S.pdf
 $ENDCMP
 #
 $CMP DMN3150L
-D 3.2 A Id, 30 V Vds, N-Channel MOSFET, SOT-23
+D 3.8 A Id, 30 V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
 F http://www.diodes.com/assets/Datasheets/ds31126.pdf
 $ENDCMP
@@ -1357,13 +1357,13 @@ F http://www.diodes.com/assets/Datasheets/ds31181.pdf
 $ENDCMP
 #
 $CMP DMN3404L
-D 4.3 A Id, 30 V Vds, N-Channel MOSFET, SOT-23
+D 5.8 A Id, 30 V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
 F http://www.diodes.com/assets/Datasheets/ds31787.pdf
 $ENDCMP
 #
 $CMP DMN6075S
-D 2 A Id, 60 V Vds, N-Channel MOSFET, SOT-23
+D 2.5 A Id, 60 V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
 F http://www.diodes.com/assets/Datasheets/DMN6075S.pdf
 $ENDCMP
@@ -2485,43 +2485,43 @@ F http://www.diodes.com/assets/Datasheets/ZXM61N03F.pdf
 $ENDCMP
 #
 $CMP ZXMN10A07F
-D 0.8 A Id, 100 V Vds, N-Channel MOSFET, SOT-23
+D 0.76 A Id, 100 V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
 F http://www.diodes.com/assets/Datasheets/ZXMN10A07F.pdf
 $ENDCMP
 #
 $CMP ZXMN2A01F
-D 1.9 A Id, 20 V Vds, N-Channel MOSFET, SOT-23
+D 2.2 A Id, 20 V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
 F http://www.diodes.com/assets/Datasheets/ZXMN2A01F.pdf
 $ENDCMP
 #
 $CMP ZXMN2A14F
-D N/A A Id, 20 V Vds, N-Channel MOSFET, SOT-23
+D 4.1 A Id, 20 V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
 F http://www.diodes.com/assets/Datasheets/ZXMN2A14F.pdf
 $ENDCMP
 #
 $CMP ZXMN2B01F
-D 2.1 A Id, 20 V Vds, N-Channel MOSFET, SOT-23
+D 2.4 A Id, 20 V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
 F http://www.diodes.com/assets/Datasheets/ZXMN2B01F.pdf
 $ENDCMP
 #
 $CMP ZXMN2B14FH
-D 3.5 A Id, 20 V Vds, N-Channel MOSFET, SOT-23
+D 4.3 A Id, 20 V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
 F http://www.diodes.com/assets/Datasheets/ZXMN2B14FH.pdf
 $ENDCMP
 #
 $CMP ZXMN2F30FH
-D 4.1 A Id, 20 V Vds, N-Channel MOSFET, SOT-23
+D 4.9 A Id, 20 V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
 F http://www.diodes.com/assets/Datasheets/ZXMN2F30FH.pdf
 $ENDCMP
 #
 $CMP ZXMN2F34FH
-D 3.4 A Id, 20 V Vds, N-Channel MOSFET, SOT-23
+D 4 A Id, 20 V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
 F http://www.diodes.com/assets/Datasheets/ZXMN2F34FH.pdf
 $ENDCMP
@@ -2533,7 +2533,7 @@ F http://www.diodes.com/assets/Datasheets/ZXMN3A01F.pdf
 $ENDCMP
 #
 $CMP ZXMN3A14F
-D 3.9 A Id, 30 V Vds, N-Channel MOSFET, SOT-23
+D 3.2 A Id, 30 V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
 F http://www.diodes.com/assets/Datasheets/ZXMN3A14F.pdf
 $ENDCMP
