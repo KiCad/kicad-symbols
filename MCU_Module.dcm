@@ -72,6 +72,12 @@ K STM32 Nucleo ST
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/data_brief/DM00105918.pdf
 $ENDCMP
 #
+$CMP Onion-Omega2+
+D NextThingCo C.H.I.P. Module
+K nextthingco chip module
+F https://github.com/NextThingCo/CHIP-Hardware/tree/master/CHIP%5Bv1_0%5D
+$ENDCMP
+#
 $CMP VisionSOM-6UL
 D i.MX6-UL NXP ARM Cortex-A7 696MHz single core industrial SoM computer
 K somlabs module
