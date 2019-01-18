@@ -25,7 +25,13 @@ F http://www.datasheet5.com/pdf-local-2195953
 $ENDCMP
 #
 $CMP CP2102N-A01-GQFN24
-D USB to UART master bridge
+D USB to UART master bridge, QFN-24
+K USB UART bridge
+F https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
+$ENDCMP
+#
+$CMP CP2102N-A01-GQFN28
+D USB to UART master bridge, QFN-28
 K USB UART bridge
 F https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
 $ENDCMP
