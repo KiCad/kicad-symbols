@@ -6,6 +6,30 @@ K voltage reference
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD586.pdf
 $ENDCMP
 #
+$CMP ADR420ARMZ
+D 2.048 V Voltage Reference, Ultraprecision, Low Noise, MSOP-8
+K voltage reference Ultraprecision Low Noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adr420_421_423_425.pdf
+$ENDCMP
+#
+$CMP ADR421ARMZ
+D 2.50 V Voltage Reference, Ultraprecision, Low Noise, MSOP-8
+K 2.5 V voltage reference
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adr420_421_423_425.pdf
+$ENDCMP
+#
+$CMP ADR423ARMZ
+D 3.00 V Voltage Reference, Ultraprecision, Low Noise, MSOP-8
+K 3V voltage reference
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adr420_421_423_425.pdf
+$ENDCMP
+#
+$CMP ADR425ARMZ
+D 5.00 V Voltage Reference, Ultraprecision, Low Noise, MSOP-8
+K 5V voltage reference
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adr420_421_423_425.pdf
+$ENDCMP
+#
 $CMP CJ432
 D Shunt Regulator, SOT-23
 K diode device shunt regulator
@@ -78,7 +102,7 @@ K diode device voltage reference
 F http://www.ti.com/lit/ds/symlink/lm185-adj.pdf
 $ENDCMP
 #
-$CMP LM358Z-2.5
+$CMP LM385Z-2.5
 D 2.5V Micropower Voltage Reference Diodes, TO-92
 K diode device voltage reference
 F http://www.onsemi.com/pub_link/Collateral/LM285-D.PDF
@@ -298,6 +322,12 @@ $CMP LM4125IM5-2.5
 D 2.5V ±0.5% Precision Micropower Low Dropout Voltage Reference, SOT-23-5
 K Precision Micropower Low Dropout Voltage Reference 2.5V
 F http://www.ti.com/lit/ds/symlink/lm4125.pdf
+$ENDCMP
+#
+$CMP LM4128
+D 2.5V ±0.2% Precision Micropower Low Dropout Voltage Reference, SOT-23-5
+K Precision Micropower Low Dropout Voltage Reference 2.5V
+F http://www.ti.com/lit/ds/symlink/lm4128.pdf
 $ENDCMP
 #
 $CMP LT1019xN8

@@ -2772,6 +2772,12 @@ K Micropower Voltage Regulator 100mA Positive
 F http://www.ti.com/lit/ds/symlink/lp2950-n.pdf
 $ENDCMP
 #
+$CMP LP2980-ADJ
+D 50mA 15V Low-noise Low-dropout Regulator, 1.23-15V adjustable output voltage, SOT-23-5
+K LDO Voltage Regulator 50mA Positive
+F http://www.ti.com/lit/ds/symlink/lp2980-adj.pdf
+$ENDCMP
+#
 $CMP LP2985-1.8
 D 150mA 16V Low-noise Low-dropout Regulator With Shutdown, 1.8V output voltage, SOT-23-5
 K LDO regulator linear  SOT-23-5
@@ -2964,8 +2970,74 @@ K LDO Linear Regulator adjustable
 F http://www.ti.com/lit/ds/symlink/lp3966.pdf
 $ENDCMP
 #
+$CMP LP5907MFX-1.2
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 1.2V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-1.5
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 1.5V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
 $CMP LP5907MFX-1.8
-D 250-mA Ultra-Low-Noise Low-IQ LDO
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 1.8V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-2.5
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 2.5V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-2.8
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 2.8V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-2.85
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 2.85V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-2.9
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 2.9V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-3.0
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 3.0V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-3.1
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 3.1V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-3.2
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 3.2V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-3.3
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, SOT-23
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5907MFX-4.5
+D 250-mA Ultra-Low-Noise Low-IQ LDO, 4.5V, SOT-23
 K Single Output LDO Low-Noise
 F http://www.ti.com/lit/ds/symlink/lp5907.pdf
 $ENDCMP
@@ -6186,7 +6258,7 @@ K LDO Voltage Regulator 200mA
 F http://www.ti.com/lit/ds/symlink/tps79333-ep.pdf
 $ENDCMP
 #
-$CMP TPS793333-EP
+$CMP TPS79333-EP
 D 200mA UltraLow-Noise, High-Precision, Fast RF, Low Drop-out Voltage Regualtor, Fixed Output 3.3V, SOT-23
 K LDO Voltage Regulator 200mA
 F http://www.ti.com/lit/ds/symlink/tps79333-ep.pdf
