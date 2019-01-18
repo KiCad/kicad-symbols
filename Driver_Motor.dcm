@@ -84,6 +84,24 @@ K H-bridge motor driver
 F http://www.ti.com/lit/ds/symlink/drv8833.pdf
 $ENDCMP
 #
+$CMP DRV8837
+D H-Bridge driver, 1.8A, Low Voltage, PWM input, WSON-8
+K half bridge driver
+F http://www.ti.com/lit/ds/symlink/drv8837.pdf
+$ENDCMP
+#
+$CMP DRV8837C
+D H-Bridge driver, 1A, Low Voltage, PWM input, WSON-8
+K half bridge driver
+F http://www.ti.com/lit/ds/symlink/drv8837c.pdf
+$ENDCMP
+#
+$CMP DRV8838
+D H-Bridge driver, 1.8A, Low Voltage, PH/EN input, WSON-8
+K half bridge driver
+F http://www.ti.com/lit/ds/symlink/drv8837.pdf
+$ENDCMP
+#
 $CMP DRV8848
 D Dual H-Bridge motor driver, PWM controlled, single/dual brushed DC stepper, +2 to +18 VDD, TSSOP-16
 K Dual H-Bridge motor driver

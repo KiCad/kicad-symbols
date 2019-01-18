@@ -57,7 +57,7 @@ $ENDCMP
 $CMP 1N4148
 D 100V 0.15A standard switching diode, DO-35
 K diode
-F http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf
+F https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf
 $ENDCMP
 #
 $CMP 1N4148W
@@ -93,7 +93,7 @@ $ENDCMP
 $CMP 1N4448
 D 100V 0.15A High-speed standard diode, DO-35
 K diode
-F http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf
+F https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf
 $ENDCMP
 #
 $CMP 1N4448W
@@ -477,7 +477,7 @@ $ENDCMP
 $CMP BAS16VY
 D Fast switching diode array 3 independent
 K diode
-F http://www.nxp.com/documents/data_sheet/BAS16_SER.pdf
+F https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf
 $ENDCMP
 #
 $CMP BAS40-04
@@ -567,13 +567,13 @@ $ENDCMP
 $CMP BAT85
 D 30V 0.2A Schottky barrier single diode, DO-35
 K diode Schottky
-F http://www.nxp.com/documents/data_sheet/BAT85.pdf
+F https://assets.nexperia.com/documents/data-sheet/BAT85.pdf
 $ENDCMP
 #
 $CMP BAT86
 D 50V 0.2A Small Signal Schottky Diode, DO-35
 K diode Schottky
-F http://www.nxp.com/documents/data_sheet/BAT86.pdf
+F https://assets.nexperia.com/documents/data-sheet/BAT86.pdf
 $ENDCMP
 #
 $CMP BAT86S
@@ -657,7 +657,7 @@ $ENDCMP
 $CMP BAV99
 D BAV99 High-speed switching diodes
 K diode
-F www.nxp.com/documents/data_sheet/BAV99_SER.pdf
+F https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf
 $ENDCMP
 #
 $CMP BAV99S
@@ -675,7 +675,7 @@ $ENDCMP
 $CMP BAW56S
 D High Speed Switching Diode Array 2 pair Com A
 K diode
-F http://www.nxp.com/documents/data_sheet/BAV756S_BAW56_SER.pdf
+F https://assets.nexperia.com/documents/data-sheet/BAV756S_BAW56_SER.pdf
 $ENDCMP
 #
 $CMP BAW75
@@ -1336,6 +1336,12 @@ $CMP MMBZxx
 D Double Zener Diode, Common Anode, 225mW, SOT-23
 K dual zener diode
 F http://www.onsemi.com/pub/Collateral/MMBZ5V6ALT1-D.PDF
+$ENDCMP
+#
+$CMP MMSD4148
+D 100V 200mA Switching Diode, SOD-123
+K diode
+F https://www.onsemi.com/pub/Collateral/MMSD4148T1-D.PDF
 $ENDCMP
 #
 $CMP MMSD914

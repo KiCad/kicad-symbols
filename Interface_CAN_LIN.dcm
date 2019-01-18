@@ -6,6 +6,12 @@ K can transceiver isolated protected
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM3053.pdf
 $ENDCMP
 #
+$CMP ISO1050DUB
+D Isolated CAN Transceiver, SOP-8
+K CAN Isolated
+F http://www.ti.com/lit/ds/symlink/iso1050.pdf
+$ENDCMP
+#
 $CMP LTC2875-DD
 D High-Speed CAN Transceiver, 4Mbps, 3.3V or 5V supply, DFN8 package
 K High-Speed CAN Transceiver
