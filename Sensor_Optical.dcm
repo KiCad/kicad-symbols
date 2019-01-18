@@ -210,6 +210,12 @@ K light dependent photo resistor LDR
 F http://cdn-reichelt.de/documents/datenblatt/A500/M996011a_b.pdf
 $ENDCMP
 #
+$CMP NOA1305
+D Ambient Light Sensor with I2C Interface and Dark Current Compensation
+K opto ambient light sensor
+F http://www.onsemi.com/pub/Collateral/NOA1305-D.PDF
+$ENDCMP
+#
 $CMP S13360-3025CS
 D Multi-Pixel Photon Counter with 25µm pixel pitch
 K opto SiPM MPPC hamamatsu SPAD

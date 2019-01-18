@@ -1470,6 +1470,12 @@ K diode Schottky
 F http://www.diodes.com/_files/datasheets/ds23022.pdf
 $ENDCMP
 #
+$CMP SD103ATW
+D Schottky Barrier Diode Array, SOT-363
+K schottky barrier diode array
+F https://www.diodes.com/assets/Datasheets/ds30374.pdf
+$ENDCMP
+#
 $CMP SM2000
 D 2000V 1A General Purpose Rectifier Diode, MELF
 K diode

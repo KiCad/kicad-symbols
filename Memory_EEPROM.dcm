@@ -378,6 +378,78 @@ K EEPROM memory SPI serial
 F http://www.onsemi.com/PowerSolutions/product.do?id=CAT25040
 $ENDCMP
 #
+$CMP M24C01-FDW
+D 1Kb (128x8) I2C Serial EEPROM, 1.6-5.5V, TSSOP-8
+K Nonvolatile Non-Volatile Memory ROM ST
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf
+$ENDCMP
+#
+$CMP M24C01-FMN
+D 1Kb (128x8) I2C Serial EEPROM, 1.6-5.5V, SOIC-8
+K Nonvolatile Non-Volatile Memory ROM ST
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf
+$ENDCMP
+#
+$CMP M24C01-RDW
+D 1Kb (128x8) I2C Serial EEPROM, 1.8-5.5V, TSSOP-8
+K Nonvolatile Non-Volatile Memory ROM ST
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf
+$ENDCMP
+#
+$CMP M24C01-RMN
+D 1Kb (128x8) I2C Serial EEPROM, 1.8-5.5V, SOIC-8
+K Nonvolatile Non-Volatile Memory ROM ST
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf
+$ENDCMP
+#
+$CMP M24C01-WDW
+D 1Kb (128x8) I2C Serial EEPROM, 2.5-5.5V, TSSOP-8
+K Nonvolatile Non-Volatile Memory ROM ST
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf
+$ENDCMP
+#
+$CMP M24C01-WMN
+D 1Kb (128x8) I2C Serial EEPROM, 2.5-5.5V, SOIC-8
+K Nonvolatile Non-Volatile Memory ROM ST
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf
+$ENDCMP
+#
+$CMP M24C02-FDW
+D 2Kb (256x8) I2C Serial EEPROM, 1.6-5.5V, TSSOP-8
+K Nonvolatile Non-Volatile Memory ROM ST
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf
+$ENDCMP
+#
+$CMP M24C02-FMN
+D 2Kb (256x8) I2C Serial EEPROM, 1.6-5.5V, SOIC-8
+K Nonvolatile Non-Volatile Memory ROM ST
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf
+$ENDCMP
+#
+$CMP M24C02-RDW
+D 2Kb (256x8) I2C Serial EEPROM, 1.8-5.5V, TSSOP-8
+K Nonvolatile Non-Volatile Memory ROM ST
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf
+$ENDCMP
+#
+$CMP M24C02-RMN
+D 2Kb (256x8) I2C Serial EEPROM, 1.8-5.5V, SOIC-8
+K Nonvolatile Non-Volatile Memory ROM ST
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf
+$ENDCMP
+#
+$CMP M24C02-WDW
+D 2Kb (256x8) I2C Serial EEPROM, 2.5-5.5V, TSSOP-8
+K Nonvolatile Non-Volatile Memory ROM ST
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf
+$ENDCMP
+#
+$CMP M24C02-WMN
+D 2Kb (256x8) I2C Serial EEPROM, 2.5-5.5V, SOIC-8
+K Nonvolatile Non-Volatile Memory ROM ST
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/b0/d8/50/40/5a/85/49/6f/DM00071904.pdf/files/DM00071904.pdf/jcr:content/translations/en.DM00071904.pdf
+$ENDCMP
+#
 $CMP M95256-WMN6P
 D SPI EEPROM, 256Kb (32K x 8), No Identification Page, 2.5 to 5.5V, SO8
 K SPI EEPROM
