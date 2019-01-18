@@ -96,16 +96,16 @@ K Low Power RF Transciever breakout carrier
 F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf
 $ENDCMP
 #
-$CMP RBPF-246+
-D Bandpass Filter, 236 to 265 MHz, 50 Ohm, Mini-Circuits CK605
-K Bandpass Filter
-F https://ww2.minicircuits.com/pdfs/RBPF-246+.pdf
-$ENDCMP
-#
 $CMP RBP-280
 D Bandpass Filter, 260 to 310 MHz, 50 Ohm, Mini-Circuits GP731
 K bandpass filter rf
 F https://ww2.minicircuits.com/pdfs/RBP-280+.pdf
+$ENDCMP
+#
+$CMP RBPF-246+
+D Bandpass Filter, 236 to 265 MHz, 50 Ohm, Mini-Circuits CK605
+K Bandpass Filter
+F https://ww2.minicircuits.com/pdfs/RBPF-246+.pdf
 $ENDCMP
 #
 $CMP RLP-30
