@@ -1,9 +1,27 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADC-10-1R
+D Directional Coupler, 5 to 900 MHz, 10 dB Coupling, 50 Ohm, Mini-Circuits CD542
+K Directional Coupler
+F https://ww2.minicircuits.com/pdfs/ADC-10-1R.pdf
+$ENDCMP
+#
 $CMP ADE-6
 D Mixer, +7 dBm LO, 0.05 to 250 MHz
 K mixer rf
 F www.minicircuits.com/pdfs/ADE-6.pdf
+$ENDCMP
+#
+$CMP ADP-2-1W
+D Power splitter combiner, 1 to 650 MHz, 2 way 0-degree, 50 ohm, Mini-Circuits CD636
+K splitter combiner
+F https://ww2.minicircuits.com/pdfs/ADP-2-1W.pdf
+$ENDCMP
+#
+$CMP AMK-2-13
+D 2x Frequency Multiplier, output 20 to 1000 MHz, 50 Ohm, Mini-Circuits CD542
+K frequency multiplier
+F https://ww2.minicircuits.com/pdfs/AMK-2-13+.pdf
 $ENDCMP
 #
 $CMP CC1000
@@ -28,6 +46,12 @@ $CMP LPF-B0R3
 D Low Pass Filter, DC to 0.3 MHz, 50 Ohm, Mini-Circuits HZ1198
 K low pass filter
 F https://ww2.minicircuits.com/pdfs/LPF-B0R3+.pdf
+$ENDCMP
+#
+$CMP LAT-3
+D Attenuator, 3dB, 0.5W, DC to 2500 MHz, 50 Ohm, Mini-Circuits MMM168
+K attenuator rf
+F https://ww2.minicircuits.com/pdfs/LAT-3+.pdf
 $ENDCMP
 #
 $CMP LRPS-2-1
@@ -60,6 +84,12 @@ K ask fsk ism transmitter
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MICRF112.pdf
 $ENDCMP
 #
+$CMP MICRF220AYQS
+D ASK Receiver 3.0-3.6V, 300-450MHz, -110dBm, QSOP-16
+K ask receiver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/micrf220.pdf
+$ENDCMP
+#
 $CMP NRF24L01
 D Ultra low power 2.4GHz RF Transceiver, QFN20 4x4mm
 K Low Power RF Transciever
@@ -72,58 +102,40 @@ K Low Power RF Transciever breakout carrier
 F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf
 $ENDCMP
 #
-$CMP SARA-U201
-D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, AT Command Set, Worldwide , LGA-96
-K GSM HSPA 2G 3G
-F https://www.u-blox.com/sites/default/files/SARA-U2_DataSheet_(UBX-13005287).pdf
+$CMP RBP-280
+D Bandpass Filter, 260 to 310 MHz, 50 Ohm, Mini-Circuits GP731
+K bandpass filter rf
+F https://ww2.minicircuits.com/pdfs/RBP-280+.pdf
 $ENDCMP
 #
-$CMP SARA-U260
-D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, Designed for America, LGA-96
-K GSM HSPA 2G 3G
-F https://www.u-blox.com/sites/default/files/SARA-U2_DataSheet_(UBX-13005287).pdf
+$CMP RLP-30
+D Low Pass Filter, DC to 30 MHz, 50 Ohm, Mini-Circuits GP1212
+K Low Pass Filter
+F https://ww2.minicircuits.com/pdfs/RLP-30+.pdf
 $ENDCMP
 #
-$CMP SARA-U270
-D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, Designed for Europe, Asia and Others, LGA-96
-K GSM HSPA 2G 3G
-F https://www.u-blox.com/sites/default/files/SARA-U2_DataSheet_(UBX-13005287).pdf
+$CMP RMK-3-451
+D 3x Frequency Multiplier, output 300 to 450 MHz, 50 Ohm, Mini-Circuits TT1224
+K frequency multiplier
+F https://ww2.minicircuits.com/pdfs/RMK-3-451+.pdf
 $ENDCMP
 #
-$CMP SARA-U280
-D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, Designed for America, LGA-96
-K GSM HSPA 2G 3G
-F https://www.u-blox.com/sites/default/files/SARA-U2_DataSheet_(UBX-13005287).pdf
+$CMP RMK-5-51
+D 5x Frequency Multiplier, Output 37.5 to 52.5 MHz, 50 Ohm, Mini-Circuits TT1224
+K frequency multiplier
+F https://ww2.minicircuits.com/pdfs/RMK-5-51+.pdf
+$ENDCMP
+#
+$CMP SCHF-31+
+D High Pass Filter, 31 to 1500 MHz, 50 Ohm, Mini-Circuits YY161
+K highpass filter rf
+F https://ww2.minicircuits.com/pdfs/SCHF-31+.pdf
 $ENDCMP
 #
 $CMP SE5004L
 D 5 GHz, 26dBm Power Amplifier with Power Detector, QFN20 4x4mm
 K RF Power Amplifier
 F http://www.skyworksinc.com/uploads/documents/SE5004L_202393B.pdf
-$ENDCMP
-#
-$CMP SIM7020C
-D NB-IoT B1/B3/B5/B8, AT Command Set
-K NB-IoT Data SMS
-F https://simcom.ee/documents/SIM7020/SIM7020%20Hardware%20Design_V1.01.pdf
-$ENDCMP
-#
-$CMP SIM7020E
-D NB-IoT B1/B3/B5/B8/B20/B28, AT Command Set
-K NB-IoT Data SMS
-F https://simcom.ee/documents/SIM7020/SIM7020%20Hardware%20Design_V1.01.pdf
-$ENDCMP
-#
-$CMP SIM800C
-D GSM Quad-Band Communication Module, GPRS, Audio Engine, AT Command Set, Bluetooth is Optional
-K GSM GPRS Quad-Band SMS
-F http://simcom.ee/documents/SIM800C/SIM800C_Hardware_Design_V1.05.pdf
-$ENDCMP
-#
-$CMP SIM900
-D GSM Quad-Band Communication Module, GPRS, Audio Engine, AT Command Set
-K GSM GPRS Quad-Band SMS FAX
-F http://simcom.ee/documents/SIM900/SIM900_Hardware%20Design_V2.05.pdf
 $ENDCMP
 #
 $CMP SX1272
