@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADE-6
+D Mixer, +7 dBm LO, 0.05 to 250 MHz
+K mixer rf
+F www.minicircuits.com/pdfs/ADE-6.pdf
+$ENDCMP
+#
 $CMP CC1000
 D Single Chip Low Power RF Transceiver, TSSOP28
 K Low Power RF Transciever
@@ -18,10 +24,27 @@ K Low Power RF Transciever
 F http://www.ti.com/lit/ds/symlink/cc2500.pdf
 $ENDCMP
 #
+$CMP LRPS-2-1
+D Power Splitter/Combiner, 5 to 500 MHz, 50 Ohm
+K power splitter combiner
+F https://ww2.minicircuits.com/pdfs/LRPS-2-1.pdf
+$ENDCMP
+#
 $CMP MAADSS0008
 D 0-2GHz, 15dB step attenuator, SOT-23-5
 K RF attenuator
 F http://cdn.macom.com/datasheets/maadss0008.pdf
+$ENDCMP
+#
+$CMP MC12080
+D 1.1 GHz Prescaler, divide by 10 20 40 80, SOIC-8
+K prescaler frequency divider
+F https://www.onsemi.com/pub/Collateral/MC12080-D.PDF
+$ENDCMP
+$CMP MC12093D
+D /2, /4, /8, 1.1 GHz Low Power Prescaler with Stand‐By Mode, SOIC-8
+K prescaler frequency divider
+F https://www.onsemi.com/pub/Collateral/MC12093-D.PDF
 $ENDCMP
 #
 $CMP MICRF112YMM
@@ -42,6 +65,48 @@ K Low Power RF Transciever breakout carrier
 F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf
 $ENDCMP
 #
+$CMP SARA-U201
+D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, AT Command Set, Worldwide , LGA-96
+K GSM HSPA 2G 3G
+F https://www.u-blox.com/sites/default/files/SARA-U2_DataSheet_(UBX-13005287).pdf
+$ENDCMP
+#
+$CMP SARA-U260
+D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, Designed for America, LGA-96
+K GSM HSPA 2G 3G
+F https://www.u-blox.com/sites/default/files/SARA-U2_DataSheet_(UBX-13005287).pdf
+$ENDCMP
+#
+$CMP SARA-U270
+D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, Designed for Europe, Asia and Others, LGA-96
+K GSM HSPA 2G 3G
+F https://www.u-blox.com/sites/default/files/SARA-U2_DataSheet_(UBX-13005287).pdf
+$ENDCMP
+#
+$CMP SARA-U280
+D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, Designed for America, LGA-96
+K GSM HSPA 2G 3G
+F https://www.u-blox.com/sites/default/files/SARA-U2_DataSheet_(UBX-13005287).pdf
+$ENDCMP
+#
+$CMP SE5004L
+D 5 GHz, 26dBm Power Amplifier with Power Detector, QFN20 4x4mm
+K RF Power Amplifier
+F http://www.skyworksinc.com/uploads/documents/SE5004L_202393B.pdf
+$ENDCMP
+#
+$CMP SIM7020C
+D NB-IoT B1/B3/B5/B8, AT Command Set
+K NB-IoT Data SMS
+F https://simcom.ee/documents/SIM7020/SIM7020%20Hardware%20Design_V1.01.pdf
+$ENDCMP
+#
+$CMP SIM7020E
+D NB-IoT B1/B3/B5/B8/B20/B28, AT Command Set
+K NB-IoT Data SMS
+F https://simcom.ee/documents/SIM7020/SIM7020%20Hardware%20Design_V1.01.pdf
+$ENDCMP
+#
 $CMP SIM800C
 D GSM Quad-Band Communication Module, GPRS, Audio Engine, AT Command Set, Bluetooth is Optional
 K GSM GPRS Quad-Band SMS
@@ -57,29 +122,53 @@ $ENDCMP
 $CMP SX1272
 D 860 MHz to 1020 MHz Low Power Long Range Transceiver, spreading factor from 6 to 12, LoRA, QFN-28
 K low-power lora transceiver
-F http://www.semtech.com/images/datasheet/sx1272.pdf
+F https://www.semtech.com/uploads/documents/sx1272.pdf
 $ENDCMP
 #
 $CMP SX1273
 D 860 MHz to 1020 MHz Low Power Long Range Transceiver, spreading factor from 6 to 9, LoRA, QFN-28
 K low-power lora transceiver
-F http://www.semtech.com/images/datasheet/sx1272.pdf
+F https://www.semtech.com/uploads/documents/sx1272.pdf
+$ENDCMP
+#
+$CMP SXBP-100
+D Bandpass Filter, 87 to 117 MHz, 50 Ohm
+K bandpass filter
+F https://ww2.minicircuits.com/pdfs/SXBP-100+.pdf
+$ENDCMP
+#
+$CMP SXBP-140
+D Bandpass Filter, 130 to 150 MHz, 50 Ohm
+K Mini-Circuits Band-Pass Filter
+F https://ww2.minicircuits.com/pdfs/SXBP-140+.pdf
+$ENDCMP
+#
+$CMP SXBP-202
+D Bandpass Filter, 198 to 206 MHz, 50 Ohm
+K bandpass filter
+F https://ww2.minicircuits.com/pdfs/SXBP-202+.pdf
+$ENDCMP
+#
+$CMP SXBP-27R5
+D Bandpass Filter, 24 to 31 MHz, 50 Ohm
+K bandpass filter
+F https://ww2.minicircuits.com/pdfs/SXBP-27R5+.pdf
 $ENDCMP
 #
 $CMP SYPD-1
-D Phase Detector, 1 to 100 MHz, Mini-Circuits TTT167
+D Phase Detector, 1 to 100 MHz, 50 Ohm, Mini-Cicuits TTT167
 K Phase Detector
 F https://ww2.minicircuits.com/pdfs/SYPD-1+.pdf
 $ENDCMP
 #
 $CMP SYPD-2
-D Phase Detector, 10 to 200 MHz, Mini-Circuits TTT167
+D Phase Detector, 10 to 200 MHz, 50 Ohm, Mini-Cicuits TTT167
 K phase detector
 F https://ww2.minicircuits.com/pdfs/SYPD-2.pdf
 $ENDCMP
 #
 $CMP SYPD-52
-D Phase Detector, 400 to 500 MHz, Mini-Circuits TTT167
+D Phase Detector, 400 to 500 MHz, 50 Ohm, Mini-Cicuits TTT167
 K Phase Detector
 F https://ww2.minicircuits.com/pdfs/SYPD-52+.pdf
 $ENDCMP
