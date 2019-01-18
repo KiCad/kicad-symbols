@@ -102,12 +102,6 @@ K Bandpass Filter
 F https://ww2.minicircuits.com/pdfs/RBPF-246+.pdf
 $ENDCMP
 #
-$CMP SARA-U201
-D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, AT Command Set, Worldwide , LGA-96
-K GSM HSPA 2G 3G
-F https://www.u-blox.com/sites/default/files/SARA-U2_DataSheet_(UBX-13005287).pdf
-$ENDCMP
-#
 $CMP RBP-280
 D Bandpass Filter, 260 to 310 MHz, 50 Ohm, Mini-Circuits GP731
 K bandpass filter rf
