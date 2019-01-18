@@ -52,6 +52,17 @@ $CMP HMC7992
 D SP4T 100MHz-6GHz absorptive switch, 50 Ohm, LFCSP-16
 K rf switch sp4t absorptive
 F https://www.analog.com/media/en/technical-documentation/data-sheets/HMC7992.pdf
+#
+$CMP KSW-2-46
+D SPDT DC-4.6GHz reflective switch, negative logic, XX112
+K RF SPDT switch
+F https://ww2.minicircuits.com/pdfs/KSW-2-46+.pdf
+$ENDCMP
+#
+$CMP KSWA-2-46
+D SPDT DC-4.6GHz absorbative switch, negative logic, XX112
+K RF SPDT switch
+F https://ww2.minicircuits.com/pdfs/KSWA-2-46+.pdf
 $ENDCMP
 #
 $CMP MASW-007221
