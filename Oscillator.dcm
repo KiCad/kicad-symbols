@@ -18,6 +18,12 @@ K Crystal Clock Oscillator
 F http://www.conwin.com/datasheets/cx/cx030.pdf
 $ENDCMP
 #
+$CMP ASCO
+D Crystal Clock Oscillator, Abracon ASCO
+K Crystal Clock Oscillator
+F https://abracon.com/Oscillators/ASCO.pdf
+$ENDCMP
+#
 $CMP ASE-xxxMHz
 D 3.3V CMOS SMD Crystal Clock Oscillator, Abracon
 K 3.3V CMOS SMD Crystal Clock Oscillator

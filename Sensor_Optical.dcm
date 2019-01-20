@@ -174,6 +174,12 @@ K LWIR camera
 F https://cdn.sparkfun.com/datasheets/Sensors/Infrared/FLIR_Lepton_Data_Brief.pdf
 $ENDCMP
 #
+$CMP KPS-3227
+D Ambient light photo sensor (NPN phototransistor)
+K Kingbright npn phototransistor ambient light photo sensor
+F http://www.kingbright.com/attachments/file/psearch/000/00/watermark00/KPS-3227SP1C(Ver.9).pdf
+$ENDCMP
+#
 $CMP KPS-5130
 D RGB Colour Sensor
 K opto photodiode RGB colour sensor
