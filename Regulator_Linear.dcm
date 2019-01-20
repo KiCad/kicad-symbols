@@ -2772,6 +2772,12 @@ K Micropower Voltage Regulator 100mA Positive
 F http://www.ti.com/lit/ds/symlink/lp2950-n.pdf
 $ENDCMP
 #
+$CMP LP2980-ADJ
+D 50mA 15V Low-noise Low-dropout Regulator, 1.23-15V adjustable output voltage, SOT-23-5
+K LDO Voltage Regulator 50mA Positive
+F http://www.ti.com/lit/ds/symlink/lp2980-adj.pdf
+$ENDCMP
+#
 $CMP LP2985-1.8
 D 150mA 16V Low-noise Low-dropout Regulator With Shutdown, 1.8V output voltage, SOT-23-5
 K LDO regulator linear  SOT-23-5
