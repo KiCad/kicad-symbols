@@ -65,6 +65,12 @@ K RF SPDT switch
 F https://ww2.minicircuits.com/pdfs/KSWA-2-46+.pdf
 $ENDCMP
 #
+$CMP KSWHA-1-20
+D SPST DC-2.0GHz absorbative switch, negative logic, XX112
+K RF SPST switch
+F https://ww2.minicircuits.com/pdfs/KSWHA-1-20+.pdf
+$ENDCMP
+#
 $CMP MASW-007221
 D Macom GaAs RF SPDT switch, DC-3GHz, 0.56/12dB loss/isolation, SOT-363
 K RF SWITCH SPDT
