@@ -108,6 +108,12 @@ K bandpass filter rf
 F https://ww2.minicircuits.com/pdfs/RBP-280+.pdf
 $ENDCMP
 #
+$CMP RBPF-246+
+D Bandpass Filter, 236 to 265 MHz, 50 Ohm, Mini-Circuits CK605
+K Bandpass Filter
+F https://ww2.minicircuits.com/pdfs/RBPF-246+.pdf
+$ENDCMP
+#
 $CMP RLP-30
 D Low Pass Filter, DC to 30 MHz, 50 Ohm, Mini-Circuits GP1212
 K Low Pass Filter
