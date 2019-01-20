@@ -43,19 +43,19 @@ F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG918_919
 $ENDCMP
 #
 $CMP KSW-2-46
-D SPDT DC-4.6GHz reflective switch, negative logic, XX112
+D SPDT DC-4.6GHz reflective switch, 50 Ohm, XX112
 K RF SPDT switch
 F https://ww2.minicircuits.com/pdfs/KSW-2-46+.pdf
 $ENDCMP
 #
 $CMP KSWA-2-46
-D SPDT DC-4.6GHz absorbative switch, negative logic, XX112
+D SPDT DC-4.6GHz absorbative switch, 50 Ohm, XX112
 K RF SPDT switch
 F https://ww2.minicircuits.com/pdfs/KSWA-2-46+.pdf
 $ENDCMP
 #
 $CMP KSWHA-1-20
-D SPST DC-2.0GHz absorbative switch, negative logic, XX112
+D SPST DC-2.0GHz absorbative switch, 50 Ohm, XX112
 K RF SPST switch
 F https://ww2.minicircuits.com/pdfs/KSWHA-1-20+.pdf
 $ENDCMP
