@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP ESP32-D0WD
-D Single 2.4 GHz Wi-Fi-and-Bluetooth combo chip, QFN-48
+D Single 2.4 GHz Wi-Fi-and-Bluetooth combo chip, dual core, no internal flash, QFN-48
 K Wi-Fi-and-Bluetooth combo chip
 F https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
 $ENDCMP
@@ -27,7 +27,7 @@ $ENDCMP
 $CMP ESP8089
 D Single 2.4 GHz Wi-Fi chip, single core, no internal flash, QFN-32
 K Wi-Fi chip
-F https://www.espressif.com/sites/default/files/documentation/esp8089_datasheet_en.pdf
+F https://www.espressif.com/sites/default/files/documentation/0a-esp8285_datasheet_en.pdf
 $ENDCMP
 #
 $CMP HF-A11-SMT
