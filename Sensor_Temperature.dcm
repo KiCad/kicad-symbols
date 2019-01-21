@@ -1,5 +1,29 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD8494
+D Precision Thermocouple Amplifiers with Cold Junction Compensation, J-Type Thermocouple, 0 to 50C, MSOP-8
+K Thermocouple Amp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ad8494_8495_8496_8497.pdf
+$ENDCMP
+#
+$CMP AD8495
+D Precision Thermocouple Amplifiers with Cold Junction Compensation, K-Type Thermocouple, 0 to 50C, MSOP-8
+K Thermocouple Amp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ad8494_8495_8496_8497.pdf
+$ENDCMP
+#
+$CMP AD8496
+D Precision Thermocouple Amplifiers with Cold Junction Compensation, J-Type Thermocouple, 25 to 100C, MSOP-8
+K Thermocouple Amp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ad8494_8495_8496_8497.pdf
+$ENDCMP
+#
+$CMP AD8497
+D Precision Thermocouple Amplifiers with Cold Junction Compensation, K-Type Thermocouple, 25 to 100C, MSOP-8
+K Thermocouple Amp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ad8494_8495_8496_8497.pdf
+$ENDCMP
+#
 $CMP BD1020HFV
 D Analog Ouput Temperature Sensor
 K Temperature sensor
