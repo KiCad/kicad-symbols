@@ -341,13 +341,13 @@ $ENDCMP
 #
 $CMP SN75160BDW
 D Octal general-purpose interface bus transceiver, SOIC-20
-K GPIB
+K gpib bidirectional bus transceiver
 F http://www.ti.com/lit/ds/symlink/sn75160b.pdf
 $ENDCMP
 #
 $CMP SN75160BN
 D Octal general-purpose interface bus transceiver, DIP-20
-K GPIB
+K gpib bidirectional bus transceiver
 F http://www.ti.com/lit/ds/symlink/sn75160b.pdf
 $ENDCMP
 #
