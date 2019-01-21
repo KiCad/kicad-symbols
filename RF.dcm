@@ -42,16 +42,16 @@ K Low Power RF Transciever
 F http://www.ti.com/lit/ds/symlink/cc2500.pdf
 $ENDCMP
 #
-$CMP LPF-B0R3
-D Low Pass Filter, DC to 0.3 MHz, 50 Ohm, Mini-Circuits HZ1198
-K low pass filter
-F https://ww2.minicircuits.com/pdfs/LPF-B0R3+.pdf
-$ENDCMP
-#
 $CMP LAT-3
 D Attenuator, 3dB, 0.5W, DC to 2500 MHz, 50 Ohm, Mini-Circuits MMM168
 K attenuator rf
 F https://ww2.minicircuits.com/pdfs/LAT-3+.pdf
+$ENDCMP
+#
+$CMP LPF-B0R3
+D Low Pass Filter, DC to 0.3 MHz, 50 Ohm, Mini-Circuits HZ1198
+K low pass filter
+F https://ww2.minicircuits.com/pdfs/LPF-B0R3+.pdf
 $ENDCMP
 #
 $CMP LRPS-2-1
