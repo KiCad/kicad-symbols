@@ -42,6 +42,12 @@ K Low Power RF Transciever
 F http://www.ti.com/lit/ds/symlink/cc2500.pdf
 $ENDCMP
 #
+$CMP LPF-B0R3
+D Low Pass Filter, DC to 0.3 MHz, 50 Ohm, Mini-Circuits HZ1198
+K low pass filter
+F https://ww2.minicircuits.com/pdfs/LPF-B0R3+.pdf
+$ENDCMP
+#
 $CMP LAT-3
 D Attenuator, 3dB, 0.5W, DC to 2500 MHz, 50 Ohm, Mini-Circuits MMM168
 K attenuator rf
@@ -100,6 +106,12 @@ $CMP RBP-280
 D Bandpass Filter, 260 to 310 MHz, 50 Ohm, Mini-Circuits GP731
 K bandpass filter rf
 F https://ww2.minicircuits.com/pdfs/RBP-280+.pdf
+$ENDCMP
+#
+$CMP RBPF-246+
+D Bandpass Filter, 236 to 265 MHz, 50 Ohm, Mini-Circuits CK605
+K Bandpass Filter
+F https://ww2.minicircuits.com/pdfs/RBPF-246+.pdf
 $ENDCMP
 #
 $CMP RLP-30
@@ -166,6 +178,24 @@ $CMP SXBP-27R5
 D Bandpass Filter, 24 to 31 MHz, 50 Ohm
 K bandpass filter
 F https://ww2.minicircuits.com/pdfs/SXBP-27R5+.pdf
+$ENDCMP
+#
+$CMP SYPD-1
+D Phase Detector, 1 to 100 MHz, 50 Ohm, Mini-Cicuits TTT167
+K Phase Detector
+F https://ww2.minicircuits.com/pdfs/SYPD-1+.pdf
+$ENDCMP
+#
+$CMP SYPD-2
+D Phase Detector, 10 to 200 MHz, 50 Ohm, Mini-Cicuits TTT167
+K phase detector
+F https://ww2.minicircuits.com/pdfs/SYPD-2.pdf
+$ENDCMP
+#
+$CMP SYPD-52
+D Phase Detector, 400 to 500 MHz, 50 Ohm, Mini-Cicuits TTT167
+K Phase Detector
+F https://ww2.minicircuits.com/pdfs/SYPD-52+.pdf
 $ENDCMP
 #
 $CMP nRF24L01P

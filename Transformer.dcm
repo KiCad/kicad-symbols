@@ -372,6 +372,12 @@ K pulse
 F https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf
 $ENDCMP
 #
+$CMP PT61017PEL
+D Ethernet LAN 10/100 Base-Tx Transformer with Center Taps
+K single port ethernet transformer poe center-tap
+F https://www.bourns.com/docs/Product-Datasheets/PT61017PEL.pdf
+$ENDCMP
+#
 $CMP TEZ0.5-D-1
 D TEZ0.5/D/x, 0.5VA, Single Secondary, Cast Resin Transformer, PCB
 K 0.5VA PCB Transformer Single Secondary
