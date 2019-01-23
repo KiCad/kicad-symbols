@@ -12,22 +12,46 @@ K usb isolation
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM4160.pdf
 $ENDCMP
 #
+$CMP BQ24392
+D Dual SPST USB 2.0 High Speed Switch with USB Battery Charging Specification Revision 1.2 Detection, UQFN-10
+K USB BC detector charger
+F http://www.ti.com/lit/ds/symlink/bq24392.pdf
+$ENDCMP
+#
+$CMP CH330N
+D USB serial converter, UART, SOIC-8
+K usb uart wch serial
+F http://www.wch.cn/downloads/file/240.html
+$ENDCMP
+#
+$CMP CH340G
+D USB serial converter, UART, SOIC-16
+K USB UART Serial Converter Interface
+F http://www.datasheet5.com/pdf-local-2195953
+$ENDCMP
+#
 $CMP CP2102N-A01-GQFN24
-D USB to UART master bridge
+D USB to UART master bridge, QFN-24
 K USB UART bridge
-F http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf
+F https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
+$ENDCMP
+#
+$CMP CP2102N-A01-GQFN28
+D USB to UART master bridge, QFN-28
+K USB UART bridge
+F https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
 $ENDCMP
 #
 $CMP CP2104
 D Single-Chip USB-to-UART Bridge, USB 2.0 Full-Speed, 2Mbps UART, QFN package
 K uart usb bridge interface transceiver
-F https://www.silabs.com/Support%20Documents/TechnicalDocs/cp2104.pdf
+F https://www.silabs.com/documents/public/data-sheets/cp2104.pdf
 $ENDCMP
 #
 $CMP CP2112
 D HID USB to SMBUS master bridge
 K USB SMBUS bridge
-F http://www.silabs.com/Support%20Documents/TechnicalDocs/CP2112.pdf
+F https://www.silabs.com/documents/public/data-sheets/cp2112-datasheet.pdf
 $ENDCMP
 #
 $CMP CY7C65211-24LTXI
@@ -193,25 +217,25 @@ F http://www.ftdichip.com/Products/ICs/FT245B.html
 $ENDCMP
 #
 $CMP FUSB302B01MPX
-D Programmable USB Type‐C Controller w/PD, I2C address 0x23, WQFN-14
+D Programmable USB Type-C Controller w/PD, I2C address 0x23, WQFN-14
 K USB USB-C PD Power Delivery PHY
 F http://www.onsemi.com/pub/Collateral/FUSB302B-D.PDF
 $ENDCMP
 #
 $CMP FUSB302B10MPX
-D Programmable USB Type‐C Controller w/PD, I2C address 0x24, WQFN-14
+D Programmable USB Type-C Controller w/PD, I2C address 0x24, WQFN-14
 K USB USB-C PD Power Delivery PHY
 F http://www.onsemi.com/pub/Collateral/FUSB302B-D.PDF
 $ENDCMP
 #
 $CMP FUSB302B11MPX
-D Programmable USB Type‐C Controller w/PD, I2C address 0x25, WQFN-14
+D Programmable USB Type-C Controller w/PD, I2C address 0x25, WQFN-14
 K USB USB-C PD Power Delivery PHY
 F http://www.onsemi.com/pub/Collateral/FUSB302B-D.PDF
 $ENDCMP
 #
 $CMP FUSB302BMPX
-D Programmable USB Type‐C Controller w/PD, I2C address 0x22, WQFN-14
+D Programmable USB Type-C Controller w/PD, I2C address 0x22, WQFN-14
 K USB USB-C PD Power Delivery PHY
 F http://www.onsemi.com/pub/Collateral/FUSB302B-D.PDF
 $ENDCMP
@@ -310,6 +334,30 @@ $CMP TUSB2036
 D 2- or 3-Port USB1.1 HUB with optional serial EEPROM
 K 2-Port, 3-Port, 3.3V, EEPROM, Full Speed, Hub, Texas Instruments, USB1.1
 F http://www.ti.com/lit/ds/symlink/tusb2036.pdf
+$ENDCMP
+#
+$CMP TUSB320
+D USB Type-C Configuration Channel Logic and Port Control, X2QFN-12
+K USB PD CC
+F http://www.ti.com/lit/ds/symlink/tusb320.pdf
+$ENDCMP
+#
+$CMP TUSB320I
+D USB Type-C Configuration Channel Logic and Port Control, industrial temperature range, X2QFN-12
+K USB PD CC
+F http://www.ti.com/lit/ds/symlink/tusb320.pdf
+$ENDCMP
+#
+$CMP TUSB321
+D USB Type-C Configuration Channel Logic and Port Control with VCONN, X2QFN-12
+K USB CC PD VCONN
+F http://www.ti.com/lit/ds/symlink/tusb321.pdf
+$ENDCMP
+#
+$CMP TUSB322I
+D USB Type-C Configuration Channel Logic and Port Control with VCONN, X2QFN-12
+K USB VCONN PD CC
+F www.ti.com/lit/ds/symlink/tusb322i.pdf
 $ENDCMP
 #
 $CMP TUSB4041I

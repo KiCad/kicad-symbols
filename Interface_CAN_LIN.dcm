@@ -6,6 +6,12 @@ K can transceiver isolated protected
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM3053.pdf
 $ENDCMP
 #
+$CMP ISO1050DUB
+D Isolated CAN Transceiver, SOP-8
+K CAN Isolated
+F http://www.ti.com/lit/ds/symlink/iso1050.pdf
+$ENDCMP
+#
 $CMP LTC2875-DD
 D High-Speed CAN Transceiver, 4Mbps, 3.3V or 5V supply, DFN8 package
 K High-Speed CAN Transceiver
@@ -90,14 +96,14 @@ K LIN transceiver regulator
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22299B.pdf
 $ENDCMP
 #
-$CMP MCP2515-EST
-D Stand-Alone CAN Controller with SPI Interface, TSSOP-20, Extended temperature range
+$CMP MCP2515-xSO
+D Stand-Alone CAN Controller with SPI Interface, SOIC-18
 K CAN Controller SPI
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf
 $ENDCMP
 #
-$CMP MCP2515-IST
-D Stand-Alone CAN Controller with SPI Interface, TSSOP-20, Industrial temperature range
+$CMP MCP2515-xST
+D Stand-Alone CAN Controller with SPI Interface, TSSOP-20
 K CAN Controller SPI
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf
 $ENDCMP

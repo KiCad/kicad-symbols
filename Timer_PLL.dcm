@@ -12,6 +12,12 @@ K Analog Devices PFD
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADF4002.pdf
 $ENDCMP
 #
+$CMP ADF4158
+D 0.5-6.1GHz fractional-N PLL, LFCSP-24
+K fractional-N PLL
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADF4158.pdf
+$ENDCMP
+#
 $CMP ADF4350
 D 137.5-4400MHz fractional-N PLL, LFCSP-32
 K fractional-N PLL
@@ -28,6 +34,18 @@ $CMP CDCVF2505
 D Clock Phase-Lock Loop Clock Driver, 24-200MHz, 3.3V, SOIC-8/TSSOP-8
 K pll clock driver
 F http://www.ti.com/lit/ds/symlink/cdcvf2505.pdf
+$ENDCMP
+#
+$CMP ICS525-01R
+D User configurable clock up to 160 MHz, SSOP-28
+K Configurable clock
+F https://www.idt.com/document/dst/525-01-02-datasheet
+$ENDCMP
+#
+$CMP ICS525R-02
+D User configurable clock up to 200 MHz, SSOP-28
+K Configurable clock
+F https://www.idt.com/document/dst/525-01-02-datasheet
 $ENDCMP
 #
 #End Doc Library
