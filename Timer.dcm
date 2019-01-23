@@ -282,6 +282,12 @@ K single timer
 F http://www.ti.com/lit/ds/symlink/tlc555.pdf
 $ENDCMP
 #
+$CMP TPL5010
+D Timer, Nano Power, Watchdog, 35 nA, 100 ms to 7200 s, VDD 1.8 V to 5.5 V, Iout max 1 mA
+K timer watchdog nano wake done
+F http://www.ti.com/lit/ds/symlink/tpl5010.pdf
+$ENDCMP
+#
 $CMP TPL5111
 D Timer, Nano Power, Active-High, 35 nA, 100 ms to 7200 s, VDD 1.8 V to 5.5 V, Iout max 1 mA, SOT-23-6
 K timer active-high nano wake done
