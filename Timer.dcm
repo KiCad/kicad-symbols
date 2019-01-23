@@ -96,6 +96,54 @@ K clock generator signal
 F http://www.analog.com/media/en/technical-documentation/data-sheets/6909fa.pdf
 $ENDCMP
 #
+$CMP LTC6993xS6-1
+D TimerBlox Monostable Pulse Generator (One Shot), Rising-edge input, non-retriggerable, TSOT-23-6
+K Timer TimerBlox monostable pulse
+F https://www.analog.com/media/en/technical-documentation/data-sheets/69931234fc.pdf
+$ENDCMP
+#
+$CMP LTC6993xS6-2
+D TimerBlox Monostable Pulse Generator (One Shot), Rising-edge input, retriggerable, TSOT-23-6
+K Timer TimerBlox monostable pulse
+F https://www.analog.com/media/en/technical-documentation/data-sheets/69931234fc.pdf
+$ENDCMP
+#
+$CMP LTC6993xS6-3
+D TimerBlox Monostable Pulse Generator (One Shot), Falling-edge input, non-retriggerable, TSOT-23-6
+K Timer TimerBlox monostable pulse
+F https://www.analog.com/media/en/technical-documentation/data-sheets/69931234fc.pdf
+$ENDCMP
+#
+$CMP LTC6993xS6-4
+D TimerBlox Monostable Pulse Generator (One Shot), Falling-edge input, retriggerable, TSOT-23-6
+K Timer TimerBlox monostable pulse
+F https://www.analog.com/media/en/technical-documentation/data-sheets/69931234fc.pdf
+$ENDCMP
+#
+$CMP LTC6994xDCB-1
+D TimerBlox Delay Block, Programmable, Noise Discriminator, Rising or Falling Edge, DFN-6
+K TimerBlox delay block noise discriminator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/699412fb.pdf
+$ENDCMP
+#
+$CMP LTC6994xDCB-2
+D TimerBlox Debouncer, Programmable, Noise Discriminator, Rising and Falling Edges, DFN-6
+K TimerBlox debouncer noise discriminator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/699412fb.pdf
+$ENDCMP
+#
+$CMP LTC6994xS6-1
+D TimerBlox Delay Block, Programmable, Noise Discriminator, Rising or Falling Edge, TSOT-23-6
+K TimerBlox delay block noise discriminator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/699412fb.pdf
+$ENDCMP
+#
+$CMP LTC6994xS6-2
+D TimerBlox Debouncer, Programmable, Noise Discriminator, Rising and Falling Edges, TSOT-23-6
+K TimerBlox debouncer noise discriminator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/699412fb.pdf
+$ENDCMP
+#
 $CMP MC1455
 D Timers, DIP-8/SOIC-8
 K timer
@@ -234,10 +282,22 @@ K single timer
 F http://www.ti.com/lit/ds/symlink/tlc555.pdf
 $ENDCMP
 #
+$CMP TPL5010
+D Timer, Nano Power, Watchdog, 35 nA, 100 ms to 7200 s, VDD 1.8 V to 5.5 V, Iout max 1 mA
+K timer watchdog nano wake done
+F http://www.ti.com/lit/ds/symlink/tpl5010.pdf
+$ENDCMP
+#
 $CMP TPL5110
 D Timer, Nano Power, Active-Low, 35 nA, 100 ms to 7200 s, VDD 1.8 V to 5.5 V, Iout max 1 mA, SOT-23-6
 K timer active-low nano wake done
 F http://www.ti.com/lit/ds/symlink/tpl5110.pdf
+$ENDCMP
+#
+$CMP TPL5111
+D Timer, Nano Power, Active-High, 35 nA, 100 ms to 7200 s, VDD 1.8 V to 5.5 V, Iout max 1 mA, SOT-23-6
+K timer active-high nano wake done
+F http://www.ti.com/lit/ds/symlink/tpl5111.pdf
 $ENDCMP
 #
 #End Doc Library
