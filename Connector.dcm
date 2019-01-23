@@ -990,6 +990,18 @@ K hdmi conn
 F https://www.hdmi.org/manufacturer/specification.aspx
 $ENDCMP
 #
+$CMP HSMC_Card_ASP
+D HSMC card with Samtec ASP-122952-01 connector
+K Intel Altera Samtec HSMC card mezzanine
+F https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ds/hsmc_spec.pdf
+$ENDCMP
+#
+$CMP HSMC_Card_QTH
+D HSMC card with Samtec QTH-090-01-x-D-A connector
+K Intel Altera Samtec HSMC card mezzanine
+F https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ds/hsmc_spec.pdf
+$ENDCMP
+#
 $CMP IEEE1394a
 D FireWire/IEEE1394a 6-pin connector
 K connector IEEE1394a FireWire
