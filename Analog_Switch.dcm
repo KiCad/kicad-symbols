@@ -545,6 +545,12 @@ K CMOS Analog Switch
 F https://datasheets.maximintegrated.com/en/ds/MAX333A.pdf
 $ENDCMP
 #
+$CMP MAX394
+D Quad SPDT CMOS Analog Switch, 35Ohm Ron, DIP-20/SOIC-20/SSOP-20/TSSOP-20
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/MAX394.pdf
+$ENDCMP
+#
 $CMP MAX40200ANS
 D Ideal Diode, Ultra-Low Voltage Drop, 1.5-5.5V, 1A, WLP-4
 K current switch
