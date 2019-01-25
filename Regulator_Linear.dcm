@@ -3576,15 +3576,15 @@ K REGULATOR POSITIVE POWER LDO adjustable
 F http://cds.linear.com/docs/en/datasheet/1964fb.pdf
 $ENDCMP
 #
-$CMP LT3010-5
-D 50mA 3-80V Micropower Low Dropout Regulator, fixed output 5V, MSOP-8
-K REGULATOR POSITIVE POWER LDO fixed
+$CMP LT3010
+D 50mA 3-80V Micropower Low Dropout Regulator, adjustable output, MSOP-8
+K REGULATOR POSITIVE POWER LDO adjustable
 F https://www.analog.com/media/en/technical-documentation/data-sheets/30105fe.pdf
 $ENDCMP
 #
-$CMP LT3010-ADJ
-D 50mA 3-80V Micropower Low Dropout Regulator, adjustable output, MSOP-8
-K REGULATOR POSITIVE POWER LDO adjustable
+$CMP LT3010-5
+D 50mA 3-80V Micropower Low Dropout Regulator, fixed output 5V, MSOP-8
+K REGULATOR POSITIVE POWER LDO fixed
 F https://www.analog.com/media/en/technical-documentation/data-sheets/30105fe.pdf
 $ENDCMP
 #
