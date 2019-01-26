@@ -192,6 +192,18 @@ K Shift Register
 F https://www.st.com/resource/en/datasheet/stp08cp05.pdf
 $ENDCMP
 #
+$CMP STP16CP05
+D 16-bit constant current LED sink driver
+K Shift Register, LED driver, 16 bit
+F https://www.st.com/resource/en/datasheet/stp16cp05.pdf
+$ENDCMP
+#
+$CMP STP16CP05-XT
+D 16-bit constant current LED sink driver, HTSSOP-16
+K Shift Register, LED driver, 16 bit
+F https://www.st.com/resource/en/datasheet/stp16cp05.pdf
+$ENDCMP
+#
 $CMP TLC5940NT
 D 16-Channel LED Driver With DOT Correction and Grayscale PWM Control, DIP package
 K PWM LED driver
