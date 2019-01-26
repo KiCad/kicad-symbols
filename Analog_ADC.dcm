@@ -419,6 +419,78 @@ K sigma-delta adc 2ch
 F http://cds.linear.com/docs/en/datasheet/18645lfs.pdf
 $ENDCMP
 #
+$CMP LTC2282xUP
+D Dual-Channel, 12-Bit Low Power ADC, 105Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2282fb.pdf
+$ENDCMP
+#
+$CMP LTC2284xUP
+D Dual-Channel, 14-Bit Low Power ADC, 105Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2284fa.pdf
+$ENDCMP
+#
+$CMP LTC2290xUP
+D Dual-Channel, 12-Bit Low Power ADC, 10Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2290fa.pdf
+$ENDCMP
+#
+$CMP LTC2291xUP
+D Dual-Channel, 12-Bit Low Power ADC, 25Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/229321fa.pdf
+$ENDCMP
+#
+$CMP LTC2292xUP
+D Dual-Channel, 12-Bit Low Power ADC, 40Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/229321fa.pdf
+$ENDCMP
+#
+$CMP LTC2293xUP
+D Dual-Channel, 12-Bit Low Power ADC, 65Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/229321fa.pdf
+$ENDCMP
+#
+$CMP LTC2294xUP
+D Dual-Channel, 12-Bit Low Power ADC, 80Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2294fa.pdf
+$ENDCMP
+#
+$CMP LTC2295xUP
+D Dual-Channel, 14-Bit Low Power ADC, 10Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2295fa.pdf
+$ENDCMP
+#
+$CMP LTC2296xUP
+D Dual-Channel, 14-Bit Low Power ADC, 25Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/229876fa.pdf
+$ENDCMP
+#
+$CMP LTC2297xUP
+D Dual-Channel, 14-Bit Low Power ADC, 40Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/229876fa.pdf
+$ENDCMP
+#
+$CMP LTC2298xUP
+D Dual-Channel, 14-Bit Low Power ADC, 65Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/229876fa.pdf
+$ENDCMP
+#
+$CMP LTC2299xUP
+D Dual-Channel, 14-Bit Low Power ADC, 80Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2299fa.pdf
+$ENDCMP
+#
 $CMP LTC2309_QFN
 D 8 Channels, 12-Bit SAR ADC, I2C interface, QFN-24 package
 K LT ADC 12bit I2C SAR QFN
