@@ -24,9 +24,15 @@ K opto IR
 F http://www.onsemi.com/pub/Collateral/QSE159-D.pdf
 $ENDCMP
 #
-$CMP SFP_SFP+_CONNECTOR
+$CMP SFP+_CONNECTOR
 D Small Form Factor Pluggable (SFP+) module, serial-to-serial data-agnostic optical transceiver
-K SFP transciever SFP+
+K SFP transciever
+F ~
+$ENDCMP
+#
+$CMP SFP_CONNECTOR
+D Small Form Factor Pluggable (SFP) module, serial-to-serial data-agnostic optical transceiver
+K SFP transciever SFP
 F https://members.snia.org/document/dl/25891
 $ENDCMP
 #
