@@ -220,6 +220,11 @@ $CMP PMTx08Dyn
 D 8-stage photomultiplier tube
 K PMT 8-stage
 F ~
+#
+$CMP PMTx08Dyn_Shld
+D 8-stage photomultiplier tube with electrostatic and magnetic shield
+K PMT 8-stage
+F ~
 $ENDCMP
 #
 $CMP S13360-3025CS
