@@ -222,6 +222,18 @@ K opto ambient light sensor
 F http://www.onsemi.com/pub/Collateral/NOA1305-D.PDF
 $ENDCMP
 #
+$CMP PMTx08Dyn
+D 8-stage photomultiplier tube
+K PMT 8-stage
+F ~
+$ENDCMP
+#
+$CMP PMTx08Dyn_Shld
+D 8-stage photomultiplier tube with electrostatic and magnetic shield
+K PMT 8-stage
+F ~
+$ENDCMP
+#
 $CMP S13360-3025CS
 D Multi-Pixel Photon Counter with 25µm pixel pitch
 K opto SiPM MPPC hamamatsu SPAD
