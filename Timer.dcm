@@ -252,6 +252,24 @@ K tone decoder PLL
 F http://www.ti.com/lit/ds/symlink/lm567.pdf
 $ENDCMP
 #
+$CMP SY58031U
+D 1:8 CML Fanout Buffer 75fsRMS, QFN-32
+K CML 2.5V/3.3V differential LVPECL LVDS
+F http://ww1.microchip.com/downloads/en/DeviceDoc/sy58031u.pdf
+$ENDCMP
+#
+$CMP SY58032U
+D 1:8 LVPECL Fanout Buffer 75fsRMS, QFN-32
+K 2.5V/3.3V differential LVPECL LVDS
+F http://ww1.microchip.com/downloads/en/DeviceDoc/sy58032u.pdf
+$ENDCMP
+#
+$CMP SY58033U
+D 1:8 400mV LVPECL Fanout Buffer 75fsRMS, QFN-32
+K 2.5V/3.3V differential LVPECL LVDS
+F http://ww1.microchip.com/downloads/en/DeviceDoc/sy58033u.pdf
+$ENDCMP
+#
 $CMP TLC555
 D CMOS Timer
 K Timer NE555
