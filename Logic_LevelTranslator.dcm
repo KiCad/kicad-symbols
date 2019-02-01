@@ -42,6 +42,12 @@ K Level-Shifter CMOS-TTL-Translation
 F http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf
 $ENDCMP
 #
+$CMP SN74LVC2T45DCUR
+D Dual-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, VSSOP-8
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/sn74lvc2t45.pdf
+$ENDCMP
+#
 $CMP TXB0102DCT
 D 2-Bit Bidirectional Voltage-Level Translator in TSSOP Package With Auto Direction Sensing and ±15-kV ESD Protection
 K Level-Shifter CMOS-TTL-Translation

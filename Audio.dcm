@@ -264,6 +264,54 @@ K PHILIPS BBD MOS monolithic delay analogue
 F http://thmq.mysteria.cz/em1022/TDA1022.pdf
 $ENDCMP
 #
+$CMP THAT1580
+D Low-Noise, Differential Audio Preamplifier IC, 0.005% THD+N, -134.8dBu EIN, QFN-16
+K diff amp mic preamp
+F http://www.thatcorp.com/datashts/THAT_1580_Datasheet.pdf
+$ENDCMP
+#
+$CMP THAT1583
+D Low-Noise, Differential Audio Preamplifier IC, 0.006% THD+N, -128.9dBu EIN, QFN-16
+K diff amp mic preamp
+F http://www.thatcorp.com/datashts/THAT_1583_Datasheet.pdf
+$ENDCMP
+#
+$CMP THAT5171
+D High-Performance Digital Preamplifier Controller IC, QFN-32
+K mic preamp gain controller
+F http://www.thatcorp.com/datashts/THAT_5171_Datasheet.pdf
+$ENDCMP
+#
+$CMP THAT5173
+D Audio Preamplifier Digital Controller IC, QFN-24
+K mic preamp gain controller
+F http://www.thatcorp.com/datashts/THAT_5173_Datasheet.pdf
+$ENDCMP
+#
+$CMP THAT5263
+D 2-Channel Digital Preamplifier Controller IC, QFN-24
+K dual mic preamp gain controller
+F http://www.thatcorp.com/datashts/THAT_5263_Datasheet.pdf
+$ENDCMP
+#
+$CMP THAT6261
+D 2-Channel Low-Noise Programmable-Gain Preamplifier - ADC Driver IC, 1dB Step, QFN-48
+K dual mic preamp
+F http://www.thatcorp.com/datashts/THAT_626x_Datasheet.pdf
+$ENDCMP
+#
+$CMP THAT6262
+D 2-Channel Low-Noise Programmable-Gain Preamplifier - ADC Driver IC, 2dB Step, QFN-48
+K dual mic preamp
+F http://www.thatcorp.com/datashts/THAT_626x_Datasheet.pdf
+$ENDCMP
+#
+$CMP THAT6263
+D 2-Channel Low-Noise Programmable-Gain Preamplifier - ADC Driver IC, 3dB Step, QFN-48
+K dual mic preamp
+F http://www.thatcorp.com/datashts/THAT_626x_Datasheet.pdf
+$ENDCMP
+#
 $CMP TLV320AIC23BPW
 D Stero Audio CODEC, 8- to 96-kHz, With Integrated Headphone Amplifier, TSSOP-28
 K audio codec 2ch 96kHz headphone amplifier

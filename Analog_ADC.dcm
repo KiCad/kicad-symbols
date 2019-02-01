@@ -42,6 +42,12 @@ K 16bit DAS ADC 16channel 1MSPS
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7616.pdf
 $ENDCMP
 #
+$CMP AD7682BCP
+D 16-bit, 4-Channel, 250kSPS, PulSAR ADC, Bipolar-Unipolar, LFCSP-20
+K 16-Bit 4-Channel 250kSPS
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7682_7689.pdf
+$ENDCMP
+#
 $CMP AD7722
 D 16-Bit, 195 kSPS CMOS, Sigma-Delta ADC, MQFP-44
 K adc 1ch 16bit parallel serial
@@ -216,6 +222,54 @@ K 24bit ADC 8 Channels PGA SPI Biopotential
 F http://www.ti.com/lit/gpn/ads1298
 $ENDCMP
 #
+$CMP ADS7029
+D Small-Size, Low-Power, 8-Bit, 2-MSPS, SAR ADC
+K 8 bit SAR ADC
+F http://www.ti.com/lit/ds/symlink/ads7029-q1.pdf
+$ENDCMP
+#
+$CMP ADS7039
+D Small-Size, Low-Power, 10-Bit, 2-MSPS, SAR ADC
+K 10 bit SAR ADC
+F http://www.ti.com/lit/ds/symlink/ads7039-q1.pdf
+$ENDCMP
+#
+$CMP ADS7040xDCU
+D Ultra-Low Power, Ultra-Small Size, 8-Bit, 1-MSPS, SAR ADC
+K 8 bit SAR ADC
+F http://www.ti.com/lit/ds/symlink/ads7040.pdf
+$ENDCMP
+#
+$CMP ADS7041xDCU
+D Ultra-Low Power, Ultra-Small Size, 10-Bit, 1-MSPS, SAR ADC
+K 10 bit SAR ADC
+F http://www.ti.com/lit/ds/symlink/ads7041.pdf
+$ENDCMP
+#
+$CMP ADS7042xDCU
+D Ultra-Low Power, Ultra-Small Size, 12-Bit, 1-MSPS, SAR ADC
+K 12 bit SAR ADC
+F http://www.ti.com/lit/ds/symlink/ads7042.pdf
+$ENDCMP
+#
+$CMP ADS7043xDCU
+D Ultra-Low Power, Ultra-Small Size, 12-Bit, 1-MSPS, SAR ADC
+K 12 bit SAR ADC
+F http://www.ti.com/lit/ds/symlink/ads7043.pdf
+$ENDCMP
+#
+$CMP ADS7044xDCU
+D Ultra-Low Power, Ultra-Small Size, 12-Bit, 1-MSPS, SAR ADC
+K 12 bit SAR ADC
+F http://www.ti.com/lit/ds/symlink/ads7044.pdf
+$ENDCMP
+#
+$CMP ADS7049
+D Small-Size, Low-Power, 12-Bit, 2-MSPS, SAR ADC
+K 12 bit SAR ADC
+F http://www.ti.com/lit/ds/symlink/ads7049-q1.pdf
+$ENDCMP
+#
 $CMP ADS7828
 D 12-Bits, 8-Channels, ADC, I2C, TSSOP-16
 K I2C ADC 12Bits
@@ -363,6 +417,78 @@ $CMP LTC1865L-S8
 D Dual channel 16-bit Analog to Digital Converter, 3V supply, 150ksps, SPI interface
 K sigma-delta adc 2ch
 F http://cds.linear.com/docs/en/datasheet/18645lfs.pdf
+$ENDCMP
+#
+$CMP LTC2282xUP
+D Dual-Channel, 12-Bit Low Power ADC, 105Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2282fb.pdf
+$ENDCMP
+#
+$CMP LTC2284xUP
+D Dual-Channel, 14-Bit Low Power ADC, 105Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2284fa.pdf
+$ENDCMP
+#
+$CMP LTC2290xUP
+D Dual-Channel, 12-Bit Low Power ADC, 10Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2290fa.pdf
+$ENDCMP
+#
+$CMP LTC2291xUP
+D Dual-Channel, 12-Bit Low Power ADC, 25Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/229321fa.pdf
+$ENDCMP
+#
+$CMP LTC2292xUP
+D Dual-Channel, 12-Bit Low Power ADC, 40Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/229321fa.pdf
+$ENDCMP
+#
+$CMP LTC2293xUP
+D Dual-Channel, 12-Bit Low Power ADC, 65Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/229321fa.pdf
+$ENDCMP
+#
+$CMP LTC2294xUP
+D Dual-Channel, 12-Bit Low Power ADC, 80Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2294fa.pdf
+$ENDCMP
+#
+$CMP LTC2295xUP
+D Dual-Channel, 14-Bit Low Power ADC, 10Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2295fa.pdf
+$ENDCMP
+#
+$CMP LTC2296xUP
+D Dual-Channel, 14-Bit Low Power ADC, 25Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/229876fa.pdf
+$ENDCMP
+#
+$CMP LTC2297xUP
+D Dual-Channel, 14-Bit Low Power ADC, 40Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/229876fa.pdf
+$ENDCMP
+#
+$CMP LTC2298xUP
+D Dual-Channel, 14-Bit Low Power ADC, 65Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/229876fa.pdf
+$ENDCMP
+#
+$CMP LTC2299xUP
+D Dual-Channel, 14-Bit Low Power ADC, 80Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2299fa.pdf
 $ENDCMP
 #
 $CMP LTC2309_QFN

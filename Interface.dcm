@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 5PB1108PGxx
+D 1:8 LVCMOS High-Performance Clock Buffer, 1.8V to 3.3V, TSSOP-16
+K clock buffer lvcmos
+F https://www.idt.com/document/dst/5pb11xx-datasheet
+$ENDCMP
+#
 $CMP 6821
 D Peripheral Interface Adapter 1MHz, DIP-40
 K PIA
@@ -331,6 +337,18 @@ $CMP SN65LVDS1DBV
 D High-Speed Differential Line Driver, 630Mbps, SOT-23-5
 K LVDS Driver
 F http://www.ti.com/lit/ds/symlink/sn65lvds1.pdf
+$ENDCMP
+#
+$CMP SN75160BDW
+D Octal general-purpose interface bus transceiver, SOIC-20
+K gpib bidirectional bus transceiver
+F http://www.ti.com/lit/ds/symlink/sn75160b.pdf
+$ENDCMP
+#
+$CMP SN75160BN
+D Octal general-purpose interface bus transceiver, DIP-20
+K gpib bidirectional bus transceiver
+F http://www.ti.com/lit/ds/symlink/sn75160b.pdf
 $ENDCMP
 #
 $CMP TB5D1MD
