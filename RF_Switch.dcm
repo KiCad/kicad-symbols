@@ -96,4 +96,28 @@ K RF SWITCH SPDT
 F https://cdn.macom.com/datasheets/MASWSS0192.pdf
 $ENDCMP
 #
+$CMP MSW-2-20
+D SPDT DC-2.0GHz reflective switch, 50 Ohm, SOP-8
+K RF SPDT switch
+F https://ww2.minicircuits.com/pdfs/MSW-2-20+.pdf
+$ENDCMP
+#
+$CMP MSW2-50
+D SPDT DC-5.0GHz reflective switch, 50 Ohm, QFN-12
+K RF SPDT switch
+F https://ww2.minicircuits.com/pdfs/MSW2-50+.pdf
+$ENDCMP
+#
+$CMP MSWA-2-20
+D SPDT DC-2.0GHz absorbative switch, 50 Ohm, SOP-8
+K RF SPDT switch
+F https://ww2.minicircuits.com/pdfs/MSWA-2-20+.pdf
+$ENDCMP
+#
+$CMP MSWA2-50
+D SPDT DC-5.0GHz absorbative switch, 50 Ohm, QFN-12
+K RF SPDT switch
+F https://ww2.minicircuits.com/pdfs/MSWA2-50+.pdf
+$ENDCMP
+#
 #End Doc Library
