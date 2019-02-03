@@ -297,6 +297,12 @@ K Direct Memory Access Controller
 F http://pdf.datasheetcatalog.com/datasheets/560/501527_DS.pdf
 $ENDCMP
 #
+$CMP NB3N551MN
+D 1:4 Low Skew Clock Buffer, DFN-8
+K clock buffer
+F https://www.onsemi.com/pub/Collateral/NB3N551-D.PDF
+$ENDCMP
+#
 $CMP PCA9306
 D Dual bidirectional I2C Bus and SMBus voltage level translator
 K Dual bidirectional I2C Bus and SMBus voltage level translator
