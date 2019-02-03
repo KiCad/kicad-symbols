@@ -366,14 +366,14 @@ K differential opamp operational amplifier
 F http://www.ti.com/lit/ds/symlink/lmh6551.pdf
 $ENDCMP
 #
-$CMP LMH6609MF
-D 900MHz Voltage Feedback Op Amp, SOT-23-5
+$CMP LMH6609MA
+D 900MHz Voltage Feedback Op Amp, SOIC-8
 K opamp single wideband unity-gain stable
 F http://www.ti.com/lit/ds/symlink/lmh6609.pdf
 $ENDCMP
 #
-$CMP LMH6609MA
-D 900MHz Voltage Feedback Op Amp, SOIC-8
+$CMP LMH6609MF
+D 900MHz Voltage Feedback Op Amp, SOT-23-5
 K opamp single wideband unity-gain stable
 F http://www.ti.com/lit/ds/symlink/lmh6609.pdf
 $ENDCMP
@@ -384,14 +384,14 @@ K opamp operational amplifier single
 F http://www.ti.com/lit/ds/symlink/lmh6612.pdf
 $ENDCMP
 #
-$CMP LMH6702MF
-D 1.7 GHz Ultra-Low Distortion Wideband Op Amp, SOT-23-5
+$CMP LMH6702MA
+D 1.7 GHz Ultra-Low Distortion Wideband Op Amp, SOIC-8
 K opamp single low distortion wideband
 F http://www.ti.com/lit/ds/symlink/lmh6702.pdf
 $ENDCMP
 #
-$CMP LMH6702MA
-D 1.7 GHz Ultra-Low Distortion Wideband Op Amp, SOIC-8
+$CMP LMH6702MF
+D 1.7 GHz Ultra-Low Distortion Wideband Op Amp, SOT-23-5
 K opamp single low distortion wideband
 F http://www.ti.com/lit/ds/symlink/lmh6702.pdf
 $ENDCMP
@@ -1278,6 +1278,12 @@ K quad opamp
 F http://www.ti.com/lit/ds/symlink/tlc274.pdf
 $ENDCMP
 #
+$CMP TLV172IDCK
+D Low-power Operational Amplifier, SOT-353
+K op amp operational amplifier
+F http://www.ti.com/lit/ds/symlink/tlv172.pdf
+$ENDCMP
+#
 $CMP TLV2371D
 D Rail-to-Rail Input/Output Operational Amplifier, SOIC-8
 K single opamp
@@ -1300,12 +1306,6 @@ $CMP TLV2372
 D Dual Rail-to-Rail Input/Output Operational Amplifier, DIP-8/SOIC-8/VSSOP-8
 K dual opamp
 F http://www.ti.com/lit/ds/symlink/tlv2375.pdf
-$ENDCMP
-#
-$CMP TLV172IDCK
-D Low-power Operational Amplifier, SOT-353
-K op amp operational amplifier
-F http://www.ti.com/lit/ds/symlink/tlv172.pdf
 $ENDCMP
 #
 $CMP TS881xCx
