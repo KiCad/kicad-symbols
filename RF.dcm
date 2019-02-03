@@ -42,16 +42,34 @@ K Low Power RF Transciever
 F http://www.ti.com/lit/ds/symlink/cc2500.pdf
 $ENDCMP
 #
-$CMP LPF-B0R3
-D Low Pass Filter, DC to 0.3 MHz, 50 Ohm, Mini-Circuits HZ1198
-K low pass filter
-F https://ww2.minicircuits.com/pdfs/LPF-B0R3+.pdf
+$CMP DC4759J5020AHF-1
+D 4.7-5.9GHz 20dB Directional Coupler, Configuration 1, Anaren 0805
+K RF coupler
+F https://cdn.anaren.com/product-documents/Xinger/DirectionalCouplers/DC4759J5020AHF/DC4759J5020AHF_DataSheet(Rev_E).pdf
+$ENDCMP
+#
+$CMP DC4759J5020AHF-2
+D 4.7-5.9GHz 20dB Directional Coupler, Configuration 2, Anaren 0805
+K RF coupler
+F https://cdn.anaren.com/product-documents/Xinger/DirectionalCouplers/DC4759J5020AHF/DC4759J5020AHF_DataSheet(Rev_E).pdf
+$ENDCMP
+#
+$CMP HMC431
+D 5.5-6.1GHz VCO, QFN-24
+K vco rf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/hmc431.pdf
 $ENDCMP
 #
 $CMP LAT-3
 D Attenuator, 3dB, 0.5W, DC to 2500 MHz, 50 Ohm, Mini-Circuits MMM168
 K attenuator rf
 F https://ww2.minicircuits.com/pdfs/LAT-3+.pdf
+$ENDCMP
+#
+$CMP LPF-B0R3
+D Low Pass Filter, DC to 0.3 MHz, 50 Ohm, Mini-Circuits HZ1198
+K low pass filter
+F https://ww2.minicircuits.com/pdfs/LPF-B0R3+.pdf
 $ENDCMP
 #
 $CMP LRPS-2-1
@@ -100,6 +118,78 @@ $CMP NRF24L01_Breakout
 D Ultra low power 2.4GHz RF Transceiver, Carrier PCB
 K Low Power RF Transciever breakout carrier
 F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf
+$ENDCMP
+#
+$CMP PAT1220-C-0DB
+D 10GHz RF Attenuator, 50ohm Matched Impedance, 0dB Attenuation, PAT1220
+K RF attenuator
+F https://www.susumu.co.jp/common/pdf/n_catalog_partition16_en.pdf
+$ENDCMP
+#
+$CMP PAT1220-C-10DB
+D 10GHz RF Attenuator, 50ohm Matched Impedance, 10dB Attenuation, PAT1220
+K RF attenuator
+F https://www.susumu.co.jp/common/pdf/n_catalog_partition16_en.pdf
+$ENDCMP
+#
+$CMP PAT1220-C-1DB
+D 10GHz RF Attenuator, 50ohm Matched Impedance, 1dB Attenuation, PAT1220
+K RF attenuator
+F https://www.susumu.co.jp/common/pdf/n_catalog_partition16_en.pdf
+$ENDCMP
+#
+$CMP PAT1220-C-2DB
+D 10GHz RF Attenuator, 50ohm Matched Impedance, 2dB Attenuation, PAT1220
+K RF attenuator
+F https://www.susumu.co.jp/common/pdf/n_catalog_partition16_en.pdf
+$ENDCMP
+#
+$CMP PAT1220-C-3DB
+D 10GHz RF Attenuator, 50ohm Matched Impedance, 3dB Attenuation, PAT1220
+K RF attenuator
+F https://www.susumu.co.jp/common/pdf/n_catalog_partition16_en.pdf
+$ENDCMP
+#
+$CMP PAT1220-C-4DB
+D 10GHz RF Attenuator, 50ohm Matched Impedance, 4dB Attenuation, PAT1220
+K RF attenuator
+F https://www.susumu.co.jp/common/pdf/n_catalog_partition16_en.pdf
+$ENDCMP
+#
+$CMP PAT1220-C-5DB
+D 10GHz RF Attenuator, 50ohm Matched Impedance, 5dB Attenuation, PAT1220
+K RF attenuator
+F https://www.susumu.co.jp/common/pdf/n_catalog_partition16_en.pdf
+$ENDCMP
+#
+$CMP PAT1220-C-6DB
+D 10GHz RF Attenuator, 50ohm Matched Impedance, 6dB Attenuation, PAT1220
+K RF attenuator
+F https://www.susumu.co.jp/common/pdf/n_catalog_partition16_en.pdf
+$ENDCMP
+#
+$CMP PAT1220-C-7DB
+D 10GHz RF Attenuator, 50ohm Matched Impedance, 7dB Attenuation, PAT1220
+K RF attenuator
+F https://www.susumu.co.jp/common/pdf/n_catalog_partition16_en.pdf
+$ENDCMP
+#
+$CMP PAT1220-C-8DB
+D 10GHz RF Attenuator, 50ohm Matched Impedance, 8dB Attenuation, PAT1220
+K RF attenuator
+F https://www.susumu.co.jp/common/pdf/n_catalog_partition16_en.pdf
+$ENDCMP
+#
+$CMP PAT1220-C-9DB
+D 10GHz RF Attenuator, 50ohm Matched Impedance, 9dB Attenuation, PAT1220
+K RF attenuator
+F https://www.susumu.co.jp/common/pdf/n_catalog_partition16_en.pdf
+$ENDCMP
+#
+$CMP PD4859J5050S2HF
+D 4.8-5.9GHz Wilkinson Power Divider, Anaren 0805
+K rf power divider wilkinson
+F https://cdn.anaren.com/product-documents/Xinger/PowerDividers/PD4859J5050S2HF/PD4859J5050S2HF_DataSheet(Rev_D).pdf
 $ENDCMP
 #
 $CMP RBP-280
@@ -157,25 +247,25 @@ F https://www.semtech.com/uploads/documents/sx1272.pdf
 $ENDCMP
 #
 $CMP SXBP-100
-D Bandpass Filter, 87 to 117 MHz, 50 Ohm
+D Bandpass Filter, 87 to 117 MHz, 50 Ohm, Mini-Circuits HF1139
 K bandpass filter
 F https://ww2.minicircuits.com/pdfs/SXBP-100+.pdf
 $ENDCMP
 #
 $CMP SXBP-140
-D Bandpass Filter, 130 to 150 MHz, 50 Ohm
+D Bandpass Filter, 130 to 150 MHz, 50 Ohm, Mini-Circuits HF1139
 K Mini-Circuits Band-Pass Filter
 F https://ww2.minicircuits.com/pdfs/SXBP-140+.pdf
 $ENDCMP
 #
 $CMP SXBP-202
-D Bandpass Filter, 198 to 206 MHz, 50 Ohm
+D Bandpass Filter, 198 to 206 MHz, 50 Ohm, Mini-Circuits HF1139
 K bandpass filter
 F https://ww2.minicircuits.com/pdfs/SXBP-202+.pdf
 $ENDCMP
 #
 $CMP SXBP-27R5
-D Bandpass Filter, 24 to 31 MHz, 50 Ohm
+D Bandpass Filter, 24 to 31 MHz, 50 Ohm, Mini-Circuits HF1139
 K bandpass filter
 F https://ww2.minicircuits.com/pdfs/SXBP-27R5+.pdf
 $ENDCMP

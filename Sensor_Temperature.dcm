@@ -444,6 +444,18 @@ K I2C Temperature Sensor
 F https://www.silabs.com/documents/public/data-sheets/Si7050-1-3-4-5-A20.pdf
 $ENDCMP
 #
+$CMP TMP100
+D Temperature Sensor with I2C/SMBus Interface, SOT-23-6
+K temperature sensor i2c smbus
+F http://www.ti.com/lit/gpn/tmp100
+$ENDCMP
+#
+$CMP TMP101
+D Temperature Sensor with I2C/SMBus Interface, SOT-23-6
+K temperature sensor i2c smbus
+F http://www.ti.com/lit/gpn/tmp101
+$ENDCMP
+#
 $CMP TMP20AIDCK
 D Analog thermistor temperature sensor, ±2.5C accuracy, -55C to +130C, SC-70-5
 K temperature sensor thermistor
