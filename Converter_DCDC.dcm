@@ -1086,26 +1086,218 @@ K DC/DC Converter
 F https://www.xppower.com/Portals/0/pdfs/SF_ISU02.pdf
 $ENDCMP
 #
-$CMP ITQxxxxS
-D 6W Isolated DC/DC Converter Module, Fully Regulated Dual Output Voltage ±5V, ±12V, ±15V, 9-75V Input Voltage, SIP
+$CMP ITQ2403SA
+D XP Power 6W, 1000 VDC Isolated DC/DC Converter Module, Single Output Voltage 3.3V, ±1500mA, 24V Input Voltage, SIP
 K XP_POWER DC/DC isolated Converter module
 F https://www.xppower.com/pdfs/SF_ITQ.pdf
 $ENDCMP
 #
-$CMP ITQxxxxS-H
-D 6W Isolated DC/DC Converter Module, 3000 VDC isolation, Fully Regulated Dual Output Voltage ±5V, ±12V, ±15V, 9-75V Input Voltage, SIP
+$CMP ITQ2405SA
+D XP Power 6W, 1000 VDC Isolated DC/DC Converter Module, Single Output Voltage 5V, ±1200mA, 24V Input Voltage, SIP
 K XP_POWER DC/DC isolated Converter module
 F https://www.xppower.com/pdfs/SF_ITQ.pdf
 $ENDCMP
 #
-$CMP ITQxxxxSA
-D 6W Isolated DC/DC Converter Module, Fully Regulated Single Output Voltage 3.3V, 5V, 9V, 12V, 15V, 24V, 9-75V Input Voltage, SIP
+$CMP ITQ2409SA
+D XP Power 6W, 1000 VDC Isolated DC/DC Converter Module, Single Output Voltage 9V, ±666mA, 24V Input Voltage, SIP
 K XP_POWER DC/DC isolated Converter module
 F https://www.xppower.com/pdfs/SF_ITQ.pdf
 $ENDCMP
 #
-$CMP ITQxxxxSA-H
-D 6W Isolated DC/DC Converter Module, 3000 VDC isolation, Fully Regulated Single Output Voltage 3.3V, 5V, 9V, 12V, 15V, 24V, 9-75V Input Voltage, SIP
+$CMP ITQ2412SA
+D XP Power 6W, 1000 VDC Isolated DC/DC Converter Module, Single Output Voltage 12V, ±500mA, 24V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ2415SA
+D XP Power 6W, 1000 VDC Isolated DC/DC Converter Module, Single Output Voltage 15V, ±400mA, 24V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ2424SA
+D XP Power 6W, 1000 VDC Isolated DC/DC Converter Module, Single Output Voltage 24V, ±250mA, 24V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ2405S
+D XP Power 6W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±600mA, 24V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ2412S
+D XP Power 6W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±250mA, 24V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ2415S
+D XP Power 6W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±200mA, 24V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ4803SA
+D XP Power 6W, 1000 VDC Isolated DC/DC Converter Module, Single Output Voltage 3.3V, ±1500mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ4805SA
+D XP Power 6W, 1000 VDC Isolated DC/DC Converter Module, Single Output Voltage 5V, ±1200mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ4809SA
+D XP Power 6W, 1000 VDC Isolated DC/DC Converter Module, Single Output Voltage 9V, ±666mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ4812SA
+D XP Power 6W, 1000 VDC Isolated DC/DC Converter Module, Single Output Voltage 12V, ±500mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ4815SA
+D XP Power 6W, 1000 VDC Isolated DC/DC Converter Module, Single Output Voltage 15V, ±400mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ4824SA
+D XP Power 6W, 1000 VDC Isolated DC/DC Converter Module, Single Output Voltage 24V, ±250mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ4805S
+D XP Power 6W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±600mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ4812S
+D XP Power 6W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±250mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ4815S
+D XP Power 6W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±200mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ2403SA-H
+D XP Power 6W, 3000 VDC Isolated DC/DC Converter Module, Single Output Voltage 3.3V, ±1500mA, 24V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ2405SA-H
+D XP Power 6W, 3000 VDC Isolated DC/DC Converter Module, Single Output Voltage 5V, ±1200mA, 24V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ2409SA-H
+D XP Power 6W, 3000 VDC Isolated DC/DC Converter Module, Single Output Voltage 9V, ±666mA, 24V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ2412SA-H
+D XP Power 6W, 3000 VDC Isolated DC/DC Converter Module, Single Output Voltage 12V, ±500mA, 24V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ2415SA-H
+D XP Power 6W, 3000 VDC Isolated DC/DC Converter Module, Single Output Voltage 15V, ±400mA, 24V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ2424SA-H
+D XP Power 6W, 3000 VDC Isolated DC/DC Converter Module, Single Output Voltage 24V, ±250mA, 24V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ2405S-H
+D XP Power 6W, 3000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±600mA, 24V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ2412S-H
+D XP Power 6W, 3000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±250mA, 24V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ2415S-H
+D XP Power 6W, 3000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±200mA, 24V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ4803SA-H
+D XP Power 6W, 3000 VDC Isolated DC/DC Converter Module, Single Output Voltage 3.3V, ±1500mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ4805SA-H
+D XP Power 6W, 3000 VDC Isolated DC/DC Converter Module, Single Output Voltage 5V, ±1200mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ4809SA-H
+D XP Power 6W, 3000 VDC Isolated DC/DC Converter Module, Single Output Voltage 9V, ±666mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ4812SA-H
+D XP Power 6W, 3000 VDC Isolated DC/DC Converter Module, Single Output Voltage 12V, ±500mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ4815SA-H
+D XP Power 6W, 3000 VDC Isolated DC/DC Converter Module, Single Output Voltage 15V, ±400mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ4824SA-H
+D XP Power 6W, 3000 VDC Isolated DC/DC Converter Module, Single Output Voltage 24V, ±250mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ4805S-H
+D XP Power 6W, 3000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±600mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ4812S-H
+D XP Power 6W, 3000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±250mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_ITQ.pdf
+$ENDCMP
+#
+$CMP ITQ4815S-H
+D XP Power 6W, 3000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±200mA, 48V Input Voltage, SIP
 K XP_POWER DC/DC isolated Converter module
 F https://www.xppower.com/pdfs/SF_ITQ.pdf
 $ENDCMP
