@@ -402,26 +402,578 @@ K XP_POWER DC/DC isolated Converter module
 F https://www.xppower.com/pdfs/SF_IA.pdf
 $ENDCMP
 #
-$CMP IHxxxxD
-D XP Power 2W Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±5V, ±9V, ±12V, ±15V, ±24V, 5-48V Input Voltage, 1000 VDC isolation, DIP
+$CMP IH0503D
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±200mA, 5V Input Voltage, DIP
 K XP_POWER DC/DC isolated Converter module
 F https://www.xppower.com/pdfs/SF_IH.pdf
 $ENDCMP
 #
-$CMP IHxxxxDH
-D XP Power 2W Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±5V, ±9V, ±12V, ±15V, ±24V, 5-48V Input Voltage, >=3000 VDC isolation, DIP
+$CMP IH0505D
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±200mA, 5V Input Voltage, DIP
 K XP_POWER DC/DC isolated Converter module
 F https://www.xppower.com/pdfs/SF_IH.pdf
 $ENDCMP
 #
-$CMP IHxxxxS
-D XP Power 2W Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±5V, ±9V, ±12V, ±15V, ±24V, 5-48V Input Voltage, 1000 VDC isolation, SIP
+$CMP IH0509D
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±111mA, 5V Input Voltage, DIP
 K XP_POWER DC/DC isolated Converter module
 F https://www.xppower.com/pdfs/SF_IH.pdf
 $ENDCMP
 #
-$CMP IHxxxxSH
-D XP Power 2W Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±5V, ±9V, ±12V, ±15V, ±24V, 5-48V Input Voltage, >=3000 VDC isolation, SIP
+$CMP IH0512D
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±84mA, 5V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH0515D
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±66mA, 5V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH0524D
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±42mA, 5V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH1203D
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±200mA, 12V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH1205D
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±200mA, 12V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH1209D
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±111mA, 12V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH1212D
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±84mA, 12V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH1215D
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±66mA, 12V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH1224D
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±42mA, 12V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH2403D
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±200mA, 24V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH2405D
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±200mA, 24V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH2409D
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±111mA, 24V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH2412D
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±84mA, 24V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH2415D
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±66mA, 24V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH2424D
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±42mA, 24V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH4803D
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±200mA, 48V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH4805D
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±200mA, 48V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH4809D
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±111mA, 48V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH4812D
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±84mA, 48V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH4815D
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±66mA, 48V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH4824D
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±42mA, 48V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH0503S
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±200mA, 5V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH0505S
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±200mA, 5V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH0509S
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±111mA, 5V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH0512S
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±84mA, 5V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH0515S
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±66mA, 5V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH0524S
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±42mA, 5V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH1203S
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±200mA, 12V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH1205S
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±200mA, 12V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH1209S
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±111mA, 12V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH1212S
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±84mA, 12V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH1215S
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±66mA, 12V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH1224S
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±42mA, 12V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH2403S
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±200mA, 24V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH2405S
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±200mA, 24V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH2409S
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±111mA, 24V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH2412S
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±84mA, 24V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH2415S
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±66mA, 24V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH2424S
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±42mA, 24V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH4803S
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±200mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH4805S
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±200mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH4809S
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±111mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH4812S
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±84mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH4815S
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±66mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH4824S
+D XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±42mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH0503DH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±200mA, 5V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH0505DH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±200mA, 5V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH0509DH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±111mA, 5V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH0512DH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±84mA, 5V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH0515DH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±66mA, 5V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH0524DH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±42mA, 5V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH1203DH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±200mA, 12V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH1205DH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±200mA, 12V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH1209DH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±111mA, 12V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH1212DH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±84mA, 12V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH1215DH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±66mA, 12V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH1224DH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±42mA, 12V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH2403DH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±200mA, 24V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH2405DH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±200mA, 24V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH2409DH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±111mA, 24V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH2412DH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±84mA, 24V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH2415DH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±66mA, 24V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH2424DH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±42mA, 24V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH4803DH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±200mA, 48V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH4805DH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±200mA, 48V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH4809DH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±111mA, 48V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH4812DH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±84mA, 48V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH4815DH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±66mA, 48V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH4824DH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±42mA, 48V Input Voltage, DIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH0503SH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±200mA, 5V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH0505SH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±200mA, 5V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH0509SH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±111mA, 5V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH0512SH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±84mA, 5V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH0515SH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±66mA, 5V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH0524SH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±42mA, 5V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH1203SH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±200mA, 12V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH1205SH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±200mA, 12V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH1209SH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±111mA, 12V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH1212SH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±84mA, 12V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH1215SH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±66mA, 12V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH1224SH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±42mA, 12V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH2403SH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±200mA, 24V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH2405SH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±200mA, 24V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH2409SH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±111mA, 24V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH2412SH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±84mA, 24V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH2415SH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±66mA, 24V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH2424SH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±42mA, 24V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH4803SH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±200mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH4805SH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±200mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH4809SH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±111mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH4812SH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±84mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH4815SH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±66mA, 48V Input Voltage, SIP
+K XP_POWER DC/DC isolated Converter module
+F https://www.xppower.com/pdfs/SF_IH.pdf
+$ENDCMP
+#
+$CMP IH4824SH
+D XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±42mA, 48V Input Voltage, SIP
 K XP_POWER DC/DC isolated Converter module
 F https://www.xppower.com/pdfs/SF_IH.pdf
 $ENDCMP
