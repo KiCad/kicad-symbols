@@ -1,9 +1,279 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ATA00A18S-L
+D Artesyn 3W Isolated DC/DC Converter Module, 5V Output Voltage, 9-36V Input Voltage
+K DC/DC converter single
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ATA00A36S-L
+D Artesyn 3W Isolated DC/DC Converter Module, 5V Output Voltage, 18-75V Input Voltage
+K DC/DC converter single
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ATA00AA18S-L
+D Artesyn 3W Isolated DC/DC Converter Module, ±5V Output Voltage, 9-36V Input Voltage
+K DC/DC converter dual
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ATA00AA36S-L
+D Artesyn 3W Isolated DC/DC Converter Module, ±5V Output Voltage, 18-75V Input Voltage
+K DC/DC converter dual
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ATA00B18S-L
+D Artesyn 3W Isolated DC/DC Converter Module, 12V Output Voltage, 9-36V Input Voltage
+K DC/DC converter single
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ATA00B36S-L
+D Artesyn 3W Isolated DC/DC Converter Module, 12V Output Voltage, 18-75V Input Voltage
+K DC/DC converter single
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ATA00BB18S-L
+D Artesyn 3W Isolated DC/DC Converter Module, ±12V Output Voltage, 9-36V Input Voltage
+K DC/DC converter dual
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ATA00BB36S-L
+D Artesyn 3W Isolated DC/DC Converter Module, ±12V Output Voltage, 18-75V Input Voltage
+K DC/DC converter dual
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ATA00C18S-L
+D Artesyn 3W Isolated DC/DC Converter Module, 15V Output Voltage, 9-36V Input Voltage
+K DC/DC converter single
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ATA00C36S-L
+D Artesyn 3W Isolated DC/DC Converter Module, 15V Output Voltage, 18-75V Input Voltage
+K DC/DC converter single
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ATA00CC18S-L
+D Artesyn 3W Isolated DC/DC Converter Module, ±15V Output Voltage, 9-36V Input Voltage
+K DC/DC converter dual
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ATA00CC36S-L
+D Artesyn 3W Isolated DC/DC Converter Module, ±15V Output Voltage, 18-75V Input Voltage
+K DC/DC converter dual
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ATA00F18S-L
+D Artesyn 2W Isolated DC/DC Converter Module, 3.3V Output Voltage, 9-36V Input Voltage
+K DC/DC converter single
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ATA00F36S-L
+D Artesyn 2W Isolated DC/DC Converter Module, 3.3V Output Voltage, 18-75V Input Voltage
+K DC/DC converter single
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ATA00H18S-L
+D Artesyn 3W Isolated DC/DC Converter Module, 24V Output Voltage, 9-36V Input Voltage
+K DC/DC converter single
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
+$CMP ATA00H36S-L
+D Artesyn 3W Isolated DC/DC Converter Module, 24V Output Voltage, 18-75V Input Voltage
+K DC/DC converter single
+F https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
+$ENDCMP
+#
 $CMP BD8314NUV
 D 3.0V to 12V, Integrated 2.5A MOSFET 1ch Boost Converter, VSON-10
 K DCDC converter
 F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/switching_regulator/bd8314nuv-e.pdf
+$ENDCMP
+#
+$CMP ISU0205D12
+D XP Power 2W Isolated DC/DC Dual Supply Converter Module, ±12V Output Voltage, 4.5-12V Input Voltage
+K DC/DC Converter dual
+F https://www.xppower.com/Portals/0/pdfs/SF_ISU02.pdf
+$ENDCMP
+#
+$CMP ISU0205D15
+D XP Power 2W Isolated DC/DC Dual Supply Converter Module, ±15V Output Voltage, 4.5-12V Input Voltage
+K DC/DC Converter dual
+F https://www.xppower.com/Portals/0/pdfs/SF_ISU02.pdf
+$ENDCMP
+#
+$CMP ISU0205S05
+D XP Power 2W Isolated DC/DC Converter Module, 5V Output Voltage, 4.5-12V Input Voltage
+K DC/DC Converter
+F https://www.xppower.com/Portals/0/pdfs/SF_ISU02.pdf
+$ENDCMP
+#
+$CMP ISU0205S12
+D XP Power 2W Isolated DC/DC Converter Module, 12V Output Voltage, 4.5-12V Input Voltage
+K DC/DC Converter
+F https://www.xppower.com/Portals/0/pdfs/SF_ISU02.pdf
+$ENDCMP
+#
+$CMP ISU0205S15
+D XP Power 2W Isolated DC/DC Converter Module, 15V Output Voltage, 4.5-12V Input Voltage
+K DC/DC Converter
+F https://www.xppower.com/Portals/0/pdfs/SF_ISU02.pdf
+$ENDCMP
+#
+$CMP ISU0205S24
+D XP Power 2W Isolated DC/DC Converter Module, 24V Output Voltage, 4.5-12V Input Voltage
+K DC/DC Converter
+F https://www.xppower.com/Portals/0/pdfs/SF_ISU02.pdf
+$ENDCMP
+#
+$CMP ISU0224D12
+D XP Power 2W Isolated DC/DC Dual Supply Converter Module, ±12V Output Voltage, 9-36V Input Voltage
+K DC/DC Converter dual
+F https://www.xppower.com/Portals/0/pdfs/SF_ISU02.pdf
+$ENDCMP
+#
+$CMP ISU0224D15
+D XP Power 2W Isolated DC/DC Dual Supply Converter Module, ±15V Output Voltage, 9-36V Input Voltage
+K DC/DC Converter dual
+F https://www.xppower.com/Portals/0/pdfs/SF_ISU02.pdf
+$ENDCMP
+#
+$CMP ISU0224S05
+D XP Power 2W Isolated DC/DC Converter Module, 5V Output Voltage, 9-36V Input Voltage
+K DC/DC Converter
+F https://www.xppower.com/Portals/0/pdfs/SF_ISU02.pdf
+$ENDCMP
+#
+$CMP ISU0224S12
+D XP Power 2W Isolated DC/DC Converter Module, 12V Output Voltage, 9-36V Input Voltage
+K DC/DC Converter
+F https://www.xppower.com/Portals/0/pdfs/SF_ISU02.pdf
+$ENDCMP
+#
+$CMP ISU0224S15
+D XP Power 2W Isolated DC/DC Converter Module, 15V Output Voltage, 9-36V Input Voltage
+K DC/DC Converter
+F https://www.xppower.com/Portals/0/pdfs/SF_ISU02.pdf
+$ENDCMP
+#
+$CMP ISU0224S24
+D XP Power 2W Isolated DC/DC Converter Module, 24V Output Voltage, 9-36V Input Voltage
+K DC/DC Converter
+F https://www.xppower.com/Portals/0/pdfs/SF_ISU02.pdf
+$ENDCMP
+#
+$CMP ISU0248D12
+D XP Power 2W Isolated DC/DC Dual Supply Converter Module, ±12V Output Voltage, 18-75V Input Voltage
+K DC/DC Converter dual
+F https://www.xppower.com/Portals/0/pdfs/SF_ISU02.pdf
+$ENDCMP
+#
+$CMP ISU0248D15
+D XP Power 2W Isolated DC/DC Dual Supply Converter Module, ±15V Output Voltage, 18-75V Input Voltage
+K DC/DC Converter dual
+F https://www.xppower.com/Portals/0/pdfs/SF_ISU02.pdf
+$ENDCMP
+#
+$CMP ISU0248S05
+D XP Power 2W Isolated DC/DC Converter Module, 5V Output Voltage, 18-75V Input Voltage
+K DC/DC Converter
+F https://www.xppower.com/Portals/0/pdfs/SF_ISU02.pdf
+$ENDCMP
+#
+$CMP ISU0248S12
+D XP Power 2W Isolated DC/DC Converter Module, 12V Output Voltage, 18-75V Input Voltage
+K DC/DC Converter
+F https://www.xppower.com/Portals/0/pdfs/SF_ISU02.pdf
+$ENDCMP
+#
+$CMP ISU0248S15
+D XP Power 2W Isolated DC/DC Converter Module, 15V Output Voltage, 18-75V Input Voltage
+K DC/DC Converter
+F https://www.xppower.com/Portals/0/pdfs/SF_ISU02.pdf
+$ENDCMP
+#
+$CMP ISU0248S24
+D XP Power 2W Isolated DC/DC Converter Module, 24V Output Voltage, 18-75V Input Voltage
+K DC/DC Converter
+F https://www.xppower.com/Portals/0/pdfs/SF_ISU02.pdf
+$ENDCMP
+#
+$CMP JTE0624D03
+D XP Power 6W Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, 9-36V Input Voltage
+K XP_POWER isolated DC/DC Converter module
+F https://www.xppower.com/Portals/0/pdfs/SF_JTE06.pdf
+$ENDCMP
+#
+$CMP JTE0624D05
+D XP Power 6W Isolated DC/DC Converter Module, Dual Output Voltage ±5V, 9-36V Input Voltage
+K XP_POWER isolated DC/DC Converter module
+F https://www.xppower.com/Portals/0/pdfs/SF_JTE06.pdf
+$ENDCMP
+#
+$CMP JTE0624D12
+D XP Power 6W Isolated DC/DC Converter Module, Dual Output Voltage ±12V, 9-36V Input Voltage
+K XP_POWER isolated DC/DC Converter module
+F https://www.xppower.com/Portals/0/pdfs/SF_JTE06.pdf
+$ENDCMP
+#
+$CMP JTE0624D15
+D XP Power 6W Isolated DC/DC Converter Module, Dual Output Voltage ±15V, 9-36V Input Voltage
+K XP_POWER isolated DC/DC Converter module
+F https://www.xppower.com/Portals/0/pdfs/SF_JTE06.pdf
+$ENDCMP
+#
+$CMP JTE0624D24
+D XP Power 6W Isolated DC/DC Converter Module, Dual Output Voltage ±24V, 9-36V Input Voltage
+K XP_POWER isolated DC/DC Converter module
+F https://www.xppower.com/Portals/0/pdfs/SF_JTE06.pdf
+$ENDCMP
+#
+$CMP NCS1S1203SC
+D Isolated 1W 4:1 input DC/DC converter module, 4.5-18V input voltage, 3.3V output voltage, SIP
+K Murata isolated isolation dc-dc converter step-down
+F https://power.murata.com/data/power/ncl/kdc_ncs1.pdf
+$ENDCMP
+#
+$CMP NCS1S1205SC
+D Isolated 1W 4:1 input DC/DC converter module, 4.5-18V input voltage, 5.0V output voltage, SIP
+K Murata isolated isolation dc-dc converter step-down
+F https://power.murata.com/data/power/ncl/kdc_ncs1.pdf
+$ENDCMP
+#
+$CMP NCS1S1212SC
+D Isolated 1W 4:1 input DC/DC converter module, 4.5-18V input voltage, 12.0V output voltage, SIP
+K Murata isolated isolation dc-dc converter step-down
+F https://power.murata.com/data/power/ncl/kdc_ncs1.pdf
+$ENDCMP
+#
+$CMP NCS1S2403SC
+D Isolated 1W 4:1 input DC/DC converter module, 9-36V input voltage, 3.3V output voltage, SIP
+K Murata isolated isolation dc-dc converter step-down
+F https://power.murata.com/data/power/ncl/kdc_ncs1.pdf
+$ENDCMP
+#
+$CMP NCS1S2405SC
+D Isolated 1W 4:1 input DC/DC converter module, 9-36V input voltage, 5.0V output voltage, SIP
+K Murata isolated isolation dc-dc converter step-down
+F https://power.murata.com/data/power/ncl/kdc_ncs1.pdf
+$ENDCMP
+#
+$CMP NCS1S2412SC
+D Isolated 1W 4:1 input DC/DC converter module, 9-36V input voltage, 12.0V output voltage, SIP
+K Murata isolated isolation dc-dc converter step-down
+F https://power.murata.com/data/power/ncl/kdc_ncs1.pdf
 $ENDCMP
 #
 $CMP TC7662AxPA
@@ -22,6 +292,114 @@ $CMP TC7662BxPA
 D Charge Pump DC-to-DC Converter, 1.5 - 15V, 100mA, DIP-8
 K charge pump DC-to-DC converter
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21469a.pdf
+$ENDCMP
+#
+$CMP TEC2-1210WI
+D 500mA Regulated 2W DC/DC converter with 1.5kV isolation, 4.5V-18V input, 3.3V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tec2wi.pdf
+$ENDCMP
+#
+$CMP TEC2-1211WI
+D 400mA Regulated 2W DC/DC converter with 1.5kV isolation, 4.5V-18V input, 5V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tec2wi.pdf
+$ENDCMP
+#
+$CMP TEC2-1212WI
+D 167mA Regulated 2W DC/DC converter with 1.5kV isolation, 4.5V-18V input, 12V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tec2wi.pdf
+$ENDCMP
+#
+$CMP TEC2-1213WI
+D 134mA Regulated 2W DC/DC converter with 1.5kV isolation, 4.5V-18V input, 15V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tec2wi.pdf
+$ENDCMP
+#
+$CMP TEC2-1215WI
+D 83mA Regulated 2W DC/DC converter with 1.5kV isolation, 4.5V-18V input, 24V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tec2wi.pdf
+$ENDCMP
+#
+$CMP TEC2-1219WI
+D 222mA Regulated 2W DC/DC converter with 1.5kV isolation, 4.5V-18V input, 9V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tec2wi.pdf
+$ENDCMP
+#
+$CMP TEC2-2410WI
+D 500mA Regulated 2W DC/DC converter with 1.5kV isolation, 9V-36V input, 3.3V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tec2wi.pdf
+$ENDCMP
+#
+$CMP TEC2-2411WI
+D 400mA Regulated 2W DC/DC converter with 1.5kV isolation, 9V-36V input, 5V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tec2wi.pdf
+$ENDCMP
+#
+$CMP TEC2-2412WI
+D 167mA Regulated 2W DC/DC converter with 1.5kV isolation, 9V-36V input, 12V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tec2wi.pdf
+$ENDCMP
+#
+$CMP TEC2-2413WI
+D 134mA Regulated 2W DC/DC converter with 1.5kV isolation, 9V-36V input, 15V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tec2wi.pdf
+$ENDCMP
+#
+$CMP TEC2-2415WI
+D 83mA Regulated 2W DC/DC converter with 1.5kV isolation, 9V-36V input, 24V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tec2wi.pdf
+$ENDCMP
+#
+$CMP TEC2-2419WI
+D 222mA Regulated 2W DC/DC converter with 1.5kV isolation, 9V-36V input, 9V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tec2wi.pdf
+$ENDCMP
+#
+$CMP TEC2-4810WI
+D 500mA Regulated 2W DC/DC converter with 1.5kV isolation, 18V-75V input, 3.3V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tec2wi.pdf
+$ENDCMP
+#
+$CMP TEC2-4811WI
+D 400mA Regulated 2W DC/DC converter with 1.5kV isolation, 18V-75V input, 5V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tec2wi.pdf
+$ENDCMP
+#
+$CMP TEC2-4812WI
+D 167mA Regulated 2W DC/DC converter with 1.5kV isolation, 18V-75V input, 12V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tec2wi.pdf
+$ENDCMP
+#
+$CMP TEC2-4813WI
+D 134mA Regulated 2W DC/DC converter with 1.5kV isolation, 18V-75V input, 15V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tec2wi.pdf
+$ENDCMP
+#
+$CMP TEC2-4815WI
+D 83mA Regulated 2W DC/DC converter with 1.5kV isolation, 18V-75V input, 24V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tec2wi.pdf
+$ENDCMP
+#
+$CMP TEC2-4819WI
+D 222mA Regulated 2W DC/DC converter with 1.5kV isolation, 18V-75V input, 9V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tec2wi.pdf
 $ENDCMP
 #
 $CMP TEN20-2410WIN
@@ -108,34 +486,124 @@ K Traco isolated DC/DC Converter module
 F http://www.tracopower.com/products/ten20win.pdf
 $ENDCMP
 #
-$CMP XP_POWER-JTE0624D03
-D 6W Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, 9-36V Input Voltage
-K XP_POWER isolated DC/DC Converter module
-F https://www.xppower.com/Portals/0/pdfs/SF_JTE06.pdf
+$CMP TMR-0510
+D 500mA Regulated 2W DC/DC converter with 1.5kV isolation, 4.5V-9V input, 3.3V fixed Output Voltage, SIP-8
+K  Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tmr2.pdf
 $ENDCMP
 #
-$CMP XP_POWER-JTE0624D05
-D 6W Isolated DC/DC Converter Module, Dual Output Voltage ±5V, 9-36V Input Voltage
-K XP_POWER isolated DC/DC Converter module
-F https://www.xppower.com/Portals/0/pdfs/SF_JTE06.pdf
+$CMP TMR-0511
+D 400mA Regulated 2W DC/DC converter with 1.5kV isolation, 4.5V-9V input, 5V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tmr2.pdf
 $ENDCMP
 #
-$CMP XP_POWER-JTE0624D12
-D 6W Isolated DC/DC Converter Module, Dual Output Voltage ±12V, 9-36V Input Voltage
-K XP_POWER isolated DC/DC Converter module
-F https://www.xppower.com/Portals/0/pdfs/SF_JTE06.pdf
+$CMP TMR-0512
+D 165mA Regulated 2W DC/DC converter with 1.5kV isolation, 4.5V-9V input, 12V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tmr2.pdf
 $ENDCMP
 #
-$CMP XP_POWER-JTE0624D15
-D 6W Isolated DC/DC Converter Module, Dual Output Voltage ±15V, 9-36V Input Voltage
-K XP_POWER isolated DC/DC Converter module
-F https://www.xppower.com/Portals/0/pdfs/SF_JTE06.pdf
+$CMP TMR-1210
+D 500mA Regulated 2W DC/DC converter with 1.5kV isolation, 9V-18V input, 3.3V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tmr2.pdf
 $ENDCMP
 #
-$CMP XP_POWER-JTE0624D24
-D 6W Isolated DC/DC Converter Module, Dual Output Voltage ±24V, 9-36V Input Voltage
-K XP_POWER isolated DC/DC Converter module
-F https://www.xppower.com/Portals/0/pdfs/SF_JTE06.pdf
+$CMP TMR-1211
+D 400mA Regulated 2W DC/DC converter with 1.5kV isolation, 9V-18V input, 5V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tmr2.pdf
+$ENDCMP
+#
+$CMP TMR-1212
+D 165mA Regulated 2W DC/DC converter with 1.5kV isolation, 9V-18V input, 12V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tmr2.pdf
+$ENDCMP
+#
+$CMP TMR-2410
+D 500mA Regulated 2W DC/DC converter with 1.5kV isolation, 18V-36V input, 3.3V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tmr2.pdf
+$ENDCMP
+#
+$CMP TMR-2411
+D 400mA Regulated 2W DC/DC converter with 1.5kV isolation, 18V-36V input, 5V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tmr2.pdf
+$ENDCMP
+#
+$CMP TMR-2412
+D 165mA Regulated 2W DC/DC converter with 1.5kV isolation, 18V-36V input, 12V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tmr2.pdf
+$ENDCMP
+#
+$CMP TMR-4810
+D 500mA Regulated 2W DC/DC converter with 1.5kV isolation, 36V-75V input, 3.3V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tmr2.pdf
+$ENDCMP
+#
+$CMP TMR-4811
+D 400mA Regulated 2W DC/DC converter with 1.5kV isolation, 36V-75V input, 5V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tmr2.pdf
+$ENDCMP
+#
+$CMP TMR-4812
+D 165mA Regulated 2W DC/DC converter with 1.5kV isolation, 36V-75V input, 12V fixed Output Voltage, SIP-8
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tmr2.pdf
+$ENDCMP
+#
+$CMP TMR2-2410WI
+D 500mA Regulated 2W DC/DC converter with 1.5kV isolation, 9V-36V input, 3.3V fixed Output Voltage, SIP-9
+K  Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tmr2wi.pdf
+$ENDCMP
+#
+$CMP TMR2-2411WI
+D 400mA Regulated 2W DC/DC converter with 1.5kV isolation, 9V-36V input, 5V fixed Output Voltage, SIP-9
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tmr2wi.pdf
+$ENDCMP
+#
+$CMP TMR2-2412WI
+D 165mA Regulated 2W DC/DC converter with 1.5kV isolation, 9V-36V input, 12V fixed Output Voltage, SIP-9
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tmr2wi.pdf
+$ENDCMP
+#
+$CMP TMR2-2413WI
+D 135mA Regulated 2W DC/DC converter with 1.5kV isolation, 9V-36V input, 15V fixed Output Voltage, SIP-9
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tmr2wi.pdf
+$ENDCMP
+#
+$CMP TMR2-4810WI
+D 500mA Regulated 2W DC/DC converter with 1.5kV isolation, 18V-75V input, 3.3V fixed Output Voltage, SIP-9
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tmr2wi.pdf
+$ENDCMP
+#
+$CMP TMR2-4811WI
+D 400mA Regulated 2W DC/DC converter with 1.5kV isolation, 18V-75V input, 5V fixed Output Voltage, SIP-9
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tmr2wi.pdf
+$ENDCMP
+#
+$CMP TMR2-4812WI
+D 165mA Regulated 2W DC/DC converter with 1.5kV isolation, 18V-75V input, 12V fixed Output Voltage, SIP-9
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tmr2wi.pdf
+$ENDCMP
+#
+$CMP TMR2-4813WI
+D 135mA Regulated 2W DC/DC converter with 1.5kV isolation, 18V-75V input, 15V fixed Output Voltage, SIP-9
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/products/tmr2wi.pdf
 $ENDCMP
 #
 #End Doc Library

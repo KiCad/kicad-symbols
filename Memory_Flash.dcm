@@ -132,4 +132,10 @@ K 512k flash rom
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf
 $ENDCMP
 #
+$CMP W25Q32JVZP
+D 32Mb Serial Flash Memory, Standard/Dual/Quad SPI, DFN-8
+K flash memory SPI
+F http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf
+$ENDCMP
+#
 #End Doc Library

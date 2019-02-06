@@ -24,9 +24,15 @@ K BME680 gas pressure humidity temperatiure measurement
 F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001-00.pdf
 $ENDCMP
 #
+$CMP CHT11
+D Temperature and humidity module
+K Digital temperature humidity sensor
+F http://aosong.com/en/products-21.html
+$ENDCMP
+#
 $CMP DHT11
 D Temperature and humidity module
-K digital temperature humidity sensor
+K Digital temperature humidity sensor
 F http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
 $ENDCMP
 #
