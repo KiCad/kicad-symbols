@@ -96,6 +96,12 @@ K indicator tube valve magic eye
 F http://www.r-type.org/pdfs/em84.pdf
 $ENDCMP
 #
+$CMP Geiger-Muller
+D Generic Geiger-Müller tube
+K Geiger-Müller
+F ~
+$ENDCMP
+#
 $CMP JAN6418
 D Subminiature Pentode
 K subminiature pentode valve
