@@ -120,6 +120,30 @@ K Timer TimerBlox monostable pulse
 F https://www.analog.com/media/en/technical-documentation/data-sheets/69931234fc.pdf
 $ENDCMP
 #
+$CMP LTC6994xDCB-1
+D TimerBlox Delay Block, Programmable, Noise Discriminator, Rising or Falling Edge, DFN-6
+K TimerBlox delay block noise discriminator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/699412fb.pdf
+$ENDCMP
+#
+$CMP LTC6994xDCB-2
+D TimerBlox Debouncer, Programmable, Noise Discriminator, Rising and Falling Edges, DFN-6
+K TimerBlox debouncer noise discriminator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/699412fb.pdf
+$ENDCMP
+#
+$CMP LTC6994xS6-1
+D TimerBlox Delay Block, Programmable, Noise Discriminator, Rising or Falling Edge, TSOT-23-6
+K TimerBlox delay block noise discriminator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/699412fb.pdf
+$ENDCMP
+#
+$CMP LTC6994xS6-2
+D TimerBlox Debouncer, Programmable, Noise Discriminator, Rising and Falling Edges, TSOT-23-6
+K TimerBlox debouncer noise discriminator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/699412fb.pdf
+$ENDCMP
+#
 $CMP MC1455
 D Timers, DIP-8/SOIC-8
 K timer
@@ -228,6 +252,24 @@ K tone decoder PLL
 F http://www.ti.com/lit/ds/symlink/lm567.pdf
 $ENDCMP
 #
+$CMP SY58031U
+D 1:8 CML Fanout Buffer 75fsRMS, QFN-32
+K CML 2.5V/3.3V differential LVPECL LVDS
+F http://ww1.microchip.com/downloads/en/DeviceDoc/sy58031u.pdf
+$ENDCMP
+#
+$CMP SY58032U
+D 1:8 LVPECL Fanout Buffer 75fsRMS, QFN-32
+K 2.5V/3.3V differential LVPECL LVDS
+F http://ww1.microchip.com/downloads/en/DeviceDoc/sy58032u.pdf
+$ENDCMP
+#
+$CMP SY58033U
+D 1:8 400mV LVPECL Fanout Buffer 75fsRMS, QFN-32
+K 2.5V/3.3V differential LVPECL LVDS
+F http://ww1.microchip.com/downloads/en/DeviceDoc/sy58033u.pdf
+$ENDCMP
+#
 $CMP TLC555
 D CMOS Timer
 K Timer NE555
@@ -256,6 +298,24 @@ $CMP TLC555CPW
 D Single LinCMOS Timer, TSSOP-14
 K single timer
 F http://www.ti.com/lit/ds/symlink/tlc555.pdf
+$ENDCMP
+#
+$CMP TPL5010
+D Timer, Nano Power, Watchdog, 35 nA, 100 ms to 7200 s, VDD 1.8 V to 5.5 V, Iout max 1 mA
+K timer watchdog nano wake done
+F http://www.ti.com/lit/ds/symlink/tpl5010.pdf
+$ENDCMP
+#
+$CMP TPL5110
+D Timer, Nano Power, Active-Low, 35 nA, 100 ms to 7200 s, VDD 1.8 V to 5.5 V, Iout max 1 mA, SOT-23-6
+K timer active-low nano wake done
+F http://www.ti.com/lit/ds/symlink/tpl5110.pdf
+$ENDCMP
+#
+$CMP TPL5111
+D Timer, Nano Power, Active-High, 35 nA, 100 ms to 7200 s, VDD 1.8 V to 5.5 V, Iout max 1 mA, SOT-23-6
+K timer active-high nano wake done
+F http://www.ti.com/lit/ds/symlink/tpl5111.pdf
 $ENDCMP
 #
 #End Doc Library

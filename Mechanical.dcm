@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP DIN_Rail_Adapter
+D DIN Rail adapter universal, mounting holes without connection
+K Mounting holes, DIN rail adapter
+F ~
+$ENDCMP
+#
 $CMP Fiducial
 D Fiducial Marker
 K fiducial marker
@@ -39,12 +45,6 @@ $ENDCMP
 $CMP MountingHole_Pad
 D Mounting Hole with connection
 K mounting hole
-F ~
-$ENDCMP
-#
-$CMP DIN_Rail_Adapter
-D DIN Rail adapter universal, mounting holes without connection
-K Mounting holes, DIN rail adapter
 F ~
 $ENDCMP
 #
