@@ -2772,6 +2772,12 @@ K Micropower Voltage Regulator 100mA Positive
 F http://www.ti.com/lit/ds/symlink/lp2950-n.pdf
 $ENDCMP
 #
+$CMP LP2980-ADJ
+D 50mA 15V Low-noise Low-dropout Regulator, 1.23-15V adjustable output voltage, SOT-23-5
+K LDO Voltage Regulator 50mA Positive
+F http://www.ti.com/lit/ds/symlink/lp2980-adj.pdf
+$ENDCMP
+#
 $CMP LP2985-1.8
 D 150mA 16V Low-noise Low-dropout Regulator With Shutdown, 1.8V output voltage, SOT-23-5
 K LDO regulator linear  SOT-23-5
@@ -3543,6 +3549,30 @@ $ENDCMP
 $CMP LT1963AxQ-3.3
 D 3.3V, 1.5A, Low Noise, Fast Transient Response LDO Regulator, TO-263-5
 K voltage regulator linear ldo
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf
+$ENDCMP
+#
+$CMP LT1963AxST-1.5
+D 1.5V, 1.5A, Low Noise, Fast Transient Response LDO Regulator, SOT-223
+K LDO voltage regulator fixed
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf
+$ENDCMP
+#
+$CMP LT1963AxST-1.8
+D 1.8V, 1.5A, Low Noise, Fast Transient Response LDO Regulator, SOT-223
+K LDO voltage regulator fixed
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf
+$ENDCMP
+#
+$CMP LT1963AxST-2.5
+D 2.5V, 1.5A, Low Noise, Fast Transient Response LDO Regulator, SOT-223
+K LDO voltage regulator fixed
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf
+$ENDCMP
+#
+$CMP LT1963AxST-3.3
+D 3.3V, 1.5A, Low Noise, Fast Transient Response LDO Regulator, SOT-223
+K LDO voltage regulator fixed
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf
 $ENDCMP
 #
@@ -6274,6 +6304,12 @@ $CMP TPS7A7200RGW
 D 2A, Low-Dropout Voltage Regulator, 1.5-6.5V Input, Adjustable 0.9-5V Output, VQFN-20
 K linear regulator ldo voltage
 F http://www.ti.com/lit/ds/symlink/tps7a7200.pdf
+$ENDCMP
+#
+$CMP TPS7A91
+D 1A, High-Accuracy, Low-Noise LDO Voltage Regulator, Texas S-PDSO-N10
+K LDO voltage regulator
+F http://www.ti.com/lit/ds/symlink/tps7a91.pdf
 $ENDCMP
 #
 $CMP XC6220B331MR
