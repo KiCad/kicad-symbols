@@ -66,6 +66,12 @@ K dual comparator
 F http://www.ti.com/lit/ds/symlink/lm393-n.pdf
 $ENDCMP
 #
+$CMP LMH7324
+D Quad 700 ps High Speed Comparator with RSPECL Outputs, WQFN-32
+K comparator
+F http://www.ti.com/lit/ds/symlink/lmh7324.pdf
+$ENDCMP
+#
 $CMP LMV331
 D Single General-Purpose Low-Voltage Comparator, SOT-23-5/SC-70-5
 K single comparator
