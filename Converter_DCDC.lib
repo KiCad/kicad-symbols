@@ -215,7 +215,7 @@ F2 "Converter_DCDC:Converter_DCDC_Recom_RPMx.x-x.0" 50 -800 50 H I C CNN
 F3 "" -25 50 50 H I C CNN
 ALIAS RPM3.3-6.0 RPM3.3-3.0 RPM5.0-3.0
 $FPLIST
- Converter*DCDC*Recom*RPMx.x-x.0*
+ Converter*DCDC*Recom*RPM*
 $ENDFPLIST
 DRAW
 S -400 400 400 -400 0 1 10 f
