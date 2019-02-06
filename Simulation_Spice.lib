@@ -28,7 +28,7 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
 F5 "I" 0 0 50 H I L CNN "Spice_Primitive"
-F6 "am(0.5 1 10meg 50meg 20n)" 100 -100 50 H V L CNN "Spice_Model"
+F6 "am(1 0 100k 1k 1n)" 100 -100 50 H V L CNN "Spice_Model"
 DRAW
 A -10 20 10 1 1800 0 0 0 N 0 20 -20 20
 A -50 0 10 1 1800 0 1 0 N -40 0 -60 0
@@ -56,7 +56,7 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
 F5 "I" 0 0 50 H I L CNN "Spice_Primitive"
-F6 "dc 2.345" 100 -100 50 H V L CNN "Spice_Model"
+F6 "dc(1)" 100 -100 50 H V L CNN "Spice_Model"
 DRAW
 C 0 0 100 0 1 10 f
 P 2 0 0 0 -50 10 50 10 N
@@ -79,7 +79,7 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
 F5 "I" 0 0 50 H I L CNN "Spice_Primitive"
-F6 "exp(-4 -1 2n 30n 60n 40n)" 100 -100 50 H V L CNN "Spice_Model"
+F6 "exp(0 1 2n 30n 60n 40n)" 100 -100 50 H V L CNN "Spice_Model"
 DRAW
 A 24 -41 75 1087 1715 0 0 0 N 0 30 -50 -30
 A 61 30 61 1800 -1004 0 0 0 N 0 30 50 -30
@@ -102,7 +102,7 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
 F5 "I" 0 0 50 H I L CNN "Spice_Primitive"
-F6 "pulse(-1 1 2n 30n 2n 50n 100n)" 100 -100 50 H V L CNN "Spice_Model"
+F6 "pulse(0 1 2n 2n 2n 50n 100n)" 100 -100 50 H V L CNN "Spice_Model"
 DRAW
 C 0 0 100 0 1 10 f
 P 8 0 0 0 -80 -30 -55 -30 -45 30 -5 30 5 -30 45 -30 55 30 80 30 N
@@ -122,7 +122,7 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
 F5 "I" 0 0 50 H I L CNN "Spice_Primitive"
-F6 "pwl(0 -7 50n -7 51n -3 97n -4 171n -6.5 200n -6.5)" 100 -100 50 H V L CNN "Spice_Model"
+F6 "pwl(0 -1 50n -1 51n 0 97n 1 171n -1 200n -1)" 100 -100 50 H V L CNN "Spice_Model"
 DRAW
 C 0 0 100 0 1 10 f
 P 5 0 0 0 -70 -40 -30 40 -10 0 30 0 50 50 N
@@ -142,7 +142,7 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
 F5 "I" 0 0 50 H I L CNN "Spice_Primitive"
-F6 "sffm(-5 1 100meg 5 10meg)" 100 -100 50 H V L CNN "Spice_Model"
+F6 "sffm(0 1 100k 5 1k)" 100 -100 50 H V L CNN "Spice_Model"
 DRAW
 A -70 10 10 1 1800 0 1 0 N -60 10 -80 10
 A -50 -10 10 1800 -1 0 1 0 N -60 -10 -40 -10
@@ -173,7 +173,7 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
 F5 "I" 0 0 50 H I L CNN "Spice_Primitive"
-F6 "sin(0 1 100meg 1n 1e10)" 100 -100 50 H V L CNN "Spice_Model"
+F6 "sin(0 1 1k)" 100 -100 50 H V L CNN "Spice_Model"
 DRAW
 A -25 0 25 1 1800 0 0 0 N 0 0 -50 0
 A 25 0 25 1800 -1 0 0 0 N 0 0 50 0
@@ -194,7 +194,7 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
 F5 "I" 0 0 50 H I L CNN "Spice_Primitive"
-F6 "trnoise(0.1 0.5n 0 0)" 100 -100 50 H V L CNN "Spice_Model"
+F6 "trnoise(20n 0.5n 0 0)" 100 -100 50 H V L CNN "Spice_Model"
 DRAW
 C 0 0 100 0 1 10 f
 P 2 0 1 0 0 50 0 90 N
@@ -214,7 +214,7 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
 F5 "I" 0 0 50 H I L CNN "Spice_Primitive"
-F6 "trrandom(2 100n 0 1)" 100 -100 50 H V L CNN "Spice_Model"
+F6 "trrandom(2 10m 0 1)" 100 -100 50 H V L CNN "Spice_Model"
 DRAW
 C 0 0 100 0 1 10 f
 P 2 0 1 0 0 50 0 90 N
@@ -253,7 +253,7 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
 F5 "V" 0 0 50 H I L CNN "Spice_Primitive"
-F6 "am(0.5 1 10meg 50meg 20n)" 100 -100 50 H V L CNN "Spice_Model"
+F6 "am(1 0 100k 1k 1n)" 100 -100 50 H V L CNN "Spice_Model"
 DRAW
 A -10 20 10 1 1800 0 0 0 N 0 20 -20 20
 A -50 0 10 1 1800 0 1 0 N -40 0 -60 0
@@ -280,7 +280,7 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
 F5 "V" 0 0 50 H I L CNN "Spice_Primitive"
-F6 "dc 2.345" 100 -100 50 H V L CNN "Spice_Model"
+F6 "dc(1)" 100 -100 50 H V L CNN "Spice_Model"
 DRAW
 C 0 0 100 0 1 10 f
 T 0 0 75 50 0 0 0 + Normal 0 C C
@@ -302,7 +302,7 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
 F5 "V" 0 0 50 H I L CNN "Spice_Primitive"
-F6 "exp(-4 -1 2n 30n 60n 40n)" 100 -100 50 H V L CNN "Spice_Model"
+F6 "exp(0 1 2n 30n 60n 40n)" 100 -100 50 H V L CNN "Spice_Model"
 DRAW
 A 24 -41 75 1087 1715 0 0 0 N 0 30 -50 -30
 A 61 30 61 1800 -1004 0 0 0 N 0 30 50 -30
@@ -324,7 +324,7 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
 F5 "V" 0 0 50 H I L CNN "Spice_Primitive"
-F6 "pulse(-1 1 2n 30n 2n 50n 100n)" 100 -100 50 H V L CNN "Spice_Model"
+F6 "pulse(0 1 2n 2n 2n 50n 100n)" 100 -100 50 H V L CNN "Spice_Model"
 DRAW
 C 0 0 100 0 1 10 f
 T 0 0 75 50 0 0 0 + Normal 0 C C
@@ -343,7 +343,7 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
 F5 "V" 0 0 50 H I L CNN "Spice_Primitive"
-F6 "pwl(0 -7 50n -7 51n -3 97n -4 171n -6.5 200n -6.5)" 100 -100 50 H V L CNN "Spice_Model"
+F6 "pwl(0 -1 50n -1 51n 0 97n 1 171n -1 200n -1)" 100 -100 50 H V L CNN "Spice_Model"
 DRAW
 C 0 0 100 0 1 10 f
 T 0 0 75 50 0 0 0 + Normal 0 C C
@@ -362,7 +362,7 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
 F5 "V" 0 0 50 H I L CNN "Spice_Primitive"
-F6 "sffm(-5 1 100meg 5 10meg)" 100 -100 50 H V L CNN "Spice_Model"
+F6 "sffm(0 1 100k 5 1k)" 100 -100 50 H V L CNN "Spice_Model"
 DRAW
 A -70 10 10 1 1800 0 1 0 N -60 10 -80 10
 A -50 -10 10 1800 -1 0 1 0 N -60 -10 -40 -10
@@ -392,7 +392,7 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
 F5 "V" 0 0 50 H I L CNN "Spice_Primitive"
-F6 "sin(0 1 100meg 1n 1e10)" 100 -100 50 H V L CNN "Spice_Model"
+F6 "sin(0 1 1k)" 100 -100 50 H V L CNN "Spice_Model"
 DRAW
 A -25 0 25 1 1800 0 0 0 N 0 0 -50 0
 A 25 0 25 1800 -1 0 0 0 N 0 0 50 0
@@ -412,7 +412,7 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
 F5 "V" 0 0 50 H I L CNN "Spice_Primitive"
-F6 "trnoise(0.1 0.5n 0 0)" 100 -100 50 H V L CNN "Spice_Model"
+F6 "trnoise(20n 0.5n 0 0)" 100 -100 50 H V L CNN "Spice_Model"
 DRAW
 C 0 0 100 0 1 10 f
 T 0 0 75 50 0 0 0 + Normal 0 C C
@@ -431,7 +431,7 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
 F5 "V" 0 0 50 H I L CNN "Spice_Primitive"
-F6 "trrandom(2 100n 0 1)" 100 -100 50 H V L CNN "Spice_Model"
+F6 "trrandom(2 10m 0 1)" 100 -100 50 H V L CNN "Spice_Model"
 DRAW
 C 0 0 100 0 1 10 f
 T 0 0 75 50 0 0 0 + Normal 0 C C
