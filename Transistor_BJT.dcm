@@ -165,7 +165,7 @@ $ENDCMP
 $CMP BC337
 D 0.8A Ic, 45V Vce, NPN Transistor, TO-92
 K NPN Transistor
-F http://www.nxp.com/documents/data_sheet/BC817_BC817W_BC337.pdf
+F https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf
 $ENDCMP
 #
 $CMP BC338
@@ -357,7 +357,7 @@ $ENDCMP
 $CMP BC846BS
 D 100mA IC, 65V Vce, Dual NPN/NPN Transistors, SOT-363
 K NPN Transistor/NPN
-F http://www.nxp.com/documents/data_sheet/BC846BS.pdf
+F https://assets.nexperia.com/documents/data-sheet/BC846BS.pdf
 $ENDCMP
 #
 $CMP BC847
@@ -381,13 +381,13 @@ $ENDCMP
 $CMP BC847BPN
 D 100mA IC, 45V Vce, Dual NPN/PNP Transistors, SOT-363
 K NPN Transistor/PNP
-F http://www.nxp.com/documents/data_sheet/BC847BPN.pdf
+F https://assets.nexperia.com/documents/data-sheet/BC847BPN.pdf
 $ENDCMP
 #
 $CMP BC847BS
 D 100mA IC, 45V Vce, Dual NPN/NPN Transistors, SOT-363
 K NPN Transistor/NPN
-F http://www.nxp.com/documents/data_sheet/BC847BS.pdf
+F https://assets.nexperia.com/documents/data-sheet/BC847BS.pdf
 $ENDCMP
 #
 $CMP BC847W
@@ -447,7 +447,7 @@ $ENDCMP
 $CMP BC856BS
 D 100mA IC, 65V Vce, Dual PNP/PNP Transistors, SOT-363
 K PNP Transistor/PNP
-F http://www.nxp.com/documents/data_sheet/BC856BS.pdf
+F https://assets.nexperia.com/documents/data-sheet/BC856BS.pdf
 $ENDCMP
 #
 $CMP BC856W
@@ -471,7 +471,7 @@ $ENDCMP
 $CMP BC857BS
 D 100mA IC, 45V Vce, Dual PNP/PNP Transistors, SOT-363
 K PNP Transistor/PNP
-F http://www.nxp.com/documents/data_sheet/BC857BS.pdf
+F https://assets.nexperia.com/documents/data-sheet/BC857BS.pdf
 $ENDCMP
 #
 $CMP BC857W
@@ -537,13 +537,13 @@ $ENDCMP
 $CMP BCV61
 D 100mA IC, 30V Vce, Double NPN Transistors, Current mirror configuration, SOT-143
 K Transistor Double NPN
-F http://www.nxp.com/documents/data_sheet/BCV61.pdf
+F https://assets.nexperia.com/documents/data-sheet/BCV61.pdf
 $ENDCMP
 #
 $CMP BCV62
 D 100mA IC, 30V Vce, Double PNP Transistors, Current mirror configuration, SOT-143
 K Transistor Double PNP
-F http://www.nxp.com/documents/data_sheet/BCV62.pdf
+F https://assets.nexperia.com/documents/data-sheet/BCV62.pdf
 $ENDCMP
 #
 $CMP BCX51
@@ -849,13 +849,13 @@ $ENDCMP
 $CMP BFR92
 D 0.025A Ic, 15V Vce, 5GHz Wideband NPN Transistor, SOT-323
 K RF 5GHz NPN Transistor
-F http://www.nxp.com/documents/data_sheet/BFR92A_N.pdf
+F https://assets.nexperia.com/documents/data-sheet/BFR92A_N.pdf
 $ENDCMP
 #
 $CMP BFT92
 D 0.025A Ic, 15V Vce, 5GHz Wideband PNP Transistor, SOT-23
 K RF 5GHz NPN Transistor
-F http://www.nxp.com/documents/data_sheet/BFT92_CNV.pdf
+F https://assets.nexperia.com/documents/data-sheet/BFT92_CNV.pdf
 $ENDCMP
 #
 $CMP BUT11
@@ -1486,6 +1486,12 @@ K PNP High Voltage Transistor
 F http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF
 $ENDCMP
 #
+$CMP MUN5211DW1
+D 0.1A Ic, 50V Vce, Dual NPN Bias Resistor Transistors, SOT-363
+K Dual NPN Transistor
+F http://www.onsemi.com/pub/Collateral/DTC114ED-D.PDF
+$ENDCMP
+#
 $CMP PBSS301PZ
 D -5.7A Ic, -12V Vce, Small Signal PNP Transistor, SOT-223
 K PNP Transistor
@@ -1495,25 +1501,25 @@ $ENDCMP
 $CMP PMBT2222AYS
 D 600mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
 K NPN Transistor/NPN
-F http://www.nxp.com/documents/data_sheet/PMBT2222AYS.pdf
+F https://assets.nexperia.com/documents/data-sheet/PMBT2222AYS.pdf
 $ENDCMP
 #
 $CMP PMBT3904YS
 D 200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
 K NPN Transistor/NPN
-F http://www.nxp.com/documents/data_sheet/PMBT3904YS.pdf
+F https://assets.nexperia.com/documents/data-sheet/PMBT3904YS.pdf
 $ENDCMP
 #
 $CMP PMBT3906YS
 D 200mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363
 K PNP Transistor/PNP
-F http://www.nxp.com/documents/data_sheet/PMBT3906YS.pdf
+F https://assets.nexperia.com/documents/data-sheet/PMBT3906YS.pdf
 $ENDCMP
 #
 $CMP PMBT3946YPN
 D 200mA IC, 40V Vce, Dual NPN/PNP Transistors, SOT-363
 K NPN Transistor/PNP
-F http://www.nxp.com/documents/data_sheet/PMBT3946YPN.pdf
+F https://assets.nexperia.com/documents/data-sheet/PMBT3946YPN.pdf
 $ENDCMP
 #
 $CMP PN2222A
