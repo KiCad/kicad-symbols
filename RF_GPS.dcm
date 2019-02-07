@@ -91,8 +91,8 @@ F https://linxtechnologies.com/wp/wp-content/uploads/rxm-gps-rm.pdf
 $ENDCMP
 #
 $CMP SIM28ML
-D Stand alone or A-GPS receiver
-K GPS receiver
+D Standalone GPS/A-GPS receiver module, built-in LNA, -165dBm sensitivity, 2.8-4.3V, SMD
+K GPS A-GPS receiver
 F https://simcom.ee/documents/SIM28ML/SIM28ML_Hardware%20Design_V1.01.pdf
 $ENDCMP
 #
