@@ -63,8 +63,8 @@ F http://ww1.microchip.com/downloads/en/devicedoc/doc2224.pdf
 $ENDCMP
 #
 $CMP IS25WP256D-xM
-D SERIAL FLASH MEMORY WITH 166/133MHZ MULTI I/O SPI&QUAD I/O QPI DTR INTERFACE, SOIC-16
-K QSPI NOR FLASH
+D 256-Mbit, 1.8V SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-16
+K SPI DSPI QSPI NOR 256Mbit 1.8V
 F http://www.issi.com/WW/pdf/IS25LP(WP)256D.pdf
 $ENDCMP
 #
