@@ -36,6 +36,12 @@ K Digital temperature humidity sensor
 F http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
 $ENDCMP
 #
+$CMP Geiger-Muller
+D Generic Geiger-Müller tube
+K Geiger-Müller
+F ~
+$ENDCMP
+#
 $CMP INA260
 D Current/power/voltage monitor with Integrated 2mΩ Shunt Resistor, 2.7V - 5.5V, I2C, TSSOP-16
 K Current/power/voltage monitor
