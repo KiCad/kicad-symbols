@@ -386,11 +386,11 @@ X ~ 2 0 -150 120 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Circuit_Breaker_1P
+# CircuitBreaker_1P
 #
-DEF Circuit_Breaker_1P CB 0 20 Y Y 1 F N
+DEF CircuitBreaker_1P CB 0 20 Y Y 1 F N
 F0 "CB" 125 -50 50 H V L CNN
-F1 "Circuit_Breaker_1P" 125 25 50 H V L CNN
+F1 "CircuitBreaker_1P" 125 25 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -407,11 +407,11 @@ X ~ 2 0 -400 100 U 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Circuit_Breaker_2P
+# CircuitBreaker_2P
 #
-DEF Circuit_Breaker_2P CB 0 20 Y Y 1 F N
+DEF CircuitBreaker_2P CB 0 20 Y Y 1 F N
 F0 "CB" 250 -50 50 H V L CNN
-F1 "Circuit_Breaker_2P" 250 50 50 H V L CNN
+F1 "CircuitBreaker_2P" 250 50 50 H V L CNN
 F2 "" -100 0 50 H I C CNN
 F3 "" -100 0 50 H I C CNN
 $FPLIST
@@ -435,11 +435,11 @@ X ~ 4 100 -400 100 U 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Circuit_Breaker_3P
+# CircuitBreaker_3P
 #
-DEF Circuit_Breaker_3P CB 0 20 Y Y 1 F N
+DEF CircuitBreaker_3P CB 0 20 Y Y 1 F N
 F0 "CB" 400 0 50 H V L CNN
-F1 "Circuit_Breaker_3P" 400 100 50 H V L CNN
+F1 "CircuitBreaker_3P" 400 100 50 H V L CNN
 F2 "" 300 -100 50 H I C CNN
 F3 "" 400 0 50 H I C CNN
 $FPLIST
@@ -3442,8 +3442,8 @@ S 50 50 50 50 0 1 0 N
 S 50 150 50 250 0 1 0 N
 S 50 250 50 250 0 1 0 N
 S 110 330 -110 -300 0 1 10 f
-P 2 0 1 8 -50 -150 -50 -250 N
 P 2 0 1 0 -50 -150 -50 -250 N
+P 2 0 1 8 -50 -150 -50 -250 N
 P 2 0 1 0 -50 0 -100 0 N
 P 2 0 1 0 -50 0 50 0 N
 P 2 0 1 8 -50 50 -50 -50 N
