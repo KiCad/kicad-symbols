@@ -168,7 +168,7 @@
   (lib (name Sensor_Temperature)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Sensor_Temperature.lib)(options "")(descr "Temperature sensors"))
   (lib (name Sensor_Touch)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Sensor_Touch.lib)(options "")(descr "Touch sensors"))
   (lib (name Sensor_Voltage)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Sensor_Voltage.lib)(options "")(descr "Voltage sensors"))
-  (lib (name Simulation_Spice)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Simulation_Spice.lib)(options "")(descr "Symbols specialized for circuit simulation (including ngspice)."))
+  (lib (name Simulation_SPICE)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Simulation_SPICE.lib)(options "")(descr "Symbols specialized for SPICE circuit simulation (including ngspice)."))
   (lib (name Switch)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Switch.lib)(options "")(descr "Switch symbols"))
   (lib (name Timer)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Timer.lib)(options "")(descr "Assorted timer devices"))
   (lib (name Timer_PLL)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Timer_PLL.lib)(options "")(descr "Phase locked loop (PLL) devices"))
