@@ -54,12 +54,6 @@ K Heart Rate
 F https://datasheets.maximintegrated.com/en/ds/MAX30102.pdf
 $ENDCMP
 #
-$CMP MS5607-02BA
-D Barometric pressure sensor, 10 to 1200 mbar, I2C and SPI interface up to 20MHz
-K pressure temperature SPI I2C
-F http://www.farnell.com/datasheets/1756127.pdf
-$ENDCMP
-#
 $CMP SHT1x
 D Temperature and humidity module
 K digital temperature humidity sensor
