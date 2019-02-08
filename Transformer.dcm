@@ -253,7 +253,31 @@ F https://www.coilcraft.com/pdfs/cst.pdf
 $ENDCMP
 #
 $CMP H1100NL
-D Ethernet LAN 10/100 Base-Tx Transformer with Center Taps
+D Ethernet LAN 10/100 Base-Tx Transformer with Center Taps TX 2:1 RX1:1
+K single port ethernet transformer poe center-tap
+F https://www.tme.eu/pl/Document/3fcf76bef7d362f3a0e2a140885dcbf0/H1102NL-Pulse-datasheet-118883.pdf
+$ENDCMP
+#
+$CMP H1101NL
+D Ethernet LAN 10/100 Base-Tx Transformer with Center Taps TX 1.25:1 RX1:1
+K single port ethernet transformer poe center-tap
+F https://www.tme.eu/pl/Document/3fcf76bef7d362f3a0e2a140885dcbf0/H1102NL-Pulse-datasheet-118883.pdf
+$ENDCMP
+#
+$CMP H1102NL
+D Ethernet LAN 10/100 Base-Tx Transformer with Center Taps TX 1:1 RX1:1
+K single port ethernet transformer poe center-tap
+F https://www.tme.eu/pl/Document/3fcf76bef7d362f3a0e2a140885dcbf0/H1102NL-Pulse-datasheet-118883.pdf
+$ENDCMP
+#
+$CMP H1121NL
+D Ethernet LAN 10/100 Base-Tx Transformer with Center Taps TX 1:1.414 RX1:1
+K single port ethernet transformer poe center-tap
+F https://www.tme.eu/pl/Document/3fcf76bef7d362f3a0e2a140885dcbf0/H1102NL-Pulse-datasheet-118883.pdf
+$ENDCMP
+#
+$CMP HX1188NL
+D Ethernet LAN 10/100 Base-Tx Transformer with Center Taps TX 1:1 RX1:1 Temperature from -40 to +85
 K single port ethernet transformer poe center-tap
 F https://www.tme.eu/pl/Document/3fcf76bef7d362f3a0e2a140885dcbf0/H1102NL-Pulse-datasheet-118883.pdf
 $ENDCMP
