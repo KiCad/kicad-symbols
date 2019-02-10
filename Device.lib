@@ -386,11 +386,11 @@ X ~ 2 0 -150 120 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CircuitBreaker1P_US
+# CircuitBreaker_1P_US
 #
-DEF CircuitBreaker1P_US CB 0 20 Y Y 1 F N
+DEF CircuitBreaker_1P_US CB 0 20 Y Y 1 F N
 F0 "CB" 125 -50 50 H V L CNN
-F1 "CircuitBreaker1P_US" 125 25 50 H V L CNN
+F1 "CircuitBreaker_1P_US" 125 25 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -402,11 +402,11 @@ X ~ 2 0 -300 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CircuitBreaker1P
+# CircuitBreaker_1P
 #
-DEF CircuitBreaker1P CB 0 20 Y Y 1 F N
+DEF CircuitBreaker_1P CB 0 20 Y Y 1 F N
 F0 "CB" 75 0 50 H V L CNN
-F1 "CircuitBreaker1P" 75 75 50 H V L CNN
+F1 "CircuitBreaker_1P" 75 75 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -420,11 +420,11 @@ X ~ 2 0 -300 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CircuitBreaker2P_US
+# CircuitBreaker_2P_US
 #
-DEF CircuitBreaker2P_US CB 0 20 Y Y 1 F N
+DEF CircuitBreaker_2P_US CB 0 20 Y Y 1 F N
 F0 "CB" 250 -50 50 H V L CNN
-F1 "CircuitBreaker2P_US" 250 50 50 H V L CNN
+F1 "CircuitBreaker_2P_US" 250 50 50 H V L CNN
 F2 "" -100 0 50 H I C CNN
 F3 "" -100 0 50 H I C CNN
 DRAW
@@ -446,11 +446,11 @@ X ~ 4 100 -300 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CircuitBreaker2P
+# CircuitBreaker_2P
 #
-DEF CircuitBreaker2P CB 0 20 Y Y 1 F N
+DEF CircuitBreaker_2P CB 0 20 Y Y 1 F N
 F0 "CB" 150 0 50 H V L CNN
-F1 "CircuitBreaker2P" 150 100 50 H V L CNN
+F1 "CircuitBreaker_2P" 150 100 50 H V L CNN
 F2 "" -100 0 50 H I C CNN
 F3 "" -100 0 50 H I C CNN
 DRAW
@@ -474,11 +474,11 @@ X ~ 4 100 -300 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CircuitBreaker3P_US
+# CircuitBreaker_3P_US
 #
-DEF CircuitBreaker3P_US CB 0 20 Y Y 1 F N
+DEF CircuitBreaker_3P_US CB 0 20 Y Y 1 F N
 F0 "CB" 400 0 50 H V L CNN
-F1 "CircuitBreaker3P_US" 400 100 50 H V L CNN
+F1 "CircuitBreaker_3P_US" 400 100 50 H V L CNN
 F2 "" 300 -100 50 H I C CNN
 F3 "" 400 0 50 H I C CNN
 DRAW
@@ -507,11 +507,11 @@ X ~ 6 200 -300 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CircuitBreaker3P
+# CircuitBreaker_3P
 #
-DEF CircuitBreaker3P CB 0 20 Y Y 1 F N
+DEF CircuitBreaker_3P CB 0 20 Y Y 1 F N
 F0 "CB" 250 0 50 H V L CNN
-F1 "CircuitBreaker3P" 250 100 50 H V L CNN
+F1 "CircuitBreaker_3P" 250 100 50 H V L CNN
 F2 "" 300 -100 50 H I C CNN
 F3 "" 250 0 50 H I C CNN
 DRAW

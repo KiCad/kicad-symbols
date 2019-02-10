@@ -7,7 +7,7 @@ F ~
 $ENDCMP
 #
 $CMP Amperemeter_DC
-D DC ammeter, US symbol
+D DC ammeter
 K ammeter DC ampere meter
 F ~
 $ENDCMP
@@ -120,37 +120,37 @@ K trimmer capacitor
 F ~
 $ENDCMP
 #
-$CMP CircuitBreaker1P_US
+$CMP CircuitBreaker_1P_US
 D Single pole circuit breaker, US symbol
 K CB
 F ~
 $ENDCMP
 #
-$CMP CircuitBreaker1P
+$CMP CircuitBreaker_1P
 D Single pole circuit breaker
 K CB
 F ~
 $ENDCMP
 #
-$CMP CircuitBreaker2P_US
+$CMP CircuitBreaker_2P_US
 D Double pole circuit breaker, US symbol
 K CB 2P
 F ~
 $ENDCMP
 #
-$CMP CircuitBreaker2P
+$CMP CircuitBreaker_2P
 D Double pole circuit breaker
 K CB 2P
 F ~
 $ENDCMP
 #
-$CMP CircuitBreaker3P_US
+$CMP CircuitBreaker_3P_US
 D Triple pole circuit breaker, US symbol
 K CB 3P
 F ~
 $ENDCMP
 #
-$CMP CircuitBreaker3P
+$CMP CircuitBreaker_3P
 D Triple pole circuit breaker
 K CB 3P
 F ~
