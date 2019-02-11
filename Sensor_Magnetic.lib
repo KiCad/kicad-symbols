@@ -63,8 +63,8 @@ F1 "AH1806-P" 300 350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Diodes*SIP*P1.27mm*
- Diodes*SIP*P2.65mm*
+ Diodes*SIP*4.1x1.5mm*P1.27mm*
+ Diodes*SIP*4.1x1.5mm*P2.65mm*
 $ENDFPLIST
 DRAW
 S 200 300 -200 -300 0 1 10 f
