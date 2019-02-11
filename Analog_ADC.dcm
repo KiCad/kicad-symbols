@@ -216,10 +216,10 @@ K delta-sigma adc low-power
 F http://www.ti.com/lit/ds/symlink/ads1251.pdf
 $ENDCMP
 #
-$CMP ADS1298_TQFP
+$CMP ADS1298xPAG
 D ADS1298 Low-Power, 8-Channel, 24-Bit Analog Front-End for Biopotential Measurements, TQFP-64
 K 24bit ADC 8 Channels PGA SPI Biopotential
-F http://www.ti.com/lit/gpn/ads1298
+F http://www.ti.com/lit/ds/symlink/ads1298.pdf
 $ENDCMP
 #
 $CMP ADS7029
