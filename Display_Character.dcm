@@ -552,6 +552,12 @@ K display LCD 20x4
 F http://www.newhavendisplay.com/specs/NHD-0420H1Z-FSW-GBW-33V3.pdf
 $ENDCMP
 #
+$CMP NHD-C0220BIZ
+D LCD 20x2 Alphanumeric 10pin Blue/White/Green Backlight, i2c, 3.3V VDD
+K display LCD 20x2
+F http://www.newhavendisplay.com/specs/NHD-C0220BiZ-FSW-FBW-3V3M.pdf
+$ENDCMP
+#
 $CMP RC1602A
 D LCD 16x2 Alphanumeric gray backlight, 3 or 5V VDD
 K display LCD dot-matrix
