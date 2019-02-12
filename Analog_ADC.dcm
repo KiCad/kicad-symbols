@@ -216,10 +216,10 @@ K delta-sigma adc low-power
 F http://www.ti.com/lit/ds/symlink/ads1251.pdf
 $ENDCMP
 #
-$CMP ADS1298_TQFP
+$CMP ADS1298xPAG
 D ADS1298 Low-Power, 8-Channel, 24-Bit Analog Front-End for Biopotential Measurements, TQFP-64
 K 24bit ADC 8 Channels PGA SPI Biopotential
-F http://www.ti.com/lit/gpn/ads1298
+F http://www.ti.com/lit/ds/symlink/ads1298.pdf
 $ENDCMP
 #
 $CMP ADS7029
@@ -300,10 +300,22 @@ K ADC SPI analog digital
 F http://www.ti.com/lit/ds/symlink/ads8681.pdf
 $ENDCMP
 #
+$CMP ADS8684
+D 16-Bit, 500-kSPS, 4-Channels, Single-Supply, SAR ADC with Bipolar Input Range, TSSOP-38
+K adc analog digital spi bipolar input
+F http://www.ti.com/lit/ds/symlink/ads8688.pdf
+$ENDCMP
+#
 $CMP ADS8685RUM
 D 16-Bit, High-Speed, Single-Supply, SAR ADC Data Acquisition System with Programmable, Bipolar Input Ranges 500KSPS, QFN-16
 K ADC SPI analog digital
 F http://www.ti.com/lit/ds/symlink/ads8681.pdf
+$ENDCMP
+#
+$CMP ADS8688
+D 16-Bit, 500-kSPS, 8-Channels, Single-Supply, SAR ADC with Bipolar Input Range, TSSOP-38
+K adc analog digital spi bipolar input
+F http://www.ti.com/lit/ds/symlink/ads8688.pdf
 $ENDCMP
 #
 $CMP ADS8689RUM

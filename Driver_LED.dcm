@@ -180,6 +180,30 @@ K DC/DC Buck Conwerter 3A Low Voltage Input LED Lighting
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/71/e8/26/3c/c8/cc/46/e6/CD00292360/files/CD00292360.pdf/jcr:content/translations/en.CD00292360.pdf
 $ENDCMP
 #
+$CMP STP08CP05
+D 8-bit constant current LED sink driver
+K Shift Register LED driver 8 bit
+F https://www.st.com/resource/en/datasheet/stp08cp05.pdf
+$ENDCMP
+#
+$CMP STP08CP05XT
+D 8-bit constant current LED sink driver, HTSSOP-16
+K Shift Register LED driver 8 bit
+F https://www.st.com/resource/en/datasheet/stp08cp05.pdf
+$ENDCMP
+#
+$CMP STP16CP05
+D 16-bit constant current LED sink driver
+K Shift Register LED driver 16 bit
+F https://www.st.com/resource/en/datasheet/stp16cp05.pdf
+$ENDCMP
+#
+$CMP STP16CP05XT
+D 16-bit constant current LED sink driver, HTSSOP-24
+K Shift Register LED driver 16 bit
+F https://www.st.com/resource/en/datasheet/stp16cp05.pdf
+$ENDCMP
+#
 $CMP TLC5940NT
 D 16-Channel LED Driver With DOT Correction and Grayscale PWM Control, DIP package
 K PWM LED driver

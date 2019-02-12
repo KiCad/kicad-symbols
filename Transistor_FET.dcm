@@ -2268,6 +2268,12 @@ K Single N-Channel HEXFET Power MOSFET
 F http://www.irf.com/product-info/datasheets/data/irliz44n.pdf
 $ENDCMP
 #
+$CMP IRLML2060
+D 1.2A Id, 60V Vds, N-channel MOSFET, 480mOhm Rds, SOT-23
+K N-channel MOSFET
+F https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee
+$ENDCMP
+#
 $CMP IRLML6402
 D -3.7A Id, -20V Vds, P-channel MOSFET, 65mOhm Rds, SOT-23
 K P-Channel MOSFET

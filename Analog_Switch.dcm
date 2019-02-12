@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADG1414BRU
+D ±15V, +12V, ±5V, 9.5 Ohm on resistance, iCMOS Serially-Controlled Octal SPST Switches, TSSOP-24
+K SPI SPST Analog Switches
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADG1414.pdf
+$ENDCMP
+#
 $CMP ADG417BN
 D Single SPST Monolithic LC²MOS Analog Switch, normally OFF, 25Ohm Ron, DIP-8
 K CMOS Analog Switch
