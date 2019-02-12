@@ -187,4 +187,5 @@
   (lib (name MCU_Microchip_SAME)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_SAME.lib)(options "")(descr "Microchip SAME microcontrollers"))
   (lib (name MCU_Microchip_SAML)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_SAML.lib)(options "")(descr "Microchip SAML microcontrollers"))
   (lib (name MCU_Microchip_SAMD)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_SAMD.lib)(options "")(descr "Microchip SAMD microcontrollers"))
+  (lib (name Driver_Haptic)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Driver_Haptic.lib)(options "")(descr "Haptic drivers for solenoids, voice coils, LRAs, etc."))
 )
