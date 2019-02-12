@@ -319,9 +319,9 @@ F https://www.recom-power.com/pdf/Innoline/RPM-3.0.pdf
 $ENDCMP
 #
 $CMP RPM5.0-6.0
-D 4A non-isolated buck/boost regulator power module, 2.3-5.5V input voltage, 5.0V output voltage, DOSA
-K Recom buck/boost converter
-F https://www.recom-power.com/pdf/Innoline/RBB10-2.0.pdf
+D 6A non-isolated switching regulator power module, 4-15V input voltage, 5.0V output voltage, DOSA
+K Recom dc-dc converter
+F https://www.recom-power.com/pdf/Innoline/RPM-6.0.pdf
 $ENDCMP
 #
 $CMP TC7662AxPA
