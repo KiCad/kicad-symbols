@@ -182,25 +182,25 @@ $ENDCMP
 #
 $CMP STP08CP05
 D 8-bit constant current LED sink driver
-K Shift Register, LED driver, 8 bit
+K Shift Register LED driver 8 bit
 F https://www.st.com/resource/en/datasheet/stp08cp05.pdf
 $ENDCMP
 #
-$CMP STP08CP05-XT
+$CMP STP08CP05XT
 D 8-bit constant current LED sink driver, HTSSOP-16
-K Shift Register, LED driver, 8 bit
+K Shift Register LED driver 8 bit
 F https://www.st.com/resource/en/datasheet/stp08cp05.pdf
 $ENDCMP
 #
 $CMP STP16CP05
 D 16-bit constant current LED sink driver
-K Shift Register, LED driver, 16 bit
+K Shift Register LED driver 16 bit
 F https://www.st.com/resource/en/datasheet/stp16cp05.pdf
 $ENDCMP
 #
-$CMP STP16CP05-XT
+$CMP STP16CP05XT
 D 16-bit constant current LED sink driver, HTSSOP-24
-K Shift Register, LED driver, 16 bit
+K Shift Register LED driver 16 bit
 F https://www.st.com/resource/en/datasheet/stp16cp05.pdf
 $ENDCMP
 #
