@@ -1056,6 +1056,18 @@ K quad opamp
 F http://www.ti.com/lit/ds/symlink/opa376.pdf
 $ENDCMP
 #
+$CMP OPA551PA
+D High-Voltage High-Current Operational Amplifier, DIP-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa551.pdf
+$ENDCMP
+#
+$CMP OPA552PA
+D High-Voltage High-Current Operational Amplifier, DIP-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa552.pdf
+$ENDCMP
+#
 $CMP OPA890xDBV
 D Single Low-Power, Wideband, Voltage-Feedback Operational Amplifier with Disable, SOT-23-6
 K single opamp wideband low-power
