@@ -2725,8 +2725,8 @@ F http://www.ti.com/lit/ds/symlink/lp2950-n.pdf
 $ENDCMP
 #
 $CMP LP2950-5.0_TO92
-D Micropower Voltage Regulators with Shutdown, 100mA, Fixed Output 3.3V, LDO, VSSOP-8
-K Micropower Voltage Regulators with Shutdown
+D Micropower Voltage Regulators with Shutdown, 100mA, Fixed Output 5.0V, LDO, /=-92
+K Micropower Voltage Regulator 100mA Positive
 F http://www.ti.com/lit/ds/symlink/lp2951-n.pdf
 $ENDCMP
 #
