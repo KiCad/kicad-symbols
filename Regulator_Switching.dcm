@@ -360,6 +360,12 @@ K Murata isolated isolation dc-dc converter transformer
 F http://power.murata.com/datasheet?/data/power/ncl/kdc_cre1.pdf
 $ENDCMP
 #
+$CMP EN5322QI
+D 2A Synchronous Buck DC-DC Converter with integrated inductor, Adjustable Output Voltage, 2.4-5.5V Input Voltage, QFN-24
+K step-down dcdc
+F https://www.intel.sg/content/dam/www/programmable/us/en/pdfs/literature/ds/en5322qi_03454.pdf
+$ENDCMP
+#
 $CMP FSBH0170
 D Green Mode Fairchild Power Switch, 700V Vds, 1.0A Id, 15W/13W 230V/85-265V, VIN Pin, DIP-8
 K smps regulator
