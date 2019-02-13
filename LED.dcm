@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP APA102
+D RGB LED with integrated controller
+K RGB LED addressable 8bit pwm 5bit greyscale
+F http://www.led-color.com/upload/201506/APA102%20LED.pdf
+$ENDCMP
+#
 $CMP APA102-2020
 D RGB LED with integrated controller
 K RGB LED addressable 8bit pwm 5bit greyscale
