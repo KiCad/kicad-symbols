@@ -318,6 +318,18 @@ K Half-Bridge Gate Driver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005852A.pdf
 $ENDCMP
 #
+$CMP PE29101
+D UltraCMOS High-Speed FET Driver, 40 MHz, Output Current 2.0A/4.0A, 80V, Half Bridge, Low Side Output, CSP-16
+K GaN Gate Driver
+F http://www.psemi.com/pdf/datasheets/pe29101ds.pdf
+$ENDCMP
+#
+$CMP PE29102
+D UltraCMOS High-Speed FET Driver, 40 MHz, Output Current 2.0A/4.0A, 80V, Half Bridge, Phase Control, CSP-16
+K GaN Gate Driver
+F http://www.psemi.com/pdf/datasheets/pe29102ds.pdf
+$ENDCMP
+#
 $CMP PM8834
 D 4 A dual low-side MOSFET driver, SOIC-8
 K mosfet driver

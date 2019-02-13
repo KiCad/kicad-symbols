@@ -6,6 +6,12 @@ K 8channel 12bit ADC DAC GPIO I2C Temperature
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5593R.pdf
 $ENDCMP
 #
+$CMP AD630ARZ
+D High precision Balanced Modulator/Demodulator, 2 MHz, SOIC-20W
+K modulator demodulator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ad630.pdf
+$ENDCMP
+#
 $CMP LF398H
 D Sample And Hold Unity Gain Follower, TO-99-8
 K sample hold buffer unity gain
