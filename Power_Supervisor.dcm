@@ -90,13 +90,13 @@ K watchdog supervisor
 F https://datasheets.maximintegrated.com/en/ds/MAX6369-MAX6374.pdf
 $ENDCMP
 #
-$CMP MAX691-xPE
+$CMP MAX691xPE
 D Microprocessor Supervisory Circuit, DIP-16
 K Power Supervisor
 F https://datasheets.maximintegrated.com/en/ds/MAX690-MAX695.pdf
 $ENDCMP
 #
-$CMP MAX691-xWE
+$CMP MAX691xWE
 D Microprocessor Supervisory Circuit, SOIC-16
 K Power Supervisor
 F https://datasheets.maximintegrated.com/en/ds/MAX690-MAX695.pdf
@@ -127,9 +127,9 @@ F https://datasheets.maximintegrated.com/en/ds/MAX811-MAX812.pdf
 $ENDCMP
 #
 $CMP MAX811TEUS-T
-D Undervoltage Sensing Circuit, SIP-3
-K Power Supervisor
-F https://www.onsemi.com/pub/Collateral/MC34064-D.PDF
+D Power supply supervisor, Manual reset, Threshold 3.08V, SOT-143
+K Supervisor Reset
+F https://datasheets.maximintegrated.com/en/ds/MAX811-MAX812.pdf
 $ENDCMP
 #
 $CMP MC34064D
