@@ -2232,6 +2232,54 @@ K Murata isolated isolation dc-dc converter step-down
 F https://power.murata.com/data/power/ncl/kdc_ncs1.pdf
 $ENDCMP
 #
+$CMP RPM3.3-1.0
+D 1A non-isolated switching regulator power module, 3-17V input voltage, 3.3V output voltage, DOSA
+K Recom dc-dc converter
+F https://www.recom-power.com/pdf/Innoline/RPM-1.0.pdf
+$ENDCMP
+#
+$CMP RPM3.3-2.0
+D 2A non-isolated switching regulator power module, 3-17V input voltage, 3.3V output voltage, DOSA
+K Recom dc-dc converter
+F https://www.recom-power.com/pdf/Innoline/RPM-2.0.pdf
+$ENDCMP
+#
+$CMP RPM3.3-3.0
+D 3A non-isolated switching regulator power module, 3-17V input voltage, 3.3V output voltage, DOSA
+K Recom dc-dc converter
+F https://www.recom-power.com/pdf/Innoline/RPM-3.0.pdf
+$ENDCMP
+#
+$CMP RPM3.3-6.0
+D 6A non-isolated switching regulator power module, 4-15V input voltage, 3.3V output voltage, DOSA
+K Recom dc-dc converter
+F https://www.recom-power.com/pdf/Innoline/RPM-6.0.pdf
+$ENDCMP
+#
+$CMP RPM5.0-1.0
+D 1A non-isolated switching regulator power module, 3-17V input voltage, 5.0V output voltage, DOSA
+K Recom dc-dc converter
+F https://www.recom-power.com/pdf/Innoline/RPM-1.0.pdf
+$ENDCMP
+#
+$CMP RPM5.0-2.0
+D 2A non-isolated switching regulator power module, 3-17V input voltage, 5.0V output voltage, DOSA
+K Recom dc-dc converter
+F https://www.recom-power.com/pdf/Innoline/RPM-2.0.pdf
+$ENDCMP
+#
+$CMP RPM5.0-3.0
+D 3A non-isolated switching regulator power module, 3-17V input voltage, 5.0V output voltage, DOSA
+K Recom dc-dc converter
+F https://www.recom-power.com/pdf/Innoline/RPM-3.0.pdf
+$ENDCMP
+#
+$CMP RPM5.0-6.0
+D 6A non-isolated switching regulator power module, 4-15V input voltage, 5.0V output voltage, DOSA
+K Recom dc-dc converter
+F https://www.recom-power.com/pdf/Innoline/RPM-6.0.pdf
+$ENDCMP
+#
 $CMP TC7662AxPA
 D Charge Pump DC-to-DC Converter, 3 - 18V, 40mA, DIP-8
 K charge pump DC-to-DC converter
