@@ -635,6 +635,12 @@ K 12-Bit Differential ADC SPI 1ch
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21290D.pdf
 $ENDCMP
 #
+$CMP MCP3202
+D A/D Converter, 12-Bit, 2-Channel, SPI Interface, 2.7V-5.5V
+K 12bit ADC Reference Single Supply SPI 2ch
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21034D.pdf
+$ENDCMP
+#
 $CMP MCP3204
 D A/D Converter, 12-Bit, 4-Channel, SPI Interface, 2.7V-5.5V
 K 12bit ADC Reference Single Supply SPI 4ch
