@@ -1116,4 +1116,58 @@ K Mini-Circuits low pass filter
 F https://www.minicircuits.com/pdfs/LFCN-95+.pdf
 $ENDCMP
 #
+$CMP LPF-B0R3
+D Low Pass Filter, DC to 0.3 MHz, 50 Ohm, Mini-Circuits HZ1198
+K low pass filter
+F https://www.minicircuits.com/pdfs/LPF-B0R3+.pdf
+$ENDCMP
+#
+$CMP RBP-280
+D Bandpass Filter, 260 to 310 MHz, 50 Ohm, Mini-Circuits GP731
+K bandpass filter rf
+F https://www.minicircuits.com/pdfs/RBP-280+.pdf
+$ENDCMP
+#
+$CMP RBPF-246
+D Bandpass Filter, 236 to 265 MHz, 50 Ohm, Mini-Circuits CK605
+K Bandpass Filter
+F https://www.minicircuits.com/pdfs/RBPF-246+.pdf
+$ENDCMP
+#
+$CMP RLP-30
+D Low Pass Filter, DC to 30 MHz, 50 Ohm, Mini-Circuits GP1212
+K Low Pass Filter
+F https://www.minicircuits.com/pdfs/RLP-30+.pdf
+$ENDCMP
+#
+$CMP SCHF-31
+D High Pass Filter, 31 to 1500 MHz, 50 Ohm, Mini-Circuits YY161
+K highpass filter rf
+F https://www.minicircuits.com/pdfs/SCHF-31+.pdf
+$ENDCMP
+#
+$CMP SXBP-100
+D Bandpass Filter, 87 to 117 MHz, 50 Ohm, Mini-Circuits HF1139
+K bandpass filter
+F https://www.minicircuits.com/pdfs/SXBP-100+.pdf
+$ENDCMP
+#
+$CMP SXBP-140
+D Bandpass Filter, 130 to 150 MHz, 50 Ohm, Mini-Circuits HF1139
+K Mini-Circuits Band-Pass Filter
+F https://www.minicircuits.com/pdfs/SXBP-140+.pdf
+$ENDCMP
+#
+$CMP SXBP-202
+D Bandpass Filter, 198 to 206 MHz, 50 Ohm, Mini-Circuits HF1139
+K bandpass filter
+F https://www.minicircuits.com/pdfs/SXBP-202+.pdf
+$ENDCMP
+#
+$CMP SXBP-27R5
+D Bandpass Filter, 24 to 31 MHz, 50 Ohm, Mini-Circuits HF1139
+K bandpass filter
+F https://www.minicircuits.com/pdfs/SXBP-27R5+.pdf
+$ENDCMP
+#
 #End Doc Library
