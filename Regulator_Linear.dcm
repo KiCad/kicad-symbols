@@ -2767,9 +2767,81 @@ F http://www.ti.com/lit/ds/symlink/lp2950-n.pdf
 $ENDCMP
 #
 $CMP LP2950-5.0_TO92
-D Positive 100mA 30V Linear Micropower Voltage Regulator, Fixed Output 5.0V, TO-92
+D Micropower Voltage Regulators with Shutdown, 100mA, Fixed Output 5.0V, TO-92
 K Micropower Voltage Regulator 100mA Positive
-F http://www.ti.com/lit/ds/symlink/lp2950-n.pdf
+F http://www.ti.com/lit/ds/symlink/lp2951-n.pdf
+$ENDCMP
+#
+$CMP LP2951-3.0_DIP
+D Micropower Voltage Regulators with Shutdown, 100mA, Fixed Output 3.0V, LDO, DIP-8
+K Micropower Voltage Regulators with Shutdown
+F http://www.ti.com/lit/ds/symlink/lp2951-n.pdf
+$ENDCMP
+#
+$CMP LP2951-3.0_SOIC
+D Micropower Voltage Regulators with Shutdown, 100mA, Fixed Output 3.0V, LDO, SOIC-8
+K Micropower Voltage Regulators with Shutdown
+F http://www.ti.com/lit/ds/symlink/lp2951-n.pdf
+$ENDCMP
+#
+$CMP LP2951-3.0_VSSOP
+D Micropower Voltage Regulators with Shutdown, 100mA, Fixed Output 3.0V, LDO, VSSOP-8
+K Micropower Voltage Regulators with Shutdown
+F http://www.ti.com/lit/ds/symlink/lp2951-n.pdf
+$ENDCMP
+#
+$CMP LP2951-3.0_WSON
+D Micropower Voltage Regulators with Shutdown, 100mA, Fixed Output 3.0V, LDO, WSON-8
+K Micropower Voltage Regulators with Shutdown
+F http://www.ti.com/lit/ds/symlink/lp2951-n.pdf
+$ENDCMP
+#
+$CMP LP2951-3.3_DIP
+D Micropower Voltage Regulators with Shutdown, 100mA, Fixed Output 3.3V, LDO, DIP-8
+K Micropower Voltage Regulators with Shutdown
+F http://www.ti.com/lit/ds/symlink/lp2951-n.pdf
+$ENDCMP
+#
+$CMP LP2951-3.3_SOIC
+D Micropower Voltage Regulators with Shutdown, 100mA, Fixed Output 3.3V, LDO, SOIC-8
+K Micropower Voltage Regulators with Shutdown
+F http://www.ti.com/lit/ds/symlink/lp2951-n.pdf
+$ENDCMP
+#
+$CMP LP2951-3.3_VSSOP
+D Micropower Voltage Regulators with Shutdown, 100mA, Fixed Output 3.3V, LDO, VSSOP-8
+K Micropower Voltage Regulators with Shutdown
+F http://www.ti.com/lit/ds/symlink/lp2951-n.pdf
+$ENDCMP
+#
+$CMP LP2951-3.3_WSON
+D Micropower Voltage Regulators with Shutdown, 100mA, Fixed Output 3.3V, LDO, WSON-8
+K Micropower Voltage Regulators with Shutdown
+F http://www.ti.com/lit/ds/symlink/lp2951-n.pdf
+$ENDCMP
+#
+$CMP LP2951-5.0_DIP
+D Micropower Voltage Regulators with Shutdown, 100mA, Fixed Output 5.0V, LDO, DIP-8
+K Micropower Voltage Regulators with Shutdown
+F http://www.ti.com/lit/ds/symlink/lp2951-n.pdf
+$ENDCMP
+#
+$CMP LP2951-5.0_SOIC
+D Micropower Voltage Regulators with Shutdown, 100mA, Fixed Output 5.0V, LDO, SOIC-8
+K Micropower Voltage Regulators with Shutdown
+F http://www.ti.com/lit/ds/symlink/lp2951-n.pdf
+$ENDCMP
+#
+$CMP LP2951-5.0_VSSOP
+D Micropower Voltage Regulators with Shutdown, 100mA, Fixed Output 5.0V, LDO, VSSOP-8
+K Micropower Voltage Regulators with Shutdown
+F http://www.ti.com/lit/ds/symlink/lp2951-n.pdf
+$ENDCMP
+#
+$CMP LP2951-5.0_WSON
+D Micropower Voltage Regulators with Shutdown, 100mA, Fixed Output 5.0V, LDO, WSON-8
+K Micropower Voltage Regulators with Shutdown
+F http://www.ti.com/lit/ds/symlink/lp2951-n.pdf
 $ENDCMP
 #
 $CMP LP2980-ADJ
