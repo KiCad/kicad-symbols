@@ -90,4 +90,10 @@ K somlabs module
 F https://wiki.somlabs.com/extensions/JZPDFGen/pdf/VisionSOM-6ULL%20Datasheet%20and%20Pinout-21.pdf
 $ENDCMP
 #
+$CMP VisionSOM-RT
+D i.MX-RT NXP ARM Cortex-M7 528MHz single core industrial SoM computer
+K somlabs module
+F https://wiki.somlabs.com/index.php/VisionSOM-RT_Datasheet_and_Pinout
+$ENDCMP
+#
 #End Doc Library
