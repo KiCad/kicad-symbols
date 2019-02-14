@@ -48,6 +48,12 @@ K Power Sequencer
 F http://www.ti.com/lit/ds/symlink/lm3880.pdf
 $ENDCMP
 #
+$CMP MAX6355
+D Dual Voltage μP Supervisory Circuits, SOT-23-6
+K Power Supervisor
+F https://datasheets.maximintegrated.com/en/ds/MAX6351-MAX6360.pdf
+$ENDCMP
+#
 $CMP MAX6369
 D Precision Pin-Selectable Watchdog Timer, 200us to 60s, SOT-23-8
 K watchdog supervisor
@@ -84,6 +90,18 @@ K watchdog supervisor
 F https://datasheets.maximintegrated.com/en/ds/MAX6369-MAX6374.pdf
 $ENDCMP
 #
+$CMP MAX691xPE
+D Microprocessor Supervisory Circuit, DIP-16
+K Power Supervisor
+F https://datasheets.maximintegrated.com/en/ds/MAX690-MAX695.pdf
+$ENDCMP
+#
+$CMP MAX691xWE
+D Microprocessor Supervisory Circuit, SOIC-16
+K Power Supervisor
+F https://datasheets.maximintegrated.com/en/ds/MAX690-MAX695.pdf
+$ENDCMP
+#
 $CMP MAX811LEUS-T
 D Power supply supervisor, Manual reset, Threshold 4.63V, SOT-143
 K Supervisor Reset
@@ -112,6 +130,30 @@ $CMP MAX811TEUS-T
 D Power supply supervisor, Manual reset, Threshold 3.08V, SOT-143
 K Supervisor Reset
 F https://datasheets.maximintegrated.com/en/ds/MAX811-MAX812.pdf
+$ENDCMP
+#
+$CMP MC34064D
+D Undervoltage Sensing Circuit, SOIC-8
+K Power Supervisor
+F https://www.onsemi.com/pub/Collateral/MC34064-D.PDF
+$ENDCMP
+#
+$CMP MC34064DM
+D Undervoltage Sensing Circuit, MSOP-8
+K Power Supervisor
+F https://www.onsemi.com/pub/Collateral/MC34064-D.PDF
+$ENDCMP
+#
+$CMP MC34064P
+D Undervoltage Sensing Circuit, TO-92
+K Power Supervisor
+F https://www.onsemi.com/pub/Collateral/MC34064-D.PDF
+$ENDCMP
+#
+$CMP MC34064SN
+D Undervoltage Sensing Circuit, TSOP-5
+K Power Supervisor
+F https://www.onsemi.com/pub/Collateral/MC34064-D.PDF
 $ENDCMP
 #
 $CMP MCP100-270D
