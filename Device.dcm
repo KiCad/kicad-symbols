@@ -1098,6 +1098,12 @@ K transistor NMOS N-MOS N-MOSFET
 F ~
 $ENDCMP
 #
+$CMP Q_DUAL_NMOS_S1G1D2S2G2D1
+D Dual NMOS transistor, 6 pin package
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
 $CMP Q_DUAL_NPN_C2C1E1E2
 D Double NPN transistors, current mirror configuration
 K transistor NPN
@@ -1116,7 +1122,7 @@ K transistor NPN PNP
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_PMOS_G1S2G2D2S1D1
+$CMP Q_DUAL_PMOS_S1G1D2S2G2D1
 D Dual PMOS transistor, 6 pin package
 K transistor PMOS P-MOS P-MOSFET
 F ~
