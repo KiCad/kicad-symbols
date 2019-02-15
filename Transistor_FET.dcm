@@ -2418,6 +2418,12 @@ K N-Channel MOSFET
 F www.vishay.com/docs/73152/si7336adp.pdf
 $ENDCMP
 #
+$CMP SiA449DJ
+D -12A Id, -30V Vds, P-Channel MOSFET, PowerPAK SC70-6
+K P-Channel MOSFET
+F http://www.vishay.com/docs/62644/sia449dj.pdf
+$ENDCMP
+#
 $CMP SiA453EDJ
 D -10A Id, -30V Vds, P-Channel MOSFET
 K P-Channel MOSFET
