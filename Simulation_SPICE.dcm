@@ -61,7 +61,7 @@ F ~
 $ENDCMP
 #
 $CMP OPAMP
-D Operational amplifier, single, node sequence=+/-/OUT/V+/V-
+D Operational amplifier, single, node sequence=1:+ 2:- 3:OUT 4:V+ 5:V-
 K simulation
 F ~
 $ENDCMP
