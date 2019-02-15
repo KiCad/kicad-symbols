@@ -1344,6 +1344,12 @@ K dual opamp
 F http://www.ti.com/lit/ds/symlink/tlv2375.pdf
 $ENDCMP
 #
+$CMP TLV6001DCK
+D Low-power, Rail-to-rail, 1MHz Operational Amplifier, SOT-353
+K op amp operational amplifier
+F http://www.ti.com/lit/ds/symlink/tlv6001.pdf
+$ENDCMP
+#
 $CMP TS881xCx
 D Rail-to-rail 0.9 V nanopower comparator, SC-70-5
 K single comparator
