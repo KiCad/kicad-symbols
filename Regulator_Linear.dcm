@@ -2772,6 +2772,12 @@ K Micropower Voltage Regulator 100mA Positive
 F http://www.ti.com/lit/ds/symlink/lp2950-n.pdf
 $ENDCMP
 #
+$CMP LP2980-ADJ
+D 50mA 15V Low-noise Low-dropout Regulator, 1.23-15V adjustable output voltage, SOT-23-5
+K LDO Voltage Regulator 50mA Positive
+F http://www.ti.com/lit/ds/symlink/lp2980-adj.pdf
+$ENDCMP
+#
 $CMP LP2985-1.8
 D 150mA 16V Low-noise Low-dropout Regulator With Shutdown, 1.8V output voltage, SOT-23-5
 K LDO regulator linear  SOT-23-5
@@ -3546,6 +3552,30 @@ K voltage regulator linear ldo
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf
 $ENDCMP
 #
+$CMP LT1963AxST-1.5
+D 1.5V, 1.5A, Low Noise, Fast Transient Response LDO Regulator, SOT-223
+K LDO voltage regulator fixed
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf
+$ENDCMP
+#
+$CMP LT1963AxST-1.8
+D 1.8V, 1.5A, Low Noise, Fast Transient Response LDO Regulator, SOT-223
+K LDO voltage regulator fixed
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf
+$ENDCMP
+#
+$CMP LT1963AxST-2.5
+D 2.5V, 1.5A, Low Noise, Fast Transient Response LDO Regulator, SOT-223
+K LDO voltage regulator fixed
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf
+$ENDCMP
+#
+$CMP LT1963AxST-3.3
+D 3.3V, 1.5A, Low Noise, Fast Transient Response LDO Regulator, SOT-223
+K LDO voltage regulator fixed
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf
+$ENDCMP
+#
 $CMP LT1963EQ
 D 1.5A, Adjustable, Low Noise, Linear Voltage Regulator, TO-263-5
 K low noise voltage regulator
@@ -3969,127 +3999,127 @@ $ENDCMP
 $CMP MCP1700-1202E_SOT23
 D 250mA Low Quiscent Current LDO, 1.2V output, SOT-23
 K regulator linear ldo
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf
 $ENDCMP
 #
 $CMP MCP1700-1202E_SOT89
 D 250mA Low Quiscent Current LDO, 1.2V output, SOT-89
 K regulator linear ldo
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf
 $ENDCMP
 #
 $CMP MCP1700-1202E_TO92
 D 250mA Low Quiscent Current LDO, 1.2V output, TO-92
 K regulator linear ldo
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf
 $ENDCMP
 #
 $CMP MCP1700-1802E_SOT23
 D 250mA Low Quiscent Current LDO, 1.8V output, SOT-23
 K regulator linear ldo
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf
 $ENDCMP
 #
 $CMP MCP1700-1802E_SOT89
 D 250mA Low Quiscent Current LDO, 1.8V output, SOT-89
 K regulator linear ldo
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf
 $ENDCMP
 #
 $CMP MCP1700-1802E_TO92
 D 250mA Low Quiscent Current LDO, 1.8V output, TO-92
 K regulator linear ldo
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf
 $ENDCMP
 #
 $CMP MCP1700-2502E_SOT23
 D 250mA Low Quiscent Current LDO, 2.5V output, SOT-23
 K regulator linear ldo
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf
 $ENDCMP
 #
 $CMP MCP1700-2502E_SOT89
 D 250mA Low Quiscent Current LDO, 2.5V output, SOT-89
 K regulator linear ldo
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf
 $ENDCMP
 #
 $CMP MCP1700-2502E_TO92
 D 250mA Low Quiscent Current LDO, 2.5V output, TO-92
 K regulator linear ldo
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf
 $ENDCMP
 #
 $CMP MCP1700-2802E_SOT23
 D 250mA Low Quiscent Current LDO, 2.8V output, SOT-23
 K regulator linear ldo
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf
 $ENDCMP
 #
 $CMP MCP1700-2802E_SOT89
 D 250mA Low Quiscent Current LDO, 2.8V output, SOT-89
 K regulator linear ldo
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf
 $ENDCMP
 #
 $CMP MCP1700-2802E_TO92
 D 250mA Low Quiscent Current LDO, 2.8V output, TO-92
 K regulator linear ldo
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf
 $ENDCMP
 #
 $CMP MCP1700-3002E_SOT23
 D 250mA Low Quiscent Current LDO, 3.0V output, SOT-23
 K regulator linear ldo
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf
 $ENDCMP
 #
 $CMP MCP1700-3002E_SOT89
 D 250mA Low Quiscent Current LDO, 3.0V output, SOT-89
 K regulator linear ldo
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf
 $ENDCMP
 #
 $CMP MCP1700-3002E_TO92
 D 250mA Low Quiscent Current LDO, 3.0V output, TO-92
 K regulator linear ldo
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf
 $ENDCMP
 #
 $CMP MCP1700-3302E_SOT23
 D 250mA Low Quiscent Current LDO, 3.3V output, SOT-23
 K regulator linear ldo
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf
 $ENDCMP
 #
 $CMP MCP1700-3302E_SOT89
 D 250mA Low Quiscent Current LDO, 3.3V output, SOT-89
 K regulator linear ldo
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf
 $ENDCMP
 #
 $CMP MCP1700-3302E_TO92
 D 250mA Low Quiscent Current LDO, 3.3V output, TO-92
 K regulator linear ldo
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf
 $ENDCMP
 #
 $CMP MCP1700-5002E_SOT23
 D 250mA Low Quiscent Current LDO, 5.0V output, SOT-23
 K regulator linear ldo
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf
 $ENDCMP
 #
 $CMP MCP1700-5002E_SOT89
 D 250mA Low Quiscent Current LDO, 5.0V output, SOT-89
 K regulator linear ldo
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf
 $ENDCMP
 #
 $CMP MCP1700-5002E_TO92
 D 250mA Low Quiscent Current LDO, 5.0V output, TO-92
 K regulator linear ldo
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf
 $ENDCMP
 #
 $CMP MCP1703A-1202_SOT223
@@ -6274,6 +6304,12 @@ $CMP TPS7A7200RGW
 D 2A, Low-Dropout Voltage Regulator, 1.5-6.5V Input, Adjustable 0.9-5V Output, VQFN-20
 K linear regulator ldo voltage
 F http://www.ti.com/lit/ds/symlink/tps7a7200.pdf
+$ENDCMP
+#
+$CMP TPS7A91
+D 1A, High-Accuracy, Low-Noise LDO Voltage Regulator, Texas S-PDSO-N10
+K LDO voltage regulator
+F http://www.ti.com/lit/ds/symlink/tps7a91.pdf
 $ENDCMP
 #
 $CMP XC6220B331MR

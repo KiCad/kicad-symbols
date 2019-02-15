@@ -48,6 +48,42 @@ K Power Sequencer
 F http://www.ti.com/lit/ds/symlink/lm3880.pdf
 $ENDCMP
 #
+$CMP MAX6369
+D Precision Pin-Selectable Watchdog Timer, 200us to 60s, SOT-23-8
+K watchdog supervisor
+F https://datasheets.maximintegrated.com/en/ds/MAX6369-MAX6374.pdf
+$ENDCMP
+#
+$CMP MAX6370
+D Precision Pin-Selectable Watchdog Timer, 200us to 60s, SOT-23-8
+K watchdog supervisor
+F https://datasheets.maximintegrated.com/en/ds/MAX6369-MAX6374.pdf
+$ENDCMP
+#
+$CMP MAX6371
+D Precision Pin-Selectable Watchdog Timer, 200us to 60s, SOT-23-8
+K watchdog supervisor
+F https://datasheets.maximintegrated.com/en/ds/MAX6369-MAX6374.pdf
+$ENDCMP
+#
+$CMP MAX6372
+D Precision Pin-Selectable Watchdog Timer, 200us to 60s, SOT-23-8
+K watchdog supervisor
+F https://datasheets.maximintegrated.com/en/ds/MAX6369-MAX6374.pdf
+$ENDCMP
+#
+$CMP MAX6373
+D Precision Pin-Selectable Watchdog Timer, 200us to 60s, SOT-23-8
+K watchdog supervisor
+F https://datasheets.maximintegrated.com/en/ds/MAX6369-MAX6374.pdf
+$ENDCMP
+#
+$CMP MAX6374
+D Precision Pin-Selectable Watchdog Timer, 200us to 60s, SOT-23-8
+K watchdog supervisor
+F https://datasheets.maximintegrated.com/en/ds/MAX6369-MAX6374.pdf
+$ENDCMP
+#
 $CMP MAX811LEUS-T
 D Power supply supervisor, Manual reset, Threshold 4.63V, SOT-143
 K Supervisor Reset

@@ -114,6 +114,12 @@ K RF GAIN BLOCK
 F https://datasheets.maximintegrated.com/en/ds/MAX2679-MAX2679B.pdf
 $ENDCMP
 #
+$CMP SKY65404
+D 4.9-5.9GHz, 13dB Low-Noise Amplifier, QFN-6
+K LNA low noise amplifier RF
+F http://www.skyworksinc.com/uploads/documents/SKY65404_31_201512K.pdf
+$ENDCMP
+#
 $CMP SPF5189Z
 D 50MHz to 4000MHz, GaAs pHEMT low noise MMIC amplifier, SOT-89
 K RF GAIN BLOCK

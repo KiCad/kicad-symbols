@@ -102,6 +102,12 @@ K Switching LED driver
 F http://www.issi.com/WW/pdf/31LT3360.pdf
 $ENDCMP
 #
+$CMP LED5000
+D 3A monolithic step-down current source with dimming, HSOP-8
+K LED buck driver
+F https://www.st.com/resource/en/datasheet/led5000.pdf
+$ENDCMP
+#
 $CMP LT3465
 D 1.2MHz White LED Drivers with Built-in Schottky, ThinSOT-23-6
 K Switching LED driver
@@ -196,6 +202,30 @@ $CMP TLC5947RHB
 D 24-Channel, 12-Bit PWM LED Driver, QFN
 K PWM LED driver QFN
 F http://www.ti.com/lit/ds/symlink/tlc5947.pdf
+$ENDCMP
+#
+$CMP TLC5951DAP
+D 24-Channel, 12-Bit PWM LED Driver With 7-Bit Dot Correction and 3-Group, 8-Bit Global Brightness Control, HTSSOP-38
+K led driver
+F http://www.ti.com/lit/ds/symlink/tlc5951.pdf
+$ENDCMP
+#
+$CMP TLC5951RHA
+D 24-Channel, 12-Bit PWM LED Driver With 7-Bit Dot Correction and 3-Group, 8-Bit Global Brightness Control, Texas S-PVQFN-N40
+K led driver
+F http://www.ti.com/lit/ds/symlink/tlc5951.pdf
+$ENDCMP
+#
+$CMP TLC5951RTA
+D 24-Channel, 12-Bit PWM LED Driver With 7-Bit Dot Correction and 3-Group, 8-Bit Global Brightness Control, Texas S-PVQFN-N40
+K led driver
+F http://www.ti.com/lit/ds/symlink/tlc5951.pdf
+$ENDCMP
+#
+$CMP TLC5957RTQ
+D 48-channel, 16bit ES-PWM LED driver with Pre-charge FET, LED OPEN Detection and Caterpillar Cancelling, QFN-56
+K led driver
+F http://www.ti.com/lit/ds/symlink/tlc5957.pdf
 $ENDCMP
 #
 $CMP TLC5971PWP

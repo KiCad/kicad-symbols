@@ -564,6 +564,24 @@ K display LCD dot-matrix
 F http://www.raystar-optronics.com/down.php?ProID=18
 $ENDCMP
 #
+$CMP SA15-11EWA
+D High Efficiency Red Single-digit Numeric Display with white white diffused lens, common anode
+K display LED 7-segment
+F http://www.kingbrightusa.com/images/catalog/SPEC/SA15-11EWA.pdf
+$ENDCMP
+#
+$CMP SA15-11GWA
+D Green Single-digit Numeric Display with white white diffused lens, common anode
+K display LED 7-segment
+F http://www.kingbrightusa.com/images/catalog/SPEC/SA15-11GWA.pdf
+$ENDCMP
+#
+$CMP SA15-11SRWA
+D Super Bright Red Single-digit Numeric Display with white white diffused lens, common anode
+K display LED 7-segment
+F http://www.kingbrightusa.com/images/catalog/SPEC/SA15-11SRWA.pdf
+$ENDCMP
+#
 $CMP SBC18-11EGWA
 D Single digit 7 segment hyper red and green LED display, common cathode
 K display LED 7-segment
