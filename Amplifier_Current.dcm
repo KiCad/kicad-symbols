@@ -108,6 +108,12 @@ K highside HS current sense amplifier linear
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.pdf
 $ENDCMP
 #
+$CMP BQ500100DCKT
+D High side current sensor, Voltage Output, , 50V/V Gain, SC-70-6
+K Current shunt monitor
+F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
+$ENDCMP
+#
 $CMP INA138
 D High-Side Measurement Current Shunt Monitor, 36V, SOT-23-5
 K current sense shunt monitor
