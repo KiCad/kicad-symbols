@@ -67,37 +67,37 @@ F https://www.infineon.com/dgdl/Infineon-ICE3PCS03G-DS-v03_00-EN.pdf?fileId=db3a
 $ENDCMP
 #
 $CMP IR1153S
-D Fixed 22.2kHz Frequency, µPFC One Cycle Ccontrol IC With Brown-Out Protection, Continuous Conduction Mode, SOIC-8
+D Fixed 22.2kHz Frequency, uPFC One Cycle Control IC With Brown-Out Protection, Continuous Conduction Mode, SOIC-8
 K pfc controller ccm
 F https://www.infineon.com/dgdl/ir1153.pdf?fileId=5546d462533600a4015355c42a5b1649
 $ENDCMP
 #
 $CMP IR1155S
-D Programmable Frequency, One Cycle Ccontrol PFC IC, Continuous Conduction Mode, SOIC-8
+D Programmable Frequency, One Cycle Control PFC IC, Continuous Conduction Mode, SOIC-8
 K pfc controller ccm
 F https://www.infineon.com/dgdl/ir1155spbf.pdf?fileId=5546d462533600a4015355c431f9164b
 $ENDCMP
 #
 $CMP IR1161L
-D SmartRectifier Ccontrol IC, 500kHz, 200V, 1.0/2.5A, SOT-23-5
+D SmartRectifier Control IC, 500kHz, 200V, 1.0/2.5A, SOT-23-5
 K synchronous rectifier controller
 F https://www.infineon.com/dgdl/ir1161lpbf.pdf?fileId=5546d462533600a4015355c439a5164d
 $ENDCMP
 #
 $CMP IR11662S
-D Advanced SmartRectifier Ccontrol IC, 500kHz, 200V, 1.0/4.0A, SOIC-8
+D Advanced SmartRectifier Control IC, 500kHz, 200V, 1.0/4.0A, SOIC-8
 K synchronous rectifier controller
 F https://www.infineon.com/dgdl/ir11662spbf.pdf?fileId=5546d462533600a4015355c44195164f
 $ENDCMP
 #
 $CMP IR11672AS
-D Advanced SmartRectifier Ccontrol IC, 500kHz, 200V, 2.0/7.0A, SOIC-8
+D Advanced SmartRectifier Control IC, 500kHz, 200V, 2.0/7.0A, SOIC-8
 K synchronous rectifier controller
 F https://www.infineon.com/dgdl/ir11672aspbf.pdf?fileId=5546d462533600a4015355c455561653
 $ENDCMP
 #
 $CMP IR1167S
-D SmartRectifier Ccontrol IC, 500kHz, 200V, 2.0/7.0A, SOIC-8
+D SmartRectifier Control IC, 500kHz, 200V, 2.0/7.0A, SOIC-8
 K synchronous rectifier controller
 F https://www.infineon.com/dgdl/ir1167aspbf.pdf?fileId=5546d462533600a4015355c45d9c1655
 $ENDCMP
@@ -121,7 +121,7 @@ F https://www.infineon.com/dgdl/ir1168.pdf?fileId=5546d462533600a4015355c467fa16
 $ENDCMP
 #
 $CMP IR1169S
-D Advanced SmartRectifier Ccontrol IC, 500kHz, 200V, 1.0/4.0A, SOIC-8
+D Advanced SmartRectifier Control IC, 500kHz, 200V, 1.0/4.0A, SOIC-8
 K synchronous rectifier controller
 F https://www.infineon.com/dgdl/ir1169.pdf?fileId=5546d462533600a4015355c485c4165e
 $ENDCMP
