@@ -120,6 +120,42 @@ K trimmer capacitor
 F ~
 $ENDCMP
 #
+$CMP CircuitBreaker_1P_US
+D Single pole circuit breaker, US symbol
+K CB
+F ~
+$ENDCMP
+#
+$CMP CircuitBreaker_1P
+D Single pole circuit breaker
+K CB
+F ~
+$ENDCMP
+#
+$CMP CircuitBreaker_2P_US
+D Double pole circuit breaker, US symbol
+K CB 2P
+F ~
+$ENDCMP
+#
+$CMP CircuitBreaker_2P
+D Double pole circuit breaker
+K CB 2P
+F ~
+$ENDCMP
+#
+$CMP CircuitBreaker_3P_US
+D Triple pole circuit breaker, US symbol
+K CB 3P
+F ~
+$ENDCMP
+#
+$CMP CircuitBreaker_3P
+D Triple pole circuit breaker
+K CB 3P
+F ~
+$ENDCMP
+#
 $CMP Crystal
 D Two pin crystal
 K quartz ceramic resonator oscillator
@@ -804,6 +840,12 @@ K LED diode bicolor dual
 F ~
 $ENDCMP
 #
+$CMP LED_Dual_CACA
+D Dual LED, cathodes on pins 1 and 3
+K LED diode bicolor dual
+F ~
+$ENDCMP
+#
 $CMP LED_Dual_CCA
 D Dual LED, common anode on pin 3
 K LED diode bicolor dual
@@ -1104,6 +1146,12 @@ K transistor NMOS N-MOS N-MOSFET
 F ~
 $ENDCMP
 #
+$CMP Q_DUAL_NMOS_S1G1D2S2G2D1
+D Dual NMOS transistor, 6 pin package
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
 $CMP Q_DUAL_NPN_C2C1E1E2
 D Double NPN transistors, current mirror configuration
 K transistor NPN
@@ -1135,6 +1183,12 @@ F ~
 $ENDCMP
 #
 $CMP Q_DUAL_PMOS_G1S2G2D2S1D1
+D Dual PMOS transistor, 6 pin package
+K transistor PMOS P-MOS P-MOSFET
+F ~
+$ENDCMP
+#
+$CMP Q_DUAL_PMOS_S1G1D2S2G2D1
 D Dual PMOS transistor, 6 pin package
 K transistor PMOS P-MOS P-MOSFET
 F ~
