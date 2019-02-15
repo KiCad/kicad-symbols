@@ -2322,12 +2322,6 @@ K N-Channel MOSFET
 F https://assets.nexperia.com/documents/data-sheet/PSMN5R2-60YL.pdf
 $ENDCMP
 #
-$CMP QH8MA3
-D 30V Nch+Pch MOSFET, SMD-8
-K pmos p-mos nmos n-mos dual transistor
-F http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/qh8ma3tcr-e.pdf
-$ENDCMP
-#
 $CMP QM6006D
 D 60V Id, 35A Vds, N-Channel Power MOSFET, 18mOhm Ron, 19.3nC Qg (typ), TO252
 K N-Channel MOSFET
@@ -2424,16 +2418,10 @@ K N-Channel MOSFET
 F www.vishay.com/docs/73152/si7336adp.pdf
 $ENDCMP
 #
-$CMP Si4542DY
-D Dual N and P Channel MOSFET, 6A Id, 30V Vds, 28mOhm Ron, 10V Vgs, SO8L
-K Dual N-Channel P-Channel MOSFET
-F https://www.fairchildsemi.com/datasheets/SI/SI4542DY.pdf
-$ENDCMP
-#
-$CMP Si5504BDC
-D 30V Nch+Pch MOSFET, 1206-8
-K pmos p-mos nmos n-mos dual transistor
-F https://www.vishay.com/docs/74483/si5504bdc.pdf
+$CMP SiA449DJ
+D -12A Id, -30V Vds, P-Channel MOSFET, PowerPAK SC70-6
+K P-Channel MOSFET
+F http://www.vishay.com/docs/62644/sia449dj.pdf
 $ENDCMP
 #
 $CMP SiA453EDJ
