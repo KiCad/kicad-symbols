@@ -192,4 +192,10 @@ K magnetic field i2c
 F http://www.infineon.com/dgdl/Infineon-TLV493D-A1B6-DS-v01_00-EN.pdf?fileId=5546d462525dbac40152a6b85c760e80
 $ENDCMP
 #
+$CMP iC-MZ
+D Differential hall effect speed sensor
+K hall differential speed
+F https://www.ichaus.de/upload/pdf/MZ_datasheet_B2en.pdf
+$ENDCMP
+#
 #End Doc Library
