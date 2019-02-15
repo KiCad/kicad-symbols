@@ -163,7 +163,7 @@ F https://www.infineon.com/dgdl/auir3315.pdf?fileId=5546d462533600a4015355a84eda
 $ENDCMP
 #
 $CMP AUIR3316S
-D Low EMI Current Sense High Side Switch, 32V, 90A, D2PAK-5L
+D Low EMI Current Sense High Side Switch, 26V, 90A, D2PAK-5L
 K high side switch
 F https://www.infineon.com/dgdl/auir3316.pdf?fileId=5546d462533600a4015355a856f41350
 $ENDCMP
@@ -732,6 +732,12 @@ K switch power FET sequence
 F http://www.analog.com/media/en/technical-documentation/data-sheets/4417f.pdf
 $ENDCMP
 #
+$CMP MAX8586
+D Single 1.2A USB Current Limiting Switch
+K 1-channel USB current limiting power switch
+F https://datasheets.maximintegrated.com/en/ds/MAX8586.pdf
+$ENDCMP
+#
 $CMP MIC2026-1BM
 D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, in SOIC-8 Package
 K mosfet distribution
@@ -886,12 +892,6 @@ $CMP TSM103WA
 D Dual Operational Amplifier and 2.5V 0.4% Voltage Reference, SOIC-8
 K dual opamp reference
 F http://www.st.com/resource/en/datasheet/tsm103w.pdf
-$ENDCMP
-#
-$CMP MAX8586
-D Single 1.2A USB Current Limiting Switch
-K 1-channel USB current limiting power switch
-F https://datasheets.maximintegrated.com/en/ds/MAX8586.pdf
 $ENDCMP
 #
 #End Doc Library
