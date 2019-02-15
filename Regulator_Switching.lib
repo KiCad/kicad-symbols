@@ -537,7 +537,7 @@ ENDDEF
 DEF EN5322QI U 0 20 Y Y 1 F N
 F0 "U" 150 650 50 H V L CNN
 F1 "EN5322QI" 150 550 50 H V L CNN
-F2 "Converter_DCDC:Converter_DCDC_Intel_EN_53xx_QFN_ThermalVias" 150 -650 50 H I L CNN
+F2 "Converter_DCDC:Converter_DCDC_Intel_EN53xx_ThermalVias" 150 -650 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Converter*DCDC*Intel*EN53xx*
