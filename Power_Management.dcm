@@ -90,13 +90,13 @@ K high side switch
 F https://www.infineon.com/dgdl/auips7091.pdf?fileId=5546d462533600a4015355a7c0d21322
 $CMP AAT4610BIGV-1-T1
 D Current Limited Load Switch
-K Limit USB Active High
+K Limit USB Active High SOT-23-5
 F http://www.skyworksinc.com/uploads/documents/201937A.pdf
 $ENDCMP
 #
 $CMP AAT4610BIGV-T1
 D Current Limited Load Switch
-K Limit USB Active Low
+K Limit USB Active Low SOT-23-5
 F http://www.skyworksinc.com/uploads/documents/201937A.pdf
 $ENDCMP
 #
