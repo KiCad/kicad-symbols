@@ -109,9 +109,9 @@ F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.pdf
 $ENDCMP
 #
 $CMP BQ500100DCK
-D High side current sensor, Voltage Output, , 50V/V Gain, SC-70-6
+D 20V High side current sensor, Voltage Output, 50V/V Gain, SC-70-6
 K Current shunt monitor
-F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
+F http://www.ti.com/lit/ds/symlink/bq500100.pdf
 $ENDCMP
 #
 $CMP INA138
