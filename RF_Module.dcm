@@ -72,16 +72,16 @@ K 802.11 Wi-Fi
 F http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf
 $ENDCMP
 #
-$CMP ESP32-PICO-D4
-D RF SIP Module
-K WiFi Bluetooth ESP32
-F https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf
-$ENDCMP
-#
 $CMP ESP-WROOM-02
 D Wi-Fi Module, ESP8266EX SoC, 32-bit, 802.11b/g/n, WPA/WPA2, 2.7-3.6V, SMD
 K RF Radio ESP Espressif
 F https://www.espressif.com/sites/default/files/documentation/0c-esp-wroom-02_datasheet_en.pdf
+$ENDCMP
+#
+$CMP ESP32-PICO-D4
+D RF SIP Module
+K WiFi Bluetooth ESP32
+F https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf
 $ENDCMP
 #
 $CMP ESP32-WROOM-32
