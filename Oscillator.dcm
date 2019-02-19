@@ -18,6 +18,12 @@ K Crystal Clock Oscillator
 F http://www.conwin.com/datasheets/cx/cx030.pdf
 $ENDCMP
 #
+$CMP ASCO
+D Crystal Clock Oscillator, Abracon ASCO
+K Crystal Clock Oscillator
+F https://abracon.com/Oscillators/ASCO.pdf
+$ENDCMP
+#
 $CMP ASE-xxxMHz
 D 3.3V CMOS SMD Crystal Clock Oscillator, Abracon
 K 3.3V CMOS SMD Crystal Clock Oscillator
@@ -112,6 +118,12 @@ $CMP JTOS-50
 D Voltage Controlled Oscillator, 25 to 47 MHz, Mini-Circuits BK377
 K VCXO
 F https://ww2.minicircuits.com/pdfs/JTOS-50+.pdf
+$ENDCMP
+#
+$CMP KT2520K-T
+D 10-60MHz Temperature Compensated Crystal Oscillator, Kyocera 2520
+K tcxo
+F https://global.kyocera.com/prdct/electro/product/pdf/kt2520_e.pdf
 $ENDCMP
 #
 $CMP MAX7375AXR105

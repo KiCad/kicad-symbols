@@ -621,7 +621,7 @@ $ENDCMP
 $CMP EMI_Filter_LL
 D EMI 2-inductor filter
 K EMI filter
-F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c30e.ashx?la=en-gb
+F ~
 $ENDCMP
 #
 $CMP EMI_Filter_LL_1423
@@ -1398,14 +1398,14 @@ K transistor NPN
 F ~
 $ENDCMP
 #
-$CMP Q_NPN_ECB_BRT
-D NPN transistor, emitter/collector/base
+$CMP Q_NPN_ECBC
+D NPN transistor, emitter/collector/base, collector connected to mounting plane
 K transistor NPN
 F ~
 $ENDCMP
 #
-$CMP Q_NPN_ECBC
-D NPN transistor, emitter/collector/base, collector connected to mounting plane
+$CMP Q_NPN_ECB_BRT
+D NPN transistor, emitter/collector/base
 K transistor NPN
 F ~
 $ENDCMP
@@ -1596,14 +1596,14 @@ K transistor PNP
 F ~
 $ENDCMP
 #
-$CMP Q_PNP_ECB_BRT
-D PNP bias resistor transistor, emitter/collector/base
+$CMP Q_PNP_ECBC
+D PNP transistor, emitter/collector/base, collector connected to mounting plane
 K transistor PNP
 F ~
 $ENDCMP
 #
-$CMP Q_PNP_ECBC
-D PNP transistor, emitter/collector/base, collector connected to mounting plane
+$CMP Q_PNP_ECB_BRT
+D PNP bias resistor transistor, emitter/collector/base
 K transistor PNP
 F ~
 $ENDCMP

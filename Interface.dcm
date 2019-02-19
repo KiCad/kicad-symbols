@@ -297,6 +297,12 @@ K Direct Memory Access Controller
 F http://pdf.datasheetcatalog.com/datasheets/560/501527_DS.pdf
 $ENDCMP
 #
+$CMP NB3N551MN
+D 1:4 Low Skew Clock Buffer, DFN-8
+K clock buffer
+F https://www.onsemi.com/pub/Collateral/NB3N551-D.PDF
+$ENDCMP
+#
 $CMP PCA9306
 D Dual bidirectional I2C Bus and SMBus voltage level translator
 K Dual bidirectional I2C Bus and SMBus voltage level translator
@@ -337,6 +343,18 @@ $CMP SN65LVDS1DBV
 D High-Speed Differential Line Driver, 630Mbps, SOT-23-5
 K LVDS Driver
 F http://www.ti.com/lit/ds/symlink/sn65lvds1.pdf
+$ENDCMP
+#
+$CMP SN75160BDW
+D Octal general-purpose interface bus transceiver, SOIC-20
+K gpib bidirectional bus transceiver
+F http://www.ti.com/lit/ds/symlink/sn75160b.pdf
+$ENDCMP
+#
+$CMP SN75160BN
+D Octal general-purpose interface bus transceiver, DIP-20
+K gpib bidirectional bus transceiver
+F http://www.ti.com/lit/ds/symlink/sn75160b.pdf
 $ENDCMP
 #
 $CMP TB5D1MD
