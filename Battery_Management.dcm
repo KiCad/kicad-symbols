@@ -48,6 +48,12 @@ K LiPO charger
 F http://www.ti.com/lit/ds/symlink/bq25601.pdf
 $ENDCMP
 #
+$CMP BQ25895
+D Controlled Single Cell 5-A Fast Charger with MaxCharge
+K Battery Charger and Power Path Management
+F http://www.ti.com/product/BQ25898
+$ENDCMP
+#
 $CMP BQ27441-G1
 D System Side Li Ion/Polymer Fuel Gauge, PDSON-12
 K Fuel Gauge
