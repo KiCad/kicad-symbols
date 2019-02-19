@@ -378,6 +378,18 @@ K High-Speed CAN Transceiver HVSON-8
 F http://www.nxp.com/documents/data_sheet/TJA1042.pdf
 $ENDCMP
 #
+$CMP TJA1043T
+D High-speed CAN-FD Transceiver with Sleep Mode, SOIC-14
+K CAN FD High Speed CAN Transceiver Sleep Split-Pin VIO
+F https://www.nxp.com/docs/en/data-sheet/TJA1043.pdf
+$ENDCMP
+#
+$CMP TJA1043TK
+D High-speed CAN-FD Transceiver with Sleep Mode, HVSON-14
+K CAN FD High Speed CAN Transceiver Sleep Split-Pin VIO
+F https://www.nxp.com/docs/en/data-sheet/TJA1043.pdf
+$ENDCMP
+#
 $CMP TJA1049T
 D High-Speed CAN Transceiver, standby mode, split pin, SOIC-8
 K High-Speed CAN Transceiver
