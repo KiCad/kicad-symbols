@@ -204,6 +204,24 @@ K digital isolator galvanic isopower
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM5401_5402_5403_5404.pdf
 $ENDCMP
 #
+$CMP ADuM5410
+D Quad-Channel 2.5kV isolator with integrated dc-dc converter, 4 Input / 0 output, SSOP-24
+K digital isolator galvanic isopower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM5410-5411-5412.pdf
+$ENDCMP
+#
+$CMP ADuM5411
+D Quad-Channel 2.5kV isolator with integrated dc-dc converter, 3 Input / 1 output, SSOP-24
+K digital isolator galvanic isopower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM5410-5411-5412.pdf
+$ENDCMP
+#
+$CMP ADuM5412
+D Quad-Channel 2.5kV isolator with integrated dc-dc converter, 2 Input / 2 output, SSOP-24
+K digital isolator galvanic isopower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM5410-5411-5412.pdf
+$ENDCMP
+#
 $CMP ADuM7643
 D Low Power Six-Channel 3/3 Digital Isolator, 25Mbps 6ns, Fail-Safe High, QSOP20
 K 6Ch Quad Digital Isolator 25Mbps
@@ -306,6 +324,12 @@ K High speed optically coupled gates
 F http://docs.avagotech.com/docs/AV02-0391EN
 $ENDCMP
 #
+$CMP HCPL-9000
+D High Speed Digital Isolator, CMOS, excellent transient immunity, active-low logic output enable, DIP-8
+K digital isolator, high speed
+F https://docs.broadcom.com/docs/AV02-0137EN
+$ENDCMP
+#
 $CMP HCPL2730
 D Low Input Current high Gain Split Darlington Optocouplers
 K darlington optocoupler
@@ -328,6 +352,18 @@ $CMP ILQ74
 D Quad Optocoupler, NPN Phototransistor Output, TTL compatible, DIP16/SMD16
 K NPN DC Dual Optocoupler
 F https://www.vishay.com/docs/83640/ild74.pdf
+$ENDCMP
+#
+$CMP ISO1540
+D I2C Isolator, 2.5 kVrms, Bidirectional clock and data, SOIC-8
+K digital isolator i2c
+F http://www.ti.com/lit/ds/symlink/iso1541.pdf
+$ENDCMP
+#
+$CMP ISO1541
+D I2C Isolator, 2.5 kVrms, Unidirectional Clock, Bidirectional data, SOIC-8
+K digital isolator i2c
+F http://www.ti.com/lit/ds/symlink/iso1541.pdf
 $ENDCMP
 #
 $CMP ISO7320C
@@ -1231,7 +1267,7 @@ F https://toshiba.semicon-storage.com/info/docget.jsp?did=53548&prodName=TLP2770
 $ENDCMP
 #
 $CMP TLP290
-D AC/DC Phototransistor Optocoupler, Vce 80V, CTR 50-600%, SOP4
+D AC/DC Phototransistor Optocoupler, Vce 80V, CTR 50-600%, not recommended for new designs, SOP4
 K NPN AC DC Phototransistor Optocoupler
 F https://toshiba.semicon-storage.com/info/docget.jsp?did=12882&prodName=TLP290
 $ENDCMP
