@@ -9,6 +9,7 @@ Each symbol library is stored as a `.lib` and `.dcm` file pair.
 Weekly builds can be found at https://kicad.github.io/symbols
 
 Contribution guidelines can be found at http://kicad-pcb.org/libraries/contribute
+The library convention can be found at http://kicad-pcb.org/libraries/klc/
 
 Other KiCad library repositories are located:
 

@@ -55,14 +55,13 @@ F https://www.nxp.com/docs/en/data-sheet/BGA2818.pdf
 $ENDCMP
 #
 $CMP BGA2850
-D MMIC wideband amplifier, DC-2.2GHz, +24dB @ 950MHz, 5V, SOT-363
-D DC-2.2GHz  +24.7dB RF amplifier, 5V, SOT-363-6
+D MIC wideband amplifier, DC-2.2GHz, +24dB @ 950MHz, 5V, SOT-363-6
 K RF GAIN BLOCK
 F https://www.nxp.com/docs/en/data-sheet/BGA2850.pdf
 $ENDCMP
+#
 $CMP BGA2851
-D MMIC wideband amplifier, DC-2.2GHz, +24.8dB @ 950MHz, 5V, SOT-363
-D DC-2.2GHz  +24.7dB RF amplifier, 5V, SOT-363-6
+D MMIC wideband amplifier, DC-2.2GHz, +24.8dB @ 950MHz, 5V, SOT-363-6
 K RF GAIN BLOCK
 F https://www.nxp.com/docs/en/data-sheet/BGA2851.pdf
 $ENDCMP
@@ -115,10 +114,22 @@ K RF GAIN BLOCK
 F https://datasheets.maximintegrated.com/en/ds/MAX2679-MAX2679B.pdf
 $ENDCMP
 #
+$CMP SKY65404
+D 4.9-5.9GHz, 13dB Low-Noise Amplifier, QFN-6
+K LNA low noise amplifier RF
+F http://www.skyworksinc.com/uploads/documents/SKY65404_31_201512K.pdf
+$ENDCMP
+#
 $CMP SPF5189Z
 D 50MHz to 4000MHz, GaAs pHEMT low noise MMIC amplifier, SOT-89
 K RF GAIN BLOCK
 F www.qorvo.com/products/d/da001910
+$ENDCMP
+#
+$CMP TRF37A73
+D 6GHz, 12dB RF Gain Block, WSON-8
+K gain block RF
+F http://www.ti.com/lit/ds/symlink/trf37a73.pdf
 $ENDCMP
 #
 #End Doc Library

@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 5PB1108PGxx
+D 1:8 LVCMOS High-Performance Clock Buffer, 1.8V to 3.3V, TSSOP-16
+K clock buffer lvcmos
+F https://www.idt.com/document/dst/5pb11xx-datasheet
+$ENDCMP
+#
 $CMP 6821
 D Peripheral Interface Adapter 1MHz, DIP-40
 K PIA
@@ -85,6 +91,18 @@ $CMP AD9834
 D 10 bit 75 MHz Complete Direct Digital Synthesizer, 2.3 V to 5.5 V, 20 mW, TSSOP-20
 K Direct Digital Synthesizer DDS
 F http://www.analog.com/static/imported-files/data_sheets/AD9834.pdf
+$ENDCMP
+#
+$CMP AD9850
+D CMOS, 125 MHz, Complete DDS Synthesizer, SSOP-28
+K DDS direct digital synthesizer
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9850.pdf
+$ENDCMP
+#
+$CMP AD9851
+D CMOS, 180 MHz, DDS/DAC Synthesizer, SSOP-28
+K DDS direct digital synthesizer
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9851.pdf
 $ENDCMP
 #
 $CMP AD9910
@@ -219,6 +237,12 @@ K LTC clock converter
 F http://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
 $ENDCMP
 #
+$CMP MAX6816
+D Single Switch  Debouncer, SOT-143
+K Switch Debouncer
+F https://datasheets.maximintegrated.com/en/ds/1896.pdf
+$ENDCMP
+#
 $CMP MC6840
 D Peripheral Interface Adapter 1MHz, DIP-40
 K PIA
@@ -273,6 +297,12 @@ K Direct Memory Access Controller
 F http://pdf.datasheetcatalog.com/datasheets/560/501527_DS.pdf
 $ENDCMP
 #
+$CMP NB3N551MN
+D 1:4 Low Skew Clock Buffer, DFN-8
+K clock buffer
+F https://www.onsemi.com/pub/Collateral/NB3N551-D.PDF
+$ENDCMP
+#
 $CMP PCA9306
 D Dual bidirectional I2C Bus and SMBus voltage level translator
 K Dual bidirectional I2C Bus and SMBus voltage level translator
@@ -313,6 +343,18 @@ $CMP SN65LVDS1DBV
 D High-Speed Differential Line Driver, 630Mbps, SOT-23-5
 K LVDS Driver
 F http://www.ti.com/lit/ds/symlink/sn65lvds1.pdf
+$ENDCMP
+#
+$CMP SN75160BDW
+D Octal general-purpose interface bus transceiver, SOIC-20
+K gpib bidirectional bus transceiver
+F http://www.ti.com/lit/ds/symlink/sn75160b.pdf
+$ENDCMP
+#
+$CMP SN75160BN
+D Octal general-purpose interface bus transceiver, DIP-20
+K gpib bidirectional bus transceiver
+F http://www.ti.com/lit/ds/symlink/sn75160b.pdf
 $ENDCMP
 #
 $CMP TB5D1MD
@@ -361,6 +403,12 @@ $CMP TB5R2DW
 D Quad differential PECL reciver
 K differential PECL reciver
 F http://www.ti.com/lit/ds/symlink/tb5r1.pdf
+$ENDCMP
+#
+$CMP TCA9406DC
+D 2-Bit Bidirectional 1-MHz, I2C Bus and SMBus Voltage-Level Translator With 8-kV HBM ESD
+K Bidirectional 1-MHz I2C SMBus Voltage-Level Translator 8kV HBM ESD
+F www.ti.com/lit/ds/symlink/tca9406.pdf
 $ENDCMP
 #
 $CMP U2270B
