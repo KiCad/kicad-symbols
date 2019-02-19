@@ -151,19 +151,25 @@ F ~
 $ENDCMP
 #
 $CMP AudioJack2_Ground_Switch
-D Audio Jack, 2 Poles (Mono / TS), Switched Pole (Normalling)
+D Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve, Switched Pole (Normalling)
 K audio jack receptacle mono headphones phone TS connector
 F ~
 $ENDCMP
 #
 $CMP AudioJack2_Ground_SwitchT
-D Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)
+D Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve, Switched T Pole (Normalling)
 K audio jack receptacle mono headphones phone TS connector
 F ~
 $ENDCMP
 #
 $CMP AudioJack2_Switch
 D Audio Jack, 2 Poles (Mono / TS), Switched Pole (Normalling)
+K audio jack receptacle mono headphones phone TS connector
+F ~
+$ENDCMP
+#
+$CMP AudioJack2_SwitchT
+D Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)
 K audio jack receptacle mono headphones phone TS connector
 F ~
 $ENDCMP
@@ -175,13 +181,13 @@ F ~
 $ENDCMP
 #
 $CMP AudioJack3_Dual_Ground_Switch
-D D Audio Jack, Dual, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched Poles (Normalling)
+D Audio Jack, Dual, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched Poles (Normalling)
 K audio jack dual receptacle stereo headphones phones TRS connector
 F ~
 $ENDCMP
 #
 $CMP AudioJack3_Dual_Switch
-D D Audio Jack, Dual, 3 Poles (Stereo / TRS), Switched Poles (Normalling)
+D Audio Jack, Dual, 3 Poles (Stereo / TRS), Switched Poles (Normalling)
 K audio jack dual receptacle stereo headphones phones TRS connector
 F ~
 $ENDCMP
@@ -193,20 +199,26 @@ F ~
 $ENDCMP
 #
 $CMP AudioJack3_Ground_Switch
-D D Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched Poles (Normalling)
+D Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched Poles (Normalling)
 K audio jack receptacle stereo headphones phones TRS connector
 F ~
 $ENDCMP
 #
 $CMP AudioJack3_Ground_SwitchTR
-D D Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched TR Poles (Normalling)
+D Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched TR Poles (Normalling)
 K audio jack receptacle stereo headphones phones TRS connector
 F ~
 $ENDCMP
 #
 $CMP AudioJack3_Switch
-D D Audio Jack, 3 Poles (Stereo / TRS), Switched Poles (Normalling)
+D Audio Jack, 3 Poles (Stereo / TRS), Switched Poles (Normalling)
 K audio jack receptacle stereo headphones connector
+F ~
+$ENDCMP
+#
+$CMP AudioJack3_SwitchTR
+D Audio Jack, 3 Poles (Stereo / TRS), Switched TR Poles (Normalling)
+K audio jack receptacle stereo headphones phones TRS connector
 F ~
 $ENDCMP
 #
@@ -219,6 +231,18 @@ $ENDCMP
 $CMP AudioJack4_Ground
 D Audio Jack, 4 Poles (TRRS), Grounded Sleeve
 K audio jack receptacle stereo headphones TRRS connector
+F ~
+$ENDCMP
+#
+$CMP AudioJack4_Ground_SwitchTR1
+D Audio Jack, 4 Poles (Stereo / TRRS), Grounded Sleeve, Switched TR1 Poles (Normalling)
+K audio jack receptacle stereo headphones phones TRS connector
+F ~
+$ENDCMP
+#
+$CMP AudioJack4_SwitchTR1
+D Audio Jack, 4 Poles (Stereo / TRRS), Switched TR1 Poles (Normalling)
+K audio jack receptacle stereo headphones phones TRS connector
 F ~
 $ENDCMP
 #
@@ -280,6 +304,12 @@ $CMP Bus_PCI_32bit_Universal
 D PCI bus connector for universal 5V/3.3V cards
 K PCI 5V 3.3V 3V3
 F http://pinouts.ru/Slots/PCI_pinout.shtml
+$ENDCMP
+#
+$CMP Bus_PCI_Express_Mini
+D Mini-PCI Express bus connector
+K mini pcie
+F ~
 $ENDCMP
 #
 $CMP C64AB
@@ -818,6 +848,12 @@ $ENDCMP
 #
 $CMP Conn_Coaxial_x2
 D double coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
+K BNC SMA SMB SMC coaxial connector CINCH RCA
+F  ~
+$ENDCMP
+#
+$CMP Conn_Coaxial_x2_Isolated
+D coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
 K BNC SMA SMB SMC coaxial connector CINCH RCA
 F  ~
 $ENDCMP
@@ -1772,6 +1808,12 @@ $ENDCMP
 #
 $CMP XLR5
 D XLR Connector, Male or Female, 5 Pins
+K xlr connector
+F  ~
+$ENDCMP
+#
+$CMP XLR6
+D XLR Connector, Male or Female, 6 Pins
 K xlr connector
 F  ~
 $ENDCMP
