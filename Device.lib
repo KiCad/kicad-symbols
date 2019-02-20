@@ -4804,7 +4804,7 @@ ENDDEF
 #
 # Opamp_Dual_Generic
 #
-DEF Opamp_Dual_Generic U 0 20 Y Y 3 F N
+DEF Opamp_Dual_Generic U 0 20 Y Y 3 L N
 F0 "U" 0 200 50 H V L CNN
 F1 "Opamp_Dual_Generic" 0 -200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
@@ -4834,7 +4834,7 @@ ENDDEF
 #
 # Opamp_Quad_Generic
 #
-DEF Opamp_Quad_Generic U 0 20 Y Y 5 F N
+DEF Opamp_Quad_Generic U 0 20 Y Y 5 L N
 F0 "U" 0 200 50 H V L CNN
 F1 "Opamp_Quad_Generic" 0 -200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
