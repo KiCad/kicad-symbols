@@ -411,6 +411,30 @@ K Bidirectional 1-MHz I2C SMBus Voltage-Level Translator 8kV HBM ESD
 F www.ti.com/lit/ds/symlink/tca9406.pdf
 $ENDCMP
 #
+$CMP TCA9800
+D Level-Translating I2C Bus Buffer/Repeater 0.54mA Current Source, VSSOP-8
+K I2C buffer repeater
+F http://www.ti.com/lit/ds/symlink/tca9800.pdf
+$ENDCMP
+#
+$CMP TCA9801
+D Level-Translating I2C Bus Buffer/Repeater 1.1mA Current Source, VSSOP-8
+K I2C buffer repeater
+F http://www.ti.com/lit/ds/symlink/tca9801.pdf
+$ENDCMP
+#
+$CMP TCA9802
+D Level-Translating I2C Bus Buffer/Repeater 2.2mA Current Source, VSSOP-8
+K I2C buffer repeater
+F http://www.ti.com/lit/ds/symlink/tca9802.pdf
+$ENDCMP
+#
+$CMP TCA9803
+D Level-Translating I2C Bus Buffer/Repeater 3.3mA Current Source, VSSOP-8
+K I2C buffer repeater
+F http://www.ti.com/lit/ds/symlink/tca9803.pdf
+$ENDCMP
+#
 $CMP U2270B
 D IDIC read/write base stations in contactless identification and immobilizer systems, SO-16
 K IDIC read/write base stations in contactless identification and immobilizer systems
