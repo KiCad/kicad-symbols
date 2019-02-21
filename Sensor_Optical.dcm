@@ -36,6 +36,18 @@ K ambient light sensor i2c
 F https://docs.broadcom.com/docs/AV02-2315EN
 $ENDCMP
 #
+$CMP APDS-9306
+D Ambient Light Sensor, I2C interface, 1.7-3.6V, LGA-8
+K opto ambient light sensor
+F https://docs.broadcom.com/docs/AV02-4755EN
+$ENDCMP
+#
+$CMP APDS-9306-065
+D Ambient Light Sensor, I2C interface, 1.7-3.6V, DFN-6
+K opto ambient light sensor
+F https://docs.broadcom.com/docs/AV02-4755EN
+$ENDCMP
+#
 $CMP AS7261
 D Spectral Sensing Engine, 6-Channel XYZ Spectral_ID
 K 6-Channel XYZ Spectral_ID Device Electronic Shutter Smart Interface i2c uart

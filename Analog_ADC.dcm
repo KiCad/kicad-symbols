@@ -528,7 +528,7 @@ F http://www.analog.com/media/en/technical-documentation/data-sheets/235818f.pdf
 $ENDCMP
 #
 $CMP LTC2508CDKD-32
-D 32-Bit Oversampling ADC with Configurable Digital Filter, 0°0C to 70°C, DFN-24 package
+D 32-Bit Oversampling ADC with Configurable Digital Filter, 0°C to 70°C, DFN-24 package
 K LT ADC 32bit
 F http://cds.linear.com/docs/en/datasheet/250832fa.pdf
 $ENDCMP
@@ -633,6 +633,12 @@ $CMP MCP3201
 D 2.7V 12-Bit A/D Converter with SPI™ Serial Interface, PDIP-8/SOIC-8/MSOP-8/TSSOP-8
 K 12-Bit Differential ADC SPI 1ch
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21290D.pdf
+$ENDCMP
+#
+$CMP MCP3202
+D A/D Converter, 12-Bit, 2-Channel, SPI Interface, 2.7V-5.5V
+K 12bit ADC Reference Single Supply SPI 2ch
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21034D.pdf
 $ENDCMP
 #
 $CMP MCP3204

@@ -1128,6 +1128,42 @@ K quad opamp
 F http://www.ti.com/lit/ds/symlink/opa376.pdf
 $ENDCMP
 #
+$CMP OPA842xD
+D 200MHz, Low Distortion, Unity-Gain Stable, Voltage Feedback Operational Amplifier, SOIC-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa842.pdf
+$ENDCMP
+#
+$CMP OPA842xDBV
+D 200MHz, Low Distortion, Unity-Gain Stable, Voltage Feedback Operational Amplifier, SOT23-5
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa842.pdf
+$ENDCMP
+#
+$CMP OPA843xD
+D 800MHz, Wideband, Low Distortion, Medium Gain, Voltage-Feedback Operational Amplifier, SOIC-8
+K single opamp low distortion
+F http://www.ti.com/lit/ds/symlink/opa843.pdf
+$ENDCMP
+#
+$CMP OPA843xDBV
+D 800MHz, Wideband, Low Distortion, Medium Gain, Voltage-Feedback Operational Amplifier, SOT-23-5
+K single opamp low distortion
+F http://www.ti.com/lit/ds/symlink/opa843.pdf
+$ENDCMP
+#
+$CMP OPA846xD
+D 1750MHz, Wideband, Low-Noise, Voltage Feedback Operational Amplifier, SOIC-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa846.pdf
+$ENDCMP
+#
+$CMP OPA846xDBV
+D 1750MHz, Wideband, Low-Noise, Voltage Feedback Operational Amplifier, SOT23-5
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa846.pdf
+$ENDCMP
+#
 $CMP OPA847xD
 D Single Low-Power, 3.9GHz, Wideband, Ultra-Low Noise, Voltage-Feedback Operational Amplifier with Disable, SO-8
 K single opamp wideband low-power
@@ -1306,6 +1342,12 @@ $CMP TLV2372
 D Dual Rail-to-Rail Input/Output Operational Amplifier, DIP-8/SOIC-8/VSSOP-8
 K dual opamp
 F http://www.ti.com/lit/ds/symlink/tlv2375.pdf
+$ENDCMP
+#
+$CMP TLV6001DCK
+D Low-power, Rail-to-rail, 1MHz Operational Amplifier, SOT-353
+K op amp operational amplifier
+F http://www.ti.com/lit/ds/symlink/tlv6001.pdf
 $ENDCMP
 #
 $CMP TS881xCx

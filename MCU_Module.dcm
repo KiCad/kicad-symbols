@@ -72,6 +72,12 @@ K STM32 Nucleo ST
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/data_brief/DM00105918.pdf
 $ENDCMP
 #
+$CMP Omega2+
+D Onion Omega2+ Module
+K onion omega module
+F https://docs.onion.io/omega2-docs/omega2p.html
+$ENDCMP
+#
 $CMP VisionSOM-6UL
 D i.MX6-UL NXP ARM Cortex-A7 696MHz single core industrial SoM computer
 K somlabs module
@@ -82,6 +88,12 @@ $CMP VisionSOM-6ULL
 D i.MX6-ULL NXP ARM Cortex-A7 900MHz single core industrial SoM computer
 K somlabs module
 F https://wiki.somlabs.com/extensions/JZPDFGen/pdf/VisionSOM-6ULL%20Datasheet%20and%20Pinout-21.pdf
+$ENDCMP
+#
+$CMP VisionSOM-RT
+D i.MX-RT NXP ARM Cortex-M7 528MHz single core industrial SoM computer
+K somlabs module
+F https://wiki.somlabs.com/index.php/VisionSOM-RT_Datasheet_and_Pinout
 $ENDCMP
 #
 #End Doc Library
