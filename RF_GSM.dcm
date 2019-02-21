@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BC66
+D Quectel NB-IoT Global, AT Command Set
+K NB-IoT Data SMS
+F https://www.quectel.com/UploadImage/Downlad/Quectel_BC66_Hardware_Design_V1.1.pdf
+$ENDCMP
+#
 $CMP SARA-U201
 D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, AT Command Set, Worldwide , LGA-96
 K GSM HSPA 2G 3G
