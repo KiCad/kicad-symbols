@@ -5058,6 +5058,18 @@ K Step-Up Boost DC-DC Regulator Adjustable
 F http://www.ti.com/lit/ds/symlink/tps61040.pdf
 $ENDCMP
 #
+$CMP TPS61089
+D 7A Boost Converters, Adjustable output voltage (PFM), VQFN-11
+K Adjustable 7A boost converter
+F http://www.ti.com/lit/ds/symlink/tps61089.pdf
+$ENDCMP
+#
+$CMP TPS610891
+D 7A Boost Converters, Adjustable output voltage (ForcedPWM), VQFN-11
+K Adjustable 7A boost converter
+F http://www.ti.com/lit/ds/symlink/tps61089.pdf
+$ENDCMP
+#
 $CMP TPS61090
 D 2A Step-Up DC-DC Converter for Batteries, Isw up to 2500mA, Adjustable output voltage, QFN-16
 K Adjustable 2A battery boost converter
