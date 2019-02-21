@@ -42,6 +42,12 @@ K clock distribution LVPECL LVDS CMOS
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD9514.pdf
 $ENDCMP
 #
+$CMP AD9515
+D 1.6 GHz, 2 Output, Clock Distribution IC, Divider, Delay Adjust, LFCSP-32
+K clock distribution LVPECL LVDS CMOS
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD9515.pdf
+$ENDCMP
+#
 $CMP ICM7209
 D Timebase generator, DIP-8
 K Timebase generator
