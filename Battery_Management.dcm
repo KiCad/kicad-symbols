@@ -168,28 +168,28 @@ K Step-down  battery charger, Lithium Phosphate ( LiFePO4), Lead (Pb), Lithium+ 
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3652fe.pdf
 $ENDCMP
 #
-$CMP LTC3553
+$CMP 3553fc
 D Micropower USB Power Manager With Li-Ion Charger, LDO and Buck Regulator, 4.2 V float, QFN-20
 K USB PMIC
-F https://www.analog.com/media/en/technical-documentation/data-sheets/ltc3553.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3553fc.pdf
 $ENDCMP
 #
 $CMP LTC3555
 D High Efficiency USB Power Manager + Triple Step-Down DC/DC, 4.2 V float, QFN-28
 K USB PMIC
-F https://www.analog.com/media/en/technical-documentation/data-sheets/ltc3553.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3553fc.pdf
 $ENDCMP
 #
 $CMP LTC3555-1
 D High Efficiency USB Power Manager + Triple Step-Down DC/DC, instant-on power, 4.2 V float, QFN-28
 K USB PMIC
-F https://www.analog.com/media/en/technical-documentation/data-sheets/ltc3553.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3553fc.pdf
 $ENDCMP
 #
 $CMP LTC3555-3
 D High Efficiency USB Power Manager + Triple Step-Down DC/DC, instant-on power, 4.1 V float, QFN-28
 K USB PMIC
-F https://www.analog.com/media/en/technical-documentation/data-sheets/ltc3553.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3553fc.pdf
 $ENDCMP
 #
 $CMP LTC4001
