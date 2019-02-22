@@ -564,6 +564,12 @@ K switch power FET sequence
 F http://www.analog.com/media/en/technical-documentation/data-sheets/4417f.pdf
 $ENDCMP
 #
+$CMP TPS2121
+D Priority Power MUX with Seamless Switchover, VQFN-HR
+K Power MUX
+F http://www.ti.com/lit/ds/symlink/tps2120.pdf
+$ENDCMP
+#
 $CMP MIC2026-1BM
 D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, in SOIC-8 Package
 K mosfet distribution
