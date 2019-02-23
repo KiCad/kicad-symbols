@@ -67,7 +67,7 @@ F http://www.fujitsu.com/global/documents/products/devices/semiconductor/fram/li
 $ENDCMP
 #
 $CMP MB85RS16
-D FRAM memory 16K (2K x 8) with SPI interface, SOIC-8
+D FRAM memory 16K (2K x 8) with SPI interface, SOP-8
 K FRAM SPI 3.3V
 F http://www.fujitsu.com/global/documents/products/devices/semiconductor/fram/lineup/MB85RS16-DS501-00014-8v0-E.pdf
 $ENDCMP
