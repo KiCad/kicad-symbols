@@ -336,6 +336,12 @@ K High-Speed CAN Transceiver
 F http://www.ti.com/lit/ds/symlink/tcan337.pdf
 $ENDCMP
 #
+$CMP TCAN4550
+D CAN FD Controller with Integrated Transceiver
+K CAN FD Controller Transceiver SPI
+F http://www.ti.com/lit/ds/symlink/tcan4550.pdf
+$ENDCMP
+#
 $CMP TJA1021T
 D LIN 2.1/SAE J2602 transceiver, SOIC-8
 K LIN 2.1 SAE J2602 Transceiver
