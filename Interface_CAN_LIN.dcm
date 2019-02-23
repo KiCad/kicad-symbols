@@ -456,4 +456,28 @@ K can transceiver isolated protected
 F https://www.nxp.com/docs/en/data-sheet/TJA1052I.pdf
 $ENDCMP
 #
+$CMP TJA1145T
+D High-speed CAN transceiver for partial networking, SOIC-14
+K CAN FD High Speed CAN Transceiver Sleep VIO Partial Networking SPI
+F https://www.nxp.com/docs/en/data-sheet/TJA1145.pdf
+$ENDCMP
+#
+$CMP TJA1145T-FD
+D High-speed CAN transceiver for partial networking with FD-passive function, SOIC-14
+K CAN FD High Speed CAN Transceiver Sleep VIO Partial Networking SPI
+F https://www.nxp.com/docs/en/data-sheet/TJA1145.pdf
+$ENDCMP
+#
+$CMP TJA1145TK
+D High-speed CAN transceiver for partial networking, DFN-14
+K CAN FD High Speed CAN Transceiver Sleep VIO Partial Networking SPI
+F https://www.nxp.com/docs/en/data-sheet/TJA1145.pdf
+$ENDCMP
+#
+$CMP TJA1145TK-FD
+D High-speed CAN transceiver for partial networking with FD-passive function, DFN-14
+K CAN FD High Speed CAN Transceiver Sleep VIO Partial Networking SPI
+F https://www.nxp.com/docs/en/data-sheet/TJA1145.pdf
+$ENDCMP
+#
 #End Doc Library
