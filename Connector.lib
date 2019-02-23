@@ -8347,9 +8347,7 @@ F1 "Conn_ARM_JTAG_SWD_10" -100 550 50 H V R BNN
 F2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" 50 -550 50 H I L TNN
 F3 "" -350 -1250 50 V I C CNN
 $FPLIST
- Pin?Header*
- *IDC*
- Conn*:*_2x*
+ PinHeader?2x05?P1.27mm*
 $ENDFPLIST
 DRAW
 S -400 500 400 -500 0 1 10 f
