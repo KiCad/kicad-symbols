@@ -20,19 +20,19 @@ $ENDCMP
 #
 $CMP KX022-1020
 D 3-Axis Accelerometer, 2/4/8g range, 256 byte buffer, I2C/SPI interface, LGA-12
-K 3-axis accelerometer spi mems
+K 3-axis accelerometer spi i2c mems
 F http://kionixfs.kionix.com/en/datasheet/KX022-1020%20Specifications%20Rev%2012.0.pdf
 $ENDCMP
 #
 $CMP KX122-1042
 D 3-Axis Accelerometer, 2/4/8g range, 2048 byte buffer, I2C/SPI interface, LGA-12
-K 3-axis accelerometer spi mems
+K 3-axis accelerometer spi i2c mems
 F http://kionixfs.kionix.com/en/datasheet/KX112-1042-Specifications-Rev-6.0.pdf
 $ENDCMP
 #
 $CMP KX222-1054
 D 3-Axis Accelerometer, 8/16/32g range, 2048 byte buffer, I2C/SPI interface, LGA-12
-K 3-axis accelerometer spi mems
+K 3-axis accelerometer spi i2c mems
 F http://kionixfs.kionix.com/en/datasheet/KX222-1054-Specifications-Rev-2.0.pdf
 $ENDCMP
 #
