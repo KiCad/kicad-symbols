@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CSD17313Q2
+D 5A Id, 30V Vds, NexFET N-Channel Power MOSFET, 24mOhm Ron, SON-6
+K NexFET Power MOSFET N-MOS
+F http://www.ti.com/lit/ds/symlink/csd17313q2.pdf
+$ENDCMP
+#
+$CMP CSD25302Q2
+D 5A Id, 20V Vds, NexFET P-Channel Power MOSFET, 39mOhm Ron, SON-6
+K NexFET Power MOSFET P-MOS
+F https://www.ti.com/lit/ds/slps234b/slps234b.pdf
+$ENDCMP
+#
 $CMP 2N7000
 D 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92
 K N-Channel MOSFET Logic-Level
