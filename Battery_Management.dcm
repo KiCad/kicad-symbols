@@ -18,6 +18,18 @@ K battery nickel cadmium metal hydride
 F http://www.ti.com/lit/ds/symlink/bq2003.pdf
 $ENDCMP
 #
+$CMP BQ24005
+D 2-Cell Li-ION Charge Management IC, HTSSOP-20
+K 2-Cell Li-ION Charge
+F http://www.ti.com/lit/ds/symlink/bq24006.pdf
+$ENDCMP
+#
+$CMP BQ24006
+D 2-Cell Li-ION Charge Management IC, HTSSOP-20
+K 2-Cell Li-ION Charge
+F http://www.ti.com/lit/ds/symlink/bq24006.pdf
+$ENDCMP
+#
 $CMP BQ24012
 D Single-Chip Li-Ion Charge Management IC, DFN-10
 K Batter, Charger, Li-Ion
