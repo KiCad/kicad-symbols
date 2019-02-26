@@ -180,6 +180,30 @@ K Digital Isolator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1410_1411_1412.pdf
 $ENDCMP
 #
+$CMP ADuM260N
+D 5.0 kV RMS, 6-Channel Digital Isolator, 0 reverse channels, SOIC-16
+K digital isolator galvanic isopower
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM260N-261N-262N-263N.pdf
+$ENDCMP
+#
+$CMP ADuM261N
+D 5.0 kV RMS, 6-Channel Digital Isolator, 1 reverse channels, SOIC-16
+K digital isolator galvanic isopower
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM260N-261N-262N-263N.pdf
+$ENDCMP
+#
+$CMP ADuM262N
+D 5.0 kV RMS, 6-Channel Digital Isolator, 2 reverse channels, SOIC-16
+K digital isolator galvanic isopower
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM260N-261N-262N-263N.pdf
+$ENDCMP
+#
+$CMP ADuM263N
+D 5.0 kV RMS, 6-Channel Digital Isolator, 3 reverse channels, SOIC-16
+K digital isolator galvanic isopower
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM260N-261N-262N-263N.pdf
+$ENDCMP
+#
 $CMP ADuM5401
 D Quad-Channel 2.5kV isolator with integrated isoPower dc-dc converter, 3 Input / 1 output, SOIC-16
 K digital isolator galvanic isopower
