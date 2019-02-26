@@ -978,6 +978,12 @@ K NexFET Power MOSFET N-MOS
 F http://www.ti.com/lit/gpn/csd17312q5
 $ENDCMP
 #
+$CMP CSD17313Q2
+D 5A Id, 30V Vds, NexFET N-Channel Power MOSFET, 24mOhm Ron, SON-6
+K NexFET Power MOSFET N-MOS
+F http://www.ti.com/lit/ds/symlink/csd17313q2.pdf
+$ENDCMP
+#
 $CMP CSD17322Q5A
 D 100A Id, 30V Vds, NexFET N-Channel Power MOSFET, 12.4mOhm Ron, Qg (typ) 3.6nC, SON8 5x6mm
 K NexFET Power MOSFET N-MOS
@@ -1216,6 +1222,12 @@ $CMP CSD19537Q3
 D 50A Id, 100V Vds, NexFET N-Channel Power MOSFET, 13mOhm Ron, Qg Typ 16.0nC, VSON8 3.3x3.3mm
 K NexFET Power MOSFET N-MOS
 F http://www.ti.com/lit/ds/symlink/csd19537q3.pdf
+$ENDCMP
+#
+$CMP CSD25302Q2
+D 5A Id, 20V Vds, NexFET P-Channel Power MOSFET, 39mOhm Ron, SON-6
+K NexFET Power MOSFET P-MOS
+F https://www.ti.com/lit/ds/slps234b/slps234b.pdf
 $ENDCMP
 #
 $CMP DMG2302U
