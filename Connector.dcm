@@ -336,6 +336,12 @@ K connector 3-pin PD-30 power DIN
 F http://www.cui.com/product/resource/pd-30.pdf
 $ENDCMP
 #
+$CMP CUI_PD-30S
+D 3 pin connector, PD-30S
+K connector 3-pin PD-30S power DIN
+F http://www.cui.com/product/resource/pd-30.pdf
+$ENDCMP
+#
 $CMP Conn_01x01_Female
 D Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
