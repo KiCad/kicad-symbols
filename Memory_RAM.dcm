@@ -1,8 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 628128
-D RAM 128 Ko
-K RAM 128KO
+$CMP 628128_DIP32_SSOP32
+D 128K x 8 High-Speed CMOS Static RAM, 55/70ns, DIP/SSOP-32
+K RAM SRAM CMOS
+F http://www.futurlec.com/Datasheet/Memory/628128.pdf
+$ENDCMP
+#
+$CMP 628128_TSOP32
+D 128K x 8 High-Speed CMOS Static RAM, 55/70ns, TSOP-I-32
+K RAM SRAM CMOS
+F http://www.futurlec.com/Datasheet/Memory/628128.pdf
 $ENDCMP
 #
 $CMP AS4C4M16SA

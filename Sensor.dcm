@@ -3,7 +3,7 @@ EESchema-DOCLIB  Version 2.0
 $CMP ADE7758
 D Poly Phase Multifunction Energy Metering, SO-24
 K Energy Metering
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADE7758.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADE7758.pdf
 $ENDCMP
 #
 $CMP AS3935
@@ -36,12 +36,6 @@ K Digital temperature humidity sensor
 F http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
 $ENDCMP
 #
-$CMP Geiger-Muller
-D Generic Geiger-Müller tube
-K Geiger-Müller
-F ~
-$ENDCMP
-#
 $CMP INA260
 D Current/power/voltage monitor with Integrated 2mΩ Shunt Resistor, 2.7V - 5.5V, I2C, TSSOP-16
 K Current/power/voltage monitor
@@ -51,13 +45,19 @@ $ENDCMP
 $CMP LTC2990
 D Temperature Voltage and Current Monitor, I2C Interface, MSOP-10
 K Temperature Voltage Current Monitor I2C AFE
-F http://cds.linear.com/docs/en/datasheet/2990fe.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2990.pdf
 $ENDCMP
 #
 $CMP MAX30102
 D Heart Rate Sensor, 14-OLGA
 K Heart Rate
 F https://datasheets.maximintegrated.com/en/ds/MAX30102.pdf
+$ENDCMP
+#
+$CMP Nuclear-Radiation_Detector
+D Generic radiation detector
+K nuclear ionising radiation sensor geiger mueller muller tube neutron counter ionization chamber
+F ~
 $ENDCMP
 #
 $CMP SHT1x
