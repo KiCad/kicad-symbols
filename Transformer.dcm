@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 5400BL15B050
+D 4.9-5.9GHz 1:1 RF Transformer, Unbalanced to Balanced
+K balun rf transformer
+F https://www.johansontechnology.com/datasheets/5400BL15B050/5400BL15B050.pdf
+$ENDCMP
+#
 $CMP ADT1-1
 D 0.15-400MHz 1:1 RF Transformer, Balanced to Balanced, CD542
 K Mini-Circuits RF Transformer
@@ -370,6 +376,12 @@ $CMP PE-68386NL
 D SMT Gate Drive Transformer, 1:1
 K pulse
 F https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf
+$ENDCMP
+#
+$CMP PT61017PEL
+D Ethernet LAN 10/100 Base-Tx Transformer with Center Taps
+K single port ethernet transformer poe center-tap
+F https://www.bourns.com/docs/Product-Datasheets/PT61017PEL.pdf
 $ENDCMP
 #
 $CMP TEZ0.5-D-1

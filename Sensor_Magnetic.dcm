@@ -84,6 +84,24 @@ K hall switch
 F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
 $ENDCMP
 #
+$CMP AH1806-P
+D High Sensitivity Micropower Omnipolar Hall-Effect Switch, SIP-3
+K hall switch
+F https://www.diodes.com/assets/Datasheets/AH1806.pdf
+$ENDCMP
+#
+$CMP AH1806-W
+D High Sensitivity Micropower Omnipolar Hall-Effect Switch, SC-59
+K hall switch
+F https://www.diodes.com/assets/Datasheets/AH1806.pdf
+$ENDCMP
+#
+$CMP AH1806-Z
+D High Sensitivity Micropower Omnipolar Hall-Effect Switch, SOT-553
+K hall switch
+F https://www.diodes.com/assets/Datasheets/AH1806.pdf
+$ENDCMP
+#
 $CMP AK7452
 D Magnetic rotary angle sensor, 14-bit, SPI interface, ABZ, UVW, TSSOP-16
 K sensor magnetic hall position rotation spi

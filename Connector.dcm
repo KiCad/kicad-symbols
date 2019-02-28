@@ -306,6 +306,12 @@ K PCI 5V 3.3V 3V3
 F http://pinouts.ru/Slots/PCI_pinout.shtml
 $ENDCMP
 #
+$CMP Bus_PCI_Express_Mini
+D Mini-PCI Express bus connector
+K mini pcie
+F ~
+$ENDCMP
+#
 $CMP C64AB
 D Connector Europe 64 contacts ranges A,B
 K connector DIN
@@ -1802,6 +1808,12 @@ $ENDCMP
 #
 $CMP XLR5
 D XLR Connector, Male or Female, 5 Pins
+K xlr connector
+F  ~
+$ENDCMP
+#
+$CMP XLR6
+D XLR Connector, Male or Female, 6 Pins
 K xlr connector
 F  ~
 $ENDCMP
