@@ -1398,10 +1398,40 @@ K current transducer
 F https://www.lem.com/sites/default/files/products_datasheets/hx%203_50-p_sp2_e%20v07.pdf
 $ENDCMP
 #
-$CMP L6599
-D High Voltage Resonant Controller, DIP-16/SOIC-16
-K SMPS controller
-F www.st.com/resource/en/datasheet/l6599.pdf
+$CMP IR2175
+D Linear Current Sensing IC, PWM output, 600V, PDIP-8/SOIC-8
+K half bridge current sense
+F https://www.infineon.com/dgdl/ir2175.pdf?fileId=5546d462533600a4015355c9161216c6
+$ENDCMP
+#
+$CMP IR21771S
+D Phase Current Sensor IC for AC Motor Control, PWM output, 600V, SOIC-16W
+K half bridge current sense
+F https://www.infineon.com/dgdl/ir21771s.pdf?fileId=5546d462533600a4015355c9222c16c8
+$ENDCMP
+#
+$CMP IR2177S
+D Phase Current Sensor IC for AC Motor Control, PWM and ADC output, 600V, SOIC-16W
+K half bridge current sense
+F https://www.infineon.com/dgdl/ir2177s.pdf?fileId=5546d462533600a4015355c92e7416cb
+$ENDCMP
+#
+$CMP IR22771S
+D Phase Current Sensor IC for AC Motor Control, PWM output, 1200V, SOIC-16W
+K half bridge current sense
+F https://www.infineon.com/dgdl/ir21771s.pdf?fileId=5546d462533600a4015355c9222c16c8
+$ENDCMP
+#
+$CMP IR2277S
+D Phase Current Sensor IC for AC Motor Control, PWM and ADC output, 1200V, SOIC-16W
+K half bridge current sense
+F https://www.infineon.com/dgdl/ir2177s.pdf?fileId=5546d462533600a4015355c92e7416cb
+$ENDCMP
+#
+$CMP IR25750L
+D Current Sensing IC, 600V, SOT-23-5
+K single current sense
+F https://www.infineon.com/dgdl/ir25750lpbf.pdf?fileId=5546d462533600a4015355ca1d0e16f7
 $ENDCMP
 #
 $CMP LA100-P
