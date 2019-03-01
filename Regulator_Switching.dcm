@@ -1416,6 +1416,12 @@ K DC-DC buck conveter step down voltage regulator
 F http://www.ti.com/lit/ds/symlink/lm3670.pdf
 $ENDCMP
 #
+$CMP LM5001MA
+D 1A, High Voltage (75V) Switch-Mode Regulator, Adjustable Output Voltage, SOIC-8
+K High-Voltage Switch-mode Regulator Flyback SEPIC Boost
+F http://www.ti.com/lit/ds/symlink/lm5001.pdf
+$ENDCMP
+#
 $CMP LM5006MM
 D 600 mA, 80V Constant On-Time Buck Switching Regulator, MSOP-10
 K Constant On-Time Buck Switching Regulator
