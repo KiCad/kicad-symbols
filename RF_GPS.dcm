@@ -1,5 +1,83 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LEA-M8F
+D GNSS Module LEA M8, VCC 3V to 3.6V
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/products/documents/LEA-M8F_DataSheet_%28UBX-14001772%29.pdf
+$ENDCMP
+#
+$CMP LEA-M8S
+D GNSS Module LEA M8, VCC 2.7V to 3.6V
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/LEA-M8S-FW3_DataSheet_%28UBX-16010205%29.pdf
+$ENDCMP
+#
+$CMP LEA-M8T
+D GNSS Module LEA M8, VCC 2.7V to 3.6V
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/NEO-LEA-M8T-FW3_DataSheet_%28UBX-15025193%29.pdf
+$ENDCMP
+#
+$CMP MAX-8C
+D GNSS Module MAX M8, VCC 1.65V to 3.6V
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/MAX-8_DataSheet_%28UBX-16000093%29.pdf
+$ENDCMP
+#
+$CMP MAX-8Q
+D GNSS Module M8, VCC 2.7V to 3.6V
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/MAX-8_DataSheet_%28UBX-16000093%29.pdf
+$ENDCMP
+#
+$CMP MAX-M8C
+D GNSS Module MAX M8, VCC 1.65V to 3.6V
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/MAX-M8-FW3_DataSheet_%28UBX-15031506%29.pdf
+$ENDCMP
+#
+$CMP MAX-M8Q
+D GNSS Module MAX M8, VCC 2.7V to 3.6V
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/MAX-M8-FW3_DataSheet_%28UBX-15031506%29.pdf
+$ENDCMP
+#
+$CMP MAX-M8W
+D GNSS Module MAX M8, VCC 2.7V to 3.6V
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/MAX-M8-FW3_DataSheet_%28UBX-15031506%29.pdf
+$ENDCMP
+#
+$CMP NEO-8Q
+D GNSS Module NEO 8, VCC 1.65V to 3.6V
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/NEO-8Q_DataSheet_%28UBX-15031913%29.pdf
+$ENDCMP
+#
+$CMP NEO-M8M
+D GNSS Module NEO M8, VCC 2.7V to 3.6V
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_%28UBX-15031086%29.pdf
+$ENDCMP
+#
+$CMP NEO-M8N
+D GNSS Module NEO M8, VCC 2.7V to 3.6V
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_%28UBX-15031086%29.pdf
+$ENDCMP
+#
+$CMP NEO-M8Q
+D GNSS Module NEO M8, VCC 2.7V to 3.6V
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_%28UBX-15031086%29.pdf
+$ENDCMP
+#
+$CMP NEO-M8T
+D GNSS Module NEO M8, VCC 2.7V to 3.6V
+K ublox GPS GNSS module
+F https://www.u-blox.com/sites/default/files/NEO-LEA-M8T-FW3_DataSheet_%28UBX-15025193%29.pdf
+$ENDCMP
+#
 $CMP RXM-GPS-FM
 D Module GPS Low Power, 14mA tracking, 22 channels
 K gps low-power
@@ -10,6 +88,12 @@ $CMP RXM-GPS-RM
 D Module GPS Low Power, 14mA tracking, 22 channels
 K gps low-power
 F https://linxtechnologies.com/wp/wp-content/uploads/rxm-gps-rm.pdf
+$ENDCMP
+#
+$CMP SIM28ML
+D Standalone GPS/A-GPS receiver module, built-in LNA, -165dBm sensitivity, 2.8-4.3V, SMD
+K GPS A-GPS receiver
+F https://simcom.ee/documents/SIM28ML/SIM28ML_Hardware%20Design_V1.01.pdf
 $ENDCMP
 #
 $CMP ublox_SAM-M8Q
