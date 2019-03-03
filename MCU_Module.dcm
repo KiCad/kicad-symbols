@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2AJVP-OMEGA2S
+D The Onion Omega2S is a Wi-Fi enabled, Linux compute module, designed specifically for IoT applications. It provides a drop-in, low-power solution for building IoT devices.
+K IoT, RF, Linux
+F https://github.com/OnionIoT/Omega2/raw/master/Documents/Omega2S%20Datasheet.pdf
+$ENDCMP
+#
 $CMP Adafruit_HUZZAH_ESP8266_breakout
 D 32-bit microcontroller module with WiFi
 K ESP8266 WiFi microcontroller
