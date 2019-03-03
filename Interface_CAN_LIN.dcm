@@ -288,6 +288,12 @@ K can transeiver ti
 F http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf
 $ENDCMP
 #
+$CMP TCAN1043xDxQ1
+D High-speed CAN-FD Transceiver with Sleep Mode, SOIC-14
+K CAN FD High Speed CAN Transceiver Sleep VIO
+F http://www.ti.com/lit/ds/symlink/tcan1043-q1.pdf
+$ENDCMP
+#
 $CMP TCAN330
 D High-Speed CAN Transceiver, 1Mbps, 3.3V supply, silent mode, shutdown mode, SOT-23-8/SOIC-8
 K High-Speed CAN Transceiver
