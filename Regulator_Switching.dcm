@@ -2424,6 +2424,12 @@ K DC/DC converter CCD Bias Boost
 F http://cds.linear.com/docs/en/datasheet/3472f.pdf
 $ENDCMP
 #
+$CMP LT3748xMS
+D 100V Isolated Flyback Controller, MSOP-16
+K isolated flyback controller
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3748fb.pdf
+$ENDCMP
+#
 $CMP LT3757AEDD
 D Boost, flyback, SEPIC and inverting regulator, improved load transient performance, DFN-10
 K Boost flyback SEPIC inverting DC/DC regulator
