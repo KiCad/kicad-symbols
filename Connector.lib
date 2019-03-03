@@ -8380,7 +8380,7 @@ F1 "Conn_ARM_JTAG_SWD_20" -200 750 50 H V R BNN
 F2 "" 450 -1050 50 H I L TNN
 F3 "" -350 -1250 50 V I C CNN
 $FPLIST
- IDC*Header*Straight*
+ IDC*Header*P2.54mm*
  PinHeader*2x10*P2.54mm*
 $ENDFPLIST
 DRAW
