@@ -2923,14 +2923,14 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/mic4690.pdf
 $ENDCMP
 #
 $CMP MP171GJ
-D 700V Non-Isolated Regulator up to 60mA Output Current
-K MP171 regulator switching
+D 60mA Non-Isolated Off-Line Regulator, 700V Input Voltage, Adjustable Output Voltage, TSOT-23-5
+K regulator switching adjustable
 F https://www.monolithicpower.com/pub/media/document/m/p/mp171_r1.01.pdf
 $ENDCMP
 #
 $CMP MP171GS
-D 700V Non-Isolated Regulator up to 60mA Output Current
-K MP171 regulator switching
+D 60mA Non-Isolated Off-Line Regulator, 700V Input Voltage, Adjustable Output Voltage, SOIC-8
+K regulator switching adjustable
 F https://www.monolithicpower.com/pub/media/document/m/p/mp171_r1.01.pdf
 $ENDCMP
 #
