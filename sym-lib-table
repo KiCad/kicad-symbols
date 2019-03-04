@@ -66,6 +66,7 @@
   (lib (name Interface_Ethernet)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface_Ethernet.lib)(options "")(descr "Ethernet interface symbols"))
   (lib (name Interface_Expansion)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface_Expansion.lib)(options "")(descr "I/O expansion devices, shift registers, etc"))
   (lib (name Interface_HID)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface_HID.lib)(options "")(descr "Human Interface Device (HID) symbols"))
+  (lib (name Interface_HDMI)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface_HDMI.lib)(options "")(descr "High Definition Multimedia Interface (HDMI) symbols"))
   (lib (name Interface_LineDriver)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface_LineDriver.lib)(options "")(descr "Line driver interface symbols"))
   (lib (name Interface_Optical)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface_Optical.lib)(options "")(descr "Optical interfaces (IR receivers)"))
   (lib (name Interface_Telecom)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface_Telecom.lib)(options "")(descr "Telecom interface symbols"))
