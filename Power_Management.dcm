@@ -564,10 +564,10 @@ K switch power FET sequence
 F http://www.analog.com/media/en/technical-documentation/data-sheets/4417f.pdf
 $ENDCMP
 #
-$CMP TPS2121
-D Priority Power MUX with Seamless Switchover, VQFN-HR
-K Power MUX
-F http://www.ti.com/lit/ds/symlink/tps2120.pdf
+$CMP MAX8586
+D Single 1.2A USB Current Limiting Switch
+K 1-channel USB current limiting power switch
+F https://datasheets.maximintegrated.com/en/ds/MAX8586.pdf
 $ENDCMP
 #
 $CMP MIC2026-1BM
@@ -684,6 +684,12 @@ K 4-chanel power-distribution USB
 F http://www.ti.com/lit/ds/symlink/tps2044.pdf
 $ENDCMP
 #
+$CMP TPS2121RUX
+D Priority Power MUX with Seamless Switchover, VQFN-HR-12
+K Power MUX
+F http://www.ti.com/lit/ds/symlink/tps2120.pdf
+$ENDCMP
+#
 $CMP TPS22929D
 D High side, power distribution switch, 1.4V-5.5V, 1.8A, SOT23-6 package
 K high-side power distribution switch
@@ -724,12 +730,6 @@ $CMP TSM103WA
 D Dual Operational Amplifier and 2.5V 0.4% Voltage Reference, SOIC-8
 K dual opamp reference
 F http://www.st.com/resource/en/datasheet/tsm103w.pdf
-$ENDCMP
-#
-$CMP MAX8586
-D Single 1.2A USB Current Limiting Switch
-K 1-channel USB current limiting power switch
-F https://datasheets.maximintegrated.com/en/ds/MAX8586.pdf
 $ENDCMP
 #
 #End Doc Library
