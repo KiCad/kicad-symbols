@@ -72,6 +72,12 @@ K Accelerometer Magnetometer MEMS
 F www.st.com/resource/en/datasheet/lsm303c.pdf
 $ENDCMP
 #
+$CMP LIS3DH
+D 3-Axis 12-bit Digital Accelerometer with SPI/I2C interface
+K mems Accelerometer
+F https://www.st.com/resource/en/datasheet/cd00274221.pdf
+$ENDCMP
+#
 $CMP LSM303D
 D [not recommended for new designs] I2C/SPI, 3D Accelerometer and 3D Magnetometer
 K Accelerometer Magnetometer MEMS
