@@ -2928,6 +2928,18 @@ K regulator switching adjustable
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic4690.pdf
 $ENDCMP
 #
+$CMP MP171GJ
+D 60mA Non-Isolated Off-Line Regulator, 700V Input Voltage, Adjustable Output Voltage, TSOT-23-5
+K regulator switching adjustable
+F https://www.monolithicpower.com/pub/media/document/m/p/mp171_r1.01.pdf
+$ENDCMP
+#
+$CMP MP171GS
+D 60mA Non-Isolated Off-Line Regulator, 700V Input Voltage, Adjustable Output Voltage, SOIC-8
+K regulator switching adjustable
+F https://www.monolithicpower.com/pub/media/document/m/p/mp171_r1.01.pdf
+$ENDCMP
+#
 $CMP NCP1070P065
 D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 14W/7.75W, 230V/85-265V, 65kHz, 22Ohm Rds(on), 250mA Ipk, DIP-7
 K SMPS Converter
