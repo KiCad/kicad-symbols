@@ -57,7 +57,7 @@ $ENDCMP
 $CMP 1N4148
 D 100V 0.15A standard switching diode, DO-35
 K diode
-F http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf
+F https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf
 $ENDCMP
 #
 $CMP 1N4148W
@@ -93,7 +93,7 @@ $ENDCMP
 $CMP 1N4448
 D 100V 0.15A High-speed standard diode, DO-35
 K diode
-F http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf
+F https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf
 $ENDCMP
 #
 $CMP 1N4448W
@@ -477,7 +477,7 @@ $ENDCMP
 $CMP BAS16VY
 D Fast switching diode array 3 independent
 K diode
-F http://www.nxp.com/documents/data_sheet/BAS16_SER.pdf
+F https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf
 $ENDCMP
 #
 $CMP BAS40-04
@@ -552,10 +552,22 @@ K diode
 F http://www.diodes.com/datasheets/ds30152.pdf
 $ENDCMP
 #
+$CMP BAT54AW
+D Dual schottky barrier diode, common anode, SOT-323
+K dual schottky diode
+F https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf
+$ENDCMP
+#
 $CMP BAT54C
 D dual schottky barrier diode, common cathode
 K schottky diode common cathode
 F http://www.diodes.com/_files/datasheets/ds11005.pdf
+$ENDCMP
+#
+$CMP BAT54CW
+D Dual schottky barrier diode, common cathode, SOT-323
+K dual schottky diode
+F https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf
 $ENDCMP
 #
 $CMP BAT54S
@@ -564,16 +576,28 @@ K schottky diode
 F https://www.diodes.com/assets/Datasheets/ds11005.pdf
 $ENDCMP
 #
+$CMP BAT54SW
+D Dual schottky barrier diode, in series, SOT-323
+K dual schottky diode
+F https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf
+$ENDCMP
+#
+$CMP BAT54W
+D Schottky barrier diode, SOT-323
+K schottky diode
+F https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf
+$ENDCMP
+#
 $CMP BAT85
 D 30V 0.2A Schottky barrier single diode, DO-35
 K diode Schottky
-F http://www.nxp.com/documents/data_sheet/BAT85.pdf
+F https://assets.nexperia.com/documents/data-sheet/BAT85.pdf
 $ENDCMP
 #
 $CMP BAT86
 D 50V 0.2A Small Signal Schottky Diode, DO-35
 K diode Schottky
-F http://www.nxp.com/documents/data_sheet/BAT86.pdf
+F https://assets.nexperia.com/documents/data-sheet/BAT86.pdf
 $ENDCMP
 #
 $CMP BAT86S
@@ -606,6 +630,12 @@ K diode
 F http://www.vishay.com/docs/85543/bav17.pdf
 $ENDCMP
 #
+$CMP BAV199DW
+D Quad Surface Mount Low Leakage Diode, SOT-363
+K Quad diode
+F https://www.diodes.com/assets/Datasheets/ds30417.pdf
+$ENDCMP
+#
 $CMP BAV20
 D 150V 0.25A Small Signal Switching Diode, High Voltage, DO-35
 K diode
@@ -618,10 +648,52 @@ K diode
 F http://www.vishay.com/docs/85543/bav17.pdf
 $ENDCMP
 #
+$CMP BAV70
+D Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23
+K diode
+F https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf
+$ENDCMP
+#
+$CMP BAV70M
+D Dual 100V 150mA high-speed switching diodes, common cathode, SOT-883
+K diode
+F https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf
+$ENDCMP
+#
+$CMP BAV70S
+D 100V 250mA high-speed switching diodes, dual common cathode, SOT-363
+K diode
+F https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf
+$ENDCMP
+#
+$CMP BAV70T
+D Dual 100V 150mA high-speed switching diodes, common cathode, SOT-416
+K diode
+F https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf
+$ENDCMP
+#
+$CMP BAV70W
+D Dual 100V 175mA high-speed switching diodes, common cathode, SOT-323
+K diode
+F https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf
+$ENDCMP
+#
+$CMP BAV756S
+D High-speed switching diodes, dual common anode/common cathode, SOT-363
+K Diode
+F https://assets.nexperia.com/documents/data-sheet/BAV756S_BAW56_SER.pdf
+$ENDCMP
+#
 $CMP BAV99
 D BAV99 High-speed switching diodes
 K diode
-F www.nxp.com/documents/data_sheet/BAV99_SER.pdf
+F https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf
+$ENDCMP
+#
+$CMP BAV99S
+D High-speed switching diodes, dual series, SOT-363
+K Diode
+F https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf
 $ENDCMP
 #
 $CMP BAW56DW
@@ -633,7 +705,7 @@ $ENDCMP
 $CMP BAW56S
 D High Speed Switching Diode Array 2 pair Com A
 K diode
-F http://www.nxp.com/documents/data_sheet/BAV756S_BAW56_SER.pdf
+F https://assets.nexperia.com/documents/data-sheet/BAV756S_BAW56_SER.pdf
 $ENDCMP
 #
 $CMP BAW75
@@ -702,6 +774,12 @@ K sic diode
 F https://www.wolfspeed.com/media/downloads/35/C3D02060F.pdf
 $ENDCMP
 #
+$CMP C3D02065E
+D 650V, 2A, SiC Schottky Diode, TO-252
+K sic diode
+F https://www.wolfspeed.com/media/downloads/118/C3D02065E.pdf
+$ENDCMP
+#
 $CMP C3D03060A
 D 600V, 3A, SiC Schottky Diode, TO-220
 K sic diode
@@ -718,6 +796,12 @@ $CMP C3D03060F
 D 600V, 3A, SiC Schottky Diode, TO-220F
 K sic diode
 F https://www.wolfspeed.com/media/downloads/39/C3D03060F.pdf
+$ENDCMP
+#
+$CMP C3D03065E
+D 650V, 3A, SiC Schottky Diode, TO-252
+K sic diode
+F https://www.wolfspeed.com/media/downloads/121/C3D03065E.pdf
 $ENDCMP
 #
 $CMP C3D04060A
@@ -738,6 +822,18 @@ K sic diode
 F https://www.wolfspeed.com/media/downloads/41/C3D04060F.pdf
 $ENDCMP
 #
+$CMP C3D04065A
+D 650V, 4A, SiC Schottky Diode, TO-220
+K sic diode
+F https://www.wolfspeed.com/media/downloads/841/C3D04065A.pdf
+$ENDCMP
+#
+$CMP C3D04065E
+D 650V, 4A, SiC Schottky Diode, TO-252
+K sic diode
+F https://www.wolfspeed.com/media/downloads/124/C3D04065E.pdf
+$ENDCMP
+#
 $CMP C3D06060A
 D 600V, 6A, SiC Schottky Diode, TO-220
 K sic diode
@@ -754,66 +850,6 @@ $CMP C3D06060G
 D 600V, 6A, SiC Schottky Diode, TO-263
 K sic diode
 F https://www.wolfspeed.com/media/downloads/137/C3D06060G.pdf
-$ENDCMP
-#
-$CMP C3D08060A
-D 600V, 8A, SiC Schottky Diode, TO-220
-K sic diode
-F https://www.wolfspeed.com/media/downloads/843/C3D08060A.pdf
-$ENDCMP
-#
-$CMP C3D08060G
-D 600V, 8A, SiC Schottky Diode, TO-263
-K sic diode
-F https://www.wolfspeed.com/media/downloads/141/C3D08060G.pdf
-$ENDCMP
-#
-$CMP C3D10060A
-D 600V, 10A, SiC Schottky Diode, TO-220
-K sic diode
-F https://www.wolfspeed.com/media/downloads/842/C3D10060A.pdf
-$ENDCMP
-#
-$CMP C3D10060G
-D 600V, 10A, SiC Schottky Diode, TO-263
-K sic diode
-F https://www.wolfspeed.com/media/downloads/143/C3D10060G.pdf
-$ENDCMP
-#
-$CMP C3D16060D
-D 600V, 16A, SiC Schottky Diode, TO-247-3
-K sic diode
-F https://www.wolfspeed.com/media/downloads/98/C3D16060D.pdf
-$ENDCMP
-#
-$CMP C3D20060D
-D 600V, 20A, SiC Schottky Diode, TO-247-3
-K sic diode
-F https://www.wolfspeed.com/media/downloads/100/C3D20060D.pdf
-$ENDCMP
-#
-$CMP C3D02065E
-D 650V, 2A, SiC Schottky Diode, TO-252
-K sic diode
-F https://www.wolfspeed.com/media/downloads/118/C3D02065E.pdf
-$ENDCMP
-#
-$CMP C3D03065E
-D 650V, 3A, SiC Schottky Diode, TO-252
-K sic diode
-F https://www.wolfspeed.com/media/downloads/121/C3D03065E.pdf
-$ENDCMP
-#
-$CMP C3D04065A
-D 650V, 4A, SiC Schottky Diode, TO-220
-K sic diode
-F https://www.wolfspeed.com/media/downloads/841/C3D04065A.pdf
-$ENDCMP
-#
-$CMP C3D04065E
-D 650V, 4A, SiC Schottky Diode, TO-252
-K sic diode
-F https://www.wolfspeed.com/media/downloads/124/C3D04065E.pdf
 $ENDCMP
 #
 $CMP C3D06065A
@@ -834,6 +870,18 @@ K sic diode
 F https://www.wolfspeed.com/media/downloads/44/C3D06065I.pdf
 $ENDCMP
 #
+$CMP C3D08060A
+D 600V, 8A, SiC Schottky Diode, TO-220
+K sic diode
+F https://www.wolfspeed.com/media/downloads/843/C3D08060A.pdf
+$ENDCMP
+#
+$CMP C3D08060G
+D 600V, 8A, SiC Schottky Diode, TO-263
+K sic diode
+F https://www.wolfspeed.com/media/downloads/141/C3D08060G.pdf
+$ENDCMP
+#
 $CMP C3D08065A
 D 650V, 8A, SiC Schottky Diode, TO-220
 K sic diode
@@ -850,6 +898,18 @@ $CMP C3D08065I
 D 650V, 8A, SiC Schottky Diode, Isolated TO-220
 K sic diode
 F https://www.wolfspeed.com/media/downloads/47/C3D08065I.pdf
+$ENDCMP
+#
+$CMP C3D10060A
+D 600V, 10A, SiC Schottky Diode, TO-220
+K sic diode
+F https://www.wolfspeed.com/media/downloads/842/C3D10060A.pdf
+$ENDCMP
+#
+$CMP C3D10060G
+D 600V, 10A, SiC Schottky Diode, TO-263
+K sic diode
+F https://www.wolfspeed.com/media/downloads/143/C3D10060G.pdf
 $ENDCMP
 #
 $CMP C3D10065A
@@ -870,10 +930,22 @@ K sic diode
 F https://www.wolfspeed.com/media/downloads/49/C3D10065I.pdf
 $ENDCMP
 #
+$CMP C3D10170H
+D 1700V, 10A, SiC Schottky Diode, TO-247
+K sic diode
+F https://www.wolfspeed.com/media/downloads/96/C3D10170H.pdf
+$ENDCMP
+#
 $CMP C3D12065A
 D 650V, 12A, SiC Schottky Diode, TO-220
 K sic diode
 F https://www.wolfspeed.com/media/downloads/963/C3D12065A.pdf
+$ENDCMP
+#
+$CMP C3D16060D
+D 600V, 16A, SiC Schottky Diode, TO-247-3
+K sic diode
+F https://www.wolfspeed.com/media/downloads/98/C3D16060D.pdf
 $ENDCMP
 #
 $CMP C3D16065A
@@ -894,22 +966,28 @@ K sic diode
 F https://www.wolfspeed.com/media/downloads/846/C3D1P7060Q.pdf
 $ENDCMP
 #
+$CMP C3D20060D
+D 600V, 20A, SiC Schottky Diode, TO-247-3
+K sic diode
+F https://www.wolfspeed.com/media/downloads/100/C3D20060D.pdf
+$ENDCMP
+#
 $CMP C3D20065D
 D 650V, 20A, SiC Schottky Diode, TO-247-3
 K sic diode
 F https://www.wolfspeed.com/media/downloads/102/C3D20065D.pdf
 $ENDCMP
 #
+$CMP C3D25170H
+D 1700V, 25A, SiC Schottky Diode, TO-247
+K sic diode
+F https://www.wolfspeed.com/media/downloads/103/C3D25170H.pdf
+$ENDCMP
+#
 $CMP C3D30065D
 D 650V, 30A, SiC Schottky Diode, TO-247-3
 K sic diode
 F https://www.wolfspeed.com/media/downloads/969/C3D30065D.pdf
-$ENDCMP
-#
-$CMP C5D50065D
-D 650V, 50A, SiC Schottky Diode, TO-247-3
-K sic diode
-F https://www.wolfspeed.com/media/downloads/111/C5D50065D.pdf
 $ENDCMP
 #
 $CMP C4D02120A
@@ -1020,16 +1098,10 @@ K sic diode
 F https://www.wolfspeed.com/media/downloads/109/C4D40120D.pdf
 $ENDCMP
 #
-$CMP C3D10170H
-D 1700V, 10A, SiC Schottky Diode, TO-247
+$CMP C5D50065D
+D 650V, 50A, SiC Schottky Diode, TO-247-3
 K sic diode
-F https://www.wolfspeed.com/media/downloads/96/C3D10170H.pdf
-$ENDCMP
-#
-$CMP C3D25170H
-D 1700V, 25A, SiC Schottky Diode, TO-247
-K sic diode
-F https://www.wolfspeed.com/media/downloads/103/C3D25170H.pdf
+F https://www.wolfspeed.com/media/downloads/111/C5D50065D.pdf
 $ENDCMP
 #
 $CMP CSD01060A
@@ -1114,6 +1186,48 @@ $CMP HN2D02FU
 D Ultra high speed switching diode array 3 independent
 K diode
 F http://www.onsemi.com/pub_link/Collateral/HN2D02FUTW1T1-D.PDF
+$ENDCMP
+#
+$CMP IDDD04G65C6
+D 650V, 4A, SiC Schottky Diode, CoolSiC, PG-HDSOP-10-1 (DDPAK)
+K sic diode
+F https://www.infineon.com/dgdl/Infineon-IDDD04G65C6-DS-v02_00-EN.pdf?fileId=5546d462625a528f01628f749daa0e03
+$ENDCMP
+#
+$CMP IDDD06G65C6
+D 650V, 6A, SiC Schottky Diode, CoolSiC, PG-HDSOP-10-1 (DDPAK)
+K sic diode
+F https://www.infineon.com/dgdl/Infineon-IDDD06G65C6-DS-v02_00-EN.pdf?fileId=5546d462625a528f01628f86ff8c0e09
+$ENDCMP
+#
+$CMP IDDD08G65C6
+D 650V, 8A, SiC Schottky Diode, CoolSiC, PG-HDSOP-10-1 (DDPAK)
+K sic diode
+F https://www.infineon.com/dgdl/Infineon-IDDD08G65C6-DS-v02_00-EN.pdf?fileId=5546d462625a528f01628ff7d31a104b
+$ENDCMP
+#
+$CMP IDDD10G65C6
+D 650V, 10A, SiC Schottky Diode, CoolSiC, PG-HDSOP-10-1 (DDPAK)
+K sic diode
+F https://www.infineon.com/dgdl/Infineon-IDDD10G65C6-DS-v02_00-EN.pdf?fileId=5546d462625a528f01628ff848ec1051
+$ENDCMP
+#
+$CMP IDDD12G65C6
+D 650V, 12A, SiC Schottky Diode, CoolSiC, PG-HDSOP-10-1 (DDPAK)
+K sic diode
+F https://www.infineon.com/dgdl/Infineon-IDDD12G65C6-DS-v02_00-EN.pdf?fileId=5546d462625a528f01628f86ec3e0e06
+$ENDCMP
+#
+$CMP IDDD16G65C6
+D 650V, 16A, SiC Schottky Diode, CoolSiC, PG-HDSOP-10-1 (DDPAK)
+K sic diode
+F https://www.infineon.com/dgdl/Infineon-IDDD16G65C6-DS-v02_00-EN.pdf?fileId=5546d462625a528f01628f8711b50e0c
+$ENDCMP
+#
+$CMP IDDD20G65C6
+D 650V, 20A, SiC Schottky Diode, CoolSiC, PG-HDSOP-10-1 (DDPAK)
+K sic diode
+F https://www.infineon.com/dgdl/Infineon-IDDD20G65C6-DS-v02_00-EN.pdf?fileId=5546d462625a528f01628ff837cf104e
 $ENDCMP
 #
 $CMP LL41
@@ -1254,6 +1368,12 @@ K dual zener diode
 F http://www.onsemi.com/pub/Collateral/MMBZ5V6ALT1-D.PDF
 $ENDCMP
 #
+$CMP MMSD4148
+D 100V 200mA Switching Diode, SOD-123
+K diode
+F https://www.onsemi.com/pub/Collateral/MMSD4148T1-D.PDF
+$ENDCMP
+#
 $CMP MMSD914
 D 100V 0.2A Switching Diode, SOD-123
 K diode
@@ -1384,6 +1504,12 @@ $CMP SB160
 D 60V 1A Schottky Barrier Rectifier Diode, DO-41
 K diode Schottky
 F http://www.diodes.com/_files/datasheets/ds23022.pdf
+$ENDCMP
+#
+$CMP SD103ATW
+D Schottky Barrier Diode Array, SOT-363
+K schottky barrier diode array
+F https://www.diodes.com/assets/Datasheets/ds30374.pdf
 $ENDCMP
 #
 $CMP SM2000

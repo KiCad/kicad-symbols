@@ -36,6 +36,18 @@ K ambient light sensor i2c
 F https://docs.broadcom.com/docs/AV02-2315EN
 $ENDCMP
 #
+$CMP APDS-9306
+D Ambient Light Sensor, I2C interface, 1.7-3.6V, LGA-8
+K opto ambient light sensor
+F https://docs.broadcom.com/docs/AV02-4755EN
+$ENDCMP
+#
+$CMP APDS-9306-065
+D Ambient Light Sensor, I2C interface, 1.7-3.6V, DFN-6
+K opto ambient light sensor
+F https://docs.broadcom.com/docs/AV02-4755EN
+$ENDCMP
+#
 $CMP AS7261
 D Spectral Sensing Engine, 6-Channel XYZ Spectral_ID
 K 6-Channel XYZ Spectral_ID Device Electronic Shutter Smart Interface i2c uart
@@ -120,6 +132,30 @@ K opto photo diode
 F http://www.vishay.com/docs/81529/bpw82.pdf
 $ENDCMP
 #
+$CMP BPW85
+D Silicon NPN Phototransistor, Ica = 0.8-8mA, T-1
+K npn phototransistor
+F https://www.vishay.com/docs/81531/bpw85a.pdf
+$ENDCMP
+#
+$CMP BPW85A
+D Silicon NPN Phototransistor, Ica = 0.8-2.5mA, T-1
+K npn phototransistor
+F https://www.vishay.com/docs/81531/bpw85a.pdf
+$ENDCMP
+#
+$CMP BPW85B
+D Silicon NPN Phototransistor, Ica = 1.5-4mA, T-1
+K npn phototransistor
+F https://www.vishay.com/docs/81531/bpw85a.pdf
+$ENDCMP
+#
+$CMP BPW85C
+D Silicon NPN Phototransistor, Ica = 3-8mA, T-1
+K npn phototransistor
+F https://www.vishay.com/docs/81531/bpw85a.pdf
+$ENDCMP
+#
 $CMP BPX61
 D Silicon Photodiode for the visible spectral range
 K photodiode opto
@@ -148,6 +184,12 @@ $CMP Flir_LEPTON
 D LWIR camera 8 to 14um 80x60 pixel
 K LWIR camera
 F https://cdn.sparkfun.com/datasheets/Sensors/Infrared/FLIR_Lepton_Data_Brief.pdf
+$ENDCMP
+#
+$CMP KPS-3227
+D Ambient light photo sensor (NPN phototransistor)
+K Kingbright npn phototransistor ambient light photo sensor
+F http://www.kingbright.com/attachments/file/psearch/000/00/watermark00/KPS-3227SP1C(Ver.9).pdf
 $ENDCMP
 #
 $CMP KPS-5130
@@ -184,6 +226,24 @@ $CMP M9960
 D light dependent resistor
 K light dependent photo resistor LDR
 F http://cdn-reichelt.de/documents/datenblatt/A500/M996011a_b.pdf
+$ENDCMP
+#
+$CMP NOA1305
+D Ambient Light Sensor with I2C Interface and Dark Current Compensation
+K opto ambient light sensor
+F http://www.onsemi.com/pub/Collateral/NOA1305-D.PDF
+$ENDCMP
+#
+$CMP PMTx08Dyn
+D 8-stage photomultiplier tube
+K PMT 8-stage
+F ~
+$ENDCMP
+#
+$CMP PMTx08Dyn_Shld
+D 8-stage photomultiplier tube with electrostatic and magnetic shield
+K PMT 8-stage
+F ~
 $ENDCMP
 #
 $CMP S13360-3025CS
@@ -292,6 +352,12 @@ $CMP SFH3201
 D Silicon NPN phototransistor, SMD-6
 K NPN phototransistor
 F https://dammedia.osram.info/media/resource/hires/osram-dam-2495980/SFH%203201.pdf
+$ENDCMP
+#
+$CMP TEPT4400
+D Ambient Light Sensor, NPN Epitaxial Planar Phototransistor, T-1
+K npn phototransistor ambient light sensor
+F https://www.vishay.com/docs/81341/tept4400.pdf
 $ENDCMP
 #
 $CMP TSL2550D
