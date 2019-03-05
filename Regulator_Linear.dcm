@@ -3732,18 +3732,6 @@ K LDO low noise
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf
 $ENDCMP
 #
-$CMP LT3032-3.3
-D 150mA, Dual Low Dropout Linear Regulator, Positive/Negative Low Noise, 3.3V Output, DFN-14
-K LDO low noise
-F https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf
-$ENDCMP
-#
-$CMP LT3032-5
-D 150mA, Dual Low Dropout Linear Regulator, Positive/Negative Low Noise, 5V Output, DFN-14
-K LDO low noise
-F https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf
-$ENDCMP
-#
 $CMP LT3032-12
 D 150mA, Dual Low Dropout Linear Regulator, Positive/Negative Low Noise, 12V Output, DFN-14
 K LDO low noise
@@ -3752,6 +3740,18 @@ $ENDCMP
 #
 $CMP LT3032-15
 D 150mA, Dual Low Dropout Linear Regulator, Positive/Negative Low Noise, 15V Output, DFN-14
+K LDO low noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf
+$ENDCMP
+#
+$CMP LT3032-3.3
+D 150mA, Dual Low Dropout Linear Regulator, Positive/Negative Low Noise, 3.3V Output, DFN-14
+K LDO low noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf
+$ENDCMP
+#
+$CMP LT3032-5
+D 150mA, Dual Low Dropout Linear Regulator, Positive/Negative Low Noise, 5V Output, DFN-14
 K LDO low noise
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf
 $ENDCMP
@@ -6478,6 +6478,11 @@ $CMP TPS793475-EP
 D 200mA UltraLow-Noise, High-Precision, Fast RF, Low Drop-out Voltage Regualtor, Fixed Output 4.75V, SOT-23
 K LDO Voltage Regulator 200mA
 F http://www.ti.com/lit/ds/symlink/tps79333-ep.pdf
+$ENDCMP
+#
+$CMP TPS7A1601
+D 60-V, 5-µA IQ, 100-mA, Low-Dropout Voltage Regulator, Adjustable Output
+K linear regulator adjustable wide vin
 $ENDCMP
 #
 $CMP TPS7A7001DDA
