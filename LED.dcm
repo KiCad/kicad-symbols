@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP APA102
+D RGB LED with integrated controller
+K RGB LED addressable 8bit pwm 5bit greyscale
+F http://www.led-color.com/upload/201506/APA102%20LED.pdf
+$ENDCMP
+#
+$CMP APA102-2020
+D RGB LED with integrated controller
+K RGB LED addressable 8bit pwm 5bit greyscale
+F http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
+$ENDCMP
+#
 $CMP APFA3010
 D LED RGB, Common Anode, SMD, 3.0x1.5mm, Horizontal
 K LED RGB SMD Kingbright APFA3010 Horizontal
