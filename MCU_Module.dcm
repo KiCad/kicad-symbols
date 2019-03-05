@@ -1,11 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 2AJVP-OMEGA2S
-D The Onion Omega2S is a Wi-Fi enabled, Linux compute module, designed specifically for IoT applications. It provides a drop-in, low-power solution for building IoT devices.
-K IoT RF Module Linux
-F https://github.com/OnionIoT/Omega2/raw/master/Documents/Omega2S%20Datasheet.pdf
-$ENDCMP
-#
 $CMP Adafruit_HUZZAH_ESP8266_breakout
 D 32-bit microcontroller module with WiFi
 K ESP8266 WiFi microcontroller
@@ -78,34 +72,22 @@ K STM32 Nucleo ST
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/data_brief/DM00105918.pdf
 $ENDCMP
 #
-$CMP OM-2SP
-D The Onion Omega2S is a Wi-Fi enabled, Linux compute module, designed specifically for IoT applications. It provides a drop-in, low-power solution for building IoT devices.
-K IoT RF Module Linux
-F https://github.com/OnionIoT/Omega2/raw/master/Documents/Omega2S%20Datasheet.pdf
-$ENDCMP
-#
-$CMP OM-O2S
-D The Onion Omega2S is a Wi-Fi enabled, Linux compute module, designed specifically for IoT applications. It provides a drop-in, low-power solution for building IoT devices.
-K IoT RF Module Linux
-F https://github.com/OnionIoT/Omega2/raw/master/Documents/Omega2S%20Datasheet.pdf
-$ENDCMP
-#
-$CMP OM-O2SP
-D The Onion Omega2S is a Wi-Fi enabled, Linux compute module, designed specifically for IoT applications. It provides a drop-in, low-power solution for building IoT devices.
-K IoT RF Module Linux
-F https://github.com/OnionIoT/Omega2/raw/master/Documents/Omega2S%20Datasheet.pdf
-$ENDCMP
-#
-$CMP Omega-2S
-D The Onion Omega2S is a Wi-Fi enabled, Linux compute module, designed specifically for IoT applications. It provides a drop-in, low-power solution for building IoT devices.
-K IoT RF Module Linux
-F https://github.com/OnionIoT/Omega2/raw/master/Documents/Omega2S%20Datasheet.pdf
-$ENDCMP
-#
 $CMP Omega2+
 D Onion Omega2+ Module
 K onion omega module
 F https://docs.onion.io/omega2-docs/omega2p.html
+$ENDCMP
+#
+$CMP Omega2S
+D Onion Omega2S Module SMT 64MB RAM
+K IoT RF Module Linux
+F https://github.com/OnionIoT/Omega2/raw/master/Documents/Omega2S%20Datasheet.pdf
+$ENDCMP
+#
+$CMP Omega2S+
+D Onion Omega2S Plus Module SMT 128MB RAM
+K IoT RF Module Linux
+F https://github.com/OnionIoT/Omega2/raw/master/Documents/Omega2S%20Datasheet.pdf
 $ENDCMP
 #
 $CMP VisionSOM-6UL
