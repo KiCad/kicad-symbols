@@ -852,6 +852,12 @@ K 4-chanel power-distribution USB
 F http://www.ti.com/lit/ds/symlink/tps2044.pdf
 $ENDCMP
 #
+$CMP TPS22917
+D 1V to 5.5-V, 2-A, 80-mΩ Ultra-Low Leakage Load Switch, SOT23-6
+K 1-channel Ultra-Low-Leakage Load-Switch
+F http://www.ti.com/lit/ds/symlink/tps22917.pdf
+$ENDCMP
+#
 $CMP TPS22929D
 D High side, power distribution switch, 1.4V-5.5V, 1.8A, SOT23-6 package
 K high-side power distribution switch
