@@ -79,13 +79,13 @@ F https://docs.onion.io/omega2-docs/omega2p.html
 $ENDCMP
 #
 $CMP Omega2S
-D Onion 2S Module SMT 64MB RAM
-K IoT RF Module Linux
+D Onion Omega2S Module, 64MB RAM, 16MB FLASH
+K onion omega module
 F https://github.com/OnionIoT/Omega2/raw/master/Documents/Omega2S%20Datasheet.pdf
 $ENDCMP
 #
 $CMP Omega2S+
-D Onion Omega 2S Plus Module SMT 128MB RAM
+D Onion Omega2S+ Module, 128MB RAM, 32MB FLASH
 K IoT RF Module Linux
 F https://github.com/OnionIoT/Omega2/raw/master/Documents/Omega2S%20Datasheet.pdf
 $ENDCMP
