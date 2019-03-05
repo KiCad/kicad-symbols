@@ -1,8 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 628128
-D RAM 128 Ko
-K RAM 128KO
+$CMP 628128_DIP32_SSOP32
+D 128K x 8 High-Speed CMOS Static RAM, 55/70ns, DIP/SSOP-32
+K RAM SRAM CMOS
+F http://www.futurlec.com/Datasheet/Memory/628128.pdf
+$ENDCMP
+#
+$CMP 628128_TSOP32
+D 128K x 8 High-Speed CMOS Static RAM, 55/70ns, TSOP-I-32
+K RAM SRAM CMOS
+F http://www.futurlec.com/Datasheet/Memory/628128.pdf
 $ENDCMP
 #
 $CMP AS4C4M16SA
@@ -15,6 +22,12 @@ $CMP AS6C1616
 D 1024k x 16 bit low power CMOS SRAM
 K memory SRAM
 F http://www.alliancememory.com/pdf/AS6C1616(1).pdf
+$ENDCMP
+#
+$CMP ESP-PSRAM32
+D 32 Mbit serial pseudo SRAM device organized as 4Mx8 bits, 1.8 VCC, SOIC8 (SOP8)
+K 32 Mbit serial pseudo SRAM
+F https://www.espressif.com/sites/default/files/documentation/esp-psram32_datasheet_en.pdf
 $ENDCMP
 #
 $CMP H5AN8G8NAFR-UHC
