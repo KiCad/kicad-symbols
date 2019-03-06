@@ -978,6 +978,12 @@ K NexFET Power MOSFET N-MOS
 F http://www.ti.com/lit/gpn/csd17312q5
 $ENDCMP
 #
+$CMP CSD17313Q2
+D 5A Id, 30V Vds, NexFET N-Channel Power MOSFET, 24mOhm Ron, SON-6
+K NexFET Power MOSFET N-MOS
+F http://www.ti.com/lit/ds/symlink/csd17313q2.pdf
+$ENDCMP
+#
 $CMP CSD17322Q5A
 D 100A Id, 30V Vds, NexFET N-Channel Power MOSFET, 12.4mOhm Ron, Qg (typ) 3.6nC, SON8 5x6mm
 K NexFET Power MOSFET N-MOS
@@ -1216,6 +1222,12 @@ $CMP CSD19537Q3
 D 50A Id, 100V Vds, NexFET N-Channel Power MOSFET, 13mOhm Ron, Qg Typ 16.0nC, VSON8 3.3x3.3mm
 K NexFET Power MOSFET N-MOS
 F http://www.ti.com/lit/ds/symlink/csd19537q3.pdf
+$ENDCMP
+#
+$CMP CSD25302Q2
+D 5A Id, 20V Vds, NexFET P-Channel Power MOSFET, 39mOhm Ron, SON-6
+K NexFET Power MOSFET P-MOS
+F https://www.ti.com/lit/ds/slps234b/slps234b.pdf
 $ENDCMP
 #
 $CMP DMG2302U
@@ -2268,6 +2280,12 @@ K Single N-Channel HEXFET Power MOSFET
 F http://www.irf.com/product-info/datasheets/data/irliz44n.pdf
 $ENDCMP
 #
+$CMP IRLML2060
+D 1.2A Id, 60V Vds, N-channel MOSFET, 480mOhm Rds, SOT-23
+K N-channel MOSFET
+F https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee
+$ENDCMP
+#
 $CMP IRLML6402
 D -3.7A Id, -20V Vds, P-channel MOSFET, 65mOhm Rds, SOT-23
 K P-Channel MOSFET
@@ -2410,6 +2428,12 @@ $CMP Si7336ADP
 D 30A Id, 30V Vds, 2.4 mOhm Ron, PowerPAK-8
 K N-Channel MOSFET
 F www.vishay.com/docs/73152/si7336adp.pdf
+$ENDCMP
+#
+$CMP SiA449DJ
+D -12A Id, -30V Vds, P-Channel MOSFET, PowerPAK SC70-6
+K P-Channel MOSFET
+F http://www.vishay.com/docs/62644/sia449dj.pdf
 $ENDCMP
 #
 $CMP SiA453EDJ
