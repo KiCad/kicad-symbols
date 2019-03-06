@@ -90,31 +90,31 @@ $ENDCMP
 $CMP AD9834
 D 10 bit 75 MHz Complete Direct Digital Synthesizer, 2.3 V to 5.5 V, 20 mW, TSSOP-20
 K Direct Digital Synthesizer DDS
-F http://www.analog.com/static/imported-files/data_sheets/AD9834.pdf
+F https://www.analog.com/static/imported-files/data_sheets/AD9834.pdf
 $ENDCMP
 #
 $CMP AD9850
 D CMOS, 125 MHz, Complete DDS Synthesizer, SSOP-28
 K DDS direct digital synthesizer
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9850.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD9850.pdf
 $ENDCMP
 #
 $CMP AD9851
 D CMOS, 180 MHz, DDS/DAC Synthesizer, SSOP-28
 K DDS direct digital synthesizer
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9851.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD9851.pdf
 $ENDCMP
 #
 $CMP AD9910
 D 1 GSPS, 14-Bit, 3.3 V CMOS, Direct Digital Synthesizer, QFP-100
 K dds direct digital synthesizer
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9910.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD9910.pdf
 $ENDCMP
 #
 $CMP AD9951
 D 14-Bit Direct Digital Synthesizer with 400MSPS DAC, 1.8V, TQFP48
 K Direct Digital Synthesizer DDS
-F http://www.analog.com/static/imported-files/data_sheets/AD9951.pdf
+F https://www.analog.com/static/imported-files/data_sheets/AD9951.pdf
 $ENDCMP
 #
 $CMP DS90C124
@@ -168,73 +168,73 @@ $ENDCMP
 $CMP LTC1518
 D 52Mbps Precision Delay RS485 Quad Line Receivers
 K receiver rs485 rs422 differential
-F http://cds.linear.com/docs/en/datasheet/15189fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/15189fa.pdf
 $ENDCMP
 #
 $CMP LTC1519
 D 52Mbps Precision Delay RS485 Quad Line Receivers
 K receiver rs485 rs422 differential
-F http://cds.linear.com/docs/en/datasheet/15189fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/15189fa.pdf
 $ENDCMP
 #
 $CMP LTC1688
 D 100Mbps RS485 Hot Swapable Quad Drivers
 K driver rs485 rs422 differential
-F http://cds.linear.com/docs/en/datasheet/16889fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/16889fa.pdf
 $ENDCMP
 #
 $CMP LTC1689
 D 100Mbps RS485 Hot Swapable Quad Drivers
 K driver rs485 rs422 differential
-F http://cds.linear.com/docs/en/datasheet/16889fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/16889fa.pdf
 $ENDCMP
 #
 $CMP LTC6957xDD-1
 D Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, LVPECL, DFN-12
 K LTC clock converter
-F http://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
 $ENDCMP
 #
 $CMP LTC6957xDD-2
 D Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, LVDS, DFN-12
 K LTC clock converter
-F http://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
 $ENDCMP
 #
 $CMP LTC6957xDD-3
 D Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, CMOS In-Phase Outputs, DFN-12
 K LTC clock converter
-F http://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
 $ENDCMP
 #
 $CMP LTC6957xDD-4
 D Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, CMOS Complementary Outputs, DFN-12
 K LTC clock converter
-F http://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
 $ENDCMP
 #
 $CMP LTC6957xMS-1
 D Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, LVPECL, MSOP-12
 K LTC clock converter
-F http://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
 $ENDCMP
 #
 $CMP LTC6957xMS-2
 D Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, LVDS, MSOP-12
 K LTC clock converter
-F http://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
 $ENDCMP
 #
 $CMP LTC6957xMS-3
 D Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, CMOS In-Phase Outputs, MSOP-12
 K LTC clock converter
-F http://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
 $ENDCMP
 #
 $CMP LTC6957xMS-4
 D Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, CMOS Complementary Outputs, MSOP-12
 K LTC clock converter
-F http://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
 $ENDCMP
 #
 $CMP MAX6816
@@ -295,6 +295,12 @@ $CMP MC68B44
 D Direct Memory Access Controller 2MHz, DIP-40
 K Direct Memory Access Controller
 F http://pdf.datasheetcatalog.com/datasheets/560/501527_DS.pdf
+$ENDCMP
+#
+$CMP NB3N551MN
+D 1:4 Low Skew Clock Buffer, DFN-8
+K clock buffer
+F https://www.onsemi.com/pub/Collateral/NB3N551-D.PDF
 $ENDCMP
 #
 $CMP PCA9306
@@ -403,6 +409,30 @@ $CMP TCA9406DC
 D 2-Bit Bidirectional 1-MHz, I2C Bus and SMBus Voltage-Level Translator With 8-kV HBM ESD
 K Bidirectional 1-MHz I2C SMBus Voltage-Level Translator 8kV HBM ESD
 F www.ti.com/lit/ds/symlink/tca9406.pdf
+$ENDCMP
+#
+$CMP TCA9800
+D Level-Translating I2C Bus Buffer/Repeater 0.54mA Current Source, VSSOP-8
+K I2C buffer repeater
+F http://www.ti.com/lit/ds/symlink/tca9800.pdf
+$ENDCMP
+#
+$CMP TCA9801
+D Level-Translating I2C Bus Buffer/Repeater 1.1mA Current Source, VSSOP-8
+K I2C buffer repeater
+F http://www.ti.com/lit/ds/symlink/tca9801.pdf
+$ENDCMP
+#
+$CMP TCA9802
+D Level-Translating I2C Bus Buffer/Repeater 2.2mA Current Source, VSSOP-8
+K I2C buffer repeater
+F http://www.ti.com/lit/ds/symlink/tca9802.pdf
+$ENDCMP
+#
+$CMP TCA9803
+D Level-Translating I2C Bus Buffer/Repeater 3.3mA Current Source, VSSOP-8
+K I2C buffer repeater
+F http://www.ti.com/lit/ds/symlink/tca9803.pdf
 $ENDCMP
 #
 $CMP U2270B

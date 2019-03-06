@@ -3,7 +3,7 @@ EESchema-DOCLIB  Version 2.0
 $CMP ADM3053
 D Isolated CAN Transceiver, integrated isolated DC-DC converter, 1Mbps
 K can transceiver isolated protected
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM3053.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3053.pdf
 $ENDCMP
 #
 $CMP ISO1050DUB
@@ -15,13 +15,13 @@ $ENDCMP
 $CMP LTC2875-DD
 D High-Speed CAN Transceiver, 4Mbps, 3.3V or 5V supply, DFN8 package
 K High-Speed CAN Transceiver
-F http://cds.linear.com/docs/en/datasheet/2875f.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2875f.pdf
 $ENDCMP
 #
 $CMP LTC2875-S8
 D High-Speed CAN Transceiver, 4Mbps, 3.3V or 5V supply, SOIC8 package
 K High-Speed CAN Transceiver
-F http://cds.linear.com/docs/en/datasheet/2875f.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2875f.pdf
 $ENDCMP
 #
 $CMP MCP2021A-xxxxMD
@@ -288,6 +288,12 @@ K can transeiver ti
 F http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf
 $ENDCMP
 #
+$CMP TCAN1043xDxQ1
+D High-speed CAN-FD Transceiver with Sleep Mode, SOIC-14
+K CAN FD High Speed CAN Transceiver Sleep VIO
+F http://www.ti.com/lit/ds/symlink/tcan1043-q1.pdf
+$ENDCMP
+#
 $CMP TCAN330
 D High-Speed CAN Transceiver, 1Mbps, 3.3V supply, silent mode, shutdown mode, SOT-23-8/SOIC-8
 K High-Speed CAN Transceiver
@@ -378,6 +384,18 @@ K High-Speed CAN Transceiver HVSON-8
 F http://www.nxp.com/documents/data_sheet/TJA1042.pdf
 $ENDCMP
 #
+$CMP TJA1043T
+D High-speed CAN-FD Transceiver with Sleep Mode, SOIC-14
+K CAN FD High Speed CAN Transceiver Sleep Split-Pin VIO
+F https://www.nxp.com/docs/en/data-sheet/TJA1043.pdf
+$ENDCMP
+#
+$CMP TJA1043TK
+D High-speed CAN-FD Transceiver with Sleep Mode, HVSON-14
+K CAN FD High Speed CAN Transceiver Sleep Split-Pin VIO
+F https://www.nxp.com/docs/en/data-sheet/TJA1043.pdf
+$ENDCMP
+#
 $CMP TJA1049T
 D High-Speed CAN Transceiver, standby mode, split pin, SOIC-8
 K High-Speed CAN Transceiver
@@ -442,6 +460,30 @@ $CMP TJA1052i-5
 D Isolated CAN Transceiver 5.0kV, up to 5Mbps
 K can transceiver isolated protected
 F https://www.nxp.com/docs/en/data-sheet/TJA1052I.pdf
+$ENDCMP
+#
+$CMP TJA1145T
+D High-speed CAN transceiver for partial networking, SOIC-14
+K CAN FD High Speed CAN Transceiver Sleep VIO Partial Networking SPI
+F https://www.nxp.com/docs/en/data-sheet/TJA1145.pdf
+$ENDCMP
+#
+$CMP TJA1145T-FD
+D High-speed CAN transceiver for partial networking with FD-passive function, SOIC-14
+K CAN FD High Speed CAN Transceiver Sleep VIO Partial Networking SPI
+F https://www.nxp.com/docs/en/data-sheet/TJA1145.pdf
+$ENDCMP
+#
+$CMP TJA1145TK
+D High-speed CAN transceiver for partial networking, DFN-14
+K CAN FD High Speed CAN Transceiver Sleep VIO Partial Networking SPI
+F https://www.nxp.com/docs/en/data-sheet/TJA1145.pdf
+$ENDCMP
+#
+$CMP TJA1145TK-FD
+D High-speed CAN transceiver for partial networking with FD-passive function, DFN-14
+K CAN FD High Speed CAN Transceiver Sleep VIO Partial Networking SPI
+F https://www.nxp.com/docs/en/data-sheet/TJA1145.pdf
 $ENDCMP
 #
 #End Doc Library

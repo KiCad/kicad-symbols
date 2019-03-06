@@ -552,16 +552,40 @@ K diode
 F http://www.diodes.com/datasheets/ds30152.pdf
 $ENDCMP
 #
+$CMP BAT54AW
+D Dual schottky barrier diode, common anode, SOT-323
+K dual schottky diode
+F https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf
+$ENDCMP
+#
 $CMP BAT54C
 D dual schottky barrier diode, common cathode
 K schottky diode common cathode
 F http://www.diodes.com/_files/datasheets/ds11005.pdf
 $ENDCMP
 #
+$CMP BAT54CW
+D Dual schottky barrier diode, common cathode, SOT-323
+K dual schottky diode
+F https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf
+$ENDCMP
+#
 $CMP BAT54S
 D schottky barrier diode
 K schottky diode
 F https://www.diodes.com/assets/Datasheets/ds11005.pdf
+$ENDCMP
+#
+$CMP BAT54SW
+D Dual schottky barrier diode, in series, SOT-323
+K dual schottky diode
+F https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf
+$ENDCMP
+#
+$CMP BAT54W
+D Schottky barrier diode, SOT-323
+K schottky diode
+F https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf
 $ENDCMP
 #
 $CMP BAT85
@@ -604,6 +628,12 @@ $CMP BAV19
 D 100V 0.25A Small Signal Switching Diode, High Voltage, DO-35
 K diode
 F http://www.vishay.com/docs/85543/bav17.pdf
+$ENDCMP
+#
+$CMP BAV199DW
+D Quad Surface Mount Low Leakage Diode, SOT-363
+K Quad diode
+F https://www.diodes.com/assets/Datasheets/ds30417.pdf
 $ENDCMP
 #
 $CMP BAV20
