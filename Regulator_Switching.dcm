@@ -1416,6 +1416,12 @@ K DC-DC buck conveter step down voltage regulator
 F http://www.ti.com/lit/ds/symlink/lm3670.pdf
 $ENDCMP
 #
+$CMP LM5001MA
+D 1A, High Voltage (75V) Switch-Mode Regulator, Adjustable Output Voltage, SOIC-8
+K High-Voltage Switch-mode Regulator Flyback SEPIC Boost
+F http://www.ti.com/lit/ds/symlink/lm5001.pdf
+$ENDCMP
+#
 $CMP LM5006MM
 D 600 mA, 80V Constant On-Time Buck Switching Regulator, MSOP-10
 K Constant On-Time Buck Switching Regulator
@@ -2920,6 +2926,18 @@ $CMP MIC4690
 D 1A, 500kHz SuperSwitcher Buck Regulator, 4-34V Input Voltage, Adjustable Output Voltage, SO-8
 K regulator switching adjustable
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic4690.pdf
+$ENDCMP
+#
+$CMP MP171GJ
+D 60mA Non-Isolated Off-Line Regulator, 700V Input Voltage, Adjustable Output Voltage, TSOT-23-5
+K regulator switching adjustable
+F https://www.monolithicpower.com/pub/media/document/m/p/mp171_r1.01.pdf
+$ENDCMP
+#
+$CMP MP171GS
+D 60mA Non-Isolated Off-Line Regulator, 700V Input Voltage, Adjustable Output Voltage, SOIC-8
+K regulator switching adjustable
+F https://www.monolithicpower.com/pub/media/document/m/p/mp171_r1.01.pdf
 $ENDCMP
 #
 $CMP NCP1070P065

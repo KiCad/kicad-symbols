@@ -3726,6 +3726,36 @@ K negative voltage regulator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3015fb.pdf
 $ENDCMP
 #
+$CMP LT3032
+D 150mA, Dual Low Dropout Linear Regulator, Positive/Negative Low Noise, Adjustable Output, DFN-14
+K LDO low noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf
+$ENDCMP
+#
+$CMP LT3032-3.3
+D 150mA, Dual Low Dropout Linear Regulator, Positive/Negative Low Noise, 3.3V Output, DFN-14
+K LDO low noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf
+$ENDCMP
+#
+$CMP LT3032-5
+D 150mA, Dual Low Dropout Linear Regulator, Positive/Negative Low Noise, 5V Output, DFN-14
+K LDO low noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf
+$ENDCMP
+#
+$CMP LT3032-12
+D 150mA, Dual Low Dropout Linear Regulator, Positive/Negative Low Noise, 12V Output, DFN-14
+K LDO low noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf
+$ENDCMP
+#
+$CMP LT3032-15
+D 150mA, Dual Low Dropout Linear Regulator, Positive/Negative Low Noise, 15V Output, DFN-14
+K LDO low noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf
+$ENDCMP
+#
 $CMP LT3080xDD
 D Adjustable 1.1A Single Resistor Low Dropout Regulator, DFN-8
 K Adjustable 1.1A Low Dropout Regulator
@@ -5116,6 +5146,90 @@ $CMP NCP133AMX100TCG
 D 500  mA  VLDO  equipped  with  NMOS  pass transistor  and  a  separate  bias  supply  voltage
 K Single Output LDO
 F http://www.onsemi.com/pub/Collateral/NCP133-D.PDF
+$ENDCMP
+#
+$CMP NCV8114ASN120T1G
+D 300 mA, Low Noise, Linear Regulator with output active discharge function, 1.7-5.5V input voltage range, 1.2V fixed positive output, TSOT-23-5
+K linear regulator ldo fixed positive
+F https://ru.mouser.com/datasheet/2/308/NCV8114-D-1107616.pdf
+$ENDCMP
+#
+$CMP NCV8114ASN150T1G
+D 300 mA, Low Noise, Linear Regulator with output active discharge function, 1.7-5.5V input voltage range, 1.5V fixed positive output, TSOT-23-5
+K linear regulator ldo fixed positive
+F https://ru.mouser.com/datasheet/2/308/NCV8114-D-1107616.pdf
+$ENDCMP
+#
+$CMP NCV8114ASN165T1G
+D 300 mA, Low Noise, Linear Regulator with output active discharge function, 1.7-5.5V input voltage range, 1.65V fixed positive output, TSOT-23-5
+K linear regulator ldo fixed positive
+F https://ru.mouser.com/datasheet/2/308/NCV8114-D-1107616.pdf
+$ENDCMP
+#
+$CMP NCV8114ASN180T1G
+D 300 mA, Low Noise, Linear Regulator with output active discharge function, 1.7-5.5V input voltage range, 1.8V fixed positive output, TSOT-23-5
+K linear regulator ldo fixed positive
+F https://ru.mouser.com/datasheet/2/308/NCV8114-D-1107616.pdf
+$ENDCMP
+#
+$CMP NCV8114ASN250T1G
+D 300 mA, Low Noise, Linear Regulator with output active discharge function, 1.7-5.5V input voltage range, 2.5V fixed positive output, TSOT-23-5
+K linear regulator ldo fixed positive
+F https://ru.mouser.com/datasheet/2/308/NCV8114-D-1107616.pdf
+$ENDCMP
+#
+$CMP NCV8114ASN280T1G
+D 300 mA, Low Noise, Linear Regulator with output active discharge function, 1.7-5.5V input voltage range, 2.8V fixed positive output, TSOT-23-5
+K linear regulator ldo fixed positive
+F https://ru.mouser.com/datasheet/2/308/NCV8114-D-1107616.pdf
+$ENDCMP
+#
+$CMP NCV8114ASN300T1G
+D 300 mA, Low Noise, Linear Regulator with output active discharge function, 1.7-5.5V input voltage range, 3.0V fixed positive output, TSOT-23-5
+K linear regulator ldo fixed positive
+F https://ru.mouser.com/datasheet/2/308/NCV8114-D-1107616.pdf
+$ENDCMP
+#
+$CMP NCV8114ASN330T1G
+D 300 mA, Low Noise, Linear Regulator with output active discharge function, 1.7-5.5V input voltage range, 3.3V fixed positive output, TSOT-23-5
+K linear regulator ldo fixed positive
+F https://ru.mouser.com/datasheet/2/308/NCV8114-D-1107616.pdf
+$ENDCMP
+#
+$CMP NCV8114BSN120T1G
+D 300 mA, Low Noise, Linear Regulator without output active discharge function, 1.7-5.5V input voltage range, 1.2V fixed positive output, TSOT-23-5
+K linear regulator ldo fixed positive
+F https://ru.mouser.com/datasheet/2/308/NCV8114-D-1107616.pdf
+$ENDCMP
+#
+$CMP NCV8114BSN150T1G
+D 300 mA, Low Noise, Linear Regulator without output active discharge function, 1.7-5.5V input voltage range, 1.5V fixed positive output, TSOT-23-5
+K linear regulator ldo fixed positive
+F https://ru.mouser.com/datasheet/2/308/NCV8114-D-1107616.pdf
+$ENDCMP
+#
+$CMP NCV8114BSN180T1G
+D 300 mA, Low Noise, Linear Regulator without output active discharge function, 1.7-5.5V input voltage range, 1.8V fixed positive output, TSOT-23-5
+K linear regulator ldo fixed positive
+F https://ru.mouser.com/datasheet/2/308/NCV8114-D-1107616.pdf
+$ENDCMP
+#
+$CMP NCV8114BSN280T1G
+D 300 mA, Low Noise, Linear Regulator without output active discharge function, 1.7-5.5V input voltage range, 2.8V fixed positive output, TSOT-23-5
+K linear regulator ldo fixed positive
+F https://ru.mouser.com/datasheet/2/308/NCV8114-D-1107616.pdf
+$ENDCMP
+#
+$CMP NCV8114BSN300T1G
+D 300 mA, Low Noise, Linear Regulator without output active discharge function, 1.7-5.5V input voltage range, 3.0V fixed positive output, TSOT-23-5
+K linear regulator ldo fixed positive
+F https://ru.mouser.com/datasheet/2/308/NCV8114-D-1107616.pdf
+$ENDCMP
+#
+$CMP NCV8114BSN330T1G
+D 300 mA, Low Noise, Linear Regulator without output active discharge function, 1.7-5.5V input voltage range, 3.3V fixed positive output, TSOT-23-5
+K linear regulator ldo fixed positive
+F https://ru.mouser.com/datasheet/2/308/NCV8114-D-1107616.pdf
 $ENDCMP
 #
 $CMP OM1323_TO220
