@@ -450,6 +450,12 @@ K dual opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/623345fc.pdf
 $ENDCMP
 #
+$CMP LT6237
+D Dual 215MHz, Rail-to-Rail Output, 1.1nV/√Hz, 3.5mA, Operational Amplifier, MSOP-8/DFN-8
+K dual opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/623637fb.pdf
+$ENDCMP
+#
 $CMP LTC1151CN8
 D Dual ±15V, Zero-Drift, Operational Amplifier, DIP-8
 K dual opamp
