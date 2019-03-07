@@ -240,6 +240,12 @@ K display LCD 7-segment
 F http://www.display-elektronik.de/filter/DE114-RS-20_635.pdf
 $ENDCMP
 #
+$CMP DE122-XX-XX
+D 6 digit 7 segment reflective standard LCD, pin length 6.35mm, -20°C to +70°C, 3V-5V VDD
+K display LCD 7-segment
+F http://www.display-elektronik.de/filter/DE122-RS-20_635.pdf
+$ENDCMP
+#
 $CMP DE170-XX-XX
 D 3 and half digit 7 segment reflective standard LCD with arrow, pin length 7.5mm, -20°C to +70°C, 3V-5V VDD
 K display LCD 7-segment
@@ -447,7 +453,7 @@ $ENDCMP
 $CMP LTS-6960HR
 D DISPLAY 7 SEGMENTS common A.
 K display LED 7-segment
-F Display/LTC-6960HR.pdf
+F https://datasheet.octopart.com/LTS-6960HR-Lite-On-datasheet-11803242.pdf
 $ENDCMP
 #
 $CMP LTS-6980HR
@@ -556,6 +562,24 @@ $CMP RC1602A-GHW-ESX
 D LCD 16x2 Alphanumeric 16pin Gray Backlight
 K display LCD dot-matrix
 F http://www.raystar-optronics.com/down.php?ProID=18
+$ENDCMP
+#
+$CMP SA15-11EWA
+D High Efficiency Red Single-digit Numeric Display with white white diffused lens, common anode
+K display LED 7-segment
+F http://www.kingbrightusa.com/images/catalog/SPEC/SA15-11EWA.pdf
+$ENDCMP
+#
+$CMP SA15-11GWA
+D Green Single-digit Numeric Display with white white diffused lens, common anode
+K display LED 7-segment
+F http://www.kingbrightusa.com/images/catalog/SPEC/SA15-11GWA.pdf
+$ENDCMP
+#
+$CMP SA15-11SRWA
+D Super Bright Red Single-digit Numeric Display with white white diffused lens, common anode
+K display LED 7-segment
+F http://www.kingbrightusa.com/images/catalog/SPEC/SA15-11SRWA.pdf
 $ENDCMP
 #
 $CMP SBC18-11EGWA

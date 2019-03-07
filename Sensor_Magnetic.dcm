@@ -84,34 +84,76 @@ K hall switch
 F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
 $ENDCMP
 #
+$CMP AH1806-P
+D High Sensitivity Micropower Omnipolar Hall-Effect Switch, SIP-3
+K hall switch
+F https://www.diodes.com/assets/Datasheets/AH1806.pdf
+$ENDCMP
+#
+$CMP AH1806-W
+D High Sensitivity Micropower Omnipolar Hall-Effect Switch, SC-59
+K hall switch
+F https://www.diodes.com/assets/Datasheets/AH1806.pdf
+$ENDCMP
+#
+$CMP AH1806-Z
+D High Sensitivity Micropower Omnipolar Hall-Effect Switch, SOT-553
+K hall switch
+F https://www.diodes.com/assets/Datasheets/AH1806.pdf
+$ENDCMP
+#
+$CMP AK7452
+D Magnetic rotary angle sensor, 14-bit, SPI interface, ABZ, UVW, TSSOP-16
+K sensor magnetic hall position rotation spi
+F https://www.akm.com/akm/en/file/datasheet/AK7452.pdf
+$ENDCMP
+#
 $CMP AS5045B
-D Magnetic Position Sensor, 12-bit, PWM Output, ABI Output, SPI Interface
+D Magnetic Position Sensor, 12-bit, PWM Output, ABI Output, SPI Interface, SSOP-16
 K Magnetic Hall Encoder
-F http://ams.com/eng/content/download/438063/1340357/246195
+F https://ams.com/documents/20143/36005/AS5045B_DS000397_2-00.pdf
 $ENDCMP
 #
 $CMP AS5048A
-D Magnetic position sensor, 14-bit, PWM output, SPI Interface
+D Magnetic position sensor, 14-bit, PWM output, SPI Interface, TSSOP-14
 K sensor magnetic hall position rotation spi
-F http://ams.com/eng/content/download/438523/1341157/file/AS5048_Datasheet.pdf
+F https://ams.com/documents/20143/36005/AS5048_DS000298_4-00.pdf
 $ENDCMP
 #
 $CMP AS5048B
-D Magnetic position sensor, 14-bit, PWM output, I2C Interface
+D Magnetic position sensor, 14-bit, PWM output, I2C Interface, TSSOP-14
 K sensor magnetic hall position rotation i2c
-F http://ams.com/eng/content/download/438523/1341157/file/AS5048_Datasheet.pdf
+F https://ams.com/documents/20143/36005/AS5048_DS000298_4-00.pdf
 $ENDCMP
 #
 $CMP AS5050A
-D Magnetic position sensor, 10-bit, SPI interface
+D Magnetic position sensor, 10-bit, SPI interface, QFN-16
 K sensor magnetic hall position rotation spi
-F http://ams.com/eng/content/download/552303/1541697/file/AS5050A_Datasheet_EN_v6.pdf
+F https://ams.com/documents/20143/36005/AS5055A_DS000304_2-00.pdf
 $ENDCMP
 #
 $CMP AS5055A
-D Magnetic position sensor, 12-bit, SPI interface
+D Magnetic position sensor, 12-bit, SPI interface, QFN-16
 K sensor magnetic hall position rotation spi
-F http://ams.com/eng/content/download/552323/1541717/file/AS5055A_Datasheet_EN_v6.pdf
+F https://ams.com/documents/20143/36005/AS5055A_DS000304_2-00.pdf
+$ENDCMP
+#
+$CMP DRV5033AJQDBZ
+D Hall effect switch, omnipolar, Bop=6.9mT, Brp=3.5, -40C to +125C
+K hall switch
+F http://www.ti.com/lit/ds/symlink/drv5033.pdf
+$ENDCMP
+#
+$CMP DRV5033FAQDBZ
+D Hall effect switch, omnipolar, Bop=3.5mT, Brp=2.0, -40C to +125C
+K hall switch
+F http://www.ti.com/lit/ds/symlink/drv5033.pdf
+$ENDCMP
+#
+$CMP MA730
+D Magnetic rotary angle sensor, 14-bit, SPI interface, ABZ, PWM, QFN-16
+K sensor magnetic hall position rotation spi
+F https://www.monolithicpower.com/pub/media/document/m/a/ma730_r1.01.pdf
 $ENDCMP
 #
 $CMP MMC5883MA
@@ -121,19 +163,19 @@ F http://www.memsic.com/userfiles/files/DataSheets/Magnetic-Sensors-Datasheets/M
 $ENDCMP
 #
 $CMP SM351LT
-D Hall Effect Switch, SOT23
+D Hall Effect Switch, SOT-23
 K Hall Effect Switch Sensor
 F https://sensing.honeywell.com/honeywell-sensing-nanopower-series-product-sheet-50095501-a-en.pdf
 $ENDCMP
 #
 $CMP SM353LT
-D Hall Effect Switch, SOT23
+D Hall Effect Switch, SOT-23
 K Hall Effect Switch Sensor
 F https://sensing.honeywell.com/honeywell-sensing-nanopower-series-product-sheet-50095501-a-en.pdf
 $ENDCMP
 #
 $CMP TLV493D
-D Low power 3D magnetic sensor, I2C interface, SOT23-6 package
+D Low power 3D magnetic sensor, I2C interface, SOT-23-6
 K magnetic field i2c
 F http://www.infineon.com/dgdl/Infineon-TLV493D-A1B6-DS-v01_00-EN.pdf?fileId=5546d462525dbac40152a6b85c760e80
 $ENDCMP
