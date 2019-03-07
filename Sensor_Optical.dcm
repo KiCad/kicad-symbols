@@ -246,6 +246,11 @@ K PMT 8-stage
 F ~
 $ENDCMP
 #
+$CMP PMW3901MB-TXQT
+D Optical motion tracking chip
+K flow sensor optical navigation
+$ENDCMP
+#
 $CMP S13360-3025CS
 D Multi-Pixel Photon Counter with 25µm pixel pitch
 K opto SiPM MPPC hamamatsu SPAD
