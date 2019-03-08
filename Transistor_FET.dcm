@@ -2424,6 +2424,12 @@ K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/SI/SI4542DY.pdf
 $ENDCMP
 #
+$CMP Si7141DP
+D 60A Id, 20V Vds, 1.9 mOhm Ron, PowerPAK-8
+K P-Channel MOSFET
+F https://www.vishay.com/docs/65596/si7141dp.pdf
+$ENDCMP
+#
 $CMP Si7336ADP
 D 30A Id, 30V Vds, 2.4 mOhm Ron, PowerPAK-8
 K N-Channel MOSFET
