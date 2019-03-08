@@ -24,6 +24,12 @@ K N-Channel MOSFET
 F http://www.diodes.com/assets/Datasheets/2N7002H.pdf
 $ENDCMP
 #
+$CMP 2N7002K
+D 0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/ds30896.pdf
+$ENDCMP
+#
 $CMP 3SK263
 D 30mA Id, 15V Vds, N-Channel Dual Gate MOSFET, SOT-143/343
 K NMOS Dual Gate
