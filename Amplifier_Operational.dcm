@@ -444,10 +444,16 @@ K quad opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/14923f.pdf
 $ENDCMP
 #
-$CMP LT6233
+$CMP LT6234
 D Dual 60MHz, Rail-to-Rail Output, 1.9nV/√Hz, 1.2mA, Operational Amplifier, SOIC-8
 K dual opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/623345fc.pdf
+$ENDCMP
+#
+$CMP LT6237
+D Dual 215MHz, Rail-to-Rail Output, 1.1nV/√Hz, 3.5mA, Operational Amplifier, MSOP-8/DFN-8
+K dual opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/623637fb.pdf
 $ENDCMP
 #
 $CMP LTC1151CN8
