@@ -78,6 +78,12 @@ K onion omega module
 F https://docs.onion.io/omega2-docs/omega2p.html
 $ENDCMP
 #
+$CMP Pocketbeagle
+D Ultra-tiny-yet-complete Linux-enabled, community-supported, open-source USB-key-fob computer
+K beaglebord pocketbeagle
+F https://github.com/beagleboard/pocketbeagle/blob/master/PocketBeagle_sch.pdf
+$ENDCMP
+#
 $CMP VisionSOM-6UL
 D i.MX6-UL NXP ARM Cortex-A7 696MHz single core industrial SoM computer
 K somlabs module
