@@ -24,6 +24,12 @@ K N-Channel MOSFET
 F http://www.diodes.com/assets/Datasheets/2N7002H.pdf
 $ENDCMP
 #
+$CMP 2N7002K
+D 0.38A Id, 60V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/ds30896.pdf
+$ENDCMP
+#
 $CMP 3SK263
 D 30mA Id, 15V Vds, N-Channel Dual Gate MOSFET, SOT-143/343
 K NMOS Dual Gate
@@ -2424,10 +2430,16 @@ K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/SI/SI4542DY.pdf
 $ENDCMP
 #
+$CMP Si7141DP
+D 60A Id, 20V Vds, 1.9 mOhm Ron, PowerPAK-8
+K P-Channel MOSFET
+F https://www.vishay.com/docs/65596/si7141dp.pdf
+$ENDCMP
+#
 $CMP Si7336ADP
 D 30A Id, 30V Vds, 2.4 mOhm Ron, PowerPAK-8
 K N-Channel MOSFET
-F www.vishay.com/docs/73152/si7336adp.pdf
+F https://www.vishay.com/docs/73152/si7336adp.pdf
 $ENDCMP
 #
 $CMP SiA449DJ
