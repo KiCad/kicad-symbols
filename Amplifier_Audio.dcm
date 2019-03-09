@@ -444,4 +444,10 @@ K audio vca
 F http://www.thatcorp.com/datashts/THAT_2181-Series_Datasheet.pdf
 $ENDCMP
 #
+$CMP TPA6130A2RTJ
+D 138mW DirectPath stereo headphone amplifier with I2C volume control, WQFN-20
+K stereo audio headphone amplifier
+F http://www.ti.com/lit/ds/symlink/tpa6130a2.pdf
+$ENDCMP
+#
 #End Doc Library
