@@ -175,13 +175,13 @@ F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5054.pd
 $ENDCMP
 #
 $CMP ADP5070AREZ
-D 1 A/0.6 A DC-to-DC Switching Regulator with Independent Positive and Negative Outputs
+D 1A/0.6A DC-to-DC Switching Regulator with Independent Positive and Negative Outputs
 K voltage regulator switching inverter double positive negative
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5070.pdf
 $ENDCMP
 #
 $CMP ADP5071AREZ
-D 2 A/1.2 A DC-to-DC Switching Regulator with Independent Positive and Negative Outputs
+D 2A/1.2A DC-to-DC Switching Regulator with Independent Positive and Negative Outputs
 K voltage regulator switching inverter double positive negative
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5071.pdf
 $ENDCMP
@@ -1219,49 +1219,49 @@ F http://www.ti.com/lit/ds/symlink/lm2672.pdf
 $ENDCMP
 #
 $CMP LM2674M-12
-D 12V, 500 mA Step-Down Voltage Regulator, SO-8
+D 12V, 500mA Step-Down Voltage Regulator, SO-8
 K Step-Down Voltage Regulator 12V 500mA
 F http://www.ti.com/lit/ds/symlink/lm2674.pdf
 $ENDCMP
 #
 $CMP LM2674M-3.3
-D 3.3V, 500 mA Step-Down Voltage Regulator, SO-8
+D 3.3V, 500mA Step-Down Voltage Regulator, SO-8
 K Step-Down Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lm2674.pdf
 $ENDCMP
 #
 $CMP LM2674M-5.0
-D 5V, 500 mA Step-Down Voltage Regulator, SO-8
+D 5V, 500mA Step-Down Voltage Regulator, SO-8
 K Step-Down Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lm2674.pdf
 $ENDCMP
 #
 $CMP LM2674M-ADJ
-D Adjustable Output Voltage, 500 mA Step-Down Voltage Regulator, SO-8
+D Adjustable Output Voltage, 500mA Step-Down Voltage Regulator, SO-8
 K Step-Down Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lm2674.pdf
 $ENDCMP
 #
 $CMP LM2674N-12
-D 12V, 500 mA Step-Down Voltage Regulator, DIP-8
+D 12V, 500mA Step-Down Voltage Regulator, DIP-8
 K Step-Down Voltage Regulator 12V 500mA
 F http://www.ti.com/lit/ds/symlink/lm2674.pdf
 $ENDCMP
 #
 $CMP LM2674N-3.3
-D 3.3V, 500 mA Step-Down Voltage Regulator, DIP-8
+D 3.3V, 500mA Step-Down Voltage Regulator, DIP-8
 K Step-Down Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lm2674.pdf
 $ENDCMP
 #
 $CMP LM2674N-5.0
-D 5V, 500 mA Step-Down Voltage Regulator, DIP-8
+D 5V, 500mA Step-Down Voltage Regulator, DIP-8
 K Step-Down Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lm2674.pdf
 $ENDCMP
 #
 $CMP LM2674N-ADJ
-D Adjustable Output Voltage, 500 mA Step-Down Voltage Regulator, DIP-8
+D Adjustable Output Voltage, 500mA Step-Down Voltage Regulator, DIP-8
 K Step-Down Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lm2674.pdf
 $ENDCMP
@@ -1423,55 +1423,55 @@ F http://www.ti.com/lit/ds/symlink/lm5001.pdf
 $ENDCMP
 #
 $CMP LM5006MM
-D 600 mA, 80V Constant On-Time Buck Switching Regulator, MSOP-10
+D 600mA, 80V Constant On-Time Buck Switching Regulator, MSOP-10
 K Constant On-Time Buck Switching Regulator
 F http://www.ti.com/lit/ds/symlink/lm5006.pdf
 $ENDCMP
 #
 $CMP LM5007MM
-D 700 mA, High Voltage (80V) Step-Down Switching Regulator, Adjustable Output Voltage, MSOP-8
+D 700mA, High Voltage (80V) Step-Down Switching Regulator, Adjustable Output Voltage, MSOP-8
 K Step-Down Switching Regulator
 F http://www.ti.com/lit/ds/symlink/lm5007.pdf
 $ENDCMP
 #
 $CMP LM5007SD
-D 700 mA, High Voltage (80V) Step-Down Switching Regulator, Adjustable Output Voltage, WSON-8
+D 700mA, High Voltage (80V) Step-Down Switching Regulator, Adjustable Output Voltage, WSON-8
 K Step-Down Switching Regulator
 F http://www.ti.com/lit/ds/symlink/lm5007.pdf
 $ENDCMP
 #
 $CMP LM5008MM
-D 500 mA, High Voltage (100V) Step-Down Switching Regulator, Adjustable Output Voltage, MSOP-8
+D 500mA, High Voltage (100V) Step-Down Switching Regulator, Adjustable Output Voltage, MSOP-8
 K Step-Down Switching Regulator
 F http://www.ti.com/lit/ds/symlink/lm5008.pdf
 $ENDCMP
 #
 $CMP LM5008SD
-D 500 mA, High Voltage (100V) Step-Down Switching Regulator, Adjustable Output Voltage, WSON-8
+D 500mA, High Voltage (100V) Step-Down Switching Regulator, Adjustable Output Voltage, WSON-8
 K Step-Down Switching Regulator
 F http://www.ti.com/lit/ds/symlink/lm5008.pdf
 $ENDCMP
 #
 $CMP LM5009MM
-D 150 mA, High Voltage (80V) Step-Down Switching Regulator, Adjustable Output Voltage, MSOP-8
+D 150mA, High Voltage (80V) Step-Down Switching Regulator, Adjustable Output Voltage, MSOP-8
 K Step-Down Switching Regulator
 F http://www.ti.com/lit/ds/symlink/lm5009.pdf
 $ENDCMP
 #
 $CMP LM5009SD
-D 500 mA, High Voltage (80V) Step-Down Switching Regulator, Adjustable Output Voltage, WSON-8
+D 500mA, High Voltage (80V) Step-Down Switching Regulator, Adjustable Output Voltage, WSON-8
 K Step-Down Switching Regulator
 F http://www.ti.com/lit/ds/symlink/lm5009.pdf
 $ENDCMP
 #
 $CMP LM5017MR
-D 600 mA, 100V Step-Down Switching Regulator, PowerSO-8
+D 600mA, 100V Step-Down Switching Regulator, PowerSO-8
 K Step-Down Switching Regulator High Voltage
 F http://www.ti.com/lit/ds/symlink/lm5017.pdf
 $ENDCMP
 #
 $CMP LM5017SD
-D 600 mA, 100V Step-Down Switching Regulator, WSON-8
+D 600mA, 100V Step-Down Switching Regulator, WSON-8
 K Step-Down Switching Regulator High Voltage
 F http://www.ti.com/lit/ds/symlink/lm5017.pdf
 $ENDCMP
@@ -3817,13 +3817,13 @@ F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASH
 $ENDCMP
 #
 $CMP TL497
-D 500 mA step up/step down/inverting switching voltage regulator, SIP-14/SOIC-14(W)
+D 500mA step up/step down/inverting switching voltage regulator, SIP-14/SOIC-14(W)
 K buck regulator
 F http://www.ti.com/lit/ds/symlink/tl497a.pdf
 $ENDCMP
 #
 $CMP TL497A
-D 500 mA step up/step down switching regulator
+D 500mA step up/step down switching regulator
 K buck regulator
 F http://www.ti.com/lit/ds/symlink/tl497a.pdf
 $ENDCMP
