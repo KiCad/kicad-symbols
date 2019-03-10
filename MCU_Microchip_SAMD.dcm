@@ -1,11 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP ATSAMD21G18A-AUT
-D SAM D21 Microchip SMART ARM-based Flash MCU, 48Mhz, 256K Flash, 32K SRAM, TQFP-48
-K 32-bit ARM Cortex-M0+ MCU Microcontroller
-F http://ww1.microchip.com/downloads/en/DeviceDoc/SAMD21-Family-DataSheet-DS40001882D.pdf
-$ENDCMP
-#
 $CMP ATSAMD09C13A-SS
 D ARM Cortex-M0+ MCU, 48MHz, 8KB Flash, 4KB RAM, 2.4-3.6V, 12 GPIO, SOIC-14
 K 32-bit ARM Cortex-M0+ MCU Microcontroller
@@ -82,6 +76,36 @@ $CMP ATSAMD11D14A-U
 D ARM Cortex-M0+ MCU, 48MHz, 16KB Flash, 4KB RAM, 1.6-3.6V, 18 GPIO, WLCSP-20
 K 32-bit ARM Cortex-M0+ MCU Microcontroller
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42363-SAM-D11_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATSAMD21G18A-AUT
+D SAM D21 Microchip SMART ARM-based Flash MCU, 48Mhz, 256K Flash, 32K SRAM, TQFP-48
+K 32-bit ARM Cortex-M0+ MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SAMD21-Family-DataSheet-DS40001882D.pdf
+$ENDCMP
+#
+$CMP ATSAMD21J15A-A
+D SAM D21 Microchip SMART ARM-based Flash MCU, 48MHz, 32K Flash, 4K SRAM, TQFP-64
+K 32-bit ARM Cortex-M0+ MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM-D21-Family-Datasheet-DS40001882C.pdf
+$ENDCMP
+#
+$CMP ATSAMD21J16A-A
+D SAM D21 Microchip SMART ARM-based Flash MCU, 48MHz, 64K Flash, 8K SRAM, TQFP-64
+K 32-bit ARM Cortex-M0+ MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM-D21-Family-Datasheet-DS40001882C.pdf
+$ENDCMP
+#
+$CMP ATSAMD21J17A-A
+D SAM D21 Microchip SMART ARM-based Flash MCU, 48MHz, 128K Flash, 16K SRAM, TQFP-64
+K 32-bit ARM Cortex-M0+ MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM-D21-Family-Datasheet-DS40001882C.pdf
+$ENDCMP
+#
+$CMP ATSAMD21J18A-A
+D SAM D21 Microchip SMART ARM-based Flash MCU, 48MHz, 256K Flash, 32K SRAM, TQFP-64
+K 32-bit ARM Cortex-M0+ MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM-D21-Family-Datasheet-DS40001882C.pdf
 $ENDCMP
 #
 #End Doc Library
