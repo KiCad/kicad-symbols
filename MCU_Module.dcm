@@ -96,4 +96,10 @@ K somlabs module
 F https://wiki.somlabs.com/index.php/VisionSOM-RT_Datasheet_and_Pinout
 $ENDCMP
 #
+$CMP WeMos_D1_mini
+D 32-bit microcontroller module with WiFi
+K ESP8266 WiFi microcontroller ESP8266EX
+F https://wiki.wemos.cc/products:d1:d1_mini#documentation
+$ENDCMP
+#
 #End Doc Library
