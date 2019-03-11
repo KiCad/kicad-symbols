@@ -630,6 +630,12 @@ K diode
 F http://www.vishay.com/docs/85543/bav17.pdf
 $ENDCMP
 #
+$CMP BAV199DW
+D Quad Surface Mount Low Leakage Diode, SOT-363
+K Quad diode
+F https://www.diodes.com/assets/Datasheets/ds30417.pdf
+$ENDCMP
+#
 $CMP BAV20
 D 150V 0.25A Small Signal Switching Diode, High Voltage, DO-35
 K diode

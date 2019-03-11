@@ -7,13 +7,13 @@ F https://www.analog.com/media/en/technical-documentation/data-sheets/AD797.pdf
 $ENDCMP
 #
 $CMP AD8001AN
-D Current Feedback Amplifier, 800 MHz, 50 mW, DIP-8
+D Current Feedback Amplifier, 800 MHz, 50mW, DIP-8
 K single opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ad8001.pdf
 $ENDCMP
 #
 $CMP AD8001AR
-D Current Feedback Amplifier, 800 MHz, 50 mW, SOIC-8
+D Current Feedback Amplifier, 800 MHz, 50mW, SOIC-8
 K single opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ad8001.pdf
 $ENDCMP
@@ -444,10 +444,16 @@ K quad opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/14923f.pdf
 $ENDCMP
 #
-$CMP LT6233
+$CMP LT6234
 D Dual 60MHz, Rail-to-Rail Output, 1.9nV/√Hz, 1.2mA, Operational Amplifier, SOIC-8
 K dual opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/623345fc.pdf
+$ENDCMP
+#
+$CMP LT6237
+D Dual 215MHz, Rail-to-Rail Output, 1.1nV/√Hz, 3.5mA, Operational Amplifier, MSOP-8/DFN-8
+K dual opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/623637fb.pdf
 $ENDCMP
 #
 $CMP LTC1151CN8
@@ -541,13 +547,13 @@ F https://www.onsemi.com/pub/Collateral/MC33078-D.PDF
 $ENDCMP
 #
 $CMP MC33172
-D Dual Single Supply 3.0 V to 44 V, Low Power Operational Amplifiers, DIP-8/SOIC-8
+D Dual Single Supply 3.0V to 44V, Low Power Operational Amplifiers, DIP-8/SOIC-8
 K dual opamp
 F http://www.onsemi.com/pub/Collateral/MC33171-D.PDF
 $ENDCMP
 #
 $CMP MC33174
-D Quad Single Supply 3.0 V to 44 V, Low Power Operational Amplifiers, DIP-14/SOIC-14/TSSOP-14
+D Quad Single Supply 3.0V to 44V, Low Power Operational Amplifiers, DIP-14/SOIC-14/TSSOP-14
 K quad opamp
 F http://www.onsemi.com/pub/Collateral/MC33171-D.PDF
 $ENDCMP
@@ -1351,13 +1357,13 @@ F http://www.ti.com/lit/ds/symlink/tlv6001.pdf
 $ENDCMP
 #
 $CMP TS881xCx
-D Rail-to-rail 0.9 V nanopower comparator, SC-70-5
+D Rail-to-rail 0.9V nanopower comparator, SC-70-5
 K single comparator
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/a2/60/3e/5d/b2/c1/4a/e9/DM00057901.pdf/files/DM00057901.pdf/jcr:content/translations/en.DM00057901.pdf
 $ENDCMP
 #
 $CMP TS881xLx
-D Rail-to-rail 0.9 V nanopower comparator, SOT-23-5
+D Rail-to-rail 0.9V nanopower comparator, SOT-23-5
 K single comparator
 F www.st.com/resource/en/datasheet/ts881.pdf
 $ENDCMP
