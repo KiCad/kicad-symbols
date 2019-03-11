@@ -120,21 +120,15 @@ K trimmer capacitor
 F ~
 $ENDCMP
 #
-$CMP CircuitBreaker_1P_US
-D Single pole circuit breaker, US symbol
-K CB
-F ~
-$ENDCMP
-#
 $CMP CircuitBreaker_1P
 D Single pole circuit breaker
 K CB
 F ~
 $ENDCMP
 #
-$CMP CircuitBreaker_2P_US
-D Double pole circuit breaker, US symbol
-K CB 2P
+$CMP CircuitBreaker_1P_US
+D Single pole circuit breaker, US symbol
+K CB
 F ~
 $ENDCMP
 #
@@ -144,14 +138,20 @@ K CB 2P
 F ~
 $ENDCMP
 #
-$CMP CircuitBreaker_3P_US
-D Triple pole circuit breaker, US symbol
-K CB 3P
+$CMP CircuitBreaker_2P_US
+D Double pole circuit breaker, US symbol
+K CB 2P
 F ~
 $ENDCMP
 #
 $CMP CircuitBreaker_3P
 D Triple pole circuit breaker
+K CB 3P
+F ~
+$ENDCMP
+#
+$CMP CircuitBreaker_3P_US
+D Triple pole circuit breaker, US symbol
 K CB 3P
 F ~
 $ENDCMP
