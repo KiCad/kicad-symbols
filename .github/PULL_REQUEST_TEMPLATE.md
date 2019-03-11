@@ -18,17 +18,17 @@
 
 
 
-  <link crossorigin="anonymous" media="all" integrity="sha512-lLo2nlsdl+bHLu6PGvC2j3wfP45RnK4wKQLiPnCDcuXfU38AiD+JCdMywnF3WbJC1jaxe3lAI6AM4uJuMFBLEw==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-08fc49d3bd2694c870ea23d0906f3610.css" />
-  <link crossorigin="anonymous" media="all" integrity="sha512-+ZQwBfJw0+vWamxjWgu2B3g58zCABOB1yRj/kGGVcZmXuZ6wTWkVwNWaOgy285h5vdw4VuUp57FjdiVujwnkHw==" rel="stylesheet" href="https://github.githubassets.com/assets/github-b43e758c845fa54305d34a4b97d30922.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-R+Vpkv86him5JZcqAEuQRUGOKqH897w6q7uJ1P65tQR+9Hxar5vU4wpEd4uvcXT8ooRZ7zsNftrjnCemEt2u2Q==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-f4557b27209914aa4705202b188165b5.css" />
   
-  
-  
-  
-  
+    <link crossorigin="anonymous" media="all" integrity="sha512-KEU81s6VSQsWSYL9G7CIF3KfhcC/TA95vNfUJblMHowAYWYVidT8OwKZbk3cwed4lgSrWGI9C6HiSwa9InPqJA==" rel="stylesheet" href="https://github.githubassets.com/assets/github-da3c6f2fea2a2b141160341f730a74e7.css" />
+    
+    
+    
+    
 
   <meta name="viewport" content="width=device-width">
   
-  <title>kicad-symbols/PULL_REQUEST_TEMPLATE.md at master · KiCad/kicad-symbols</title>
+  <title>kicad-symbols/PULL_REQUEST_TEMPLATE.md at 15d758dac11d239afa2f14283332dfc065a00b8f · KiCad/kicad-symbols</title>
     <meta name="description" content="Official KiCad schematic symbol libraries for Kicad 5 - KiCad/kicad-symbols">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -38,10 +38,10 @@
     <meta property="og:image" content="https://avatars3.githubusercontent.com/u/3374914?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="KiCad/kicad-symbols" /><meta property="og:url" content="https://github.com/KiCad/kicad-symbols" /><meta property="og:description" content="Official KiCad schematic symbol libraries for Kicad 5 - KiCad/kicad-symbols" />
 
   <link rel="assets" href="https://github.githubassets.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MzAxMDUwNDM4OjBmMmY4MTUyNzdlN2RkNzU2NzllMmQ0OWQyNWMyYmYyMDllODM2YTZiMmJmMmFkYzFlOTc3OWNlMjYwZWU0OGY=--cb521e142807400b01819a2f070b9c80689848bc">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6Mzc5MTI1OTM1OjBlMjgwOTY1NmUxYWJhN2VkY2Y5YmFkNjZmY2JhNWQ5N2U0NDE5ZjU1MzcwYTI0MjM1MzhkMzQyMjgwNjI1OWY=--23aa042486bdb7bc2b1a0ed51ff21eec9d9147db">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="D46B:81BF:AFFF36F:11290D08:5C26D2BD" data-pjax-transient>
+  <meta name="request-id" content="D939:57B3:14AE580:26975FB:5C863D71" data-pjax-transient>
 
 
   
@@ -52,13 +52,13 @@
     <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
 
-  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="D46B:81BF:AFFF36F:11290D08:5C26D2BD" /><meta name="octolytics-dimension-region_edge" content="sea" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="39449559" /><meta name="octolytics-actor-login" content="b1ackmai1er" /><meta name="octolytics-actor-hash" content="4f16bb439d32d65b11b99b5b967c27d41cb6a04147cdef1cfd367494ce7c2811" />
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="D939:57B3:14AE580:26975FB:5C863D71" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="39449559" /><meta name="octolytics-actor-login" content="b1ackmai1er" /><meta name="octolytics-actor-hash" content="4f16bb439d32d65b11b99b5b967c27d41cb6a04147cdef1cfd367494ce7c2811" />
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
 
 
 
-  <meta class="js-ga-set" name="userId" content="73aed0e19e48617a9bee715875e4f595" %>
+  <meta class="js-ga-set" name="userId" content="73aed0e19e48617a9bee715875e4f595">
 
 <meta class="js-ga-set" name="dimension1" content="Logged In">
 
@@ -70,23 +70,23 @@
     <meta name="user-login" content="b1ackmai1er">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="ODg2NzQzY2Y0Y2IwOThmNDQ1YWU1ZjNiYzU2Nzc0MmUwMWRiZTZmZTY4Y2M0NTBjNDQ0NzYwNzViMzczNmJmNHx7InJlbW90ZV9hZGRyZXNzIjoiMjAzLjYzLjI1NS45NyIsInJlcXVlc3RfaWQiOiJENDZCOjgxQkY6QUZGRjM2RjoxMTI5MEQwODo1QzI2RDJCRCIsInRpbWVzdGFtcCI6MTU0NjA0ODIwMiwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+    <meta name="js-proxy-site-detection-payload" content="MTZmNDU3NGEwYjg0ZGQ5NzhjN2FkN2RmZjNmZWIzNDlkYzczMTY4MWI2NTQ0NGZhMTcwN2EyNDUzOGUxMTFhOHx7InJlbW90ZV9hZGRyZXNzIjoiMTk0LjIyMy4xNzMuMTE2IiwicmVxdWVzdF9pZCI6IkQ5Mzk6NTdCMzoxNEFFNTgwOjI2OTc1RkI6NUM4NjNENzEiLCJ0aW1lc3RhbXAiOjE1NTIzMDE0MzIsImhvc3QiOiJnaXRodWIuY29tIn0=">
 
-    <meta name="enabled-features" content="DASHBOARD_V2_LAYOUT_OPT_IN,EXPLORE_DISCOVER_REPOSITORIES,UNIVERSE_BANNER,MARKETPLACE_PLAN_RESTRICTION_EDITOR,NOTIFY_ON_BLOCK,RELATED_ISSUES,MARKETPLACE_INSIGHTS_V2">
+    <meta name="enabled-features" content="UNIVERSE_BANNER,MARKETPLACE_SOCIAL_PROOF,MARKETPLACE_PLAN_RESTRICTION_EDITOR,NOTIFY_ON_BLOCK,RELATED_ISSUES,MARKETPLACE_BROWSING_V2">
 
-  <meta name="html-safe-nonce" content="76b2281b2de14b07b685ff64475af30a887ba40b">
+  <meta name="html-safe-nonce" content="f1de61a87be91284605b0f36b0d7f1c9b6c97cdc">
 
-  <meta http-equiv="x-pjax-version" content="dcf479d97247df77ce4929e5f45d2480">
+  <meta http-equiv="x-pjax-version" content="c615060392e2a21a92354f07293d9eff">
   
 
-      <link href="https://github.com/KiCad/kicad-symbols/commits/master.atom" rel="alternate" title="Recent Commits to kicad-symbols:master" type="application/atom+xml">
+      <link href="https://github.com/KiCad/kicad-symbols/commits/15d758dac11d239afa2f14283332dfc065a00b8f.atom" rel="alternate" title="Recent Commits to kicad-symbols:15d758dac11d239afa2f14283332dfc065a00b8f" type="application/atom+xml">
 
   <meta name="go-import" content="github.com/KiCad/kicad-symbols git https://github.com/KiCad/kicad-symbols.git">
 
   <meta name="octolytics-dimension-user_id" content="3374914" /><meta name="octolytics-dimension-user_login" content="KiCad" /><meta name="octolytics-dimension-repository_id" content="96768601" /><meta name="octolytics-dimension-repository_nwo" content="KiCad/kicad-symbols" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="96768601" /><meta name="octolytics-dimension-repository_network_root_nwo" content="KiCad/kicad-symbols" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/KiCad/kicad-symbols/blob/master/.github/PULL_REQUEST_TEMPLATE.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/KiCad/kicad-symbols/blob/15d758dac11d239afa2f14283332dfc065a00b8f/.github/PULL_REQUEST_TEMPLATE.md" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -97,6 +97,7 @@
   <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://github.githubassets.com/favicon.ico">
 
 <meta name="theme-color" content="#1e2327">
+
 
 
 
@@ -140,7 +141,7 @@
   aria-expanded="false"
 >
   <div class="position-relative">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scope-type="Repository" data-scope-id="96768601" data-scoped-search-url="/KiCad/kicad-symbols/search" data-unscoped-search-url="/search" action="/KiCad/kicad-symbols/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="96768601" data-scoped-search-url="/KiCad/kicad-symbols/search" data-unscoped-search-url="/search" action="/KiCad/kicad-symbols/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
       <label class="form-control header-search-wrapper header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
         <input type="text"
           class="form-control header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
@@ -154,7 +155,7 @@
           aria-autocomplete="list"
           aria-controls="jump-to-results"
           aria-label="Search or jump to…"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=CL4vswUOvuRTbRaTnbK2SyC3ojBoGiGtICvT3EH8Flq2rf/pe5jpx3Lz/SpfFWeGgOZcSPBLiIel00HcxI3Y4Q=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=TY/qYDsR7fCm0d9TMLGtJp7hsavE0kY3daewHLCsDpxAI47eApRpMvY0lZMxo/5Gk2lKVyB1l7QUpYMb2saSSw=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -347,7 +348,7 @@
   <div class="dropdown-header">
     <span title="KiCad/kicad-symbols">This repository</span>
   </div>
-    <a role="menuitem" class="dropdown-item" href="/KiCad/kicad-symbols/issues/new" data-ga-click="Header, create new issue">
+    <a role="menuitem" class="dropdown-item" href="/KiCad/kicad-symbols/issues/new" data-ga-click="Header, create new issue" >
       New issue
     </a>
 
@@ -366,36 +367,152 @@
         <span class="dropdown-caret"></span>
       </summary>
       <details-menu class="dropdown-menu dropdown-menu-sw">
-        <ul>
-          <li class="header-nav-current-user css-truncate"><a role="menuitem" class="no-underline user-profile-link px-3 pt-2 pb-2 mb-n2 mt-n1 d-block" href="/b1ackmai1er" data-ga-click="Header, go to profile, text:Signed in as">Signed in as <strong class="css-truncate-target">b1ackmai1er</strong></a></li>
-          <li class="dropdown-divider"></li>
+        <div class="header-nav-current-user css-truncate"><a role="menuitem" class="no-underline user-profile-link px-3 pt-2 pb-2 mb-n2 mt-n1 d-block" href="/b1ackmai1er" data-ga-click="Header, go to profile, text:Signed in as">Signed in as <strong class="css-truncate-target">b1ackmai1er</strong></a></div>
+        <div role="none" class="dropdown-divider"></div>
 
+        <div class="px-3 f6 user-status-container js-user-status-context pb-1" data-url="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1">
+          
+<div class="js-user-status-container user-status-compact" data-team-hovercards-enabled>
+  <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
+    <summary class="btn-link no-underline js-toggle-user-status-edit toggle-user-status-edit width-full" aria-haspopup="dialog" role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:3374914,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:39449559,&quot;client_id&quot;:&quot;1123917640.1547452241&quot;,&quot;originating_request_id&quot;:&quot;D939:57B3:14AE580:26975FB:5C863D71&quot;,&quot;originating_url&quot;:&quot;https://github.com/KiCad/kicad-symbols/blob/15d758dac11d239afa2f14283332dfc065a00b8f/.github/PULL_REQUEST_TEMPLATE.md&quot;}}" data-hydro-click-hmac="9beab80b7fa78dac013a8cabdac65d935be4358f9164d8b211fa0c5e2b33d0bd">
+      <div class="f6 d-inline-block v-align-middle  user-status-emoji-only-header pl-0 circle lh-condensed user-status-header " style="max-width: 29px">
+        <div class="user-status-emoji-container flex-shrink-0 mr-1">
+          <svg class="octicon octicon-smiley" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm4.81 12.81a6.72 6.72 0 0 1-2.17 1.45c-.83.36-1.72.53-2.64.53-.92 0-1.81-.17-2.64-.53-.81-.34-1.55-.83-2.17-1.45a6.773 6.773 0 0 1-1.45-2.17A6.59 6.59 0 0 1 1.21 8c0-.92.17-1.81.53-2.64.34-.81.83-1.55 1.45-2.17.62-.62 1.36-1.11 2.17-1.45A6.59 6.59 0 0 1 8 1.21c.92 0 1.81.17 2.64.53.81.34 1.55.83 2.17 1.45.62.62 1.11 1.36 1.45 2.17.36.83.53 1.72.53 2.64 0 .92-.17 1.81-.53 2.64-.34.81-.83 1.55-1.45 2.17zM4 6.8v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2H5.2C4.53 8 4 7.47 4 6.8zm5 0v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2h-.59C9.53 8 9 7.47 9 6.8zm4 3.2c-.72 1.88-2.91 3-5 3s-4.28-1.13-5-3c-.14-.39.23-1 .66-1h8.59c.41 0 .89.61.75 1z"/></svg>
+        </div>
+      </div>
+      <div class="d-inline-block v-align-middle user-status-message-wrapper f6 lh-condensed ws-normal pt-1">
+          <span class="link-gray">Set your status</span>
+      </div>
+</summary>    <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="K8Y1bUzQV5xb8TKZJPYXMUYpsjoa1u93lYrSga6WnJ1QL95gjmXH6jB0UFlXsmO+24XVn52bKaLPKvWxgMM9Ng==" />
+        <div class="Box-header bg-gray border-bottom p-3">
+          <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
+            <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+          </button>
+          <h3 class="Box-title f5 text-bold text-gray-dark">Edit status</h3>
+        </div>
+        <input type="hidden" name="emoji" class="js-user-status-emoji-field" value="">
+        <input type="hidden" name="organization_id" class="js-user-status-org-id-field" value="">
+        <div class="px-3 py-2 text-gray-dark">
+          <div class="js-characters-remaining-container js-suggester-container position-relative mt-2">
+            <div class="input-group d-table form-group my-0 js-user-status-form-group">
+              <span class="input-group-button d-table-cell v-align-middle" style="width: 1%">
+                <button type="button" aria-label="Choose an emoji" class="btn-outline btn js-toggle-user-status-emoji-picker bg-white btn-open-emoji-picker">
+                  <span class="js-user-status-original-emoji" hidden></span>
+                  <span class="js-user-status-custom-emoji"></span>
+                  <span class="js-user-status-no-emoji-icon" >
+                    <svg class="octicon octicon-smiley" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm4.81 12.81a6.72 6.72 0 0 1-2.17 1.45c-.83.36-1.72.53-2.64.53-.92 0-1.81-.17-2.64-.53-.81-.34-1.55-.83-2.17-1.45a6.773 6.773 0 0 1-1.45-2.17A6.59 6.59 0 0 1 1.21 8c0-.92.17-1.81.53-2.64.34-.81.83-1.55 1.45-2.17.62-.62 1.36-1.11 2.17-1.45A6.59 6.59 0 0 1 8 1.21c.92 0 1.81.17 2.64.53.81.34 1.55.83 2.17 1.45.62.62 1.11 1.36 1.45 2.17.36.83.53 1.72.53 2.64 0 .92-.17 1.81-.53 2.64-.34.81-.83 1.55-1.45 2.17zM4 6.8v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2H5.2C4.53 8 4 7.47 4 6.8zm5 0v-.59c0-.66.53-1.19 1.2-1.19h.59c.66 0 1.19.53 1.19 1.19v.59c0 .67-.53 1.2-1.19 1.2h-.59C9.53 8 9 7.47 9 6.8zm4 3.2c-.72 1.88-2.91 3-5 3s-4.28-1.13-5-3c-.14-.39.23-1 .66-1h8.59c.41 0 .89.61.75 1z"/></svg>
+                  </span>
+                </button>
+              </span>
+              <input type="text" autocomplete="off" autofocus data-maxlength="80" class="js-suggester-field d-table-cell width-full form-control js-user-status-message-field js-characters-remaining-field" placeholder="What's happening?" name="message" required value="" aria-label="What is your current status?">
+              <div class="error">Could not update your status, please try again.</div>
+            </div>
+            <div class="suggester-container">
+              <div class="suggester js-suggester js-navigation-container" data-url="/autocomplete/user-suggestions" data-no-org-url="/autocomplete/user-suggestions" data-org-url="/suggestions" hidden>
+              </div>
+            </div>
+            <div style="margin-left: 53px" class="my-1 text-small label-characters-remaining js-characters-remaining" data-suffix="remaining" hidden>
+              80 remaining
+            </div>
+          </div>
+          <include-fragment class="js-user-status-emoji-picker" data-url="/users/status/emoji"></include-fragment>
+          <div class="overflow-auto" style="max-height: 33vh">
+            <div class="user-status-suggestions js-user-status-suggestions">
+              <h4 class="f6 text-normal my-3">Suggestions:</h4>
+              <div class="mx-3 mt-2 clearfix">
+                  <div class="float-left col-6">
+                      <button type="button" value=":palm_tree:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
+                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
+                          <g-emoji alias="palm_tree" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f334.png">🌴</g-emoji>
+                        </div>
+                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message" style="border-left: 1px solid transparent">
+                          On vacation
+                        </div>
+                      </button>
+                      <button type="button" value=":face_with_thermometer:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
+                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
+                          <g-emoji alias="face_with_thermometer" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f912.png">🤒</g-emoji>
+                        </div>
+                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message" style="border-left: 1px solid transparent">
+                          Out sick
+                        </div>
+                      </button>
+                  </div>
+                  <div class="float-left col-6">
+                      <button type="button" value=":house:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
+                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
+                          <g-emoji alias="house" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3e0.png">🏠</g-emoji>
+                        </div>
+                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message" style="border-left: 1px solid transparent">
+                          Working from home
+                        </div>
+                      </button>
+                      <button type="button" value=":dart:" class="d-flex flex-items-baseline flex-items-stretch lh-condensed f6 btn-link link-gray no-underline js-predefined-user-status mb-1">
+                        <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
+                          <g-emoji alias="dart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3af.png">🎯</g-emoji>
+                        </div>
+                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message" style="border-left: 1px solid transparent">
+                          Focusing
+                        </div>
+                      </button>
+                  </div>
+              </div>
+            </div>
+            <div class="user-status-limited-availability-container">
+              <div class="form-checkbox my-0">
+                <input type="checkbox" name="limited_availability" value="1" class="js-user-status-limited-availability-checkbox" data-default-message="I may be slow to respond." aria-describedby="limited-availability-help-text-truncate-true" id="limited-availability-truncate-true">
+                <label class="d-block f5 text-gray-dark mb-1" for="limited-availability-truncate-true">
+                  Busy
+                </label>
+                <p class="note" id="limited-availability-help-text-truncate-true">
+                  When others mention you, assign you, or request your review,
+                  GitHub will let them know that you have limited availability.
+                </p>
+              </div>
+            </div>
+          </div>
+          <include-fragment class="js-user-status-org-picker" data-url="/users/status/organizations"></include-fragment>
+        </div>
+        <div class="d-flex flex-items-center flex-justify-between p-3 border-top">
+          <button type="submit" disabled class="width-full btn btn-primary mr-2 js-user-status-submit">
+            Set status
+          </button>
+          <button type="button" disabled class="width-full js-clear-user-status-button btn ml-2 ">
+            Clear status
+          </button>
+        </div>
+</form>    </details-dialog>
+  </details>
+</div>
 
-          <li><a role="menuitem" class="dropdown-item" href="/b1ackmai1er" data-ga-click="Header, go to profile, text:your profile">Your profile</a></li>
-          <li><a role="menuitem" class="dropdown-item" href="/b1ackmai1er?tab=repositories" data-ga-click="Header, go to repositories, text:your repositories">Your repositories</a></li>
+        </div>
+        <div role="none" class="dropdown-divider"></div>
 
+        <a role="menuitem" class="dropdown-item" href="/b1ackmai1er" data-ga-click="Header, go to profile, text:your profile">Your profile</a>
+        <a role="menuitem" class="dropdown-item" href="/b1ackmai1er?tab=repositories" data-ga-click="Header, go to repositories, text:your repositories">Your repositories</a>
 
-          <li><a role="menuitem" class="dropdown-item" href="/b1ackmai1er?tab=stars" data-ga-click="Header, go to starred repos, text:your stars">Your stars</a></li>
-            <li><a role="menuitem" class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, your gists, text:your gists">Your gists</a></li>
-          <li class="dropdown-divider"></li>
-          <li><a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a></li>
-          <li><a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a></li>
-          <li>
-            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="21VnYMAexbBjweM5FHuRIudBVWWTB8eozUGhlvkeEzmiEvSIVcFGqs+yeuw5cVapbKqbTJ6LxcsxTwGalYPMiw==" />
-              
-              <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
-                Sign out
-              </button>
-</form>          </li>
-        </ul>
-      </details-menu>
+        <a role="menuitem" class="dropdown-item" href="/b1ackmai1er?tab=projects" data-ga-click="Header, go to projects, text:your projects">Your projects</a>
+
+        <a role="menuitem" class="dropdown-item" href="/b1ackmai1er?tab=stars" data-ga-click="Header, go to starred repos, text:your stars">Your stars</a>
+          <a role="menuitem" class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, your gists, text:your gists">Your gists</a>
+
+        <div role="none" class="dropdown-divider"></div>
+        <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
+        <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="yrv8Ut2GtIejO8frTzICm1Db0lMD6/fACXw44I904T+qmXjj3c5Tm54355iG7n45FCVPv5UcPpPrDmU5UkDM3g==" />
+          
+          <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
+            Sign out
+          </button>
+</form>      </details-menu>
     </details>
   </li>
 </ul>
 
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="fp6pL0MJyovWfEhR/e2qoErHR3Y6NOFxgHZRqGqa/LAH2TrH1tZJkXoP0YTQ520rwSyJXze44xJ8ePGkBgcjAg==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="PHO9o0p/C7ERTCcZpHQF1C338BM9yeYIyrOVYA9eVmZcUTkSSjfsrSxAB2ptqHl2aQlt/6s+L1sowci50mp7hw==" />
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -416,16 +533,18 @@
 
 
 
-  <div role="main" class="application-main " data-commit-hovercards-enabled>
+  <div class="application-main " data-commit-hovercards-enabled>
         <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
-    <div id="js-repo-pjax-container" data-pjax-container >
+    <main id="js-repo-pjax-container" data-pjax-container >
       
 
 
   
 
 
+
   
+
 
 
 
@@ -433,17 +552,18 @@
     <div class="repohead-details-container clearfix container">
 
       <ul class="pagehead-actions">
+
+
+
   <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="+0vUlxbqHZVEhurT7DHwzGXJdr8iFZKZzV+OmgB0LDPa57W252vvzf9F3jb5JaaQX05hB++S1tYKFgqZc54Hqw==" />      <input type="hidden" name="repository_id" id="repository_id" value="96768601" class="form-control" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="3MqoNW1N+hx+MsPVlW/h79nL8wa+2ClJYYRsl76bV8Z7Y6407t4/WiQ87tD/+S6eIYr83rr9I8AoCIZrCxkklg==" />      <input type="hidden" name="repository_id" id="repository_id" value="96768601" class="form-control" />
 
       <details class="details-reset details-overlay select-menu float-left">
-        <summary class="btn btn-sm btn-with-count select-menu-button" data-ga-click="Repository, click Watch settings, action:blob#show">
-          <span data-menu-button>
+        <summary class="btn btn-sm btn-with-count select-menu-button" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;user_id&quot;:39449559,&quot;record_id&quot;:96768601,&quot;client_id&quot;:&quot;1123917640.1547452241&quot;,&quot;originating_request_id&quot;:&quot;D939:57B3:14AE580:26975FB:5C863D71&quot;,&quot;originating_url&quot;:&quot;https://github.com/KiCad/kicad-symbols/blob/15d758dac11d239afa2f14283332dfc065a00b8f/.github/PULL_REQUEST_TEMPLATE.md&quot;}}" data-hydro-click-hmac="b96a23df7a85f41f6b8f78b1ce65cede3ea4131abb6f55c1931f896a1c91fb7c" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
               Watch
           </span>
-        </summary>
-        <details-menu class="select-menu-modal position-absolute mt-5" style="z-index: 99;">
+</summary>        <details-menu class="select-menu-modal position-absolute mt-5" style="z-index: 99;">
           <div class="select-menu-header">
             <span class="select-menu-title">Notifications</span>
           </div>
@@ -500,62 +620,43 @@
       </details>
       <a class="social-count js-social-count"
         href="/KiCad/kicad-symbols/watchers"
-        aria-label="47 users are watching this repository">
-        47
+        aria-label="48 users are watching this repository">
+        48
       </a>
 </form>
   </li>
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/KiCad/kicad-symbols/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="y4rHhK5AO6GkCP9kdR3WFgoov0h+Djado9Y0cSTDrQYgXzgN7yRMTN9ygpcE5im553JAhOzsvj+PD4pwucRwKg==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/KiCad/kicad-symbols/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="rq8R/MzDpk+W77zr5Pk1O3SM+Sj1HehBrBXl/Uw5F1wGSl+yzUbbKjXI+cQk40T0jfpxtdTypJBcqbwdTGkmyA==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button
-        type="submit"
-        class="btn btn-sm btn-with-count js-toggler-target"
-        aria-label="Unstar this repository" title="Unstar KiCad/kicad-symbols"
-        data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">
-        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar KiCad/kicad-symbols" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;user_id&quot;:39449559,&quot;record_id&quot;:96768601,&quot;client_id&quot;:&quot;1123917640.1547452241&quot;,&quot;originating_request_id&quot;:&quot;D939:57B3:14AE580:26975FB:5C863D71&quot;,&quot;originating_url&quot;:&quot;https://github.com/KiCad/kicad-symbols/blob/15d758dac11d239afa2f14283332dfc065a00b8f/.github/PULL_REQUEST_TEMPLATE.md&quot;}}" data-hydro-click-hmac="97d2b5aa577038cbdba41090a04c864dbede388ab80d842aae05212482491089" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
         Unstar
-      </button>
-        <a class="social-count js-social-count" href="/KiCad/kicad-symbols/stargazers"
-           aria-label="178 users starred this repository">
-          178
+</button>        <a class="social-count js-social-count" href="/KiCad/kicad-symbols/stargazers"
+           aria-label="218 users starred this repository">
+          218
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/KiCad/kicad-symbols/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="J/yVyWsirl3c8JV99273hYPyQ3DbFtGDq1lxWyMfN/s4aP8XNcYdM9qJdtlk1ahMQw3Y7SfSwEEbZ/5Y7BmqMQ==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/KiCad/kicad-symbols/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="in/xoM5H8WtanT0Bqyt5shAnZbkZJ4Kj8ylaMEj8ZkopzfjvtGluyonAeBEqm6WzZ/anfNZZWRPq73KZ4eYzfg==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button
-        type="submit"
-        class="btn btn-sm btn-with-count js-toggler-target"
-        aria-label="Star this repository" title="Star KiCad/kicad-symbols"
-        data-ga-click="Repository, click star button, action:blob#show; text:Star">
-        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star KiCad/kicad-symbols" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;user_id&quot;:39449559,&quot;record_id&quot;:96768601,&quot;client_id&quot;:&quot;1123917640.1547452241&quot;,&quot;originating_request_id&quot;:&quot;D939:57B3:14AE580:26975FB:5C863D71&quot;,&quot;originating_url&quot;:&quot;https://github.com/KiCad/kicad-symbols/blob/15d758dac11d239afa2f14283332dfc065a00b8f/.github/PULL_REQUEST_TEMPLATE.md&quot;}}" data-hydro-click-hmac="334dbd73fdde99bece4bff46cc5df46f634c61a4a7e9cd17fd276033734dcce7" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
         Star
-      </button>
-        <a class="social-count js-social-count" href="/KiCad/kicad-symbols/stargazers"
-           aria-label="178 users starred this repository">
-          178
+</button>        <a class="social-count js-social-count" href="/KiCad/kicad-symbols/stargazers"
+           aria-label="218 users starred this repository">
+          218
         </a>
 </form>  </div>
 
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/KiCad/kicad-symbols/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="PeIIZ1lwc4DHE4BMWlCe8Jzptz6RodaR5MEQXjfTBWgsGCQTyvaTMpKTn2S0bg/GPOA12ab5Ronvh0eA4MWq/Q==" />
-            <button
-                type="submit"
-                class="btn btn-sm btn-with-count"
-                data-ga-click="Repository, show fork modal, action:blob#show; text:Fork"
-                title="Fork your own copy of KiCad/kicad-symbols to your account"
-                aria-label="Fork your own copy of KiCad/kicad-symbols to your account">
-              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/KiCad/kicad-symbols/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Ruz3vF4upny2Ck300kZ2M1U4aE/msZgHfJeY3wxBTXSO6UWlGqSsY5rcxqF//BqMYOpR4NvDFIqjL4ap2eB7bw==" />
+            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;user_id&quot;:39449559,&quot;record_id&quot;:96768601,&quot;client_id&quot;:&quot;1123917640.1547452241&quot;,&quot;originating_request_id&quot;:&quot;D939:57B3:14AE580:26975FB:5C863D71&quot;,&quot;originating_url&quot;:&quot;https://github.com/KiCad/kicad-symbols/blob/15d758dac11d239afa2f14283332dfc065a00b8f/.github/PULL_REQUEST_TEMPLATE.md&quot;}}" data-hydro-click-hmac="4615494f9d3db51668099ece3454e0b06324918bca44558a28117863c0b91858" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of KiCad/kicad-symbols to your account" aria-label="Fork your own copy of KiCad/kicad-symbols to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
               Fork
-            </button>
-</form>
+</button></form>
     <a href="/KiCad/kicad-symbols/network/members" class="social-count"
-       aria-label="328 users forked this repository">
-      328
+       aria-label="382 users forked this repository">
+      382
     </a>
   </li>
 </ul>
@@ -587,7 +688,7 @@
       <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /KiCad/kicad-symbols/issues" href="/KiCad/kicad-symbols/issues">
         <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
         <span itemprop="name">Issues</span>
-        <span class="Counter">108</span>
+        <span class="Counter">115</span>
         <meta itemprop="position" content="2">
 </a>    </span>
 
@@ -595,7 +696,7 @@
     <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /KiCad/kicad-symbols/pulls" href="/KiCad/kicad-symbols/pulls">
       <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
       <span itemprop="name">Pull requests</span>
-      <span class="Counter">219</span>
+      <span class="Counter">152</span>
       <meta itemprop="position" content="3">
 </a>  </span>
 
@@ -610,7 +711,7 @@
       <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
       Wiki
 </a>
-    <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse alerts security /KiCad/kicad-symbols/pulse" href="/KiCad/kicad-symbols/pulse">
+    <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse alerts security people /KiCad/kicad-symbols/pulse" href="/KiCad/kicad-symbols/pulse">
       <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
       Insights
 </a>
@@ -619,7 +720,6 @@
 
 
   </div>
-
 <div class="container new-discussion-timeline experiment-repo-nav  ">
   <div class="repository-content ">
 
@@ -629,200 +729,32 @@
 
 
   
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/KiCad/kicad-symbols/blob/53aa8eae38768acec2c6ce74f1e02e0debc4a04f/.github/PULL_REQUEST_TEMPLATE.md">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/KiCad/kicad-symbols/blob/15d758dac11d239afa2f14283332dfc065a00b8f/.github/PULL_REQUEST_TEMPLATE.md">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v21:6d3b7c64738e0eede05acbfa880e72ba -->
+    <!-- blob contrib key: blob_contributors:v21:244a7dcc798e72907c6367be78bd7f32 -->
 
     
 
     <div class="file-navigation">
       
-<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left "
-  >
-  <button class="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
-    
-    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
-    <i>Branch:</i>
-    <span class="js-select-button css-truncate-target">master</span>
-  </button>
+<details class="details-reset details-overlay select-menu branch-select-menu float-left">
+  <summary class="btn btn-sm select-menu-button css-truncate"
+           data-hotkey="w"
+           
+           title="Switch branches or tags">
+    <i>Tree:</i>
+    <span class="css-truncate-target">15d758dac1</span>
+  </summary>
 
-  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
-    <div class="select-menu-modal">
-        
-<div class="select-menu-header">
-  <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
-  <span class="select-menu-title">Switch branches/tags</span>
-</div>
-
-<tab-container>
-<div class="select-menu-filters">
-  <div class="select-menu-text-filter">
-    <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
-  </div>
-  <div class="select-menu-tabs" role="tablist">
-    <ul>
-      <li class="select-menu-tab">
-        <button type="button" class="select-menu-tab-nav" data-filter-placeholder="Filter branches/tags" role="tab" aria-selected="true">Branches</button>
-      </li>
-      <li class="select-menu-tab">
-        <button type="button" class="select-menu-tab-nav" data-filter-placeholder="Find a tag…" role="tab">Tags</button>
-      </li>
-    </ul>
-  </div>
-</div>
-
-<div class="select-menu-list" role="tabpanel">
-  <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-         href="/KiCad/kicad-symbols/blob/BatteryHolder/.github/PULL_REQUEST_TEMPLATE.md"
-         data-name="BatteryHolder"
-         data-skip-pjax="true"
-         rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
-          BatteryHolder
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-         href="/KiCad/kicad-symbols/blob/ESP-PSRAM32/.github/PULL_REQUEST_TEMPLATE.md"
-         data-name="ESP-PSRAM32"
-         data-skip-pjax="true"
-         rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
-          ESP-PSRAM32
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open selected"
-         href="/KiCad/kicad-symbols/blob/master/.github/PULL_REQUEST_TEMPLATE.md"
-         data-name="master"
-         data-skip-pjax="true"
-         rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
-          master
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-         href="/KiCad/kicad-symbols/blob/v4-backport-rc2/.github/PULL_REQUEST_TEMPLATE.md"
-         data-name="v4-backport-rc2"
-         data-skip-pjax="true"
-         rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
-          v4-backport-rc2
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-         href="/KiCad/kicad-symbols/blob/v4-bb-5.0.0_stable/.github/PULL_REQUEST_TEMPLATE.md"
-         data-name="v4-bb-5.0.0_stable"
-         data-skip-pjax="true"
-         rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
-          v4-bb-5.0.0_stable
-        </span>
-      </a>
-  </div>
-
-    <div class="select-menu-no-results">Nothing to show</div>
-</div>
-
-<div class="select-menu-list" role="tabpanel" hidden>
-  <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/KiCad/kicad-symbols/blob/v4-backport-5.0.0/.github/PULL_REQUEST_TEMPLATE.md"
-        data-name="v4-backport-5.0.0"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="v4-backport-5.0.0">
-          v4-backport-5.0.0
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/KiCad/kicad-symbols/blob/v4-backport-5.0.0-rc2/.github/PULL_REQUEST_TEMPLATE.md"
-        data-name="v4-backport-5.0.0-rc2"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="v4-backport-5.0.0-rc2">
-          v4-backport-5.0.0-rc2
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/KiCad/kicad-symbols/blob/5.0.2/.github/PULL_REQUEST_TEMPLATE.md"
-        data-name="5.0.2"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="5.0.2">
-          5.0.2
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/KiCad/kicad-symbols/blob/5.0.1/.github/PULL_REQUEST_TEMPLATE.md"
-        data-name="5.0.1"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="5.0.1">
-          5.0.1
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/KiCad/kicad-symbols/blob/5.0.0/.github/PULL_REQUEST_TEMPLATE.md"
-        data-name="5.0.0"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="5.0.0">
-          5.0.0
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/KiCad/kicad-symbols/blob/5.0.0-rc3/.github/PULL_REQUEST_TEMPLATE.md"
-        data-name="5.0.0-rc3"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="5.0.0-rc3">
-          5.0.0-rc3
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/KiCad/kicad-symbols/blob/5.0.0-rc2/.github/PULL_REQUEST_TEMPLATE.md"
-        data-name="5.0.0-rc2"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="5.0.0-rc2">
-          5.0.0-rc2
-        </span>
-      </a>
-      <a class="select-menu-item js-navigation-item js-navigation-open "
-        href="/KiCad/kicad-symbols/blob/5.0.0-rc1/.github/PULL_REQUEST_TEMPLATE.md"
-        data-name="5.0.0-rc1"
-        data-skip-pjax="true"
-        rel="nofollow">
-        <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-        <span class="select-menu-item-text css-truncate-target" title="5.0.0-rc1">
-          5.0.0-rc1
-        </span>
-      </a>
-  </div>
-
-  <div class="select-menu-no-results">Nothing to show</div>
-</div>
-</tab-container>
-
-
-    </div>
-  </div>
-</div>
+  <details-menu class="select-menu-modal position-absolute" style="z-index: 99;" src="/KiCad/kicad-symbols/ref-list/15d758dac11d239afa2f14283332dfc065a00b8f/.github/PULL_REQUEST_TEMPLATE.md?source_action=show&amp;source_controller=blob" preload>
+    <include-fragment class="select-menu-loading-overlay anim-pulse">
+      <svg height="32" class="octicon octicon-octoface" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
+    </include-fragment>
+  </details-menu>
+</details>
 
       <div class="BtnGroup float-right">
-        <a href="/KiCad/kicad-symbols/find/master"
+        <a href="/KiCad/kicad-symbols/find/15d758dac11d239afa2f14283332dfc065a00b8f"
               class="js-pjax-capture-input btn btn-sm BtnGroup-item"
               data-pjax
               data-hotkey="t">
@@ -833,60 +765,112 @@
         </clipboard-copy>
       </div>
       <div id="blob-path" class="breadcrumb">
-        <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/KiCad/kicad-symbols"><span>kicad-symbols</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/KiCad/kicad-symbols/tree/master/.github"><span>.github</span></a></span><span class="separator">/</span><strong class="final-path">PULL_REQUEST_TEMPLATE.md</strong>
+        <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" rel="nofollow" href="/KiCad/kicad-symbols/tree/15d758dac11d239afa2f14283332dfc065a00b8f"><span>kicad-symbols</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" rel="nofollow" href="/KiCad/kicad-symbols/tree/15d758dac11d239afa2f14283332dfc065a00b8f/.github"><span>.github</span></a></span><span class="separator">/</span><strong class="final-path">PULL_REQUEST_TEMPLATE.md</strong>
       </div>
     </div>
 
 
-    <include-fragment src="/KiCad/kicad-symbols/contributors/master/.github/PULL_REQUEST_TEMPLATE.md" class="commit-tease commit-loader">
-      <div>
-        Fetching contributors&hellip;
+
+    
+  <div class="commit-tease d-flex flex-column flex-shrink-0">
+      <div class="d-flex flex-justify-between ">
+        <span class="pr-md-4">
+          <a rel="contributor" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=18327350" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/poeschlr"><img class="avatar" src="https://avatars3.githubusercontent.com/u/18327350?s=40&amp;v=4" width="20" height="20" alt="@poeschlr" /></a>
+          <a class="user-mention" rel="contributor" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=18327350" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/poeschlr">poeschlr</a>
+            <a data-pjax="true" title="Request contributors to give reasons for rule violations" class="message" href="/KiCad/kicad-symbols/commit/15d758dac11d239afa2f14283332dfc065a00b8f">Request contributors to give reasons for rule violations</a>
+        </span>
+        <span class="d-inline-block flex-shrink-0 v-align-bottom ">
+          <a class="commit-tease-sha pr-2" href="/KiCad/kicad-symbols/commit/15d758dac11d239afa2f14283332dfc065a00b8f" data-pjax>
+            15d758d
+          </a>
+          <relative-time datetime="2019-01-25T23:00:26Z">Jan 26, 2019</relative-time>
+        </span>
       </div>
 
-      <div class="commit-tease-contributors">
-          <img alt="" class="loader-loading float-left" src="https://github.githubassets.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
-        <span class="loader-error">Cannot retrieve contributors at this time</span>
-      </div>
-</include-fragment>
+    <div class="commit-tease-contributors flex-auto">
+      
+<details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark float-left mr-2" id="blob_contributors_box">
+  <summary
+      class="btn-link"
+      aria-haspopup="dialog"
+      
+      
+      >
+    
+    <span><strong>2</strong> contributors</span>
+  </summary>
+  <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast " aria-label="Users who have contributed to this file">
+    <div class="Box-header">
+      <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+      </button>
+      <h3 class="Box-title">Users who have contributed to this file</h3>
+    </div>
+    
+        <ul class="list-style-none overflow-auto">
+            <li class="Box-row">
+              <a class="link-gray-dark no-underline" href="/SchrodingersGat">
+                <img class="avatar mr-2" alt="" src="https://avatars1.githubusercontent.com/u/10080325?s=40&amp;v=4" width="20" height="20" />
+                SchrodingersGat
+</a>            </li>
+            <li class="Box-row">
+              <a class="link-gray-dark no-underline" href="/poeschlr">
+                <img class="avatar mr-2" alt="" src="https://avatars3.githubusercontent.com/u/18327350?s=40&amp;v=4" width="20" height="20" />
+                poeschlr
+</a>            </li>
+        </ul>
+
+  </details-dialog>
+</details>
+          <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=10080325" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/KiCad/kicad-symbols/commits/15d758dac11d239afa2f14283332dfc065a00b8f/.github/PULL_REQUEST_TEMPLATE.md?author=SchrodingersGat">
+      <img class="avatar" src="https://avatars1.githubusercontent.com/u/10080325?s=40&amp;v=4" width="20" height="20" alt="@SchrodingersGat" /> 
+</a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=18327350" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/KiCad/kicad-symbols/commits/15d758dac11d239afa2f14283332dfc065a00b8f/.github/PULL_REQUEST_TEMPLATE.md?author=poeschlr">
+      <img class="avatar" src="https://avatars3.githubusercontent.com/u/18327350?s=40&amp;v=4" width="20" height="20" alt="@poeschlr" /> 
+</a>
+
+    </div>
+  </div>
+
+
+
 
 
     <div class="file ">
       
-<div class="file-header">
+<div class="file-header ">
 
-  <div class="file-actions">
+  <div class="file-info float-left ">
+      16 lines (11 sloc)
+      <span class="file-info-divider"></span>
+    945 Bytes
+  </div>
 
+  <div class="file-actions d-flex ">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/KiCad/kicad-symbols/raw/master/.github/PULL_REQUEST_TEMPLATE.md">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/KiCad/kicad-symbols/blame/master/.github/PULL_REQUEST_TEMPLATE.md">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/KiCad/kicad-symbols/commits/master/.github/PULL_REQUEST_TEMPLATE.md">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/KiCad/kicad-symbols/raw/15d758dac11d239afa2f14283332dfc065a00b8f/.github/PULL_REQUEST_TEMPLATE.md">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/KiCad/kicad-symbols/blame/15d758dac11d239afa2f14283332dfc065a00b8f/.github/PULL_REQUEST_TEMPLATE.md">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/KiCad/kicad-symbols/commits/15d758dac11d239afa2f14283332dfc065a00b8f/.github/PULL_REQUEST_TEMPLATE.md">History</a>
     </div>
 
-        <a class="btn-octicon tooltipped tooltipped-nw"
-           href="https://desktop.github.com"
-           aria-label="Open this file in GitHub Desktop"
-           data-ga-click="Repository, open with desktop, type:windows">
-            <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
-        </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/KiCad/kicad-symbols/edit/master/.github/PULL_REQUEST_TEMPLATE.md" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="df75olyL3k668Bk6Emi/OwWXXZoMlJuOYrjBrOJ9+8m83l2nD3yYDd2eqdEejX0cGeK06DRVcAVjl0eg8+hx5Q==" />
-            <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
-              aria-label="Edit the file in your fork of this project" data-hotkey="e" data-disable-with>
-              <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
+    <div>
+            <button class="btn-octicon disabled tooltipped tooltipped-nw "
+               type="button"
+               disabled
+               aria-label="You must be on a branch to open this file in GitHub Desktop">
+                <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
             </button>
-</form>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/KiCad/kicad-symbols/delete/master/.github/PULL_REQUEST_TEMPLATE.md" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="6Oa1nW2DVO1rbr7Ff0ScNP3VHePrBFDmuU4PTX7RQ6mfeGQNvHVKe66lkGd/MDMduriDKOom4U6ek0lgJQfP6g==" />
-          <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
-            aria-label="Delete the file in your fork of this project" data-disable-with>
+
+          <button type="button" class="btn-octicon disabled tooltipped tooltipped-nw"
+            aria-label="You must be on a branch to make or propose changes to this file">
+            <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
+          </button>
+          <button type="button" class="btn-octicon btn-octicon-danger disabled tooltipped tooltipped-nw"
+            aria-label="You must be on a branch to make or propose changes to this file">
             <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
           </button>
-</form>  </div>
-
-  <div class="file-info">
-      11 lines (8 sloc)
-      <span class="file-info-divider"></span>
-    668 Bytes
+    </div>
   </div>
 </div>
 
@@ -894,13 +878,19 @@
   <div id="readme" class="readme blob instapaper_body js-code-block-container">
     <article class="markdown-body entry-content" itemprop="text"><p><em>Replace this line with your commit message! Please provide a description of your pull request</em></p>
 <hr>
+<p>All contributions to the kicad library must follow the <a href="http://kicad-pcb.org/libraries/klc/" rel="nofollow">KiCad library convention</a></p>
 <p>Thanks for creating a pull request to contribute to the KiCad libraries! To speed up integration of your PR, please check the following items:</p>
 <ul class="contains-task-list">
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Provide a URL to a datasheet for the symbol(s) you are contributing</li>
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> An example screenshot image is very helpful</li>
-<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Ensure that the associated footprints match the <a href="https://github.com/kicad/kicad-footprints">official footprint library</a></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Ensure that the associated footprints match the <a href="https://github.com/kicad/kicad-footprints">official footprint library</a>
+<ul>
+<li>A new fitting footprint must be submitted if the library does not yet contain one.</li>
+</ul>
+</li>
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> If there are matching footprint PRs, provide link(s) as appropriate</li>
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Check the output of the Travis automated check scripts - fix any errors as required</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Give a reason behind any intentional library convention rule violation.</li>
 </ul>
 </article>
   </div>
@@ -924,24 +914,25 @@
   <div class="modal-backdrop js-touch-events"></div>
 </div>
 
-    </div>
+    </main>
   </div>
+  
 
   </div>
 
         
-<div class="footer container-lg px-3" role="contentinfo">
+<div class="footer container-lg width-full px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2018 <span title="0.27596s from unicorn-54c4f69bb6-46n57">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2019 <span title="0.27175s from unicorn-546c6c9fdc-7n6lc">GitHub</span>, Inc.</li>
         <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
         <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
-        <li class="mr-3"><a href="/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
         <li class="mr-3"><a href="https://githubstatus.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
         <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
     </ul>
 
-    <a aria-label="Homepage" title="GitHub" class="footer-octicon mr-lg-4" href="https://github.com">
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon mx-lg-4" href="https://github.com">
       <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
 </a>
    <ul class="list-style-none d-flex flex-wrap ">
@@ -949,7 +940,7 @@
         <li class="mr-3"><a href="https://github.com/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
       <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
       <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
-        <li class="mr-3"><a href="https://blog.github.com" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li class="mr-3"><a href="https://github.blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
         <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
 
     </ul>
@@ -971,9 +962,9 @@
 
 
     
-    <script crossorigin="anonymous" integrity="sha512-qj1Z4g+YDVWKElb6FC42CcUWNq8P0W9aiU0CtKWjzuEMO9tb8sbbJ48dWUkmaOIe7WlLJXkI4YsUCKMxRMxT5A==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-9ee26246cce2c45ef24accded28cdabe.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-KCVOwhxVtdshPtIYVj/37r2/cr5yZGEzKYrvIQZ7c3hUFgzl8WlbL2rfIrtbyThdY6eqMoErCXDeZs/10dRVZw==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-82ecac34b45437ff.js"></script>
     
-    <script crossorigin="anonymous" async="async" integrity="sha512-YK1qKaJaboZghfxUvkZpVcxPUUE74mJclzBlt7BcsMQp37KQFQCIjO9ySZpwS3FdiPv2pmTEs5qakCIlGRVGwA==" type="application/javascript" src="https://github.githubassets.com/assets/github-f64ad9727bd629401c830ad67cd20b4c.js"></script>
+    <script crossorigin="anonymous" async="async" integrity="sha512-YXXs+h5FI9+wtmoBigrSPx5quWiR8Y4D9ABaMbqTr/bnGJeUsmqtimm3qiZvh7PhEgZUETPKcKz4wonQ1r3JNA==" type="application/javascript" src="https://github.githubassets.com/assets/github-bootstrap-c4fecf2065776bfd.js"></script>
     
     
     
@@ -982,16 +973,6 @@
     <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
     <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
   </div>
-  <div class="facebox" id="facebox" style="display:none;">
-  <div class="facebox-popup">
-    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
-    </div>
-    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
-      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
-    </button>
-  </div>
-</div>
-
   <template id="site-details-dialog">
   <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark" open>
     <summary aria-haspopup="dialog" aria-label="Close dialog"></summary>
@@ -1007,10 +988,6 @@
   <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
   <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
   </div>
-</div>
-
-<div id="hovercard-aria-description" class="sr-only">
-  Press h to open a hovercard with more details.
 </div>
 
   <div aria-live="polite" class="js-global-screen-reader-notice sr-only"></div>
