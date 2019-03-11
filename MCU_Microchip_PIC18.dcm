@@ -204,6 +204,12 @@ K microcontroller PIC18 flash ECAN XLP nanoWatt
 F http://ww1.microchip.com/downloads/en/DeviceDoc/39977f.pdf
 $ENDCMP
 #
+$CMP PIC18F25K83x-x_SP
+D 32K Flash, 2K RAM, 1K EEPROM, 2.3-5.5V, PIC18, low-power microcontroller with CAN, DIP-28
+K microcontroller Microchip DMA WWDT DIA DCI XLP CLC CWG CCP NCO DSM CRC UART LIN DMX DALI SPI CAN I2C PPS SMT ADC2 CVD DAC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001943A.pdf
+$ENDCMP
+#
 $CMP PIC18F26K20_ISS
 D 64K Flash, 3936Byte RAM, 1KByte EEPROM, PIC18 Microcontroller ADC PWM SPI I2C USART in SSOP28 package
 K microcontroller PIC18F flash XLP
@@ -220,6 +226,12 @@ $CMP PIC18F26K80_ISS
 D 64K Flash, 3.5K RAM, 1K EEPROM PIC18 Microcontroller ADC PWM CAN SPI I2C USART in SSOP28 package
 K microcontroller PIC18 flash ECAN XLP nanoWatt
 F http://ww1.microchip.com/downloads/en/DeviceDoc/39977f.pdf
+$ENDCMP
+#
+$CMP PIC18F26K83x-x_SP
+D 64K Flash, 4K RAM, 1K EEPROM, 2.3-5.5V, PIC18, low-power microcontroller with CAN, DIP-28
+K microcontroller Microchip DMA WWDT DIA DCI XLP CLC CWG CCP NCO DSM CRC UART LIN DMX DALI SPI CAN I2C PPS SMT ADC2 CVD DAC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001943A.pdf
 $ENDCMP
 #
 $CMP PIC18F4331-IML
@@ -684,6 +696,12 @@ K microchip microcontroller PIC18 flash ECAN XLP nanoWatt
 F http://ww1.microchip.com/downloads/en/DeviceDoc/39977f.pdf
 $ENDCMP
 #
+$CMP PIC18LF25K83x-x_SP
+D 32K Flash, 2K RAM, 1K EEPROM, 1.8-3.6V, PIC18, low-power microcontroller with CAN, DIP-28
+K microcontroller Microchip DMA WWDT DIA DCI XLP CLC CWG CCP NCO DSM CRC UART LIN DMX DALI SPI CAN I2C PPS SMT ADC2 CVD DAC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001943A.pdf
+$ENDCMP
+#
 $CMP PIC18LF26K80_IML
 D 64K Flash, 3.5K RAM, 1K EEPROM PIC18 Microcontroller ADC PWM CAN SPI I2C USART in QFN28 package
 K microchip microcontroller PIC18 flash ECAN XLP nanoWatt
@@ -694,6 +712,12 @@ $CMP PIC18LF26K80_ISS
 D 64K Flash, 3.5K RAM, 1K EEPROM PIC18 Microcontroller ADC PWM CAN SPI I2C USART in SSOP28 package
 K microchip microcontroller PIC18 flash ECAN XLP nanoWatt
 F http://ww1.microchip.com/downloads/en/DeviceDoc/39977f.pdf
+$ENDCMP
+#
+$CMP PIC18LF26K83x-x_SP
+D 64K Flash, 4K RAM, 1K EEPROM, 1.8-3.6V, PIC18, low-power microcontroller with CAN, DIP-28
+K microcontroller Microchip DMA WWDT DIA DCI XLP CLC CWG CCP NCO DSM CRC UART LIN DMX DALI SPI CAN I2C PPS SMT ADC2 CVD DAC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001943A.pdf
 $ENDCMP
 #
 $CMP PIC18LF4331-IML
