@@ -66,6 +66,12 @@ K Single Gate NOT LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
+$CMP 74AHC2G00
+D Dual NAND Gate, High-speed Si-gate CMOS
+K Dual Gate NAND LVC CMOS
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT2G00.pdf
+$ENDCMP
+#
 $CMP 74AHCT1G00
 D Single NAND Gate, Low-Voltage CMOS
 K Single Gate NAND LVC CMOS
@@ -124,6 +130,12 @@ $CMP 74AHCT1GU04
 D 74AHCT1G04, Single NOT Gate, Low-Voltage CMOS
 K Single Gate NOT LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AHCT2G00
+D Dual NAND Gate, TTL input High-speed Si-gate CMOS
+K Dual Gate NAND LVC CMOS
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT2G00.pdf
 $ENDCMP
 #
 $CMP 74AUC1G00
@@ -762,6 +774,12 @@ K Single Gate NOT LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
+$CMP 74LVC1GU04DRL
+D Single Inverter Gate, SOT-553
+K inverter cmos
+F http://www.ti.com/lit/ds/symlink/sn74lvc1gu04.pdf
+$ENDCMP
+#
 $CMP 74LVC2G00
 D Dual NAND Gate, Low-Voltage CMOS
 K Dual Gate NAND LVC CMOS
@@ -940,6 +958,12 @@ $CMP 74LVC3GU04
 D 74LVC3G04, Triple NOT Gate, Low-Voltage CMOS
 K Triple Gate NOT LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP NC7SVU04P5X
+D High-Speed Logic Inverter, SOT-353
+K inverter
+F https://www.onsemi.com/pub/Collateral/NC7SVU04-D.pdf
 $ENDCMP
 #
 #End Doc Library

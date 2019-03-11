@@ -7,7 +7,7 @@ F http://datasheets.maximintegrated.com/en/ds/ICL7660-MAX1044.pdf
 $ENDCMP
 #
 $CMP LM2776
-D Switched capacitor inverter, inverts positive voltage +2.7 to +5.5V to negative, 200 mA, SOT-23-6
+D Switched capacitor inverter, inverts positive voltage +2.7 to +5.5V to negative, 200mA, SOT-23-6
 K Switched capacitor inverter
 F http://www.ti.com/lit/ds/symlink/lm2776.pdf
 $ENDCMP
@@ -39,31 +39,31 @@ $ENDCMP
 $CMP LT1054
 D Switched-Capacitor Voltage Converter with Regulator, output current 100mA, operating range 3.5V to 15V, low loss 1.1V at 100mA, DIP-8/SO-8
 K monolithic bipolar switched capacitor voltage converter regulator inverter doubler shutdown
-F http://cds.linear.com/docs/en/datasheet/1054lfh.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1054lfh.pdf
 $ENDCMP
 #
 $CMP LT1054L
 D Switched-Capacitor Voltage Converter with Regulator, output current 125mA, operating range 3.5V to 15V, low loss 1.1V at 100mA, DIP-8/SO-8
 K monolithic bipolar switched capacitor voltage converter regulator inverter doubler shutdown
-F http://cds.linear.com/docs/en/datasheet/1054lfh.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1054lfh.pdf
 $ENDCMP
 #
 $CMP LT1054xSW
 D Switched-Capacitor Voltage Converter with Regulator, output current 100mA, operating range 3.5V to 15V, low loss 1.1V at 100mA, SO-16
 K monolithic bipolar switched capacitor voltage converter regulator inverter doubler shutdown
-F http://cds.linear.com/docs/en/datasheet/1054lfh.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1054lfh.pdf
 $ENDCMP
 #
 $CMP LTC1044
 D Switched Capacitor Voltage Converter, 1.5V to 9V supply operation, 200uA Max No Load Supply Current at 5V, DIP-8/TO-99
 K monolithic CMOS switched capacitor voltage converter invert double divide multiply boost
-F http://cds.linear.com/docs/en/datasheet/lt1044.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/lt1044.pdf
 $ENDCMP
 #
 $CMP LTC660
 D Monolithic CMOS switched-capacitor from 1.5V to 5.5V up to 100mA, SO-8/DIP-8
 K monolithic CMOS switched capacitor voltage converter invert double divide multiply boost
-F http://cds.linear.com/docs/en/datasheet/660fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/660fa.pdf
 $ENDCMP
 #
 $CMP MAX1044
