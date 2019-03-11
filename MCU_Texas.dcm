@@ -60,6 +60,12 @@ K ARM Stellaris Cortex M4 MCU NRND
 F http://www.ti.com/lit/ds/symlink/tm4c1230h6pm.pdf
 $ENDCMP
 #
+$CMP MSP432E401Y
+D ARM Cortex-M4F MCU, 1024KB flash, 256KB RAM, 6KB EEPROM, 120MHz, 3.0-3.6V, TQFP-128
+K ARM Cortex-M4F MSP432 MSP432E4 MSP432E401
+F http://www.ti.com/lit/ds/symlink/msp432e401y.pdf
+$ENDCMP
+#
 $CMP TM4C1230C3PM
 D Tiva ARM 32bit CortexM4 Microcotroller, 80MHz, 32kB Flash, 12kB SRAM, 2k EEPROM, LQFP64
 K ARM Tiva Cortex M4 MCU
