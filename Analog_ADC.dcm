@@ -61,13 +61,13 @@ F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7745_774
 $ENDCMP
 #
 $CMP AD7794
-D 24-Bit, 6-Channal Sigma-Delta ADC
+D 24-Bit, 6-Channel Sigma-Delta ADC, TSSOP-28
 K adc 6ch 24bit serial
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7794_7795.pdf
 $ENDCMP
 #
 $CMP AD7795
-D 16-Bit, 6-Channal Sigma-Delta ADC
+D 16-Bit, 6-Channel Sigma-Delta ADC, TSSOP-28
 K adc 6ch 16bit serial
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7794_7795.pdf
 $ENDCMP
