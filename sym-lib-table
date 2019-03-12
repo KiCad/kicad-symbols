@@ -69,7 +69,6 @@
   (lib (name Interface_HDMI)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface_HDMI.lib)(options "")(descr "High Definition Multimedia Interface (HDMI) symbols"))
   (lib (name Interface_LineDriver)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface_LineDriver.lib)(options "")(descr "Line driver interface symbols"))
   (lib (name Interface_Optical)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface_Optical.lib)(options "")(descr "Optical interfaces (IR receivers)"))
-  (lib (name Interface_PIO)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface_PIO.lib)(options "")(descr "PIO interface symbols"))
   (lib (name Interface_Telecom)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface_Telecom.lib)(options "")(descr "Telecom interface symbols"))
   (lib (name Interface_UART)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface_UART.lib)(options "")(descr "UART interface symbols"))
   (lib (name Interface_USB)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface_USB.lib)(options "")(descr "USB interface symbols"))
