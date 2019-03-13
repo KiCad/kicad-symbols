@@ -204,7 +204,7 @@ K microcontroller PIC18 flash ECAN XLP nanoWatt
 F http://ww1.microchip.com/downloads/en/DeviceDoc/39977f.pdf
 $ENDCMP
 #
-$CMP PIC18F25K83x-x_SP
+$CMP PIC18F25K83-xSP
 D 32K Flash, 2K RAM, 1K EEPROM, 2.3-5.5V, PIC18, low-power microcontroller with CAN, DIP-28
 K microcontroller Microchip DMA WWDT DIA DCI XLP CLC CWG CCP NCO DSM CRC UART LIN DMX DALI SPI CAN I2C PPS SMT ADC2 CVD DAC
 F http://ww1.microchip.com/downloads/en/DeviceDoc/40001943A.pdf
@@ -228,7 +228,7 @@ K microcontroller PIC18 flash ECAN XLP nanoWatt
 F http://ww1.microchip.com/downloads/en/DeviceDoc/39977f.pdf
 $ENDCMP
 #
-$CMP PIC18F26K83x-x_SP
+$CMP PIC18F26K83-xSP
 D 64K Flash, 4K RAM, 1K EEPROM, 2.3-5.5V, PIC18, low-power microcontroller with CAN, DIP-28
 K microcontroller Microchip DMA WWDT DIA DCI XLP CLC CWG CCP NCO DSM CRC UART LIN DMX DALI SPI CAN I2C PPS SMT ADC2 CVD DAC
 F http://ww1.microchip.com/downloads/en/DeviceDoc/40001943A.pdf
@@ -696,7 +696,7 @@ K microchip microcontroller PIC18 flash ECAN XLP nanoWatt
 F http://ww1.microchip.com/downloads/en/DeviceDoc/39977f.pdf
 $ENDCMP
 #
-$CMP PIC18LF25K83x-x_SP
+$CMP PIC18LF25K83-xSP
 D 32K Flash, 2K RAM, 1K EEPROM, 1.8-3.6V, PIC18, low-power microcontroller with CAN, DIP-28
 K microcontroller Microchip DMA WWDT DIA DCI XLP CLC CWG CCP NCO DSM CRC UART LIN DMX DALI SPI CAN I2C PPS SMT ADC2 CVD DAC
 F http://ww1.microchip.com/downloads/en/DeviceDoc/40001943A.pdf
@@ -714,7 +714,7 @@ K microchip microcontroller PIC18 flash ECAN XLP nanoWatt
 F http://ww1.microchip.com/downloads/en/DeviceDoc/39977f.pdf
 $ENDCMP
 #
-$CMP PIC18LF26K83x-x_SP
+$CMP PIC18LF26K83-xSP
 D 64K Flash, 4K RAM, 1K EEPROM, 1.8-3.6V, PIC18, low-power microcontroller with CAN, DIP-28
 K microcontroller Microchip DMA WWDT DIA DCI XLP CLC CWG CCP NCO DSM CRC UART LIN DMX DALI SPI CAN I2C PPS SMT ADC2 CVD DAC
 F http://ww1.microchip.com/downloads/en/DeviceDoc/40001943A.pdf
