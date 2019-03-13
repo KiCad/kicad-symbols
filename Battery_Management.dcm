@@ -486,6 +486,18 @@ K battery charger lithium
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf
 $ENDCMP
 #
+$CMP MCP73833
+D Stand-Alone Linear Li-Ion / Li-Polymer Charge Management Controller with Power Good Indication
+K li-ion li-polymer lithium lipo battery charge management contoller
+F https://ww1.microchip.com/downloads/en/DeviceDoc/22005a.pdf
+$ENDCMP
+#
+$CMP MCP73834
+D Stand-Alone Linear Li-Ion / Li-Polymer Charge Management Controller with Timer Enable Input
+K li-ion li-polymer lithium lipo battery charge management contoller
+F https://ww1.microchip.com/downloads/en/DeviceDoc/22005a.pdf
+$ENDCMP
+#
 $CMP MCP73871
 D Single cell, Li-Ion/Li-Po charge management controller
 K battery charger lithium
