@@ -48,6 +48,60 @@ K Power Sequencer
 F http://www.ti.com/lit/ds/symlink/lm3880.pdf
 $ENDCMP
 #
+$CMP MAX6355
+D Dual Voltage μP Supervisory Circuits, SOT-23-6
+K Power Supervisor
+F https://datasheets.maximintegrated.com/en/ds/MAX6351-MAX6360.pdf
+$ENDCMP
+#
+$CMP MAX6369
+D Precision Pin-Selectable Watchdog Timer, 200us to 60s, SOT-23-8
+K watchdog supervisor
+F https://datasheets.maximintegrated.com/en/ds/MAX6369-MAX6374.pdf
+$ENDCMP
+#
+$CMP MAX6370
+D Precision Pin-Selectable Watchdog Timer, 200us to 60s, SOT-23-8
+K watchdog supervisor
+F https://datasheets.maximintegrated.com/en/ds/MAX6369-MAX6374.pdf
+$ENDCMP
+#
+$CMP MAX6371
+D Precision Pin-Selectable Watchdog Timer, 200us to 60s, SOT-23-8
+K watchdog supervisor
+F https://datasheets.maximintegrated.com/en/ds/MAX6369-MAX6374.pdf
+$ENDCMP
+#
+$CMP MAX6372
+D Precision Pin-Selectable Watchdog Timer, 200us to 60s, SOT-23-8
+K watchdog supervisor
+F https://datasheets.maximintegrated.com/en/ds/MAX6369-MAX6374.pdf
+$ENDCMP
+#
+$CMP MAX6373
+D Precision Pin-Selectable Watchdog Timer, 200us to 60s, SOT-23-8
+K watchdog supervisor
+F https://datasheets.maximintegrated.com/en/ds/MAX6369-MAX6374.pdf
+$ENDCMP
+#
+$CMP MAX6374
+D Precision Pin-Selectable Watchdog Timer, 200us to 60s, SOT-23-8
+K watchdog supervisor
+F https://datasheets.maximintegrated.com/en/ds/MAX6369-MAX6374.pdf
+$ENDCMP
+#
+$CMP MAX691xPE
+D Microprocessor Supervisory Circuit, DIP-16
+K Power Supervisor
+F https://datasheets.maximintegrated.com/en/ds/MAX690-MAX695.pdf
+$ENDCMP
+#
+$CMP MAX691xWE
+D Microprocessor Supervisory Circuit, SOIC-16
+K Power Supervisor
+F https://datasheets.maximintegrated.com/en/ds/MAX690-MAX695.pdf
+$ENDCMP
+#
 $CMP MAX811LEUS-T
 D Power supply supervisor, Manual reset, Threshold 4.63V, SOT-143
 K Supervisor Reset
@@ -76,6 +130,30 @@ $CMP MAX811TEUS-T
 D Power supply supervisor, Manual reset, Threshold 3.08V, SOT-143
 K Supervisor Reset
 F https://datasheets.maximintegrated.com/en/ds/MAX811-MAX812.pdf
+$ENDCMP
+#
+$CMP MC34064D
+D Undervoltage Sensing Circuit, SOIC-8
+K Power Supervisor
+F https://www.onsemi.com/pub/Collateral/MC34064-D.PDF
+$ENDCMP
+#
+$CMP MC34064DM
+D Undervoltage Sensing Circuit, MSOP-8
+K Power Supervisor
+F https://www.onsemi.com/pub/Collateral/MC34064-D.PDF
+$ENDCMP
+#
+$CMP MC34064P
+D Undervoltage Sensing Circuit, TO-92
+K Power Supervisor
+F https://www.onsemi.com/pub/Collateral/MC34064-D.PDF
+$ENDCMP
+#
+$CMP MC34064SN
+D Undervoltage Sensing Circuit, TSOP-5
+K Power Supervisor
+F https://www.onsemi.com/pub/Collateral/MC34064-D.PDF
 $ENDCMP
 #
 $CMP MCP100-270D
@@ -160,6 +238,12 @@ $CMP MCP101-485D
 D Microcontroller reset monitor, 4.85V threshold, active high output
 K supervisor reset push-pull
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
+$ENDCMP
+#
+$CMP MCP39F521
+D Power Monitor, Calculation and Energy Accumulation, I2C, 16-bit, QFN-28
+K i2c power monitor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005442A.pdf
 $ENDCMP
 #
 $CMP MIC811JUY
@@ -264,6 +348,12 @@ K voltage supervisor
 F http://www.ti.com.cn/cn/lit/ds/symlink/tl7705b.pdf
 $ENDCMP
 #
+$CMP TPS3702
+D High-Accuracy, Overvoltage and Undervoltage Monitor, SOT-23-6
+K protection overvoltage unvervoltage monitor
+F http://www.ti.com/lit/ds/symlink/tps3702.pdf
+$ENDCMP
+#
 $CMP TPS3831
 D 150-nA, Ultralow Power, Supply Voltage Monitor, X2SON-4
 K supply voltage supervisor
@@ -280,12 +370,6 @@ $CMP TPS3839DQN
 D 150-nA, Ultralow Power, Supply Voltage Monitor, X2SON-4
 K supply voltage supervisor
 F http://www.ti.com/lit/ds/sbvs193d/sbvs193d.pdf
-$ENDCMP
-#
-$CMP TPS3702
-D High-Accuracy, Overvoltage and Undervoltage Monitor, SOT-23-6
-K protection overvoltage unvervoltage monitor
-F http://www.ti.com/lit/ds/symlink/tps3702.pdf
 $ENDCMP
 #
 #End Doc Library
