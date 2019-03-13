@@ -12,10 +12,22 @@ K Temerature Humidity Sensor
 F http://www.ti.com/lit/ds/symlink/hdc1080.pdf
 $ENDCMP
 #
+$CMP HDC2080
+D Low Power Humidity and Temperature Sensor
+K Temerature Humidity Sensor
+F http://www.ti.com/lit/ds/symlink/hdc2080.pdf
+$ENDCMP
+#
 $CMP Si7020-A20
 D I2C Humidity and Temperature Sensor, DFN-6
 K I2C Humidity Temperature Sensor
 F https://www.silabs.com/documents/public/data-sheets/Si7020-A20.pdf
+$ENDCMP
+#
+$CMP Si7021-A20
+D I2C Humidity and Temperature Sensor, DFN-6
+K I2C Humidity Temperature Sensor
+F https://www.silabs.com/documents/public/data-sheets/Si7021-A20.pdf
 $ENDCMP
 #
 #End Doc Library
