@@ -1044,6 +1044,18 @@ K FLASH-Based 8-Bit CMOS Microcontroller XLP
 F http://ww1.microchip.com/downloads/en/DeviceDoc/40001637C.pdf
 $ENDCMP
 #
+$CMP PIC16LF1786-xP
+D 8-bit Flash MCU, 32MHz, 16KB Flash, 1KB RAM, 256B EEPROM, QFN-28
+K FLASH-Based 8-Bit CMOS Microcontroller XLP
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001637C.pdf
+$ENDCMP
+#
+$CMP PIC16LF1786-xSP
+D 8-bit Flash MCU, 32MHz, 16KB Flash, 1KB RAM, 256B EEPROM, QFN-28
+K FLASH-Based 8-Bit CMOS Microcontroller XLP
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001637C.pdf
+$ENDCMP
+#
 $CMP PIC16LF18325-ISL
 D PIC16LF18325, 8192W FLASH, 1024B SRAM, SOIC14
 K FLASH-Based 8-Bit CMOS Microcontroller Low Power
