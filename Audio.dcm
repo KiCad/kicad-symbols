@@ -210,6 +210,18 @@ K audio dac 2ch 32bit 384kHz
 F http://www.ti.com/lit/ds/symlink/pcm5102.pdf
 $ENDCMP
 #
+$CMP PCM5121PW
+D 2VRMS DirectPath, 106dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface, TSSOP-28
+K audio dac 2ch 32bit 384kHz
+F http://www.ti.com/lit/ds/symlink/pcm5121.pdf
+$ENDCMP
+#
+$CMP PCM5122PW
+D 2VRMS DirectPath, 112dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface, TSSOP-28
+K audio dac 2ch 32bit 384kHz
+F http://www.ti.com/lit/ds/symlink/pcm5122.pdf
+$ENDCMP
+#
 $CMP PGA4311
 D 4-Channel Audio Volume Control, SPI Interface, +31.5dB to -95.5dB, SOIC-28W
 K audio volume control 4ch spi
