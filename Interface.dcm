@@ -447,4 +447,16 @@ K IDIC read/write base stations in contactless identification and immobilizer sy
 F http://www.farnell.com/datasheets/94393.pdf
 $ENDCMP
 #
+$CMP Z8420
+D Parallel I/O, DIP-40
+K Z80 PIO parallel
+F https://www.zilog.com/appnotes_download.php?FromPage=DirectLink&dn=PS0180&ft=Product%20Specification%20(Data%20Sheet)%20%20&f=YUhSMGNEb3ZMM2QzZHk1NmFXeHZaeTVqYjIwdlpHOWpjeTk2T0RBdmNITXdNVGd3TG5Ca1pnPT0=
+$ENDCMP
+#
+$CMP Z84C20
+D Parallel I/O, CMOS, DIP-40
+K Z80 PIO parallel
+F https://www.zilog.com/appnotes_download.php?FromPage=DirectLink&dn=PS0180&ft=Product%20Specification%20(Data%20Sheet)%20%20&f=YUhSMGNEb3ZMM2QzZHk1NmFXeHZaeTVqYjIwdlpHOWpjeTk2T0RBdmNITXdNVGd3TG5Ca1pnPT0=
+$ENDCMP
+#
 #End Doc Library
