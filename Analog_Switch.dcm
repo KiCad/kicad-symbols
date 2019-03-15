@@ -581,6 +581,12 @@ K CMOS Analog Switch
 F https://www.fairchildsemi.com/datasheets/NC/NC7SB3157.pdf
 $ENDCMP
 #
+$CMP SN74CBT3253
+D Dual 1 to 4 Analog Multiplexer
+K TTL Analog Multiplexer
+F http://www.ti.com/lit/gpn/sn74cbt3253
+$ENDCMP
+#
 $CMP TS3A24159DGSR
 D Dual SPDT 0.3Ω Bidirectional Analog Switch, TSSOP-10
 K switch analog SPDT
