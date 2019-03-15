@@ -12,6 +12,12 @@ K IMU, Sensor Fusion, I2C, UART
 F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST_BNO055_DS000_14.pdf
 $ENDCMP
 #
+$CMP ICM-20602
+D High performance 6-Axis MEMS motion tracking, SPI/I2C interface, LGA-16
+K accelerometer gyro mems motion 
+F http://www.invensense.com/wp-content/uploads/2016/10/DS-000176-ICM-20602-v1.0.pdf
+$ENDCMP
+#
 $CMP ICM-20948
 D InvenSense 9-Axis Motion Sensor, Accelerometer, Gyroscope, Compass, I2C/SPI, QFN-24
 K mems magnetometer
@@ -64,6 +70,12 @@ $CMP LIS331HH
 D 3-Axis Accelerometer, 6/12/24g range, 1000Hz, I2C and SPI interface
 K 3-axis accelerometer spi i2c mems
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00250937.pdf
+$ENDCMP
+#
+$CMP LIS3DH
+D 3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface, LGA-16
+K 3-axis accelerometer i2c spi mems
+F https://www.st.com/resource/en/datasheet/cd00274221.pdf
 $ENDCMP
 #
 $CMP LSM303C
