@@ -73,13 +73,13 @@ F http://gfinder.findernet.com/assets/Series/355/S32EN.pdf
 $ENDCMP
 #
 $CMP FINDER-34.51
-D Ultra-slim 1 Pole - 6 A SPDT relay
+D Ultra-slim 1 Pole - 6A SPDT relay
 K Single Pole Relay SPDT
 F https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf
 $ENDCMP
 #
 $CMP FINDER-34.51.7xxx.x019
-D Ultra-slim 1 Pole - 6 A SPDT relay
+D Ultra-slim 1 Pole - 6A SPDT relay
 K Single Pole Relay SPDT
 F https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf
 $ENDCMP
@@ -610,6 +610,12 @@ $CMP SILxx-1Cxx-51x
 D Standex Meder SIL reed relay, SPDT
 K Single Pole Reed Relay SPDT
 F https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_SIL.pdf
+$ENDCMP
+#
+$CMP TE_PCH-1xxx2M
+D TE PCH relay, Miniature Single Pole, SPST-NO
+K Miniature Single Pole Relay
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FPCH_series_relay_data_sheet_E%7F1215%7Fpdf%7FEnglish%7FENG_DS_PCH_series_relay_data_sheet_E_1215.pdf%7F9-1440003-0
 $ENDCMP
 #
 $CMP TIANBO-HJR-4102-L

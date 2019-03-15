@@ -120,21 +120,15 @@ K trimmer capacitor
 F ~
 $ENDCMP
 #
-$CMP CircuitBreaker_1P_US
-D Single pole circuit breaker, US symbol
-K CB
-F ~
-$ENDCMP
-#
 $CMP CircuitBreaker_1P
 D Single pole circuit breaker
 K CB
 F ~
 $ENDCMP
 #
-$CMP CircuitBreaker_2P_US
-D Double pole circuit breaker, US symbol
-K CB 2P
+$CMP CircuitBreaker_1P_US
+D Single pole circuit breaker, US symbol
+K CB
 F ~
 $ENDCMP
 #
@@ -144,14 +138,20 @@ K CB 2P
 F ~
 $ENDCMP
 #
-$CMP CircuitBreaker_3P_US
-D Triple pole circuit breaker, US symbol
-K CB 3P
+$CMP CircuitBreaker_2P_US
+D Double pole circuit breaker, US symbol
+K CB 2P
 F ~
 $ENDCMP
 #
 $CMP CircuitBreaker_3P
 D Triple pole circuit breaker
+K CB 3P
+F ~
+$ENDCMP
+#
+$CMP CircuitBreaker_3P_US
+D Triple pole circuit breaker, US symbol
 K CB 3P
 F ~
 $ENDCMP
@@ -549,6 +549,42 @@ $ENDCMP
 $CMP D_Zener_Small_ALT
 D Zener diode, small symbol, filled shape
 K diode
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_ACom_AKK
+D Dual Zener diode, common anode on pin 1
+K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_ACom_KAK
+D Dual Zener diode, common anode on pin 2
+K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_ACom_KKA
+D Dual Zener diode, common anode on pin 3
+K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_KCom_AAK
+D Dual Zener diode, common cathode on pin 3
+K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_KCom_AKA
+D Dual Zener diode, common cathode on pin 2
+K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_KCom_KAA
+D Dual Zener diode, common cathode on pin 1
+K diode zener dual
 F ~
 $ENDCMP
 #

@@ -3,17 +3,17 @@ EESchema-DOCLIB  Version 2.0
 $CMP AD797
 D Ultralow Distortion, Ultralow Noise Op Amp, DIP-8/SOIC-8
 K single opamp
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD797.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD797.pdf
 $ENDCMP
 #
 $CMP AD8001AN
-D Current Feedback Amplifier, 800 MHz, 50 mW, DIP-8
+D Current Feedback Amplifier, 800 MHz, 50mW, DIP-8
 K single opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ad8001.pdf
 $ENDCMP
 #
 $CMP AD8001AR
-D Current Feedback Amplifier, 800 MHz, 50 mW, SOIC-8
+D Current Feedback Amplifier, 800 MHz, 50mW, SOIC-8
 K single opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ad8001.pdf
 $ENDCMP
@@ -21,61 +21,61 @@ $ENDCMP
 $CMP AD8603
 D Precision Micropower, Low Noise CMOS, Rail-to-Rail Input/Output Operational Amplifier, TSOT-23-5
 K single opamp
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8603_8607_8609.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8603_8607_8609.pdf
 $ENDCMP
 #
 $CMP AD8610
 D Single Precision, Very Low Noise, Low Input Bias Current, Wide Bandwidth JFET Operational Amplifiers, SOIC-8
 K single opamp
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8610_8620.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8610_8620.pdf
 $ENDCMP
 #
 $CMP AD8620
 D Dual Precision, Very Low Noise, Low Input Bias Current, Wide Bandwidth JFET Operational Amplifiers, SOIC-8
 K dual opamp
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8610_8620.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8610_8620.pdf
 $ENDCMP
 #
 $CMP ADA4075-2
 D Ultralow Noise Amplifier at Lower Power, SOIC-8/LFCSP-8
 K dual low-power opamp
-F http://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf
+F https://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf
 $ENDCMP
 #
 $CMP ADA4530-1
 D Femtoampere Input Bias Current Electrometer Amplifier, SOIC-8
 K single opamp
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADA4530-1.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4530-1.pdf
 $ENDCMP
 #
 $CMP ADA4807-1
 D Single Rail-to-Rail Input/Output Amplifiers, with disable, SC-70-6/SOT-23-6
 K single opamp
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf
 $ENDCMP
 #
 $CMP ADA4807-2ACP
 D Dual Rail-to-Rail Input/Output Amplifiers, with disable, SC-70-6/SOT-23-6
 K dual opamp
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf
 $ENDCMP
 #
 $CMP ADA4807-2ARM
 D Dual Rail-to-Rail Input/Output Amplifiers, MSOP-8
 K dual opamp
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf
 $ENDCMP
 #
 $CMP ADA4807-4
 D Quad Rail-to-Rail Input/Output Amplifiers, TSSOP-14
 K quad opamp
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf
 $ENDCMP
 #
 $CMP ADA4841-1YRJ
 D Low Power, Low Noise and Distorsion, Rail-to-Rail Output Amplifier, SOT-23-6
 K single opamp low-noise rail-to-rail
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADA4841-1_4841-2.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4841-1_4841-2.pdf
 $ENDCMP
 #
 $CMP ADA4870ARRZ
@@ -423,85 +423,91 @@ $ENDCMP
 $CMP LT1012
 D Single Picoamp Input Current, Microvolt Offset, Low Noise Op Amp, DIP-8/SOIC-8/TO-5-8
 K single opamp
-F http://cds.linear.com/docs/en/datasheet/1012afbs.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/lt1012.pdf
 $ENDCMP
 #
 $CMP LT1363
 D 70MHz, 1000V/µs Operational Amplifier, DIP-8/SOIC-8
 K single opamp
-F http://cds.linear.com/docs/en/datasheet/1363fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1363fa.pdf
 $ENDCMP
 #
 $CMP LT1492
 D 5MHz, 3V/µs, Low Power, Single Supply, Dual Precision Op Amps, DIP-8/SOIC-8
 K dual opamp
-F http://cds.linear.com/docs/en/datasheet/14923f.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/14923f.pdf
 $ENDCMP
 #
 $CMP LT1493
 D 5MHz, 3V/µs, Low Power, Single Supply, Quad Precision Op Amps, SOIC-16
 K quad opamp
-F http://cds.linear.com/docs/en/datasheet/14923f.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/14923f.pdf
 $ENDCMP
 #
-$CMP LT6233
+$CMP LT6234
 D Dual 60MHz, Rail-to-Rail Output, 1.9nV/√Hz, 1.2mA, Operational Amplifier, SOIC-8
 K dual opamp
-F http://cds.linear.com/docs/en/datasheet/623345fc.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/623345fc.pdf
+$ENDCMP
+#
+$CMP LT6237
+D Dual 215MHz, Rail-to-Rail Output, 1.1nV/√Hz, 3.5mA, Operational Amplifier, MSOP-8/DFN-8
+K dual opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/623637fb.pdf
 $ENDCMP
 #
 $CMP LTC1151CN8
 D Dual ±15V, Zero-Drift, Operational Amplifier, DIP-8
 K dual opamp
-F http://www.linear.com/docs/3482
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1151fa.pdf
 $ENDCMP
 #
 $CMP LTC1151CSW
 D Dual ±15V, Zero-Drift, Operational Amplifier, SOIC-16W
 K dual opamp
-F http://www.linear.com/docs/3482
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1151fa.pdf
 $ENDCMP
 #
 $CMP LTC1152
 D Rail-to-Rail Input, Rail-to-Rail Output, Zero-Drift Op Amp, DIP-8, SOIC-8
 K single opamp
-F http://www.linear.com/docs/2857
+F https://www.analog.com/media/en/technical-documentation/data-sheets/lt1152.pdf
 $ENDCMP
 #
 $CMP LTC6081xDD
 D Precision Dual CMOS Rail-to-Rail Input/Output Amplifiers, DFN-10
 K dual opamp
-F http://cds.linear.com/docs/en/datasheet/60812fd.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/60812fd.pdf
 $ENDCMP
 #
 $CMP LTC6081xMS8
 D Precision Dual CMOS Rail-to-Rail Input/Output Amplifiers, MSOP-8
 K dual opamp
-F http://cds.linear.com/docs/en/datasheet/60812fd.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/60812fd.pdf
 $ENDCMP
 #
 $CMP LTC6082xDHC
 D Precision Quad CMOS Rail-to-Rail Input/Output Amplifiers, DFN-16
 K quad opamp
-F http://cds.linear.com/docs/en/datasheet/60812fd.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/60812fd.pdf
 $ENDCMP
 #
 $CMP LTC6082xGN
 D Precision Quad CMOS Rail-to-Rail Input/Output Amplifiers, SSOP-16
 K quad opamp
-F http://cds.linear.com/docs/en/datasheet/60812fd.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/60812fd.pdf
 $ENDCMP
 #
 $CMP LTC6362xDD
 D Precision, Low Power, Rail-to-Rail Input/Output, Differential Op Amp/SAR ADC Driver, DFN-8
 K single differential opamp
-F http://cds.linear.com/docs/en/datasheet/6362fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6362fa.pdf
 $ENDCMP
 #
 $CMP LTC6362xMS8
 D Precision, Low Power, Rail-to-Rail Input/Output, Differential Op Amp/SAR ADC Driver, DFN-8
 K single differential opamp
-F http://cds.linear.com/docs/en/datasheet/6362fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6362fa.pdf
 $ENDCMP
 #
 $CMP MAX4238ASA
@@ -541,13 +547,13 @@ F https://www.onsemi.com/pub/Collateral/MC33078-D.PDF
 $ENDCMP
 #
 $CMP MC33172
-D Dual Single Supply 3.0 V to 44 V, Low Power Operational Amplifiers, DIP-8/SOIC-8
+D Dual Single Supply 3.0V to 44V, Low Power Operational Amplifiers, DIP-8/SOIC-8
 K dual opamp
 F http://www.onsemi.com/pub/Collateral/MC33171-D.PDF
 $ENDCMP
 #
 $CMP MC33174
-D Quad Single Supply 3.0 V to 44 V, Low Power Operational Amplifiers, DIP-14/SOIC-14/TSSOP-14
+D Quad Single Supply 3.0V to 44V, Low Power Operational Amplifiers, DIP-14/SOIC-14/TSSOP-14
 K quad opamp
 F http://www.onsemi.com/pub/Collateral/MC33171-D.PDF
 $ENDCMP
@@ -831,49 +837,49 @@ $ENDCMP
 $CMP OP07
 D Single Ultra-Low Offset Voltage Operational Amplifier, DIP-8/SOIC-8
 K single opamp
-F http://www.analog.com/media/en/technical-documentation/data-sheets/OP07.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/OP07.pdf
 $ENDCMP
 #
 $CMP OP179GRT
 D Single Rail-to-Rail High Output Current Operational Amplifiers, SOT-23-5
 K single opamp
-F http://www.analog.com/media/en/technical-documentation/data-sheets/OP179_279.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/OP179_279.pdf
 $ENDCMP
 #
 $CMP OP179GS
 D Single Rail-to-Rail High Output Current Operational Amplifiers, SOIC-8
 K single opamp
-F http://www.analog.com/media/en/technical-documentation/data-sheets/OP179_279.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/OP179_279.pdf
 $ENDCMP
 #
 $CMP OP249
 D Precision JFET, High Speed, Dual Operational Amplifier, DIP-8
 K dual opamp
-F http://www.analog.com/media/en/technical-documentation/data-sheets/OP249.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/OP249.pdf
 $ENDCMP
 #
 $CMP OP249GS
 D Precision JFET, High Speed, Dual Operational Amplifier, SOIC-8
 K dual opamp
-F http://www.analog.com/media/en/technical-documentation/data-sheets/OP249.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/OP249.pdf
 $ENDCMP
 #
 $CMP OP275
 D Dual Bipolar/JFET, Audio Operational Amplifier, DIP-8/SOIC-8
 K dual opamp
-F http://www.analog.com/media/en/technical-documentation/data-sheets/OP275.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/OP275.pdf
 $ENDCMP
 #
 $CMP OP279
 D Dual Rail-to-Rail High Output Current Operational Amplifiers, SOIC-8/TSSOP-8
 K dual opamp
-F http://www.analog.com/media/en/technical-documentation/data-sheets/OP179_279.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/OP179_279.pdf
 $ENDCMP
 #
 $CMP OP77
 D Next Generation OP07 Ultralow Offset Voltage Operational Amplifier, DIP-8/TO-99-8
 K single opamp
-F http://www.analog.com/media/en/technical-documentation/data-sheets/OP77.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/OP77.pdf
 $ENDCMP
 #
 $CMP OPA134
@@ -1351,13 +1357,13 @@ F http://www.ti.com/lit/ds/symlink/tlv6001.pdf
 $ENDCMP
 #
 $CMP TS881xCx
-D Rail-to-rail 0.9 V nanopower comparator, SC-70-5
+D Rail-to-rail 0.9V nanopower comparator, SC-70-5
 K single comparator
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/a2/60/3e/5d/b2/c1/4a/e9/DM00057901.pdf/files/DM00057901.pdf/jcr:content/translations/en.DM00057901.pdf
 $ENDCMP
 #
 $CMP TS881xLx
-D Rail-to-rail 0.9 V nanopower comparator, SOT-23-5
+D Rail-to-rail 0.9V nanopower comparator, SOT-23-5
 K single comparator
 F www.st.com/resource/en/datasheet/ts881.pdf
 $ENDCMP

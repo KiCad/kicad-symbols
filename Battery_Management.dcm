@@ -18,6 +18,24 @@ K battery nickel cadmium metal hydride
 F http://www.ti.com/lit/ds/symlink/bq2003.pdf
 $ENDCMP
 #
+$CMP BQ24004
+D 2-Cell Li-Ion Charge Management IC, HTSSOP-20
+K 2-Cell Li-Ion Charge
+F http://www.ti.com/lit/ds/symlink/bq24006.pdf
+$ENDCMP
+#
+$CMP BQ24005
+D 2-Cell Li-Ion Charge Management IC, HTSSOP-20
+K 2-Cell Li-Ion Charge
+F http://www.ti.com/lit/ds/symlink/bq24006.pdf
+$ENDCMP
+#
+$CMP BQ24006
+D 2-Cell Li-Ion Charge Management IC, HTSSOP-20
+K 2-Cell Li-Ion Charge
+F http://www.ti.com/lit/ds/symlink/bq24006.pdf
+$ENDCMP
+#
 $CMP BQ24012
 D Single-Chip Li-Ion Charge Management IC, DFN-10
 K Batter, Charger, Li-Ion
@@ -46,6 +64,12 @@ $CMP BQ25601
 D I2C Controlled 3A Single-Cell Battery Charger for High Input Voltage and Narrow Voltage DC Power Path Management, WQFN-32
 K LiPO charger
 F http://www.ti.com/lit/ds/symlink/bq25601.pdf
+$ENDCMP
+#
+$CMP BQ25895RTW
+D Controlled Single Cell 5A Fast Charger with MaxCharge, WQFN-24
+K Battery Charger and Power Path Management
+F http://www.ti.com/lit/ds/symlink/bq25895.pdf
 $ENDCMP
 #
 $CMP BQ27441-G1
@@ -147,103 +171,103 @@ $ENDCMP
 $CMP LT3652EDD
 D Step-down  battery charger, Lithium Phosphate ( LiFePO4), Lead (Pb), Lithium+ (Li+) , 4.95V to 32V VDD, -40 to +125 degree Celcius, DFN-12
 K Step-down  battery charger, Lithium Phosphate ( LiFePO4), Lead (Pb), Lithium+ (Li+) , 4.95V to 32V VDD, -40 to +125 degree Celcius, DFN-12
-F http://cds.linear.com/docs/en/datasheet/3652fe.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3652fe.pdf
 $ENDCMP
 #
 $CMP LT3652EMSE
 D Step-down  battery charger, Lithium Phosphate ( LiFePO4), Lead (Pb), Lithium+ (Li+) , 4.95V to 32V VDD, -40 to +125 degree Celcius, MSOP-12
 K Step-down  battery charger, Lithium Phosphate ( LiFePO4), Lead (Pb), Lithium+ (Li+) , 4.95V to 32V VDD, -40 to +125 degree Celcius, MSOP-12
-F http://cds.linear.com/docs/en/datasheet/3652fe.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3652fe.pdf
 $ENDCMP
 #
 $CMP LT3652IDD
 D Step-down  battery charger, Lithium Phosphate ( LiFePO4), Lead (Pb), Lithium+ (Li+) , 4.95V to 32V VDD, -40 to +125 degree Celcius, DFN-12
 K Step-down  battery charger, Lithium Phosphate ( LiFePO4), Lead (Pb), Lithium+ (Li+) , 4.95V to 32V VDD, -40 to +125 degree Celcius, DFN-12
-F http://cds.linear.com/docs/en/datasheet/3652fe.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3652fe.pdf
 $ENDCMP
 #
 $CMP LT3652IMSE
 D Step-down  battery charger, Lithium Phosphate ( LiFePO4), Lead (Pb), Lithium+ (Li+) , 4.95V to 32V VDD, -40 to +125 degree Celcius, MSOP-12
 K Step-down  battery charger, Lithium Phosphate ( LiFePO4), Lead (Pb), Lithium+ (Li+) , 4.95V to 32V VDD, -40 to +125 degree Celcius, MSOP-12
-F http://cds.linear.com/docs/en/datasheet/3652fe.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3652fe.pdf
 $ENDCMP
 #
 $CMP LTC3553
-D Micropower USB Power Manager With Li-Ion Charger, LDO and Buck Regulator, 4.2 V float, QFN-20
+D Micropower USB Power Manager With Li-Ion Charger, LDO and Buck Regulator, 4.2V float, QFN-20
 K USB PMIC
-F www.linear.com/docs/28574
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3553fc.pdf
 $ENDCMP
 #
 $CMP LTC3555
-D High Efficiency USB Power Manager + Triple Step-Down DC/DC, 4.2 V float, QFN-28
+D High Efficiency USB Power Manager + Triple Step-Down DC/DC, 4.2V float, QFN-28
 K USB PMIC
-F www.linear.com/docs/25066
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3555fe.pdf
 $ENDCMP
 #
 $CMP LTC3555-1
-D High Efficiency USB Power Manager + Triple Step-Down DC/DC, instant-on power, 4.2 V float, QFN-28
+D High Efficiency USB Power Manager + Triple Step-Down DC/DC, instant-on power, 4.2V float, QFN-28
 K USB PMIC
-F www.linear.com/docs/25066
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3555fe.pdf
 $ENDCMP
 #
 $CMP LTC3555-3
-D High Efficiency USB Power Manager + Triple Step-Down DC/DC, instant-on power, 4.1 V float, QFN-28
+D High Efficiency USB Power Manager + Triple Step-Down DC/DC, instant-on power, 4.1V float, QFN-28
 K USB PMIC
-F www.linear.com/docs/25066
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3555fe.pdf
 $ENDCMP
 #
 $CMP LTC4001
 D Single cell (4.2V) programmable synchronous buck Li-Ion charger, 2A, 5.5V input
 K Li-Ion charger
-F http://cds.linear.com/docs/en/datasheet/4001f.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4001f.pdf
 $ENDCMP
 #
 $CMP LTC4001-1
 D Single cell (4.1V) programmable synchronous buck Li-Ion charger, 2A, 5.5V input
 K Li-Ion Charger
-F http://cds.linear.com/docs/en/datasheet/40011fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/40011fa.pdf
 $ENDCMP
 #
 $CMP LTC4002EDD-4.2
 D Standalone Li-Ion Switch Mode Battery Charger, 4.7-22V input, single cell, DFN-10
 K lithium li-ion battery charger
-F http://cds.linear.com/docs/en/datasheet/4002f.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4002f.pdf
 $ENDCMP
 #
 $CMP LTC4002EDD-8.4
 D Standalone Li-Ion Switch Mode Battery Charger, 8.9-22V input, double cell, DFN-10
 K lithium li-ion battery charger
-F http://cds.linear.com/docs/en/datasheet/4002f.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4002f.pdf
 $ENDCMP
 #
 $CMP LTC4002ES8-4.2
 D Standalone Li-Ion Switch Mode Battery Charger, 4.7-22V input, single cell, SOIC-8
 K lithium li-ion battery charger
-F http://cds.linear.com/docs/en/datasheet/4002f.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4002f.pdf
 $ENDCMP
 #
 $CMP LTC4002ES8-8.4
 D Standalone Li-Ion Switch Mode Battery Charger, 8.9-22V input, double cell, SOIC-8
 K lithium li-ion battery charger
-F http://cds.linear.com/docs/en/datasheet/4002f.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4002f.pdf
 $ENDCMP
 #
 $CMP LTC4007
 D 4A high efficiency standalone Li-ion battery charger, SSOP24
 K lithium ion polymer li-po battery
-F http://www.analog.com/media/en/technical-documentation/data-sheets/4007fc.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4007fc.pdf
 $ENDCMP
 #
 $CMP LTC4054ES5-4.2
 D Constant-current/constant-voltage linear charger for single cell lithium-ion batteries with 2.9V Trickle Charge, 4.5V to 6.5V VDD, -40 to +85 degree Celcius, TSOT-23-5
 K Constant-current constant-voltage linear charger single cell lithium-ion battery
-F http://cds.linear.com/docs/en/datasheet/405442xf.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/405442xf.pdf
 $ENDCMP
 #
 $CMP LTC4054XES5-4.2
 D Constant-current/constant-voltage linear charger for single cell lithium-ion batteries no Trickle Charge, 4.5V to 6.5V VDD, -40 to +85 degree Celcius, TSOT-23-5
 K Constant-current constant-voltage linear charger single cell lithium-ion battery
-F http://cds.linear.com/docs/en/datasheet/405442xf.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/405442xf.pdf
 $ENDCMP
 #
 $CMP LTC4055
@@ -261,13 +285,13 @@ $ENDCMP
 $CMP LTC4060EDHC
 D Complete fast charging system for 2, 3 or 4 series  NiMH or NiCd batteries, 0.4 to 2A, 4.5 to 10V VDD, -40 to +85 degree Celcisus, DFN-16
 K Complete fast charging system for 2, 3 or 4 series NiMH or NiCd batteries, 0.4 to 2A, 4.5 to 10V VDD, -40 to +85 degree Celcisus, DFN-16
-F http://cds.linear.com/docs/en/datasheet/405442xf.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/405442xf.pdf
 $ENDCMP
 #
 $CMP LTC4060EFE
 D Complete fast charging system for 2, 3 or 4 series NiMH or NiCd batteries, 0.4 to 2A, 4.5 to 10V VDD, -40 to +85 degree Celcisus, TSSOP-16
 K Complete fast charging system for 2, 3 or 4 series NiMH or NiCd batteries, 0.4 to 2A, 4.5 to 10V VDD, -40 to +85 degree Celcisus, TSSOP-16
-F http://cds.linear.com/docs/en/datasheet/405442xf.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/405442xf.pdf
 $ENDCMP
 #
 $CMP LTC4156
@@ -279,13 +303,13 @@ $ENDCMP
 $CMP LTC6803-2
 D Multicell Battery Stack Monitor, 12-cell max, multi-chemistry, integrated balancing, stackable, serial interface
 K battery balance afe
-F http://cds.linear.com/docs/en/datasheet/680324fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/680324fa.pdf
 $ENDCMP
 #
 $CMP LTC6803-4
 D Multicell Battery Stack Monitor, 12-cell max, multi-chemistry, integrated balancing, stackable, serial interface
 K battery balance afe
-F http://cds.linear.com/docs/en/datasheet/680324fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/680324fa.pdf
 $ENDCMP
 #
 $CMP MAX1647

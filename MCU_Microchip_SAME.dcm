@@ -1,5 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ATSAME51J18A-A
+D SAM E51 Microchip SMART ARM Cortex-M4F-based MCU, 256K Flash, 128K SRAM, TQFP-64
+K 32-bit ARM Cortex-M4F MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/60001507C.pdf
+$ENDCMP
+#
+$CMP ATSAME51J19A-A
+D SAM E51 Microchip SMART ARM Cortex-M4F-based MCU, 512K Flash, 192K SRAM, TQFP-64
+K 32-bit ARM Cortex-M4F MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/60001507C.pdf
+$ENDCMP
+#
+$CMP ATSAME51J20A-A
+D SAM E51 Microchip SMART ARM Cortex-M4F-based MCU, 1024K Flash, 256K SRAM, TQFP-64
+K 32-bit ARM Cortex-M4F MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/60001507C.pdf
+$ENDCMP
+#
 $CMP ATSAME53J18A-M
 D SAM E53 Microchip SMART ARM Cortex-M4F based MCU, 256K Flash, 128K SRAM, QFN-64
 K 32-bit ARM Cortex-M4F MCU Microcontroller
@@ -16,6 +34,12 @@ $CMP ATSAME53J20A-M
 D SAM E53 Microchip SMART ARM Cortex-M4F based MCU, 1024K Flash, 128K SRAM, QFN-64
 K 32-bit ARM Cortex-M4F MCU Microcontroller
 F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM-D5xE5x-Family-Datasheet-01507B.pdf
+$ENDCMP
+#
+$CMP ATSAME54N19A-A
+D SAM E54 Microchip SMART ARM Cortex-M4F based MCU, 512K Flash, 192K SRAM, TQFP-100
+K 32-bit ARM Cortex-M4F MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/60001507C.pdf
 $ENDCMP
 #
 $CMP ATSAME70J19A-AN

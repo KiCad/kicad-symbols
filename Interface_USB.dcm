@@ -3,13 +3,13 @@ EESchema-DOCLIB  Version 2.0
 $CMP ADUM3160
 D Full/Low Speed, iCoupler USB Digital Isolator, 2.5kV protection
 K usb isolation
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM3160.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM3160.pdf
 $ENDCMP
 #
 $CMP ADUM4160
 D Full/Low Speed, iCoupler USB Digital Isolator, 5kV protection, SOIC-16
 K usb isolation
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM4160.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM4160.pdf
 $ENDCMP
 #
 $CMP BQ24392
@@ -28,6 +28,12 @@ $CMP CH340G
 D USB serial converter, UART, SOIC-16
 K USB UART Serial Converter Interface
 F http://www.datasheet5.com/pdf-local-2195953
+$ENDCMP
+#
+$CMP CH340T
+D USB serial converter, UART, SSOP-20
+K USB UART Serial Converter Interface
+F https://cdn.sparkfun.com/datasheets/Dev/Arduino/Other/CH340DS1.PDF
 $ENDCMP
 #
 $CMP CP2102N-A01-GQFN24
