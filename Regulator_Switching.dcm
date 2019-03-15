@@ -1602,6 +1602,12 @@ K Miniature Step-Up Boost Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lmr64010.pdf
 $ENDCMP
 #
+$CMP LMZ14201
+D 1A, 42V Input, 0.8V - 6V Output, Step-Down DC/DC Power Module in 10.2mmx9.9mm, TO-PMOD
+K Step-Down DCDC SIMPLESWITCHER Power Module
+F http://www.ti.com/lit/ds/symlink/lmz14201.pdf
+$ENDCMP
+#
 $CMP LMZM23600
 D 0.5A Adjustable Step-Down DC/DC Power Module in 3.8x3mm, MicroSIP-10
 K Step-Down DC/DC Module
