@@ -270,6 +270,12 @@ K LED current driver 12bit PWM
 F http://www.ti.com/lit/ds/symlink/tlc5973.pdf
 $ENDCMP
 #
+$CMP TLC6C5816-Q1
+D 16-bit shift register LED driver with diagnostics, HTSSOP-28
+K 16 channel open drain shift register AEC-Q100
+F http://www.ti.com/lit/ds/symlink/tlc6c5816-q1.pdf
+$ENDCMP
+#
 $CMP WS2811
 D 3-Channel 8-Bit PWM LED Driver, DIP-8/SOIC-8
 K PWM LED driver
