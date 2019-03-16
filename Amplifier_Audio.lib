@@ -1670,10 +1670,8 @@ F1 "THAT1512" 200 450 50 H V C CNN
 F2 "" 50 -550 50 H I C CNN
 F3 "" 50 -450 50 H I C CNN
 $FPLIST
- dip-8*
- soic-16*
- soic-14*
- soic-8*
+ dip*
+ soic*
 $ENDFPLIST
 DRAW
 P 4 0 1 0 -200 -400 -200 400 200 0 -200 -400 N
