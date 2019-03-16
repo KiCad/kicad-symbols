@@ -432,6 +432,12 @@ K audio amplifier 2ch
 F http://www.st.com/resource/en/datasheet/tda7297.pdf
 $ENDCMP
 #
+$CMP THAT2180
+D Blackmer Pre-Trimmed IC Voltage Controlled Amplifiers, SIP-8
+K audio vca
+F http://www.thatcorp.com/datashts/THAT_2180-Series_Datasheet.pdf
+$ENDCMP
+#
 $CMP THAT2181
 D Blackmer Pre-Trimmed IC Voltage Controlled Amplifiers, SIP-8/SOIC-8
 K audio vca
