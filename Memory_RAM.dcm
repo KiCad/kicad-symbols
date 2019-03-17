@@ -129,5 +129,10 @@ D 512K x 8 HIGH-SPEED CMOS STATIC RAM, 12ns, SOJ-36
 K SRAM
 F http://www.issi.com/WW/pdf/61-64C5128AL.pdf
 $ENDCMP
+$CMP AS6C4008-55PCN
+D 128K x 8 BIT LOW POWER CMOS SRAM
+K RAM SRAM CMOS
+F https://www.alliancememory.com/wp-content/uploads/pdf/AS6C4008.pdf
+$ENDCMP
 #
 #End Doc Library
