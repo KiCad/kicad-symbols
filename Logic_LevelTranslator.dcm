@@ -24,6 +24,12 @@ K Noninverting
 F http://www.ti.com/lit/ds/symlink/sn74aup1t34.pdf
 $ENDCMP
 #
+$CMP SN74AVC8T245PW
+D 8-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, TSSOP-24
+K Noninverting Bidirectional
+F https://www.ti.com/lit/ds/symlink/sn74avc8t245.pdf
+$ENDCMP
+#
 $CMP SN74LVC1T45DBV
 D Single-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, SOT-23-6
 K Level-Shifter CMOS-TTL-Translation
