@@ -54,6 +54,12 @@ K BLE5, BLE, nRF52832
 F http://www.cdebyte.com/en/downpdf.aspx?id=243
 $ENDCMP
 #
+$CMP E73-2G4M08S1C
+D nRF52840 BLE5 Module
+K BLE5, BLE, nRF52840
+F http://www.ebyte.com/en/pdf-down.aspx?id=627
+$ENDCMP
+#
 $CMP ESP-07
 D 802.11 b/g/n Wi-Fi Module
 K 802.11 Wi-Fi
