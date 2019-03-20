@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP 628128_DIP32_SSOP32
-D 128K x 8 High-Speed CMOS Static RAM, 55/70ns, DIP-32, SSOP-32
+D 128K x 8 High-Speed CMOS Static RAM, 55/70ns, DIP-32/SSOP-32
 K RAM SRAM CMOS MEMORY
 F http://www.futurlec.com/Datasheet/Memory/628128.pdf
 $ENDCMP
@@ -65,7 +65,7 @@ F http://www.idt.com/document/7203-7208-datasheet
 $ENDCMP
 #
 $CMP IDT7207
-D 32768x9 CMOS Asynchronous FIFO, DIP28
+D 32768x9 CMOS Asynchronous FIFO, DIP-28
 K asynchronous fifo memory
 F http://www.idt.com/document/7203-7208-datasheet
 $ENDCMP
