@@ -2628,6 +2628,12 @@ K step down switch manager I2C telemetry fault current sense
 F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC3886-3886-1.pdf
 $ENDCMP
 #
+$CMP LTM8063
+D 40VIN, 2A Silent Switcher µModule Regulator
+K uModule dc-dc switching regulator step-down·
+F https://www.analog.com/media/en/technical-documentation/data-sheets/8063f     a.pdf
+$ENDCMP
+#   
 $CMP MAX15062A
 D 60V, 300mA, synchronous step-down dc-dc converter, 3.3V fixed output voltage, DFN-8
 K step-down dc-dc switching regulator
