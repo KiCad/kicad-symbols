@@ -48,6 +48,18 @@ K nextthingco chip pro module
 F https://github.com/NextThingCo/CHIP_Pro-Hardware/blob/master/Datasheets/CHIP_PRO_Datasheet_v1.0.pdf
 $ENDCMP
 #
+$CMP Compute_Module_3_Plus
+D Raspberry Pi Compute Modeule 3 Plus, https://github.com/raspberrypi/documentation/blob/master/hardware/computemodule/datasheets/rpi_DATA_CM3plus_1p0.pdf
+K Raspberry Compute Modeule
+F https://github.com/raspberrypi/documentation/raw/master/hardware/computemodule/datasheets/rpi_DATA_CM3plus_1p0.pdf
+$ENDCMP
+#
+$CMP Compute_Module_3_Plus_Lite
+D Raspberry Pi Compute Modeule 3 Plus, https://github.com/raspberrypi/documentation/blob/master/hardware/computemodule/datasheets/rpi_DATA_CM3plus_1p0.pdf
+K Raspberry Compute Modeule
+F https://github.com/raspberrypi/documentation/raw/master/hardware/computemodule/datasheets/rpi_DATA_CM3plus_1p0.pdf
+$ENDCMP
+#
 $CMP Maple_Mini
 D Maple Mini Microcontroller Module by LeafLabs
 K Maple Mini Microcontroller Module LeafLabs STM32 STM32F103
