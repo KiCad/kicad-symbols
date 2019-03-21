@@ -120,6 +120,11 @@ D Power flag
 K power-flag
 $ENDCMP
 #
+$CMP +3V0
+D Power flag
+K power-flag
+$ENDCMP
+#
 $CMP +3V3
 D Power flag
 K power-flag
