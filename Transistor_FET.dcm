@@ -1236,6 +1236,12 @@ K NexFET Power MOSFET P-MOS
 F https://www.ti.com/lit/ds/slps234b/slps234b.pdf
 $ENDCMP
 #
+$CMP DMC2053UVT
+D COMPLEMENTARY PAIR ENHANCEMENT MODE MOSFET
+K mosfet
+F https://www.diodes.com/assets/Datasheets/DMC2053UVT.pdf
+$ENDCMP
+#
 $CMP DMG2302U
 D 4.2A Id, 20V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
