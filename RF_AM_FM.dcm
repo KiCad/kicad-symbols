@@ -24,6 +24,12 @@ K Radio, ISM, Transciever, Module, AES
 F http://www.hoperf.com/upload/rf/RFM69W-V1.3.pdf
 $ENDCMP
 #
+$CMP RFM69CW
+D ISM Radio Transciever Module, SPI interface
+K Radio, ISM, Transciever, Module, AES
+F http://www.hoperf.com/upload/rf/RFM69CW-V1.1.pdf
+$ENDCMP
+#
 $CMP RFM95W-868S2
 D Low power long range transceiver module, SPI and parallel interface, 868 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16
 K Low power long range transceiver module
