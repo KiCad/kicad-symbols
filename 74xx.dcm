@@ -204,6 +204,24 @@ K CMOS hex buffer
 F www.st.com/resource/en/datasheet/74lcx07.pdf
 $ENDCMP
 #
+$CMP 74LS07
+D Hex Buffers and Drivers With Open Collector High Voltage Outputs
+K CMOS hex buffer OpenCol
+F www.ti.com/lit/ds/symlink/sn74ls07.pdf
+$ENDCMP
+#
+$CMP SN74LS07
+D Hex Buffers and Drivers With Open Collector High Voltage Outputs
+K hex buffer OpenCol
+F www.ti.com/lit/ds/symlink/sn74ls07.pdf
+$ENDCMP
+#
+$CMP SN74LS07N
+D Hex Buffers and Drivers With Open Collector High Voltage Outputs
+K hex buffer OpenCol
+F www.ti.com/lit/ds/symlink/sn74ls07.pdf
+$ENDCMP
+#
 $CMP 74LS00
 D quad 2-input NAND gate
 K TTL nand 2-input
