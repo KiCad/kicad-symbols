@@ -84,4 +84,24 @@ K STM8 Microcontroller Value Line
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00024550.pdf
 $ENDCMP
 #
+$CMP STM8S207CBT
+D   24 MHz,128K Flash, EEPROM, 10-bit ADC, timers, 2 UARTs, SPI, I²C, CAN LQFP48 (7x7mm, 0.8mm pitch)
+K STM8 Microcontroller Performance line,
+F https://www.st.com/resource/en/datasheet/stm8s207cb.pdf
+$ENDCMP
+#
+$CMP STM8S208CBT
+D   24 MHz,128K Flash, EEPROM, 10-bit ADC, timers, 2 UARTs, SPI, I²C, CAN LQFP48 (7x7mm, 0.8mm pitch)
+K STM8 Microcontroller Performance line,
+F https://www.st.com/resource/en/datasheet/stm8s207cb.pdf
+$ENDCMP
+#
+$CMP STM8S208RB
+D   24 MHz,128K Flash, EEPROM, 10-bit ADC, timers, 2 UARTs, SPI, I²C, CAN LQFP64 (7x7mm, 0.8mm pitch)
+K STM8 Microcontroller Performance line,
+F https://www.st.com/resource/en/datasheet/stm8s207cb.pdf
+$ENDCMP
+#
+
+
 #End Doc Library
