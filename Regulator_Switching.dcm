@@ -2928,6 +2928,12 @@ K regulator switching adjustable
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic4690.pdf
 $ENDCMP
 #
+$CMP MP1470
+D High-Efficiency, 2A, 16V, 500kHz Synchronous, Step-Down Converter, TSOT-23-6
+K buck converter
+F https://www.monolithicpower.com/pub/media/document/MP1470_r1.02.pdf
+$ENDCMP
+#
 $CMP MP171GJ
 D 60mA Non-Isolated Off-Line Regulator, 700V Input Voltage, Adjustable Output Voltage, TSOT-23-5
 K regulator switching adjustable
