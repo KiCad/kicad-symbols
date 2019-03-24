@@ -553,7 +553,7 @@ F http://www.newhavendisplay.com/specs/NHD-0420H1Z-FSW-GBW-33V3.pdf
 $ENDCMP
 #
 $CMP RC1602A
-D LCD 16x2 Alphanumeric gray backlight, 3 or 5 V VDD
+D LCD 16x2 Alphanumeric gray backlight, 3 or 5V VDD
 K display LCD dot-matrix
 F http://www.raystar-optronics.com/down.php?ProID=18
 $ENDCMP
@@ -562,6 +562,24 @@ $CMP RC1602A-GHW-ESX
 D LCD 16x2 Alphanumeric 16pin Gray Backlight
 K display LCD dot-matrix
 F http://www.raystar-optronics.com/down.php?ProID=18
+$ENDCMP
+#
+$CMP SA15-11EWA
+D High Efficiency Red Single-digit Numeric Display with white white diffused lens, common anode
+K display LED 7-segment
+F http://www.kingbrightusa.com/images/catalog/SPEC/SA15-11EWA.pdf
+$ENDCMP
+#
+$CMP SA15-11GWA
+D Green Single-digit Numeric Display with white white diffused lens, common anode
+K display LED 7-segment
+F http://www.kingbrightusa.com/images/catalog/SPEC/SA15-11GWA.pdf
+$ENDCMP
+#
+$CMP SA15-11SRWA
+D Super Bright Red Single-digit Numeric Display with white white diffused lens, common anode
+K display LED 7-segment
+F http://www.kingbrightusa.com/images/catalog/SPEC/SA15-11SRWA.pdf
 $ENDCMP
 #
 $CMP SBC18-11EGWA

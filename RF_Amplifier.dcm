@@ -3,19 +3,19 @@ EESchema-DOCLIB  Version 2.0
 $CMP ADL5541
 D 20-6000MHz RF/IF +15dB gain block, LFCSP-8
 K RF GAIN BLOCK
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADL5541.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5541.pdf
 $ENDCMP
 #
 $CMP ADL5542
 D 20-6000MHz RF/IF +20dB gain block, LFCSP-8
 K RF GAIN BLOCK
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADL5542.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5542.pdf
 $ENDCMP
 #
 $CMP ADL5610
 D 30-6000MHz RF/IF +18.4dB gain block, SOT-89
 K RF GAIN BLOCK
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADL5610.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5610.pdf
 $ENDCMP
 #
 $CMP BGA2800
@@ -112,6 +112,12 @@ $CMP MAX2679B
 D GPS/GNSS Ultra-Low Current Low-Noise Amplifier, +16.5dB @ 1.57GHz, WLP-4
 K RF GAIN BLOCK
 F https://datasheets.maximintegrated.com/en/ds/MAX2679-MAX2679B.pdf
+$ENDCMP
+#
+$CMP SKY65404
+D 4.9-5.9GHz, 13dB Low-Noise Amplifier, QFN-6
+K LNA low noise amplifier RF
+F http://www.skyworksinc.com/uploads/documents/SKY65404_31_201512K.pdf
 $ENDCMP
 #
 $CMP SPF5189Z

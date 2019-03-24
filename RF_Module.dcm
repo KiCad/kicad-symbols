@@ -6,6 +6,12 @@ K Ra-01 LoRa
 F https://mikroelectron.com/Product/10KM-433M-LORA-LONG-RANGE-WIRELESS-MODULE-RA-01
 $ENDCMP
 #
+$CMP D52MxxM8
+D D52M Module, nRF52832 SoC, ARM Cortex-M4F, 64kB RAM, 512kB Flash, 1.7-3.6V, M8-35
+K RF Radio ANT Bluetooth BLE D52 nRF52 Garmin Canada Dynastream Nordic
+F https://www.thisisant.com/assets/resources/D00001687_D52_Module_Datasheet.v.2.3_(Garmin).pdf
+$ENDCMP
+#
 $CMP DCTR-52DA
 D IQRF data controlled transceiver with PCB antenna, FSK modulation
 K IQRF data controlled transceiver, PCB antenna, FSK modulation

@@ -138,70 +138,550 @@ K MOSFET driver array
 F http://www.intersil.com/content/dam/Intersil/documents/icl7/icl7667.pdf
 $ENDCMP
 #
+$CMP IR2010
+D High and Low Side Driver, 200V, 3.0/3.0A, PDIP-14
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2010.pdf?fileId=5546d462533600a4015355c48f901660
+$ENDCMP
+#
+$CMP IR2010S
+D High and Low Side Driver, 200V, 3.0/3.0A, SOIC-16W
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2010.pdf?fileId=5546d462533600a4015355c48f901660
+$ENDCMP
+#
+$CMP IR2011
+D High and Low Side Driver, 200V, 1.0/1.0A, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2011.pdf?fileId=5546d462533600a4015355c49b831663
+$ENDCMP
+#
+$CMP IR2085S
+D High Speed, 100V, Self Oscillating 50% Duty Cycle, Half-Bridge Driver, 1.0/1.0A, SOIC-8
+K Oscillating Gate Driver
+F https://www.infineon.com/dgdl/Infineon-IR2085S-DS-v01_02-EN.pdf?fileId=5546d4625b62cd8a015bb0f752184828
+$ENDCMP
+#
 $CMP IR2101
-D High and Low Side Gate Driver, 600V operation, Output Current 130/270mA, PDIP-8/SOIC-8
+D High and Low Side Driver, 600V, 210/360mA, PDIP-8/SOIC-8
 K Gate Driver
 F https://www.infineon.com/dgdl/ir2101.pdf?fileId=5546d462533600a4015355c7a755166c
 $ENDCMP
 #
 $CMP IR2102
-D High and Low Side Gate Driver, 600V operation, Output Current 130/270mA, PDIP-8/SOIC-8
+D High and Low Side Driver, 600V, 210/360mA, PDIP-8/SOIC-8
 K Gate Driver
 F https://www.infineon.com/dgdl/ir2101.pdf?fileId=5546d462533600a4015355c7a755166c
 $ENDCMP
 #
 $CMP IR2103
-D High and Low Side Gate Driver, 600V operation, Output Current 130/270mA, PDIP-8/SOIC-8
+D Half-Bridge Driver, 600V, 210/360mA, PDIP-8/SOIC-8
 K Gate Driver
 F https://www.infineon.com/dgdl/ir2103.pdf?fileId=5546d462533600a4015355c7b54b166f
 $ENDCMP
 #
 $CMP IR2104
-D High and Low Side Gate Driver, 600V operation, Output Current 130/270mA, PDIP-8/SOIC-8
+D Half-Bridge Driver, 600V, 210/360mA, PDIP-8/SOIC-8
 K Gate Driver
 F https://www.infineon.com/dgdl/ir2104.pdf?fileId=5546d462533600a4015355c7c1c31671
 $ENDCMP
 #
-$CMP IR2105
-D High and Low Side Gate Driver, 600V operation, Output Current 130/270mA, PDIP-8/SOIC-8
-K Gate Driver
-F http://www.irf.com/product-info/datasheets/data/ir2105.pdf
-$ENDCMP
-#
 $CMP IR2106
-D High and Low Side Gate Driver, 600V operation, Output Current 120/200mA, PDIP-8/SOIC-8
+D High and Low Side Driver, 600V, 200/350mA, PDIP-8/SOIC-8
 K Gate Driver
 F https://www.infineon.com/dgdl/ir2106.pdf?fileId=5546d462533600a4015355c7cfc51673
 $ENDCMP
 #
+$CMP IR21064
+D High and Low Side Driver, 600V, 200/350mA, PDIP-14/SOIC-14
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2106.pdf?fileId=5546d462533600a4015355c7cfc51673
+$ENDCMP
+#
+$CMP IR2108
+D Half-Bridge Driver, 600V, 210/350mA, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2108.pdf?fileId=5546d462533600a4015355c7dc321676
+$ENDCMP
+#
+$CMP IR21084
+D Half-Bridge Driver, 600V, 210/350mA, PDIP-14/SOIC-14
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2108.pdf?fileId=5546d462533600a4015355c7dc321676
+$ENDCMP
+#
+$CMP IR2109
+D Half-Bridge Driver, 600V, 200/350mA, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2109.pdf?fileId=5546d462533600a4015355c7e85b1679
+$ENDCMP
+#
+$CMP IR21091
+D Half-Bridge Driver, 600V, 200/350mA, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/ir21091.pdf?fileId=5546d462533600a4015355c7f66f167c
+$ENDCMP
+#
+$CMP IR21094
+D Half-Bridge Driver, 600V, 200/350mA, PDIP-14/SOIC-14
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2109.pdf?fileId=5546d462533600a4015355c7e85b1679
+$ENDCMP
+#
 $CMP IR2110
-D High and Low Side Gate Driver, 500V operation, Output Current 2.0/2.0A, PDIP-14/SOIC-14
+D High and Low Side Driver, 500V, 2.0/2.0A, PDIP-14
 K Gate Driver
 F https://www.infineon.com/dgdl/ir2110.pdf?fileId=5546d462533600a4015355c80333167e
+$ENDCMP
+#
+$CMP IR2110S
+D High and Low Side Driver, 500V, 2.0/2.0A, SOIC-16W
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2110.pdf?fileId=5546d462533600a4015355c80333167e
+$ENDCMP
+#
+$CMP IR2111
+D Half-Bridge Driver, 600V, 250/500mA, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2111.pdf?fileId=5546d462533600a4015355c810e51682
+$ENDCMP
+#
+$CMP IR2112
+D High and Low Side Driver, 600V, 250/500mA, PDIP-14
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2112.pdf?fileId=5546d462533600a4015355c81cb71685
+$ENDCMP
+#
+$CMP IR2112S
+D High and Low Side Driver, 500V, 250/500mA, SOIC-16W
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2112.pdf?fileId=5546d462533600a4015355c81cb71685
 $ENDCMP
 #
 $CMP IR2113
-D High and Low Side Gate Driver, 600V operation, Output Current 2.0/2.0A, PDIP-14/SOIC-14
+D High and Low Side Driver, 600V, 2.0/2.0A, PDIP-14
 K Gate Driver
 F https://www.infineon.com/dgdl/ir2110.pdf?fileId=5546d462533600a4015355c80333167e
 $ENDCMP
 #
+$CMP IR2113S
+D High and Low Side Driver, 500V, 2.0/2.0A, SOIC-16W
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2110.pdf?fileId=5546d462533600a4015355c80333167e
+$ENDCMP
+#
+$CMP IR2114S
+D Half-Bridge Gate Driver IC, 600V, 1.0/1.5A, SSOP-24
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2114ss.pdf?fileId=5546d462533600a4015355c836cd168a
+$ENDCMP
+#
+$CMP IR2153
+D Self-Oscillating Half-Bridge Driver, 600V, PDIP-8/SOIC-8
+K Oscillating Gate Driver
+F https://www.infineon.com/dgdl/ir2153.pdf?fileId=5546d462533600a4015355c8c5fc16af
+$ENDCMP
+#
+$CMP IR21531
+D Self-Oscillating Half-Bridge Driver, 600V, PDIP-8/SOIC-8
+K Oscillating Gate Driver
+F https://www.infineon.com/dgdl/ir21531.pdf?fileId=5546d462533600a4015355c8d26316b3
+$ENDCMP
+#
+$CMP IR2155
+D Self-Oscillating Half-Bridge Driver, 600V, 250/500mA, PDIP-8/SOIC-8
+K Oscillating Gate Driver
+F https://www.infineon.com/dgdl/ir2155.pdf?fileId=5546d462533600a4015355c8dec316b6
+$ENDCMP
+#
+$CMP IR2181
+D High and Low Side Driver, 600V, 1.4/1.8A, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2181.pdf?fileId=5546d462533600a4015355c93cdd16ce
+$ENDCMP
+#
+$CMP IR21814
+D High and Low Side Driver, 600V, 1.4/1.8A, PDIP-14/SOIC-14
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2181.pdf?fileId=5546d462533600a4015355c93cdd16ce
+$ENDCMP
+#
+$CMP IR2183
+D Half-Bridge Driver, 600V, 1.4/1.8A, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2183.pdf?fileId=5546d462533600a4015355c9490e16d1
+$ENDCMP
+#
+$CMP IR21834
+D Half-Bridge Driver, 600V, 1.4/1.8A, PDIP-14/SOIC-14
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2183.pdf?fileId=5546d462533600a4015355c9490e16d1
+$ENDCMP
+#
+$CMP IR2184
+D Half-Bridge Driver, 600V, 1.4/1.8A, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2184.pdf?fileId=5546d462533600a4015355c955e616d4
+$ENDCMP
+#
+$CMP IR21844
+D Half-Bridge Driver, 600V, 1.4/1.8A, PDIP-14/SOIC-14
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2184.pdf?fileId=5546d462533600a4015355c955e616d4
+$ENDCMP
+#
+$CMP IR2213
+D High and Low Side Driver, 1200V, 1.7/2.0A, PDIP-14
+K Gate Driver
+F https://www.infineon.com/dgdl/Infineon-IR2213-DS-v00_02-EN.pdf?fileId=5546d462533600a4015355c9621716d8
+$ENDCMP
+#
+$CMP IR2213S
+D High and Low Side Driver, 1200V, 1.7/2.0A, SOIC-16W
+K Gate Driver
+F https://www.infineon.com/dgdl/Infineon-IR2213-DS-v00_02-EN.pdf?fileId=5546d462533600a4015355c9621716d8
+$ENDCMP
+#
+$CMP IR2214S
+D Half-Bridge Gate Driver IC, 1200V, 1.0/1.5A, SSOP-24
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2114ss.pdf?fileId=5546d462533600a4015355c836cd168a
+$ENDCMP
+#
+$CMP IR2301
+D High and Low Side Driver, 600V, 200/350mA, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2301.pdf?fileId=5546d462533600a4015355c97bb216dc
+$ENDCMP
+#
+$CMP IR2302
+D Half-Bridge Driver, 600V, 200/350mA, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2302.pdf?fileId=5546d462533600a4015355c988b216de
+$ENDCMP
+#
+$CMP IR2304
+D Half-Bridge Driver, 600V, 60/130mA, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2304.pdf?fileId=5546d462533600a4015355c9954a16e0
+$ENDCMP
+#
+$CMP IR2308
+D Half-Bridge Driver, 600V, 200/350mA, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2308.pdf?fileId=5546d462533600a4015355c9a2b816e2
+$ENDCMP
+#
+$CMP IR25602S
+D Half-Bridge Driver, 600V, 210/360mA, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/ir25602.pdf?fileId=5546d462533600a4015355c9d6c216eb
+$ENDCMP
+#
+$CMP IR25603
+D Self-Oscillating Half-Bridge Driver, 600V, 180/260mA, PDIP-8/SOIC-8
+K Oscillating Gate Driver
+F https://www.infineon.com/dgdl/ir25603.pdf?fileId=5546d462533600a4015355c9e46716ef
+$ENDCMP
+#
+$CMP IR25604S
+D High and Low Side Driver, 600V, 200/350mA, SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/ir25604.pdf?fileId=5546d462533600a4015355c9f1ca16f1
+$ENDCMP
+#
+$CMP IR25607S
+D High and Low Side Driver, 600V, 2.0/2.0A, SOIC-16W
+K Gate Driver
+F https://www.infineon.com/dgdl/ir25607.pdf?fileId=5546d462533600a4015355ca0e7916f5
+$ENDCMP
+#
+$CMP IR7106S
+D High and Low Side Driver, 700V, 200/350mA, SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/ir7106s.pdf?fileId=5546d462533600a4015355d61a06182a
+$ENDCMP
+#
+$CMP IR7184S
+D 700V Half-Bridge Driver, 1.9/2.3A, SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/ir7184s.pdf?fileId=5546d462533600a4015355d62230182c
+$ENDCMP
+#
+$CMP IR7304S
+D 700V Half-Bridge Driver, 60/130mA, SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/ir7304s.pdf?fileId=5546d462533600a4015355d62a63182e
+$ENDCMP
+#
+$CMP IRS2001
+D High and Low Side Driver, 200V, 200/420mA, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2001pbf.pdf?fileId=5546d462533600a401535675a760277e
+$ENDCMP
+#
+$CMP IRS2001M
+D High and Low Side Driver, 200V, 290/600mA, MLPQ-14
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2001mpbf.pdf?fileId=5546d462533600a4015356759e20277c
+$ENDCMP
+#
+$CMP IRS2003
+D Half-Bridge Driver, 200V, 290/600mA, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2003pbf.pdf?fileId=5546d462533600a401535675afec2780
+$ENDCMP
+#
+$CMP IRS2004
+D Half-Bridge Driver, 200V, 290/600mA, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2004pbf.pdf?fileId=5546d462533600a401535675b86b2782
+$ENDCMP
+#
+$CMP IRS2005M
+D High and Low Side Driver, 200V, 290/600mA, MLPQ-14
+K Gate Driver
+F https://www.infineon.com/dgdl/Infineon-IRS2005S-DS-v02_00-EN.pdf?fileId=5546d462533600a4015364c4246229e1
+$ENDCMP
+#
+$CMP IRS2005S
+D High and Low Side Driver, 200V, 290/600mA, SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/Infineon-IRS2005S-DS-v02_00-EN.pdf?fileId=5546d462533600a4015364c4246229e1
+$ENDCMP
+#
+$CMP IRS2008S
+D 200-V Half-Bridge Driver With Shutdown Input, 200V, 290/600mA, SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/Infineon-IRS2008S-DS-v01_00-EN.pdf?fileId=5546d46259d9a4bf015a3e76b6361c1a
+$ENDCMP
+#
+$CMP IRS2011
+D High and Low Side Driver, 200V, 1.0/1.0A, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2011pbf.pdf?fileId=5546d462533600a401535675c19f2784
+$ENDCMP
+#
+$CMP IRS2101
+D High and Low Side Driver, 600V, 290/600mA, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/ir2101.pdf?fileId=5546d462533600a4015355c7a755166c
+$ENDCMP
+#
+$CMP IRS2103
+D Half-Bridge Driver, 600V, 290/600mA, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2103.pdf?fileId=5546d462533600a4015356762b71279f
+$ENDCMP
+#
+$CMP IRS2104
+D Half-Bridge Driver, 600V, 290/600mA, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2104.pdf?fileId=5546d462533600a40153567633f727a1
+$ENDCMP
+#
+$CMP IRS2106
+D High and Low Side Driver, 600V, 290/600mA, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2106.pdf?fileId=5546d462533600a4015356763aa527a3
+$ENDCMP
+#
+$CMP IRS21064
+D High and Low Side Driver, 600V, 290/600mA, PDIP-14/SOIC-14
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2106.pdf?fileId=5546d462533600a4015356763aa527a3
+$ENDCMP
+#
+$CMP IRS2108
+D Half-Bridge Driver, 600V, 290/600mA, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2108.pdf?fileId=5546d462533600a40153567649d627a8
+$ENDCMP
+#
+$CMP IRS21084
+D Half-Bridge Driver, 600V, 290/600mA, PDIP-14/SOIC-14
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2108.pdf?fileId=5546d462533600a40153567649d627a8
+$ENDCMP
+#
+$CMP IRS2109
+D Half-Bridge Driver, 600V, 290/600mA, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2109.pdf?fileId=5546d462533600a401535676508f27ab
+$ENDCMP
+#
+$CMP IRS21091
+D Half-Bridge Driver, 600V, 290/600mA, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/irs21091.pdf?fileId=5546d462533600a401535676573d27ae
+$ENDCMP
+#
+$CMP IRS21094
+D Half-Bridge Driver, 600V, 290/600mA, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2109.pdf?fileId=5546d462533600a401535676508f27ab
+$ENDCMP
+#
+$CMP IRS2110
+D High and Low Side Driver, 500V, 2.0/2.0A, PDIP-14
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2110.pdf?fileId=5546d462533600a40153567660ff27b0
+$ENDCMP
+#
+$CMP IRS2110S
+D High and Low Side Driver, 500V, 2.0/2.0A, SOIC-16W
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2110.pdf?fileId=5546d462533600a40153567660ff27b0
+$ENDCMP
+#
+$CMP IRS2111
+D Half-Bridge Driver, 600V, 290/600mA, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2111pbf.pdf?fileId=5546d462533600a401535676679b27b3
+$ENDCMP
+#
+$CMP IRS2112
+D High and Low Side Driver, 600V, 290/600mA, PDIP-14
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2112pbf.pdf?fileId=5546d462533600a401535676702827b5
+$ENDCMP
+#
+$CMP IRS2112S
+D High and Low Side Driver, 500V, 290/600mA, SOIC-16W
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2112pbf.pdf?fileId=5546d462533600a401535676702827b5
+$ENDCMP
+#
+$CMP IRS2113
+D High and Low Side Driver, 600V, 2.0/2.0A, PDIP-14
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2110.pdf?fileId=5546d462533600a40153567660ff27b0
+$ENDCMP
+#
+$CMP IRS2113M
+D High- and Low-Side Driver, 600V, 2.5/2.5A, MLPQ-14
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2113mpbf.pdf?fileId=5546d462533600a40153567676a227b7
+$ENDCMP
+#
+$CMP IRS2113S
+D High and Low Side Driver, 500V, 2.0/2.0A, SOIC-16W
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2110.pdf?fileId=5546d462533600a40153567660ff27b0
+$ENDCMP
+#
+$CMP IRS21531D
+D Self-Oscillating Half-Bridge Driver IC, 600V, 180/260mA, PDIP-8/SOIC-8
+K Oscillating Gate Driver
+F https://www.infineon.com/dgdl/irs2153d.pdf?fileId=5546d462533600a401535676951e27c3
+$ENDCMP
+#
+$CMP IRS2153D
+D Self-Oscillating Half-Bridge Driver IC, 600V, 180/260mA, PDIP-8/SOIC-8
+K Oscillating Gate Driver
+F https://www.infineon.com/dgdl/irs2153d.pdf?fileId=5546d462533600a401535676951e27c3
+$ENDCMP
+#
 $CMP IRS2181
-D High and Low Side Gate Driver, 600V operation, Output Current 1.4/1.8A, PDIP-8/SOIC-8
+D High and Low Side Driver, 600V, 1.4/1.8A, PDIP-8/SOIC-8
 K Gate Driver
 F https://www.infineon.com/dgdl/irs2181.pdf?fileId=5546d462533600a401535676c12b27d3
 $ENDCMP
 #
+$CMP IRS21814
+D High and Low Side Driver, 600V, 1.4/1.8A, PDIP-14/SOIC-14
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2181.pdf?fileId=5546d462533600a401535676c12b27d3
+$ENDCMP
+#
+$CMP IRS21814M
+D High- and Low-Side Driver, 600V, 1.9/2.3A, MLPQ-14
+K Gate Driver
+F https://www.infineon.com/dgdl/irs21814mpbf.pdf?fileId=5546d462533600a401535676c8a827d6
+$ENDCMP
+#
+$CMP IRS2183
+D Half-Bridge Driver, 600V, 1.4/1.8A, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2183.pdf?fileId=5546d462533600a401535676d20c27d8
+$ENDCMP
+#
+$CMP IRS21834
+D Half-Bridge Driver, 600V, 1.4/1.8A, PDIP-14/SOIC-14
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2183.pdf?fileId=5546d462533600a401535676d20c27d8
+$ENDCMP
+#
+$CMP IRS2184
+D Half-Bridge Driver, 600V, 1.4/1.8A, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2184.pdf?fileId=5546d462533600a401535676d8da27db
+$ENDCMP
+#
+$CMP IRS21844
+D Half-Bridge Driver, 600V, 1.4/1.8A, PDIP-14/SOIC-14
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2184.pdf?fileId=5546d462533600a401535676d8da27db
+$ENDCMP
+#
+$CMP IRS21844M
+D Half-Bridge Driver, 600V, 1.9/2.3A, MLPQ-14
+K Gate Driver
+F https://www.infineon.com/dgdl/irs21844mpbf.pdf?fileId=5546d462533600a401535676dfb027de
+$ENDCMP
+#
 $CMP IRS2186
-D High and Low Side Gate Driver, 600V operation, Output current 4.0/4.0A, DIP-8/SOIC-8
+D High and Low Side Driver, 600V, 4A, PDIP-8/SOIC-8
+K gate driver
+F https://www.infineon.com/dgdl/irs2186pbf.pdf?fileId=5546d462533600a40153567716c427ed
+$ENDCMP
+#
+$CMP IRS21864
+D High and Low Side Driver, 600V, 4A, PDIP-14/SOIC-14
 K gate driver
 F https://www.infineon.com/dgdl/irs2186pbf.pdf?fileId=5546d462533600a40153567716c427ed
 $ENDCMP
 #
 $CMP IRS21867S
-D High and Low Side Gate Driver, 600V operation, Output Current 4.0/4.0A, SOIC-8
+D High and Low Side Driver, 600V, 4.0/4.0A, SOIC-8
 K Gate Driver
 F http://www.infineon.com/dgdl/irs21867spbf.pdf?fileId=5546d462533600a4015356770e8327eb
+$ENDCMP
+#
+$CMP IRS2301S
+D High and Low Side Driver, 600V, 200/350mA, SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2301pbf.pdf?fileId=5546d462533600a40153567a7ec527fe
+$ENDCMP
+#
+$CMP IRS2302S
+D Half-Bridge Driver, 600V, 200/350mA, SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/Infineon-IRS2302-DS-v02_01-EN.pdf?fileId=5546d462533600a40153567a87382800
+$ENDCMP
+#
+$CMP IRS2304
+D Half-Bridge Driver, 600V, 290/600mA, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2304spbf.pdf?fileId=5546d462533600a40153567a8fe72802
+$ENDCMP
+#
+$CMP IRS2308
+D Half-Bridge Driver, 600V, 290/600mA, PDIP-8/SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/irs2308.pdf?fileId=5546d462533600a40153567a98ac2804
+$ENDCMP
+#
+$CMP IRS25606S
+D Half-Bridge Driver, 600V, 200/350mA, SOIC-8
+K Gate Driver
+F https://www.infineon.com/dgdl/ir25606.pdf?fileId=5546d462533600a4015355ca002316f3
+$ENDCMP
+#
+$CMP IRS2890DS
+D Half-Bridge Driver with Overcurrent Protection, 600V, 220/480mA, SOIC-14
+K Gate Driver
+F https://www.infineon.com/dgdl/Infineon-IRS2890DS-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aad6fbc8a4bf4
 $ENDCMP
 #
 $CMP LM5109AMA
@@ -237,25 +717,25 @@ $ENDCMP
 $CMP LTC4440EMS8
 D High-side, N-Channel, Mosfet driver, 80V input, -40°C to +85°C, MSOP-8
 K high-side mosfet-driver
-F http://cds.linear.com/docs/en/datasheet/4440fb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4440fb.pdf
 $ENDCMP
 #
 $CMP LTC4440ES6
 D High-side, N-Channel, Mosfet driver, 80V input, -40°C to +85°C, SOT23-6
 K high-side mosfet-driver
-F http://cds.linear.com/docs/en/datasheet/4440fb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4440fb.pdf
 $ENDCMP
 #
 $CMP LTC4440IMS8
 D High-side, N-Channel, Mosfet driver, 80V input, -40°C to +125°C, MSOP-8
 K high-side mosfet-driver
-F http://cds.linear.com/docs/en/datasheet/4440fb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4440fb.pdf
 $ENDCMP
 #
 $CMP LTC4440IS6
 D High-side, N-Channel, Mosfet driver, 80V input, -40°C to +85°C, SOT23-6
 K high-side mosfet-driver
-F http://cds.linear.com/docs/en/datasheet/4440fb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4440fb.pdf
 $ENDCMP
 #
 $CMP MC33152
@@ -331,13 +811,13 @@ F http://www.psemi.com/pdf/datasheets/pe29102ds.pdf
 $ENDCMP
 #
 $CMP PM8834
-D 4 A dual low-side MOSFET driver, SOIC-8
+D 4A dual low-side MOSFET driver, SOIC-8
 K mosfet driver
 F http://www.st.com/resource/en/datasheet/pm8834.pdf
 $ENDCMP
 #
 $CMP PM8834M
-D 4 A dual low-side MOSFET driver, MSOP-8
+D 4A dual low-side MOSFET driver, MSOP-8
 K mosfet driver
 F http://www.st.com/resource/en/datasheet/pm8834.pdf
 $ENDCMP
