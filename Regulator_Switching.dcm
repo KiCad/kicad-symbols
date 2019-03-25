@@ -2454,6 +2454,12 @@ K Boost flyback SEPIC inverting DC/DC regulator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3757Afe.pdf
 $ENDCMP
 #
+$CMP LT8303
+D 100VIN Micropower Isolated Flyback Converter with 150V/450mA Switch, TSOT-23-5
+K Flyback switcher
+F https://www.analog.com/media/en/technical-documentation/data-sheets/8303fa.pdf
+$ENDCMP
+#
 $CMP LT8610
 D 42V, 2.5A Synchronous Step-Down Regulator with 2.5uA Quiescent Current, MSOP-16
 K high efficiency speed synchronous monolithic buck step-down switching regulator 42V 2.5A
@@ -2926,6 +2932,12 @@ $CMP MIC4690
 D 1A, 500kHz SuperSwitcher Buck Regulator, 4-34V Input Voltage, Adjustable Output Voltage, SO-8
 K regulator switching adjustable
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic4690.pdf
+$ENDCMP
+#
+$CMP MP1470
+D High-Efficiency, 2A, 16V, 500kHz Synchronous, Step-Down Converter, TSOT-23-6
+K buck converter
+F https://www.monolithicpower.com/pub/media/document/MP1470_r1.02.pdf
 $ENDCMP
 #
 $CMP MP171GJ

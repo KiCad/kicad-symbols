@@ -451,13 +451,13 @@ F https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30
 $ENDCMP
 #
 $CMP BSS83P
-D -0.33A Id, -60V Vds, P-Channel MOSFET, SOT-23-3
+D -0.33A Id, -60V Vds, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET
 F http://www.farnell.com/datasheets/1835997.pdf
 $ENDCMP
 #
 $CMP BSS84
-D -0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23-3
+D -0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET
 F http://assets.nexperia.com/documents/data-sheet/BSS84.pdf
 $ENDCMP
@@ -1240,6 +1240,10 @@ $CMP DMC2053UVT
 D COMPLEMENTARY PAIR ENHANCEMENT MODE MOSFET
 K mosfet
 F https://www.diodes.com/assets/Datasheets/DMC2053UVT.pdf
+$CMP DMG2301L
+D -3A Id, -20V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/DMG2301L.pdf
 $ENDCMP
 #
 $CMP DMG2302U
@@ -2323,7 +2327,7 @@ F https://www.diodes.com/assets/Datasheets/ds30104.pdf
 $ENDCMP
 #
 $CMP NTR2101P
-D -3.7A Id, -8V Vds, P-Channel MOSFET, SOT-23-3
+D -3.7A Id, -8V Vds, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET
 F http://www.onsemi.com/pub/Collateral/NTR2101P-D.PDF
 $ENDCMP
@@ -2473,7 +2477,7 @@ F http://www.vishay.com/docs/70209/70209.pdf
 $ENDCMP
 #
 $CMP TP0610T
-D -0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23-3
+D -0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET
 F http://www.vishay.com/docs/70209/70209.pdf
 $ENDCMP
@@ -2491,7 +2495,7 @@ F http://www.vishay.com/docs/70209/70209.pdf
 $ENDCMP
 #
 $CMP VP0610T
-D -0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23-3
+D -0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET
 F http://www.vishay.com/docs/70209/70209.pdf
 $ENDCMP

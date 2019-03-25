@@ -18,6 +18,12 @@ K Level shifter translator bidirectional
 F http://www.onsemi.com/pub/Collateral/FXMA108-D.pdf
 $ENDCMP
 #
+$CMP NCN4555MN
+D SIM Card Power Supply and Level Shifter, QFN-16
+K SIM Card Level Shifter
+F https://www.onsemi.com/pub/Collateral/NCN4555-D.PDF
+$ENDCMP
+#
 $CMP SN74AUP1T34DCK
 D 1-Bit Unidirectional Voltage-Level Translator, SC-70
 K Noninverting
