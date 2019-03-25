@@ -84,6 +84,12 @@ K HCMOS BUS 3State
 F http://www.ti.com/lit/gpn/sn74HC245
 $ENDCMP
 #
+$CMP 74HC4024
+D 7-stage binary ripple counter, SOIC-14
+K binary counter
+F https://assets.nexperia.com/documents/data-sheet/74HC4024.pdf
+$ENDCMP
+#
 $CMP 74HC4051
 D 8-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16
 K HCMOS Multiplexer Demultiplexer Analog
