@@ -258,6 +258,12 @@ K TTL not inv OpenCol
 F http://www.ti.com/lit/gpn/sn74LS06N
 $ENDCMP
 #
+$CMP 74LS07
+D Hex Buffers and Drivers With Open Collector High Voltage Outputs
+K TTL hex buffer OpenCol
+F www.ti.com/lit/ds/symlink/sn74ls07.pdf
+$ENDCMP
+#
 $CMP 74LS08
 D Quad And2
 K TTL and2
@@ -1180,6 +1186,18 @@ $CMP SN74AVC16827DGGR
 D 20-Bit Buffer/Driver With 3-State Outputs
 K Buffer Driver 3-State
 F http://www.ti.com/lit/ds/symlink/sn74avc16827.pdf
+$ENDCMP
+#
+$CMP SN74LS07
+D Hex Buffers and Drivers With Open Collector High Voltage Outputs
+K TTL hex buffer OpenCol
+F www.ti.com/lit/ds/symlink/sn74ls07.pdf
+$ENDCMP
+#
+$CMP SN74LS07N
+D Hex Buffers and Drivers With Open Collector High Voltage Outputs
+K TTL hex buffer OpenCol
+F www.ti.com/lit/ds/symlink/sn74ls07.pdf
 $ENDCMP
 #
 #End Doc Library
