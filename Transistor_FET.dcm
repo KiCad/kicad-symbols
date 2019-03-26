@@ -2610,4 +2610,10 @@ K N-Channel MOSFET
 F http://www.diodes.com/assets/Datasheets/ZXMN6A07F.pdf
 $ENDCMP
 #
+$CMP ZXMP4A16GTA
+D -4.6A Id, -40V Vds, P-Channel MOSFET, SOT-223
+K P-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/ZXMP4A16G.pdf
+$ENDCMP
+#
 #End Doc Library
