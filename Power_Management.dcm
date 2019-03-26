@@ -1,5 +1,29 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AAT4610BIGV-1-T1
+D Current Limited Load Switch, SOT-23-5
+K Limit USB Active High
+F http://www.skyworksinc.com/uploads/documents/201937A.pdf
+$ENDCMP
+#
+$CMP AAT4610BIGV-T1
+D Current Limited Load Switch, SOT-23-5
+K Limit USB Active Low
+F http://www.skyworksinc.com/uploads/documents/201937A.pdf
+$ENDCMP
+#
+$CMP AAT4616IGV-1-T1
+D Adjustable Current Limited Load Switch, SOT-23-5
+K Limit USB Active High
+F http://www.skyworksinc.com/uploads/documents/AAT4616_201940E.pdf
+$ENDCMP
+#
+$CMP AAT4616IGV-T1
+D Adjustable Current Limited Load Switch, SOT-23-5
+K Limit USB Active Low
+F http://www.skyworksinc.com/uploads/documents/AAT4616_201940E.pdf
+$ENDCMP
+#
 $CMP AUIPS1041R
 D Intelligent Power Low Side Switch, 39V, 4.5A, DPAK-5L
 K low side switch
@@ -88,30 +112,6 @@ $CMP AUIPS7091G
 D Intelligent Power High Side Switch, 70V, 5A, SOIC-8
 K high side switch
 F https://www.infineon.com/dgdl/auips7091.pdf?fileId=5546d462533600a4015355a7c0d21322
-$ENDCMP
-#
-$CMP AAT4616IGV-1-T1
-D Adjustable Current Limited Load Switch, SOT-23-5
-K Limit USB Active High
-F http://www.skyworksinc.com/uploads/documents/AAT4616_201940E.pdf
-$ENDCMP
-#
-$CMP AAT4616IGV-T1
-D Adjustable Current Limited Load Switch, SOT-23-5
-K Limit USB Active Low
-F http://www.skyworksinc.com/uploads/documents/AAT4616_201940E.pdf
-$ENDCMP
-#
-$CMP AAT4610BIGV-1-T1
-D Current Limited Load Switch, SOT-23-5
-K Limit USB Active High
-F http://www.skyworksinc.com/uploads/documents/201937A.pdf
-$ENDCMP
-#
-$CMP AAT4610BIGV-T1
-D Current Limited Load Switch, SOT-23-5
-K Limit USB Active Low
-F http://www.skyworksinc.com/uploads/documents/201937A.pdf
 $ENDCMP
 #
 $CMP AUIPS7111S
@@ -820,6 +820,18 @@ $CMP RT9701
 D 100 milliohm power distribution switch
 K power distribution switch
 F https://www.richtek.com/assets/product_file/RT9701/DS9701-16.pdf
+$ENDCMP
+#
+$CMP SN6505ADBVR
+D SN6505x, Low Noise, 1A, Transformer Drivers for Isolated Power Supplies, SOT23
+K Transformer Drivers
+F http://www.ti.com/lit/ds/symlink/sn6505b.pdf
+$ENDCMP
+#
+$CMP SN6595BDBVR
+D SN6505x, Low Noise, 1A, Transformer Drivers for Isolated Power Supplies, SOT23
+K Transformer Drivers
+F http://www.ti.com/lit/ds/symlink/sn6505b.pdf
 $ENDCMP
 #
 $CMP STM6600
