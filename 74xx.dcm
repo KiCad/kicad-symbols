@@ -84,6 +84,12 @@ K HCMOS BUS 3State
 F http://www.ti.com/lit/gpn/sn74HC245
 $ENDCMP
 #
+$CMP 74HC4024
+D 7-stage binary ripple counter, SOIC-14
+K binary counter
+F https://assets.nexperia.com/documents/data-sheet/74HC4024.pdf
+$ENDCMP
+#
 $CMP 74HC4051
 D 8-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16
 K HCMOS Multiplexer Demultiplexer Analog
@@ -250,6 +256,12 @@ $CMP 74LS06N
 D Inverter Open Collect
 K TTL not inv OpenCol
 F http://www.ti.com/lit/gpn/sn74LS06N
+$ENDCMP
+#
+$CMP 74LS07
+D Hex Buffers and Drivers With Open Collector High Voltage Outputs
+K TTL hex buffer OpenCol
+F www.ti.com/lit/ds/symlink/sn74ls07.pdf
 $ENDCMP
 #
 $CMP 74LS08
@@ -1174,6 +1186,18 @@ $CMP SN74AVC16827DGGR
 D 20-Bit Buffer/Driver With 3-State Outputs
 K Buffer Driver 3-State
 F http://www.ti.com/lit/ds/symlink/sn74avc16827.pdf
+$ENDCMP
+#
+$CMP SN74LS07
+D Hex Buffers and Drivers With Open Collector High Voltage Outputs
+K TTL hex buffer OpenCol
+F www.ti.com/lit/ds/symlink/sn74ls07.pdf
+$ENDCMP
+#
+$CMP SN74LS07N
+D Hex Buffers and Drivers With Open Collector High Voltage Outputs
+K TTL hex buffer OpenCol
+F www.ti.com/lit/ds/symlink/sn74ls07.pdf
 $ENDCMP
 #
 #End Doc Library
