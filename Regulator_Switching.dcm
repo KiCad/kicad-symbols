@@ -3810,6 +3810,18 @@ K smps buck boost inverting
 F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
 $ENDCMP
 #
+$CMP SN6505ADBVR
+D SN6505x, Low Noise, 1A, Transformer Drivers for Isolated Power Supplies, SOT23
+K Transformer Drivers
+F http://www.ti.com/lit/ds/symlink/sn6505b.pdf
+$ENDCMP
+#
+$CMP SN6505BDBVR
+D SN6505x, Low Noise, 1A, Transformer Drivers for Isolated Power Supplies, SOT23
+K Transformer Drivers
+F http://www.ti.com/lit/ds/symlink/sn6505b.pdf
+$ENDCMP
+#
 $CMP ST1S10PHR
 D 3A monolithic synchronous step-down regulator, Adjustable Output Voltage, 2.5-18V Input Voltage, 900kHz, PowerSO-8
 K DC/DC Buck Conwerter 3A Low Voltage Input
