@@ -6,6 +6,18 @@ K Ra-01 LoRa
 F https://mikroelectron.com/Product/10KM-433M-LORA-LONG-RANGE-WIRELESS-MODULE-RA-01
 $ENDCMP
 #
+$CMP CMWX1ZZABZ-078
+D LoRa/SigFox Module, STM32L082 MCU, muRata CMWX1ZZABZ
+K iot lora sigfox
+F https://wireless.murata.com/RFM/data/type_abz.pdf
+$ENDCMP
+#
+$CMP CMWX1ZZABZ-091
+D LoRa/SigFox Module, STM32L072 MCU, muRata CMWX1ZZABZ
+K iot lora sigfox
+F https://wireless.murata.com/RFM/data/type_abz.pdf
+$ENDCMP
+#
 $CMP D52MxxM8
 D D52M Module, nRF52832 SoC, ARM Cortex-M4F, 64kB RAM, 512kB Flash, 1.7-3.6V, M8-35
 K RF Radio ANT Bluetooth BLE D52 nRF52 Garmin Canada Dynastream Nordic
