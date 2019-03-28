@@ -1,5 +1,41 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP OKI-78SR-12_1.0-W36-C
+D 1.0A Step-Down DC/DC-Regulator, 15-36V input, 12V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_vertical
+K dc-dc murata Step-Down DC/DC-Regulator
+F https://power.murata.com/data/power/oki-78sr.pdf
+$ENDCMP
+#
+$CMP OKI-78SR-12_1.0-W36H-C
+D 1.0A Step-Down DC/DC-Regulator, 15-36V input, 12V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_horizontal
+K dc-dc murata Step-Down DC/DC-Regulator
+F https://power.murata.com/data/power/oki-78sr.pdf
+$ENDCMP
+#
+$CMP OKI-78SR-3.3_1.5-W36-C
+D 1.5A Step-Down DC/DC-Regulator, 7-36V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_vertical
+K dc-dc murata Step-Down DC/DC-Regulator
+F https://power.murata.com/data/power/oki-78sr.pdf
+$ENDCMP
+#
+$CMP OKI-78SR-3.3_1.5-W36H-C
+D 1.5A Step-Down DC/DC-Regulator, 7-36V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_horizontal
+K dc-dc murata Step-Down DC/DC-Regulator
+F https://power.murata.com/data/power/oki-78sr.pdf
+$ENDCMP
+#
+$CMP OKI-78SR-5_1.5-W36-C
+D 1.5A Step-Down DC/DC-Regulator, 7-36V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_vertical
+K dc-dc murata Step-Down DC/DC-Regulator
+F https://power.murata.com/data/power/oki-78sr.pdf
+$ENDCMP
+#
+$CMP OKI-78SR-5_1.5-W36H-C
+D 1.5A Step-Down DC/DC-Regulator, 7-36V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_horizontal
+K dc-dc murata Step-Down DC/DC-Regulator
+F https://power.murata.com/data/power/oki-78sr.pdf
+$ENDCMP
+#
 $CMP TC7662AxPA
 D Charge Pump DC-to-DC Converter, 3 - 18V, 40mA, DIP-8
 K charge pump DC-to-DC converter
