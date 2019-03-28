@@ -1,38 +1,38 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP 628128_DIP32_SSOP32
-D 128K x 8 High-Speed CMOS Static RAM, 55/70ns, DIP/SSOP-32
-K RAM SRAM CMOS
+D 128K x 8 High-Speed CMOS Static RAM, 55/70ns, DIP-32/SSOP-32
+K RAM SRAM CMOS MEMORY
 F http://www.futurlec.com/Datasheet/Memory/628128.pdf
 $ENDCMP
 #
 $CMP 628128_TSOP32
 D 128K x 8 High-Speed CMOS Static RAM, 55/70ns, TSOP-I-32
-K RAM SRAM CMOS
+K RAM SRAM CMOS MEMORY 
 F http://www.futurlec.com/Datasheet/Memory/628128.pdf
 $ENDCMP
 #
 $CMP AS4C4M16SA
 D 64M – (4M x 16 bit) Synchronous DRAM (SDRAM), TSOP II 54pin
-K SDRAM Synchronus DRAM PC166 PC143 64Mb 16Mbx4
+K SDRAM Synchronus DRAM PC166 PC143 64Mb 16Mbx4 MEMORY
 F https://www.alliancememory.com/wp-content/uploads/pdf/dram/64M-AS4C4M16SA-CI_v3.0_March%202015.pdf
 $ENDCMP
 #
 $CMP AS6C1616
 D 1024k x 16 bit low power CMOS SRAM
 K memory SRAM
-F http://www.alliancememory.com/pdf/AS6C1616(1).pdf
+F https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1616-TSOPI.pdf
 $ENDCMP
 #
 $CMP ESP-PSRAM32
 D 32 Mbit serial pseudo SRAM device organized as 4Mx8 bits, 1.8 VCC, SOIC8 (SOP8)
-K 32 Mbit serial pseudo SRAM
+K 32 Mbit serial pseudo SRAM MEMORY
 F https://www.espressif.com/sites/default/files/documentation/esp-psram32_datasheet_en.pdf
 $ENDCMP
 #
 $CMP H5AN8G8NAFR-UHC
 D 8Gb CMOS Double Data Rate IV Synchronous RAM
-K DDR4 DRAM
+K DDR4 DRAM MEMORY
 F https://www.skhynix.com/product/filedata/fileDownload.do?seq=7687
 $ENDCMP
 #
@@ -41,93 +41,99 @@ D 165 pins BGA 3.3V high-speed 9 Megabit synchronous SRAMs 512K x 18 (or  256K x
 $ENDCMP
 #
 $CMP IDT7203
-D 2048x9 CMOS Asynchronous FIFO, DIP28
+D 2048x9 CMOS Asynchronous FIFO, DIP-28
 K asynchronous fifo memory
 F http://www.idt.com/document/7203-7208-datasheet
 $ENDCMP
 #
 $CMP IDT7204
-D 4096x9 CMOS Asynchronous FIFO, DIP28
+D 4096x9 CMOS Asynchronous FIFO, DIP-28
 K asynchronous fifo memory
 F http://www.idt.com/document/7203-7208-datasheet
 $ENDCMP
 #
 $CMP IDT7205
-D 8192x9 CMOS Asynchronous FIFO, DIP28
+D 8192x9 CMOS Asynchronous FIFO, DIP-28
 K asynchronous fifo memory
 F http://www.idt.com/document/7203-7208-datasheet
 $ENDCMP
 #
 $CMP IDT7206
-D 16384x9 CMOS Asynchronous FIFO, DIP28
+D 16384x9 CMOS Asynchronous FIFO, DIP-28
 K asynchronous fifo memory
 F http://www.idt.com/document/7203-7208-datasheet
 $ENDCMP
 #
 $CMP IDT7207
-D 32768x9 CMOS Asynchronous FIFO, DIP28
+D 32768x9 CMOS Asynchronous FIFO, DIP-28
 K asynchronous fifo memory
 F http://www.idt.com/document/7203-7208-datasheet
 $ENDCMP
 #
 $CMP IDT7208
-D 65536x9 CMOS Asynchronous FIFO, DIP28
+D 65536x9 CMOS Asynchronous FIFO, DIP-28
 K asynchronous fifo memory
 F http://www.idt.com/document/7203-7208-datasheet
 $ENDCMP
 #
 $CMP IS42S16400J-xC
 D 64Mb Synchronous DRAM, 1 Mb x 16 b x 4 Banks, Cu leadframe plated with matte Sn, TSOP-II-54
-K DRAM
+K DRAM MEMORY
 F http://www.issi.com/WW/pdf/42-45S16400J.pdf
 $ENDCMP
 #
 $CMP IS42S16400J-xT
 D 64Mb Synchronous DRAM, 1 Mb x 16 b x 4 Banks, Alloy42 leadframe plated with matte Sn, TSOP-II-54
-K DRAM
+K DRAM MEMORY
 F http://www.issi.com/WW/pdf/42-45S16400J.pdf
 $ENDCMP
 #
 $CMP IS61C5128AL-10KLI
 D 512K x 8 HIGH-SPEED CMOS STATIC RAM, 10ns, SOJ-36
-K SRAM
+K SRAM MEMORY
 F http://www.issi.com/WW/pdf/61-64C5128AL.pdf
 $ENDCMP
 #
 $CMP IS61C5128AL-10TLI
 D 512K x 8 HIGH-SPEED CMOS STATIC RAM, 10ns, TSOP II-44
-K SRAM
+K SRAM MEMORY
 F http://www.issi.com/WW/pdf/61-64C5128AL.pdf
 $ENDCMP
 #
 $CMP IS61C5128AS-25HLI
 D 512K x 8 HIGH-SPEED CMOS STATIC RAM, 25ns, STSOP I-32
-K SRAM
+K SRAM MEMORY
 F http://www.issi.com/WW/pdf/61-64C5128AL.pdf
 $ENDCMP
 #
 $CMP IS61C5128AS-25QLI
 D 512K x 8 HIGH-SPEED CMOS STATIC RAM, 25ns, SOP-32
-K SRAM
+K SRAM MEMORY
 F http://www.issi.com/WW/pdf/61-64C5128AL.pdf
 $ENDCMP
 #
 $CMP IS61C5128AS-25TLI
 D 512K x 8 HIGH-SPEED CMOS STATIC RAM, 25ns, TSOP II-32
-K SRAM
+K SRAM MEMORY
 F http://www.issi.com/WW/pdf/61-64C5128AL.pdf
 $ENDCMP
 #
 $CMP IS64C5128AL-12CTLA3
 D 512K x 8 HIGH-SPEED CMOS STATIC RAM, 12ns, TSOP II-44
-K SRAM
+K SRAM MEMORY
 F http://www.issi.com/WW/pdf/61-64C5128AL.pdf
 $ENDCMP
 #
 $CMP IS64C5128AL-12KLA3
 D 512K x 8 HIGH-SPEED CMOS STATIC RAM, 12ns, SOJ-36
-K SRAM
+K SRAM MEMORY
 F http://www.issi.com/WW/pdf/61-64C5128AL.pdf
+$ENDCMP
+#
+$CMP AS6C4008-55PCN
+D 512K x 8 Low Power CMOS RAM, DIP-32
+K RAM SRAM CMOS MEMORY
+F https://www.alliancememory.com/wp-content/uploads/pdf/AS6C4008.pdf
 $ENDCMP
 #
 #End Doc Library
