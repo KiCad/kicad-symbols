@@ -528,6 +528,36 @@ K Dual Pole Relay
 F http://www.relpol.pl/en/content/download/14975/202519/file/e_RSM822.pdf
 $ENDCMP
 #
+$CMP RT314A03
+D Schrack RT1 relay, bistable single pole dual throw, single DC coil, 3V
+K TE SPDT 1P2T CO bistable DC
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RT1_bistable&DocType=DS&DocLang=English
+$ENDCMP
+#
+$CMP RT314A05
+D Schrack RT1 relay, bistable single pole dual throw, single DC coil, 5V
+K TE SPDT 1P2T CO bistable DC
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RT1_bistable&DocType=DS&DocLang=English
+$ENDCMP
+#
+$CMP RT314A06
+D Schrack RT1 relay, bistablesingle pole dual throw, single DC coil, 6V
+K TE SPDT 1P2T CO bistable DC
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RT1_bistable&DocType=DS&DocLang=English
+$ENDCMP
+#
+$CMP RT314A12
+D Schrack RT1 relay, bistable single pole dual throw, single DC coil, 12V
+K TE SPDT 1P2T CO bistable DC
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RT1_bistable&DocType=DS&DocLang=English
+$ENDCMP
+#
+$CMP RT314A24
+D Schrack RT1 relay, bistable single pole dual throw, single DC coil, 24V, IEC 60335-1
+K TE SPDT 1P2T CO bistable DC
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RT1_bistable&DocType=DS&DocLang=English
+$ENDCMP
+#
 $CMP RT42xAxx
 D Schrack RT2 relay, bistable dual pole dual throw, single DC coil
 K TE DPDT CO bistable DC
