@@ -264,9 +264,9 @@ K BUS CAN
 F http://www.nxp.com/documents/data_sheet/PCA82C251.pdf
 $ENDCMP
 #
-$CMP SN65HVD1050DR
-D CAN Bus Transceiver, EMC optimised, 5.0V, 1Mbps, SOIC
-K can transeiver ti canbus
+$CMP SN65HVD1050D
+D CAN Bus Transceiver, EMC optimised, 5.0V, 1Mbps, SOIC-8
+K can transceiver ti canbus
 F http://www.ti.com/lit/ds/symlink/sn65hvd1050.pdf
 $ENDCMP
 #
