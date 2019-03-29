@@ -577,7 +577,7 @@ F2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Vertical" 50 -250 50 H I L CIN
 F3 "" 0 0 50 H I C CNN
 ALIAS OKI-78SR-5_1.5-W36-C OKI-78SR-12_1.0-W36-C
 $FPLIST
- *OKI?78SR*vertical*
+ *OKI?78SR*Vertical*
 $ENDFPLIST
 DRAW
 S -200 75 200 -200 0 1 10 f
@@ -596,7 +596,7 @@ F2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Horizontal" 50 -250 50 H I L C
 F3 "" 0 0 50 H I C CNN
 ALIAS OKI-78SR-12_1.0-W36H-C OKI-78SR-5_1.5-W36H-C
 $FPLIST
- *OKI?78SR*horizontal*
+ *OKI?78SR*Horizontal*
 $ENDFPLIST
 DRAW
 S -200 75 200 -200 0 1 10 f
