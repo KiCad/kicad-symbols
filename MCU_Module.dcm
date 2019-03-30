@@ -85,31 +85,31 @@ F https://github.com/beagleboard/pocketbeagle/wiki/System-Reference-Manual
 $ENDCMP
 #
 $CMP RaspberryPi-CM1
-D BCM2835 Broadcom 700MZ single core, 512MB RAM 4GB eMMC, industrial SoM computer
+D BCM2835 Broadcom 700 MZ single core, 512 MB RAM 4 GB eMMC, industrial SoM computer
 K raspberry pi compute module
 F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM_1p0.pdf
 $ENDCMP
 #
 $CMP RaspberryPi-CM3
-D BCM2837 Broadcom 1.2GHZ single core, 1GB RAM 4GB eMMC,  industrial SoM computer
+D BCM2837 Broadcom 1.2 GHZ single core, 1 GB RAM 4 GB eMMC,  industrial SoM computer
 K raspberry pi compute module
 F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM_1p0.pdf
 $ENDCMP
 #
 $CMP RaspberryPi-CM3+
-D BCM2837B0 Broadcom 1.2GHZ single core, 1GB RAM 8/16/32GB eMMC, industrial SoM computer
+D BCM2837B0 Broadcom 1.2 GHZ single core, 1 GB RAM 8/16/32 GB eMMC, industrial SoM computer
 K raspberry pi compute module
 F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM3plus_1p0.pdf
 $ENDCMP
 #
 $CMP RaspberryPi-CM3+L
-D BCM2837B0 Broadcom 1.2GHZ single core, 1GB RAM, industrial SoM computer
+D BCM2837B0 Broadcom 1.2 GHZ single core, 1 GB RAM, industrial SoM computer
 K raspberry pi compute module
 F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM3plus_1p0.pdf
 $ENDCMP
 #
 $CMP RaspberryPi-CM3-L
-D BCM2837 Broadcom 1.2GHZ single core, 1GB RAM, industrial SoM computer
+D BCM2837 Broadcom 1.2 GHZ single core, 1 GB RAM, industrial SoM computer
 K raspberry pi compute module
 F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM_1p0.pdf
 $ENDCMP
