@@ -1476,6 +1476,12 @@ K SODIMM SO-DIMM DDR1 DDR2
 F ~
 $ENDCMP
 #
+$CMP Samtec_ASP-134486-01
+D Connector array, 10x40, 1.27mm pitch, female pins, gold finish, VITA 57.1 FMC, SMD
+K FPGA Mezzanine Card FMC Terminal Connector Header
+F http://suddendocs.samtec.com/prints/asp-134486-01-mkt.pdf
+$ENDCMP
+#
 $CMP Samtec_ASP-134602-01
 D Connector array, 10x40, 1.27mm pitch, male pins, gold finish, VITA 57.1 FMC, SMD
 K FPGA Mezzanine Card FMC Terminal Connector Header
