@@ -378,6 +378,18 @@ K NPN DC Dual Optocoupler
 F https://www.vishay.com/docs/83640/ild74.pdf
 $ENDCMP
 #
+$CMP ISO1211
+D Isolated, 1 Channel, 24 to 60V Digital Input Receiver, SOIC-8
+K isolated digital input
+F http://www.ti.com/lit/ds/symlink/iso1211.pdf
+$ENDCMP
+#
+$CMP ISO1212
+D Isolated, 2 Channels, 24 to 60V Digital Inputs Receiver, SSOP-16
+K isolated digital input
+F http://www.ti.com/lit/ds/symlink/iso1212.pdf
+$ENDCMP
+#
 $CMP ISO1540
 D I2C Isolator, 2.5 kVrms, Bidirectional clock and data, SOIC-8
 K digital isolator i2c
