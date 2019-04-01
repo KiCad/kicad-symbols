@@ -18,6 +18,18 @@ K difference amplifier
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8276_8277.pdf
 $ENDCMP
 #
+$CMP AD8475ACPZ
+D Precision, Selectable Gain, Fully Differential Funnel Amplifier, LFCSP-16
+K selectable gain ADC driver
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8475.pdf
+$ENDCMP
+#
+$CMP AD8475xRMZ
+D Precision, Selectable Gain, Fully Differential Funnel Amplifier, MSOP-10
+K selectable gain ADC driver
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8475.pdf
+$ENDCMP
+#
 $CMP ADA4940-2
 D Ultralow Power, Low Distortion, Fully Differential ADC Drivers, LFCSP-24
 K differential amplifier

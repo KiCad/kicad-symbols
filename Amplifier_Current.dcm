@@ -133,37 +133,37 @@ F http://www.ti.com/lit/ds/symlink/ina181.pdf
 $ENDCMP
 #
 $CMP INA193
-D Current Shunt Monitor −16 V to +80 V Common-Mode Range, 20V/V, SOT-23-5
+D Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5
 K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina193.pdf
 $ENDCMP
 #
 $CMP INA194
-D Current Shunt Monitor −16 V to +80 V Common-Mode Range, 50V/V, SOT-23-5
+D Current Shunt Monitor −16V to +80V Common-Mode Range, 50V/V, SOT-23-5
 K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina193.pdf
 $ENDCMP
 #
 $CMP INA195
-D Current Shunt Monitor −16 V to +80 V Common-Mode Range, 100V/V, SOT-23-5
+D Current Shunt Monitor −16V to +80V Common-Mode Range, 100V/V, SOT-23-5
 K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina193.pdf
 $ENDCMP
 #
 $CMP INA196
-D Current Shunt Monitor −16 V to +80 V Common-Mode Range, 20V/V, SOT-23-5
+D Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5
 K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina193.pdf
 $ENDCMP
 #
 $CMP INA197
-D Current Shunt Monitor −16 V to +80 V Common-Mode Range, 50V/V, SOT-23-5
+D Current Shunt Monitor −16V to +80V Common-Mode Range, 50V/V, SOT-23-5
 K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina193.pdf
 $ENDCMP
 #
 $CMP INA198
-D Current Shunt Monitor −16 V to +80 V Common-Mode Range, 100V/V, SOT-23-5
+D Current Shunt Monitor −16V to +80V Common-Mode Range, 100V/V, SOT-23-5
 K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina193.pdf
 $ENDCMP
@@ -214,6 +214,12 @@ $CMP INA240A4PW
 D High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 200V/V, TSSOP-8
 K current monitor shunt sensor bidirectional high low
 F http://www.ti.com/lit/ds/symlink/ina240.pdf
+$ENDCMP
+#
+$CMP INA253
+D High Voltage, Bidirectional, Zero-Drift, Current-ShuntMonitor With Integrated, 2-mΩ, Precision, Low Inductive Shunt Resistor, TSSOP-20
+K shunt current amplifier bidirectional
+F http://www.ti.com/lit/ds/symlink/ina253.pdf
 $ENDCMP
 #
 $CMP INA282
