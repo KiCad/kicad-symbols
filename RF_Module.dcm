@@ -6,6 +6,18 @@ K Ra-01 LoRa
 F https://mikroelectron.com/Product/10KM-433M-LORA-LONG-RANGE-WIRELESS-MODULE-RA-01
 $ENDCMP
 #
+$CMP CMWX1ZZABZ-078
+D LoRa/SigFox Module, STM32L082 MCU, muRata CMWX1ZZABZ
+K iot lora sigfox
+F https://wireless.murata.com/RFM/data/type_abz.pdf
+$ENDCMP
+#
+$CMP CMWX1ZZABZ-091
+D LoRa/SigFox Module, STM32L072 MCU, muRata CMWX1ZZABZ
+K iot lora sigfox
+F https://wireless.murata.com/RFM/data/type_abz.pdf
+$ENDCMP
+#
 $CMP D52MxxM8
 D D52M Module, nRF52832 SoC, ARM Cortex-M4F, 64kB RAM, 512kB Flash, 1.7-3.6V, M8-35
 K RF Radio ANT Bluetooth BLE D52 nRF52 Garmin Canada Dynastream Nordic
@@ -106,6 +118,72 @@ $CMP Particle_P1
 D Wi-Fi module, 1MB flash, 128KB RAM
 K Wi-Fi module
 F https://docs.particle.io/datasheets/p1-datasheet/
+$ENDCMP
+#
+$CMP RFM69HCW
+D Low power ISM Radio Transceiver Module, SPI interface, AES encryption, 434 or 915 MHz, up to 100mW, up to 300 kb/s, SMD-16, DIP-16
+K low power Radio ISM Transceiver Module AES encryption SPI HopeRF
+F https://www.hoperf.com/data/upload/portal/20181127/5bfcb8284d838.pdf
+$ENDCMP
+#
+$CMP RFM69HW
+D ISM Radio Transciever Module, SPI interface
+K Radio, ISM, Transciever, Module, AES
+F https://www.hoperf.com/data/upload/portal/20181127/5bfcbb56f1fd7.pdf
+$ENDCMP
+#
+$CMP RFM69W
+D ISM Radio Transciever Module, SPI interface
+K Radio, ISM, Transciever, Module, AES
+F https://www.hoperf.com/data/upload/portal/20181127/5bfcbe34756e1.pdf
+$ENDCMP
+#
+$CMP RFM95W-868S2
+D Low power long range transceiver module, SPI and parallel interface, 868 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16
+K Low power long range transceiver module
+F https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf
+$ENDCMP
+#
+$CMP RFM95W-915S2
+D Low power long range transceiver module, SPI and parallel interface, 915 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16
+K Low power long range transceiver module
+F https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf
+$ENDCMP
+#
+$CMP RFM96W-315S2
+D Low power long range transceiver module, SPI and parallel interface, 315 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16
+K Low power long range transceiver module
+F https://www.hoperf.com/data/upload/portal/20181127/5bfcc0ac60235.pdf
+$ENDCMP
+#
+$CMP RFM96W-433S2
+D Low power long range transceiver module, SPI and parallel interface, 433 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16
+K Low power long range transceiver module
+F https://www.hoperf.com/data/upload/portal/20181127/5bfcc0ac60235.pdf
+$ENDCMP
+#
+$CMP RFM97W-868S2
+D Low power long range transceiver module, SPI and parallel interface, 868 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -139 dBm, SMD-16, DIP-16
+K Low power long range transceiver module
+F https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf
+$ENDCMP
+#
+$CMP RFM97W-915S2
+D Low power long range transceiver module, SPI and parallel interface, 915 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -139 dBm, SMD-16, DIP-16
+K Low power long range transceiver module
+F https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf
+$ENDCMP
+#
+$CMP RFM98W-315S2
+D Low power long range transceiver module, SPI and parallel interface, 315 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16
+K Low power long range transceiver module
+F https://www.hoperf.com/data/upload/portal/20181127/5bfcdb5e17543.pdf
+$ENDCMP
+#
+$CMP RFM98W-433S2
+D Low power long range transceiver module, SPI and parallel interface, 433 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16
+K Low power long range transceiver module
+F https://www.hoperf.com/data/upload/portal/20181127/5bfcdb5e17543.pdf
 $ENDCMP
 #
 $CMP TD1205

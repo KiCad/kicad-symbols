@@ -90,6 +90,30 @@ K high side switch
 F https://www.infineon.com/dgdl/auips7091.pdf?fileId=5546d462533600a4015355a7c0d21322
 $ENDCMP
 #
+$CMP AAT4616IGV-1-T1
+D Adjustable Current Limited Load Switch, SOT-23-5
+K Limit USB Active High
+F http://www.skyworksinc.com/uploads/documents/AAT4616_201940E.pdf
+$ENDCMP
+#
+$CMP AAT4616IGV-T1
+D Adjustable Current Limited Load Switch, SOT-23-5
+K Limit USB Active Low
+F http://www.skyworksinc.com/uploads/documents/AAT4616_201940E.pdf
+$ENDCMP
+#
+$CMP AAT4610BIGV-1-T1
+D Current Limited Load Switch, SOT-23-5
+K Limit USB Active High
+F http://www.skyworksinc.com/uploads/documents/201937A.pdf
+$ENDCMP
+#
+$CMP AAT4610BIGV-T1
+D Current Limited Load Switch, SOT-23-5
+K Limit USB Active Low
+F http://www.skyworksinc.com/uploads/documents/201937A.pdf
+$ENDCMP
+#
 $CMP AUIPS7111S
 D Current Sense High Side Switch, 65V, 30A, D2PAK-5L
 K high side switch
