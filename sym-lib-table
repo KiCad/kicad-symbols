@@ -127,6 +127,7 @@
   (lib (name MCU_ST_STM8)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_ST_STM8.lib)(options "")(descr "ST STM8 microcontrollers"))
   (lib (name MCU_Texas)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Texas.lib)(options "")(descr "Texas Instruments microcontrollers (assorted)"))
   (lib (name MCU_Texas_MSP430)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Texas_MSP430.lib)(options "")(descr "Texas Instruments MSP430 microcontrollers"))
+  (lib (name MCU_Texas_SimpleLink)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Texas_SimpleLink.lib)(options "")(descr "Texas Instruments SimpleLink microcontrollers"))
   (lib (name Mechanical)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Mechanical.lib)(options "")(descr "Mechanical symbols"))
   (lib (name Motor)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Motor.lib)(options "")(descr "Motor symbols"))
   (lib (name Oscillator)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Oscillator.lib)(options "")(descr "Oscillator symbols"))
