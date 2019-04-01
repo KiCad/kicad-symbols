@@ -126,6 +126,7 @@
   (lib (name MCU_ST_STM32L4)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_ST_STM32L4.lib)(options "")(descr "ST STM32L4 microcontrollers"))
   (lib (name MCU_ST_STM32L4+)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_ST_STM32L4+.lib)(options "")(descr "ST STM32L4+ microcontrollers"))
   (lib (name MCU_ST_STM8)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_ST_STM8.lib)(options "")(descr "ST STM8 microcontrollers"))
+  (lib (name MCU_STC)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_STC.lib)(options "")(descr "STC microcontrollers"))
   (lib (name MCU_Texas)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Texas.lib)(options "")(descr "Texas Instruments microcontrollers (assorted)"))
   (lib (name MCU_Texas_MSP430)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Texas_MSP430.lib)(options "")(descr "Texas Instruments MSP430 microcontrollers"))
   (lib (name Mechanical)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Mechanical.lib)(options "")(descr "Mechanical symbols"))
