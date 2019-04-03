@@ -1,15 +1,75 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP IR4301
+D PowIRaudio Integrated Analog Input Class D Audio Amplifier, 160W/4ohm, 80V, PQFN-22
+K integrated class d amplifier
+F https://www.infineon.com/dgdl/ir4301.pdf?fileId=5546d462533600a4015355d5fc691819
+$ENDCMP
+#
+$CMP IR4302
+D PowIRaudio 2 Channel Integrated Analog Input Class D Audio Amplifier, 130W/4ohm, 80V, PQFN-44
+K integrated class d amplifier 2ch
+F https://www.infineon.com/dgdl/ir4302.pdf?fileId=5546d462533600a4015355d602a9181d
+$ENDCMP
+#
+$CMP IR4311
+D PowIRaudio Integrated Analog Input Class D Audio Amplifier, 90W/4ohm, 60V, PQFN-22
+K integrated class d amplifier
+F https://www.infineon.com/dgdl/ir4301.pdf?fileId=5546d462533600a4015355d5fc691819
+$ENDCMP
+#
+$CMP IR4312
+D PowIRaudio 2 Channel Integrated Analog Input Class D Audio Amplifier, 100W/4ohm, 60V, PQFN-44
+K integrated class d amplifier 2ch
+F https://www.infineon.com/dgdl/ir4302.pdf?fileId=5546d462533600a4015355d602a9181d
+$ENDCMP
+#
+$CMP IR4321
+D PowIRaudio Integrated Analog Input Class D Audio Amplifier, 35W/4ohm, 40V, PQFN-22
+K integrated class d amplifier
+F https://www.infineon.com/dgdl/ir4301.pdf?fileId=5546d462533600a4015355d5fc691819
+$ENDCMP
+#
+$CMP IR4322
+D PowIRaudio 2 Channel Integrated Analog Input Class D Audio Amplifier, 35W/4ohm, 40V, PQFN-44
+K integrated class d amplifier 2ch
+F https://www.infineon.com/dgdl/ir4302.pdf?fileId=5546d462533600a4015355d602a9181d
+$ENDCMP
+#
+$CMP IRS2052M
+D 2 CH Digital Audio Amplifier, PWM Modulator, +/-100V, 0.5/0.6A, MLPQ-48
+K Gate Driver Class D 2ch
+F https://www.infineon.com/dgdl/irs2052mpbf.pdf?fileId=5546d462533600a401535675d3b32788
+$ENDCMP
+#
 $CMP IRS2092
-D Protected Class D Audio Amplifier Half-Bridge Gate Driver, With PWM Modulator, Output Current 1.0/1.2A, +/-100V, PDIP-16/SOIC-16
+D Protected Digital Audio Amplifier, PWM Modulator, +/-100V, 1.0/1.2A, PDIP-16/SOIC-16
 K Gate Driver Class D
 F http://www.infineon.com/dgdl/irs2092.pdf?fileId=5546d462533600a401535675f1be2790
 $ENDCMP
 #
+$CMP IRS2093M
+D 4 CH Digital Audio Amplifier, PWM Modulator, +/-100V, 0.5/0.6A, MLPQ-48
+K Gate Driver Class D 4ch
+F https://www.infineon.com/dgdl/irs2093mpbf.pdf?fileId=5546d462533600a401535675fb892793
+$ENDCMP
+#
 $CMP IRS20957S
-D Protected Class D Audio Amplifier Half-Bridge Gate Driver, Output Current 1.0/1.2A, +/-100V, SOIC-16
+D Protected Digital Audio Driver, +/-100V, 1.0/1.2A, SOIC-16
 K Gate Driver Class D
 F http://www.infineon.com/dgdl/irs20957spbf.pdf?fileId=5546d462533600a401535676143e2799
+$ENDCMP
+#
+$CMP IRS20965S
+D Class D Audio Driver, +/-100V, 2.0/2.0A, SOIC-16
+K Gate Driver Class D
+F https://www.infineon.com/dgdl/irs20965spbf.pdf?fileId=5546d462533600a4015356761d8b279b
+$ENDCMP
+#
+$CMP IRS2452AM
+D Class D Audio IC, PWM Modulator, +/-200V, 0.5/0.6A, MLPQ-32
+K Gate Driver Class D 2ch
+F https://www.infineon.com/dgdl/Infineon-IRS2452AM-DS-v01_00-EN.pdf?fileId=5546d462584d1d4a01584ee4f1f00713
 $ENDCMP
 #
 $CMP LM1875
@@ -171,31 +231,31 @@ $ENDCMP
 $CMP SSM2017P
 D Self-Contained Audio Preamplifier, DIP-8
 K audio preamplifier
-F http://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/139484016SSM2017.pdf
+F https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/139484016SSM2017.pdf
 $ENDCMP
 #
 $CMP SSM2018
 D Trimless Voltage Controlled Amplifier, DIP-16
 K audio VCA
-F http://www.analog.com/media/en/technical-documentation/data-sheets/SSM2018.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/SSM2018.pdf
 $ENDCMP
 #
 $CMP SSM2120
 D Dynamic Range Pprocessor/Dual VCA, DIP-22
 K audio VCA
-F http://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/105738070SSM2120.pdf
+F https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/105738070SSM2120.pdf
 $ENDCMP
 #
 $CMP SSM2122
 D Dynamic Range Pprocessor/Dual VCA, DIP-16
 K audio VCA
-F http://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/105738070SSM2120.pdf
+F https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/105738070SSM2120.pdf
 $ENDCMP
 #
 $CMP SSM2165
 D Microphone Preamplifier with Variable Compression and Noise Gating, DIP-8/SOIC-8
 K audio microphone preamplifier
-F http://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/SSM2165.PDF
+F https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/SSM2165.PDF
 $ENDCMP
 #
 $CMP SSM2167
@@ -259,7 +319,7 @@ F http://www.st.com/resource/en/datasheet/cd00000123.pdf
 $ENDCMP
 #
 $CMP TDA2005
-D 20 W Bridge/Stereo Amplifier for Car Radio, TO-220-11
+D 20W Bridge/Stereo Amplifier for Car Radio, TO-220-11
 K audio amplifier
 F http://www.st.com/resource/en/datasheet/cd00000124.pdf
 $ENDCMP
@@ -277,13 +337,13 @@ F http://www.st.com/resource/en/datasheet/cd00000131.pdf
 $ENDCMP
 #
 $CMP TDA7052A
-D 1 W BTL mono audio amplifier with DC volume control, DIP-8/SOIC-8
+D 1W BTL mono audio amplifier with DC volume control, DIP-8/SOIC-8
 K audio amplifier
 F http://www.nxp.com/docs/en/data-sheet/TDA7052A_AT.pdf
 $ENDCMP
 #
 $CMP TDA7264
-D 25 W + 25 W stereo amplifier with mute and standby, TO-220-8
+D 25W + 25W stereo amplifier with mute and standby, TO-220-8
 K audio amplifier 2ch
 F http://www.st.com/resource/en/datasheet/tda7264.pdf
 $ENDCMP
@@ -331,7 +391,7 @@ F http://www.st.com/resource/en/datasheet/tda7269a.pdf
 $ENDCMP
 #
 $CMP TDA7292
-D 40 W + 40 W stereo amplifier with mute and standby, TO-220-11
+D 40W + 40W stereo amplifier with mute and standby, TO-220-11
 K audio amplifier 2ch
 F http://www.st.com/resource/en/datasheet/tda7292.pdf
 $ENDCMP

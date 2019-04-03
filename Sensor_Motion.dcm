@@ -12,10 +12,34 @@ K IMU, Sensor Fusion, I2C, UART
 F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST_BNO055_DS000_14.pdf
 $ENDCMP
 #
+$CMP ICM-20602
+D High performance 6-Axis MEMS motion tracking, SPI/I2C interface, LGA-16
+K accelerometer gyro mems motion 
+F http://www.invensense.com/wp-content/uploads/2016/10/DS-000176-ICM-20602-v1.0.pdf
+$ENDCMP
+#
 $CMP ICM-20948
 D InvenSense 9-Axis Motion Sensor, Accelerometer, Gyroscope, Compass, I2C/SPI, QFN-24
 K mems magnetometer
 F http://www.invensense.com/wp-content/uploads/2016/06/DS-000189-ICM-20948-v1.3.pdf
+$ENDCMP
+#
+$CMP KX022-1020
+D 3-Axis Accelerometer, 2/4/8g range, 256 byte buffer, I2C/SPI interface, LGA-12
+K 3-axis accelerometer spi i2c mems
+F http://kionixfs.kionix.com/en/datasheet/KX022-1020%20Specifications%20Rev%2012.0.pdf
+$ENDCMP
+#
+$CMP KX122-1042
+D 3-Axis Accelerometer, 2/4/8g range, 2048 byte buffer, I2C/SPI interface, LGA-12
+K 3-axis accelerometer spi i2c mems
+F http://kionixfs.kionix.com/en/datasheet/KX112-1042-Specifications-Rev-6.0.pdf
+$ENDCMP
+#
+$CMP KX222-1054
+D 3-Axis Accelerometer, 8/16/32g range, 2048 byte buffer, I2C/SPI interface, LGA-12
+K 3-axis accelerometer spi i2c mems
+F http://kionixfs.kionix.com/en/datasheet/KX222-1054-Specifications-Rev-2.0.pdf
 $ENDCMP
 #
 $CMP L3GD20
@@ -46,6 +70,12 @@ $CMP LIS331HH
 D 3-Axis Accelerometer, 6/12/24g range, 1000Hz, I2C and SPI interface
 K 3-axis accelerometer spi i2c mems
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00250937.pdf
+$ENDCMP
+#
+$CMP LIS3DH
+D 3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface, LGA-16
+K 3-axis accelerometer i2c spi mems
+F https://www.st.com/resource/en/datasheet/cd00274221.pdf
 $ENDCMP
 #
 $CMP LSM303C
