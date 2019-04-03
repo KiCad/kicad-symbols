@@ -1818,4 +1818,10 @@ K xlr connector
 F  ~
 $ENDCMP
 #
+$CMP mikroBUS_socket
+D mikroBUS socket
+K mikrobus mikroe clickboard
+F https://download.mikroe.com/documents/standards/mikrobus/mikrobus-standard-specification-v200.pdf
+$ENDCMP
+#
 #End Doc Library
