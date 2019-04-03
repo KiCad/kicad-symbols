@@ -234,6 +234,30 @@ K Phase Detector
 F https://ww2.minicircuits.com/pdfs/SYPD-52+.pdf
 $ENDCMP
 #
+$CMP Si4460
+D High-Performance, Low-Current Sub-GHz Transceiver, +13dBm, Major bands 142-1050 MHz, QFN-20
+K transceiver sub-ghz radio ism
+F https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf
+$ENDCMP
+#
+$CMP Si4461
+D High-Performance, Low-Current Sub-GHz Transceiver, +16dBm, Major bands 142-1050 MHz, QFN-20
+K transceiver sub-ghz radio ism
+F https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf
+$ENDCMP
+#
+$CMP Si4463
+D High-Performance, Low-Current Sub-GHz Transceiver, +20dBm, Major bands 142-1050 MHz, QFN-20
+K transceiver sub-ghz radio ism
+F https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf
+$ENDCMP
+#
+$CMP Si4464
+D High-Performance, Low-Current Sub-GHz Transceiver, +20dBm, Banded 119-960 MHz, QFN-20
+K transceiver sub-ghz radio ism
+F https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf
+$ENDCMP
+#
 $CMP nRF24L01P
 D nRF24L01+, Ultra low power 2.4GHz RF Transceiver, QFN20 4x4mm
 K Low Power RF Transciever
