@@ -888,6 +888,18 @@ K quad channel power distribution/load switch
 F http://www.ti.com/lit/gpn/tps22993
 $ENDCMP
 #
+$CMP TPS2419D
+D N+1 and ORing Power Rail Controller with Enable, SOIC-8
+K ideal-diode or-ing
+F http://www.ti.com/lit/ds/symlink/tps2419.pdf
+$ENDCMP
+#
+$CMP TPS2419PW
+D N+1 and ORing Power Rail Controller with Enable, TSSOP-8
+K ideal-diode or-ing
+F http://www.ti.com/lit/ds/symlink/tps2419.pdf
+$ENDCMP
+#
 $CMP TPS2592xx
 D 5V/12V eFuse Protection Switch (VSON-10)
 K efuse protection switch
