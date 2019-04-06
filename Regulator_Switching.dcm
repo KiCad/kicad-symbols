@@ -2970,6 +2970,24 @@ K regulator switching adjustable
 F https://www.monolithicpower.com/pub/media/document/m/p/mp171_r1.01.pdf
 $ENDCMP
 #
+$CMP NCP1030DM
+D Low Power PWM Controller with On-Chip Power Switch and Startup Circuits for 48V Telecom Systems
+K SMPS Converter
+F https://www.onsemi.com/pub/Collateral/NCP1030-D.PDF
+$ENDCMP
+#
+$CMP NCP1031DR
+D Low Power PWM Controller with On-Chip Power Switch and Startup Circuits for 48V Telecom Systems
+K SMPS Converter
+F https://www.onsemi.com/pub/Collateral/NCP1030-D.PDF
+$ENDCMP
+#
+$CMP NCP1031MN
+D Low Power PWM Controller with On-Chip Power Switch and Startup Circuits for 48V Telecom Systems
+K SMPS Converter
+F https://www.onsemi.com/pub/Collateral/NCP1030-D.PDF
+$ENDCMP
+#
 $CMP NCP1070P065
 D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 14W/7.75W, 230V/85-265V, 65kHz, 22Ohm Rds(on), 250mA Ipk, DIP-7
 K SMPS Converter
