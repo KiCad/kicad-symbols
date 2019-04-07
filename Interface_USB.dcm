@@ -366,8 +366,8 @@ K USB VCONN PD CC
 F www.ti.com/lit/ds/symlink/tusb322i.pdf
 $ENDCMP
 #
-$CMP TUSB4020BI
-D Two-Port USB 2.0 Hub
+$CMP TUSB4020BIPHP
+D Two-Port USB 2.0 Hub, HTQFP-48
 K USB2.0 hub
 F http://www.ti.com/lit/ds/symlink/tusb4020bi.pdf
 $ENDCMP
