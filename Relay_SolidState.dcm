@@ -360,6 +360,12 @@ K Dual MOSFET Output Photorelay 1-Form-A
 F https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A
 $ENDCMP
 #
+$CMP TLP3123
+D Solid State Relay (Photo MOSFET) 40V, 1A, 0.1Ohm, SO-4
+K MOSFET Output Photorelay 1-Form-A
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=10047&prodName=TLP3123
+$ENDCMP
+#
 $CMP TLP3542
 D Photo MOSFET optically coupled, ON 4A, 50mohm, OFF state 20V, Isolation 2500 VRMS, DIP-5-6
 K photocouplers photorelay solidstate relay normally opened (1-Form-A)

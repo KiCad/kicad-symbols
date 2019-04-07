@@ -2640,6 +2640,18 @@ K step down switch manager I2C telemetry fault current sense
 F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC3886-3886-1.pdf
 $ENDCMP
 #
+$CMP LTC7138
+D 400mA High efficiency 140V step-down converter, MSOP-16(12)
+K buck dc-dc switcher switching
+F https://www.analog.com/media/en/technical-documentation/data-sheets/7138f.pdf
+$ENDCMP
+#
+$CMP LTM8063
+D 40VIN, 2A Silent Switcher µModule Regulator, BGA-28
+K uModule DCDC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
+$ENDCMP
+#
 $CMP MAX15062A
 D 60V, 300mA, synchronous step-down dc-dc converter, 3.3V fixed output voltage, DFN-8
 K step-down dc-dc switching regulator
