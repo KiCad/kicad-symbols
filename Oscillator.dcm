@@ -24,6 +24,12 @@ K Crystal Clock Oscillator
 F https://abracon.com/Oscillators/ASCO.pdf
 $ENDCMP
 #
+$CMP ASDMB-xxxMHz
+D 1.8-3.3V SMD Ultra Miniature Crystal Clock Oscillator, Abracon
+K 1.8-3.3V SMD Ultra Miniature Crystal Clock Oscillator
+F https://abracon.com/Oscillators/ASDMB.pdf
+$ENDCMP
+#
 $CMP ASE-xxxMHz
 D 3.3V CMOS SMD Crystal Clock Oscillator, Abracon
 K 3.3V CMOS SMD Crystal Clock Oscillator
