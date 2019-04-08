@@ -553,21 +553,21 @@ F http://www.infineon.com/dgdl/Infineon-ITS5215L-DS-v01_01-en.pdf?fileId=db3a304
 $ENDCMP
 #
 $CMP LM5050-1
-D high side OR-ing FET controller, 5V to 75V operation, SOT-23-6
+D High side OR-ing FET controller, 5V to 75V operation, SOT-23-6
 K positive high-side or-ing ideal-diode
 F http://www.ti.com/lit/ds/symlink/lm5050-1-q1.pdf
 $ENDCMP
 #
 $CMP LM5050-1-Q1
-D high side OR-ing FET controller, 1V to 75V operation, SOT-23
+D High side OR-ing FET controller, 1V to 75V operation, SOT-23
 K positive high-side or-ing ideal-diode
 F http://www.ti.com/lit/ds/symlink/lm5050-1-q1.pdf
 $ENDCMP
 #
 $CMP LM5050-2
-D high side OR-ing FET controller, 6V to 75V operation, SOT-23-6
+D High side OR-ing FET controller, 5V to 75V operation, SOT-23-6
 K positive high-side or-ing ideal-diode
-F http://www.ti.com/lit/ds/symlink/lm5050-1-q1.pdf
+F http://www.ti.com/lit/ds/symlink/lm5050-2.pdf
 $ENDCMP
 #
 $CMP LM5051
