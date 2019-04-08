@@ -84,9 +84,9 @@ K SAW filter
 F https://global.kyocera.com/prdct/electro/product/pdf/sf14_gnss.pdf
 $ENDCMP
 #
-$CMP SFECF
-D SMD Type Ceramic Filters
-K murata SFECF 10.7MHz ceramic filter
+$CMP SFECF_10M7
+D SMD Type 10.7MHz Ceramic Filter
+K SFECF ceramic
 F https://www.murata.com/en-global/products/filter/cerafil/sfecf
 $ENDCMP
 #
