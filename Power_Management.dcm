@@ -90,6 +90,30 @@ K high side switch
 F https://www.infineon.com/dgdl/auips7091.pdf?fileId=5546d462533600a4015355a7c0d21322
 $ENDCMP
 #
+$CMP AAT4616IGV-1-T1
+D Adjustable Current Limited Load Switch, SOT-23-5
+K Limit USB Active High
+F http://www.skyworksinc.com/uploads/documents/AAT4616_201940E.pdf
+$ENDCMP
+#
+$CMP AAT4616IGV-T1
+D Adjustable Current Limited Load Switch, SOT-23-5
+K Limit USB Active Low
+F http://www.skyworksinc.com/uploads/documents/AAT4616_201940E.pdf
+$ENDCMP
+#
+$CMP AAT4610BIGV-1-T1
+D Current Limited Load Switch, SOT-23-5
+K Limit USB Active High
+F http://www.skyworksinc.com/uploads/documents/201937A.pdf
+$ENDCMP
+#
+$CMP AAT4610BIGV-T1
+D Current Limited Load Switch, SOT-23-5
+K Limit USB Active Low
+F http://www.skyworksinc.com/uploads/documents/201937A.pdf
+$ENDCMP
+#
 $CMP AUIPS7111S
 D Current Sense High Side Switch, 65V, 30A, D2PAK-5L
 K high side switch
@@ -862,6 +886,18 @@ $CMP TPS22993
 D Quad Channel Load Switch with GPIO and I2C Control, Bias voltage: 4.5V-17.2V, Input voltage: 1.0V-3.6V, Max 1.2A per channel, WQFN-20
 K quad channel power distribution/load switch
 F http://www.ti.com/lit/gpn/tps22993
+$ENDCMP
+#
+$CMP TPS2419D
+D N+1 and ORing Power Rail Controller with Enable, SOIC-8
+K ideal-diode or-ing
+F http://www.ti.com/lit/ds/symlink/tps2419.pdf
+$ENDCMP
+#
+$CMP TPS2419PW
+D N+1 and ORing Power Rail Controller with Enable, TSSOP-8
+K ideal-diode or-ing
+F http://www.ti.com/lit/ds/symlink/tps2419.pdf
 $ENDCMP
 #
 $CMP TPS2592xx

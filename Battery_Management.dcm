@@ -6,6 +6,18 @@ K LiFePo4 Battery USB PMIC
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5063.pdf
 $ENDCMP
 #
+$CMP AP9101CK
+D Li+ Battery Protection IC for Single Cell Pack, SOT-23-5
+K battery protection li-ion li-po
+F https://www.diodes.com/assets/Datasheets/AP9101C.pdf
+$ENDCMP
+#
+$CMP AP9101CK6
+D Li+ Battery Protection IC for Single Cell Pack, SOT-23-6
+K battery protection li-ion li-po
+F https://www.diodes.com/assets/Datasheets/AP9101C.pdf
+$ENDCMP
+#
 $CMP AS8506C
 D Stackable cell monitor, cell balancer, 3-7 Cells, SPI Interface
 K battery balance lithium charge afe
@@ -193,25 +205,25 @@ F https://www.analog.com/media/en/technical-documentation/data-sheets/3652fe.pdf
 $ENDCMP
 #
 $CMP LTC3553
-D Micropower USB Power Manager With Li-Ion Charger, LDO and Buck Regulator, 4.2 V float, QFN-20
+D Micropower USB Power Manager With Li-Ion Charger, LDO and Buck Regulator, 4.2V float, QFN-20
 K USB PMIC
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3553fc.pdf
 $ENDCMP
 #
 $CMP LTC3555
-D High Efficiency USB Power Manager + Triple Step-Down DC/DC, 4.2 V float, QFN-28
+D High Efficiency USB Power Manager + Triple Step-Down DC/DC, 4.2V float, QFN-28
 K USB PMIC
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3555fe.pdf
 $ENDCMP
 #
 $CMP LTC3555-1
-D High Efficiency USB Power Manager + Triple Step-Down DC/DC, instant-on power, 4.2 V float, QFN-28
+D High Efficiency USB Power Manager + Triple Step-Down DC/DC, instant-on power, 4.2V float, QFN-28
 K USB PMIC
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3555fe.pdf
 $ENDCMP
 #
 $CMP LTC3555-3
-D High Efficiency USB Power Manager + Triple Step-Down DC/DC, instant-on power, 4.1 V float, QFN-28
+D High Efficiency USB Power Manager + Triple Step-Down DC/DC, instant-on power, 4.1V float, QFN-28
 K USB PMIC
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3555fe.pdf
 $ENDCMP

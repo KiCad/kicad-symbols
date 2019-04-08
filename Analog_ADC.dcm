@@ -60,6 +60,18 @@ K adc cdc capacitance
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7745_7746.pdf
 $ENDCMP
 #
+$CMP AD7794
+D 24-Bit, 6-Channel Sigma-Delta ADC, TSSOP-28
+K adc 6ch 24bit serial
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7794_7795.pdf
+$ENDCMP
+#
+$CMP AD7795
+D 16-Bit, 6-Channel Sigma-Delta ADC, TSSOP-28
+K adc 6ch 16bit serial
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7794_7795.pdf
+$ENDCMP
+#
 $CMP AD7819
 D Analog to Digital 8 bits converter, PDIP/SOIC/TSSOP-16
 K CAD
