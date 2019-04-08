@@ -1656,6 +1656,12 @@ K test point tp
 F ~
 $ENDCMP
 #
+$CMP UEXT
+D Universal EXTension (UEXT) is a connector layout which includes power and three serial buses: Asynchronous, I2C, and SPI.
+K connector, UART, SPI, I2C
+F https://en.wikipedia.org/wiki/UEXT
+$ENDCMP
+#
 $CMP USB3_A
 D USB 3.0 A connector
 K usb universal serial bus
