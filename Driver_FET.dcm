@@ -1,9 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP ACPL-336J
-D 3 Half-Bridge Gate-Drive IC, 200V operation, Output Current 350/650mA, SOIC-20
-K 3 Phase Gate Driver
-F http://www.onsemi.com/pub/Collateral/FAN7888-D.pdf
+D 2.5A Gate Drive Optocoupler with Integrated LED Driver, Active Miller Clamp, DESAT Detection, and Fault & UVLO Status Feedback, SOIC-16
+K Gate Driver IGBT
+F https://docs.broadcom.com/docs/AV02-4391EN
 $ENDCMP
 #
 $CMP ACPL-P343
