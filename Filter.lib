@@ -9,7 +9,7 @@ F1 "0850BM14E0016" 0 250 50 H V C CNN
 F2 "Filter:Filter_Johanson_1.6x0.8mm" 0 -700 50 H I C CNN
 F3 "" -950 600 50 H I C CNN
 $FPLIST
- Filter*Johanson*1.6x0.8mm*
+ Filter_Johanson_1.6x0.8mm
 $ENDFPLIST
 DRAW
 S -300 200 300 -200 0 1 10 f
