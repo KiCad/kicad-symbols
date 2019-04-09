@@ -24,6 +24,24 @@ K SIM Card Level Shifter
 F https://www.onsemi.com/pub/Collateral/NCN4555-D.PDF
 $ENDCMP
 #
+$CMP NLSV2T244D
+D Dual-Bit Dual-Supply Non-Inverting Level Translator, Output Enable, SOIC-8
+K Level-Shifter CMOS-TTL-Translation
+F http://www.onsemi.com/pub/Collateral/NLSV2T244-D.PDF
+$ENDCMP
+#
+$CMP NLSV2T244DM
+D Dual-Bit Dual-Supply Non-Inverting Level Translator, Output Enable, MSOP-8
+K Level-Shifter CMOS-TTL-Translation
+F http://www.onsemi.com/pub/Collateral/NLSV2T244-D.PDF
+$ENDCMP
+#
+$CMP NLSV2T244MU
+D Dual-Bit Dual-Supply Non-Inverting Level Translator, Output Enable, UDFN-8
+K Level-Shifter CMOS-TTL-Translation
+F http://www.onsemi.com/pub/Collateral/NLSV2T244-D.PDF
+$ENDCMP
+#
 $CMP SN74AUP1T34DCK
 D 1-Bit Unidirectional Voltage-Level Translator, SC-70
 K Noninverting
