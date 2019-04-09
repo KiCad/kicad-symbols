@@ -324,7 +324,7 @@ F1 "RV-1805-C3" 300 350 50 H V C CNN
 F2 "Package_SON:RTC_SMD_MicroCrystal_C3_2.5x3.7mm" 1000 -350 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- *MicroCrystal?C3*
+ RTC*SMD*MicroCrystal*C3*2.5x3.7mm*
 $ENDFPLIST
 DRAW
 S 400 300 -400 -300 0 1 10 f
