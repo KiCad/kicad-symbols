@@ -1128,8 +1128,8 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/ne5534.pdf
 $ENDCMP
 #
-$CMP THS3491IDDA
-D 900-MHz, 500-mA High-Power Output Current Feedback Operational Amplifier
+$CMP THS3491xDDA
+D 900-MHz, 500-mA High-Power Output Current Feedback Operational Amplifier, SOIC-8
 K opamp single current feedback wideband
 F http://www.ti.com/lit/ds/symlink/ths3491.pdf
 $ENDCMP
