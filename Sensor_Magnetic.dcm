@@ -84,6 +84,30 @@ K hall switch
 F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
 $ENDCMP
 #
+$CMP A3214ELHLT-T
+D Linear Hall Effect Sensor, SOT-23W
+K hall switch
+F http://www.allegromicro.com/~/media/Files/Datasheets/A3213-4-Datasheet.ashx
+$ENDCMP
+#
+$CMP AH1806-P
+D High Sensitivity Micropower Omnipolar Hall-Effect Switch, SIP-3
+K hall switch
+F https://www.diodes.com/assets/Datasheets/AH1806.pdf
+$ENDCMP
+#
+$CMP AH1806-W
+D High Sensitivity Micropower Omnipolar Hall-Effect Switch, SC-59
+K hall switch
+F https://www.diodes.com/assets/Datasheets/AH1806.pdf
+$ENDCMP
+#
+$CMP AH1806-Z
+D High Sensitivity Micropower Omnipolar Hall-Effect Switch, SOT-553
+K hall switch
+F https://www.diodes.com/assets/Datasheets/AH1806.pdf
+$ENDCMP
+#
 $CMP AK7452
 D Magnetic rotary angle sensor, 14-bit, SPI interface, ABZ, UVW, TSSOP-16
 K sensor magnetic hall position rotation spi
@@ -130,6 +154,18 @@ $CMP DRV5033FAQDBZ
 D Hall effect switch, omnipolar, Bop=3.5mT, Brp=2.0, -40C to +125C
 K hall switch
 F http://www.ti.com/lit/ds/symlink/drv5033.pdf
+$ENDCMP
+#
+$CMP IST8308
+D 3D Magnetometer, High Sensitivity, I2C Interface, LGA-16
+K magnet field sensor compass
+F http://www.isentek.com/en/dlf.php?file=../ISENTEK/(201703-20)IST8308%20Datasheet%20v1.0_brief.pdf
+$ENDCMP
+#
+$CMP IST8310
+D 3D Magnetometer, I2C Interface, LGA-16
+K magnet field sensor compass
+F http://www.isentek.com/en/dlf.php?file=../ISENTEK/(201703-09)IST8310%20Datasheet%20v1.2_brief-105.09.20.pdf
 $ENDCMP
 #
 $CMP MA730

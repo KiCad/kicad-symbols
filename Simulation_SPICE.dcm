@@ -1,0 +1,123 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DIODE
+D Diode, anode on pin 1, for simulation only!
+K simulation
+F ~
+$ENDCMP
+#
+$CMP IAM
+D Current source, AM
+K simulation amplitude modulated
+F ~
+$ENDCMP
+#
+$CMP IDC
+D Current source, DC
+K simulation
+F ~
+$ENDCMP
+#
+$CMP IEXP
+D Current source, exponential
+K simulation
+F ~
+$ENDCMP
+#
+$CMP IPULSE
+D Current source, pulse
+K simulation
+F ~
+$ENDCMP
+#
+$CMP IPWL
+D Current source, piece-wise linear
+K simulation
+F ~
+$ENDCMP
+#
+$CMP ISFFM
+D Current source, single-frequency FM
+K simulation frequency modulated
+F ~
+$ENDCMP
+#
+$CMP ISIN
+D Current source, sinusoidal
+K simulation
+F ~
+$ENDCMP
+#
+$CMP ITRNOISE
+D Current source, transient noise
+K simulation
+F ~
+$ENDCMP
+#
+$CMP ITRRANDOM
+D Current source, random noise
+K simulation
+F ~
+$ENDCMP
+#
+$CMP OPAMP
+D Operational amplifier, single, node sequence=1:+ 2:- 3:OUT 4:V+ 5:V-
+K simulation
+F ~
+$ENDCMP
+#
+$CMP VAM
+D Voltage source, AM
+K simulation amplitude modulated
+F ~
+$ENDCMP
+#
+$CMP VDC
+D Voltage source, DC
+K simulation
+F ~
+$ENDCMP
+#
+$CMP VEXP
+D Voltage source, exponential
+K simulation
+F ~
+$ENDCMP
+#
+$CMP VPULSE
+D Voltage source, pulse
+K simulation
+F ~
+$ENDCMP
+#
+$CMP VPWL
+D Voltage source, piece-wise linear
+K simulation
+F ~
+$ENDCMP
+#
+$CMP VSFFM
+D Voltage source, single-frequency FM
+K simulation frequency modulated
+F ~
+$ENDCMP
+#
+$CMP VSIN
+D Voltage source, sinusoidal
+K simulation
+F ~
+$ENDCMP
+#
+$CMP VTRNOISE
+D Voltage source, transient noise
+K simulation
+F ~
+$ENDCMP
+#
+$CMP VTRRANDOM
+D Voltage source, random noise
+K simulation
+F ~
+$ENDCMP
+#
+#End Doc Library
