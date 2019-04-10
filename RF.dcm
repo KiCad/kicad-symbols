@@ -18,12 +18,6 @@ K Low Power RF Transciever
 F http://www.ti.com/lit/ds/symlink/cc2500.pdf
 $ENDCMP
 #
-$CMP HMC394LP4
-D GaAs HBT Programmable 5-bit Counter, DC - 2.2 GHz, QFN-24-1EP
-K counter prescaler programmable frequency divider
-F https://www.analog.com/media/en/technical-documentation/data-sheets/hmc394.pdf
-$ENDCMP
-#
 $CMP MAADSS0008
 D 0-2GHz, 15dB step attenuator, SOT-23-5
 K RF attenuator
