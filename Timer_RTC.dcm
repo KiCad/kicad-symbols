@@ -120,4 +120,10 @@ K Low Power RTC I2C
 F https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-1805-C3.pdf
 $ENDCMP
 #
+$CMP RV-8523-C3
+D Realtime Clock/Calendar I2C Interface, Low Power, 1.2 V to 5.5 V, MicroCrystal C3
+K Low Power RTC I2C
+F https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-8523-C3.pdf
+$ENDCMP
+#
 #End Doc Library
