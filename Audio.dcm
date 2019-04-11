@@ -102,6 +102,12 @@ K audio codec 2ch 24bit 192kHz
 F https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/CS4245_F3.pdf
 $ENDCMP
 #
+$CMP CS4270
+D 24-Bit, 192-kHz Stereo Audio CODEC, TSSOP-24
+K Audio Codec
+F https://statics.cirrus.com/pubs/proDatasheet/CS4270_F1.pdf
+$ENDCMP
+#
 $CMP CS43L21
 D Low-Power, Stereo Digital-to-Analog Converter, QFN-32
 K audio dac 2ch 24bit 96kHz
