@@ -18,16 +18,16 @@ K Bluetooth BT SPP Module
 F https://www.tme.eu/de/Document/b90358c53cd65c9b10d2914f55812666/btm222_datasheet.pdf
 $ENDCMP
 #
+$CMP E73-2G4M08S1C
+D nRF52840 BLE5 Module
+K BLE5, BLE, nRF52840
+F http://www.ebyte.com/en/pdf-down.aspx?id=627
+$ENDCMP
+#
 $CMP MOD-nRF8001
 D Bluetooth Low Energy module based on nRF8001 chipset
 K Bluetooth Low Energy nRF8001
 F https://www.olimex.com/Products/Modules/RF/MOD-nRF8001/
-$ENDCMP
-#
-$CMP nRF8001
-D BLE LE Connectivity IC, QFN-32
-K BLE, bluetooth
-F https://www.nordicsemi.com/eng/nordic/content_download/2981/38488/file/nRF8001_PS_v1.3.pdf
 $ENDCMP
 #
 $CMP RFD77101
@@ -66,10 +66,10 @@ K BLE bluetooth module low-power
 F http://www.st.com/resource/en/datasheet/spbtle-rf0.pdf
 $ENDCMP
 #
-$CMP E73-2G4M08S1C
-D nRF52840 BLE5 Module
-K BLE5, BLE, nRF52840
-F http://www.ebyte.com/en/pdf-down.aspx?id=627
+$CMP nRF8001
+D BLE LE Connectivity IC, QFN-32
+K BLE, bluetooth
+F https://www.nordicsemi.com/eng/nordic/content_download/2981/38488/file/nRF8001_PS_v1.3.pdf
 $ENDCMP
 #
 #End Doc Library
