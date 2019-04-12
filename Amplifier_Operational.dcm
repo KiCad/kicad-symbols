@@ -1134,6 +1134,12 @@ K quad opamp
 F http://www.ti.com/lit/ds/symlink/opa376.pdf
 $ENDCMP
 #
+$CMP OPA569
+D Rail-to-Rail I/O, 2A, Power Amplifier, SO-20
+K opamp single high current
+F http://www.ti.com/lit/ds/symlink/opa569.pdf
+$ENDCMP
+#
 $CMP OPA842xD
 D 200MHz, Low Distortion, Unity-Gain Stable, Voltage Feedback Operational Amplifier, SOIC-8
 K single opamp
