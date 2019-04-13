@@ -1452,6 +1452,12 @@ K raspberrypi gpio
 F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf
 $ENDCMP
 #
+$CMP Raspberry_Pi_2_3_withRun
+D expansion header for Raspberry Pi 2 & 3 with run header
+K raspberrypi gpio
+F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf
+$ENDCMP
+#
 $CMP SCART-F
 D Prise Peritel
 K connector
