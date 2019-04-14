@@ -96,6 +96,48 @@ K Crystal Clock Oscillator
 F http://www.iqdfrequencyproducts.com/products/details/iqxo-70-11-30.pdf
 $ENDCMP
 #
+$CMP MAX7375AXR105
+D Silicon Clock Oscillator 1MHz, SC-70-3
+K Silicon Clock Oscillator 1MHz 1000kHz
+F https://datasheets.maximintegrated.com/en/ds/MAX7375.pdf
+$ENDCMP
+#
+$CMP MAX7375AXR185
+D Silicon Clock Oscillator 1.84MHz, SC-70-3
+K Silicon Clock Oscillator 1,84MHz 1840kHz
+F https://datasheets.maximintegrated.com/en/ds/MAX7375.pdf
+$ENDCMP
+#
+$CMP MAX7375AXR365
+D Silicon Clock Oscillator 3.58MHz, SC-70-3
+K Silicon Clock Oscillator 3.58MHz 3580kHz
+F https://datasheets.maximintegrated.com/en/ds/MAX7375.pdf
+$ENDCMP
+#
+$CMP MAX7375AXR375
+D Silicon Clock Oscillator 3.69MHz, SC-70-3
+K Silicon Clock Oscillator 3.69MHz 3690kHz
+F https://datasheets.maximintegrated.com/en/ds/MAX7375.pdf
+$ENDCMP
+#
+$CMP MAX7375AXR405
+D Silicon Clock Oscillator 4MHz, SC-70-3
+K Silicon Clock Oscillator 4MHz 4000kHz
+F https://datasheets.maximintegrated.com/en/ds/MAX7375.pdf
+$ENDCMP
+#
+$CMP MAX7375AXR425
+D Silicon Clock Oscillator 4.19MHz, SC-70-3
+K Silicon Clock Oscillator 4.19MHz 4190kHz
+F https://datasheets.maximintegrated.com/en/ds/MAX7375.pdf
+$ENDCMP
+#
+$CMP MAX7375AXR805
+D Silicon Clock Oscillator 8MHz, SC-70-3
+K Silicon Clock Oscillator 8MHz 8000kHz
+F https://datasheets.maximintegrated.com/en/ds/MAX7375.pdf
+$ENDCMP
+#
 $CMP NB3N511
 D 3.3V / 5.0V 14 MHz to 200 MHz PLL Clock Multiplier, SOIC-8
 K oscillator clock multiplier PLL
