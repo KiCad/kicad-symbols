@@ -54,6 +54,66 @@ K digital potentiometer resistor variable
 F https://datasheets.maximintegrated.com/en/ds/MAX5436-MAX5439.pdf
 $ENDCMP
 #
+$CMP MCP4011-xxxxMS
+D Low-Cost 64-Step Volatile Digital Potentiometer
+K Digital Pot Potentiometer Up Down
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21978c.pdf, MSOP-8
+$ENDCMP
+#
+$CMP MCP4011-xxxxSN
+D Low-Cost 64-Step Volatile Digital Potentiometer
+K Digital Pot Potentiometer Up Down
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21978c.pdf, SOIC-8
+$ENDCMP
+#
+$CMP MCP4012-xxxxCH
+D Low-Cost 64-Step Volatile Digital Potentiometer
+K Digital Pot Potentiometer Up Down
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21978c.pdf, SOT-23-6
+$ENDCMP
+#
+$CMP MCP4013-xxxxCH
+D Low-Cost 64-Step Volatile Digital Potentiometer
+K Digital Pot Potentiometer Up Down
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21978c.pdf, SOT-23-6
+$ENDCMP
+#
+$CMP MCP4014-xxxxOT
+D Low-Cost 64-Step Volatile Digital Potentiometer
+K Digital Pot Potentiometer Up Down
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21978c.pdf, SOT-23-5
+$ENDCMP
+#
+$CMP MCP4021-xxxxMS
+D Low-Cost 64-Step Digital Potentiometer with WiperLock™ Technology, MSOP-8
+K Digital Pot Potentiometer Up Down
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21945e.pdf
+$ENDCMP
+#
+$CMP MCP4021-xxxxSN
+D Low-Cost 64-Step Digital Potentiometer with WiperLock™ Technology, SOIC-8
+K Digital Pot Potentiometer Up Down
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21945e.pdf
+$ENDCMP
+#
+$CMP MCP4022-xxxxCH
+D Low-Cost 64-Step Digital Potentiometer with WiperLock™ Technology, SOT-23-6
+K Digital Pot Potentiometer Up Down
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21945e.pdf
+$ENDCMP
+#
+$CMP MCP4023-xxxxCH
+D Low-Cost 64-Step Digital Potentiometer with WiperLock™ Technology, SOT-23-6
+K Digital Pot Potentiometer Up Down
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21945e.pdf
+$ENDCMP
+#
+$CMP MCP4024-xxxxOT
+D Low-Cost 64-Step Digital Potentiometer with WiperLock™ Technology, SOT-23-5
+K Digital Pot Potentiometer Up Down
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21945e.pdf
+$ENDCMP
+#
 $CMP MCP41010
 D Single Digital Potentiometer, SPI interface, 256 taps, 10 kohm
 K R POT

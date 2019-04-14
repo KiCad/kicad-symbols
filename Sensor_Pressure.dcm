@@ -24,12 +24,6 @@ K gage gauge pressure sensor
 F http://www.honeywellscportal.com//index.php?ci_id=138832
 $ENDCMP
 #
-$CMP BMP085
-D 19-Bit Digital Barometer, LCC-8
-K Digital Barometer
-F www.bosch-sensortec.com/content/language1/downloads/BST-BMP085-DS000-06.pdf
-$ENDCMP
-#
 $CMP BMP280
 D Absolute Barometric Pressure Sensor, LGA-8
 K I2C, SPI, pressure, temperature, sensor

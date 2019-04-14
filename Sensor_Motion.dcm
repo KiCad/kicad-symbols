@@ -6,6 +6,12 @@ K 9-axis motion sensor IMU SAMD20 ARM Cortex-M0+
 F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST_BMF055_DS000_01.pdf
 $ENDCMP
 #
+$CMP BNO055
+D Intelligent 9-axis absolute orientation sensor, LGA-28
+K IMU, Sensor Fusion, I2C, UART
+F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST_BNO055_DS000_14.pdf
+$ENDCMP
+#
 $CMP L3GD20
 D [Not recommended for new designs] 16-bit 3 Axis Digital MEMS Gyroscope, LGA-16
 K 3-Axis MEMS Gyroscope
@@ -28,6 +34,12 @@ $CMP LIS331HH
 D 3-Axis Accelerometer, 6/12/24g range, 1000Hz, I2C and SPI interface
 K 3-axis accelerometer spi i2c mems
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00250937.pdf
+$ENDCMP
+#
+$CMP LIS2DE12
+D 3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface
+K 3-axis accelerometer spi mems
+F https://www.st.com/resource/en/datasheet/lis2DE12.pdf
 $ENDCMP
 #
 $CMP LSM303C

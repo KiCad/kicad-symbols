@@ -12,6 +12,18 @@ K Touch QTouch Sensor Key
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9542-AT42-QTouch-BSW-AT42QT1011_Datasheet.pdf
 $ENDCMP
 #
+$CMP CAP1206-x-AIA
+D 6-Channel Capacitive Touch Sensor, DFN-10
+K 6 Channel Capacitive Touch Sensor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00001567B.pdf
+$ENDCMP
+#
+$CMP CAP1206-x-SL
+D 6-Channel Capacitive Touch Sensor, SOIC-14
+K 6 Channel Capacitive Touch Sensor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00001567B.pdf
+$ENDCMP
+#
 $CMP CY8CMBR3002
 D CapSense Controller, 2 Sensors, SOIC-8
 K Touch Sensor 2ch
