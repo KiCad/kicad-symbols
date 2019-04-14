@@ -18,6 +18,12 @@ K single opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ad8001.pdf
 $ENDCMP
 #
+$CMP AD8015
+D Wideband/Differential Output Transimpedance Amplifier, SOIC-8
+K amplifier transimpedance differential optical receiver
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8015.pdf
+$ENDCMP
+#
 $CMP AD8603
 D Precision Micropower, Low Noise CMOS, Rail-to-Rail Input/Output Operational Amplifier, TSOT-23-5
 K single opamp
@@ -1132,6 +1138,12 @@ $CMP OPA4376
 D Quad Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SC-70-5
 K quad opamp
 F http://www.ti.com/lit/ds/symlink/opa376.pdf
+$ENDCMP
+#
+$CMP OPA569
+D Rail-to-Rail I/O, 2A, Power Amplifier, SO-20
+K opamp single high current
+F http://www.ti.com/lit/ds/symlink/opa569.pdf
 $ENDCMP
 #
 $CMP OPA842xD
