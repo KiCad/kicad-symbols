@@ -18,6 +18,12 @@ K single opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ad8001.pdf
 $ENDCMP
 #
+$CMP AD8015
+D Wideband/Differential Output Transimpedance Amplifier, SOIC-8
+K amplifier transimpedance differential optical receiver
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8015.pdf
+$ENDCMP
+#
 $CMP AD8603
 D Precision Micropower, Low Noise CMOS, Rail-to-Rail Input/Output Operational Amplifier, TSOT-23-5
 K single opamp
