@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CH376T
+D File Management USB Flash Card SD Interface, SSOP-20
+K USB Mass-Storage SD Card Interface
+F https://www.mpja.com/download/ch376ds1.pdf
+$ENDCMP
+#
 $CMP 5PB1108PGxx
 D 1:8 LVCMOS High-Performance Clock Buffer, 1.8V to 3.3V, TSSOP-16
 K clock buffer lvcmos
