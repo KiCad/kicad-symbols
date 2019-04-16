@@ -114,6 +114,12 @@ K I2C RTC Clock Calendar
 F https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf
 $ENDCMP
 #
+$CMP PCF8523TS
+D Realtime Clock/Calendar I2C Interface, TSSOP-14
+K I2C RTC Clock Calendar
+F https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf
+$ENDCMP
+#
 $CMP PCF8563T
 D Realtime Clock/Calendar I2C Interface, SOIC-8
 K I2C RTC Clock Calendar
