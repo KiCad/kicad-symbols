@@ -309,6 +309,12 @@ K clock buffer
 F https://www.onsemi.com/pub/Collateral/NB3N551-D.PDF
 $ENDCMP
 #
+$CMP ONET1191P
+D 11.3-Gbps Limiting Amplifier, QFN-16
+K limiting amplifier gigabit ethernet sfp sfp+
+F http://www.ti.com/lit/ds/symlink/onet1191p.pdf
+$ENDCMP
+#
 $CMP PCA9306
 D Dual bidirectional I2C Bus and SMBus voltage level translator
 K Dual bidirectional I2C Bus and SMBus voltage level translator
