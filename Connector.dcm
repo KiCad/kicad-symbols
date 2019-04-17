@@ -1128,6 +1128,11 @@ K LEMO connector
 F  ~
 $ENDCMP
 #
+$CMP M.2_KeyM
+D M.2 (NGFF) Socket 3 (Mechanical Key M)
+K M.2 M2 NGFF PCIe SATA SSD
+$ENDCMP
+#
 $CMP Micro_SD_Card
 D Micro SD Card Socket
 K connector SD microsd
