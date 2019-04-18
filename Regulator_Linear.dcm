@@ -5796,9 +5796,59 @@ K LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv713p.pdf
 $ENDCMP
 #
-$CMP TLV733PDBV
-D Capacitor-Free, 300-mA, Low-Dropout Regulator
-K LDO
+$CMP TLV73310PDBV
+D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 1.0V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive Capacitor-Free
+F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
+$ENDCMP
+#
+$CMP TLV73311PDBV
+D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 1.1V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive Capacitor-Free
+F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
+$ENDCMP
+#
+$CMP TLV73312PDBV
+D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive Capacitor-Free
+F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
+$ENDCMP
+#
+$CMP TLV73315PDBV
+D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 1.5V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive Capacitor-Free
+F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
+$ENDCMP
+#
+$CMP TLV73318PDBV
+D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive Capacitor-Free
+F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
+$ENDCMP
+#
+$CMP TLV73325PDBV
+D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 2.5V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive Capacitor-Free
+F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
+$ENDCMP
+$CMP TLV733285PDBV
+D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 2.85V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive Capacitor-Free
+F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
+$ENDCMP
+$CMP TLV73328PDBV
+D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 2.8V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive Capacitor-Free
+F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
+$ENDCMP
+$CMP TLV73330PDBV
+D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 3.0V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive Capacitor-Free
+F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
+$ENDCMP
+$CMP TLV73333PDBV
+D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive Capacitor-Free
 F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
 $ENDCMP
 #
