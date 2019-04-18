@@ -486,6 +486,12 @@ K 4Ch Quad Digital Isolator 25Mbps
 F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=iso7342fc&fileType=pdf
 $ENDCMP
 #
+$CMP LTV-247
+D DC Quad Optocoupler, Vce 80V, CTR 100-600%, SOP16
+K NPN DC Quad Optocoupler
+F http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF
+$ENDCMP
+#
 $CMP LTV-352T
 D DC Darlington Optocoupler, Vce 300V, CTR 1000%, SO-4
 K NPN Darlington DC Optocoupler
