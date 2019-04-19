@@ -354,6 +354,12 @@ K protection overvoltage unvervoltage monitor
 F http://www.ti.com/lit/ds/symlink/tps3702.pdf
 $ENDCMP
 #
+$CMP TPS3808DBV
+D Low-Quiescent-Current, Programmable-Delay Supervisory Circuit, SOT-23-6
+K supply voltage supervisor
+F http://www.ti.com/lit/ds/symlink/tps3808.pdf
+$ENDCMP
+#
 $CMP TPS3831
 D 150-nA, Ultralow Power, Supply Voltage Monitor, X2SON-4
 K supply voltage supervisor
