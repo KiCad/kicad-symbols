@@ -2430,6 +2430,12 @@ K DC/DC converter CCD Bias Boost
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3472f.pdf
 $ENDCMP
 #
+$CMP LT3514xUFD
+D Triple Step-Down Switching Regulator with 100% Duty Cycle Operation, QFN-28
+K triple step-down
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3514fa.pdf
+$ENDCMP
+#
 $CMP LT3748xMS
 D 100V Isolated Flyback Controller, MSOP-16
 K isolated flyback controller
