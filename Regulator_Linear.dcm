@@ -6548,6 +6548,12 @@ K linear regulator ldo voltage
 F http://www.ti.com/lit/ds/symlink/tps7a7200.pdf
 $ENDCMP
 #
+$CMP TPS7A90
+D 0.5A, High-Accuracy, Low-Noise LDO Voltage Regulator, Texas S-PDSO-N10
+K LDO voltage regulator
+F http://www.ti.com/lit/ds/symlink/tps7a90.pdf
+$ENDCMP
+#
 $CMP TPS7A91
 D 1A, High-Accuracy, Low-Noise LDO Voltage Regulator, Texas S-PDSO-N10
 K LDO voltage regulator
