@@ -6,13 +6,13 @@ K linear regulator ldo adjustable positive
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP3336.pdf
 $ENDCMP
 #
-$CMP ADP7142AUZJ
+$CMP ADP7142AUJZ
 D 40V, 200mA, Low Noise, CMOS LDO Linear Regulator, TSOT-23-5
 K linear regulator ldo adjustable positive
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP7142.pdf
 $ENDCMP
 #
-$CMP ADP7182AUZJ
+$CMP ADP7182AUJZ
 D -28V, -200mA, Low Noise, Linear Regulator, TSOT-23-5
 K linear regulator ldo adjustable negative
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP7182.pdf
@@ -3732,18 +3732,6 @@ K LDO low noise
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf
 $ENDCMP
 #
-$CMP LT3032-3.3
-D 150mA, Dual Low Dropout Linear Regulator, Positive/Negative Low Noise, 3.3V Output, DFN-14
-K LDO low noise
-F https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf
-$ENDCMP
-#
-$CMP LT3032-5
-D 150mA, Dual Low Dropout Linear Regulator, Positive/Negative Low Noise, 5V Output, DFN-14
-K LDO low noise
-F https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf
-$ENDCMP
-#
 $CMP LT3032-12
 D 150mA, Dual Low Dropout Linear Regulator, Positive/Negative Low Noise, 12V Output, DFN-14
 K LDO low noise
@@ -3752,6 +3740,18 @@ $ENDCMP
 #
 $CMP LT3032-15
 D 150mA, Dual Low Dropout Linear Regulator, Positive/Negative Low Noise, 15V Output, DFN-14
+K LDO low noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf
+$ENDCMP
+#
+$CMP LT3032-3.3
+D 150mA, Dual Low Dropout Linear Regulator, Positive/Negative Low Noise, 3.3V Output, DFN-14
+K LDO low noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf
+$ENDCMP
+#
+$CMP LT3032-5
+D 150mA, Dual Low Dropout Linear Regulator, Positive/Negative Low Noise, 5V Output, DFN-14
 K LDO low noise
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf
 $ENDCMP
