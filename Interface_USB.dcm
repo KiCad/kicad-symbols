@@ -300,6 +300,18 @@ K USB UART Converter
 F http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf
 $ENDCMP
 #
+$CMP TPS2500DRC
+D Integrated USB power Switch with Boost Converter, High-Efficiency Eco-mode Control Scheme, Texas S-PVSON-10
+K USB switch boost
+F http://www.ti.com/lit/ds/symlink/tps2500.pdf
+$ENDCMP
+#
+$CMP TPS2501DRC
+D Integrated USB power Switch with Boost Converter, Constant Frequency, Texas S-PVSON-10
+K USB switch boost
+F http://www.ti.com/lit/ds/symlink/tps2500.pdf
+$ENDCMP
+#
 $CMP TPS2513
 D USB Dedicated Charging Port Controller
 K USB Charge
