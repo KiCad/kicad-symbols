@@ -204,6 +204,12 @@ K SMBUS I2C Expander
 F http://www.ti.com/lit/ds/symlink/tca9554.pdf
 $ENDCMP
 #
+$CMP TCA9554DBR
+D 8 Bit Port/Expander, I2C SMBUS, Interrupt output, SSOP-16
+K SMBUS I2C Expander
+F http://www.ti.com/lit/ds/symlink/tca9554.pdf
+$ENDCMP
+#
 $CMP TCA9554PWR
 D 8 Bit Port/Expander, I2C SMBUS, Interrupt output, TSSOP-16
 K SMBUS I2C Expander
