@@ -123,6 +123,12 @@ K Direct Digital Synthesizer DDS
 F https://www.analog.com/static/imported-files/data_sheets/AD9951.pdf
 $ENDCMP
 #
+$CMP AM26LV32xD
+D 32Mbps 3.3V RS485 Quad Line Receivers, SOIC-16
+K receiver rs485 rs422 differential
+F http://www.ti.com/lit/ds/symlink/am26lv32.pdf
+$ENDCMP
+#
 $CMP DS90C124
 D DC-Balanced 24-Bit FPD-Link II Deserializer, TQFP-48
 K DC-Balanced 24-Bit FPD-Link II Deserializer
