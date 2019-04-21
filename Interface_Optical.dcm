@@ -25,15 +25,15 @@ F http://www.onsemi.com/pub/Collateral/QSE159-D.pdf
 $ENDCMP
 #
 $CMP SFP
-D Small Form Factor Pluggable (SFP) module, 1 Gbit/s, serial-to-serial data-agnostic optical transceiver
-K SFP transciever gigabit ethernet
-F INF-8074i, http://www.10gtek.com/templates/wzten/pdf/INF-8074.pdf
+D Connector for Small Form Factor Pluggable (SFP) module, 1 Gbit/s, serial-to-serial data-agnostic optical transceiver
+K SFP transciever gigabit ethernet INF-8074i
+F http://www.10gtek.com/templates/wzten/pdf/INF-8074.pdf
 $ENDCMP
 #
 $CMP SFP+
-D Small Form Factor Pluggable (SFP+) module, 10 Gbit/s, serial-to-serial data-agnostic optical transceiver
-K SFP transciever SFF-8432 gigabit ethernet
-F SFF-8432 https://members.snia.org/document/dl/25892
+D Connector for Small Form Factor Pluggable (SFP+) module, 10 Gbit/s, serial-to-serial data-agnostic optical transceiver
+K SFP transciever SFF-8432 gigabit ethernet SFF-8432
+F https://members.snia.org/document/dl/25892
 $ENDCMP
 #
 $CMP TSDP341xx
