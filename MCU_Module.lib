@@ -1561,7 +1561,7 @@ ENDDEF
 DEF RaspberryPi-template J 0 20 Y Y 1 F N
 F0 "J" -600 1250 50 H V L CNN
 F1 "RaspberryPi-template" 100 -1350 50 H V L CNN
-F2 "" 100 0 50 H I C CNN
+F2 "Module:Raspberry_Pi_xxx_Socketed_THT_FaceDown_MountingHoles" 0 -1800 50 H I C CNN
 F3 "" 100 0 50 H I C CNN
 $FPLIST
  Raspberry*Pi*
