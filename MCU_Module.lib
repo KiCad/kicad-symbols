@@ -1564,7 +1564,7 @@ F1 "RaspberryPi-template" 100 -1350 50 H V L CNN
 F2 "Module:Raspberry_Pi_xxx_Socketed_THT_FaceDown_MountingHoles" 0 -1800 50 H I C CNN
 F3 "" 100 0 50 H I C CNN
 $FPLIST
- Raspberry*Pi*
+ Raspberry*Pi*xxx*
 $ENDFPLIST
 DRAW
 S -600 1200 700 -1300 0 1 10 f
