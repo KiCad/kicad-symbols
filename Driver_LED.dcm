@@ -156,6 +156,12 @@ K Boost Buck Buck-Boost SEPIC Flyback
 F https://www.analog.com/media/en/technical-documentation/data-sheets/37551fd.pdf
 $ENDCMP
 #
+$CMP MPQ2483DQ
+D 55V, 2.5A Programmable Frequency LED Driver, DFN-10
+K LED driver
+F https://www.monolithicpower.com/pub/media/document/MPQ2483_r1.05.pdf
+$ENDCMP
+#
 $CMP PCA9685BS
 D 16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA QFN
 K PWM LED driver I2C QFN

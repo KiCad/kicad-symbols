@@ -1224,6 +1224,12 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/ne5534.pdf
 $ENDCMP
 #
+$CMP THS3491xDDA
+D 900-MHz, 500-mA High-Power Output Current Feedback Operational Amplifier, SOIC-8
+K opamp single current feedback wideband
+F http://www.ti.com/lit/ds/symlink/ths3491.pdf
+$ENDCMP
+#
 $CMP THS4631D
 D Single High-voltage, High Slew Rate, Wideband, FET-input Operational Amplifier, SOIC-8
 K single opamp
@@ -1420,6 +1426,12 @@ $CMP TSV914
 D Quad rail-to-rail input/output 8 MHz operational amplifiers, SOIC-14/TSSOP-14
 K quad opamp
 F www.st.com/resource/en/datasheet/tsv911.pdf
+$ENDCMP
+#
+$CMP TSV994
+D Quad Rail-to-rail, 20 MHz GBP, operational amplifiers, SOIC-14/TSSOP-14
+K quad opamp
+F https://www.st.com/resource/en/datasheet/tsv994.pdf
 $ENDCMP
 #
 #End Doc Library
