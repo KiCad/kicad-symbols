@@ -18,10 +18,22 @@ K counter
 F http://www.ti.com/lit/gpn/sn74469
 $ENDCMP
 #
+$CMP 74AHC244
+D 8-bit Buffer/Line Driver 3-state
+K AHCMOS BUFFER 3State
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT244.pdf
+$ENDCMP
+#
 $CMP 74AHCT123
 D Dual retriggerable monostable multivibrator
 K TTL monostable, multivibrator
 F http://www.ti.com/lit/gpn/sn74ahct123a
+$ENDCMP
+#
+$CMP 74AHCT244
+D 8-bit Buffer/Line Driver 3-state
+K AHCTMOS BUFFER 3State
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT244.pdf
 $ENDCMP
 #
 $CMP 74CBTLV3257
@@ -74,7 +86,7 @@ $ENDCMP
 #
 $CMP 74HC244
 D 8-bit Buffer/Line Driver 3-state
-K TTL BUFFER 3State
+K HCMOS BUFFER 3State
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT244.pdf
 $ENDCMP
 #
@@ -170,7 +182,7 @@ $ENDCMP
 #
 $CMP 74HCT244
 D 8-bit Buffer/Line Driver 3-state
-K TTL BUFFER 3State
+K HCTMOS BUFFER 3State
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT244.pdf
 $ENDCMP
 #
