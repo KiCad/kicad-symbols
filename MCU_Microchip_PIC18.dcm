@@ -487,7 +487,7 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/39762f.pdf
 $ENDCMP
 #
 $CMP PIC18F87K22-xPT
-D 128K Flash, 4K RAM, 1K EEPROM, Microchip PIC18F series enhanced flash microcontroller with nanoWatt XLP Technology in TQFP-80 package
+D PIC18F nanoWatt XLP Technology MCU, 64MHz, 128KB Flash, 4KB RAM, 1KB EEPROM, 1.8-5.5V, 69 GPIO, TQFP-80
 K microcontroller Flash EEPROM SPI I2C UART USART ADC TQFP
 F http://ww1.microchip.com/downloads/en/DeviceDoc/39960d.pdf
 $ENDCMP
