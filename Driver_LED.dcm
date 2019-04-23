@@ -12,7 +12,19 @@ K Constant Current LED Driver IC
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005413A.pdf
 $ENDCMP
 #
-$CMP DIO5661x
+$CMP DIO5661CD6
+D 37V Step-up LED driver with PWM, 2.7-5.5Vin, 1.3A Iout max
+K LED driver single
+F https://www.mouser.com/datasheet/2/802/dioo_06292016_DIO5661V0%204-1217651.pdf
+$ENDCMP
+#
+$CMP DIO5661ST6
+D 37V Step-up LED driver with PWM, 2.7-5.5Vin, 1.3A Iout max
+K LED driver single
+F https://www.mouser.com/datasheet/2/802/dioo_06292016_DIO5661V0%204-1217651.pdf
+$ENDCMP
+#
+$CMP DIO5661TST6
 D 37V Step-up LED driver with PWM, 2.7-5.5Vin, 1.3A Iout max
 K LED driver single
 F https://www.mouser.com/datasheet/2/802/dioo_06292016_DIO5661V0%204-1217651.pdf
