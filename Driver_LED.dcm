@@ -12,6 +12,24 @@ K Constant Current LED Driver IC
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005413A.pdf
 $ENDCMP
 #
+$CMP DIO5661CD6
+D 37V Step-up LED driver with PWM, 2.7-5.5Vin, 1.3A Iout max, DFN-6
+K LED driver single
+F http://www.dioo.com/uploads/product/20190311/e6c7f30c0fbe92fbfa6965c8ef1c5b19.pdf
+$ENDCMP
+#
+$CMP DIO5661ST6
+D 37V Step-up LED driver with PWM, 2.7-5.5Vin, 1.3A Iout max, SOT23-6
+K LED driver single
+F http://www.dioo.com/uploads/product/20190311/e6c7f30c0fbe92fbfa6965c8ef1c5b19.pdf
+$ENDCMP
+#
+$CMP DIO5661TST6
+D 37V Step-up LED driver with PWM, 2.7-5.5Vin, 1.3A Iout max, TSOT23-6
+K LED driver single
+F http://www.dioo.com/uploads/product/20190311/e6c7f30c0fbe92fbfa6965c8ef1c5b19.pdf
+$ENDCMP
+#
 $CMP HT1632C-52LQFP
 D LED Matrix Driver, 32×8 or 24×16, 52-LQFP
 K LED Matrix Driver
