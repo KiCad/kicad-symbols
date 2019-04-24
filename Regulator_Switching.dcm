@@ -5130,6 +5130,12 @@ K boost step-up DC/DC synchronous
 F http://www.ti.com/lit/ds/symlink/tps61200.pdf
 $ENDCMP
 #
+$CMP TPS61220
+D 400 mA Step-Up Converter, Adjustable Output Voltage, 0.7-5.5V Input Voltage, SC-70
+K Boost adjustable converter
+F http://www.ti.com/lit/ds/symlink/tps61220.pdf
+$ENDCMP
+#
 $CMP TPS62125DSG
 D 300mA Step-Down Converter with Enable Threshold and Hysteresis, adjustable output, 3-17V input voltage, WSON-8
 K step-down dc-dc buck regulator
