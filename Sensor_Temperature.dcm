@@ -398,13 +398,13 @@ $ENDCMP
 #
 $CMP PCT2075D
 D NXP I2C-bus Fm+ digital temperature sensor and thermal watchdog, SO-8
-K single channel
+K temperature sensor I2C single channel
 F https://www.nxp.com/docs/en/data-sheet/PCT2075.pdf
 $ENDCMP
 #
 $CMP PCT2075DP
 D NXP I2C-bus Fm+ digital temperature sensor and thermal watchdog, TSSOP-8
-K single channel
+K temperature sensor I2C single channel
 F https://www.nxp.com/docs/en/data-sheet/PCT2075.pdf
 $ENDCMP
 #
