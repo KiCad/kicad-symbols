@@ -132,6 +132,30 @@ K R POT
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
 $ENDCMP
 #
+$CMP MCP41HV31-MQ
+D 7-bit single +36V (+/-18V) digital pot, SPI serial interface, volatile memory, QFN-20
+K SPI Potentiometer pot digital
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005207B.pdf
+$ENDCMP
+#
+$CMP MCP41HV31-ST
+D 7-bit single +36V (+/-18V) digital pot, I2C serial interface, volatile memory, TSSOP-14
+K SPI Potentiometer pot digital
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005207B.pdf
+$ENDCMP
+#
+$CMP MCP41HV51-MQ
+D 8-bit single +36V (+/-18V) digital pot, SPI serial interface, volatile memory, QFN-20
+K SPI Potentiometer pot digital
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005207B.pdf
+$ENDCMP
+#
+$CMP MCP41HV51-ST
+D 8-bit single +36V (+/-18V) digital pot, SPI serial interface, volatile memory, TSSOP-14
+K SPI Potentiometer pot digital
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005207B.pdf
+$ENDCMP
+#
 $CMP MCP42010
 D Dual Digital Potentiometer, SPI interface, 256 taps, 10 kohm
 K R POT
