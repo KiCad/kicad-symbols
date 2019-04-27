@@ -1068,6 +1068,12 @@ K FLASH-Based 8-Bit CMOS Microcontroller XLP
 F http://ww1.microchip.com/downloads/en/DeviceDoc/40001637C.pdf
 $ENDCMP
 #
+$CMP PIC16LF1823-ISL
+D Flash-Based, 8-Bit CMOS Microcontrollers, SOIC
+K Flash-Based 8-Bit CMOS Microcontroller Low Power
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001413E.pdf
+$ENDCMP
+#
 $CMP PIC16LF18325-ISL
 D PIC16LF18325, 8192W FLASH, 1024B SRAM, SOIC14
 K FLASH-Based 8-Bit CMOS Microcontroller Low Power
