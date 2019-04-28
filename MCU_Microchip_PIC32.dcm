@@ -72,25 +72,13 @@ K Microchip PIC32 Microcontroller MIPS
 F http://ww1.microchip.com/downloads/en/DeviceDoc/61156G.pdf
 $ENDCMP
 #
-$CMP PIC32MX795F512L_80I_PF
+$CMP PIC32MX795F512L_80_PF
 D 32-bit Microcontrollers (512KB + 12KB Boot Flash and 128KB SRAM (TQFP-100 package) USB, CAN and Ethernet
 K Microchip PIC32 Microcontroller MIPS
 F http://ww1.microchip.com/downloads/en/DeviceDoc/60001156J.pdf
 $ENDCMP
 #
-$CMP PIC32MX795F512L_80I_PT
-D 32-bit Microcontrollers (512KB + 12KB Boot Flash and 128KB SRAM (TQFP-100 package) USB, CAN and Ethernet
-K Microchip PIC32 Microcontroller MIPS
-F http://ww1.microchip.com/downloads/en/DeviceDoc/60001156J.pdf
-$ENDCMP
-#
-$CMP PIC32MX795F512L_80V_PF
-D 32-bit Microcontrollers (512KB + 12KB Boot Flash and 128KB SRAM (TQFP-100 package) USB, CAN and Ethernet
-K Microchip PIC32 Microcontroller MIPS
-F http://ww1.microchip.com/downloads/en/DeviceDoc/60001156J.pdf
-$ENDCMP
-#
-$CMP PIC32MX795F512L_80V_PT
+$CMP PIC32MX795F512L_80_PT
 D 32-bit Microcontrollers (512KB + 12KB Boot Flash and 128KB SRAM (TQFP-100 package) USB, CAN and Ethernet
 K Microchip PIC32 Microcontroller MIPS
 F http://ww1.microchip.com/downloads/en/DeviceDoc/60001156J.pdf
