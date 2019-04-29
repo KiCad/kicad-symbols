@@ -228,6 +228,12 @@ K Shift Register LED driver 16 bit
 F https://www.st.com/resource/en/datasheet/stp16cp05.pdf
 $ENDCMP
 #
+$CMP TLC59108xPW
+D 8-Channel, 8-Bit Fm+ I2C-Bus Constant-Current LED Sink Driver, TSSOP-20
+K LED current driver
+F https://www.ti.com/lit/ds/symlink/tlc59108.pdf
+$ENDCMP
+#
 $CMP TLC5940NT
 D 16-Channel LED Driver With DOT Correction and Grayscale PWM Control, DIP package
 K PWM LED driver
