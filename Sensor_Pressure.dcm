@@ -42,6 +42,12 @@ K spi barometer thermometer mems
 F http://www.nxp.com/assets/documents/data/en/data-sheets/MPL115A1.pdf
 $ENDCMP
 #
+$CMP MPL3115A2
+D I2C Digital Barometer
+K i2c barometer thermometer mems
+F https://www.nxp.com/docs/en/data-sheet/MPL3115A2.pdf
+$ENDCMP
+#
 $CMP MPXA6115A
 D Absolute pressure sensor, 15 to 115kPa, analog output, integrated signal conditioning, temperature compensated, SO package
 K absolute pressure sensor
