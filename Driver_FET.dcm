@@ -840,6 +840,18 @@ K mosfet driver
 F http://www.st.com/resource/en/datasheet/pm8834.pdf
 $ENDCMP
 #
+$CMP TC4421
+D 9A High-Speed inverting MOSFET Driver
+K MOSFET IGBT driver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001420F.pdf
+$ENDCMP
+#
+$CMP TC4422
+D 9A High-Speed non-inverting MOSFET Driver
+K MOSFET IGBT driver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001420F.pdf
+$ENDCMP
+#
 $CMP TLP250
 D Gate Drive Optocoupler, Output Current 1.5/1.5A, DIP-8
 K MOSFET Driver IGBT Driver Optocoupler
