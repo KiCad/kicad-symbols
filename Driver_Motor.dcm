@@ -300,6 +300,12 @@ K trinamic tlc262 stepper
 F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC262_Datasheet.pdf
 $ENDCMP
 #
+$CMP TMC5130-TA
+D Standalone driver for two-phase bipolar stepper motor, 2.0A, 4.75-46V, TQFP-48
+K Standalone driver stepper motor
+F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2100_datasheet_Rev1.08.pdf
+$ENDCMP
+#
 $CMP VNH2SP30
 D Full Bridge Motor Driver, 41V, 30A, -40 to 150C
 K full-bridge h-bridge
