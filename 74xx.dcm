@@ -24,6 +24,12 @@ K AHCMOS BUFFER 3State
 F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT244.pdf
 $ENDCMP
 #
+$CMP 74AHC374
+D 8-bit Register, 3-state outputs
+K AHCMOS DFF DFF8 REG 3State
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT374.pdf
+$ENDCMP
+#
 $CMP 74AHCT123
 D Dual retriggerable monostable multivibrator
 K TTL monostable, multivibrator
@@ -34,6 +40,12 @@ $CMP 74AHCT244
 D 8-bit Buffer/Line Driver 3-state
 K AHCTMOS BUFFER 3State
 F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT244.pdf
+$ENDCMP
+#
+$CMP 74AHCT374
+D 8-bit Register, 3-state outputs
+K AHCTMOS DFF DFF8 REG 3State
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT374.pdf
 $ENDCMP
 #
 $CMP 74CBTLV3257
@@ -94,6 +106,12 @@ $CMP 74HC245
 D Octal BUS Transceivers, 3-State outputs
 K HCMOS BUS 3State
 F http://www.ti.com/lit/gpn/sn74HC245
+$ENDCMP
+#
+$CMP 74HC374
+D 8-bit Register, 3-state outputs
+K HCMOS DFF DFF8 REG 3State
+F https://www.ti.com/lit/ds/symlink/cd74hct374.pdf
 $ENDCMP
 #
 $CMP 74HC4024
@@ -184,6 +202,12 @@ $CMP 74HCT244
 D 8-bit Buffer/Line Driver 3-state
 K HCTMOS BUFFER 3State
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT244.pdf
+$ENDCMP
+#
+$CMP 74HCT374
+D 8-bit Register, 3-state outputs
+K HCTMOS DFF DFF8 REG 3State
+F https://www.ti.com/lit/ds/symlink/cd74hct374.pdf
 $ENDCMP
 #
 $CMP 74HCT4051
