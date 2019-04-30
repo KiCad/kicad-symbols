@@ -1584,6 +1584,18 @@ K zener diode
 F https://diotec.com/tl_files/diotec/files/pdf/datasheets/smz1.pdf
 $ENDCMP
 #
+$CMP STTH212S
+D 1200V 2A High Voltage Ultrafast Diode, SMC
+K diode
+F https://www.st.com/resource/en/datasheet/stth212.pdf
+$ENDCMP
+#
+$CMP STTH212U
+D 1200V 2A High Voltage Ultrafast Diode, SMB
+K diode
+F https://www.st.com/resource/en/datasheet/stth212.pdf
+$ENDCMP
+#
 $CMP Toshiba_HN1D01FU
 D Ultra High Speed Switching Diode Array 2 pair Com A
 K diode
