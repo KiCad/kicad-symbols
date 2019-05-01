@@ -36,6 +36,18 @@ K common mode filter ESD protection
 F https://assets.nexperia.com/documents/data-sheet/IP3319CX6.pdf
 $ENDCMP
 #
+$CMP NUF2030XV6
+D USB upstream terminator with ESD protection, 22R series resistor, 30pF line capacitance
+K usb protection esd voltage filter
+F https://www.onsemi.com/pub/Collateral/NUF2030XV6-D.PDF
+$ENDCMP
+#
+$CMP NUF2042XV6
+D USB upstream terminator with ESD protection, 22R series resistor, 42pF line capacitance
+K usb protection esd voltage filter
+F https://www.onsemi.com/pub/Collateral/NUF2030XV6-D.PDF
+$ENDCMP
+#
 $CMP NUP2105L
 D Dual Line CAN Bus Protector, 24Vrwm
 K can esd protection suppression transient
