@@ -79,6 +79,7 @@
   (lib (name LED)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/LED.lib)(options "")(descr "Light Emitting Diode (LED) symbols"))
   (lib (name Logic_LevelTranslator)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Logic_LevelTranslator.lib)(options "")(descr "Logic level translators and level shifters"))
   (lib (name Logic_Programmable)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Logic_Programmable.lib)(options "")(descr "Programmable logic symbols"))
+  (lib (name Memory_Controller)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Memory_Controller.lib)(options "")(descr "Memory controller devices"))
   (lib (name Memory_EPROM)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Memory_EPROM.lib)(options "")(descr "EPROM memory"))
   (lib (name Memory_EEPROM)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Memory_EEPROM.lib)(options "")(descr "EEPROM memory"))
   (lib (name Memory_Flash)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Memory_Flash.lib)(options "")(descr "Flash memory"))
