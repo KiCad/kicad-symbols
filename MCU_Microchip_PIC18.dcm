@@ -486,6 +486,12 @@ K Flash Based 8-Bit Microcontroller Ethernet Controller PHY
 F http://ww1.microchip.com/downloads/en/DeviceDoc/39762f.pdf
 $ENDCMP
 #
+$CMP PIC18F87K22-xPT
+D PIC18F nanoWatt XLP Technology MCU, 64MHz, 128KB Flash, 4KB RAM, 1KB EEPROM, 1.8-5.5V, 69 GPIO, TQFP-80
+K Flash Based 8-Bit Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/39960d.pdf
+$ENDCMP
+#
 $CMP PIC18F96J60-IPF
 D 64K Flash, 3.7K SRAM, Ethernet Controller with PHY, 8K Buffer, TQFP100 (14x14mm)
 K Flash Based 8-Bit Microcontroller Ethernet Controller PHY
