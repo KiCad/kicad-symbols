@@ -1182,6 +1182,114 @@ K diode Schottky
 F https://www.microsemi.com/document-portal/doc_download/8865-lds-0040-datasheet
 $ENDCMP
 #
+$CMP DZ2S030X0L
+D 150mW Silicon Planar Zener Diode, 3.0V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S03000L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S033X0L
+D 150mW Silicon Planar Zener Diode, 3.3V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S03300L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S036X0L
+D 150mW Silicon Planar Zener Diode, 3.6V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S03600L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S039X0L
+D 150mW Silicon Planar Zener Diode, 3.9V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S03900L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S047X0L
+D 150mW Silicon Planar Zener Diode, 4.7V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S04700L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S051X0L
+D 150mW Silicon Planar Zener Diode, 5.1V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S05100L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S056X0L
+D 150mW Silicon Planar Zener Diode, 5.6V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S05600L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S068X0L
+D 150mW Silicon Planar Zener Diode, 6.8V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S06800L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S082X0L
+D 150mW Silicon Planar Zener Diode, 8.2V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S08200L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S100X0L
+D 150mW Silicon Planar Zener Diode, 10V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S10000L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S110X0L
+D 150mW Silicon Planar Zener Diode, 11V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S11000L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S120X0L
+D 150mW Silicon Planar Zener Diode, 12V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S12000L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S130X0L
+D 150mW Silicon Planar Zener Diode, 13V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S13000L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S150X0L
+D 150mW Silicon Planar Zener Diode, 15V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S15000L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S160X0L
+D 150mW Silicon Planar Zener Diode, 16V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S16000L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S180X0L
+D 150mW Silicon Planar Zener Diode, 18V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S18000L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S200X0L
+D 150mW Silicon Planar Zener Diode, 20V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S20000L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S360X0L
+D 150mW Silicon Planar Zener Diode, 36V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S36000L_E.pdf
+$ENDCMP
+#
 $CMP HN2D02FU
 D Ultra high speed switching diode array 3 independent
 K diode
@@ -1440,6 +1548,12 @@ K diode
 F http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF
 $ENDCMP
 #
+$CMP NSR0340HT1G
+D 40V 0.25A Schottky Diode, SOD-323
+K diode Schottky
+F https://www.onsemi.com/pub/Collateral/NSR0340H-D.PDF
+$ENDCMP
+#
 $CMP PMEG6010CEH
 D 60V 1A very low Vf MEGA Schottky barrier rectifier, SOD-123
 K diode Schottky
@@ -1582,6 +1696,18 @@ $CMP SMZxxx
 D 2000mW Zener Diode, MELF
 K zener diode
 F https://diotec.com/tl_files/diotec/files/pdf/datasheets/smz1.pdf
+$ENDCMP
+#
+$CMP STTH212S
+D 1200V 2A High Voltage Ultrafast Diode, SMC
+K diode
+F https://www.st.com/resource/en/datasheet/stth212.pdf
+$ENDCMP
+#
+$CMP STTH212U
+D 1200V 2A High Voltage Ultrafast Diode, SMB
+K diode
+F https://www.st.com/resource/en/datasheet/stth212.pdf
 $ENDCMP
 #
 $CMP Toshiba_HN1D01FU
