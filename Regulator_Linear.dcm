@@ -3786,6 +3786,12 @@ K Adjustable 1.1A Low Dropout Regulator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3080fc.pdf
 $ENDCMP
 #
+$CMP MAX1615
+D High Voltage, Low Power Linear Regulator for Notebook PCs
+K Linear Voltage Regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX1615-MAX1616.pdf
+$ENDCMP
+#
 $CMP MAX1658ESA
 D 350mA Linear LDO Regulator, Fixed Output 3.3V, SO-8
 K Linear LDO Regulator 350mA 3.3V
@@ -5849,21 +5855,25 @@ D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 2.5V, SOT-23-
 K 300mA LDO Regulator Fixed Positive Capacitor-Free
 F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
 $ENDCMP
+#
 $CMP TLV733285PDBV
 D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 2.85V, SOT-23-5
 K 300mA LDO Regulator Fixed Positive Capacitor-Free
 F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
 $ENDCMP
+#
 $CMP TLV73328PDBV
 D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 2.8V, SOT-23-5
 K 300mA LDO Regulator Fixed Positive Capacitor-Free
 F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
 $ENDCMP
+#
 $CMP TLV73330PDBV
 D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 3.0V, SOT-23-5
 K 300mA LDO Regulator Fixed Positive Capacitor-Free
 F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
 $ENDCMP
+#
 $CMP TLV73333PDBV
 D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5
 K 300mA LDO Regulator Fixed Positive Capacitor-Free
