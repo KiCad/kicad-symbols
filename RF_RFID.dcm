@@ -1,20 +1,38 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP AS3956-ATDx-I3
-D NFC Forum Compliant Dynamic Tag
-K nfc rfid
+D NFC Forum Compliant Dynamic Tag, I²C - Internal pull-up disabled, DFN-10
+K nfc i2c
 F https://ams.com/documents/20143/36005/AS3956_DS000546_7-00.pdf
 $ENDCMP
 #
 $CMP AS3956-ATDx-I4
-D NFC Forum Compliant Dynamic Tag
-K nfc rfid
+D NFC Forum Compliant Dynamic Tag, I²C - Internal pull-up enabled, DFN-10
+K nfc i2c
 F https://ams.com/documents/20143/36005/AS3956_DS000546_7-00.pdf
 $ENDCMP
 #
 $CMP AS3956-ATDx-S4
-D NFC Forum Compliant Dynamic Tag
-K nfc rfid
+D NFC Forum Compliant Dynamic Tag, SPI - Pull-down disabled, DFN-10
+K nfc spi
+F https://ams.com/documents/20143/36005/AS3956_DS000546_7-00.pdf
+$ENDCMP
+#
+$CMP AS3956-ATWx-I3
+D NFC Forum Compliant Dynamic Tag, I²C - Internal pull-up disabled, BGA-12
+K nfc i2c
+F https://ams.com/documents/20143/36005/AS3956_DS000546_7-00.pdf
+$ENDCMP
+#
+$CMP AS3956-ATWx-I4
+D NFC Forum Compliant Dynamic Tag, I²C - Internal pull-up enabled, BGA-12
+K nfc i2c
+F https://ams.com/documents/20143/36005/AS3956_DS000546_7-00.pdf
+$ENDCMP
+#
+$CMP AS3956-ATWx-S4
+D NFC Forum Compliant Dynamic Tag, SPI - Pull-down disabled, BGA-12
+K nfc spi
 F https://ams.com/documents/20143/36005/AS3956_DS000546_7-00.pdf
 $ENDCMP
 #
