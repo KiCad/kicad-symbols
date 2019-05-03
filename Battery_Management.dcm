@@ -492,8 +492,20 @@ K li-ion li-polymer lithium lipo battery charge management contoller
 F https://ww1.microchip.com/downloads/en/DeviceDoc/22005a.pdf
 $ENDCMP
 #
+$CMP MCP73833-xxxMF
+D Stand-Alone Linear Li-Ion / Li-Polymer Charge Management Controller with Power Good Indication, DFN-10
+K li-ion li-polymer lithium lipo battery charge management contoller
+F https://ww1.microchip.com/downloads/en/DeviceDoc/22005a.pdf
+$ENDCMP
+#
 $CMP MCP73834
 D Stand-Alone Linear Li-Ion / Li-Polymer Charge Management Controller with Timer Enable Input
+K li-ion li-polymer lithium lipo battery charge management contoller
+F https://ww1.microchip.com/downloads/en/DeviceDoc/22005a.pdf
+$ENDCMP
+#
+$CMP MCP73834-xxxMF
+D Stand-Alone Linear Li-Ion / Li-Polymer Charge Management Controller with Timer Enable Input, DFN-10
 K li-ion li-polymer lithium lipo battery charge management contoller
 F https://ww1.microchip.com/downloads/en/DeviceDoc/22005a.pdf
 $ENDCMP
