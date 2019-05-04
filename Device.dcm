@@ -924,18 +924,6 @@ K LED RGB diode
 F ~
 $ENDCMP
 #
-$CMP LED_RGBA
-D RGB LED, red/green/blue/anode
-K LED RGB diode
-F ~
-$ENDCMP
-#
-$CMP LED_RGBC
-D RGB LED, red/green/blue/cathode
-K LED RGB diode
-F ~
-$ENDCMP
-#
 $CMP LED_RGB_EP
 D RGB LED, 6 pin package with exposed pad
 K LED RGB diode
@@ -2054,6 +2042,12 @@ $ENDCMP
 #
 $CMP R_POT_Dual_Separate
 D Dual potentiometer, separate units
+K resistor variable
+F ~
+$ENDCMP
+#
+$CMP R_POT_Small
+D Potentiometer
 K resistor variable
 F ~
 $ENDCMP
