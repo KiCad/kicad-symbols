@@ -18,6 +18,12 @@ K counter
 F http://www.ti.com/lit/gpn/sn74469
 $ENDCMP
 #
+$CMP 74AHC04
+D Hex Inverter
+K AHCMOS not inv
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf
+$ENDCMP
+#
 $CMP 74AHC244
 D 8-bit Buffer/Line Driver 3-state
 K AHCMOS BUFFER 3State
@@ -28,6 +34,12 @@ $CMP 74AHC374
 D 8-bit Register, 3-state outputs
 K AHCMOS DFF DFF8 REG 3State
 F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT374.pdf
+$ENDCMP
+#
+$CMP 74AHCT04
+D Hex Inverter
+K AHCTMOS not inv
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf
 $ENDCMP
 #
 $CMP 74AHCT123
@@ -73,8 +85,8 @@ F http://www.ti.com/lit/gpn/sn74hc02
 $ENDCMP
 #
 $CMP 74HC04
-D hex inverter
-K HCMOS not inverter
+D Hex Inverter
+K HCMOS not inv
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf
 $ENDCMP
 #
@@ -181,8 +193,8 @@ F http://www.ti.com/lit/gpn/sn74hct02
 $ENDCMP
 #
 $CMP 74HCT04
-D hex inverter
-K HCTMOS not inverter
+D Hex Inverter
+K HCTMOS not inv
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf
 $ENDCMP
 #
