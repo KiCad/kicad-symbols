@@ -24,6 +24,12 @@ K AHCMOS BUFFER 3State
 F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT244.pdf
 $ENDCMP
 #
+$CMP 74AHC273
+D 8-bit D Flip-Flop, reset
+K AHCMOS DFF DFF8
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT273.pdf
+$ENDCMP
+#
 $CMP 74AHC374
 D 8-bit Register, 3-state outputs
 K AHCMOS DFF DFF8 REG 3State
@@ -40,6 +46,12 @@ $CMP 74AHCT244
 D 8-bit Buffer/Line Driver 3-state
 K AHCTMOS BUFFER 3State
 F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT244.pdf
+$ENDCMP
+#
+$CMP 74AHCT273
+D 8-bit D Flip-Flop, reset
+K AHCTMOS DFF DFF8
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT273.pdf
 $ENDCMP
 #
 $CMP 74AHCT374
@@ -106,6 +118,12 @@ $CMP 74HC245
 D Octal BUS Transceivers, 3-State outputs
 K HCMOS BUS 3State
 F http://www.ti.com/lit/gpn/sn74HC245
+$ENDCMP
+#
+$CMP 74HC273
+D 8-bit D Flip-Flop, reset
+K HCMOS DFF DFF8
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT273.pdf
 $ENDCMP
 #
 $CMP 74HC374
@@ -202,6 +220,12 @@ $CMP 74HCT244
 D 8-bit Buffer/Line Driver 3-state
 K HCTMOS BUFFER 3State
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT244.pdf
+$ENDCMP
+#
+$CMP 74HCT273
+D 8-bit D Flip-Flop, reset
+K HCTMOS DFF DFF8
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT273.pdf
 $ENDCMP
 #
 $CMP 74HCT374
