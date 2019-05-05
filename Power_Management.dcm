@@ -1,5 +1,29 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AAT4610BIGV-1-T1
+D Current Limited Load Switch, SOT-23-5
+K Limit USB Active High
+F http://www.skyworksinc.com/uploads/documents/201937A.pdf
+$ENDCMP
+#
+$CMP AAT4610BIGV-T1
+D Current Limited Load Switch, SOT-23-5
+K Limit USB Active Low
+F http://www.skyworksinc.com/uploads/documents/201937A.pdf
+$ENDCMP
+#
+$CMP AAT4616IGV-1-T1
+D Adjustable Current Limited Load Switch, SOT-23-5
+K Limit USB Active High
+F http://www.skyworksinc.com/uploads/documents/AAT4616_201940E.pdf
+$ENDCMP
+#
+$CMP AAT4616IGV-T1
+D Adjustable Current Limited Load Switch, SOT-23-5
+K Limit USB Active Low
+F http://www.skyworksinc.com/uploads/documents/AAT4616_201940E.pdf
+$ENDCMP
+#
 $CMP AUIPS1041R
 D Intelligent Power Low Side Switch, 39V, 4.5A, DPAK-5L
 K low side switch
@@ -178,6 +202,54 @@ $CMP AUIR33402S
 D Protected High Side Switch, 18V, 33A, D2PAK-7L
 K high side switch
 F https://www.infineon.com/dgdl/auir33402s.pdf?fileId=5546d462533600a4015355a88074135c
+$ENDCMP
+#
+$CMP BD48ExxG
+D Standard CMOS Voltage Detector IC, Open Drain Output, SSOP5
+K voltage detector open drain SSOP5
+F https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e
+$ENDCMP
+#
+$CMP BD48KxxG
+D Standard CMOS Voltage Detector IC, Open Drain Output, SSOP3(1pin GND) 
+K voltage detector open drain SSOP3
+F https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e
+$ENDCMP
+#
+$CMP BD48LxxG
+D Standard CMOS Voltage Detector IC, Open Drain Output, SSOP3(3pin GND) 
+K voltage detector open drain SSOP3
+F https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e
+$ENDCMP
+#
+$CMP BD48xxFVE
+D Standard CMOS Voltage Detector IC, Open Drain Output, VSOF5
+K voltage detector open drain VSOF5
+F https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e
+$ENDCMP
+#
+$CMP BD49ExxG
+D Standard CMOS Voltage Detector IC, CMOS Output, SSOP5
+K voltage detector cmos SSOP5
+F https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e
+$ENDCMP
+#
+$CMP BD49KxxG
+D Standard CMOS Voltage Detector IC, CMOS Output, SSOP3(1pin GND) 
+K voltage detector cmos SSOP3
+F https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e
+$ENDCMP
+#
+$CMP BD49LxxG
+D Standard CMOS Voltage Detector IC, CMOS Output, SSOP3(3pin GND) 
+K voltage detector cmos SSOP3
+F https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e
+$ENDCMP
+#
+$CMP BD49xxFVE
+D Standard CMOS Voltage Detector IC, CMOS Output, VSOF5
+K voltage detector cmos VSOF5
+F https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e
 $ENDCMP
 #
 $CMP BTN8982TA
@@ -798,6 +870,18 @@ K power distribution switch
 F https://www.richtek.com/assets/product_file/RT9701/DS9701-16.pdf
 $ENDCMP
 #
+$CMP SN6505ADBV
+D Low Noise, 1A, Transformer Drivers for Isolated Power Supplies, 160 kHz, SOT-23-6
+K Transformer Drivers
+F http://www.ti.com/lit/ds/symlink/sn6505b.pdf
+$ENDCMP
+#
+$CMP SN6505BDBV
+D Low Noise, 1A, Transformer Drivers for Isolated Power Supplies, 420 kHz, SOT-23-6
+K Transformer Drivers
+F http://www.ti.com/lit/ds/symlink/sn6505b.pdf
+$ENDCMP
+#
 $CMP STM6600
 D Smart push-button on/off controller, power-on lockout, Low Power, 1.6-5.5V, TDFN12
 K push-button-controller low-power
@@ -862,6 +946,18 @@ $CMP TPS22993
 D Quad Channel Load Switch with GPIO and I2C Control, Bias voltage: 4.5V-17.2V, Input voltage: 1.0V-3.6V, Max 1.2A per channel, WQFN-20
 K quad channel power distribution/load switch
 F http://www.ti.com/lit/gpn/tps22993
+$ENDCMP
+#
+$CMP TPS2419D
+D N+1 and ORing Power Rail Controller with Enable, SOIC-8
+K ideal-diode or-ing
+F http://www.ti.com/lit/ds/symlink/tps2419.pdf
+$ENDCMP
+#
+$CMP TPS2419PW
+D N+1 and ORing Power Rail Controller with Enable, TSSOP-8
+K ideal-diode or-ing
+F http://www.ti.com/lit/ds/symlink/tps2419.pdf
 $ENDCMP
 #
 $CMP TPS2592xx

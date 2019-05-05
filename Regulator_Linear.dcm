@@ -3732,18 +3732,6 @@ K LDO low noise
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf
 $ENDCMP
 #
-$CMP LT3032-3.3
-D 150mA, Dual Low Dropout Linear Regulator, Positive/Negative Low Noise, 3.3V Output, DFN-14
-K LDO low noise
-F https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf
-$ENDCMP
-#
-$CMP LT3032-5
-D 150mA, Dual Low Dropout Linear Regulator, Positive/Negative Low Noise, 5V Output, DFN-14
-K LDO low noise
-F https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf
-$ENDCMP
-#
 $CMP LT3032-12
 D 150mA, Dual Low Dropout Linear Regulator, Positive/Negative Low Noise, 12V Output, DFN-14
 K LDO low noise
@@ -3752,6 +3740,18 @@ $ENDCMP
 #
 $CMP LT3032-15
 D 150mA, Dual Low Dropout Linear Regulator, Positive/Negative Low Noise, 15V Output, DFN-14
+K LDO low noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf
+$ENDCMP
+#
+$CMP LT3032-3.3
+D 150mA, Dual Low Dropout Linear Regulator, Positive/Negative Low Noise, 3.3V Output, DFN-14
+K LDO low noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf
+$ENDCMP
+#
+$CMP LT3032-5
+D 150mA, Dual Low Dropout Linear Regulator, Positive/Negative Low Noise, 5V Output, DFN-14
 K LDO low noise
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf
 $ENDCMP
@@ -4387,20 +4387,38 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf
 $ENDCMP
 #
 $CMP MCP1754-1802E_SOT89
-D Fixed 150mA Low Dropout Voltage Regulator, Positive, SOT-89
-K REGULATOR LDO
+D Fixed 150mA Low Dropout Voltage Regulator, Positive, 1.8V output, SOT-89
+K Regulator LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
 $ENDCMP
 #
 $CMP MCP1754-3302E_SOT89
-D Fixed 150mA Low Dropout Voltage Regulator, Positive, SOT-89
-K REGULATOR LDO
+D Fixed 150mA Low Dropout Voltage Regulator, Positive, 3.3V output, SOT-89
+K Regulator LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
 $ENDCMP
 #
 $CMP MCP1754-5002E_SOT89
-D Fixed 150mA Low Dropout Voltage Regulator, Positive, SOT-89
-K REGULATOR LDO
+D Fixed 150mA Low Dropout Voltage Regulator, Positive, 5V output, SOT-89
+K Regulator LDO
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
+$CMP MCP1754S-1802xCB
+D Fixed 150mA Low Dropout Voltage Regulator, Positive, 1.8V output, SOT-23
+K Regulator LDO
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
+$CMP MCP1754S-3302xCB
+D Fixed 150mA Low Dropout Voltage Regulator, Positive, 3.3V output, SOT-23
+K Regulator LDO
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
+$CMP MCP1754S-5002xCB
+D Fixed 150mA Low Dropout Voltage Regulator, Positive, 5V output, SOT-23
+K Regulator LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
 $ENDCMP
 #
@@ -5796,6 +5814,62 @@ K LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv713p.pdf
 $ENDCMP
 #
+$CMP TLV73310PDBV
+D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 1.0V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive Capacitor-Free
+F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
+$ENDCMP
+#
+$CMP TLV73311PDBV
+D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 1.1V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive Capacitor-Free
+F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
+$ENDCMP
+#
+$CMP TLV73312PDBV
+D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive Capacitor-Free
+F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
+$ENDCMP
+#
+$CMP TLV73315PDBV
+D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 1.5V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive Capacitor-Free
+F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
+$ENDCMP
+#
+$CMP TLV73318PDBV
+D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive Capacitor-Free
+F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
+$ENDCMP
+#
+$CMP TLV73325PDBV
+D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 2.5V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive Capacitor-Free
+F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
+$ENDCMP
+$CMP TLV733285PDBV
+D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 2.85V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive Capacitor-Free
+F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
+$ENDCMP
+$CMP TLV73328PDBV
+D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 2.8V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive Capacitor-Free
+F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
+$ENDCMP
+$CMP TLV73330PDBV
+D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 3.0V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive Capacitor-Free
+F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
+$ENDCMP
+$CMP TLV73333PDBV
+D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive Capacitor-Free
+F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
+$ENDCMP
+#
 $CMP TLV75509PDBV
 D 500mA Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 0.9V, SOT-23-5
 K LDO Regulator Fixed Positive
@@ -6490,6 +6564,12 @@ $CMP TPS7A7200RGW
 D 2A, Low-Dropout Voltage Regulator, 1.5-6.5V Input, Adjustable 0.9-5V Output, VQFN-20
 K linear regulator ldo voltage
 F http://www.ti.com/lit/ds/symlink/tps7a7200.pdf
+$ENDCMP
+#
+$CMP TPS7A90
+D 0.5A, High-Accuracy, Low-Noise LDO Voltage Regulator, Texas S-PDSO-N10
+K LDO voltage regulator
+F http://www.ti.com/lit/ds/symlink/tps7a90.pdf
 $ENDCMP
 #
 $CMP TPS7A91

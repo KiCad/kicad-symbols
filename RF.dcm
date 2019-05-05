@@ -54,6 +54,12 @@ K RF coupler
 F https://cdn.anaren.com/product-documents/Xinger/DirectionalCouplers/DC4759J5020AHF/DC4759J5020AHF_DataSheet(Rev_E).pdf
 $ENDCMP
 #
+$CMP HMC394LP4
+D GaAs HBT Programmable 5-bit Counter, DC - 2.2 GHz, QFN-24-1EP
+K counter prescaler programmable frequency divider
+F https://www.analog.com/media/en/technical-documentation/data-sheets/hmc394.pdf
+$ENDCMP
+#
 $CMP HMC431
 D 5.5-6.1GHz VCO, QFN-24
 K vco rf
@@ -232,6 +238,30 @@ $CMP SYPD-52
 D Phase Detector, 400 to 500 MHz, 50 Ohm, Mini-Cicuits TTT167
 K Phase Detector
 F https://ww2.minicircuits.com/pdfs/SYPD-52+.pdf
+$ENDCMP
+#
+$CMP Si4460
+D High-Performance, Low-Current Sub-GHz Transceiver, +13dBm, Major bands 142-1050 MHz, QFN-20
+K transceiver sub-ghz radio ism
+F https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf
+$ENDCMP
+#
+$CMP Si4461
+D High-Performance, Low-Current Sub-GHz Transceiver, +16dBm, Major bands 142-1050 MHz, QFN-20
+K transceiver sub-ghz radio ism
+F https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf
+$ENDCMP
+#
+$CMP Si4463
+D High-Performance, Low-Current Sub-GHz Transceiver, +20dBm, Major bands 142-1050 MHz, QFN-20
+K transceiver sub-ghz radio ism
+F https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf
+$ENDCMP
+#
+$CMP Si4464
+D High-Performance, Low-Current Sub-GHz Transceiver, +20dBm, Banded 119-960 MHz, QFN-20
+K transceiver sub-ghz radio ism
+F https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf
 $ENDCMP
 #
 $CMP nRF24L01P
