@@ -810,6 +810,12 @@ K 1-channel USB current limiting power switch
 F https://datasheets.maximintegrated.com/en/ds/MAX8586.pdf
 $ENDCMP
 #
+$CMP MAX8586
+D Single 1.2A USB Current Limiting Switch
+K 1-channel USB current limiting power switch
+F https://datasheets.maximintegrated.com/en/ds/MAX8586.pdf
+$ENDCMP
+#
 $CMP MIC2026-1BM
 D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, in SOIC-8 Package
 K mosfet distribution
@@ -934,6 +940,12 @@ $CMP TPS2054D
 D Quad power-distribution switcher
 K 4-chanel power-distribution USB
 F http://www.ti.com/lit/ds/symlink/tps2044.pdf
+$ENDCMP
+#
+$CMP TPS2121RUX
+D Priority Power MUX with Seamless Switchover, VQFN-HR-12
+K Power MUX
+F http://www.ti.com/lit/ds/symlink/tps2120.pdf
 $ENDCMP
 #
 $CMP TPS22929D
