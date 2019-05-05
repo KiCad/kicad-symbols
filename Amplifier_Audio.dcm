@@ -192,6 +192,12 @@ K audio amplifier class d
 F http://www.ti.com/lit/ds/symlink/lm4990.pdf
 $ENDCMP
 #
+$CMP MAX9715ETE+
+D 2.8W, Low-EMI, Stereo, Filterless Class D Audio Amplifier, TQFN-16
+K Class-D Stereo
+F https://datasheets.maximintegrated.com/en/ds/MAX9715.pdf
+$ENDCMP
+#
 $CMP MAX9814
 D Microphone Amplifier with AGC and Low-Noise Microphone Bias, TDFN-14
 K audio microphone amplifier
@@ -439,7 +445,7 @@ F http://www.thatcorp.com/datashts/THAT_2180-Series_Datasheet.pdf
 $ENDCMP
 #
 $CMP THAT2181
-D Blackmer Pre-Trimmed IC Voltage Controlled Amplifiers, SIP-8/SOIC-8
+D Blackmer Trimmable IC Voltage Controlled Amplifiers, SIP-8/SOIC-8
 K audio vca
 F http://www.thatcorp.com/datashts/THAT_2181-Series_Datasheet.pdf
 $ENDCMP

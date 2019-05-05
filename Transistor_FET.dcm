@@ -451,13 +451,13 @@ F https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30
 $ENDCMP
 #
 $CMP BSS83P
-D -0.33A Id, -60V Vds, P-Channel MOSFET, SOT-23-3
+D -0.33A Id, -60V Vds, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET
 F http://www.farnell.com/datasheets/1835997.pdf
 $ENDCMP
 #
 $CMP BSS84
-D -0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23-3
+D -0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET
 F http://assets.nexperia.com/documents/data-sheet/BSS84.pdf
 $ENDCMP
@@ -1234,6 +1234,18 @@ $CMP CSD25302Q2
 D 5A Id, 20V Vds, NexFET P-Channel Power MOSFET, 39mOhm Ron, SON-6
 K NexFET Power MOSFET P-MOS
 F https://www.ti.com/lit/ds/slps234b/slps234b.pdf
+$ENDCMP
+#
+$CMP DMC2053UVT
+D 4.6A/-3.2A Id, 20V Vds, Complementary pair enhancement mode P-Channel and N-Channel MOSFET, TSOT-23-6
+K complementary mosfet
+F https://www.diodes.com/assets/Datasheets/DMC2053UVT.pdf
+$ENDCMP
+#
+$CMP DMG2301L
+D -3A Id, -20V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/DMG2301L.pdf
 $ENDCMP
 #
 $CMP DMG2302U
@@ -2317,7 +2329,7 @@ F https://www.diodes.com/assets/Datasheets/ds30104.pdf
 $ENDCMP
 #
 $CMP NTR2101P
-D -3.7A Id, -8V Vds, P-Channel MOSFET, SOT-23-3
+D -3.7A Id, -8V Vds, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET
 F http://www.onsemi.com/pub/Collateral/NTR2101P-D.PDF
 $ENDCMP
@@ -2467,7 +2479,7 @@ F http://www.vishay.com/docs/70209/70209.pdf
 $ENDCMP
 #
 $CMP TP0610T
-D -0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23-3
+D -0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET
 F http://www.vishay.com/docs/70209/70209.pdf
 $ENDCMP
@@ -2485,7 +2497,7 @@ F http://www.vishay.com/docs/70209/70209.pdf
 $ENDCMP
 #
 $CMP VP0610T
-D -0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23-3
+D -0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET
 F http://www.vishay.com/docs/70209/70209.pdf
 $ENDCMP
@@ -2602,6 +2614,12 @@ $CMP ZXMN6A07F
 D 1.4A Id, 60V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
 F http://www.diodes.com/assets/Datasheets/ZXMN6A07F.pdf
+$ENDCMP
+#
+$CMP ZXMP4A16G
+D -6.4A Id, -40V Vds, P-Channel MOSFET, SOT-223
+K P-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/ZXMP4A16G.pdf
 $ENDCMP
 #
 #End Doc Library

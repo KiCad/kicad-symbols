@@ -924,6 +924,18 @@ K LED RGB diode
 F ~
 $ENDCMP
 #
+$CMP LED_RGBA
+D RGB LED, red/green/blue/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RGBC
+D RGB LED, red/green/blue/cathode
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP LED_RGB_EP
 D RGB LED, 6 pin package with exposed pad
 K LED RGB diode
