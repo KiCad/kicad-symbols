@@ -162,11 +162,6 @@ K raspberrypi gpio sbc singleboard computer
 F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_Zero_1p3_reduced.pdf
 $ENDCMP
 #
-$CMP RaspberryPi-template
-D Raspberry Pi xxx, x.x GHz [single, dual, quad] core, xxx MB RAM, singleboard computer
-K raspberrypi gpio sbc singleboard computer
-$ENDCMP
-#
 $CMP VisionSOM-6UL
 D i.MX6-UL NXP ARM Cortex-A7 696MHz single core industrial SoM computer
 K somlabs module
