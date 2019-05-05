@@ -5454,6 +5454,30 @@ K dc-dc traco buck
 F http://www.tracopower.com/products/tsr1.pdf
 $ENDCMP
 #
+$CMP TSR_3-0533
+D 3A step-down regulator module, adjustable 0.6 - 3.3V output voltage, 2.5-5.5V input voltage
+K dc-dc traco buck
+F https://www.tracopower.com/products/tsr3.pdf
+$ENDCMP
+#
+$CMP TSR_3-1250
+D 3A step-down regulator module, adjustable 0.6 - 5V output voltage, 4.5-14V input voltage
+K dc-dc traco buck
+F https://www.tracopower.com/products/tsr3.pdf
+$ENDCMP
+#
+$CMP TSR_3-24150
+D 3A step-down regulator module, adjustable 5 - 15V output voltage, 10-30V input voltage
+K dc-dc traco buck
+F https://www.tracopower.com/products/tsr3.pdf
+$ENDCMP
+#
+$CMP TSR_3-2450
+D 3A step-down regulator module, adjustable 3 - 6V output voltage, 10-30V input voltage
+K dc-dc traco buck
+F https://www.tracopower.com/products/tsr3.pdf
+$ENDCMP
+#
 $CMP VIPer22ADIP-E
 D Low power OFF-line SMPS primary switcher
 K SMPS
