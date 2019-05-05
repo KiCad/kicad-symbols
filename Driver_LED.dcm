@@ -12,6 +12,24 @@ K Constant Current LED Driver IC
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005413A.pdf
 $ENDCMP
 #
+$CMP DIO5661CD6
+D 37V Step-up LED driver with PWM, 2.7-5.5Vin, 1.3A Iout max, DFN-6
+K LED driver single
+F http://www.dioo.com/uploads/product/20190311/e6c7f30c0fbe92fbfa6965c8ef1c5b19.pdf
+$ENDCMP
+#
+$CMP DIO5661ST6
+D 37V Step-up LED driver with PWM, 2.7-5.5Vin, 1.3A Iout max, SOT23-6
+K LED driver single
+F http://www.dioo.com/uploads/product/20190311/e6c7f30c0fbe92fbfa6965c8ef1c5b19.pdf
+$ENDCMP
+#
+$CMP DIO5661TST6
+D 37V Step-up LED driver with PWM, 2.7-5.5Vin, 1.3A Iout max, TSOT23-6
+K LED driver single
+F http://www.dioo.com/uploads/product/20190311/e6c7f30c0fbe92fbfa6965c8ef1c5b19.pdf
+$ENDCMP
+#
 $CMP HT1632C-52LQFP
 D LED Matrix Driver, 32×8 or 24×16, 52-LQFP
 K LED Matrix Driver
@@ -111,49 +129,55 @@ $ENDCMP
 $CMP LT3465
 D 1.2MHz White LED Drivers with Built-in Schottky, ThinSOT-23-6
 K Switching LED driver
-F http://cds.linear.com/docs/en/datasheet/3465fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3465fa.pdf
 $ENDCMP
 #
 $CMP LT3465A
 D 2.4MHz White LED Drivers with Built-in Schottky in ThinSOT
 K Switching LED driver
-F http://cds.linear.com/docs/en/datasheet/3465fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3465fa.pdf
 $ENDCMP
 #
 $CMP LT3755xMSE
 D 40 Vin, 75 Vout, DC/DC LED Controllers, Hysteresis Open led Status pin, MSOP-16
 K Boost Buck Buck-Boost SEPIC Flyback
-F http://cds.linear.com/docs/en/datasheet/37551fd.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/37551fd.pdf
 $ENDCMP
 #
 $CMP LT3755xMSE-1
 D 40 Vin, 75 Vout, DC/DC LED Controllers, Frequency Synchronisation, MSOP-16
 K Boost Buck Buck-Boost SEPIC Flyback
-F http://cds.linear.com/docs/en/datasheet/37551fd.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/37551fd.pdf
 $ENDCMP
 #
 $CMP LT3755xMSE-2
 D 40 Vin, 75 Vout, DC/DC LED Controllers, Improved Open Led Status Pin, MSOP-16
 K Boost Buck Buck-Boost SEPIC Flyback
-F http://cds.linear.com/docs/en/datasheet/37551fd.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/37551fd.pdf
 $ENDCMP
 #
 $CMP LT3755xUD
 D 40 Vin, 75 Vout, DC/DC LED Controller, Hysteresis Open led Status pins, QFN-16
 K Boost Buck Buck-Boost SEPIC Flyback
-F http://cds.linear.com/docs/en/datasheet/37551fd.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/37551fd.pdf
 $ENDCMP
 #
 $CMP LT3755xUD-1
 D 40 Vin, 75 Vout, DC/DC LED Controllers, Frequency Synchronisation, QFN-16
 K Boost Buck Buck-Boost SEPIC Flyback
-F http://cds.linear.com/docs/en/datasheet/37551fd.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/37551fd.pdf
 $ENDCMP
 #
 $CMP LT3755xUD-2
 D 40 Vin, 75 Vout, DC/DC LED Controllers, Improved Open led Status pin, QFN-16
 K Boost Buck Buck-Boost SEPIC Flyback
-F http://cds.linear.com/docs/en/datasheet/37551fd.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/37551fd.pdf
+$ENDCMP
+#
+$CMP MPQ2483DQ
+D 55V, 2.5A Programmable Frequency LED Driver, DFN-10
+K LED driver
+F https://www.monolithicpower.com/pub/media/document/MPQ2483_r1.05.pdf
 $ENDCMP
 #
 $CMP PCA9685BS
@@ -202,6 +226,12 @@ $CMP STP16CP05XT
 D 16-bit constant current LED sink driver, HTSSOP-24
 K Shift Register LED driver 16 bit
 F https://www.st.com/resource/en/datasheet/stp16cp05.pdf
+$ENDCMP
+#
+$CMP TLC59108xPW
+D 8-Channel, 8-Bit Fm+ I2C-Bus Constant-Current LED Sink Driver, TSSOP-20
+K LED current driver
+F https://www.ti.com/lit/ds/symlink/tlc59108.pdf
 $ENDCMP
 #
 $CMP TLC5940NT

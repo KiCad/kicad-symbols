@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP APA102
+D RGB LED with integrated controller
+K RGB LED addressable 8bit pwm 5bit greyscale
+F http://www.led-color.com/upload/201506/APA102%20LED.pdf
+$ENDCMP
+#
+$CMP APA102-2020
+D RGB LED with integrated controller
+K RGB LED addressable 8bit pwm 5bit greyscale
+F http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
+$ENDCMP
+#
 $CMP APFA3010
 D LED RGB, Common Anode, SMD, 3.0x1.5mm, Horizontal
 K LED RGB SMD Kingbright APFA3010 Horizontal
@@ -118,6 +130,12 @@ $CMP IR204A
 D Infrared LED , 3mm LED package
 K opto IR LED
 F http://www.everlight.com/file/ProductFile/IR204-A.pdf
+$ENDCMP
+#
+$CMP IR26-21C_L110_TR8
+D 940nm, 20 deg, Infrared LED, 1206
+K IR LED
+F http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf
 $ENDCMP
 #
 $CMP IRL81A

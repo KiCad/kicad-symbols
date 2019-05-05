@@ -78,6 +78,54 @@ K onion omega module
 F https://docs.onion.io/omega2-docs/omega2p.html
 $ENDCMP
 #
+$CMP Omega2S
+D Onion Omega2S Module, 64MB RAM, 16MB FLASH
+K onion omega module
+F https://github.com/OnionIoT/Omega2/raw/master/Documents/Omega2S%20Datasheet.pdf
+$ENDCMP
+#
+$CMP Omega2S+
+D Onion Omega2S+ Module, 128MB RAM, 32MB FLASH
+K onion omega module
+F https://github.com/OnionIoT/Omega2/raw/master/Documents/Omega2S%20Datasheet.pdf
+$ENDCMP
+#
+$CMP PocketBeagle
+D Singleboard computer with ARM Cortex-A8 1GHz, 512MB RAM
+K beagleboard pocketbeagle
+F https://github.com/beagleboard/pocketbeagle/wiki/System-Reference-Manual
+$ENDCMP
+#
+$CMP RaspberryPi-CM1
+D BCM2835 Broadcom 700 MZ single core, 512 MB RAM 4 GB eMMC, industrial SoM computer
+K raspberry pi compute module
+F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM_1p0.pdf
+$ENDCMP
+#
+$CMP RaspberryPi-CM3
+D BCM2837 Broadcom 1.2 GHZ single core, 1 GB RAM 4 GB eMMC,  industrial SoM computer
+K raspberry pi compute module
+F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM_1p0.pdf
+$ENDCMP
+#
+$CMP RaspberryPi-CM3+
+D BCM2837B0 Broadcom 1.2 GHZ single core, 1 GB RAM 8/16/32 GB eMMC, industrial SoM computer
+K raspberry pi compute module
+F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM3plus_1p0.pdf
+$ENDCMP
+#
+$CMP RaspberryPi-CM3+L
+D BCM2837B0 Broadcom 1.2 GHZ single core, 1 GB RAM, industrial SoM computer
+K raspberry pi compute module
+F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM3plus_1p0.pdf
+$ENDCMP
+#
+$CMP RaspberryPi-CM3-L
+D BCM2837 Broadcom 1.2 GHZ single core, 1 GB RAM, industrial SoM computer
+K raspberry pi compute module
+F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM_1p0.pdf
+$ENDCMP
+#
 $CMP VisionSOM-6UL
 D i.MX6-UL NXP ARM Cortex-A7 696MHz single core industrial SoM computer
 K somlabs module
@@ -94,6 +142,12 @@ $CMP VisionSOM-RT
 D i.MX-RT NXP ARM Cortex-M7 528MHz single core industrial SoM computer
 K somlabs module
 F https://wiki.somlabs.com/index.php/VisionSOM-RT_Datasheet_and_Pinout
+$ENDCMP
+#
+$CMP WeMos_D1_mini
+D 32-bit microcontroller module with WiFi
+K ESP8266 WiFi microcontroller ESP8266EX
+F https://wiki.wemos.cc/products:d1:d1_mini#documentation
 $ENDCMP
 #
 #End Doc Library
