@@ -1548,6 +1548,12 @@ K diode
 F http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF
 $ENDCMP
 #
+$CMP NSR0340HT1G
+D 40V 0.25A Schottky Diode, SOD-323
+K diode Schottky
+F https://www.onsemi.com/pub/Collateral/NSR0340H-D.PDF
+$ENDCMP
+#
 $CMP PMEG6010CEH
 D 60V 1A very low Vf MEGA Schottky barrier rectifier, SOD-123
 K diode Schottky
