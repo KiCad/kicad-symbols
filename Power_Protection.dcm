@@ -204,6 +204,12 @@ K usb esd protection suppression transient
 F http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf
 $ENDCMP
 #
+$CMP SP7538P
+D Low Capacitance TVS Diode Array, 5.0V Standoff, 8 Channels, UDFN-9 package
+K usb esd protection suppression transient
+F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp7538p_datasheet.pdf.pdf
+$ENDCMP
+#
 $CMP SRV05-4
 D ESD Protection Diodes with Low Clamping Voltage, SOT-23-6
 K ESD protection diodes
