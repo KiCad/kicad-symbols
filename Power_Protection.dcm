@@ -12,6 +12,12 @@ K ESD Protection diodes transient suppressor
 F http://www.onsemi.com/pub_link/Collateral/CM1213A-D.PDF
 $ENDCMP
 #
+$CMP DT1240A-08LP3810
+D Low Capacitance TVS Diode Array, 3.3V Standoff, 8 Channels, UDFN-9 package
+K usb esd protection suppression transient
+F https://www.diodes.com/assets/Datasheets/DT1240A-08LP3810.pdf
+$ENDCMP
+#
 $CMP EMI2121MTTAG
 D Single Pair Common Mode Filter with ESD Protection, WDFN-8
 K Common Mode ESD
