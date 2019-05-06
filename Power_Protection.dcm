@@ -294,6 +294,12 @@ K usb ethernet
 F http://www2.st.com/resource/en/datasheet/CD00050750.pdf
 $ENDCMP
 #
+$CMP WE-TVS-824014881
+D TVS Diode Array, 1.2V Standoff, 8 Channels, UDFN-9 package
+K usb esd protection suppression transient
+F https://katalog.we-online.de/pbs/datasheet/824014881.pdf
+$ENDCMP
+#
 $CMP ZEN056V075A48LS
 D Polymer Protected Zener Diode, 5.6V, 0.75A, 48V, LS
 K Polymer zener
