@@ -30,6 +30,12 @@ K ESD protection suppression transient
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/21/07/21/e3/a8/df/42/a2/CD00001906.pdf/files/CD00001906.pdf/jcr:content/translations/en.CD00001906.pdf
 $ENDCMP
 #
+$CMP ESDLC5V0PB8
+D TVS Diode Array, 5.0V Standoff, 8 Channels, UDFN-9 package
+K usb esd protection suppression transient
+F https://www.mccsemi.com/pdf/Products/ESDLC5V0PB8(DFN3810-9)-A.pdf
+$ENDCMP
+#
 $CMP IP3319CX6
 D Single channel common mode filter with integrated ESD protection network
 K common mode filter ESD protection
