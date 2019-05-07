@@ -1140,26 +1140,26 @@ K quad opamp
 F http://www.ti.com/lit/ds/symlink/opa376.pdf
 $ENDCMP
 #
-$CMP OPA551D
-D High-Voltage High-Current Operational Amplifier, D Package
-K single opamp
-F http://www.ti.com/lit/ds/symlink/opa551.pdf
-$ENDCMP
-#
 $CMP OPA551P
-D High-Voltage High-Current Operational Amplifier, P Package
+D High-Voltage High-Current Operational Amplifier, bandwidth 3MHz, slew-rate 15V/us, DIP-8 Package
 K single opamp
 F http://www.ti.com/lit/ds/symlink/opa551.pdf
 $ENDCMP
 #
-$CMP OPA552D
-D High-Voltage High-Current Operational Amplifier, D Package
+$CMP OPA551U
+D High-Voltage High-Current Operational Amplifier, bandwidth 3MHz, slew-rate 15V/us, SOIC-8 Package
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa551.pdf
+$ENDCMP
+#
+$CMP OPA552P
+D High-Voltage High-Current Operational Amplifier, bandwidth 12MHz, slew-rate 24V/us, DIP-8 Package
 K single opamp
 F http://www.ti.com/lit/ds/symlink/opa552.pdf
 $ENDCMP
 #
-$CMP OPA552P
-D High-Voltage High-Current Operational Amplifier, P Package
+$CMP OPA552U
+D High-Voltage High-Current Operational Amplifier, bandwidth 12MHz, slew-rate 24V/us, SOIC-8 Package
 K single opamp
 F http://www.ti.com/lit/ds/symlink/opa552.pdf
 $ENDCMP
