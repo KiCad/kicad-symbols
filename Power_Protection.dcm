@@ -13,7 +13,7 @@ F http://www.onsemi.com/pub_link/Collateral/CM1213A-D.PDF
 $ENDCMP
 #
 $CMP DT1240A-08LP3810
-D Low Capacitance TVS Diode Array, 3.3V Standoff, 8 Channels, UDFN-9 package
+D Low Capacitance TVS Diode Array, 3.3V Standoff, 8 Channels, UDFN-9
 K usb esd protection suppression transient
 F https://www.diodes.com/assets/Datasheets/DT1240A-08LP3810.pdf
 $ENDCMP
@@ -37,7 +37,7 @@ F http://www.st.com/content/ccc/resource/technical/document/datasheet/21/07/21/e
 $ENDCMP
 #
 $CMP ESDLC5V0PB8
-D TVS Diode Array, 5.0V Standoff, 8 Channels, UDFN-9 package
+D TVS Diode Array, 5.0V Standoff, 8 Channels, UDFN-9
 K usb esd protection suppression transient
 F https://www.mccsemi.com/pdf/Products/ESDLC5V0PB8(DFN3810-9)-A.pdf
 $ENDCMP
@@ -145,7 +145,7 @@ F https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf
 $ENDCMP
 #
 $CMP RCLAMP3328P
-D Low Capacitance TVS Diode Array, 3.3V Standoff, 8 Channels, UDFN-9 package
+D Low Capacitance TVS Diode Array, 3.3V Standoff, 8 Channels
 K usb esd protection suppression transient
 F https://media.digikey.com/pdf/Data%20Sheets/Semtech%20PDFs/RCLAMP3328P.pdf
 $ENDCMP
@@ -211,7 +211,7 @@ F http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/docum
 $ENDCMP
 #
 $CMP SP7538P
-D Low Capacitance TVS Diode Array, 5.0V Standoff, 8 Channels, UDFN-9 package
+D Low Capacitance TVS Diode Array, 5.0V Standoff, 8 Channels, UDFN-9
 K usb esd protection suppression transient
 F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp7538p_datasheet.pdf.pdf
 $ENDCMP
@@ -313,7 +313,7 @@ F http://www2.st.com/resource/en/datasheet/CD00050750.pdf
 $ENDCMP
 #
 $CMP WE-TVS-824014881
-D TVS Diode Array, 1.2V Standoff, 8 Channels, UDFN-9 package
+D TVS Diode Array, 1.2V Standoff, 8 Channels, UDFN-9
 K usb esd protection suppression transient
 F https://katalog.we-online.de/pbs/datasheet/824014881.pdf
 $ENDCMP
