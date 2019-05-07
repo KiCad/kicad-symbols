@@ -3762,6 +3762,12 @@ K linear voltage regulator low-noise
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf
 $ENDCMP
 #
+$CMP LT3042xMSE
+D 200mA, Adjustable, Ultralow Noise, Ultrahigh PSRR RF Linear Regulator, MSOP-10
+K linear voltage regulator low-noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3042fb.pdf
+$ENDCMP
+#
 $CMP LT3080xDD
 D Adjustable 1.1A Single Resistor Low Dropout Regulator, DFN-8
 K Adjustable 1.1A Low Dropout Regulator
