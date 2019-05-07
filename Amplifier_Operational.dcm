@@ -1140,6 +1140,30 @@ K quad opamp
 F http://www.ti.com/lit/ds/symlink/opa376.pdf
 $ENDCMP
 #
+$CMP OPA551D
+D High-Voltage High-Current Operational Amplifier, D Package
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa551.pdf
+$ENDCMP
+#
+$CMP OPA551P
+D High-Voltage High-Current Operational Amplifier, P Package
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa551.pdf
+$ENDCMP
+#
+$CMP OPA552D
+D High-Voltage High-Current Operational Amplifier, D Package
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa552.pdf
+$ENDCMP
+#
+$CMP OPA552P
+D High-Voltage High-Current Operational Amplifier, P Package
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa552.pdf
+$ENDCMP
+#
 $CMP OPA842xD
 D 200MHz, Low Distortion, Unity-Gain Stable, Voltage Feedback Operational Amplifier, SOIC-8
 K single opamp
