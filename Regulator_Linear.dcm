@@ -3756,16 +3756,16 @@ K LDO low noise
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf
 $ENDCMP
 #
-$CMP LT3045xMSE
-D 500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR Linear Regulator, MSOP-12
-K linear voltage regulator low-noise
-F https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf
-$ENDCMP
-#
 $CMP LT3042xMSE
 D 200mA, Adjustable, Ultralow Noise, Ultrahigh PSRR RF Linear Regulator, MSOP-10
 K linear voltage regulator low-noise
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3042fb.pdf
+$ENDCMP
+#
+$CMP LT3045xMSE
+D 500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR Linear Regulator, MSOP-12
+K linear voltage regulator low-noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf
 $ENDCMP
 #
 $CMP LT3080xDD
