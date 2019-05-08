@@ -72,6 +72,12 @@ K energy harvesting li-ion battery solar TEG
 F http://www.ti.com/lit/ds/symlink/bq25504.pdf
 $ENDCMP
 #
+$CMP BQ25505
+D Energy Harvesting Boost Converter with Battery Management, VQFN-20
+K energy harvesting li-ion battery solar TEG
+F http://www.ti.com/lit/ds/symlink/bq25505.pdf
+$ENDCMP
+#
 $CMP BQ25570
 D Nano Power Boost Charger and Buck Converter for Energy Harvester Powered Applications, QFN-20
 K harvester solar TEG charger li-on buck
