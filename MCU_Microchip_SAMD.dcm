@@ -78,8 +78,32 @@ K 32-bit ARM Cortex-M0+ MCU Microcontroller
 F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42363-SAM-D11_Datasheet.pdf
 $ENDCMP
 #
+$CMP ATSAMD20E14A-Axx
+D ARM Cortex-M0+ MCU, 48MHz, 16KB Flash, 2KB RAM, 1.6-3.6V, 26 GPIO, LQFP-32
+K 32-bit ARM Cortex-M0+ MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/60001504B.pdf
+$ENDCMP
+#
+$CMP ATSAMD20E15A-Axx
+D ARM Cortex-M0+ MCU, 48MHz, 32KB Flash, 4KB RAM, 1.6-3.6V, 26 GPIO, LQFP-32
+K 32-bit ARM Cortex-M0+ MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/60001504B.pdf
+$ENDCMP
+#
 $CMP ATSAMD20E16A-Axx
 D ARM Cortex-M0+ MCU, 48MHz, 64KB Flash, 8KB RAM, 1.6-3.6V, 26 GPIO, LQFP-32
+K 32-bit ARM Cortex-M0+ MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/60001504B.pdf
+$ENDCMP
+#
+$CMP ATSAMD20E17A-Axx
+D ARM Cortex-M0+ MCU, 48MHz, 128KB Flash, 16KB RAM, 1.6-3.6V, 26 GPIO, LQFP-32
+K 32-bit ARM Cortex-M0+ MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/60001504B.pdf
+$ENDCMP
+#
+$CMP ATSAMD20E18A-Axx
+D ARM Cortex-M0+ MCU, 48MHz, 256KB Flash, 32KB RAM, 1.6-3.6V, 26 GPIO, LQFP-32
 K 32-bit ARM Cortex-M0+ MCU Microcontroller
 F http://ww1.microchip.com/downloads/en/DeviceDoc/60001504B.pdf
 $ENDCMP
