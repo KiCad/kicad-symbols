@@ -1416,6 +1416,12 @@ K DC-DC buck conveter step down voltage regulator
 F http://www.ti.com/lit/ds/symlink/lm3670.pdf
 $ENDCMP
 #
+$CMP LM43603PWP
+D 36V 3A synchronous step-down voltage converter
+K Voltage regulator switching buck fixed output analog
+F http://www.ti.com/lit/ds/symlink/lm43603.pdf
+$ENDCMP
+#
 $CMP LM5001MA
 D 1A, High Voltage (75V) Switch-Mode Regulator, Adjustable Output Voltage, SOIC-8
 K High-Voltage Switch-mode Regulator Flyback SEPIC Boost
