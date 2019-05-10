@@ -696,6 +696,30 @@ K quad opamp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf
 $ENDCMP
 #
+$CMP MCP6401RT-xOT
+D 1 MHz, 45 µA Op Amps, SOT-23-5
+K single opamp
+F http://ww1.microchip.com/downloads/en/devicedoc/22229d.pdf
+$ENDCMP
+#
+$CMP MCP6401T-xLT
+D 1 MHz, 45 µA Op Amps, SC-70-5
+K single opamp
+F http://ww1.microchip.com/downloads/en/devicedoc/22229d.pdf
+$ENDCMP
+#
+$CMP MCP6401T-xOT
+D 1 MHz, 45 µA Op Amps, SOT-23-5
+K single opamp
+F http://ww1.microchip.com/downloads/en/devicedoc/22229d.pdf
+$ENDCMP
+#
+$CMP MCP6401UT-xOT
+D 1 MHz, 45 µA Op Amps, SOT-23-5
+K single opamp
+F http://ww1.microchip.com/downloads/en/devicedoc/22229d.pdf
+$ENDCMP
+#
 $CMP MCP6561-OT
 D Single 1.8V Low-Power Push-Pull Output Comparator, SOT-23-5
 K single comparator
@@ -916,6 +940,18 @@ $CMP OPA1641
 D  JFET input, ultralow distortion, low-noise operational amplifier, SOIC-8/VSSOP-8
 K single opamp
 F http://www.ti.com/lit/ds/symlink/opa1641.pdf
+$ENDCMP
+#
+$CMP OPA1678
+D Low-Distortion Audio Operational Amplifiers, SOIC-8/VSSOP-8
+K dual opamp
+F http://www.ti.com/lit/ds/symlink/opa1678.pdf
+$ENDCMP
+#
+$CMP OPA1679
+D Low-Distortion Audio Operational Amplifiers, SOIC-14/TSSOP-14
+K quad opamp
+F http://www.ti.com/lit/ds/symlink/opa1678.pdf
 $ENDCMP
 #
 $CMP OPA188xxD
