@@ -2196,6 +2196,12 @@ K XP_POWER isolated DC/DC Converter module
 F https://www.xppower.com/Portals/0/pdfs/SF_JTE06.pdf
 $ENDCMP
 #
+$CMP MGJ3
+D 5.2kVDC Isolated 3W Gate Drive, Dual Output Voltage, 4.5-36V Vin
+K DC/DC converter
+F https://power.murata.com/datasheet?/data/power/ncl/kdc_mgj3.pdf
+$ENDCMP
+#
 $CMP NCS1S1203SC
 D Isolated 1W 4:1 input DC/DC converter module, 4.5-18V input voltage, 3.3V output voltage, SIP
 K Murata isolated isolation dc-dc converter step-down
