@@ -42,6 +42,12 @@ K LED RGB
 F http://www.avagotech.com/docs/AV02-2589EN
 $ENDCMP
 #
+$CMP CLS6B-FKW
+D Cree PLCC6 3 in 1 SMD LED, PLCC-6
+K LED RGB
+F https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf
+$ENDCMP
+#
 $CMP CLV1L-FKB
 D Cree PLCC4 3 in 1 SMD LED
 K led rgb diode
@@ -196,6 +202,18 @@ $CMP NeoPixel_THT
 D RGB LED with integrated controller, 5mm/8mm LED package
 K RGB LED NeoPixel addressable
 F https://www.adafruit.com/product/1938
+$ENDCMP
+#
+$CMP QLS6A-FKW
+D Cree PLCC6 3 in 1 SMD LED with zener protection, PLCC-6
+K LED RGB
+F https://www.cree.com/led-components/media/documents/1381-QLS6AFKW.pdf
+$ENDCMP
+#
+$CMP QLS6B-FKW
+D Cree PLCC6 3 in 1 SMD LED, PLCC-6
+K LED RGB
+F https://www.cree.com/led-components/media/documents/1397-QLS6BFKW.pdf
 $ENDCMP
 #
 $CMP SFH4346
