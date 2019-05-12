@@ -1,15 +1,16 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP LASTTRENNUNGSSCHALTER_3-POL
-D Wippschalter, beleuchtet, Nicht beleuchtet, DPST, Aus-Ein, Schwarz, Panelmontage, 16 A
-$ENDCMP
-#
 $CMP MOTOR_DRIVER_TMCM_1140
 D Stepper motor controller, TMCM-1140-TMCL, Trinamic
 $ENDCMP
 #
 $CMP MOTOR_DRIVER_TMCM_1160
 D Stepper motor controller, TMCM-1160-TMCL, Trinamic
+$ENDCMP
+#
+$CMP TE_PRFDA1-16F-BB0BW
+D rocker switch, without LED, , DPST, 0-1, Black, Panel mount, 16 A
+K Q switch load rocker
 $ENDCMP
 #
 #End Doc Library
