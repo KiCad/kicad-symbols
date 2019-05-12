@@ -312,6 +312,12 @@ K audio amplifier 2ch
 F http://datasheet.octopart.com/STK430-Sanyo-datasheet-107060.pdf
 $ENDCMP
 #
+$CMP TAS5825MRHB
+D 38-W Stereo, Inductor-Less, Digital Input, Closed-Loop Class-D Audio Amplifier with 192-kHz Extended Audio Processing, VQFN-32
+K Class-D Stereo
+F www.ti.com/lit/ds/symlink/tas5825m.pdf
+$ENDCMP
+#
 $CMP TDA1308
 D Class-AB Stereo Headphone Driver, SOIC-8/TSSOP-8
 K audio amplifier
@@ -445,7 +451,7 @@ F http://www.thatcorp.com/datashts/THAT_2180-Series_Datasheet.pdf
 $ENDCMP
 #
 $CMP THAT2181
-D Blackmer Pre-Trimmed IC Voltage Controlled Amplifiers, SIP-8/SOIC-8
+D Blackmer Trimmable IC Voltage Controlled Amplifiers, SIP-8/SOIC-8
 K audio vca
 F http://www.thatcorp.com/datashts/THAT_2181-Series_Datasheet.pdf
 $ENDCMP

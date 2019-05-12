@@ -1608,6 +1608,12 @@ K Miniature Step-Up Boost Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lmr64010.pdf
 $ENDCMP
 #
+$CMP LMZ13608
+D 8A Adjustable Step-Down DC/DC Power Module in 15x15mm, Texas NDY0011A
+K Step-Down DC/DC Module
+F http://www.ti.com/lit/ds/snvs710i/snvs710i.pdf
+$ENDCMP
+#
 $CMP LMZM23600
 D 0.5A Adjustable Step-Down DC/DC Power Module in 3.8x3mm, MicroSIP-10
 K Step-Down DC/DC Module
@@ -2428,6 +2434,24 @@ $CMP LT3472
 D Boost and Inverting DC/DC Converter for CCD Bias, DFN-10
 K DC/DC converter CCD Bias Boost
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3472f.pdf
+$ENDCMP
+#
+$CMP LT3514xUFD
+D Triple Step-Down Switching Regulator with 100% Duty Cycle Operation, QFN-28
+K triple step-down
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3514fa.pdf
+$ENDCMP
+#
+$CMP LT3580xDD
+D Boost/Inverting DC/DC Converter with 2A Switch, Soft-Start, and Synchronization, DFN-8
+K boost inverting dc-dc
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3580fg.pdf
+$ENDCMP
+#
+$CMP LT3580xMS8E
+D Boost/Inverting DC/DC Converter with 2A Switch, Soft-Start, and Synchronization, MSOP-8
+K boost inverting dc-dc
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3580fg.pdf
 $ENDCMP
 #
 $CMP LT3748xMS
