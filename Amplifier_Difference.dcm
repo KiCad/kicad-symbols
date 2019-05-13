@@ -37,7 +37,7 @@ F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4940-1_
 $ENDCMP
 #
 $CMP ADC1100DWV
-D  Fully-Differential Isolation Amplifier, Fixed Gain = 8, UL1577/IEC60747-5-2 Approved, SOIC-8
+D Fully-Differential Isolation Amplifier, Fixed Gain = 8, UL1577/IEC60747-5-2 Approved, SOIC-8
 K isolated difference amplifier
 F http://www.ti.com/lit/ds/symlink/amc1100.pdf
 $ENDCMP
@@ -45,7 +45,7 @@ $ENDCMP
 $CMP AMC1300DWV
 D Precision, ±250-mV Input, Reinforced Isolated Amplifier, Fixed Gain = 8.2, UL1577/VDE V 0884-11 Approved, SOIC-8
 K isolated difference amplifier
-F http://www.ti.com/lit/ds/symlink/amc1100.pdf
+F http://www.ti.com/lit/ds/symlink/amc1300.pdf
 $ENDCMP
 #
 $CMP LM733CH
