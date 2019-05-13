@@ -96,24 +96,6 @@ K beagleboard pocketbeagle
 F https://github.com/beagleboard/pocketbeagle/wiki/System-Reference-Manual
 $ENDCMP
 #
-$CMP RaspberryPi-1A+_Run
-D Raspberry Pi 1A+, 700 MHz single core, 512 MB RAM, singleboard computer
-K raspberrypi gpio sbc singleboard computer
-F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_1aplus_1p1_reduced.pdf
-$ENDCMP
-#
-$CMP RaspberryPi-1B+_Run
-D Raspberry Pi 1B+, 700 MHz single core, 512 MB RAM, singleboard computer
-K raspberrypi gpio sbc singleboard computer
-F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_1bplus_1p2_reduced.pdf
-$ENDCMP
-#
-$CMP RaspberryPi-2B_Run
-D Raspberry Pi 2B, 900 MHz quad core, 1024 MB RAM, singleboard computer
-K raspberrypi gpio sbc singleboard computer
-F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_2b_1p2_reduced.pdf
-$ENDCMP
-#
 $CMP RaspberryPi-3A+_Run_PEN
 D Raspberry Pi 3A+, 1.4 GHz quad core, 512 MB RAM, singleboard computer
 K raspberrypi gpio sbc singleboard computer
@@ -124,12 +106,6 @@ $CMP RaspberryPi-3B+_Run_PEN
 D Raspberry Pi 3B+, 1.4 GHz quad core, 1024 MB RAM, singleboard computer
 K raspberrypi gpio sbc singleboard computer
 F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf
-$ENDCMP
-#
-$CMP RaspberryPi-3B_Run
-D Raspberry Pi 3B, 1.2 GHz quad core, 1024 MB RAM, singleboard computer
-K raspberrypi gpio sbc singleboard computer
-F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3b_1p2_reduced.pdf
 $ENDCMP
 #
 $CMP RaspberryPi-CM1
@@ -160,23 +136,6 @@ $CMP RaspberryPi-CM3-L
 D BCM2837 Broadcom 1.2 GHZ single core, 1 GB RAM, industrial SoM computer
 K raspberry pi compute module
 F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM_1p0.pdf
-$ENDCMP
-#
-$CMP RaspberryPi-ZeroW_Run
-D Raspberry Pi ZeroW, 1.0 GHz single core, 512 MB RAM, singleboard computer
-K raspberrypi gpio sbc singleboard computer
-F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_ZeroW_1p1_reduced.pdf
-$ENDCMP
-#
-$CMP RaspberryPi-Zero_Run
-D Raspberry Pi Zero, 1.0 GHz single core, 512 MB RAM, singleboard computer
-K raspberrypi gpio sbc singleboard computer
-F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_Zero_1p3_reduced.pdf
-$ENDCMP
-#
-$CMP RaspberryPi-template
-D Raspberry Pi xxx, x.x GHz [single, dual, quad] core, xxx MB RAM, singleboard computer
-K raspberrypi gpio sbc singleboard computer
 $ENDCMP
 #
 $CMP VisionSOM-6UL
