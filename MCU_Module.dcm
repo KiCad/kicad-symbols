@@ -96,25 +96,25 @@ K beagleboard pocketbeagle
 F https://github.com/beagleboard/pocketbeagle/wiki/System-Reference-Manual
 $ENDCMP
 #
-$CMP RaspberryPi-1A+_Run
+$CMP RaspberryPi-1A+
 D Raspberry Pi 1A+, 700 MHz single core, 512 MB RAM, singleboard computer
 K raspberrypi gpio sbc singleboard computer
 F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_1aplus_1p1_reduced.pdf
 $ENDCMP
 #
-$CMP RaspberryPi-1B+_Run
+$CMP RaspberryPi-1B+
 D Raspberry Pi 1B+, 700 MHz single core, 512 MB RAM, singleboard computer
 K raspberrypi gpio sbc singleboard computer
 F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_1bplus_1p2_reduced.pdf
 $ENDCMP
 #
-$CMP RaspberryPi-2B_Run
+$CMP RaspberryPi-2B
 D Raspberry Pi 2B, 900 MHz quad core, 1024 MB RAM, singleboard computer
 K raspberrypi gpio sbc singleboard computer
 F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_2b_1p2_reduced.pdf
 $ENDCMP
 #
-$CMP RaspberryPi-3B_Run
+$CMP RaspberryPi-3B
 D Raspberry Pi 3B, 1.2 GHz quad core, 1024 MB RAM, singleboard computer
 K raspberrypi gpio sbc singleboard computer
 F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3b_1p2_reduced.pdf
@@ -150,16 +150,16 @@ K raspberry pi compute module
 F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM_1p0.pdf
 $ENDCMP
 #
-$CMP RaspberryPi-ZeroW_Run
-D Raspberry Pi ZeroW, 1.0 GHz single core, 512 MB RAM, singleboard computer
-K raspberrypi gpio sbc singleboard computer
-F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_ZeroW_1p1_reduced.pdf
-$ENDCMP
-#
-$CMP RaspberryPi-Zero_Run
+$CMP RaspberryPi-Zero
 D Raspberry Pi Zero, 1.0 GHz single core, 512 MB RAM, singleboard computer
 K raspberrypi gpio sbc singleboard computer
 F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_Zero_1p3_reduced.pdf
+$ENDCMP
+#
+$CMP RaspberryPi-ZeroW
+D Raspberry Pi ZeroW, 1.0 GHz single core, 512 MB RAM, singleboard computer
+K raspberrypi gpio sbc singleboard computer
+F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_ZeroW_1p1_reduced.pdf
 $ENDCMP
 #
 $CMP VisionSOM-6UL
