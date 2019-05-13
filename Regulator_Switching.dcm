@@ -2670,6 +2670,12 @@ K buck dc-dc switcher switching
 F https://www.analog.com/media/en/technical-documentation/data-sheets/7138f.pdf
 $ENDCMP
 #
+$CMP LTM4637V
+D 20A DC/DC µModule Step-Down Regulator, LGA-133
+K uModule DCDC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4637fc.pdf
+$ENDCMP
+#
 $CMP LTM4637Y
 D 20A DC/DC µModule Step-Down Regulator, BGA-133
 K uModule DCDC
