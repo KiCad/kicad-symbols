@@ -36,6 +36,18 @@ K CMOS
 F https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf
 $ENDCMP
 #
+$CMP 4009
+D Hex Buffer Inverter
+K CMOS INV BUFFER high sink, VCC and VDD sep. VDD>VI>VCC!
+F http://www.sycelectronica.com.ar/semiconductores/CD4009.pdf
+$ENDCMP
+#
+$CMP 4010
+D Hex Buffer
+K CMOS BUFFER high sink, VCC and VDD sep. VDD>VI>VCC! 
+F http://www.ti.com/lit/ds/symlink/cd4010b-q1.pdf
+$ENDCMP
+#
 $CMP 4011
 D Quad Nand 2 inputs
 K CMOS Nand2
