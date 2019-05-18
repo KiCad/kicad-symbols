@@ -1608,6 +1608,12 @@ K Miniature Step-Up Boost Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lmr64010.pdf
 $ENDCMP
 #
+$CMP LMZ13608
+D 8A Adjustable Step-Down DC/DC Power Module in 15x15mm, Texas NDY0011A
+K Step-Down DC/DC Module
+F http://www.ti.com/lit/ds/snvs710i/snvs710i.pdf
+$ENDCMP
+#
 $CMP LMZM23600
 D 0.5A Adjustable Step-Down DC/DC Power Module in 3.8x3mm, MicroSIP-10
 K Step-Down DC/DC Module

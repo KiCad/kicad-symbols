@@ -18,6 +18,12 @@ K single opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ad8001.pdf
 $ENDCMP
 #
+$CMP AD8015
+D Wideband/Differential Output Transimpedance Amplifier, SOIC-8
+K amplifier transimpedance differential optical receiver
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8015.pdf
+$ENDCMP
+#
 $CMP AD8603
 D Precision Micropower, Low Noise CMOS, Rail-to-Rail Input/Output Operational Amplifier, TSOT-23-5
 K single opamp
@@ -1132,6 +1138,30 @@ $CMP OPA4376
 D Quad Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SC-70-5
 K quad opamp
 F http://www.ti.com/lit/ds/symlink/opa376.pdf
+$ENDCMP
+#
+$CMP OPA551P
+D High-Voltage High-Current Operational Amplifier, bandwidth 3MHz, slew-rate 15V/us, DIP-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa551.pdf
+$ENDCMP
+#
+$CMP OPA551U
+D High-Voltage High-Current Operational Amplifier, bandwidth 3MHz, slew-rate 15V/us, SOIC-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa551.pdf
+$ENDCMP
+#
+$CMP OPA552P
+D High-Voltage High-Current Operational Amplifier, bandwidth 12MHz, slew-rate 24V/us, DIP-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa552.pdf
+$ENDCMP
+#
+$CMP OPA552U
+D High-Voltage High-Current Operational Amplifier, bandwidth 12MHz, slew-rate 24V/us, SOIC-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa552.pdf
 $ENDCMP
 #
 $CMP OPA842xD

@@ -6,15 +6,93 @@ K linear regulator ldo adjustable positive
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP3336.pdf
 $ENDCMP
 #
-$CMP ADP7142AUZJ
-D 40V, 200mA, Low Noise, CMOS LDO Linear Regulator, TSOT-23-5
+$CMP ADP7142ARDZ
+D 200mA, Low Noise, CMOS Low Dropout Regulator, Positive, Adjustable, SOIC-8
 K linear regulator ldo adjustable positive
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP7142.pdf
 $ENDCMP
 #
-$CMP ADP7182AUZJ
-D -28V, -200mA, Low Noise, Linear Regulator, TSOT-23-5
+$CMP ADP7142ARDZ-1.8
+D 200mA, Low Noise, CMOS Low Dropout Regulator, Positive, 1.8V Fixed Output, SOIC-8
+K linear regulator ldo fixed positive
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP7142.pdf
+$ENDCMP
+#
+$CMP ADP7142ARDZ-2.5
+D 200mA, Low Noise, CMOS Low Dropout Regulator, Positive, 2.5V Fixed Output, SOIC-8
+K linear regulator ldo fixed positive
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP7142.pdf
+$ENDCMP
+#
+$CMP ADP7142ARDZ-3.3
+D 200mA, Low Noise, CMOS Low Dropout Regulator, Positive, 3.3V Fixed Output, SOIC-8
+K linear regulator ldo fixed positive
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP7142.pdf
+$ENDCMP
+#
+$CMP ADP7142ARDZ-5.0
+D 200mA, Low Noise, CMOS Low Dropout Regulator, Positive, 5.0V Fixed Output, SOIC-8
+K linear regulator ldo fixed positive
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP7142.pdf
+$ENDCMP
+#
+$CMP ADP7142AUJZ
+D 200mA, Low Noise, CMOS Low Dropout Regulator, Positive, Adjustable, TSOT-23-5
+K linear regulator ldo adjustable positive
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP7142.pdf
+$ENDCMP
+#
+$CMP ADP7142AUJZ-1.8
+D 200mA, Low Noise, CMOS Low Dropout Regulator, Positive, 1.8V Fixed Output, TSOT-23-5
+K linear regulator ldo fixed positive
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP7142.pdf
+$ENDCMP
+#
+$CMP ADP7142AUJZ-2.5
+D 200mA, Low Noise, CMOS Low Dropout Regulator, Positive, 2.5V Fixed Output, TSOT-23-5
+K linear regulator ldo fixed positive
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP7142.pdf
+$ENDCMP
+#
+$CMP ADP7142AUJZ-3.3
+D 200mA, Low Noise, CMOS Low Dropout Regulator, Positive, 3.3V Fixed Output, TSOT-23-5
+K linear regulator ldo fixed positive
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP7142.pdf
+$ENDCMP
+#
+$CMP ADP7142AUJZ-5.0
+D 200mA, Low Noise, CMOS Low Dropout Regulator, Positive, 5.0V Fixed Output, TSOT-23-5
+K linear regulator ldo fixed positive
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP7142.pdf
+$ENDCMP
+#
+$CMP ADP7182AUJZ
+D 200mA, Low Noise, CMOS Low Dropout Regulator, Negative, Adjustable, TSOT-23-5
 K linear regulator ldo adjustable negative
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP7182.pdf
+$ENDCMP
+#
+$CMP ADP7182AUJZ-1.8
+D 200mA, Low Noise, CMOS Low Dropout Regulator, Negative, -1.8V Fixed Output, TSOT-23-5
+K linear regulator ldo fixed negative
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP7182.pdf
+$ENDCMP
+#
+$CMP ADP7182AUJZ-2.5
+D 200mA, Low Noise, CMOS Low Dropout Regulator, Negative, -2.5V Fixed Output, TSOT-23-5
+K linear regulator ldo fixed negative
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP7182.pdf
+$ENDCMP
+#
+$CMP ADP7182AUJZ-3.3
+D 200mA, Low Noise, CMOS Low Dropout Regulator, Negative, -3.3V Fixed Output, TSOT-23-5
+K linear regulator ldo fixed negative
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP7182.pdf
+$ENDCMP
+#
+$CMP ADP7182AUJZ-5.0
+D 200mA, Low Noise, CMOS Low Dropout Regulator, Negative, -5.0V Fixed Output, TSOT-23-5
+K linear regulator ldo fixed negative
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP7182.pdf
 $ENDCMP
 #
@@ -3756,6 +3834,18 @@ K LDO low noise
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf
 $ENDCMP
 #
+$CMP LT3042xMSE
+D 200mA, Adjustable, Ultralow Noise, Ultrahigh PSRR RF Linear Regulator, MSOP-10
+K linear voltage regulator low-noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3042fb.pdf
+$ENDCMP
+#
+$CMP LT3045xMSE
+D 500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR Linear Regulator, MSOP-12
+K linear voltage regulator low-noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf
+$ENDCMP
+#
 $CMP LT3080xDD
 D Adjustable 1.1A Single Resistor Low Dropout Regulator, DFN-8
 K Adjustable 1.1A Low Dropout Regulator
@@ -5849,21 +5939,25 @@ D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 2.5V, SOT-23-
 K 300mA LDO Regulator Fixed Positive Capacitor-Free
 F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
 $ENDCMP
+#
 $CMP TLV733285PDBV
 D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 2.85V, SOT-23-5
 K 300mA LDO Regulator Fixed Positive Capacitor-Free
 F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
 $ENDCMP
+#
 $CMP TLV73328PDBV
 D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 2.8V, SOT-23-5
 K 300mA LDO Regulator Fixed Positive Capacitor-Free
 F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
 $ENDCMP
+#
 $CMP TLV73330PDBV
 D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 3.0V, SOT-23-5
 K 300mA LDO Regulator Fixed Positive Capacitor-Free
 F http://www.ti.com/lit/ds/symlink/tlv733p.pdf
 $ENDCMP
+#
 $CMP TLV73333PDBV
 D 300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5
 K 300mA LDO Regulator Fixed Positive Capacitor-Free
