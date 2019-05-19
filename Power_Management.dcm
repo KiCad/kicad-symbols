@@ -211,13 +211,13 @@ F https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e
 $ENDCMP
 #
 $CMP BD48KxxG
-D Standard CMOS Voltage Detector IC, Open Drain Output, SSOP3(1pin GND) 
+D Standard CMOS Voltage Detector IC, Open Drain Output, SSOP3(1pin GND)
 K voltage detector open drain SSOP3
 F https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e
 $ENDCMP
 #
 $CMP BD48LxxG
-D Standard CMOS Voltage Detector IC, Open Drain Output, SSOP3(3pin GND) 
+D Standard CMOS Voltage Detector IC, Open Drain Output, SSOP3(3pin GND)
 K voltage detector open drain SSOP3
 F https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e
 $ENDCMP
@@ -235,13 +235,13 @@ F https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e
 $ENDCMP
 #
 $CMP BD49KxxG
-D Standard CMOS Voltage Detector IC, CMOS Output, SSOP3(1pin GND) 
+D Standard CMOS Voltage Detector IC, CMOS Output, SSOP3(1pin GND)
 K voltage detector cmos SSOP3
 F https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e
 $ENDCMP
 #
 $CMP BD49LxxG
-D Standard CMOS Voltage Detector IC, CMOS Output, SSOP3(3pin GND) 
+D Standard CMOS Voltage Detector IC, CMOS Output, SSOP3(3pin GND)
 K voltage detector cmos SSOP3
 F https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e
 $ENDCMP
@@ -936,9 +936,9 @@ K 4-chanel power-distribution USB
 F http://www.ti.com/lit/ds/symlink/tps2044.pdf
 $ENDCMP
 #
-$CMP TPS22917
-D 1V to 5.5-V, 2-A, 80-mΩ Ultra-Low Leakage Load Switch, SOT23-6
-K 1-channel Ultra-Low-Leakage Load-Switch
+$CMP TPS22917DBV
+D 1V to 5.5V, 2A, 80mΩ Ultra-Low Leakage Load Switch, SOT23-6
+K high-side power distribution switch
 F http://www.ti.com/lit/ds/symlink/tps22917.pdf
 $ENDCMP
 #
@@ -994,6 +994,12 @@ $CMP TSM103WA
 D Dual Operational Amplifier and 2.5V 0.4% Voltage Reference, SOIC-8
 K dual opamp reference
 F http://www.st.com/resource/en/datasheet/tsm103w.pdf
+$ENDCMP
+#
+$CMP UCC39002D
+D Advanced 8-Pin Load-Share Controller, SOIC-8
+K load share controller
+F http://www.ti.com/lit/ds/slus495i/slus495i.pdf
 $ENDCMP
 #
 #End Doc Library
