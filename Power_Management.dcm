@@ -624,6 +624,18 @@ K High_Side_Switch Power
 F http://www.infineon.com/dgdl/Infineon-ITS5215L-DS-v01_01-en.pdf?fileId=db3a304412b407950112b428dba73e98
 $ENDCMP
 #
+$CMP LM5050-1
+D High side OR-ing FET controller, 5V to 75V operation, TSOT-23-6
+K positive high-side or-ing ideal-diode
+F http://www.ti.com/lit/ds/symlink/lm5050-1-q1.pdf
+$ENDCMP
+#
+$CMP LM5050-2
+D High side OR-ing FET controller, 6V to 75V operation, TSOT-23-6
+K positive high-side or-ing ideal-diode
+F http://www.ti.com/lit/ds/symlink/lm5050-2.pdf
+$ENDCMP
+#
 $CMP LM5051
 D Low side OR-ing FET controller, -6V to -100V operation
 K negative low-side or-ing ideal-diode
