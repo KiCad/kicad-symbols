@@ -84,6 +84,12 @@ K hall switch
 F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
 $ENDCMP
 #
+$CMP A3214ELHLT-T
+D Linear Hall Effect Sensor, SOT-23W
+K hall switch
+F http://www.allegromicro.com/~/media/Files/Datasheets/A3213-4-Datasheet.ashx
+$ENDCMP
+#
 $CMP AH1806-P
 D High Sensitivity Micropower Omnipolar Hall-Effect Switch, SIP-3
 K hall switch
@@ -136,6 +142,12 @@ $CMP AS5055A
 D Magnetic position sensor, 12-bit, SPI interface, QFN-16
 K sensor magnetic hall position rotation spi
 F https://ams.com/documents/20143/36005/AS5055A_DS000304_2-00.pdf
+$ENDCMP
+#
+$CMP BMM150
+D Geomagnetic Sensor, WLCSP-12
+K BOSH Geomagnetic Sensor
+F https://www.mouser.com/datasheet/2/783/BST-BMM150-DS001-01-786480.pdf
 $ENDCMP
 #
 $CMP DRV5033AJQDBZ

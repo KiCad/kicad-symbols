@@ -24,6 +24,12 @@ K MOSFET Output Photorelay 1-Form-A
 F https://docs.broadcom.com/docs/AV02-0173EN
 $ENDCMP
 #
+$CMP CPC1002N
+D Form A, Solid State Relay (Photo MOSFET) 60V, 0.7A, 0.55Ohm, SOP-4
+K MOSFET Output Photorelay 1-Form-A
+F http://www.ixysic.com/home/pdfs.nsf/www/CPC1002N.pdf/$file/CPC1002N.pdf
+$ENDCMP
+#
 $CMP CPC1017N
 D Form A, Solid State Relay (Photo MOSFET) 60V, 0.1A, 16Ohm, SO-4
 K MOSFET Output Photorelay 1-Form-A

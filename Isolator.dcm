@@ -282,6 +282,12 @@ K NPN AC DC Optocoupler
 F http://www.everlight.com/file/ProductFile/EL814.pdf
 $ENDCMP
 #
+$CMP H11AA1
+D AC/DC NPN Optocoupler, DIP-6
+K NPN AC DC Optocoupler
+F https://www.vishay.com/docs/83608/h11aa1.pdf
+$ENDCMP
+#
 $CMP H11L1
 D Schmitt Trigger Output Optocoupler, High Speed, DIP-6, 1.6mA turn on threshold
 K High Speed Schmitt Optocoupler
@@ -484,6 +490,12 @@ $CMP ISO7342FC
 D Low Power Quad-Channel 2/2 Digital Isolator, 25Mbps 31ns, Fail-Safe Low, SO16
 K 4Ch Quad Digital Isolator 25Mbps
 F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=iso7342fc&fileType=pdf
+$ENDCMP
+#
+$CMP LTV-247
+D DC Quad Optocoupler, Vce 80V, CTR 100-600%, SOP-16
+K NPN DC Quad Optocoupler
+F http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF
 $ENDCMP
 #
 $CMP LTV-352T
