@@ -1050,6 +1050,12 @@ K circular DIN connector
 F http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf
 $ENDCMP
 #
+$CMP ExpressCard
+D ExpressCard connector
+K expresscard pci express
+F https://web.archive.org/web/20180809060653/http://www.usb.org/developers/expresscard/EC_specifications/ExpressCard_2_0_FINAL.pdf
+$ENDCMP
+#
 $CMP HDMI_A
 D HDMI type A connector
 K hdmi conn
@@ -1126,6 +1132,12 @@ $CMP LEMO6
 D 6-pin LEMO connector
 K LEMO connector
 F  ~
+$ENDCMP
+#
+$CMP MXM3.0
+D MXM3.0 connector
+K MXM connector
+F ~
 $ENDCMP
 #
 $CMP Micro_SD_Card

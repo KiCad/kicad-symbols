@@ -88,7 +88,7 @@ F http://jap.hu/electronic/8255.pdf
 $ENDCMP
 #
 $CMP AD9834
-D 10 bit 75 MHz Complete Direct Digital Synthesizer, 2.3 V to 5.5 V, 20 mW, TSSOP-20
+D 10 bit 75 MHz Complete Direct Digital Synthesizer, 2.3V to 5.5V, 20mW, TSSOP-20
 K Direct Digital Synthesizer DDS
 F https://www.analog.com/static/imported-files/data_sheets/AD9834.pdf
 $ENDCMP
@@ -106,15 +106,33 @@ F https://www.analog.com/media/en/technical-documentation/data-sheets/AD9851.pdf
 $ENDCMP
 #
 $CMP AD9910
-D 1 GSPS, 14-Bit, 3.3 V CMOS, Direct Digital Synthesizer, QFP-100
+D 1 GSPS, 14-Bit, 3.3V CMOS, Direct Digital Synthesizer, QFP-100
 K dds direct digital synthesizer
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD9910.pdf
+$ENDCMP
+#
+$CMP AD9912
+D 1 GSPS, 14-bit DAC, Direct Digital Synthesizer, LFCSP-64
+K Direct Digital Synthesizer DDS
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ad9912.pdf
 $ENDCMP
 #
 $CMP AD9951
 D 14-Bit Direct Digital Synthesizer with 400MSPS DAC, 1.8V, TQFP48
 K Direct Digital Synthesizer DDS
 F https://www.analog.com/static/imported-files/data_sheets/AD9951.pdf
+$ENDCMP
+#
+$CMP AM26LV32xD
+D 32Mbps 3.3V RS485 Quad Line Receivers, SOIC-16
+K receiver rs485 rs422 differential
+F http://www.ti.com/lit/ds/symlink/am26lv32.pdf
+$ENDCMP
+#
+$CMP AM26LV32xNS
+D 32Mbps 3.3V RS485 Quad Line Receivers, SO-16
+K receiver rs485 rs422 differential
+F http://www.ti.com/lit/ds/symlink/am26lv32.pdf
 $ENDCMP
 #
 $CMP DS90C124
@@ -303,6 +321,12 @@ K clock buffer
 F https://www.onsemi.com/pub/Collateral/NB3N551-D.PDF
 $ENDCMP
 #
+$CMP ONET1191PRGT
+D 11.3-Gbps Limiting Amplifier, VQFN-16
+K limiting amplifier gigabit ethernet sfp sfp+
+F http://www.ti.com/lit/ds/symlink/onet1191p.pdf
+$ENDCMP
+#
 $CMP PCA9306
 D Dual bidirectional I2C Bus and SMBus voltage level translator
 K Dual bidirectional I2C Bus and SMBus voltage level translator
@@ -439,6 +463,18 @@ $CMP U2270B
 D IDIC read/write base stations in contactless identification and immobilizer systems, SO-16
 K IDIC read/write base stations in contactless identification and immobilizer systems
 F http://www.farnell.com/datasheets/94393.pdf
+$ENDCMP
+#
+$CMP Z8420
+D Parallel I/O, DIP-40
+K Z80 PIO parallel
+F https://www.zilog.com/appnotes_download.php?FromPage=DirectLink&dn=PS0180&ft=Product%20Specification%20(Data%20Sheet)%20%20&f=YUhSMGNEb3ZMM2QzZHk1NmFXeHZaeTVqYjIwdlpHOWpjeTk2T0RBdmNITXdNVGd3TG5Ca1pnPT0=
+$ENDCMP
+#
+$CMP Z84C20
+D Parallel I/O, CMOS, DIP-40
+K Z80 PIO parallel
+F https://www.zilog.com/appnotes_download.php?FromPage=DirectLink&dn=PS0180&ft=Product%20Specification%20(Data%20Sheet)%20%20&f=YUhSMGNEb3ZMM2QzZHk1NmFXeHZaeTVqYjIwdlpHOWpjeTk2T0RBdmNITXdNVGd3TG5Ca1pnPT0=
 $ENDCMP
 #
 #End Doc Library

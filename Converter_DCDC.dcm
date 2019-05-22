@@ -2232,6 +2232,42 @@ K Murata isolated isolation dc-dc converter step-down
 F https://power.murata.com/data/power/ncl/kdc_ncs1.pdf
 $ENDCMP
 #
+$CMP OKI-78SR-12_1.0-W36-C
+D 1.0A Step-Down DC/DC-Regulator, 15-36V input, 12V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_Vertical
+K dc-dc murata Step-Down DC/DC-Regulator
+F https://power.murata.com/data/power/oki-78sr.pdf
+$ENDCMP
+#
+$CMP OKI-78SR-12_1.0-W36H-C
+D 1.0A Step-Down DC/DC-Regulator, 15-36V input, 12V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_Horizontal
+K dc-dc murata Step-Down DC/DC-Regulator
+F https://power.murata.com/data/power/oki-78sr.pdf
+$ENDCMP
+#
+$CMP OKI-78SR-3.3_1.5-W36-C
+D 1.5A Step-Down DC/DC-Regulator, 7-36V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_Vertical
+K dc-dc murata Step-Down DC/DC-Regulator
+F https://power.murata.com/data/power/oki-78sr.pdf
+$ENDCMP
+#
+$CMP OKI-78SR-3.3_1.5-W36H-C
+D 1.5A Step-Down DC/DC-Regulator, 7-36V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_Horizontal
+K dc-dc murata Step-Down DC/DC-Regulator
+F https://power.murata.com/data/power/oki-78sr.pdf
+$ENDCMP
+#
+$CMP OKI-78SR-5_1.5-W36-C
+D 1.5A Step-Down DC/DC-Regulator, 7-36V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_Vertical
+K dc-dc murata Step-Down DC/DC-Regulator
+F https://power.murata.com/data/power/oki-78sr.pdf
+$ENDCMP
+#
+$CMP OKI-78SR-5_1.5-W36H-C
+D 1.5A Step-Down DC/DC-Regulator, 7-36V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_Horizontal
+K dc-dc murata Step-Down DC/DC-Regulator
+F https://power.murata.com/data/power/oki-78sr.pdf
+$ENDCMP
+#
 $CMP RPM3.3-1.0
 D 1A non-isolated switching regulator power module, 3-17V input voltage, 3.3V output voltage, DOSA
 K Recom dc-dc converter
