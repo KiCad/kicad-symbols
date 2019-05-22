@@ -823,27 +823,27 @@ F https://datasheets.maximintegrated.com/en/ds/MAX8586.pdf
 $ENDCMP
 #
 $CMP MIC2026-1BM
-D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, in SOIC-8 Package
+D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, SOIC-8
 K mosfet distribution
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
 $ENDCMP
 #
 $CMP MIC2026-1BN
-D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, in DIP-8 Package
+D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, DIP-8
 K mosfet distribution
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
 $ENDCMP
 #
 $CMP MIC2026-2BM
-D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active Low Output, in SOIC-8 Package
+D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active Low Output, SOIC-8
 K mosfet distribution
-F http://www.micrel.com/_PDF/mic2026.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
 $ENDCMP
 #
 $CMP MIC2026-2BN
-D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active Low Output, in DIP-8 Package
+D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active Low Output, DIP-8
 K mosfet distribution
-F http://www.micrel.com/_PDF/mic2026.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
 $ENDCMP
 #
 $CMP MIC2587-1
