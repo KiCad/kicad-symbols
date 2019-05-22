@@ -1170,8 +1170,8 @@ K Step-Down Voltage Regulator Adjustable 3A
 F http://www.ti.com/lit/ds/symlink/lm2596.pdf
 $ENDCMP
 #
-$CMP LM26480
-D Dual 2MHz,1.5A Buck Regulators and Dual 300mA LDOs
+$CMP LM26480SQ
+D Dual 1.5A 2MHz Buck Regulators and Dual 300mA LDOs, WQFN-24
 K Dual Buck Regulator LDO 2MHz 1.5A 300mA
 F http://www.ti.com/lit/ds/symlink/lm26480.pdf
 $ENDCMP
