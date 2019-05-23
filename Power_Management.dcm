@@ -780,6 +780,12 @@ K overvoltage undervoltage reverse-polarity protection
 F https://www.analog.com/media/en/technical-documentation/data-sheets/4365fa.pdf
 $ENDCMP
 #
+$CMP LTC4365xTS8
+D Overvoltage, Undervoltage and Reverse Supply Protection Controller, TSOT23-8 package, 50Hz/60Hz noise rejection
+K overvoltage undervoltage reverse-polarity protection
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4365fa.pdf
+$ENDCMP
+#
 $CMP LTC4417CGN
 D Prioritized PowerPath Controller, Selects Highest Priority Supply from Three Inputs, SSOP
 K switch power FET sequence
