@@ -780,6 +780,12 @@ K overvoltage undervoltage reverse-polarity protection
 F https://www.analog.com/media/en/technical-documentation/data-sheets/4365fa.pdf
 $ENDCMP
 #
+$CMP LTC4412xS6
+D Low Loss PowerPath Controller, TSOT-6
+K ideal-diode or-ing
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4412fb.pdf
+$ENDCMP
+#
 $CMP LTC4417CGN
 D Prioritized PowerPath Controller, Selects Highest Priority Supply from Three Inputs, SSOP
 K switch power FET sequence
