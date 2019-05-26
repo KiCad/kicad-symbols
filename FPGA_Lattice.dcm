@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ICE40HX1K-TQ144
+D iCE40 HX FPGA, 1280 LUTs, 1.2V, TQFP-144
+K FPGA programmable logic
+F http://www.latticesemi.com/Products/FPGAandCPLD/iCE40
+$ENDCMP
+#
+$CMP ICE40HX8K-BG121
+D iCE40 HX FPGA, 7680 LUTs, 1.2V, BGA-121
+K FPGA programmable logic
+F http://www.latticesemi.com/Products/FPGAandCPLD/iCE40
+$ENDCMP
+#
 $CMP ICE40UP5K-SG48ITR
 D iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN
 K FPGA programmable logic
@@ -10,6 +22,23 @@ $CMP iCE40-LP8K-CM81
 D iCE40 Ultra Low Plus FPGA, 7680 LUTs, 1.2V, ucBGA-81
 K FPGA programmable logic
 F http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/iCE/iCE40LPHXFamilyDataSheet.pdf
+#
+$CMP LFXP2-5E-5TN144
+D FPGA, 5000 LUTs, 1.2V, TQFP-144
+K FPGA Lattice XP2
+F http://www.latticesemi.com/view_document?document_id=24635
+$ENDCMP
+#
+$CMP LFXP2-5E-6TN144
+D FPGA, 5000 LUTs, 1.2V, TQFP-144
+K FPGA Lattice XP2
+F http://www.latticesemi.com/view_document?document_id=24635
+$ENDCMP
+#
+$CMP LFXP2-5E-7TN144
+D FPGA, 5000 LUTs, 1.2V, TQFP-144
+K FPGA Lattice XP2
+F http://www.latticesemi.com/view_document?document_id=24635
 $ENDCMP
 #
 #End Doc Library
