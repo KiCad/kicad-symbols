@@ -876,4 +876,10 @@ K Kinetis KL46 ARM Cortex M0+
 F http://www.nxp.com/docs/en/data-sheet/KL46P121M48SF4.pdf
 $ENDCMP
 #
+$CMP MKV11Z128VLH7
+D 75 MHz, Entry-Level, Real-time Motor Control, Cortex-M0+ core, 128kB Flash, 16kB RAM, LQFP-64
+K ARM, 32-bit, Cortex-M0, M0, NXP, microcontroller
+F https://www.nxp.com/docs/en/data-sheet/KV11P64M75.pdf
+$ENDCMP
+#
 #End Doc Library
