@@ -3,19 +3,19 @@ EESchema-DOCLIB  Version 2.0
 $CMP AD1853
 D Stereo, 24-Bit, 192 kHz, Multibit Sigma-Delta DAC, SSOP-28
 K audio dac 2ch 24bit 192kHz
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD1853.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD1853.pdf
 $ENDCMP
 #
 $CMP AD1855
 D Stereo, 96 kHz, Multibit Sigma-Delta DAC, SSOP-28
 K audio dac 2ch 24bit 96kHz
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD1855.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD1855.pdf
 $ENDCMP
 #
 $CMP AD1955
 D High Performance Multibit Sigma-Delta DAC with SACD Playback, SSOP-28
 K audio dac 2ch 24bit 192kHz
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD1955.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD1955.pdf
 $ENDCMP
 #
 $CMP AK5392VS
@@ -100,6 +100,12 @@ $CMP CS4245
 D 104 dB, 24-Bit, 192 kHz Stereo Audio CODEC, LQFP-48
 K audio codec 2ch 24bit 192kHz
 F https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/CS4245_F3.pdf
+$ENDCMP
+#
+$CMP CS4270
+D 24-Bit, 192-kHz Stereo Audio CODEC, TSSOP-24
+K Audio Codec
+F https://statics.cirrus.com/pubs/proDatasheet/CS4270_F1.pdf
 $ENDCMP
 #
 $CMP CS43L21
@@ -210,6 +216,18 @@ K audio dac 2ch 32bit 384kHz
 F http://www.ti.com/lit/ds/symlink/pcm5102.pdf
 $ENDCMP
 #
+$CMP PCM5121PW
+D 2VRMS DirectPath, 106dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface, TSSOP-28
+K audio dac 2ch 32bit 384kHz
+F http://www.ti.com/lit/ds/symlink/pcm5121.pdf
+$ENDCMP
+#
+$CMP PCM5122PW
+D 2VRMS DirectPath, 112dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface, TSSOP-28
+K audio dac 2ch 32bit 384kHz
+F http://www.ti.com/lit/ds/symlink/pcm5122.pdf
+$ENDCMP
+#
 $CMP PGA4311
 D 4-Channel Audio Volume Control, SPI Interface, +31.5dB to -95.5dB, SOIC-28W
 K audio volume control 4ch spi
@@ -262,6 +280,54 @@ $CMP TDA1022
 D BUCKET BRIGADE DELAY LINE FOR ANALOGUE SIGNALS, 512 stages, delay time 0.512ms to 51.2ms, signal frequency range 0 to 45KHz, clock frequency range 5KHz to 500KHz, DIP-16
 K PHILIPS BBD MOS monolithic delay analogue
 F http://thmq.mysteria.cz/em1022/TDA1022.pdf
+$ENDCMP
+#
+$CMP THAT1580
+D Low-Noise, Differential Audio Preamplifier IC, 0.005% THD+N, -134.8dBu EIN, QFN-16
+K diff amp mic preamp
+F http://www.thatcorp.com/datashts/THAT_1580_Datasheet.pdf
+$ENDCMP
+#
+$CMP THAT1583
+D Low-Noise, Differential Audio Preamplifier IC, 0.006% THD+N, -128.9dBu EIN, QFN-16
+K diff amp mic preamp
+F http://www.thatcorp.com/datashts/THAT_1583_Datasheet.pdf
+$ENDCMP
+#
+$CMP THAT5171
+D High-Performance Digital Preamplifier Controller IC, QFN-32
+K mic preamp gain controller
+F http://www.thatcorp.com/datashts/THAT_5171_Datasheet.pdf
+$ENDCMP
+#
+$CMP THAT5173
+D Audio Preamplifier Digital Controller IC, QFN-24
+K mic preamp gain controller
+F http://www.thatcorp.com/datashts/THAT_5173_Datasheet.pdf
+$ENDCMP
+#
+$CMP THAT5263
+D 2-Channel Digital Preamplifier Controller IC, QFN-24
+K dual mic preamp gain controller
+F http://www.thatcorp.com/datashts/THAT_5263_Datasheet.pdf
+$ENDCMP
+#
+$CMP THAT6261
+D 2-Channel Low-Noise Programmable-Gain Preamplifier - ADC Driver IC, 1dB Step, QFN-48
+K dual mic preamp
+F http://www.thatcorp.com/datashts/THAT_626x_Datasheet.pdf
+$ENDCMP
+#
+$CMP THAT6262
+D 2-Channel Low-Noise Programmable-Gain Preamplifier - ADC Driver IC, 2dB Step, QFN-48
+K dual mic preamp
+F http://www.thatcorp.com/datashts/THAT_626x_Datasheet.pdf
+$ENDCMP
+#
+$CMP THAT6263
+D 2-Channel Low-Noise Programmable-Gain Preamplifier - ADC Driver IC, 3dB Step, QFN-48
+K dual mic preamp
+F http://www.thatcorp.com/datashts/THAT_626x_Datasheet.pdf
 $ENDCMP
 #
 $CMP TLV320AIC23BPW

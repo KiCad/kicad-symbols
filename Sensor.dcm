@@ -3,7 +3,7 @@ EESchema-DOCLIB  Version 2.0
 $CMP ADE7758
 D Poly Phase Multifunction Energy Metering, SO-24
 K Energy Metering
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADE7758.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADE7758.pdf
 $ENDCMP
 #
 $CMP AS3935
@@ -24,9 +24,15 @@ K BME680 gas pressure humidity temperatiure measurement
 F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001-00.pdf
 $ENDCMP
 #
+$CMP CHT11
+D Temperature and humidity module
+K Digital temperature humidity sensor
+F http://aosong.com/en/products-21.html
+$ENDCMP
+#
 $CMP DHT11
 D Temperature and humidity module
-K digital temperature humidity sensor
+K Digital temperature humidity sensor
 F http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
 $ENDCMP
 #
@@ -39,7 +45,7 @@ $ENDCMP
 $CMP LTC2990
 D Temperature Voltage and Current Monitor, I2C Interface, MSOP-10
 K Temperature Voltage Current Monitor I2C AFE
-F http://cds.linear.com/docs/en/datasheet/2990fe.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2990.pdf
 $ENDCMP
 #
 $CMP MAX30102
@@ -48,10 +54,16 @@ K Heart Rate
 F https://datasheets.maximintegrated.com/en/ds/MAX30102.pdf
 $ENDCMP
 #
+$CMP Nuclear-Radiation_Detector
+D Generic radiation detector
+K nuclear ionising radiation sensor geiger mueller muller tube neutron counter ionization chamber
+F ~
+$ENDCMP
+#
 $CMP SHT1x
 D Temperature and humidity module
 K digital temperature humidity sensor
-F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Sensirion_Humidity_Sensors_SHT1x_Datasheet.pdf
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/0_Datasheets/Humidity/Sensirion_Humidity_Sensors_SHT1x_Datasheet.pdf
 $ENDCMP
 #
 #End Doc Library
