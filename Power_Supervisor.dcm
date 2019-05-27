@@ -240,6 +240,66 @@ K supervisor reset push-pull
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
 $ENDCMP
 #
+$CMP MCP120-xxxDITO
+D Microcontroller supervisory circuit, TO-92
+K supervisory circuit pull-up
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf
+$ENDCMP
+#
+$CMP MCP120-xxxGITO
+D Microcontroller supervisory circuit, TO-92
+K supervisory circuit pull-up
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf
+$ENDCMP
+#
+$CMP MCP120-xxxHITO
+D Microcontroller supervisory circuit, TO-92
+K supervisory circuit pull-up
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf
+$ENDCMP
+#
+$CMP MCP120-xxxISN
+D Microcontroller supervisory circuit, SOIC-8
+K supervisory circuit pull-up
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf
+$ENDCMP
+#
+$CMP MCP120-xxxITT
+D Microcontroller supervisory circuit, SOT-23
+K supervisory circuit pull-up
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf
+$ENDCMP
+#
+$CMP MCP130-xxxDITO
+D Microcontroller supervisory circuit with internal 5 kΩ pull-up, TO-92
+K supervisory circuit pull-up
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf
+$ENDCMP
+#
+$CMP MCP130-xxxFITO
+D Microcontroller supervisory circuit with internal 5 kΩ pull-up, TO-92
+K supervisory circuit pull-up
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf
+$ENDCMP
+#
+$CMP MCP130-xxxHITO
+D Microcontroller supervisory circuit with internal 5 kΩ pull-up, TO-92
+K supervisory circuit pull-up
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf
+$ENDCMP
+#
+$CMP MCP130-xxxISN
+D Microcontroller supervisory circuit with internal 5 kΩ pull-up, SOIC-8
+K supervisory circuit pull-up
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf
+$ENDCMP
+#
+$CMP MCP130-xxxITT
+D Microcontroller supervisory circuit with internal 5 kΩ pull-up, SOT-23
+K supervisory circuit pull-up
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf
+$ENDCMP
+#
 $CMP MCP39F521
 D Power Monitor, Calculation and Energy Accumulation, I2C, 16-bit, QFN-28
 K i2c power monitor
