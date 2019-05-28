@@ -1428,6 +1428,12 @@ K op amp operational amplifier
 F http://www.ti.com/lit/ds/symlink/tlv6001.pdf
 $ENDCMP
 #
+$CMP TLV9004IRUCR
+D Low-Power, Quad-Operational Amplifiers, X2QFN
+K quad opamp
+F http://www.ti.com/lit/ds/symlink/tlv9004.pdf
+$ENDCMP
+#
 $CMP TS881xCx
 D Rail-to-rail 0.9V nanopower comparator, SC-70-5
 K single comparator
