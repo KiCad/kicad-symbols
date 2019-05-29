@@ -552,6 +552,12 @@ K display LCD 20x4
 F http://www.newhavendisplay.com/specs/NHD-0420H1Z-FSW-GBW-33V3.pdf
 $ENDCMP
 #
+$CMP NHD-C0216AZ-FN
+D 16x2 Transreflective COG (Chip-on-Glass) Liquid Crystal Display Module 
+K display character transreflective lcd module 
+F https://www.mouser.de/datasheet/2/291/NHD-C0216AZ-FN-GBW-18835.pdf
+$ENDCMP
+#
 $CMP RC1602A
 D LCD 16x2 Alphanumeric gray backlight, 3 or 5V VDD
 K display LCD dot-matrix
