@@ -135,6 +135,12 @@ K receiver rs485 rs422 differential
 F http://www.ti.com/lit/ds/symlink/am26lv32.pdf
 $ENDCMP
 #
+$CMP CDCLVP1102
+D Two-LVPECL Output, High-Performance Clock Buffer
+K Clock Buffer LVDS
+F http://www.ti.com/lit/ds/symlink/cdclvp1102.pdf
+$ENDCMP
+#
 $CMP DS90C124
 D DC-Balanced 24-Bit FPD-Link II Deserializer, TQFP-48
 K DC-Balanced 24-Bit FPD-Link II Deserializer
