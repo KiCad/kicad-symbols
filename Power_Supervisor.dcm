@@ -240,61 +240,61 @@ K supervisor reset push-pull
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
 $ENDCMP
 #
-$CMP MCP120-xxxDITO
+$CMP MCP120-xxxDxTO
 D Microcontroller supervisory circuit, TO-92
-K supervisory circuit pull-up
+K supervisory circuit
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf
 $ENDCMP
 #
-$CMP MCP120-xxxGITO
+$CMP MCP120-xxxGxTO
 D Microcontroller supervisory circuit, TO-92
-K supervisory circuit pull-up
+K supervisory circuit
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf
 $ENDCMP
 #
-$CMP MCP120-xxxHITO
+$CMP MCP120-xxxHxTO
 D Microcontroller supervisory circuit, TO-92
-K supervisory circuit pull-up
+K supervisory circuit
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf
 $ENDCMP
 #
-$CMP MCP120-xxxISN
+$CMP MCP120-xxxxSN
 D Microcontroller supervisory circuit, SOIC-8
-K supervisory circuit pull-up
+K supervisory circuit
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf
 $ENDCMP
 #
-$CMP MCP120-xxxITT
+$CMP MCP120-xxxxTT
 D Microcontroller supervisory circuit, SOT-23
-K supervisory circuit pull-up
+K supervisory circuit
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf
 $ENDCMP
 #
-$CMP MCP130-xxxDITO
+$CMP MCP130-xxxDxTO
 D Microcontroller supervisory circuit with internal 5 kΩ pull-up, TO-92
 K supervisory circuit pull-up
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf
 $ENDCMP
 #
-$CMP MCP130-xxxFITO
+$CMP MCP130-xxxFxTO
 D Microcontroller supervisory circuit with internal 5 kΩ pull-up, TO-92
 K supervisory circuit pull-up
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf
 $ENDCMP
 #
-$CMP MCP130-xxxHITO
+$CMP MCP130-xxxHxTO
 D Microcontroller supervisory circuit with internal 5 kΩ pull-up, TO-92
 K supervisory circuit pull-up
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf
 $ENDCMP
 #
-$CMP MCP130-xxxISN
+$CMP MCP130-xxxxSN
 D Microcontroller supervisory circuit with internal 5 kΩ pull-up, SOIC-8
 K supervisory circuit pull-up
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf
 $ENDCMP
 #
-$CMP MCP130-xxxITT
+$CMP MCP130-xxxxTT
 D Microcontroller supervisory circuit with internal 5 kΩ pull-up, SOT-23
 K supervisory circuit pull-up
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf
