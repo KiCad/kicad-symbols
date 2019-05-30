@@ -966,6 +966,18 @@ K quad channel power distribution/load switch
 F http://www.ti.com/lit/gpn/tps22993
 $ENDCMP
 #
+$CMP TPS2412D
+D N+1 and ORing Power Rail Controller, SOIC-8
+K ideal-diode or-ing
+F http://www.ti.com/lit/ds/symlink/tps2412.pdf
+$ENDCMP
+#
+$CMP TPS2412PW
+D N+1 and ORing Power Rail Controller, TSSOP-8
+K ideal-diode or-ing
+F http://www.ti.com/lit/ds/symlink/tps2412.pdf
+$ENDCMP
+#
 $CMP TPS2419D
 D N+1 and ORing Power Rail Controller with Enable, SOIC-8
 K ideal-diode or-ing
