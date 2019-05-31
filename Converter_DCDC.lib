@@ -549,7 +549,7 @@ F1 "MGJ3" 0 350 50 H V C CNN
 F2 "Converter_DCDC:Converter_DCDC_Murata_MGJ3" 0 -350 50 H I C CIN
 F3 "" 0 -450 50 H I C CNN
 $FPLIST
- *Murata*MGJ3*
+ Converter*DCDC*Murata*MGJ3*
 $ENDFPLIST
 DRAW
 S -400 300 400 -300 0 1 10 f
