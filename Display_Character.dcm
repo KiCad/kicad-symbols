@@ -582,16 +582,52 @@ K display LED 7-segment
 F http://www.kingbrightusa.com/images/catalog/SPEC/SA15-11SRWA.pdf
 $ENDCMP
 #
-$CMP SA39-11
-D Single digit 7 segment display, common anode
-K SA39-11 orange red yellow green SA39-11HWA SA39-11EWA SA39-11GWA SA39-11YWA SA39-11SRWA
+$CMP SA39-11EWA
+D Single digit 7 segment display, high efficiency red, common anode
+K display LED 7-segment
 F http://www.kingbrightusa.com/images/catalog/SPEC/sa39-11ewa.pdf
 $ENDCMP
 #
-$CMP SA39-12
-D Single digit 7 segment display, common anode
-K SA39-12 orange red yellow green SA39-12HWA SA39-12EWA SA39-12GWA SA39-12YWA SA39-12SRWA
+$CMP SA39-11GWA
+D Single digit 7 segment display, green, common anode
+K display LED 7-segment
+F http://www.kingbrightusa.com/images/catalog/SPEC/sa39-11gwa.pdf
+$ENDCMP
+#
+$CMP SA39-11SRWA
+D Single digit 7 segment display, super bright red, common anode
+K display LED 7-segment
+F http://www.kingbrightusa.com/images/catalog/SPEC/sa39-11srwa.pdf
+$ENDCMP
+#
+$CMP SA39-11YWA
+D Single digit 7 segment display, yellow, common anode
+K display LED 7-segment
+F http://www.kingbrightusa.com/images/catalog/SPEC/sa39-11ywa.pdf
+$ENDCMP
+#
+$CMP SA39-12EWA
+D Single digit 7 segment display, high efficiency red, common anode
+K display LED 7-segment
 F http://www.kingbrightusa.com/images/catalog/SPEC/sa39-12ewa.pdf
+$ENDCMP
+#
+$CMP SA39-12GWA
+D Single digit 7 segment display, green, common anode
+K display LED 7-segment
+F http://www.kingbrightusa.com/images/catalog/SPEC/sa39-12gwa.pdf
+$ENDCMP
+#
+$CMP SA39-12SRWA
+D Single digit 7 segment display, super bright red, common anode
+K display LED 7-segment
+F http://www.kingbrightusa.com/images/catalog/SPEC/sa39-12srwa.pdf
+$ENDCMP
+#
+$CMP SA39-12YWA
+D Single digit 7 segment display, yellow, common anode
+K display LED 7-segment
+F http://www.kingbrightusa.com/images/catalog/SPEC/sa39-12ywa.pdf
 $ENDCMP
 #
 $CMP SBC18-11EGWA
@@ -606,16 +642,52 @@ K display LED 7-segment
 F http://www.kingbright.com/attachments/file/psearch/000/00/00/SBC18-11SURKCGKWA(Ver.6A).pdf
 $ENDCMP
 #
-$CMP SC39-11
-D Single digit 7 segment display, common cathode
-K SC39-11 orange red yellow green SC39-11HWA SC39-11EWA SC39-11GWA SC39-11YWA SC39-11SRWA
+$CMP SC39-11EWA
+D Single digit 7 segment display, high efficiency red, common cathode
+K display LED 7-segment
 F http://www.kingbrightusa.com/images/catalog/SPEC/sc39-11ewa.pdf
 $ENDCMP
 #
-$CMP SC39-12
-D Single digit 7 segment display, common cathode
-K SC39-12 orange red yellow green SC39-12HWA SC39-12EWA SC39-12GWA SC39-12YWA SC39-12SRWA
+$CMP SC39-11GWA
+D Single digit 7 segment display, green, common cathode
+K display LED 7-segment
+F http://www.kingbrightusa.com/images/catalog/SPEC/sc39-11gwa.pdf
+$ENDCMP
+#
+$CMP SC39-11SRWA
+D Single digit 7 segment display, super bright red, common cathode
+K display LED 7-segment
+F http://www.kingbrightusa.com/images/catalog/SPEC/sc39-11srwa.pdf
+$ENDCMP
+#
+$CMP SC39-11YWA
+D Single digit 7 segment display, yellow, common cathode
+K display LED 7-segment
+F http://www.kingbrightusa.com/images/catalog/SPEC/sc39-11ywa.pdf
+$ENDCMP
+#
+$CMP SC39-12EWA
+D Single digit 7 segment display, high efficiency red, common cathode
+K display LED 7-segment
 F http://www.kingbrightusa.com/images/catalog/SPEC/sc39-12ewa.pdf
+$ENDCMP
+#
+$CMP SC39-12GWA
+D Single digit 7 segment display, green, common cathode
+K display LED 7-segment
+F http://www.kingbrightusa.com/images/catalog/SPEC/sc39-12gwa.pdf
+$ENDCMP
+#
+$CMP SC39-12SRWA
+D Single digit 7 segment display, super bright red, common cathode
+K display LED 7-segment
+F http://www.kingbrightusa.com/images/catalog/SPEC/sc39-12srwa.pdf
+$ENDCMP
+#
+$CMP SC39-12YWA
+D Single digit 7 segment display, yellow, common cathode
+K display LED 7-segment
+F http://www.kingbrightusa.com/images/catalog/SPEC/sc39-12ywa.pdf
 $ENDCMP
 #
 $CMP WC1602A
