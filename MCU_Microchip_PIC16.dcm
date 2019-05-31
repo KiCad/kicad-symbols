@@ -306,25 +306,31 @@ K FLASH-Based 8-Bit CMOS Microcontroller XLP
 F http://ww1.microchip.com/downloads/en/DeviceDoc/41458B.pdf
 $ENDCMP
 #
-$CMP PIC16F1619-IML
+$CMP PIC16F1619-xGZ
 D Flash-Based, 8-Bit CMOS Microcontrollers, QFN
 K Flash-Based 8-Bit CMOS Microcontroller Low Power
 F http://ww1.microchip.com/downloads/en/DeviceDoc/40001770D.pdf
 $ENDCMP
 #
-$CMP PIC16F1619-IP
+$CMP PIC16F1619-xML
+D Flash-Based, 8-Bit CMOS Microcontrollers, QFN
+K Flash-Based 8-Bit CMOS Microcontroller Low Power
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001770D.pdf
+$ENDCMP
+#
+$CMP PIC16F1619-xP
 D Flash-Based, 8-Bit CMOS Microcontrollers, PDIP
 K Flash-Based 8-Bit CMOS Microcontroller Low Power
 F http://ww1.microchip.com/downloads/en/DeviceDoc/40001770D.pdf
 $ENDCMP
 #
-$CMP PIC16F1619-ISL
+$CMP PIC16F1619-xSO
 D Flash-Based, 8-Bit CMOS Microcontrollers, PDIP
 K Flash-Based 8-Bit CMOS Microcontroller Low Power
 F http://ww1.microchip.com/downloads/en/DeviceDoc/40001770D.pdf
 $ENDCMP
 #
-$CMP PIC16F1619-IST
+$CMP PIC16F1619-xSS
 D Flash-Based, 8-Bit CMOS Microcontrollers, PDIP
 K Flash-Based 8-Bit CMOS Microcontroller Low Power
 F http://ww1.microchip.com/downloads/en/DeviceDoc/40001770D.pdf
