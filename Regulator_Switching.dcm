@@ -5130,32 +5130,14 @@ K boost step-up DC/DC synchronous
 F http://www.ti.com/lit/ds/symlink/tps61200.pdf
 $ENDCMP
 #
-$CMP TPS61220
-D 400 mA Step-Up Converter, Adjustable Output Voltage, 0.7-5.5V Input Voltage, SC-70
-K Boost adjustable converter
-F http://www.ti.com/lit/ds/symlink/tps61220.pdf
-$ENDCMP
-#
 $CMP TPS61220DCK
 D 400 mA Step-Up Converter, Adjustable Output Voltage, 0.7-5.5V Input Voltage, SC-70
 K Boost adjustable converter
 F http://www.ti.com/lit/ds/symlink/tps61220.pdf
 $ENDCMP
 #
-$CMP TPS61221
-D 400 mA Step-Up Converter, Fixed 3.3V Output Voltage, 0.7-5.5V Input Voltage, SC-70
-K Boost adjustable converter
-F http://www.ti.com/lit/ds/symlink/tps61220.pdf
-$ENDCMP
-#
 $CMP TPS61221DCK
 D 400 mA Step-Up Converter, Fixed 3.3V Output Voltage, 0.7-5.5V Input Voltage, SC-70
-K Boost adjustable converter
-F http://www.ti.com/lit/ds/symlink/tps61220.pdf
-$ENDCMP
-#
-$CMP TPS61222
-D 400 mA Step-Up Converter, Fixed 5V Output Voltage, 0.7-5.5V Input Voltage, SC-70
 K Boost adjustable converter
 F http://www.ti.com/lit/ds/symlink/tps61220.pdf
 $ENDCMP
