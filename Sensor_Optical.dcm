@@ -36,6 +36,18 @@ K ambient light sensor i2c
 F https://docs.broadcom.com/docs/AV02-2315EN
 $ENDCMP
 #
+$CMP APDS-9306
+D Ambient Light Sensor, I2C interface, 1.7-3.6V, LGA-8
+K opto ambient light sensor
+F https://docs.broadcom.com/docs/AV02-4755EN
+$ENDCMP
+#
+$CMP APDS-9306-065
+D Ambient Light Sensor, I2C interface, 1.7-3.6V, DFN-6
+K opto ambient light sensor
+F https://docs.broadcom.com/docs/AV02-4755EN
+$ENDCMP
+#
 $CMP AS7261
 D Spectral Sensing Engine, 6-Channel XYZ Spectral_ID
 K 6-Channel XYZ Spectral_ID Device Electronic Shutter Smart Interface i2c uart
@@ -52,6 +64,12 @@ $CMP AS7263
 D Spectral Sensing Engine, 6-Channel NIR Spectral_ID
 K 6-Channel NIR Spectral_ID Device Electronic Shutter Smart Interface i2c uart
 F http://ams.com/eng/content/download/976611/2309519/498778
+$ENDCMP
+#
+$CMP AS72651
+D Smart 18-Channel VIS+NIR Spectral_ID Sensor with Electronic Shutter, LGA-20
+K Smart Spectral Sensor
+F https://ams.com/documents/20143/36005/AS7265x_DS000612_1-00.pdf/08051c8a-a7f6-6231-7993-2d3fe0bf38b8
 $ENDCMP
 #
 $CMP BP103
@@ -220,6 +238,18 @@ $CMP NOA1305
 D Ambient Light Sensor with I2C Interface and Dark Current Compensation
 K opto ambient light sensor
 F http://www.onsemi.com/pub/Collateral/NOA1305-D.PDF
+$ENDCMP
+#
+$CMP PMTx08Dyn
+D 8-stage photomultiplier tube
+K PMT 8-stage
+F ~
+$ENDCMP
+#
+$CMP PMTx08Dyn_Shld
+D 8-stage photomultiplier tube with electrostatic and magnetic shield
+K PMT 8-stage
+F ~
 $ENDCMP
 #
 $CMP S13360-3025CS

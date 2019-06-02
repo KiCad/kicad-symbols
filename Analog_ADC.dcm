@@ -3,79 +3,91 @@ EESchema-DOCLIB  Version 2.0
 $CMP AD6644
 D A/D Converter, 14-Bit, 40 MSPS/65 MSPS, TQFP-52
 K ADC differential analog digital converter
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD6644.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD6644.pdf
 $ENDCMP
 #
 $CMP AD6645
 D A/D Converter, 14-Bit, 80 MSPS/105 MSPS, TQFP-52
 K ADC differential analog digital converter
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD6645.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD6645.pdf
 $ENDCMP
 #
 $CMP AD7171
 D Single channel Analog to Digial Converter, 16-bit, differential input, 125Hz, SPI interface
 K sigma delta adc spi 1ch
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7171.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7171.pdf
 $ENDCMP
 #
 $CMP AD7606
 D 8-Channel DAS with 16-Bit, Bipolar Input, Simultaneous Sampling ADC, LQFP-64
 K 16bit DAS ADC 8channel 200KSPS
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ad7606_7606-6_7606-4.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ad7606_7606-6_7606-4.pdf
 $ENDCMP
 #
 $CMP AD7606-4
 D 4-Channel DAS with 16-Bit, Bipolar Input, Simultaneous Sampling ADC, LQFP-64
 K 16bit DAS ADC 4channel 200KSPS
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ad7606_7606-6_7606-4.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ad7606_7606-6_7606-4.pdf
 $ENDCMP
 #
 $CMP AD7606-6
 D 6-Channel DAS with 16-Bit, Bipolar Input, Simultaneous Sampling ADC, LQFP-64
 K 16bit DAS ADC 6channel 200KSPS
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ad7606_7606-6_7606-4.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ad7606_7606-6_7606-4.pdf
 $ENDCMP
 #
 $CMP AD7616
 D 16-Channel DAS with 16-Bit, Bipolar Input, Dual Simultaneous Sampling ADC, 2x1MSPS ADC, Serial and parallel IO, LQFP-80
 K 16bit DAS ADC 16channel 1MSPS
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7616.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7616.pdf
 $ENDCMP
 #
 $CMP AD7682BCP
 D 16-bit, 4-Channel, 250kSPS, PulSAR ADC, Bipolar-Unipolar, LFCSP-20
 K 16-Bit 4-Channel 250kSPS
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7682_7689.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7682_7689.pdf
 $ENDCMP
 #
 $CMP AD7722
 D 16-Bit, 195 kSPS CMOS, Sigma-Delta ADC, MQFP-44
 K adc 1ch 16bit parallel serial
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7722.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7722.pdf
 $ENDCMP
 #
 $CMP AD7746
 D 24-bit capacitance-to-digital converter with temperature sensor, TSSOP-16
 K adc cdc capacitance
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7745_7746.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7745_7746.pdf
+$ENDCMP
+#
+$CMP AD7794
+D 24-Bit, 6-Channel Sigma-Delta ADC, TSSOP-28
+K adc 6ch 24bit serial
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7794_7795.pdf
+$ENDCMP
+#
+$CMP AD7795
+D 16-Bit, 6-Channel Sigma-Delta ADC, TSSOP-28
+K adc 6ch 16bit serial
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7794_7795.pdf
 $ENDCMP
 #
 $CMP AD7819
 D Analog to Digital 8 bits converter, PDIP/SOIC/TSSOP-16
 K CAD
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7819.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7819.pdf
 $ENDCMP
 #
 $CMP AD9280ARS
 D Video ADC (32 Mhz), SSOP-28
 K ADC CAN VIDEO
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9280.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD9280.pdf
 $ENDCMP
 #
 $CMP AD9283
 D ADC 50MHz 8 bits, SSOP-20
 K ADC
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9283.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD9283.pdf
 $ENDCMP
 #
 $CMP ADC0800
@@ -216,10 +228,10 @@ K delta-sigma adc low-power
 F http://www.ti.com/lit/ds/symlink/ads1251.pdf
 $ENDCMP
 #
-$CMP ADS1298_TQFP
+$CMP ADS1298xPAG
 D ADS1298 Low-Power, 8-Channel, 24-Bit Analog Front-End for Biopotential Measurements, TQFP-64
 K 24bit ADC 8 Channels PGA SPI Biopotential
-F http://www.ti.com/lit/gpn/ads1298
+F http://www.ti.com/lit/ds/symlink/ads1298.pdf
 $ENDCMP
 #
 $CMP ADS7029
@@ -300,10 +312,22 @@ K ADC SPI analog digital
 F http://www.ti.com/lit/ds/symlink/ads8681.pdf
 $ENDCMP
 #
+$CMP ADS8684
+D 16-Bit, 500-kSPS, 4-Channels, Single-Supply, SAR ADC with Bipolar Input Range, TSSOP-38
+K adc analog digital spi bipolar input
+F http://www.ti.com/lit/ds/symlink/ads8688.pdf
+$ENDCMP
+#
 $CMP ADS8685RUM
 D 16-Bit, High-Speed, Single-Supply, SAR ADC Data Acquisition System with Programmable, Bipolar Input Ranges 500KSPS, QFN-16
 K ADC SPI analog digital
 F http://www.ti.com/lit/ds/symlink/ads8681.pdf
+$ENDCMP
+#
+$CMP ADS8688
+D 16-Bit, 500-kSPS, 8-Channels, Single-Supply, SAR ADC with Bipolar Input Range, TSSOP-38
+K adc analog digital spi bipolar input
+F http://www.ti.com/lit/ds/symlink/ads8688.pdf
 $ENDCMP
 #
 $CMP ADS8689RUM
@@ -326,133 +350,205 @@ $ENDCMP
 $CMP LTC1406CGN
 D ADC 8bit Low Power 20Msps, SSOP-24
 K Low Power ADC 8bit 20Msps
-F http://cds.linear.com/docs/en/datasheet/1406f.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1406f.pdf
 $ENDCMP
 #
 $CMP LTC1406IGN
 D ADC 8bit Low Power 20Msps, SSOP-24
 K Low Power ADC 8bit 20Msps
-F http://cds.linear.com/docs/en/datasheet/1406f.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1406f.pdf
 $ENDCMP
 #
 $CMP LTC1594CS
 D Micropower 12-bit 4 Channel ADC, Serial IO, SOIC-16
 K 12bit ADC 4 Channel
-F http://cds.linear.com/docs/en/datasheet/15948fb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/15948fb.pdf
 $ENDCMP
 #
 $CMP LTC1594IS
 D Micropower 12-bit 4 Channel ADC, Serial IO, SO-16
 K 12bit ADC 4 Channel
-F http://cds.linear.com/docs/en/datasheet/15948fb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/15948fb.pdf
 $ENDCMP
 #
 $CMP LTC1598CG
 D Micropower 12-bit 8 Channel ADC, Serial IO, SSOP-24
 K 12bit ADC 4 Channel
-F http://cds.linear.com/docs/en/datasheet/15948fb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/15948fb.pdf
 $ENDCMP
 #
 $CMP LTC1598IG
 D Micropower 12-bit 8 Channel ADC, Serial IO, SSOP-24
 K 12bit ADC 4 Channel
-F http://cds.linear.com/docs/en/datasheet/15948fb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/15948fb.pdf
 $ENDCMP
 #
 $CMP LTC1742
 D 14-Bit, 65Msps, Low Noise, ADC, TSSOP-48
 K ADC analog digital converter pipeline
-F http://www.analog.com/media/en/technical-documentation/data-sheets/1742f.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1742f.pdf
 $ENDCMP
 #
 $CMP LTC1744
 D 14-Bit, 50Msps, ADC, TSSOP-48
 K ADC analog digital converter pipeline
-F http://www.analog.com/media/en/technical-documentation/data-sheets/1744f.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1744f.pdf
 $ENDCMP
 #
 $CMP LTC1746
 D Low Power, 14-Bit, 25Msps, ADC, TSSOP-48
 K ADC analog digital converter pipeline
-F http://www.analog.com/media/en/technical-documentation/data-sheets/1746f.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1746f.pdf
 $ENDCMP
 #
 $CMP LTC1748
 D 14-Bit, 80Msps, Low Noise, ADC, TSSOP-48
 K ADC analog digital converter pipeline
-F http://www.analog.com/media/en/technical-documentation/data-sheets/1748fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1748fa.pdf
 $ENDCMP
 #
 $CMP LTC1864
 D Single channel 16-bit Analog to Digial Converter, 5V supply, differential input, 150ksps, SPI interface
 K sigma-delta adc spi 1ch
-F http://cds.linear.com/docs/en/datasheet/18645fb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/18645fb.pdf
 $ENDCMP
 #
 $CMP LTC1864L
 D Single channel 16-bit Analog to Digial Converter, 3V supply, differential input, 150ksps, SPI interface
 K sigma-delta adc spi 1ch
-F http://cds.linear.com/docs/en/datasheet/18645lfs.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/18645lfs.pdf
 $ENDCMP
 #
 $CMP LTC1865-MS
 D Dual channel 16-bit Analog to Digital Converter, 5V supply, 150ksps, SPI interface
 K sigma-delta adc 2ch
-F http://cds.linear.com/docs/en/datasheet/18645fb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/18645fb.pdf
 $ENDCMP
 #
 $CMP LTC1865-S8
 D Dual channel 16-bit Analog to Digital Converter, 5V supply, 150ksps, SPI interface
 K sigma-delta adc 2ch
-F http://cds.linear.com/docs/en/datasheet/18645fb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/18645fb.pdf
 $ENDCMP
 #
 $CMP LTC1865L-MS
 D Dual channel 16-bit Analog to Digital Converter, 3V supply, 150ksps, SPI interface
 K sigma-delta adc 2ch
-F http://cds.linear.com/docs/en/datasheet/18645lfs.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/18645lfs.pdf
 $ENDCMP
 #
 $CMP LTC1865L-S8
 D Dual channel 16-bit Analog to Digital Converter, 3V supply, 150ksps, SPI interface
 K sigma-delta adc 2ch
-F http://cds.linear.com/docs/en/datasheet/18645lfs.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/18645lfs.pdf
+$ENDCMP
+#
+$CMP LTC2282xUP
+D Dual-Channel, 12-Bit Low Power ADC, 105Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2282fb.pdf
+$ENDCMP
+#
+$CMP LTC2284xUP
+D Dual-Channel, 14-Bit Low Power ADC, 105Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2284fa.pdf
+$ENDCMP
+#
+$CMP LTC2290xUP
+D Dual-Channel, 12-Bit Low Power ADC, 10Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2290fa.pdf
+$ENDCMP
+#
+$CMP LTC2291xUP
+D Dual-Channel, 12-Bit Low Power ADC, 25Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/229321fa.pdf
+$ENDCMP
+#
+$CMP LTC2292xUP
+D Dual-Channel, 12-Bit Low Power ADC, 40Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/229321fa.pdf
+$ENDCMP
+#
+$CMP LTC2293xUP
+D Dual-Channel, 12-Bit Low Power ADC, 65Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/229321fa.pdf
+$ENDCMP
+#
+$CMP LTC2294xUP
+D Dual-Channel, 12-Bit Low Power ADC, 80Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2294fa.pdf
+$ENDCMP
+#
+$CMP LTC2295xUP
+D Dual-Channel, 14-Bit Low Power ADC, 10Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2295fa.pdf
+$ENDCMP
+#
+$CMP LTC2296xUP
+D Dual-Channel, 14-Bit Low Power ADC, 25Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/229876fa.pdf
+$ENDCMP
+#
+$CMP LTC2297xUP
+D Dual-Channel, 14-Bit Low Power ADC, 40Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/229876fa.pdf
+$ENDCMP
+#
+$CMP LTC2298xUP
+D Dual-Channel, 14-Bit Low Power ADC, 65Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/229876fa.pdf
+$ENDCMP
+#
+$CMP LTC2299xUP
+D Dual-Channel, 14-Bit Low Power ADC, 80Msps, QFN-64
+K ADC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2299fa.pdf
 $ENDCMP
 #
 $CMP LTC2309_QFN
 D 8 Channels, 12-Bit SAR ADC, I2C interface, QFN-24 package
 K LT ADC 12bit I2C SAR QFN
-F http://cds.linear.com/docs/en/datasheet/2309fd.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2309fd.pdf
 $ENDCMP
 #
 $CMP LTC2309_TSSOP
 D 8 Channels, 12-Bit SAR ADC, I2C interface, TSSOP-20 package
 K LT ADC 12bit I2C SAR TSSOP
-F http://cds.linear.com/docs/en/datasheet/2309fd.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2309fd.pdf
 $ENDCMP
 #
 $CMP LTC2358-16
 D LTC2358 Buffered Octal, 16 bit, 200ksps/Ch Differential +-10.24V Simultaneous Sampling ADC, 30Vpp common mode range, LQFP-48
 K 16bit Simultaneous Sampling ADC 8 Channels SPI buffered
-F http://www.analog.com/media/en/technical-documentation/data-sheets/235816f.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/235816f.pdf
 $ENDCMP
 #
 $CMP LTC2358-18
 D LTC2358 Buffered Octal, 18 bit, 200ksps/Ch Differential +-10.24V Simultaneous Sampling ADC, 30Vpp common mode range, LQFP-48
 K 18bit Simultaneous Sampling ADC 8 Channels SPI buffered
-F http://www.analog.com/media/en/technical-documentation/data-sheets/235818f.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/235818f.pdf
 $ENDCMP
 #
 $CMP LTC2508CDKD-32
-D 32-Bit Oversampling ADC with Configurable Digital Filter, 0°0C to 70°C, DFN-24 package
+D 32-Bit Oversampling ADC with Configurable Digital Filter, 0°C to 70°C, DFN-24 package
 K LT ADC 32bit
-F http://cds.linear.com/docs/en/datasheet/250832fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/250832fc.pdf
 $ENDCMP
 #
 $CMP LTC2508IDKD-32
 D 32-Bit Oversampling ADC with Configurable Digital Filter, -40°C to 85°C, DFN-24 package
 K LT ADC 32bit
-F http://cds.linear.com/docs/en/datasheet/250832fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/250832fc.pdf
 $ENDCMP
 #
 $CMP MAX1112
@@ -549,6 +645,12 @@ $CMP MCP3201
 D 2.7V 12-Bit A/D Converter with SPI™ Serial Interface, PDIP-8/SOIC-8/MSOP-8/TSSOP-8
 K 12-Bit Differential ADC SPI 1ch
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21290D.pdf
+$ENDCMP
+#
+$CMP MCP3202
+D A/D Converter, 12-Bit, 2-Channel, SPI Interface, 2.7V-5.5V
+K 12bit ADC Reference Single Supply SPI 2ch
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21034D.pdf
 $ENDCMP
 #
 $CMP MCP3204

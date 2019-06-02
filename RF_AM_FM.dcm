@@ -1,69 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP RFM69HCW
-D Low power ISM Radio Transceiver Module, SPI interface, AES encryption, 434 or 915 MHz, up to 100mW, up to 300 kb/s, SMD-16, DIP-16
-K low power Radio ISM Transceiver Module AES encryption SPI HopeRF
-F http://www.hoperf.com/upload/rf/RFM69HCW-V1.1.pdf
-$ENDCMP
-#
-$CMP RFM69HW
-D ISM Radio Transciever Module, SPI interface
-K Radio, ISM, Transciever, Module, AES
-F http://www.hoperf.com/upload/rf/RFM69HW-V1.3.pdf
-$ENDCMP
-#
-$CMP RFM69W
-D ISM Radio Transciever Module, SPI interface
-K Radio, ISM, Transciever, Module, AES
-F http://www.hoperf.com/upload/rf/RFM69W-V1.3.pdf
-$ENDCMP
-#
-$CMP RFM95W-868S2
-D Low power long range transceiver module, SPI and parallel interface, 868 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16
-K Low power long range transceiver module
-F http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf
-$ENDCMP
-#
-$CMP RFM95W-915S2
-D Low power long range transceiver module, SPI and parallel interface, 915 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16
-K Low power long range transceiver module
-F http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf
-$ENDCMP
-#
-$CMP RFM96W-315S2
-D Low power long range transceiver module, SPI and parallel interface, 315 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16
-K Low power long range transceiver module
-F http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf
-$ENDCMP
-#
-$CMP RFM96W-433S2
-D Low power long range transceiver module, SPI and parallel interface, 433 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16
-K Low power long range transceiver module
-F http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf
-$ENDCMP
-#
-$CMP RFM97W-868S2
-D Low power long range transceiver module, SPI and parallel interface, 868 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -139 dBm, SMD-16, DIP-16
-K Low power long range transceiver module
-F http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf
-$ENDCMP
-#
-$CMP RFM97W-915S2
-D Low power long range transceiver module, SPI and parallel interface, 915 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -139 dBm, SMD-16, DIP-16
-K Low power long range transceiver module
-F http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf
-$ENDCMP
-#
-$CMP RFM98W-315S2
-D Low power long range transceiver module, SPI and parallel interface, 315 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16
-K Low power long range transceiver module
-F http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf
-$ENDCMP
-#
-$CMP RFM98W-433S2
-D Low power long range transceiver module, SPI and parallel interface, 433 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16
-K Low power long range transceiver module
-F http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf
+$CMP MCS3142
+D Microchip KEELOQ classic / ultimate encoder - keyfob IC sending button state, serial and authentiation as PWM/manchester encoded AM/FM signal in ISM bands
+K KEELOQ classic ultimate keyless entry keyfob ISM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001747A.pdf
 $ENDCMP
 #
 $CMP SA605D
@@ -76,6 +16,12 @@ $CMP SA605DK
 D High performance monolithic low-power FM IF system, SSOP-20
 K High performance monolithic low-power FM IF system
 F https://www.nxp.com/docs/en/data-sheet/SA605.pdf
+$ENDCMP
+#
+$CMP SA636DK
+D Low-voltage, high performance, monolithic FM IF system with high-speed RSSI, SSOP-20
+K Low-voltage, monolithic, FM, IF, RSSI
+F https://www.nxp.com/docs/en/data-sheet/SA636.pdf
 $ENDCMP
 #
 $CMP Si4362
@@ -124,12 +70,6 @@ $CMP ZETA-915-SO
 D FM ZETA TRANSCEIVER MODULE, OPTIMISED FOR 915MHZ
 K RF TRANSCEIVER MODULE
 F https://www.rfsolutions.co.uk/downloads/1456219226DS-ZETA.pdf
-$ENDCMP
-#
-$CMP MCS3142
-D Microchip KEELOQ classic / ultimate encoder - keyfob IC sending button state, serial and authentiation as PWM/manchester encoded AM/FM signal in ISM bands
-K KEELOQ classic ultimate keyless entry keyfob ISM
-F http://ww1.microchip.com/downloads/en/DeviceDoc/40001747A.pdf
 $ENDCMP
 #
 #End Doc Library

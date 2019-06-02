@@ -306,6 +306,12 @@ K PCI 5V 3.3V 3V3
 F http://pinouts.ru/Slots/PCI_pinout.shtml
 $ENDCMP
 #
+$CMP Bus_PCI_Express_Mini
+D Mini-PCI Express bus connector
+K mini pcie
+F ~
+$ENDCMP
+#
 $CMP C64AB
 D Connector Europe 64 contacts ranges A,B
 K connector DIN
@@ -819,7 +825,7 @@ $ENDCMP
 $CMP Conn_ARM_JTAG_SWD_10
 D Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface
 K Cortex Debug Connector ARM SWD JTAG
-F http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf
+F http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf
 $ENDCMP
 #
 $CMP Conn_ARM_JTAG_SWD_20
@@ -1044,6 +1050,12 @@ K circular DIN connector
 F http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf
 $ENDCMP
 #
+$CMP ExpressCard
+D ExpressCard connector
+K expresscard pci express
+F https://web.archive.org/web/20180809060653/http://www.usb.org/developers/expresscard/EC_specifications/ExpressCard_2_0_FINAL.pdf
+$ENDCMP
+#
 $CMP HDMI_A
 D HDMI type A connector
 K hdmi conn
@@ -1120,6 +1132,12 @@ $CMP LEMO6
 D 6-pin LEMO connector
 K LEMO connector
 F  ~
+$ENDCMP
+#
+$CMP MXM3.0
+D MXM3.0 connector
+K MXM connector
+F ~
 $ENDCMP
 #
 $CMP Micro_SD_Card
@@ -1802,6 +1820,12 @@ $ENDCMP
 #
 $CMP XLR5
 D XLR Connector, Male or Female, 5 Pins
+K xlr connector
+F  ~
+$ENDCMP
+#
+$CMP XLR6
+D XLR Connector, Male or Female, 6 Pins
 K xlr connector
 F  ~
 $ENDCMP
