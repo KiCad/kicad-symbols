@@ -97,7 +97,7 @@ F https://simcom.ee/documents/SIM28ML/SIM28ML_Hardware%20Design_V1.01.pdf
 $ENDCMP
 #
 $CMP ZED-F9P
-D u-blox F9 high precision GNSS module, LGA-54
+D GNSS Module ZED F9, VCC 2.7V to 3.6V, LGA-54
 K u-blox GNSS multi-band RTK
 F https://www.u-blox.com/sites/default/files/ZED-F9P_DataSheet_%28UBX-17051259%29.pdf
 $ENDCMP
