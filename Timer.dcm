@@ -30,6 +30,24 @@ K Timer Counter
 F http://download.intel.com/design/archives/periphrl/docs/23124406.pdf
 $ENDCMP
 #
+$CMP AD9513
+D 800 MHz, 3 Outputs, Clock Distribution IC, Divider, Delay Adjust, LFCSP-32
+K clock distribution LVDS CMOS
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD9513.pdf
+$ENDCMP
+#
+$CMP AD9514
+D 1.6 GHz, 3 Outputs, Clock Distribution IC, Divider, Delay Adjust, LFCSP-32
+K clock distribution LVPECL LVDS CMOS
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD9514.pdf
+$ENDCMP
+#
+$CMP AD9515
+D 1.6 GHz, 2 Outputs, Clock Distribution IC, Divider, Delay Adjust, LFCSP-32
+K clock distribution LVPECL LVDS CMOS
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD9515.pdf
+$ENDCMP
+#
 $CMP ICM7209
 D Timebase generator, DIP-8
 K Timebase generator
