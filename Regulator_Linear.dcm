@@ -3120,6 +3120,72 @@ K LDO Linear Regulator adjustable
 F http://www.ti.com/lit/ds/symlink/lp3966.pdf
 $ENDCMP
 #
+$CMP LP3982ILD-1.8
+D 1.8V, 300mA, Micropower, Ultra-Low-Dropout, Low-Noise CMOS Regulator, WSON-8
+K linear regulator
+F http://www.ti.com/lit/ds/symlink/lp3982.pdf
+$ENDCMP
+#
+$CMP LP3982ILD-2.5
+D 2.5V, 300mA, Micropower, Ultra-Low-Dropout, Low-Noise CMOS Regulator, WSON-8
+K linear regulator
+F http://www.ti.com/lit/ds/symlink/lp3982.pdf
+$ENDCMP
+#
+$CMP LP3982ILD-3.0
+D 3.0V, 300mA, Micropower, Ultra-Low-Dropout, Low-Noise CMOS Regulator, WSON-8
+K linear regulator
+F http://www.ti.com/lit/ds/symlink/lp3982.pdf
+$ENDCMP
+#
+$CMP LP3982ILD-3.3
+D 3.3V, 300mA, Micropower, Ultra-Low-Dropout, Low-Noise CMOS Regulator, WSON-8
+K linear regulator
+F http://www.ti.com/lit/ds/symlink/lp3982.pdf
+$ENDCMP
+#
+$CMP LP3982ILD-ADJ
+D 300mA, Micropower, Ultra-Low-Dropout, Low-Noise Adjustable CMOS Regulator, WSON-8
+K adjustable linear regulator
+F http://www.ti.com/lit/ds/symlink/lp3982.pdf
+$ENDCMP
+#
+$CMP LP3982IMM-1.8
+D 1.8V, 300mA, Micropower, Ultra-Low-Dropout, Low-Noise CMOS Regulator, VSSOP-8
+K linear regulator
+F http://www.ti.com/lit/ds/symlink/lp3982.pdf
+$ENDCMP
+#
+$CMP LP3982IMM-2.5
+D 2.5V, 300mA, Micropower, Ultra-Low-Dropout, Low-Noise CMOS Regulator, VSSOP-8
+K linear regulator
+F http://www.ti.com/lit/ds/symlink/lp3982.pdf
+$ENDCMP
+#
+$CMP LP3982IMM-3.0
+D 3.0V, 300mA, Micropower, Ultra-Low-Dropout, Low-Noise CMOS Regulator, VSSOP-8
+K linear regulator
+F http://www.ti.com/lit/ds/symlink/lp3982.pdf
+$ENDCMP
+#
+$CMP LP3982IMM-3.3
+D 3.3V, 300mA, Micropower, Ultra-Low-Dropout, Low-Noise CMOS Regulator, VSSOP-8
+K linear regulator
+F http://www.ti.com/lit/ds/symlink/lp3982.pdf
+$ENDCMP
+#
+$CMP LP3982IMM-ADJ
+D 300mA, Micropower, Ultra-Low-Dropout, Low-Noise Adjustable CMOS Regulator, VSSOP-8
+K adjustable linear regulator
+F http://www.ti.com/lit/ds/symlink/lp3982.pdf
+$ENDCMP
+#
+$CMP LP3982IMMX-2.82
+D 2.82V, 300mA, Micropower, Ultra-Low-Dropout, Low-Noise CMOS Regulator, VSSOP-8
+K linear regulator
+F http://www.ti.com/lit/ds/symlink/lp3982.pdf
+$ENDCMP
+#
 $CMP LP5907MFX-1.2
 D 250-mA Ultra-Low-Noise Low-IQ LDO, 1.2V, SOT-23
 K Single Output LDO Low-Noise
