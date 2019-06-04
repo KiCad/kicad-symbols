@@ -121,8 +121,8 @@ K EEPROM FLASH 1MO
 $ENDCMP
 #
 $CMP SST25VF080B-50-4x-S2Ax
-D 8-Mbit, 2.7V Minimum SPI Serial Flash Memory, SOIC-8
-K SPI 8Mbit 2.7V
+D 8-Mbit, 2.7 to 3.6V, SPI Flash Memory, SOIC-8
+K flash memory spi
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005045C.pdf
 $ENDCMP
 #
