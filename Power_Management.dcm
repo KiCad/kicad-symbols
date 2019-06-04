@@ -828,28 +828,52 @@ K 1-channel USB current limiting power switch
 F https://datasheets.maximintegrated.com/en/ds/MAX8586.pdf
 $ENDCMP
 #
+$CMP MIC2025-1YM
+D Single-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, SOIC-8
+K mosfet distribution
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MIC2025-2075-Single-Channel-Power-Distribution-Switch-DS20006030A.pdf
+$ENDCMP
+#
+$CMP MIC2025-1YMM
+D Single-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, MSOP-8
+K mosfet distribution
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MIC2025-2075-Single-Channel-Power-Distribution-Switch-DS20006030A.pdf
+$ENDCMP
+#
+$CMP MIC2025-2YM
+D Single-channel, high side, power distribution switch, 2.7V-5.5V, Active Low Output, SOIC-8
+K mosfet distribution
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MIC2025-2075-Single-Channel-Power-Distribution-Switch-DS20006030A.pdf
+$ENDCMP
+#
+$CMP MIC2025-2YMM
+D Single-channel, high side, power distribution switch, 2.7V-5.5V, Active Low Output, MSOP-8
+K mosfet distribution
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MIC2025-2075-Single-Channel-Power-Distribution-Switch-DS20006030A.pdf
+$ENDCMP
+#
 $CMP MIC2026-1BM
-D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, in SOIC-8 Package
+D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, SOIC-8
 K mosfet distribution
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
 $ENDCMP
 #
 $CMP MIC2026-1BN
-D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, in DIP-8 Package
+D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, DIP-8
 K mosfet distribution
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
 $ENDCMP
 #
 $CMP MIC2026-2BM
-D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active Low Output, in SOIC-8 Package
+D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active Low Output, SOIC-8
 K mosfet distribution
-F http://www.micrel.com/_PDF/mic2026.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
 $ENDCMP
 #
 $CMP MIC2026-2BN
-D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active Low Output, in DIP-8 Package
+D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active Low Output, DIP-8
 K mosfet distribution
-F http://www.micrel.com/_PDF/mic2026.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
 $ENDCMP
 #
 $CMP MIC2587-1
@@ -970,6 +994,18 @@ $CMP TPS22993
 D Quad Channel Load Switch with GPIO and I2C Control, Bias voltage: 4.5V-17.2V, Input voltage: 1.0V-3.6V, Max 1.2A per channel, WQFN-20
 K quad channel power distribution/load switch
 F http://www.ti.com/lit/gpn/tps22993
+$ENDCMP
+#
+$CMP TPS2412D
+D N+1 and ORing Power Rail Controller, SOIC-8
+K ideal-diode or-ing
+F http://www.ti.com/lit/ds/symlink/tps2412.pdf
+$ENDCMP
+#
+$CMP TPS2412PW
+D N+1 and ORing Power Rail Controller, TSSOP-8
+K ideal-diode or-ing
+F http://www.ti.com/lit/ds/symlink/tps2412.pdf
 $ENDCMP
 #
 $CMP TPS2419D
