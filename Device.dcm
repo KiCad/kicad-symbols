@@ -102,6 +102,12 @@ K trimmer capacitor
 F ~
 $ENDCMP
 #
+$CMP CTRIM_Small
+D Trimmable capacitor, small symbol
+K trimmer variable capacitor
+F ~
+$ENDCMP
+#
 $CMP C_Feedthrough
 D Feedthrough capacitor
 K EMI filter feedthrough capacitor
@@ -120,21 +126,15 @@ K trimmer capacitor
 F ~
 $ENDCMP
 #
-$CMP CircuitBreaker_1P_US
-D Single pole circuit breaker, US symbol
-K CB
-F ~
-$ENDCMP
-#
 $CMP CircuitBreaker_1P
 D Single pole circuit breaker
 K CB
 F ~
 $ENDCMP
 #
-$CMP CircuitBreaker_2P_US
-D Double pole circuit breaker, US symbol
-K CB 2P
+$CMP CircuitBreaker_1P_US
+D Single pole circuit breaker, US symbol
+K CB
 F ~
 $ENDCMP
 #
@@ -144,14 +144,20 @@ K CB 2P
 F ~
 $ENDCMP
 #
-$CMP CircuitBreaker_3P_US
-D Triple pole circuit breaker, US symbol
-K CB 3P
+$CMP CircuitBreaker_2P_US
+D Double pole circuit breaker, US symbol
+K CB 2P
 F ~
 $ENDCMP
 #
 $CMP CircuitBreaker_3P
 D Triple pole circuit breaker
+K CB 3P
+F ~
+$ENDCMP
+#
+$CMP CircuitBreaker_3P_US
+D Triple pole circuit breaker, US symbol
 K CB 3P
 F ~
 $ENDCMP
@@ -552,6 +558,42 @@ K diode
 F ~
 $ENDCMP
 #
+$CMP D_Zener_x2_ACom_AKK
+D Dual Zener diode, common anode on pin 1
+K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_ACom_KAK
+D Dual Zener diode, common anode on pin 2
+K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_ACom_KKA
+D Dual Zener diode, common anode on pin 3
+K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_KCom_AAK
+D Dual Zener diode, common cathode on pin 3
+K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_KCom_AKA
+D Dual Zener diode, common cathode on pin 2
+K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_KCom_KAA
+D Dual Zener diode, common cathode on pin 1
+K diode zener dual
+F ~
+$ENDCMP
+#
 $CMP D_x2_ACom_AKK
 D Dual diode, common anode on pin 1
 K diode
@@ -774,6 +816,12 @@ K LED diode
 F ~
 $ENDCMP
 #
+$CMP LED_ABRG
+D RGB LED, anode/blue/red/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP LED_ALT
 D Light emitting diode, filled shape
 K LED diode
@@ -884,6 +932,18 @@ $ENDCMP
 #
 $CMP LED_RGB
 D RGB LED, 6 pin package
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RGBA
+D RGB LED, red/green/blue/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RGBC
+D RGB LED, red/green/blue/cathode
 K LED RGB diode
 F ~
 $ENDCMP
@@ -2006,6 +2066,12 @@ $ENDCMP
 #
 $CMP R_POT_Dual_Separate
 D Dual potentiometer, separate units
+K resistor variable
+F ~
+$ENDCMP
+#
+$CMP R_POT_Small
+D Potentiometer
 K resistor variable
 F ~
 $ENDCMP
