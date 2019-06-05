@@ -192,6 +192,12 @@ K rf power divider wilkinson
 F https://cdn.anaren.com/product-documents/Xinger/PowerDividers/PD4859J5050S2HF/PD4859J5050S2HF_DataSheet(Rev_D).pdf
 $ENDCMP
 #
+$CMP RF6555
+D 2.0V TO 3.6V, 2.4GHz Front End Module with LNA, PA and Diversity
+K FEM Front End Module RF 2.4GHz  2.5GHz PA LNA DIVERSITY
+F https://www.qorvo.com/products/d/da000550
+$ENDCMP
+#
 $CMP RMK-3-451
 D 3x Frequency Multiplier, output 300 to 450 MHz, 50 Ohm, Mini-Circuits TT1224
 K frequency multiplier
