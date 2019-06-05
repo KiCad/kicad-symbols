@@ -5412,6 +5412,12 @@ K Adjustable Voltage Regulator 1.5A Negative
 F http://www.irf.com/product-info/datasheets/hirel/om1323.pdf
 $ENDCMP
 #
+$CMP RT9048
+D 2A, Low Input Voltage, Ultra-Low Dropout Linear Regulator, SOP8
+K LDO low voltage low dropout enable
+F https://www.richtek.com/assets/product_file/RT9048/DS9048-02.pdf
+$ENDCMP
+#
 $CMP SPX2920M3-3.3_SOT223
 D 400mA Low drop-out regulator, Fixed Output 3.3V, SOT-223
 K REGULATOR LDO 3.3V
