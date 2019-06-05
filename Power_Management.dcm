@@ -780,6 +780,12 @@ K overvoltage undervoltage reverse-polarity protection
 F https://www.analog.com/media/en/technical-documentation/data-sheets/4365fa.pdf
 $ENDCMP
 #
+$CMP LTC4412xS6
+D Low Loss PowerPath Controller, TSOT-23-6
+K ideal-diode or-ing
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4412fb.pdf
+$ENDCMP
+#
 $CMP LTC4417CGN
 D Prioritized PowerPath Controller, Selects Highest Priority Supply from Three Inputs, SSOP
 K switch power FET sequence
@@ -820,6 +826,30 @@ $CMP MAX8586
 D Single 1.2A USB Current Limiting Switch
 K 1-channel USB current limiting power switch
 F https://datasheets.maximintegrated.com/en/ds/MAX8586.pdf
+$ENDCMP
+#
+$CMP MIC2025-1YM
+D Single-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, SOIC-8
+K mosfet distribution
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MIC2025-2075-Single-Channel-Power-Distribution-Switch-DS20006030A.pdf
+$ENDCMP
+#
+$CMP MIC2025-1YMM
+D Single-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, MSOP-8
+K mosfet distribution
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MIC2025-2075-Single-Channel-Power-Distribution-Switch-DS20006030A.pdf
+$ENDCMP
+#
+$CMP MIC2025-2YM
+D Single-channel, high side, power distribution switch, 2.7V-5.5V, Active Low Output, SOIC-8
+K mosfet distribution
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MIC2025-2075-Single-Channel-Power-Distribution-Switch-DS20006030A.pdf
+$ENDCMP
+#
+$CMP MIC2025-2YMM
+D Single-channel, high side, power distribution switch, 2.7V-5.5V, Active Low Output, MSOP-8
+K mosfet distribution
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MIC2025-2075-Single-Channel-Power-Distribution-Switch-DS20006030A.pdf
 $ENDCMP
 #
 $CMP MIC2026-1BM
@@ -964,6 +994,18 @@ $CMP TPS22993
 D Quad Channel Load Switch with GPIO and I2C Control, Bias voltage: 4.5V-17.2V, Input voltage: 1.0V-3.6V, Max 1.2A per channel, WQFN-20
 K quad channel power distribution/load switch
 F http://www.ti.com/lit/gpn/tps22993
+$ENDCMP
+#
+$CMP TPS2412D
+D N+1 and ORing Power Rail Controller, SOIC-8
+K ideal-diode or-ing
+F http://www.ti.com/lit/ds/symlink/tps2412.pdf
+$ENDCMP
+#
+$CMP TPS2412PW
+D N+1 and ORing Power Rail Controller, TSSOP-8
+K ideal-diode or-ing
+F http://www.ti.com/lit/ds/symlink/tps2412.pdf
 $ENDCMP
 #
 $CMP TPS2419D
