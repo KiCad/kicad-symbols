@@ -1434,6 +1434,12 @@ K diode Schottky
 F http://www.onsemi.com/pub_link/Collateral/MBR735-D.PDF
 $ENDCMP
 #
+$CMP MBRA340
+D 40V 3A Schottky Barrier Rectifier Diode, SMA
+K diode Schottky
+F https://www.onsemi.com/pub/Collateral/MBRA340T3-D.PDF
+$ENDCMP
+#
 $CMP MM3Zxx
 D 300mW Zener Diode, SOD-123F
 K zener diode
@@ -1548,6 +1554,12 @@ K diode
 F http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF
 $ENDCMP
 #
+$CMP NRVBA340
+D 40V 3A Schottky Barrier Rectifier Diode, SMA
+K diode Schottky
+F https://www.onsemi.com/pub/Collateral/MBRA340T3-D.PDF
+$ENDCMP
+#
 $CMP NSR0340HT1G
 D 40V 0.25A Schottky Diode, SOD-323
 K diode Schottky
@@ -1618,6 +1630,12 @@ $CMP SB160
 D 60V 1A Schottky Barrier Rectifier Diode, DO-41
 K diode Schottky
 F http://www.diodes.com/_files/datasheets/ds23022.pdf
+$ENDCMP
+#
+$CMP SBRA340T3G
+D 40V 3A Schottky Barrier Rectifier Diode, SMA
+K diode Schottky
+F https://www.onsemi.com/pub/Collateral/MBRA340T3-D.PDF
 $ENDCMP
 #
 $CMP SD103ATW
