@@ -3246,6 +3246,12 @@ K SMPS Converter
 F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
 $ENDCMP
 #
+$CMP NCP1529
+D 1.7MHz, 1A, High Efficiency, Low Ripple, Adjustable Output Voltage Step-down Converter, SOT-23-5
+K Step-Down Buck DC-DC Regulator Adjustable
+F https://www.onsemi.com/pub/Collateral/NCP1529-D.PDF
+$ENDCMP
+#
 $CMP NCV33063AVD
 D 1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, SO-8
 K smps buck boost inverting
