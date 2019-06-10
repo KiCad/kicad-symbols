@@ -114,6 +114,18 @@ K 16 channel LED controller with audio modulation mode
 F http://www.issi.com/WW/pdf/IS31FL3216A.pdf
 $ENDCMP
 #
+$CMP IS31FL3218-GR
+D 18 LED matrix driver with 8-bit PWM, SOP-24
+K led matrix pwm
+F http://www.issi.com/WW/pdf/31FL3218.pdf
+$ENDCMP
+#
+$CMP IS31FL3218-QF
+D 18 LED matrix driver with 8-bit PWM, QFN-24
+K led matrix pwm
+F http://www.issi.com/WW/pdf/31FL3218.pdf
+$ENDCMP
+#
 $CMP IS31FL3731-QF
 D 9x16 LED matrix driver with 8-bit PWM and breathing, QFN-28
 K led matrix pwm
