@@ -2196,8 +2196,8 @@ K XP_POWER isolated DC/DC Converter module
 F https://www.xppower.com/Portals/0/pdfs/SF_JTE06.pdf
 $ENDCMP
 #
-$CMP MGJ3
-D 5.2kVDC Isolated 3W Gate Drive, Dual Output Voltage, 4.5-36V Vin
+$CMP MGJ3T05150505MC
+D 5.2kVDC Isolated 3W Gate Drive, 4.5-9V Vin, +15V/-5V or +15V/-10V or +20V/-5V Vout
 K DC/DC converter
 F https://power.murata.com/datasheet?/data/power/ncl/kdc_mgj3.pdf
 $ENDCMP
