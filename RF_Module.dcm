@@ -6,6 +6,12 @@ K Ra-01 LoRa
 F https://mikroelectron.com/Product/10KM-433M-LORA-LONG-RANGE-WIRELESS-MODULE-RA-01
 $ENDCMP
 #
+$CMP Ai-Thinker-Ra-02
+D Ai-Thinker LoRa Module Ra-02
+K Ra-02 LoRa
+F https://ecksteinimg.de/Datasheet/AI-Thinker/ra-02_product_specification_v1.1.pdf
+$ENDCMP
+#
 $CMP CMWX1ZZABZ-078
 D LoRa/SigFox Module, STM32L082 MCU, muRata CMWX1ZZABZ
 K iot lora sigfox
