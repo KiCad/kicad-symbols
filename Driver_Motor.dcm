@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP L9110
+D H-Bridge Motor Driver, SOP-8
+F https://www.elecrow.com/download/datasheet-l9110.pdf
+$ENDCMP
+#
 $CMP A4950E
 D Full-Bridge, DMOS PWM, Motor Driver, 40V, 3.5A, -40 to +85C
 K full-bridge h-bridge
