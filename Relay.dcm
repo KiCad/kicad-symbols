@@ -612,6 +612,30 @@ K TE DPST NO monostable
 F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FRT2%7F1014%7Fpdf%7FEnglish%7FENG_DS_RT2_1014.pdf%7F6-1393243-3
 $ENDCMP
 #
+$CMP RZ03-1A4-D006
+D Schrack Power PCB relay, monostable single pole dual throw, single DC coil, 6V
+K Single Pole Relay SPDT
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RZ&DocType=DS&DocLang=English
+$ENDCMP
+#
+$CMP RZ03-1A4-D012
+D Schrack Power PCB relay, monostable single pole dual throw, single DC coil, 12V
+K Single Pole Relay SPDT
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RZ&DocType=DS&DocLang=English
+$ENDCMP
+#
+$CMP RZ03-1A4-D024
+D Schrack Power PCB relay, monostable single pole dual throw, single DC coil, 24V
+K Single Pole Relay SPDT
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RZ&DocType=DS&DocLang=English
+$ENDCMP
+#
+$CMP RZxx-1xx-D0x
+D Schrack Power PCB relay, monostable single pole dual throw, single DC coil
+K Single Pole Relay SPDT
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RZ&DocType=DS&DocLang=English
+$ENDCMP
+#
 $CMP SANYOU_SRD_Form_A
 D Sanyo SRD relay, Single Pole Miniature Power Relay, Closing Contact
 K Single Pole Relay SPST
