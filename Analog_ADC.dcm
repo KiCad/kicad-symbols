@@ -341,8 +341,32 @@ D Convertisseur A->D 6 bits rapide
 K ADC CAN
 $ENDCMP
 #
+$CMP INA219AxD
+D Zero-Drift, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOIC-8
+K ADC I2C 16-Bit Oversampling Current Shunt
+F http://www.ti.com/lit/ds/symlink/ina219.pdf
+$ENDCMP
+#
+$CMP INA219AxDCN
+D Zero-Drift, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOT-23-8
+K ADC I2C 16-Bit Oversampling Current Shunt
+F http://www.ti.com/lit/ds/symlink/ina219.pdf
+$ENDCMP
+#
+$CMP INA219BxD
+D Zero-Drift, HighAccuracy, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOIC-8
+K ADC I2C 16-Bit Oversampling Current Shunt
+F http://www.ti.com/lit/ds/symlink/ina219.pdf
+$ENDCMP
+#
+$CMP INA219BxDCN
+D Zero-Drift, HighAccuracy, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOT-23-8
+K ADC I2C 16-Bit Oversampling Current Shunt
+F http://www.ti.com/lit/ds/symlink/ina219.pdf
+$ENDCMP
+#
 $CMP INA226
-D High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C Compatible Interface, MSOP-10
+D High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C Compatible Interface, VSSOP-10
 K ADC I2C 16-Bit Oversampling Current Shunt
 F http://www.ti.com/lit/ds/symlink/ina226.pdf
 $ENDCMP

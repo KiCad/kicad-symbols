@@ -114,6 +114,42 @@ K 16 channel LED controller with audio modulation mode
 F http://www.issi.com/WW/pdf/IS31FL3216A.pdf
 $ENDCMP
 #
+$CMP IS31FL3731-QF
+D 9x16 LED matrix driver with 8-bit PWM and breathing, QFN-28
+K led matrix pwm
+F http://www.issi.com/WW/pdf/31FL3731.pdf
+$ENDCMP
+#
+$CMP IS31FL3731-SA
+D 9x16 LED matrix driver with 8-bit PWM and breathing, SSOP-28
+K led matrix pwm
+F http://www.issi.com/WW/pdf/31FL3731.pdf
+$ENDCMP
+#
+$CMP IS31FL3733-QF
+D 12x16 LED matrix driver with 8-bit PWM and breathing, QFN-48
+K led matrix pwm
+F http://www.issi.com/WW/pdf/IS31FL3733.pdf
+$ENDCMP
+#
+$CMP IS31FL3733-TQ
+D 12x16 LED matrix driver with 8-bit PWM and breathing, TQFP-48
+K led matrix pwm
+F http://www.issi.com/WW/pdf/IS31FL3733.pdf
+$ENDCMP
+#
+$CMP IS31FL3736
+D 12x8 LED matrix driver with 8-bit PWM and breathing, QFN-40
+K led matrix pwm
+F http://www.issi.com/WW/pdf/31FL3736.pdf
+$ENDCMP
+#
+$CMP IS31FL3737
+D 12x12 LED matrix driver with 8-bit PWM and breathing, QFN-40
+K led matrix pwm
+F http://www.issi.com/WW/pdf/31FL3737.pdf
+$ENDCMP
+#
 $CMP IS31LT3360
 D Constant current  LED driver, internal switch, up to 40V/1.2A, SOT-89-5
 K Switching LED driver
