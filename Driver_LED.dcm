@@ -216,6 +216,12 @@ K LED driver
 F https://www.monolithicpower.com/pub/media/document/MPQ2483_r1.05.pdf
 $ENDCMP
 #
+$CMP PCA9635
+D 16-bit PWM Fm+ I2C-bus LED driver, TSSOP-28
+K led pwm rgb rgba
+F https://www.nxp.com/docs/en/data-sheet/PCA9635.pdf
+$ENDCMP
+#
 $CMP PCA9685BS
 D 16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA QFN
 K PWM LED driver I2C QFN
