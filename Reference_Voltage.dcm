@@ -1,9 +1,33 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP AD586
-D High Precision, 5 V Reference, DIP-8, SO-8
+D High Precision, 5V Reference, DIP-8, SO-8
 K voltage reference
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD586.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD586.pdf
+$ENDCMP
+#
+$CMP ADR420ARMZ
+D 2.048V Voltage Reference, Ultraprecision, Low Noise, MSOP-8
+K voltage reference Ultraprecision Low Noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adr420_421_423_425.pdf
+$ENDCMP
+#
+$CMP ADR421ARMZ
+D 2.50V Voltage Reference, Ultraprecision, Low Noise, MSOP-8
+K 2.5V voltage reference
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adr420_421_423_425.pdf
+$ENDCMP
+#
+$CMP ADR423ARMZ
+D 3.00V Voltage Reference, Ultraprecision, Low Noise, MSOP-8
+K 3V voltage reference
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adr420_421_423_425.pdf
+$ENDCMP
+#
+$CMP ADR425ARMZ
+D 5.00V Voltage Reference, Ultraprecision, Low Noise, MSOP-8
+K 5V voltage reference
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adr420_421_423_425.pdf
 $ENDCMP
 #
 $CMP CJ432
@@ -51,13 +75,13 @@ $ENDCMP
 $CMP LM285S-1.2
 D 1.235V Micropower Voltage Reference Diodes, SO-8
 K diode device voltage reference
-F http://cds.linear.com/docs/en/datasheet/185fc.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/185fc.pdf
 $ENDCMP
 #
 $CMP LM285S-2.5
 D 2.500V Micropower Voltage Reference Diodes, SO-8
 K diode device voltage reference
-F http://cds.linear.com/docs/en/datasheet/185fc.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/185fc.pdf
 $ENDCMP
 #
 $CMP LM285Z-1.2
@@ -78,7 +102,7 @@ K diode device voltage reference
 F http://www.ti.com/lit/ds/symlink/lm185-adj.pdf
 $ENDCMP
 #
-$CMP LM358Z-2.5
+$CMP LM385Z-2.5
 D 2.5V Micropower Voltage Reference Diodes, TO-92
 K diode device voltage reference
 F http://www.onsemi.com/pub_link/Collateral/LM285-D.PDF
@@ -117,13 +141,13 @@ $ENDCMP
 $CMP LM385S-1.2
 D 1.235V Micropower Voltage Reference Diodes, SO-8
 K diode device voltage reference
-F http://cds.linear.com/docs/en/datasheet/185fc.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/185fc.pdf
 $ENDCMP
 #
 $CMP LM385S-2.5
 D 2.500V Micropower Voltage Reference Diodes, SO-8
 K diode device voltage reference
-F http://cds.linear.com/docs/en/datasheet/185fc.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/185fc.pdf
 $ENDCMP
 #
 $CMP LM385Z-1.2
@@ -300,40 +324,94 @@ K Precision Micropower Low Dropout Voltage Reference 2.5V
 F http://www.ti.com/lit/ds/symlink/lm4125.pdf
 $ENDCMP
 #
+$CMP LM4128
+D 2.5V ±0.2% Precision Micropower Low Dropout Voltage Reference, SOT-23-5
+K Precision Micropower Low Dropout Voltage Reference 2.5V
+F http://www.ti.com/lit/ds/symlink/lm4128.pdf
+$ENDCMP
+#
+$CMP LT1019xN8
+D Precision Reference, Ultra Low Drift, DIP-8
+K voltage reference vref
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1019fd.pdf
+$ENDCMP
+#
+$CMP LT1790-1.25
+D 1.25V Voltage Reference, Low Dropout, Micropower, TSOT-23-6
+K voltage reference Micropower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1790fc.pdf
+$ENDCMP
+#
+$CMP LT1790-2.048
+D 2.048V Voltage Reference, Low Dropout, Micropower, TSOT-23-6
+K voltage reference Micropower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1790fc.pdf
+$ENDCMP
+#
+$CMP LT1790-2.5
+D 2.5V Voltage Reference, Low Dropout, Micropower, TSOT-23-6
+K voltage reference Micropower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1790fc.pdf
+$ENDCMP
+#
+$CMP LT1790-3
+D 3V Voltage Reference, Low Dropout, Micropower, TSOT-23-6
+K voltage reference Micropower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1790fc.pdf
+$ENDCMP
+#
+$CMP LT1790-3.3
+D 3.3V Voltage Reference, Low Dropout, Micropower, TSOT-23-6
+K voltage reference Micropower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1790fc.pdf
+$ENDCMP
+#
+$CMP LT1790-4.096
+D 4.096V Voltage Reference, Low Dropout, Micropower, TSOT-23-6
+K voltage reference Micropower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1790fc.pdf
+$ENDCMP
+#
+$CMP LT1790-5
+D 5V Voltage Reference, Low Dropout, Micropower, TSOT-23-6
+K voltage reference Micropower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1790fc.pdf
+$ENDCMP
+#
 $CMP LT6657AHMS8-2.5
 D Precision voltage reference, 40V input, 10mA output, 1.5ppm/C drift, 2.5V output, MSOP-8
 K voltage reference vref
-F http://cds.linear.com/docs/en/datasheet/6657fb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6657fd.pdf
 $ENDCMP
 #
 $CMP LT6657AHMS8-3
 D Precision voltage reference, 40V input, 10mA output, 1.5ppm/C drift, 3.0V output, MSOP-8
 K voltage reference vref
-F http://cds.linear.com/docs/en/datasheet/6657fb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6657fd.pdf
 $ENDCMP
 #
 $CMP LT6657AHMS8-5
 D Precision voltage reference, 40V input, 10mA output, 1.5ppm/C drift, 5.0V output, MSOP-8
 K voltage reference vref
-F http://cds.linear.com/docs/en/datasheet/6657fb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6657fd.pdf
 $ENDCMP
 #
 $CMP LT6657BHMS8-2.5
 D Precision voltage reference, 40V input, 10mA output, 3.0ppm/C drift, 2.5V output, MSOP-8
 K voltage reference vref
-F http://cds.linear.com/docs/en/datasheet/6657fb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6657fd.pdf
 $ENDCMP
 #
 $CMP LT6657BHMS8-3
 D Precision voltage reference, 40V input, 10mA output, 3.0ppm/C drift, 3.0V output, MSOP-8
 K voltage reference vref
-F http://cds.linear.com/docs/en/datasheet/6657fb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6657fd.pdf
 $ENDCMP
 #
 $CMP LT6657BHMS8-5
 D Precision voltage reference, 40V input, 10mA output, 3.0ppm/C drift, 5.0V output, MSOP-8
 K voltage reference vref
-F http://cds.linear.com/docs/en/datasheet/6657fb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6657fd.pdf
 $ENDCMP
 #
 $CMP MAX6100
@@ -501,43 +579,43 @@ $ENDCMP
 $CMP REF191
 D Precision voltage references 2.048V, DIP-8/SO-8/TSSOP-8
 K Precision voltage references
-F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+F https://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
 $ENDCMP
 #
 $CMP REF192
 D Precision voltage references 2.5V, DIP-8/SO-8/TSSOP-8
 K Precision voltage references
-F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+F https://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
 $ENDCMP
 #
 $CMP REF193
 D Precision voltage references 3V, DIP-8/SO-8/TSSOP-8
 K Precision voltage references
-F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+F https://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
 $ENDCMP
 #
 $CMP REF194
 D Precision voltage references 4.5V, DIP-8/SO-8/TSSOP-8
 K Precision voltage references
-F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+F https://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
 $ENDCMP
 #
 $CMP REF195
 D Precision voltage references 5V, DIP-8/SO-8/TSSOP-8
 K Precision voltage references
-F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+F https://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
 $ENDCMP
 #
 $CMP REF196
 D Precision voltage references 3.3V, DIP-8/SO-8/TSSOP-8
 K Precision voltage references
-F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+F https://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
 $ENDCMP
 #
 $CMP REF198
 D Precision voltage references 4.096V, DIP-8/SO-8/TSSOP-8
 K Precision voltage references
-F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+F https://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
 $ENDCMP
 #
 $CMP REF3012
@@ -858,20 +936,32 @@ K diode device shunt regulator
 F http://www.ti.com/lit/ds/symlink/tl431.pdf
 $ENDCMP
 #
+$CMP TLE2425xD
+D Precision virtual ground, 2.5V output, SOIC-8
+K Rail splitter precision virtual ground 2.5V
+F http://www.ti.com/lit/ds/symlink/tle2425.pdf
+$ENDCMP
+#
+$CMP TLE2425xLP
+D Precision virtual ground, 2.5V output, TO-92
+K Rail splitter precision virtual ground 2.5V
+F http://www.ti.com/lit/ds/symlink/tle2425.pdf
+$ENDCMP
+#
 $CMP TLE2426xD
-D Rail splitter precision virtual ground with noice reduction, 4V to 40V, SO-8
+D Precision virtual ground, noise reduction pin, 4V to 40V input, SOIC-8
 K Rail splitter precision virtual ground
 F http://www.ti.com/lit/ds/symlink/tle2426.pdf
 $ENDCMP
 #
 $CMP TLE2426xLP
-D Rail splitter precision virtual ground, 4V to 40V, narrow TO-92
+D Precision virtual ground, 4V to 40V input, TO-92
 K Rail splitter precision virtual ground
 F http://www.ti.com/lit/ds/symlink/tle2426.pdf
 $ENDCMP
 #
 $CMP TLE2426xP
-D Rail splitter precision vitrual ground with noice reduction, 4V to 40V, 0 to +70 degree, DIP-8
+D Precision virtual ground, noise reduction pin, 4V to 40V input, DIP-8
 K Rail splitter precision vitrual ground
 F http://www.ti.com/lit/ds/symlink/tle2426.pdf
 $ENDCMP

@@ -30,37 +30,37 @@ $ENDCMP
 $CMP ADM101E
 D Single RS232 driver/receiver, 5V supply, 460kb/s
 K rs232 uart transceiver line-driver
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM101E.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM101E.pdf
 $ENDCMP
 #
 $CMP ADM1491EBR
 D RS-485, RS-422 full duplex 16Mbps transceiver, SOIC-14
 K RS485 RS422 transceiver full duplex
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM1490E_1491E.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM1490E_1491E.pdf
 $ENDCMP
 #
 $CMP ADM222
 D Dual RS232 driver/receiver, 5V supply, 200kb/s
 K rs232 uart transceiver
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
 $ENDCMP
 #
 $CMP ADM232A
 D Dual RS232 driver/receiver, 5V supply, 200kb/s
 K rs232 uart transceiver line-driver
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
 $ENDCMP
 #
 $CMP ADM242
 D Dual RS232 driver/receiver, 5V supply, 200kb/s, separate shutdown/enable pins
 K rs232 uart transceiver
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
 $ENDCMP
 #
 $CMP ADM2484E
 D Isolated RS485/RS422 Transceiver, Half-/Full-Duplex, 500kbps,SOIC-16W
 K RS485 Transceiver RS422 Transceiver
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM2484E.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM2484E.pdf
 $ENDCMP
 #
 $CMP ADM2582E
@@ -73,6 +73,18 @@ $CMP ADM2587E
 D Isolated RS485/RS422 Transciever,Integrated Isolated DC-DC Converter, 500kbps,SO-20
 K RS485 Transciever,RS422 Transciever
 F www.analog.com/media/en/technical-documentation/data-sheets/ADM2582E_2587E.pdf
+$ENDCMP
+#
+$CMP ADM2682E
+D Isolated RS485/RS422 Transciever, Integrated Isolated DC-DC Converter, 16Mbps, SOIC-16W
+K RS485 Transciever, RS422 Transciever, Isopower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM2682E_2687E.pdf
+$ENDCMP
+#
+$CMP ADM2687E
+D Isolated RS485/RS422 Transciever, Integrated Isolated DC-DC Converter, 500kbps, SOIC-16W
+K RS485 Transciever, RS422 Transciever, Isopower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM2682E_2687E.pdf
 $ENDCMP
 #
 $CMP GD65232DB
@@ -129,6 +141,12 @@ K RS485 RS422 transceiver full duplex
 F http://www.intersil.com/content/dam/Intersil/documents/isl8/isl83483-85-88-90-91.pdf
 $ENDCMP
 #
+$CMP ISO1500
+D Half duplex RS-485/RS-422 transceiver, 3-kVRMS Isolated, SSOP-16
+K RS-485 RS422 transceiver isolated
+F http://www.ti.com/lit/ds/symlink/iso1500.pdf
+$ENDCMP
+#
 $CMP ISO3082DW
 D 200 kbps, Isolated 5-V Half-Duplex RS-485 transceiver, SOIC-16
 K RS-485
@@ -144,7 +162,7 @@ $ENDCMP
 $CMP LT1080
 D Dual RS232 driver/receiver, 5V supply, 120kb/s
 K rs232 uart transceiver
-F http://cds.linear.com/docs/en/datasheet/10801fe.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/10801fe.pdf
 $ENDCMP
 #
 $CMP LTC2861
@@ -229,6 +247,12 @@ $CMP MAX3078E
 D +3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers
 K Low Power Half-Duplex RS-485 RS-422 Transceiver
 F https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf
+$ENDCMP
+#
+$CMP MAX3218
+D Dual RS-232 Transceiver, 1.8V to 4.25V, AutoShutdown, DIP-20/SSOP-20
+K 1μA Supply Current
+F https://datasheets.maximintegrated.com/en/ds/MAX3218.pdf
 $ENDCMP
 #
 $CMP MAX3221
