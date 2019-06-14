@@ -90,6 +90,18 @@ K hall switch
 F http://www.allegromicro.com/~/media/Files/Datasheets/A3213-4-Datasheet.ashx
 $ENDCMP
 #
+$CMP AAT003-10E
+D Low-Resistance TMR Angle Sensor, Half Bridge, TDFN6
+K tmr angle sensor magnetic position
+F https://www.nve.com/Downloads/AAT003.pdf
+$ENDCMP
+#
+$CMP AAT101-10E
+D Low-Resistance TMR Angle Sensor, Full Bridge, TDFN6
+K tmr angle sensor magnetic position
+F https://www.nve.com/Downloads/AAT101.pdf
+$ENDCMP
+#
 $CMP AH1806-P
 D High Sensitivity Micropower Omnipolar Hall-Effect Switch, SIP-3
 K hall switch
