@@ -2202,6 +2202,18 @@ K DC/DC converter
 F https://power.murata.com/datasheet?/data/power/ncl/kdc_mgj3.pdf
 $ENDCMP
 #
+$CMP MGJ3T12150505MC
+D 5.2kVDC Isolated 3W Gate Drive, 9-18V Vin, +15V/-5V or +15V/-10V or +20V/-5V Vout
+K DC/DC converter
+F https://power.murata.com/datasheet?/data/power/ncl/kdc_mgj3.pdf
+$ENDCMP
+#
+$CMP MGJ3T24150505MC
+D 5.2kVDC Isolated 3W Gate Drive, 18-36V Vin, +15V/-5V or +15V/-10V or +20V/-5V Vout
+K DC/DC converter
+F https://power.murata.com/datasheet?/data/power/ncl/kdc_mgj3.pdf
+$ENDCMP
+#
 $CMP NCS1S1203SC
 D Isolated 1W 4:1 input DC/DC converter module, 4.5-18V input voltage, 3.3V output voltage, SIP
 K Murata isolated isolation dc-dc converter step-down
