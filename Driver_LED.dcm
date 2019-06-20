@@ -103,14 +103,14 @@ F https://www.mouser.com/ds/2/268/HV9972-272498-1181261.pdf
 $ENDCMP
 #
 $CMP IS31FL3216
-D 16 channel LED controller with audio modulation mode, VCC +2.7 to +5.5V, -40 to +85 degree, QFN-28
-K 16 channel LED controller with audio modulation mode
+D 16 channel LED controller with audio modulation mode, QFN-28
+K led pwm audio
 F http://www.issi.com/WW/pdf/IS31FL3216.pdf
 $ENDCMP
 #
 $CMP IS31FL3216A
-D 16 channel LED controller with audio modulation mode, VCC +2.7 to +5.5V, -40 to +125 degree, QFN-28
-K 16 channel LED controller with audio modulation mode
+D 16 channel LED controller with audio modulation mode, QFN-28
+K led pwm audio
 F http://www.issi.com/WW/pdf/IS31FL3216A.pdf
 $ENDCMP
 #
