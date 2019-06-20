@@ -48,13 +48,13 @@ K 16-Bit 4-Channel 250kSPS
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7682_7689.pdf
 $ENDCMP
 #
-$CMP AD7689xxPZ
+$CMP AD7689xCP
 D 16-Bit, 8-Channel, 250 kSPS PulSAR ADC, LFSCP-20
 K ADC, SPI
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7682_7689.pdf
 $ENDCMP
 #
-$CMP AD7699xxPZ
+$CMP AD7699BCP
 D 16-Bit, 8-Channel, 500 kSPS PulSAR ADC, LFSCP-20
 K ADC, SPI
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7699.pdf
@@ -90,7 +90,7 @@ K CAD
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7819.pdf
 $ENDCMP
 #
-$CMP AD7949
+$CMP AD7949BCP
 D 14-Bit, 8-Channel, 250 kSPS PulSAR ADC, LFSCP-20
 K ADC, SPI
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7949.pdf
