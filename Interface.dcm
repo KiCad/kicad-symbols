@@ -183,6 +183,12 @@ K lvds driver reciever
 F http://www.onsemi.com/pub/Collateral/FIN1019-D.pdf
 $ENDCMP
 #
+$CMP HT12D
+D 2^12 Series of Decoder
+K Series Decoder
+F https://www.farnell.com/datasheets/1525377.pdf
+$ENDCMP
+#
 $CMP LTC1518
 D 52Mbps Precision Delay RS485 Quad Line Receivers
 K receiver rs485 rs422 differential
