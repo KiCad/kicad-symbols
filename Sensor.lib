@@ -73,10 +73,10 @@ ENDDEF
 #
 # BME280
 #
-DEF BME280 U 0 40 Y Y 1 F N
-F0 "U" 300 500 50 H V C CNN
-F1 "BME280" 300 -500 50 H V C CNN
-F2 "Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering" 0 -200 50 H I C CNN
+DEF BME280 U 0 20 Y Y 1 F N
+F0 "U" -350 450 50 H V C CNN
+F1 "BME280" 300 450 50 H V C CNN
+F2 "Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering" 1500 -450 50 H I C CNN
 F3 "" 0 -200 50 H I C CNN
 $FPLIST
  *LGA*2.5x2.5mm*P0.65mm*Clockwise*
@@ -96,10 +96,10 @@ ENDDEF
 #
 # BME680
 #
-DEF BME680 U 0 40 Y Y 1 F N
-F0 "U" 300 500 50 H V C CNN
-F1 "BME680" 300 -500 50 H V C CNN
-F2 "Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering" 0 -200 50 H I C CNN
+DEF BME680 U 0 20 Y Y 1 F N
+F0 "U" -350 450 50 H V C CNN
+F1 "BME680" 300 450 50 H V C CNN
+F2 "Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering" 1450 -450 50 H I C CNN
 F3 "" 0 -200 50 H I C CNN
 $FPLIST
  *LGA*3x3mm*P0.8mm*Clockwise*
