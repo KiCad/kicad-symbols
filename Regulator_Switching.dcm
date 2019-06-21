@@ -1,9 +1,39 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 171050601
+D MagI3C Power Module, Variable Step Down Regulator Module, 6 to 36V Input Voltage, 0.8 to 6V, 5A Output, TO-263
+K power module regulator
+F https://katalog.we-online.de/pm/datasheet/171050601.pdf
+$ENDCMP
+#
 $CMP A4403GEU
 D Valley current mode buck converter, 46V, 3A, up to 2MHz, QFN-16
 K buck regulator adjustable
 F https://www.allegromicro.com/~/media/Files/Datasheets/A4403-Datasheet.ashx
+$ENDCMP
+#
+$CMP AAT1217ICA-1.2
+D 600mA, 2.5-5.5V, 1.2MHz, Micropower Synchronous Step-Up Converter, TSOT-23-6
+K regulator step-up adjustable
+F http://www.skyworksinc.com/uploads/documents/AAT1217_202050B.pdf
+$ENDCMP
+#
+$CMP AAT1217ICA-3.3
+D 600mA, 3.3V, 1.2MHz, Micropower Synchronous Step-Up Converter, TSOT-23-6
+K regulator step-up
+F http://www.skyworksinc.com/uploads/documents/AAT1217_202050B.pdf
+$ENDCMP
+#
+$CMP AAT1217ICA-5.0
+D 600mA, 5.0V, 1.2MHz, Micropower Synchronous Step-Up Converter, TSOT-23-6
+K regulator step-up
+F http://www.skyworksinc.com/uploads/documents/AAT1217_202050B.pdf
+$ENDCMP
+#
+$CMP AAT1217IGU-3.3
+D 600mA, 3.3V, 1.2MHz, Micropower Synchronous Step-Up Converter, SOT-23-6
+K regulator step-up
+F http://www.skyworksinc.com/uploads/documents/AAT1217_202050B.pdf
 $ENDCMP
 #
 $CMP ADP1108AN
@@ -1168,6 +1198,12 @@ $CMP LM2596T-ADJ
 D Adjustable 3A 150kHz Step-Down Voltage Regulator, TO-220
 K Step-Down Voltage Regulator Adjustable 3A
 F http://www.ti.com/lit/ds/symlink/lm2596.pdf
+$ENDCMP
+#
+$CMP LM26480SQ
+D Dual 1.5A 2MHz Buck Regulators and Dual 300mA LDOs, WQFN-24
+K Dual Buck Regulator LDO 2MHz 1.5A 300mA
+F http://www.ti.com/lit/ds/symlink/lm26480.pdf
 $ENDCMP
 #
 $CMP LM2672M-12
@@ -3210,6 +3246,12 @@ K SMPS Converter
 F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
 $ENDCMP
 #
+$CMP NCP1529A
+D 1.7MHz, 1A, High Efficiency, Low Ripple, Adjustable Output Voltage Step-down Converter, SOT-23-5
+K Step-Down Buck DC-DC Regulator Adjustable
+F https://www.onsemi.com/pub/Collateral/NCP1529-D.PDF
+$ENDCMP
+#
 $CMP NCV33063AVD
 D 1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, SO-8
 K smps buck boost inverting
@@ -5188,6 +5230,24 @@ $CMP TPS61202DSC
 D Low Input Voltage Synchronous Boost Converter With 1.3A Switches, Fixed 5V Output Voltage, 0.3-5.5V Input Voltage, WSON-10
 K boost step-up DC/DC synchronous
 F http://www.ti.com/lit/ds/symlink/tps61200.pdf
+$ENDCMP
+#
+$CMP TPS61220DCK
+D 400 mA Step-Up Converter, Adjustable Output Voltage, 0.7-5.5V Input Voltage, SC-70
+K Boost adjustable converter
+F http://www.ti.com/lit/ds/symlink/tps61220.pdf
+$ENDCMP
+#
+$CMP TPS61221DCK
+D 400 mA Step-Up Converter, Fixed 3.3V Output Voltage, 0.7-5.5V Input Voltage, SC-70
+K Boost adjustable converter
+F http://www.ti.com/lit/ds/symlink/tps61220.pdf
+$ENDCMP
+#
+$CMP TPS61222DCK
+D 400 mA Step-Up Converter, Fixed 5V Output Voltage, 0.7-5.5V Input Voltage, SC-70
+K Boost adjustable converter
+F http://www.ti.com/lit/ds/symlink/tps61220.pdf
 $ENDCMP
 #
 $CMP TPS62125DSG

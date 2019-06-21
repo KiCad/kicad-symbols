@@ -2454,6 +2454,12 @@ K N-Channel MOSFET
 F https://www.vishay.com/docs/73152/si7336adp.pdf
 $ENDCMP
 #
+$CMP Si7450DP
+D 5.3A Id, 200V Vds, 80mOhm Ron, PowerPAK-8
+K N-Channel MOSFET
+F https://www.vishay.com/docs/71432/si7450dp.pdf
+$ENDCMP
+#
 $CMP SiA449DJ
 D -12A Id, -30V Vds, P-Channel MOSFET, PowerPAK SC70-6
 K P-Channel MOSFET
