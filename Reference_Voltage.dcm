@@ -102,12 +102,6 @@ K diode device voltage reference
 F http://www.ti.com/lit/ds/symlink/lm185-adj.pdf
 $ENDCMP
 #
-$CMP LM385Z-2.5
-D 2.5V Micropower Voltage Reference Diodes, TO-92
-K diode device voltage reference
-F http://www.onsemi.com/pub_link/Collateral/LM285-D.PDF
-$ENDCMP
-#
 $CMP LM385BZ-1.2
 D 1.235V Micropower Voltage Reference Diodes, TO-92
 K diode device voltage reference
@@ -152,6 +146,12 @@ $ENDCMP
 #
 $CMP LM385Z-1.2
 D 1.235V Micropower Voltage Reference Diodes, TO-92
+K diode device voltage reference
+F http://www.onsemi.com/pub_link/Collateral/LM285-D.PDF
+$ENDCMP
+#
+$CMP LM385Z-2.5
+D 2.5V Micropower Voltage Reference Diodes, TO-92
 K diode device voltage reference
 F http://www.onsemi.com/pub_link/Collateral/LM285-D.PDF
 $ENDCMP
@@ -334,6 +334,38 @@ $CMP LT1019xN8
 D Precision Reference, Ultra Low Drift, DIP-8
 K voltage reference vref
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1019fd.pdf
+$ENDCMP
+#
+$CMP LT1634CCZ-1.25
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
+$ENDCMP
+#
+$CMP LT1634CCZ-2.5
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
+$ENDCMP
+#
+$CMP LT1634CCZ-4.096
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
+$ENDCMP
+#
+$CMP LT1634CCZ-5
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
+$ENDCMP
+#
+$CMP LT1634xxS8-1.25
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
+$ENDCMP
+#
+$CMP LT1634xxS8-2.5
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
+$ENDCMP
+#
+$CMP LT1634xxS8-4.069
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
+$ENDCMP
+#
+$CMP LT1634xxS8-5
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
 $ENDCMP
 #
 $CMP LT1790-1.25
