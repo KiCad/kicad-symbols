@@ -1578,12 +1578,6 @@ K XP_POWER DC/DC isolated Converter module
 F https://www.xppower.com/pdfs/SF_ITX.pdf
 $ENDCMP
 #
-$CMP ITX1205SA-HR
-D XP Power 6W, 3000 VDC Isolated DC/DC Converter Module, Remote Control, Fully Regulated Single Output Voltage 5V, ±1200mA, 12V Input Voltage, SIP
-K XP_POWER DC/DC isolated Converter module
-F https://www.xppower.com/pdfs/SF_ITX.pdf
-$ENDCMP
-#
 $CMP ITX1205SA-R
 D XP Power 6W, 1000 VDC Isolated DC/DC Converter Module, Remote Control, Fully Regulated Single Output Voltage 5V, ±1200mA, 12V Input Voltage, SIP
 K XP_POWER DC/DC isolated Converter module
@@ -2136,12 +2130,6 @@ K XP_POWER DC/DC isolated Converter module
 F https://www.xppower.com/pdfs/SF_ITX.pdf
 $ENDCMP
 #
-$CMP ITX4815SA-R
-D XP Power 6W, 1000 VDC Isolated DC/DC Converter Module, Remote Control, Fully Regulated Single Output Voltage 15V, ±400mA, 48V Input Voltage, SIP
-K XP_POWER DC/DC isolated Converter module
-F https://www.xppower.com/pdfs/SF_ITX.pdf
-$ENDCMP
-#
 $CMP ITX4824SA
 D XP Power 6W, 1000 VDC Isolated DC/DC Converter Module, Fully Regulated Single Output Voltage 24V, ±250mA, 48V Input Voltage, SIP
 K XP_POWER DC/DC isolated Converter module
@@ -2197,8 +2185,8 @@ F https://www.xppower.com/Portals/0/pdfs/SF_JTE06.pdf
 $ENDCMP
 #
 $CMP MGJ2DxxxxxxSC
-D Isolated 2W Gate Drive DC/DC Converter module, TODO
-K Murata isolated isolation dc-dc converter
+D 5.2kVDC Isolated 2W Gate Drive
+K DC/DC converter Murata isolated isolation dc-dc
 F https://power.murata.com/data/power/ncl/kdc_ncs1.pdf
 $ENDCMP
 #
