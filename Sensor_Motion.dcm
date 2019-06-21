@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADXL343
+D 3-Axis MEMS Accelerometer, 2/4/8/16g range, I2C/SPI, LGA-14
+K 3-axis accelerometer i2c spi mems
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL343.pdf
+$ENDCMP
+#
 $CMP BMF055
 D Custom programmable 9-axis motion sensor
 K 9-axis motion sensor IMU SAMD20 ARM Cortex-M0+
