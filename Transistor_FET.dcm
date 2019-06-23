@@ -1632,6 +1632,12 @@ K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/FD/FDS8960C.pdf
 $ENDCMP
 #
+$CMP FDS9435A
+D -5.3A Id, -30V Vds, P-Channel MOSFET, 50mOhm Ron, SO-8
+K P-Channel MOSFET
+F https://www.onsemi.com/pub/Collateral/FDS9435A-D.PDF
+$ENDCMP
+#
 $CMP FDS9926A
 D 6.5A Id, 20V Vds, Dual N-Channel MOSFET, 30mOhm Ron, SO-8
 K Dual N-Channel MOSFET
