@@ -36,6 +36,12 @@ K N-Channel MOSFET Dual Gate
 F http://www.onsemi.com/pub_link/Collateral/EN4423-D.PDF
 $ENDCMP
 #
+$CMP AO3401A
+D -4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf
+$ENDCMP
+#
 $CMP BF244A
 D 50mA Id, 30V Vgs, N-Channel FET Transistor, TO-92
 K N-Channel FET Transistor Low Voltage
