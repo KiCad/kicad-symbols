@@ -192,6 +192,30 @@ K audio amplifier class d
 F http://www.ti.com/lit/ds/symlink/lm4990.pdf
 $ENDCMP
 #
+$CMP MA12040
+D Filterless and High-Efficiency +4V to +18V Audio Amplifier with Analog Input, QFN-64
+K integrated class d amplifier
+F https://www.infineon.com/dgdl/Infineon-MA12040-DS-v01_00-EN.pdf?fileId=5546d46264a8de7e0164b7467a3d617c
+$ENDCMP
+#
+$CMP MA12040P
+D Filterless and High-Efficiency +4V to +18V Audio Amplifier with I2S Digital Input, QFN-64
+K integrated class d amplifier
+F https://www.infineon.com/dgdl/Infineon-MA12040P-DS-v01_00-EN.pdf?fileId=5546d46264a8de7e0164b74ff0e561a2
+$ENDCMP
+#
+$CMP MA12070
+D Filterless and High-Efficiency +4V to +26V Audio Amplifier with Analog Input, QFN-64
+K integrated class d amplifier
+F https://www.infineon.com/dgdl/Infineon-MA12070-DS-v01_00-EN.pdf?fileId=5546d46264a8de7e0164b750002861a5
+$ENDCMP
+#
+$CMP MA12070P
+D Filterless and High-Efficiency +4V to +26V Audio Amplifier with I2S Digital Input, QFN-64
+K integrated class d amplifier
+F https://www.infineon.com/dgdl/Infineon-MA12070P-DS-v01_00-EN.pdf?fileId=5546d46264a8de7e0164b761f2f261e4
+$ENDCMP
+#
 $CMP MAX9715ETE+
 D 2.8W, Low-EMI, Stereo, Filterless Class D Audio Amplifier, TQFN-16
 K Class-D Stereo
