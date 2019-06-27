@@ -234,6 +234,12 @@ K buck switching converter
 F https://www.diodes.com/assets/Datasheets/AP6503.pdf
 $ENDCMP
 #
+$CMP AP65111AWU
+D 1.5A, 500KHZ Buck DC/DC Converter, adjustable output voltage, TSOT-23-6
+K 1.5A 500KHz PWM Buck DC/DC
+F https://www.diodes.com/assets/Datasheets/AP65111A.pdf
+$ENDCMP
+#
 $CMP APE1707H-12-HF
 D 2A, 150KHz PWM Buck DC/DC Converter, fixed 12.0V output voltage, TO-252-5 (D-PAK)
 K 12V 2A 150KHz PWM Buck DC/DC
