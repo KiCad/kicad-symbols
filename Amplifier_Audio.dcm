@@ -43,7 +43,13 @@ F https://www.infineon.com/dgdl/irs2052mpbf.pdf?fileId=5546d462533600a401535675d
 $ENDCMP
 #
 $CMP IRS2092
-D Protected Digital Audio Amplifier, PWM Modulator, +/-100V, 1.0/1.2A, PDIP-16/SOIC-16
+D Protected Digital Audio Amplifier, PWM Modulator, +/-100V, 1.0/1.2A, PDIP-16
+K Gate Driver Class D
+F http://www.infineon.com/dgdl/irs2092.pdf?fileId=5546d462533600a401535675f1be2790
+$ENDCMP
+#
+$CMP IRS2092S
+D Protected Digital Audio Amplifier, PWM Modulator, +/-100V, 1.0/1.2A, SOIC-16
 K Gate Driver Class D
 F http://www.infineon.com/dgdl/irs2092.pdf?fileId=5546d462533600a401535675f1be2790
 $ENDCMP
