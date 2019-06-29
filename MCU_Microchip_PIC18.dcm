@@ -360,12 +360,6 @@ K Flash-Based 8-Bit Microcontroller
 F http://ww1.microchip.com/downloads/en/DeviceDoc/39564c.pdf
 $ENDCMP
 #
-$CMP PIC18F4520-xPT
-D 32K Flash, 1536b SRAM, 256b EEPROM, ADC, TQFP-44
-K 32K Flash, 1536b SRAM, 256b EEPROM, ADC
-F http://ww1.microchip.com/downloads/en/DeviceDoc/39631E.pdf
-$ENDCMP
-#
 $CMP PIC18F4550-IML
 D 32K Flash, 2K SRAM, 256 EEPROM, USB, nanoWatt XLP, QFN44
 K Flash-Based 8-Bit Microcontroller XLP
