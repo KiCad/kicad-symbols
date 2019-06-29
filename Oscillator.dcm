@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ABLNO
+D LVCMOS Ultra Low Phase Noise XO / VCXO, Abracon ABLNO
+K XO VCXO
+F https://abracon.com/Precisiontiming/ABLNO.pdf
+$ENDCMP
+#
 $CMP ACO-xxxMHz
 D HCMOS Crystal Clock Oscillator, DIP14-style metal package
 K Crystal Clock Oscillator
@@ -10,6 +16,18 @@ $CMP ACO-xxxMHz-A
 D HCMOS Crystal Clock Oscillator, DIP14-style metal package
 K Crystal Clock Oscillator
 F http://www.conwin.com/datasheets/cx/cx030.pdf
+$ENDCMP
+#
+$CMP ASCO
+D Crystal Clock Oscillator, Abracon ASCO
+K Crystal Clock Oscillator
+F https://abracon.com/Oscillators/ASCO.pdf
+$ENDCMP
+#
+$CMP ASDMB-xxxMHz
+D 1.8-3.3V SMD Ultra Miniature Crystal Clock Oscillator, Abracon
+K 1.8-3.3V SMD Ultra Miniature Crystal Clock Oscillator
+F https://abracon.com/Oscillators/ASDMB.pdf
 $ENDCMP
 #
 $CMP ASE-xxxMHz
@@ -66,6 +84,12 @@ K Crystal Clock Oscillator
 F http://www.conwin.com/datasheets/cx/cx030.pdf
 $ENDCMP
 #
+$CMP ECS-2520MV-xxx-xx
+D HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD
+K Crystal Clock Oscillator ECS SMD
+F https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf
+$ENDCMP
+#
 $CMP GTXO-14T
 D Crystal Clock Oscillator, DIP14-style metal package
 K Crystal Clock Oscillator
@@ -96,6 +120,78 @@ K Crystal Clock Oscillator
 F http://www.iqdfrequencyproducts.com/products/details/iqxo-70-11-30.pdf
 $ENDCMP
 #
+$CMP JTOS-25
+D Voltage Controlled Oscillator, 12.5 to 25 MHz, Mini-Circuits BK377
+K VCXO
+F https://ww2.minicircuits.com/pdfs/JTOS-25+.pdf
+$ENDCMP
+#
+$CMP JTOS-50
+D Voltage Controlled Oscillator, 25 to 47 MHz, Mini-Circuits BK377
+K VCXO
+F https://ww2.minicircuits.com/pdfs/JTOS-50+.pdf
+$ENDCMP
+#
+$CMP KT2520K-T
+D 10-60MHz Temperature Compensated Crystal Oscillator, Kyocera 2520
+K tcxo
+F https://global.kyocera.com/prdct/electro/product/pdf/kt2520_e.pdf
+$ENDCMP
+#
+$CMP MAX7375AXR105
+D Silicon Clock Oscillator 1MHz, SC-70-3
+K Silicon Clock Oscillator 1MHz 1000kHz
+F https://datasheets.maximintegrated.com/en/ds/MAX7375.pdf
+$ENDCMP
+#
+$CMP MAX7375AXR185
+D Silicon Clock Oscillator 1.84MHz, SC-70-3
+K Silicon Clock Oscillator 1,84MHz 1840kHz
+F https://datasheets.maximintegrated.com/en/ds/MAX7375.pdf
+$ENDCMP
+#
+$CMP MAX7375AXR365
+D Silicon Clock Oscillator 3.58MHz, SC-70-3
+K Silicon Clock Oscillator 3.58MHz 3580kHz
+F https://datasheets.maximintegrated.com/en/ds/MAX7375.pdf
+$ENDCMP
+#
+$CMP MAX7375AXR375
+D Silicon Clock Oscillator 3.69MHz, SC-70-3
+K Silicon Clock Oscillator 3.69MHz 3690kHz
+F https://datasheets.maximintegrated.com/en/ds/MAX7375.pdf
+$ENDCMP
+#
+$CMP MAX7375AXR405
+D Silicon Clock Oscillator 4MHz, SC-70-3
+K Silicon Clock Oscillator 4MHz 4000kHz
+F https://datasheets.maximintegrated.com/en/ds/MAX7375.pdf
+$ENDCMP
+#
+$CMP MAX7375AXR425
+D Silicon Clock Oscillator 4.19MHz, SC-70-3
+K Silicon Clock Oscillator 4.19MHz 4190kHz
+F https://datasheets.maximintegrated.com/en/ds/MAX7375.pdf
+$ENDCMP
+#
+$CMP MAX7375AXR805
+D Silicon Clock Oscillator 8MHz, SC-70-3
+K Silicon Clock Oscillator 8MHz 8000kHz
+F https://datasheets.maximintegrated.com/en/ds/MAX7375.pdf
+$ENDCMP
+#
+$CMP MV267
+D 5/10 MHz Low Phase-Noise Precision OCXO, Morion MV267
+K OCXO
+F http://www.morion.com.ru/catalog_pdf/MV267.pdf
+$ENDCMP
+#
+$CMP MV317
+D 60, 80, 100, 120 & 122.76 MHz OCXO, Morion MV317
+K OCXO
+F https://www.morion-us.com/catalog_pdf/mv317.pdf
+$ENDCMP
+#
 $CMP NB3N511
 D 3.3V / 5.0V 14 MHz to 200 MHz PLL Clock Multiplier, SOIC-8
 K oscillator clock multiplier PLL
@@ -106,6 +202,12 @@ $CMP OCXO-14
 D Voltage-Controlled Crystal Clock Oscillator, DIP14-style metal package
 K Crystal Clock Oscillator
 F http://www.petermann-technik.de/fileadmin/petermann/pdf/crystal-oscillators/OCXO-14_PETERMANN-TECHNIK.pdf
+$ENDCMP
+#
+$CMP OH300
+D 100MHz Sinewave output OCXO, low phase-noise, high stability, Connor-Winfield OH300
+K OCXO
+F http://www.conwin.com/datasheets/cx/cx282.pdf
 $ENDCMP
 #
 $CMP SG-210SCD
@@ -202,6 +304,42 @@ $CMP SG-8002LB
 D CMOS Clock Oscillator
 K Crystal Clock Oscillator
 F https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC
+$ENDCMP
+#
+$CMP Si512A_2.5x3.2mm
+D Dual frequency crystal oscillator (XO) 100 kHz to 250 MHz, Single-ended CMOS output
+K Dual frequency crystal oscillator
+F https://www.silabs.com/documents/public/data-sheets/si512-13.pdf
+$ENDCMP
+#
+$CMP Si513A_2.5x3.2mm
+D Dual frequency crystal oscillator (XO) 100 kHz to 250 MHz, Single-ended CMOS output
+K Dual frequency crystal oscillator
+F https://www.silabs.com/documents/public/data-sheets/si512-13.pdf
+$ENDCMP
+#
+$CMP Si5351A-B-GM
+D I2C Programmable Any-Frequency CMOS Clock Generator, QFN-20
+K CMOS Synth Oscillator I2C
+F https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf
+$ENDCMP
+#
+$CMP Si5351A-B-GT
+D I2C Programmable Any-Frequency CMOS Clock Generator, MSOP-8
+K CMOS Synth Oscillator I2C
+F https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf
+$ENDCMP
+#
+$CMP Si5351B-B-GM
+D I2C Programmable Any-Frequency CMOS Clock Generator + VCXO, QFN-20
+K CMOS Synth Oscillator I2C VCXO
+F https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf
+$ENDCMP
+#
+$CMP Si5351C-B-GM
+D I2C Programmable Any-Frequency CMOS Clock Generator, QFN-20
+K CMOS Synth Oscillator I2C
+F https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf
 $ENDCMP
 #
 $CMP Si570

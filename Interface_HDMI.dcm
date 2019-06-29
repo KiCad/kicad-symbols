@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADV7611
+D Low Power 165MHz HDMI Receiver, LQFP-64
+K hdmi
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adv7611.pdf
+$ENDCMP
+#
+$CMP TPD12S520DBT
+D HDMI Receiver Port Protection and Interface Device, TSSOP-38
+K hdmi
+F http://www.ti.com/lit/ds/symlink/tpd12s520.pdf
+$ENDCMP
+#
+#End Doc Library
