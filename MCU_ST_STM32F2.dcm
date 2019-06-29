@@ -48,6 +48,12 @@ K ARM Cortex-M3 STM32F2 STM32F2x5
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00237391.pdf
 $ENDCMP
 #
+$CMP STM32F205RxTx_Split
+D ARM Cortex-M3 MCU, Up to 1024KB flash, Up to 128KB RAM, 120MHz, 1.8-3.6V, 51 GPIO, LQFP-64
+K ARM Cortex-M3 STM32F2 STM32F2x5
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00237391.pdf
+$ENDCMP
+#
 $CMP STM32F205VBTx
 D ARM Cortex-M3 MCU, 128KB flash, 64KB RAM, 120MHz, 1.8-3.6V, 82 GPIO, LQFP-100
 K ARM Cortex-M3 STM32F2 STM32F2x5
