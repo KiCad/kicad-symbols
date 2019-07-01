@@ -1644,6 +1644,42 @@ K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/FD/FDS9934C.pdf
 $ENDCMP
 #
+$CMP IGLD60R070D1
+D 15A Id, 600V Vds, 70mOhm, N-Channel GaN MOSFET, LSON-8
+K N-Channel GaN MOSFET
+F https://www.infineon.com/dgdl/Infineon-IGLD60R070D1-DataSheet-v02_00-EN.pdf?fileId=5546d46265f064ff016685f03f056511
+$ENDCMP
+#
+$CMP IGLD60R190D1
+D 10A Id, 600V Vds, 190mOhm, N-Channel GaN MOSFET, LSON-8
+K N-Channel GaN MOSFET
+F https://www.infineon.com/dgdl/Infineon-IGLD60R190D1-DataSheet-v02_00-EN.pdf?fileId=5546d46269e1c019016a6d78ff5e2aba
+$ENDCMP
+#
+$CMP IGO60R070D1
+D 31A Id, 600V Vds, 70mOhm, N-Channel GaN MOSFET, PD-DSO-20-85
+K N-Channel GaN MOSFET
+F https://www.infineon.com/dgdl/Infineon-IGO60R070D1-DataSheet-v02_01-EN.pdf?fileId=5546d46265f064ff016685f053216514
+$ENDCMP
+#
+$CMP IGOT60R070D1
+D 31A Id, 600V Vds, 70mOhm, N-Channel GaN MOSFET, PD-DSO-20-87
+K N-Channel GaN MOSFET
+F https://www.infineon.com/dgdl/Infineon-IGOT60R070D1-DataSheet-v02_11-EN.pdf?fileId=5546d46265f064ff016685fa65066523
+$ENDCMP
+#
+$CMP IGT60R070D1
+D 31A Id, 600V Vds, 70mOhm, N-Channel GaN MOSFET, HSOF-8
+K N-Channel GaN MOSFET
+F https://www.infineon.com/dgdl/Infineon-IGT60R070D1-DataSheet-v02_01-EN.pdf?fileId=5546d46265f064ff016686028dd56526
+$ENDCMP
+#
+$CMP IGT60R190D1S
+D 12.5A Id, 600V Vds, 190mOhm, N-Channel GaN MOSFET, HSOF-8
+K N-Channel GaN MOSFET
+F https://www.infineon.com/dgdl/Infineon-IGT60R190D1S-DataSheet-v03_01-EN.pdf?fileId=5546d46265f064ff016685fa29796520
+$ENDCMP
+#
 $CMP IPD50R380CE
 D 14.1A Id, 500V Vds, CoolMOS N-Channel Power MOSFET, 380mOhm Ron, 24.8nC Qg (typ), TO-252-2
 K CoolMOS Power MOSFET N-MOS
