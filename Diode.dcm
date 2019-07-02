@@ -1104,6 +1104,12 @@ K sic diode
 F https://www.wolfspeed.com/media/downloads/111/C5D50065D.pdf
 $ENDCMP
 #
+$CMP CD4148W
+D 75V 0.15A Switching Diode, 0805
+K diode
+F https://www.dccomponents.com/upload/product/original/806236332588.pdf
+$ENDCMP
+#
 $CMP CSD01060A
 D 600V, 1A, SiC Schottky Diode, TO-220
 K sic diode

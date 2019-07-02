@@ -103,15 +103,27 @@ F https://www.mouser.com/ds/2/268/HV9972-272498-1181261.pdf
 $ENDCMP
 #
 $CMP IS31FL3216
-D 16 channel LED controller with audio modulation mode, VCC +2.7 to +5.5V, -40 to +85 degree, QFN-28
-K 16 channel LED controller with audio modulation mode
+D 16 channel LED controller with audio modulation mode, QFN-28
+K led pwm audio
 F http://www.issi.com/WW/pdf/IS31FL3216.pdf
 $ENDCMP
 #
 $CMP IS31FL3216A
-D 16 channel LED controller with audio modulation mode, VCC +2.7 to +5.5V, -40 to +125 degree, QFN-28
-K 16 channel LED controller with audio modulation mode
+D 16 channel LED controller with audio modulation mode, QFN-28
+K led pwm audio
 F http://www.issi.com/WW/pdf/IS31FL3216A.pdf
+$ENDCMP
+#
+$CMP IS31FL3218-GR
+D 18 LED matrix driver with 8-bit PWM, SOP-24
+K led matrix pwm
+F http://www.issi.com/WW/pdf/31FL3218.pdf
+$ENDCMP
+#
+$CMP IS31FL3218-QF
+D 18 LED matrix driver with 8-bit PWM, QFN-24
+K led matrix pwm
+F http://www.issi.com/WW/pdf/31FL3218.pdf
 $ENDCMP
 #
 $CMP IS31FL3731-QF
@@ -214,6 +226,12 @@ $CMP MPQ2483DQ
 D 55V, 2.5A Programmable Frequency LED Driver, DFN-10
 K LED driver
 F https://www.monolithicpower.com/pub/media/document/MPQ2483_r1.05.pdf
+$ENDCMP
+#
+$CMP PCA9635
+D 16-bit PWM Fm+ I2C-bus LED driver, TSSOP-28
+K led pwm rgb rgba
+F https://www.nxp.com/docs/en/data-sheet/PCA9635.pdf
 $ENDCMP
 #
 $CMP PCA9685BS

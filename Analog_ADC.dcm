@@ -18,6 +18,12 @@ K sigma delta adc spi 1ch
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7171.pdf
 $ENDCMP
 #
+$CMP AD7298
+D 8 channel, 1MSPS, 12-bit SAR ADC with Temperature Sensor, LFCSP-20
+K ADC, 3.3V, SPI
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7298.pdf
+$ENDCMP
+#
 $CMP AD7606
 D 8-Channel DAS with 16-Bit, Bipolar Input, Simultaneous Sampling ADC, LQFP-64
 K 16bit DAS ADC 8channel 200KSPS
@@ -48,6 +54,18 @@ K 16-Bit 4-Channel 250kSPS
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7682_7689.pdf
 $ENDCMP
 #
+$CMP AD7689xCP
+D 16-Bit, 8-Channel, 250 kSPS PulSAR ADC, LFSCP-20
+K ADC, SPI
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7682_7689.pdf
+$ENDCMP
+#
+$CMP AD7699BCP
+D 16-Bit, 8-Channel, 500 kSPS PulSAR ADC, LFSCP-20
+K ADC, SPI
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7699.pdf
+$ENDCMP
+#
 $CMP AD7722
 D 16-Bit, 195 kSPS CMOS, Sigma-Delta ADC, MQFP-44
 K adc 1ch 16bit parallel serial
@@ -76,6 +94,12 @@ $CMP AD7819
 D Analog to Digital 8 bits converter, PDIP/SOIC/TSSOP-16
 K CAD
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7819.pdf
+$ENDCMP
+#
+$CMP AD7949BCP
+D 14-Bit, 8-Channel, 250 kSPS PulSAR ADC, LFSCP-20
+K ADC, SPI
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7949.pdf
 $ENDCMP
 #
 $CMP AD9280ARS
