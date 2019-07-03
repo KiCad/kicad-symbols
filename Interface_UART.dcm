@@ -141,6 +141,12 @@ K RS485 RS422 transceiver full duplex
 F http://www.intersil.com/content/dam/Intersil/documents/isl8/isl83483-85-88-90-91.pdf
 $ENDCMP
 #
+$CMP ISO1500
+D Half duplex RS-485/RS-422 transceiver, 3-kVRMS Isolated, SSOP-16
+K RS-485 RS422 transceiver isolated
+F http://www.ti.com/lit/ds/symlink/iso1500.pdf
+$ENDCMP
+#
 $CMP ISO3082DW
 D 200 kbps, Isolated 5-V Half-Duplex RS-485 transceiver, SOIC-16
 K RS-485

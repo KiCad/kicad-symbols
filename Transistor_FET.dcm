@@ -36,6 +36,12 @@ K N-Channel MOSFET Dual Gate
 F http://www.onsemi.com/pub_link/Collateral/EN4423-D.PDF
 $ENDCMP
 #
+$CMP AO3401A
+D -4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf
+$ENDCMP
+#
 $CMP BF244A
 D 50mA Id, 30V Vgs, N-Channel FET Transistor, TO-92
 K N-Channel FET Transistor Low Voltage
@@ -1632,6 +1638,12 @@ K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/FD/FDS8960C.pdf
 $ENDCMP
 #
+$CMP FDS9435A
+D -5.3A Id, -30V Vds, P-Channel MOSFET, 50mOhm Ron, SO-8
+K P-Channel MOSFET
+F https://www.onsemi.com/pub/Collateral/FDS9435A-D.PDF
+$ENDCMP
+#
 $CMP FDS9926A
 D 6.5A Id, 20V Vds, Dual N-Channel MOSFET, 30mOhm Ron, SO-8
 K Dual N-Channel MOSFET
@@ -2452,6 +2464,12 @@ $CMP Si7336ADP
 D 30A Id, 30V Vds, 2.4mOhm Ron, PowerPAK-8
 K N-Channel MOSFET
 F https://www.vishay.com/docs/73152/si7336adp.pdf
+$ENDCMP
+#
+$CMP Si7450DP
+D 5.3A Id, 200V Vds, 80mOhm Ron, PowerPAK-8
+K N-Channel MOSFET
+F https://www.vishay.com/docs/71432/si7450dp.pdf
 $ENDCMP
 #
 $CMP SiA449DJ
