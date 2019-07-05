@@ -78,6 +78,12 @@ K USB Charge
 F http://www.ti.com/lit/ds/symlink/bq24075.pdf
 $ENDCMP
 #
+$CMP BQ24090
+D 1A, Single-Input, Single Cell Li-Ion and Li-Pol Battery Charger, MSOP-10
+K Batter, Charger, Li-Ion
+F http://www.ti.com/lit/ds/symlink/bq24090.pdf
+$ENDCMP
+#
 $CMP BQ24133RGY
 D Synchronous switched mode Li-Ion and Li-Polymer battery charger, integrated MOSFETs and power path selector, Texas R-PVQFN-N24
 K Battery, Charger, Li-Ion, Li-Poly
