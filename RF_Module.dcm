@@ -18,6 +18,12 @@ K iot lora sigfox
 F https://wireless.murata.com/RFM/data/type_abz.pdf
 $ENDCMP
 #
+$CMP Core51822_B
+D BLE4.0 Bluetooth 2.4G Wireless Module, nRF51822 Onboard
+K Core51822 Waveshare Bluetooth
+F https://www.waveshare.com/wiki/Core51822_(B)
+$ENDCMP
+#
 $CMP D52MxxM8
 D D52M Module, nRF52832 SoC, ARM Cortex-M4F, 64kB RAM, 512kB Flash, 1.7-3.6V, M8-35
 K RF Radio ANT Bluetooth BLE D52 nRF52 Garmin Canada Dynastream Nordic
