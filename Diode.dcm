@@ -1104,6 +1104,12 @@ K sic diode
 F https://www.wolfspeed.com/media/downloads/111/C5D50065D.pdf
 $ENDCMP
 #
+$CMP CD4148W
+D 75V 0.15A Switching Diode, 0805
+K diode
+F https://www.dccomponents.com/upload/product/original/806236332588.pdf
+$ENDCMP
+#
 $CMP CSD01060A
 D 600V, 1A, SiC Schottky Diode, TO-220
 K sic diode
@@ -1432,6 +1438,12 @@ $CMP MBR745
 D 45V 7.5A Schottky Barrier Rectifier Diode, TO-220
 K diode Schottky
 F http://www.onsemi.com/pub_link/Collateral/MBR735-D.PDF
+$ENDCMP
+#
+$CMP MBRA340
+D 40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.onsemi.com/pub/Collateral/MBRA340T3-D.PDF
 $ENDCMP
 #
 $CMP MM3Zxx
