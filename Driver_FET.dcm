@@ -840,6 +840,18 @@ K mosfet driver
 F http://www.st.com/resource/en/datasheet/pm8834.pdf
 $ENDCMP
 #
+$CMP STGAP2SCM
+D Galvanically isolated 4 A single gate driver, Single Output And Miller Clamp, SOIC-8
+K isolated fet driver
+F https://www.st.com/resource/en/datasheet/stgap2s.pdf
+$ENDCMP
+#
+$CMP STGAP2SM
+D Galvanically isolated 4 A single gate driver, Separated Outputs, SOIC-8
+K isolated fet driver
+F https://www.st.com/resource/en/datasheet/stgap2s.pdf
+$ENDCMP
+#
 $CMP TC4421
 D 9A High-Speed inverting MOSFET Driver
 K MOSFET IGBT driver
