@@ -102,30 +102,6 @@ K i2c multiplexer
 F http://www.nxp.com/documents/data_sheet/PCA9544A.pdf
 $ENDCMP
 #
-$CMP PCA9548ADB
-D 8-channel I2C/SMBus switch, SSOP-24
-K i2c smbus bus expander
-F http://www.ti.com/lit/ds/symlink/pca9548a.pdf
-$ENDCMP
-#
-$CMP PCA9548ADW
-D 8-channel I2C/SMBus switch, SOIC-24
-K i2c smbus bus expander
-F http://www.ti.com/lit/ds/symlink/pca9548a.pdf
-$ENDCMP
-#
-$CMP PCA9548APW
-D 8-channel I2C/SMBus switch, TSSOP-24
-K i2c smbus bus expander
-F http://www.ti.com/lit/ds/symlink/pca9548a.pdf
-$ENDCMP
-#
-$CMP PCA9548ARGE
-D 8-channel I2C/SMBus switch, RGE0024C
-K i2c smbus bus expander
-F http://www.ti.com/lit/ds/symlink/pca9548a.pdf
-$ENDCMP
-#
 $CMP PCF8574
 D 8 Bit Port/Expander to I2C Bus, DIP/SOIC-16
 K I2C Expander
