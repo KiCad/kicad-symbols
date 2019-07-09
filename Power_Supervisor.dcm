@@ -48,6 +48,18 @@ K Power Sequencer
 F http://www.ti.com/lit/ds/symlink/lm3880.pdf
 $ENDCMP
 #
+$CMP LM809
+D 3-Pin Microprocessor Reset (acitve-low) Circuits
+K reset supervisor
+F http://www.ti.com/lit/ds/symlink/lm809.pdf
+$ENDCMP
+#
+$CMP LM810
+D 3-Pin Microprocessor Reset (acitve-high) Circuits
+K reset supervisor
+F http://www.ti.com/lit/ds/symlink/lm809.pdf
+$ENDCMP
+#
 $CMP MAX6355
 D Dual Voltage μP Supervisory Circuits, SOT-23-6
 K Power Supervisor
