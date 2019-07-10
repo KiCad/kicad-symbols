@@ -204,6 +204,11 @@ K frequency multiplier
 F https://ww2.minicircuits.com/pdfs/RMK-5-51+.pdf
 $ENDCMP
 #
+$CMP RTC6715
+D 5.8 GHz Band FM Receiver, QFN48 7x7mm
+K RF FM Receiver
+$ENDCMP
+#
 $CMP SE5004L
 D 5 GHz, 26dBm Power Amplifier with Power Detector, QFN20 4x4mm
 K RF Power Amplifier
