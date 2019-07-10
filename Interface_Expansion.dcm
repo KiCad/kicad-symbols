@@ -102,6 +102,30 @@ K i2c multiplexer
 F http://www.nxp.com/documents/data_sheet/PCA9544A.pdf
 $ENDCMP
 #
+$CMP PCA9548ADB
+D Low voltage 8-channel I2C switch with reset, SSOP-24
+K Low voltage 8-channel I2C switch with reset
+F http://www.ti.com/lit/ds/symlink/pca9548a.pdf
+$ENDCMP
+#
+$CMP PCA9548ADW
+D Low voltage 8-channel I2C switch with reset, SOIC-24
+K Low voltage 8-channel I2C switch with reset
+F http://www.ti.com/lit/ds/symlink/pca9548a.pdf
+$ENDCMP
+#
+$CMP PCA9548APW
+D Low voltage 8-channel I2C switch with reset, TSSOP-24
+K Low voltage 8-channel I2C switch with reset
+F http://www.ti.com/lit/ds/symlink/pca9548a.pdf
+$ENDCMP
+#
+$CMP PCA9548ARGE
+D Low voltage 8-channel I2C switch with reset, VQFN-24
+K Low voltage 8-channel I2C switch with reset
+F http://www.ti.com/lit/ds/symlink/pca9548a.pdf
+$ENDCMP
+#
 $CMP PCF8574
 D 8 Bit Port/Expander to I2C Bus, DIP/SOIC-16
 K I2C Expander
@@ -181,7 +205,7 @@ F http://www.ti.com/lit/ds/symlink/tca9544a.pdf
 $ENDCMP
 #
 $CMP TCA9548AMRGER
-D Low voltage 8-channel I2C switch with reset, QFN-24
+D Low voltage 8-channel I2C switch with reset, VQFN-24
 K Low voltage 8-channel I2C switch with reset
 F http://www.ti.com/lit/ds/symlink/tca9548a.pdf
 $ENDCMP
