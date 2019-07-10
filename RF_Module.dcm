@@ -108,6 +108,12 @@ K RF Radio BT ESP ESP32 Espressif external U.FL antenna
 F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
 $ENDCMP
 #
+$CMP JDY-08
+D JDY-08 Bluetooth transparent transmission module
+K Bluetooth CC2541 BLE JDY-08
+F https://fccid.io/2AM2YJDY-08/User-Manual/User-Manual-3511895.pdf
+$ENDCMP
+#
 $CMP MM002
 D NEMEUS Modem dual-mode LoRa/SIGFOX
 K IOT LoRa SIGFOX
