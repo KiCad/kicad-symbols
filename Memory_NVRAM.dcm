@@ -84,6 +84,12 @@ K FRAM SPI 3.3V
 F http://www.fujitsu.com/downloads/MICRO/fsa/pdf/products/memory/fram/MB85RS16-DS501-00014-6v0-E.pdf
 $ENDCMP
 #
+$CMP MB85RS256TY
+D FRAM memory with SPI interface, SOIC-8, Automotive
+K FRAM SPI 5.0V
+F https://www.fujitsu.com/us/Images/MB85RS256TY-DS501-00046-6v0-E.pdf
+$ENDCMP
+#
 $CMP MB85RS2MT
 D FRAM memory with SPI interface, SOIC-8 SON-8
 K FRAM SPI 3.3V
