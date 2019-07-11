@@ -6192,6 +6192,12 @@ K dual ldo regulator
 F http://www.ti.com/lit/ds/symlink/tps704.pdf
 $ENDCMP
 #
+$CMP TPS709-Q1
+D 150mA low dropout linear regulator, enable pin, fixed positive output, SOT-23-5 package
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/tps709-q1.pdf
+$ENDCMP
+#
 $CMP TPS7101
 D 500mA Adjustable 1.2-9.75V Low Drop-out Voltage Regualtor, SO-8/DIP-8
 K LDO Voltage Regulator 500mA Adjustable
