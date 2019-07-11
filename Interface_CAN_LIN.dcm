@@ -379,7 +379,7 @@ F http://www.nxp.com/documents/data_sheet/TJA1029.pdf
 $ENDCMP
 #
 $CMP TJA1029TK
-D LIN 2.2A/SAE J2602 transceiver with TXD dominant timeout, DFN-8-1EP
+D LIN 2.2A/SAE J2602 transceiver with TXD dominant timeout, DFN-8-1EP/HVSON-8
 K LIN 2.2A/SAE J2602 Transceiver HVSON-8
 F http://www.nxp.com/documents/data_sheet/TJA1029.pdf
 $ENDCMP
@@ -478,6 +478,12 @@ $CMP TJA1052i-5
 D Isolated CAN Transceiver 5.0kV, up to 5Mbps
 K can transceiver isolated protected
 F https://www.nxp.com/docs/en/data-sheet/TJA1052I.pdf
+$ENDCMP
+#
+$CMP TJA1057T
+D High-Speed CAN Transceiver, silent mode, SOIC-8
+K High-Speed CAN Transceiver
+F https://www.nxp.com/docs/en/data-sheet/TJA1057.pdf
 $ENDCMP
 #
 $CMP TJA1145T
