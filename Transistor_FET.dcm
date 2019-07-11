@@ -1668,6 +1668,12 @@ K N-Channel GaN MOSFET
 F https://www.infineon.com/dgdl/Infineon-IGOT60R070D1-DataSheet-v02_11-EN.pdf?fileId=5546d46265f064ff016685fa65066523
 $ENDCMP
 #
+$CMP IGT40R070D1_E8220
+D 31A Id, 400V Vds, 70mOhm, N-Channel GaN MOSFET, HSOF-8
+K N-Channel GaN MOSFET
+F https://www.infineon.com/dgdl/Infineon-IGT40R070D1%20E8220-DataSheet-v02_00-EN.pdf?fileId=5546d4626afcd350016b269dd8f34ec4
+$ENDCMP
+#
 $CMP IGT60R070D1
 D 31A Id, 600V Vds, 70mOhm, N-Channel GaN MOSFET, HSOF-8
 K N-Channel GaN MOSFET
