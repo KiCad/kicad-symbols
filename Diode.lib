@@ -1500,8 +1500,8 @@ F1 "SM712" 0 100 50 H V C CNN
 F2 "" -150 0 50 H I C CNN
 F3 "" -150 0 50 H I C CNN
 $FPLIST
- Package_TO_SOT_SMD:SOT-23_Handsoldering
- Package_TO_SOT_SMD:SOT-23
+ Package?TO?SOT*SMD:SOT-23?Handsoldering
+ Package?TO?SOT*SMD:SOT-23
 $ENDFPLIST
 DRAW
 C 0 0 10 0 1 0 F
