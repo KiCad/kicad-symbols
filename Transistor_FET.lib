@@ -2108,7 +2108,7 @@ F2 "Package_TO_SOT_SMD:Vishay_PowerPAK_SC70-6L_Single" 200 -75 50 H I L CIN
 F3 "" 0 0 50 V I L CNN
 ALIAS SiA449DJ
 $FPLIST
- PowerPAK*SC70*Single*
+ Vishay*PowerPAK*SC70*Single*
 $ENDFPLIST
 DRAW
 C 65 0 110 0 1 10 N
@@ -2139,7 +2139,7 @@ F1 "SiS415DNT" 200 0 50 H V L CNN
 F2 "Package_SO:Vishay_PowerPAK_1212-8_Single" 200 -75 50 H I L CIN
 F3 "" 0 0 50 V I L CNN
 $FPLIST
- PowerPAK*1212*Single*
+ Vishay*PowerPAK*1212*Single*
 $ENDFPLIST
 DRAW
 C 65 0 110 0 1 10 N
