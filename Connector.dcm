@@ -115,7 +115,7 @@ F  ~
 $ENDCMP
 #
 $CMP AVR-PDI-6
-D Atmel 10-pin PDI connector
+D Atmel 6-pin PDI connector
 K AVR PDI Connector
 F  ~
 $ENDCMP
@@ -123,6 +123,12 @@ $ENDCMP
 $CMP AVR-TPI-6
 D Atmel 6-pin TPI connector
 K AVR TPI Connector
+F  ~
+$ENDCMP
+#
+$CMP AVR-UPDI-6
+D Atmel 6-pin UPDI connector
+K AVR UPDI Connector
 F  ~
 $ENDCMP
 #
