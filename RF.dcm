@@ -24,6 +24,12 @@ K frequency multiplier
 F https://ww2.minicircuits.com/pdfs/AMK-2-13+.pdf
 $ENDCMP
 #
+$CMP AX5043
+D Advanced High Performance ASK and FSK Narrow-band Transceiver for 27 - 1050 MHz Range
+K RF, tranceiver
+F https://www.onsemi.com/pub/Collateral/AX5043-D.PDF
+$ENDCMP
+#
 $CMP CC1000
 D Single Chip Low Power RF Transceiver, TSSOP28
 K Low Power RF Transciever
