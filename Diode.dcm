@@ -1632,10 +1632,46 @@ K diode Schottky
 F http://www.diodes.com/_files/datasheets/ds23022.pdf
 $ENDCMP
 #
+$CMP SD-C
+D SD-C Series 450W Discrete Bidirectional TVS Diode
+K diode TVS thyrector
+F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP SD05C
+D SD05C 450W Discrete Bidirectional TVS Diode, 5V
+K diode TVS thyrector
+F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf
+$ENDCMP
+#
 $CMP SD103ATW
 D Schottky Barrier Diode Array, SOT-363
 K schottky barrier diode array
 F https://www.diodes.com/assets/Datasheets/ds30374.pdf
+$ENDCMP
+#
+$CMP SD12C
+D SD12C 450W Discrete Bidirectional TVS Diode, 12V
+K diode TVS thyrector
+F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP SD15C
+D SD15C 450W Discrete Bidirectional TVS Diode, 15V
+K diode TVS thyrector
+F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP SD24C
+D SD24C 450W Discrete Bidirectional TVS Diode, 24V
+K diode TVS thyrector
+F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP SD36C
+D SD36C 450W Discrete Bidirectional TVS Diode, 36V
+K diode TVS thyrector
+F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf
 $ENDCMP
 #
 $CMP SM2000
@@ -1702,6 +1738,12 @@ $CMP SM518
 D 1800V 1A General Purpose Rectifier Diode, MELF
 K diode
 F http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf
+$ENDCMP
+#
+$CMP SM712
+D SM712 Series 600W Asymmetrical TVS Diode Array
+K diode TVS thyrector
+F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf
 $ENDCMP
 #
 $CMP SMZxxx
