@@ -57,6 +57,18 @@ K rs232 uart transceiver
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
 $ENDCMP
 #
+$CMP ADM2481
+D Isolated RS485/RS422 Transceiver, Half-Duplex, 500kbps, SOIC-16W
+K RS485 Transceiver RS422 Transceiver
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adm2481.pdf
+$ENDCMP
+#
+$CMP ADM2483
+D Isolated RS485/RS422 Transceiver, Half-Duplex, 500kbps, SOIC-16W
+K RS485 Transceiver RS422 Transceiver
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adm2483.pdf
+$ENDCMP
+#
 $CMP ADM2484E
 D Isolated RS485/RS422 Transceiver, Half-/Full-Duplex, 500kbps,SOIC-16W
 K RS485 Transceiver RS422 Transceiver
