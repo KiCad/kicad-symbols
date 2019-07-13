@@ -90,6 +90,12 @@ K 8P8C RJ female connector led
 F ~
 $ENDCMP
 #
+$CMP 8P8C_LED_Shielded_x2
+D RJ connector, 8P8C (8 positions 8 connected), two LEDs, RJ45, Shielded, two ports
+K 8P8C RJ female connector led dual
+F ~
+$ENDCMP
+#
 $CMP 8P8C_Shielded
 D RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61, Shielded
 K 8P8C RJ female connector
@@ -1399,6 +1405,12 @@ F ~
 $ENDCMP
 #
 $CMP RJ45_LED_Shielded
+D RJ connector, 8P8C (8 positions 8 connected), two LEDs, Shielded
+K 8P8C RJ female connector led
+F ~
+$ENDCMP
+#
+$CMP RJ45_LED_Shielded_copy
 D RJ connector, 8P8C (8 positions 8 connected), two LEDs, Shielded
 K 8P8C RJ female connector led
 F ~
