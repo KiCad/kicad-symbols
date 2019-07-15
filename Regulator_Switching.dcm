@@ -3024,6 +3024,11 @@ K buck converter
 F https://www.monolithicpower.com/pub/media/document/MP1470_r1.02.pdf
 $ENDCMP
 #
+$CMP MP1542
+D 700KHz/1.3MHz Boost Converter with a 2A Switch
+F https://www.monolithicpower.com/en/documentview/productdocument/index/doc_url/L01QMTU0Ml9yMS41LnBkZg/prod_id/MTg1/
+$ENDCMP
+#
 $CMP MP171GJ
 D 60mA Non-Isolated Off-Line Regulator, 700V Input Voltage, Adjustable Output Voltage, TSOT-23-5
 K regulator switching adjustable
