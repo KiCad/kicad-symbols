@@ -53,6 +53,12 @@ K video rf
 F https://datasheets.maximintegrated.com/en/ds/MAX310-MAX311.pdf
 $ENDCMP
 #
+$CMP MAX7456
+D Single-Channel Monochrome On-ScreenDisplay with Integrated EEPROM
+K monochrome video osd display 
+F https://datasheets.maximintegrated.com/en/ds/MAX7456.pdf
+$ENDCMP
+#
 $CMP SAA7182
 D Digital Video Encoder, Obsolete
 K Video Encoder
