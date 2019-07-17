@@ -186,6 +186,12 @@ K Low power long range transceiver module
 F https://www.hoperf.com/data/upload/portal/20181127/5bfcdb5e17543.pdf
 $ENDCMP
 #
+$CMP SKB501
+D Multiprotocol Bluetooth 5/ANT Module
+K SKB501 Bluetooth NRF52840 N52840
+F http://www.skylab.com.cn/uploadfile/Download/Skylab_SKB501_V1.03_Datasheet.pdf
+$ENDCMP
+#
 $CMP TD1205
 D High-Performance, Low-Current SIGFOX™ Gateway And GPS Receiver With Integrated Antennas
 K IOT SIGFOX GPS
