@@ -468,6 +468,18 @@ K DA 16 Bit 1 ch
 F https://datasheets.maximintegrated.com/en/ds/MAX5215-MAX5217.pdf
 $ENDCMP
 #
+$CMP MAX5717
+D 16-bit Voltage Digital-to-Analog converter, SOIC-14
+K DAC
+F https://datasheets.maximintegrated.com/en/ds/MAX5717-MAX5719.pdf
+$ENDCMP
+#
+$CMP MAX5719
+D 20-bit Voltage Digital-to-Analog converter, SOIC-14
+K DAC
+F https://datasheets.maximintegrated.com/en/ds/MAX5717-MAX5719.pdf
+$ENDCMP
+#
 $CMP MAX5741
 D Digital to analog, 10 Bit, 4 ch, 2.7 - 5.5 VDD, SPI, uMAX-10
 K DA 8 Bit 4 ch
