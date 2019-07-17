@@ -300,6 +300,18 @@ K RF amplifier
 F https://www.minicircuits.com/pdfs/GVA-93+.pdf
 $ENDCMP
 #
+$CMP HMC1099PM5E
+D 10 W (40 dBm), 0.01 GHz to 1.1 GHz, GaN Power Amplifier, LFCSP-32
+K RF Amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/HMC1099PM5E.pdf
+$ENDCMP
+#
+$CMP HMC8500PM5E
+D 10 W (40 dBm), 0.01 GHz to 2.8 GHz, GaN Power Amplifier, LFCSP-32
+K RF Amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/HMC8500PM5E.pdf
+$ENDCMP
+#
 $CMP MAX2679
 D GPS/GNSS Ultra-Low Current Low-Noise Amplifier, +19dB @ 1.57GHz, WLP-4
 K RF GAIN BLOCK
