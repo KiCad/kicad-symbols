@@ -744,6 +744,12 @@ K diode
 F http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf
 $ENDCMP
 #
+$CMP BZD27Cxx
+D 800mW Zener Diode, 3.6-200V, SMF
+K zener diode
+F https://www.vishay.com/docs/85153/bzd27series.pdf
+$ENDCMP
+#
 $CMP BZT52Bxx
 D 500mW Zener Diode, SOD-123
 K zener diode
@@ -1566,6 +1572,12 @@ K diode Schottky
 F https://www.onsemi.com/pub/Collateral/NSR0340H-D.PDF
 $ENDCMP
 #
+$CMP PMEG4050EP
+D 40V 5.0A Schottky Diode, SOD-128
+K diode Schottky
+F https://assets.nexperia.com/documents/data-sheet/PMEG4050EP.pdf
+$ENDCMP
+#
 $CMP PMEG6010CEH
 D 60V 1A very low Vf MEGA Schottky barrier rectifier, SOD-123
 K diode Schottky
@@ -1780,6 +1792,12 @@ $CMP UF5408
 D 1000V 3A Soft Recovery Ultrafast Rectifier Diode, DO-201AD
 K diode
 F http://www.vishay.com/docs/88756/uf5400.pdf
+$ENDCMP
+#
+$CMP VS-6ESU06HM3
+D 600V 6.0A Ultrafast Rectifier, TO-277A
+K diode fred
+F https://www.vishay.com/docs/94987/vs-6esu06hm3.pdf
 $ENDCMP
 #
 $CMP Z1SMAxxx
