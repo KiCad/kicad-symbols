@@ -158,8 +158,8 @@ $ENDCMP
 #
 $CMP FT2232H
 D FT2232Hx, Hi Speed Double Channel USB UART/FIFO, LQFP/QFN-64
-K USB Double UART FIFO
-F http://www.ftdichip.com/Products/ICs/FT2232H.html
+K FTDI USB Double UART FIFO
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf
 $ENDCMP
 #
 $CMP FT230XQ
@@ -220,6 +220,12 @@ $CMP FT245BM
 D Full Speed USB to 8-Bit FIFO, LQFP-32
 K FTDI USB FIFO Interface Converter
 F http://www.ftdichip.com/Products/ICs/FT245B.html
+$ENDCMP
+#
+$CMP FT4232H
+D FT2232Hx, Hi Speed Quad Channel USB UART/FIFO, LQFP/QFN-64
+K FTDI USB Quad UART FIFO
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf
 $ENDCMP
 #
 $CMP FUSB302B01MPX
