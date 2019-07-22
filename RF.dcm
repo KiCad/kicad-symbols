@@ -120,6 +120,96 @@ K Low Power RF Transciever breakout carrier
 F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf
 $ENDCMP
 #
+$CMP PAT-0
+D Attenuator, 0dB, 1W, DC to 7000 MHz, 50 Ohm, Mini-Circuits FA320
+K attenuator rf
+F https://ww2.minicircuits.com/pdfs/PAT-0+.pdf
+$ENDCMP
+#
+$CMP PAT-1
+D Attenuator, 1dB, 1W, DC to 7000 MHz, 50 Ohm, Mini-Circuits FA320
+K attenuator rf
+F https://ww2.minicircuits.com/pdfs/PAT-1+.pdf
+$ENDCMP
+#
+$CMP PAT-2
+D Attenuator, 2dB, 1W, DC to 7000 MHz, 50 Ohm, Mini-Circuits FA320
+K attenuator rf
+F https://ww2.minicircuits.com/pdfs/PAT-2+.pdf
+$ENDCMP
+#
+$CMP PAT-3
+D Attenuator, 3dB, 1W, DC to 7000 MHz, 50 Ohm, Mini-Circuits FA320
+K attenuator rf
+F https://ww2.minicircuits.com/pdfs/PAT-3+.pdf
+$ENDCMP
+#
+$CMP PAT-4
+D Attenuator, 4dB, 1W, DC to 7000 MHz, 50 Ohm, Mini-Circuits FA320
+K attenuator rf
+F https://ww2.minicircuits.com/pdfs/PAT-4+.pdf
+$ENDCMP
+#
+$CMP PAT-5
+D Attenuator, 5dB, 1W, DC to 7000 MHz, 50 Ohm, Mini-Circuits FA320
+K attenuator rf
+F https://ww2.minicircuits.com/pdfs/PAT-5+.pdf
+$ENDCMP
+#
+$CMP PAT-6
+D Attenuator, 6dB, 1W, DC to 7000 MHz, 50 Ohm, Mini-Circuits FA320
+K attenuator rf
+F https://ww2.minicircuits.com/pdfs/PAT-6+.pdf
+$ENDCMP
+#
+$CMP PAT-7
+D Attenuator, 7dB, 1W, DC to 7000 MHz, 50 Ohm, Mini-Circuits FA320
+K attenuator rf
+F https://ww2.minicircuits.com/pdfs/PAT-7+.pdf
+$ENDCMP
+#
+$CMP PAT-8
+D Attenuator, 8dB, 1W, DC to 7000 MHz, 50 Ohm, Mini-Circuits FA320
+K attenuator rf
+F https://ww2.minicircuits.com/pdfs/PAT-8+.pdf
+$ENDCMP
+#
+$CMP PAT-9
+D Attenuator, 9dB, 1W, DC to 7000 MHz, 50 Ohm, Mini-Circuits FA320
+K attenuator rf
+F https://ww2.minicircuits.com/pdfs/PAT-9+.pdf
+$ENDCMP
+#
+$CMP PAT-10
+D Attenuator, 10dB, 1W, DC to 7000 MHz, 50 Ohm, Mini-Circuits FA320
+K attenuator rf
+F https://ww2.minicircuits.com/pdfs/PAT-10+.pdf
+$ENDCMP
+#
+$CMP PAT-12
+D Attenuator, 12dB, 1W, DC to 7000 MHz, 50 Ohm, Mini-Circuits FA320
+K attenuator rf
+F https://ww2.minicircuits.com/pdfs/PAT-12+.pdf
+$ENDCMP
+#
+$CMP PAT-15
+D Attenuator, 15dB, 1W, DC to 7000 MHz, 50 Ohm, Mini-Circuits FA320
+K attenuator rf
+F https://ww2.minicircuits.com/pdfs/PAT-15+.pdf
+$ENDCMP
+#
+$CMP PAT-20
+D Attenuator, 20dB, 1W, DC to 7000 MHz, 50 Ohm, Mini-Circuits FA320
+K attenuator rf
+F https://ww2.minicircuits.com/pdfs/PAT-20+.pdf
+$ENDCMP
+#
+$CMP PAT-30
+D Attenuator, 30dB, 1W, DC to 7000 MHz, 50 Ohm, Mini-Circuits FA320
+K attenuator rf
+F https://ww2.minicircuits.com/pdfs/PAT-30+.pdf
+$ENDCMP
+#
 $CMP PAT1220-C-0DB
 D 10GHz RF Attenuator, 50ohm Matched Impedance, 0dB Attenuation, PAT1220
 K RF attenuator
