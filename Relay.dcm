@@ -84,6 +84,12 @@ K Single Pole Relay SPDT
 F https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf
 $ENDCMP
 #
+$CMP FINDER-36.11
+D FINDER 36.11, SPDT relay, 10A
+K spdt relay
+F https://gfinder.findernet.com/public/attachments/36/EN/S36EN.pdf
+$ENDCMP
+#
 $CMP FINDER-36.11-4301
 D FINDER 36.11-4301, Single Pole Relay SPST-NO Sugar Cube, 10A
 K Single Pole Relay SPST-NO Sugar Cube
