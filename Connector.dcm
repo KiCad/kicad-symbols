@@ -1104,9 +1104,21 @@ K Intel Altera Samtec HSMC card mezzanine
 F https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ds/hsmc_spec.pdf
 $ENDCMP
 #
+$CMP HSMC_Card_QTH-060-01-x-D-DP-A
+D HSMC card with Samtec QTH-060-01-L-D-DP-A differential connector
+K Intel Altera Samtec HSMC card mezzanine
+F https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ds/hsmc_spec.pdf
+$ENDCMP
+#
 $CMP HSMC_Card_QTH-090-01-x-D-A
 D HSMC card with Samtec QTH-090-01-x-D-A connector
 K Intel Altera Samtec HSMC card mezzanine
+F https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ds/hsmc_spec.pdf
+$ENDCMP
+#
+$CMP HSMC_Host_ASP-122953-01
+D HSMC host with Samtec ASP-122953-01 connector
+K Intel Altera Samtec HSMC host mezzanine
 F https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ds/hsmc_spec.pdf
 $ENDCMP
 #
