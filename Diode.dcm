@@ -1344,6 +1344,12 @@ K sic diode
 F https://www.infineon.com/dgdl/Infineon-IDDD20G65C6-DS-v02_00-EN.pdf?fileId=5546d462625a528f01628ff837cf104e
 $ENDCMP
 #
+$CMP ISL9R1560S3S
+D 600V, 15A, STEALTH Diode, TO-263 (D2PAK)
+K diode
+F https://www.onsemi.com/pub/Collateral/ISL9R1560S3S-D.PDF
+$ENDCMP
+#
 $CMP LL41
 D 100V 0.1A Small Signal Schottky diode, MiniMELF
 K diode Schottky
@@ -1780,6 +1786,12 @@ $CMP UF5408
 D 1000V 3A Soft Recovery Ultrafast Rectifier Diode, DO-201AD
 K diode
 F http://www.vishay.com/docs/88756/uf5400.pdf
+$ENDCMP
+#
+$CMP VB20150SG
+D 150V, 20A, Schottky Diode, TO-263 (D2PAK)
+K diode Schottky
+F https://www.vishay.com/docs/89060/v20150sg.pdf
 $ENDCMP
 #
 $CMP Z1SMAxxx
