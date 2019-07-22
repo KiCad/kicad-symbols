@@ -188,20 +188,20 @@ $ENDCMP
 #
 $CMP FT232BM
 D Hi Speed Single Channel USB UART/FIFO, LQFP-32
-K USB Single UART FIFO
+K FTDI USB Single UART FIFO
 F http://www.ftdichip.com/Products/ICs/FT232BM.htm
 $ENDCMP
 #
 $CMP FT232H
 D FT232Hx, Hi Speed Single Channel USB UART/FIFO, LQFP/QFN-48
-K USB Single UART FIFO
-F http://www.ftdichip.com/Products/ICs/FT232H.htm
+K FTDI USB Single UART FIFO
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232H.pdf
 $ENDCMP
 #
 $CMP FT232RL
 D USB to Serial Interface, SSOP-28
-K USB Serial
-F http://www.ftdichip.com/Products/ICs/FT232RL.htm
+K FTDI USB Serial
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf
 $ENDCMP
 #
 $CMP FT240XQ
