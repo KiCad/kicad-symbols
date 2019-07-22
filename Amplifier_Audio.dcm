@@ -456,4 +456,10 @@ K audio vca
 F http://www.thatcorp.com/datashts/THAT_2181-Series_Datasheet.pdf
 $ENDCMP
 #
+$CMP TPA3251
+D 175-W Stereo, 350-W Mono PurePath Ultra-HD Analog-Input Class-D Amplifier, HTSSOP-44
+K stereo class d amplifier
+F http://www.ti.com/lit/ds/symlink/tpa3251.pdf
+$ENDCMP
+#
 #End Doc Library
