@@ -96,6 +96,18 @@ K 8P8C RJ female connector
 F ~
 $ENDCMP
 #
+$CMP ATX12_v1.x
+D ATX Power supply v1.x
+K ATX
+F https://pinouts.ru/Power/atxpower_pinout.shtml
+$ENDCMP
+#
+$CMP ATX12_v2.x
+D ATX Power supply v2.x
+K ATX
+F https://pinouts.ru/Power/atx_v2_pinout.shtml
+$ENDCMP
+#
 $CMP AVR-ISP-10
 D Atmel 10-pin ISP connector
 K AVR ISP Connector
