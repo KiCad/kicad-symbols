@@ -54,10 +54,34 @@ K Batter, Charger, Li-Ion
 F http://www.ti.com/lit/ds/symlink/bq24012.pdf
 $ENDCMP
 #
+$CMP BQ24072RGT
+D USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16
+K USB Charge
+F http://www.ti.com/lit/ds/symlink/bq24072.pdf
+$ENDCMP
+#
+$CMP BQ24073RGT
+D USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16
+K USB Charge
+F http://www.ti.com/lit/ds/symlink/bq24073.pdf
+$ENDCMP
+#
+$CMP BQ24074RGT
+D USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16
+K USB Charge
+F http://www.ti.com/lit/ds/symlink/bq24074.pdf
+$ENDCMP
+#
 $CMP BQ24075
 D USB-Friendly Li-Ion Battery Charger and Power-Path Management
 K USB Charge
 F http://www.ti.com/lit/ds/symlink/bq24075.pdf
+$ENDCMP
+#
+$CMP BQ24133RGY
+D Synchronous switched mode Li-Ion and Li-Polymer battery charger, integrated MOSFETs and power path selector, Texas R-PVQFN-N24
+K Battery, Charger, Li-Ion, Li-Poly
+F http://www.ti.com/lit/ds/symlink/bq24133.pdf
 $ENDCMP
 #
 $CMP BQ2501x
@@ -70,6 +94,12 @@ $CMP BQ25504
 D Energy Harvesting Boost Converter with Battery Management, VQFN-16
 K energy harvesting li-ion battery solar TEG
 F http://www.ti.com/lit/ds/symlink/bq25504.pdf
+$ENDCMP
+#
+$CMP BQ25570
+D Nano Power Boost Charger and Buck Converter for Energy Harvester Powered Applications, QFN-20
+K harvester solar TEG charger li-on buck
+F http://www.ti.com/lit/ds/symlink/bq25570.pdf
 $ENDCMP
 #
 $CMP BQ25601
