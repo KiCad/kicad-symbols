@@ -42,6 +42,12 @@ K spi barometer thermometer mems
 F http://www.nxp.com/assets/documents/data/en/data-sheets/MPL115A1.pdf
 $ENDCMP
 #
+$CMP MPS20N0040D-D
+D Sphygmomanometer Pressure Sensor (0-40kPa), DIP-6
+K sphygmomanometer pressure sensor mems
+F https://cdn.sparkfun.com/assets/home_page_posts/1/9/0/2/Pressure_Sensor.pdf
+$ENDCMP
+#
 $CMP MPXA6115A
 D Absolute pressure sensor, 15 to 115kPa, analog output, integrated signal conditioning, temperature compensated, SO package
 K absolute pressure sensor
