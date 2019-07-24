@@ -48,6 +48,12 @@ K nextthingco chip pro module
 F https://github.com/NextThingCo/CHIP_Pro-Hardware/blob/master/Datasheets/CHIP_PRO_Datasheet_v1.0.pdf
 $ENDCMP
 #
+$CMP Carambola2
+D Qualcomm AR9331, 16MB Flash, 64MB RAM, USB, Serial, Ethernet, GPIO, OpenWRT,  industrial SoM computer
+K carambola, 8devices, openwrt
+F https://www.8devices.com/media/products/carambola2/downloads/carambola2-datasheet.pdf
+$ENDCMP
+#
 $CMP Maple_Mini
 D Maple Mini Microcontroller Module by LeafLabs
 K Maple Mini Microcontroller Module LeafLabs STM32 STM32F103
