@@ -54,6 +54,12 @@ K rf switch sp4t absorptive
 F https://www.analog.com/media/en/technical-documentation/data-sheets/HMC7992.pdf
 $ENDCMP
 #
+$CMP HMC849A
+D SPDT DC-2.0GHz absorbative switch, 50 Ohm, SOP-8
+K RF SPDT switch
+F https://ww2.minicircuits.com/pdfs/MSWA-2-20+.pdf
+$ENDCMP
+#
 $CMP MASW-007221
 D Macom GaAs RF SPDT switch, DC-3GHz, 0.56/12dB loss/isolation, SOT-363
 K RF SWITCH SPDT
