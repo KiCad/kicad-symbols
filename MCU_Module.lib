@@ -390,7 +390,7 @@ ENDDEF
 DEF Carambola2 U 0 40 Y Y 1 F N
 F0 "U" -1100 1650 50 H V C CNN
 F1 "Carambola2" 750 1650 50 H V C CNN
-F2 "" -1100 1650 50 H I C CNN
+F2 "Module:Carambola2" -1100 1650 50 H I C CNN
 F3 "" -1100 1650 50 H I C CNN
 $FPLIST
  *Carambola2*
