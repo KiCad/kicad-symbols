@@ -369,6 +369,24 @@ K ACIA
 F http://pdf.datasheetcatalog.com/datasheet/motorola/MC6850.pdf
 $ENDCMP
 #
+$CMP SN55LBC176
+D RS-485 / RS-422 Half-duplex Differential Bus Transceiver, low power, -55 to 125 °C
+K Half-duplex RS-485 RS-422
+F http://www.ti.com/lit/ds/symlink/sn55lbc176.pdf
+$ENDCMP
+#
+$CMP SN65176B
+D RS-485 / RS-422 Half-duplex Differential Bus Transceiver, 10 Mbps, -40 to 105 °C
+K Half-duplex RS-485 RS-422
+F http://www.ti.com/lit/ds/symlink/sn65176b.pdf
+$ENDCMP
+#
+$CMP SN65LBC176
+D RS-485 / RS-422 Half-duplex Differential Bus Transceiver, low power, -40 to 85 °C
+K Half-duplex RS-485 RS-422
+F http://www.ti.com/lit/ds/symlink/sn65lbc176.pdf
+$ENDCMP
+#
 $CMP SN65LBC176D
 D Differential bus transiver, SOIC-8
 K Differential bus transiver
@@ -381,6 +399,12 @@ K Differential bus transiver
 F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
 $ENDCMP
 #
+$CMP SN65LBC176Q
+D RS-485 / RS-422 Half-duplex Differential Bus Transceiver, low power, -40 to 125 °C
+K Half-duplex RS-485 RS-422
+F http://www.ti.com/lit/ds/symlink/sn65lbc176.pdf
+$ENDCMP
+#
 $CMP SN65LBC176QD
 D Differential bus transiver, SOIC-8
 K Differential bus transiver
@@ -390,6 +414,30 @@ $ENDCMP
 $CMP SN65LBC176QDR
 D Differential bus transiver, SOIC-8
 K Differential bus transiver
+F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
+$ENDCMP
+#
+$CMP SN75176
+D RS-485 / RS-422 Half-duplex Differential Bus Transceiver
+K Half-duplex RS-485 RS-422
+F http://www.ti.com/lit/ds/symlink/sn75176a.pdf
+$ENDCMP
+#
+$CMP SN75176A
+D RS-485 / RS-422 Half-duplex Differential Bus Transceiver, 5 Mbps
+K Half-duplex RS-485 RS-422
+F http://www.ti.com/lit/ds/symlink/sn75176a.pdf
+$ENDCMP
+#
+$CMP SN75176B
+D RS-485 / RS-422 Half-duplex Differential Bus Transceiver, 10 Mbps
+K Half-duplex RS-485 RS-422
+F http://www.ti.com/lit/ds/symlink/sn75176b.pdf
+$ENDCMP
+#
+$CMP SN75LBC176
+D RS-485 / RS-422 Half-duplex Differential Bus Transceiver, low power
+K Half-duplex RS-485 RS-422
 F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
 $ENDCMP
 #
