@@ -1200,12 +1200,6 @@ K Mini-DIN
 F http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf
 $ENDCMP
 #
-$CMP PIC_ICSP_ICD
-D Microcip PIC In-Circuit Serial Programming (ICSP/ICD) connector
-K icsp icd pic microchip
-F http://ww1.microchip.com/downloads/en/devicedoc/30277d.pdf
-$ENDCMP
-#
 $CMP RJ10
 D RJ connector, 4P4C (4 positions 4 connected)
 K 4P4C RJ female connector
