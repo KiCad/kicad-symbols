@@ -101,6 +101,12 @@ K analog switch selector multiplexer
 F http://www.ti.com/lit/ds/symlink/cd4052b.pdf
 $ENDCMP
 #
+$CMP CD4097B
+D CMOS double 8-channel analog multiplexer/demultiplexer, TSSOP-24/DIP-24/SOIC-24
+K analog switch selector multiplexer
+F http://www.ti.com/lit/ds/symlink/cd4097b.pdf
+$ENDCMP
+#
 $CMP DG308AxJ
 D Quad SPST Analog Switches, normally OFF, 60Ohm Ron, DIP-16
 K CMOS Analog Switch
