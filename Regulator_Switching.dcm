@@ -1356,6 +1356,12 @@ K Step-Down Voltage Regulator Adjustable
 F http://www.ti.com/lit/ds/symlink/lm2675.pdf
 $ENDCMP
 #
+$CMP LM2705
+D 150mA, 20V Boost Voltage Regulator, Load variant Frequency, SOT-23-5
+K Miniature Step-Up Boost Voltage Regulator
+F http://www.ti.com/lit/ds/symlink/lm2705.pdf
+$ENDCMP
+#
 $CMP LM27313XMF
 D 1A, 28Vout Boost Voltage Regulator, 1.6MHz Frequency, SOT-23-5
 K Miniature Step-Up Boost Voltage Regulator
