@@ -66,6 +66,12 @@ K absolute pressure sensor
 F http://www.nxp.com/files/sensors/doc/data_sheet/MPXA6115A.pdf
 $ENDCMP
 #
+$CMP MS5525DSO
+D Integrated Digital Pressure Sensor
+K 24bit low-power I2C SPI
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5525DSO&DocType=DS&DocLang=English
+$ENDCMP
+#
 $CMP MS5607-02BA
 D Barometric pressure sensor, 20cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8
 K pressure SPI I2C
