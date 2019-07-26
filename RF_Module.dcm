@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ATSAMR21G18-MR210UA_NoRFPads
+D RF Module, ATSAMR21, Zigbee 802.15.4, external antenna, SMD
+K Wireless Zigbee 802.15.4 ATSAMR21G18 AT45DB041E TECC508A
+F http://ww1.microchip.com/downloads/en/devicedoc/atmel-42475-atsamr21g18-mr210ua_datasheet.pdf
+$ENDCMP
+#
 $CMP Ai-Thinker-Ra-01
 D Ai-Thinker LoRa Module Ra-01
 K Ra-01 LoRa
