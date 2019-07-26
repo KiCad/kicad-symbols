@@ -312,6 +312,12 @@ K usb ethernet
 F http://www2.st.com/resource/en/datasheet/CD00050750.pdf
 $ENDCMP
 #
+$CMP WE-TVS-82400102
+D TVS Diode Array
+K ESD Protection TVS High-speed USB
+F https://katalog.we-online.de/pbs/datasheet/82400102.pdf
+$ENDCMP
+#
 $CMP WE-TVS-824014881
 D TVS Diode Array, 1.2V Standoff, 8 Channels, UDFN-9
 K usb esd protection suppression transient
