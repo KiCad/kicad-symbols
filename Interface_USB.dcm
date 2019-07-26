@@ -156,14 +156,8 @@ K USB Double UART FIFO
 F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232D.pdf
 $ENDCMP
 #
-$CMP FT2232HL
-D Hi Speed Double Channel USB UART/FIFO, LQFP-64
-K FTDI USB Double UART FIFO
-F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf
-$ENDCMP
-#
-$CMP FT2232HQ
-D Hi Speed Double Channel USB UART/FIFO, QFN-64
+$CMP FT2232H
+D Hi Speed Double Channel USB UART/FIFO, LQFP/QFN-64
 K FTDI USB Double UART FIFO
 F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf
 $ENDCMP
@@ -198,14 +192,8 @@ K FTDI USB Single UART FIFO
 F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232BM.pdf
 $ENDCMP
 #
-$CMP FT232HL
-D Hi Speed Single Channel USB UART/FIFO, LQFP-48
-K FTDI USB Single UART FIFO
-F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232H.pdf
-$ENDCMP
-#
-$CMP FT232HQ
-D Hi Speed Single Channel USB UART/FIFO, QFN-48
+$CMP FT232H
+D Hi Speed Single Channel USB UART/FIFO, LQFP/QFN-48
 K FTDI USB Single UART FIFO
 F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232H.pdf
 $ENDCMP
@@ -234,14 +222,8 @@ K FTDI USB FIFO Interface Converter
 F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT245BM.pdf
 $ENDCMP
 #
-$CMP FT4232HL
-D Hi Speed Quad Channel USB UART/FIFO, LQFP-64
-K FTDI USB Quad UART FIFO
-F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf
-$ENDCMP
-#
-$CMP FT4232HQ
-D Hi Speed Quad Channel USB UART/FIFO, QFN-64
+$CMP FT4232H
+D Hi Speed Quad Channel USB UART/FIFO, LQFP/QFN-64
 K FTDI USB Quad UART FIFO
 F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf
 $ENDCMP
