@@ -120,6 +120,12 @@ K HCMOS not inverter
 F http://www.ti.com/lit/gpn/sn74HC14
 $ENDCMP
 #
+$CMP 74HC164
+D 8-bit serial-in parallel-out shift register
+K 8-bit shift register
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf
+$ENDCMP
+#
 $CMP 74HC237
 D 3-to-8 line decoder/multiplexer with address latches, DIP-16/SOIC-16/SSOP-16
 K demux
@@ -238,6 +244,12 @@ $CMP 74HCT137
 D 3-to-8 line decoder/multiplexer with address latches, DIP-16/SOIC-16/SSOP-16
 K demux
 F http://www.ti.com/lit/ds/symlink/cd74hc237.pdf
+$ENDCMP
+#
+$CMP 74HCT164
+D 8-bit serial-in parallel-out shift register
+K 8-bit shift register
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf
 $ENDCMP
 #
 $CMP 74HCT237
