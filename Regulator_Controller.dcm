@@ -570,6 +570,42 @@ K PFC SMPS Controller
 F http://www.ti.com/lit/ds/symlink/uc3854.pdf
 $ENDCMP
 #
+$CMP UCC24610D
+D GREEN Rectifier Controller Device, 600kHz, SOIC-8
+K synchronous rectifier controller
+F http://www.ti.com/lit/ds/symlink/ucc24610.pdf
+$ENDCMP
+#
+$CMP UCC24610DRB
+D GREEN Rectifier Controller Device, 600kHz, DFN-8
+K synchronous rectifier controller
+F http://www.ti.com/lit/ds/symlink/ucc24610.pdf
+$ENDCMP
+#
+$CMP UCC24612-1DBV
+D High Frequency Synchronous Rectifier Controller, 1MHz, Min On Time = 375ns, SOT-23-5
+K synchronous rectifier controller
+F http://www.ti.com/lit/ds/symlink/ucc24612.pdf
+$ENDCMP
+#
+$CMP UCC24612-2DBV
+D High Frequency Synchronous Rectifier Controller, 800kHz, Min On Time = 540ns, SOT-23-5
+K synchronous rectifier controller
+F http://www.ti.com/lit/ds/symlink/ucc24612.pdf
+$ENDCMP
+#
+$CMP UCC24630DBV
+D Synchronous Rectifier Controller, 200kHz, CCM, SOT-23-6
+K synchronous rectifier controller
+F http://www.ti.com/lit/ds/symlink/ucc24630.pdf
+$ENDCMP
+#
+$CMP UCC24636DBV
+D Synchronous Rectifier Controller, 130kHz, DCM/TM, SOT-23-6
+K synchronous rectifier controller
+F http://www.ti.com/lit/ds/symlink/ucc24636.pdf
+$ENDCMP
+#
 $CMP UCC25600
 D High-Performance Resonant Mode Controller, SOIC-8
 K SMPS PWM Controller

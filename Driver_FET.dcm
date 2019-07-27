@@ -840,6 +840,36 @@ K mosfet driver
 F http://www.st.com/resource/en/datasheet/pm8834.pdf
 $ENDCMP
 #
+$CMP SM72295MA
+D Full Bridge Gate Driver with integrated Current Sense Amplifier, 3A, 115V, SOIC-28
+K Full Bridge Gate Driver
+F http://www.ti.com/lit/gpn/sm72295
+$ENDCMP
+#
+$CMP STGAP2SCM
+D Galvanically isolated 4 A single gate driver, Single Output And Miller Clamp, SOIC-8
+K isolated fet driver
+F https://www.st.com/resource/en/datasheet/stgap2s.pdf
+$ENDCMP
+#
+$CMP STGAP2SM
+D Galvanically isolated 4 A single gate driver, Separated Outputs, SOIC-8
+K isolated fet driver
+F https://www.st.com/resource/en/datasheet/stgap2s.pdf
+$ENDCMP
+#
+$CMP TC4421
+D 9A High-Speed inverting MOSFET Driver
+K MOSFET IGBT driver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001420F.pdf
+$ENDCMP
+#
+$CMP TC4422
+D 9A High-Speed non-inverting MOSFET Driver
+K MOSFET IGBT driver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001420F.pdf
+$ENDCMP
+#
 $CMP TLP250
 D Gate Drive Optocoupler, Output Current 1.5/1.5A, DIP-8
 K MOSFET Driver IGBT Driver Optocoupler
