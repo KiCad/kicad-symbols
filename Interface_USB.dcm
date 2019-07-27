@@ -156,10 +156,16 @@ K USB Double UART FIFO
 F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232D.pdf
 $ENDCMP
 #
-$CMP FT2232H
-D FT2232Hx, Hi Speed Double Channel USB UART/FIFO, LQFP/QFN-64
+$CMP FT2232HL
+D Hi Speed Double Channel USB UART/FIFO, LQFP-64
 K USB Double UART FIFO
-F http://www.ftdichip.com/Products/ICs/FT2232H.html
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf
+$ENDCMP
+#
+$CMP FT2232HQ
+D Hi Speed Double Channel USB UART/FIFO, QFN-64
+K USB Double UART FIFO
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf
 $ENDCMP
 #
 $CMP FT230XQ
