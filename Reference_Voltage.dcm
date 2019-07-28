@@ -336,35 +336,63 @@ K voltage reference vref
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1019fd.pdf
 $ENDCMP
 #
+$CMP LT1634BCMS8-1.25
+D 1.25V Micropower Precision Shunt Voltage Reference, MSOP-8
+K voltage reference Micropower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
+$ENDCMP
+#
+$CMP LT1634BCMS8-2.5
+D 2.5V Micropower Precision Shunt Voltage Reference, MSOP-8
+K voltage reference Micropower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
+$ENDCMP
+#
 $CMP LT1634CCZ-1.25
+D 1.25V Micropower Precision Shunt Voltage Reference, TO-92
+K voltage reference Micropower
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
 $ENDCMP
 #
 $CMP LT1634CCZ-2.5
+D 2.5V Micropower Precision Shunt Voltage Reference, TO-92
+K voltage reference Micropower
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
 $ENDCMP
 #
 $CMP LT1634CCZ-4.096
+D 4.096V Micropower Precision Shunt Voltage Reference, TO-92
+K voltage reference Micropower
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
 $ENDCMP
 #
 $CMP LT1634CCZ-5
+D 5V Micropower Precision Shunt Voltage Reference, TO-92
+K voltage reference Micropower
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
 $ENDCMP
 #
 $CMP LT1634xxS8-1.25
+D 1.25V Micropower Precision Shunt Voltage Reference, SO-8
+K voltage reference Micropower
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
 $ENDCMP
 #
 $CMP LT1634xxS8-2.5
+D 2.5V Micropower Precision Shunt Voltage Reference, SO-8
+K voltage reference Micropower
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
 $ENDCMP
 #
-$CMP LT1634xxS8-4.069
+$CMP LT1634xxS8-4.096
+D 4.096V Micropower Precision Shunt Voltage Reference, SO-8
+K voltage reference Micropower
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
 $ENDCMP
 #
 $CMP LT1634xxS8-5
+D 5V Micropower Precision Shunt Voltage Reference, SO-8
+K voltage reference Micropower
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
 $ENDCMP
 #
