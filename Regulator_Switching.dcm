@@ -3468,6 +3468,24 @@ K isolated isolation dc-dc converter transformer
 F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
 $ENDCMP
 #
+$CMP PAM2301CAAB120
+D 800mA, Step-Down DC/DC-Converter, 1.2V Fixed Output Voltage, 1.5MHz, TSOT-23
+K Voltage regulator switching buck fixed output analog
+F https://www.diodes.com/assets/Datasheets/PAM2301.pdf
+$ENDCMP
+#
+$CMP PAM2301CAAB330
+D 800mA, Step-Down DC/DC-Converter, 3.3V Fixed Output Voltage, 1.5MHz, TSOT-23
+K Voltage regulator switching buck fixed output analog
+F https://www.diodes.com/assets/Datasheets/PAM2301.pdf
+$ENDCMP
+#
+$CMP PAM2301CAABADJ
+D 800mA, Step-Down DC/DC-Converter, Adjustable Output Voltage, 1.5MHz, TSOT-23
+K Voltage regulator switching buck fixed output analog
+F https://www.diodes.com/assets/Datasheets/PAM2305.pdf
+$ENDCMP
+#
 $CMP PAM2305AAB120
 D 1A, Step-Down DC/DC-Converter, 1.2V Fixed Output Voltage, 1.5MHz, TSOT-23
 K Voltage regulator switching buck fixed output analog
