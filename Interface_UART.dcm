@@ -369,6 +369,12 @@ K ACIA
 F http://pdf.datasheetcatalog.com/datasheet/motorola/MC6850.pdf
 $ENDCMP
 #
+$CMP SN65HVD11D
+D RS485 transceiver, single 3.3-V power supply, 10 Mbps, SOIC-8
+K rs485 transceiver
+F http://www.ti.com/lit/ds/slls505j/slls505j.pdf
+$ENDCMP
+#
 $CMP SN65LBC176D
 D Differential bus transiver, SOIC-8
 K Differential bus transiver
