@@ -5256,6 +5256,12 @@ K Boost adjustable converter
 F http://www.ti.com/lit/ds/symlink/tps61220.pdf
 $ENDCMP
 #
+$CMP TPS61252DSG
+D Tiny 1.5-A Boost Converter With Adjustable Input Current Limit, 2.3-6.0V Vin, 3.0-6.5V Vout, WSON-8
+K boost converter switching
+F http://www.ti.com/lit/ds/symlink/tps61252.pdf
+$ENDCMP
+#
 $CMP TPS62125DSG
 D 300mA Step-Down Converter with Enable Threshold and Hysteresis, adjustable output, 3-17V input voltage, WSON-8
 K step-down dc-dc buck regulator
