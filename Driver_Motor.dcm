@@ -324,8 +324,14 @@ K full-bridge h-bridge
 F https://www.st.com/resource/en/datasheet/vnh5019a-e.pdf
 $ENDCMP
 #
-$CMP ZXBM5210
-D Reversible DC motor drive with speed control, 3-18V, 0.85A
+$CMP ZXBM5210-S
+D Reversible DC motor drive with speed control, 3-18V, 0.85A, SOIC-8
+K H-bridge, motor driver, PWM, single coil
+F https://www.diodes.com/assets/Datasheets/ZXBM5210.pdf
+$ENDCMP
+#
+$CMP ZXBM5210-SP
+D Reversible DC motor drive with speed control, 3-18V, 0.85A, SOIC-8EP
 K H-bridge, motor driver, PWM, single coil
 F https://www.diodes.com/assets/Datasheets/ZXBM5210.pdf
 $ENDCMP
