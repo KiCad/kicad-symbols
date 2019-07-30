@@ -102,6 +102,12 @@ K trimmer capacitor
 F ~
 $ENDCMP
 #
+$CMP CTRIM_Small
+D Trimmable capacitor, small symbol
+K trimmer variable capacitor
+F ~
+$ENDCMP
+#
 $CMP C_Feedthrough
 D Feedthrough capacitor
 K EMI filter feedthrough capacitor
@@ -117,6 +123,42 @@ $ENDCMP
 $CMP C_Variable
 D Variable capacitor
 K trimmer capacitor
+F ~
+$ENDCMP
+#
+$CMP CircuitBreaker_1P
+D Single pole circuit breaker
+K CB
+F ~
+$ENDCMP
+#
+$CMP CircuitBreaker_1P_US
+D Single pole circuit breaker, US symbol
+K CB
+F ~
+$ENDCMP
+#
+$CMP CircuitBreaker_2P
+D Double pole circuit breaker
+K CB 2P
+F ~
+$ENDCMP
+#
+$CMP CircuitBreaker_2P_US
+D Double pole circuit breaker, US symbol
+K CB 2P
+F ~
+$ENDCMP
+#
+$CMP CircuitBreaker_3P
+D Triple pole circuit breaker
+K CB 3P
+F ~
+$ENDCMP
+#
+$CMP CircuitBreaker_3P_US
+D Triple pole circuit breaker, US symbol
+K CB 3P
 F ~
 $ENDCMP
 #
@@ -516,6 +558,42 @@ K diode
 F ~
 $ENDCMP
 #
+$CMP D_Zener_x2_ACom_AKK
+D Dual Zener diode, common anode on pin 1
+K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_ACom_KAK
+D Dual Zener diode, common anode on pin 2
+K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_ACom_KKA
+D Dual Zener diode, common anode on pin 3
+K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_KCom_AAK
+D Dual Zener diode, common cathode on pin 3
+K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_KCom_AKA
+D Dual Zener diode, common cathode on pin 2
+K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_KCom_KAA
+D Dual Zener diode, common cathode on pin 1
+K diode zener dual
+F ~
+$ENDCMP
+#
 $CMP D_x2_ACom_AKK
 D Dual diode, common anode on pin 1
 K diode
@@ -621,7 +699,13 @@ $ENDCMP
 $CMP EMI_Filter_LL
 D EMI 2-inductor filter
 K EMI filter
-F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c30e.ashx?la=en-gb
+F ~
+$ENDCMP
+#
+$CMP EMI_Filter_LL_1423
+D EMI 2-inductor filter, pin-connections 1-4 and 2-3
+K EMI filter common-mode choke
+F ~
 $ENDCMP
 #
 $CMP Earphone
@@ -732,6 +816,12 @@ K LED diode
 F ~
 $ENDCMP
 #
+$CMP LED_ABRG
+D RGB LED, anode/blue/red/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP LED_ALT
 D Light emitting diode, filled shape
 K LED diode
@@ -798,6 +888,12 @@ K LED diode bicolor dual
 F ~
 $ENDCMP
 #
+$CMP LED_Dual_CACA
+D Dual LED, cathodes on pins 1 and 3
+K LED diode bicolor dual
+F ~
+$ENDCMP
+#
 $CMP LED_Dual_CCA
 D Dual LED, common anode on pin 3
 K LED diode bicolor dual
@@ -836,6 +932,18 @@ $ENDCMP
 #
 $CMP LED_RGB
 D RGB LED, 6 pin package
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RGBA
+D RGB LED, red/green/blue/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RGBC
+D RGB LED, red/green/blue/cathode
 K LED RGB diode
 F ~
 $ENDCMP
@@ -1098,14 +1206,32 @@ K transistor NMOS N-MOS N-MOSFET
 F ~
 $ENDCMP
 #
+$CMP Q_DUAL_NMOS_S1G1D2S2G2D1
+D Dual NMOS transistor, 6 pin package
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
 $CMP Q_DUAL_NPN_C2C1E1E2
 D Double NPN transistors, current mirror configuration
 K transistor NPN
 F ~
 $ENDCMP
 #
+$CMP Q_DUAL_NPN_NPN_BRT_E1B1C2E2B2C1
+D Dual NPN bias resistor transistor, 6 pin package
+K transistor NPN
+F ~
+$ENDCMP
+#
 $CMP Q_DUAL_NPN_NPN_E1B1C2E2B2C1
 D Dual NPN transistor, 6 pin package
+K transistor NPN
+F ~
+$ENDCMP
+#
+$CMP Q_DUAL_NPN_PNP_BRT_E1B1C2E2B2C1
+D Dual NPN/PNP bias resistor transistor, 6 pin package
 K transistor NPN
 F ~
 $ENDCMP
@@ -1122,9 +1248,27 @@ K transistor PMOS P-MOS P-MOSFET
 F ~
 $ENDCMP
 #
+$CMP Q_DUAL_PMOS_S1G1D2S2G2D1
+D Dual PMOS transistor, 6 pin package
+K transistor PMOS P-MOS P-MOSFET
+F ~
+$ENDCMP
+#
 $CMP Q_DUAL_PNP_C2C1E1E2
 D Double PNP transistors, current mirror configuration
 K transistor PNP
+F ~
+$ENDCMP
+#
+$CMP Q_DUAL_PNP_NPN_BRT_E1B1C2E2B2C1
+D Dual PNP/NPN bias resistor transistor, 6 pin package
+K transistor NPN
+F ~
+$ENDCMP
+#
+$CMP Q_DUAL_PNP_PNP_BRT_E1B1C2E2B2C1
+D Dual PNP bias resistor transistor, 6 pin package
+K transistor NPN
 F ~
 $ENDCMP
 #
@@ -1290,6 +1434,12 @@ K transistor NPN
 F ~
 $ENDCMP
 #
+$CMP Q_NPN_BEC_BRT
+D NPN bias resistor transistor, base/emitter/collector
+K transistor NPN
+F ~
+$ENDCMP
+#
 $CMP Q_NPN_CBE
 D NPN transistor, collector/base/emitter
 K transistor NPN
@@ -1364,6 +1514,12 @@ $ENDCMP
 #
 $CMP Q_NPN_ECBC
 D NPN transistor, emitter/collector/base, collector connected to mounting plane
+K transistor NPN
+F ~
+$ENDCMP
+#
+$CMP Q_NPN_ECB_BRT
+D NPN transistor, emitter/collector/base
 K transistor NPN
 F ~
 $ENDCMP
@@ -1476,6 +1632,12 @@ K transistor PNP
 F ~
 $ENDCMP
 #
+$CMP Q_PNP_BEC_BRT
+D PNP bias resistor transistor, base/emitter/collector
+K transistor PNP
+F ~
+$ENDCMP
+#
 $CMP Q_PNP_CBE
 D PNP transistor, collector/base/emitter
 K transistor PNP
@@ -1550,6 +1712,12 @@ $ENDCMP
 #
 $CMP Q_PNP_ECBC
 D PNP transistor, emitter/collector/base, collector connected to mounting plane
+K transistor PNP
+F ~
+$ENDCMP
+#
+$CMP Q_PNP_ECB_BRT
+D PNP bias resistor transistor, emitter/collector/base
 K transistor PNP
 F ~
 $ENDCMP
@@ -1898,6 +2066,12 @@ $ENDCMP
 #
 $CMP R_POT_Dual_Separate
 D Dual potentiometer, separate units
+K resistor variable
+F ~
+$ENDCMP
+#
+$CMP R_POT_Small
+D Potentiometer
 K resistor variable
 F ~
 $ENDCMP
