@@ -12,6 +12,12 @@ K mixer rf
 F www.minicircuits.com/pdfs/ADE-6.pdf
 $ENDCMP
 #
+$CMP ADL5904
+D DC to 6 GHz, 45 dB TruPwr Detector with Envelope Threshold Detection, LFCSP-16
+K RMS power detector log decibel dB
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5904.pdf
+$ENDCMP
+#
 $CMP ADP-2-1W
 D Power splitter combiner, 1 to 650 MHz, 2 way 0-degree, 50 ohm, Mini-Circuits CD636
 K splitter combiner
