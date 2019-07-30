@@ -264,6 +264,12 @@ K transceiver sub-ghz radio ism
 F https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf
 $ENDCMP
 #
+$CMP TCP-2-10X
+D Power splitter combiner, 5 to 1000 MHz, 2 way 0-degree, 50 ohm, Mini-Circuits DB1627
+K splitter combiner
+F https://ww2.minicircuits.com/pdfs/TCP-2-10X+.pdf
+$ENDCMP
+#
 $CMP nRF24L01P
 D nRF24L01+, Ultra low power 2.4GHz RF Transceiver, QFN20 4x4mm
 K Low Power RF Transciever
