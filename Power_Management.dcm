@@ -864,12 +864,6 @@ K mosfet distribution
 F https://ww1.microchip.com/downloads/en/DeviceDoc/MIC2025-2075-Single-Channel-Power-Distribution-Switch-DS20006030A.pdf
 $ENDCMP
 #
-$CMP MAX8586
-D Single 1.2A USB Current Limiting Switch
-K 1-channel USB current limiting power switch
-F https://datasheets.maximintegrated.com/en/ds/MAX8586.pdf
-$ENDCMP
-#
 $CMP MIC2026-1BM
 D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, SOIC-8
 K mosfet distribution
