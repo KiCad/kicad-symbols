@@ -90,6 +90,12 @@ K display LED 7-segment
 F http://www.kingbrightusa.com/images/catalog/SPEC/CC56-12YWA.pdf
 $ENDCMP
 #
+$CMP Cromatek_D1xxx
+D One digit 7 segment ultra bright red LED, low current, common cathode
+K display LED 7-segment
+F https://archive.org/download/CTKD1x8K/Cromatek%20D168K.pdf
+$ENDCMP
+#
 $CMP D168K
 D One digit 7 segment ultra bright red LED, low current, common cathode
 K display LED 7-segment
