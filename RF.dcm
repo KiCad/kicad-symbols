@@ -222,6 +222,66 @@ K low-power lora transceiver
 F https://www.semtech.com/uploads/documents/sx1272.pdf
 $ENDCMP
 #
+$CMP SYBDC-10-13HP
+D Bi-Directional Coupler, 50 to 1000 MHz, 10 dB Coupling, 50 Ohm, 10W, Mini-Circuits AH202-1
+K Bi-Directional Coupler Transformer
+F https://ww2.minicircuits.com/pdfs/SYBDC-10-13HP+.pdf
+$ENDCMP
+#
+$CMP SYBDC-15-13HP
+D Bi-Directional Coupler, 100 to 1000 MHz, 15 dB Coupling, 50 Ohm, 10W, Mini-Circuits AH202-1
+K Bi-Directional Coupler Transformer
+F https://ww2.minicircuits.com/pdfs/SYBDC-15-13HP+.pdf
+$ENDCMP
+#
+$CMP SYBDC-6-62HP
+D Bi-Directional Coupler, 30 to 600 MHz, 6 dB Coupling, 50 Ohm, 10W, Mini-Circuits AH202-1
+K Bi-Directional Coupler Transformer
+F https://ww2.minicircuits.com/pdfs/SYBDC-6-62HP+.pdf
+$ENDCMP
+#
+$CMP SYDC-10-62HP
+D Bi-Directional Coupler, 10 to 600 MHz, 10 dB Coupling, 50 Ohm, 20W, Mini-Circuits AH202-1
+K Bi-Directional Coupler Transformer
+F https://ww2.minicircuits.com/pdfs/SYDC-10-62HP+.pdf
+$ENDCMP
+#
+$CMP SYDC-18-23
+D Bi-Directional Coupler, 10 to 2000 MHz, 18 dB Coupling, 50 Ohm, Mini-Circuits AH202-1
+K Bi-Directional Coupler Transformer
+F https://ww2.minicircuits.com/pdfs/SYDC-18-23+.pdf
+$ENDCMP
+#
+$CMP SYDC-20-13HP
+D Bi-Directional Coupler, 40 to 1000 MHz, 20 dB Coupling, 50 Ohm, 10W, Mini-Circuits AH202-1
+K Bi-Directional Coupler Transformer
+F https://ww2.minicircuits.com/pdfs/SYDC-20-13HP+.pdf
+$ENDCMP
+#
+$CMP SYDC-20-22HP
+D Bi-Directional Coupler, 3 to 200 MHz, 20 dB Coupling, 50 Ohm, 30W, Mini-Circuits AH202-1
+K Bi-Directional Coupler Transformer
+F https://ww2.minicircuits.com/pdfs/SYDC-20-22HP+.pdf
+$ENDCMP
+#
+$CMP SYDC-20-61HP
+D Bi-Directional Coupler, 1.5 to 60 MHz, 20 dB Coupling, 50 Ohm, 15W, Mini-Circuits AH202-1
+K Bi-Directional Coupler Transformer
+F https://ww2.minicircuits.com/pdfs/SYDC-20-61HP+.pdf
+$ENDCMP
+#
+$CMP SYDC-20-62HP
+D Bi-Directional Coupler, 10 to 540 MHz, 20 dB Coupling, 50 Ohm, 25W, Mini-Circuits AH202-1
+K Bi-Directional Coupler Transformer
+F https://ww2.minicircuits.com/pdfs/SYDC-20-62HP+.pdf
+$ENDCMP
+#
+$CMP SYDC-30-12HP
+D Bi-Directional Coupler, 20 to 100 MHz, 30 dB Coupling, 50 Ohm, 50W, Mini-Circuits AH202-1
+K Bi-Directional Coupler Transformer
+F https://ww2.minicircuits.com/pdfs/SYDC-30-12HP+.pdf
+$ENDCMP
+#
 $CMP SYPD-1
 D Phase Detector, 1 to 100 MHz, 50 Ohm, Mini-Cicuits TTT167
 K Phase Detector
