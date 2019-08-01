@@ -6096,6 +6096,12 @@ K LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
 $ENDCMP
 #
+$CMP TLV76750DRV
+D 1A Precision Linear Voltage Regulator, with enable pin, Fixed Output 5.0V, WSON6
+K 1A Precision Linear Voltage Regulator
+F www.ti.com/lit/gpn/TLV767
+$ENDCMP
+#
 $CMP TPS51200DRC
 D Sink and Source DDR Termination Regulator, VSON-10
 K DDR LDO
