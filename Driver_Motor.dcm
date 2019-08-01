@@ -102,6 +102,30 @@ K half bridge driver
 F http://www.ti.com/lit/ds/symlink/drv8837.pdf
 $ENDCMP
 #
+$CMP DRV8847PWPx
+D Dual H-Bridge Motor Driver, 1A, HTSSOP-16
+K Dual H-Bridge motor driver
+F https://www.ti.com/lit/ds/symlink/drv8847.pdf
+$ENDCMP
+#
+$CMP DRV8847PWR
+D Dual H-Bridge Motor Driver, 1A, TSSOP-16
+K Dual H-Bridge motor driver
+F https://www.ti.com/lit/ds/symlink/drv8847.pdf
+$ENDCMP
+#
+$CMP DRV8847RTEx
+D Dual H-Bridge Motor Driver, 1A, WQFN-16
+K Dual H-Bridge motor driver
+F https://www.ti.com/lit/ds/symlink/drv8847.pdf
+$ENDCMP
+#
+$CMP DRV8847SPWR
+D Dual H-Bridge Motor Driver, 1A, TWI Interface, TSSOP-16
+K Dual H-Bridge motor driver
+F https://www.ti.com/lit/ds/symlink/drv8847.pdf
+$ENDCMP
+#
 $CMP DRV8848
 D Dual H-Bridge motor driver, PWM controlled, single/dual brushed DC stepper, +2 to +18 VDD, TSSOP-16
 K Dual H-Bridge motor driver
@@ -294,14 +318,14 @@ K Standalone driver stepper motor
 F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2100_datasheet_Rev1.08.pdf
 $ENDCMP
 #
-$CMP TMC2130-TA
-D Driver for two-phase bipolar stepper motor, 2.0A, SPI, 4.75-46V, TQFP-48
+$CMP TMC2130-LA
+D Driver for two-phase bipolar stepper motor, 2.0A, SPI, 4.75-46V, QFN-36
 K stepper motor driver
 F http://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2130_datasheet.pdf
 $ENDCMP
 #
-$CMP TMC2130-LA
-D Driver for two-phase bipolar stepper motor, 2.0A, SPI, 4.75-46V, QFN-36
+$CMP TMC2130-TA
+D Driver for two-phase bipolar stepper motor, 2.0A, SPI, 4.75-46V, TQFP-48
 K stepper motor driver
 F http://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2130_datasheet.pdf
 $ENDCMP
