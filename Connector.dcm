@@ -834,6 +834,12 @@ K IDC20 Male Connector ARM JTAG SWD
 F http://infocenter.arm.com/help/topic/com.arm.doc.dui0499b/DUI0499B_system_design_reference.pdf
 $ENDCMP
 #
+$CMP Conn_ARM_SWD_10
+D Cortex Debug Connector, standard ARM Cortex-M SWD
+K Cortex Debug Connector ARM SWD
+F http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf
+$ENDCMP
+#
 $CMP Conn_Coaxial
 D coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
 K BNC SMA SMB SMC coaxial connector CINCH RCA
