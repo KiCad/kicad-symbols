@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0
+﻿EESchema-DOCLIB  Version 2.0
 #
 $CMP CL220K4-G
 D Temperature Compensated Constant Current LED IC, D-PAK
@@ -220,6 +220,12 @@ $CMP LT3755xUD-2
 D 40 Vin, 75 Vout, DC/DC LED Controllers, Improved Open led Status pin, QFN-16
 K Boost Buck Buck-Boost SEPIC Flyback
 F https://www.analog.com/media/en/technical-documentation/data-sheets/37551fd.pdf
+$ENDCMP
+#
+$CMP MAX7219CWG+T
+D 8-Digit LED Display Driver, SOIC-24W
+K LED 8-Digit Display Driver
+F https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf
 $ENDCMP
 #
 $CMP MPQ2483DQ
