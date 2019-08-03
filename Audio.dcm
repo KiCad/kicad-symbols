@@ -228,15 +228,9 @@ K audio dac 2ch 24bit 192kHz
 F http://www.ti.com/lit/ds/symlink/pcm1794a.pdf
 $ENDCMP
 #
-$CMP PCM2900
-D Stereo Audio Codec with USB interface, Analog IN/OUT, and S/PDIF
-K pcm2902 usb audio
-F http://www.ti.com/lit/ds/symlink/pcm2902c.pdf
-$ENDCMP
-#
 $CMP PCM2902
-D Stereo Audio Codec with USB interface, Analog IN/OUT, and S/PDIF
-K pcm2902 usb audio
+D Stereo Audio Codec with USB interface, Analog Iput/Output, and S/PDIF, SSOP-28
+K pcm2902 usb audio 
 F http://www.ti.com/lit/ds/symlink/pcm2902c.pdf
 $ENDCMP
 #
