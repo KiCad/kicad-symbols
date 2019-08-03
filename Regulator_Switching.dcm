@@ -3036,6 +3036,12 @@ K regulator switching adjustable
 F https://www.monolithicpower.com/pub/media/document/m/p/mp171_r1.01.pdf
 $ENDCMP
 #
+$CMP MP2303A
+D Synchronous Rectified 3A, 28V, 360kHz Step-Down Converter
+K buck converter step down
+F https://www.monolithicpower.com/pub/media/document/MP2303A_r1.1.pdf
+$ENDCMP
+#
 $CMP NCP1070P065
 D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 14W/7.75W, 230V/85-265V, 65kHz, 22Ohm Rds(on), 250mA Ipk, DIP-7
 K SMPS Converter
