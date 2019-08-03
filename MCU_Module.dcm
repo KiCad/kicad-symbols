@@ -50,7 +50,7 @@ $ENDCMP
 #
 $CMP Carambola2
 D Qualcomm AR9331, 16MB Flash, 64MB RAM, USB, Serial, Ethernet, GPIO, OpenWRT,  industrial SoM computer
-K carambola, 8devices, openwrt
+K carambola, 8devices, openwrt, board, wlan
 F https://www.8devices.com/media/products/carambola2/downloads/carambola2-datasheet.pdf
 $ENDCMP
 #
