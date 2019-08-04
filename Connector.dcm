@@ -858,6 +858,12 @@ K BNC SMA SMB SMC coaxial connector CINCH RCA
 F  ~
 $ENDCMP
 #
+$CMP Conn_PIC_ICSP_ICD
+D Microchip PIC In-Circuit Serial Programming/Debugging (ICSP/ICD) connector
+K icsp icd pic microchip
+F http://ww1.microchip.com/downloads/en/devicedoc/30277d.pdf
+$ENDCMP
+#
 $CMP Conn_WallPlug
 D 3-pin general wall plug, no Earth wire (110VAC, 220VAC)
 K wall plug 110VAC 220VAC
@@ -1198,12 +1204,6 @@ $CMP Mini-DIN-8
 D 8-pin Mini-DIN connector
 K Mini-DIN
 F http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf
-$ENDCMP
-#
-$CMP PIC_ICSP_ICD
-D Microchip PIC In-Circuit Serial Programming/Debugging (ICSP/ICD) connector
-K icsp icd pic microchip
-F http://ww1.microchip.com/downloads/en/devicedoc/30277d.pdf
 $ENDCMP
 #
 $CMP RJ10
