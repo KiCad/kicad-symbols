@@ -516,6 +516,12 @@ K X capacitor discharge
 F http://www.monolithicpower.com/DesktopModules/DocumentManage/API/Document/getDocument?id=142
 $ENDCMP
 #
+$CMP INA3221
+D Triple-Channel High-Side Shunt and Bus Voltage Monitor with I2C and SMBUS Compatible Interface, QFN-16
+K Shunt and Bus voltage monitor
+F http://www.ti.com/lit/ds/symlink/ina3221.pdf
+$ENDCMP
+#
 $CMP IPS6011PBF
 D 39V, 60A, Intelligent Power Switch High Side, TO-220-5
 K Intelligent Power Switch High Side MOSFET
