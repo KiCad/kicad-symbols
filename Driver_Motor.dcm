@@ -102,7 +102,7 @@ K half bridge driver
 F http://www.ti.com/lit/ds/symlink/drv8837.pdf
 $ENDCMP
 #
-$CMP DRV8847PWPx
+$CMP DRV8847PWP
 D Dual H-Bridge Motor Driver, 1A, HTSSOP-16
 K Dual H-Bridge motor driver
 F https://www.ti.com/lit/ds/symlink/drv8847.pdf
@@ -114,14 +114,14 @@ K Dual H-Bridge motor driver
 F https://www.ti.com/lit/ds/symlink/drv8847.pdf
 $ENDCMP
 #
-$CMP DRV8847RTEx
+$CMP DRV8847RTE
 D Dual H-Bridge Motor Driver, 1A, WQFN-16
 K Dual H-Bridge motor driver
 F https://www.ti.com/lit/ds/symlink/drv8847.pdf
 $ENDCMP
 #
 $CMP DRV8847SPWR
-D Dual H-Bridge Motor Driver, 1A, TWI Interface, TSSOP-16
+D Dual H-Bridge Motor Driver, 1A, I2C Interface, TSSOP-16
 K Dual H-Bridge motor driver
 F https://www.ti.com/lit/ds/symlink/drv8847.pdf
 $ENDCMP
