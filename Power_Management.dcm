@@ -786,16 +786,16 @@ K overvoltage undervoltage reverse-polarity protection
 F https://www.analog.com/media/en/technical-documentation/data-sheets/4365fa.pdf
 $ENDCMP
 #
-$CMP LTC4412xS6
-D Low Loss PowerPath Controller, TSOT-23-6
-K ideal-diode or-ing
-F https://www.analog.com/media/en/technical-documentation/data-sheets/4412fb.pdf
-$ENDCMP
-#
 $CMP LTC4365xTS8
 D Overvoltage, Undervoltage and Reverse Supply Protection Controller, 50Hz/60Hz noise rejection, TSOT-23-8
 K overvoltage undervoltage reverse-polarity protection
 F https://www.analog.com/media/en/technical-documentation/data-sheets/4365fa.pdf
+$ENDCMP
+#
+$CMP LTC4412xS6
+D Low Loss PowerPath Controller, TSOT-23-6
+K ideal-diode or-ing
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4412fb.pdf
 $ENDCMP
 #
 $CMP LTC4417CGN
@@ -946,6 +946,18 @@ $CMP STM6601
 D Smart push-button on/off controller, power-on lockout, Low Power, 1.6-5.5V, TDFN12
 K push-button-controller low-power
 F http://www.st.com/resource/en/datasheet/stm6600.pdf
+$ENDCMP
+#
+$CMP SiP32431DR3
+D 10 pA, Ultra Low Leakage and Quiescent Current, Load Switch with Reverse Blocking, High Enable, SC-70-6
+K Load switch
+F http://www.vishay.com.hk/docs/66597/sip32431.pdf
+$ENDCMP
+#
+$CMP SiP32432DR3
+D 10 pA, Ultra Low Leakage and Quiescent Current, Load Switch with Reverse Blocking, Low Enable, SC-70-6
+K Load switch
+F http://www.vishay.com.hk/docs/66597/sip32431.pdf
 $ENDCMP
 #
 $CMP TEA1708T
