@@ -5322,6 +5322,48 @@ K Single Output LDO
 F http://www.onsemi.com/pub/Collateral/NCP133-D.PDF
 $ENDCMP
 #
+$CMP NCP718xSN120
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 1.2V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
+$CMP NCP718xSN150
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 1.5V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
+$CMP NCP718xSN180
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 1.8V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
+$CMP NCP718xSN250
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 2.5V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
+$CMP NCP718xSN300
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 3.0V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
+$CMP NCP718xSN330
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 3.3V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
+$CMP NCP718xSN500
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 5.0V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
 $CMP NCV8114ASN120T1G
 D 300mA, Low Noise, Linear Regulator with output active discharge function, 1.7-5.5V input voltage range, 1.2V fixed positive output, TSOT-23-5
 K linear regulator ldo fixed positive
