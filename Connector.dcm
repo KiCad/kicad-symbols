@@ -1662,22 +1662,14 @@ K test point tp
 F ~
 $ENDCMP
 #
-$CMP TestPoint_Flag
-D test point (alternative flag-style design)
-K test point tp
-F ~
+$CMP UEXT_Host
+D Universal EXTension (UEXT) is a connector layout which includes power and three serial buses: Asynchronous, I2C, and SPI.
+K UEXT, SPI, UART, I2C
 $ENDCMP
 #
-$CMP TestPoint_Probe
-D test point (alternative probe-style design)
-K test point tp
-F ~
-$ENDCMP
-#
-$CMP UEXT
-D Universal EXTension (UEXT) is a connector layout which includes power and three serial buses: Asynchronous, I2C, and SPI
-K connector, UEXT, I2C, SPI, UART
-F https://en.wikipedia.org/wiki/UEXT
+$CMP UEXT_Slave
+D Universal EXTension (UEXT) is a connector layout which includes power and three serial buses: Asynchronous, I2C, and SPI.
+K UEXT, SPI, UART, I2C
 $ENDCMP
 #
 $CMP USB3_A
