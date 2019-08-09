@@ -432,6 +432,12 @@ K N-Channel MOSFET
 F https://www.infineon.com/dgdl/Infineon-BSP129-DS-v01_42-en.pdf?fileId=db3a30433c1a8752013c1fc296d2395f
 $ENDCMP
 #
+$CMP BSP89
+D 0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55
+$ENDCMP
+#
 $CMP BSS123
 D 0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
