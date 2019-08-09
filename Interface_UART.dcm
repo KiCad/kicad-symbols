@@ -369,24 +369,6 @@ K ACIA
 F http://pdf.datasheetcatalog.com/datasheet/motorola/MC6850.pdf
 $ENDCMP
 #
-$CMP SN55LBC176
-D RS-485 / RS-422 Half-duplex Differential Bus Transceiver, low power, -55 to 125 °C
-K Half-duplex RS-485 RS-422
-F http://www.ti.com/lit/ds/symlink/sn55lbc176.pdf
-$ENDCMP
-#
-$CMP SN65176B
-D RS-485 / RS-422 Half-duplex Differential Bus Transceiver, 10 Mbps, -40 to 105 °C
-K Half-duplex RS-485 RS-422
-F http://www.ti.com/lit/ds/symlink/sn65176b.pdf
-$ENDCMP
-#
-$CMP SN65LBC176
-D RS-485 / RS-422 Half-duplex Differential Bus Transceiver, low power, -40 to 85 °C
-K Half-duplex RS-485 RS-422
-F http://www.ti.com/lit/ds/symlink/sn65lbc176.pdf
-$ENDCMP
-#
 $CMP SN65LBC176D
 D Differential bus transiver, SOIC-8
 K Differential bus transiver
@@ -397,12 +379,6 @@ $CMP SN65LBC176P
 D Differential bus transiver, DIP-8
 K Differential bus transiver
 F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
-$ENDCMP
-#
-$CMP SN65LBC176Q
-D RS-485 / RS-422 Half-duplex Differential Bus Transceiver, low power, -40 to 125 °C
-K Half-duplex RS-485 RS-422
-F http://www.ti.com/lit/ds/symlink/sn65lbc176.pdf
 $ENDCMP
 #
 $CMP SN65LBC176QD
@@ -417,27 +393,63 @@ K Differential bus transiver
 F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
 $ENDCMP
 #
-$CMP SN75176
-D RS-485 / RS-422 Half-duplex Differential Bus Transceiver
-K Half-duplex RS-485 RS-422
-F http://www.ti.com/lit/ds/symlink/sn75176a.pdf
-$ENDCMP
-#
 $CMP SN75176A
-D RS-485 / RS-422 Half-duplex Differential Bus Transceiver, 5 Mbps
+D Differential Bus Transceiver, RS-485 / RS-422 Half-duplex, 5 Mbps, DIP-8/SOIC-8
 K Half-duplex RS-485 RS-422
 F http://www.ti.com/lit/ds/symlink/sn75176a.pdf
 $ENDCMP
 #
 $CMP SN75176B
-D RS-485 / RS-422 Half-duplex Differential Bus Transceiver, 10 Mbps
+D Differential Bus Transceiver, RS-485 / RS-422 Half-duplex, 10 Mbps, DIP-8/SOIC-8
 K Half-duplex RS-485 RS-422
 F http://www.ti.com/lit/ds/symlink/sn75176b.pdf
 $ENDCMP
 #
+$CMP SN75HVD05
+D Differential Bus Transceiver, RS-485 / RS-422 Half-duplex, 40 Mbps, high output, DIP-8/SOIC-8
+K Half-duplex RS-485 RS-422 high output
+F http://www.ti.com/lit/ds/symlink/sn75hvd05.pdf
+$ENDCMP
+#
+$CMP SN75HVD06
+D Differential Bus Transceiver, RS-485 / RS-422 Half-duplex, 10 Mbps, high output, DIP-8/SOIC-8
+K Half-duplex RS-485 RS-422 high output
+F http://www.ti.com/lit/ds/symlink/sn75hvd06.pdf
+$ENDCMP
+#
+$CMP SN75HVD07
+D Differential Bus Transceiver, RS-485 / RS-422 Half-duplex, 1 Mbps, high output, DIP-8/SOIC-8
+K Half-duplex RS-485 RS-422 high output
+F http://www.ti.com/lit/ds/symlink/sn75hvd07.pdf
+$ENDCMP
+#
+$CMP SN75HVD08
+D Differential Bus Transceiver, RS-485 / RS-422 Half-duplex, 10 Mbps, 3-5V, DIP-8/SOIC-8
+K Half-duplex RS-485 RS-422 3V3 5V wide supply range
+F http://www.ti.com/lit/ds/symlink/sn75HVD08.pdf
+$ENDCMP
+#
+$CMP SN75HVD10
+D Differential Bus Transceiver, RS-485 / RS-422 Half-duplex, 32 Mbps, 3V3, DIP-8/SOIC-8
+K Half-duplex RS-485 RS-422 3V3
+F http://www.ti.com/lit/ds/symlink/sn75hvd10.pdf
+$ENDCMP
+#
+$CMP SN75HVD11
+D Differential Bus Transceiver, RS-485 / RS-422 Half-duplex, 10 Mbps, 3V3, DIP-8/SOIC-8
+K Half-duplex RS-485 RS-422 3V3
+F http://www.ti.com/lit/ds/symlink/sn75hvd11.pdf
+$ENDCMP
+#
+$CMP SN75HVD12
+D Differential Bus Transceiver, RS-485 / RS-422 Half-duplex, 1 Mbps, 3V3, DIP-8/SOIC-8
+K Half-duplex RS-485 RS-422 3V3
+F http://www.ti.com/lit/ds/symlink/sn75hvd12.pdf
+$ENDCMP
+#
 $CMP SN75LBC176
-D RS-485 / RS-422 Half-duplex Differential Bus Transceiver, low power
-K Half-duplex RS-485 RS-422
+D Differential Bus Transceiver, RS-485 / RS-422 Half-duplex, 10 Mbps, CMOS, DIP-8/SOIC-8
+K Half-duplex RS-485 RS-422 CMOS
 F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
 $ENDCMP
 #
@@ -451,6 +463,12 @@ $CMP SN75LBC176P
 D Differential bus transiver, DIP-8
 K Differential bus transiver
 F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
+$ENDCMP
+#
+$CMP SN75LBC184
+D Differential Bus Transceiver, RS-485 / RS-422 Half-duplex, 250 kbps, TVS, DIP-8/SOIC-8
+K Half-duplex RS-485 RS-422 TVS ESD
+F http://www.ti.com/lit/ds/symlink/sn75lbc184.pdf
 $ENDCMP
 #
 $CMP SNJ55LBC176JG
