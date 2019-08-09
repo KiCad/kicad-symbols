@@ -858,6 +858,12 @@ K BNC SMA SMB SMC coaxial connector CINCH RCA
 F  ~
 $ENDCMP
 #
+$CMP Conn_PIC_ICSP_ICD
+D Microchip PIC In-Circuit Serial Programming/Debugging (ICSP/ICD) connector
+K icsp icd pic microchip
+F http://ww1.microchip.com/downloads/en/devicedoc/30277d.pdf
+$ENDCMP
+#
 $CMP Conn_WallPlug
 D 3-pin general wall plug, no Earth wire (110VAC, 220VAC)
 K wall plug 110VAC 220VAC
@@ -1050,6 +1056,12 @@ K circular DIN connector
 F http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf
 $ENDCMP
 #
+$CMP ExpressCard
+D ExpressCard connector
+K expresscard pci express
+F https://web.archive.org/web/20180809060653/http://www.usb.org/developers/expresscard/EC_specifications/ExpressCard_2_0_FINAL.pdf
+$ENDCMP
+#
 $CMP HDMI_A
 D HDMI type A connector
 K hdmi conn
@@ -1126,6 +1138,12 @@ $CMP LEMO6
 D 6-pin LEMO connector
 K LEMO connector
 F  ~
+$ENDCMP
+#
+$CMP MXM3.0
+D MXM3.0 connector
+K MXM connector
+F ~
 $ENDCMP
 #
 $CMP Micro_SD_Card

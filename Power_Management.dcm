@@ -1,5 +1,29 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AAT4610BIGV-1-T1
+D Current Limited Load Switch, SOT-23-5
+K Limit USB Active High
+F http://www.skyworksinc.com/uploads/documents/201937A.pdf
+$ENDCMP
+#
+$CMP AAT4610BIGV-T1
+D Current Limited Load Switch, SOT-23-5
+K Limit USB Active Low
+F http://www.skyworksinc.com/uploads/documents/201937A.pdf
+$ENDCMP
+#
+$CMP AAT4616IGV-1-T1
+D Adjustable Current Limited Load Switch, SOT-23-5
+K Limit USB Active High
+F http://www.skyworksinc.com/uploads/documents/AAT4616_201940E.pdf
+$ENDCMP
+#
+$CMP AAT4616IGV-T1
+D Adjustable Current Limited Load Switch, SOT-23-5
+K Limit USB Active Low
+F http://www.skyworksinc.com/uploads/documents/AAT4616_201940E.pdf
+$ENDCMP
+#
 $CMP AUIPS1041R
 D Intelligent Power Low Side Switch, 39V, 4.5A, DPAK-5L
 K low side switch
@@ -90,30 +114,6 @@ K high side switch
 F https://www.infineon.com/dgdl/auips7091.pdf?fileId=5546d462533600a4015355a7c0d21322
 $ENDCMP
 #
-$CMP AAT4616IGV-1-T1
-D Adjustable Current Limited Load Switch, SOT-23-5
-K Limit USB Active High
-F http://www.skyworksinc.com/uploads/documents/AAT4616_201940E.pdf
-$ENDCMP
-#
-$CMP AAT4616IGV-T1
-D Adjustable Current Limited Load Switch, SOT-23-5
-K Limit USB Active Low
-F http://www.skyworksinc.com/uploads/documents/AAT4616_201940E.pdf
-$ENDCMP
-#
-$CMP AAT4610BIGV-1-T1
-D Current Limited Load Switch, SOT-23-5
-K Limit USB Active High
-F http://www.skyworksinc.com/uploads/documents/201937A.pdf
-$ENDCMP
-#
-$CMP AAT4610BIGV-T1
-D Current Limited Load Switch, SOT-23-5
-K Limit USB Active Low
-F http://www.skyworksinc.com/uploads/documents/201937A.pdf
-$ENDCMP
-#
 $CMP AUIPS7111S
 D Current Sense High Side Switch, 65V, 30A, D2PAK-5L
 K high side switch
@@ -202,6 +202,54 @@ $CMP AUIR33402S
 D Protected High Side Switch, 18V, 33A, D2PAK-7L
 K high side switch
 F https://www.infineon.com/dgdl/auir33402s.pdf?fileId=5546d462533600a4015355a88074135c
+$ENDCMP
+#
+$CMP BD48ExxG
+D Standard CMOS Voltage Detector IC, Open Drain Output, SSOP5
+K voltage detector open drain SSOP5
+F https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e
+$ENDCMP
+#
+$CMP BD48KxxG
+D Standard CMOS Voltage Detector IC, Open Drain Output, SSOP3(1pin GND)
+K voltage detector open drain SSOP3
+F https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e
+$ENDCMP
+#
+$CMP BD48LxxG
+D Standard CMOS Voltage Detector IC, Open Drain Output, SSOP3(3pin GND)
+K voltage detector open drain SSOP3
+F https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e
+$ENDCMP
+#
+$CMP BD48xxFVE
+D Standard CMOS Voltage Detector IC, Open Drain Output, VSOF5
+K voltage detector open drain VSOF5
+F https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e
+$ENDCMP
+#
+$CMP BD49ExxG
+D Standard CMOS Voltage Detector IC, CMOS Output, SSOP5
+K voltage detector cmos SSOP5
+F https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e
+$ENDCMP
+#
+$CMP BD49KxxG
+D Standard CMOS Voltage Detector IC, CMOS Output, SSOP3(1pin GND)
+K voltage detector cmos SSOP3
+F https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e
+$ENDCMP
+#
+$CMP BD49LxxG
+D Standard CMOS Voltage Detector IC, CMOS Output, SSOP3(3pin GND)
+K voltage detector cmos SSOP3
+F https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e
+$ENDCMP
+#
+$CMP BD49xxFVE
+D Standard CMOS Voltage Detector IC, CMOS Output, VSOF5
+K voltage detector cmos VSOF5
+F https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e
 $ENDCMP
 #
 $CMP BTN8982TA
@@ -468,6 +516,12 @@ K X capacitor discharge
 F http://www.monolithicpower.com/DesktopModules/DocumentManage/API/Document/getDocument?id=142
 $ENDCMP
 #
+$CMP INA3221
+D Triple-Channel High-Side Shunt and Bus Voltage Monitor with I2C and SMBUS Compatible Interface, QFN-16
+K Shunt and Bus voltage monitor
+F http://www.ti.com/lit/ds/symlink/ina3221.pdf
+$ENDCMP
+#
 $CMP IPS6011PBF
 D 39V, 60A, Intelligent Power Switch High Side, TO-220-5
 K Intelligent Power Switch High Side MOSFET
@@ -574,6 +628,18 @@ $CMP ITS5215
 D Smart Dual Channel High Side Powertrain Switch (90mOhm)
 K High_Side_Switch Power
 F http://www.infineon.com/dgdl/Infineon-ITS5215L-DS-v01_01-en.pdf?fileId=db3a304412b407950112b428dba73e98
+$ENDCMP
+#
+$CMP LM5050-1
+D High side OR-ing FET controller, 5V to 75V operation, TSOT-23-6
+K positive high-side or-ing ideal-diode
+F http://www.ti.com/lit/ds/symlink/lm5050-1-q1.pdf
+$ENDCMP
+#
+$CMP LM5050-2
+D High side OR-ing FET controller, 6V to 75V operation, TSOT-23-6
+K positive high-side or-ing ideal-diode
+F http://www.ti.com/lit/ds/symlink/lm5050-2.pdf
 $ENDCMP
 #
 $CMP LM5051
@@ -720,6 +786,18 @@ K overvoltage undervoltage reverse-polarity protection
 F https://www.analog.com/media/en/technical-documentation/data-sheets/4365fa.pdf
 $ENDCMP
 #
+$CMP LTC4365xTS8
+D Overvoltage, Undervoltage and Reverse Supply Protection Controller, 50Hz/60Hz noise rejection, TSOT-23-8
+K overvoltage undervoltage reverse-polarity protection
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4365fa.pdf
+$ENDCMP
+#
+$CMP LTC4412xS6
+D Low Loss PowerPath Controller, TSOT-23-6
+K ideal-diode or-ing
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4412fb.pdf
+$ENDCMP
+#
 $CMP LTC4417CGN
 D Prioritized PowerPath Controller, Selects Highest Priority Supply from Three Inputs, SSOP
 K switch power FET sequence
@@ -762,28 +840,52 @@ K 1-channel USB current limiting power switch
 F https://datasheets.maximintegrated.com/en/ds/MAX8586.pdf
 $ENDCMP
 #
+$CMP MIC2025-1YM
+D Single-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, SOIC-8
+K mosfet distribution
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MIC2025-2075-Single-Channel-Power-Distribution-Switch-DS20006030A.pdf
+$ENDCMP
+#
+$CMP MIC2025-1YMM
+D Single-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, MSOP-8
+K mosfet distribution
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MIC2025-2075-Single-Channel-Power-Distribution-Switch-DS20006030A.pdf
+$ENDCMP
+#
+$CMP MIC2025-2YM
+D Single-channel, high side, power distribution switch, 2.7V-5.5V, Active Low Output, SOIC-8
+K mosfet distribution
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MIC2025-2075-Single-Channel-Power-Distribution-Switch-DS20006030A.pdf
+$ENDCMP
+#
+$CMP MIC2025-2YMM
+D Single-channel, high side, power distribution switch, 2.7V-5.5V, Active Low Output, MSOP-8
+K mosfet distribution
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MIC2025-2075-Single-Channel-Power-Distribution-Switch-DS20006030A.pdf
+$ENDCMP
+#
 $CMP MIC2026-1BM
-D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, in SOIC-8 Package
+D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, SOIC-8
 K mosfet distribution
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
 $ENDCMP
 #
 $CMP MIC2026-1BN
-D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, in DIP-8 Package
+D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, DIP-8
 K mosfet distribution
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
 $ENDCMP
 #
 $CMP MIC2026-2BM
-D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active Low Output, in SOIC-8 Package
+D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active Low Output, SOIC-8
 K mosfet distribution
-F http://www.micrel.com/_PDF/mic2026.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
 $ENDCMP
 #
 $CMP MIC2026-2BN
-D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active Low Output, in DIP-8 Package
+D Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active Low Output, DIP-8
 K mosfet distribution
-F http://www.micrel.com/_PDF/mic2026.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
 $ENDCMP
 #
 $CMP MIC2587-1
@@ -822,6 +924,18 @@ K power distribution switch
 F https://www.richtek.com/assets/product_file/RT9701/DS9701-16.pdf
 $ENDCMP
 #
+$CMP SN6505ADBV
+D Low Noise, 1A, Transformer Drivers for Isolated Power Supplies, 160 kHz, SOT-23-6
+K Transformer Drivers
+F http://www.ti.com/lit/ds/symlink/sn6505b.pdf
+$ENDCMP
+#
+$CMP SN6505BDBV
+D Low Noise, 1A, Transformer Drivers for Isolated Power Supplies, 420 kHz, SOT-23-6
+K Transformer Drivers
+F http://www.ti.com/lit/ds/symlink/sn6505b.pdf
+$ENDCMP
+#
 $CMP STM6600
 D Smart push-button on/off controller, power-on lockout, Low Power, 1.6-5.5V, TDFN12
 K push-button-controller low-power
@@ -832,6 +946,18 @@ $CMP STM6601
 D Smart push-button on/off controller, power-on lockout, Low Power, 1.6-5.5V, TDFN12
 K push-button-controller low-power
 F http://www.st.com/resource/en/datasheet/stm6600.pdf
+$ENDCMP
+#
+$CMP SiP32431DR3
+D 10 pA, Ultra Low Leakage and Quiescent Current, Load Switch with Reverse Blocking, High Enable, SC-70-6
+K Load switch
+F http://www.vishay.com.hk/docs/66597/sip32431.pdf
+$ENDCMP
+#
+$CMP SiP32432DR3
+D 10 pA, Ultra Low Leakage and Quiescent Current, Load Switch with Reverse Blocking, Low Enable, SC-70-6
+K Load switch
+F http://www.vishay.com.hk/docs/66597/sip32431.pdf
 $ENDCMP
 #
 $CMP TEA1708T
@@ -876,6 +1002,12 @@ K 4-chanel power-distribution USB
 F http://www.ti.com/lit/ds/symlink/tps2044.pdf
 $ENDCMP
 #
+$CMP TPS22917DBV
+D 1V to 5.5V, 2A, 80mΩ Ultra-Low Leakage Load Switch, SOT23-6
+K high-side power distribution switch
+F http://www.ti.com/lit/ds/symlink/tps22917.pdf
+$ENDCMP
+#
 $CMP TPS22929D
 D High side, power distribution switch, 1.4V-5.5V, 1.8A, SOT23-6 package
 K high-side power distribution switch
@@ -886,6 +1018,30 @@ $CMP TPS22993
 D Quad Channel Load Switch with GPIO and I2C Control, Bias voltage: 4.5V-17.2V, Input voltage: 1.0V-3.6V, Max 1.2A per channel, WQFN-20
 K quad channel power distribution/load switch
 F http://www.ti.com/lit/gpn/tps22993
+$ENDCMP
+#
+$CMP TPS2412D
+D N+1 and ORing Power Rail Controller, SOIC-8
+K ideal-diode or-ing
+F http://www.ti.com/lit/ds/symlink/tps2412.pdf
+$ENDCMP
+#
+$CMP TPS2412PW
+D N+1 and ORing Power Rail Controller, TSSOP-8
+K ideal-diode or-ing
+F http://www.ti.com/lit/ds/symlink/tps2412.pdf
+$ENDCMP
+#
+$CMP TPS2419D
+D N+1 and ORing Power Rail Controller with Enable, SOIC-8
+K ideal-diode or-ing
+F http://www.ti.com/lit/ds/symlink/tps2419.pdf
+$ENDCMP
+#
+$CMP TPS2419PW
+D N+1 and ORing Power Rail Controller with Enable, TSSOP-8
+K ideal-diode or-ing
+F http://www.ti.com/lit/ds/symlink/tps2419.pdf
 $ENDCMP
 #
 $CMP TPS2592xx
@@ -916,6 +1072,12 @@ $CMP TSM103WA
 D Dual Operational Amplifier and 2.5V 0.4% Voltage Reference, SOIC-8
 K dual opamp reference
 F http://www.st.com/resource/en/datasheet/tsm103w.pdf
+$ENDCMP
+#
+$CMP UCC39002D
+D Advanced 8-Pin Load-Share Controller, SOIC-8
+K load share controller
+F http://www.ti.com/lit/ds/slus495i/slus495i.pdf
 $ENDCMP
 #
 #End Doc Library
