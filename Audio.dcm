@@ -169,27 +169,24 @@ F http://www.ti.com/lit/ds/symlink/dsd1794a.pdf
 $ENDCMP
 #
 $CMP ISD25120
-D Single-Chip Voice Record/Playback Devices 60-, 75-, 90-, and 120-Second Durations
-K isd2560 isd2575 isd2590 isd25120
-F http://pdf1.alldatasheet.com/datasheet-pdf/view/83094/WINBOND/ISD2560.html
+D Single-Chip Voice Record/Playback Devices 60-, 75-, 90-, and 120-Second Durations, DIP-28/TSOP-28/SOIC-28
+K isd25120
 $ENDCMP
 #
 $CMP ISD2560
-D Single-Chip Voice Record/Playback Devices 60-, 75-, 90-, and 120-Second Durations
-K isd2560 isd2575 isd2590 isd25120
-F http://pdf1.alldatasheet.com/datasheet-pdf/view/83094/WINBOND/ISD2560.html
+D Single-Chip Voice Record/Playback Devices 60-, 75-, 90-, and 120-Second Durations, DIP-28/TSOP-28/SOIC-28
+K isd2560
+F http://www.profesormolina.com.ar/electronica/datasheets/downloads/isd2560.pdf
 $ENDCMP
 #
 $CMP ISD2575
-D Single-Chip Voice Record/Playback Devices 60-, 75-, 90-, and 120-Second Durations
-K isd2560 isd2575 isd2590 isd25120
-F http://pdf1.alldatasheet.com/datasheet-pdf/view/83094/WINBOND/ISD2560.html
+D Single-Chip Voice Record/Playback Devices 60-, 75-, 90-, and 120-Second Durations, DIP-28/TSOP-28/SOIC-28
+K isd2575
 $ENDCMP
 #
 $CMP ISD2590
-D Single-Chip Voice Record/Playback Devices 60-, 75-, 90-, and 120-Second Durations
-K isd2560 isd2575 isd2590 isd25120
-F http://pdf1.alldatasheet.com/datasheet-pdf/view/83094/WINBOND/ISD2560.html
+D Single-Chip Voice Record/Playback Devices 60-, 75-, 90-, and 120-Second Durations, DIP-28/TSOP-28/SOIC-28
+K isd2590
 $ENDCMP
 #
 $CMP MN3005
@@ -230,18 +227,6 @@ $ENDCMP
 #
 $CMP PCM2902
 D Stereo Audio Codec with USB interface, Analog Iput/Output, and S/PDIF, SSOP-28
-K pcm2902 usb audio
-F http://www.ti.com/lit/ds/symlink/pcm2902c.pdf
-$ENDCMP
-#
-$CMP PCM2902B
-D Stereo Audio Codec with USB interface, Analog IN/OUT, and S/PDIF
-K pcm2902 usb audio
-F http://www.ti.com/lit/ds/symlink/pcm2902b.pdf
-$ENDCMP
-#
-$CMP PCM2902C
-D Stereo Audio Codec with USB interface, Analog IN/OUT, and S/PDIF
 K pcm2902 usb audio
 F http://www.ti.com/lit/ds/symlink/pcm2902c.pdf
 $ENDCMP
