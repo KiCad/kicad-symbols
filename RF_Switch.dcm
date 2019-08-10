@@ -48,6 +48,12 @@ K rf spdt switch
 F http://www.skyworksinc.com/uploads/documents/AS179_92LF_200176H.pdf
 $ENDCMP
 #
+$CMP F2972
+D SP2T RF Switch
+K RF Switch
+F https://www.idt.com/document/dst/f2972-datasheet
+$ENDCMP
+#
 $CMP HMC7992
 D SP4T 100MHz-6GHz absorptive switch, 50 Ohm, LFCSP-16
 K rf switch sp4t absorptive
