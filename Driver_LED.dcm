@@ -228,6 +228,12 @@ K LED 8-Digit Display Driver
 F https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf
 $ENDCMP
 #
+$CMP MAX7221
+D 8-Digit LED Display Driver
+K LED 8-Digit Display Driver
+F https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf
+$ENDCMP
+#
 $CMP MPQ2483DQ
 D 55V, 2.5A Programmable Frequency LED Driver, DFN-10
 K LED driver
