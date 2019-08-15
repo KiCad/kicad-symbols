@@ -390,6 +390,12 @@ K voltage reference vref
 F https://www.analog.com/media/en/technical-documentation/data-sheets/6657fd.pdf
 $ENDCMP
 #
+$CMP LT6657AHMS8-4.096
+D Precision voltage reference, 40V input, 10mA output, 1.5ppm/C drift, 4.096V output, MSOP-8
+K voltage reference vref
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6657fd.pdf
+$ENDCMP
+#
 $CMP LT6657AHMS8-5
 D Precision voltage reference, 40V input, 10mA output, 1.5ppm/C drift, 5.0V output, MSOP-8
 K voltage reference vref
@@ -404,6 +410,12 @@ $ENDCMP
 #
 $CMP LT6657BHMS8-3
 D Precision voltage reference, 40V input, 10mA output, 3.0ppm/C drift, 3.0V output, MSOP-8
+K voltage reference vref
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6657fd.pdf
+$ENDCMP
+#
+$CMP LT6657BHMS8-4.096
+D Precision voltage reference, 40V input, 10mA output, 3ppm/C drift, 4.096V output, MSOP-8
 K voltage reference vref
 F https://www.analog.com/media/en/technical-documentation/data-sheets/6657fd.pdf
 $ENDCMP

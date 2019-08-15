@@ -240,6 +240,12 @@ K tone decoder PLL
 F http://www.ti.com/lit/ds/symlink/lm567.pdf
 $ENDCMP
 #
+$CMP PL611-01-xxxT
+D Programmable Clock, Dual Programmable Clock Outputs, Up To 200MHz, SOT-23-6
+K clock generator dual programmable
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PL611-01.pdf
+$ENDCMP
+#
 $CMP SA555
 D Precision Timers, DIP-8/SOIC-8
 K timer
