@@ -48,12 +48,6 @@ K Four independent differential line drivers
 F http://www.ti.com/lit/ds/symlink/mc3487.pdf
 $ENDCMP
 #
-$CMP THVD1451
-D Line driver and receiver, 3.3-V to 5-V, RS-485, ±18-kV IEC ESD Protection, SOIC-8
-K rs485 tranciever, line driver, Transceivers
-F http://www.ti.com/lit/ds/symlink/thvd1451.pdf
-$ENDCMP
-#
 $CMP UA9637
 D Dual differential line receiver, DIP-8
 K Dual differential line receiver

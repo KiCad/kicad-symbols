@@ -465,6 +465,12 @@ K Half duplex RS-485/RS-422, 5 Mbps, ±15kV  256 transceiver bus
 F http://www.st.com/resource/en/datasheet/st485eb.pdf
 $ENDCMP
 #
+$CMP THVD1451D
+D RS485 transceiver, 3.3-V to 5-V, 18-kV IEC ESD Protection, SOIC-8
+K rs485 tranciever, line driver, Transceivers
+F http://www.ti.com/lit/ds/symlink/thvd1451.pdf
+$ENDCMP
+#
 $CMP Z8530
 D SCC Serial Communication Controller, DIP-40
 K SCC Serial Communication
