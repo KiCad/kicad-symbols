@@ -222,6 +222,12 @@ K FTDI USB FIFO Interface Converter
 F http://www.ftdichip.com/Products/ICs/FT245B.html
 $ENDCMP
 #
+$CMP FT4222HQ
+D USB 2.0 to Quad SPI / I²C Bridge
+K USB,SPI,I2C,FTDI,Bridge,Converter,Interface
+F https://www.mouser.de/ds/2/163/DS_FT4222H-461024.pdf
+$ENDCMP
+#
 $CMP FUSB302B01MPX
 D Programmable USB Type-C Controller w/PD, I2C address 0x23, WQFN-14
 K USB USB-C PD Power Delivery PHY
