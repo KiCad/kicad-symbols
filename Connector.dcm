@@ -864,6 +864,12 @@ K icsp icd pic microchip
 F http://ww1.microchip.com/downloads/en/devicedoc/30277d.pdf
 $ENDCMP
 #
+$CMP Conn_ST_STDC14
+D ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART
+K ST STM32 Cortex Debug Connector ARM SWD JTAG
+F https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/99/49/91/b6/b2/3a/46/e5/DM00526767/files/DM00526767.pdf/jcr:content/translations/en.DM00526767.pdf
+$ENDCMP
+#
 $CMP Conn_WallPlug
 D 3-pin general wall plug, no Earth wire (110VAC, 220VAC)
 K wall plug 110VAC 220VAC
