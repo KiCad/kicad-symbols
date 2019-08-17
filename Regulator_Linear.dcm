@@ -5406,6 +5406,18 @@ K linear regulator ldo fixed positive
 F https://ru.mouser.com/datasheet/2/308/NCV8114-D-1107616.pdf
 $ENDCMP
 #
+$CMP NVC8674DS120
+D 350mA, 12.0V Very Low Iq Low Dropout Linear Regulator, TO-263-2
+K ldo regulator 12V
+F https://www.onsemi.com/pub/Collateral/NCV8674-D.PDF
+$ENDCMP
+#
+$CMP NVC8674DS50
+D 350mA, 5.0V Very Low Iq Low Dropout Linear Regulator, TO-263-2
+K ldo regulator 5V
+F https://www.onsemi.com/pub/Collateral/NCV8674-D.PDF
+$ENDCMP
+#
 $CMP OM1323_TO220
 D Negative 1.5A 35V Adjustable Linear Regulator, TO-220
 K Adjustable Voltage Regulator 1.5A Negative
