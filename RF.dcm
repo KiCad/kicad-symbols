@@ -42,6 +42,12 @@ K Low Power RF Transciever
 F http://www.ti.com/lit/ds/symlink/cc2500.pdf
 $ENDCMP
 #
+$CMP CVCO55CL-0060-0110
+D 60-110MHz Voltage Controlled Oscillator
+K VCO
+F https://www.crystek.com/microwave/admin/webapps/welcome/files/vco/CVCO55CL-0060-0110.pdf
+$ENDCMP
+#
 $CMP DC4759J5020AHF-1
 D 4.7-5.9GHz 20dB Directional Coupler, Configuration 1, Anaren 0805
 K RF coupler
