@@ -594,6 +594,12 @@ K display LED 7-segment
 F http://www.kingbright.com/attachments/file/psearch/000/00/00/SBC18-11SURKCGKWA(Ver.6A).pdf
 $ENDCMP
 #
+$CMP SM420561N
+D One digit 7 segment blue LED, common cathode
+K display LED 7-segment
+F https://datasheet.lcsc.com/szlcsc/Wuxi-ARK-Tech-Elec-SM420561N_C141367.pdf
+$ENDCMP
+#
 $CMP WC1602A
 D LCD 16x2 Alphanumeric , 8 bit parallel bus, 5V VDD
 K display LCD dot-matrix
