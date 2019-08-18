@@ -617,6 +617,18 @@ K switch analog SPDT
 F http://www.ti.com/lit/ds/symlink/ts3a24159.pdf
 $ENDCMP
 #
+$CMP TS3A27518EPW
+D 6-channel 1:2 analog mux
+K TI,SPI,qSPI,multiplexer,demux
+F http://www.ti.com/lit/ds/symlink/ts3a27518e.pdf
+$ENDCMP
+#
+$CMP TS3A27518ERTW
+D 6-channel 1:2 analog mux
+K TI,SPI,qSPI,multiplexer,demux
+F http://www.ti.com/lit/ds/symlink/ts3a27518e.pdf
+$ENDCMP
+#
 $CMP TS5A3159ADBVR
 D Single SPDT Analog Switch, 1.65-V to 5.5-V Single-Supply Operation, 1Ohm Ron, SOT-23-6
 K Analog Switch
