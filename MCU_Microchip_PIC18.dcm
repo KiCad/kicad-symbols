@@ -468,8 +468,8 @@ K microchip microcontroller PIC18 flash ECAN XLP nanoWatt
 F http://ww1.microchip.com/downloads/en/DeviceDoc/39977f.pdf
 $ENDCMP
 #
-$CMP PIC18F47J53_SSOP
-D 32K Flash, 3.5K RAM, 1K EEPROM, PIC18 Microcontroller ADC PWM CAN SPI I2C USART in SSOP28 package
+$CMP PIC18F47J53_ISS
+D 32K Flash, 3.5K RAM, 1K EEPROM, PIC18 Microcontroller ADC PWM CAN SPI I2C USART in SSOP28
 K microcontroller PIC18 flash ECAN XLP nanoWatt
 F http://ww1.microchip.com/downloads/en/DeviceDoc/30009964C.pdf
 $ENDCMP
