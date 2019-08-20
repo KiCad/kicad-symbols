@@ -1368,6 +1368,28 @@ K transistor NJFET N-JFET
 F ~
 $ENDCMP
 #
+$CMP Q_NMOS_DEPLETION_GDS
+D N-Channel Depletion Mode MOSFET
+K N-Channel MOSFET Depletion
+$ENDCMP
+#
+$CMP Q_NMOS_DEPLETION_GDSD
+D N-MOSFET transistor, depletion mode, gate/drain/source, drain connected to mounting plane
+K transistor NMOS N-MOS N-MOSFET depletion
+F ~
+$ENDCMP
+#
+$CMP Q_NMOS_DEPLETION_GSD
+D N-Channel Depletion Mode MOSFET
+K N-Channel MOSFET Depletion
+$ENDCMP
+#
+$CMP Q_NMOS_DEPLETION_GSDS
+D N-MOSFET transistor, depletion mode, gate/source/drain, source connected to mounting plane
+K transistor NMOS N-MOS N-MOSFET depletion
+F ~
+$ENDCMP
+#
 $CMP Q_NMOS_DGS
 D N-MOSFET transistor, drain/gate/source
 K transistor NMOS N-MOS N-MOSFET
