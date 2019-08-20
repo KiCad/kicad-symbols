@@ -427,15 +427,33 @@ F http://www.diodes.com/assets/Datasheets/ds31898.pdf
 $ENDCMP
 #
 $CMP BSP129
-D 0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223
-K N-Channel MOSFET
+D N-MOSFET transistor, depletion mode, gate/drain/source, drain connected to mounting plane
+K transistor NMOS N-MOS N-MOSFET depletion
 F https://www.infineon.com/dgdl/Infineon-BSP129-DS-v01_42-en.pdf?fileId=db3a30433c1a8752013c1fc296d2395f
+$ENDCMP
+#
+$CMP BSP135
+D N-MOSFET transistor, depletion mode, gate/drain/source, drain connected to mounting plane
+K transistor NMOS N-MOS N-MOSFET depletion
+F https://www.infineon.com/dgdl/Infineon-BSP135-DS-v01_33-en.pdf?fileId=db3a30433c1a8752013c1fd4c839399b
+$ENDCMP
+#
+$CMP BSP149
+D N-MOSFET transistor, depletion mode, gate/drain/source, drain connected to mounting plane
+K transistor NMOS N-MOS N-MOSFET depletion
+F https://www.infineon.com/dgdl/Infineon-BSP149-DS-v02_01-en.pdf?fileId=db3a30433c1a8752013c1fcbb815397c
 $ENDCMP
 #
 $CMP BSS123
 D 0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
 F http://www.diodes.com/assets/Datasheets/ds30366.pdf
+$ENDCMP
+#
+$CMP BSS126
+D N-Channel Depletion Mode MOSFET, SOT-23
+K N-Channel MOSFET Depletion
+F https://www.infineon.com/dgdl/Infineon-BSS126-DS-v02_01-en.pdf?fileId=db3a304330f6860601310483af163eba
 $ENDCMP
 #
 $CMP BSS127S
@@ -448,6 +466,24 @@ $CMP BSS138
 D 50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf
+$ENDCMP
+#
+$CMP BSS139
+D N-Channel Depletion Mode MOSFET, SOT-23
+K N-Channel MOSFET Depletion
+F https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2
+$ENDCMP
+#
+$CMP BSS159N
+D N-Channel Depletion Mode MOSFET, SOT-23
+K N-Channel MOSFET Depletion
+F https://www.infineon.com/dgdl/Infineon-BSS159N-DS-v02_02-en.pdf?fileId=db3a304330f68606013108d8b2230036
+$ENDCMP
+#
+$CMP BSS169
+D N-Channel Depletion Mode MOSFET, SOT-23
+K N-Channel MOSFET Depletion
+F https://www.infineon.com/dgdl/Infineon-BSS169-DS-v01_08-EN.pdf?fileId=db3a304330f68606013108f39406004c
 $ENDCMP
 #
 $CMP BSS214NW
@@ -1428,6 +1464,84 @@ K P-Channel MOSFET
 F https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf
 $ENDCMP
 #
+$CMP DN1509N8
+D N-Channel Depletion Mode MOSFET, SOT-89
+K N-Channel MOSFET Depletion
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005403B.pdf
+$ENDCMP
+#
+$CMP DN2450K4
+D N-MOSFET transistor, depletion mode, gate/drain/source, drain connected to mounting plane, TO-252-3
+K transistor NMOS N-MOS N-MOSFET depletion
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005404A.pdf
+$ENDCMP
+#
+$CMP DN2450N8
+D N-Channel Depletion Mode MOSFET, SOT-89
+K N-Channel MOSFET Depletion
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005404A.pdf
+$ENDCMP
+#
+$CMP DN2470
+D N-MOSFET transistor, depletion mode, gate/drain/source, drain connected to mounting plane, TO-252-3
+K transistor NMOS N-MOS N-MOSFET depletion
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005410A.pdf
+$ENDCMP
+#
+$CMP DN2530N8
+D N-Channel Depletion Mode MOSFET, SOT-89
+K N-Channel MOSFET Depletion
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005451A.pdf
+$ENDCMP
+#
+$CMP DN2540N8
+D N-Channel Depletion Mode MOSFET, SOT-89
+K N-Channel MOSFET Depletion
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DN2540%20B060313.pdf
+$ENDCMP
+#
+$CMP DN2625K4
+D N-MOSFET transistor, depletion mode, gate/drain/source, drain connected to mounting plane, TO-252-3
+K transistor NMOS N-MOS N-MOSFET depletion
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005537B.pdf
+$ENDCMP
+#
+$CMP DN3135N8
+D N-Channel Depletion Mode MOSFET, SOT-89
+K N-Channel MOSFET Depletion
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005703A.pdf
+$ENDCMP
+#
+$CMP DN3145
+D N-Channel Depletion Mode MOSFET, SOT-89
+K N-Channel MOSFET Depletion
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DN3145%20A062713.pdf
+$ENDCMP
+#
+$CMP DN3525
+D N-Channel Depletion Mode MOSFET, SOT-89
+K N-Channel MOSFET Depletion
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DN3525-N-Channel-Depletion-Mode-Vertical-DMOS-FET-Data-Sheet-20005705A.pdf
+$ENDCMP
+#
+$CMP DN3535
+D N-Channel Depletion Mode MOSFET, SOT-89
+K N-Channel MOSFET Depletion
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DN3535%20A062713.pdf
+$ENDCMP
+#
+$CMP DN3545N8
+D N-Channel Depletion Mode MOSFET, SOT-89
+K N-Channel MOSFET Depletion
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DN3545-N-Channel-Depletion-Mode-Vertical-DMOS-FET-Data-Sheet-20005438A.pdf
+$ENDCMP
+#
+$CMP DN3765
+D N-MOSFET transistor, depletion mode, gate/drain/source, drain connected to mounting plane, TO-252-3
+K transistor NMOS N-MOS N-MOSFET depletion
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DN3765%20A070113.pdf
+$ENDCMP
+#
 $CMP FDG1024NZ
 D 1.2A Id, 20V Vds, Dual N-Channel MOSFET, 175mOhm Ron, SC-70-6
 K Dual N-Channel MOSFET Logic Level
@@ -2332,6 +2446,24 @@ $CMP IRLZ44N
 D 47A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 22mOhm Ron, TO-220AB
 K Single N-Channel HEXFET Power MOSFET
 F http://www.irf.com/product-info/datasheets/data/irlz44n.pdf
+$ENDCMP
+#
+$CMP LND150K1
+D N-Channel Depletion Mode MOSFET, SOT-23
+K N-Channel MOSFET Depletion
+F http://ww1.microchip.com/downloads/en/DeviceDoc/LND150%20C041114.pdf
+$ENDCMP
+#
+$CMP LND150N8
+D N-Channel Depletion Mode MOSFET, SOT-89
+K N-Channel MOSFET Depletion
+F http://ww1.microchip.com/downloads/en/DeviceDoc/LND150%20C041114.pdf
+$ENDCMP
+#
+$CMP LND250K1
+D N-Channel Depletion Mode MOSFET, SOT-23
+K N-Channel MOSFET Depletion
+F http://ww1.microchip.com/downloads/en/DeviceDoc/LND150-LND250-N-Channel-Depletion-Mode-DMOS-FETs-Data-Sheet-20005454A.pdf
 $ENDCMP
 #
 $CMP MMBF170
