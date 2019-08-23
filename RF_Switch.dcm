@@ -49,8 +49,8 @@ F http://www.skyworksinc.com/uploads/documents/AS179_92LF_200176H.pdf
 $ENDCMP
 #
 $CMP F2972
-D SP2T RF Switch
-K RF Switch
+D RF Switch, 5MHz to 10GHz, High Linearity, Broadband, SP2T, +3.3V or +5.0V, NEG12
+K RF Switch, SP2T, SPDT
 F https://www.idt.com/document/dst/f2972-datasheet
 $ENDCMP
 #
