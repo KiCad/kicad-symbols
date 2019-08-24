@@ -235,7 +235,7 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/40001943A.pdf
 $ENDCMP
 #
 $CMP PIC18F27J53_ISS
-D 32K Flash, 3.5K RAM, 1K EEPROM, PIC18 Microcontroller ADC PWM CAN SPI I2C USART in SSOP28 package, SSOP-28
+D 128K Flash, 3.8K RAM, PIC18 Microcontroller ADC PWM I2C USART USB RTCC, SSOP-28
 K microcontroller PIC18 flash ECAN XLP nanoWatt
 F http://ww1.microchip.com/downloads/en/DeviceDoc/30009964C.pdf
 $ENDCMP
