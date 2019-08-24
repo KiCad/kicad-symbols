@@ -14647,13 +14647,13 @@ ENDDEF
 #
 # UEXT_Host
 #
-DEF UEXT_Host J 0 40 Y Y 1 F N
+DEF UEXT_Host J 0 20 Y Y 1 F N
 F0 "J" 200 400 50 H V C CNN
 F1 "UEXT_Host" 250 -400 50 H V C CNN
 F2 "" -150 0 50 H I C CNN
 F3 "" -150 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x05_*
+ *Connector*:2x05*
 $ENDFPLIST
 DRAW
 S -350 350 350 -350 1 1 10 f
@@ -14672,13 +14672,13 @@ ENDDEF
 #
 # UEXT_Slave
 #
-DEF UEXT_Slave J 0 40 Y Y 1 F N
+DEF UEXT_Slave J 0 20 Y Y 1 F N
 F0 "J" 250 400 50 H V C CNN
 F1 "UEXT_Slave" 250 -400 50 H V C CNN
 F2 "" -150 0 50 H I C CNN
 F3 "" -150 0 50 H I C CNN
 $FPLIST
- Connector*:*_2x05_*
+ *Connector*:2x05*
 $ENDFPLIST
 DRAW
 S -350 350 350 -350 1 1 10 f
