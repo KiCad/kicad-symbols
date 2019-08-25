@@ -1494,6 +1494,12 @@ K 100mA LDO Regulator Fixed Positive
 F https://www.holtek.com/documents/10179/116711/HT75xx-1v250.pdf
 $ENDCMP
 #
+$CMP HT75xx-1
+D 100mA Low Dropout Voltage Regulator, Fixed Output, SOT89
+K 100mA LDO Regulator Fixed Positive
+F https://www.holtek.com/documents/10179/116711/HT75xx-1v250.pdf
+$ENDCMP
+#
 $CMP ICL7663
 D 50mA 5V/Programmable Voltage Regulator, DIP-8/SO-8/TO-99
 K Linear Regulator 50mA 5V fixed
