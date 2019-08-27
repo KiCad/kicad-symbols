@@ -156,6 +156,12 @@ K H-bridge motor driver
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000240.pdf
 $ENDCMP
 #
+$CMP L6219
+D Stepper motor driver, 750mA
+K bipolar stepper half-step full-step microstepping pwm
+F https://www.st.com/resource/en/datasheet/l6219.pdf
+$ENDCMP
+#
 $CMP LMD18200
 D 3A, 55V H-Bridge, Motion Control Applications, TO-220-11
 K H-Bridge DC stepper servo motor driver Motion Control Applications
