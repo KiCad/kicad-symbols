@@ -294,6 +294,12 @@ K NPN DC Optocoupler Base Connected
 F http://www.vishay.com/docs/83606/cny17.pdf
 $ENDCMP
 #
+$CMP CPC-5002
+D Dual High Speed CMOS Compatible Optocoupler, dV/dt 5000/us, VCM 20, -0.3V to 6.5V VCC, DIP-8
+K High speed optically coupled gates
+F http://www.ixysic.com/home/pdfs.nsf/www/CPC5002.pdf
+$ENDCMP
+#
 $CMP EL814
 D AC/DC NPN Optocoupler, DIP4/SMD4
 K NPN AC DC Optocoupler
