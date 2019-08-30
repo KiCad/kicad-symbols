@@ -12,6 +12,11 @@ K EMI Filter SMD Murata
 F https://www.murata.com/en-us/products/productdetail.aspx?cate=luNoiseSupprFilteBlockType&partno=BNX025H01%23
 $ENDCMP
 #
+$CMP LTC1562xxG
+D Active RC Quad Universal Filter, 10kHz to 150kHz, Low Noise, Low Distortion, SSOP-20
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1562fa.pdf
+$ENDCMP
+#
 $CMP SAFFA1G58KA0F0A
 D Murata 1575.42/1602MHz SAW filter, SMD 1411
 K SAW filter
