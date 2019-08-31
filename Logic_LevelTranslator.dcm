@@ -24,6 +24,24 @@ K SIM Card Level Shifter
 F https://www.onsemi.com/pub/Collateral/NCN4555-D.PDF
 $ENDCMP
 #
+$CMP NLSV2T244D
+D Dual-Bit Dual-Supply Non-Inverting Level Translator, Output Enable, SOIC-8
+K Level-Shifter CMOS-TTL-Translation
+F http://www.onsemi.com/pub/Collateral/NLSV2T244-D.PDF
+$ENDCMP
+#
+$CMP NLSV2T244DM
+D Dual-Bit Dual-Supply Non-Inverting Level Translator, Output Enable, MSOP-8
+K Level-Shifter CMOS-TTL-Translation
+F http://www.onsemi.com/pub/Collateral/NLSV2T244-D.PDF
+$ENDCMP
+#
+$CMP NLSV2T244MU
+D Dual-Bit Dual-Supply Non-Inverting Level Translator, Output Enable, UDFN-8
+K Level-Shifter CMOS-TTL-Translation
+F http://www.onsemi.com/pub/Collateral/NLSV2T244-D.PDF
+$ENDCMP
+#
 $CMP SN74AUP1T34DCK
 D 1-Bit Unidirectional Voltage-Level Translator, SC-70
 K Noninverting
@@ -136,6 +154,30 @@ $CMP TXBN0304RUT
 D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing, 0.9 - 3.6V APort, 0.9 - 3.6V BPort, Active Low Output Enable, Texas_PUQFN-12
 K Level-Shifter CMOS-TTL-Translation
 F http://www.ti.com/lit/ds/symlink/txb0304.pdf
+$ENDCMP
+#
+$CMP TXS0102DCT
+D 2-Bit Bidirectional Voltage-Level Shifter for Open-Drain and Push-Pull Application, SSOP-8
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/gpn/txs0102
+$ENDCMP
+#
+$CMP TXS0102DCU
+D 2-Bit Bidirectional Voltage-Level Shifter for Open-Drain and Push-Pull Application, VSSOP-8
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/gpn/txs0102
+$ENDCMP
+#
+$CMP TXS0102DQE
+D 2-Bit Bidirectional Voltage-Level Shifter for Open-Drain and Push-Pull Application, X2SON-8
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/gpn/txs0102
+$ENDCMP
+#
+$CMP TXS0102YZP
+D 2-Bit Bidirectional Voltage-Level Shifter for Open-Drain and Push-Pull Application, DSBGA-8
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/gpn/txs0102
 $ENDCMP
 #
 $CMP TXS0108EPW

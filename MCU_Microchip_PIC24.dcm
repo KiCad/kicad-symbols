@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP PIC24FJ256DA210-xBG
+D 256K Flash, 96KB SRAM, Graphic controller, USB, BGA-121
+K Flash-Based 16-Bit Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/39969b.pdf
+$ENDCMP
+#
+$CMP PIC24FJ256DA210-xPT
+D 256K Flash, 96KB SRAM, Graphic controller, USB, TQFP-100
+K Flash-Based 16-Bit Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/39969b.pdf
+$ENDCMP
+#
 $CMP PIC24FV32KA304-IPT
 D 32K Flash, 2048B SRAM, 512B EEPROM, nanoWatt XLP, 12-bit ADC, PWM, RTCC, TQFP44
 K Flash-Based 16-Bit Microcontroller

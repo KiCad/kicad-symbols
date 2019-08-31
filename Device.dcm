@@ -102,6 +102,12 @@ K trimmer capacitor
 F ~
 $ENDCMP
 #
+$CMP CTRIM_Small
+D Trimmable capacitor, small symbol
+K trimmer variable capacitor
+F ~
+$ENDCMP
+#
 $CMP C_Feedthrough
 D Feedthrough capacitor
 K EMI filter feedthrough capacitor
@@ -810,6 +816,12 @@ K LED diode
 F ~
 $ENDCMP
 #
+$CMP LED_ABRG
+D RGB LED, anode/blue/red/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP LED_ALT
 D Light emitting diode, filled shape
 K LED diode
@@ -920,6 +932,18 @@ $ENDCMP
 #
 $CMP LED_RGB
 D RGB LED, 6 pin package
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RGBA
+D RGB LED, red/green/blue/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RGBC
+D RGB LED, red/green/blue/cathode
 K LED RGB diode
 F ~
 $ENDCMP
@@ -2042,6 +2066,12 @@ $ENDCMP
 #
 $CMP R_POT_Dual_Separate
 D Dual potentiometer, separate units
+K resistor variable
+F ~
+$ENDCMP
+#
+$CMP R_POT_Small
+D Potentiometer
 K resistor variable
 F ~
 $ENDCMP

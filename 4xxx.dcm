@@ -72,6 +72,12 @@ K CMOS CNT CNT14
 F http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4020bms-24bms-40bms.pdf
 $ENDCMP
 #
+$CMP 4021
+D 8-bit static shift register
+K shift register SR PISO
+F https://assets.nexperia.com/documents/data-sheet/HEF4021B.pdf
+$ENDCMP
+#
 $CMP 4022
 D Johnson Counter (8 states)
 K CMOS CNT CNT8
