@@ -90,4 +90,10 @@ K STM8 Microcontroller Value Line
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00024550.pdf
 $ENDCMP
 #
+$CMP STM8S208RBT6
+D 24 MHz, 128 KB Flash, 2KB EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, CAN, LQFP-64(10x10mm_P0.5mm)
+K STM8 Microcontroller Performance Line
+F https://www.st.com/resource/en/datasheet/stm8s208rb.pdf
+$ENDCMP
+#
 #End Doc Library
