@@ -84,6 +84,24 @@ K H-bridge motor driver
 F http://www.ti.com/lit/ds/symlink/drv8833.pdf
 $ENDCMP
 #
+$CMP DRV8837
+D H-Bridge driver, 1.8A, Low Voltage, PWM input, WSON-8
+K half bridge driver
+F http://www.ti.com/lit/ds/symlink/drv8837.pdf
+$ENDCMP
+#
+$CMP DRV8837C
+D H-Bridge driver, 1A, Low Voltage, PWM input, WSON-8
+K half bridge driver
+F http://www.ti.com/lit/ds/symlink/drv8837c.pdf
+$ENDCMP
+#
+$CMP DRV8838
+D H-Bridge driver, 1.8A, Low Voltage, PH/EN input, WSON-8
+K half bridge driver
+F http://www.ti.com/lit/ds/symlink/drv8837.pdf
+$ENDCMP
+#
 $CMP DRV8848
 D Dual H-Bridge motor driver, PWM controlled, single/dual brushed DC stepper, +2 to +18 VDD, TSSOP-16
 K Dual H-Bridge motor driver
@@ -258,16 +276,64 @@ K H-bridge motor driver
 F https://toshiba.semicon-storage.com/us/product/linear/motordriver/detail.TB6612FNG.html
 $ENDCMP
 #
+$CMP TMC2041-LA
+D Standalone Dual driver for two-phase bipolar stepper motor, 2.2A, 4.75-26V, SPI, UART, QFN-48
+K Dual driver stepper motor
+F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2041_datasheet.pdf
+$ENDCMP
+#
+$CMP TMC2100-LA
+D Standalone driver for two-phase bipolar stepper motor, 2.0A, 4.75-46V, QFN-36
+K Driver stepper motor
+F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2100_datasheet_Rev1.08.pdf
+$ENDCMP
+#
+$CMP TMC2100-TA
+D Standalone driver for two-phase bipolar stepper motor, 2.0A, 4.75-46V, TQFP-48
+K Standalone driver stepper motor
+F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2100_datasheet_Rev1.08.pdf
+$ENDCMP
+#
+$CMP TMC2130-LA
+D Driver for two-phase bipolar stepper motor, 2.0A, SPI, 4.75-46V, QFN-36
+K stepper motor driver
+F http://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2130_datasheet.pdf
+$ENDCMP
+#
+$CMP TMC2130-TA
+D Driver for two-phase bipolar stepper motor, 2.0A, SPI, 4.75-46V, TQFP-48
+K stepper motor driver
+F http://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2130_datasheet.pdf
+$ENDCMP
+#
 $CMP TMC262
 D Driver for two-phase stepper motors with external mosfet
 K trinamic tlc262 stepper
-F http://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC262_datasheet.pdf
+F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC262_Datasheet.pdf
 $ENDCMP
 #
 $CMP VNH2SP30
 D Full Bridge Motor Driver, 41V, 30A, -40 to 150C
 K full-bridge h-bridge
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/group2/66/b8/f5/2c/9a/66/41/c7/CD00043711/files/CD00043711.pdf/jcr:content/translations/en.CD00043711.pdf
+$ENDCMP
+#
+$CMP VNH5019A-E
+D Full Bridge Motor Driver, 41V, 30A, -40 to 150C, MultiPowerSO-30
+K full-bridge h-bridge
+F https://www.st.com/resource/en/datasheet/vnh5019a-e.pdf
+$ENDCMP
+#
+$CMP ZXBM5210-S
+D Reversible DC motor drive with speed control, 3-18V, 0.85A, SOIC-8
+K H-bridge, motor driver, PWM, single coil
+F https://www.diodes.com/assets/Datasheets/ZXBM5210.pdf
+$ENDCMP
+#
+$CMP ZXBM5210-SP
+D Reversible DC motor drive with speed control, 3-18V, 0.85A, SOIC-8EP
+K H-bridge, motor driver, PWM, single coil
+F https://www.diodes.com/assets/Datasheets/ZXBM5210.pdf
 $ENDCMP
 #
 #End Doc Library

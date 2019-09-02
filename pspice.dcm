@@ -25,7 +25,7 @@ F ~
 $ENDCMP
 #
 $CMP INDUCTOR
-D Capacitor symbol for simulation only
+D Inductor symbol for simulation only
 K simulation
 F ~
 $ENDCMP
@@ -55,13 +55,13 @@ F ~
 $ENDCMP
 #
 $CMP QNPN
-D Bibolar transistor symbol for simulation only
+D Bipolar transistor symbol for simulation only
 K simulation
 F ~
 $ENDCMP
 #
 $CMP QPNP
-D Bibolar transistor symbol for simulation only
+D Bipolar transistor symbol for simulation only
 K simulstaion
 F ~
 $ENDCMP

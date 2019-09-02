@@ -92,6 +92,12 @@ K Atmel DataFlash
 F http://ww1.microchip.com/downloads/en/devicedoc/doc2224.pdf
 $ENDCMP
 #
+$CMP IS25WP256D-xM
+D 256-Mbit, 1.8V SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-16
+K SPI DSPI QSPI NOR 256Mbit 1.8V
+F http://www.issi.com/WW/pdf/IS25LP(WP)256D.pdf
+$ENDCMP
+#
 $CMP M25PX32-VMP
 D 32Mb, Dual I/O, 4KB Subsector Erase, 3V Serial Flash Memory with 75 MHz SPI Bus Interface, QFN package
 K NOR Serial Flash Embedded Memory
@@ -114,6 +120,12 @@ D Flash EEProm 1MO (TSOP 40 pack.) 3,3V
 K EEPROM FLASH 1MO
 $ENDCMP
 #
+$CMP SST25VF080B-50-4x-S2Ax
+D 8-Mbit, 2.7 to 3.6V, SPI Flash Memory, SOIC-8
+K flash memory spi
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005045C.pdf
+$ENDCMP
+#
 $CMP SST39SF010
 D Silicon Storage Technology (SSF) 128k x 8 Flash ROM
 K 128k flash rom
@@ -130,6 +142,18 @@ $CMP SST39SF040
 D Silicon Storage Technology (SSF) 512k x 8 Flash ROM
 K 512k flash rom
 F http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf
+$ENDCMP
+#
+$CMP W25Q32JVSS
+D 32Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8
+K flash memory SPI
+F http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf
+$ENDCMP
+#
+$CMP W25Q32JVZP
+D 32Mb Serial Flash Memory, Standard/Dual/Quad SPI, DFN-8
+K flash memory SPI
+F http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf
 $ENDCMP
 #
 #End Doc Library
