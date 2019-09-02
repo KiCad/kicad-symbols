@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AS1115-BQFT
+D 64 LEDs, I2C Interfaced LED Driver with Keyscan, TQFN-24
+K led driver i2c
+F https://ams.com/documents/20143/36005/AS1115_DS000206_1-00.pdf/3d3e6d35-b184-1329-adf9-2d769eb2404f
+$ENDCMP
+#
+$CMP AS1115-BSST
+D 64 LEDs, I2C Interfaced LED Driver with Keyscan, QSOP-24
+K led driver i2c
+F https://ams.com/documents/20143/36005/AS1115_DS000206_1-00.pdf/3d3e6d35-b184-1329-adf9-2d769eb2404f
+$ENDCMP
+#
 $CMP MAX7325AEG+
 D I2C Port Expander with 8 Push-Pull and 8 Open-Drain I/Os, QSOP-24 package
 K Expander I2C Parallel Port GPIO Maxim
@@ -90,6 +102,30 @@ K i2c multiplexer
 F http://www.nxp.com/documents/data_sheet/PCA9544A.pdf
 $ENDCMP
 #
+$CMP PCA9548ADB
+D Low voltage 8-channel I2C switch with reset, SSOP-24
+K Low voltage 8-channel I2C switch with reset
+F http://www.ti.com/lit/ds/symlink/pca9548a.pdf
+$ENDCMP
+#
+$CMP PCA9548ADW
+D Low voltage 8-channel I2C switch with reset, SOIC-24
+K Low voltage 8-channel I2C switch with reset
+F http://www.ti.com/lit/ds/symlink/pca9548a.pdf
+$ENDCMP
+#
+$CMP PCA9548APW
+D Low voltage 8-channel I2C switch with reset, TSSOP-24
+K Low voltage 8-channel I2C switch with reset
+F http://www.ti.com/lit/ds/symlink/pca9548a.pdf
+$ENDCMP
+#
+$CMP PCA9548ARGE
+D Low voltage 8-channel I2C switch with reset, VQFN-24
+K Low voltage 8-channel I2C switch with reset
+F http://www.ti.com/lit/ds/symlink/pca9548a.pdf
+$ENDCMP
+#
 $CMP PCF8574
 D 8 Bit Port/Expander to I2C Bus, DIP/SOIC-16
 K I2C Expander
@@ -121,7 +157,7 @@ F http://www.st.com/resource/en/datasheet/stmpe1600.pdf
 $ENDCMP
 #
 $CMP TCA9534
-D 8 Bit Port/Expander, I2C SMBUS, Interrupt output, TSSOP-16, SOIC-20
+D 8 Bit Port/Expander, I2C SMBUS, Interrupt output, TSSOP-16, SOIC-16
 K SMBUS I2C Expander
 F http://www.ti.com/lit/ds/symlink/tca9534.pdf
 $ENDCMP
@@ -169,7 +205,7 @@ F http://www.ti.com/lit/ds/symlink/tca9544a.pdf
 $ENDCMP
 #
 $CMP TCA9548AMRGER
-D Low voltage 8-channel I2C switch with reset, QFN-24
+D Low voltage 8-channel I2C switch with reset, VQFN-24
 K Low voltage 8-channel I2C switch with reset
 F http://www.ti.com/lit/ds/symlink/tca9548a.pdf
 $ENDCMP
@@ -184,6 +220,30 @@ $CMP TCA9548ARGER
 D Low voltage 8-channel I2C switch with reset, QFN-24
 K Low voltage 8-channel I2C switch with reset
 F http://www.ti.com/lit/ds/symlink/tca9548a.pdf
+$ENDCMP
+#
+$CMP TCA9554DB
+D 8 Bit Port/Expander, I2C SMBUS, Interrupt output, SSOP-16
+K SMBUS I2C Expander
+F http://www.ti.com/lit/ds/symlink/tca9554.pdf
+$ENDCMP
+#
+$CMP TCA9554DBQ
+D 8 Bit Port/Expander, I2C SMBUS, Interrupt output, SSOP-16
+K SMBUS I2C Expander
+F http://www.ti.com/lit/ds/symlink/tca9554.pdf
+$ENDCMP
+#
+$CMP TCA9554DW
+D 8 Bit Port/Expander, I2C SMBUS, Interrupt output, SOIC-16
+K SMBUS I2C Expander
+F http://www.ti.com/lit/ds/symlink/tca9554.pdf
+$ENDCMP
+#
+$CMP TCA9554PW
+D 8 Bit Port/Expander, I2C SMBUS, Interrupt output, TSSOP-16
+K SMBUS I2C Expander
+F http://www.ti.com/lit/ds/symlink/tca9554.pdf
 $ENDCMP
 #
 $CMP TCA9555DBR
