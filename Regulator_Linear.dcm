@@ -5316,6 +5316,12 @@ K REGULATOR LDO ADJUSTABLE
 F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
 $ENDCMP
 #
+$CMP NCP114xMXxxxTxG
+D 300 mA CMOS Low Dropout, UDFN-4
+K linear regulator ldo fixed positive
+F https://www.onsemi.com/pub/Collateral/NCP114-D.PDF
+$ENDCMP
+#
 $CMP NCP133AMX100TCG
 D 500  mA  VLDO  equipped  with  NMOS  pass transistor  and  a  separate  bias  supply  voltage
 K Single Output LDO
