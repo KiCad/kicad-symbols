@@ -174,7 +174,19 @@ K Dual-channel digital isolator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM120N_121N.pdf
 $ENDCMP
 #
+$CMP ADuM1400
+D Quad Channel Digital Isolator,10Mbps,SO-16
+K Digital Isolator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1400_1401_1402.pdf
+$ENDCMP
+#
 $CMP ADuM1401
+D Quad Channel Digital Isolator,10Mbps,SO-16
+K Digital Isolator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1400_1401_1402.pdf
+$ENDCMP
+#
+$CMP ADuM1402
 D Quad Channel Digital Isolator,10Mbps,SO-16
 K Digital Isolator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1400_1401_1402.pdf
