@@ -6738,6 +6738,12 @@ K LDO voltage regulator
 F http://www.ti.com/lit/ds/symlink/tps7a91.pdf
 $ENDCMP
 #
+$CMP XC6206PxxxMR
+D Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23
+K Torex LDO Voltage Regulator Fixed Positive
+F https://www.torexsemi.com/file/xc6206/XC6206.pdf
+$ENDCMP
+#
 $CMP XC6220B331MR
 D 1A, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-23-5
 K LDO Voltage Regulator 1A
