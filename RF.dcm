@@ -222,6 +222,30 @@ K low-power lora transceiver
 F https://www.semtech.com/uploads/documents/sx1272.pdf
 $ENDCMP
 #
+$CMP SX1276
+D 137 MHz to 1020 MHz Low Power Long Range Transceiver, spreading factor from 6 to 12, LoRA, QFN-28
+K low-power lora transceiver
+F https://www.semtech.com/uploads/documents/DS_SX1276-7-8-9_W_APP_V6.pdf
+$ENDCMP
+#
+$CMP SX1277
+D 137 MHz to 525 MHz Low Power Long Range Transceiver, spreading factor from 6 to 12, LoRA, QFN-28
+K low-power lora transceiver
+F https://www.semtech.com/uploads/documents/DS_SX1276-7-8-9_W_APP_V6.pdf
+$ENDCMP
+#
+$CMP SX1278
+D 137 MHz to 525 MHz Low Power Long Range Transceiver, spreading factor from 6 to 12, LoRA, QFN-28
+K low-power lora transceiver
+F https://www.semtech.com/uploads/documents/DS_SX1276-7-8-9_W_APP_V6.pdf
+$ENDCMP
+#
+$CMP SX1279
+D 137 MHz to 960 MHz Low Power Long Range Transceiver, spreading factor from 6 to 12, LoRA, QFN-28
+K low-power lora transceiver
+F https://www.semtech.com/uploads/documents/DS_SX1276-7-8-9_W_APP_V6.pdf
+$ENDCMP
+#
 $CMP SYPD-1
 D Phase Detector, 1 to 100 MHz, 50 Ohm, Mini-Cicuits TTT167
 K Phase Detector
