@@ -2532,6 +2532,12 @@ K Flyback switcher
 F https://www.analog.com/media/en/technical-documentation/data-sheets/8303fa.pdf
 $ENDCMP
 #
+$CMP LT8582
+D Dual 3A Boost/Inverting/SEPIC DC/DC Converter with Fault Protection
+K dcdc converter boost sepic
+F https://www.analog.com/en/LT8582/datasheet
+$ENDCMP
+#
 $CMP LT8610
 D 42V, 2.5A Synchronous Step-Down Regulator with 2.5uA Quiescent Current, MSOP-16
 K high efficiency speed synchronous monolithic buck step-down switching regulator 42V 2.5A
