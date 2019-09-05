@@ -1140,6 +1140,18 @@ K LEMO connector
 F  ~
 $ENDCMP
 #
+$CMP Lutronic_0821_03_T10CP
+D 3-pin M8 panel mount connector, female, A-coded, IP67, for rear side mounting, thread M10, for printed circuit boards
+K M8 IP67 3-pin
+F http://downloads.lutronic.biz/datenblaetter/en/0821_t10cp.pdf
+$ENDCMP
+#
+$CMP Lutronic_0821_04_T10CP
+D 4-pin M8 panel mount connector, female, A-coded, IP67, for rear side mounting, thread M10, for printed circuit boards
+K M8 IP67 4-pin
+F http://downloads.lutronic.biz/datenblaetter/en/0821_t10cp.pdf
+$ENDCMP
+#
 $CMP MXM3.0
 D MXM3.0 connector
 K MXM connector
