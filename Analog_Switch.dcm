@@ -101,6 +101,12 @@ K analog switch selector multiplexer
 F http://www.ti.com/lit/ds/symlink/cd4052b.pdf
 $ENDCMP
 #
+$CMP CD4097B
+D CMOS double 8-channel analog multiplexer/demultiplexer, TSSOP-24/DIP-24/SOIC-24
+K analog switch selector multiplexer
+F http://www.ti.com/lit/ds/symlink/cd4097b.pdf
+$ENDCMP
+#
 $CMP DG308AxJ
 D Quad SPST Analog Switches, normally OFF, 60Ohm Ron, DIP-16
 K CMOS Analog Switch
@@ -393,6 +399,12 @@ $CMP MAX14761
 D Above- and Below-the-Rails Low On-Resistance Analog Switches, max 2 Ohm On resistor, TDFN-10
 K analog switch low resistance above below rails
 F https://datasheets.maximintegrated.com/en/ds/MAX14759-MAX14763.pdf
+$ENDCMP
+#
+$CMP MAX14778
+D Dual +-25V Above- and Below-the-Rails 4:1 Analog Multiplexer, TQFN-20
+K Analog Differential Multiplexer
+F https://datasheets.maximintegrated.com/en/ds/MAX14778.pdf
 $ENDCMP
 #
 $CMP MAX312CPE

@@ -972,6 +972,12 @@ K dual opamp
 F http://www.ti.com/lit/ds/symlink/opa134.pdf
 $ENDCMP
 #
+$CMP OPA2277
+D Dual High Precision Operational Amplifiers, DIP-8/SOIC-8
+K dual opamp
+F https://www.ti.com/lit/ds/symlink/opa2277.pdf
+$ENDCMP
+#
 $CMP OPA2325
 D Precision, 10-MHz, Low-Noise, Low-Power, RRIO, CMOS Operational Amplifier, SOIC-8
 K dual opamp
@@ -1426,6 +1432,12 @@ $CMP TLV6001DCK
 D Low-power, Rail-to-rail, 1MHz Operational Amplifier, SOT-353
 K op amp operational amplifier
 F http://www.ti.com/lit/ds/symlink/tlv6001.pdf
+$ENDCMP
+#
+$CMP TLV9004xRUCR
+D Low-Power, Quad-Operational Amplifiers, Texas S-PX2QFN-14
+K quad opamp
+F http://www.ti.com/lit/ds/symlink/tlv9004.pdf
 $ENDCMP
 #
 $CMP TS881xCx

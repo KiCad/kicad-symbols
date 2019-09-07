@@ -588,6 +588,12 @@ K schottky diode
 F https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf
 $ENDCMP
 #
+$CMP BAT60A
+D 10V 3A High Current Recitifier Schottky Diode, SOD-323
+K diode Schottky
+F https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9
+$ENDCMP
+#
 $CMP BAT85
 D 30V 0.2A Schottky barrier single diode, DO-35
 K diode Schottky
