@@ -24,6 +24,11 @@ K Arduino nano microcontroller module USB
 F http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf
 $ENDCMP
 #
+$CMP Arduino_Pro_Mini
+D Arduino UNO Microcontroller Module, retired
+K Arduino UNO R3 Microcontroller Module Atmel AVR USB
+$ENDCMP
+#
 $CMP Arduino_UNO_R2
 D Arduino UNO Microcontroller Module, release 2
 K Arduino UNO R3 Microcontroller Module Atmel AVR USB
