@@ -143,12 +143,6 @@ K Sparkfun Arduino microcontroller module usb
 F https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ProMicro16MHzv1.pdf
 $ENDCMP
 #
-$CMP Sparkfun_Pro_Micro_copy_copy
-D Sparkfun Pro Micro 5V
-K Sparkfun Arduino microcontroller module usb
-F https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ProMicro16MHzv1.pdf
-$ENDCMP
-#
 $CMP VisionSOM-6UL
 D i.MX6-UL NXP ARM Cortex-A7 696MHz single core industrial SoM computer
 K somlabs module
