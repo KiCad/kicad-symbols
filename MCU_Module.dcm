@@ -131,22 +131,22 @@ K raspberry pi compute module
 F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM_1p0.pdf
 $ENDCMP
 #
-$CMP Sparkfun_Pro_Micro
-D Sparkfun Pro Micro
+$CMP Sparkfun_Pro_Micro_3V3
+D Sparkfun Pro Micro 3V3
 K Sparkfun Arduino microcontroller module usb
-F https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ProMicro16MHzv1.pdf
-$ENDCMP
-#
-$CMP Sparkfun_Pro_Micro_3.3V
-D Sparkfun Pro Micro 3.3V
-K Sparkfun Arduino microcontroller module USB 3.3V
-F https://www.sparkfun.com/products/12587
+F https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ProMicro8MHzv1.pdf
 $ENDCMP
 #
 $CMP Sparkfun_Pro_Micro_5V
 D Sparkfun Pro Micro 5V
-K Sparkfun Arduino microcontroller module USB 5V
-F https://www.sparkfun.com/products/12640
+K Sparkfun Arduino microcontroller module usb
+F https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ProMicro16MHzv1.pdf
+$ENDCMP
+#
+$CMP Sparkfun_Pro_Micro_copy_copy
+D Sparkfun Pro Micro 5V
+K Sparkfun Arduino microcontroller module usb
+F https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ProMicro16MHzv1.pdf
 $ENDCMP
 #
 $CMP VisionSOM-6UL
