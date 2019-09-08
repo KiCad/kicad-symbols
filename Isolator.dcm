@@ -319,14 +319,14 @@ F https://www.fairchildsemi.com/datasheets/H1/H11L1M.pdf
 $ENDCMP
 #
 $CMP HCPL-061A
-D Dual High Speed HCMOS/LSTTL/TTL Compatible Optocoupler, dV/dt 1000/us, VCM 50, -0.5V to 7V VCC, SOIC-8
-K High speed optically coupled gates
+D Single High Speed HCMOS/LSTTL/TTL Compatible Optocoupler with enable, dV/dt 1000/us, VCM 50, -0.5V to 7V VCC, SOIC-8
+K High speed optically coupled gates enable
 F http://docs.avagotech.com/docs/AV02-0391EN
 $ENDCMP
 #
 $CMP HCPL-061N
-D Dual High Speed HCMOS/LSTTL/TTL Compatible Optocoupler, dV/dt 1000/us, VCM 1000, -0.5V to 7V VCC, SOIC-8
-K High speed optically coupled gates
+D Single High Speed HCMOS/LSTTL/TTL Compatible Optocoupler with enable, dV/dt 1000/us, VCM 1000, -0.5V to 7V VCC, SOIC-8
+K High speed optically coupled gates enable
 F http://docs.avagotech.com/docs/AV02-0391EN
 $ENDCMP
 #
@@ -343,14 +343,14 @@ F http://docs.avagotech.com/docs/AV02-0391EN
 $ENDCMP
 #
 $CMP HCPL-261A
-D Dual High Speed HCMOS/LSTTL/TTL Compatible Optocoupler, dV/dt 1000/us, VCM 50, -0.5V to 7V VCC, DIP-8
-K High speed optically coupled gates
+D Single High Speed HCMOS/LSTTL/TTL Compatible Optocoupler with enable, dV/dt 1000/us, VCM 50, -0.5V to 7V VCC, DIP-8
+K High speed optically coupled gates enable
 F http://docs.avagotech.com/docs/AV02-0391EN
 $ENDCMP
 #
 $CMP HCPL-261N
-D Dual High Speed HCMOS/LSTTL/TTL Compatible Optocoupler, dV/dt 1000/us, VCM 1000, -0.5V to 7V VCC, DIP-8
-K High speed optically coupled gates
+D Single High Speed HCMOS/LSTTL/TTL Compatible Optocoupler with enable, dV/dt 1000/us, VCM 1000, -0.5V to 7V VCC, DIP-8
+K High speed optically coupled gates enable
 F http://docs.avagotech.com/docs/AV02-0391EN
 $ENDCMP
 #
