@@ -1647,7 +1647,7 @@ ENDDEF
 # Sparkfun_Pro_Micro_5V
 #
 DEF Sparkfun_Pro_Micro_5V A 0 20 Y Y 1 F N
-F0 "A" -200 1050 50 H V R CNN
+F0 "A" -400 950 50 H V L CNN
 F1 "Sparkfun_Pro_Micro_5V" 200 -970 50 H V L CNN
 F2 "Module:Sparkfun_Pro_Micro" 0 0 50 H I C CNN
 F3 "" 0 -1000 50 H I C CNN
