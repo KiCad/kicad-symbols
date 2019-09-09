@@ -331,13 +331,25 @@ F https://www.fairchildsemi.com/datasheets/H1/H11L1M.pdf
 $ENDCMP
 #
 $CMP HCNW2201
-D Opto Coupler, Very High CMR, Wide Vcc, Schmitt trigger output, WDIP-8
+D Opto Coupler, 1kV/us, 50V CMR, Schmitt trigger output, WDIP-8
+K opto coupler schmitt output
+F https://docs.broadcom.com/docs/AV02-0674EN
+$ENDCMP
+#
+$CMP HCNW2211
+D Opto Coupler, 10kV/us, 1kV CMR, Schmitt trigger output, WDIP-8
 K opto coupler schmitt output
 F https://docs.broadcom.com/docs/AV02-0674EN
 $ENDCMP
 #
 $CMP HCPL-0201
-D Opto Coupler, Very High CMR, Wide Vcc, Schmitt trigger output, SOIC-8
+D Opto Coupler, 1kV/us, 50V CMR, Schmitt trigger output, SOIC-8
+K opto coupler schmitt output
+F https://docs.broadcom.com/docs/AV02-0674EN
+$ENDCMP
+#
+$CMP HCPL-0211
+D Opto Coupler, 5kV/us, 300V CMR, Schmitt trigger output, SOIC-8
 K opto coupler schmitt output
 F https://docs.broadcom.com/docs/AV02-0674EN
 $ENDCMP
@@ -403,13 +415,25 @@ F https://docs.broadcom.com/docs/AV02-0940EN
 $ENDCMP
 #
 $CMP HCPL-2201
-D Opto Coupler, Very High CMR, Wide Vcc, Schmitt trigger output, DIP-8
+D Opto Coupler, 1kV/us, 50V CMR, Schmitt trigger output, DIP-8
 K opto coupler schmitt output
 F https://docs.broadcom.com/docs/AV02-0674EN
 $ENDCMP
 #
 $CMP HCPL-2202
-D Opto Coupler, Very High CMR, Wide Vcc, Schmitt trigger output, DIP-8
+D Opto Coupler, 1kV/us, 50V CMR, Schmitt trigger output, DIP-8
+K opto coupler schmitt output
+F https://docs.broadcom.com/docs/AV02-0674EN
+$ENDCMP
+#
+$CMP HCPL-2211
+D Opto Coupler, 5kV/us, 300V CMR, Schmitt trigger output, DIP-8
+K opto coupler schmitt output
+F https://docs.broadcom.com/docs/AV02-0674EN
+$ENDCMP
+#
+$CMP HCPL-2212
+D Opto Coupler, 5kV/us, 300V CMR, Schmitt trigger output, DIP-8
 K opto coupler schmitt output
 F https://docs.broadcom.com/docs/AV02-0674EN
 $ENDCMP
