@@ -480,10 +480,28 @@ K diode
 F https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf
 $ENDCMP
 #
+$CMP BAS16W
+D 100V, 0.175A, High-speed Switching Diode, SOT-323
+K diode
+F https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf
+$ENDCMP
+#
+$CMP BAS316
+D 100V, 0.25A, High-speed Switching Diode, SOD-323
+K diode
+F https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf
+$ENDCMP
+#
 $CMP BAS40-04
 D 40V 0.2A Dual Small Signal Schottky Diodes
 K Schottky, Diode
 F http://www.vishay.com/docs/85701/bas40v.pdf
+$ENDCMP
+#
+$CMP BAS516
+D 100V, 0.25A, High-speed Switching Diode, SOD-523
+K diode
+F https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf
 $ENDCMP
 #
 $CMP BAT41
