@@ -2442,6 +2442,12 @@ K P-Channel MOSFET
 F http://www.vishay.com/docs/66709/si2319cd.pdf
 $ENDCMP
 #
+$CMP Si4162DY
+D 19.3A Id, 30V Vds, TrenchFET N-Channel Power MOSFET, SO-8
+K N-Channel MOSFET
+F http://www.vishay.com/docs/68967/si4162dy.pdf
+$ENDCMP
+#
 $CMP Si4532DY
 D 3.9A Id, 30V Vds, Dual N and P Channel MOSFET, 65mOhm Ron, 10V Vgs, SO8L
 K Dual N-Channel P-Channel MOSFET
