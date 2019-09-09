@@ -1404,12 +1404,6 @@ K Adjustable Voltage Regulator 1A Positive LDO
 F https://www.diodes.com/assets/Datasheets/AZ1117.pdf
 $ENDCMP
 #
-$CMP HT75xx-1-SOT89
-D 100mA Low Dropout Voltage Regulator, Fixed Output, SOT89
-K 100mA LDO Regulator Fixed Positive
-F https://www.holtek.com/documents/10179/116711/HT75xx-1v250.pdf
-$ENDCMP
-#
 $CMP BD15GA3WEFJ
 D 300mA, 1.5V LDO regulator with OVP & TSP, HTSOP-8
 K linear regulator fixed positive fixed positive over voltage protection thermal shutdown
@@ -1552,6 +1546,12 @@ $CMP BDJ2GA5WEFJ
 D 500mA, 12V LDO regulator with OVP & TSP, HTSOP-8
 K linear regulator fixed positive over voltage protection thermal shutdown
 F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxga5wefj-e.pdf
+$ENDCMP
+#
+$CMP HT75xx-1-SOT89
+D 100mA Low Dropout Voltage Regulator, Fixed Output, SOT89
+K 100mA LDO Regulator Fixed Positive
+F https://www.holtek.com/documents/10179/116711/HT75xx-1v250.pdf
 $ENDCMP
 #
 $CMP ICL7663
