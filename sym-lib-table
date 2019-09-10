@@ -189,6 +189,7 @@
   (lib (name Video)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Video.lib)(options "")(descr "Video symbols"))
   (lib (name power)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/power.lib)(options "")(descr "Power symbols, special power flags"))
   (lib (name pspice)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/pspice.lib)(options "")(descr "Legacy pspice symbol library."))
+  (lib (name MCU_Microchip_SAMA)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_SAMA.lib)(options "")(descr "Microchip SAMA microcontrollers"))
   (lib (name MCU_Microchip_SAMD)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_SAMD.lib)(options "")(descr "Microchip SAMD microcontrollers"))
   (lib (name MCU_Microchip_SAME)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_SAME.lib)(options "")(descr "Microchip SAME microcontrollers"))
   (lib (name MCU_Microchip_SAML)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Microchip_SAML.lib)(options "")(descr "Microchip SAML microcontrollers"))
