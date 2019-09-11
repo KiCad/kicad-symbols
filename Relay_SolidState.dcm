@@ -36,6 +36,12 @@ K MOSFET Output Photorelay 1-Form-A
 F http://www.ixysic.com/home/pdfs.nsf/www/CPC1017N.pdf/$file/CPC1017N.pdf
 $ENDCMP
 #
+$CMP CPC1117N
+D Form B, Solid State Relay (Photo MOSFET) 60V, 0.15A, 16Ohm, SO-4
+K MOSFET Output Photorelay 1-Form-B NC
+F http://www.ixysic.com/home/pdfs.nsf/www/CPC1117N.pdf/$file/CPC1117N.pdf
+$ENDCMP
+#
 $CMP FOD420
 D Random Phase Opto-Triac, Vdrm 600V, Ift 0.75mA, Itm 300mA, DIP6
 K Opto-Triac Opto Triac Random Phase
