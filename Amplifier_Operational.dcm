@@ -450,6 +450,12 @@ K quad opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/14923f.pdf
 $ENDCMP
 #
+$CMP LT6015xS5
+D 3.2MHz, 0.8V/us, Low Power, Over-The-Top Precision Op Amp, SOT-23-5
+K single opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/601567ff.pdf
+$ENDCMP
+#
 $CMP LT6234
 D Dual 60MHz, Rail-to-Rail Output, 1.9nV/√Hz, 1.2mA, Operational Amplifier, SOIC-8
 K dual opamp
