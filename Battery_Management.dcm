@@ -234,6 +234,18 @@ K Step-down  battery charger, Lithium Phosphate ( LiFePO4), Lead (Pb), Lithium+ 
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3652fe.pdf
 $ENDCMP
 #
+$CMP LTC2942
+D Battery Gas Gauge with Temperature, Voltage Measurement, DFN-6
+K Fuel gauge coulomb counter I2C
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2942fa.pdf
+$ENDCMP
+#
+$CMP LTC2942-1
+D 1A Battery Gas Gauge with Internal Sense Resistor and Temperature/Voltage Measurement, DFN-6
+K Fuel gauge coulomb counter I2C
+F https://www.analog.com/media/en/technical-documentation/data-sheets/29421f.pdf
+$ENDCMP
+#
 $CMP LTC3553
 D Micropower USB Power Manager With Li-Ion Charger, LDO and Buck Regulator, 4.2V float, QFN-20
 K USB PMIC
