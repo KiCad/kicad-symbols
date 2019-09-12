@@ -142,4 +142,10 @@ K SRAM MEMORY
 F http://www.issi.com/WW/pdf/61-64C5128AL.pdf
 $ENDCMP
 #
+$CMP W9812G6KH-6
+D 128Mb Synchronous DRAM, 2 Mb x 16 b x 4 Banks, TSOP-II-54
+K DRAM MEMORY
+F https://www.winbond.com/resource-files/da00-w9812g6khc1.pdf
+$ENDCMP
+#
 #End Doc Library
