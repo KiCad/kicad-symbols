@@ -546,6 +546,36 @@ K Voltage Reference 4.096V
 F http://ww1.microchip.com/downloads/en/devicedoc/21653b.pdf
 $ENDCMP
 #
+$CMP REF01CP
+D 10V ±100mV Precision Voltage Reference, PDIP-8
+K Precision Voltage Reference 10V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
+$ENDCMP
+#
+$CMP REF01CS
+D 10V ±100mV Precision Voltage Reference, SO-8
+K Precision Voltage Reference 10V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
+$ENDCMP
+#
+$CMP REF01EZ
+D 10V ±30mV Precision Voltage Reference, CERDIP-8
+K Precision Voltage Reference 10V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
+$ENDCMP
+#
+$CMP REF01HP
+D 10V ±50mV Precision Voltage Reference, PDIP-8
+K Precision Voltage Reference 10V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
+$ENDCMP
+#
+$CMP REF01HZ
+D 10V ±50mV Precision Voltage Reference, CERDIP-8
+K Precision Voltage Reference 10V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
+$ENDCMP
+#
 $CMP REF02AP
 D 5V ±15mV Precision Voltage Reference, PDIP-8
 K Precision Voltage Reference 5V
@@ -558,6 +588,12 @@ K Precision Voltage Reference 5V
 F http://www.ti.com/lit/ds/symlink/ref02.pdf
 $ENDCMP
 #
+$CMP REF02AZ
+D 5V ±15mV Precision Voltage Reference, CERDIP-8
+K Precision Voltage Reference 5V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
+$ENDCMP
+#
 $CMP REF02BP
 D 5V ±10mV Precision Voltage Reference, PDIP-8
 K Precision Voltage Reference 5V
@@ -568,6 +604,60 @@ $CMP REF02BU
 D 5V ±10mV Precision Voltage Reference, SO-8
 K Precision Voltage Reference 5V
 F http://www.ti.com/lit/ds/symlink/ref02.pdf
+$ENDCMP
+#
+$CMP REF02CP
+D 5V ±50mV Precision Voltage Reference, PDIP-8
+K Precision Voltage Reference 5V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
+$ENDCMP
+#
+$CMP REF02CS
+D 5V ±50mV Precision Voltage Reference, SO-8
+K Precision Voltage Reference 5V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
+$ENDCMP
+#
+$CMP REF02EZ
+D 5V ±15mV Precision Voltage Reference, CERDIP-8
+K Precision Voltage Reference 5V
+F httphttps://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf://www.ti.com/lit/ds/symlink/ref02.pdf
+$ENDCMP
+#
+$CMP REF02HP
+D 5V ±25mV Precision Voltage Reference, PDIP-8
+K Precision Voltage Reference 5V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
+$ENDCMP
+#
+$CMP REF02HS
+D 5V ±25mV Precision Voltage Reference, SO-8
+K Precision Voltage Reference 5V
+F htthttps://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdfp://www.ti.com/lit/ds/symlink/ref02.pdf
+$ENDCMP
+#
+$CMP REF02HZ
+D 5V ±25mV Precision Voltage Reference, CERDIP-8
+K Precision Voltage Reference 5V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
+$ENDCMP
+#
+$CMP REF02Z
+D 5V ±25mV Precision Voltage Reference, CERDIP-8
+K Precision Voltage Reference 5V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
+$ENDCMP
+#
+$CMP REF03GP
+D 2.5V ±15mV Precision Voltage Reference, PDIP-8
+K Precision Voltage Reference 2.5V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
+$ENDCMP
+#
+$CMP REF03GS
+D 2.5V ±15mV Precision Voltage Reference, SO-8
+K Precision Voltage Reference 2.5V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
 $ENDCMP
 #
 $CMP REF102AP
