@@ -5478,6 +5478,18 @@ K Step-Down DC-DC Converter
 F http://www.ti.com/lit/ds/symlink/tps62201.pdf
 $ENDCMP
 #
+$CMP TPS62840DLC
+D Vout 1.8 to 3.3V, Vin 1.8 to 6.5V, 750-mA, 60-nA Iq, Step-Down Converter
+K step down regulator voltage
+F http://www.ti.com/lit/ds/symlink/tps62840.pdf
+$ENDCMP
+#
+$CMP TPS62841DLC
+D Vout 1.8 to 1.55V, Vin 1.8 to 6.5V, 750-mA, 60-nA Iq, Step-Down Converter
+K step down regulator voltage
+F http://www.ti.com/lit/ds/symlink/tps62840.pdf
+$ENDCMP
+#
 $CMP TPS63000
 D Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.8A Switch Current, Adjustable 1.2-5.5V Output Voltage, VSON-10
 K Buck-Boost adjustable converter
