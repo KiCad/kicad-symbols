@@ -2388,6 +2388,17 @@ K P-Channel MOSFET
 F http://www.jaolen.com/images/pdf/QM6015D.pdf
 $ENDCMP
 #
+$CMP Q_PMOS_SQA403EJ
+D Automotive P-Channel  MOSFET
+K PMOS
+$ENDCMP
+#
+$CMP SQA403EJ
+D Automotive P-Channel  MOSFET
+K PMOS
+F http://www.vishay.com/docs/76242/sqa403ej.pdf
+$ENDCMP
+#
 $CMP STS2DNE60
 D 2A Id, 60V Vds, Dual N-Channel MOSFET, 180mOhm Ron, SO-8
 K Dual N-Channel MOSFET
