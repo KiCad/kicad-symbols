@@ -619,13 +619,13 @@ $ENDCMP
 #
 $CMP TS3A27518EPW
 D 6-channel analog mux, TSSOP-24
-K TI,SPI,qSPI,multiplexer,demux
+K SPI qSPI multiplexer demux
 F http://www.ti.com/lit/ds/symlink/ts3a27518e.pdf
 $ENDCMP
 #
 $CMP TS3A27518ERTW
 D 6-channel analog mux, WQFN-24
-K TI,SPI,qSPI,multiplexer,demux
+K SPI qSPI multiplexer demux
 F http://www.ti.com/lit/ds/symlink/ts3a27518e.pdf
 $ENDCMP
 #
