@@ -24,6 +24,12 @@ K usb uart wch serial
 F http://www.wch.cn/downloads/file/240.html
 $ENDCMP
 #
+$CMP CH340E
+D USB serial converter, UART, MSOP-10
+K USB UART Serial Converter Interface
+F https://www.mpja.com/download/35227cpdata.pdf
+$ENDCMP
+#
 $CMP CH340G
 D USB serial converter, UART, SOIC-16
 K USB UART Serial Converter Interface
