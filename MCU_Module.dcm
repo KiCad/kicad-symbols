@@ -25,8 +25,9 @@ F http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf
 $ENDCMP
 #
 $CMP Arduino_Pro_Mini
-D Arduino UNO Microcontroller Module, retired
-K Arduino UNO R3 Microcontroller Module Atmel AVR USB
+D Arduino Pro Mini
+K Arduino Pro Mini Microcontroller Module Atmel AVR USB
+F https://store.arduino.cc/arduino-pro-mini
 $ENDCMP
 #
 $CMP Arduino_UNO_R2
