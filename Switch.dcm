@@ -1,5 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CTS_220AMA04R
+D Rotary switch, 4-bit encoding, 4 positions, Single Pole, Flush arrow rotor
+K rotary Single
+F https://www.ctscorp.com/wp-content/uploads/220.pdf
+$ENDCMP
+#
+$CMP CTS_220AMB04R
+D Rotary switch, 4-bit encoding, 4 positions, Single Pole, Knurled, slotted, flatted shaft
+K rotary Single
+F https://www.ctscorp.com/wp-content/uploads/220.pdf
+$ENDCMP
+#
+$CMP CTS_220AMC04R
+D Rotary switch, 4-bit encoding, 4 positions, Single Pole, Knurled, slotted shaft
+K rotary Single
+F https://www.ctscorp.com/wp-content/uploads/220.pdf
+$ENDCMP
+#
 $CMP SW_Coded
 D Rotary switch, 4-bit encoding
 K rotary hex
