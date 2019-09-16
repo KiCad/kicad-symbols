@@ -948,15 +948,15 @@ K single opamp zero-drift
 F http://www.ti.com/lit/ds/symlink/opa188.pdf
 $ENDCMP
 #
+$CMP OPA196IDBV
+D Low Power Low Offset Voltage Rail-to-Rail Input and Output SOT-23-5
+K OpAmp Rail-to-rail Low Offset Dual
+$ENDCMP
+#
 $CMP OPA2134
 D Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8
 K dual opamp
 F http://www.ti.com/lit/ds/symlink/opa134.pdf
-$ENDCMP
-#
-$CMP OPA2196
-D Low Power Low Offset Voltage Rail-to-Rail Input and Output
-K OpAmp Rail-to-rail Low Offset Dual
 $ENDCMP
 #
 $CMP OPA2196Ix
