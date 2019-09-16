@@ -72,6 +72,12 @@ K monolithic CMOS switched capacitor voltage converter invert double divide mult
 F http://datasheets.maximintegrated.com/en/ds/ICL7660-MAX1044.pdf
 $ENDCMP
 #
+$CMP TPS60151DRV
+D 5V, 140mA charge-pump, WSON-6
+K charge pump
+F https://www.ti.com/lit/ds/symlink/tps60151.pdf
+$ENDCMP
+#
 $CMP TPS60500DGS
 D 250mA High-Efficiency Step-Down Charge Pump Regulator, Adjustable Output Voltage, MSOP-10
 K Regulator Step-Down Charge Pump TPS Texas Instruments Ti

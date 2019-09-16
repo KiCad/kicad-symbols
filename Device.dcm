@@ -102,6 +102,12 @@ K trimmer capacitor
 F ~
 $ENDCMP
 #
+$CMP CTRIM_Small
+D Trimmable capacitor, small symbol
+K trimmer variable capacitor
+F ~
+$ENDCMP
+#
 $CMP C_Feedthrough
 D Feedthrough capacitor
 K EMI filter feedthrough capacitor
@@ -810,6 +816,12 @@ K LED diode
 F ~
 $ENDCMP
 #
+$CMP LED_ABRG
+D RGB LED, anode/blue/red/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP LED_ALT
 D Light emitting diode, filled shape
 K LED diode
@@ -920,6 +932,18 @@ $ENDCMP
 #
 $CMP LED_RGB
 D RGB LED, 6 pin package
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RGBA
+D RGB LED, red/green/blue/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RGBC
+D RGB LED, red/green/blue/cathode
 K LED RGB diode
 F ~
 $ENDCMP
@@ -1200,6 +1224,12 @@ K transistor NPN
 F ~
 $ENDCMP
 #
+$CMP Q_DUAL_NPN_NPN_C2E2C1E1B1B2
+D Dual NPN transistor, 6 pin package
+K transistor NPN
+F ~
+$ENDCMP
+#
 $CMP Q_DUAL_NPN_NPN_E1B1C2E2B2C1
 D Dual NPN transistor, 6 pin package
 K transistor NPN
@@ -1252,6 +1282,12 @@ $CMP Q_DUAL_PNP_PNP_C1B1B2C2E2E1
 D Dual PNP transistor, 6 pin package
 K transistor PNP
 F https://www.diodes.com/assets/Datasheets/ds30437.pdf
+$ENDCMP
+#
+$CMP Q_DUAL_PNP_PNP_C2E2C1E1B1B2
+D Dual PNP transistor, 6 pin package
+K transistor PNP
+F ~
 $ENDCMP
 #
 $CMP Q_DUAL_PNP_PNP_E1B1C2E2B2C1
@@ -2042,6 +2078,12 @@ $ENDCMP
 #
 $CMP R_POT_Dual_Separate
 D Dual potentiometer, separate units
+K resistor variable
+F ~
+$ENDCMP
+#
+$CMP R_POT_Small
+D Potentiometer
 K resistor variable
 F ~
 $ENDCMP

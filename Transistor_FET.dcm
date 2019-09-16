@@ -36,6 +36,12 @@ K N-Channel MOSFET Dual Gate
 F http://www.onsemi.com/pub_link/Collateral/EN4423-D.PDF
 $ENDCMP
 #
+$CMP AO3401A
+D -4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf
+$ENDCMP
+#
 $CMP BF244A
 D 50mA Id, 30V Vgs, N-Channel FET Transistor, TO-92
 K N-Channel FET Transistor Low Voltage
@@ -115,7 +121,7 @@ F http://www.diodes.com/assets/Datasheets/BS170F.pdf
 $ENDCMP
 #
 $CMP BS250
-D -0.18A Id, -60V Vds, P-Channel MOSFET, TO-92
+D -0.18A Id, -45V Vds, P-Channel MOSFET, TO-92
 K P-Channel MOSFET
 F http://www.vishay.com/docs/70209/70209.pdf
 $ENDCMP
@@ -424,6 +430,12 @@ $CMP BSP129
 D 0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223
 K N-Channel MOSFET
 F https://www.infineon.com/dgdl/Infineon-BSP129-DS-v01_42-en.pdf?fileId=db3a30433c1a8752013c1fc296d2395f
+$ENDCMP
+#
+$CMP BSP89
+D 0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55
 $ENDCMP
 #
 $CMP BSS123
@@ -1632,6 +1644,12 @@ K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/FD/FDS8960C.pdf
 $ENDCMP
 #
+$CMP FDS9435A
+D -5.3A Id, -30V Vds, P-Channel MOSFET, 50mOhm Ron, SO-8
+K P-Channel MOSFET
+F https://www.onsemi.com/pub/Collateral/FDS9435A-D.PDF
+$ENDCMP
+#
 $CMP FDS9926A
 D 6.5A Id, 20V Vds, Dual N-Channel MOSFET, 30mOhm Ron, SO-8
 K Dual N-Channel MOSFET
@@ -2298,6 +2316,12 @@ K Single N-Channel HEXFET Power MOSFET
 F http://www.irf.com/product-info/datasheets/data/irliz44n.pdf
 $ENDCMP
 #
+$CMP IRLML0030
+D 5.3A Id, 30V Vds, N-Channel HEXFET Power MOSFET, 27mOhm Rds, SOT-23
+K N-Channel HEXFET Power MOSFET
+F https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df
+$ENDCMP
+#
 $CMP IRLML2060
 D 1.2A Id, 60V Vds, N-Channel MOSFET, 480mOhm Rds, SOT-23
 K N-Channel MOSFET
@@ -2430,6 +2454,12 @@ K P-Channel MOSFET
 F http://www.vishay.com/docs/66709/si2319cd.pdf
 $ENDCMP
 #
+$CMP Si4162DY
+D 19.3A Id, 30V Vds, TrenchFET N-Channel Power MOSFET, SO-8
+K N-Channel MOSFET
+F http://www.vishay.com/docs/68967/si4162dy.pdf
+$ENDCMP
+#
 $CMP Si4532DY
 D 3.9A Id, 30V Vds, Dual N and P Channel MOSFET, 65mOhm Ron, 10V Vgs, SO8L
 K Dual N-Channel P-Channel MOSFET
@@ -2452,6 +2482,12 @@ $CMP Si7336ADP
 D 30A Id, 30V Vds, 2.4mOhm Ron, PowerPAK-8
 K N-Channel MOSFET
 F https://www.vishay.com/docs/73152/si7336adp.pdf
+$ENDCMP
+#
+$CMP Si7450DP
+D 5.3A Id, 200V Vds, 80mOhm Ron, PowerPAK-8
+K N-Channel MOSFET
+F https://www.vishay.com/docs/71432/si7450dp.pdf
 $ENDCMP
 #
 $CMP SiA449DJ

@@ -3,7 +3,7 @@ EESchema-DOCLIB  Version 2.0
 $CMP ADC-10-1R
 D Directional Coupler, 5 to 900 MHz, 10 dB Coupling, 50 Ohm, Mini-Circuits CD542
 K Directional Coupler
-F https://ww2.minicircuits.com/pdfs/ADC-10-1R.pdf
+F https://www.minicircuits.com/pdfs/ADC-10-1R.pdf
 $ENDCMP
 #
 $CMP ADE-6
@@ -15,13 +15,13 @@ $ENDCMP
 $CMP ADP-2-1W
 D Power splitter combiner, 1 to 650 MHz, 2 way 0-degree, 50 ohm, Mini-Circuits CD636
 K splitter combiner
-F https://ww2.minicircuits.com/pdfs/ADP-2-1W.pdf
+F https://www.minicircuits.com/pdfs/ADP-2-1W.pdf
 $ENDCMP
 #
 $CMP AMK-2-13
 D 2x Frequency Multiplier, output 20 to 1000 MHz, 50 Ohm, Mini-Circuits CD542
 K frequency multiplier
-F https://ww2.minicircuits.com/pdfs/AMK-2-13+.pdf
+F https://www.minicircuits.com/pdfs/AMK-2-13+.pdf
 $ENDCMP
 #
 $CMP CC1000
@@ -54,6 +54,12 @@ K RF coupler
 F https://cdn.anaren.com/product-documents/Xinger/DirectionalCouplers/DC4759J5020AHF/DC4759J5020AHF_DataSheet(Rev_E).pdf
 $ENDCMP
 #
+$CMP HMC394LP4
+D GaAs HBT Programmable 5-bit Counter, DC - 2.2 GHz, QFN-24-1EP
+K counter prescaler programmable frequency divider
+F https://www.analog.com/media/en/technical-documentation/data-sheets/hmc394.pdf
+$ENDCMP
+#
 $CMP HMC431
 D 5.5-6.1GHz VCO, QFN-24
 K vco rf
@@ -63,19 +69,25 @@ $ENDCMP
 $CMP LAT-3
 D Attenuator, 3dB, 0.5W, DC to 2500 MHz, 50 Ohm, Mini-Circuits MMM168
 K attenuator rf
-F https://ww2.minicircuits.com/pdfs/LAT-3+.pdf
+F https://www.minicircuits.com/pdfs/LAT-3+.pdf
 $ENDCMP
 #
 $CMP LRPS-2-1
 D Power Splitter/Combiner, 5 to 500 MHz, 50 Ohm
 K power splitter combiner
-F https://ww2.minicircuits.com/pdfs/LRPS-2-1.pdf
+F https://www.minicircuits.com/pdfs/LRPS-2-1.pdf
 $ENDCMP
 #
 $CMP MAADSS0008
 D 0-2GHz, 15dB step attenuator, SOT-23-5
 K RF attenuator
 F http://cdn.macom.com/datasheets/maadss0008.pdf
+$ENDCMP
+#
+$CMP MAAVSS0004
+D DC-2GHz, 35dB, Voltage Variable Absorptive Attenuator, SOIC-14
+K VVA
+F https://cdn.macom.com/datasheets/MAAVSS0004.pdf
 $ENDCMP
 #
 $CMP MC12080
@@ -189,13 +201,13 @@ $ENDCMP
 $CMP RMK-3-451
 D 3x Frequency Multiplier, output 300 to 450 MHz, 50 Ohm, Mini-Circuits TT1224
 K frequency multiplier
-F https://ww2.minicircuits.com/pdfs/RMK-3-451+.pdf
+F https://www.minicircuits.com/pdfs/RMK-3-451+.pdf
 $ENDCMP
 #
 $CMP RMK-5-51
 D 5x Frequency Multiplier, Output 37.5 to 52.5 MHz, 50 Ohm, Mini-Circuits TT1224
 K frequency multiplier
-F https://ww2.minicircuits.com/pdfs/RMK-5-51+.pdf
+F https://www.minicircuits.com/pdfs/RMK-5-51+.pdf
 $ENDCMP
 #
 $CMP SE5004L
@@ -219,19 +231,43 @@ $ENDCMP
 $CMP SYPD-1
 D Phase Detector, 1 to 100 MHz, 50 Ohm, Mini-Cicuits TTT167
 K Phase Detector
-F https://ww2.minicircuits.com/pdfs/SYPD-1+.pdf
+F https://www.minicircuits.com/pdfs/SYPD-1+.pdf
 $ENDCMP
 #
 $CMP SYPD-2
 D Phase Detector, 10 to 200 MHz, 50 Ohm, Mini-Cicuits TTT167
 K phase detector
-F https://ww2.minicircuits.com/pdfs/SYPD-2.pdf
+F https://www.minicircuits.com/pdfs/SYPD-2.pdf
 $ENDCMP
 #
 $CMP SYPD-52
 D Phase Detector, 400 to 500 MHz, 50 Ohm, Mini-Cicuits TTT167
 K Phase Detector
-F https://ww2.minicircuits.com/pdfs/SYPD-52+.pdf
+F https://www.minicircuits.com/pdfs/SYPD-52+.pdf
+$ENDCMP
+#
+$CMP Si4460
+D High-Performance, Low-Current Sub-GHz Transceiver, +13dBm, Major bands 142-1050 MHz, QFN-20
+K transceiver sub-ghz radio ism
+F https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf
+$ENDCMP
+#
+$CMP Si4461
+D High-Performance, Low-Current Sub-GHz Transceiver, +16dBm, Major bands 142-1050 MHz, QFN-20
+K transceiver sub-ghz radio ism
+F https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf
+$ENDCMP
+#
+$CMP Si4463
+D High-Performance, Low-Current Sub-GHz Transceiver, +20dBm, Major bands 142-1050 MHz, QFN-20
+K transceiver sub-ghz radio ism
+F https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf
+$ENDCMP
+#
+$CMP Si4464
+D High-Performance, Low-Current Sub-GHz Transceiver, +20dBm, Banded 119-960 MHz, QFN-20
+K transceiver sub-ghz radio ism
+F https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf
 $ENDCMP
 #
 $CMP nRF24L01P

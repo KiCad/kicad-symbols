@@ -147,7 +147,7 @@ $ENDCMP
 $CMP LM4810
 D Boomer Dual 105mW Headphone Amplifier with Active-High Shutdown Mode, VSSOP-8
 K audio amplifier headphone
-F http://www.ti.com/lit/ds/symlink/lm4811.pdf
+F http://www.ti.com/lit/ds/symlink/lm4810.pdf
 $ENDCMP
 #
 $CMP LM4811
@@ -190,6 +190,12 @@ $CMP LM4990MM
 D Boomer 2 Watt Audio Power Amplifier with Selectable Shutdown Logic Level, VSSOP-8
 K audio amplifier class d
 F http://www.ti.com/lit/ds/symlink/lm4990.pdf
+$ENDCMP
+#
+$CMP MAX9715ETE+
+D 2.8W, Low-EMI, Stereo, Filterless Class D Audio Amplifier, TQFN-16
+K Class-D Stereo
+F https://datasheets.maximintegrated.com/en/ds/MAX9715.pdf
 $ENDCMP
 #
 $CMP MAX9814
@@ -304,6 +310,12 @@ $CMP STK443_Sanyo
 D 2-Channel 28 Wmin Audio Frequency Power Amplifier, 4010, SIP-15
 K audio amplifier 2ch
 F http://datasheet.octopart.com/STK430-Sanyo-datasheet-107060.pdf
+$ENDCMP
+#
+$CMP TAS5825MRHB
+D 38-W Stereo, Inductor-Less, Digital Input, Closed-Loop Class-D Audio Amplifier with 192-kHz Extended Audio Processing, VQFN-32
+K Class-D Stereo
+F www.ti.com/lit/ds/symlink/tas5825m.pdf
 $ENDCMP
 #
 $CMP TDA1308
@@ -439,7 +451,7 @@ F http://www.thatcorp.com/datashts/THAT_2180-Series_Datasheet.pdf
 $ENDCMP
 #
 $CMP THAT2181
-D Blackmer Pre-Trimmed IC Voltage Controlled Amplifiers, SIP-8/SOIC-8
+D Blackmer Trimmable IC Voltage Controlled Amplifiers, SIP-8/SOIC-8
 K audio vca
 F http://www.thatcorp.com/datashts/THAT_2181-Series_Datasheet.pdf
 $ENDCMP

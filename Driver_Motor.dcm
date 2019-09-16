@@ -294,6 +294,18 @@ K Standalone driver stepper motor
 F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2100_datasheet_Rev1.08.pdf
 $ENDCMP
 #
+$CMP TMC2130-LA
+D Driver for two-phase bipolar stepper motor, 2.0A, SPI, 4.75-46V, QFN-36
+K stepper motor driver
+F http://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2130_datasheet.pdf
+$ENDCMP
+#
+$CMP TMC2130-TA
+D Driver for two-phase bipolar stepper motor, 2.0A, SPI, 4.75-46V, TQFP-48
+K stepper motor driver
+F http://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2130_datasheet.pdf
+$ENDCMP
+#
 $CMP TMC262
 D Driver for two-phase stepper motors with external mosfet
 K trinamic tlc262 stepper
@@ -310,6 +322,18 @@ $CMP VNH5019A-E
 D Full Bridge Motor Driver, 41V, 30A, -40 to 150C, MultiPowerSO-30
 K full-bridge h-bridge
 F https://www.st.com/resource/en/datasheet/vnh5019a-e.pdf
+$ENDCMP
+#
+$CMP ZXBM5210-S
+D Reversible DC motor drive with speed control, 3-18V, 0.85A, SOIC-8
+K H-bridge, motor driver, PWM, single coil
+F https://www.diodes.com/assets/Datasheets/ZXBM5210.pdf
+$ENDCMP
+#
+$CMP ZXBM5210-SP
+D Reversible DC motor drive with speed control, 3-18V, 0.85A, SOIC-8EP
+K H-bridge, motor driver, PWM, single coil
+F https://www.diodes.com/assets/Datasheets/ZXBM5210.pdf
 $ENDCMP
 #
 #End Doc Library

@@ -30,6 +30,18 @@ D MCS-48 8-bit Microcontroller, 4KB Mask ROM, 256B RAM, DIP-40
 K MCS-48 uC Microcontroller
 $ENDCMP
 #
+$CMP 8080
+D 8-bit N-channel Microprocessor, DIP-40
+K cpu mpu microprocessor
+F http://datasheets.chipdb.org/Intel/MCS-80/intel-8080.pdf
+$ENDCMP
+#
+$CMP 8080A
+D 8-bit N-channel Microprocessor, DIP-40
+K cpu mpu microprocessor
+F http://datasheets.chipdb.org/Intel/MCS-80/intel-8080.pdf
+$ENDCMP
+#
 $CMP 8086_Max_Mode
 D 8086 (maximum mode), 16-Bit HMOS Microprocessor, PDIP-40
 K MPRO
