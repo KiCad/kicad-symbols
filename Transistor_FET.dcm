@@ -438,6 +438,24 @@ K N-Channel MOSFET
 F https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55
 $ENDCMP
 #
+$CMP BSR56
+D 50mA min, 40V, 25mOhm max, 4-10V Vgs(off), N-Channel JFET, SOT-23
+K N-Channel FET Transistor
+F https://www.nxp.com/docs/en/data-sheet/BSR56_57_58.pdf
+$ENDCMP
+#
+$CMP BSR57
+D 20mA min, 40V, 40mOhm max, 2-6V Vgs(off), N-Channel JFET, SOT-23
+K N-Channel FET Transistor
+F https://www.nxp.com/docs/en/data-sheet/BSR56_57_58.pdf
+$ENDCMP
+#
+$CMP BSR58
+D 80mA min, 40V, 60mOhm max, 0.8-4V Vgs(off), N-Channel JFET, SOT-23
+K N-Channel FET Transistor
+F https://www.nxp.com/docs/en/data-sheet/BSR56_57_58.pdf
+$ENDCMP
+#
 $CMP BSS123
 D 0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
@@ -2344,6 +2362,42 @@ $CMP MMBF170
 D 0.5A Id, 60V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
 F https://www.diodes.com/assets/Datasheets/ds30104.pdf
+$ENDCMP
+#
+$CMP MMBF4391
+D 50mA min, 30V, 30mOhm max, 4-10V Vgs(off), N-Channel JFET, SOT-23
+K N-Channel FET Transistor
+F https://www.onsemi.com/pub/Collateral/MMBF4391LT1-D.PDF
+$ENDCMP
+#
+$CMP MMBF4392
+D 25mA min, 30V, 60mOhm max, 2-5V Vgs(off), N-Channel JFET, SOT-23
+K N-Channel FET Transistor
+F https://www.onsemi.com/pub/Collateral/MMBF4391LT1-D.PDF
+$ENDCMP
+#
+$CMP MMBF4393
+D 5mA min, 30V, 100mOhm max, 0.5-3V Vgs(off), N-Channel JFET, SOT-23
+K N-Channel FET Transistor
+F https://www.onsemi.com/pub/Collateral/MMBF4391LT1-D.PDF
+$ENDCMP
+#
+$CMP MMBFJ111
+D 20mA min, 35V, 30mOhm max, 3-10V Vgs(off), N-Channel JFET, SOT-23
+K N-Channel FET Transistor
+F https://www.onsemi.com/pub/Collateral/MMBFJ113-D.PDF
+$ENDCMP
+#
+$CMP MMBFJ112
+D 5mA min, 35V, 50mOhm max, 1-5V Vgs(off), N-Channel JFET, SOT-23
+K N-Channel FET Transistor
+F https://www.onsemi.com/pub/Collateral/MMBFJ113-D.PDF
+$ENDCMP
+#
+$CMP MMBFJ113
+D 2mA min, 35V, 100mOhm max, 0.5-3V Vgs(off), N-Channel JFET, SOT-23
+K N-Channel FET Transistor
+F https://www.onsemi.com/pub/Collateral/MMBFJ113-D.PDF
 $ENDCMP
 #
 $CMP NTR2101P
