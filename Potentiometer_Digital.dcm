@@ -155,6 +155,11 @@ D 8 Bit Dual SPI Digital Pot with Volatile Memory SOIC-14
 K Digital Pot Potentiometer 
 $ENDCMP
 #
+$CMP MCP4251-xxxE-ST
+D 8 Bit Dual SPI Digital Pot with Volatile Memory TSSOP-14
+K Digital Pot Potentiometer 
+$ENDCMP
+#
 $CMP MCP45HV31-MQ
 D 7/8-bit single +36V (+/-18V) digital pot, I2C serial interface, volatile memory, QFN-20
 K I2C Potentiometer pot digital
