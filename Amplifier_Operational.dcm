@@ -1146,6 +1146,11 @@ K quad opamp
 F http://www.ti.com/lit/ds/symlink/opa134.pdf
 $ENDCMP
 #
+$CMP OPA4196
+D Low Power Low Offset Voltage Rail-to-Rail Input and Output SOIC-14
+K OpAmp Rail-to-rail Low Offset Quad
+$ENDCMP
+#
 $CMP OPA4340EA
 D Quad Single-Supply, Rail-to-Rail Operational Amplifier, MicroAmplifier Series, SSOP-16
 K quad opamp
