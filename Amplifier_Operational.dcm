@@ -958,6 +958,11 @@ D Low Power Low Offset Voltage Rail-to-Rail Input and Output SOT-23-5
 K OpAmp Rail-to-rail Low Offset Dual
 $ENDCMP
 #
+$CMP OPA196IDGK
+D Low Power Low Offset Voltage Rail-to-Rail Input and Output VSSOP-8
+K OpAmp Rail-to-rail Low Offset Dual
+$ENDCMP
+#
 $CMP OPA2134
 D Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8
 K dual opamp
