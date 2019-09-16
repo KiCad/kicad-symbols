@@ -954,6 +954,16 @@ K dual opamp
 F http://www.ti.com/lit/ds/symlink/opa134.pdf
 $ENDCMP
 #
+$CMP OPA2196
+D Low Power Low Offset Voltage Rail-to-Rail Input and Output
+K OpAmp Rail-to-rail Low Offset Dual
+$ENDCMP
+#
+$CMP OPA2196Ix
+D Low Power Low Offset Voltage Rail-to-Rail Input and Output
+K OpAmp Rail-to-rail Low Offset Dual
+$ENDCMP
+#
 $CMP OPA2277
 D Dual High Precision Operational Amplifiers, DIP-8/SOIC-8
 K dual opamp
