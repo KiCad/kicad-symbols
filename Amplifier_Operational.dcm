@@ -951,16 +951,19 @@ $ENDCMP
 $CMP OPA196ID
 D Low Power Low Offset Voltage Rail-to-Rail Input and Output SOIC-8
 K OpAmp Rail-to-rail Low Offset Dual
+F http://www.ti.com/lit/ds/symlink/opa4196.pdf
 $ENDCMP
 #
 $CMP OPA196IDBV
 D Low Power Low Offset Voltage Rail-to-Rail Input and Output SOT-23-5
 K OpAmp Rail-to-rail Low Offset Dual
+F http://www.ti.com/lit/ds/symlink/opa4196.pdf
 $ENDCMP
 #
 $CMP OPA196IDGK
 D Low Power Low Offset Voltage Rail-to-Rail Input and Output VSSOP-8
 K OpAmp Rail-to-rail Low Offset Dual
+F http://www.ti.com/lit/ds/symlink/opa4196.pdf
 $ENDCMP
 #
 $CMP OPA2134
@@ -972,6 +975,7 @@ $ENDCMP
 $CMP OPA2196Ix
 D Dual Low Power Low Offset Voltage Rail-to-Rail Input and Output
 K OpAmp Rail-to-rail Low Offset Dual
+F http://www.ti.com/lit/ds/symlink/opa4196.pdf
 $ENDCMP
 #
 $CMP OPA2277
@@ -1169,6 +1173,7 @@ $ENDCMP
 $CMP OPA4196
 D Quad Low Power Low Offset Voltage Rail-to-Rail Input and Output SOIC-14
 K OpAmp Rail-to-rail Low Offset Quad
+F http://www.ti.com/lit/ds/symlink/opa4196.pdf
 $ENDCMP
 #
 $CMP OPA4340EA
