@@ -1438,6 +1438,18 @@ K NPN Transistor
 F www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF
 $ENDCMP
 #
+$CMP MMBTA42
+D 0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-23
+K NPN High Voltage Transistor
+F https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF
+$ENDCMP
+#
+$CMP MMBTA92
+D 0.5A Ic, 300V Vce, PNP High Voltage Transistor, SOT-23
+K PNP High Voltage Transistor
+F https://www.onsemi.com/pub/Collateral/MMBTA92LT1-D.PDF
+$ENDCMP
+#
 $CMP MMDT2222A
 D 600mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
 K NPN Transistor/NPN
@@ -1550,6 +1562,12 @@ $CMP PZTA42
 D 0.2A Ic, 300V Vce, High Voltage NPN Transistor, SOT-223
 K NPN High Voltage Transistor SMD
 F http://www.fairchildsemi.com/ds/MP/MPSA42.pdf
+$ENDCMP
+#
+$CMP PZTA92
+D 0.5A Ic, 300V Vce, PNP High Voltage Transistor, SOT-223
+K PNP High Voltage Transistor
+F http://www.onsemi.com/pub_link/Collateral/MPSA92-D.PDF
 $ENDCMP
 #
 $CMP S8050
