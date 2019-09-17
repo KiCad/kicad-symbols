@@ -1559,9 +1559,9 @@ F https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf
 $ENDCMP
 #
 $CMP PZTA42
-D 0.2A Ic, 300V Vce, High Voltage NPN Transistor, SOT-223
+D 0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-223
 K NPN High Voltage Transistor SMD
-F http://www.fairchildsemi.com/ds/MP/MPSA42.pdf
+F https://www.onsemi.com/pub/Collateral/PZTA42T1-D.PDF
 $ENDCMP
 #
 $CMP PZTA92
