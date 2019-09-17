@@ -1806,6 +1806,53 @@ K Voltage Regulator 100mA Negative
 F http://www.farnell.com/datasheets/1827870.pdf
 $ENDCMP
 #
+$CMP LD1086D2T12
+D Positive 1.5A 30V Linear Regulator, Fixed Output 12V TO-263
+K Linear Regulator 1.5A Fixed Output
+F https://www.mouser.se/datasheet/2/389/ld1086-974047.pdf
+$ENDCMP
+#
+$CMP LD1086DT25
+D Positive 1.5A 30V Linear Regulator, Fixed Output 2.5V TO-252
+K Linear Regulator 1.5A Fixed Output
+F https://www.mouser.se/datasheet/2/389/ld1086-974047.pdf
+$ENDCMP
+#
+$CMP LD1086PU
+D Positive 1.5A 30V Linear Regulator, Adjustable DFN8
+K Linear Regulator 1.5A Adjustable
+F https://www.mouser.se/datasheet/2/389/ld1086-974047.pdf
+$ENDCMP
+#
+$CMP LD1086V18_TO220
+D Positive 1.5A 30V Linear Regulator
+F https://www.mouser.se/datasheet/2/389/ld1086-974047.pdf
+$ENDCMP
+#
+$CMP LD1086x
+D Positive 1.5A 30V Linear Regulator, Adjustable TO-220/TO-252/TO-263
+K Linear Regulator 1.5A Adjustable
+F https://www.mouser.se/datasheet/2/389/ld1086-974047.pdf
+$ENDCMP
+#
+$CMP LD1086x18
+D Positive 1.5A 30V Linear Regulator, Fixed Output 1.8V TO-220/TO-252/TO-263
+K Linear Regulator 1.5A Fixed Output
+F https://www.mouser.se/datasheet/2/389/ld1086-974047.pdf
+$ENDCMP
+#
+$CMP LD1086x33
+D Positive 1.5A 30V Linear Regulator, Fixed Output 3.3V TO-220/TO-252/TO-263
+K Linear Regulator 1.5A Fixed Output
+F https://www.mouser.se/datasheet/2/389/ld1086-974047.pdf
+$ENDCMP
+#
+$CMP LD1086x50
+D Positive 1.5A 30V Linear Regulator, Fixed Output 5V TO-252/TO-263
+K Linear Regulator 1.5A Fixed Output
+F https://www.mouser.se/datasheet/2/389/ld1086-974047.pdf
+$ENDCMP
+#
 $CMP LD1117S12TR_SOT223
 D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.2V, SOT-223
 K REGULATOR LDO 1.2V
