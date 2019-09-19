@@ -5472,6 +5472,24 @@ K Step-Down DC-DC Converter
 F http://www.ti.com/lit/ds/symlink/tps62201.pdf
 $ENDCMP
 #
+$CMP TPS62821DLC
+D 1A Step-Down Converter with DCS-Control, adjustable output, 2.4-5.5V input voltage, QFN-8
+K step-down dc-dc buck regulator
+F http://www.ti.com/lit/ds/symlink/tps62823.pdf
+$ENDCMP
+#
+$CMP TPS62822DLC
+D 2A Step-Down Converter with DCS-Control, adjustable output, 2.4-5.5V input voltage, QFN-8
+K step-down dc-dc buck regulator
+F http://www.ti.com/lit/ds/symlink/tps62823.pdf
+$ENDCMP
+#
+$CMP TPS62823DLC
+D 3A Step-Down Converter with DCS-Control, adjustable output, 2.4-5.5V input voltage, QFN-8
+K step-down dc-dc buck regulator
+F http://www.ti.com/lit/ds/symlink/tps62823.pdf
+$ENDCMP
+#
 $CMP TPS63000
 D Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.8A Switch Current, Adjustable 1.2-5.5V Output Voltage, VSON-10
 K Buck-Boost adjustable converter
