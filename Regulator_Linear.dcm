@@ -5328,6 +5328,48 @@ K Single Output LDO
 F http://www.onsemi.com/pub/Collateral/NCP133-D.PDF
 $ENDCMP
 #
+$CMP NCP718xSN120
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 1.2V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
+$CMP NCP718xSN150
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 1.5V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
+$CMP NCP718xSN180
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 1.8V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
+$CMP NCP718xSN250
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 2.5V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
+$CMP NCP718xSN300
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 3.0V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
+$CMP NCP718xSN330
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 3.3V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
+$CMP NCP718xSN500
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 5.0V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
 $CMP NCV8114ASN120T1G
 D 300mA, Low Noise, Linear Regulator with output active discharge function, 1.7-5.5V input voltage range, 1.2V fixed positive output, TSOT-23-5
 K linear regulator ldo fixed positive
@@ -5410,6 +5452,18 @@ $CMP NCV8114BSN330T1G
 D 300mA, Low Noise, Linear Regulator without output active discharge function, 1.7-5.5V input voltage range, 3.3V fixed positive output, TSOT-23-5
 K linear regulator ldo fixed positive
 F https://ru.mouser.com/datasheet/2/308/NCV8114-D-1107616.pdf
+$ENDCMP
+#
+$CMP NVC8674DS120
+D 350mA, 12.0V Very Low Iq Low Dropout Linear Regulator, TO-263-2
+K ldo regulator 12V
+F https://www.onsemi.com/pub/Collateral/NCV8674-D.PDF
+$ENDCMP
+#
+$CMP NVC8674DS50
+D 350mA, 5.0V Very Low Iq Low Dropout Linear Regulator, TO-263-2
+K ldo regulator 5V
+F https://www.onsemi.com/pub/Collateral/NCV8674-D.PDF
 $ENDCMP
 #
 $CMP OM1323_TO220
