@@ -3900,6 +3900,12 @@ K smps buck boost inverting
 F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
 $ENDCMP
 #
+$CMP SC4503TSK
+D 1.9A, 1.3MHz Step-Up DC/DC Converter, 2.5V-20V output voltage, TSOT23
+K 1.9A 1.3MHz Step-Up DC/DC
+F https://www.semtech.com/uploads/documents/sc4503.pdf
+$ENDCMP
+#
 $CMP ST1S10PHR
 D 3A monolithic synchronous step-down regulator, Adjustable Output Voltage, 2.5-18V Input Voltage, 900kHz, PowerSO-8
 K DC/DC Buck Conwerter 3A Low Voltage Input
