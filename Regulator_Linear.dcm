@@ -1404,6 +1404,12 @@ K Adjustable Voltage Regulator 1A Positive LDO
 F https://www.diodes.com/assets/Datasheets/AZ1117.pdf
 $ENDCMP
 #
+$CMP HT75xx-1-SOT89
+D 100mA Low Dropout Voltage Regulator, Fixed Output, SOT89
+K 100mA LDO Regulator Fixed Positive
+F https://www.holtek.com/documents/10179/116711/HT75xx-1v250.pdf
+$ENDCMP
+#
 $CMP ICL7663
 D 50mA 5V/Programmable Voltage Regulator, DIP-8/SO-8/TO-99
 K Linear Regulator 50mA 5V fixed
@@ -3118,6 +3124,72 @@ $CMP LP3966-ADJ
 D 3A Fast Ultra Low Dropout Linear Regulator, adjustable output voltage, TO-220-5/TO-263-5
 K LDO Linear Regulator adjustable
 F http://www.ti.com/lit/ds/symlink/lp3966.pdf
+$ENDCMP
+#
+$CMP LP3982ILD-1.8
+D 1.8V, 300mA, Micropower, Ultra-Low-Dropout, Low-Noise CMOS Regulator, WSON-8
+K linear regulator
+F http://www.ti.com/lit/ds/symlink/lp3982.pdf
+$ENDCMP
+#
+$CMP LP3982ILD-2.5
+D 2.5V, 300mA, Micropower, Ultra-Low-Dropout, Low-Noise CMOS Regulator, WSON-8
+K linear regulator
+F http://www.ti.com/lit/ds/symlink/lp3982.pdf
+$ENDCMP
+#
+$CMP LP3982ILD-3.0
+D 3.0V, 300mA, Micropower, Ultra-Low-Dropout, Low-Noise CMOS Regulator, WSON-8
+K linear regulator
+F http://www.ti.com/lit/ds/symlink/lp3982.pdf
+$ENDCMP
+#
+$CMP LP3982ILD-3.3
+D 3.3V, 300mA, Micropower, Ultra-Low-Dropout, Low-Noise CMOS Regulator, WSON-8
+K linear regulator
+F http://www.ti.com/lit/ds/symlink/lp3982.pdf
+$ENDCMP
+#
+$CMP LP3982ILD-ADJ
+D 300mA, Micropower, Ultra-Low-Dropout, Low-Noise Adjustable CMOS Regulator, WSON-8
+K adjustable linear regulator
+F http://www.ti.com/lit/ds/symlink/lp3982.pdf
+$ENDCMP
+#
+$CMP LP3982IMM-1.8
+D 1.8V, 300mA, Micropower, Ultra-Low-Dropout, Low-Noise CMOS Regulator, VSSOP-8
+K linear regulator
+F http://www.ti.com/lit/ds/symlink/lp3982.pdf
+$ENDCMP
+#
+$CMP LP3982IMM-2.5
+D 2.5V, 300mA, Micropower, Ultra-Low-Dropout, Low-Noise CMOS Regulator, VSSOP-8
+K linear regulator
+F http://www.ti.com/lit/ds/symlink/lp3982.pdf
+$ENDCMP
+#
+$CMP LP3982IMM-3.0
+D 3.0V, 300mA, Micropower, Ultra-Low-Dropout, Low-Noise CMOS Regulator, VSSOP-8
+K linear regulator
+F http://www.ti.com/lit/ds/symlink/lp3982.pdf
+$ENDCMP
+#
+$CMP LP3982IMM-3.3
+D 3.3V, 300mA, Micropower, Ultra-Low-Dropout, Low-Noise CMOS Regulator, VSSOP-8
+K linear regulator
+F http://www.ti.com/lit/ds/symlink/lp3982.pdf
+$ENDCMP
+#
+$CMP LP3982IMM-ADJ
+D 300mA, Micropower, Ultra-Low-Dropout, Low-Noise Adjustable CMOS Regulator, VSSOP-8
+K adjustable linear regulator
+F http://www.ti.com/lit/ds/symlink/lp3982.pdf
+$ENDCMP
+#
+$CMP LP3982IMMX-2.82
+D 2.82V, 300mA, Micropower, Ultra-Low-Dropout, Low-Noise CMOS Regulator, VSSOP-8
+K linear regulator
+F http://www.ti.com/lit/ds/symlink/lp3982.pdf
 $ENDCMP
 #
 $CMP LP5907MFX-1.2
@@ -5256,6 +5328,48 @@ K Single Output LDO
 F http://www.onsemi.com/pub/Collateral/NCP133-D.PDF
 $ENDCMP
 #
+$CMP NCP718xSN120
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 1.2V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
+$CMP NCP718xSN150
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 1.5V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
+$CMP NCP718xSN180
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 1.8V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
+$CMP NCP718xSN250
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 2.5V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
+$CMP NCP718xSN300
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 3.0V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
+$CMP NCP718xSN330
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 3.3V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
+$CMP NCP718xSN500
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 5.0V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
 $CMP NCV8114ASN120T1G
 D 300mA, Low Noise, Linear Regulator with output active discharge function, 1.7-5.5V input voltage range, 1.2V fixed positive output, TSOT-23-5
 K linear regulator ldo fixed positive
@@ -5338,6 +5452,18 @@ $CMP NCV8114BSN330T1G
 D 300mA, Low Noise, Linear Regulator without output active discharge function, 1.7-5.5V input voltage range, 3.3V fixed positive output, TSOT-23-5
 K linear regulator ldo fixed positive
 F https://ru.mouser.com/datasheet/2/308/NCV8114-D-1107616.pdf
+$ENDCMP
+#
+$CMP NVC8674DS120
+D 350mA, 12.0V Very Low Iq Low Dropout Linear Regulator, TO-263-2
+K ldo regulator 12V
+F https://www.onsemi.com/pub/Collateral/NCV8674-D.PDF
+$ENDCMP
+#
+$CMP NVC8674DS50
+D 350mA, 5.0V Very Low Iq Low Dropout Linear Regulator, TO-263-2
+K ldo regulator 5V
+F https://www.onsemi.com/pub/Collateral/NCV8674-D.PDF
 $ENDCMP
 #
 $CMP OM1323_TO220
@@ -6670,6 +6796,12 @@ $CMP TPS7A91
 D 1A, High-Accuracy, Low-Noise LDO Voltage Regulator, Texas S-PDSO-N10
 K LDO voltage regulator
 F http://www.ti.com/lit/ds/symlink/tps7a91.pdf
+$ENDCMP
+#
+$CMP XC6206PxxxMR
+D Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23
+K Torex LDO Voltage Regulator Fixed Positive
+F https://www.torexsemi.com/file/xc6206/XC6206.pdf
 $ENDCMP
 #
 $CMP XC6220B331MR

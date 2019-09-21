@@ -858,6 +858,12 @@ K BNC SMA SMB SMC coaxial connector CINCH RCA
 F  ~
 $ENDCMP
 #
+$CMP Conn_PIC_ICSP_ICD
+D Microchip PIC In-Circuit Serial Programming/Debugging (ICSP/ICD) connector
+K icsp icd pic microchip
+F http://ww1.microchip.com/downloads/en/devicedoc/30277d.pdf
+$ENDCMP
+#
 $CMP Conn_WallPlug
 D 3-pin general wall plug, no Earth wire (110VAC, 220VAC)
 K wall plug 110VAC 220VAC
@@ -1666,6 +1672,18 @@ $CMP TestPoint_Probe
 D test point (alternative probe-style design)
 K test point tp
 F ~
+$ENDCMP
+#
+$CMP UEXT_Host
+D Universal EXTension (UEXT) is a connector layout which includes power and three serial buses: Asynchronous, I2C, and SPI
+K UEXT, SPI, UART, I2C
+F https://www.olimex.com/Products/Modules/UEXT/resources/UEXT_rev_B.pdf
+$ENDCMP
+#
+$CMP UEXT_Slave
+D Universal EXTension (UEXT) is a connector layout which includes power and three serial buses: Asynchronous, I2C, and SPI
+K UEXT, SPI, UART, I2C
+F https://www.olimex.com/Products/Modules/UEXT/resources/UEXT_rev_B.pdf
 $ENDCMP
 #
 $CMP USB3_A

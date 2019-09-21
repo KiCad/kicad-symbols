@@ -135,6 +135,12 @@ K receiver rs485 rs422 differential
 F http://www.ti.com/lit/ds/symlink/am26lv32.pdf
 $ENDCMP
 #
+$CMP CDCLVP1102RGT
+D Two-LVPECL Output, High-Performance Clock Buffer, VQFN-16
+K Clock Buffer LVDS
+F http://www.ti.com/lit/ds/symlink/cdclvp1102.pdf
+$ENDCMP
+#
 $CMP DS90C124
 D DC-Balanced 24-Bit FPD-Link II Deserializer, TQFP-48
 K DC-Balanced 24-Bit FPD-Link II Deserializer
@@ -331,6 +337,18 @@ $CMP PCA9306
 D Dual bidirectional I2C Bus and SMBus voltage level translator
 K Dual bidirectional I2C Bus and SMBus voltage level translator
 F http://www.ti.com/lit/ds/symlink/pca9306.pdf
+$ENDCMP
+#
+$CMP PCA9600D
+D Dual bidirectional bus buffer, SO-8
+K I2C buffer
+F https://www.nxp.com/docs/en/data-sheet/PCA9600.pdf
+$ENDCMP
+#
+$CMP PCA9600DP
+D Dual bidirectional bus buffer, TSSOP-8
+K I2C buffer
+F https://www.nxp.com/docs/en/data-sheet/PCA9600.pdf
 $ENDCMP
 #
 $CMP PCI9030-PQFP176
