@@ -384,10 +384,46 @@ K I2C DAC 12-bit
 F http://www.ti.com/lit/ds/symlink/dac121c081.pdf
 $ENDCMP
 #
+$CMP DAC5578xPW
+D 8-Bit, Octal-Channel, Ultra-Low Glitch, Voltage Output, Two-Wire Interface Digital-to-Analog Converters, TSSOP-16
+K DAC I2C TWI 8-channel
+F http://www.ti.com/lit/ds/symlink/dac5578.pdf
+$ENDCMP
+#
+$CMP DAC5578xRGE
+D 8-Bit, Octal-Channel, Ultra-Low Glitch, Voltage Output, Two-Wire Interface Digital-to-Analog Converters, QFN-24
+K DAC I2C TWI 8-channel
+F http://www.ti.com/lit/ds/symlink/dac5578.pdf
+$ENDCMP
+#
+$CMP DAC6578xPW
+D 10-Bit, Octal-Channel, Ultra-Low Glitch, Voltage Output, Two-Wire Interface Digital-to-Analog Converters, TSSOP-16
+K DAC I2C TWI 8-channel
+F http://www.ti.com/lit/ds/symlink/dac5578.pdf
+$ENDCMP
+#
+$CMP DAC6578xRGE
+D 10-Bit, Octal-Channel, Ultra-Low Glitch, Voltage Output, Two-Wire Interface Digital-to-Analog Converters, QFN-24
+K DAC I2C TWI 8-channel
+F http://www.ti.com/lit/ds/symlink/dac5578.pdf
+$ENDCMP
+#
 $CMP DAC7513_DCN
 D Low-Power, Rail-to-Rail Output, 12-Bit Serial Input DAC
 K TI DAC 12 bit
 F http://www.ti.com.cn/cn/lit/ds/symlink/dac7513.pdf
+$ENDCMP
+#
+$CMP DAC7578xPW
+D 12-Bit, Octal-Channel, Ultra-Low Glitch, Voltage Output, Two-Wire Interface Digital-to-Analog Converters, TSSOP-16
+K DAC I2C TWI 8-channel
+F http://www.ti.com/lit/ds/symlink/dac5578.pdf
+$ENDCMP
+#
+$CMP DAC7578xRGE
+D 12-Bit, Octal-Channel, Ultra-Low Glitch, Voltage Output, Two-Wire Interface Digital-to-Analog Converters, QFN-24
+K DAC I2C TWI 8-channel
+F http://www.ti.com/lit/ds/symlink/dac5578.pdf
 $ENDCMP
 #
 $CMP DAC7750xRHA
