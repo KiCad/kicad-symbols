@@ -5268,6 +5268,12 @@ K boost converter switching
 F http://www.ti.com/lit/ds/symlink/tps61252.pdf
 $ENDCMP
 #
+$CMP TPS62056DGS
+D Vout 0.7 tpo 6V, Vin 2.7-V to 10-V, 800-mA Synchronous Step-Down Converter
+K voltage regulator switch mode step down
+F http://www.ti.com/lit/ds/symlink/tps62056.pdf
+$ENDCMP
+#
 $CMP TPS62125DSG
 D 300mA Step-Down Converter with Enable Threshold and Hysteresis, adjustable output, 3-17V input voltage, WSON-8
 K step-down dc-dc buck regulator
