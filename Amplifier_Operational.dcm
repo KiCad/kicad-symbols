@@ -954,6 +954,18 @@ K dual opamp
 F http://www.ti.com/lit/ds/symlink/opa134.pdf
 $ENDCMP
 #
+$CMP OPA2197xD
+D Dual 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8
+K dual opamp rtor
+F http://www.ti.com/lit/ds/symlink/opa2197.pdf
+$ENDCMP
+#
+$CMP OPA2197xDGK
+D Dual 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8
+K dual opamp rtor
+F http://www.ti.com/lit/ds/symlink/opa2197.pdf
+$ENDCMP
+#
 $CMP OPA2277
 D Dual High Precision Operational Amplifiers, DIP-8/SOIC-8
 K dual opamp
@@ -1147,14 +1159,14 @@ F http://www.ti.com/lit/ds/symlink/opa134.pdf
 $ENDCMP
 #
 $CMP OPA4197xD
-D OPA4197 36-V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-14
-K quad opamp
+D Quad 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-14
+K quad opamp rtor
 F http://www.ti.com/lit/ds/symlink/opa4197.pdf
 $ENDCMP
 #
 $CMP OPA4197xPW
-D OPA4197 36-V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, TSSOP-14
-K quad opamp
+D Quad 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, TSSOP-14
+K quad opamp rtor
 F http://www.ti.com/lit/ds/symlink/opa4197.pdf
 $ENDCMP
 #
