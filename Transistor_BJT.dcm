@@ -540,6 +540,18 @@ K NPN Transistor
 F http://cache.nxp.com/documents/data_sheet/BCP56_BCX56_BC56PA.pdf?pspll=1
 $ENDCMP
 #
+$CMP BCV29
+D NPN Darlington transistor, 30Vce, 500mA, SOT-89
+K transistor NPN Darlington
+F https://assets.nexperia.com/documents/data-sheet/BCV29_49.pdf
+$ENDCMP
+#
+$CMP BCV49
+D NPN Darlington transistor, 60Vce, 500mA, SOT-89
+K transistor NPN Darlington
+F https://assets.nexperia.com/documents/data-sheet/BCV29_49.pdf
+$ENDCMP
+#
 $CMP BCV61
 D 100mA IC, 30V Vce, Double NPN Transistors, Current mirror configuration, SOT-143
 K Transistor Double NPN
