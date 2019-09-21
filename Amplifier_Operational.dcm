@@ -948,6 +948,24 @@ K single opamp zero-drift
 F http://www.ti.com/lit/ds/symlink/opa188.pdf
 $ENDCMP
 #
+$CMP OPA197xD
+D Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8
+K single opamp rtor
+F http://www.ti.com/lit/ds/symlink/opa197.pdf
+$ENDCMP
+#
+$CMP OPA197xDBV
+D Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOT-23
+K single opamp rtor
+F http://www.ti.com/lit/ds/symlink/opa197.pdf
+$ENDCMP
+#
+$CMP OPA197xDGK
+D Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8
+K single opamp rtor
+F http://www.ti.com/lit/ds/symlink/opa197.pdf
+$ENDCMP
+#
 $CMP OPA2134
 D Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8
 K dual opamp
