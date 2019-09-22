@@ -690,6 +690,12 @@ K smps controller
 F http://www.leadtrend.com.tw/archive/doc/product/sheets/LD7575-DS-04b.pdf
 $ENDCMP
 #
+$CMP LM21212-2
+D 2.95V-5.5V Input, 12A Synchronous Buck Regulator, Adjustable Output, 300kHz-1.55MHz Adjustable Frequency, TSSOP-20
+K switching buck converter step-down
+F http://www.ti.com/lit/ds/symlink/lm21212-2.pdf
+$ENDCMP
+#
 $CMP LM22676MR-5
 D 3A Step-Down Switching Voltage Regulater, 4.5-42V Input, 5V Output, 500kHz Switching Frequency, SOIC-8
 K DC/DC Buck Converter 3A
