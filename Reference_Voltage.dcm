@@ -426,6 +426,30 @@ K voltage reference vref
 F https://www.analog.com/media/en/technical-documentation/data-sheets/6657fd.pdf
 $ENDCMP
 #
+$CMP MAX6035xSA25
+D 2.5V, High-Supply-Voltage, Precision Voltage Reference, SOIC-8
+K vref
+F https://datasheets.maximintegrated.com/en/ds/MAX6035.pdf
+$ENDCMP
+#
+$CMP MAX6035xxUR25
+D 2.5V, High-Supply-Voltage, Precision Voltage Reference, SOT-23
+K vref
+F https://datasheets.maximintegrated.com/en/ds/MAX6035.pdf
+$ENDCMP
+#
+$CMP MAX6035xxUR30
+D 3V, High-Supply-Voltage, Precision Voltage Reference, SOT-23
+K vref
+F https://datasheets.maximintegrated.com/en/ds/MAX6035.pdf
+$ENDCMP
+#
+$CMP MAX6035xxUR50
+D 5V, High-Supply-Voltage, Precision Voltage Reference, SOT-23
+K vref
+F https://datasheets.maximintegrated.com/en/ds/MAX6035.pdf
+$ENDCMP
+#
 $CMP MAX6100
 D Low-dropout high current voltage reference, 1.800V, ±0.4% accuracy, SOT-23
 K voltage reference ldo
