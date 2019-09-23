@@ -1842,6 +1842,12 @@ K Linear Regulator 1.5A Fixed Output
 F https://www.mouser.se/datasheet/2/389/ld1086-974047.pdf
 $ENDCMP
 #
+$CMP LD1086D2TTR
+D Positive, 1.5A 30V, Linear Regulator, Adjustable, TO-263
+K Linear Regulator 1.5A Adjustable
+F https://www.mouser.se/datasheet/2/389/ld1086-974047.pdf
+$ENDCMP
+#
 $CMP LD1086DT18TR
 D Positive, 1.5A 30V, Linear Regulator, Fixed Output 1.8V, TO-252
 K Linear Regulator 1.5A Fixed Output
@@ -1893,12 +1899,6 @@ $ENDCMP
 $CMP LD1086V33-DG
 D Positive, 1.5A 30V, Linear Regulator, Fixed Output 3.3V, TO-220
 K Linear Regulator 1.5A Fixed Output
-F https://www.mouser.se/datasheet/2/389/ld1086-974047.pdf
-$ENDCMP
-#
-$CMP LD108D2TTR
-D Positive, 1.5A 30V, Linear Regulator, Adjustable, TO-263
-K Linear Regulator 1.5A Adjustable
 F https://www.mouser.se/datasheet/2/389/ld1086-974047.pdf
 $ENDCMP
 #
