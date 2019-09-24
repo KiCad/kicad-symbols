@@ -2472,6 +2472,12 @@ K Isolated DC/DC Transformer Driver
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3439fs.pdf
 $ENDCMP
 #
+$CMP LT3471
+D Dual 1.3A, 1.2MHz Boost/Inverter, DFN-10
+K dc/dc converter boost inverter
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3471fb.pdf
+$ENDCMP
+#
 $CMP LT3472
 D Boost and Inverting DC/DC Converter for CCD Bias, DFN-10
 K DC/DC converter CCD Bias Boost
