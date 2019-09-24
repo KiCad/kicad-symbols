@@ -810,6 +810,12 @@ K zener diode
 F https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf
 $ENDCMP
 #
+$CMP BZX384xx
+D 300mW Zener Diode, SOD-323
+K zener diode
+F https://assets.nexperia.com/documents/data-sheet/BZX384_SERIES.pdf
+$ENDCMP
+#
 $CMP BZX84Cxx
 D 300mW Zener Diode, SOT-23
 K zener diode
