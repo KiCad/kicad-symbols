@@ -126,6 +126,12 @@ K AVR TPI Connector
 F  ~
 $ENDCMP
 #
+$CMP AVR-UPDI-6
+D Atmel 6-pin UPDI connector
+K AVR UPDI Connector
+F https://www.microchip.com/webdoc/GUID-9D10622A-5C16-4405-B092-1BDD437B4976/index.html?GUID-9B349315-2842-4189-B88C-49F4E1055D7F
+$ENDCMP
+#
 $CMP AudioJack2
 D Audio Jack, 2 Poles (Mono / TS)
 K audio jack receptacle mono phone headphone TS connector
