@@ -6223,67 +6223,133 @@ F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
 $ENDCMP
 #
 $CMP TLV75709PDRV
-D 1A Low Dropout Voltage Regulator, Fixed Output 0.9V, SON6
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 0.9V, SON6
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75709PDBV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 0.9V, SOT-23-5
 K LDO Regulator Fixed Positive
 F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
 $ENDCMP
 #
 $CMP TLV75710PDRV
-D 1A Low Dropout Voltage Regulator, Fixed Output 1.0V, SON6
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.0V, SON6
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75710PDBV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.0V, SOT-23-5
 K LDO Regulator Fixed Positive
 F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
 $ENDCMP
 #
 $CMP TLV75712PDRV
-D 1A Low Dropout Voltage Regulator, Fixed Output 1.2V, SON6
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.2V, SON6
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75712PDBV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5
 K LDO Regulator Fixed Positive
 F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
 $ENDCMP
 #
 $CMP TLV75715PDRV
-D 1A Low Dropout Voltage Regulator, Fixed Output 1.5V, SON6
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.5V, SON6
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75715PDBV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.5V, SOT-23-5
 K LDO Regulator Fixed Positive
 F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
 $ENDCMP
 #
 $CMP TLV75718PDRV
-D 1A Low Dropout Voltage Regulator, Fixed Output 1.8V, SON6
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.8V, SON6
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75718PDBV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5
 K LDO Regulator Fixed Positive
 F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
 $ENDCMP
 #
 $CMP TLV75719PDRV
-D 1A Low Dropout Voltage Regulator, Fixed Output 1.9V, SON6
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.9V, SON6
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75719PDBV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.9V, SOT-23-5
 K LDO Regulator Fixed Positive
 F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
 $ENDCMP
 #
 $CMP TLV75725PDRV
-D 1A Low Dropout Voltage Regulator, Fixed Output 2.5V, SON6
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 2.5V, SON6
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75725PDBV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 2.5V, SOT-23-5
 K LDO Regulator Fixed Positive
 F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
 $ENDCMP
 #
 $CMP TLV75728PDRV
-D 1A Low Dropout Voltage Regulator, Fixed Output 2.8V, SON6
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 2.8V, SON6
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75728PDBV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 2.8V, SOT-23-5
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75729PDBV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 2.9V, SOT-23-5
 K LDO Regulator Fixed Positive
 F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
 $ENDCMP
 #
 $CMP TLV75730PDRV
-D 1A Low Dropout Voltage Regulator, Fixed Output 3.0V, SON6
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.0V, SON6
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75730PDBV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.0V, SOT-23-5
 K LDO Regulator Fixed Positive
 F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
 $ENDCMP
 #
 $CMP TLV75733PDRV
-D 1A Low Dropout Voltage Regulator, Fixed Output 3.3V, SON6
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SON6
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75733PDBV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5
 K LDO Regulator Fixed Positive
 F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
 $ENDCMP
 #
 $CMP TLV75740PDRV
-D 1A Low Dropout Voltage Regulator, Fixed Output 4.0V, SON6
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 4.0V, SON6
 K LDO Regulator Fixed Positive
 F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
 $ENDCMP
