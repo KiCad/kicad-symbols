@@ -78,6 +78,12 @@ K RF Power NPN Transistor
 F http://rtellason.com/transdata/2sc1945.pdf
 $ENDCMP
 #
+$CMP 2SC4213
+D 0.3A Ic, 20V Vce, NPN Transistor, For Muting and Switching, SOT-323
+K NPN Transistor
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=19305&prodName=2SC4213
+$ENDCMP
+#
 $CMP 2SD1047
 D 12A Ic, 140V Vce, Silicon Power NPN Transistors, TO-3PB
 K Power NPN Transistor
@@ -319,7 +325,7 @@ F http://www.fairchildsemi.com/ds/BC/BC817.pdf
 $ENDCMP
 #
 $CMP BC817W
-D 0.8A Ic, 45V Vce, NPN Transistor, SOT-23
+D 0.8A Ic, 45V Vce, NPN Transistor, SOT-323
 K NPN Transistor
 F http://www.fairchildsemi.com/ds/BC/BC817.pdf
 $ENDCMP
@@ -1544,6 +1550,18 @@ $CMP PN2222A
 D 1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92
 K NPN Transistor
 F http://www.fairchildsemi.com/ds/PN/PN2222A.pdf
+$ENDCMP
+#
+$CMP PUMT1
+D 100mA IC, 40V Vce, Dual PNP/PNP Transistors, SOT-363
+K PNP Transistor/PNP
+F https://assets.nexperia.com/documents/data-sheet/PUMT1.pdf
+$ENDCMP
+#
+$CMP PUMX1
+D 100mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
+K NPN Transistor/NPN
+F https://assets.nexperia.com/documents/data-sheet/PUMX1.pdf
 $ENDCMP
 #
 $CMP PZT2222A
