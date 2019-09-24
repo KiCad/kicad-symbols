@@ -240,6 +240,12 @@ K AC diode DIAC
 F ~
 $ENDCMP
 #
+$CMP D_AAK
+D Diode, anode on pins 1 and 2
+K diode
+F ~
+$ENDCMP
+#
 $CMP D_ALT
 D Diode, filled shape
 K diode
@@ -285,6 +291,12 @@ $ENDCMP
 $CMP D_Capacitance_ALT
 D Variable capacitance diode, filled shape
 K capacitance diode varicap varactor
+F ~
+$ENDCMP
+#
+$CMP D_KAK
+D Diode, cathode on pins 1 and 3
+K diode
 F ~
 $ENDCMP
 #
