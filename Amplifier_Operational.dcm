@@ -960,6 +960,12 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/opa4196.pdf
 $ENDCMP
 #
+$CMP OPA196xDGK
+D Single, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, VSSOP-8
+K single opamp rtor
+F http://www.ti.com/lit/ds/symlink/opa4196.pdf
+$ENDCMP
+#
 $CMP OPA197xD
 D Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8
 K single opamp rtor
