@@ -426,6 +426,12 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/lmv601.pdf
 $ENDCMP
 #
+$CMP LPV811
+D Single operational amplifier, 8kHz GBW, 425 nA/channel quiescent, 100 fA input bias, 300 uV offset max, 1 uV/C, SOIC-8
+K single opamp low-power rail-to-rail
+F https://www.ti.com/lit/ds/symlink/lpv812.pdfhttps://www.ti.com/lit/ds/symlink/lpv812.pdf
+$ENDCMP
+#
 $CMP LPV812
 D Dual operational amplifier, 8kHz GBW, 425 nA/channel quiescent, 100 fA input bias, 300 uV offset max, 1 uV/C, SOIC-8
 K dual opamp low-power rail-to-rail
