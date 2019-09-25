@@ -72,6 +72,48 @@ K single opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4530-1.pdf
 $ENDCMP
 #
+$CMP ADA4610-1xRJ
+D Low Noise, Precision, Rail-to-Rail Output, JFET Single Op Amp, SOT-23-5
+K single opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4610-1_4610-2_4610-4.pdf
+$ENDCMP
+#
+$CMP ADA4610-1xRZ
+D Low Noise, Precision, Rail-to-Rail Output, JFET Single Op Amp, SOIC-8
+K single opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4610-1_4610-2_4610-4.pdf
+$ENDCMP
+#
+$CMP ADA4610-2xCP
+D Dual Low Noise, Precision, Rail-to-Rail Output, JFET Op Amp, LFCSP-8
+K dual opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4610-1_4610-2_4610-4.pdf
+$ENDCMP
+#
+$CMP ADA4610-2xRM
+D Dual Low Noise, Precision, Rail-to-Rail Output, JFET Op Amp, MSOP-8
+K dual opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4610-1_4610-2_4610-4.pdf
+$ENDCMP
+#
+$CMP ADA4610-2xRZ
+D Dual Low Noise, Precision, Rail-to-Rail Output, JFET Op Amp, SOIC-8
+K dual opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4610-1_4610-2_4610-4.pdf
+$ENDCMP
+#
+$CMP ADA4610-4xCP
+D Quad Low Noise, Precision, Rail-to-Rail Output, JFET Op Amp, LFCSP-16
+K quad opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4610-1_4610-2_4610-4.pdf
+$ENDCMP
+#
+$CMP ADA4610-4xR
+D Quad Low Noise, Precision, Rail-to-Rail Output, JFET Single Op Amp, SOIC-14
+K quad opamp low-power
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4610-1_4610-2_4610-4.pdf
+$ENDCMP
+#
 $CMP ADA4807-1
 D Single Rail-to-Rail Input/Output Amplifiers, with disable, SC-70-6/SOT-23-6
 K single opamp
