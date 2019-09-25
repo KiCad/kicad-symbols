@@ -1212,6 +1212,12 @@ K quad opamp rtor
 F http://www.ti.com/lit/ds/symlink/opa4196.pdf
 $ENDCMP
 #
+$CMP OPA4196xPW
+D Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, TSSOP-14
+K quad opamp rtor
+F http://www.ti.com/lit/ds/symlink/opa4196.pdf
+$ENDCMP
+#
 $CMP OPA4197xD
 D Quad 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-14
 K quad opamp rtor
