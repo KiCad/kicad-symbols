@@ -672,6 +672,30 @@ K diode
 F http://www.vishay.com/docs/85543/bav17.pdf
 $ENDCMP
 #
+$CMP BAV300
+D 50V 0.25A Switching Diode, High Voltage, MicroMELF
+K diode
+F http://www.vishay.com/docs/85545/bav300.pdf
+$ENDCMP
+#
+$CMP BAV301
+D 100V 0.25A Switching Diode, High Voltage, MicroMELF
+K diode
+F http://www.vishay.com/docs/85545/bav300.pdf
+$ENDCMP
+#
+$CMP BAV302
+D 150V 0.25A Switching Diode, High Voltage, MicroMELF
+K diode
+F http://www.vishay.com/docs/85545/bav300.pdf
+$ENDCMP
+#
+$CMP BAV303
+D 200V 0.25A Switching Diode, High Voltage, MicroMELF
+K diode
+F http://www.vishay.com/docs/85545/bav300.pdf
+$ENDCMP
+#
 $CMP BAV70
 D Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23
 K diode
@@ -766,6 +790,18 @@ $CMP BYV79-200
 D 200V 14A Ultrafast Rectifier Diode, TO-220
 K diode
 F http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf
+$ENDCMP
+#
+$CMP BZM55Bxx
+D 500mW Zener Diode, 2%, MicroMELF
+K zener diode
+F http://www.vishay.com/docs/85597/bzm55.pdf
+$ENDCMP
+#
+$CMP BZM55Cxx
+D 500mW Zener Diode, 6%, MicroMELF
+K zener diode
+F http://www.vishay.com/docs/85597/bzm55.pdf
 $ENDCMP
 #
 $CMP BZT52Bxx
@@ -1468,6 +1504,18 @@ $CMP MBRA340
 D 40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
 K diode Schottky
 F https://www.onsemi.com/pub/Collateral/MBRA340T3-D.PDF
+$ENDCMP
+#
+$CMP MCL4148
+D 75V 0.2A Switching Diode, MicroMELF
+K diode
+F http://www.vishay.com/docs/85566/mlc4148.pdf
+$ENDCMP
+#
+$CMP MCL4448
+D 75V 0.2A Switching Diode, MicroMELF
+K diode
+F http://www.vishay.com/docs/85566/mlc4148.pdf
 $ENDCMP
 #
 $CMP MM3Zxx

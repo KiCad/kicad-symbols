@@ -948,10 +948,40 @@ K single opamp zero-drift
 F http://www.ti.com/lit/ds/symlink/opa188.pdf
 $ENDCMP
 #
+$CMP OPA197xD
+D Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8
+K single opamp rtor
+F http://www.ti.com/lit/ds/symlink/opa197.pdf
+$ENDCMP
+#
+$CMP OPA197xDBV
+D Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOT-23
+K single opamp rtor
+F http://www.ti.com/lit/ds/symlink/opa197.pdf
+$ENDCMP
+#
+$CMP OPA197xDGK
+D Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8
+K single opamp rtor
+F http://www.ti.com/lit/ds/symlink/opa197.pdf
+$ENDCMP
+#
 $CMP OPA2134
 D Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8
 K dual opamp
 F http://www.ti.com/lit/ds/symlink/opa134.pdf
+$ENDCMP
+#
+$CMP OPA2197xD
+D Dual 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8
+K dual opamp rtor
+F http://www.ti.com/lit/ds/symlink/opa2197.pdf
+$ENDCMP
+#
+$CMP OPA2197xDGK
+D Dual 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8
+K dual opamp rtor
+F http://www.ti.com/lit/ds/symlink/opa2197.pdf
 $ENDCMP
 #
 $CMP OPA2277
@@ -1144,6 +1174,18 @@ $CMP OPA4134
 D Quad SoundPlus High Performance Audio Operational Amplifiers, SOIC-14
 K quad opamp
 F http://www.ti.com/lit/ds/symlink/opa134.pdf
+$ENDCMP
+#
+$CMP OPA4197xD
+D Quad 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-14
+K quad opamp rtor
+F http://www.ti.com/lit/ds/symlink/opa4197.pdf
+$ENDCMP
+#
+$CMP OPA4197xPW
+D Quad 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, TSSOP-14
+K quad opamp rtor
+F http://www.ti.com/lit/ds/symlink/opa4197.pdf
 $ENDCMP
 #
 $CMP OPA4340EA

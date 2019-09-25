@@ -2142,6 +2142,12 @@ K R network parallel topology isolated
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
+$CMP R_Pack04_Split
+D 4 resistor network, parallel topology
+K R network parallel topology isolated
+F ~
+$ENDCMP
+#
 $CMP R_Pack05
 D 5 resistor network, parallel topology, DIP package
 K R network parallel topology isolated
