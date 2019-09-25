@@ -750,6 +750,17 @@ K zener diode
 F https://www.vishay.com/docs/85153/bzd27series.pdf
 $ENDCMP
 #
+$CMP BZM55Bxx
+D 500mW Zener Diode, 2%, MicroMELF
+K zener diode
+F http://www.vishay.com/docs/85597/bzm55.pdf
+$ENDCMP
+#
+$CMP BZM55Cxx
+D 500mW Zener Diode, 6%, MicroMELF
+K zener diode
+F http://www.vishay.com/docs/85597/bzm55.pdf
+#
 $CMP BZT52Bxx
 D 500mW Zener Diode, SOD-123
 K zener diode
