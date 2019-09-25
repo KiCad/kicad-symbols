@@ -234,6 +234,12 @@ K buck switching converter
 F https://www.diodes.com/assets/Datasheets/AP6503.pdf
 $ENDCMP
 #
+$CMP AP65111AWU
+D 1.5A, 500kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6
+K 1.5A 500kHz PWM Buck DC/DC
+F https://www.diodes.com/assets/Datasheets/AP65111A.pdf
+$ENDCMP
+#
 $CMP APE1707H-12-HF
 D 2A, 150KHz PWM Buck DC/DC Converter, fixed 12.0V output voltage, TO-252-5 (D-PAK)
 K 12V 2A 150KHz PWM Buck DC/DC
@@ -2466,6 +2472,12 @@ K Isolated DC/DC Transformer Driver
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3439fs.pdf
 $ENDCMP
 #
+$CMP LT3471
+D Dual 1.3A, 1.2MHz Boost/Inverter, DFN-10
+K dc/dc converter boost inverter
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3471fb.pdf
+$ENDCMP
+#
 $CMP LT3472
 D Boost and Inverting DC/DC Converter for CCD Bias, DFN-10
 K DC/DC converter CCD Bias Boost
@@ -3894,6 +3906,12 @@ K smps buck boost inverting
 F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
 $ENDCMP
 #
+$CMP SC4503TSK
+D 1.9A, 1.3MHz Step-Up DC/DC Converter, 2.5V-20V output voltage, TSOT23
+K 1.9A 1.3MHz Step-Up DC/DC
+F https://www.semtech.com/uploads/documents/sc4503.pdf
+$ENDCMP
+#
 $CMP ST1S10PHR
 D 3A monolithic synchronous step-down regulator, Adjustable Output Voltage, 2.5-18V Input Voltage, 900kHz, PowerSO-8
 K DC/DC Buck Conwerter 3A Low Voltage Input
@@ -5248,6 +5266,12 @@ $CMP TPS61222DCK
 D 400 mA Step-Up Converter, Fixed 5V Output Voltage, 0.7-5.5V Input Voltage, SC-70
 K Boost adjustable converter
 F http://www.ti.com/lit/ds/symlink/tps61220.pdf
+$ENDCMP
+#
+$CMP TPS61252DSG
+D Tiny 1.5-A Boost Converter With Adjustable Input Current Limit, 2.3-6.0V Vin, 3.0-6.5V Vout, WSON-8
+K boost converter switching
+F http://www.ti.com/lit/ds/symlink/tps61252.pdf
 $ENDCMP
 #
 $CMP TPS62125DSG

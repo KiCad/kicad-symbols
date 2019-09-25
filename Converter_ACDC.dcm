@@ -288,6 +288,42 @@ K 5V 4A 20W miniature AC-DC module-type power supply
 F http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF
 $ENDCMP
 #
+$CMP PBO-3-S12
+D 12V 0.25A 3W miniature AC-DC module-type power supply
+K ac dc power supply
+F https://www.cui.com/product/resource/pbo-3.pdf
+$ENDCMP
+#
+$CMP PBO-3-S15
+D 15V 0.2A 3W miniature AC-DC module-type power supply
+K ac dc power supply
+F https://www.cui.com/product/resource/pbo-3.pdf
+$ENDCMP
+#
+$CMP PBO-3-S24
+D 24V 0.125A 3W miniature AC-DC module-type power supply
+K ac dc power supply
+F https://www.cui.com/product/resource/pbo-3.pdf
+$ENDCMP
+#
+$CMP PBO-3-S3.3
+D 3.3V 0.6A 1.98W miniature AC-DC module-type power supply
+K ac dc power supply
+F https://www.cui.com/product/resource/pbo-3.pdf
+$ENDCMP
+#
+$CMP PBO-3-S5
+D 5V 0.6A 3W miniature AC-DC module-type power supply
+K ac dc power supply
+F https://www.cui.com/product/resource/pbo-3.pdf
+$ENDCMP
+#
+$CMP PBO-3-S9
+D 9V 0.333A 3W miniature AC-DC module-type power supply
+K ac dc power supply
+F https://www.cui.com/product/resource/pbo-3.pdf
+$ENDCMP
+#
 $CMP RAC01-05SGB
 D 1 Watt Single Output EMC Class B AC/DC 5V 200mA power supply with regulated and short-circuit-proof isolated DC outputs and low standby power consumption.
 K ac dc power supply
