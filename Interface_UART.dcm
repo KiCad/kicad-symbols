@@ -371,7 +371,7 @@ $ENDCMP
 #
 $CMP SC16IS740
 D Single UART with I2C/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support, TSSOP-16
-K UART I2C/SPI 64B FIFO, IrDA SIR
+K UART I2C/SPI 64B FIFO IrDA SIR
 F https://www.nxp.com/docs/en/data-sheet/SC16IS740_750_760.pdf
 $ENDCMP
 #
