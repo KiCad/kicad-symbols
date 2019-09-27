@@ -42,6 +42,12 @@ K dual opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8610_8620.pdf
 $ENDCMP
 #
+$CMP AD8676xR
+D Dual operational amplifier, Ultra-precision, 36V, Rail-to-rail output, SOIC-8
+K dual opamp precision high-voltage RRO RTR
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8676.pdf
+$ENDCMP
+#
 $CMP ADA4075-2
 D Ultralow Noise Amplifier at Lower Power, SOIC-8/LFCSP-8
 K dual low-power opamp
