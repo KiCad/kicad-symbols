@@ -5184,6 +5184,12 @@ K step-down dcdc voltage regulator
 F http://www.ti.com/lit/ds/symlink/tps563200.pdf
 $ENDCMP
 #
+$CMP TPS565208
+D 5A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6
+K step-down dcdc voltage regulator
+F http://www.ti.com/lit/ds/symlink/tps565208.pdf
+$ENDCMP
+#
 $CMP TPS568215RNN
 D 4.5V-17V Input, 8A Synchronous Step-Down SWIFT Converter, Adjustable Output, 400kHz/800kHz/1.2MHz Switching Frequency, Texas VQFN-18
 K switching buck converter step-down
