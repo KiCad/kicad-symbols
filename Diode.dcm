@@ -1632,15 +1632,9 @@ K diode Schottky
 F http://www.diodes.com/_files/datasheets/ds23022.pdf
 $ENDCMP
 #
-$CMP SD-C
-D 450W Discrete Bidirectional TVS Diode
-K diode TVS thyrector
-F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf
-$ENDCMP
-#
-$CMP SD05C
-D 450W Discrete Bidirectional TVS Diode, 5V
-K diode TVS thyrector
+$CMP SD05_SOD323
+D 5V, 450W Discrete Bidirectional TVS Diode, SOD-323
+K transient voltage suppressor thyrector transil
 F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf
 $ENDCMP
 #
@@ -1650,27 +1644,27 @@ K schottky barrier diode array
 F https://www.diodes.com/assets/Datasheets/ds30374.pdf
 $ENDCMP
 #
-$CMP SD12C
-D 450W Discrete Bidirectional TVS Diode, 12V
-K diode TVS thyrector
+$CMP SD12_SOD323
+D 12V, 450W Discrete Bidirectional TVS Diode, SOD-323
+K transient voltage suppressor thyrector transil
 F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf
 $ENDCMP
 #
-$CMP SD15C
-D 450W Discrete Bidirectional TVS Diode, 15V
-K diode TVS thyrector
+$CMP SD15_SOD323
+D 15V, 450W Discrete Bidirectional TVS Diode, SOD-323
+K transient voltage suppressor thyrector transil
 F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf
 $ENDCMP
 #
-$CMP SD24C
-D 450W Discrete Bidirectional TVS Diode, 24V
-K diode TVS thyrector
+$CMP SD24_SOD323
+D 24V, 450W Discrete Bidirectional TVS Diode, SOD-323
+K transient voltage suppressor thyrector transil
 F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf
 $ENDCMP
 #
-$CMP SD36C
-D 450W Discrete Bidirectional TVS Diode, 36V
-K diode TVS thyrector
+$CMP SD36_SOD323
+D 36V, 450W Discrete Bidirectional TVS Diode, SOD-323
+K transient voltage suppressor thyrector transil
 F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf
 $ENDCMP
 #
@@ -1740,9 +1734,9 @@ K diode
 F http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf
 $ENDCMP
 #
-$CMP SM712
-D 600W Asymmetrical TVS Diode Array
-K diode TVS thyrector
+$CMP SM712_SOT23
+D 7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23
+K transient voltage suppressor thyrector transil
 F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf
 $ENDCMP
 #
