@@ -1902,6 +1902,12 @@ K forward voltage diode
 F https://assets.nexperia.com/documents/data-sheet/PMEG2010AEJ.pdf
 $ENDCMP
 #
+$CMP PMEG2010AET
+D 20V, 1A very low Vf MEGA Schottky barrier rectifier, SOT-23
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG2010AEH_PMEG2010AET.pdf
+$ENDCMP
+#
 $CMP PMEG2010EH
 D 20V, 1A very low Vf MEGA Schottky barrier rectifier, SOD-123F
 K forward voltage diode
@@ -1910,6 +1916,12 @@ $ENDCMP
 #
 $CMP PMEG2010EJ
 D 20V, 1A very low Vf MEGA Schottky barrier rectifier, SOD-323F
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG2010EH_EJ_ET.pdf
+$ENDCMP
+#
+$CMP PMEG2010ET
+D 20V, 1A very low Vf MEGA Schottky barrier rectifier, SOT-23
 K forward voltage diode
 F https://assets.nexperia.com/documents/data-sheet/PMEG2010EH_EJ_ET.pdf
 $ENDCMP
@@ -1964,6 +1976,12 @@ $ENDCMP
 #
 $CMP PMEG3010EJ
 D 30V, 1A very low Vf MEGA Schottky barrier rectifier, SOD-323F
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG3010EH_EJ_ET.pdf
+$ENDCMP
+#
+$CMP PMEG3010ET
+D 30V, 1A very low Vf MEGA Schottky barrier rectifier, SOT-23
 K forward voltage diode
 F https://assets.nexperia.com/documents/data-sheet/PMEG3010EH_EJ_ET.pdf
 $ENDCMP
@@ -2024,6 +2042,12 @@ $ENDCMP
 #
 $CMP PMEG4010EJ
 D 40V, 1A very low Vf MEGA Schottky barrier rectifier, SOD-323F
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG4010EH_EJ_ET.pdf
+$ENDCMP
+#
+$CMP PMEG4010ET
+D 40V, 1A very low Vf MEGA Schottky barrier rectifier, SOT-23
 K forward voltage diode
 F https://assets.nexperia.com/documents/data-sheet/PMEG4010EH_EJ_ET.pdf
 $ENDCMP
