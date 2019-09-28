@@ -1903,14 +1903,14 @@ F https://assets.nexperia.com/documents/data-sheet/PMEG6002EJ.pdf
 $ENDCMP
 #
 $CMP PMEG6010CEH
-D 60V 1A very low Vf MEGA Schottky barrier rectifier, SOD-123
-K diode Schottky
+D 60V, 1A very low Vf MEGA Schottky barrier rectifier, SOD-123F
+K forward voltage diode
 F https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf
 $ENDCMP
 #
 $CMP PMEG6010CEJ
-D 60V 1A very low Vf MEGA Schottky barrier rectifier, SOD-323
-K diode Schottky
+D 60V, 1A very low Vf MEGA Schottky barrier rectifier, SOD-323F
+K forward voltage diode
 F https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf
 $ENDCMP
 #
