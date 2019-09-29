@@ -302,19 +302,19 @@ $ENDCMP
 #
 $CMP MCP2210-I-MQ
 D USB to SPI Protocol Converter with GPIO,QFN
-K USB,SPI,Master,Converter,Bridge
+K USB SPI Master Converter Bridge
 F https://ww1.microchip.com/downloads/en/DeviceDoc/22288A.pdf
 $ENDCMP
 #
 $CMP MCP2210-I-SO
 D USB to SPI Protocol Converter with GPIO,SOIC
-K USB,SPI,Master,Converter,Bridge
+K USB SPI Master Converter Bridge
 F https://ww1.microchip.com/downloads/en/DeviceDoc/22288A.pdf
 $ENDCMP
 #
 $CMP MCP2210-I-SS
 D USB to SPI Protocol Converter with GPIO,SSOP
-K USB,SPI,Master,Converter,Bridge
+K USB SPI Master Converter Bridge
 F https://ww1.microchip.com/downloads/en/DeviceDoc/22288A.pdf
 $ENDCMP
 #
