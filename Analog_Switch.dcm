@@ -83,6 +83,18 @@ K CMOS Analog Switch
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf
 $ENDCMP
 #
+$CMP CBTL02043A
+D 3.3 V, 2 differential channel, 2:1 MUX/deMUX switch, 10 Gbps, WQFN-20
+K Multiplexer Demultiplexer Switch Hi-Speed
+F https://www.nxp.com/docs/en/data-sheet/CBTL02043A_CBTL02043B.pdf
+$ENDCMP
+#
+$CMP CBTL02043B
+D 3.3 V, 2 differential channel, 2:1 MUX/deMUX switch, 10 Gbps, WQFN-20
+K Multiplexer Demultiplexer Switch Hi-Speed
+F https://www.nxp.com/docs/en/data-sheet/CBTL02043A_CBTL02043B.pdf
+$ENDCMP
+#
 $CMP CD4051B
 D CMOS single 8-channel analog multiplexer demultiplexer, TSSOP-16/DIP-16/SOIC-16
 K analog switch selector multiplexer
