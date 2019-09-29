@@ -12,6 +12,36 @@ K EMI Filter SMD Murata
 F https://www.murata.com/en-us/products/productdetail.aspx?cate=luNoiseSupprFilteBlockType&partno=BNX025H01%23
 $ENDCMP
 #
+$CMP FN405-0.5-02
+D 0.5A, 250VAC, 50/60Hz line filter
+K EMI
+F https://www.schaffner.com/de/produkte/download/product/datasheet/fn-405-pcb-mounting-filter/
+$ENDCMP
+#
+$CMP FN405-1-02
+D 1A, 250VAC, 50/60Hz line filter
+K EMI
+F https://www.schaffner.com/de/produkte/download/product/datasheet/fn-405-pcb-mounting-filter/
+$ENDCMP
+#
+$CMP FN405-10-02
+D 10A, 250VAC, 50/60Hz line filter
+K EMI
+F https://www.schaffner.com/de/produkte/download/product/datasheet/fn-405-pcb-mounting-filter/
+$ENDCMP
+#
+$CMP FN405-3-02
+D 3A, 250VAC, 50/60Hz line filter
+K EMI
+F https://www.schaffner.com/de/produkte/download/product/datasheet/fn-405-pcb-mounting-filter/
+$ENDCMP
+#
+$CMP FN405-6-02
+D 6A, 250VAC, 50/60Hz line filter
+K EMI
+F https://www.schaffner.com/de/produkte/download/product/datasheet/fn-405-pcb-mounting-filter/
+$ENDCMP
+#
 $CMP FN406-0.5-02
 D 0.5A ultra compact EMI Filter
 K EMI mains
