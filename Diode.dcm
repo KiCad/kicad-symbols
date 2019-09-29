@@ -1896,6 +1896,12 @@ K forward voltage diode
 F https://assets.nexperia.com/documents/data-sheet/PMEG4050EP.pdf
 $ENDCMP
 #
+$CMP PMEG40T10ER
+D 40V, 1A low Vf Trench MEGA Schottky barrier rectifier, SOD-123W
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG40T10ER.pdf
+$ENDCMP
+#
 $CMP PMEG6002EJ
 D 60V, 200mA very low Vf MEGA Schottky barrier rectifier, SOD-323F
 K forward voltage diode
