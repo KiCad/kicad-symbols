@@ -654,6 +654,12 @@ K high-voltage mosfet-driver hot-swap
 F http://www.ti.com/lit/ds/symlink/lm5060.pdf
 $ENDCMP
 #
+$CMP LM74700
+D Low Iq reverse battery protection ideal diode controller, SOT-23-6
+K ideal-diode or-ing
+F http://www.ti.com/lit/gpn/LM74700-Q1
+$ENDCMP
+#
 $CMP LMG3410
 D 600-V 12-A Integrated GaN Power Stage, RWH0032A
 K N-Channel GaN MOSFET
