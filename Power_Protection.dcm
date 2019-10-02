@@ -12,6 +12,12 @@ K ESD Protection diodes transient suppressor
 F http://www.onsemi.com/pub_link/Collateral/CM1213A-D.PDF
 $ENDCMP
 #
+$CMP DT1240A-08LP3810
+D Low Capacitance TVS Diode Array, 3.3V Standoff, 8 Channels, UDFN-9
+K usb esd protection suppression transient
+F https://www.diodes.com/assets/Datasheets/DT1240A-08LP3810.pdf
+$ENDCMP
+#
 $CMP EMI2121MTTAG
 D Single Pair Common Mode Filter with ESD Protection, WDFN-8
 K Common Mode ESD
@@ -28,6 +34,12 @@ $CMP ESDA6V1BC6
 D Quad bidirectional transil, Suppressor for ESD protection, 5V Standoff, 4 Channels, SOT-23-6
 K ESD protection suppression transient
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/21/07/21/e3/a8/df/42/a2/CD00001906.pdf/files/CD00001906.pdf/jcr:content/translations/en.CD00001906.pdf
+$ENDCMP
+#
+$CMP ESDLC5V0PB8
+D TVS Diode Array, 5.0V Standoff, 8 Channels, UDFN-9
+K usb esd protection suppression transient
+F https://www.mccsemi.com/pdf/Products/ESDLC5V0PB8(DFN3810-9)-A.pdf
 $ENDCMP
 #
 $CMP IP3319CX6
@@ -132,6 +144,12 @@ K ESD protection diode
 F https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf
 $ENDCMP
 #
+$CMP RCLAMP3328P
+D Low Capacitance TVS Diode Array, 3.3V Standoff, 8 Channels, UDFN-9
+K usb esd protection suppression transient
+F https://media.digikey.com/pdf/Data%20Sheets/Semtech%20PDFs/RCLAMP3328P.pdf
+$ENDCMP
+#
 $CMP SN65220
 D USB port transient suppressors
 K USB suppressor
@@ -190,6 +208,12 @@ $CMP SP0505BAJT
 D TVS Diode Array, 5.5V Standoff, 5 Channels, SC-70-6 package
 K usb esd protection suppression transient
 F http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf
+$ENDCMP
+#
+$CMP SP7538P
+D Low Capacitance TVS Diode Array, 5.0V Standoff, 8 Channels, UDFN-9
+K usb esd protection suppression transient
+F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp7538p_datasheet.pdf.pdf
 $ENDCMP
 #
 $CMP SRV05-4
@@ -286,6 +310,12 @@ $CMP USBLC6-2SC6
 D Bidirectional ESD Protection Diode, SOT-23-6
 K usb ethernet
 F http://www2.st.com/resource/en/datasheet/CD00050750.pdf
+$ENDCMP
+#
+$CMP WE-TVS-824014881
+D TVS Diode Array, 1.2V Standoff, 8 Channels, UDFN-9
+K usb esd protection suppression transient
+F https://katalog.we-online.de/pbs/datasheet/824014881.pdf
 $ENDCMP
 #
 $CMP ZEN056V075A48LS
