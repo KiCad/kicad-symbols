@@ -294,8 +294,20 @@ K capacitance diode varicap varactor
 F ~
 $ENDCMP
 #
+$CMP D_KAA
+D Diode, anode on pins 2 and 3
+K diode
+F ~
+$ENDCMP
+#
 $CMP D_KAK
 D Diode, cathode on pins 1 and 3
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_KKA
+D Diode, cathode on pins 1 and 2
 K diode
 F ~
 $ENDCMP
