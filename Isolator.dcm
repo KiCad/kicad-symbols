@@ -307,8 +307,8 @@ F http://www.everlight.com/file/ProductFile/EL814.pdf
 $ENDCMP
 #
 $CMP EL817
-D NPN Optocoupler, DIP4/SMD4
-K NPN Optocoupler
+D DC Optocoupler, Vce 35V, CTR 50-300%, DIP4
+K NPN DC Optocoupler
 F http://www.everlight.com/file/ProductFile/EL817.pdf
 $ENDCMP
 #
