@@ -1116,6 +1116,12 @@ K connector IEEE1394a FireWire
 F ~
 $ENDCMP
 #
+$CMP JK0654219
+D  1 Port RJ45 Magjack Connector Through Hole 10/100/1000 Base-T, AutoMDIX
+K 8P8C RJ female connector
+F https://media.digikey.com/pdf/Data%20Sheets/Pulse%20PDFs/JK%20Series.pdf
+$ENDCMP
+#
 $CMP Jack-DC
 D DC Barrel Jack
 K DC power barrel jack connector
