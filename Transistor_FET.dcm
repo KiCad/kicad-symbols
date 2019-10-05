@@ -2466,6 +2466,12 @@ K P-Channel MOSFET
 F http://www.vishay.com/docs/66709/si2319cd.pdf
 $ENDCMP
 #
+$CMP Si2371EDS
+D -3.6A Id, -30V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://www.vishay.com/docs/63924/si2371eds.pdf
+$ENDCMP
+#
 $CMP Si4162DY
 D 19.3A Id, 30V Vds, TrenchFET N-Channel Power MOSFET, SO-8
 K N-Channel MOSFET
