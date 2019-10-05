@@ -2328,6 +2328,12 @@ K N-Channel MOSFET
 F https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee
 $ENDCMP
 #
+$CMP IRLML5203
+D -3.0A Id, -30V Vds, P-Channel HEXFET Power MOSFET, 98mOhm Rds, SOT-23
+K P-Channel MOSFET
+F https://www.infineon.com/dgdl/irlml5203pbf.pdf?fileId=5546d462533600a40153566868da261d
+$ENDCMP
+#
 $CMP IRLML6402
 D -3.7A Id, -20V Vds, P-Channel MOSFET, 65mOhm Rds, SOT-23
 K P-Channel MOSFET
