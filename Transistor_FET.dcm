@@ -2334,6 +2334,12 @@ K P-Channel MOSFET
 F https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c
 $ENDCMP
 #
+$CMP IRLML9301
+D -3.6A Id, -30V Vds, P-Channel HEXFET Power MOSFET, 64mOhm Rds, SOT-23
+K P-Channel MOSFET
+F https://www.infineon.com/dgdl/irlml9301pbf.pdf?fileId=5546d462533600a401535668e5e42640
+$ENDCMP
+#
 $CMP IRLZ34N
 D 30A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 35mOhm Ron, TO-220AB
 K Single N-Channel HEXFET Power MOSFET
