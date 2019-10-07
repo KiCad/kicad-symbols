@@ -92,6 +92,12 @@ K Atmel DataFlash
 F http://ww1.microchip.com/downloads/en/devicedoc/doc2224.pdf
 $ENDCMP
 #
+$CMP AT45DB161D-SU
+D 16Mb Serial DataFlash, 2.5V Vcc, SOIC-8
+K Adesto Flash Memory DataFlash
+F https://www.adestotech.com/wp-content/uploads/doc3500.pdf
+$ENDCMP
+#
 $CMP IS25WP256D-xM
 D 256-Mbit, 1.8V SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-16
 K SPI DSPI QSPI NOR 256Mbit 1.8V
