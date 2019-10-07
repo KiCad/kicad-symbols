@@ -222,6 +222,24 @@ K Isolated DC-to-DC Converter 5kV
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM6000.PDF
 $ENDCMP
 #
+$CMP AOZ1280CI
+D 1.2 A Simple Buck Regulator, 3-26V input, 1.5Mhz
+K switching buck converter
+F http://aosmd.com/res/data_sheets/AOZ1280CI.pdf
+$ENDCMP
+#
+$CMP AOZ1282CI
+D 1.2 A Simple Buck Regulator, 4.5-36V input, 450kHz
+K switching buck converter
+F http://aosmd.com/res/data_sheets/AOZ1282CI.pdf
+$ENDCMP
+#
+$CMP AOZ1282CI-1
+D 600 mA Simple Buck Regulator, 4.5-36V input, 1MHz
+K switching buck converter
+F http://www.aosmd.com/res/data_sheets/AOZ1282CI-1.pdf
+$ENDCMP
+#
 $CMP AP6502
 D 340kHz 18V 2A Synchronois DC/DC Buck Converter
 K buck switching converter
