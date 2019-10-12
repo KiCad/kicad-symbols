@@ -420,182 +420,38 @@ K Crystal Clock Oscillator
 F http://cdn-reichelt.de/documents/datenblatt/B400/XO91.pdf
 $ENDCMP
 #
-$CMP XUH71
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
-K OTP HCMOS 1.8V VCXO
-F https://www.idt.com/document/dst/xu-family-datasheet
-$ENDCMP
-#
-$CMP XUH72
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
-K OTP HCMOS 2.5V VCXO
-F https://www.idt.com/document/dst/xu-family-datasheet
-$ENDCMP
-#
-$CMP XUH73
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
-K OTP HCMOS 3.3V VCXO
-F https://www.idt.com/document/dst/xu-family-datasheet
-$ENDCMP
-#
-$CMP XUJ71
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
-K OTP HCMOS 1.8V VCXO
-F https://www.idt.com/document/dst/xu-family-datasheet
-$ENDCMP
-#
-$CMP XUJ72
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
-K OTP HCMOS 2.5V VCXO
-F https://www.idt.com/document/dst/xu-family-datasheet
-$ENDCMP
-#
-$CMP XUJ73
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
-K OTP HCMOS 3.3V VCXO
-F https://www.idt.com/document/dst/xu-family-datasheet
-$ENDCMP
-#
-$CMP XUL71
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
-K OTP LVDS 1.8V VCXO
-F https://www.idt.com/document/dst/xu-family-datasheet
-$ENDCMP
-#
-$CMP XUL72
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
-K OTP LVDS 2.5V VCXO
-F https://www.idt.com/document/dst/xu-family-datasheet
-$ENDCMP
-#
-$CMP XUL73
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
-K OTP LVDS 3.3V VCXO
-F https://www.idt.com/document/dst/xu-family-datasheet
-$ENDCMP
-#
-$CMP XUM71
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
-K OTP LVDS 1.8V VCXO
-F https://www.idt.com/document/dst/xu-family-datasheet
-$ENDCMP
-#
-$CMP XUM72
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
-K OTP LVDS 2.5V VCXO
-F https://www.idt.com/document/dst/xu-family-datasheet
-$ENDCMP
-#
-$CMP XUM73
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
-K OTP LVDS 3.3V VCXO
-F https://www.idt.com/document/dst/xu-family-datasheet
-$ENDCMP
-#
-$CMP XUN71
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
-K OTP HCSL 1.8V VCXO
-F https://www.idt.com/document/dst/xu-family-datasheet
-$ENDCMP
-#
-$CMP XUN72
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
-K OTP HCSL 2.5V VCXO
-F https://www.idt.com/document/dst/xu-family-datasheet
-$ENDCMP
-#
-$CMP XUN73
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
-K OTP HCSL 3.3V VCXO
-F https://www.idt.com/document/dst/xu-family-datasheet
-$ENDCMP
-#
-$CMP XUO71
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
-K OTP HCSL 1.8V VCXO
-F https://www.idt.com/document/dst/xu-family-datasheet
-$ENDCMP
-#
-$CMP XUO72
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
-K OTP HCSL 2.5V VCXO
-F https://www.idt.com/document/dst/xu-family-datasheet
-$ENDCMP
-#
-$CMP XUO73
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
-K OTP HCSL 3.3V VCXO
-F https://www.idt.com/document/dst/xu-family-datasheet
-$ENDCMP
-#
-$CMP XUP71
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
-K OTP LVPECL 1.8V VCXO
-F https://www.idt.com/document/dst/xu-family-datasheet
-$ENDCMP
-#
-$CMP XUP72
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
-K OTP LVPECL 2.5V VCXO
-F https://www.idt.com/document/dst/xu-family-datasheet
-$ENDCMP
-#
-$CMP XUP73
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
-K OTP LVPECL 3.3V VCXO
-F https://www.idt.com/document/dst/xu-family-datasheet
-$ENDCMP
-#
-$CMP XUQ71
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
-K OTP LVPECL 1.8V VCXO
-F https://www.idt.com/document/dst/xu-family-datasheet
-$ENDCMP
-#
-$CMP XUQ72
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
-K OTP LVPECL 2.5V VCXO
-F https://www.idt.com/document/dst/xu-family-datasheet
-$ENDCMP
-#
-$CMP XUQ73
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
-K OTP LVPECL 3.3V VCXO
-F https://www.idt.com/document/dst/xu-family-datasheet
-$ENDCMP
-#
 $CMP XUX71
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
+D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz complementary output
 K OTP XHCMOS 1.8V VCXO
 F https://www.idt.com/document/dst/xu-family-datasheet
 $ENDCMP
 #
 $CMP XUX72
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
+D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz complementary output
 K OTP XHCMOS 2.5V VCXO
 F https://www.idt.com/document/dst/xu-family-datasheet
 $ENDCMP
 #
 $CMP XUX73
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
+D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz complementary output
 K OTP XHCMOS 3.3V VCXO
 F https://www.idt.com/document/dst/xu-family-datasheet
 $ENDCMP
 #
 $CMP XUY71
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
-K OTP XHCMOS 1.8V VCXO
+D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz complementary output
+K OTP HCMOS 1.8V VCXO
 F https://www.idt.com/document/dst/xu-family-datasheet
 $ENDCMP
 #
 $CMP XUY72
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
+D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz complementary output
 K OTP XHCMOS 2.5V VCXO
 F https://www.idt.com/document/dst/xu-family-datasheet
 $ENDCMP
 #
 $CMP XUY73
-D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz
+D Low phase noise quartz-based PLL oscillator 0.016-1500 MHz complementary output
 K OTP XHCMOS 3.3V VCXO
 F https://www.idt.com/document/dst/xu-family-datasheet
 $ENDCMP
