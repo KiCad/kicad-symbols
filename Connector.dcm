@@ -1476,6 +1476,12 @@ K raspberrypi gpio
 F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf
 $ENDCMP
 #
+$CMP Raspberry_Pi_4
+D expansion header for Raspberry Pi 4
+K raspberrypi gpio
+F https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2711/rpi_DATA_2711_1p0_preliminary.pdf
+$ENDCMP
+#
 $CMP SCART-F
 D Prise Peritel
 K connector
