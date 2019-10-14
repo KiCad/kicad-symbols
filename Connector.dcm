@@ -96,16 +96,16 @@ K 8P8C RJ female connector
 F ~
 $ENDCMP
 #
+$CMP ATX
+D ATX Power supply 20pins
+K ATX PSU
+F https://web.aub.edu.lb/pub/docs/atx_201.pdf
+$ENDCMP
+#
 $CMP ATX12V
 D ATX Power supply 24pins
 K ATX PSU
 F https://www.intel.com/content/dam/www/public/us/en/documents/guides/power-supply-design-guide-june.pdf
-$ENDCMP
-#
-$CMP ATX12_v1.x
-D ATX Power supply v1.x
-K ATX
-F https://pinouts.ru/Power/atxpower_pinout.shtml
 $ENDCMP
 #
 $CMP AVR-ISP-10
