@@ -192,6 +192,12 @@ K audio amplifier class d
 F http://www.ti.com/lit/ds/symlink/lm4990.pdf
 $ENDCMP
 #
+$CMP LME49600
+D High-Performance, High-Fidelity, High-Current Headphone Buffer, 250mA, TO-263
+K audio buffer amplifier
+F http://www.ti.com/lit/ds/symlink/lme49600.pdf
+$ENDCMP
+#
 $CMP MAX9715ETE+
 D 2.8W, Low-EMI, Stereo, Filterless Class D Audio Amplifier, TQFN-16
 K Class-D Stereo
