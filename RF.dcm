@@ -84,6 +84,12 @@ K RF attenuator
 F http://cdn.macom.com/datasheets/maadss0008.pdf
 $ENDCMP
 #
+$CMP MAAVSS0004
+D DC-2GHz, 35dB, Voltage Variable Absorptive Attenuator, SOIC-14
+K VVA
+F https://cdn.macom.com/datasheets/MAAVSS0004.pdf
+$ENDCMP
+#
 $CMP MC12080
 D 1.1 GHz Prescaler, divide by 10 20 40 80, SOIC-8
 K prescaler frequency divider
