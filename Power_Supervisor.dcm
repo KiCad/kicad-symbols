@@ -49,13 +49,13 @@ F http://www.ti.com/lit/ds/symlink/lm3880.pdf
 $ENDCMP
 #
 $CMP LM809
-D 3-Pin Microprocessor Reset (acitve-low) Circuits
+D Microprocessor Reset (active-low) Circuit, SOT-23
 K reset supervisor
 F http://www.ti.com/lit/ds/symlink/lm809.pdf
 $ENDCMP
 #
 $CMP LM810
-D 3-Pin Microprocessor Reset (acitve-high) Circuits
+D Microprocessor Reset (active-high) Circuit, SOT-23
 K reset supervisor
 F http://www.ti.com/lit/ds/symlink/lm809.pdf
 $ENDCMP
