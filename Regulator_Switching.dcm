@@ -222,6 +222,24 @@ K Isolated DC-to-DC Converter 5kV
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM6000.PDF
 $ENDCMP
 #
+$CMP AOZ1280CI
+D 1.2 A Simple Buck Regulator, 3-26V input, 1.5Mhz
+K switching buck converter
+F http://aosmd.com/res/data_sheets/AOZ1280CI.pdf
+$ENDCMP
+#
+$CMP AOZ1282CI
+D 1.2 A Simple Buck Regulator, 4.5-36V input, 450kHz
+K switching buck converter
+F http://aosmd.com/res/data_sheets/AOZ1282CI.pdf
+$ENDCMP
+#
+$CMP AOZ1282CI-1
+D 600 mA Simple Buck Regulator, 4.5-36V input, 1MHz
+K switching buck converter
+F http://www.aosmd.com/res/data_sheets/AOZ1282CI-1.pdf
+$ENDCMP
+#
 $CMP AP6502
 D 340kHz 18V 2A Synchronois DC/DC Buck Converter
 K buck switching converter
@@ -2472,6 +2490,12 @@ K Isolated DC/DC Transformer Driver
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3439fs.pdf
 $ENDCMP
 #
+$CMP LT3471
+D Dual 1.3A, 1.2MHz Boost/Inverter, DFN-10
+K dc/dc converter boost inverter
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3471fb.pdf
+$ENDCMP
+#
 $CMP LT3472
 D Boost and Inverting DC/DC Converter for CCD Bias, DFN-10
 K DC/DC converter CCD Bias Boost
@@ -3900,6 +3924,12 @@ K smps buck boost inverting
 F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
 $ENDCMP
 #
+$CMP SC4503TSK
+D 1.9A, 1.3MHz Step-Up DC/DC Converter, 2.5V-20V output voltage, TSOT23
+K 1.9A 1.3MHz Step-Up DC/DC
+F https://www.semtech.com/uploads/documents/sc4503.pdf
+$ENDCMP
+#
 $CMP ST1S10PHR
 D 3A monolithic synchronous step-down regulator, Adjustable Output Voltage, 2.5-18V Input Voltage, 900kHz, PowerSO-8
 K DC/DC Buck Conwerter 3A Low Voltage Input
@@ -5170,6 +5200,12 @@ $CMP TPS563200
 D 3A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6
 K step-down dcdc voltage regulator
 F http://www.ti.com/lit/ds/symlink/tps563200.pdf
+$ENDCMP
+#
+$CMP TPS565208
+D 5A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6
+K step-down dcdc voltage regulator
+F http://www.ti.com/lit/ds/symlink/tps565208.pdf
 $ENDCMP
 #
 $CMP TPS568215RNN
