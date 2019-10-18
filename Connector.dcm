@@ -1212,6 +1212,12 @@ K Mini-DIN
 F http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf
 $ENDCMP
 #
+$CMP Pulse_JXD6-0001NL
+D LAN Transformer Jack, RJ45, 10/100 BaseT
+K lan jack transformer
+F https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/JXD6-0001NL/doc_part/JXD6-0001NL.pdf
+$ENDCMP
+#
 $CMP RJ10
 D RJ connector, 4P4C (4 positions 4 connected)
 K 4P4C RJ female connector
