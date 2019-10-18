@@ -369,6 +369,12 @@ K ACIA
 F http://pdf.datasheetcatalog.com/datasheet/motorola/MC6850.pdf
 $ENDCMP
 #
+$CMP SC16IS740
+D Single UART with I2C/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support, TSSOP-16
+K UART I2C/SPI 64B FIFO IrDA SIR
+F https://www.nxp.com/docs/en/data-sheet/SC16IS740_750_760.pdf
+$ENDCMP
+#
 $CMP SN65LBC176D
 D Differential bus transiver, SOIC-8
 K Differential bus transiver
@@ -463,6 +469,12 @@ $CMP ST485EBDR
 D Half duplex RS-485/RS-422, 5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, with low-power shutdown, with receiver/driver enable, 256 transceiver on the bus - 40 to 85 °C, SOIC-8
 K Half duplex RS-485/RS-422, 5 Mbps, ±15kV  256 transceiver bus
 F http://www.st.com/resource/en/datasheet/st485eb.pdf
+$ENDCMP
+#
+$CMP THVD1451D
+D RS485 transceiver, 3.3-V to 5-V, 18-kV IEC ESD Protection, SOIC-8
+K rs485 transceiver line driver
+F http://www.ti.com/lit/ds/symlink/thvd1451.pdf
 $ENDCMP
 #
 $CMP Z8530

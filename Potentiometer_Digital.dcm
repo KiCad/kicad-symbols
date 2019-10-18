@@ -150,6 +150,30 @@ K R POT
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
 $ENDCMP
 #
+$CMP MCP4251-xxxx-ML
+D Dual 8 Bit Digital Pot, SPI, Volatile Memory, QFN-16
+K Digital Pot Potentiometer
+F http://ww1.microchip.com/downloads/en/devicedoc/22060b.pdf
+$ENDCMP
+#
+$CMP MCP4251-xxxx-P
+D Dual 8 Bit Digital Pot, SPI, Volatile Memory, PDIP-14
+K Digital Pot Potentiometer
+F http://ww1.microchip.com/downloads/en/devicedoc/22060b.pdf
+$ENDCMP
+#
+$CMP MCP4251-xxxx-SL
+D Dual 8 Bit Digital Pot, SPI, Volatile Memory, SOIC-14
+K Digital Pot Potentiometer
+F http://ww1.microchip.com/downloads/en/devicedoc/22060b.pdf
+$ENDCMP
+#
+$CMP MCP4251-xxxx-ST
+D Dual 8 Bit Digital Pot, SPI, Volatile Memory, TSSOP-14
+K Digital Pot Potentiometer
+F http://ww1.microchip.com/downloads/en/devicedoc/22060b.pdf
+$ENDCMP
+#
 $CMP MCP45HV31-MQ
 D 7/8-bit single +36V (+/-18V) digital pot, I2C serial interface, volatile memory, QFN-20
 K I2C Potentiometer pot digital
