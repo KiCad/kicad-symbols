@@ -1,5 +1,29 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD5272BCPZ
+D Digital potentiometer, 1024 position, 1% Resistor Tolerance, I2C interface, LFCSP-10
+K digital potentiometer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5272_5274.pdf
+$ENDCMP
+#
+$CMP AD5272BRMZ
+D Digital potentiometer, 1024 position, 1% Resistor Tolerance, I2C interface, MSOP-10
+K digital potentiometer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5272_5274.pdf
+$ENDCMP
+#
+$CMP AD5274BCPZ
+D Digital potentiometer, 256 position, 1% Resistor Tolerance, I2C interface, LFCSP-10
+K digital potentiometer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5272_5274.pdf
+$ENDCMP
+#
+$CMP AD5274BRMZ
+D Digital potentiometer, 256 position, 1% Resistor Tolerance, I2C interface, MSOP-10
+K digital potentiometer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5272_5274.pdf
+$ENDCMP
+#
 $CMP AD5280
 D Digital potentiometer, 256 position, single output, I2C interface
 K digital potentiometer
