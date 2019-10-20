@@ -1152,10 +1152,28 @@ K LEMO connector
 F  ~
 $ENDCMP
 #
+$CMP M.2_Socket_A
+D M.2 Socket 1-DP Mechanical Key A
+K M2 NGNF PCI-E
+F http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=148
+$ENDCMP
+#
+$CMP M.2_Socket_B
+D M.2 Socket 2 Mechanical Key B
+K M2 NGNF PCI-E
+F http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=154
+$ENDCMP
+#
 $CMP M.2_Socket_E
 D M.2 Socket 1-SD Mechanical Key E
 K M2 NGNF PCI-E
 F http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=150
+$ENDCMP
+#
+$CMP M.2_Socket_M
+D M.2 Socket 3 Mechanical Key M
+K M2 NGNF PCI-E
+F http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=155
 $ENDCMP
 #
 $CMP MXM3.0
