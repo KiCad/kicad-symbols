@@ -113,6 +113,7 @@
   (lib (name MCU_NXP_S08)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_NXP_S08.lib)(options "")(descr "NXP S08 microcontrollers"))
   (lib (name MCU_Nordic)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Nordic.lib)(options "")(descr "Nordic Semiconductor microcontrollers"))
   (lib (name MCU_Parallax)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Parallax.lib)(options "")(descr "Parallax microcontrollers"))
+  (lib (name MCU_Renesas_Synergy_S1)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Renesas_Synergy_S1.lib)(options "")(descr "Renesas Synergy S1 microcontrollers"))
   (lib (name MCU_SiFive)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_SiFive.lib)(options "")(descr "SiFive microcontrollers"))
   (lib (name MCU_SiliconLabs)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_SiliconLabs.lib)(options "")(descr "Silicon Labs (SiLabs) microcontrollers"))
   (lib (name MCU_ST_STM32F0)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_ST_STM32F0.lib)(options "")(descr "ST STM32F0 microcontrollers"))

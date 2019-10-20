@@ -66,6 +66,12 @@ K High Speed Optocoupler
 F https://optoelectronics.liteon.com/upload/download/DS70-2008-0032/6N135-L%206N136-L%20series.pdf
 $ENDCMP
 #
+$CMP 6N137
+D Single High Speed LSTTL/TTL Compatible Optocoupler with enable, dV/dt 1000/us, VCM 10, max 7V VCC, DIP-8
+K High speed optically coupled gates enable
+F https://docs.broadcom.com/docs/AV02-0940EN
+$ENDCMP
+#
 $CMP 6N138
 D Low Input Current high Gain Split Darlington Optocouplers, -0.5V to 7V VDD, DIP-8
 K darlington optocoupler
@@ -76,6 +82,18 @@ $CMP 6N139
 D Low Input Current high Gain Split Darlington Optocouplers, -0.5V to 18V VDD, DIP-8
 K darlington optocoupler
 F http://www.onsemi.com/pub/Collateral/HCPL2731-D.pdf
+$ENDCMP
+#
+$CMP ADN4651
+D Dual-Channel LVDS Isolators, 5 kV RMS/3.75 kV RMS, 600 Mbps, SSOP-20
+K LVDS Isolator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adn4650-4651-4652.pdf
+$ENDCMP
+#
+$CMP ADN4652
+D Dual-Channel LVDS Isolators, 5 kV RMS/3.75 kV RMS, 600 Mbps, SSOP-20
+K LVDS Isolator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adn4650-4651-4652.pdf
 $ENDCMP
 #
 $CMP ADuM1200AR
@@ -276,10 +294,22 @@ K NPN DC Optocoupler Base Connected
 F http://www.vishay.com/docs/83606/cny17.pdf
 $ENDCMP
 #
+$CMP CPC-5002
+D Dual High Speed CMOS Compatible Optocoupler, dV/dt 5000/us, VCM 20, -0.3V to 6.5V VCC, DIP-8
+K High speed optically coupled gates
+F http://www.ixysic.com/home/pdfs.nsf/www/CPC5002.pdf
+$ENDCMP
+#
 $CMP EL814
 D AC/DC NPN Optocoupler, DIP4/SMD4
 K NPN AC DC Optocoupler
 F http://www.everlight.com/file/ProductFile/EL814.pdf
+$ENDCMP
+#
+$CMP EL817
+D DC Optocoupler, Vce 35V, DIP-4
+K NPN DC Optocoupler
+F http://www.everlight.com/file/ProductFile/EL817.pdf
 $ENDCMP
 #
 $CMP H11AA1
@@ -306,16 +336,46 @@ K High Speed Schmitt Optocoupler
 F https://www.fairchildsemi.com/datasheets/H1/H11L1M.pdf
 $ENDCMP
 #
+$CMP HCPL-0600
+D Single High Speed LSTTL/TTL Compatible Optocoupler with enable, dV/dt 5000/us, VCM 1000, max 7V VCC, SOIC-8
+K High speed optically coupled gates enable
+F https://docs.broadcom.com/docs/AV02-0940EN
+$ENDCMP
+#
+$CMP HCPL-0601
+D Single High Speed LSTTL/TTL Compatible Optocoupler with enable, dV/dt 10000/us, VCM 1000, max 7V VCC, SOIC-8
+K High speed optically coupled gates enable
+F https://docs.broadcom.com/docs/AV02-0940EN
+$ENDCMP
+#
+$CMP HCPL-0611
+D Single High Speed LSTTL/TTL Compatible Optocoupler with enable, dV/dt 15000/us, VCM 1000, max 7V VCC, SOIC-8
+K High speed optically coupled gates enable
+F https://docs.broadcom.com/docs/AV02-0940EN
+$ENDCMP
+#
 $CMP HCPL-061A
-D Dual High Speed HCMOS/LSTTL/TTL Compatible Optocoupler, dV/dt 1000/us, VCM 50, -0.5V to 7V VCC, SOIC-8
-K High speed optically coupled gates
+D Single High Speed HCMOS/LSTTL/TTL Compatible Optocoupler with enable, dV/dt 1000/us, VCM 50, -0.5V to 7V VCC, SOIC-8
+K High speed optically coupled gates enable
 F http://docs.avagotech.com/docs/AV02-0391EN
 $ENDCMP
 #
 $CMP HCPL-061N
-D Dual High Speed HCMOS/LSTTL/TTL Compatible Optocoupler, dV/dt 1000/us, VCM 1000, -0.5V to 7V VCC, SOIC-8
-K High speed optically coupled gates
+D Single High Speed HCMOS/LSTTL/TTL Compatible Optocoupler with enable, dV/dt 1000/us, VCM 1000, -0.5V to 7V VCC, SOIC-8
+K High speed optically coupled gates enable
 F http://docs.avagotech.com/docs/AV02-0391EN
+$ENDCMP
+#
+$CMP HCPL-0630
+D Dual High Speed LSTTL/TTL Compatible Optocoupler, dV/dt 5000/us, VCM 1000, max 7V VCC, SOIC-8
+K High speed optically coupled gates
+F https://docs.broadcom.com/docs/AV02-0940EN
+$ENDCMP
+#
+$CMP HCPL-0631
+D Dual High Speed LSTTL/TTL Compatible Optocoupler, dV/dt 10000/us, VCM 1000, max 7V VCC, SOIC-8
+K High speed optically coupled gates
+F https://docs.broadcom.com/docs/AV02-0940EN
 $ENDCMP
 #
 $CMP HCPL-063A
@@ -330,16 +390,46 @@ K High speed optically coupled gates
 F http://docs.avagotech.com/docs/AV02-0391EN
 $ENDCMP
 #
-$CMP HCPL-261A
-D Dual High Speed HCMOS/LSTTL/TTL Compatible Optocoupler, dV/dt 1000/us, VCM 50, -0.5V to 7V VCC, DIP-8
+$CMP HCPL-0661
+D Dual High Speed LSTTL/TTL Compatible Optocoupler, dV/dt 15000/us, VCM 1000, max 7V VCC, SOIC-8
 K High speed optically coupled gates
+F https://docs.broadcom.com/docs/AV02-0940EN
+$ENDCMP
+#
+$CMP HCPL-2601
+D Single High Speed LSTTL/TTL Compatible Optocoupler with enable, dV/dt 10000/us, VCM 1000, max 7V VCC, DIP-8
+K High speed optically coupled gates enable
+F https://docs.broadcom.com/docs/AV02-0940EN
+$ENDCMP
+#
+$CMP HCPL-2611
+D Single High Speed LSTTL/TTL Compatible Optocoupler with enable, dV/dt 15000/us, VCM 1000, max 7V VCC, DIP-8
+K High speed optically coupled gates enable
+F https://docs.broadcom.com/docs/AV02-0940EN
+$ENDCMP
+#
+$CMP HCPL-261A
+D Single High Speed HCMOS/LSTTL/TTL Compatible Optocoupler with enable, dV/dt 1000/us, VCM 50, -0.5V to 7V VCC, DIP-8
+K High speed optically coupled gates enable
 F http://docs.avagotech.com/docs/AV02-0391EN
 $ENDCMP
 #
 $CMP HCPL-261N
-D Dual High Speed HCMOS/LSTTL/TTL Compatible Optocoupler, dV/dt 1000/us, VCM 1000, -0.5V to 7V VCC, DIP-8
-K High speed optically coupled gates
+D Single High Speed HCMOS/LSTTL/TTL Compatible Optocoupler with enable, dV/dt 1000/us, VCM 1000, -0.5V to 7V VCC, DIP-8
+K High speed optically coupled gates enable
 F http://docs.avagotech.com/docs/AV02-0391EN
+$ENDCMP
+#
+$CMP HCPL-2630
+D Dual High Speed LSTTL/TTL Compatible Optocoupler, dV/dt 5000/us, VCM 1000, max 7V VCC, DIP-8
+K High speed optically coupled gates
+F https://docs.broadcom.com/docs/AV02-0940EN
+$ENDCMP
+#
+$CMP HCPL-2631
+D Dual High Speed LSTTL/TTL Compatible Optocoupler, dV/dt 10000/us, VCM 1000, max 7V VCC, DIP-8
+K High speed optically coupled gates
+F https://docs.broadcom.com/docs/AV02-0940EN
 $ENDCMP
 #
 $CMP HCPL-263A
@@ -352,6 +442,12 @@ $CMP HCPL-263N
 D Dual High Speed HCMOS/LSTTL/TTL Compatible Optocoupler, dV/dt 1000/us, VCM 1000, -0.5V to 7V VCC, DIP-8
 K High speed optically coupled gates
 F http://docs.avagotech.com/docs/AV02-0391EN
+$ENDCMP
+#
+$CMP HCPL-4661
+D Dual High Speed LSTTL/TTL Compatible Optocoupler, dV/dt 15000/us, VCM 1000, max 7V VCC, DIP-8
+K High speed optically coupled gates
+F https://docs.broadcom.com/docs/AV02-0940EN
 $ENDCMP
 #
 $CMP HCPL-9000
@@ -625,7 +721,7 @@ F http://www.sharpsma.com/webfm_send/395
 $ENDCMP
 #
 $CMP PC817
-D DC Optocoupler, Vce 35V, CTR 50-300%, DIP4
+D DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4
 K NPN DC Optocoupler
 F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
 $ENDCMP
@@ -1384,6 +1480,72 @@ $CMP TLP785F
 D DC Optocoupler, Vce 80V, CTR 50-200%, DIP4F
 K NPN DC Optocoupler
 F https://toshiba.semicon-storage.com/info/docget.jsp?did=10569&prodName=TLP785F
+$ENDCMP
+#
+$CMP VO0600T
+D Single High Speed CMOS Compatible Optocoupler with enable, dV/dt 1000/us, VCM 10, max 7V VCC, SOIC-8
+K High speed optically coupled gates enable
+F http://www.vishay.com/doc?84607
+$ENDCMP
+#
+$CMP VO0601T
+D Single High Speed CMOS Compatible Optocoupler with enable, dV/dt 5000/us, VCM 50, max 7V VCC, SOIC-8
+K High speed optically coupled gates enable
+F http://www.vishay.com/doc?84607
+$ENDCMP
+#
+$CMP VO0611T
+D Single High Speed CMOS Compatible Optocoupler with enable, dV/dt 15000/us, VCM 1000, max 7V VCC, SOIC-8
+K High speed optically coupled gates enable
+F http://www.vishay.com/doc?84607
+$ENDCMP
+#
+$CMP VO0630T
+D Dual High Speed CMOS Compatible Optocoupler, dV/dt 1000/us, VCM 50, max 7V VCC, SOIC-8
+K High speed optically coupled gates
+F http://www.vishay.com/doc?84607
+$ENDCMP
+#
+$CMP VO0631T
+D Dual High Speed CMOS Compatible Optocoupler, dV/dt 5000/us, VCM 1000, max 7V VCC, SOIC-8
+K High speed optically coupled gates
+F http://www.vishay.com/doc?84607
+$ENDCMP
+#
+$CMP VO0661T
+D Dual High Speed CMOS Compatible Optocoupler, dV/dt 15000/us, VCM 1000, max 7V VCC, SOIC-8
+K High speed optically coupled gates
+F http://www.vishay.com/doc?84607
+$ENDCMP
+#
+$CMP VO2601
+D Single High Speed CMOS Compatible Optocoupler with enable, dV/dt 5000/us, VCM 50, max 7V VCC, DIP-8
+K High speed optically coupled gates enable
+F https://www.vishay.com/doc?84732
+$ENDCMP
+#
+$CMP VO2611
+D Single High Speed CMOS Compatible Optocoupler with enable, dV/dt 15000/us, VCM 1000, max 7V VCC, DIP-8
+K High speed optically coupled gates enable
+F https://www.vishay.com/doc?84732
+$ENDCMP
+#
+$CMP VO2630
+D Dual High Speed CMOS Compatible Optocoupler, dV/dt 1000/us, VCM 10, max 7V VCC, DIP-8
+K High speed optically coupled gates
+F https://www.vishay.com/doc?84732
+$ENDCMP
+#
+$CMP VO2631
+D Dual High Speed CMOS Compatible Optocoupler, dV/dt 5000/us, VCM 50, max 7V VCC, DIP-8
+K High speed optically coupled gates
+F https://www.vishay.com/doc?84732
+$ENDCMP
+#
+$CMP VO4661
+D Dual High Speed CMOS Compatible Optocoupler, dV/dt 15000/us, VCM 1000, max 7V VCC, DIP-8
+K High speed optically coupled gates
+F https://www.vishay.com/doc?84732
 $ENDCMP
 #
 $CMP VO615A
