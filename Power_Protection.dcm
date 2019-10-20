@@ -270,6 +270,18 @@ K ESD-Protection
 F http://www.ti.com/lit/ds/symlink/tpd3s014.pdf
 $ENDCMP
 #
+$CMP TPD4E1B06DCK
+D ESD Protection, Quad-Channel, SC70, 0.7pF line-capacitance, 0.5nA leakage current, +- 12kV contact protection, +- 15kV airgap protection
+K ESD-Protection, Low-Leakage, TVS, Quad-Channel
+F http://www.ti.com/lit/ds/symlink/tpd2e2u06.pdf
+$ENDCMP
+#
+$CMP TPD4E1B06DRL
+D ESD Protection, SOT-5X3, Quad-Channel, 0.7pF line-capacitance, 0.5nA leakage current, +- 12kV contact protection, +- 15kV airgap protection
+K ESD-Protection, Low-Leakage, TVS, Quad-Channel
+F http://www.ti.com/lit/ds/symlink/tpd2e2u06.pdf
+$ENDCMP
+#
 $CMP TPD4EUSB30
 D 4-Channel ESD Protection for Super-Speed USB 3.0 Interface, USON-10
 K ESD protection USB 3.0
