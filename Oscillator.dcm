@@ -84,6 +84,12 @@ K Crystal Clock Oscillator
 F http://www.conwin.com/datasheets/cx/cx030.pdf
 $ENDCMP
 #
+$CMP ECS-2520MV-xxx-xx
+D HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD
+K Crystal Clock Oscillator ECS SMD
+F https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf
+$ENDCMP
+#
 $CMP GTXO-14T
 D Crystal Clock Oscillator, DIP14-style metal package
 K Crystal Clock Oscillator
@@ -117,13 +123,13 @@ $ENDCMP
 $CMP JTOS-25
 D Voltage Controlled Oscillator, 12.5 to 25 MHz, Mini-Circuits BK377
 K VCXO
-F https://ww2.minicircuits.com/pdfs/JTOS-25+.pdf
+F https://www.minicircuits.com/pdfs/JTOS-25+.pdf
 $ENDCMP
 #
 $CMP JTOS-50
 D Voltage Controlled Oscillator, 25 to 47 MHz, Mini-Circuits BK377
 K VCXO
-F https://ww2.minicircuits.com/pdfs/JTOS-50+.pdf
+F https://www.minicircuits.com/pdfs/JTOS-50+.pdf
 $ENDCMP
 #
 $CMP KT2520K-T
