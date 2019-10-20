@@ -426,9 +426,33 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/lmv324.pdf
 $ENDCMP
 #
-$CMP LMV601
-D 1MHz, Low-Power, General-Purpose, 2.7V Operational Amplifiers, SC-70-6
+$CMP LMV601MG
+D 1MHz, Low-Power, General-Purpose, 2.7V Single Op-Amp, SC-70-6
 K single opamp
+F http://www.ti.com/lit/ds/symlink/lmv601.pdf
+$ENDCMP
+#
+$CMP LMV602MA
+D 1MHz, Low-Power, General-Purpose, 2.7V Dual Op-Amp, SOIC-8
+K dual opamp
+F http://www.ti.com/lit/ds/symlink/lmv601.pdf
+$ENDCMP
+#
+$CMP LMV602MM
+D 1MHz, Low-Power, General-Purpose, 2.7V Dual Op-Amp, VSSOP-8
+K dual opamp
+F http://www.ti.com/lit/ds/symlink/lmv601.pdf
+$ENDCMP
+#
+$CMP LMV604MA
+D 1MHz, Low-Power, General-Purpose, 2.7V Quad Op-Amp, SOIC-14
+K quad opamp
+F http://www.ti.com/lit/ds/symlink/lmv601.pdf
+$ENDCMP
+#
+$CMP LMV604MT
+D 1MHz, Low-Power, General-Purpose, 2.7V Quad Op-Amp, TSSOP-14
+K quad opamp
 F http://www.ti.com/lit/ds/symlink/lmv601.pdf
 $ENDCMP
 #
