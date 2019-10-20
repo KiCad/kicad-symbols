@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD5254
+D Digital potentiometer, 256 position, 4 output, I2C interface
+K digital potentiometer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5253_5254.pdf
+$ENDCMP
+#
 $CMP AD5280
 D Digital potentiometer, 256 position, single output, I2C interface
 K digital potentiometer
