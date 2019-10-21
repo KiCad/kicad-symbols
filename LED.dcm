@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP APA-106-F5
+D RGB LED with integrated controller, 5mm Package
+K RGB LED addressable 8bit pwm 5bit greyscale
+F https://cdn.sparkfun.com/datasheets/Components/LED/COM-12877.pdf
+$ENDCMP
+#
 $CMP APA102
 D RGB LED with integrated controller
 K RGB LED addressable 8bit pwm 5bit greyscale
@@ -40,6 +46,12 @@ $CMP ASMT-YTC2-0AA02
 D Triple LED RVB (Avago Technology)
 K LED RGB
 F http://www.avagotech.com/docs/AV02-2589EN
+$ENDCMP
+#
+$CMP CLS6B-FKW
+D Cree PLCC6 3 in 1 SMD LED, PLCC-6
+K LED RGB
+F https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf
 $ENDCMP
 #
 $CMP CLV1L-FKB
@@ -132,6 +144,12 @@ K opto IR LED
 F http://www.everlight.com/file/ProductFile/IR204-A.pdf
 $ENDCMP
 #
+$CMP IR26-21C_L110_TR8
+D 940nm, 20 deg, Infrared LED, 1206
+K IR LED
+F http://www.everlight.com/file/ProductFile/IR26-21C-L110-TR8.pdf
+$ENDCMP
+#
 $CMP IRL81A
 D 850nm High Power Infrared Emitter, Side-Emitter package
 K IR LED
@@ -190,6 +208,18 @@ $CMP NeoPixel_THT
 D RGB LED with integrated controller, 5mm/8mm LED package
 K RGB LED NeoPixel addressable
 F https://www.adafruit.com/product/1938
+$ENDCMP
+#
+$CMP QLS6A-FKW
+D Cree PLCC6 3 in 1 SMD LED with zener protection, PLCC-6
+K LED RGB
+F https://www.cree.com/led-components/media/documents/1381-QLS6AFKW.pdf
+$ENDCMP
+#
+$CMP QLS6B-FKW
+D Cree PLCC6 3 in 1 SMD LED, PLCC-6
+K LED RGB
+F https://www.cree.com/led-components/media/documents/1397-QLS6BFKW.pdf
 $ENDCMP
 #
 $CMP SFH4346
