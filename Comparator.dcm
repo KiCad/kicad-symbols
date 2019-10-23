@@ -156,6 +156,12 @@ K cmp r2r rtr
 F https://www.analog.com/media/en/technical-documentation/data-sheets/6754f.pdf
 $ENDCMP
 #
+$CMP MAX941
+D High-Speed, Low-Power, 3V/5V, Rail-to-Rail, Single-Supply Comparator
+K comp
+F https://datasheets.maximintegrated.com/en/ds/MAX941-MAX944.pdf
+$ENDCMP
+#
 $CMP MCP6561-OT
 D Single 1.8V Low-Power Push-Pull Output Comparator, SOT-23-5
 K single comparator
