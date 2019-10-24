@@ -330,12 +330,6 @@ K pcie
 F http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=63
 $ENDCMP
 #
-$CMP Bus_PCI_Express_x16_all_pins
-D Mini-PCI Express bus connector
-K mini pcie
-F ~
-$ENDCMP
-#
 $CMP Bus_PCI_Express_x4
 D PCI Express bus connector x4
 K pcie
