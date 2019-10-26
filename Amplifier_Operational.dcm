@@ -42,6 +42,12 @@ K dual opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8610_8620.pdf
 $ENDCMP
 #
+$CMP AD8676xR
+D Dual operational amplifier, Ultra-precision, 36V, Rail-to-rail output, SOIC-8
+K dual opamp precision high-voltage RRO RTR
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8676.pdf
+$ENDCMP
+#
 $CMP ADA4075-2
 D Ultralow Noise Amplifier at Lower Power, SOIC-8/LFCSP-8
 K dual low-power opamp
@@ -424,6 +430,18 @@ $CMP LMV601
 D 1MHz, Low-Power, General-Purpose, 2.7V Operational Amplifiers, SC-70-6
 K single opamp
 F http://www.ti.com/lit/ds/symlink/lmv601.pdf
+$ENDCMP
+#
+$CMP LPV811DBV
+D Single operational amplifier, 8kHz GBW, 425 nA/channel quiescent, 100 fA input bias, 300 uV offset max, 1 uV/C, SOT-23-5
+K single opamp low-power rail-to-rail
+F https://www.ti.com/lit/ds/symlink/lpv812.pdf
+$ENDCMP
+#
+$CMP LPV812DGK
+D Dual operational amplifier, 8kHz GBW, 425 nA/channel quiescent, 100 fA input bias, 300 uV offset max, 1 uV/C, VSSOP-8
+K dual opamp low-power rail-to-rail
+F https://www.ti.com/lit/ds/symlink/lpv812.pdf
 $ENDCMP
 #
 $CMP LT1012
@@ -948,6 +966,24 @@ K single opamp zero-drift
 F http://www.ti.com/lit/ds/symlink/opa188.pdf
 $ENDCMP
 #
+$CMP OPA196xD
+D Sing, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa4196.pdf
+$ENDCMP
+#
+$CMP OPA196xDBV
+D Single, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOT-23-5
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa4196.pdf
+$ENDCMP
+#
+$CMP OPA196xDGK
+D Single, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, VSSOP-8
+K single opamp rtor
+F http://www.ti.com/lit/ds/symlink/opa4196.pdf
+$ENDCMP
+#
 $CMP OPA197xD
 D Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8
 K single opamp rtor
@@ -970,6 +1006,18 @@ $CMP OPA2134
 D Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8
 K dual opamp
 F http://www.ti.com/lit/ds/symlink/opa134.pdf
+$ENDCMP
+#
+$CMP OPA2196xD
+D Dual, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-8
+K dual opamp low-power
+F http://www.ti.com/lit/ds/symlink/opa4196.pdf
+$ENDCMP
+#
+$CMP OPA2196xDGK
+D Dual, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, VSSOP-8
+K dual opamp rtor
+F http://www.ti.com/lit/ds/symlink/opa4196.pdf
 $ENDCMP
 #
 $CMP OPA2197xD
@@ -1174,6 +1222,18 @@ $CMP OPA4134
 D Quad SoundPlus High Performance Audio Operational Amplifiers, SOIC-14
 K quad opamp
 F http://www.ti.com/lit/ds/symlink/opa134.pdf
+$ENDCMP
+#
+$CMP OPA4196xD
+D Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-14
+K quad opamp rtor
+F http://www.ti.com/lit/ds/symlink/opa4196.pdf
+$ENDCMP
+#
+$CMP OPA4196xPW
+D Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, TSSOP-14
+K quad opamp rtor
+F http://www.ti.com/lit/ds/symlink/opa4196.pdf
 $ENDCMP
 #
 $CMP OPA4197xD
