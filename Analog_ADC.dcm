@@ -395,6 +395,12 @@ K ADC I2C 16-Bit Oversampling Current Shunt
 F http://www.ti.com/lit/ds/symlink/ina226.pdf
 $ENDCMP
 #
+$CMP INA233
+D High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C, SMBus-, and PMBus-Compatible Interface, VSSOP-10
+K ADC I2C 16-Bit Oversampling Current Shunt
+F https://www.ti.com/lit/ds/symlink/ina233.pdf
+$ENDCMP
+#
 $CMP LTC1406CGN
 D ADC 8bit Low Power 20Msps, SSOP-24
 K Low Power ADC 8bit 20Msps
