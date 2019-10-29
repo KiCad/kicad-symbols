@@ -18,6 +18,12 @@ K MCU microcontroller silicon labs siliconlabs silabs EFM32 happy gecko
 F https://www.silabs.com/documents/public/data-sheets/efm32hg-datasheet.pdf
 $ENDCMP
 #
+$CMP EFM32HG308F32-C-QFN24
+D 32-bit ARM Cortex-M0 microcontroller, 32 kB flash, 4 kB  RAM, Silicon Labs - Happy Gecko, QFN-24
+K MCU microcontroller silicon labs siliconlabs silabs EFM32 happy gecko
+F https://www.silabs.com/documents/public/data-sheets/efm32hg-datasheet.pdf
+$ENDCMP
+#
 $CMP EFM8BB10F2A-A-QFN20
 D 8051-compatible microcontroller, 25 MHz, 2.2 to 3.6V, 2K flash, 256B RAM, -40 to +125 C (automotive), QFN20
 K 8051 microcontroller PWM UART SPI I2C ADC QFN20 automotive
