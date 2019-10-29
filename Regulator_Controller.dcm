@@ -474,6 +474,12 @@ K SMPS PWM Controller
 F http://www.ti.com/lit/ds/symlink/tl494.pdf
 $ENDCMP
 #
+$CMP TPS23753A
+D IEEE 802.3 PoE Interface and Converter Controller With Enhanced ESD Immunity
+K poe power over ethernet controller isolated
+F http://www.ti.com/lit/ds/symlink/tps23753a.pdf
+$ENDCMP
+#
 $CMP UC3525
 D Regulating Pulse Width Modulators, NOR Logic, PDIP-16/SOIC-16
 K SMPS PWM Controller
