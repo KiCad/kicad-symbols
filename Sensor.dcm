@@ -13,13 +13,13 @@ F https://www.embeddedadventures.com/datasheets/AS3935_Datasheet_EN_v2.pdf
 $ENDCMP
 #
 $CMP BME280
-D 3-in-1 humidity, pressure and temperature sensor, I2C and SPI interface, 1.71-3.6V, LGA-8
+D 3-in-1 sensor, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8
 K Bosch pressure humidity temperature environment environmental measurement digital
 F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf
 $ENDCMP
 #
 $CMP BME680
-D 4-in-1 gas, humidity, pressure and temperature sensor, I2C and SPI interface, 1.71-3.6V, LGA-8
+D 4-in-1 sensor, gas, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8
 K Bosch gas pressure humidity temperature environment environmental measurement digital
 F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf
 $ENDCMP
