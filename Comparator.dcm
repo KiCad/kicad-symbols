@@ -216,4 +216,16 @@ K single comparator
 F http://www.ti.com/lit/ds/symlink/tl3116.pdf
 $ENDCMP
 #
+$CMP TLV7031DBV
+D Single, 1.6V-6.5V, 315nA Quiescent, Push-Pull Output, Comparator, SOT-23-5/SC-70
+K single comparator
+F https://www.ti.com/lit/ds/symlink/tlv7031.pdf
+$ENDCMP
+#
+$CMP TLV7041DBV
+D Single, 1.6V-6.5V, 315nA Quiescent, Open-Drain Output, Comparator, SOT-23-5/SC-70
+K single comparator
+F https://www.ti.com/lit/ds/symlink/tlv7041.pdf
+$ENDCMP
+#
 #End Doc Library
