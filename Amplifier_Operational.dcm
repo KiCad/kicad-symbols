@@ -108,6 +108,12 @@ K opamp dual low noise low distortion
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf
 $ENDCMP
 #
+$CMP AS13704
+D Quad Operational Transconductance Amplifiers (OTA), with linearizing diodes, SSOP24
+K operational transconductance amplifier OTA
+F http://www.alfarzpp.lv/eng/sc/AS13704.pdf
+$ENDCMP
+#
 $CMP CA3080
 D 2MHz, Operational Transconductance Amplifier (OTA), gM spread 2:1, DIP-8/SOIC-8
 K operational transconductance amplifier ota
