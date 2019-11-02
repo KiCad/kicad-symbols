@@ -229,9 +229,9 @@ F https://iqrf.org/weben/downloads.php?id=337
 $ENDCMP
 #
 $CMP Wireless-Shell
-D RF Module, ESP32 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, QFN-48
-K RF Radio BT ESP ESP32 Espressif external antenna
-F https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf
+D RF Module, LoRa, SX1276, ESP32-PICO, ESP32, Heltec, Espressif, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external U.FL antenna connector
+K RF Module LoRa SX1276 ESP32-PICO ESP32 Heltec Espressif Wi-Fi 802.11b/g/n Bluetooth BLE 32-bit 2.7-3.6V external U.FL antenna connector
+F https://heltec.org/project/wireless-shell/
 $ENDCMP
 #
 $CMP iM880A
