@@ -378,6 +378,66 @@ K pulse
 F https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf
 $ENDCMP
 #
+$CMP POE13P-12L
+D SMD Flyback transformer for PoE applications, 13W, 12V
+K poe transformer flyback
+$ENDCMP
+#
+$CMP POE13P-19L
+D SMD Flyback transformer for PoE applications, 13W, 19V
+K poe transformer flyback
+F https://www.coilcraft.com/pdfs/poe_ep.pdf
+$ENDCMP
+#
+$CMP POE13P-24L
+D SMD Flyback transformer for PoE applications, 13W, 24V
+K poe transformer flyback
+F https://www.coilcraft.com/pdfs/poe_ep.pdf
+$ENDCMP
+#
+$CMP POE13P-33L
+D SMD Flyback transformer for PoE applications, 13W, 3,3V
+K poe transformer flyback
+F https://www.coilcraft.com/pdfs/poe_ep.pdf
+$ENDCMP
+#
+$CMP POE13P-50L
+D SMD Flyback transformer for PoE applications, 13W, 5V
+K poe transformer flyback
+$ENDCMP
+#
+$CMP POE30P-12L
+D SMD Flyback transformer for PoE applications, 3W, 12V
+K poe transformer flyback
+$ENDCMP
+#
+$CMP POE30P-33L
+D SMD Flyback transformer for PoE applications, 3W, 3,3V
+K poe transformer flyback
+F https://www.coilcraft.com/pdfs/poe_ep.pdf
+$ENDCMP
+#
+$CMP POE30P-50L
+D SMD Flyback transformer for PoE applications, 3W, 5V
+K poe transformer flyback
+$ENDCMP
+#
+$CMP POE70P-12L
+D SMD Flyback transformer for PoE applications, 7W, 12V
+K poe transformer flyback
+$ENDCMP
+#
+$CMP POE70P-33L
+D SMD Flyback transformer for PoE applications, 7W, 3,3V
+K poe transformer flyback
+F https://www.coilcraft.com/pdfs/poe_ep.pdf
+$ENDCMP
+#
+$CMP POE70P-50L
+D SMD Flyback transformer for PoE applications, 7W, 5V
+K poe transformer flyback
+$ENDCMP
+#
 $CMP PT61017PEL
 D Ethernet LAN 10/100 Base-Tx Transformer with Center Taps
 K single port ethernet transformer poe center-tap
