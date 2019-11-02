@@ -908,7 +908,7 @@ F1 "Wireless-Shell" 150 1150 50 H V L CNN
 F2 "RF_Module:Wireless-Shell" 0 -1400 50 H I C CNN
 F3 "" 250 -1350 50 H I C CNN
 $FPLIST
- Wireless-Shell
+ Wireless?Shell*
 $ENDFPLIST
 DRAW
 S -700 1100 700 -1200 0 1 10 f
