@@ -48,6 +48,12 @@ K common mode filter ESD protection
 F https://assets.nexperia.com/documents/data-sheet/IP3319CX6.pdf
 $ENDCMP
 #
+$CMP NUF4401MN
+D 4 channel EMI filters with integrated ESD protection
+K EMI, ESD protection
+F https://www.onsemi.com/pub/Collateral/NUF4401MN-D.PDF
+$ENDCMP
+#
 $CMP NUP2105L
 D Dual Line CAN Bus Protector, 24Vrwm
 K can esd protection suppression transient
