@@ -216,12 +216,6 @@ K Mini-Circuits RF Transformer
 F https://www.minicircuits.com/pdfs/ADTT4-1+.pdf
 $ENDCMP
 #
-$CMP ARJP11A-MASA-B-A-EMU2
-D RJ45 PoE 10/100 Base-TX Jack with Magnetic Module
-K single port ethernet transformer poe center-tap
-F https://abracon.com/Magnetics/lan/ARJP11A.PDF
-$ENDCMP
-#
 $CMP CST1
 D Coilcraft Current Sense Transformer, SMD, 20A, 1:20 to 1:125
 K current sense transformer
