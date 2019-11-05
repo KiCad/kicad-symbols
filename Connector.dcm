@@ -96,12 +96,6 @@ K 8P8C RJ female connector
 F ~
 $ENDCMP
 #
-$CMP ARJP11A-MASA-B-A-EMU2
-D RJ45 PoE 10/100 Base-TX Jack with Magnetic Module
-K single port ethernet transformer poe center-tap
-F https://abracon.com/Magnetics/lan/ARJP11A.PDF
-$ENDCMP
-#
 $CMP AVR-ISP-10
 D Atmel 10-pin ISP connector
 K AVR ISP Connector
@@ -1414,6 +1408,12 @@ $CMP RJ45
 D RJ connector, 8P8C (8 positions 8 connected)
 K 8P8C RJ female connector
 F ~
+$ENDCMP
+#
+$CMP RJ45_Abracon_ARJP11A-MASA-B-A-EMU2
+D RJ45 PoE 10/100 Base-TX Jack with Magnetic Module
+K single port ethernet transformer poe center-tap
+F https://abracon.com/Magnetics/lan/ARJP11A.PDF
 $ENDCMP
 #
 $CMP RJ45_Amphenol_RJMG1BD3B8K1ANR
