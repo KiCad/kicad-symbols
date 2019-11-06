@@ -516,6 +516,42 @@ K Single Pole Reed Relay SPST
 F https://standexelectronics.com/de/produkte/ms-reed-relais/
 $ENDCMP
 #
+$CMP RAYEX-L90
+D Power relay, SPDT, 30A
+K 30A Single Pole Relay
+F https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+$ENDCMP
+#
+$CMP RAYEX-L90A
+D Power relay, NO, SPST, 30A
+K 30A Single Pole Relay
+F https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+$ENDCMP
+#
+$CMP RAYEX-L90AS
+D Power relay, Without Common Terminal between coil terminals, NO, SPST, 30A
+K 30A Single Pole Relay
+F https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+$ENDCMP
+#
+$CMP RAYEX-L90B
+D Power relay, NC, SPST, 30A
+K 30A Single Pole Relay
+F https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+$ENDCMP
+#
+$CMP RAYEX-L90BS
+D Power relay, Without Common Terminal between coil terminals, NC, SPST, 30A
+K 30A Single Pole Relay
+F https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+$ENDCMP
+#
+$CMP RAYEX-L90S
+D Power relay, Without Common Terminal between coil terminals, SPDT, 30A
+K 30A Single Pole Relay
+F https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+$ENDCMP
+#
 $CMP RM50-xx21
 D RELPOL, Single Pole Relay SPST-NO, 6A
 K Single Pole Relay SPST-NO
