@@ -216,6 +216,12 @@ K integrated class d amplifier
 F https://www.infineon.com/dgdl/Infineon-MA12070P-DS-v01_00-EN.pdf?fileId=5546d46264a8de7e0164b761f2f261e4
 $ENDCMP
 #
+$CMP LME49600
+D High-Performance, High-Fidelity, High-Current Headphone Buffer, 250mA, TO-263
+K audio buffer amplifier
+F http://www.ti.com/lit/ds/symlink/lme49600.pdf
+$ENDCMP
+#
 $CMP MAX9715ETE+
 D 2.8W, Low-EMI, Stereo, Filterless Class D Audio Amplifier, TQFN-16
 K Class-D Stereo
