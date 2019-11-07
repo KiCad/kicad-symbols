@@ -222,16 +222,16 @@ K FTDI USB FIFO Interface Converter
 F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT245BM.pdf
 $ENDCMP
 #
-$CMP FT4232H
-D Hi Speed Quad Channel USB UART/FIFO, LQFP/QFN-64
-K FTDI USB Quad UART FIFO
-F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf
-$ENDCMP
-#
 $CMP FT4222HQ
 D USB 2.0 to Quad SPI or I2C Bridge, VQFN-32
 K USB SPI I2C FTDI Bridge Converter Interface
 F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4222H.pdf
+$ENDCMP
+#
+$CMP FT4232H
+D Hi Speed Quad Channel USB UART/FIFO, LQFP/QFN-64
+K FTDI USB Quad UART FIFO
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf
 $ENDCMP
 #
 $CMP FUSB302B01MPX
