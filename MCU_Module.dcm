@@ -12,6 +12,12 @@ K Arduino LEONARDO Microcontroller Module Atmel AVR USB
 F https://www.arduino.cc/en/Main/ArduinoBoardLeonardo
 $ENDCMP
 #
+$CMP Arduino_MKR
+D Arduino MKR Microcontroller Series
+K Arduino UNO MKR Microcontroller Module Atmel AVR USB
+F https://www.arduino.cc/en/Main/arduinoBoardUno
+$ENDCMP
+#
 $CMP Arduino_Nano_v2.x
 D Arduino Nano v2.x
 K Arduino nano microcontroller module USB
