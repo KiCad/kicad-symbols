@@ -219,7 +219,43 @@ $ENDCMP
 $CMP LT3755xUD-2
 D 40 Vin, 75 Vout, DC/DC LED Controllers, Improved Open led Status pin, QFN-16
 K Boost Buck Buck-Boost SEPIC Flyback
-F https://www.analog.com/media/en/technical-documentation/data-sheets/37551fd.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/375612fb.pdf
+$ENDCMP
+#
+$CMP LT3756xMSE
+D 100 Vin, 100 Vout, DC/DC LED Controllers, Hysteresis Open led Status pin, MSOP-16
+K Boost Buck Buck-Boost SEPIC Flyback
+F https://www.analog.com/media/en/technical-documentation/data-sheets/375612fb.pdf
+$ENDCMP
+#
+$CMP LT3756xMSE-1
+D 100 Vin, 100 Vout, DC/DC LED Controllers, Frequency Synchronisation, MSOP-16
+K Boost Buck Buck-Boost SEPIC Flyback
+F https://www.analog.com/media/en/technical-documentation/data-sheets/375612fb.pdf
+$ENDCMP
+#
+$CMP LT3756xMSE-2
+D 100 Vin, 100 Vout, DC/DC LED Controllers, Improved Open Led Status Pin, MSOP-16
+K Boost Buck Buck-Boost SEPIC Flyback
+F https://www.analog.com/media/en/technical-documentation/data-sheets/375612fb.pdf
+$ENDCMP
+#
+$CMP LT3756xUD
+D 100 Vin, 100 Vout, DC/DC LED Controller, Hysteresis Open led Status pins, QFN-16
+K Boost Buck Buck-Boost SEPIC Flyback
+F https://www.analog.com/media/en/technical-documentation/data-sheets/375612fb.pdf
+$ENDCMP
+#
+$CMP LT3756xUD-1
+D 100 Vin, 100 Vout, DC/DC LED Controllers, Frequency Synchronisation, QFN-16
+K Boost Buck Buck-Boost SEPIC Flyback
+F https://www.analog.com/media/en/technical-documentation/data-sheets/375612fb.pdf
+$ENDCMP
+#
+$CMP LT3756xUD-2
+D 100 Vin, 100 Vout, DC/DC LED Controllers, Improved Open led Status pin, QFN-16
+K Boost Buck Buck-Boost SEPIC Flyback
+F https://www.analog.com/media/en/technical-documentation/data-sheets/375612fb.pdf
 $ENDCMP
 #
 $CMP MAX7219
