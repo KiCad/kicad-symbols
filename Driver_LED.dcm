@@ -222,12 +222,6 @@ K Boost Buck Buck-Boost SEPIC Flyback
 F https://www.analog.com/media/en/technical-documentation/data-sheets/37551fd.pdf
 $ENDCMP
 #
-$CMP LT3756xMSE
-D 100 Vin, 100 Vout, DC/DC LED Controllers, Hysteresis Open led Status pin, MSOP-16
-K Boost Buck Buck-Boost SEPIC Flyback
-F https://www.analog.com/media/en/technical-documentation/data-sheets/375612fb.pdf
-$ENDCMP
-#
 $CMP MAX7219
 D 8-Digit LED Display Driver
 K LED 8-Digit Display Driver
