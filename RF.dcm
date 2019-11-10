@@ -25,7 +25,7 @@ F https://www.minicircuits.com/pdfs/AMK-2-13+.pdf
 $ENDCMP
 #
 $CMP CC1000
-D Single Chip Low Power RF Transceiver, TSSOP28
+D Single Chip Low Power RF Transceiver, TSSOP-28
 K Low Power RF Transciever
 F www.ti.com/lit/ds/symlink/cc1000.pdf
 $ENDCMP
@@ -37,7 +37,7 @@ F http://www.ti.com/lit/ds/symlink/cc1200.pdf
 $ENDCMP
 #
 $CMP CC2500
-D Single Chip Low Power RF Transceiver, QFN20
+D Single Chip Low Power RF Transceiver, QFN-20
 K Low Power RF Transciever
 F http://www.ti.com/lit/ds/symlink/cc2500.pdf
 $ENDCMP
@@ -115,7 +115,7 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/micrf220.pdf
 $ENDCMP
 #
 $CMP NRF24L01
-D Ultra low power 2.4GHz RF Transceiver, QFN20 4x4mm
+D Ultra low power 2.4GHz RF Transceiver, QFN-20
 K Low Power RF Transciever
 F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf
 $ENDCMP
@@ -211,7 +211,7 @@ F https://www.minicircuits.com/pdfs/RMK-5-51+.pdf
 $ENDCMP
 #
 $CMP SE5004L
-D 5 GHz, 26dBm Power Amplifier with Power Detector, QFN20 4x4mm
+D 5 GHz, 26dBm Power Amplifier with Power Detector, QFN-20
 K RF Power Amplifier
 F http://www.skyworksinc.com/uploads/documents/SE5004L_202393B.pdf
 $ENDCMP
