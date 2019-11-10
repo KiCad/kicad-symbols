@@ -228,6 +228,18 @@ K low-power lora transceiver
 F https://www.semtech.com/uploads/documents/sx1272.pdf
 $ENDCMP
 #
+$CMP SYN113
+D 300-450MHz ASK/OOK Transmitter, +10dBm, 10kbps, 1.8-3.6V, SOT-23-6
+K Synoxo RF TX UHF ASK OOK
+F https://datasheet.lcsc.com/szlcsc/1910111742_Synoxo-F115_C105184.pdf
+$ENDCMP
+#
+$CMP SYN115
+D 300-450MHz ASK/OOK Transmitter, low-power shutdown, +10dBm, 10kbps, 1.8-3.6V, SOT-23-6
+K Synoxo RF TX UHF ASK OOK
+F https://datasheet.lcsc.com/szlcsc/1910111742_Synoxo-F115_C105184.pdf
+$ENDCMP
+#
 $CMP SYPD-1
 D Phase Detector, 1 to 100 MHz, 50 Ohm, Mini-Cicuits TTT167
 K Phase Detector
