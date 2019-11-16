@@ -166,6 +166,42 @@ K RAM SRAM CMOS MEMORY
 F https://www.futurlec.com/Datasheet/Memory/62256.pdf
 $ENDCMP
 #
+$CMP MT48LC16M16A2P
+D 256M – (16M x 16 bit) Synchronous DRAM (SDRAM), TSOP II 54pin
+K SDRAM Synchronus DRAM PC100 PC133 256Mb 16Mbx16 MEMORY
+F https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/256mb_sdr.pdf
+$ENDCMP
+#
+$CMP MT48LC16M16A2TG
+D 256M – (16M x 16 bit) Synchronous DRAM (SDRAM), TSOP II 54pin
+K SDRAM Synchronus DRAM PC100 PC133 256Mb 16Mbx16 MEMORY
+F https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/256mb_sdr.pdf
+$ENDCMP
+#
+$CMP MT48LC32M8A2P
+D 256M – (32M x 8 bit) Synchronous DRAM (SDRAM), TSOP II 54pin
+K SDRAM Synchronus DRAM PC100 PC133 256Mb 32Mbx8 MEMORY
+F https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/256mb_sdr.pdf
+$ENDCMP
+#
+$CMP MT48LC32M8A2TG
+D 256M – (32M x 8 bit) Synchronous DRAM (SDRAM), TSOP II 54pin
+K SDRAM Synchronus DRAM PC100 PC133 256Mb 32Mbx8 MEMORY
+F https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/256mb_sdr.pdf
+$ENDCMP
+#
+$CMP MT48LC64M4A2P
+D 256M – (64M x 4 bit) Synchronous DRAM (SDRAM), TSOP II 54pin
+K SDRAM Synchronus DRAM PC100 PC133 256Mb 64Mbx4 MEMORY
+F https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/256mb_sdr.pdf
+$ENDCMP
+#
+$CMP MT48LC64M4A2TG
+D 256M – (64M x 4 bit) Synchronous DRAM (SDRAM), TSOP II 54pin
+K SDRAM Synchronus DRAM PC100 PC133 256Mb 64Mbx4 MEMORY
+F https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/256mb_sdr.pdf
+$ENDCMP
+#
 $CMP W9812G6KH-5
 D 128Mb Synchronous DRAM, 2 Mb x 16 b x 4 Banks, 200 MHz, TSOP-II-54
 K DRAM MEMORY
@@ -188,6 +224,5 @@ $CMP W9812G6KH-75
 D 128Mb Synchronous DRAM, 2 Mb x 16 b x 4 Banks, 133 MHz, TSOP-II-54
 K DRAM MEMORY
 F https://www.winbond.com/resource-files/da00-w9812g6khc1.pdf
-$ENDCMP
 #
 #End Doc Library
