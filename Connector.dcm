@@ -1410,6 +1410,12 @@ K 8P8C RJ female connector
 F ~
 $ENDCMP
 #
+$CMP RJ45_Abracon_ARJP11A-MASA-B-A-EMU2
+D RJ45 PoE 10/100 Base-TX Jack with Magnetic Module
+K single port ethernet transformer poe center-tap
+F https://abracon.com/Magnetics/lan/ARJP11A.PDF
+$ENDCMP
+#
 $CMP RJ45_Amphenol_RJMG1BD3B8K1ANR
 D 1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, AutoMDIX
 K RJ45 Magjack
