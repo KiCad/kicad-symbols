@@ -2598,12 +2598,6 @@ K Synchronous Step-Down Regulator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1878f.pdf
 $ENDCMP
 #
-$CMP LTC3105
-D 400mA Step-Up DC/DC Converter with Maximum Power Point Control and 250mV Start-Up, MSOP-8
-K Solar MPPT Maximum Power Point Control Converter Step-Up
-F https://www.analog.com/media/en/technical-documentation/data-sheets/3105fb.pdf
-$ENDCMP
-#
 $CMP LTC3105EDD
 D 400mA Step-Up DC/DC Converter with Maximum Power Point Control and 250mV Start-Up, DFN-10
 K Solar MPPT Maximum Power Point Control Converter Step-Up
