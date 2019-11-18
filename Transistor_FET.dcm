@@ -2538,8 +2538,8 @@ K P-Channel MOSFET
 F http://www.vishay.com/docs/70209/70209.pdf
 $ENDCMP
 #
-$CMP TSM2301ACXRFG
-D -1.6A Id, -20V Vds, P-Channel MOSFET, SOT-23
+$CMP TSM2301A
+D -2.8A Id, -20V Vds, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET
 F https://www.taiwansemi.com/products/datasheet/TSM2301A_C15.pdf
 $ENDCMP
