@@ -2406,6 +2406,12 @@ K P-Channel MOSFET
 F http://www.jaolen.com/images/pdf/QM6015D.pdf
 $ENDCMP
 #
+$CMP QS6K21TR
+D 1A Id, 45V Vds, 420mOhm Rds, Dual N-Channel MOSFET
+K Dual N-Channel MOSFET
+F https://www.mouser.de/datasheet/2/348/qs6k21-e-1139119.pdf
+$ENDCMP
+#
 $CMP STS2DNE60
 D 2A Id, 60V Vds, Dual N-Channel MOSFET, 180mOhm Ron, SO-8
 K Dual N-Channel MOSFET
