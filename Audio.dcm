@@ -42,6 +42,12 @@ K audio adc 2ch 24bit 96kHz I2S MSB TDM
 F https://www.akm.com/akm/en/file/datasheet/AK5720VT.pdf
 $ENDCMP
 #
+$CMP AK7742EQ
+D 24bit 2ch ADC + 24bit 4ch DAC with Audio DSP, LQFP-48
+K audio adc 2ch dac 4ch dsp
+F https://www.akm.com/akm/en/file/datasheet/AK7742EQ.pdf
+$ENDCMP
+#
 $CMP AS3310
 D ADSR Voltage Controlled Envelope Generator, DIP-16/SOIC-16
 K VCEG CEM3310 ALFA
