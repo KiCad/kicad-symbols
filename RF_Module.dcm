@@ -120,6 +120,21 @@ K IOT LoRa SIGFOX
 F http://www.nemeus.fr/resources/uploads/2015/04/MM002-xx-EU_datasheet_v0.11.pdf
 $ENDCMP
 #
+$CMP NRF24L01-MOD-SMD
+D Ultra low power 2.4GHz RF Transceiver, Carrier PCB
+K Low Power RF Transciever breakout carrier
+$ENDCMP
+#
+$CMP NRF24L01-MOD-SMT
+D Ultra low power 2.4GHz RF Transceiver, Carrier PCB
+K Low Power RF Transciever breakout carrier
+$ENDCMP
+#
+$CMP NRF24L01-MOD-THT
+D Ultra low power 2.4GHz RF Transceiver, Carrier PCB
+K Low Power RF Transciever breakout carrier
+$ENDCMP
+#
 $CMP Particle_P1
 D Wi-Fi module, 1MB flash, 128KB RAM
 K Wi-Fi module
