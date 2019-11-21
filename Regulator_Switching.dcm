@@ -5580,6 +5580,60 @@ K 17V 1A Step-down Buck Module
 F http://www.ti.com/lit/ds/symlink/tps82150.pdf
 $ENDCMP
 #
+$CMP TSR_0.5-24120
+D 0.5A step-down regulator module, fixed 12V output voltage, 15-32V input voltage, -40°C to +90°C temperature range, TO-220 compatible LM78xx replacement
+K dc-dc traco buck
+F https://www.tracopower.com/products/tsr0-5.pdf
+$ENDCMP
+#
+$CMP TSR_0.5-2415
+D 0.5A step-down regulator module, fixed 1.5V output voltage, 4.75-32V input voltage, -40°C to +90°C temperature range, TO-220 compatible LM78xx replacement
+K dc-dc traco buck
+F https://www.tracopower.com/products/tsr0-5.pdf
+$ENDCMP
+#
+$CMP TSR_0.5-24150
+D 0.5A step-down regulator module, fixed 15V output voltage, 18-32V input voltage, -40°C to +90°C temperature range, TO-220 compatible LM78xx replacement
+K dc-dc traco buck
+F https://www.tracopower.com/products/tsr0-5.pdf
+$ENDCMP
+#
+$CMP TSR_0.5-2418
+D 0.5A step-down regulator module, fixed 1.8V output voltage, 4.75-32V input voltage, -40°C to +90°C temperature range, TO-220 compatible LM78xx replacement
+K dc-dc traco buck
+F https://www.tracopower.com/products/tsr0-5.pdf
+$ENDCMP
+#
+$CMP TSR_0.5-2425
+D 0.5A step-down regulator module, fixed 2.5V output voltage, 4.75-32V input voltage, -40°C to +90°C temperature range, TO-220 compatible LM78xx replacement
+K dc-dc traco buck
+F https://www.tracopower.com/products/tsr0-5.pdf
+$ENDCMP
+#
+$CMP TSR_0.5-2433
+D 0.5A step-down regulator module, fixed 3.3V output voltage, 4.75-32V input voltage, -40°C to +90°C temperature range, TO-220 compatible LM78xx replacement
+K dc-dc traco buck
+F https://www.tracopower.com/products/tsr0-5.pdf
+$ENDCMP
+#
+$CMP TSR_0.5-2450
+D 0.5A step-down regulator module, fixed 5V output voltage, 6.5-32V input voltage, -40°C to +90°C temperature range, TO-220 compatible LM78xx replacement
+K dc-dc traco buck
+F https://www.tracopower.com/products/tsr0-5.pdf
+$ENDCMP
+#
+$CMP TSR_0.5-2465
+D 0.5A step-down regulator module, fixed 6.5V output voltage, 8-32V input voltage, -40°C to +90°C temperature range, TO-220 compatible LM78xx replacement
+K dc-dc traco buck
+F https://www.tracopower.com/products/tsr0-5.pdf
+$ENDCMP
+#
+$CMP TSR_0.5-2490
+D 0.5A step-down regulator module, fixed 9V output voltage, 11-32V input voltage, -40°C to +90°C temperature range, TO-220 compatible LM78xx replacement
+K dc-dc traco buck
+F https://www.tracopower.com/products/tsr0-5.pdf
+$ENDCMP
+#
 $CMP TSR_1-2412
 D 1A step-down regulator module, fixed 1.2V output voltage, 6-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement
 K dc-dc traco buck
