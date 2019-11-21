@@ -18,6 +18,30 @@ K Expander I2C Parallel Port GPIO Maxim
 F https://datasheets.maximintegrated.com/en/ds/MAX7325.pdf
 $ENDCMP
 #
+$CMP MCP23008-xML
+D 8-bit I/O expander, I2C, interrupts, QFN-20
+K I2C parallel port expander
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP23008-MCP23S08-Data-Sheet-20001919F.pdf
+$ENDCMP
+#
+$CMP MCP23008-xP
+D 8-bit I/O expander, I2C, interrupts, PDIP-18
+K I2C parallel port expander
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP23008-MCP23S08-Data-Sheet-20001919F.pdf
+$ENDCMP
+#
+$CMP MCP23008-xSO
+D 8-bit I/O expander, I2C, interrupts, SOIC-18
+K I2C parallel port expander
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP23008-MCP23S08-Data-Sheet-20001919F.pdf
+$ENDCMP
+#
+$CMP MCP23008-xSS
+D 8-bit I/O expander, I2C, interrupts, SSOP-20
+K I2C parallel port expander
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP23008-MCP23S08-Data-Sheet-20001919F.pdf
+$ENDCMP
+#
 $CMP MCP23017_ML
 D 16-bit I/O expander, I2C, interrupts, w pull-ups, QFN-28
 K I2C parallel port expander
