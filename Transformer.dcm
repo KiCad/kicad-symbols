@@ -19,7 +19,7 @@ F https://www.minicircuits.com/pdfs/ADT1-1WT+.pdf
 $ENDCMP
 #
 $CMP ADT1-1WT-1
-D 0.03-130MHz 1:1 RF Transformer, Unbalanced to Balanced Center Tap, CD542
+D 1-400MHz 1:1 RF Transformer, Unbalanced to Balanced Center Tap, CD542
 K Mini-Circuits RF Transformer
 F https://www.minicircuits.com/pdfs/ADT1-1WT-1+.pdf
 $ENDCMP
@@ -31,7 +31,7 @@ F https://www.minicircuits.com/pdfs/ADT1-6T+.pdf
 $ENDCMP
 #
 $CMP ADT1.5-1
-D 0.06-250MHz 1:1.5 RF Transformer, Unbalanced to Balanced Center Tap, CD542
+D 0.5-650MHz 1:1.5 RF Transformer, Unbalanced to Balanced Center Tap, CD542
 K Mini-Circuits RF Transformer
 F https://www.minicircuits.com/pdfs/ADT1.5-1+.pdf
 $ENDCMP
@@ -55,7 +55,7 @@ F https://www.minicircuits.com/pdfs/ADT1.5-2+.pdf
 $ENDCMP
 #
 $CMP ADT16-1T
-D 0.10-300MHz 1:16 RF Transformer, Unbalanced to Balanced Center Tap, CD542
+D 1.5-160MHz 1:16 RF Transformer, Unbalanced to Balanced Center Tap, CD542
 K Mini-Circuits RF Transformer
 F https://www.minicircuits.com/pdfs/ADT16-1T+.pdf
 $ENDCMP
@@ -73,13 +73,13 @@ F https://www.minicircuits.com/pdfs/ADT16-6T+.pdf
 $ENDCMP
 #
 $CMP ADT2-1T
-D 0.30-400MHz 1:2 RF Transformer, Unbalanced to Balanced Center Tap, CD542
+D 0.40-450MHz 1:2 RF Transformer, Unbalanced to Balanced Center Tap, CD542
 K Mini-Circuits RF Transformer
 F https://www.minicircuits.com/pdfs/ADT2-1T+.pdf
 $ENDCMP
 #
 $CMP ADT2-1T-1P
-D 0.40-450MHz 1:2 RF Transformer, Unbalanced to Balanced Center Tap, CD542
+D 8-600MHz 1:2 RF Transformer, Unbalanced to Balanced Center Tap, CD542
 K Mini-Circuits RF Transformer
 F https://www.minicircuits.com/pdfs/ADT2-1T-1P+.pdf
 $ENDCMP
@@ -91,13 +91,13 @@ F https://www.minicircuits.com/pdfs/ADT2-71T+.pdf
 $ENDCMP
 #
 $CMP ADT3-1T
-D 0.50-500MHz 1:3 RF Transformer, Unbalanced to Balanced Center Tap, CD542
+D 1-500MHz 1:3 RF Transformer, Unbalanced to Balanced Center Tap, CD542
 K Mini-Circuits RF Transformer
 F https://www.minicircuits.com/pdfs/ADT3-1T+.pdf
 $ENDCMP
 #
 $CMP ADT3-1T-75
-D 0.50-500MHz 1:3 RF Transformer, Unbalanced to Balanced Center Tap, CD542
+D 1-500MHz 1:3 RF Transformer, Unbalanced to Balanced Center Tap, CD542
 K Mini-Circuits RF Transformer
 F https://www.minicircuits.com/pdfs/ADT3-1T-75+.pdf
 $ENDCMP
@@ -109,13 +109,13 @@ F https://www.minicircuits.com/pdfs/ADT3-6T+.pdf
 $ENDCMP
 #
 $CMP ADT4-1T
-D 1-600MHz 1:4 RF Transformer, Unbalanced to Balanced Center Tap, CD636
+D 9-625MHz 1:4 RF Transformer, Unbalanced to Balanced Center Tap, CD542
 K Mini-Circuits RF Transformer
 F https://www.minicircuits.com/pdfs/ADT4-1T+.pdf
 $ENDCMP
 #
 $CMP ADT4-1WT
-D 1-625MHz 1:4 RF Transformer, Unbalanced to Balanced Center Tap, CD637
+D 2-775MHz 1:4 RF Transformer, Unbalanced to Balanced Center Tap, CD542
 K Mini-Circuits RF Transformer
 F https://www.minicircuits.com/pdfs/ADT4-1WT+.pdf
 $ENDCMP
@@ -151,7 +151,7 @@ F https://www.minicircuits.com/pdfs/ADT8-1T+.pdf
 $ENDCMP
 #
 $CMP ADT9-1T
-D 9-800MHz 1:9 RF Transformer, Unbalanced to Balanced Center Tap, CD637
+D 1-250MHz 1:9 RF Transformer, Unbalanced to Balanced Center Tap, CD542
 K Mini-Circuits RF Transformer
 F https://www.minicircuits.com/pdfs/ADT9-1T+.pdf
 $ENDCMP
