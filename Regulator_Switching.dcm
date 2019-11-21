@@ -3060,6 +3060,12 @@ K regulator switching adjustable
 F https://www.monolithicpower.com/pub/media/document/m/p/mp171_r1.01.pdf
 $ENDCMP
 #
+$CMP MT3608
+D High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6
+K Step-Up Boost DC-DC Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/tlv62568.pdf
+$ENDCMP
+#
 $CMP NCP1070P065
 D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 14W/7.75W, 230V/85-265V, 65kHz, 22Ohm Rds(on), 250mA Ipk, DIP-7
 K SMPS Converter
