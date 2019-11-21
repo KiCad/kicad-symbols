@@ -2556,6 +2556,12 @@ K P-Channel MOSFET
 F https://www.taiwansemi.com/products/datasheet/TSM2301A_C15.pdf
 $ENDCMP
 #
+$CMP TSM2302CX
+D 20V Vds, 3.2A Id, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F https://www.taiwansemi.com/products/datasheet/TSM2302CX_E1608.pdf
+$ENDCMP
+#
 $CMP VN10LF
 D 0.15A Id, 60V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
