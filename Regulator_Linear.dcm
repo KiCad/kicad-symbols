@@ -1404,6 +1404,12 @@ K Adjustable Voltage Regulator 1A Positive LDO
 F https://www.diodes.com/assets/Datasheets/AZ1117.pdf
 $ENDCMP
 #
+$CMP HT75xx-1-SOT89
+D 100mA Low Dropout Voltage Regulator, Fixed Output, SOT89
+K 100mA LDO Regulator Fixed Positive
+F https://www.holtek.com/documents/10179/116711/HT75xx-1v250.pdf
+$ENDCMP
+#
 $CMP ICL7663
 D 50mA 5V/Programmable Voltage Regulator, DIP-8/SO-8/TO-99
 K Linear Regulator 50mA 5V fixed
@@ -1798,6 +1804,102 @@ $CMP L79L15_TO92
 D Negative 100mA -30V Linear Regulator, Fixed Output -5V, TO-92
 K Voltage Regulator 100mA Negative
 F http://www.farnell.com/datasheets/1827870.pdf
+$ENDCMP
+#
+$CMP LD0186D2T50TR
+D Positive, 1.5A 30V, Linear Regulator, Fixed Output 5V, TO-263
+K Linear Regulator 1.5A Fixed Output
+F https://www.st.com/resource/en/datasheet/ld1086.pdf
+$ENDCMP
+#
+$CMP LD1086D2M33TR
+D Positive, 1.5A 30V, Linear Regulator, Fixed Output 3.3V, TO-263
+K Linear Regulator 1.5A Fixed Output
+F https://www.st.com/resource/en/datasheet/ld1086.pdf
+$ENDCMP
+#
+$CMP LD1086D2MTR
+D Positive, 1.5A 30V, Linear Regulator, Adjustable TO-263
+K Linear Regulator 1.5A Adjustable
+F https://www.st.com/resource/en/datasheet/ld1086.pdf
+$ENDCMP
+#
+$CMP LD1086D2T12TR
+D Positive, 1.5A 30V, Linear Regulator, Fixed Output 12V, TO-263
+K Linear Regulator 1.5A Fixed Output
+F https://www.st.com/resource/en/datasheet/ld1086.pdf
+$ENDCMP
+#
+$CMP LD1086D2T18TR
+D Positive, 1.5A 30V, Linear Regulator, Fixed Output 1.8V, TO-263
+K Linear Regulator 1.5A Fixed Output
+F https://www.st.com/resource/en/datasheet/ld1086.pdf
+$ENDCMP
+#
+$CMP LD1086D2T33TR
+D Positive, 1.5A 30V, Linear Regulator, Fixed Output 3.3V, TO-263
+K Linear Regulator 1.5A Fixed Output
+F https://www.st.com/resource/en/datasheet/ld1086.pdf
+$ENDCMP
+#
+$CMP LD1086D2TTR
+D Positive, 1.5A 30V, Linear Regulator, Adjustable, TO-263
+K Linear Regulator 1.5A Adjustable
+F https://www.st.com/resource/en/datasheet/ld1086.pdf
+$ENDCMP
+#
+$CMP LD1086DT18TR
+D Positive, 1.5A 30V, Linear Regulator, Fixed Output 1.8V, TO-252
+K Linear Regulator 1.5A Fixed Output
+F https://www.st.com/resource/en/datasheet/ld1086.pdf
+$ENDCMP
+#
+$CMP LD1086DT25TR
+D Positive, 1.5A 30V, Linear Regulator, Fixed Output 2.5V, TO-252
+K Linear Regulator 1.5A Fixed Output
+F https://www.st.com/resource/en/datasheet/ld1086.pdf
+$ENDCMP
+#
+$CMP LD1086DT33TR
+D Positive, 1.5A 30V, Linear Regulator, Fixed Output 3.3V, TO-252
+K Linear Regulator 1.5A Fixed Output
+F https://www.st.com/resource/en/datasheet/ld1086.pdf
+$ENDCMP
+#
+$CMP LD1086DT50TR
+D Positive, 1.5A 30V, Linear Regulator, Fixed Output 5V, TO-252
+K Linear Regulator 1.5A Fixed Output
+F https://www.st.com/resource/en/datasheet/ld1086.pdf
+$ENDCMP
+#
+$CMP LD1086DTTR
+D Positive, 1.5A 30V, Linear Regulator, Adjustable, TO-252
+K Linear Regulator 1.5A Adjustable
+F https://www.st.com/resource/en/datasheet/ld1086.pdf
+$ENDCMP
+#
+$CMP LD1086PUR
+D Positive, 1.5A 30V, Linear Regulator, Adjustable, DFN8
+K Linear Regulator 1.5A Adjustable
+F https://www.st.com/resource/en/datasheet/ld1086.pdf
+$ENDCMP
+#
+$CMP LD1086V-DG
+D Positive, 1.5A 30V, Linear Regulator, Adjustable, TO-220
+K Linear Regulator 1.5A Adjustable
+F https://www.st.com/resource/en/datasheet/ld1086.pdf
+$ENDCMP
+#
+$CMP LD1086V18-DG
+D Positive, 1.5A 30V, Linear Regulator, Fixed Output 1.8V, TO-220
+K Linear Regulator 1.5A Fixed Output
+F https://www.st.com/resource/en/datasheet/ld1086.pdf
+$ENDCMP
+#
+$CMP LD1086V33-DG
+D Positive, 1.5A 30V, Linear Regulator, Fixed Output 3.3V, TO-220
+K Linear Regulator 1.5A Fixed Output
+F https://www.st.com/resource/en/datasheet/ld1086.pdf
 $ENDCMP
 #
 $CMP LD1117S12TR_SOT223
@@ -5322,6 +5424,48 @@ K Single Output LDO
 F http://www.onsemi.com/pub/Collateral/NCP133-D.PDF
 $ENDCMP
 #
+$CMP NCP718xSN120
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 1.2V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
+$CMP NCP718xSN150
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 1.5V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
+$CMP NCP718xSN180
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 1.8V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
+$CMP NCP718xSN250
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 2.5V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
+$CMP NCP718xSN300
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 3.0V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
+$CMP NCP718xSN330
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 3.3V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
+$CMP NCP718xSN500
+D 300-mA, Wide Input Voltage, Low-IQ LDO, 5.0V, SOT-23
+K Single Output LDO Wide Input
+F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
 $CMP NCV8114ASN120T1G
 D 300mA, Low Noise, Linear Regulator with output active discharge function, 1.7-5.5V input voltage range, 1.2V fixed positive output, TSOT-23-5
 K linear regulator ldo fixed positive
@@ -5404,6 +5548,18 @@ $CMP NCV8114BSN330T1G
 D 300mA, Low Noise, Linear Regulator without output active discharge function, 1.7-5.5V input voltage range, 3.3V fixed positive output, TSOT-23-5
 K linear regulator ldo fixed positive
 F https://ru.mouser.com/datasheet/2/308/NCV8114-D-1107616.pdf
+$ENDCMP
+#
+$CMP NVC8674DS120
+D 350mA, 12.0V Very Low Iq Low Dropout Linear Regulator, TO-263-2
+K ldo regulator 12V
+F https://www.onsemi.com/pub/Collateral/NCV8674-D.PDF
+$ENDCMP
+#
+$CMP NVC8674DS50
+D 350mA, 5.0V Very Low Iq Low Dropout Linear Regulator, TO-263-2
+K ldo regulator 5V
+F https://www.onsemi.com/pub/Collateral/NCV8674-D.PDF
 $ENDCMP
 #
 $CMP OM1323_TO220
@@ -6036,8 +6192,20 @@ K LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
 $ENDCMP
 #
+$CMP TLV75509PDRV
+D 500mA Low Dropout Voltage Regulator, Fixed Output 0.9V, WSON6
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
+$ENDCMP
+#
 $CMP TLV75510PDBV
 D 500mA Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.0V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
+$ENDCMP
+#
+$CMP TLV75510PDRV
+D 500mA Low Dropout Voltage Regulator, Fixed Output 1.0V, WSON6
 K LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
 $ENDCMP
@@ -6048,8 +6216,20 @@ K LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
 $ENDCMP
 #
+$CMP TLV75512PDRV
+D 500mA Low Dropout Voltage Regulator, Fixed Output 1.2V, WSON6
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
+$ENDCMP
+#
 $CMP TLV75515PDBV
 D 500mA Low Dropout Voltage Regulator, Fixed Output 1.5V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
+$ENDCMP
+#
+$CMP TLV75515PDRV
+D 500mA Low Dropout Voltage Regulator, Fixed Output 1.5V, WSON6
 K LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
 $ENDCMP
@@ -6060,8 +6240,20 @@ K LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
 $ENDCMP
 #
+$CMP TLV75518PDRV
+D 500mA Low Dropout Voltage Regulator, Fixed Output 1.8V, WSON6
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
+$ENDCMP
+#
 $CMP TLV75519PDBV
 D 500mA Low Dropout Voltage Regulator, Fixed Output 1.9V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
+$ENDCMP
+#
+$CMP TLV75519PDRV
+D 500mA Low Dropout Voltage Regulator, Fixed Output 1.9V, WSON6
 K LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
 $ENDCMP
@@ -6072,8 +6264,20 @@ K LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
 $ENDCMP
 #
+$CMP TLV75525PDRV
+D 500mA Low Dropout Voltage Regulator, Fixed Output 2.5V, WSON6
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
+$ENDCMP
+#
 $CMP TLV75528PDBV
 D 500mA Low Dropout Voltage Regulator, Fixed Output 2.8V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
+$ENDCMP
+#
+$CMP TLV75528PDRV
+D 500mA Low Dropout Voltage Regulator, Fixed Output 2.8V, WSON6
 K LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
 $ENDCMP
@@ -6084,8 +6288,20 @@ K LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
 $ENDCMP
 #
+$CMP TLV75529PDRV
+D 500mA Low Dropout Voltage Regulator, Fixed Output 2.9V, WSON6
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
+$ENDCMP
+#
 $CMP TLV75530PDBV
 D 500mA Low Dropout Voltage Regulator, Fixed Output 3.0V, SOT-23-5
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
+$ENDCMP
+#
+$CMP TLV75530PDRV
+D 500mA Low Dropout Voltage Regulator, Fixed Output 3.0V, WSON6
 K LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
 $ENDCMP
@@ -6094,6 +6310,144 @@ $CMP TLV75533PDBV
 D 500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5
 K LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
+$ENDCMP
+#
+$CMP TLV75533PDRV
+D 500mA Low Dropout Voltage Regulator, Fixed Output 3.3V, WSON6
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
+$ENDCMP
+#
+$CMP TLV75709PDBV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 0.9V, SOT-23-5
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75709PDRV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 0.9V, WSON6
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75710PDBV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.0V, SOT-23-5
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75710PDRV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.0V, WSON6
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75712PDBV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75712PDRV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.2V, WSON6
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75715PDBV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.5V, SOT-23-5
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75715PDRV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.5V, WSON6
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75718PDBV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75718PDRV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.8V, WSON6
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75719PDBV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.9V, SOT-23-5
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75719PDRV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 1.9V, WSON6
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75725PDBV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 2.5V, SOT-23-5
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75725PDRV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 2.5V, WSON6
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75728PDBV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 2.8V, SOT-23-5
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75728PDRV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 2.8V, WSON6
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75729PDBV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 2.9V, SOT-23-5
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75730PDBV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.0V, SOT-23-5
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75730PDRV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.0V, WSON6
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75733PDBV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75733PDRV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, WSON6
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
+$ENDCMP
+#
+$CMP TLV75740PDRV
+D 1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 4.0V, WSON6
+K LDO Regulator Fixed Positive
+F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
 $ENDCMP
 #
 $CMP TPS51200DRC
@@ -6736,6 +7090,12 @@ $CMP TPS7A91
 D 1A, High-Accuracy, Low-Noise LDO Voltage Regulator, Texas S-PDSO-N10
 K LDO voltage regulator
 F http://www.ti.com/lit/ds/symlink/tps7a91.pdf
+$ENDCMP
+#
+$CMP XC6206PxxxMR
+D Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23
+K Torex LDO Voltage Regulator Fixed Positive
+F https://www.torexsemi.com/file/xc6206/XC6206.pdf
 $ENDCMP
 #
 $CMP XC6220B331MR

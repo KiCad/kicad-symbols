@@ -123,13 +123,13 @@ $ENDCMP
 $CMP JTOS-25
 D Voltage Controlled Oscillator, 12.5 to 25 MHz, Mini-Circuits BK377
 K VCXO
-F https://ww2.minicircuits.com/pdfs/JTOS-25+.pdf
+F https://www.minicircuits.com/pdfs/JTOS-25+.pdf
 $ENDCMP
 #
 $CMP JTOS-50
 D Voltage Controlled Oscillator, 25 to 47 MHz, Mini-Circuits BK377
 K VCXO
-F https://ww2.minicircuits.com/pdfs/JTOS-50+.pdf
+F https://www.minicircuits.com/pdfs/JTOS-50+.pdf
 $ENDCMP
 #
 $CMP KT2520K-T
@@ -246,6 +246,24 @@ K Crystal Clock Oscillator
 F https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-3030CM
 $ENDCMP
 #
+$CMP SG-5032CAN
+D CMOS Clock Oscillator 1 to 75 MHz
+K Crystal Clock Oscillator
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CAN&lang=en
+$ENDCMP
+#
+$CMP SG-5032CBN
+D CMOS Clock Oscillator 80 to 170 MHz
+K Crystal Clock Oscillator
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CBN&lang=en
+$ENDCMP
+#
+$CMP SG-5032CCN
+D CMOS Clock Oscillator 2.5 to 50 MHz
+K Crystal Clock Oscillator
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CCN&lang=en
+$ENDCMP
+#
 $CMP SG-51
 D CMOS Crystal Clock Oscillator, DIP14-style plastic package
 K Crystal Clock Oscillator
@@ -264,8 +282,26 @@ K Crystal Clock Oscillator
 F https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-51P
 $ENDCMP
 #
+$CMP SG-7050CAN
+D CMOS Clock Oscillator 1 to 75 MHz
+K Crystal Clock Oscillator
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_SG7050CAN&lang=en
+$ENDCMP
+#
+$CMP SG-7050CBN
+D CMOS Clock Oscillator 80 to 170 MHz
+K Crystal Clock Oscillator
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_SG7050CBN&lang=en
+$ENDCMP
+#
+$CMP SG-7050CCN
+D CMOS Clock Oscillator 2.5 to 50 MHz
+K Crystal Clock Oscillator
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_SG7050CAN&lang=en
+$ENDCMP
+#
 $CMP SG-8002CA
-D CMOS Clock Oscillator
+D CMOS Clock Oscillator 1 to 125 MHz
 K Crystal Clock Oscillator
 F https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC
 $ENDCMP
@@ -279,7 +315,7 @@ $ENDCMP
 $CMP SG-8002DB
 D Crystal Clock Oscillator, DIP14-style plastic package
 K Crystal Clock Oscillator
-F https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_SG-8002DB&lang=en
 $ENDCMP
 #
 $CMP SG-8002DC
@@ -301,9 +337,9 @@ F https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC
 $ENDCMP
 #
 $CMP SG-8002LB
-D CMOS Clock Oscillator
+D CMOS Clock Oscillator 1 to 125 MHz
 K Crystal Clock Oscillator
-F https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_SG-8002LB&lang=en
 $ENDCMP
 #
 $CMP Si512A_2.5x3.2mm
