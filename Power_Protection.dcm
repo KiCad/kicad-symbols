@@ -300,6 +300,12 @@ K EMI, ESD protection
 F http://www.ti.com/lit/ds/symlink/tpd6f003.pdf
 $ENDCMP
 #
+$CMP TVS0500DRV
+D Flat-Clamp Surge Protection Device
+K EMI, ESD, TVS protection transient
+F http://www.ti.com/lit/ds/symlink/tvs0500.pdf
+$ENDCMP
+#
 $CMP USB6B1
 D 5V Data line protection
 K ESD USB
