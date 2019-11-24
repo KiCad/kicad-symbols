@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32G431CBTx
+D ARM Cortex-M4 MCU, 128KB flash, 32KB RAM, 170MHz, 1.72-3.6V, 38 GPIO, LQFP-48
+K ARM Cortex-M4 STM32G4 STM32G431
+F https://www.st.com/resource/en/datasheet/stm32g431kb.pdf
+$ENDCMP
+#
+$CMP STM32G431KBTx
+D ARM Cortex-M4 MCU, 128KB flash, 32KB RAM, 170MHz, 1.72-3.6V, 26 GPIO, LQFP-32
+K ARM Cortex-M4 STM32G4 STM32G431
+F https://www.st.com/resource/en/datasheet/stm32g431kb.pdf
+$ENDCMP
+#
+#End Doc Library
