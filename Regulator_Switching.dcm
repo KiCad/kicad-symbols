@@ -222,6 +222,24 @@ K Isolated DC-to-DC Converter 5kV
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM6000.PDF
 $ENDCMP
 #
+$CMP AOZ1280CI
+D 1.2 A Simple Buck Regulator, 3-26V input, 1.5Mhz
+K switching buck converter
+F http://aosmd.com/res/data_sheets/AOZ1280CI.pdf
+$ENDCMP
+#
+$CMP AOZ1282CI
+D 1.2 A Simple Buck Regulator, 4.5-36V input, 450kHz
+K switching buck converter
+F http://aosmd.com/res/data_sheets/AOZ1282CI.pdf
+$ENDCMP
+#
+$CMP AOZ1282CI-1
+D 600 mA Simple Buck Regulator, 4.5-36V input, 1MHz
+K switching buck converter
+F http://www.aosmd.com/res/data_sheets/AOZ1282CI-1.pdf
+$ENDCMP
+#
 $CMP AP6502
 D 340kHz 18V 2A Synchronois DC/DC Buck Converter
 K buck switching converter
@@ -3988,6 +4006,24 @@ $CMP TLV62568DRL
 D High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 1A, SOT-563-6
 K Step-Down Buck DC-DC Regulator Adjustable
 F http://www.ti.com/lit/ds/symlink/tlv62568.pdf
+$ENDCMP
+#
+$CMP TLV62569DBV
+D High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-5
+K Step-Down Buck DC-DC Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/tlv62569.pdf
+$ENDCMP
+#
+$CMP TLV62569DDC
+D High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-6
+K Step-Down Buck DC-DC Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/tlv62569.pdf
+$ENDCMP
+#
+$CMP TLV62569DRL
+D High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-563-6
+K Step-Down Buck DC-DC Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/tlv62569.pdf
 $ENDCMP
 #
 $CMP TMR_1-0511
