@@ -438,6 +438,12 @@ K display LED 7-segment
 F http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-136(Ver.6B).pdf
 $ENDCMP
 #
+$CMP KW2-801ASA
+D Double digit 7 segment red LED common anode
+K display LED 7-segment
+F http://www.lucky-light.com/LED%20Displays/Dual%20Digit%20Display/KW2-801.pdf
+$ENDCMP
+#
 $CMP LCD-016N002L
 D LCD 12x2, 8 bit parallel bus, 3V or 5V VDD
 K display LCD dot-matrix
