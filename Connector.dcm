@@ -1511,11 +1511,6 @@ D SFF-TA-1002 1C Protocol Agnostic Multi-Lane High Speed Connector (http://www.s
 K SFF-TA-1002 SFF-TA-1009 EDSFF Gen-Z
 $ENDCMP
 #
-$CMP SFF-TA-1002_1C_RightAngle
-D SFF-TA-1002 1C Right Angle Protocol Agnostic Multi-Lane High Speed Connector (http://www.snia.org/sff/specifications)
-K SFF-TA-1002 SFF-TA-1009 EDSFF Gen-Z
-$ENDCMP
-#
 $CMP SIM_Card
 D SIM Card
 K SIM card UICC
