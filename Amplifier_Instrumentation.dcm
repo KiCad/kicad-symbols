@@ -192,6 +192,18 @@ K instrumentation opamp
 F http://www.ti.com/lit/ds/symlink/ina326.pdf
 $ENDCMP
 #
+$CMP INA333xxDGK
+D Zero Drift, Micropower Instrumentation Amplifier G = 1 + 100kOhm/Rg, VSSOP-8
+K instrumentation opamp amplifier
+F https://www.ti.com/lit/ds/symlink/ina333.pdf
+$ENDCMP
+#
+$CMP INA333xxDRG
+D Zero Drift, Micropower Instrumentation Amplifier G = 1 + 100kOhm/Rg, WSON-8
+K instrumentation opamp amplifier
+F https://www.ti.com/lit/ds/symlink/ina333.pdf
+$ENDCMP
+#
 $CMP LTC1100xN8
 D Single Precision, Zero-Drift Instrumentation Amplifier, Gain = 100, DIP-8
 K single instrumentation amp
