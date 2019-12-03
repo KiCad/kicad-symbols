@@ -24,6 +24,30 @@ K Limit USB Active Low
 F http://www.skyworksinc.com/uploads/documents/AAT4616_201940E.pdf
 $ENDCMP
 #
+$CMP APL3511A
+D USB Power distribution switch, 75mOhm, 2A
+K usb switch
+F http://www.anpec.com.tw/ashx_prod_file.ashx?prod_id=458&file_path=20180420152940150.pdf&original_name=APL3511A.pdf
+$ENDCMP
+#
+$CMP APL3511B
+D USB Power distribution switch, 75mOhm, 2A, enable active low
+K usb switch
+F http://www.anpec.com.tw/ashx_prod_file.ashx?prod_id=458&file_path=20180420152940150.pdf&original_name=APL3511A.pdf
+$ENDCMP
+#
+$CMP APL3511C
+D USB Power distribution switch, 75mOhm, 1A
+K usb switch
+F http://www.anpec.com.tw/ashx_prod_file.ashx?prod_id=458&file_path=20180420152940150.pdf&original_name=APL3511A.pdf
+$ENDCMP
+#
+$CMP APL3511D
+D USB Power distribution switch, 75mOhm, 1A, enable active low
+K usb switch
+F http://www.anpec.com.tw/ashx_prod_file.ashx?prod_id=458&file_path=20180420152940150.pdf&original_name=APL3511A.pdf
+$ENDCMP
+#
 $CMP AUIPS1041R
 D Intelligent Power Low Side Switch, 39V, 4.5A, DPAK-5L
 K low side switch
