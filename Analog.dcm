@@ -36,6 +36,18 @@ K sample hold buffer unity gain
 F https://www.analog.com/media/en/technical-documentation/data-sheets/lt0398s8.pdf
 $ENDCMP
 #
+$CMP MLX90314xDF
+D Programmable Sensor Interface (Signal Conditioner), SOIC-16W
+K sensor signal conditioning
+F https://www.melexis.com/-/media/files/documents/datasheets/mlx90314-datasheet-melexis.pdf
+$ENDCMP
+#
+$CMP MLX90320xDF
+D Programmable Automotive Sensor Interface (Signal Conditioner), SSOP-14
+K sensor signal conditioning
+F https://www.melexis.com/-/media/files/documents/datasheets/mlx90320-datasheet-melexis.pdf
+$ENDCMP
+#
 $CMP MPY634KP
 D Wide Bandwidth Precision Analog Multiplier, DIP-14
 K analog multiplier
