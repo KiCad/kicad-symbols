@@ -2760,6 +2760,42 @@ K step-down dc-dc switching regulator
 F http://datasheets.maximintegrated.com/en/ds/MAX15062.pdf
 $ENDCMP
 #
+$CMP MAX17501AATB
+D 4.5V–60Vin, 500mA, High-Efficiency, 3.3V Synchronous Step-Down DC-DC Converter, PFM Mode, DFN-10
+K Step-down dc-dc switching regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX17501.pdf
+$ENDCMP
+#
+$CMP MAX17501BATB
+D 4.5V–60Vin, 500mA, High-Efficiency, 5V Synchronous Step-Down DC-DC Converter, PFM Mode, DFN-10
+K Step-down dc-dc switching regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX17501.pdf
+$ENDCMP
+#
+$CMP MAX17501EATB
+D 4.5V–60Vin, 500mA, High-Efficiency, 3.3V Synchronous Step-Down DC-DC Converter, PWM Mode, DFN-10
+K Step-down dc-dc switching regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX17501.pdf
+$ENDCMP
+#
+$CMP MAX17501FATB
+D 4.5V–60Vin, 500mA, High-Efficiency, 5V Synchronous Step-Down DC-DC Converter, PWM Mode, DFN-10
+K Step-down dc-dc switching regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX17501.pdf
+$ENDCMP
+#
+$CMP MAX17501GATB
+D 4.5V–60Vin, 500mA, High-Efficiency, Adjustable Synchronous Step-Down DC-DC Converter, 600KHz, DFN-10
+K Step-down dc-dc switching regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX17501.pdf
+$ENDCMP
+#
+$CMP MAX17501HATB
+D 4.5V–60Vin, 500mA, High-Efficiency, Adjustable Synchronous Step-Down DC-DC Converter, 300KHz, DFN-10
+K Step-down dc-dc switching regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX17501.pdf
+$ENDCMP
+#
 $CMP MAX17572
 D 4.5V–60V, 1A, High-Efficiency, Synchronous Step-Down DC-DC Converter with Internal Compensation, DFN-12
 K Step-down dc-dc switching regulator
