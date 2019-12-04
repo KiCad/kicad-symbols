@@ -744,6 +744,54 @@ K high-side mosfet-driver
 F https://www.analog.com/media/en/technical-documentation/data-sheets/4440fb.pdf
 $ENDCMP
 #
+$CMP MAX15012AASA
+D High Frequency Half Bridge Driver, Output Current 2.0A, 175V, CMOS Input, SOIC-8
+K Half Bridge Gate Driver
+F https://datasheets.maximintegrated.com/en/ds/MAX15012-MAX15013B.pdf
+$ENDCMP
+#
+$CMP MAX15012BASA
+D High Frequency Half Bridge Driver, Output Current 2.0A, 175V, CMOS Input, SOIC-8
+K Half Bridge Gate Driver
+F https://datasheets.maximintegrated.com/en/ds/MAX15012-MAX15013B.pdf
+$ENDCMP
+#
+$CMP MAX15012CASA
+D High Frequency Half Bridge Driver, Output Current 2.0A, 175V, CMOS Input, EPSOIC-8
+K Half Bridge Gate Driver
+F https://datasheets.maximintegrated.com/en/ds/MAX15012-MAX15013B.pdf
+$ENDCMP
+#
+$CMP MAX15012DASA
+D High Frequency Half Bridge Driver, Output Current 2.0A, 175V, CMOS Input, EPSOIC-8
+K Half Bridge Gate Driver
+F https://datasheets.maximintegrated.com/en/ds/MAX15012-MAX15013B.pdf
+$ENDCMP
+#
+$CMP MAX15013AASA
+D High Frequency Half Bridge Driver, Output Current 2.0A, 175V, TTL Input, SOIC-8
+K Half Bridge Gate Driver
+F https://datasheets.maximintegrated.com/en/ds/MAX15012-MAX15013B.pdf
+$ENDCMP
+#
+$CMP MAX15013BASA
+D High Frequency Half Bridge Driver, Output Current 2.0A, 175V, TTL Input, SOIC-8
+K Half Bridge Gate Driver
+F https://datasheets.maximintegrated.com/en/ds/MAX15012-MAX15013B.pdf
+$ENDCMP
+#
+$CMP MAX15013CASA
+D High Frequency Half Bridge Driver, Output Current 2.0A, 175V, TTL Input, EPSOIC-8
+K Half Bridge Gate Driver
+F https://datasheets.maximintegrated.com/en/ds/MAX15012-MAX15013B.pdf
+$ENDCMP
+#
+$CMP MAX15013DASA
+D High Frequency Half Bridge Driver, Output Current 2.0A, 175V, TTL Input, EPSOIC-8
+K Half Bridge Gate Driver
+F https://datasheets.maximintegrated.com/en/ds/MAX15012-MAX15013B.pdf
+$ENDCMP
+#
 $CMP MC33152
 D High Speed Dual MOSFET Drivers, 1.5A, -40 to 125C, DIP-8/SOIC-8
 K Driver, Dual MOSFET
