@@ -40,7 +40,7 @@ F1 "Heatsink" 0 -50 50 H V C CNN
 F2 "" 12 0 50 H I C CNN
 F3 "" 12 0 50 H I C CNN
 $FPLIST
- Heatsink:*
+ Heatsink_*
 $ENDFPLIST
 DRAW
 P 10 0 1 10 -13 50 -38 50 -38 150 -63 150 -63 50 -88 50 -88 150 -113 150 -113 0 -38 0 f
@@ -56,7 +56,7 @@ F1 "Heatsink_Pad" 0 150 50 H V C CNN
 F2 "" 12 -50 50 H I C CNN
 F3 "" 12 -50 50 H I C CNN
 $FPLIST
- Heatsink:*
+ Heatsink_*
 $ENDFPLIST
 DRAW
 P 10 0 1 10 -13 0 -38 0 -38 100 -63 100 -63 0 -88 0 -88 100 -113 100 -113 -50 -38 -50 f
@@ -73,7 +73,7 @@ F1 "Heatsink_Pad_2Pin" 0 150 50 H V C CNN
 F2 "" 12 -50 50 H I C CNN
 F3 "" 12 -50 50 H I C CNN
 $FPLIST
- Heatsink:*
+ Heatsink_*
 $ENDFPLIST
 DRAW
 P 10 0 1 10 -13 0 -38 0 -38 100 -63 100 -63 0 -88 0 -88 100 -113 100 -113 -50 -38 -50 f
@@ -91,7 +91,7 @@ F1 "Heatsink_Pad_3Pin" 0 150 50 H V C CNN
 F2 "" 12 -50 50 H I C CNN
 F3 "" 12 -50 50 H I C CNN
 $FPLIST
- Heatsink:*
+ Heatsink_*
 $ENDFPLIST
 DRAW
 P 10 0 1 10 -13 0 -38 0 -38 100 -63 100 -63 0 -88 0 -88 100 -113 100 -113 -50 -38 -50 f
