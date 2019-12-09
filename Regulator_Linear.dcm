@@ -3180,6 +3180,30 @@ K Linear LDO Regulator 200mA 5V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
+$CMP LP38512MR-ADJ
+D 1.5A Fast-Transient Response Low-Dropout Linear Voltage Regulator with Error Flag, Adjustable Output, SO-8
+K LDO Linear Regulator
+F http://www.ti.com/lit/ds/symlink/lp38512-adj.pdf
+$ENDCMP
+#
+$CMP LP38512TJ-1.8
+D 1.5A Fast-Transient Response Low-Dropout Linear Voltage Regulator with Error Flag, 1.8V Output, NDQ
+K LDO Linear Regulator
+F http://www.ti.com/lit/ds/symlink/lp38512.pdf
+$ENDCMP
+#
+$CMP LP38512TJ-ADJ
+D 1.5A Fast-Transient Response Low-Dropout Linear Voltage Regulator with Error Flag, Adjustable Output, NDQ
+K LDO Linear Regulator
+F http://www.ti.com/lit/ds/symlink/lp38512-adj.pdf
+$ENDCMP
+#
+$CMP LP38512TS-1.8
+D 1.5A Fast-Transient Response Low-Dropout Linear Voltage Regulator with Error Flag, 1.8V Output, TO-263/DDPAK/D2PAK
+K LDO Linear Regulator
+F http://www.ti.com/lit/ds/symlink/lp38512.pdf
+$ENDCMP
+#
 $CMP LP3963-1.8
 D 3A Fast Ultra Low Dropout Linear Regulator, 1.8V output voltage, TO-220-5/TO-263-5
 K LDO Linear Regulator
