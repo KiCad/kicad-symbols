@@ -960,6 +960,18 @@ K quad opamp
 F http://www.ti.com/lit/ds/symlink/opa1678.pdf
 $ENDCMP
 #
+$CMP OPA1692xD
+D Dual SoundPlus Low Power, Low Noise & Low Distortion Audio Operational Amplifiers, SOIC-8
+K VFA opamp 
+F https://www.ti.com/lit/ds/symlink/opa1692.pdf
+$ENDCMP
+#
+$CMP OPA1692xDGK
+D Dual SoundPlus Low Power, Low Noise & Low Distortion Audio Operational Amplifiers, VSSOP-8
+K VFA opamp 
+F https://www.ti.com/lit/ds/symlink/opa1692.pdf
+$ENDCMP
+#
 $CMP OPA188xxD
 D Precision, Low-Noise, Rail-to-Rail Output, 36-V, Zero-Drift Operational Amplifier, SOIC-8
 K single opamp zero-drift
