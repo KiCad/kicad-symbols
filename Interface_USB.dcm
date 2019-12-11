@@ -108,6 +108,12 @@ K USB-Serial single channel bridge
 F http://www.cypress.com/file/129956/download
 $ENDCMP
 #
+$CMP FSUSB42MUX
+D Low-Power, Two-Port, High-Speed, USB2.0 (480Mbps) or UART Switch, MSOP-10
+K USB 2.0 UART High Speed Switch
+F https://www.onsemi.com/pub/Collateral/FSUSB42-D.PDF
+$ENDCMP
+#
 $CMP FT200XD
 D Full Speed USB to I2C Bridge, DFN-10
 K FTDI USB I2C Interface Converter
