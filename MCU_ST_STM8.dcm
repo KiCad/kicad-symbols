@@ -66,6 +66,12 @@ K STM8L Microcontroller Low Power LCD
 F https://www.st.com/resource/en/datasheet/stm8l152r8.pdf
 $ENDCMP
 #
+$CMP STM8S001J3M
+D 16MHz, 8K Flash, 1K RAM, 128 EEPROM, SO-8
+K STM8 Microcontroller Value Line
+F https://www.st.com/resource/en/datasheet/stm8s001j3.pdf
+$ENDCMP
+#
 $CMP STM8S003F3P
 D 16MHz, 8K Flash, 1k RAM, 128 EEPROM, USART, I2C, SPI, TSSOP20
 K STM8S Mainstream Value line 8-bit, 16MHz, 1k RAM, 128 EEPROM
