@@ -810,26 +810,14 @@ K overvoltage undervoltage reverse-polarity protection
 F https://www.analog.com/media/en/technical-documentation/data-sheets/4365fa.pdf
 $ENDCMP
 #
-$CMP LTC4370CDE
-D OR Controller Current Sharing Controller N-Channel 2:1 16-DFN (4x3)
+$CMP LTC4370xDE
+D OR Controller Current Sharing Controller N-Channel 2:1, DFN-16
 K ideal-diode or-ing current sharing load balancing
 F https://www.analog.com/media/en/technical-documentation/data-sheets/4370f.pdf
 $ENDCMP
 #
-$CMP LTC4370CMS
-D OR Controller Current Sharing Controller N-Channel 2:1 16-MSOP
-K ideal-diode or-ing current sharing load balancing
-F https://www.analog.com/media/en/technical-documentation/data-sheets/4370f.pdf
-$ENDCMP
-#
-$CMP LTC4370IDE
-D OR Controller Current Sharing Controller N-Channel 2:1 16-DFN (4x3)
-K ideal-diode or-ing current sharing load balancing
-F https://www.analog.com/media/en/technical-documentation/data-sheets/4370f.pdf
-$ENDCMP
-#
-$CMP LTC4370IMS
-D OR Controller Current Sharing Controller N-Channel 2:1 16-MSOP
+$CMP LTC4370xMS
+D OR Controller Current Sharing Controller N-Channel 2:1, MSOP-16
 K ideal-diode or-ing current sharing load balancing
 F https://www.analog.com/media/en/technical-documentation/data-sheets/4370f.pdf
 $ENDCMP
