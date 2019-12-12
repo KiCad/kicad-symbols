@@ -240,10 +240,10 @@ K switching buck converter
 F http://www.aosmd.com/res/data_sheets/AOZ1282CI-1.pdf
 $ENDCMP
 #
-$CMP AP3211
+$CMP AP3211K
 D 1.4MHz, 1.5A asynchronous DC-DC buck (step-down) converter
 K Step-Down Buck DC-DC Regulator Adjustable
-F https://www.mouser.de/datasheet/2/115/AP3211-271560.pdf
+F https://www.diodes.com/assets/Datasheets/AP3211.pdf
 $ENDCMP
 #
 $CMP AP6502
