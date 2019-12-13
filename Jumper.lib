@@ -11,6 +11,7 @@ F3 "" 0 0 50 H I C CNN
 $FPLIST
  Jumper*
  TestPoint*2Pads*
+ TestPoint*Bridge*
 $ENDFPLIST
 DRAW
 A 0 -70 100 1269 531 0 1 0 N -60 10 60 10
@@ -31,6 +32,7 @@ F3 "" 0 0 50 H I C CNN
 $FPLIST
  Jumper*
  TestPoint*2Pads*
+ TestPoint*Bridge*
 $ENDFPLIST
 DRAW
 A 0 -30 100 1269 531 0 1 0 N -60 50 60 50
@@ -51,6 +53,7 @@ F3 "" 0 0 50 H I C CNN
 $FPLIST
  Jumper*
  TestPoint*3Pads*
+ TestPoint*Bridge*
 $ENDFPLIST
 DRAW
 A -65 -50 89 1282 518 0 1 0 N -120 20 -10 20
@@ -74,6 +77,7 @@ F3 "" 0 0 50 H I C CNN
 $FPLIST
  Jumper*
  TestPoint*3Pads*
+ TestPoint*Bridge*
 $ENDFPLIST
 DRAW
 A -65 -30 89 1282 518 0 1 0 N -120 40 -10 40
