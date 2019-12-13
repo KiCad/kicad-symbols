@@ -288,6 +288,42 @@ K 5V 4A 20W miniature AC-DC module-type power supply
 F http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF
 $ENDCMP
 #
+$CMP PBO-3-S12
+D 12V 0.25A 3W miniature AC-DC module-type power supply
+K ac dc power supply
+F https://www.cui.com/product/resource/pbo-3.pdf
+$ENDCMP
+#
+$CMP PBO-3-S15
+D 15V 0.2A 3W miniature AC-DC module-type power supply
+K ac dc power supply
+F https://www.cui.com/product/resource/pbo-3.pdf
+$ENDCMP
+#
+$CMP PBO-3-S24
+D 24V 0.125A 3W miniature AC-DC module-type power supply
+K ac dc power supply
+F https://www.cui.com/product/resource/pbo-3.pdf
+$ENDCMP
+#
+$CMP PBO-3-S3.3
+D 3.3V 0.6A 1.98W miniature AC-DC module-type power supply
+K ac dc power supply
+F https://www.cui.com/product/resource/pbo-3.pdf
+$ENDCMP
+#
+$CMP PBO-3-S5
+D 5V 0.6A 3W miniature AC-DC module-type power supply
+K ac dc power supply
+F https://www.cui.com/product/resource/pbo-3.pdf
+$ENDCMP
+#
+$CMP PBO-3-S9
+D 9V 0.333A 3W miniature AC-DC module-type power supply
+K ac dc power supply
+F https://www.cui.com/product/resource/pbo-3.pdf
+$ENDCMP
+#
 $CMP RAC01-05SGB
 D 1 Watt Single Output EMC Class B AC/DC 5V 200mA power supply with regulated and short-circuit-proof isolated DC outputs and low standby power consumption.
 K ac dc power supply
@@ -568,6 +604,78 @@ $CMP TMLM20124
 D 24V 833mA AC/DC low noise power module
 K Traco Power 20W AC-DC module power supply
 F https://www.tracopower.com/products/tmlm.pdf
+$ENDCMP
+#
+$CMP VTX-214-010-103
+D 3V Vigortronix 10W ACDC Converters
+K 3V 10W AC-DC module power supply
+F http://www.vigortronix.com/10WattACDCPCBPowerModule.aspx
+$ENDCMP
+#
+$CMP VTX-214-010-105
+D 5V Vigortronix 10W ACDC Converters
+K 5V 10W AC-DC module power supply
+F http://www.vigortronix.com/10WattACDCPCBPowerModule.aspx
+$ENDCMP
+#
+$CMP VTX-214-010-106
+D 6V Vigortronix 10W ACDC Converters
+K 6V 10W AC-DC module power supply
+F http://www.vigortronix.com/10WattACDCPCBPowerModule.aspx
+$ENDCMP
+#
+$CMP VTX-214-010-107
+D 7.5V Vigortronix 10W ACDC Converters
+K 7.5V 10W AC-DC module power supply
+F http://www.vigortronix.com/10WattACDCPCBPowerModule.aspx
+$ENDCMP
+#
+$CMP VTX-214-010-108
+D 8V Vigortronix 10W ACDC Converters
+K 8V 10W AC-DC module power supply
+F http://www.vigortronix.com/10WattACDCPCBPowerModule.aspx
+$ENDCMP
+#
+$CMP VTX-214-010-109
+D 9V Vigortronix 10W ACDC Converters
+K 9V 10W AC-DC module power supply
+F http://www.vigortronix.com/10WattACDCPCBPowerModule.aspx
+$ENDCMP
+#
+$CMP VTX-214-010-110
+D 10V Vigortronix 10W ACDC Converters
+K 10V 10W AC-DC module power supply
+F http://www.vigortronix.com/10WattACDCPCBPowerModule.aspx
+$ENDCMP
+#
+$CMP VTX-214-010-112
+D 12V Vigortronix 10W ACDC Converters
+K 12V 10W AC-DC module power supply
+F http://www.vigortronix.com/10WattACDCPCBPowerModule.aspx
+$ENDCMP
+#
+$CMP VTX-214-010-115
+D 15V Vigortronix 10W ACDC Converters
+K 15V 10W AC-DC module power supply
+F http://www.vigortronix.com/10WattACDCPCBPowerModule.aspx
+$ENDCMP
+#
+$CMP VTX-214-010-118
+D 18V Vigortronix 10W ACDC Converters
+K 18V 10W AC-DC module power supply
+F http://www.vigortronix.com/10WattACDCPCBPowerModule.aspx
+$ENDCMP
+#
+$CMP VTX-214-010-124
+D 24V Vigortronix 10W ACDC Converters
+K 24V 10W AC-DC module power supply
+F http://www.vigortronix.com/10WattACDCPCBPowerModule.aspx
+$ENDCMP
+#
+$CMP VTX-214-010-148
+D 48V Vigortronix 10W ACDC Converters
+K 48V 10W AC-DC module power supply
+F http://www.vigortronix.com/10WattACDCPCBPowerModule.aspx
 $ENDCMP
 #
 $CMP VTX-214-015-103

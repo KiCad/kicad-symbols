@@ -24,6 +24,12 @@ K CCD Signal Processor
 F https://www.analog.com/static/imported-files/data_sheets/AD9891_9895.pdf
 $ENDCMP
 #
+$CMP AD9984AKST
+D High Performance 10-Bit Display Interface 140/170MSPS LQFP
+K 10bit video display interface
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9984A.pdf
+$ENDCMP
+#
 $CMP AV9173
 D Video Genlock PLL
 K video pll

@@ -66,6 +66,12 @@ K ETHERNET PHY RGMII WOL IEEE 802.3 MICROCHIP
 F http://ww1.microchip.com/downloads/en/DeviceDoc/00002117C.pdf
 $ENDCMP
 #
+$CMP KSZ9893RNX
+D 3-Port Gigabit Ethernet Switch with RGMII/MII/RMII Interface, QFN-64
+K Gigabit Ethernet Switch RGMII MII RMII
+F http://ww1.microchip.com/downloads/en/DeviceDoc/KSZ9893R-Data-Sheet-DS00002420C.pdf
+$ENDCMP
+#
 $CMP LAN8720A
 D LAN8720 Ethernet PHY with RMII interface
 K ETH PHY RMII

@@ -36,6 +36,12 @@ K pll clock driver
 F http://www.ti.com/lit/ds/symlink/cdcvf2505.pdf
 $ENDCMP
 #
+$CMP CS2000-CP
+D Fractional-N Clock Synthesizer & Clock Multiplier, MSOP-10
+K Clock Synthesizer Multiplier
+F https://statics.cirrus.com/pubs/proDatasheet/CS2000-CP_F3.pdf
+$ENDCMP
+#
 $CMP ICS525-01R
 D User configurable clock up to 160 MHz, SSOP-28
 K Configurable clock

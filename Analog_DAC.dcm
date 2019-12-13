@@ -265,13 +265,13 @@ F https://www.analog.com/static/imported-files/data_sheets/AD7228.pdf
 $ENDCMP
 #
 $CMP AD7304
-D 3 V/5 V, Rail-to-Rail, Quad, 8-Bit DAC, SPI Interface, SOIC-16/TSSOP-16
+D 3V/5V, Rail-to-Rail, Quad, 8-Bit DAC, SPI Interface, SOIC-16/TSSOP-16
 K dac 4ch 8bit spi
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7304_7305.pdf
 $ENDCMP
 #
 $CMP AD7305
-D 3 V/5 V, Rail-to-Rail, Quad, 8-Bit DAC, Parallel Interface, SOIC-20/TSSOP-20
+D 3V/5V, Rail-to-Rail, Quad, 8-Bit DAC, Parallel Interface, SOIC-20/TSSOP-20
 K dac 4ch 8bit parallel
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7304_7305.pdf
 $ENDCMP

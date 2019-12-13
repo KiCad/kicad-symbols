@@ -7,7 +7,7 @@ F http://datasheets.maximintegrated.com/en/ds/ICL7660-MAX1044.pdf
 $ENDCMP
 #
 $CMP LM2776
-D Switched capacitor inverter, inverts positive voltage +2.7 to +5.5V to negative, 200 mA, SOT-23-6
+D Switched capacitor inverter, inverts positive voltage +2.7 to +5.5V to negative, 200mA, SOT-23-6
 K Switched capacitor inverter
 F http://www.ti.com/lit/ds/symlink/lm2776.pdf
 $ENDCMP
@@ -70,6 +70,12 @@ $CMP MAX1044
 D Switched-Capacitor Voltage Converter, 1.5V to 10.0V operating supply voltage, 10mA with a 0.5V output drop, SO-8/DIP-8/µMAX-8/TO-99
 K monolithic CMOS switched capacitor voltage converter invert double divide multiply boost
 F http://datasheets.maximintegrated.com/en/ds/ICL7660-MAX1044.pdf
+$ENDCMP
+#
+$CMP TPS60151DRV
+D 5V, 140mA charge-pump, WSON-6
+K charge pump
+F https://www.ti.com/lit/ds/symlink/tps60151.pdf
 $ENDCMP
 #
 $CMP TPS60500DGS

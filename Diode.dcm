@@ -480,10 +480,28 @@ K diode
 F https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf
 $ENDCMP
 #
+$CMP BAS16W
+D 100V, 0.175A, High-speed Switching Diode, SOT-323
+K diode
+F https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf
+$ENDCMP
+#
+$CMP BAS316
+D 100V, 0.25A, High-speed Switching Diode, SOD-323
+K diode
+F https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf
+$ENDCMP
+#
 $CMP BAS40-04
 D 40V 0.2A Dual Small Signal Schottky Diodes
 K Schottky, Diode
 F http://www.vishay.com/docs/85701/bas40v.pdf
+$ENDCMP
+#
+$CMP BAS516
+D 100V, 0.25A, High-speed Switching Diode, SOD-523
+K diode
+F https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf
 $ENDCMP
 #
 $CMP BAT41
@@ -588,6 +606,12 @@ K schottky diode
 F https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf
 $ENDCMP
 #
+$CMP BAT60A
+D 10V 3A High Current Recitifier Schottky Diode, SOD-323
+K diode Schottky
+F https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9
+$ENDCMP
+#
 $CMP BAT85
 D 30V 0.2A Schottky barrier single diode, DO-35
 K diode Schottky
@@ -648,6 +672,30 @@ K diode
 F http://www.vishay.com/docs/85543/bav17.pdf
 $ENDCMP
 #
+$CMP BAV300
+D 50V 0.25A Switching Diode, High Voltage, MicroMELF
+K diode
+F http://www.vishay.com/docs/85545/bav300.pdf
+$ENDCMP
+#
+$CMP BAV301
+D 100V 0.25A Switching Diode, High Voltage, MicroMELF
+K diode
+F http://www.vishay.com/docs/85545/bav300.pdf
+$ENDCMP
+#
+$CMP BAV302
+D 150V 0.25A Switching Diode, High Voltage, MicroMELF
+K diode
+F http://www.vishay.com/docs/85545/bav300.pdf
+$ENDCMP
+#
+$CMP BAV303
+D 200V 0.25A Switching Diode, High Voltage, MicroMELF
+K diode
+F http://www.vishay.com/docs/85545/bav300.pdf
+$ENDCMP
+#
 $CMP BAV70
 D Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23
 K diode
@@ -685,7 +733,7 @@ F https://assets.nexperia.com/documents/data-sheet/BAV756S_BAW56_SER.pdf
 $ENDCMP
 #
 $CMP BAV99
-D BAV99 High-speed switching diodes
+D BAV99 High-speed switching diodes, SOT-23
 K diode
 F https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf
 $ENDCMP
@@ -744,10 +792,34 @@ K diode
 F http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf
 $ENDCMP
 #
+$CMP BZD27Cxx
+D 800mW Zener Diode, 3.6-200V, SMF
+K zener diode
+F https://www.vishay.com/docs/85153/bzd27series.pdf
+$ENDCMP
+#
+$CMP BZM55Bxx
+D 500mW Zener Diode, 2%, MicroMELF
+K zener diode
+F http://www.vishay.com/docs/85597/bzm55.pdf
+$ENDCMP
+#
+$CMP BZM55Cxx
+D 500mW Zener Diode, 6%, MicroMELF
+K zener diode
+F http://www.vishay.com/docs/85597/bzm55.pdf
+$ENDCMP
+#
 $CMP BZT52Bxx
 D 500mW Zener Diode, SOD-123
 K zener diode
 F https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf
+$ENDCMP
+#
+$CMP BZX384-xxx
+D 300mW Zener Diode, SOD-323
+K zener diode
+F https://assets.nexperia.com/documents/data-sheet/BZX384_SERIES.pdf
 $ENDCMP
 #
 $CMP BZX84Cxx
@@ -1104,6 +1176,12 @@ K sic diode
 F https://www.wolfspeed.com/media/downloads/111/C5D50065D.pdf
 $ENDCMP
 #
+$CMP CD4148W
+D 75V 0.15A Switching Diode, 0805
+K diode
+F https://www.dccomponents.com/upload/product/original/806236332588.pdf
+$ENDCMP
+#
 $CMP CSD01060A
 D 600V, 1A, SiC Schottky Diode, TO-220
 K sic diode
@@ -1180,6 +1258,114 @@ $CMP DSB5712
 D 20V 75mA Schottky diode, DO-35
 K diode Schottky
 F https://www.microsemi.com/document-portal/doc_download/8865-lds-0040-datasheet
+$ENDCMP
+#
+$CMP DZ2S030X0L
+D 150mW Silicon Planar Zener Diode, 3.0V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S03000L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S033X0L
+D 150mW Silicon Planar Zener Diode, 3.3V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S03300L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S036X0L
+D 150mW Silicon Planar Zener Diode, 3.6V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S03600L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S039X0L
+D 150mW Silicon Planar Zener Diode, 3.9V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S03900L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S047X0L
+D 150mW Silicon Planar Zener Diode, 4.7V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S04700L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S051X0L
+D 150mW Silicon Planar Zener Diode, 5.1V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S05100L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S056X0L
+D 150mW Silicon Planar Zener Diode, 5.6V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S05600L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S068X0L
+D 150mW Silicon Planar Zener Diode, 6.8V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S06800L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S082X0L
+D 150mW Silicon Planar Zener Diode, 8.2V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S08200L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S100X0L
+D 150mW Silicon Planar Zener Diode, 10V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S10000L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S110X0L
+D 150mW Silicon Planar Zener Diode, 11V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S11000L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S120X0L
+D 150mW Silicon Planar Zener Diode, 12V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S12000L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S130X0L
+D 150mW Silicon Planar Zener Diode, 13V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S13000L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S150X0L
+D 150mW Silicon Planar Zener Diode, 15V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S15000L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S160X0L
+D 150mW Silicon Planar Zener Diode, 16V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S16000L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S180X0L
+D 150mW Silicon Planar Zener Diode, 18V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S18000L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S200X0L
+D 150mW Silicon Planar Zener Diode, 20V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S20000L_E.pdf
+$ENDCMP
+#
+$CMP DZ2S360X0L
+D 150mW Silicon Planar Zener Diode, 36V, SOD-523
+K zener diode
+F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S36000L_E.pdf
 $ENDCMP
 #
 $CMP HN2D02FU
@@ -1326,6 +1512,24 @@ K diode Schottky
 F http://www.onsemi.com/pub_link/Collateral/MBR735-D.PDF
 $ENDCMP
 #
+$CMP MBRA340
+D 40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.onsemi.com/pub/Collateral/MBRA340T3-D.PDF
+$ENDCMP
+#
+$CMP MCL4148
+D 75V 0.2A Switching Diode, MicroMELF
+K diode
+F http://www.vishay.com/docs/85566/mlc4148.pdf
+$ENDCMP
+#
+$CMP MCL4448
+D 75V 0.2A Switching Diode, MicroMELF
+K diode
+F http://www.vishay.com/docs/85566/mlc4148.pdf
+$ENDCMP
+#
 $CMP MM3Zxx
 D 300mW Zener Diode, SOD-123F
 K zener diode
@@ -1440,6 +1644,18 @@ K diode
 F http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF
 $ENDCMP
 #
+$CMP NSR0340HT1G
+D 40V 0.25A Schottky Diode, SOD-323
+K diode Schottky
+F https://www.onsemi.com/pub/Collateral/NSR0340H-D.PDF
+$ENDCMP
+#
+$CMP PMEG4050EP
+D 40V 5.0A Schottky Diode, SOD-128
+K diode Schottky
+F https://assets.nexperia.com/documents/data-sheet/PMEG4050EP.pdf
+$ENDCMP
+#
 $CMP PMEG6010CEH
 D 60V 1A very low Vf MEGA Schottky barrier rectifier, SOD-123
 K diode Schottky
@@ -1450,6 +1666,18 @@ $CMP PMEG6010CEJ
 D 60V 1A very low Vf MEGA Schottky barrier rectifier, SOD-323
 K diode Schottky
 F https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf
+$ENDCMP
+#
+$CMP PMEG6030EP
+D 60V 3.0A Schottky Diode, SOD-128
+K diode Schottky
+F https://assets.nexperia.com/documents/data-sheet/PMEG6030EP.pdf
+$ENDCMP
+#
+$CMP PMEG6045ETP
+D 60V 4.5A Schottky Diode, SOD-128
+K diode Schottky
+F https://assets.nexperia.com/documents/data-sheet/PMEG6045ETP.pdf
 $ENDCMP
 #
 $CMP Panasonic_MA5J002E
@@ -1584,6 +1812,18 @@ K zener diode
 F https://diotec.com/tl_files/diotec/files/pdf/datasheets/smz1.pdf
 $ENDCMP
 #
+$CMP STTH212S
+D 1200V 2A High Voltage Ultrafast Diode, SMC
+K diode
+F https://www.st.com/resource/en/datasheet/stth212.pdf
+$ENDCMP
+#
+$CMP STTH212U
+D 1200V 2A High Voltage Ultrafast Diode, SMB
+K diode
+F https://www.st.com/resource/en/datasheet/stth212.pdf
+$ENDCMP
+#
 $CMP Toshiba_HN1D01FU
 D Ultra High Speed Switching Diode Array 2 pair Com A
 K diode
@@ -1642,6 +1882,12 @@ $CMP UF5408
 D 1000V 3A Soft Recovery Ultrafast Rectifier Diode, DO-201AD
 K diode
 F http://www.vishay.com/docs/88756/uf5400.pdf
+$ENDCMP
+#
+$CMP VS-6ESU06
+D 600V 6.0A Ultrafast Rectifier, TO-277A
+K diode fred
+F https://www.vishay.com/docs/94987/vs-6esu06hm3.pdf
 $ENDCMP
 #
 $CMP Z1SMAxxx
