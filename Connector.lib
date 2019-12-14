@@ -15373,6 +15373,23 @@ X 1 1 0 0 0 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# TestPoint_Small
+#
+DEF TestPoint_Small TP 0 30 N N 1 F N
+F0 "TP" 0 150 50 H V C CNN
+F1 "TestPoint_Small" 0 80 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 0 20 0 1 0 N
+X 1 1 0 0 0 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # UEXT_Host
 #
 DEF UEXT_Host J 0 20 Y Y 1 F N
