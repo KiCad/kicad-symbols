@@ -126,6 +126,42 @@ D Flash EEProm 1MO (TSOP 40 pack.) 3,3V
 K EEPROM FLASH 1MO
 $ENDCMP
 #
+$CMP MX25R3235FM1xx0
+D 32-Mbit, Wide Range Voltage SPI Serial Flash Memory, SOP-8
+K SPI 32Mbit 1.65V-3.6V
+F http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf
+$ENDCMP
+#
+$CMP MX25R3235FM1xx1
+D 32-Mbit, Wide Range Voltage SPI Serial Flash Memory, SOP-8
+K SPI 32Mbit 1.65V-3.6V
+F http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf
+$ENDCMP
+#
+$CMP MX25R3235FM2xx0
+D 32-Mbit, Wide Range Voltage SPI Serial Flash Memory, SOP-8
+K SPI 32Mbit 1.65V-3.6V
+F http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf
+$ENDCMP
+#
+$CMP MX25R3235FM2xx1
+D 32-Mbit, Wide Range Voltage SPI Serial Flash Memory, SOP-8
+K SPI 32Mbit 1.65V-3.6V
+F http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf
+$ENDCMP
+#
+$CMP MX25R3235FZNxx0
+D 32-Mbit, Wide Range Voltage SPI Serial Flash Memory, WSON-8
+K SPI 32Mbit 1.65V-3.6V
+F http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf
+$ENDCMP
+#
+$CMP MX25R3235FZNxx1
+D 32-Mbit, Wide Range Voltage SPI Serial Flash Memory, WSON-8
+K SPI 32Mbit 1.65V-3.6V
+F http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf
+$ENDCMP
+#
 $CMP SST25VF080B-50-4x-S2Ax
 D 8-Mbit, 2.7 to 3.6V, SPI Flash Memory, SOIC-8
 K flash memory spi
