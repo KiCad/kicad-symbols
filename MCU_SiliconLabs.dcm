@@ -1,5 +1,35 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP C8051F381-GM
+D Full Speed USB Flash MCU Family, 64k flash, 4352 ram, 25 IO, ADC, Temperature, VREF, QFN32
+K 8051 microcontroller PCA UART USB SPI I2C ADC QFN32
+F https://www.silabs.com/documents/public/data-sheets/C8051F38x.pdf
+$ENDCMP
+#
+$CMP C8051F383-GM
+D Full Speed USB Flash MCU Family, 32k flash, 2304 ram, 25 IO, ADC, Temperature, VREF, QFN32
+K 8051 microcontroller PCA UART USB SPI I2C ADC QFN32
+F https://www.silabs.com/documents/public/data-sheets/C8051F38x.pdf
+$ENDCMP
+#
+$CMP C8051F385-GM
+D Full Speed USB Flash MCU Family, 64k flash, 4352 ram, 25 IO, QFN32
+K 8051 microcontroller PCA UART USB SPI I2C QFN32
+F https://www.silabs.com/documents/public/data-sheets/C8051F38x.pdf
+$ENDCMP
+#
+$CMP C8051F387-GM
+D Full Speed USB Flash MCU Family, 32k flash, 2304 ram, 25 IO, QFN32
+K 8051 microcontroller PCA UART USB SPI I2C QFN32
+F https://www.silabs.com/documents/public/data-sheets/C8051F38x.pdf
+$ENDCMP
+#
+$CMP C8051F38C-GM
+D Full Speed USB Flash MCU Family, 16k flash, 2304 ram, 25 IO, ADC, Temperature, VREF, QFN32
+K 8051 microcontroller PCA UART USB SPI I2C ADC QFN32
+F https://www.silabs.com/documents/public/data-sheets/C8051F38x.pdf
+$ENDCMP
+#
 $CMP EFM32G230F128G-E-QFN64
 D 32-bit ARM Cortex-M3 microcontroller, 128 kB flash, 16 kB x 8 RAM, Silicon Labs - Gecko, QFN-64
 K MCU microcontroller silicon labs siliconlabs silabs EFM32 gecko
