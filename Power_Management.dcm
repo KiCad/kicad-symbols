@@ -810,6 +810,18 @@ K overvoltage undervoltage reverse-polarity protection
 F https://www.analog.com/media/en/technical-documentation/data-sheets/4365fa.pdf
 $ENDCMP
 #
+$CMP LTC4370xDE
+D OR Controller Current Sharing Controller N-Channel 2:1, DFN-16
+K ideal-diode or-ing current sharing load balancing
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4370f.pdf
+$ENDCMP
+#
+$CMP LTC4370xMS
+D OR Controller Current Sharing Controller N-Channel 2:1, MSOP-16
+K ideal-diode or-ing current sharing load balancing
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4370f.pdf
+$ENDCMP
+#
 $CMP LTC4412xS6
 D Low Loss PowerPath Controller, TSOT-23-6
 K ideal-diode or-ing
