@@ -87,6 +87,12 @@ K 8255 PPI
 F http://jap.hu/electronic/8255.pdf
 $ENDCMP
 #
+$CMP 88SE9125C0-NAA
+D One-Lane PCIe SATA Two-Ports Controller, QFN-76
+K PCIe2.0 SATA3.0
+F https://www.marvell.com/documents/bqcwxsoiqfjkcjdjhkvc/
+$ENDCMP
+#
 $CMP AD9834
 D 10 bit 75 MHz Complete Direct Digital Synthesizer, 2.3V to 5.5V, 20mW, TSSOP-20
 K Direct Digital Synthesizer DDS
@@ -211,6 +217,12 @@ $CMP LTC1689
 D 100Mbps RS485 Hot Swapable Quad Drivers
 K driver rs485 rs422 differential
 F https://www.analog.com/media/en/technical-documentation/data-sheets/16889fa.pdf
+$ENDCMP
+#
+$CMP LTC4317
+D Dual I2C/SMBus Address-Translator, DFN-16
+K I2C Translator 4kV-ESD Level-Shifter Hot-Swap
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4317fa.pdf
 $ENDCMP
 #
 $CMP LTC6957xDD-1
