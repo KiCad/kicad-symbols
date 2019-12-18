@@ -774,10 +774,10 @@ K OpAmp Rail-to-rail Output Single
 F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
 $ENDCMP
 #
-$CMP NCS20072
-D Dual 2.8V/µs Rail-to-Rail Output SOIC-8/TSSOP-8/MSOP-8
-K OpAmp Rail-to-rail Output Dual
-F https://www.mouser.se/datasheet/2/308/NCS20071-D-470030.pdf
+$CMP NCS20072DR
+D Dual, 2.8V/µs, Rail-to-Rail Output, SOIC-8
+K dual rail-to-rail ouput
+F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
 $ENDCMP
 #
 $CMP NCS20074
