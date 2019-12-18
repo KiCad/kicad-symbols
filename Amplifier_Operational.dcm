@@ -780,10 +780,10 @@ K dual rail-to-rail ouput
 F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
 $ENDCMP
 #
-$CMP NCS20074
-D Quad 2.8V/µs Rail-to-Rail Output SOIC-14/TSSOP-14
-K OpAmp Rail-to-rail Output
-F https://www.mouser.se/datasheet/2/308/NCS20071-D-470030.pdf
+$CMP NCS20074DR
+D Quad, 2.8V/µs, Rail-to-Rail Output, SOIC-14
+K quad rail-to-rail output
+F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
 $ENDCMP
 #
 $CMP NCS2325D
