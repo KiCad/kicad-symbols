@@ -798,6 +798,12 @@ K quad rail-to-rail output
 F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
 $ENDCMP
 #
+$CMP NCS20074DTBR
+D Quad, 2.8V/µs, Rail-to-Rail Output, TSSOP-14
+K quad rail-to-rail output
+F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
+$ENDCMP
+#
 $CMP NCS2325D
 D Dual operational amplifier, 50uV Offset, 0.25uV/C, 35uA Zero-Drift, SOIC-8
 K dual opamp low-power
