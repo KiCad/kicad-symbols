@@ -72,6 +72,12 @@ K AHCTMOS DFF DFF8 REG 3State
 F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT374.pdf
 $ENDCMP
 #
+$CMP 74CBTLV16212
+D Low-voltage 24-bit FET Bus-exchange switch
+K bus
+F https://www.ti.com/lit/ds/symlink/sn74cbtlv16212.pdf
+$ENDCMP
+#
 $CMP 74CBTLV3257
 D Quad 1:2 FET Multiplexer/Demultiplexer, Low-Voltage
 K mux demux low-voltage

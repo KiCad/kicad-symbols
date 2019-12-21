@@ -456,4 +456,76 @@ K Crystal Clock Oscillator
 F http://cdn-reichelt.de/documents/datenblatt/B400/XO91.pdf
 $ENDCMP
 #
+$CMP XUX51
+D Low phase noise, quartz-based PLL oscillator, 0.016-1500 MHz, complementary output
+K OTP XHCMOS 1.8V VCXO
+F https://www.idt.com/document/dst/xu-family-datasheet
+$ENDCMP
+#
+$CMP XUX52
+D Low phase noise, quartz-based PLL oscillator, 0.016-1500 MHz, complementary output
+K OTP XHCMOS 2.5V VCXO
+F https://www.idt.com/document/dst/xu-family-datasheet
+$ENDCMP
+#
+$CMP XUX53
+D Low phase noise, quartz-based PLL oscillator, 0.016-1500 MHz, complementary output
+K OTP XHCMOS 3.3V VCXO
+F https://www.idt.com/document/dst/xu-family-datasheet
+$ENDCMP
+#
+$CMP XUX71
+D Low phase noise, quartz-based PLL oscillator, 0.016-1500 MHz, complementary output
+K OTP XHCMOS 1.8V VCXO
+F https://www.idt.com/document/dst/xu-family-datasheet
+$ENDCMP
+#
+$CMP XUX72
+D Low phase noise, quartz-based PLL oscillator, 0.016-1500 MHz, complementary output
+K OTP XHCMOS 2.5V VCXO
+F https://www.idt.com/document/dst/xu-family-datasheet
+$ENDCMP
+#
+$CMP XUX73
+D Low phase noise, quartz-based PLL oscillator, 0.016-1500 MHz, complementary output
+K OTP XHCMOS 3.3V VCXO
+F https://www.idt.com/document/dst/xu-family-datasheet
+$ENDCMP
+#
+$CMP XUY51
+D Low phase noise, quartz-based PLL oscillator, 0.016-1500 MHz, complementary output
+K OTP HCMOS 1.8V VCXO
+F https://www.idt.com/document/dst/xu-family-datasheet
+$ENDCMP
+#
+$CMP XUY52
+D Low phase noise, quartz-based PLL oscillator, 0.016-1500 MHz, complementary output
+K OTP XHCMOS 2.5V VCXO
+F https://www.idt.com/document/dst/xu-family-datasheet
+$ENDCMP
+#
+$CMP XUY53
+D Low phase noise, quartz-based PLL oscillator, 0.016-1500 MHz, complementary output
+K OTP XHCMOS 3.3V VCXO
+F https://www.idt.com/document/dst/xu-family-datasheet
+$ENDCMP
+#
+$CMP XUY71
+D Low phase noise, quartz-based PLL oscillator, 0.016-1500 MHz, complementary output
+K OTP HCMOS 1.8V VCXO
+F https://www.idt.com/document/dst/xu-family-datasheet
+$ENDCMP
+#
+$CMP XUY72
+D Low phase noise, quartz-based PLL oscillator, 0.016-1500 MHz, complementary output
+K OTP XHCMOS 2.5V VCXO
+F https://www.idt.com/document/dst/xu-family-datasheet
+$ENDCMP
+#
+$CMP XUY73
+D Low phase noise, quartz-based PLL oscillator, 0.016-1500 MHz, complementary output
+K OTP XHCMOS 3.3V VCXO
+F https://www.idt.com/document/dst/xu-family-datasheet
+$ENDCMP
+#
 #End Doc Library

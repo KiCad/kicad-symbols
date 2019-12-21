@@ -25,6 +25,7 @@
   (lib (name Converter_ACDC)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Converter_ACDC.lib)(options "")(descr "AC to DC converter modules"))
   (lib (name Converter_DCDC)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Converter_DCDC.lib)(options "")(descr "DC to DC converter modules"))
   (lib (name CPLD_Altera)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/CPLD_Altera.lib)(options "")(descr "Altera CPLD symbols"))
+  (lib (name CPLD_Microchip)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/CPLD_Microchip.lib)(options "")(descr "Microchip CPLD symbols"))
   (lib (name CPLD_Xilinx)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/CPLD_Xilinx.lib)(options "")(descr "Xilinx CPLD symbols"))
   (lib (name CPU)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/CPU.lib)(options "")(descr "Central processor unit (CPU) symbols, assorted"))
   (lib (name CPU_NXP_6800)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/CPU_NXP_6800.lib)(options "")(descr "NXP (formerly Motorola) 6800 CPUs"))

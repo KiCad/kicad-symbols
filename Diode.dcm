@@ -1668,6 +1668,18 @@ K diode Schottky
 F https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf
 $ENDCMP
 #
+$CMP PMEG6030EP
+D 60V 3.0A Schottky Diode, SOD-128
+K diode Schottky
+F https://assets.nexperia.com/documents/data-sheet/PMEG6030EP.pdf
+$ENDCMP
+#
+$CMP PMEG6045ETP
+D 60V 4.5A Schottky Diode, SOD-128
+K diode Schottky
+F https://assets.nexperia.com/documents/data-sheet/PMEG6045ETP.pdf
+$ENDCMP
+#
 $CMP Panasonic_MA5J002E
 D Quad Ultra high Speed Switching Diode Array Com K
 K diode
