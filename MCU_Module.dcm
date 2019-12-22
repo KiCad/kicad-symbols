@@ -156,7 +156,31 @@ K raspberrypi gpio sbc singleboard computer
 F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_ZeroW_1p1_reduced.pdf
 $ENDCMP
 #
+$CMP RaspberryPi-ZeroW_Run_TV
+D Raspberry Pi ZeroW, 1.0 GHz single core, 512 MB RAM, singleboard computer
+K raspberrypi gpio sbc singleboard computer
+F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_ZeroW_1p1_reduced.pdf
+$ENDCMP
+#
+$CMP RaspberryPi-ZeroW_TV
+D Raspberry Pi ZeroW, 1.0 GHz single core, 512 MB RAM, singleboard computer
+K raspberrypi gpio sbc singleboard computer
+F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_ZeroW_1p1_reduced.pdf
+$ENDCMP
+#
 $CMP RaspberryPi-Zero_Run
+D Raspberry Pi Zero, 1.0 GHz single core, 512 MB RAM, singleboard computer
+K raspberrypi gpio sbc singleboard computer
+F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_Zero_1p3_reduced.pdf
+$ENDCMP
+#
+$CMP RaspberryPi-Zero_Run_TV
+D Raspberry Pi Zero, 1.0 GHz single core, 512 MB RAM, singleboard computer
+K raspberrypi gpio sbc singleboard computer
+F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_Zero_1p3_reduced.pdf
+$ENDCMP
+#
+$CMP RaspberryPi-Zero_TV
 D Raspberry Pi Zero, 1.0 GHz single core, 512 MB RAM, singleboard computer
 K raspberrypi gpio sbc singleboard computer
 F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_Zero_1p3_reduced.pdf
