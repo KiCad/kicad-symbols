@@ -749,10 +749,10 @@ F1 "SST26VFxxxB" 550 250 50 H V C CNN
 F2 "" 0 -700 50 H I C CNN
 F3 "" -50 550 50 H I C CNN
 $FPLIST
- SOIJ*5.27x5.27mm*P1.27mm*
+ SOIJ*5.3x5.3mm*P1.27mm*
  SOIC*7.5x10.3mm*P1.27mm*
  WDFN*1EP*6x5mm*P1.27mm*EP4x3.4mm*
- WDFN-8-1EP*6x8mm*P1.27mm*EP6x4.8mm*ThermalPad*
+ WDFN*1EP*6x8mm*P1.27mm*EP6x4.8mm*ThermalVias*
  BGA*6x8mm*Layout4x6_P1.0mm*Ball0.4*
 $ENDFPLIST
 DRAW
