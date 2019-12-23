@@ -168,7 +168,25 @@ K flash memory spi
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005045C.pdf
 $ENDCMP
 #
-$CMP SST26VFxxxB
+$CMP SST26VFxxxB-MF
+D 8 to up to 64 Mbit, 2.7 to 3.6V 104MHz, SPI SQI Flash Memory, SOIJ-8, SOIC-16 7.50mm, WDFN-8 6mmx5mm, WDFN-8 6mmx8mm, TBGA-24 6mmx8mm
+K flash memory spi sqi
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SST26VF064B-SST26VF064BA-2.5V-3.0V-64-Mbit-Serial-Quad-IO-Flash-Memory-Data-Sheet-DS20005119J.pdf
+$ENDCMP
+#
+$CMP SST26VFxxxB-MN
+D 8 to up to 64 Mbit, 2.7 to 3.6V 104MHz, SPI SQI Flash Memory, SOIJ-8, SOIC-16 7.50mm, WDFN-8 6mmx5mm, WDFN-8 6mmx8mm, TBGA-24 6mmx8mm
+K flash memory spi sqi
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SST26VF064B-SST26VF064BA-2.5V-3.0V-64-Mbit-Serial-Quad-IO-Flash-Memory-Data-Sheet-DS20005119J.pdf
+$ENDCMP
+#
+$CMP SST26VFxxxB-SM
+D 8 to up to 64 Mbit, 2.7 to 3.6V 104MHz, SPI SQI Flash Memory, SOIJ-8, SOIC-16 7.50mm, WDFN-8 6mmx5mm, WDFN-8 6mmx8mm, TBGA-24 6mmx8mm
+K flash memory spi sqi
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SST26VF064B-SST26VF064BA-2.5V-3.0V-64-Mbit-Serial-Quad-IO-Flash-Memory-Data-Sheet-DS20005119J.pdf
+$ENDCMP
+#
+$CMP SST26VFxxxB-SO
 D 8 to up to 64 Mbit, 2.7 to 3.6V 104MHz, SPI SQI Flash Memory, SOIJ-8, SOIC-16 7.50mm, WDFN-8 6mmx5mm, WDFN-8 6mmx8mm, TBGA-24 6mmx8mm
 K flash memory spi sqi
 F http://ww1.microchip.com/downloads/en/DeviceDoc/SST26VF064B-SST26VF064BA-2.5V-3.0V-64-Mbit-Serial-Quad-IO-Flash-Memory-Data-Sheet-DS20005119J.pdf
