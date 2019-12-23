@@ -1032,6 +1032,12 @@ K 4-chanel power-distribution USB
 F http://www.ti.com/lit/ds/symlink/tps2044.pdf
 $ENDCMP
 #
+$CMP TPS22810DRV
+D 2.7-18V, 79mohms On-Resistance Load Switch With Thermal Protection, WSON-6
+K load switch thermal protection
+F http://www.ti.com/lit/ds/symlink/tps22810.pdf
+$ENDCMP
+#
 $CMP TPS22917DBV
 D 1V to 5.5V, 2A, 80mΩ Ultra-Low Leakage Load Switch, SOT23-6
 K high-side power distribution switch
