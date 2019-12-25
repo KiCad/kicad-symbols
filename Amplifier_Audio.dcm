@@ -270,8 +270,14 @@ K audio microphone amplifier
 F https://www.analog.com/media/en/technical-documentation/data-sheets/SSM2167.pdf
 $ENDCMP
 #
-$CMP SSM2211
-D 1.5W BTL or 250mW SE 4Mhz-bandwidth high performance amplifier
+$CMP SSM2211CPZ
+D 1.5W BTL or 250mW SE 4Mhz-bandwidth high performance amplifier, LFCSP, CP-8-13
+K audio amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/SSM2211.pdf
+$ENDCMP
+#
+$CMP SSM2211SZ
+D 1.5W BTL or 250mW SE 4Mhz-bandwidth high performance amplifier, SOIC_N, R-8 (S)
 K audio amplifier
 F https://www.analog.com/media/en/technical-documentation/data-sheets/SSM2211.pdf
 $ENDCMP
