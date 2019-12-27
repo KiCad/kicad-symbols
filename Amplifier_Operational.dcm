@@ -1356,6 +1356,18 @@ K single opamp wideband low-power
 F http://www.ti.com/lit/ds/symlink/opa847.pdf
 $ENDCMP
 #
+$CMP OPA855
+D 8-GHz Gain Bandwidth Product, Gain of 7-V/V Stable, Bipolar Input Amplifier, WSON-8
+K opamp, bipolar
+F http://www.ti.com/lit/ds/symlink/opa855.pdf
+$ENDCMP
+#
+$CMP OPA858
+D 5.5-GHz Gain Bandwidth Product, Gain of 7 V/V Stable, FET Input Amplifier, WSON-8
+K opamp, fet
+F http://www.ti.com/lit/ds/symlink/opa858.pdf
+$ENDCMP
+#
 $CMP OPA890xD
 D Single Low-Power, Wideband, Voltage-Feedback Operational Amplifier with Disable, SO-8
 K single opamp wideband low-power
