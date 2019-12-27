@@ -277,7 +277,7 @@ F https://www.monolithicpower.com/pub/media/document/MPQ2483_r1.05.pdf
 $ENDCMP
 #
 $CMP NCR401U
-D 10mA linear Driver (with extrnal R up to 60mA), max 40V
+D 10mA (with external R up to 65mA) constant current driver (linear), max 40V
 K LED driver constant current
 F https://assets.nexperia.com/documents/data-sheet/NCR401U.pdf
 $ENDCMP
