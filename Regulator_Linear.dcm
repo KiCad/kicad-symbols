@@ -6462,6 +6462,18 @@ K LDO Regulator Fixed Positive
 F https://www.ti.com/lit/ds/symlink/tlv757p.pdf
 $ENDCMP
 #
+$CMP TLV75801PDBV
+D 500mA Low-Dropout Linear Regulator, Adjustable Output, SOT-23-5
+K ldo positive
+F https://www.ti.com/lit/ds/symlink/tlv758p.pdf
+$ENDCMP
+#
+$CMP TLV75801PDRV
+D 500mA Low-Dropout Linear Regulator, Adjustable Output, WSON-6
+K ldo positive
+F https://www.ti.com/lit/ds/symlink/tlv758p.pdf
+$ENDCMP
+#
 $CMP TPS51200DRC
 D Sink and Source DDR Termination Regulator, VSON-10
 K DDR LDO
