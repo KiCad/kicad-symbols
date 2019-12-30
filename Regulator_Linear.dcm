@@ -4045,9 +4045,15 @@ F https://www.analog.com/media/en/technical-documentation/data-sheets/3080fc.pdf
 $ENDCMP
 #
 $CMP LT3093xMSE
-D 200mA, Adjustable, Ultralow Noise, Ultrahigh PSRR RF Negative Linear Regulator, MSOP-12
+D -200mA, Adjustable, Ultralow Noise, Ultrahigh PSRR RF Negative Linear Regulator, MSOP-12
 K linear negative voltage regulator low-noise
 F https://www.analog.com/media/en/technical-documentation/data-sheets/lt3093.pdf
+$ENDCMP
+#
+$CMP LT3094xMSE
+D -500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR RF Negative Linear Regulator, MSOP-12
+K linear negative voltage regulator low-noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT3094.pdf
 $ENDCMP
 #
 $CMP MAX1615xUK
