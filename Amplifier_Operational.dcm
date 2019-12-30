@@ -114,6 +114,12 @@ K operational transconductance amplifier OTA
 F http://www.alfarzpp.lv/eng/sc/AS13704.pdf
 $ENDCMP
 #
+$CMP AZV358
+D Dual Low Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/TSSOP-8/MSOP-8
+K dual rail-to-rail opamp
+F https://www.diodes.com/assets/Datasheets/AZV358.pdf
+$ENDCMP
+#
 $CMP CA3080
 D 2MHz, Operational Transconductance Amplifier (OTA), gM spread 2:1, DIP-8/SOIC-8
 K operational transconductance amplifier ota
@@ -962,13 +968,13 @@ $ENDCMP
 #
 $CMP OPA1692xD
 D Dual SoundPlus Low Power, Low Noise & Low Distortion Audio Operational Amplifiers, SOIC-8
-K VFA opamp 
+K VFA opamp
 F https://www.ti.com/lit/ds/symlink/opa1692.pdf
 $ENDCMP
 #
 $CMP OPA1692xDGK
 D Dual SoundPlus Low Power, Low Noise & Low Distortion Audio Operational Amplifiers, VSSOP-8
-K VFA opamp 
+K VFA opamp
 F https://www.ti.com/lit/ds/symlink/opa1692.pdf
 $ENDCMP
 #
