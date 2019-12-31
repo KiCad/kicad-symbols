@@ -60,6 +60,12 @@ K ESD Protection diodes  transient suppressor
 F http://www.onsemi.ru.com/pub_link/Collateral/NUP2202W1-D.PDF
 $ENDCMP
 #
+$CMP NUP4114
+D Transient voltage suppressor designed to protect high speed data lines from ESD.
+K ESD protection diode transient suppressor
+F https://www.onsemi.com/pub/Collateral/NUP4114-D.PDF
+$ENDCMP
+#
 $CMP NUP4202
 D Transient voltage suppressor designed to protect high speed data lines from ESD, EFT, and lightning
 K ESD Protection diodes  transient suppressor
