@@ -27,6 +27,7 @@ $ENDCMP
 $CMP Arduino_Pro_Mini
 D Arduino UNO Microcontroller Module, retired
 K Arduino UNO R3 Microcontroller Module Atmel AVR USB
+F https://store.arduino.cc/arduino-pro-mini
 $ENDCMP
 #
 $CMP Arduino_UNO_R2
@@ -134,11 +135,13 @@ $ENDCMP
 $CMP Sparkfun_Pro_Micro_3V3
 D Sparkfun Pro Micro 3V3
 K Sparkfun Arduino microcontroller module usb
+F https://www.sparkfun.com/products/12587
 $ENDCMP
 #
 $CMP Sparkfun_Pro_Micro_5V
 D Sparkfun Pro Micro 5V
 K Sparkfun Arduino microcontroller module usb
+F https://www.sparkfun.com/products/12640
 $ENDCMP
 #
 $CMP VisionSOM-6UL
