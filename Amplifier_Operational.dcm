@@ -756,6 +756,12 @@ K opamp vfa r2r rtr
 F http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf
 $ENDCMP
 #
+$CMP MCP6L01Ux-xOT
+D Single, 1 MHz, 85µA, Rail-to-Rail input and ouput, SOT-23-5
+K opamp vfa r2r rtr
+F http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf
+$ENDCMP
+#
 $CMP MCP6L01x-xLT
 D Single, 1 MHz, Rail-to-Rail input and output, SC-70-5
 K opamp vfa r2r rtr
