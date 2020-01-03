@@ -786,6 +786,12 @@ K opamp vfa r2r rtr
 F http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf
 $ENDCMP
 #
+$CMP MCP6L04-xST
+D Quad, 1 MHz, 85µA, Rail-to-Rail input and ouput, TSSOP-14
+K opamp vfa r2r rtr
+F http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf
+$ENDCMP
+#
 $CMP MCP6L04x-xSL
 D Quad, 1 MHz, 85µA, Rail-to-Rail input and ouput, SOIC-14
 K opamp vfa r2r rtr
