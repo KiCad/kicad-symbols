@@ -774,6 +774,12 @@ K opamp vfa rtr r2r
 F http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf
 $ENDCMP
 #
+$CMP MCP6L02x-xSN
+D Dual, 1 MHz, 85µA, Rail-to-Rail input and ouput SOIC-8
+K opamp vfa r2r rtr
+F http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf
+$ENDCMP
+#
 $CMP MCP6L91RT-EMS
 D 10 MHz, 850 µA Op Amps, MSOP-8
 K single opamp
