@@ -750,6 +750,12 @@ K single opamp
 F http://ww1.microchip.com/downloads/en/devicedoc/22229d.pdf
 $ENDCMP
 #
+$CMP MCP6L01x-xLT
+D Single, 1 MHz, Rail-to-Rail input and output, SC-70-5
+K opamp vfa r2r rtr
+F http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf
+$ENDCMP
+#
 $CMP MCP6L91RT-EMS
 D 10 MHz, 850 µA Op Amps, MSOP-8
 K single opamp
@@ -962,13 +968,13 @@ $ENDCMP
 #
 $CMP OPA1692xD
 D Dual SoundPlus Low Power, Low Noise & Low Distortion Audio Operational Amplifiers, SOIC-8
-K VFA opamp 
+K VFA opamp
 F https://www.ti.com/lit/ds/symlink/opa1692.pdf
 $ENDCMP
 #
 $CMP OPA1692xDGK
 D Dual SoundPlus Low Power, Low Noise & Low Distortion Audio Operational Amplifiers, VSSOP-8
-K VFA opamp 
+K VFA opamp
 F https://www.ti.com/lit/ds/symlink/opa1692.pdf
 $ENDCMP
 #
