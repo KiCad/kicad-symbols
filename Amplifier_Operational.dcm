@@ -786,45 +786,45 @@ K quad opamp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf
 $ENDCMP
 #
-$CMP NCS20071SN2T
+$CMP NCS20071SN
 D Single, 2.8V/µs, Rail-to-Rail Output, TSOP-5
-K OpAmp Rail-to-rail Output Single
+K OpAmp Rail-to-rail Output Single vfa
 F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
 $ENDCMP
 #
-$CMP NCS20071XV53T
+$CMP NCS20071XV
 D Single, 2.8V/µs, Rail-to-Rail Output, SOT-553
-K OpAmp Rail-to-rail Output Single
+K OpAmp Rail-to-rail Output Single vfa
 F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
 $ENDCMP
 #
-$CMP NCS20072DMR
-D Dual, 2.8V/µs, Rail-to-Rail Output, MSOP-8
-K dual rail-to-rail output
-F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
-$ENDCMP
-#
-$CMP NCS20072DR
+$CMP NCS20072D
 D Dual, 2.8V/µs, Rail-to-Rail Output, SOIC-8
-K dual rail-to-rail ouput
+K dual rail-to-rail ouput opamp vfa
 F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
 $ENDCMP
 #
-$CMP NCS20072DTBR
+$CMP NCS20072DM
+D Dual, 2.8V/µs, Rail-to-Rail Output, MSOP-8
+K dual rail-to-rail output opamp vfa
+F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
+$ENDCMP
+#
+$CMP NCS20072DTB
 D Dual, 2.8V/µs, Rail-to-Rail Output, TSSOP-8
-K dual rail-to-rail output
+K dual rail-to-rail output opamp vfa
 F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
 $ENDCMP
 #
-$CMP NCS20074DR
+$CMP NCS20074D
 D Quad, 2.8V/µs, Rail-to-Rail Output, SOIC-14
-K quad rail-to-rail output
+K quad rail-to-rail output opamp vfa
 F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
 $ENDCMP
 #
-$CMP NCS20074DTBR
+$CMP NCS20074DTB
 D Quad, 2.8V/µs, Rail-to-Rail Output, TSSOP-14
-K quad rail-to-rail output
+K quad rail-to-rail output opamp vfa
 F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
 $ENDCMP
 #
@@ -1004,13 +1004,13 @@ $ENDCMP
 #
 $CMP OPA1692xD
 D Dual SoundPlus Low Power, Low Noise & Low Distortion Audio Operational Amplifiers, SOIC-8
-K VFA opamp 
+K VFA opamp
 F https://www.ti.com/lit/ds/symlink/opa1692.pdf
 $ENDCMP
 #
 $CMP OPA1692xDGK
 D Dual SoundPlus Low Power, Low Noise & Low Distortion Audio Operational Amplifiers, VSSOP-8
-K VFA opamp 
+K VFA opamp
 F https://www.ti.com/lit/ds/symlink/opa1692.pdf
 $ENDCMP
 #
