@@ -138,6 +138,10 @@ K Half-H Driver Motor
 F http://www.ti.com/lit/ds/symlink/l293.pdf
 $ENDCMP
 #
+$CMP L293E
+D Quad push-pull driver with output currents up to 1A per channel and sense resistor connections,POWERDIP(16+2+2)
+$ENDCMP
+#
 $CMP L297
 D Stepper Motor Controller, DIP-20/SO-20
 K Stepper Motor Controller
