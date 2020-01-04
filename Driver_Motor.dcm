@@ -139,7 +139,9 @@ F http://www.ti.com/lit/ds/symlink/l293.pdf
 $ENDCMP
 #
 $CMP L293E
-D Quad push-pull driver with output currents up to 1A per channel and sense resistor connections,POWERDIP(16+2+2)
+D Push-pull four-channel driver,DIP-20
+K Half-H Driver Motor Sense
+F https://www.st.com/resource/en/datasheet/l293e.pdf
 $ENDCMP
 #
 $CMP L297
