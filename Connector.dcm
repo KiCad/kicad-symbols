@@ -1116,6 +1116,12 @@ K connector IEEE1394a FireWire
 F ~
 $ENDCMP
 #
+$CMP JK0654219
+D  1 Port RJ45 Magjack Connector Through Hole 10/100/1000 Base-T, AutoMDIX
+K 8P8C RJ female connector
+F https://media.digikey.com/pdf/Data%20Sheets/Pulse%20PDFs/JK%20Series.pdf
+$ENDCMP
+#
 $CMP Jack-DC
 D DC Barrel Jack
 K DC power barrel jack connector
@@ -1404,6 +1410,12 @@ K 8P8C RJ female connector
 F ~
 $ENDCMP
 #
+$CMP RJ45_Abracon_ARJP11A-MASA-B-A-EMU2
+D RJ45 PoE 10/100 Base-TX Jack with Magnetic Module
+K single port ethernet transformer poe center-tap
+F https://abracon.com/Magnetics/lan/ARJP11A.PDF
+$ENDCMP
+#
 $CMP RJ45_Amphenol_RJMG1BD3B8K1ANR
 D 1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, AutoMDIX
 K RJ45 Magjack
@@ -1682,6 +1694,12 @@ $ENDCMP
 #
 $CMP TestPoint_Probe
 D test point (alternative probe-style design)
+K test point tp
+F ~
+$ENDCMP
+#
+$CMP TestPoint_Small
+D test point
 K test point tp
 F ~
 $ENDCMP

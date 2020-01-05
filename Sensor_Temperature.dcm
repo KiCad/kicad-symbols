@@ -210,6 +210,12 @@ K Temperature sensor
 F http://www.ti.com/lit/ds/symlink/lm75b.pdf
 $ENDCMP
 #
+$CMP LM92CIM
+D Digital Temperature Sensor and Thermal Window Comparator With Two-Wire (I2C) Interface, SOIC-8
+K temperature sensor
+F https://www.ti.com/lit/ds/symlink/lm92.pdf
+$ENDCMP
+#
 $CMP LMT84DCK
 D Analog temperature sensor, NTC, 0.4C accuracy, -5.5mV/C, -50C to +150C, 1.5 to 5.5V, SC-70-5
 K temperature sensor thermistor ntc

@@ -108,6 +108,12 @@ K opamp dual low noise low distortion
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf
 $ENDCMP
 #
+$CMP AS13704
+D Quad Operational Transconductance Amplifiers (OTA), with linearizing diodes, SSOP24
+K operational transconductance amplifier OTA
+F http://www.alfarzpp.lv/eng/sc/AS13704.pdf
+$ENDCMP
+#
 $CMP CA3080
 D 2MHz, Operational Transconductance Amplifier (OTA), gM spread 2:1, DIP-8/SOIC-8
 K operational transconductance amplifier ota
@@ -744,6 +750,54 @@ K single opamp
 F http://ww1.microchip.com/downloads/en/devicedoc/22229d.pdf
 $ENDCMP
 #
+$CMP MCP6L01Rx-xOT
+D Single, 1 MHz, 85µA, Rail-to-Rail input and ouput, SOT-23-5
+K opamp vfa r2r rtr
+F http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf
+$ENDCMP
+#
+$CMP MCP6L01Ux-xOT
+D Single, 1 MHz, 85µA, Rail-to-Rail input and ouput, SOT-23-5
+K opamp vfa r2r rtr
+F http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf
+$ENDCMP
+#
+$CMP MCP6L01x-xLT
+D Single, 1 MHz, Rail-to-Rail input and output, SC-70-5
+K opamp vfa r2r rtr
+F http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf
+$ENDCMP
+#
+$CMP MCP6L01x-xOT
+D Single, 1 MHz, 85µA, Rail-to-Rail input and output, SOT-23-5
+K opamp vfa rtr r2r
+F http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf
+$ENDCMP
+#
+$CMP MCP6L02x-xMS
+D Dual, 1 MHz, 85µA, Rail-to-Rail input and ouput, MSOP-8
+K opamp vfa r2r rtr
+F http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf
+$ENDCMP
+#
+$CMP MCP6L02x-xSN
+D Dual, 1 MHz, 85µA, Rail-to-Rail input and ouput SOIC-8
+K opamp vfa r2r rtr
+F http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf
+$ENDCMP
+#
+$CMP MCP6L04-xST
+D Quad, 1 MHz, 85µA, Rail-to-Rail input and ouput, TSSOP-14
+K opamp vfa r2r rtr
+F http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf
+$ENDCMP
+#
+$CMP MCP6L04x-xSL
+D Quad, 1 MHz, 85µA, Rail-to-Rail input and ouput, SOIC-14
+K opamp vfa r2r rtr
+F http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf
+$ENDCMP
+#
 $CMP MCP6L91RT-EMS
 D 10 MHz, 850 µA Op Amps, MSOP-8
 K single opamp
@@ -952,6 +1006,18 @@ $CMP OPA1679
 D Low-Distortion Audio Operational Amplifiers, SOIC-14/TSSOP-14
 K quad opamp
 F http://www.ti.com/lit/ds/symlink/opa1678.pdf
+$ENDCMP
+#
+$CMP OPA1692xD
+D Dual SoundPlus Low Power, Low Noise & Low Distortion Audio Operational Amplifiers, SOIC-8
+K VFA opamp
+F https://www.ti.com/lit/ds/symlink/opa1692.pdf
+$ENDCMP
+#
+$CMP OPA1692xDGK
+D Dual SoundPlus Low Power, Low Noise & Low Distortion Audio Operational Amplifiers, VSSOP-8
+K VFA opamp
+F https://www.ti.com/lit/ds/symlink/opa1692.pdf
 $ENDCMP
 #
 $CMP OPA188xxD
