@@ -1668,6 +1668,12 @@ K QFET P-Channel MOSFET
 F https://www.onsemi.com/pub/Collateral/FQP27P06-D.PDF
 $ENDCMP
 #
+$CMP FQP30N06L
+D 32A Id, 60V Vds, Single N-Channel QFET Power MOSFET, 35mOhm Ron, TO-220
+K Single N-Channel QFET Power MOSFET
+F https://www.onsemi.com/pub/Collateral/FQP30N06L-D.pdf
+$ENDCMP
+#
 $CMP IPD50R380CE
 D 14.1A Id, 500V Vds, CoolMOS N-Channel Power MOSFET, 380mOhm Ron, 24.8nC Qg (typ), TO-252-2
 K CoolMOS Power MOSFET N-MOS
