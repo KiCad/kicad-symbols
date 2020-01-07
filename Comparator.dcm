@@ -132,6 +132,36 @@ K comparator latch
 F https://www.analog.com/media/en/technical-documentation/data-sheets/171112f.pdf
 $ENDCMP
 #
+$CMP MAX9060EUK
+D Single-input comparator, external reference voltage, Active-High Open-Drain output, SOT-23-5
+K single comparator with external reference voltage
+F https://datasheets.maximintegrated.com/en/ds/MAX9060-MAX9064.pdf
+$ENDCMP
+#
+$CMP MAX9061EUK
+D Single-input comparator, external reference voltage, Active-Low Open-Drain output, SOT-23-5
+K single comparator with external reference voltage
+F https://datasheets.maximintegrated.com/en/ds/MAX9060-MAX9064.pdf
+$ENDCMP
+#
+$CMP MAX9062EUK
+D Single-input comparator, internal 0.2V reference, Active-High Open-Drain output, SOT-23-5
+K single comparator with reference
+F https://datasheets.maximintegrated.com/en/ds/MAX9060-MAX9064.pdf
+$ENDCMP
+#
+$CMP MAX9063EUK
+D Single-input comparator, internal 0.2V reference, Active-Low Open-Drain output, SOT-23-5
+K single comparator with reference
+F https://datasheets.maximintegrated.com/en/ds/MAX9060-MAX9064.pdf
+$ENDCMP
+#
+$CMP MAX9064EUK
+D Single-input comparator, internal 0.2V reference, Active-High Push-Pull output, SOT-23-5
+K single comparator with reference
+F https://datasheets.maximintegrated.com/en/ds/MAX9060-MAX9064.pdf
+$ENDCMP
+#
 $CMP MCP6561-OT
 D Single 1.8V Low-Power Push-Pull Output Comparator, SOT-23-5
 K single comparator
