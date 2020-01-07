@@ -126,4 +126,10 @@ K Wiznet Ethernet controller
 F http://www.wiznet.io/wp-content/uploads/wiznethome/Chip/W5100/Document/W5100_Datasheet_v1.2.7.pdf
 $ENDCMP
 #
+$CMP W5500
+D 10/100Mb SPI Ethernet controller with TCP/IP stack, LQFP-48
+K WIZnet Ethernet controller
+F https://www.wiznet.io/product-item/w5500/
+$ENDCMP
+#
 #End Doc Library
