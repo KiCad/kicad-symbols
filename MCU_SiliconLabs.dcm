@@ -1,5 +1,29 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BGM121A256V2
+D Blue Gecko Bluetooth SiP Module with built-in antenna, +8dBm, 1.85V to 3.8V, 256KB Flash, 32KB RAM
+K Blue Gecko Bluetooth SiP Module
+F https://www.silabs.com/documents/public/data-sheets/bgm12x-datasheet.pdf
+$ENDCMP
+#
+$CMP BGM121N256V2
+D Blue Gecko Bluetooth SiP Module with RF pin antenna, +8dBm, 1.85V to 3.8V, 256KB Flash, 32KB RAM
+K Blue Gecko Bluetooth SiP Module
+F https://www.silabs.com/documents/public/data-sheets/bgm12x-datasheet.pdf
+$ENDCMP
+#
+$CMP BGM123A256V2
+D Blue Gecko Bluetooth SiP Module with built-in antenna, +2dBm, 1.85V to 3.8V, 256KB Flash, 32KB RAM
+K Blue Gecko Bluetooth SiP Module
+F https://www.silabs.com/documents/public/data-sheets/bgm12x-datasheet.pdf
+$ENDCMP
+#
+$CMP BGM123N256V2
+D Blue Gecko Bluetooth SiP Module with RF pin antenna, +2dBm, 1.85V to 3.8V, 256KB Flash, 32KB RAM
+K Blue Gecko Bluetooth SiP Module
+F https://www.silabs.com/documents/public/data-sheets/bgm12x-datasheet.pdf
+$ENDCMP
+#
 $CMP EFM32G230F128G-E-QFN64
 D 32-bit ARM Cortex-M3 microcontroller, 128 kB flash, 16 kB x 8 RAM, Silicon Labs - Gecko, QFN-64
 K MCU microcontroller silicon labs siliconlabs silabs EFM32 gecko
