@@ -342,6 +342,11 @@ K connector 3-pin PD-30 power DIN
 F http://www.cui.com/product/resource/pd-30.pdf
 $ENDCMP
 #
+$CMP CoaxialSwitch_Testpoint
+D Subminiature Coaxial Switch testpoint
+K  Coaxial Switch RF testpoint
+$ENDCMP
+#
 $CMP Conn_01x01_Female
 D Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
@@ -1150,12 +1155,6 @@ $CMP LEMO6
 D 6-pin LEMO connector
 K LEMO connector
 F  ~
-$ENDCMP
-#
-$CMP MS-156C3
-D Subminiature Coaxial Switch 1.35mm High, DC to 11GHz
-K  Coaxial Switch RF testpoint
-F https://www.hirose.com/product/document?clcode=CL0358-0340-0-00&productname=MS-156C3&series=MS-156C&documenttype=2DDrawing&lang=en&documentid=0000954375
 $ENDCMP
 #
 $CMP MXM3.0
