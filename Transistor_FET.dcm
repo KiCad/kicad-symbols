@@ -2568,6 +2568,12 @@ K N-Channel MOSFET
 F http://www.diodes.com/assets/Datasheets/VN10LF.pdf
 $ENDCMP
 #
+$CMP VNP10N07
+D 10A Id, 70V Vds, N-Channel Power MOSFET, fully autoprotected, TO-220
+K N-Channel Power MOSFET OMNIFET
+F https://www.st.com/resource/en/datasheet/vnp10n07.pdf
+$ENDCMP
+#
 $CMP VP0610L
 D -0.18A Id, -60V Vds, P-Channel MOSFET, TO-92
 K P-Channel MOSFET
