@@ -7188,6 +7188,60 @@ K 750mA LDO Regulator Fixed Positive
 F http://www.ti.com/lit/ds/symlink/tps777.pdf
 $ENDCMP
 #
+$CMP TPS78218DDC
+D 150-mA, 500nA Ultra-Low-IQ LDO, 1.8V, SOT-23
+K Single Output LDO Low-Iq
+F http://www.ti.com/lit/gpn/tps782
+$ENDCMP
+#
+$CMP TPS78222DDC
+D 150-mA, 500nA Ultra-Low-IQ LDO, 2.2V, SOT-23
+K Single Output LDO Low-Iq
+F http://www.ti.com/lit/gpn/tps782
+$ENDCMP
+#
+$CMP TPS78223DDC
+D 150-mA, 500nA Ultra-Low-IQ LDO, 2.3V, SOT-23
+K Single Output LDO Low-Iq
+F http://www.ti.com/lit/gpn/tps782
+$ENDCMP
+#
+$CMP TPS78225DDC
+D 150-mA, 500nA Ultra-Low-IQ LDO, 2.5V, SOT-23
+K Single Output LDO Low-Iq
+F http://www.ti.com/lit/gpn/tps782
+$ENDCMP
+#
+$CMP TPS78227DDC
+D 150-mA, 500nA Ultra-Low-IQ LDO, 2.7V, SOT-23
+K Single Output LDO Low-Iq
+F http://www.ti.com/lit/gpn/tps782
+$ENDCMP
+#
+$CMP TPS78228DDC
+D 150-mA, 500nA Ultra-Low-IQ LDO, 2.8V, SOT-23
+K Single Output LDO Low-Iq
+F http://www.ti.com/lit/gpn/tps782
+$ENDCMP
+#
+$CMP TPS78230DDC
+D 150-mA, 500nA Ultra-Low-IQ LDO, 3.0V, SOT-23
+K Single Output LDO Low-Iq
+F http://www.ti.com/lit/gpn/tps782
+$ENDCMP
+#
+$CMP TPS78233DDC
+D 150-mA, 500nA Ultra-Low-IQ LDO, 3.3V, SOT-23
+K Single Output LDO Low-Iq
+F http://www.ti.com/lit/gpn/tps782
+$ENDCMP
+#
+$CMP TPS78236DDC
+D 150-mA, 500nA Ultra-Low-IQ LDO, 3.6V, SOT-23
+K Single Output LDO Low-Iq
+F http://www.ti.com/lit/gpn/tps782
+$ENDCMP
+#
 $CMP TPS79301-EP
 D 200mA UltraLow-Noise, High-Precision, Fast RF, Low Drop-out Voltage Regualtor, Adjustable Output, SOT-23
 K LDO Voltage Regulator 200mA adjustable
