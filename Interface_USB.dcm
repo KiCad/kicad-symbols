@@ -162,9 +162,15 @@ K USB Double UART FIFO
 F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232D.pdf
 $ENDCMP
 #
-$CMP FT2232H
-D Hi Speed Double Channel USB UART/FIFO, LQFP/QFN-64
-K FTDI USB Double UART FIFO
+$CMP FT2232HL
+D Hi Speed Double Channel USB UART/FIFO, LQFP-64
+K USB Double UART FIFO
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf
+$ENDCMP
+#
+$CMP FT2232HQ
+D Hi Speed Double Channel USB UART/FIFO, QFN-64
+K USB Double UART FIFO
 F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf
 $ENDCMP
 #
@@ -334,18 +340,6 @@ $CMP MCP2210x-SS
 D USB to SPI Protocol Converter with GPIO, SSOP-20
 K USB SPI Master Converter Bridge
 F https://ww1.microchip.com/downloads/en/DeviceDoc/22288A.pdf
-$ENDCMP
-#
-$CMP STULPI01A
-D High-speed USB On-The-Go ULPI transceiver
-K USB OTG HS PHY ULPI Interface
-F https://www.st.com/resource/en/datasheet/stulpi01a.pdf
-$ENDCMP
-#
-$CMP STULPI01B
-D High-speed USB On-The-Go ULPI transceiver
-K USB OTG HS PHY ULPI Interface
-F http://ww1.microchip.com/downloads/en/DeviceDoc/00001783C.pdf
 $ENDCMP
 #
 $CMP TPS2500DRC
