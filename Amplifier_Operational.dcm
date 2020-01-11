@@ -834,6 +834,48 @@ K quad opamp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf
 $ENDCMP
 #
+$CMP NCS20071SN
+D Single, 2.8V/µs, Rail-to-Rail Output, TSOP-5
+K OpAmp Rail-to-rail Output Single vfa
+F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
+$ENDCMP
+#
+$CMP NCS20071XV
+D Single, 2.8V/µs, Rail-to-Rail Output, SOT-553
+K OpAmp Rail-to-rail Output Single vfa
+F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
+$ENDCMP
+#
+$CMP NCS20072D
+D Dual, 2.8V/µs, Rail-to-Rail Output, SOIC-8
+K dual rail-to-rail ouput opamp vfa
+F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
+$ENDCMP
+#
+$CMP NCS20072DM
+D Dual, 2.8V/µs, Rail-to-Rail Output, MSOP-8
+K dual rail-to-rail output opamp vfa
+F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
+$ENDCMP
+#
+$CMP NCS20072DTB
+D Dual, 2.8V/µs, Rail-to-Rail Output, TSSOP-8
+K dual rail-to-rail output opamp vfa
+F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
+$ENDCMP
+#
+$CMP NCS20074D
+D Quad, 2.8V/µs, Rail-to-Rail Output, SOIC-14
+K quad rail-to-rail output opamp vfa
+F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
+$ENDCMP
+#
+$CMP NCS20074DTB
+D Quad, 2.8V/µs, Rail-to-Rail Output, TSSOP-14
+K quad rail-to-rail output opamp vfa
+F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
+$ENDCMP
+#
 $CMP NCS2325D
 D Dual operational amplifier, 50uV Offset, 0.25uV/C, 35uA Zero-Drift, SOIC-8
 K dual opamp low-power
