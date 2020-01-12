@@ -72,19 +72,19 @@ K dual timer 556
 F http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf
 $ENDCMP
 #
-$CMP LM555CM
+$CMP LM555xM
 D Timer, 555 compatible, SOIC-8
 K single timer 555
 F http://www.ti.com/lit/ds/symlink/lm555.pdf
 $ENDCMP
 #
-$CMP LM555CMM
+$CMP LM555xMM
 D Precision Timers, 555 compatible, VSSOP-8
 K single timer 555
-F http://www.ti.com/lit/ds/symlink/ne555.pdf
+F http://www.ti.com/lit/ds/symlink/lm555.pdf
 $ENDCMP
 #
-$CMP LM555CN
+$CMP LM555xN
 D Timer, 555 compatible, PDIP-8
 K single timer 555
 F http://www.ti.com/lit/ds/symlink/lm555.pdf
@@ -259,7 +259,7 @@ F http://www.ti.com/lit/ds/symlink/ne555.pdf
 $ENDCMP
 #
 $CMP NE555P
-D Precision Timers, 555 compatible, SOIC-8
+D Precision Timers, 555 compatible,  PDIP-8
 K single timer 555
 F http://www.ti.com/lit/ds/symlink/ne555.pdf
 $ENDCMP
