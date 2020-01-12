@@ -66,6 +66,12 @@ K STM32 Nucleo ST
 F http://www.st.com/content/ccc/resource/technical/document/data_brief/group0/7b/df/1d/e9/64/55/43/8d/DM00247910/files/DM00247910.pdf/jcr:content/translations/en.DM00247910.pdf
 $ENDCMP
 #
+$CMP NUCLEO144-H743ZI
+D Nucleo 144 Development Board with STM32H743ZIT6 MCU 400 MHz, 1Mb RAM, 2Mb FLASH
+K STM32 Nucleo ST H743ZI
+F https://www.st.com/content/ccc/resource/technical/document/user_manual/group0/26/49/90/2e/33/0d/4a/da/DM00244518/files/DM00244518.pdf/jcr:content/translations/en.DM00244518.pdf
+$ENDCMP
+#
 $CMP NUCLEO64-F411RE
 D Nucleo 64 Development Board with STM32F411RET6 MCU, 128kB RAM, 512KB FLASH
 K STM32 Nucleo ST
