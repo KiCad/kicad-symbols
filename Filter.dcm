@@ -12,6 +12,108 @@ K EMI Filter SMD Murata
 F https://www.murata.com/en-us/products/productdetail.aspx?cate=luNoiseSupprFilteBlockType&partno=BNX025H01%23
 $ENDCMP
 #
+$CMP FN405-0.5-02
+D 0.5A, 250VAC, 50/60Hz line filter
+K EMI
+F https://www.schaffner.com/de/produkte/download/product/datasheet/fn-405-pcb-mounting-filter/
+$ENDCMP
+#
+$CMP FN405-1-02
+D 1A, 250VAC, 50/60Hz line filter
+K EMI
+F https://www.schaffner.com/de/produkte/download/product/datasheet/fn-405-pcb-mounting-filter/
+$ENDCMP
+#
+$CMP FN405-10-02
+D 10A, 250VAC, 50/60Hz line filter
+K EMI
+F https://www.schaffner.com/de/produkte/download/product/datasheet/fn-405-pcb-mounting-filter/
+$ENDCMP
+#
+$CMP FN405-3-02
+D 3A, 250VAC, 50/60Hz line filter
+K EMI
+F https://www.schaffner.com/de/produkte/download/product/datasheet/fn-405-pcb-mounting-filter/
+$ENDCMP
+#
+$CMP FN405-6-02
+D 6A, 250VAC, 50/60Hz line filter
+K EMI
+F https://www.schaffner.com/de/produkte/download/product/datasheet/fn-405-pcb-mounting-filter/
+$ENDCMP
+#
+$CMP FN406-0.5-02
+D 0.5A ultra compact EMI Filter
+K EMI mains
+F https://www.schaffner.com/products/download/product/datasheet/fn-406-ultra-compact-emc-filter/
+$ENDCMP
+#
+$CMP FN406-1-02
+D 1A ultra compact EMI Filter
+K EMI mains
+F https://www.schaffner.com/products/download/product/datasheet/fn-406-ultra-compact-emc-filter/
+$ENDCMP
+#
+$CMP FN406-3-02
+D 3A ultra compact EMI Filter
+K EMI mains
+F https://www.schaffner.com/products/download/product/datasheet/fn-406-ultra-compact-emc-filter/
+$ENDCMP
+#
+$CMP FN406-6-02
+D 6A ultra compact EMI Filter
+K EMI mains
+F https://www.schaffner.com/products/download/product/datasheet/fn-406-ultra-compact-emc-filter/
+$ENDCMP
+#
+$CMP FN406-8.4-02
+D 8.4A ultra compact EMI Filter
+K EMI mains
+F https://www.schaffner.com/products/download/product/datasheet/fn-406-ultra-compact-emc-filter/
+$ENDCMP
+#
+$CMP FN406B-0.5-02
+D 0.5A ultra compact EMI Filter, medical version
+K EMI mains
+F https://www.schaffner.com/products/download/product/datasheet/fn-406-ultra-compact-emc-filter/
+$ENDCMP
+#
+$CMP FN406B-1-02
+D 1A ultra compact EMI Filter, medical version
+K EMI mains
+F https://www.schaffner.com/products/download/product/datasheet/fn-406-ultra-compact-emc-filter/
+$ENDCMP
+#
+$CMP FN406B-3-02
+D 3A ultra compact EMI Filter, medical version
+K EMI mains
+F https://www.schaffner.com/products/download/product/datasheet/fn-406-ultra-compact-emc-filter/
+$ENDCMP
+#
+$CMP FN406B-6-02
+D 6A ultra compact EMI Filter, medical version
+K EMI mains
+F https://www.schaffner.com/products/download/product/datasheet/fn-406-ultra-compact-emc-filter/
+$ENDCMP
+#
+$CMP FN406B-8.4-02
+D 8.4A ultra compact EMI Filter, medical version
+K EMI mains
+F https://www.schaffner.com/products/download/product/datasheet/fn-406-ultra-compact-emc-filter/
+$ENDCMP
+#
+$CMP LTC1562xG-2
+D Active RC Quad Universal Filter, 20kHz to 300kHz, Low Noise, Low Distortion, SSOP-20
+K filter opamp quad
+F https://www.analog.com/media/en/technical-documentation/data-sheets/15622fa.pdf
+$ENDCMP
+#
+$CMP LTC1562xxG
+D Active RC Quad Universal Filter, 10kHz to 150kHz, Low Noise, Low Distortion, SSOP-20
+K filter opamp quad
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1562fa.pdf
+$ENDCMP
+#
 $CMP SAFFA1G58KA0F0A
 D Murata 1575.42/1602MHz SAW filter, SMD 1411
 K SAW filter

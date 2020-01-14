@@ -30,14 +30,38 @@ K Timer Counter
 F http://download.intel.com/design/archives/periphrl/docs/23124406.pdf
 $ENDCMP
 #
+$CMP AD9513
+D 800 MHz, 3 Outputs, Clock Distribution IC, Divider, Delay Adjust, LFCSP-32
+K clock distribution LVDS CMOS
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD9513.pdf
+$ENDCMP
+#
+$CMP AD9514
+D 1.6 GHz, 3 Outputs, Clock Distribution IC, Divider, Delay Adjust, LFCSP-32
+K clock distribution LVPECL LVDS CMOS
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD9514.pdf
+$ENDCMP
+#
+$CMP AD9515
+D 1.6 GHz, 2 Outputs, Clock Distribution IC, Divider, Delay Adjust, LFCSP-32
+K clock distribution LVPECL LVDS CMOS
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD9515.pdf
+$ENDCMP
+#
 $CMP ICM7209
 D Timebase generator, DIP-8
 K Timebase generator
 F http://pdf.datasheetcatalog.com/datasheets/320/500974_DS.pdf
 $ENDCMP
 #
-$CMP ICM7555
-D CMOS General Purpose Timer, DIP-8/SOIC-8
+$CMP ICM7555xB
+D CMOS General Purpose Timer, 555 compatible, SOIC-8
+K single timer 555
+F http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf
+$ENDCMP
+#
+$CMP ICM7555xP
+D CMOS General Purpose Timer, 555 compatible, PDIP-8
 K single timer 555
 F http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf
 $ENDCMP
@@ -48,9 +72,21 @@ K dual timer 556
 F http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf
 $ENDCMP
 #
-$CMP LM555
-D Timer, DIP-8/SOIC-8/SSOP-8
-K single timer
+$CMP LM555xM
+D Timer, 555 compatible, SOIC-8
+K single timer 555
+F http://www.ti.com/lit/ds/symlink/lm555.pdf
+$ENDCMP
+#
+$CMP LM555xMM
+D Precision Timers, 555 compatible, VSSOP-8
+K single timer 555
+F http://www.ti.com/lit/ds/symlink/lm555.pdf
+$ENDCMP
+#
+$CMP LM555xN
+D Timer, 555 compatible, PDIP-8
+K single timer 555
 F http://www.ti.com/lit/ds/symlink/lm555.pdf
 $ENDCMP
 #
@@ -61,26 +97,26 @@ F http://www.ti.com/lit/ds/symlink/lm556.pdf
 $ENDCMP
 #
 $CMP LMC555xM
-D CMOS Timer, SOIC-8
-K single timer
+D CMOS Timer, 555 compatible, SOIC-8
+K single timer 555
 F http://www.ti.com/lit/ds/symlink/lmc555.pdf
 $ENDCMP
 #
 $CMP LMC555xMM
-D CMOS Timer, VSSOP-8
-K single timer
+D CMOS Timer, 555 compatible, VSSOP-8
+K single timer 555
 F http://www.ti.com/lit/ds/symlink/lmc555.pdf
 $ENDCMP
 #
 $CMP LMC555xN
-D CMOS Timer, DIP-8
-K single timer
+D CMOS Timer, 555 compatible, PDIP-8
+K single timer 555
 F http://www.ti.com/lit/ds/symlink/lmc555.pdf
 $ENDCMP
 #
 $CMP LMC555xTP
 D CMOS Timer, DSBGA-8
-K single timer
+K single timer 555
 F http://www.ti.com/lit/ds/symlink/lmc555.pdf
 $ENDCMP
 #
@@ -144,9 +180,15 @@ K TimerBlox debouncer noise discriminator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/699412fb.pdf
 $ENDCMP
 #
-$CMP MC1455
-D Timers, DIP-8/SOIC-8
-K timer
+$CMP MC1455B
+D Timer, 555 compatible, SOIC-8
+K single timer 555
+F https://www.onsemi.com/pub/Collateral/MC1455-D.PDF
+$ENDCMP
+#
+$CMP MC1455P
+D Timer, 555 compatible, PDIP-8
+K single timer 555
 F https://www.onsemi.com/pub/Collateral/MC1455-D.PDF
 $ENDCMP
 #
@@ -192,9 +234,15 @@ K Matsushita Panasonic BBD CMOS
 F http://www.experimentalistsanonymous.com/diy/Datasheets/MN3102.pdf
 $ENDCMP
 #
-$CMP NA555
-D Precision Timers, DIP-8/SOIC-8/SSOP-8
-K timer
+$CMP NA555D
+D Precision Timers, 555 compatible, SOIC-8
+K single timer 555
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP NA555P
+D Precision Timers, 555 compatible, PDIP-8
+K single timer 555
 F http://www.ti.com/lit/ds/symlink/ne555.pdf
 $ENDCMP
 #
@@ -204,9 +252,15 @@ K dual timer
 F http://www.ti.com/lit/ds/symlink/se556.pdf
 $ENDCMP
 #
-$CMP NE555
-D Precision Timers, DIP-8/SOIC-8
-K timer
+$CMP NE555D
+D Precision Timers, 555 compatible, SOIC-8
+K single timer 555
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP NE555P
+D Precision Timers, 555 compatible,  PDIP-8
+K single timer 555
 F http://www.ti.com/lit/ds/symlink/ne555.pdf
 $ENDCMP
 #
@@ -222,9 +276,21 @@ K tone decoder PLL
 F http://www.ti.com/lit/ds/symlink/lm567.pdf
 $ENDCMP
 #
-$CMP SA555
-D Precision Timers, DIP-8/SOIC-8
-K timer
+$CMP PL611-01-xxxT
+D Programmable Clock, Dual Programmable Clock Outputs, Up To 200MHz, SOT-23-6
+K clock generator dual programmable
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PL611-01.pdf
+$ENDCMP
+#
+$CMP SA555D
+D Precision Timers, 555 compatible, SOIC-8
+K single timer 555
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP SA555P
+D Precision Timers, 555 compatible, PDIP-8
+K single timer 555
 F http://www.ti.com/lit/ds/symlink/ne555.pdf
 $ENDCMP
 #
@@ -234,9 +300,15 @@ K dual timer
 F http://www.ti.com/lit/ds/symlink/ne556.pdf
 $ENDCMP
 #
-$CMP SE555
-D Precision Timers, DIP-8/SOIC-8
-K timer
+$CMP SE555D
+D Precision Timers, 555 compatible, SOIC-8
+K single timer 555
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP SE555P
+D Precision Timers, 555 compatible, PDIP-8
+K single timer 555
 F http://www.ti.com/lit/ds/symlink/ne555.pdf
 $ENDCMP
 #
@@ -270,33 +342,27 @@ K 2.5V/3.3V differential LVPECL LVDS
 F http://ww1.microchip.com/downloads/en/DeviceDoc/sy58033u.pdf
 $ENDCMP
 #
-$CMP TLC555
-D CMOS Timer
-K Timer NE555
+$CMP TLC555xD
+D Single LinCMOS Timer, 555 compatible, SOIC-8
+K single timer 555
 F http://www.ti.com/lit/ds/symlink/tlc555.pdf
 $ENDCMP
 #
-$CMP TLC555CD
-D Single LinCMOS Timer, SOIC-8
-K single timer
+$CMP TLC555xP
+D Single LinCMOS Timer, 555 compatible, PDIP-8
+K single timer 555
 F http://www.ti.com/lit/ds/symlink/tlc555.pdf
 $ENDCMP
 #
-$CMP TLC555CP
-D Single LinCMOS Timer, DIP-8
-K single timer
+$CMP TLC555xPS
+D Single LinCMOS Timer, 555 compatible, VSSOP-8
+K single timer 555
 F http://www.ti.com/lit/ds/symlink/tlc555.pdf
 $ENDCMP
 #
-$CMP TLC555CPS
-D Single LinCMOS Timer, SSOP-8
-K single timer
-F http://www.ti.com/lit/ds/symlink/tlc555.pdf
-$ENDCMP
-#
-$CMP TLC555CPW
+$CMP TLC555xPW
 D Single LinCMOS Timer, TSSOP-14
-K single timer
+K single timer 555
 F http://www.ti.com/lit/ds/symlink/tlc555.pdf
 $ENDCMP
 #

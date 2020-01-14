@@ -102,12 +102,6 @@ K diode device voltage reference
 F http://www.ti.com/lit/ds/symlink/lm185-adj.pdf
 $ENDCMP
 #
-$CMP LM385Z-2.5
-D 2.5V Micropower Voltage Reference Diodes, TO-92
-K diode device voltage reference
-F http://www.onsemi.com/pub_link/Collateral/LM285-D.PDF
-$ENDCMP
-#
 $CMP LM385BZ-1.2
 D 1.235V Micropower Voltage Reference Diodes, TO-92
 K diode device voltage reference
@@ -152,6 +146,12 @@ $ENDCMP
 #
 $CMP LM385Z-1.2
 D 1.235V Micropower Voltage Reference Diodes, TO-92
+K diode device voltage reference
+F http://www.onsemi.com/pub_link/Collateral/LM285-D.PDF
+$ENDCMP
+#
+$CMP LM385Z-2.5
+D 2.5V Micropower Voltage Reference Diodes, TO-92
 K diode device voltage reference
 F http://www.onsemi.com/pub_link/Collateral/LM285-D.PDF
 $ENDCMP
@@ -390,6 +390,12 @@ K voltage reference vref
 F https://www.analog.com/media/en/technical-documentation/data-sheets/6657fd.pdf
 $ENDCMP
 #
+$CMP LT6657AHMS8-4.096
+D Precision voltage reference, 40V input, 10mA output, 1.5ppm/C drift, 4.096V output, MSOP-8
+K voltage reference vref
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6657fd.pdf
+$ENDCMP
+#
 $CMP LT6657AHMS8-5
 D Precision voltage reference, 40V input, 10mA output, 1.5ppm/C drift, 5.0V output, MSOP-8
 K voltage reference vref
@@ -408,10 +414,40 @@ K voltage reference vref
 F https://www.analog.com/media/en/technical-documentation/data-sheets/6657fd.pdf
 $ENDCMP
 #
+$CMP LT6657BHMS8-4.096
+D Precision voltage reference, 40V input, 10mA output, 3ppm/C drift, 4.096V output, MSOP-8
+K voltage reference vref
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6657fd.pdf
+$ENDCMP
+#
 $CMP LT6657BHMS8-5
 D Precision voltage reference, 40V input, 10mA output, 3.0ppm/C drift, 5.0V output, MSOP-8
 K voltage reference vref
 F https://www.analog.com/media/en/technical-documentation/data-sheets/6657fd.pdf
+$ENDCMP
+#
+$CMP MAX6035xSA25
+D 2.5V, High-Supply-Voltage, Precision Voltage Reference, SOIC-8
+K vref
+F https://datasheets.maximintegrated.com/en/ds/MAX6035.pdf
+$ENDCMP
+#
+$CMP MAX6035xxUR25
+D 2.5V, High-Supply-Voltage, Precision Voltage Reference, SOT-23
+K vref
+F https://datasheets.maximintegrated.com/en/ds/MAX6035.pdf
+$ENDCMP
+#
+$CMP MAX6035xxUR30
+D 3V, High-Supply-Voltage, Precision Voltage Reference, SOT-23
+K vref
+F https://datasheets.maximintegrated.com/en/ds/MAX6035.pdf
+$ENDCMP
+#
+$CMP MAX6035xxUR50
+D 5V, High-Supply-Voltage, Precision Voltage Reference, SOT-23
+K vref
+F https://datasheets.maximintegrated.com/en/ds/MAX6035.pdf
 $ENDCMP
 #
 $CMP MAX6100
@@ -462,20 +498,38 @@ K voltage reference ldo
 F http://datasheets.maximintegrated.com/en/ds/MAX6100-MAX6107.pdf
 $ENDCMP
 #
+$CMP MAX6225
+D 1ppm/°C Low-Noise Precision +2.5V Voltage Reference, SO-8/DIP-8
+K precision voltage reference
+F http://datasheets.maximintegrated.com/en/ds/MAX6225-MAX6250.pdf
+$ENDCMP
+#
+$CMP MAX6241
+D 1ppm/°C Low-Noise Precision +4.096V Voltage Reference, SO-8/DIP-8
+K precision voltage reference
+F http://datasheets.maximintegrated.com/en/ds/MAX6225-MAX6250.pdf
+$ENDCMP
+#
+$CMP MAX6250
+D 1ppm/°C Low-Noise Precision +5V Voltage Reference, SO-8/DIP-8
+K precision voltage reference
+F http://datasheets.maximintegrated.com/en/ds/MAX6225-MAX6250.pdf
+$ENDCMP
+#
 $CMP MAX6325
-D 1ppm/°C Low-Noise +2.5V Voltage Reference, SO-8/DIP-8
+D 0.5ppm/°C Low-Noise +2.5V Voltage Reference, SO-8/DIP-8
 K precision voltage reference
 F http://datasheets.maximintegrated.com/en/ds/MAX6325-MAX6350.pdf
 $ENDCMP
 #
 $CMP MAX6341
-D 1ppm/°C Low-Noise +4.096V Voltage Reference, SO-8/DIP-8
+D 0.5ppm/°C Low-Noise +4.096V Voltage Reference, SO-8/DIP-8
 K precision voltage reference
 F http://datasheets.maximintegrated.com/en/ds/MAX6325-MAX6350.pdf
 $ENDCMP
 #
 $CMP MAX6350
-D 1ppm/°C Low-Noise +5V Voltage Reference, SO-8/DIP-8
+D 0.5ppm/°C Low-Noise +5V Voltage Reference, SO-8/DIP-8
 K precision voltage reference
 F http://datasheets.maximintegrated.com/en/ds/MAX6325-MAX6350.pdf
 $ENDCMP

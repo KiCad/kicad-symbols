@@ -6,4 +6,10 @@ K metal oxide gas sensor MOX volatile organix comounds VOC I2C
 F http://ams.com/eng/Products/Environmental-Sensors/Air-Quality-Sensors/CCS811
 $ENDCMP
 #
+$CMP MQ-6
+D Semiconductor Sensor for Flammable Gas
+K flammable gas sensor LPG
+F https://www.winsen-sensor.com/d/files/semiconductor/mq-6.pdf
+$ENDCMP
+#
 #End Doc Library

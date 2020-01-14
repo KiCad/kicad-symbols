@@ -144,6 +144,12 @@ K sensor magnetic hall position rotation spi
 F https://ams.com/documents/20143/36005/AS5055A_DS000304_2-00.pdf
 $ENDCMP
 #
+$CMP BMM150
+D Geomagnetic Sensor, WLCSP-12
+K BOSH Geomagnetic Sensor
+F https://www.mouser.com/datasheet/2/783/BST-BMM150-DS001-01-786480.pdf
+$ENDCMP
+#
 $CMP DRV5033AJQDBZ
 D Hall effect switch, omnipolar, Bop=6.9mT, Brp=3.5, -40C to +125C
 K hall switch
