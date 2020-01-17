@@ -150,4 +150,10 @@ K ESP8266 WiFi microcontroller ESP8266EX
 F https://wiki.wemos.cc/products:d1:d1_mini#documentation
 $ENDCMP
 #
+$CMP ESP32-DEVKITC-32D
+D RF, Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, onboard antenna, PCB
+K RF Radio BT ESP ESP32 Espressif onboard PCB antenna
+F https://dl.espressif.com/dl/schematics/esp32_devkitc_v4-sch.pdf
+$ENDCMP
+#
 #End Doc Library
