@@ -7,7 +7,7 @@ DEF ADCMP350 U 0 5 Y Y 1 F N
 F0 "U" 125 200 50 H V L CNN
 F1 "ADCMP350" 125 -200 50 H V L CNN
 F2 "Package_TO_SOT_SMD:Analog_KS-4" 0 0 50 H I C CNN
-F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf" 150 200 50 H I C CNN
+F3 "" 150 200 50 H I C CNN
 ALIAS ADCMP354 ADCMP356
 $FPLIST
  *KS*4*
@@ -230,7 +230,7 @@ DEF LMV331 U 0 5 Y Y 1 F N
 F0 "U" 50 200 50 H V C CNN
 F1 "LMV331" 150 -200 50 H V C CNN
 F2 "" 0 100 50 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/lmv331.pdf" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
 ALIAS LMV7271 LMV7275
 $FPLIST
  SOT?23*
@@ -383,7 +383,7 @@ DEF MCP6566 U 0 5 Y Y 1 F N
 F0 "U" 0 200 50 H V L CNN
 F1 "MCP6566" 0 -200 50 H V L CNN
 F2 "" 0 -400 50 H I C CNN
-F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/DS20002143E.pdf" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 ALIAS TLV7041DBV
 $FPLIST
  SOT?23*
@@ -407,7 +407,7 @@ DEF MCP6566R U 0 5 Y Y 1 F N
 F0 "U" 0 200 50 H V L CNN
 F1 "MCP6566R" 0 -200 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" 0 0 50 H I C CNN
-F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/DS20002143E.pdf" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  SOT?23*
 $ENDFPLIST
@@ -429,7 +429,7 @@ DEF MCP6566U U 0 5 Y Y 1 F N
 F0 "U" 0 200 50 H V L CNN
 F1 "MCP6566U" 0 -200 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" 0 0 50 H I C CNN
-F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/DS20002143E.pdf" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
  SOT?23*
 $ENDFPLIST
@@ -451,7 +451,7 @@ DEF MCP6569 U 0 5 Y Y 5 L N
 F0 "U" 0 200 50 H V L CNN
 F1 "MCP6569" 0 -200 50 H V L CNN
 F2 "" -50 100 50 H I C CNN
-F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/DS20002143E.pdf" 50 200 50 H I C CNN
+F3 "" 50 200 50 H I C CNN
 $FPLIST
  SOIC*3.9x8.7mm*P1.27mm*
  DIP*W7.62mm*
@@ -489,7 +489,7 @@ DEF MIC845H U 0 5 Y Y 1 F N
 F0 "U" 150 200 50 H V C CNN
 F1 "MIC845H" 300 -200 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" 0 0 50 H I C CNN
-F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic845.pdf" 150 200 50 H I C CNN
+F3 "" 150 200 50 H I C CNN
 ALIAS MIC845L MIC845N
 $FPLIST
  *SC*70*
