@@ -87,6 +87,24 @@ K RS485 Transciever, RS422 Transciever, Isopower
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM2682E_2687E.pdf
 $ENDCMP
 #
+$CMP ADM3488E
+D RS-485, RS-422 full duplex 250 kbps transceiver, SOIC-8
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3483E_3486E_3488E_3490E_3491E.pdf
+$ENDCMP
+#
+$CMP ADM3490E
+D RS-485, RS-422 full duplex 12 Mbps transceiver, SOIC-8
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3483E_3486E_3488E_3490E_3491E.pdf
+$ENDCMP
+#
+$CMP ADM3491E
+D RS-485, RS-422 full duplex 12 Mbps transceiver, SOIC-14
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3483E_3486E_3488E_3490E_3491E.pdf
+$ENDCMP
+#
 $CMP GD65232DB
 D Multiple RS-232 Driver and Receiver, SSOP-20
 K RS232 UART Driver Receiver Interface
