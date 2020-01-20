@@ -41,5 +41,40 @@ D FPGA, 5000 LUTs, 1.2V, TQFP-144
 K FPGA Lattice XP2
 F http://www.latticesemi.com/view_document?document_id=24635
 $ENDCMP
+$CMP LFE5U85-CABGA381
+D ECP5 IC FPGA 205 I/O 381CABGA
+K IC FPGA 205 I/O 381CABGA
+F http://www.latticesemi.com/view_document?document_id=50461
+$ENDCMP
+#
+$CMP LFE5U85-CABGA756
+D ECP5 IC FPGA 365 I/O 756CABGA
+K IC FPGA 365 I/O 756CABGA
+F http://www.latticesemi.com/view_document?document_id=50461
+$ENDCMP
+#
+$CMP LFE5UM5G-85-CABGA381
+D ECP5 IC FPGA 205 I/O 381CABGA
+K IC FPGA 205 I/O 381CABGA
+F http://www.latticesemi.com/view_document?document_id=50461
+$ENDCMP
+#
+$CMP LFE5UM5G-85-CABGA756
+D ECP5 IC FPGA 365 I/O 756CABGA
+K IC FPGA 365 I/O 756CABGA
+F http://www.latticesemi.com/view_document?document_id=50461
+$ENDCMP
+#
+$CMP LFE5UM85-CABGA381
+D ECP5 IC FPGA 205 I/O 381CABGA
+K IC FPGA 205 I/O 381CABGA
+F http://www.latticesemi.com/view_document?document_id=50461
+$ENDCMP
+#
+$CMP LFE5UM85-CABGA756
+D ECP5 IC FPGA 205 I/O 381CABGA
+K IC FPGA 205 I/O 381CABGA
+F http://www.latticesemi.com/view_document?document_id=50461
+$ENDCMP
 #
 #End Doc Library
