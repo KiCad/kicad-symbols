@@ -42,6 +42,12 @@ K AHCMOS DFF DFF8 REG 3State
 F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT374.pdf
 $ENDCMP
 #
+$CMP 74AHC595
+D 8-bit serial in/out Shift Register 3-State Outputs
+K AHCMOS SR 3State
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf
+$ENDCMP
+#
 $CMP 74AHCT04
 D Hex Inverter
 K AHCTMOS not inv
@@ -70,6 +76,18 @@ $CMP 74AHCT374
 D 8-bit Register, 3-state outputs
 K AHCTMOS DFF DFF8 REG 3State
 F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT374.pdf
+$ENDCMP
+#
+$CMP 74AHCT595
+D 8-bit serial in/out Shift Register 3-State Outputs
+K AHCTMOS SR 3State
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf
+$ENDCMP
+#
+$CMP 74CBTLV16212
+D Low-voltage 24-bit FET Bus-exchange switch
+K bus
+F https://www.ti.com/lit/ds/symlink/sn74cbtlv16212.pdf
 $ENDCMP
 #
 $CMP 74CBTLV3257

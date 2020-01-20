@@ -12,6 +12,12 @@ K ESD Protection diodes transient suppressor
 F http://www.onsemi.com/pub_link/Collateral/CM1213A-D.PDF
 $ENDCMP
 #
+$CMP D3V3XA4B10LP
+D 4-Channel Low Capacitance TVS Diode Array, DFN-10
+K ESD protection TVS
+F https://www.diodes.com/assets/Datasheets/D3V3XA4B10LP.pdf
+$ENDCMP
+#
 $CMP DT1240A-08LP3810
 D Low Capacitance TVS Diode Array, 3.3V Standoff, 8 Channels, UDFN-9
 K usb esd protection suppression transient
@@ -301,9 +307,39 @@ F http://www.ti.com/lit/ds/symlink/tpd6f003.pdf
 $ENDCMP
 #
 $CMP TVS0500DRV
-D Flat-Clamp Surge Protection Device
+D Flat-Clamp Surge Protection Device. 5Vrwm, WSON-6
 K EMI, ESD, TVS protection transient
 F http://www.ti.com/lit/ds/symlink/tvs0500.pdf
+$ENDCMP
+#
+$CMP TVS1400DRV
+D Flat-Clamp Surge Protection Device. 14Vrwm, WSON-6
+K EMI, ESD, TVS protection transient
+F http://www.ti.com/lit/ds/symlink/tvs1400.pdf
+$ENDCMP
+#
+$CMP TVS1800DRV
+D Flat-Clamp Surge Protection Device. 18Vrwm, WSON-6
+K EMI, ESD, TVS protection transient
+F http://www.ti.com/lit/ds/symlink/tvs1800.pdf
+$ENDCMP
+#
+$CMP TVS2200DRV
+D Flat-Clamp Surge Protection Device. 22Vrwm, WSON-6
+K EMI, ESD, TVS protection transient
+F http://www.ti.com/lit/ds/symlink/tvs2200.pdf
+$ENDCMP
+#
+$CMP TVS2700DRV
+D Flat-Clamp Surge Protection Device. 27Vrwm, WSON-6
+K EMI, ESD, TVS protection transient
+F http://www.ti.com/lit/ds/symlink/tvs2700.pdf
+$ENDCMP
+#
+$CMP TVS3300DRV
+D Flat-Clamp Surge Protection Device. 33Vrwm, WSON-6
+K EMI, ESD, TVS protection transient
+F http://www.ti.com/lit/ds/symlink/tvs3300.pdf
 $ENDCMP
 #
 $CMP USB6B1
