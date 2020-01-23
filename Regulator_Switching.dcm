@@ -3504,31 +3504,13 @@ K isolated isolation dc-dc converter transformer
 F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
 $ENDCMP
 #
-$CMP NXE2S1205MC_copy
-D 12V to 5V 400mA DC-DC Converter with 3kV isolation
-K isolated isolation dc-dc converter transformer
-F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
-$ENDCMP
-#
 $CMP NXE2S1212MC
 D 12V to 12V 400mA DC-DC Converter with 3kV isolation
 K isolated isolation dc-dc converter transformer
 F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
 $ENDCMP
 #
-$CMP NXE2S1212MC_copy
-D 12V to 12V 400mA DC-DC Converter with 3kV isolation
-K isolated isolation dc-dc converter transformer
-F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
-$ENDCMP
-#
 $CMP NXE2S1215MC
-D 12V to 15V 400mA DC-DC Converter with 3kV isolation
-K isolated isolation dc-dc converter transformer
-F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
-$ENDCMP
-#
-$CMP NXE2S1215MC_copy
 D 12V to 15V 400mA DC-DC Converter with 3kV isolation
 K isolated isolation dc-dc converter transformer
 F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
