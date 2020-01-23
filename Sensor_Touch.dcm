@@ -1,15 +1,81 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AT42QT1010-M
+D Single-key Touch Sensor, UDFN-8
+K Touch QTouch Sensor Key
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001946A.pdf
+$ENDCMP
+#
 $CMP AT42QT1010-TSHR
 D Single-key Touch Sensor, SOT-23-6
 K Touch QTouch Sensor Key
-F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9541-AT42-QTouch-BSW-AT42QT1010_Datasheet.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001946A.pdf
+$ENDCMP
+#
+$CMP AT42QT1011-M
+D Single-key Touch Sensor, UDFN-8
+K Touch QTouch Sensor Key
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001947A.pdf
 $ENDCMP
 #
 $CMP AT42QT1011-TSHR
 D Single-key Touch Sensor, SOT-23-6
 K Touch QTouch Sensor Key
-F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9542-AT42-QTouch-BSW-AT42QT1011_Datasheet.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001947A.pdf
+$ENDCMP
+#
+$CMP AT42QT1012-M
+D Single-Key Touch Sensor IC, UDFN-8
+K Touch QTouch Sensor Key
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001948A.pdf
+$ENDCMP
+#
+$CMP AT42QT1012-T
+D Single-Key Touch Sensor IC, SOT-23-6
+K Touch QTouch Sensor Key
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001948A.pdf
+$ENDCMP
+#
+$CMP AT42QT1040-M
+D Four-key Touch Sensor IC, VQFN-20
+K Touch QTouch Sensor Key
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9524-AT42-QTouch-BSW-AT42QT1040_Datasheet.pdf
+$ENDCMP
+#
+$CMP AT42QT1050-M
+D Five-Key Touch Sensor, VQFN-20
+K Touch QTouch Sensor Key
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9707-AT42-QTouch-BSW-AT42QT1050_Datasheet.pdf
+$ENDCMP
+#
+$CMP AT42QT1050-U
+D Five-Key Touch Sensor, WLCSP-12
+K Touch QTouch Sensor Key
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9707-AT42-QTouch-BSW-AT42QT1050_Datasheet.pdf
+$ENDCMP
+#
+$CMP AT42QT1060-M
+D Six-Key Touch Sensor IC, VQFN-28
+K Touch QTouch Sensor Key
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9505-AT42-QTouch-BSW-AT42QT1060_Datasheet.pdf
+$ENDCMP
+#
+$CMP AT42QT1070-M
+D Seven-key Touch Sensor IC, VQFN-20
+K Touch QTouch Sensor Key
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9596-AT42-QTouch-BSW-AT42QT1070_Datasheet.pdf
+$ENDCMP
+#
+$CMP AT42QT1070-S
+D Seven-key Touch Sensor IC, SOIC-14
+K Touch QTouch Sensor Key
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9596-AT42-QTouch-BSW-AT42QT1070_Datasheet.pdf
+$ENDCMP
+#
+$CMP AT42QT1110-M
+D 11-Key Touch Sensor IC, VQFN-32
+K Touch QTouch Sensor Key
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9520-AT42-QTouch-BSW-AT42QT1110_Datasheet.pdf
 $ENDCMP
 #
 $CMP CAP1206-x-AIA

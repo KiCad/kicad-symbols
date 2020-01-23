@@ -18,10 +18,46 @@ K Level shifter translator bidirectional
 F http://www.onsemi.com/pub/Collateral/FXMA108-D.pdf
 $ENDCMP
 #
+$CMP NCN4555MN
+D SIM Card Power Supply and Level Shifter, QFN-16
+K SIM Card Level Shifter
+F https://www.onsemi.com/pub/Collateral/NCN4555-D.PDF
+$ENDCMP
+#
+$CMP NLSV2T244D
+D Dual-Bit Dual-Supply Non-Inverting Level Translator, Output Enable, SOIC-8
+K Level-Shifter CMOS-TTL-Translation
+F http://www.onsemi.com/pub/Collateral/NLSV2T244-D.PDF
+$ENDCMP
+#
+$CMP NLSV2T244DM
+D Dual-Bit Dual-Supply Non-Inverting Level Translator, Output Enable, MSOP-8
+K Level-Shifter CMOS-TTL-Translation
+F http://www.onsemi.com/pub/Collateral/NLSV2T244-D.PDF
+$ENDCMP
+#
+$CMP NLSV2T244MU
+D Dual-Bit Dual-Supply Non-Inverting Level Translator, Output Enable, UDFN-8
+K Level-Shifter CMOS-TTL-Translation
+F http://www.onsemi.com/pub/Collateral/NLSV2T244-D.PDF
+$ENDCMP
+#
 $CMP SN74AUP1T34DCK
 D 1-Bit Unidirectional Voltage-Level Translator, SC-70
 K Noninverting
 F http://www.ti.com/lit/ds/symlink/sn74aup1t34.pdf
+$ENDCMP
+#
+$CMP SN74AVC4T245PW
+D 4-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, TSSOP-16
+K Noninverting Bidirectional
+F https://www.ti.com/lit/ds/symlink/sn74avc4t245.pdf
+$ENDCMP
+#
+$CMP SN74AVC8T245PW
+D 8-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, TSSOP-24
+K Noninverting Bidirectional
+F https://www.ti.com/lit/ds/symlink/sn74avc8t245.pdf
 $ENDCMP
 #
 $CMP SN74LVC1T45DBV
@@ -67,37 +103,37 @@ F http://www.ti.com/lit/ds/symlink/txb0102.pdf
 $ENDCMP
 #
 $CMP TXB0104D
-D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6 V APort, 1.65 - 5.5 V BPort, SOIC-14
+D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, SOIC-14
 K Level-Shifter CMOS-TTL-Translation
 F http://www.ti.com/lit/ds/symlink/txb0104.pdf
 $ENDCMP
 #
 $CMP TXB0104PW
-D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6 V APort, 1.65 - 5.5 V BPort, TSSOP-14
+D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-14
 K Level-Shifter CMOS-TTL-Translation
 F http://www.ti.com/lit/ds/symlink/txb0104.pdf
 $ENDCMP
 #
 $CMP TXB0104RGY
-D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6 V APort, 1.65 - 5.5 V BPort, Texas_PVGFN-14
+D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, Texas_PVGFN-14
 K Level-Shifter CMOS-TTL-Translation
 F http://www.ti.com/lit/ds/symlink/txb0104.pdf
 $ENDCMP
 #
 $CMP TXB0104RUT
-D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6 V APort, 1.65 - 5.5 V BPort, Texas_PUQFN-12
+D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, Texas_PUQFN-12
 K Level-Shifter CMOS-TTL-Translation
 F http://www.ti.com/lit/ds/symlink/txb0104.pdf
 $ENDCMP
 #
 $CMP TXB0104YZT
-D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6 V APort, 1.65 - 5.5 V BPort, DSBGA-12
+D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, DSBGA-12
 K Level-Shifter CMOS-TTL-Translation
 F http://www.ti.com/lit/ds/symlink/txb0104.pdf
 $ENDCMP
 #
 $CMP TXB0104ZXU
-D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6 V APort, 1.65 - 5.5 V BPort, Texas_Junior-12
+D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, Texas_Junior-12
 K Level-Shifter CMOS-TTL-Translation
 F http://www.ti.com/lit/ds/symlink/txb0104.pdf
 $ENDCMP
@@ -106,6 +142,42 @@ $CMP TXB0108DQSR
 D 8-bit bidirectional voltage level translator with auto-direction sensing USON package
 K bidirectional voltage level translator
 F http://www.ti.com/lit/ds/symlink/txb0108.pdf
+$ENDCMP
+#
+$CMP TXB0304RUT
+D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing, 0.9 - 3.6V APort, 0.9 - 3.6V BPort, Active High Output Enable, Texas_PUQFN-12
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/txb0304.pdf
+$ENDCMP
+#
+$CMP TXBN0304RUT
+D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing, 0.9 - 3.6V APort, 0.9 - 3.6V BPort, Active Low Output Enable, Texas_PUQFN-12
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/txb0304.pdf
+$ENDCMP
+#
+$CMP TXS0102DCT
+D 2-Bit Bidirectional Voltage-Level Shifter for Open-Drain and Push-Pull Application, SSOP-8
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/gpn/txs0102
+$ENDCMP
+#
+$CMP TXS0102DCU
+D 2-Bit Bidirectional Voltage-Level Shifter for Open-Drain and Push-Pull Application, VSSOP-8
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/gpn/txs0102
+$ENDCMP
+#
+$CMP TXS0102DQE
+D 2-Bit Bidirectional Voltage-Level Shifter for Open-Drain and Push-Pull Application, X2SON-8
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/gpn/txs0102
+$ENDCMP
+#
+$CMP TXS0102YZP
+D 2-Bit Bidirectional Voltage-Level Shifter for Open-Drain and Push-Pull Application, DSBGA-8
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/gpn/txs0102
 $ENDCMP
 #
 $CMP TXS0108EPW

@@ -33,7 +33,7 @@ $ENDCMP
 $CMP 40106
 D Hex Schmitt trigger inverter
 K CMOS
-F http://www.nxp.com/documents/data_sheet/HEF40106B.pdf
+F https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf
 $ENDCMP
 #
 $CMP 4011
@@ -70,6 +70,12 @@ $CMP 4020
 D Binary counter 14 stages (asynchronous)
 K CMOS CNT CNT14
 F http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4020bms-24bms-40bms.pdf
+$ENDCMP
+#
+$CMP 4021
+D 8-bit static shift register
+K shift register SR PISO
+F https://assets.nexperia.com/documents/data-sheet/HEF4021B.pdf
 $ENDCMP
 #
 $CMP 4022
@@ -117,7 +123,7 @@ $ENDCMP
 $CMP 4046
 D Phase Comp & VCO
 K CMOS PLL
-F http://www.nxp.com/documents/data_sheet/HEF4046B.pdf
+F https://assets.nexperia.com/documents/data-sheet/HEF4046B.pdf
 $ENDCMP
 #
 $CMP 4047
@@ -198,6 +204,12 @@ K CMOS And3
 F http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf
 $ENDCMP
 #
+$CMP 4075
+D Triple Or 3 inputs
+K CMOS Or3
+F http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf
+$ENDCMP
+#
 $CMP 4077
 D Quad Xnor 2 inputs
 K CMOS XOR XNOR XNOR2
@@ -208,6 +220,12 @@ $CMP 4081
 D Quad And 2 inputs
 K CMOS And2
 F http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4073bms-81bms-82bms.pdf
+$ENDCMP
+#
+$CMP 4098
+D Dual Monostable Multivibrator
+K CMOS monostable multivibrator
+F http://www.ti.com/lit/ds/symlink/cd4098b.pdf
 $ENDCMP
 #
 $CMP 4504
@@ -243,7 +261,7 @@ $ENDCMP
 $CMP 4538
 D Monostable
 K CMOS
-F http://www.nxp.com/documents/data_sheet/HEF4538B.pdf
+F https://assets.nexperia.com/documents/data-sheet/HEF4538B.pdf
 $ENDCMP
 #
 $CMP 4543
