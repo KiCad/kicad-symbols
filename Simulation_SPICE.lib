@@ -47,6 +47,29 @@ X ~ 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# ICCS
+#
+DEF ICCS F 0 0 Y N 1 F N
+F0 "F" 100 100 50 H V L CNN
+F1 "ICCS" 100 0 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
+F5 "F" 0 0 50 H I L CNN "Spice_Primitive"
+F6 "contr.source gain" 100 -100 50 H V L CNN "Spice_Params"
+DRAW
+C 0 0 100 0 1 10 f
+P 2 0 0 0 -50 10 50 10 N
+P 2 0 0 0 -30 -10 -50 -10 N
+P 2 0 0 0 10 -10 -10 -10 N
+P 2 0 0 0 50 -10 30 -10 N
+P 2 0 1 0 0 50 0 90 N
+P 3 0 1 0 -10 70 0 50 10 70 N
+X ~ 1 0 200 100 D 50 50 1 1 P
+X ~ 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # IDC
 #
 DEF IDC I 0 1 N Y 1 F N
@@ -86,6 +109,29 @@ A 61 30 61 1800 -1004 0 0 0 N 0 30 50 -30
 C 0 0 100 0 1 10 f
 P 2 0 0 0 -50 -30 -70 -30 N
 P 2 0 0 0 50 -30 70 -30 N
+P 2 0 1 0 0 50 0 90 N
+P 3 0 1 0 -10 70 0 50 10 70 N
+X ~ 1 0 200 100 D 50 50 1 1 P
+X ~ 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# INLD
+#
+DEF INLD B 0 0 Y N 1 F N
+F0 "B" 100 100 50 H V L CNN
+F1 "INLD" 100 0 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
+F5 "B" 0 0 50 H I L CNN "Spice_Primitive"
+F6 "I=expression" 100 -100 50 H V L CNN "Spice_Params"
+DRAW
+C 0 0 100 0 1 10 f
+P 2 0 0 0 -50 10 50 10 N
+P 2 0 0 0 -30 -10 -50 -10 N
+P 2 0 0 0 10 -10 -10 -10 N
+P 2 0 0 0 50 -10 30 -10 N
 P 2 0 1 0 0 50 0 90 N
 P 3 0 1 0 -10 70 0 50 10 70 N
 X ~ 1 0 200 100 D 50 50 1 1 P
@@ -225,6 +271,27 @@ X ~ 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# IVCS
+#
+DEF IVCS G 0 0 Y Y 1 F N
+F0 "G" 100 100 50 H V L CNN
+F1 "IVCS" 100 0 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
+F5 "G" 0 0 50 H I L CNN "Spice_Primitive"
+F6 "gain" 100 -100 50 H V L CNN "Spice_Params"
+DRAW
+C 0 0 100 1 1 10 f
+P 2 1 1 0 0 50 0 90 N
+P 3 1 1 0 -10 70 0 50 10 70 N
+X N+ 1 0 200 100 D 50 50 1 1 P
+X N- 2 0 -200 100 U 50 50 1 1 P
+X NC+ 3 -250 100 100 R 50 50 1 1 I
+X NC- 4 -250 -100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # OPAMP
 #
 DEF OPAMP U 0 10 Y Y 1 F N
@@ -271,6 +338,28 @@ X ~ 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# VCCS
+#
+DEF VCCS H 0 0 Y N 1 F N
+F0 "H" 100 100 50 H V L CNN
+F1 "VCCS" 100 0 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
+F5 "H" 0 0 50 H I L CNN "Spice_Primitive"
+F6 "contr.source gain" 100 -100 50 H V L CNN "Spice_Params"
+DRAW
+C 0 0 100 0 1 10 f
+T 0 0 75 50 0 0 0 + Normal 0 C C
+P 2 0 0 0 -50 10 50 10 N
+P 2 0 0 0 -30 -10 -50 -10 N
+P 2 0 0 0 10 -10 -10 -10 N
+P 2 0 0 0 50 -10 30 -10 N
+X ~ 1 0 200 100 D 50 50 1 1 P
+X ~ 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # VDC
 #
 DEF VDC V 0 1 N Y 1 F N
@@ -310,6 +399,28 @@ C 0 0 100 0 1 10 f
 T 0 0 75 50 0 0 0 + Normal 0 C C
 P 2 0 0 0 -50 -30 -70 -30 N
 P 2 0 0 0 50 -30 70 -30 N
+X ~ 1 0 200 100 D 50 50 1 1 P
+X ~ 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# VNLD
+#
+DEF VNLD B 0 0 Y N 1 F N
+F0 "B" 100 100 50 H V L CNN
+F1 "VNLD" 100 0 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
+F5 "B" 0 0 50 H I L CNN "Spice_Primitive"
+F6 "V=expression" 100 -100 50 H V L CNN "Spice_Params"
+DRAW
+C 0 0 100 0 1 10 f
+T 0 0 75 50 0 0 0 + Normal 0 C C
+P 2 0 0 0 -50 10 50 10 N
+P 2 0 0 0 -30 -10 -50 -10 N
+P 2 0 0 0 10 -10 -10 -10 N
+P 2 0 0 0 50 -10 30 -10 N
 X ~ 1 0 200 100 D 50 50 1 1 P
 X ~ 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
@@ -438,6 +549,30 @@ T 0 0 75 50 0 0 0 + Normal 0 C C
 P 19 0 1 0 -80 -30 -65 45 -65 -10 -60 20 -55 -45 -35 40 -30 -30 -20 10 -15 -20 -10 15 -5 -35 15 55 20 -55 25 30 40 -15 50 55 60 -20 70 15 80 -35 N
 X ~ 1 0 200 100 D 50 50 1 1 P
 X ~ 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# VVCS
+#
+DEF VVCS E 0 0 Y Y 1 F N
+F0 "E" 100 100 50 H V L CNN
+F1 "VVCS" 100 0 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
+F5 "E" 0 0 50 H I L CNN "Spice_Primitive"
+F6 "gain" 100 -100 50 H V L CNN "Spice_Params"
+DRAW
+C 0 0 100 1 1 10 f
+T 0 0 75 50 0 1 1 + Normal 0 C C
+P 2 1 1 0 -50 10 50 10 N
+P 2 1 1 0 -30 -10 -50 -10 N
+P 2 1 1 0 10 -10 -10 -10 N
+P 2 1 1 0 50 -10 30 -10 N
+X N+ 1 0 200 100 D 50 50 1 1 P
+X N- 2 0 -200 100 U 50 50 1 1 P
+X NC+ 3 -250 100 100 R 50 50 1 1 I
+X NC- 4 -250 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

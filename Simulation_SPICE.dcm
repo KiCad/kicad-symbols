@@ -12,6 +12,12 @@ K simulation amplitude modulated
 F ~
 $ENDCMP
 #
+$CMP ICCS
+D Current-controlled Current Source
+K simulation
+F ~
+$ENDCMP
+#
 $CMP IDC
 D Current source, DC
 K simulation
@@ -20,6 +26,12 @@ $ENDCMP
 #
 $CMP IEXP
 D Current source, exponential
+K simulation
+F ~
+$ENDCMP
+#
+$CMP INLD
+D Nonlinear Dependent Current Source
 K simulation
 F ~
 $ENDCMP
@@ -60,6 +72,12 @@ K simulation
 F ~
 $ENDCMP
 #
+$CMP IVCS
+D Voltage-controlled Current Source
+K simulation
+F ~
+$ENDCMP
+#
 $CMP OPAMP
 D Operational amplifier, single, node sequence=1:+ 2:- 3:OUT 4:V+ 5:V-
 K simulation
@@ -72,6 +90,12 @@ K simulation amplitude modulated
 F ~
 $ENDCMP
 #
+$CMP VCCS
+D Current-controlled Voltage Source
+K simulation
+F ~
+$ENDCMP
+#
 $CMP VDC
 D Voltage source, DC
 K simulation
@@ -80,6 +104,12 @@ $ENDCMP
 #
 $CMP VEXP
 D Voltage source, exponential
+K simulation
+F ~
+$ENDCMP
+#
+$CMP VNLD
+D Nonlinear Dependent Voltage Source
 K simulation
 F ~
 $ENDCMP
@@ -116,6 +146,12 @@ $ENDCMP
 #
 $CMP VTRRANDOM
 D Voltage source, random noise
+K simulation
+F ~
+$ENDCMP
+#
+$CMP VVCS
+D Voltage-controlled Voltage Source
 K simulation
 F ~
 $ENDCMP
