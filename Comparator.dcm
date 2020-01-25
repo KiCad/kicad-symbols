@@ -193,19 +193,19 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/DS20002143E.pdf
 $ENDCMP
 #
 $CMP MIC845H
-D Micro-Power Comparator / Battery Monitor, Open Drain Output, SC-70-5
+D Micro-Power Comparator / Battery Monitor, Active-High Push-Pull Output, SC-70-5
 K single comparator battery monitor
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic845.pdf
 $ENDCMP
 #
 $CMP MIC845L
-D Micro-Power Comparator / Battery Monitor, High Input High Output, SC-70-5
+D Micro-Power Comparator / Battery Monitor, Active-Low Push-Pull Output, SC-70-5
 K single comparator battery monitor
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic845.pdf
 $ENDCMP
 #
 $CMP MIC845N
-D Micro-Power Comparator / Battery Monitor, High Input Low Output, SC-70-5
+D Micro-Power Comparator / Battery Monitor, Active-High Open-Drain Output, SC-70-5
 K single comparator battery monitor
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic845.pdf
 $ENDCMP
