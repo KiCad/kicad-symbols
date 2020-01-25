@@ -25,7 +25,7 @@ F https://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_3
 $ENDCMP
 #
 $CMP LM2901
-D Quad Differential Comparators, DIP-14/SOIC-14/SSOP-14
+D Quad Differential Comparators, DIP-14/SOIC-14/TSSOP-14
 K quad comparator
 F https://www.st.com/resource/en/datasheet/lm2901.pdf
 $ENDCMP
@@ -55,7 +55,7 @@ F http://www.ti.com/lit/ds/symlink/lm319-n.pdf
 $ENDCMP
 #
 $CMP LM339
-D Quad Differential Comparators, DIP-14/SOIC-14/SSOP-14
+D Quad Differential Comparators, SOIC-14/TSSOP-14
 K quad comparator
 F https://www.st.com/resource/en/datasheet/lm139.pdf
 $ENDCMP
