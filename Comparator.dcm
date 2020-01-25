@@ -37,7 +37,7 @@ F http://www.ti.com/lit/ds/symlink/lm393-n.pdf
 $ENDCMP
 #
 $CMP LM311
-D Voltage Comparator, DIP-8/SOIC-8/SSOP-8
+D Voltage Comparator, DIP-8/SOIC-8
 K comp
 F https://www.st.com/resource/en/datasheet/lm311.pdf
 $ENDCMP
@@ -109,7 +109,7 @@ F http://www.ti.com/lit/ds/symlink/lmv7275.pdf
 $ENDCMP
 #
 $CMP LT1011
-D Voltage Comparator, DIP-8/SOIC-8/TO-5-8
+D Voltage Comparator, DIP-8/SOIC-8
 K comp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/lt1011.pdf
 $ENDCMP
