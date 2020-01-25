@@ -31,7 +31,7 @@ F https://www.st.com/resource/en/datasheet/lm2901.pdf
 $ENDCMP
 #
 $CMP LM2903
-D Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SSOP-8
+D Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8
 K dual comparator
 F http://www.ti.com/lit/ds/symlink/lm393-n.pdf
 $ENDCMP
@@ -61,7 +61,7 @@ F https://www.st.com/resource/en/datasheet/lm139.pdf
 $ENDCMP
 #
 $CMP LM393
-D Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SSOP-8
+D Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8
 K dual comparator
 F http://www.ti.com/lit/ds/symlink/lm393-n.pdf
 $ENDCMP
@@ -181,9 +181,9 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/DS20002143E.pdf
 $ENDCMP
 #
 $CMP MCP6567
-D Dual 1.8V Low-Power Push-Pull Output Comparator, SOIC-8/MSOP-8
+D Dual 1.8V Low-Power Open-Drain Output Comparator, SOIC-8/MSOP-8
 K dual comparator
-F http://www.farnell.com/datasheets/2133492.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DS20002143E.pdf
 $ENDCMP
 #
 $CMP MCP6569
