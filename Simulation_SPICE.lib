@@ -12,13 +12,13 @@ F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
 F5 "F" 0 0 50 H I L CNN "Spice_Primitive"
 F6 "contr.source gain" 100 -100 50 H V L CNN "Spice_Params"
 DRAW
-C 0 0 100 0 1 10 f
 P 2 0 0 0 -50 10 50 10 N
 P 2 0 0 0 -30 -10 -50 -10 N
 P 2 0 0 0 10 -10 -10 -10 N
 P 2 0 0 0 50 -10 30 -10 N
 P 2 0 1 0 0 50 0 90 N
 P 3 0 1 0 -10 70 0 50 10 70 N
+P 5 0 1 10 -100 0 0 100 100 0 0 -100 -100 0 f
 X ~ 1 0 200 100 D 50 50 1 1 P
 X ~ 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
@@ -35,8 +35,8 @@ F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
 F5 "H" 0 0 50 H I L CNN "Spice_Primitive"
 F6 "contr.source gain" 100 -100 50 H V L CNN "Spice_Params"
 DRAW
-C 0 0 100 0 1 10 f
 T 0 0 75 50 0 0 0 + Normal 0 C C
+P 5 0 1 10 0 100 100 0 0 -100 -100 0 0 100 f
 P 2 0 0 0 -50 10 50 10 N
 P 2 0 0 0 -30 -10 -50 -10 N
 P 2 0 0 0 10 -10 -10 -10 N
@@ -126,13 +126,13 @@ F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
 F5 "B" 0 0 50 H I L CNN "Spice_Primitive"
 F6 "I=expression" 100 -100 50 H V L CNN "Spice_Params"
 DRAW
-C 0 0 100 0 1 10 f
 P 2 0 0 0 -50 10 50 10 N
 P 2 0 0 0 -30 -10 -50 -10 N
 P 2 0 0 0 10 -10 -10 -10 N
 P 2 0 0 0 50 -10 30 -10 N
 P 2 0 1 0 0 50 0 90 N
 P 3 0 1 0 -10 70 0 50 10 70 N
+P 5 0 1 10 0 100 100 0 0 -100 -100 0 0 100 f
 X ~ 1 0 200 100 D 50 50 1 1 P
 X ~ 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
@@ -350,7 +350,7 @@ F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
 F5 "G" 0 0 50 H I L CNN "Spice_Primitive"
 F6 "gain" 100 -100 50 H V L CNN "Spice_Params"
 DRAW
-C 0 0 100 1 1 10 f
+P 5 0 1 10 0 100 100 0 0 -100 -100 0 0 100 f
 P 2 1 1 0 0 50 0 90 N
 P 3 1 1 0 -10 70 0 50 10 70 N
 X N+ 1 0 200 100 D 50 50 1 1 P
@@ -371,8 +371,8 @@ F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
 F5 "E" 0 0 50 H I L CNN "Spice_Primitive"
 F6 "gain" 100 -100 50 H V L CNN "Spice_Params"
 DRAW
-C 0 0 100 1 1 10 f
 T 0 0 75 50 0 1 1 + Normal 0 C C
+P 5 0 1 10 0 100 100 0 0 -100 -100 0 0 100 f
 P 2 1 1 0 -50 10 50 10 N
 P 2 1 1 0 -30 -10 -50 -10 N
 P 2 1 1 0 10 -10 -10 -10 N
@@ -417,12 +417,12 @@ F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
 F5 "B" 0 0 50 H I L CNN "Spice_Primitive"
 F6 "V=expression" 100 -100 50 H V L CNN "Spice_Params"
 DRAW
-C 0 0 100 0 1 10 f
 T 0 0 75 50 0 0 0 + Normal 0 C C
 P 2 0 0 0 -50 10 50 10 N
 P 2 0 0 0 -30 -10 -50 -10 N
 P 2 0 0 0 10 -10 -10 -10 N
 P 2 0 0 0 50 -10 30 -10 N
+P 5 0 1 10 0 100 100 0 0 -100 -100 0 0 100 f
 X ~ 1 0 200 100 D 50 50 1 1 P
 X ~ 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
