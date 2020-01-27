@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CCCS
+D Linear Current-Controlled Current Source
+K simulation
+F ~
+$ENDCMP
+#
+$CMP CCVS
+D Linear Current-Controlled Voltage Source
+K simulation
+F ~
+$ENDCMP
+#
 $CMP DIODE
 D Diode, anode on pin 1, for simulation only!
 K simulation
@@ -12,26 +24,20 @@ K simulation amplitude modulated
 F ~
 $ENDCMP
 #
-$CMP ICCS
-D Current-controlled Current Source
-K simulation
-F ~
-$ENDCMP
-#
 $CMP IDC
 D Current source, DC
 K simulation
 F ~
 $ENDCMP
 #
-$CMP IEXP
-D Current source, exponential
+$CMP IDEP
+D Nonlinear Dependent Current Source
 K simulation
 F ~
 $ENDCMP
 #
-$CMP INLD
-D Nonlinear Dependent Current Source
+$CMP IEXP
+D Current source, exponential
 K simulation
 F ~
 $ENDCMP
@@ -72,12 +78,6 @@ K simulation
 F ~
 $ENDCMP
 #
-$CMP IVCS
-D Voltage-controlled Current Source
-K simulation
-F ~
-$ENDCMP
-#
 $CMP OPAMP
 D Operational amplifier, single, node sequence=1:+ 2:- 3:OUT 4:V+ 5:V-
 K simulation
@@ -91,7 +91,13 @@ F ~
 $ENDCMP
 #
 $CMP VCCS
-D Current-controlled Voltage Source
+D Linear Voltage-Controlled Current Source
+K simulation
+F ~
+$ENDCMP
+#
+$CMP VCVS
+D Linear Voltage-Controlled Voltage Source
 K simulation
 F ~
 $ENDCMP
@@ -102,14 +108,14 @@ K simulation
 F ~
 $ENDCMP
 #
-$CMP VEXP
-D Voltage source, exponential
+$CMP VDEP
+D Nonlinear Dependent Voltage Source
 K simulation
 F ~
 $ENDCMP
 #
-$CMP VNLD
-D Nonlinear Dependent Voltage Source
+$CMP VEXP
+D Voltage source, exponential
 K simulation
 F ~
 $ENDCMP
@@ -146,12 +152,6 @@ $ENDCMP
 #
 $CMP VTRRANDOM
 D Voltage source, random noise
-K simulation
-F ~
-$ENDCMP
-#
-$CMP VVCS
-D Voltage-controlled Voltage Source
 K simulation
 F ~
 $ENDCMP
