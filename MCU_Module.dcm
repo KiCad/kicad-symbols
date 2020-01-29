@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Adafruit_Feather_BluefruitLE_32U4
+D ATmega32U4 development board with Bluetooth LE
+K bluetooth ble microcontroller module atmel avr usb
+F https://www.adafruit.com/product/2829
+$ENDCMP
+#
+$CMP Adafruit_Feather_BluefruitLE_M0
+D ATSAMD21G18 development board with Bluetooth LE
+K bluetooth ble microcontroller module atmel atsam usb
+F https://www.adafruit.com/product/2995
+$ENDCMP
+#
 $CMP Adafruit_HUZZAH_ESP8266_breakout
 D 32-bit microcontroller module with WiFi
 K ESP8266 WiFi microcontroller
