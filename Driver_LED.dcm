@@ -300,6 +300,18 @@ K PWM LED driver I2C TSSOP
 F http://www.nxp.com/documents/data_sheet/PCA9685.pdf
 $ENDCMP
 #
+$CMP PT4115
+D 30V, 1.2A Step-down High Brightness, SOT-89-5
+K Switching LED driver
+F https://datasheet.lcsc.com/szlcsc/CR-PowTech-Shanghai-PT4115B89E_C84512.pdf
+$ENDCMP
+#
+$CMP PT4115E
+D 50V/1.5A Step-down High Brightness LED Driver, SOT-89-5
+K Switching LED driver
+F https://datasheet.lcsc.com/szlcsc/CR-PowTech-Shanghai-PT4115EE89E_C126161.pdf
+$ENDCMP
+#
 $CMP ST1CC40DR
 D 3A monolithic step-down current source with synchronous rectification, 3-18V Input Voltage, 850kHz, SO-8
 K DC/DC Buck Conwerter 3A Low Voltage Input LED Lighting
