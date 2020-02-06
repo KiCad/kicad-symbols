@@ -493,25 +493,37 @@ F https://www.nxp.com/docs/en/data-sheet/LPC122X.pdf
 $ENDCMP
 #
 $CMP LPC1517JBD64
-D Flash 128kB, EEPROM 4kB, RAM 20kB, USB
+D Flash 64kB, EEPROM 4kB, RAM 12kB
 K 32-bit ARM Cortex-M3 microcontroller
 F https://www.nxp.com/docs/en/data-sheet/LPC15XX.pdf
 $ENDCMP
 #
 $CMP LPC1518JBD64
-D Flash 128kB, EEPROM 4kB, RAM 20kB, USB
+D Flash 128kB, EEPROM 4kB, RAM 20kB
 K 32-bit ARM Cortex-M3 microcontroller
 F https://www.nxp.com/docs/en/data-sheet/LPC15XX.pdf
 $ENDCMP
 #
 $CMP LPC1519JBD64
+D Flash 256kB, EEPROM 4kB, RAM 36kB
+K 32-bit ARM Cortex-M3 microcontroller
+F https://www.nxp.com/docs/en/data-sheet/LPC15XX.pdf
+$ENDCMP
+#
+$CMP LPC1547JBD64
+D Flash 64kB, EEPROM 4kB, RAM 12kB, USB
+K 32-bit ARM Cortex-M3 microcontroller
+F https://www.nxp.com/docs/en/data-sheet/LPC15XX.pdf
+$ENDCMP
+#
+$CMP LPC1548JBD64
 D Flash 128kB, EEPROM 4kB, RAM 20kB, USB
 K 32-bit ARM Cortex-M3 microcontroller
 F https://www.nxp.com/docs/en/data-sheet/LPC15XX.pdf
 $ENDCMP
 #
 $CMP LPC1549JBD64
-D Flash 128kB, EEPROM 4kB, RAM 20kB, USB
+D Flash 256kB, EEPROM 4kB, RAM 36kB, USB
 K 32-bit ARM Cortex-M3 microcontroller
 F https://www.nxp.com/docs/en/data-sheet/LPC15XX.pdf
 $ENDCMP
