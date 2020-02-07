@@ -312,6 +312,18 @@ K Thermocouple converter serial
 F https://datasheets.maximintegrated.com/en/ds/MAX31856.pdf
 $ENDCMP
 #
+$CMP MAX31865xAP
+D RTD-to-Digital Converter, SSOP-20
+K RTD SPI Temperature
+F https://datasheets.maximintegrated.com/en/ds/MAX31865.pdf
+$ENDCMP
+#
+$CMP MAX31865xTP
+D RTD-to-Digital Converter, TQFN-20
+K RTD SPI Temperature
+F https://datasheets.maximintegrated.com/en/ds/MAX31865.pdf
+$ENDCMP
+#
 $CMP MAX6654
 D Remote and Local Temperature Sensor, SSOP-16
 K I2C SMBus Serial
