@@ -625,6 +625,9 @@ F0 "U" -350 550 50 H V C CNN
 F1 "Jadak_Thingmagic_M6e-Micro_Edge_pins" 900 550 50 H V C CNN
 F2 "RF_Module:Jadak_Thingmagic_M6e-Micro_SMT" 1000 -550 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *Thingmagic*M6e-Micro*Edge*
+$ENDFPLIST
 DRAW
 S -400 500 400 -500 0 1 0 f
 X GND 1 100 -600 100 U 50 50 1 1 W
