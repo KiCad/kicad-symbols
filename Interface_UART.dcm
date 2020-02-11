@@ -171,6 +171,12 @@ K RS485 RS422 transceiver half duplex
 F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1785-1785A-1791-1791A.pdf
 $ENDCMP
 #
+$CMP LT1785AxS8
+D RS-485, RS-422 Half duplex 250kbps transceiver, fail-safe receiver, SOIC-8
+K RS485 RS422 transceiver half duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1785-1785A-1791-1791A.pdf
+$ENDCMP
+#
 $CMP LT1785xN8
 D RS-485, RS-422 Half duplex 250kbps transceiver, DIP-8
 K RS485 RS422 transceiver half duplex
@@ -178,7 +184,7 @@ F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1785-178
 $ENDCMP
 #
 $CMP LT1785xS8
-D RS-485, RS-422 Half duplex 250kbps transceiver, fail-safe receiver, SOIC-8
+D RS-485, RS-422 Half duplex 250kbps transceiver, SOIC-8
 K RS485 RS422 transceiver half duplex
 F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1785-1785A-1791-1791A.pdf
 $ENDCMP
