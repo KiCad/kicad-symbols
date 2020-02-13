@@ -42,4 +42,40 @@ K I2C Humidity Temperature Sensor
 F https://www.silabs.com/documents/public/data-sheets/Si7021-A20.pdf
 $ENDCMP
 #
+$CMP SHT30-DIS
+D I²C humidity and temperature sensor, ±3%RH, ±0.3°C
+K digital temperature humidity
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Datasheets/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf
+$ENDCMP
+#
+$CMP SHT30A-DIS
+D I²C humidity and temperature sensor, ±3%RH, ±0.3°C
+K digital temperature humidity
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Datasheets/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf
+$ENDCMP
+#
+$CMP SHT31-DIS
+D I²C humidity and temperature sensor, ±2%RH, ±0.2°C
+K digital temperature humidity
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Datasheets/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf
+$ENDCMP
+#
+$CMP SHT31A-DIS
+D I²C humidity and temperature sensor, ±2%RH, ±0.3°C
+K digital temperature humidity
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Datasheets/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf
+$ENDCMP
+#
+$CMP SHT35-DIS
+D I²C humidity and temperature sensor, ±1.5%RH, ±0.1°C
+K digital temperature humidity
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Datasheets/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf
+$ENDCMP
+#
+$CMP SHT35A-DIS
+D I²C humidity and temperature sensor, ±1.5%RH, ±0.2°C
+K digital temperature humidity
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Datasheets/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf
+$ENDCMP
+#
 #End Doc Library
