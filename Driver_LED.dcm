@@ -276,6 +276,12 @@ K LED driver
 F https://www.monolithicpower.com/pub/media/document/MPQ2483_r1.05.pdf
 $ENDCMP
 #
+$CMP NCR401U
+D 10mA (with external R up to 65mA) constant current driver (linear), max 40V, SOT457 (SC-74)
+K LED driver constant current
+F https://assets.nexperia.com/documents/data-sheet/NCR401U.pdf
+$ENDCMP
+#
 $CMP PCA9635
 D 16-bit PWM Fm+ I2C-bus LED driver, TSSOP-28
 K led pwm rgb rgba
