@@ -2226,6 +2226,12 @@ K isolated isolation dc-dc converter step-down dual
 F https://www.xppower.com/portals/0/pdfs/SF_JTD15.pdf
 $ENDCMP
 #
+$CMP JTD1548S05
+D Isolated 15W 4:1 input DC/DC converter module, 18-75V input voltage, 5V output voltage, DIP
+K isolated isolation dc-dc converter step-down
+F https://www.xppower.com/portals/0/pdfs/SF_JTD15.pdf
+$ENDCMP
+#
 $CMP JTD1548S12
 D Isolated 15W 4:1 input DC/DC converter module, 18-75V input voltage, 12V output voltage, DIP
 K isolated isolation dc-dc converter step-down
