@@ -138,6 +138,30 @@ K tcxo
 F https://global.kyocera.com/prdct/electro/product/pdf/kt2520_e.pdf
 $ENDCMP
 #
+$CMP LTC6905xS5-100
+D 2.7-5.5V 100MHz Precision Fixed Frequency Silicon Oscillator, TSOT-23-5
+K oscillator fixed frequency divider silicon
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6905xfa.pdf
+$ENDCMP
+#
+$CMP LTC6905xS5-133
+D 2.7-5.5V 133MHz Precision Fixed Frequency Silicon Oscillator, TSOT-23-5
+K oscillator fixed frequency divider silicon
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6905xfa.pdf
+$ENDCMP
+#
+$CMP LTC6905xS5-80
+D 2.7-5.5V 80MHz Precision Fixed Frequency Silicon Oscillator, TSOT-23-5
+K oscillator fixed frequency divider silicon
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6905xfa.pdf
+$ENDCMP
+#
+$CMP LTC6905xS5-96
+D 2.7-5.5V 96MHz Precision Fixed Frequency Silicon Oscillator, TSOT-23-5
+K oscillator fixed frequency divider silicon
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6905xfa.pdf
+$ENDCMP
+#
 $CMP MAX7375AXR105
 D Silicon Clock Oscillator 1MHz, SC-70-3
 K Silicon Clock Oscillator 1MHz 1000kHz

@@ -5238,20 +5238,38 @@ K switching buck converter step-down
 F http://www.ti.com/lit/ds/symlink/tps568215.pdf
 $ENDCMP
 #
+$CMP TPS61040DBV
+D Synchronous Boost Regulator, Adjustable Output up to 28V, 400 mA Switch Current Limit, SOT-23-5
+K Step-Up Boost DC-DC Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/tps61040.pdf
+$ENDCMP
+#
+$CMP TPS61040DDC
+D Synchronous Boost Regulator, Adjustable Output up to 28V, 400 mA Switch Current Limit, SOT-23-5
+K Step-Up Boost DC-DC Regulator Adjustable
+F https://www.ti.com/lit/ds/symlink/tps61040.pdf
+$ENDCMP
+#
+$CMP TPS61040DRV
+D Synchronous Boost Regulator, Adjustable Output up to 28V, 400 mA Switch Current Limit, WSON-6
+K Step-Up Boost DC-DC Regulator Adjustable
+F https://www.ti.com/lit/ds/symlink/tps61040.pdf
+$ENDCMP
+#
 $CMP TPS61041DBV
-D Synchronous Boost Regulator, Adjustable Output up to 28V, SOT-23-5
+D Synchronous Boost Regulator, Adjustable Output up to 28V, 250 mA Switch Current Limit, SOT-23-5
 K Step-Up Boost DC-DC Regulator Adjustable
 F http://www.ti.com/lit/ds/symlink/tps61040.pdf
 $ENDCMP
 #
 $CMP TPS61041DDC
-D Synchronous Boost Regulator, Adjustable Output up to 28V, SOT-23-5
+D Synchronous Boost Regulator, Adjustable Output up to 28V, 250 mA Switch Current Limit, SOT-23-5
 K Step-Up Boost DC-DC Regulator Adjustable
 F http://www.ti.com/lit/ds/symlink/tps61040.pdf
 $ENDCMP
 #
 $CMP TPS61041DRV
-D Synchronous Boost Regulator, Adjustable Output up to 28V, WSON-6
+D Synchronous Boost Regulator, Adjustable Output up to 28V, 250 mA Switch Current Limit, WSON-6
 K Step-Up Boost DC-DC Regulator Adjustable
 F http://www.ti.com/lit/ds/symlink/tps61040.pdf
 $ENDCMP
@@ -5554,6 +5572,18 @@ $CMP TPS63002
 D Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.7A Switch Current, 5V Output Voltage, VSON-10
 K Buck-Boost fixed 5V converter
 F http://www.ti.com/lit/ds/symlink/tps63000.pdf
+$ENDCMP
+#
+$CMP TPS63030DSK
+D Buck-Boost Converter, 1.8-5.5V Input Voltage, 1A Switch Current, Adjustable Output Voltage, VSON-10 (DSK0010A)
+K Buck-Boost adjustable converter
+F http://www.ti.com/lit/ds/symlink/tps63030.pdf
+$ENDCMP
+#
+$CMP TPS63031DSK
+D Buck-Boost Converter, 1.8-5.5V Input Voltage, 1A Switch Current, 3.3V Output Voltage, VSON-10 (DSK0010A)
+K Buck-Boost fixed 3.3V converter
+F http://www.ti.com/lit/ds/symlink/tps63031.pdf
 $ENDCMP
 #
 $CMP TPS63060
