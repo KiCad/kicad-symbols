@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP 2EDL23N06PJXUMA1
-D 600 V Half Bridge Gate Driver with OCP and Integrated Bootstrap Diode, +1.8A/-2.5A drive current, DSO-14 
+D 600 V Half Bridge Gate Driver with OCP and Integrated Bootstrap Diode, +1.8A/-2.5A drive current, DSO-14
 K Gate Driver MOSFET IGBT
 F https://www.infineon.com/dgdl/Infineon-2EDL23x06xx-DS-v02_01-EN.pdf?fileId=5546d46146d18cb4014738a20c5236f0
 $ENDCMP
@@ -694,6 +694,12 @@ $CMP IRS2890DS
 D Half-Bridge Driver with Overcurrent Protection, 600V, 220/480mA, SOIC-14
 K Gate Driver
 F https://www.infineon.com/dgdl/Infineon-IRS2890DS-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aad6fbc8a4bf4
+$ENDCMP
+#
+$CMP L6491
+D 600V Half Bridge Gate Driver with OCP and Integrated Bootstrap Diode, 4A drive current, DSO-14
+K Gate Driver MOSFET IGBT
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/39/4a/2e/5f/bc/cf/42/20/DM00088170.pdf/files/DM00088170.pdf/jcr:content/translations/en.DM00088170.pdf
 $ENDCMP
 #
 $CMP LM5109AMA
