@@ -5580,6 +5580,30 @@ K Single Output LDO
 F http://www.onsemi.com/pub/Collateral/NCP133-D.PDF
 $ENDCMP
 #
+$CMP NCP662SQ15T1G
+D 100-mA, 12V Max. Input, Ultralow-IQ LDO, 1.5V, SC-82AB
+K LDO regulator voltage
+F https://www.onsemi.com/pub/Collateral/NCP662-D.PDF
+$ENDCMP
+#
+$CMP NCP662SQ18T1G
+D 100-mA, 12V Max. Input, Ultralow-IQ LDO, 1.8V, SC-82AB
+K LDO regulator voltage
+F https://www.onsemi.com/pub/Collateral/NCP662-D.PDF
+$ENDCMP
+#
+$CMP NCP662SQ33T1G
+D 100-mA, 12V Max. Input, Ultralow-IQ LDO, 3.3V, SC-82AB
+K LDO regulator voltage
+F https://www.onsemi.com/pub/Collateral/NCP662-D.PDF
+$ENDCMP
+#
+$CMP NCP662SQ50T1G
+D 100-mA, 12V Max. Input, Ultralow-IQ LDO, 5.0V, SC-82AB
+K LDO regulator voltage
+F https://www.onsemi.com/pub/Collateral/NCP662-D.PDF
+$ENDCMP
+#
 $CMP NCP718xSN120
 D 300-mA, Wide Input Voltage, Low-IQ LDO, 1.2V, SOT-23
 K Single Output LDO Wide Input
