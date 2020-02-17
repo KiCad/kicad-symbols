@@ -5580,6 +5580,30 @@ K Single Output LDO
 F http://www.onsemi.com/pub/Collateral/NCP133-D.PDF
 $ENDCMP
 #
+$CMP NCP551SN15T1G
+D 150-mA, 12V Max. Input Voltage, Ultralow-IQ LDO, 1.5V, SOT-23-5
+K LDO regulator voltage
+F https://www.onsemi.com/pub/Collateral/NCP551-D.PDF
+$ENDCMP
+#
+$CMP NCP551SN18T1G
+D 150-mA, 12V Max. Input Voltage, Ultralow-IQ LDO, 1.8V, SOT-23-5
+K LDO regulator voltage
+F https://www.onsemi.com/pub/Collateral/NCP551-D.PDF
+$ENDCMP
+#
+$CMP NCP551SN33T1G
+D 150-mA, 12V Max. Input Voltage, Ultralow-IQ LDO, 3.3V, SOT-23-5
+K LDO regulator voltage
+F https://www.onsemi.com/pub/Collateral/NCP551-D.PDF
+$ENDCMP
+#
+$CMP NCP551SN50T1G
+D 150-mA, 12V Max. Input Voltage, Ultralow-IQ LDO, 5.0V, SOT-23-5
+K LDO regulator voltage
+F https://www.onsemi.com/pub/Collateral/NCP551-D.PDF
+$ENDCMP
+#
 $CMP NCP718xSN120
 D 300-mA, Wide Input Voltage, Low-IQ LDO, 1.2V, SOT-23
 K Single Output LDO Wide Input
@@ -5620,6 +5644,30 @@ $CMP NCP718xSN500
 D 300-mA, Wide Input Voltage, Low-IQ LDO, 5.0V, SOT-23
 K Single Output LDO Wide Input
 F https://www.onsemi.com/pub/Collateral/NCP718-D.PDF
+$ENDCMP
+#
+$CMP NCV551SN15T1G
+D 150-mA, 12V Max. Input Voltage, Ultralow-IQ LDO, 1.5V, automotive, SOT-23-5
+K LDO regulator voltage
+F https://www.onsemi.com/pub/Collateral/NCP551-D.PDF
+$ENDCMP
+#
+$CMP NCV551SN18T1G
+D 150-mA, 12V Max. Input Voltage, Ultralow-IQ LDO, 1.8V, automotive, SOT-23-5
+K LDO regulator voltage
+F https://www.onsemi.com/pub/Collateral/NCP551-D.PDF
+$ENDCMP
+#
+$CMP NCV551SN33T1G
+D 150-mA, 12V Max. Input Voltage, Ultralow-IQ LDO, 3.3V, automotive, SOT-23-5
+K LDO regulator voltage
+F https://www.onsemi.com/pub/Collateral/NCP551-D.PDF
+$ENDCMP
+#
+$CMP NCV551SN50T1G
+D 150-mA, 12V Max. Input Voltage, Ultralow-IQ LDO, 5.0V, automotive, SOT-23-5
+K LDO regulator voltage
+F https://www.onsemi.com/pub/Collateral/NCP551-D.PDF
 $ENDCMP
 #
 $CMP NCV8114ASN120T1G
