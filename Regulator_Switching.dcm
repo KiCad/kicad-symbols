@@ -3228,6 +3228,12 @@ K Step-Up Boost DC-DC Regulator Adjustable
 F https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf
 $ENDCMP
 #
+$CMP MUN12AD03-SH
+D DC/DC Switching Regulator, Power Module, 3A, Cyntec MUN12AD03
+K DC/DC Switching Regulator Power Module 3A Cyntec MUN12AD03
+F http://www.cyntec.com/upfile/products/download/Cyntec%20MUN12AD03-SH_Datasheet.pdf
+$ENDCMP
+#
 $CMP NCP1070P065
 D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 14W/7.75W, 230V/85-265V, 65kHz, 22Ohm Rds(on), 250mA Ipk, DIP-7
 K SMPS Converter
