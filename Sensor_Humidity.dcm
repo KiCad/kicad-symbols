@@ -18,6 +18,18 @@ K Temerature Humidity Sensor
 F http://www.ti.com/lit/ds/symlink/hdc2080.pdf
 $ENDCMP
 #
+$CMP SHTC1
+D Humidity and Temperature Sensor, +/-3%RH, +/-0.3degC, I2C, 1.62-1.98V, DFN-4
+K Sensirion environment environmental measurement digital
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/0_Datasheets/Humidity/Sensirion_Humidity_Sensors_SHTC1_Datasheet.pdf
+$ENDCMP
+#
+$CMP SHTC3
+D Humidity and Temperature Sensor, +/-2%RH, +/-0.2degC, I2C, 1.62-3.6V, DFN-4
+K Sensirion environment environmental measurement digital
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/0_Datasheets/Humidity/Sensirion_Humidity_Sensors_SHTC3_Datasheet.pdf
+$ENDCMP
+#
 $CMP Si7020-A20
 D I2C Humidity and Temperature Sensor, DFN-6
 K I2C Humidity Temperature Sensor

@@ -3060,6 +3060,12 @@ K regulator switching adjustable
 F https://www.monolithicpower.com/pub/media/document/m/p/mp171_r1.01.pdf
 $ENDCMP
 #
+$CMP MT3608
+D High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6
+K Step-Up Boost DC-DC Regulator Adjustable
+F https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf
+$ENDCMP
+#
 $CMP NCP1070P065
 D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 14W/7.75W, 230V/85-265V, 65kHz, 22Ohm Rds(on), 250mA Ipk, DIP-7
 K SMPS Converter
@@ -4006,6 +4012,24 @@ $CMP TLV62568DRL
 D High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 1A, SOT-563-6
 K Step-Down Buck DC-DC Regulator Adjustable
 F http://www.ti.com/lit/ds/symlink/tlv62568.pdf
+$ENDCMP
+#
+$CMP TLV62569DBV
+D High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-5
+K Step-Down Buck DC-DC Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/tlv62569.pdf
+$ENDCMP
+#
+$CMP TLV62569DDC
+D High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-6
+K Step-Down Buck DC-DC Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/tlv62569.pdf
+$ENDCMP
+#
+$CMP TLV62569DRL
+D High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-563-6
+K Step-Down Buck DC-DC Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/tlv62569.pdf
 $ENDCMP
 #
 $CMP TMR_1-0511
@@ -5214,20 +5238,38 @@ K switching buck converter step-down
 F http://www.ti.com/lit/ds/symlink/tps568215.pdf
 $ENDCMP
 #
+$CMP TPS61040DBV
+D Synchronous Boost Regulator, Adjustable Output up to 28V, 400 mA Switch Current Limit, SOT-23-5
+K Step-Up Boost DC-DC Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/tps61040.pdf
+$ENDCMP
+#
+$CMP TPS61040DDC
+D Synchronous Boost Regulator, Adjustable Output up to 28V, 400 mA Switch Current Limit, SOT-23-5
+K Step-Up Boost DC-DC Regulator Adjustable
+F https://www.ti.com/lit/ds/symlink/tps61040.pdf
+$ENDCMP
+#
+$CMP TPS61040DRV
+D Synchronous Boost Regulator, Adjustable Output up to 28V, 400 mA Switch Current Limit, WSON-6
+K Step-Up Boost DC-DC Regulator Adjustable
+F https://www.ti.com/lit/ds/symlink/tps61040.pdf
+$ENDCMP
+#
 $CMP TPS61041DBV
-D Synchronous Boost Regulator, Adjustable Output up to 28V, SOT-23-5
+D Synchronous Boost Regulator, Adjustable Output up to 28V, 250 mA Switch Current Limit, SOT-23-5
 K Step-Up Boost DC-DC Regulator Adjustable
 F http://www.ti.com/lit/ds/symlink/tps61040.pdf
 $ENDCMP
 #
 $CMP TPS61041DDC
-D Synchronous Boost Regulator, Adjustable Output up to 28V, SOT-23-5
+D Synchronous Boost Regulator, Adjustable Output up to 28V, 250 mA Switch Current Limit, SOT-23-5
 K Step-Up Boost DC-DC Regulator Adjustable
 F http://www.ti.com/lit/ds/symlink/tps61040.pdf
 $ENDCMP
 #
 $CMP TPS61041DRV
-D Synchronous Boost Regulator, Adjustable Output up to 28V, WSON-6
+D Synchronous Boost Regulator, Adjustable Output up to 28V, 250 mA Switch Current Limit, WSON-6
 K Step-Up Boost DC-DC Regulator Adjustable
 F http://www.ti.com/lit/ds/symlink/tps61040.pdf
 $ENDCMP
@@ -5530,6 +5572,18 @@ $CMP TPS63002
 D Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.7A Switch Current, 5V Output Voltage, VSON-10
 K Buck-Boost fixed 5V converter
 F http://www.ti.com/lit/ds/symlink/tps63000.pdf
+$ENDCMP
+#
+$CMP TPS63030DSK
+D Buck-Boost Converter, 1.8-5.5V Input Voltage, 1A Switch Current, Adjustable Output Voltage, VSON-10 (DSK0010A)
+K Buck-Boost adjustable converter
+F http://www.ti.com/lit/ds/symlink/tps63030.pdf
+$ENDCMP
+#
+$CMP TPS63031DSK
+D Buck-Boost Converter, 1.8-5.5V Input Voltage, 1A Switch Current, 3.3V Output Voltage, VSON-10 (DSK0010A)
+K Buck-Boost fixed 3.3V converter
+F http://www.ti.com/lit/ds/symlink/tps63031.pdf
 $ENDCMP
 #
 $CMP TPS63060

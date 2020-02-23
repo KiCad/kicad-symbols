@@ -1662,6 +1662,12 @@ K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/FD/FDS9934C.pdf
 $ENDCMP
 #
+$CMP FQP27P06
+D -27A Id, -60V Vds, QFET P-Channel MOSFET, TO-220
+K QFET P-Channel MOSFET
+F https://www.onsemi.com/pub/Collateral/FQP27P06-D.PDF
+$ENDCMP
+#
 $CMP IPD50R380CE
 D 14.1A Id, 500V Vds, CoolMOS N-Channel Power MOSFET, 380mOhm Ron, 24.8nC Qg (typ), TO-252-2
 K CoolMOS Power MOSFET N-MOS
@@ -2526,6 +2532,12 @@ K P-Channel MOSFET
 F https://www.vishay.com/docs/63684/sis415dnt.pdf
 $ENDCMP
 #
+$CMP SiSS27DN
+D -50A Id, -30V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single
+K P-Channel MOSFET
+F http://www.vishay.com/docs/62847/siss27dn.pdf
+$ENDCMP
+#
 $CMP TP0610L
 D -0.18A Id, -60V Vds, P-Channel MOSFET, TO-92
 K P-Channel MOSFET
@@ -2538,10 +2550,28 @@ K P-Channel MOSFET
 F http://www.vishay.com/docs/70209/70209.pdf
 $ENDCMP
 #
+$CMP TSM2301ACX
+D -2.8A Id, -20V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F https://www.taiwansemi.com/products/datasheet/TSM2301A_C15.pdf
+$ENDCMP
+#
+$CMP TSM2302CX
+D 3.9A Id, 20V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F https://www.taiwansemi.com/products/datasheet/TSM2302CX_E1608.pdf
+$ENDCMP
+#
 $CMP VN10LF
 D 0.15A Id, 60V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
 F http://www.diodes.com/assets/Datasheets/VN10LF.pdf
+$ENDCMP
+#
+$CMP VNP10N07
+D 10A Id, 70V Vds, N-Channel Power MOSFET, fully autoprotected, TO-220
+K N-Channel Power MOSFET OMNIFET
+F https://www.st.com/resource/en/datasheet/vnp10n07.pdf
 $ENDCMP
 #
 $CMP VP0610L
