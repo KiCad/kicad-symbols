@@ -288,6 +288,12 @@ K display LED 7-segment
 F https://docs.broadcom.com/docs/AV02-1588EN
 $ENDCMP
 #
+$CMP HDSP-7401
+D One digit 7 segment yellow, common anode
+K display LED 7-segment
+F https://docs.broadcom.com/docs/AV02-2553EN
+$ENDCMP
+#
 $CMP HDSP-7403
 D One digit 7 segment yellow, common cathode
 K display LED 7-segment
@@ -444,18 +450,6 @@ K display LCD dot-matrix
 F http://pdf.datasheetcatalog.com/datasheet/Sharp/mXvtrzw.pdf
 $ENDCMP
 #
-$CMP LTC-4327JR
-D 4 digit 7 segment red, common anode
-K display LED 7-segment
-F http://optoelectronics.liteon.com/upload/download/DS30-2000-185/LTC-4627JR.pdf
-$ENDCMP
-#
-$CMP LTC-4327JS
-D 4 digit 7 segment yellow, common anode
-K display LED 7-segment
-F http://optoelectronics.liteon.com/upload/download/DS30-2000-186/LTC-4627JS.pdf
-$ENDCMP
-#
 $CMP LTC-4627JD
 D 4 digit 7 segment red, common anode
 K display LED 7-segment
@@ -478,6 +472,18 @@ $CMP LTC-4627JG
 D 4 digit 7 segment green, common anode
 K display LED 7-segment
 F http://optoelectronics.liteon.com/upload/download/DS30-2001-393/C4627JG.pdf
+$ENDCMP
+#
+$CMP LTC-4627JR
+D 4 digit 7 segment red, common anode
+K display LED 7-segment
+F http://optoelectronics.liteon.com/upload/download/DS30-2000-185/LTC-4627JR.pdf
+$ENDCMP
+#
+$CMP LTC-4627JS
+D 4 digit 7 segment yellow, common anode
+K display LED 7-segment
+F http://optoelectronics.liteon.com/upload/download/DS30-2000-186/LTC-4627JS.pdf
 $ENDCMP
 #
 $CMP LTS-6960HR
