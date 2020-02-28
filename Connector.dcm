@@ -96,6 +96,18 @@ K 8P8C RJ female connector
 F ~
 $ENDCMP
 #
+$CMP ATX-20
+D ATX Power supply 20pins
+K ATX PSU
+F https://web.aub.edu.lb/pub/docs/atx_201.pdf#page=20
+$ENDCMP
+#
+$CMP ATX-24
+D ATX Power supply 24pins
+K ATX PSU
+F https://www.intel.com/content/dam/www/public/us/en/documents/guides/power-supply-design-guide-june.pdf#page=33
+$ENDCMP
+#
 $CMP AVR-ISP-10
 D Atmel 10-pin ISP connector
 K AVR ISP Connector
@@ -115,7 +127,7 @@ F  ~
 $ENDCMP
 #
 $CMP AVR-PDI-6
-D Atmel 10-pin PDI connector
+D Atmel 6-pin PDI connector
 K AVR PDI Connector
 F  ~
 $ENDCMP
@@ -124,6 +136,12 @@ $CMP AVR-TPI-6
 D Atmel 6-pin TPI connector
 K AVR TPI Connector
 F  ~
+$ENDCMP
+#
+$CMP AVR-UPDI-6
+D Atmel 6-pin UPDI connector
+K AVR UPDI Connector
+F https://www.microchip.com/webdoc/GUID-9D10622A-5C16-4405-B092-1BDD437B4976/index.html?GUID-9B349315-2842-4189-B88C-49F4E1055D7F
 $ENDCMP
 #
 $CMP AudioJack2
@@ -858,6 +876,12 @@ K BNC SMA SMB SMC coaxial connector CINCH RCA
 F  ~
 $ENDCMP
 #
+$CMP Conn_PIC_ICSP_ICD
+D Microchip PIC In-Circuit Serial Programming/Debugging (ICSP/ICD) connector
+K icsp icd pic microchip
+F http://ww1.microchip.com/downloads/en/devicedoc/30277d.pdf
+$ENDCMP
+#
 $CMP Conn_WallPlug
 D 3-pin general wall plug, no Earth wire (110VAC, 220VAC)
 K wall plug 110VAC 220VAC
@@ -1104,6 +1128,12 @@ K connector IEEE1394a FireWire
 F ~
 $ENDCMP
 #
+$CMP JK0654219
+D  1 Port RJ45 Magjack Connector Through Hole 10/100/1000 Base-T, AutoMDIX
+K 8P8C RJ female connector
+F https://media.digikey.com/pdf/Data%20Sheets/Pulse%20PDFs/JK%20Series.pdf
+$ENDCMP
+#
 $CMP Jack-DC
 D DC Barrel Jack
 K DC power barrel jack connector
@@ -1198,6 +1228,12 @@ $CMP Mini-DIN-8
 D 8-pin Mini-DIN connector
 K Mini-DIN
 F http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf
+$ENDCMP
+#
+$CMP Pulse_JXD6-0001NL
+D LAN Transformer Jack, RJ45, 10/100 BaseT
+K lan jack transformer
+F https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/JXD6-0001NL/doc_part/JXD6-0001NL.pdf
 $ENDCMP
 #
 $CMP RJ10
@@ -1384,6 +1420,12 @@ $CMP RJ45
 D RJ connector, 8P8C (8 positions 8 connected)
 K 8P8C RJ female connector
 F ~
+$ENDCMP
+#
+$CMP RJ45_Abracon_ARJP11A-MASA-B-A-EMU2
+D RJ45 PoE 10/100 Base-TX Jack with Magnetic Module
+K single port ethernet transformer poe center-tap
+F https://abracon.com/Magnetics/lan/ARJP11A.PDF
 $ENDCMP
 #
 $CMP RJ45_Amphenol_RJMG1BD3B8K1ANR
@@ -1666,6 +1708,24 @@ $CMP TestPoint_Probe
 D test point (alternative probe-style design)
 K test point tp
 F ~
+$ENDCMP
+#
+$CMP TestPoint_Small
+D test point
+K test point tp
+F ~
+$ENDCMP
+#
+$CMP UEXT_Host
+D Universal EXTension (UEXT) is a connector layout which includes power and three serial buses: Asynchronous, I2C, and SPI
+K UEXT, SPI, UART, I2C
+F https://www.olimex.com/Products/Modules/UEXT/resources/UEXT_rev_B.pdf
+$ENDCMP
+#
+$CMP UEXT_Slave
+D Universal EXTension (UEXT) is a connector layout which includes power and three serial buses: Asynchronous, I2C, and SPI
+K UEXT, SPI, UART, I2C
+F https://www.olimex.com/Products/Modules/UEXT/resources/UEXT_rev_B.pdf
 $ENDCMP
 #
 $CMP USB3_A

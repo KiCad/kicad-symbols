@@ -13,37 +13,37 @@ F http://www.ti.com/lit/ds/symlink/dp83848c.pdf
 $ENDCMP
 #
 $CMP ENC28J60x-ML
-D ENC28J60 Single Chip Ethernet Interface,QFN
+D ENC28J60 Single Chip Ethernet Interface,QFN-28
 K ENC Ethernet
 F http://ww1.microchip.com/downloads/en/devicedoc/39662e.pdf
 $ENDCMP
 #
 $CMP ENC28J60x-SO
-D ENC28J60 Single Chip Ethernet Interface,SOIC
+D ENC28J60 Single Chip Ethernet Interface, SOIC-28
 K ENC Ethernet
 F http://ww1.microchip.com/downloads/en/devicedoc/39662e.pdf
 $ENDCMP
 #
 $CMP ENC28J60x-SP
-D ENC28J60 Single Chip Ethernet Interface,SPDIP
+D ENC28J60 Single Chip Ethernet Interface, DIP-28
 K ENC Ethernet
 F http://ww1.microchip.com/downloads/en/devicedoc/39662e.pdf
 $ENDCMP
 #
 $CMP ENC28J60x-SS
-D ENC28J60 Single Chip Ethernet Interface,SSOP
+D ENC28J60 Single Chip Ethernet Interface, SSOP-28
 K ENC Ethernet
 F http://ww1.microchip.com/downloads/en/devicedoc/39662e.pdf
 $ENDCMP
 #
 $CMP ENC424J600-ML
-D Stand-Alone 10/100 Ethernet Controller with SPI or Parallel Interface, QFN Package
+D Stand-Alone 10/100 Ethernet Controller with SPI or Parallel Interface, QFN-44
 K ENC Ethernet
 F http://ww1.microchip.com/downloads/en/DeviceDoc/39935c.pdf
 $ENDCMP
 #
 $CMP ENC424J600-PT
-D Stand-Alone 10/100 Ethernet Controller with SPI or Parallel Interface, TQFP Package
+D Stand-Alone 10/100 Ethernet Controller with SPI or Parallel Interface, TQFP-44
 K ENC Ethernet
 F http://ww1.microchip.com/downloads/en/DeviceDoc/39935c.pdf
 $ENDCMP
@@ -61,9 +61,15 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/00002199A.pdf
 $ENDCMP
 #
 $CMP KSZ9031RNXCA
-D 10/100/1000Mbps Ethernet Transciever with RGMII Interface
+D 10/100/1000Mbps Ethernet Transciever with RGMII Interface, QFN-48
 K ETHERNET PHY RGMII WOL IEEE 802.3 MICROCHIP
 F http://ww1.microchip.com/downloads/en/DeviceDoc/00002117C.pdf
+$ENDCMP
+#
+$CMP KSZ9563RNX
+D 3-Port Gigabit Ethernet Switch with RGMII/MII/RMII Interface and IEEE 1588v2, QFN-64
+K Gigabit Ethernet Switch RGMII MII RMII ieee1588v2
+F http://ww1.microchip.com/downloads/en/DeviceDoc/KSZ9563R-Data-Sheet-DS00002419C.pdf
 $ENDCMP
 #
 $CMP KSZ9893RNX
@@ -73,7 +79,7 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/KSZ9893R-Data-Sheet-DS00002420
 $ENDCMP
 #
 $CMP LAN8720A
-D LAN8720 Ethernet PHY with RMII interface
+D LAN8720 Ethernet PHY with RMII interface, QFN-24
 K ETH PHY RMII
 F http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf
 $ENDCMP
