@@ -635,6 +635,11 @@ K gbit base-t lvds lvpecl video
 F http://www.ti.com/lit/ds/symlink/ts3l501e.pdf
 $ENDCMP
 #
+$CMP TS3DS10224
+D High-Speed Differential Crosspoint, 1:4 Differential Multiplexer and Demultiplexer, 2 Channel Differential 1:2 Multiplexer and Demultiplexer, or Fan-Out Switch
+F http://www.ti.com/lit/ds/symlink/ts3ds10224.pdf
+$ENDCMP
+#
 $CMP TS5A3159ADBVR
 D Single SPDT Analog Switch, 1.65-V to 5.5-V Single-Supply Operation, 1Ohm Ron, SOT-23-6
 K Analog Switch
