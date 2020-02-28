@@ -90,6 +90,12 @@ K RF Radio ESP Espressif
 F https://www.espressif.com/sites/default/files/documentation/0c-esp-wroom-02_datasheet_en.pdf
 $ENDCMP
 #
+$CMP ESP32-PICO-D4
+D RF Module, ESP32 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, QFN-48
+K RF Radio BT ESP ESP32 Espressif external antenna
+F https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf
+$ENDCMP
+#
 $CMP ESP32-WROOM-32
 D RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD
 K RF Radio BT ESP ESP32 Espressif onboard PCB antenna

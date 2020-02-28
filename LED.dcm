@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP APA-106-F5
+D RGB LED with integrated controller, 5mm Package
+K RGB LED addressable 8bit pwm 5bit greyscale
+F https://cdn.sparkfun.com/datasheets/Components/LED/COM-12877.pdf
+$ENDCMP
+#
 $CMP APA102
 D RGB LED with integrated controller
 K RGB LED addressable 8bit pwm 5bit greyscale
