@@ -87,6 +87,24 @@ K RS485 Transciever, RS422 Transciever, Isopower
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM2682E_2687E.pdf
 $ENDCMP
 #
+$CMP ADM3488ExR
+D RS-485, RS-422 full duplex 250 kbps transceiver, SOIC-8
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3483E_3486E_3488E_3490E_3491E.pdf
+$ENDCMP
+#
+$CMP ADM3490ExR
+D RS-485, RS-422 full duplex 12 Mbps transceiver, SOIC-8
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3483E_3486E_3488E_3490E_3491E.pdf
+$ENDCMP
+#
+$CMP ADM3491ExR
+D RS-485, RS-422 full duplex 12 Mbps transceiver, SOIC-14
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3483E_3486E_3488E_3490E_3491E.pdf
+$ENDCMP
+#
 $CMP GD65232DB
 D Multiple RS-232 Driver and Receiver, SSOP-20
 K RS232 UART Driver Receiver Interface
@@ -165,6 +183,180 @@ K rs232 uart transceiver
 F https://www.analog.com/media/en/technical-documentation/data-sheets/10801fe.pdf
 $ENDCMP
 #
+$CMP LT1785AxN8
+D RS-485, RS-422 Half duplex 250kbps transceiver, fail-safe receiver, DIP-8
+K RS485 RS422 transceiver half duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1785-1785A-1791-1791A.pdf
+$ENDCMP
+#
+$CMP LT1785AxS8
+D RS-485, RS-422 Half duplex 250kbps transceiver, fail-safe receiver, SOIC-8
+K RS485 RS422 transceiver half duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1785-1785A-1791-1791A.pdf
+$ENDCMP
+#
+$CMP LT1785xN8
+D RS-485, RS-422 Half duplex 250kbps transceiver, DIP-8
+K RS485 RS422 transceiver half duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1785-1785A-1791-1791A.pdf
+$ENDCMP
+#
+$CMP LT1785xS8
+D RS-485, RS-422 Half duplex 250kbps transceiver, SOIC-8
+K RS485 RS422 transceiver half duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1785-1785A-1791-1791A.pdf
+$ENDCMP
+#
+$CMP LT1791AxN8
+D RS-485, RS-422 Full duplex 250kbps transceiver, fail-safe receiver, DIP-14
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1785-1785A-1791-1791A.pdf
+$ENDCMP
+#
+$CMP LT1791AxS
+D RS-485, RS-422 Full duplex 250kbps transceiver, fail-safe receiver, SOIC-14
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1785-1785A-1791-1791A.pdf
+$ENDCMP
+#
+$CMP LT1791xN8
+D RS-485, RS-422 Full duplex 250kbps transceiver, DIP-14
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf
+$ENDCMP
+#
+$CMP LT1791xS
+D RS-485, RS-422 Full duplex 250kbps transceiver, SOIC-14
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1785-1785A-1791-1791A.pdf
+$ENDCMP
+#
+$CMP LTC2850xDD
+D RS-485, RS-422 Half duplex 20Mbps transceiver, DFN-8
+K RS485 RS422 transceiver half duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf
+$ENDCMP
+#
+$CMP LTC2850xMS8
+D RS-485, RS-422 Half duplex 20Mbps transceiver, MSOP-8
+K RS485 RS422 transceiver half duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf
+$ENDCMP
+#
+$CMP LTC2850xS8
+D RS-485, RS-422 Half duplex 20Mbps transceiver, SOIC-8
+K RS485 RS422 transceiver half duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf
+$ENDCMP
+#
+$CMP LTC2851xDD
+D RS-485, RS-422 Full duplex 20Mbps transceiver, DFN-8
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf
+$ENDCMP
+#
+$CMP LTC2851xMS8
+D RS-485, RS-422 Full duplex 20Mbps transceiver, MSOP-8
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf
+$ENDCMP
+#
+$CMP LTC2851xS8
+D RS-485, RS-422 Full duplex 20Mbps transceiver, SOIC-8
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf
+$ENDCMP
+#
+$CMP LTC2852xDD
+D RS-485, RS-422 Full duplex 20Mbps transceiver, DFN-10
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf
+$ENDCMP
+#
+$CMP LTC2852xMS
+D RS-485, RS-422 Full duplex 20Mbps transceiver, MSOP-10
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf
+$ENDCMP
+#
+$CMP LTC2852xS
+D RS-485, RS-422 Full duplex 20Mbps transceiver, SOIC-14
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf
+$ENDCMP
+#
+$CMP LTC2856xDD-1
+D RS-485, RS-422 Half duplex 20Mbps transceiver, DFN-8
+K RS485 RS422 transceiver half duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285678fg.pdf
+$ENDCMP
+#
+$CMP LTC2856xDD-2
+D RS-485, RS-422 Half duplex 250kbps transceiver, DFN-8
+K RS485 RS422 transceiver half duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285678fg.pdf
+$ENDCMP
+#
+$CMP LTC2856xMS8-1
+D RS-485, RS-422 Half duplex 20Mbps transceiver, MSOP-8
+K RS485 RS422 transceiver half duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285678fg.pdf
+$ENDCMP
+#
+$CMP LTC2856xMS8-2
+D RS-485, RS-422 Half duplex 250kbps transceiver, MSOP-8
+K RS485 RS422 transceiver half duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285678fg.pdf
+$ENDCMP
+#
+$CMP LTC2857xDD-1
+D RS-485, RS-422 Full duplex 250kbps transceiver, DFN-8
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285678fg.pdf
+$ENDCMP
+#
+$CMP LTC2857xDD-2
+D RS-485, RS-422 Full duplex 250kbps transceiver, DFN-8
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf
+$ENDCMP
+#
+$CMP LTC2857xMS8-1
+D RS-485, RS-422 Full duplex 20Mbps transceiver, MSOP-8
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285678fg.pdf
+$ENDCMP
+#
+$CMP LTC2857xMS8-2
+D RS-485, RS-422 Full duplex 250kbps transceiver, MSOP-8
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285678fg.pdf
+$ENDCMP
+#
+$CMP LTC2858xDD-1
+D RS-485, RS-422 Full duplex 20Mbps transceiver, DFN-10
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285678fg.pdf
+$ENDCMP
+#
+$CMP LTC2858xDD-2
+D RS-485, RS-422 Full duplex 250kbps transceiver, DFN-10
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285678fg.pdf
+$ENDCMP
+#
+$CMP LTC2858xMS-1
+D RS-485, RS-422 Full duplex 20Mbps transceiver, MSOP-10
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285678fg.pdf
+$ENDCMP
+#
+$CMP LTC2858xMS-2
+D RS-485, RS-422 Full duplex 250kbps transceiver, MSOP-10
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285678fg.pdf
+$ENDCMP
+#
 $CMP LTC2861
 D 20Mbps RS485 transceiver with tntegrated switchable termination
 K RS485
@@ -199,6 +391,12 @@ $CMP MAX14783ExS
 D High-Speed 3.3V/5V RS-485/RS-422 Transceiver with ±35kV HBM ESD Protection, SOIC8
 K High-Speed 3.3V/5V RS-485/RS-422 Transceiver ESD 42Mbps
 F https://datasheets.maximintegrated.com/en/ds/MAX14783E.pdf
+$ENDCMP
+#
+$CMP MAX14830
+D Quad UART with I2C/SPI interface, 128 Word FIFOs, IrDA SIR built-in support, TQFN-48
+K UART I2C/SPI 128W FIFO IrDA SIR
+F https://datasheets.maximintegrated.com/en/ds/MAX14830.pdf
 $ENDCMP
 #
 $CMP MAX1487E

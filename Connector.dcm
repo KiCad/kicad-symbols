@@ -96,6 +96,18 @@ K 8P8C RJ female connector
 F ~
 $ENDCMP
 #
+$CMP ATX-20
+D ATX Power supply 20pins
+K ATX PSU
+F https://web.aub.edu.lb/pub/docs/atx_201.pdf#page=20
+$ENDCMP
+#
+$CMP ATX-24
+D ATX Power supply 24pins
+K ATX PSU
+F https://www.intel.com/content/dam/www/public/us/en/documents/guides/power-supply-design-guide-june.pdf#page=33
+$ENDCMP
+#
 $CMP AVR-ISP-10
 D Atmel 10-pin ISP connector
 K AVR ISP Connector
@@ -1694,6 +1706,12 @@ $ENDCMP
 #
 $CMP TestPoint_Probe
 D test point (alternative probe-style design)
+K test point tp
+F ~
+$ENDCMP
+#
+$CMP TestPoint_Small
+D test point
 K test point tp
 F ~
 $ENDCMP
