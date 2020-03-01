@@ -300,6 +300,12 @@ K DC power barrel jack connector
 F ~
 $ENDCMP
 #
+$CMP Barrel_Jack_Switch_Pin3Ring
+D DC Barrel Jack with an internal switch
+K DC power barrel jack connector
+F ~
+$ENDCMP
+#
 $CMP Bus_ISA_16bit
 D 16-bit ISA-AT bus connector
 K ISA
