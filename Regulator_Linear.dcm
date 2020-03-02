@@ -6486,6 +6486,12 @@ K linear regulator adjustable wide vin
 F http://www.ti.com/lit/ds/sbvs171f/sbvs171f.pdf
 $ENDCMP
 #
+$CMP TPS7A16xxDGNx
+D 100mA, Low-Dropout Voltage Regulator, 60V Input Voltage, Adjustable Output, 8-HVSSOP
+K linear regulator adjustable wide vin
+F http://www.ti.com/lit/ds/sbvs171f/sbvs171f.pdf
+$ENDCMP
+#
 $CMP TPS7A7001DDA
 D 2A, Low-Dropout Voltage Regulator, 1.425-6.5V Input, Adjustable Min 0.5V Output, PowerPad SO-8
 K ldo regulator voltage linear
