@@ -2454,37 +2454,37 @@ K dc-dc murata Step-Down DC/DC-Regulator
 F https://power.murata.com/data/power/oki-78sr.pdf
 $ENDCMP
 #
-$CMP PTN78000H
+$CMP PTN78000H_EUS-5
 D 1.5A non-isolated switching regulator power module, 7-36V input voltage, 11.85-22V output voltage, DIP
 K texas dc-dc converter step down buck
 F https://www.ti.com/lit/ds/symlink/ptn78000w.pdf
 $ENDCMP
 #
-$CMP PTN78000W
+$CMP PTN78000W_EUS-5
 D 1.5A non-isolated switching regulator power module, 7-36V input voltage, 2.5-12.6V output voltage, DIP
 K texas dc-dc converter step down buck
 F https://www.ti.com/lit/ds/symlink/ptn78000w.pdf
 $ENDCMP
 #
-$CMP PTN78020H
+$CMP PTN78020H_EUK-7
 D 6A non-isolated switching regulator power module, 7-36V input voltage, 11.85-22V output voltage, DIP
 K texas dc-dc converter step down buck
 F https://www.ti.com/lit/ds/symlink/ptn78020w.pdf
 $ENDCMP
 #
-$CMP PTN78020W
+$CMP PTN78020W_EUK-7
 D 6A non-isolated switching regulator power module, 7-36V input voltage, 2.5-12.6V output voltage, DIP
 K texas dc-dc converter step down buck
 F https://www.ti.com/lit/ds/symlink/ptn78020w.pdf
 $ENDCMP
 #
-$CMP PTN78060H
+$CMP PTN78060H_EUW-7
 D 3A non-isolated switching regulator power module, 7-36V input voltage, 11.85-22V output voltage, DIP
 K texas dc-dc converter step down buck
 F https://www.ti.com/lit/ds/symlink/ptn78060w.pdf
 $ENDCMP
 #
-$CMP PTN78060W
+$CMP PTN78060W_EUW-7
 D 3A non-isolated switching regulator power module, 7-36V input voltage, 2.5-12.6V output voltage, DIP
 K texas dc-dc converter step down buck
 F https://www.ti.com/lit/ds/symlink/ptn78060w.pdf
