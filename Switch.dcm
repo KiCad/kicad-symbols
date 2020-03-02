@@ -228,6 +228,60 @@ K switch normally-open pushbutton push-button Lamp
 F ~
 $ENDCMP
 #
+$CMP SW_Push_NC
+D Push button switch, normally closed, generic, two pins
+K switch normally-closed pushbutton push-button
+F ~
+$ENDCMP
+#
+$CMP SW_Push_NC_Dual
+D Push button switch, normally closed, generic, four pins
+K switch normally-closed pushbutton push-button
+F ~
+$ENDCMP
+#
+$CMP SW_Push_NC_Dual_x2
+D Push button switch, normally closed, generic, separate symbols, four pins
+K switch normally-closed pushbutton push-button
+F ~
+$ENDCMP
+#
+$CMP SW_Push_NO
+D Push button switch, normally open, generic, two pins
+K switch normally-open pushbutton push-button
+F ~
+$ENDCMP
+#
+$CMP SW_Push_NO_45deg
+D Push button switch, normally open, generic, two pins, 45° tilted
+K switch normally-open pushbutton push-button
+F ~
+$ENDCMP
+#
+$CMP SW_Push_NO_Dual
+D Push button switch, normally open, generic, four pins
+K switch normally-open pushbutton push-button
+F ~
+$ENDCMP
+#
+$CMP SW_Push_NO_Dual_x2
+D Push button switch, normally open, generic, separate symbols, four pins
+K switch normally-open pushbutton push-button
+F ~
+$ENDCMP
+#
+$CMP SW_Push_NO_LED
+D Push button switch with LED, normally open, generic
+K switch normally-open pushbutton push-button LED
+F ~
+$ENDCMP
+#
+$CMP SW_Push_NO_Lamp
+D Push button switch with Signal Lamp, normally open, generic
+K switch normally-open pushbutton push-button Lamp
+F ~
+$ENDCMP
+#
 $CMP SW_Push_Open
 D Push button switch, push-to-open, generic, two pins
 K switch normally-closed pushbutton push-button
