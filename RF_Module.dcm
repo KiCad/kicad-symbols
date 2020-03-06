@@ -114,6 +114,12 @@ K RF Radio BT ESP ESP32 Espressif external U.FL antenna
 F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
 $ENDCMP
 #
+$CMP Jadak_Thingmagic_M6e-Nano
+D RFID UHF module, 1 antenna port, 27dBm, edge pin connections
+K RFID UHF Jadak Thingmagic M6e Nano
+F https://www.jadaktech.com/resources/rfid-document-library/thingmagic-nano-uhf-rain-rfid-module-user-guide/?download
+$ENDCMP
+#
 $CMP MM002
 D NEMEUS Modem dual-mode LoRa/SIGFOX
 K IOT LoRa SIGFOX
