@@ -1645,8 +1645,14 @@ F http://www.ti.com/lit/ds/symlink/lmr16006y-q1.pdf
 $ENDCMP
 #
 $CMP LMR33640ADDAR
-D Simple Switcher Buck Regulator, Vin=3.8-36V, Iout=4A, Adjustable output voltage, HSOIC package
-K simple-switcher buck step-down voltage-regulator
+D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=4A, F=400kHz, Adjustable output voltage
+K simple-switcher synchronous buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr33640.pdf
+$ENDCMP
+#
+$CMP LMR33640DDDAR
+D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=4A, F=1000kHz, Adjustable output voltage
+K simple-switcher synchronous buck step-down voltage-regulator
 F http://www.ti.com/lit/ds/symlink/lmr33640.pdf
 $ENDCMP
 #
