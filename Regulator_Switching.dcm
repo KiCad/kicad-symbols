@@ -1644,6 +1644,12 @@ K simple-switcher buck step-down voltage-regulator
 F http://www.ti.com/lit/ds/symlink/lmr16006y-q1.pdf
 $ENDCMP
 #
+$CMP LMR33640ADDAR
+D Simple Switcher Buck Regulator, Vin=3.8-36V, Iout=4A, Adjustable output voltage, HSOIC package
+K simple-switcher buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr33640.pdf
+$ENDCMP
+#
 $CMP LMR62014XMF
 D 1.4A, 20Vout Step-Up Voltage Regulator, 1.6MHz Frequency, SOT-23-5
 K Miniature Step-Up Boost Voltage Regulator
