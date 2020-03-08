@@ -2598,6 +2598,18 @@ K Synchronous Step-Down Regulator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1878f.pdf
 $ENDCMP
 #
+$CMP LTC3105xDD
+D 400mA Step-Up DC/DC Converter with Maximum Power Point Control and 250mV Start-Up, DFN-10
+K Solar MPPT Maximum Power Point Control Converter Step-Up
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3105fb.pdf
+$ENDCMP
+#
+$CMP LTC3105xMS
+D 400mA Step-Up DC/DC Converter with Maximum Power Point Control and 250mV Start-Up, MSOP-12
+K Solar MPPT Maximum Power Point Control Converter Step-Up
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3105fb.pdf
+$ENDCMP
+#
 $CMP LTC3406AES5
 D 600mA Synchronous Step-Down Regulator, 1.5MHz, Fixed 1.2V Output Voltage, Low Ripple Burst Mode, ThinSOT-23
 K Regulator step-down
