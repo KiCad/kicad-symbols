@@ -611,6 +611,60 @@ K MAXIM ADC 5V 8-Bit SPI QSPI MICROWIRE
 F http://datasheets.maximintegrated.com/en/ds/MAX1112-MAX1113.pdf
 $ENDCMP
 #
+$CMP MAX11120xTI
+D 4-Channel 8-Bit 1.5MHz Full-Linear Bandwidth External Reference High-Speed Low-Power ADC, QFN-28
+K MAXIM ADC 3.3V 8-Bit SPI
+F https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf
+$ENDCMP
+#
+$CMP MAX11121xTI
+D 4-Channel 10-Bit 1.5MHz Full-Linear Bandwidth External Reference High-Speed Low-Power ADC, QFN-28
+K MAXIM ADC 3.3V 10-Bit SPI
+F https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf
+$ENDCMP
+#
+$CMP MAX11122xTI
+D 4-Channel 12-Bit 1.5MHz Full-Linear Bandwidth External Reference High-Speed Low-Power ADC, QFN-28
+K MAXIM ADC 3.3V 12-Bit SPI
+F https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf
+$ENDCMP
+#
+$CMP MAX11123xTI
+D 8-Channel 8-Bit 1.5MHz Full-Linear Bandwidth External Reference High-Speed Low-Power ADC, QFN-28
+K MAXIM ADC 3.3V 8-Bit SPI
+F https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf
+$ENDCMP
+#
+$CMP MAX11124xTI
+D 8-Channel 10-Bit 1.5MHz Full-Linear Bandwidth External Reference High-Speed Low-Power ADC, QFN-28
+K MAXIM ADC 3.3V 10-Bit SPI
+F https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf
+$ENDCMP
+#
+$CMP MAX11125xTI
+D 8-Channel 12-Bit 1.5MHz Full-Linear Bandwidth External Reference High-Speed Low-Power ADC, QFN-28
+K MAXIM ADC 3.3V 12-Bit SPI
+F https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf
+$ENDCMP
+#
+$CMP MAX11126xTI
+D 16-Channel 8-Bit 1.5MHz Full-Linear Bandwidth External Reference High-Speed Low-Power ADC, QFN-28
+K MAXIM ADC 3.3V 8-Bit SPI
+F https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf
+$ENDCMP
+#
+$CMP MAX11127xTI
+D 16-Channel 10-Bit 1.5MHz Full-Linear Bandwidth External Reference High-Speed Low-Power ADC, QFN-28
+K MAXIM ADC 3.3V 10-Bit SPI
+F https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf
+$ENDCMP
+#
+$CMP MAX11128xTI
+D 16-Channel 12-Bit 1.5MHz Full-Linear Bandwidth External Reference High-Speed Low-Power ADC, QFN-28
+K MAXIM ADC 3.3V 12-Bit SPI
+F https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf
+$ENDCMP
+#
 $CMP MAX1113
 D 4-Channel Single-Ended or 2-Channel Differential 8-Bit ADC, QSOP-16
 K MAXIM ADC 5V 8-Bit SPI QSPI MICROWIRE
