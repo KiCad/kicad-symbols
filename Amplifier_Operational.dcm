@@ -534,6 +534,12 @@ K quad opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/60812fd.pdf
 $ENDCMP
 #
+$CMP LTC6253xMS8
+D 720MHz, 3.5mA Power Efficient, Rail-to-Rail Op Amp, MSOP-8
+K dual opamp low-power
+F https://www.analog.com/media/en/technical-documentation/data-sheets/625234fc.pdf
+$ENDCMP
+#
 $CMP LTC6362xDD
 D Precision, Low Power, Rail-to-Rail Input/Output, Differential Op Amp/SAR ADC Driver, DFN-8
 K single differential opamp
