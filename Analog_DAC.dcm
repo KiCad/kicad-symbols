@@ -522,6 +522,12 @@ K 8 bit multiplying DAC
 F http://www.pinballpcb.com/datasheets/OnMC1408-dac.pdf
 $ENDCMP
 #
+$CMP MCP4725xxx-xCH
+D 12-bit Digital-to-Analog Converter, integrated EEPROM, I2C interface, SOT-23-6
+K dac twi
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf
+$ENDCMP
+#
 $CMP MCP4728
 D 12-bit digital to analog converter, quad output, 2.048V internal reference, integrated EEPROM, I2C interface
 K dac i2c
