@@ -378,6 +378,30 @@ K battery charger
 F https://datasheets.maximintegrated.com/en/ds/MAX1647-MAX1648.pdf
 $ENDCMP
 #
+$CMP MAX17043G
+D Host-Side 2-cell Li Ion/Polymer Fuel Gauge, TDFN-8
+K fuel gauge gas lipo
+F https://datasheets.maximintegrated.com/en/ds/MAX17043-MAX17044.pdf
+$ENDCMP
+#
+$CMP MAX17043X
+D Host-Side 1-cell Li Ion/Polymer Fuel Gauge, TDFN-8
+K fuel gauge gas lipo
+F https://datasheets.maximintegrated.com/en/ds/MAX17043-MAX17044.pdf
+$ENDCMP
+#
+$CMP MAX17044G
+D Host-Side 2-cell Li Ion/Polymer Fuel Gauge, TDFN-8
+K fuel gauge gas lipo
+F https://datasheets.maximintegrated.com/en/ds/MAX17043-MAX17044.pdf
+$ENDCMP
+#
+$CMP MAX17044X
+D Host-Side 2-cell Li Ion/Polymer Fuel Gauge, TDFN-8
+K fuel gauge gas lipo
+F https://datasheets.maximintegrated.com/en/ds/MAX17043-MAX17044.pdf
+$ENDCMP
+#
 $CMP MAX1811
 D USB Powered Li+ Charger, 4.1V/4.2V battery, 5V input, 0.1/0.5A charging current
 K USB Battery Charger
