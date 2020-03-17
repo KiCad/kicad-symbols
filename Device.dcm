@@ -1026,7 +1026,19 @@ K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
+$CMP L_Core_Ferrite_Coupled_13_24
+D Coupled inductor with ferrite core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
 $CMP L_Core_Ferrite_Coupled_Small
+D Coupled inductor with ferrite core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Ferrite_Coupled_Small_13_24
 D Coupled inductor with ferrite core, small symbol
 K inductor choke coil reactor magnetic coupled
 F ~
