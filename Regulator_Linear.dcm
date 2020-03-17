@@ -6972,6 +6972,18 @@ K linear low dropout Regulator fixed
 F http://www.ti.com/lit/ds/symlink/tps722.pdf
 $ENDCMP
 #
+$CMP TPS73018DBV
+D Low Noise, High PSRR, 200mA Low Drop 1.8V Regulator, SOT-23-5
+K Fixed LDO 200mA
+F https://www.ti.com/lit/ds/symlink/tps730.pdf
+$ENDCMP
+#
+$CMP TPS730285DBV
+D Low Noise, High PSRR, 200mA Low Drop 2.85V Regulator, SOT-23-5
+K Fixed LDO 200mA
+F https://www.ti.com/lit/ds/symlink/tps730.pdf
+$ENDCMP
+#
 $CMP TPS73101DBV
 D Cap free NMOS 150mA Low Drop Adjustable Out Regulator, SOT-23-5
 K Cap free Adjustable LDO 150mA
