@@ -588,6 +588,12 @@ K dual schottky diode
 F https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf
 $ENDCMP
 #
+$CMP BAT54J
+D 30V 200mA Schottky diode, SOD-323F
+K diode Schottky
+F https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf
+$ENDCMP
+#
 $CMP BAT54S
 D schottky barrier diode
 K schottky diode
