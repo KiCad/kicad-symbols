@@ -54,6 +54,12 @@ K high-side gate driver
 F https://www.fairchildsemi.com/datasheets/FA/FAN7371.pdf
 $ENDCMP
 #
+$CMP FAN7388
+D 3 Half-Bridge Gate-Drive IC, 600V operation, Output Current 350/650mA, SOIC-20
+K 3 Phase Gate Driver
+F https://www.onsemi.com/pub/Collateral/FAN7388-D.pdf
+$ENDCMP
+#
 $CMP FAN7842
 D High and Low Side Gate Driver, 200V operation, Output Current 350/650mA, SOIC-8
 K Gate Driver
