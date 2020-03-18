@@ -168,6 +168,18 @@ K I2C Expander
 F http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf
 $ENDCMP
 #
+$CMP PCF8574ATS
+D 8 Bit Port/Expander to I2C Bus, SSOP-20
+K I2C Expander
+F http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf
+$ENDCMP
+#
+$CMP PCF8574TS
+D 8 Bit Port/Expander to I2C Bus, SSOP-20
+K I2C Expander
+F http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf
+$ENDCMP
+#
 $CMP PCF8584
 D I2C Bus Controller, DIP/SOIC-20
 K I2C Bus
