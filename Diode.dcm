@@ -1890,6 +1890,48 @@ K diode
 F http://www.vishay.com/docs/88756/uf5400.pdf
 $ENDCMP
 #
+$CMP US1A
+D 50V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.diodes.com/assets/Datasheets/ds16008.pdf
+$ENDCMP
+#
+$CMP US1B
+D 100V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.diodes.com/assets/Datasheets/ds16008.pdf
+$ENDCMP
+#
+$CMP US1D
+D 200V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.diodes.com/assets/Datasheets/ds16008.pdf
+$ENDCMP
+#
+$CMP US1G
+D 400V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.diodes.com/assets/Datasheets/ds16008.pdf
+$ENDCMP
+#
+$CMP US1J
+D 600V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.diodes.com/assets/Datasheets/ds16008.pdf
+$ENDCMP
+#
+$CMP US1K
+D 800V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.diodes.com/assets/Datasheets/ds16008.pdf
+$ENDCMP
+#
+$CMP US1M
+D 1000V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.diodes.com/assets/Datasheets/ds16008.pdf
+$ENDCMP
+#
 $CMP VS-6ESU06
 D 600V 6.0A Ultrafast Rectifier, TO-277A
 K diode fred
