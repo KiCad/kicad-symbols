@@ -180,6 +180,18 @@ K single jfet opamp
 F http://www.ti.com/lit/ds/symlink/lf357.pdf
 $ENDCMP
 #
+$CMP LF351D
+D Wide bandwidth single JFET operational amplifier, SOIC-8
+K Single OpAmp JFET
+F https://www.st.com/resource/en/datasheet/lf351.pdf
+$ENDCMP
+#
+$CMP LF351N
+D Wide bandwidth single JFET operational amplifier, DIP-8
+K Single OpAmp JFET
+F https://www.st.com/resource/en/datasheet/lf351.pdf
+$ENDCMP
+#
 $CMP LF355
 D Single JFET Input Operational Amplifiers, DIP-8/SOIC-8
 K single jfet opamp
