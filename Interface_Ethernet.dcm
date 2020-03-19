@@ -84,12 +84,6 @@ K USB Ethernet 10/100/1000
 F http://ww1.microchip.com/downloads/en/DeviceDoc/00001734B.pdf
 $ENDCMP
 #
-$CMP LAN7500i
-D Hi-Speed USB 2.0 to 10/100/1000 Ethernet Controller
-K USB Ethernet 10/100/1000
-F http://ww1.microchip.com/downloads/en/DeviceDoc/00001734B.pdf
-$ENDCMP
-#
 $CMP LAN8720A
 D LAN8720 Ethernet PHY with RMII interface, QFN-24
 K ETH PHY RMII
