@@ -1656,6 +1656,24 @@ K simple-switcher buck step-down voltage-regulator
 F http://www.ti.com/lit/ds/symlink/lmr16006y-q1.pdf
 $ENDCMP
 #
+$CMP LMR33630ADDA
+D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=3A, F=400kHz, Adjustable output voltage
+K simple-switcher synchronous buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr33630.pdf
+$ENDCMP
+#
+$CMP LMR33630BDDA
+D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=3A, F=1400kHz, Adjustable output voltage
+K simple-switcher synchronous buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr33630.pdf
+$ENDCMP
+#
+$CMP LMR33630CDDA
+D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=3A, F=2100kHz, Adjustable output voltage
+K simple-switcher synchronous buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr33630.pdf
+$ENDCMP
+#
 $CMP LMR33640ADDA
 D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=4A, F=400kHz, Adjustable output voltage
 K simple-switcher synchronous buck step-down voltage-regulator
