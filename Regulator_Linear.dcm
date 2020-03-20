@@ -7423,13 +7423,13 @@ F http://www.ti.com/lit/ds/symlink/tps7a91.pdf
 $ENDCMP
 #
 $CMP TPS7B6933
-D 150-mA,40V max. Input, Ultralow-IQ LDO, 3.3V, SOT-223
+D 150mA, Ultralow-Quiescent-Current Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-223
 K LDO regulator voltage
 F http://www.ti.com/lit/ds/symlink/tps7b69.pdf
 $ENDCMP
 #
 $CMP TPS7B6950
-D 150-mA, 40V max. Input, Ultralow-IQ LDO, 5.0V, SOT-23-5
+D 150mA, Ultralow-Quiescent-Current Low Drop-out Voltage Regulator, Fixed Output 5.0V, SOT-23-5
 K LDO regulator voltage
 F http://www.ti.com/lit/ds/symlink/tps7b69.pdf
 $ENDCMP
