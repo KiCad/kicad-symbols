@@ -366,13 +366,13 @@ K ADC CAN
 $ENDCMP
 #
 $CMP ICL7106CPL
-D 3 1/2 Digit, LCD Display, A/D Converter
+D 3 1/2 Digit, LCD Display, A/D Converter, DIP-40
 K LCD ADC
 F https://www.renesas.com/eu/en/www/doc/datasheet/icl7106-07-07s.pdf
 $ENDCMP
 #
 $CMP ICL7107CPL
-D 3 1/2 Digit, LED Display, A/D Converter
+D 3 1/2 Digit, LED Display, A/D Converter, DIP-40
 K LED ADC
 F https://www.renesas.com/eu/en/www/doc/datasheet/icl7106-07-07s.pdf
 $ENDCMP
