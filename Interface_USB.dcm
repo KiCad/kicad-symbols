@@ -342,25 +342,25 @@ K USB SPI Master Converter Bridge
 F https://ww1.microchip.com/downloads/en/DeviceDoc/22288A.pdf
 $ENDCMP
 #
-$CMP MCP2221Ax-I-ML
+$CMP MCP2221AxML
 D USB to I2C/UART Protocol Converter with GPIO, QFN-16
 K USB I2C UART Converter Bridge
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005565B.pdf
 $ENDCMP
 #
-$CMP MCP2221Ax-I-P
+$CMP MCP2221AxP
 D USB to I2C/UART Protocol Converter with GPIO, DIP-14
 K USB I2C UART Converter Bridge
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005565B.pdf
 $ENDCMP
 #
-$CMP MCP2221Ax-I-SL
+$CMP MCP2221AxSL
 D USB to I2C/UART Protocol Converter with GPIO, SOIC-14
 K USB I2C UART Converter Bridge
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005565B.pdf
 $ENDCMP
 #
-$CMP MCP2221Ax-I-ST
+$CMP MCP2221AxST
 D USB to I2C/UART Protocol Converter with GPIO, TSSOP-14
 K USB I2C UART Converter Bridge
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005565B.pdf
