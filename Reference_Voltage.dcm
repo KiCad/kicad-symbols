@@ -30,6 +30,42 @@ K 5V voltage reference
 F https://www.analog.com/media/en/technical-documentation/data-sheets/adr420_421_423_425.pdf
 $ENDCMP
 #
+$CMP ADR4520
+D 2.048V, Ultralow Noise, High Accuracy Voltage Reference, SOIC-8
+K vref
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADR4520_4525_4530_4533_4540_4550.pdf
+$ENDCMP
+#
+$CMP ADR4525
+D 2.5V, Ultralow Noise, High Accuracy Voltage Reference, SOIC-8
+K vref
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADR4520_4525_4530_4533_4540_4550.pdf
+$ENDCMP
+#
+$CMP ADR4530
+D 3.0V,  Ultralow Noise, High Accuracy Voltage Reference, SOIC-8
+K vref
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADR4520_4525_4530_4533_4540_4550.pdf
+$ENDCMP
+#
+$CMP ADR4533
+D 3.3V,  Ultralow Noise, High Accuracy Voltage Reference, SOIC-8
+K vref
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADR4520_4525_4530_4533_4540_4550.pdf
+$ENDCMP
+#
+$CMP ADR4540
+D 4.096V,  Ultralow Noise, High Accuracy Voltage Reference, SOIC-8
+K vref
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADR4520_4525_4530_4533_4540_4550.pdf
+$ENDCMP
+#
+$CMP ADR4550
+D 5.0V,  Ultralow Noise, High Accuracy Voltage Reference, SOIC-8
+K vref
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADR4520_4525_4530_4533_4540_4550.pdf
+$ENDCMP
+#
 $CMP CJ432
 D Shunt Regulator, SOT-23
 K diode device shunt regulator
@@ -710,37 +746,37 @@ $ENDCMP
 #
 $CMP REF3212AMDBVREP
 D 1.25V 100μA Micropower Precision Voltage Reference, SOT-23-6
-K Micropower Prevision Voltage Reference 1.25V
+K Micropower Precision Voltage Reference 1.25V
 F http://www.ti.com/lit/ds/symlink/ref3240-ep.pdf
 $ENDCMP
 #
 $CMP REF3220AMDBVREP
 D 2.048V 100μA Micropower Precision Voltage Reference, SOT-23-6
-K Micropower Prevision Voltage Reference 2.048V
+K Micropower Precision Voltage Reference 2.048V
 F http://www.ti.com/lit/ds/symlink/ref3240-ep.pdf
 $ENDCMP
 #
 $CMP REF3225AMDBVREP
 D 2.5V 100μA Micropower Precision Voltage Reference, SOT-23-6
-K Micropower Prevision Voltage Reference 2.5V
+K Micropower Precision Voltage Reference 2.5V
 F http://www.ti.com/lit/ds/symlink/ref3240-ep.pdf
 $ENDCMP
 #
 $CMP REF3230AMDBVREP
 D 3V 100μA Micropower Precision Voltage Reference, SOT-23-6
-K Micropower Prevision Voltage Reference 3V
+K Micropower Precision Voltage Reference 3V
 F http://www.ti.com/lit/ds/symlink/ref3240-ep.pdf
 $ENDCMP
 #
 $CMP REF3233AMDBVREP
 D 3.3V 100μA Micropower Precision Voltage Reference, SOT-23-6
-K Micropower Prevision Voltage Reference 3.3V
+K Micropower Precision Voltage Reference 3.3V
 F http://www.ti.com/lit/ds/symlink/ref3240-ep.pdf
 $ENDCMP
 #
 $CMP REF3240AMDBVREP
 D 4.096V 100μA Micropower Precision Voltage Reference, SOT-23-6
-K Micropower Prevision Voltage Reference 4.096V
+K Micropower Precision Voltage Reference 4.096V
 F http://www.ti.com/lit/ds/symlink/ref3240-ep.pdf
 $ENDCMP
 #

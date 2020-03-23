@@ -1602,6 +1602,18 @@ K Buck Boost step-up step-down
 F http://www.ti.com/lit/ds/symlink/lm5175.pdf
 $ENDCMP
 #
+$CMP LM5176PWP
+D 55-V wide Vin synchronous 4-switch Buck-Boost controller, HTSSOP-28 package
+K Buck Boost step-up step-down
+F http://www.ti.com/lit/ds/symlink/lm5176.pdf
+$ENDCMP
+#
+$CMP LM5176RHF
+D 55-V wide Vin synchronous 4-switch Buck-Boost controller, QFN-28 package
+K Buck Boost step-up step-down
+F http://www.ti.com/lit/ds/symlink/lm5176.pdf
+$ENDCMP
+#
 $CMP LMR10510XMF
 D 1A, 5.5V Step-Down Voltage Regulator, 1.6MHz Frequency, SOT-23-5
 K Miniature Step-Down Buck Voltage Regulator
@@ -1642,6 +1654,36 @@ $CMP LMR16006YQ5
 D Simple Switcher Buck Regulator, Vin=4-40V, Iout=600mA, Fixed 5.0V output voltage, SOT-23-6 package
 K simple-switcher buck step-down voltage-regulator
 F http://www.ti.com/lit/ds/symlink/lmr16006y-q1.pdf
+$ENDCMP
+#
+$CMP LMR33630ADDA
+D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=3A, F=400kHz, Adjustable output voltage, HSOP-8
+K simple-switcher synchronous buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr33630.pdf
+$ENDCMP
+#
+$CMP LMR33630BDDA
+D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=3A, F=1400kHz, Adjustable output voltage, HSOP-8
+K simple-switcher synchronous buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr33630.pdf
+$ENDCMP
+#
+$CMP LMR33630CDDA
+D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=3A, F=2100kHz, Adjustable output voltage, HSOP-8
+K simple-switcher synchronous buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr33630.pdf
+$ENDCMP
+#
+$CMP LMR33640ADDA
+D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=4A, F=400kHz, Adjustable output voltage, HSOP-8
+K simple-switcher synchronous buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr33640.pdf
+$ENDCMP
+#
+$CMP LMR33640DDDA
+D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=4A, F=1000kHz, Adjustable output voltage, HSOP-8
+K simple-switcher synchronous buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr33640.pdf
 $ENDCMP
 #
 $CMP LMR62014XMF
@@ -2596,6 +2638,18 @@ $CMP LTC1878EMS8
 D High Efficiency Monolithic Synchronous Step-Down Regulator, MSOP-8
 K Synchronous Step-Down Regulator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1878f.pdf
+$ENDCMP
+#
+$CMP LTC3105xDD
+D 400mA Step-Up DC/DC Converter with Maximum Power Point Control and 250mV Start-Up, DFN-10
+K Solar MPPT Maximum Power Point Control Converter Step-Up
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3105fb.pdf
+$ENDCMP
+#
+$CMP LTC3105xMS
+D 400mA Step-Up DC/DC Converter with Maximum Power Point Control and 250mV Start-Up, MSOP-12
+K Solar MPPT Maximum Power Point Control Converter Step-Up
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3105fb.pdf
 $ENDCMP
 #
 $CMP LTC3406AES5
@@ -3954,6 +4008,114 @@ K DC/DC Buck Conwerter 3A
 F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00285678.pdf
 $ENDCMP
 #
+$CMP TDN_5-0910WISM
+D Input 4.5 to 13.2V, Output 3.3V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-0911WISM
+D Input 4.5 to 13.2V, Output 5.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-0912WISM
+D Input 4.5 to 13.2V, Output 12.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-0913WISM
+D Input 4.5 to 13.2V, Output 15.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-0915WISM
+D Input 4.5 to 13.2V, Output 24.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-0919WISM
+D Input 4.5 to 13.2V, Output 9.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-2410WISM
+D Input 9.0 to 36.0V, Output 3.3V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-2411WISM
+D Input 9.0 to 36.0V, Output 5.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-2412WISM
+D Input 9.0 to 36.0V, Output 12.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-2413WISM
+D Input 9.0 to 36.0V, Output 15.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-2415WISM
+D Input 9.0 to 36.0V, Output 24.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-2419WISM
+D Input 9.0 to 36.0V, Output 9.0V
+K dcdc traco 5WW
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-4810WISM
+D Input 18.0 to 75.0V, Output 3.3V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-4811WISM
+D Input 18.0 to 75.0V, Output 5.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-4812WISM
+D Input 18.0 to 75.0V, Output 12.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-4813WISM
+D Input 18.0 to 75.0V, Output 15.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-4815WISM
+D Input 18.0 to 75.0V, Output 24.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-4819WISM
+D Input 18.0 to 75.0V, Output 9.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
 $CMP TL497
 D 500mA step up/step down/inverting switching voltage regulator, SIP-14/SOIC-14(W)
 K buck regulator
@@ -5238,20 +5400,38 @@ K switching buck converter step-down
 F http://www.ti.com/lit/ds/symlink/tps568215.pdf
 $ENDCMP
 #
+$CMP TPS61040DBV
+D Synchronous Boost Regulator, Adjustable Output up to 28V, 400 mA Switch Current Limit, SOT-23-5
+K Step-Up Boost DC-DC Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/tps61040.pdf
+$ENDCMP
+#
+$CMP TPS61040DDC
+D Synchronous Boost Regulator, Adjustable Output up to 28V, 400 mA Switch Current Limit, SOT-23-5
+K Step-Up Boost DC-DC Regulator Adjustable
+F https://www.ti.com/lit/ds/symlink/tps61040.pdf
+$ENDCMP
+#
+$CMP TPS61040DRV
+D Synchronous Boost Regulator, Adjustable Output up to 28V, 400 mA Switch Current Limit, WSON-6
+K Step-Up Boost DC-DC Regulator Adjustable
+F https://www.ti.com/lit/ds/symlink/tps61040.pdf
+$ENDCMP
+#
 $CMP TPS61041DBV
-D Synchronous Boost Regulator, Adjustable Output up to 28V, SOT-23-5
+D Synchronous Boost Regulator, Adjustable Output up to 28V, 250 mA Switch Current Limit, SOT-23-5
 K Step-Up Boost DC-DC Regulator Adjustable
 F http://www.ti.com/lit/ds/symlink/tps61040.pdf
 $ENDCMP
 #
 $CMP TPS61041DDC
-D Synchronous Boost Regulator, Adjustable Output up to 28V, SOT-23-5
+D Synchronous Boost Regulator, Adjustable Output up to 28V, 250 mA Switch Current Limit, SOT-23-5
 K Step-Up Boost DC-DC Regulator Adjustable
 F http://www.ti.com/lit/ds/symlink/tps61040.pdf
 $ENDCMP
 #
 $CMP TPS61041DRV
-D Synchronous Boost Regulator, Adjustable Output up to 28V, WSON-6
+D Synchronous Boost Regulator, Adjustable Output up to 28V, 250 mA Switch Current Limit, WSON-6
 K Step-Up Boost DC-DC Regulator Adjustable
 F http://www.ti.com/lit/ds/symlink/tps61040.pdf
 $ENDCMP
@@ -5554,6 +5734,18 @@ $CMP TPS63002
 D Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.7A Switch Current, 5V Output Voltage, VSON-10
 K Buck-Boost fixed 5V converter
 F http://www.ti.com/lit/ds/symlink/tps63000.pdf
+$ENDCMP
+#
+$CMP TPS63030DSK
+D Buck-Boost Converter, 1.8-5.5V Input Voltage, 1A Switch Current, Adjustable Output Voltage, VSON-10 (DSK0010A)
+K Buck-Boost adjustable converter
+F http://www.ti.com/lit/ds/symlink/tps63030.pdf
+$ENDCMP
+#
+$CMP TPS63031DSK
+D Buck-Boost Converter, 1.8-5.5V Input Voltage, 1A Switch Current, 3.3V Output Voltage, VSON-10 (DSK0010A)
+K Buck-Boost fixed 3.3V converter
+F http://www.ti.com/lit/ds/symlink/tps63031.pdf
 $ENDCMP
 #
 $CMP TPS63060
