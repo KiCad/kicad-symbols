@@ -1458,6 +1458,12 @@ K Miniature Step-Down Buck Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lm2842-q1.pdf
 $ENDCMP
 #
+$CMP LM3150MH
+D 42-V Wide Vin synchronous Buck controller, HTSSOP-14 package
+K Buck step-down converter
+F http://www.ti.com/lit/ds/symlink/lm3150.pdf
+$ENDCMP
+#
 $CMP LM3407MY
 D LED Lighting CC Floating Buck Switching Regulator, MSOP-8
 K LED Step-Down Switching Regulator
