@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP L86
+D GNSS receiver module with integrated antenna
+K gps GNSS module
+F https://www.quectel.com/UploadImage/Downlad/Quectel_L86_Hardware_Design_V1.2.pdf
+$ENDCMP
+#
 $CMP LEA-M8F
 D GNSS Module LEA M8, VCC 3V to 3.6V
 K ublox GPS GNSS module
