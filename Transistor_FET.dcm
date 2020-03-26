@@ -2407,9 +2407,9 @@ F http://www.jaolen.com/images/pdf/QM6006D.pdf
 $ENDCMP
 #
 $CMP QM6015D
-D 32A Id, 80V Vds, 33 mOhm Ron, PowerPAK-SO-8L
+D -35A Id, -60V Vds, P-Channel Power MOSFET, 25mOhm Ron, 25.0nC Qg (typ), TO252
 K P-Channel MOSFET
-F https://www.vishay.com/docs/75129/sqj479ep.pdf
+F http://www.jaolen.com/images/pdf/QM6015D.pdf
 $ENDCMP
 #
 $CMP SQJ457EP
