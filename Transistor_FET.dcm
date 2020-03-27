@@ -1254,6 +1254,12 @@ K complementary mosfet
 F https://www.diodes.com/assets/Datasheets/DMC2053UVT.pdf
 $ENDCMP
 #
+$CMP DMG1012T
+D 20V Vds, 0.63 Id, N-Channel MOSFET with ESD protection, SOT-523
+K N-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/ds31783.pdf
+$ENDCMP
+#
 $CMP DMG2301L
 D -3A Id, -20V Vds, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET
