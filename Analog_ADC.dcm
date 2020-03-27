@@ -683,6 +683,12 @@ K MAXIM ADC 5V 8-Bit SPI QSPI MICROWIRE
 F http://datasheets.maximintegrated.com/en/ds/MAX1112-MAX1113.pdf
 $ENDCMP
 #
+$CMP MAX1132
+D 16-Bit ADC, 200 ksps, 5V Single-Supply with Reference
+K MAXIM ADC 5V 16-Bit SPI QSPI MICROWIRE UNIPOLAR BIPOLAR
+F https://datasheets.maximintegrated.com/en/ds/MAX1132-MAX1133.pdf
+$ENDCMP
+#
 $CMP MAX11612
 D 4-channel single-ended or 2-channel, differential, 12-bit ADC, I2C, 4.096V internal reference, 8-MSOP package
 K adc i2c 4ch
