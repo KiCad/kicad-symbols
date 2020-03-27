@@ -147,7 +147,7 @@ $ENDCMP
 $CMP LM4810
 D Boomer Dual 105mW Headphone Amplifier with Active-High Shutdown Mode, VSSOP-8
 K audio amplifier headphone
-F http://www.ti.com/lit/ds/symlink/lm4811.pdf
+F http://www.ti.com/lit/ds/symlink/lm4810.pdf
 $ENDCMP
 #
 $CMP LM4811
@@ -190,6 +190,12 @@ $CMP LM4990MM
 D Boomer 2 Watt Audio Power Amplifier with Selectable Shutdown Logic Level, VSSOP-8
 K audio amplifier class d
 F http://www.ti.com/lit/ds/symlink/lm4990.pdf
+$ENDCMP
+#
+$CMP LME49600
+D High-Performance, High-Fidelity, High-Current Headphone Buffer, 250mA, TO-263
+K audio buffer amplifier
+F http://www.ti.com/lit/ds/symlink/lme49600.pdf
 $ENDCMP
 #
 $CMP MAX9715ETE+
@@ -268,6 +274,18 @@ $CMP SSM2167
 D Low Voltage Microphone Preamplifier with Variable Compression and Noise Gating, MSOP-10
 K audio microphone amplifier
 F https://www.analog.com/media/en/technical-documentation/data-sheets/SSM2167.pdf
+$ENDCMP
+#
+$CMP SSM2211CP
+D 1.5W BTL or 250mW SE 4MHz-bandwidth high performance amplifier, LFCSP-8
+K audio amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/SSM2211.pdf
+$ENDCMP
+#
+$CMP SSM2211S
+D 1.5W BTL or 250mW SE 4MHz-bandwidth high performance amplifier, SOIC-8
+K audio amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/SSM2211.pdf
 $ENDCMP
 #
 $CMP STK433_Sanyo
