@@ -451,19 +451,19 @@ F http://pdf.datasheetcatalog.com/datasheet/Sharp/mXvtrzw.pdf
 $ENDCMP
 #
 $CMP LTC-4627JD
-D 4 digit 7 segment red, common anode
+D 4 digit 7 segment hyper red, common anode
 K display LED 7-segment
 F http://optoelectronics.liteon.com/upload/download/DS30-2001-093/LTC-4627JD.pdf
 $ENDCMP
 #
 $CMP LTC-4627JD-01
-D 4 digit 7 segment red, common anode
+D 4 digit 7 segment hyper red, ommon anode
 K display LED 7-segment
 F http://optoelectronics.liteon.com/upload/download/DS30-2008-0116/LTC-4627JD-01.pdf
 $ENDCMP
 #
 $CMP LTC-4627JF
-D 4 digit 7 segment orange, common anode
+D 4 digit 7 segment yellow orange, common anode
 K display LED 7-segment
 F http://optoelectronics.liteon.com/upload/download/DS30-2000-192/C4627JF.pdf
 $ENDCMP
@@ -475,7 +475,7 @@ F http://optoelectronics.liteon.com/upload/download/DS30-2001-393/C4627JG.pdf
 $ENDCMP
 #
 $CMP LTC-4627JR
-D 4 digit 7 segment red, common anode
+D 4 digit 7 segment super red, common anode
 K display LED 7-segment
 F http://optoelectronics.liteon.com/upload/download/DS30-2000-185/LTC-4627JR.pdf
 $ENDCMP
