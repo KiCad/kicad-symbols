@@ -588,6 +588,12 @@ K dual schottky diode
 F https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf
 $ENDCMP
 #
+$CMP BAT54J
+D 30V 200mA Schottky diode, SOD-323F
+K diode Schottky
+F https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf
+$ENDCMP
+#
 $CMP BAT54S
 D schottky barrier diode
 K schottky diode
@@ -1368,6 +1374,18 @@ K zener diode
 F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S36000L_E.pdf
 $ENDCMP
 #
+$CMP ESD9B3.3ST5G
+D ESD protection diode, 3.3Vrwm, SOD-923
+K diode TVS ESD
+F https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF
+$ENDCMP
+#
+$CMP ESD9B5.0ST5G
+D ESD protection diode, 5.0Vrwm, SOD-923
+K diode TVS ESD
+F https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF
+$ENDCMP
+#
 $CMP HN2D02FU
 D Ultra high speed switching diode array 3 independent
 K diode
@@ -1824,6 +1842,12 @@ K diode
 F https://www.st.com/resource/en/datasheet/stth212.pdf
 $ENDCMP
 #
+$CMP SZESD9B5.0ST5G
+D ESD protection diode, 5.0Vrwm, SOD-923
+K diode TVS ESD
+F https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF
+$ENDCMP
+#
 $CMP Toshiba_HN1D01FU
 D Ultra High Speed Switching Diode Array 2 pair Com A
 K diode
@@ -1882,6 +1906,48 @@ $CMP UF5408
 D 1000V 3A Soft Recovery Ultrafast Rectifier Diode, DO-201AD
 K diode
 F http://www.vishay.com/docs/88756/uf5400.pdf
+$ENDCMP
+#
+$CMP US1A
+D 50V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.diodes.com/assets/Datasheets/ds16008.pdf
+$ENDCMP
+#
+$CMP US1B
+D 100V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.diodes.com/assets/Datasheets/ds16008.pdf
+$ENDCMP
+#
+$CMP US1D
+D 200V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.diodes.com/assets/Datasheets/ds16008.pdf
+$ENDCMP
+#
+$CMP US1G
+D 400V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.diodes.com/assets/Datasheets/ds16008.pdf
+$ENDCMP
+#
+$CMP US1J
+D 600V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.diodes.com/assets/Datasheets/ds16008.pdf
+$ENDCMP
+#
+$CMP US1K
+D 800V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.diodes.com/assets/Datasheets/ds16008.pdf
+$ENDCMP
+#
+$CMP US1M
+D 1000V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.diodes.com/assets/Datasheets/ds16008.pdf
 $ENDCMP
 #
 $CMP VS-6ESU06

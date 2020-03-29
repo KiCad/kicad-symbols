@@ -24,6 +24,12 @@ K usb uart wch serial
 F http://www.wch.cn/downloads/file/240.html
 $ENDCMP
 #
+$CMP CH340E
+D USB serial converter, UART, MSOP-10
+K USB UART Serial Converter Interface
+F https://www.mpja.com/download/35227cpdata.pdf
+$ENDCMP
+#
 $CMP CH340G
 D USB serial converter, UART, SOIC-16
 K USB UART Serial Converter Interface
@@ -340,6 +346,30 @@ $CMP MCP2210x-SS
 D USB to SPI Protocol Converter with GPIO, SSOP-20
 K USB SPI Master Converter Bridge
 F https://ww1.microchip.com/downloads/en/DeviceDoc/22288A.pdf
+$ENDCMP
+#
+$CMP MCP2221AxML
+D USB to I2C/UART Protocol Converter with GPIO, QFN-16
+K USB I2C UART Converter Bridge
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005565B.pdf
+$ENDCMP
+#
+$CMP MCP2221AxP
+D USB to I2C/UART Protocol Converter with GPIO, DIP-14
+K USB I2C UART Converter Bridge
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005565B.pdf
+$ENDCMP
+#
+$CMP MCP2221AxSL
+D USB to I2C/UART Protocol Converter with GPIO, SOIC-14
+K USB I2C UART Converter Bridge
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005565B.pdf
+$ENDCMP
+#
+$CMP MCP2221AxST
+D USB to I2C/UART Protocol Converter with GPIO, TSSOP-14
+K USB I2C UART Converter Bridge
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005565B.pdf
 $ENDCMP
 #
 $CMP TPS2500DRC
