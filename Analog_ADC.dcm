@@ -228,6 +228,12 @@ K adc spi
 F http://www.ti.com/lit/ds/symlink/ads1120.pdf
 $ENDCMP
 #
+$CMP ADS1220xPW
+D Low-power, quad-input, 24-bit analog to digital converter, integrated temperature sensor, SPI interface, TSSOP-16 package
+K adc spi
+F http://www.ti.com/lit/ds/symlink/ads1220.pdf
+$ENDCMP
+#
 $CMP ADS1232IPW
 D Single Bridge 24bit ADC for Sensors, TSSOP-24
 K ADC 24bit Sensors Dual Channel
