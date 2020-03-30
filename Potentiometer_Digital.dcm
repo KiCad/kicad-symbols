@@ -96,6 +96,24 @@ K Digital Pot Potentiometer Up Down
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21978c.pdf, SOT-23-5
 $ENDCMP
 #
+$CMP MCP4017-xxxxLT
+D Low-Cost 128-Step Volatile I2C Digital Potentiometer, SC-70-6
+K TWI pot rheostat
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22147a.pdf
+$ENDCMP
+#
+$CMP MCP4018-xxxxLT
+D Low-Cost 128-Step Volatile I2C Digital Potentiometer, SC-70-6
+K TWI pot
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22147a.pdf
+$ENDCMP
+#
+$CMP MCP4019-xxxxLT
+D Low-Cost 128-Step Volatile I2C Digital Potentiometer, SC-70-5
+K TWI pot rheostat
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22147a.pdf
+$ENDCMP
+#
 $CMP MCP4021-xxxxMS
 D Low-Cost 64-Step Digital Potentiometer with WiperLock™ Technology, MSOP-8
 K Digital Pot Potentiometer Up Down
