@@ -372,6 +372,18 @@ K USB I2C UART Converter Bridge
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005565B.pdf
 $ENDCMP
 #
+$CMP STULPI01A
+D High-speed USB On-The-Go ULPI transceiver
+K USB OTG HS PHY ULPI Interface
+F https://www.st.com/resource/en/datasheet/stulpi01a.pdf
+$ENDCMP
+#
+$CMP STULPI01B
+D High-speed USB On-The-Go ULPI transceiver
+K USB OTG HS PHY ULPI Interface
+F https://www.st.com/resource/en/datasheet/stulpi01b.pdf
+$ENDCMP
+#
 $CMP TPS2500DRC
 D Integrated USB power Switch with Boost Converter, High-Efficiency Eco-mode Control Scheme, Texas S-PVSON-10
 K USB switch boost
