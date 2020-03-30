@@ -348,6 +348,42 @@ K SMPS Controller AC-DC
 F http://www.onsemi.com/pub_link/Collateral/NCP1200-D.PDF
 $ENDCMP
 #
+$CMP NCP1203D100
+D PWM Current-Mode Controller for Universal Off-Line Supplies Featuring Standby and Short Circuit Protection, AC-DC, 100kHz, SOIC-8
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub_link/Collateral/NCP1203-D.PDF
+$ENDCMP
+#
+$CMP NCP1203D40
+D PWM Current-Mode Controller for Universal Off-Line Supplies Featuring Standby and Short Circuit Protection, AC-DC, 40kHz, SOIC-8
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub_link/Collateral/NCP1203-D.PDF
+$ENDCMP
+#
+$CMP NCP1203D60
+D PWM Current-Mode Controller for Universal Off-Line Supplies Featuring Standby and Short Circuit Protection, AC-DC, 60kHz, SOIC-8
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub_link/Collateral/NCP1203-D.PDF
+$ENDCMP
+#
+$CMP NCP1203P100
+D PWM Current-Mode Controller for Universal Off-Line Supplies Featuring Standby and Short Circuit Protection, AC-DC, 100kHz, PDIP-8
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub_link/Collateral/NCP1203-D.PDF
+$ENDCMP
+#
+$CMP NCP1203P40
+D PWM Current-Mode Controller for Universal Off-Line Supplies Featuring Standby and Short Circuit Protection, AC-DC, 40kHz, PDIP-8
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub_link/Collateral/NCP1203-D.PDF
+$ENDCMP
+#
+$CMP NCP1203P60
+D PWM Current-Mode Controller for Universal Off-Line Supplies Featuring Standby and Short Circuit Protection, AC-DC, 60kHz, PDIP-8
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub_link/Collateral/NCP1203-D.PDF
+$ENDCMP
+#
 $CMP NCP1207A
 D PWM Current-Mode Controller for Free Running Quasi-Resonant Operation, AC-DC, 8us min Toff, PDIP-8/SOIC-8
 K SMPS Controller AC-DC
@@ -358,6 +394,78 @@ $CMP NCP1207B
 D PWM Current-Mode Controller for Free Running Quasi-Resonant Operation, AC-DC, 4.5us min Toff, SOIC-7
 K SMPS Controller AC-DC
 F http://www.onsemi.com/pub/Collateral/NCP1207B.PDF
+$ENDCMP
+#
+$CMP NCP1217AD100
+D Enhanced PWM Current-Mode Controller for High-Power Universal Off-Line Supplies, AC-DC, 100kHz, 1ms Soft Start, SOIC-8
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub_link/Collateral/NCP1217-D.PDF
+$ENDCMP
+#
+$CMP NCP1217AD133
+D Enhanced PWM Current-Mode Controller for High-Power Universal Off-Line Supplies, AC-DC, 133kHz, 1ms Soft Start, SOIC-8
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub_link/Collateral/NCP1217-D.PDF
+$ENDCMP
+#
+$CMP NCP1217AD65
+D Enhanced PWM Current-Mode Controller for High-Power Universal Off-Line Supplies, AC-DC, 65kHz, 1ms Soft Start, SOIC-8
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub_link/Collateral/NCP1217-D.PDF
+$ENDCMP
+#
+$CMP NCP1217AP100
+D Enhanced PWM Current-Mode Controller for High-Power Universal Off-Line Supplies, AC-DC, 100kHz, 1ms Soft Start, PDIP-8
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub_link/Collateral/NCP1217-D.PDF
+$ENDCMP
+#
+$CMP NCP1217AP133
+D Enhanced PWM Current-Mode Controller for High-Power Universal Off-Line Supplies, AC-DC, 133kHz, 1ms Soft Start, PDIP-8
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub_link/Collateral/NCP1217-D.PDF
+$ENDCMP
+#
+$CMP NCP1217AP65
+D Enhanced PWM Current-Mode Controller for High-Power Universal Off-Line Supplies, AC-DC, 65kHz, 1ms Soft Start, PDIP-8
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub_link/Collateral/NCP1217-D.PDF
+$ENDCMP
+#
+$CMP NCP1217D100
+D Enhanced PWM Current-Mode Controller for High-Power Universal Off-Line Supplies, AC-DC, 100kHz, SOIC-8
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub_link/Collateral/NCP1217-D.PDF
+$ENDCMP
+#
+$CMP NCP1217D133
+D Enhanced PWM Current-Mode Controller for High-Power Universal Off-Line Supplies, AC-DC, 133kHz, SOIC-8
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub_link/Collateral/NCP1217-D.PDF
+$ENDCMP
+#
+$CMP NCP1217D65
+D Enhanced PWM Current-Mode Controller for High-Power Universal Off-Line Supplies, AC-DC, 65kHz, SOIC-8
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub_link/Collateral/NCP1217-D.PDF
+$ENDCMP
+#
+$CMP NCP1217P100
+D Enhanced PWM Current-Mode Controller for High-Power Universal Off-Line Supplies, AC-DC, 100kHz, PDIP-8
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub_link/Collateral/NCP1217-D.PDF
+$ENDCMP
+#
+$CMP NCP1217P133
+D Enhanced PWM Current-Mode Controller for High-Power Universal Off-Line Supplies, AC-DC, 133kHz, PDIP-8
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub_link/Collateral/NCP1217-D.PDF
+$ENDCMP
+#
+$CMP NCP1217P65
+D Enhanced PWM Current-Mode Controller for High-Power Universal Off-Line Supplies, AC-DC, 65kHz, PDIP-8
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub_link/Collateral/NCP1217-D.PDF
 $ENDCMP
 #
 $CMP NCP1280
@@ -570,6 +678,12 @@ K PFC SMPS Controller
 F http://www.ti.com/lit/ds/symlink/uc3854.pdf
 $ENDCMP
 #
+$CMP UCC1895J
+D BiCMOS, Advanced Phase-ShiftPWM Controller, CDIP-20
+K Phase-shift full-bridge converter
+F http://www.ti.com/lit/ds/symlink/ucc3895.pdf
+$ENDCMP
+#
 $CMP UCC24610D
 D GREEN Rectifier Controller Device, 600kHz, SOIC-8
 K synchronous rectifier controller
@@ -634,6 +748,24 @@ $CMP UCC2894
 D SMPS Current-Mode Active Clamp PWM Controller, SOIC-16/TSSOP-16
 K SMPS PWM Controller
 F http://www.ti.com/lit/ds/symlink/ucc2894.pdf
+$ENDCMP
+#
+$CMP UCC2895DW
+D BiCMOS, Advanced Phase-ShiftPWM Controller, SOIC-20
+K Phase-shift full-bridge converter
+F http://www.ti.com/lit/ds/symlink/ucc3895.pdf
+$ENDCMP
+#
+$CMP UCC2895N
+D BiCMOS, Advanced Phase-ShiftPWM Controller, DIP-20
+K Phase-shift full-bridge converter
+F http://www.ti.com/lit/ds/symlink/ucc3895.pdf
+$ENDCMP
+#
+$CMP UCC2895PW
+D BiCMOS, Advanced Phase-ShiftPWM Controller, TSSOP-20
+K Phase-shift full-bridge converter
+F http://www.ti.com/lit/ds/symlink/ucc3895.pdf
 $ENDCMP
 #
 $CMP UCC2897
@@ -724,6 +856,24 @@ $CMP UCC3813-5
 D Low-Power Economy BiCMOS Current-Mode PWM, 50% Duty Cycle, 4.1V/3.6V UVLO, DIP-8/SOIC-8/TSSOP-8
 K SMPS PWM Controller
 F http://www.ti.com/lit/ds/symlink/ucc3813-1.pdf
+$ENDCMP
+#
+$CMP UCC3895DW
+D BiCMOS, Advanced Phase-ShiftPWM Controller, SOIC-20
+K Phase-shift full-bridge converter
+F http://www.ti.com/lit/ds/symlink/ucc3895.pdf
+$ENDCMP
+#
+$CMP UCC3895N
+D BiCMOS, Advanced Phase-ShiftPWM Controller, DIP-20
+K Phase-shift full-bridge converter
+F http://www.ti.com/lit/ds/symlink/ucc3895.pdf
+$ENDCMP
+#
+$CMP UCC3895PW
+D BiCMOS, Advanced Phase-ShiftPWM Controller, TSSOP-20
+K Phase-shift full-bridge converter
+F http://www.ti.com/lit/ds/symlink/ucc3895.pdf
 $ENDCMP
 #
 #End Doc Library

@@ -108,6 +108,12 @@ K opamp dual low noise low distortion
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf
 $ENDCMP
 #
+$CMP AS13704
+D Quad Operational Transconductance Amplifiers (OTA), with linearizing diodes, SSOP24
+K operational transconductance amplifier OTA
+F http://www.alfarzpp.lv/eng/sc/AS13704.pdf
+$ENDCMP
+#
 $CMP CA3080
 D 2MHz, Operational Transconductance Amplifier (OTA), gM spread 2:1, DIP-8/SOIC-8
 K operational transconductance amplifier ota
@@ -172,6 +178,18 @@ $CMP LF257
 D Single JFET Input Operational Amplifiers, DIP-8/SOIC-8
 K single jfet opamp
 F http://www.ti.com/lit/ds/symlink/lf357.pdf
+$ENDCMP
+#
+$CMP LF351D
+D Wide bandwidth single JFET operational amplifier, SOIC-8
+K Single OpAmp JFET
+F https://www.st.com/resource/en/datasheet/lf351.pdf
+$ENDCMP
+#
+$CMP LF351N
+D Wide bandwidth single JFET operational amplifier, DIP-8
+K Single OpAmp JFET
+F https://www.st.com/resource/en/datasheet/lf351.pdf
 $ENDCMP
 #
 $CMP LF355
@@ -528,6 +546,12 @@ K quad opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/60812fd.pdf
 $ENDCMP
 #
+$CMP LTC6253xMS8
+D 720MHz, 3.5mA Power Efficient, Rail-to-Rail Op Amp, MSOP-8
+K dual opamp low-power
+F https://www.analog.com/media/en/technical-documentation/data-sheets/625234fc.pdf
+$ENDCMP
+#
 $CMP LTC6362xDD
 D Precision, Low Power, Rail-to-Rail Input/Output, Differential Op Amp/SAR ADC Driver, DFN-8
 K single differential opamp
@@ -744,6 +768,54 @@ K single opamp
 F http://ww1.microchip.com/downloads/en/devicedoc/22229d.pdf
 $ENDCMP
 #
+$CMP MCP6L01Rx-xOT
+D Single, 1 MHz, 85µA, Rail-to-Rail input and ouput, SOT-23-5
+K opamp vfa r2r rtr
+F http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf
+$ENDCMP
+#
+$CMP MCP6L01Ux-xOT
+D Single, 1 MHz, 85µA, Rail-to-Rail input and ouput, SOT-23-5
+K opamp vfa r2r rtr
+F http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf
+$ENDCMP
+#
+$CMP MCP6L01x-xLT
+D Single, 1 MHz, Rail-to-Rail input and output, SC-70-5
+K opamp vfa r2r rtr
+F http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf
+$ENDCMP
+#
+$CMP MCP6L01x-xOT
+D Single, 1 MHz, 85µA, Rail-to-Rail input and output, SOT-23-5
+K opamp vfa rtr r2r
+F http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf
+$ENDCMP
+#
+$CMP MCP6L02x-xMS
+D Dual, 1 MHz, 85µA, Rail-to-Rail input and ouput, MSOP-8
+K opamp vfa r2r rtr
+F http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf
+$ENDCMP
+#
+$CMP MCP6L02x-xSN
+D Dual, 1 MHz, 85µA, Rail-to-Rail input and ouput SOIC-8
+K opamp vfa r2r rtr
+F http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf
+$ENDCMP
+#
+$CMP MCP6L04-xST
+D Quad, 1 MHz, 85µA, Rail-to-Rail input and ouput, TSSOP-14
+K opamp vfa r2r rtr
+F http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf
+$ENDCMP
+#
+$CMP MCP6L04x-xSL
+D Quad, 1 MHz, 85µA, Rail-to-Rail input and ouput, SOIC-14
+K opamp vfa r2r rtr
+F http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf
+$ENDCMP
+#
 $CMP MCP6L91RT-EMS
 D 10 MHz, 850 µA Op Amps, MSOP-8
 K single opamp
@@ -778,6 +850,48 @@ $CMP MCP6L94
 D 10 MHz, 850 µA Op Amps, SOIC-14/TSSOP-14
 K quad opamp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf
+$ENDCMP
+#
+$CMP NCS20071SN
+D Single, 2.8V/µs, Rail-to-Rail Output, TSOP-5
+K OpAmp Rail-to-rail Output Single vfa
+F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
+$ENDCMP
+#
+$CMP NCS20071XV
+D Single, 2.8V/µs, Rail-to-Rail Output, SOT-553
+K OpAmp Rail-to-rail Output Single vfa
+F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
+$ENDCMP
+#
+$CMP NCS20072D
+D Dual, 2.8V/µs, Rail-to-Rail Output, SOIC-8
+K dual rail-to-rail ouput opamp vfa
+F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
+$ENDCMP
+#
+$CMP NCS20072DM
+D Dual, 2.8V/µs, Rail-to-Rail Output, MSOP-8
+K dual rail-to-rail output opamp vfa
+F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
+$ENDCMP
+#
+$CMP NCS20072DTB
+D Dual, 2.8V/µs, Rail-to-Rail Output, TSSOP-8
+K dual rail-to-rail output opamp vfa
+F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
+$ENDCMP
+#
+$CMP NCS20074D
+D Quad, 2.8V/µs, Rail-to-Rail Output, SOIC-14
+K quad rail-to-rail output opamp vfa
+F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
+$ENDCMP
+#
+$CMP NCS20074DTB
+D Quad, 2.8V/µs, Rail-to-Rail Output, TSSOP-14
+K quad rail-to-rail output opamp vfa
+F https://www.onsemi.com/pub/Collateral/NCS20071-D.PDF
 $ENDCMP
 #
 $CMP NCS2325D
@@ -952,6 +1066,18 @@ $CMP OPA1679
 D Low-Distortion Audio Operational Amplifiers, SOIC-14/TSSOP-14
 K quad opamp
 F http://www.ti.com/lit/ds/symlink/opa1678.pdf
+$ENDCMP
+#
+$CMP OPA1692xD
+D Dual SoundPlus Low Power, Low Noise & Low Distortion Audio Operational Amplifiers, SOIC-8
+K VFA opamp
+F https://www.ti.com/lit/ds/symlink/opa1692.pdf
+$ENDCMP
+#
+$CMP OPA1692xDGK
+D Dual SoundPlus Low Power, Low Noise & Low Distortion Audio Operational Amplifiers, VSSOP-8
+K VFA opamp
+F https://www.ti.com/lit/ds/symlink/opa1692.pdf
 $ENDCMP
 #
 $CMP OPA188xxD
@@ -1338,6 +1464,24 @@ K single opamp wideband low-power
 F http://www.ti.com/lit/ds/symlink/opa847.pdf
 $ENDCMP
 #
+$CMP OPA855xDSG
+D 8-GHz Gain Bandwidth Product, Gain of 7-V/V Stable, Bipolar Input Amplifier, WSON-8
+K opamp VFA
+F http://www.ti.com/lit/ds/symlink/opa855.pdf
+$ENDCMP
+#
+$CMP OPA858xDSG
+D 5.5-GHz Gain Bandwidth Product, Gain of 7 V/V Stable, FET Input Amplifier, WSON-8
+K opamp VFA
+F http://www.ti.com/lit/ds/symlink/opa858.pdf
+$ENDCMP
+#
+$CMP OPA859xDSG
+D 1.8 GHz Unity-Gain Bandwidth FET Input Amplifier, WSON-8
+K opamp VFA
+F http://www.ti.com/lit/ds/symlink/opa859.pdf
+$ENDCMP
+#
 $CMP OPA890xD
 D Single Low-Power, Wideband, Voltage-Feedback Operational Amplifier with Disable, SO-8
 K single opamp wideband low-power
@@ -1516,6 +1660,12 @@ $CMP TLV6001DCK
 D Low-power, Rail-to-rail, 1MHz Operational Amplifier, SOT-353
 K op amp operational amplifier
 F http://www.ti.com/lit/ds/symlink/tlv6001.pdf
+$ENDCMP
+#
+$CMP TLV9001IDCK
+D Low-power, Rail-to-Rail, 1MHz Operational Amplifier, SOT-353
+K op amp operational amplifier
+F https://www.ti.com/lit/ds/symlink/tlv9001.pdf
 $ENDCMP
 #
 $CMP TLV9004xRUCR

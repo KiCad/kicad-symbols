@@ -606,6 +606,48 @@ K rectifier acdc
 F http://www.vishay.com/docs/89959/mbl104s.pdf
 $ENDCMP
 #
+$CMP RB151
+D Single-Phase Bridge Rectifier, 35V Vrms, 1.5A If, WOG-like package
+K rectifier acdc
+F https://www.rectron.com/public/product_datasheets/rb151-rb157.pdf
+$ENDCMP
+#
+$CMP RB152
+D Single-Phase Bridge Rectifier, 70V Vrms, 1.5A If, WOG-like package
+K rectifier acdc
+F https://www.rectron.com/public/product_datasheets/rb151-rb157.pdf
+$ENDCMP
+#
+$CMP RB153
+D Single-Phase Bridge Rectifier, 140V Vrms, 1.5A If, WOG-like package
+K rectifier acdc
+F https://www.rectron.com/public/product_datasheets/rb151-rb157.pdf
+$ENDCMP
+#
+$CMP RB154
+D Single-Phase Bridge Rectifier, 280V Vrms, 1.5A If, WOG-like package
+K rectifier acdc
+F https://www.rectron.com/public/product_datasheets/rb151-rb157.pdf
+$ENDCMP
+#
+$CMP RB155
+D Single-Phase Bridge Rectifier, 420V Vrms, 1.5A If, WOG-like package
+K rectifier acdc
+F https://www.rectron.com/public/product_datasheets/rb151-rb157.pdf
+$ENDCMP
+#
+$CMP RB156
+D Single-Phase Bridge Rectifier, 560V Vrms, 1.5A If, WOG-like package
+K rectifier acdc
+F https://www.rectron.com/public/product_datasheets/rb151-rb157.pdf
+$ENDCMP
+#
+$CMP RB157
+D Single-Phase Bridge Rectifier, 700V Vrms, 1.5A If, WOG-like package
+K rectifier acdc
+F https://www.rectron.com/public/product_datasheets/rb151-rb157.pdf
+$ENDCMP
+#
 $CMP RMB2S
 D Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 140V Vrms, 0.5A If, TO-269AA
 K rectifier acdc

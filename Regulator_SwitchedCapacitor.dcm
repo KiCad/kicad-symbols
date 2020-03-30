@@ -6,6 +6,12 @@ K monolithic CMOS switched capacitor voltage converter invert double divide mult
 F http://datasheets.maximintegrated.com/en/ds/ICL7660-MAX1044.pdf
 $ENDCMP
 #
+$CMP LM2665M6
+D Switched Capacitor Voltage Converter, Doubles or Splits Input Supply Voltage (2.5 V to 5.5 V or 1.8 V to 11 V), 40 mA, SOT-23-6
+K switched capacitor voltage converter doubler splitter
+F https://www.ti.com/lit/ds/symlink/lm2665.pdf
+$ENDCMP
+#
 $CMP LM2776
 D Switched capacitor inverter, inverts positive voltage +2.7 to +5.5V to negative, 200mA, SOT-23-6
 K Switched capacitor inverter
