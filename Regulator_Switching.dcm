@@ -5172,6 +5172,12 @@ K Step-Down DC-DC Switching Regulator High Voltage Adjustable Frequency
 F http://www.ti.com/lit/ds/symlink/tps54061.pdf
 $ENDCMP
 #
+$CMP TPS54061DRB
+D 0.2A, Step Down DC-DC Converter with Low IQ, 4.5-60V Input Voltage, VSON-8
+K Step-Down DC-DC Switching Regulator High Voltage Adjustable Frequency
+F http://www.ti.com/lit/ds/symlink/tps54061.pdf
+$ENDCMP
+#
 $CMP TPS5420D
 D Adjustable Output, 2A Step-Down Converter, 5.5V-36V Input, 500kHz Switching Frequency
 K switching buck converter step-down
