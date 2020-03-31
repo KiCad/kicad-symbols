@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AX−SIP−SFEU
+D Ultra low power, Sigfox or propietary, system in package transceiver, 868Mhz
+K Sigfox SIP 868Mhz
+F https://www.onsemi.com/pub/Collateral/AX-SIP-SFEU-D.PDF
+$ENDCMP
+#
+$CMP AX−SIP−SFEU-API
+D Ultra low power, Sigfox or propietary, programmable system in package, 868Mhz
+K Sigfox SIP 868Mhz
+F https://www.onsemi.com/pub/Collateral/AX-SIP-SFEU-D.PDF
+$ENDCMP
+#
 $CMP Ai-Thinker-Ra-01
 D Ai-Thinker LoRa Module Ra-01
 K Ra-01 LoRa
