@@ -354,6 +354,12 @@ K ESD USB
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/3e/ec/b2/54/b2/76/47/90/CD00001361.pdf/files/CD00001361.pdf/jcr:content/translations/en.CD00001361.pdf
 $ENDCMP
 #
+$CMP USBLC6-2P6
+D Very low capacitance ESD protection diode, 2 data-line, SOT-666
+K usb ethernet video
+F https://www.st.com/resource/en/datasheet/usblc6-2.pdf
+$ENDCMP
+#
 $CMP USBLC6-2SC6
 D Very low capacitance ESD protection diode, 2 data-line, SOT-23-6
 K usb ethernet video
