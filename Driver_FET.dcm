@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 6EDL04N02PRXUMA1
+D 3 Half-Bridge Gate-Drive IC, 200V operation, Output Current 350/650mA, TSSOP-28
+K 3 Phase Gate Driver
+F https://www.infineon.com/dgdl/6ED2-DB-Rev2_3.pdf?folderId=db3a30431a5c32f2011a77fa27a86cb5&fileId=db3a304336797ff901367c18c18445af
+$ENDCMP
+#
 $CMP ACPL-P343
 D Gate Drive Optocoupler, Output Current 4.0/4.0A, Propagation Delay 200ns, SSO-6
 K MOSFET Driver IGBT Driver Optocoupler
