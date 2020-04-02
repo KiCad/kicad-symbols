@@ -156,18 +156,6 @@ K BLDC driver
 F http://www.onsemi.com/pub/Collateral/MC33039-D.PDF
 $ENDCMP
 #
-$CMP NCV33035
-D Brushless DC Motor Controller (SOIC-24)
-K BLDC driver
-F http://www.onsemi.com/pub/Collateral/MC33035-D.PDF
-$ENDCMP
-#
-$CMP NCV33039
-D Closed Loop Brushless Motor Adapter (SOIC-8)
-K BLDC driver
-F http://www.onsemi.com/pub/Collateral/MC33039-D.PDF
-$ENDCMP
-#
 $CMP PG001M
 D Parallel to serial data converter for SLA7042M/SLA7044M
 K Support IC for SLA7042M/SLA7044M
