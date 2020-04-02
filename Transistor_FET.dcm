@@ -1434,6 +1434,12 @@ K P-Channel MOSFET
 F https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf
 $ENDCMP
 #
+$CMP FDC6330L
+D -2.3A, 20V Vds, Integrated load switch, P-Channel MOSFET driven by small N-Channel MOSFET, TSOT-23-6
+K complementary mosfet
+F https://www.onsemi.com/pub/Collateral/FDC6330L-D.PDF
+$ENDCMP
+#
 $CMP FDG1024NZ
 D 1.2A Id, 20V Vds, Dual N-Channel MOSFET, 175mOhm Ron, SC-70-6
 K Dual N-Channel MOSFET Logic Level

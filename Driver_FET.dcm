@@ -900,6 +900,12 @@ K Dual Isolated Gate Driver
 F http://www.ti.com/lit/ds/symlink/ucc21520.pdf
 $ENDCMP
 #
+$CMP UCC27714D
+D High-Speed, 600-V High-Side Low-Side Gate Driver, SOIC-14
+K gate driver bootstrap
+F http://www.ti.com/lit/ds/symlink/ucc27714.pdf
+$ENDCMP
+#
 $CMP ZXGD3001E6
 D 9A (peak) Gate driver, 12V, 3ns delay, SOT-23-6
 K gate driver

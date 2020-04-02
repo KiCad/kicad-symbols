@@ -1374,6 +1374,18 @@ K zener diode
 F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S36000L_E.pdf
 $ENDCMP
 #
+$CMP ESD9B3.3ST5G
+D ESD protection diode, 3.3Vrwm, SOD-923
+K diode TVS ESD
+F https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF
+$ENDCMP
+#
+$CMP ESD9B5.0ST5G
+D ESD protection diode, 5.0Vrwm, SOD-923
+K diode TVS ESD
+F https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF
+$ENDCMP
+#
 $CMP HN2D02FU
 D Ultra high speed switching diode array 3 independent
 K diode
@@ -1828,6 +1840,12 @@ $CMP STTH212U
 D 1200V 2A High Voltage Ultrafast Diode, SMB
 K diode
 F https://www.st.com/resource/en/datasheet/stth212.pdf
+$ENDCMP
+#
+$CMP SZESD9B5.0ST5G
+D ESD protection diode, 5.0Vrwm, SOD-923
+K diode TVS ESD
+F https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF
 $ENDCMP
 #
 $CMP Toshiba_HN1D01FU
