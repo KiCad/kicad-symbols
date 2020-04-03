@@ -13,9 +13,33 @@ F https://ams.com/documents/20143/36005/AS1115_DS000206_1-00.pdf/3d3e6d35-b184-1
 $ENDCMP
 #
 $CMP MAX7325AEG+
-D I2C Port Expander with 8 Push-Pull and 8 Open-Drain I/Os, QSOP-24 package
+D I2C Port Expander with 8 Push-Pull and 8 Open-Drain I/Os, QSOP-24
 K Expander I2C Parallel Port GPIO Maxim
 F https://datasheets.maximintegrated.com/en/ds/MAX7325.pdf
+$ENDCMP
+#
+$CMP MCP23008-xML
+D 8-bit I/O expander, I2C, interrupts, QFN-20
+K I2C parallel port expander
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP23008-MCP23S08-Data-Sheet-20001919F.pdf
+$ENDCMP
+#
+$CMP MCP23008-xP
+D 8-bit I/O expander, I2C, interrupts, PDIP-18
+K I2C parallel port expander
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP23008-MCP23S08-Data-Sheet-20001919F.pdf
+$ENDCMP
+#
+$CMP MCP23008-xSO
+D 8-bit I/O expander, I2C, interrupts, SOIC-18
+K I2C parallel port expander
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP23008-MCP23S08-Data-Sheet-20001919F.pdf
+$ENDCMP
+#
+$CMP MCP23008-xSS
+D 8-bit I/O expander, I2C, interrupts, SSOP-20
+K I2C parallel port expander
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP23008-MCP23S08-Data-Sheet-20001919F.pdf
 $ENDCMP
 #
 $CMP MCP23017_ML
@@ -79,27 +103,57 @@ F http://www.nxp.com/documents/data_sheet/PCA9518.pdf
 $ENDCMP
 #
 $CMP PCA9536D
-D 4-bit I2C-bus and SMBus IO port, SOIC8 package
+D 4-bit I2C-bus and SMBus IO port, SOIC-8
 K i2c io port
 F http://www.nxp.com/documents/data_sheet/PCA9536.pdf
 $ENDCMP
 #
 $CMP PCA9536DP
-D 4-bit I2C-bus and SMBus IO port, TSSOP8 package
+D 4-bit I2C-bus and SMBus IO port, TSSOP-8
 K i2c io port
 F http://www.nxp.com/documents/data_sheet/PCA9536.pdf
 $ENDCMP
 #
+$CMP PCA9537
+D 4-bit I2C-bus and SMBus IO port with interrupt and reset, TSSOP-10
+K i2c io port
+F https://www.nxp.com/docs/en/data-sheet/PCA9537.pdf
+$ENDCMP
+#
 $CMP PCA9544AD
-D 4-channel I2C-bus multiplexer with interrupt logic, SOIC20 package
+D 4-channel I2C-bus multiplexer with interrupt logic, SOIC-20
 K i2c multiplexer
 F http://www.nxp.com/documents/data_sheet/PCA9544A.pdf
 $ENDCMP
 #
 $CMP PCA9544APW
-D 4-channel I2C-bus multiplexer with interrupt logic, TSSOP20 package
+D 4-channel I2C-bus multiplexer with interrupt logic, TSSOP-20
 K i2c multiplexer
 F http://www.nxp.com/documents/data_sheet/PCA9544A.pdf
+$ENDCMP
+#
+$CMP PCA9548ADB
+D Low voltage 8-channel I2C switch with reset, SSOP-24
+K Low voltage 8-channel I2C switch with reset
+F http://www.ti.com/lit/ds/symlink/pca9548a.pdf
+$ENDCMP
+#
+$CMP PCA9548ADW
+D Low voltage 8-channel I2C switch with reset, SOIC-24
+K Low voltage 8-channel I2C switch with reset
+F http://www.ti.com/lit/ds/symlink/pca9548a.pdf
+$ENDCMP
+#
+$CMP PCA9548APW
+D Low voltage 8-channel I2C switch with reset, TSSOP-24
+K Low voltage 8-channel I2C switch with reset
+F http://www.ti.com/lit/ds/symlink/pca9548a.pdf
+$ENDCMP
+#
+$CMP PCA9548ARGE
+D Low voltage 8-channel I2C switch with reset, VQFN-24
+K Low voltage 8-channel I2C switch with reset
+F http://www.ti.com/lit/ds/symlink/pca9548a.pdf
 $ENDCMP
 #
 $CMP PCF8574
@@ -127,7 +181,7 @@ F http://www.nxp.com/documents/data_sheet/PCF8591.pdf
 $ENDCMP
 #
 $CMP STMPE1600
-D IO expander 16 GPIO, I2C 400kHz, Interrupt, 1.65 - 3.6V, QFN24
+D IO expander 16 GPIO, I2C 400kHz, Interrupt, 1.65 - 3.6V, QFN-24
 K IO expander 16 GPIO
 F http://www.st.com/resource/en/datasheet/stmpe1600.pdf
 $ENDCMP
@@ -139,19 +193,19 @@ F http://www.ti.com/lit/ds/symlink/tca9534.pdf
 $ENDCMP
 #
 $CMP TCA9535DBR
-D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, SSOP-24 package
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, SSOP-24
 K ti parallel port
 F http://www.ti.com/lit/ds/symlink/tca9535.pdf
 $ENDCMP
 #
 $CMP TCA9535DBT
-D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, SSOP-24 package
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, SSOP-24
 K ti parallel port
 F http://www.ti.com/lit/ds/symlink/tca9535.pdf
 $ENDCMP
 #
 $CMP TCA9535MRGER
-D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, QFN-24 package
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, QFN-24
 K ti parallel port
 F http://www.ti.com/lit/ds/symlink/tca9535.pdf
 $ENDCMP
@@ -163,13 +217,13 @@ F http://www.ti.com/lit/ds/symlink/tca9535.pdf
 $ENDCMP
 #
 $CMP TCA9535RGER
-D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, QFN-24 package
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, QFN-24
 K ti parallel port
 F http://www.ti.com/lit/ds/symlink/tca9535.pdf
 $ENDCMP
 #
 $CMP TCA9535RTWR
-D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, QFN-24 package
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, QFN-24
 K ti parallel port
 F http://www.ti.com/lit/ds/symlink/tca9535.pdf
 $ENDCMP
@@ -181,7 +235,7 @@ F http://www.ti.com/lit/ds/symlink/tca9544a.pdf
 $ENDCMP
 #
 $CMP TCA9548AMRGER
-D Low voltage 8-channel I2C switch with reset, QFN-24
+D Low voltage 8-channel I2C switch with reset, VQFN-24
 K Low voltage 8-channel I2C switch with reset
 F http://www.ti.com/lit/ds/symlink/tca9548a.pdf
 $ENDCMP
@@ -223,13 +277,13 @@ F http://www.ti.com/lit/ds/symlink/tca9554.pdf
 $ENDCMP
 #
 $CMP TCA9555DBR
-D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, SSOP-24 package
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, SSOP-24
 K ti parallel port
 F http://www.ti.com/lit/ds/symlink/tca9555.pdf
 $ENDCMP
 #
 $CMP TCA9555DBT
-D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, SSOP-24 package
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, SSOP-24
 K ti parallel port
 F http://www.ti.com/lit/ds/symlink/tca9555.pdf
 $ENDCMP
@@ -241,13 +295,13 @@ F http://www.ti.com/lit/ds/symlink/tca9555.pdf
 $ENDCMP
 #
 $CMP TCA9555RGER
-D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, QFN-24 package
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, QFN-24
 K ti parallel port
 F http://www.ti.com/lit/ds/symlink/tca9555.pdf
 $ENDCMP
 #
 $CMP TCA9555RTWR
-D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, QFN-24 package
+D 16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, QFN-24
 K ti parallel port
 F http://www.ti.com/lit/ds/symlink/tca9555.pdf
 $ENDCMP

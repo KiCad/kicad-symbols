@@ -222,6 +222,24 @@ K Isolated DC-to-DC Converter 5kV
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM6000.PDF
 $ENDCMP
 #
+$CMP AOZ1280CI
+D 1.2 A Simple Buck Regulator, 3-26V input, 1.5Mhz
+K switching buck converter
+F http://aosmd.com/res/data_sheets/AOZ1280CI.pdf
+$ENDCMP
+#
+$CMP AOZ1282CI
+D 1.2 A Simple Buck Regulator, 4.5-36V input, 450kHz
+K switching buck converter
+F http://aosmd.com/res/data_sheets/AOZ1282CI.pdf
+$ENDCMP
+#
+$CMP AOZ1282CI-1
+D 600 mA Simple Buck Regulator, 4.5-36V input, 1MHz
+K switching buck converter
+F http://www.aosmd.com/res/data_sheets/AOZ1282CI-1.pdf
+$ENDCMP
+#
 $CMP AP6502
 D 340kHz 18V 2A Synchronois DC/DC Buck Converter
 K buck switching converter
@@ -232,6 +250,12 @@ $CMP AP6503
 D 340kHz 23V 3A Synchonous DC/DC Buck Converter
 K buck switching converter
 F https://www.diodes.com/assets/Datasheets/AP6503.pdf
+$ENDCMP
+#
+$CMP AP65111AWU
+D 1.5A, 500kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6
+K 1.5A 500kHz PWM Buck DC/DC
+F https://www.diodes.com/assets/Datasheets/AP65111A.pdf
 $ENDCMP
 #
 $CMP APE1707H-12-HF
@@ -2466,6 +2490,12 @@ K Isolated DC/DC Transformer Driver
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3439fs.pdf
 $ENDCMP
 #
+$CMP LT3471
+D Dual 1.3A, 1.2MHz Boost/Inverter, DFN-10
+K dc/dc converter boost inverter
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3471fb.pdf
+$ENDCMP
+#
 $CMP LT3472
 D Boost and Inverting DC/DC Converter for CCD Bias, DFN-10
 K DC/DC converter CCD Bias Boost
@@ -3028,6 +3058,12 @@ $CMP MP171GS
 D 60mA Non-Isolated Off-Line Regulator, 700V Input Voltage, Adjustable Output Voltage, SOIC-8
 K regulator switching adjustable
 F https://www.monolithicpower.com/pub/media/document/m/p/mp171_r1.01.pdf
+$ENDCMP
+#
+$CMP MT3608
+D High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6
+K Step-Up Boost DC-DC Regulator Adjustable
+F https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf
 $ENDCMP
 #
 $CMP NCP1070P065
@@ -3894,6 +3930,12 @@ K smps buck boost inverting
 F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
 $ENDCMP
 #
+$CMP SC4503TSK
+D 1.9A, 1.3MHz Step-Up DC/DC Converter, 2.5V-20V output voltage, TSOT23
+K 1.9A 1.3MHz Step-Up DC/DC
+F https://www.semtech.com/uploads/documents/sc4503.pdf
+$ENDCMP
+#
 $CMP ST1S10PHR
 D 3A monolithic synchronous step-down regulator, Adjustable Output Voltage, 2.5-18V Input Voltage, 900kHz, PowerSO-8
 K DC/DC Buck Conwerter 3A Low Voltage Input
@@ -3970,6 +4012,24 @@ $CMP TLV62568DRL
 D High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 1A, SOT-563-6
 K Step-Down Buck DC-DC Regulator Adjustable
 F http://www.ti.com/lit/ds/symlink/tlv62568.pdf
+$ENDCMP
+#
+$CMP TLV62569DBV
+D High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-5
+K Step-Down Buck DC-DC Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/tlv62569.pdf
+$ENDCMP
+#
+$CMP TLV62569DDC
+D High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-6
+K Step-Down Buck DC-DC Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/tlv62569.pdf
+$ENDCMP
+#
+$CMP TLV62569DRL
+D High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-563-6
+K Step-Down Buck DC-DC Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/tlv62569.pdf
 $ENDCMP
 #
 $CMP TMR_1-0511
@@ -5166,6 +5226,12 @@ K step-down dcdc voltage regulator
 F http://www.ti.com/lit/ds/symlink/tps563200.pdf
 $ENDCMP
 #
+$CMP TPS565208
+D 5A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6
+K step-down dcdc voltage regulator
+F http://www.ti.com/lit/ds/symlink/tps565208.pdf
+$ENDCMP
+#
 $CMP TPS568215RNN
 D 4.5V-17V Input, 8A Synchronous Step-Down SWIFT Converter, Adjustable Output, 400kHz/800kHz/1.2MHz Switching Frequency, Texas VQFN-18
 K switching buck converter step-down
@@ -5248,6 +5314,12 @@ $CMP TPS61222DCK
 D 400 mA Step-Up Converter, Fixed 5V Output Voltage, 0.7-5.5V Input Voltage, SC-70
 K Boost adjustable converter
 F http://www.ti.com/lit/ds/symlink/tps61220.pdf
+$ENDCMP
+#
+$CMP TPS61252DSG
+D Tiny 1.5-A Boost Converter With Adjustable Input Current Limit, 2.3-6.0V Vin, 3.0-6.5V Vout, WSON-8
+K boost converter switching
+F http://www.ti.com/lit/ds/symlink/tps61252.pdf
 $ENDCMP
 #
 $CMP TPS62125DSG

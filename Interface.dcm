@@ -87,6 +87,12 @@ K 8255 PPI
 F http://jap.hu/electronic/8255.pdf
 $ENDCMP
 #
+$CMP 88SE9125C0-NAA
+D One-Lane PCIe SATA Two-Ports Controller, QFN-76
+K PCIe2.0 SATA3.0
+F https://www.marvell.com/documents/bqcwxsoiqfjkcjdjhkvc/
+$ENDCMP
+#
 $CMP AD9834
 D 10 bit 75 MHz Complete Direct Digital Synthesizer, 2.3V to 5.5V, 20mW, TSSOP-20
 K Direct Digital Synthesizer DDS
@@ -133,6 +139,12 @@ $CMP AM26LV32xNS
 D 32Mbps 3.3V RS485 Quad Line Receivers, SO-16
 K receiver rs485 rs422 differential
 F http://www.ti.com/lit/ds/symlink/am26lv32.pdf
+$ENDCMP
+#
+$CMP CDCLVP1102RGT
+D Two-LVPECL Output, High-Performance Clock Buffer, VQFN-16
+K Clock Buffer LVDS
+F http://www.ti.com/lit/ds/symlink/cdclvp1102.pdf
 $ENDCMP
 #
 $CMP DS90C124
@@ -205,6 +217,12 @@ $CMP LTC1689
 D 100Mbps RS485 Hot Swapable Quad Drivers
 K driver rs485 rs422 differential
 F https://www.analog.com/media/en/technical-documentation/data-sheets/16889fa.pdf
+$ENDCMP
+#
+$CMP LTC4317
+D Dual I2C/SMBus Address-Translator, DFN-16
+K I2C Translator 4kV-ESD Level-Shifter Hot-Swap
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4317fa.pdf
 $ENDCMP
 #
 $CMP LTC6957xDD-1
@@ -331,6 +349,18 @@ $CMP PCA9306
 D Dual bidirectional I2C Bus and SMBus voltage level translator
 K Dual bidirectional I2C Bus and SMBus voltage level translator
 F http://www.ti.com/lit/ds/symlink/pca9306.pdf
+$ENDCMP
+#
+$CMP PCA9600D
+D Dual bidirectional bus buffer, SO-8
+K I2C buffer
+F https://www.nxp.com/docs/en/data-sheet/PCA9600.pdf
+$ENDCMP
+#
+$CMP PCA9600DP
+D Dual bidirectional bus buffer, TSSOP-8
+K I2C buffer
+F https://www.nxp.com/docs/en/data-sheet/PCA9600.pdf
 $ENDCMP
 #
 $CMP PCI9030-PQFP176
