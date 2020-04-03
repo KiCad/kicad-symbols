@@ -1794,6 +1794,30 @@ K connector USB
 F  ~
 $ENDCMP
 #
+$CMP VITA_57.1_FMC_HPC_Carrier
+D ANSI/VITA 57.1 FMC high-pin count connector, carrier board side
+K VITA FMC HPC connector
+F https://fmchub.github.io/appendix/VITA57_FMC_HPC_LPC_SIGNALS_AND_PINOUT.html
+$ENDCMP
+#
+$CMP VITA_57.1_FMC_HPC_Mezzanine
+D ANSI/VITA 57.1 FMC high-pin count connector, mezzanine board side
+K VITA FMC HPC connector
+F https://fmchub.github.io/appendix/VITA57_FMC_HPC_LPC_SIGNALS_AND_PINOUT.html
+$ENDCMP
+#
+$CMP VITA_57.1_FMC_LPC_Carrier
+D ANSI/VITA 57.1 FMC low-pin count connector, carrier board side
+K VITA FMC LPC connector
+F https://fmchub.github.io/appendix/VITA57_FMC_HPC_LPC_SIGNALS_AND_PINOUT.html
+$ENDCMP
+#
+$CMP VITA_57.1_FMC_LPC_Mezzanine
+D ANSI/VITA 57.1 FMC low-pin count connector, mezzanine board side
+K VITA FMC LPC connector
+F https://fmchub.github.io/appendix/VITA57_FMC_HPC_LPC_SIGNALS_AND_PINOUT.html
+$ENDCMP
+#
 $CMP Wuerth_7499010121A
 D LAN Transformer Jack, RJ45, 10/100 BaseT
 K lan jack transformer
