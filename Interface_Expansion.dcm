@@ -186,6 +186,24 @@ K I2C TWI IO expander
 F https://www.nxp.com/docs/en/data-sheet/PCA9555.pdf
 $ENDCMP
 #
+$CMP PCA9557BS
+D 8-bit I2C-bus and SMBus I/O port with reset, HVQFN-16
+K SMBUS I2C Expander
+F https://www.nxp.com/docs/en/data-sheet/PCA9557.pdf
+$ENDCMP
+#
+$CMP PCA9557D
+D 8-bit I2C-bus and SMBus I/O port with reset, SO-16
+K SMBUS I2C Expander
+F https://www.nxp.com/docs/en/data-sheet/PCA9557.pdf
+$ENDCMP
+#
+$CMP PCA9557PW
+D 8-bit I2C-bus and SMBus I/O port with reset, TSSOP-16
+K SMBUS I2C Expander
+F https://www.nxp.com/docs/en/data-sheet/PCA9557.pdf
+$ENDCMP
+#
 $CMP PCAL6416APW
 D IO expander 16 GPIO, I2C 400kHz, Interrupt, 1.65 - 5.5V, TSSOP-24
 K I2C TWI IO expander
