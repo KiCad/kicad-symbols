@@ -72,4 +72,16 @@ K Microchip PIC32 Microcontroller MIPS
 F http://ww1.microchip.com/downloads/en/DeviceDoc/61156G.pdf
 $ENDCMP
 #
+$CMP PIC32MX795F512L-80x-PF
+D MIPS MCU, 80MHz, 512KB Flash, 12KB Boot Flash, 128KB RAM, 2.3-3.6V, USB, CAN, Ethernet, TQFP-100
+K 32-bit MIPS MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/60001156J.pdf
+$ENDCMP
+#
+$CMP PIC32MX795F512L-80x-PT
+D MIPS MCU, 80MHz, 512KB Flash, 12KB Boot Flash, 128KB RAM, 2.3-3.6V, USB, CAN, Ethernet, TQFP-100
+K 32-bit MIPS MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/60001156J.pdf
+$ENDCMP
+#
 #End Doc Library

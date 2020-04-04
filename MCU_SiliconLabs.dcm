@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP EFM32G230F128G-E-QFN64
+D 32-bit ARM Cortex-M3 microcontroller, 128 kB flash, 16 kB x 8 RAM, Silicon Labs - Gecko, QFN-64
+K MCU microcontroller silicon labs siliconlabs silabs EFM32 gecko
+F https://www.silabs.com/documents/public/data-sheets/efm32g-datasheet.pdf
+$ENDCMP
+#
 $CMP EFM8BB10F2A-A-QFN20
 D 8051-compatible microcontroller, 25 MHz, 2.2 to 3.6V, 2K flash, 256B RAM, -40 to +125 C (automotive), QFN20
 K 8051 microcontroller PWM UART SPI I2C ADC QFN20 automotive

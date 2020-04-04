@@ -102,6 +102,12 @@ K trimmer capacitor
 F ~
 $ENDCMP
 #
+$CMP CTRIM_Small
+D Trimmable capacitor, small symbol
+K trimmer variable capacitor
+F ~
+$ENDCMP
+#
 $CMP C_Feedthrough
 D Feedthrough capacitor
 K EMI filter feedthrough capacitor
@@ -234,6 +240,12 @@ K AC diode DIAC
 F ~
 $ENDCMP
 #
+$CMP D_AAK
+D Diode, anode on pins 1 and 2
+K diode
+F ~
+$ENDCMP
+#
 $CMP D_ALT
 D Diode, filled shape
 K diode
@@ -279,6 +291,24 @@ $ENDCMP
 $CMP D_Capacitance_ALT
 D Variable capacitance diode, filled shape
 K capacitance diode varicap varactor
+F ~
+$ENDCMP
+#
+$CMP D_KAA
+D Diode, anode on pins 2 and 3
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_KAK
+D Diode, cathode on pins 1 and 3
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_KKA
+D Diode, cathode on pins 1 and 2
+K diode
 F ~
 $ENDCMP
 #
@@ -810,9 +840,21 @@ K LED diode
 F ~
 $ENDCMP
 #
+$CMP LED_ABRG
+D RGB LED, anode/blue/red/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP LED_ALT
 D Light emitting diode, filled shape
 K LED diode
+F ~
+$ENDCMP
+#
+$CMP LED_ARBG
+D RGB LED, anode/red/blue/green
+K LED RGB Diode
 F ~
 $ENDCMP
 #
@@ -920,6 +962,18 @@ $ENDCMP
 #
 $CMP LED_RGB
 D RGB LED, 6 pin package
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RGBA
+D RGB LED, red/green/blue/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RGBC
+D RGB LED, red/green/blue/cathode
 K LED RGB diode
 F ~
 $ENDCMP
@@ -1200,6 +1254,12 @@ K transistor NPN
 F ~
 $ENDCMP
 #
+$CMP Q_DUAL_NPN_NPN_C2E2C1E1B1B2
+D Dual NPN transistor, 6 pin package
+K transistor NPN
+F ~
+$ENDCMP
+#
 $CMP Q_DUAL_NPN_NPN_E1B1C2E2B2C1
 D Dual NPN transistor, 6 pin package
 K transistor NPN
@@ -1252,6 +1312,12 @@ $CMP Q_DUAL_PNP_PNP_C1B1B2C2E2E1
 D Dual PNP transistor, 6 pin package
 K transistor PNP
 F https://www.diodes.com/assets/Datasheets/ds30437.pdf
+$ENDCMP
+#
+$CMP Q_DUAL_PNP_PNP_C2E2C1E1B1B2
+D Dual PNP transistor, 6 pin package
+K transistor PNP
+F ~
 $ENDCMP
 #
 $CMP Q_DUAL_PNP_PNP_E1B1C2E2B2C1
@@ -2046,6 +2112,12 @@ K resistor variable
 F ~
 $ENDCMP
 #
+$CMP R_POT_Small
+D Potentiometer
+K resistor variable
+F ~
+$ENDCMP
+#
 $CMP R_POT_TRIM
 D Trim-potentiometer
 K resistor variable trimpot trimmer
@@ -2098,6 +2170,12 @@ $CMP R_Pack04_SIP
 D 4 resistor network, parallel topology, SIP package
 K R network parallel topology isolated
 F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_Pack04_Split
+D 4 resistor network, parallel topology
+K R network parallel topology isolated
+F ~
 $ENDCMP
 #
 $CMP R_Pack05

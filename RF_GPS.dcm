@@ -66,6 +66,12 @@ K ublox GPS GNSS module
 F https://www.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_%28UBX-15031086%29.pdf
 $ENDCMP
 #
+$CMP NEO-M8P
+D GNSS RTK Module NEO M8, VCC 2.7V to 3.6V
+K ublox GPS GNSS RTK module
+F https://www.u-blox.com/sites/default/files/NEO-M8P_DataSheet_%28UBX-15016656%29.pdf
+$ENDCMP
+#
 $CMP NEO-M8Q
 D GNSS Module NEO M8, VCC 2.7V to 3.6V
 K ublox GPS GNSS module

@@ -54,6 +54,24 @@ K rf switch sp4t absorptive
 F https://www.analog.com/media/en/technical-documentation/data-sheets/HMC7992.pdf
 $ENDCMP
 #
+$CMP KSW-2-46
+D SPDT DC-4.6GHz reflective switch, 50 Ohm, XX112
+K RF SPDT switch
+F https://www.minicircuits.com/pdfs/KSW-2-46+.pdf
+$ENDCMP
+#
+$CMP KSWA-2-46
+D SPDT DC-4.6GHz absorbative switch, 50 Ohm, XX112
+K RF SPDT switch
+F https://www.minicircuits.com/pdfs/KSWA-2-46+.pdf
+$ENDCMP
+#
+$CMP KSWHA-1-20
+D SPST DC-2.0GHz absorbative switch, 50 Ohm, XX112
+K RF SPST switch
+F https://www.minicircuits.com/pdfs/KSWHA-1-20+.pdf
+$ENDCMP
+#
 $CMP MASW-007221
 D Macom GaAs RF SPDT switch, DC-3GHz, 0.56/12dB loss/isolation, SOT-363
 K RF SWITCH SPDT
@@ -111,25 +129,31 @@ $ENDCMP
 $CMP MSW-2-20
 D SPDT DC-2.0GHz reflective switch, 50 Ohm, SOP-8
 K RF SPDT switch
-F https://ww2.minicircuits.com/pdfs/MSW-2-20+.pdf
+F https://www.minicircuits.com/pdfs/MSW-2-20+.pdf
 $ENDCMP
 #
 $CMP MSW2-50
 D SPDT DC-5.0GHz reflective switch, 50 Ohm, QFN-12
 K RF SPDT switch
-F https://ww2.minicircuits.com/pdfs/MSW2-50+.pdf
+F https://www.minicircuits.com/pdfs/MSW2-50+.pdf
 $ENDCMP
 #
 $CMP MSWA-2-20
 D SPDT DC-2.0GHz absorbative switch, 50 Ohm, SOP-8
 K RF SPDT switch
-F https://ww2.minicircuits.com/pdfs/MSWA-2-20+.pdf
+F https://www.minicircuits.com/pdfs/MSWA-2-20+.pdf
 $ENDCMP
 #
 $CMP MSWA2-50
 D SPDT DC-5.0GHz absorbative switch, 50 Ohm, QFN-12
 K RF SPDT switch
-F https://ww2.minicircuits.com/pdfs/MSWA2-50+.pdf
+F https://www.minicircuits.com/pdfs/MSWA2-50+.pdf
+$ENDCMP
+#
+$CMP SKY13575-639LF
+D SP4T 100MHz-6GHz absorptive switch, 50 Ohm, QFN-14
+K rf switch sp4t absorptive
+F https://www.skyworksinc.com/-/media/SkyWorks/Documents/Products/2201-2300/SKY13575_639LF_203270D.pdf
 $ENDCMP
 #
 #End Doc Library
