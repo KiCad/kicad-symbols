@@ -480,10 +480,28 @@ K diode
 F https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf
 $ENDCMP
 #
+$CMP BAS16W
+D 100V, 0.175A, High-speed Switching Diode, SOT-323
+K diode
+F https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf
+$ENDCMP
+#
+$CMP BAS316
+D 100V, 0.25A, High-speed Switching Diode, SOD-323
+K diode
+F https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf
+$ENDCMP
+#
 $CMP BAS40-04
 D 40V 0.2A Dual Small Signal Schottky Diodes
 K Schottky, Diode
 F http://www.vishay.com/docs/85701/bas40v.pdf
+$ENDCMP
+#
+$CMP BAS516
+D 100V, 0.25A, High-speed Switching Diode, SOD-523
+K diode
+F https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf
 $ENDCMP
 #
 $CMP BAT41
@@ -570,6 +588,12 @@ K dual schottky diode
 F https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf
 $ENDCMP
 #
+$CMP BAT54J
+D 30V 200mA Schottky diode, SOD-323F
+K diode Schottky
+F https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf
+$ENDCMP
+#
 $CMP BAT54S
 D schottky barrier diode
 K schottky diode
@@ -654,6 +678,30 @@ K diode
 F http://www.vishay.com/docs/85543/bav17.pdf
 $ENDCMP
 #
+$CMP BAV300
+D 50V 0.25A Switching Diode, High Voltage, MicroMELF
+K diode
+F http://www.vishay.com/docs/85545/bav300.pdf
+$ENDCMP
+#
+$CMP BAV301
+D 100V 0.25A Switching Diode, High Voltage, MicroMELF
+K diode
+F http://www.vishay.com/docs/85545/bav300.pdf
+$ENDCMP
+#
+$CMP BAV302
+D 150V 0.25A Switching Diode, High Voltage, MicroMELF
+K diode
+F http://www.vishay.com/docs/85545/bav300.pdf
+$ENDCMP
+#
+$CMP BAV303
+D 200V 0.25A Switching Diode, High Voltage, MicroMELF
+K diode
+F http://www.vishay.com/docs/85545/bav300.pdf
+$ENDCMP
+#
 $CMP BAV70
 D Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23
 K diode
@@ -691,7 +739,7 @@ F https://assets.nexperia.com/documents/data-sheet/BAV756S_BAW56_SER.pdf
 $ENDCMP
 #
 $CMP BAV99
-D BAV99 High-speed switching diodes
+D BAV99 High-speed switching diodes, SOT-23
 K diode
 F https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf
 $ENDCMP
@@ -750,10 +798,34 @@ K diode
 F http://pdf.datasheetcatalog.com/datasheet/philips/BYV79-100.pdf
 $ENDCMP
 #
+$CMP BZD27Cxx
+D 800mW Zener Diode, 3.6-200V, SMF
+K zener diode
+F https://www.vishay.com/docs/85153/bzd27series.pdf
+$ENDCMP
+#
+$CMP BZM55Bxx
+D 500mW Zener Diode, 2%, MicroMELF
+K zener diode
+F http://www.vishay.com/docs/85597/bzm55.pdf
+$ENDCMP
+#
+$CMP BZM55Cxx
+D 500mW Zener Diode, 6%, MicroMELF
+K zener diode
+F http://www.vishay.com/docs/85597/bzm55.pdf
+$ENDCMP
+#
 $CMP BZT52Bxx
 D 500mW Zener Diode, SOD-123
 K zener diode
 F https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf
+$ENDCMP
+#
+$CMP BZX384-xxx
+D 300mW Zener Diode, SOD-323
+K zener diode
+F https://assets.nexperia.com/documents/data-sheet/BZX384_SERIES.pdf
 $ENDCMP
 #
 $CMP BZX84Cxx
@@ -1302,6 +1374,18 @@ K zener diode
 F https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S36000L_E.pdf
 $ENDCMP
 #
+$CMP ESD9B3.3ST5G
+D ESD protection diode, 3.3Vrwm, SOD-923
+K diode TVS ESD
+F https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF
+$ENDCMP
+#
+$CMP ESD9B5.0ST5G
+D ESD protection diode, 5.0Vrwm, SOD-923
+K diode TVS ESD
+F https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF
+$ENDCMP
+#
 $CMP HN2D02FU
 D Ultra high speed switching diode array 3 independent
 K diode
@@ -1452,6 +1536,18 @@ K diode Schottky
 F https://www.onsemi.com/pub/Collateral/MBRA340T3-D.PDF
 $ENDCMP
 #
+$CMP MCL4148
+D 75V 0.2A Switching Diode, MicroMELF
+K diode
+F http://www.vishay.com/docs/85566/mlc4148.pdf
+$ENDCMP
+#
+$CMP MCL4448
+D 75V 0.2A Switching Diode, MicroMELF
+K diode
+F http://www.vishay.com/docs/85566/mlc4148.pdf
+$ENDCMP
+#
 $CMP MM3Zxx
 D 300mW Zener Diode, SOD-123F
 K zener diode
@@ -1572,6 +1668,12 @@ K diode Schottky
 F https://www.onsemi.com/pub/Collateral/NSR0340H-D.PDF
 $ENDCMP
 #
+$CMP PMEG4050EP
+D 40V 5.0A Schottky Diode, SOD-128
+K diode Schottky
+F https://assets.nexperia.com/documents/data-sheet/PMEG4050EP.pdf
+$ENDCMP
+#
 $CMP PMEG6010CEH
 D 60V 1A very low Vf MEGA Schottky barrier rectifier, SOD-123
 K diode Schottky
@@ -1582,6 +1684,18 @@ $CMP PMEG6010CEJ
 D 60V 1A very low Vf MEGA Schottky barrier rectifier, SOD-323
 K diode Schottky
 F https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf
+$ENDCMP
+#
+$CMP PMEG6030EP
+D 60V 3.0A Schottky Diode, SOD-128
+K diode Schottky
+F https://assets.nexperia.com/documents/data-sheet/PMEG6030EP.pdf
+$ENDCMP
+#
+$CMP PMEG6045ETP
+D 60V 4.5A Schottky Diode, SOD-128
+K diode Schottky
+F https://assets.nexperia.com/documents/data-sheet/PMEG6045ETP.pdf
 $ENDCMP
 #
 $CMP Panasonic_MA5J002E
@@ -1728,6 +1842,12 @@ K diode
 F https://www.st.com/resource/en/datasheet/stth212.pdf
 $ENDCMP
 #
+$CMP SZESD9B5.0ST5G
+D ESD protection diode, 5.0Vrwm, SOD-923
+K diode TVS ESD
+F https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF
+$ENDCMP
+#
 $CMP Toshiba_HN1D01FU
 D Ultra High Speed Switching Diode Array 2 pair Com A
 K diode
@@ -1786,6 +1906,54 @@ $CMP UF5408
 D 1000V 3A Soft Recovery Ultrafast Rectifier Diode, DO-201AD
 K diode
 F http://www.vishay.com/docs/88756/uf5400.pdf
+$ENDCMP
+#
+$CMP US1A
+D 50V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.diodes.com/assets/Datasheets/ds16008.pdf
+$ENDCMP
+#
+$CMP US1B
+D 100V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.diodes.com/assets/Datasheets/ds16008.pdf
+$ENDCMP
+#
+$CMP US1D
+D 200V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.diodes.com/assets/Datasheets/ds16008.pdf
+$ENDCMP
+#
+$CMP US1G
+D 400V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.diodes.com/assets/Datasheets/ds16008.pdf
+$ENDCMP
+#
+$CMP US1J
+D 600V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.diodes.com/assets/Datasheets/ds16008.pdf
+$ENDCMP
+#
+$CMP US1K
+D 800V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.diodes.com/assets/Datasheets/ds16008.pdf
+$ENDCMP
+#
+$CMP US1M
+D 1000V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.diodes.com/assets/Datasheets/ds16008.pdf
+$ENDCMP
+#
+$CMP VS-6ESU06
+D 600V 6.0A Ultrafast Rectifier, TO-277A
+K diode fred
+F https://www.vishay.com/docs/94987/vs-6esu06hm3.pdf
 $ENDCMP
 #
 $CMP Z1SMAxxx

@@ -240,6 +240,12 @@ K AC diode DIAC
 F ~
 $ENDCMP
 #
+$CMP D_AAK
+D Diode, anode on pins 1 and 2
+K diode
+F ~
+$ENDCMP
+#
 $CMP D_ALT
 D Diode, filled shape
 K diode
@@ -285,6 +291,24 @@ $ENDCMP
 $CMP D_Capacitance_ALT
 D Variable capacitance diode, filled shape
 K capacitance diode varicap varactor
+F ~
+$ENDCMP
+#
+$CMP D_KAA
+D Diode, anode on pins 2 and 3
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_KAK
+D Diode, cathode on pins 1 and 3
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_KKA
+D Diode, cathode on pins 1 and 2
+K diode
 F ~
 $ENDCMP
 #
@@ -828,6 +852,12 @@ K LED diode
 F ~
 $ENDCMP
 #
+$CMP LED_ARBG
+D RGB LED, anode/red/blue/green
+K LED RGB Diode
+F ~
+$ENDCMP
+#
 $CMP LED_ARGB
 D RGB LED, anode/red/green/blue
 K LED RGB diode
@@ -996,7 +1026,55 @@ K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
+$CMP L_Core_Ferrite_Coupled_1243
+D Coupled inductor with ferrite core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Ferrite_Coupled_1324
+D Coupled inductor with ferrite core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Ferrite_Coupled_1342
+D Coupled inductor with ferrite core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Ferrite_Coupled_1423
+D Coupled inductor with ferrite core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
 $CMP L_Core_Ferrite_Coupled_Small
+D Coupled inductor with ferrite core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Ferrite_Coupled_Small_1243
+D Coupled inductor with ferrite core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Ferrite_Coupled_Small_1324
+D Coupled inductor with ferrite core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Ferrite_Coupled_Small_1342
+D Coupled inductor with ferrite core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Ferrite_Coupled_Small_1423
 D Coupled inductor with ferrite core, small symbol
 K inductor choke coil reactor magnetic coupled
 F ~
@@ -1020,7 +1098,55 @@ K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
+$CMP L_Core_Iron_Coupled_1243
+D Coupled inductor with iron core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Iron_Coupled_1324
+D Coupled inductor with iron core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Iron_Coupled_1342
+D Coupled inductor with iron core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Iron_Coupled_1423
+D Coupled inductor with iron core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
 $CMP L_Core_Iron_Coupled_Small
+D Coupled inductor with iron core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Iron_Coupled_Small_1243
+D Coupled inductor with iron core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Iron_Coupled_Small_1324
+D Coupled inductor with iron core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Iron_Coupled_Small_1342
+D Coupled inductor with iron core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Iron_Coupled_Small_1423
 D Coupled inductor with iron core, small symbol
 K inductor choke coil reactor magnetic coupled
 F ~
@@ -1038,7 +1164,55 @@ K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
+$CMP L_Coupled_1243
+D Coupled inductor
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Coupled_1324
+D Coupled inductor
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Coupled_1342
+D Coupled inductor
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Coupled_1423
+D Coupled inductor
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
 $CMP L_Coupled_Small
+D Coupled inductor, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Coupled_Small_1243
+D Coupled inductor, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Coupled_Small_1324
+D Coupled inductor, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Coupled_Small_1342
+D Coupled inductor, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Coupled_Small_1423
 D Coupled inductor, small symbol
 K inductor choke coil reactor magnetic coupled
 F ~
@@ -1224,6 +1398,12 @@ K transistor NPN
 F ~
 $ENDCMP
 #
+$CMP Q_DUAL_NPN_NPN_C2E2C1E1B1B2
+D Dual NPN transistor, 6 pin package
+K transistor NPN
+F ~
+$ENDCMP
+#
 $CMP Q_DUAL_NPN_NPN_E1B1C2E2B2C1
 D Dual NPN transistor, 6 pin package
 K transistor NPN
@@ -1276,6 +1456,12 @@ $CMP Q_DUAL_PNP_PNP_C1B1B2C2E2E1
 D Dual PNP transistor, 6 pin package
 K transistor PNP
 F https://www.diodes.com/assets/Datasheets/ds30437.pdf
+$ENDCMP
+#
+$CMP Q_DUAL_PNP_PNP_C2E2C1E1B1B2
+D Dual PNP transistor, 6 pin package
+K transistor PNP
+F ~
 $ENDCMP
 #
 $CMP Q_DUAL_PNP_PNP_E1B1C2E2B2C1
@@ -2128,6 +2314,12 @@ $CMP R_Pack04_SIP
 D 4 resistor network, parallel topology, SIP package
 K R network parallel topology isolated
 F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_Pack04_Split
+D 4 resistor network, parallel topology
+K R network parallel topology isolated
+F ~
 $ENDCMP
 #
 $CMP R_Pack05
