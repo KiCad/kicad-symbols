@@ -126,6 +126,30 @@ K USB HUB Ethernet 10/100
 F http://ww1.microchip.com/downloads/en/DeviceDoc/00002306A.pdf
 $ENDCMP
 #
+$CMP VSC8489-02
+D Dual Channel WAN/LAN/Backplane RXAUI/XAUI to SFP+/10GBASE-KR Ethernet PHY
+K Ethernet PHY 10GBASE-KR SFP+ XAUI RXAUI
+F http://ww1.microchip.com/downloads/en/DeviceDoc/VMDS-10502.pdf
+$ENDCMP
+#
+$CMP VSC8489-17
+D Dual Channel WAN/LAN/Backplane RXAUI/XAUI to SFP+/10GBASE-KR Ethernet PHY with IEEE 1588v2 support
+K Ethernet PHY 10GBASE-KR SFP+ XAUI RXAUI IEEE1588v2
+F http://ww1.microchip.com/downloads/en/DeviceDoc/VMDS-10504.pdf
+$ENDCMP
+#
+$CMP VSC8490-17
+D Dual Channel WAN/LAN/Backplane RXAUI/XAUI to SFP+/10GBASE-KR Ethernet PHY with IEEE 1588v2 and MACsec support
+K Ethernet PHY 10GBASE-KR SFP+ XAUI RXAUI IEEE1588v2 MACsec
+F http://ww1.microchip.com/downloads/en/DeviceDoc/VMDS-10505.pdf
+$ENDCMP
+#
+$CMP VSC8491-17
+D WAN/LAN/Backplane RXAUI/XAUI to SFP+/10GBASE-KR Ethernet PHY with IEEE 1588v2 and MACsec support
+K Ethernet PHY 10GBASE-KR SFP+ XAUI RXAUI IEEE1588v2 MACsec
+F http://ww1.microchip.com/downloads/en/DeviceDoc/VMDS-10506.pdf
+$ENDCMP
+#
 $CMP VSC8541XMV-0x
 D Single Port Gigabit Ethernet, GMII/RGMII/MII/RMII Interfaces, QFN-68
 K Gigabit Ethernet PHY GMII RGMII MII RMII
