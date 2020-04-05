@@ -72,6 +72,12 @@ K USB SMBUS bridge
 F https://www.silabs.com/documents/public/data-sheets/cp2112-datasheet.pdf
 $ENDCMP
 #
+$CMP CP2615-xx-xM
+D USB to I2S bridge, USB 1.0 Audio Class, QFN-32
+K usb i2s i2c uart audio bridge hid gpio
+F https://www.silabs.com/documents/public/data-sheets/cp2615-datasheet.pdf
+$ENDCMP
+#
 $CMP CY7C65211-24LTXI
 D USB-Serial single channel bridge with capsense and BCD, +1.71V to +5.5V VDD, UART/I2C/SPI/RS232/RS422, QFN-24
 K USB-Serial single channel bridge
