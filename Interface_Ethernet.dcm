@@ -126,6 +126,12 @@ K USB HUB Ethernet 10/100
 F http://ww1.microchip.com/downloads/en/DeviceDoc/00002306A.pdf
 $ENDCMP
 #
+$CMP RTL8211EG-VB-CG
+D 10/100/1000Mbps Ethernet Transceiver with RGMII/GMII/MII/RMII Interface, QFN-64
+K Ethernet Phy Gigabit
+F https://datasheet.lcsc.com/szlcsc/Realtek-Semicon-RTL8211EG-VB-CG_C69264.pdf
+$ENDCMP
+#
 $CMP VSC8541XMV-0x
 D Single Port Gigabit Ethernet, GMII/RGMII/MII/RMII Interfaces, QFN-68
 K Gigabit Ethernet PHY GMII RGMII MII RMII
