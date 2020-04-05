@@ -1722,6 +1722,12 @@ K N-Channel MOSFET
 F https://www.infineon.com/dgdl/Infineon-IPDD60R190G7-DS-v02_00-EN.pdf?fileId=5546d4626102d35a01617087dc0f79ea
 $ENDCMP
 #
+$CMP IPP060N06N
+D 45A Id, 60V Vds, Single N-Channel Power MOSFET, 6mOhm Ron, TO-220-3
+K N-Channel Power MOSFET Infineon
+F https://www.infineon.com/dgdl/Infineon-IPP060N06N-DS-v02_02-en.pdf?fileId=db3a30433727a44301372c06d9d7498a
+$ENDCMP
+#
 $CMP IPT012N08N5
 D 300A Id, 80V Vds, OptiMOS N-Channel Power MOSFET, 1.2mOhm Ron, Qg (typ) 178.0nC, PG-HSOF-8
 K OptiMOS Power MOSFET N-MOS
