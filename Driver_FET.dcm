@@ -42,10 +42,22 @@ K Driver MOSFET
 F http://www.onsemi.com/pub/Collateral/FAN3268T_F085-D.PDF
 $ENDCMP
 #
+$CMP FAN3278
+D 8-27V PMOS-NMOS Bridge Driver, SOIC-8
+K Driver MOSFET
+F https://www.onsemi.com/pub/Collateral/FAN3278-D.pdf
+$ENDCMP
+#
 $CMP FAN7371
 D High-Current High-Side Gate Driver, 600V Vs, 4A Io, SOIC-8
 K high-side gate driver
 F https://www.fairchildsemi.com/datasheets/FA/FAN7371.pdf
+$ENDCMP
+#
+$CMP FAN7388
+D 3 Half-Bridge Gate-Drive IC, 600V operation, Output Current 350/650mA, SOIC-20
+K 3 Phase Gate Driver
+F https://www.onsemi.com/pub/Collateral/FAN7388-D.pdf
 $ENDCMP
 #
 $CMP FAN7842
@@ -886,6 +898,12 @@ $CMP UCC21520DW
 D Isolated Dual-Channel Gate Driver, Output Current 4.0/6.0A, 5.7kV Isolation, 8V UVLO, SOIC-16W
 K Dual Isolated Gate Driver
 F http://www.ti.com/lit/ds/symlink/ucc21520.pdf
+$ENDCMP
+#
+$CMP UCC27714D
+D High-Speed, 600-V High-Side Low-Side Gate Driver, SOIC-14
+K gate driver bootstrap
+F http://www.ti.com/lit/ds/symlink/ucc27714.pdf
 $ENDCMP
 #
 $CMP ZXGD3001E6
