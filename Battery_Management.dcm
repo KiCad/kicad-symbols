@@ -84,6 +84,16 @@ K Battery, Charger, Li-Ion, Li-Poly
 F http://www.ti.com/lit/ds/symlink/bq24133.pdf
 $ENDCMP
 #
+$CMP BQ24166RGE
+D High efficiency switched mode Li-Ion and Li-Polymer battery charger, integrated MOSFETs, power path selector and standard temperature sensing, Texas R-RGE0024H
+F https://www.ti.com/lit/ds/symlink/bq24166.pdf
+$ENDCMP
+#
+$CMP BQ24167RGE
+D High efficiency switched mode Li-Ion and Li-Polymer battery charger, integrated MOSFETs, power path selector and JEITA compatible temperature sensing, Texas R-RGE0024H
+F https://www.ti.com/lit/ds/symlink/bq24166.pdf
+$ENDCMP
+#
 $CMP BQ2501x
 D 500mA Li-Ion Charger w/Integrated 150mA Synchronous Buck Converter, QFN-14
 K Li-ion buck
