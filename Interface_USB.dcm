@@ -126,6 +126,12 @@ K USB-Serial single channel bridge
 F http://www.cypress.com/file/129956/download
 $ENDCMP
 #
+$CMP FE1.1s
+D USB 2.0 High Speed 4-Port Hub Controller, SSOP-28
+K 4-Port, EEPROM, High Speed, Hub, USB2.0
+F https://cdn-shop.adafruit.com/product-files/2991/FE1.1s+Data+Sheet+(Rev.+1.0).pdf
+$ENDCMP
+#
 $CMP FSUSB42MUX
 D Low-Power, Two-Port, High-Speed, USB2.0 (480Mbps) or UART Switch, MSOP-10
 K USB 2.0 UART High Speed Switch
