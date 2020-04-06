@@ -9,7 +9,7 @@ F1 "DIODE" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
-F5 "V" 0 0 50 H I L CNN "Spice_Primitive"
+F5 "D" 0 0 50 H I L CNN "Spice_Primitive"
 DRAW
 P 2 0 1 0 50 0 -50 0 N
 P 2 0 1 10 50 50 50 -50 N
@@ -233,7 +233,7 @@ F1 "OPAMP" 150 -125 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Y" 0 0 50 H I L CNN "Spice_Netlist_Enabled"
-F5 "V" 0 0 50 H I L CNN "Spice_Primitive"
+F5 "X" 0 0 50 H I L CNN "Spice_Primitive"
 DRAW
 P 4 0 1 10 200 0 -200 200 -200 -200 200 0 f
 X + 1 -300 100 100 R 50 50 1 1 I
