@@ -90,4 +90,58 @@ K STM8 Microcontroller Value Line
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00024550.pdf
 $ENDCMP
 #
+$CMP STM8S207C6
+D 24 MHz, 32 KB Flash, 2KB EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, LQFP-48
+K STM8 Microcontroller Performance Line
+F https://www.st.com/resource/en/datasheet/stm8s208cb.pdf
+$ENDCMP
+#
+$CMP STM8S207C8
+D 24 MHz, 64 KB Flash, 2KB EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, LQFP-48
+K STM8 Microcontroller Performance Line
+F https://www.st.com/resource/en/datasheet/stm8s208cb.pdf
+$ENDCMP
+#
+$CMP STM8S207CB
+D 24 MHz, 128 KB Flash, 2KB EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, LQFP-48
+K STM8 Microcontroller Performance Line
+F https://www.st.com/resource/en/datasheet/stm8s208cb.pdf
+$ENDCMP
+#
+$CMP STM8S208C6
+D 24 MHz, 32 KB Flash, 2KB EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, CAN, LQFP-48
+K STM8 Microcontroller Performance Line
+F https://www.st.com/resource/en/datasheet/stm8s208cb.pdf
+$ENDCMP
+#
+$CMP STM8S208C8
+D 24 MHz, 64 KB Flash, 2KB EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, CAN, LQFP-48
+K STM8 Microcontroller Performance Line
+F https://www.st.com/resource/en/datasheet/stm8s208cb.pdf
+$ENDCMP
+#
+$CMP STM8S208CB
+D 24 MHz, 128 KB Flash, 2KB EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, CAN, LQFP-48
+K STM8 Microcontroller Performance Line
+F https://www.st.com/resource/en/datasheet/stm8s208cb.pdf
+$ENDCMP
+#
+$CMP STM8S208R6
+D 24 MHz, 32 KB Flash, 2KB EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, CAN, LQFP-64
+K STM8 Microcontroller Performance Line
+F https://www.st.com/resource/en/datasheet/stm8s208rb.pdf
+$ENDCMP
+#
+$CMP STM8S208R8
+D 24 MHz, 64 KB Flash, 2KB EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, CAN, LQFP-64
+K STM8 Microcontroller Performance Line
+F https://www.st.com/resource/en/datasheet/stm8s208rb.pdf
+$ENDCMP
+#
+$CMP STM8S208RB
+D 24 MHz, 128 KB Flash, 2KB EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, CAN, LQFP-64
+K STM8 Microcontroller Performance Line
+F https://www.st.com/resource/en/datasheet/stm8s208rb.pdf
+$ENDCMP
+#
 #End Doc Library
