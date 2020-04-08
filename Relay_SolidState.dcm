@@ -18,6 +18,30 @@ K NPN DC Optocoupler
 F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
 $ENDCMP
 #
+$CMP AQH0213A
+D Zero Cross Opto-Triac, Vdrm 600V, Ift 10mA, IT 300mA
+K Opto-Triac Opto Triac Zero Cross Solid State Relays
+F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/2787
+$ENDCMP
+#
+$CMP AQH1213A
+D Zero Cross Opto-Triac, Vdrm 600V, Ift 10mA, IT 600mA
+K Opto-Triac Opto Triac Zero Cross Solid State Relays
+F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/2787
+$ENDCMP
+#
+$CMP AQH2213A
+D Zero Cross Opto-Triac, Vdrm 600V, Ift 10mA, IT 900mA
+K Opto-Triac Opto Triac Zero Cross Solid State Relays
+F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/2787
+$ENDCMP
+#
+$CMP AQH3213A
+D Zero Cross Opto-Triac, Vdrm 600V, Ift 10mA, IT 1.2A
+K Opto-Triac Opto Triac Zero Cross Solid State Relays
+F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/2787
+$ENDCMP
+#
 $CMP ASSR-1218
 D Form A, Solid State Relay (Photo MOSFET) 60V, 0.2A, 10Ohm, SO-4
 K MOSFET Output Photorelay 1-Form-A
