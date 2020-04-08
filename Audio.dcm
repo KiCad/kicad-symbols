@@ -372,4 +372,10 @@ K audio dac 2ch 24bit 96kHz
 F http://www.nxp.com/docs/en/data-sheet/UDA1334ATS.pdf
 $ENDCMP
 #
+$CMP YM2149
+D Software-Controlled Sound Generator, DIP-40
+K audio ssg 3ch
+F http://www.ym2149.com/ym2149.pdf
+$ENDCMP
+#
 #End Doc Library
