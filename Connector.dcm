@@ -279,16 +279,19 @@ $ENDCMP
 $CMP AudioPlug2
 D Audio Jack, 4 Poles (Mono / TS)
 K audio jack plug stereo headphones TRRS connector
+F ~
 $ENDCMP
 #
 $CMP AudioPlug3
 D Audio Jack, 4 Poles (Stereo / TRS)
 K audio jack plug stereo headphones TRRS connector
+F ~
 $ENDCMP
 #
 $CMP AudioPlug4
 D Audio Jack, 4 Poles (Stereo / TRRS)
 K audio jack plug stereo headphones TRRS connector
+F ~
 $ENDCMP
 #
 $CMP Barrel_Jack
