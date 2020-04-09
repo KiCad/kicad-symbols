@@ -18,13 +18,13 @@ K ONFI NAND Flash
 F http://www.onfi.org/-/media/client/onfi/specs/onfi_4_2-gold.pdf
 $ENDCMP
 #
-$CMP ONFI_SDRx8_BGA-132
+$CMP ONFI_NV-DDRx8_BGA-63
 D generic JEDEC NAND Flash
 K ONFI NAND Flash
 F http://www.onfi.org/-/media/client/onfi/specs/onfi_4_2-gold.pdf
 $ENDCMP
 #
-$CMP ONFI_NV-DDRx8_BGA-63
+$CMP ONFI_SDRx8_BGA-132
 D generic JEDEC NAND Flash
 K ONFI NAND Flash
 F http://www.onfi.org/-/media/client/onfi/specs/onfi_4_2-gold.pdf
