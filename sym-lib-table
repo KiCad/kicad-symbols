@@ -50,6 +50,7 @@
   (lib (name Driver_LED)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Driver_LED.lib)(options "")(descr "LED drivers"))
   (lib (name Driver_Motor)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Driver_Motor.lib)(options "")(descr "Integrated motor driver and controller ICs"))
   (lib (name Driver_Relay)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Driver_Relay.lib)(options "")(descr "Relay drivers and controllers"))
+  (lib (name Driver_TEC)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Driver_TEC.lib)(options "")(descr "Thermoelectric cooler (Peltier) drivers and controllers"))
   (lib (name Fiber_Optic)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Fiber_Optic.lib)(options "")(descr "Fiber optic symbols"))
   (lib (name Filter)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Filter.lib)(options "")(descr "Filter symbols"))
   (lib (name FPGA_Lattice)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/FPGA_Lattice.lib)(options "")(descr "Lattice FPGA symbols"))
