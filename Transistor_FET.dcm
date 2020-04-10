@@ -1254,6 +1254,12 @@ K complementary mosfet
 F https://www.diodes.com/assets/Datasheets/DMC2053UVT.pdf
 $ENDCMP
 #
+$CMP DMG1012T
+D 20V Vds, 0.63 Id, N-Channel MOSFET with ESD protection, SOT-523
+K N-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/ds31783.pdf
+$ENDCMP
+#
 $CMP DMG2301L
 D -3A Id, -20V Vds, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET
@@ -1720,6 +1726,12 @@ $CMP IPDD60R190G7
 D 13A Id, 600V Vds, 190mOhm, N-Channel MOSFET, CoolMOS G7, PG-HDSOP-10-1 (DDPAK)
 K N-Channel MOSFET
 F https://www.infineon.com/dgdl/Infineon-IPDD60R190G7-DS-v02_00-EN.pdf?fileId=5546d4626102d35a01617087dc0f79ea
+$ENDCMP
+#
+$CMP IPP060N06N
+D 45A Id, 60V Vds, Single N-Channel Power MOSFET, 6mOhm Ron, TO-220
+K N-Channel Power MOSFET Infineon
+F https://www.infineon.com/dgdl/Infineon-IPP060N06N-DS-v02_02-en.pdf?fileId=db3a30433727a44301372c06d9d7498a
 $ENDCMP
 #
 $CMP IPT012N08N5

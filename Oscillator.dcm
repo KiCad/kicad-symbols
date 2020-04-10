@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 5P49V6965
+D Programmable Clock Generator, I2C interface, 1kHz-350MHz, QFN-24
+K Low-noise PLL Reference Clock
+F https://www.idt.com/document/dst/5p49v6965-datasheet
+$ENDCMP
+#
 $CMP ABLNO
 D LVCMOS Ultra Low Phase Noise XO / VCXO, Abracon ABLNO
 K XO VCXO
