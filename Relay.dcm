@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADW11
+D Panasonic, 8A/16A, Small Polarized Latching Power Relays, Single coil, 1 Form A
+K SPST 1P1T
+F https://www.panasonic-electric-works.com/pew/es/downloads/ds_dw_hl_en.pdf
+$ENDCMP
+#
 $CMP AZ850-x
 D American Zettler, Microminiature Polarised Dual Pole Relay
 K Miniature Polarised Relay Dual Pole
@@ -193,6 +199,12 @@ F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_1.pdf
 $ENDCMP
 #
 $CMP G5V-2
+D Relay Miniature Omron DPDT
+K Miniature Relay Dual Pole DPDT Omron
+F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf
+$ENDCMP
+#
+$CMP G5V-2_Split
 D Relay Miniature Omron DPDT
 K Miniature Relay Dual Pole DPDT Omron
 F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf
@@ -514,6 +526,42 @@ $CMP MSxx-1Bxx-75
 D Standex Meder MS reed relay, SPST, Opening Contact
 K Single Pole Reed Relay SPST
 F https://standexelectronics.com/de/produkte/ms-reed-relais/
+$ENDCMP
+#
+$CMP RAYEX-L90
+D Power relay, SPDT, 30A
+K 30A Single Pole Relay
+F https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+$ENDCMP
+#
+$CMP RAYEX-L90A
+D Power relay, NO, SPST, 30A
+K 30A Single Pole Relay
+F https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+$ENDCMP
+#
+$CMP RAYEX-L90AS
+D Power relay, Without Common Terminal between coil terminals, NO, SPST, 30A
+K 30A Single Pole Relay
+F https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+$ENDCMP
+#
+$CMP RAYEX-L90B
+D Power relay, NC, SPST, 30A
+K 30A Single Pole Relay
+F https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+$ENDCMP
+#
+$CMP RAYEX-L90BS
+D Power relay, Without Common Terminal between coil terminals, NC, SPST, 30A
+K 30A Single Pole Relay
+F https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
+$ENDCMP
+#
+$CMP RAYEX-L90S
+D Power relay, Without Common Terminal between coil terminals, SPDT, 30A
+K 30A Single Pole Relay
+F https://a3.sofastcdn.com/attachment/7jioKBjnRiiSrjrjknRiwS77gwbf3zmp/L90-SERIES.pdf
 $ENDCMP
 #
 $CMP RM50-xx21
