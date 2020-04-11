@@ -1458,6 +1458,12 @@ K Miniature Step-Down Buck Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lm2842-q1.pdf
 $ENDCMP
 #
+$CMP LM3150MH
+D 42V Wide Vin synchronous Buck controller, HTSSOP-14
+K Buck step-down converter
+F http://www.ti.com/lit/ds/symlink/lm3150.pdf
+$ENDCMP
+#
 $CMP LM3407MY
 D LED Lighting CC Floating Buck Switching Regulator, MSOP-8
 K LED Step-Down Switching Regulator
@@ -5352,6 +5358,12 @@ K Step-down
 F http://www.ti.com/lit/ds/symlink/tps51363.pdf
 $ENDCMP
 #
+$CMP TPS54061DRB
+D 0.2A, Step Down DC-DC Converter with Low IQ, 4.5-60V Input Voltage, VSON-8
+K Step-Down DC-DC Switching Regulator High Voltage Adjustable Frequency
+F http://www.ti.com/lit/ds/symlink/tps54061.pdf
+$ENDCMP
+#
 $CMP TPS5420D
 D Adjustable Output, 2A Step-Down Converter, 5.5V-36V Input, 500kHz Switching Frequency
 K switching buck converter step-down
@@ -5748,6 +5760,24 @@ K Step-Down DC-DC Converter
 F http://www.ti.com/lit/ds/symlink/tps62201.pdf
 $ENDCMP
 #
+$CMP TPS62821DLC
+D 1A Step-Down Converter with DCS-Control, adjustable output, 2.4-5.5V input voltage, QFN-8
+K step-down dc-dc buck regulator
+F http://www.ti.com/lit/ds/symlink/tps62823.pdf
+$ENDCMP
+#
+$CMP TPS62822DLC
+D 2A Step-Down Converter with DCS-Control, adjustable output, 2.4-5.5V input voltage, QFN-8
+K step-down dc-dc buck regulator
+F http://www.ti.com/lit/ds/symlink/tps62823.pdf
+$ENDCMP
+#
+$CMP TPS62823DLC
+D 3A Step-Down Converter with DCS-Control, adjustable output, 2.4-5.5V input voltage, QFN-8
+K step-down dc-dc buck regulator
+F http://www.ti.com/lit/ds/symlink/tps62823.pdf
+$ENDCMP
+#
 $CMP TPS63000
 D Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.8A Switch Current, Adjustable 1.2-5.5V Output Voltage, VSON-10
 K Buck-Boost adjustable converter
@@ -5896,6 +5926,30 @@ $CMP VIPer25LN
 D 12W SMPS Controller, AC-DC, PDIP-7
 K SMPS Controller with MOSFET 12W AC-DC
 F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00231127.pdf
+$ENDCMP
+#
+$CMP VIPer26HD
+D 800V, 10-20W, 115kHz, SMPS Controller, SOIC-16
+K SMPS Controller with MOSFET
+F https://www.st.com/resource/en/datasheet/viper26.pdf
+$ENDCMP
+#
+$CMP VIPer26HN
+D 800V, 10-20W, 115kHz, SMPS Controller, DIP-7
+K SMPS Controller with MOSFET
+F https://www.st.com/resource/en/datasheet/viper26.pdf
+$ENDCMP
+#
+$CMP VIPer26LD
+D 800V, 10-20W, 60kHz, SMPS Controller, SOIC-16
+K SMPS Controller with MOSFET
+F https://www.st.com/resource/en/datasheet/viper26.pdf
+$ENDCMP
+#
+$CMP VIPer26LN
+D 800V, 10-20W, 60kHz, SMPS Controller, DIP-7
+K SMPS Controller with MOSFET
+F https://www.st.com/resource/en/datasheet/viper26.pdf
 $ENDCMP
 #
 #End Doc Library

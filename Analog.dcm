@@ -12,6 +12,18 @@ K modulator demodulator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ad630.pdf
 $ENDCMP
 #
+$CMP AD654JN
+D Low Cost Monolithic Voltage-to-Frequency Converter, DIP-8
+K v-to-f v-f
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD654.pdf
+$ENDCMP
+#
+$CMP AD654JR
+D Low Cost Monolithic Voltage-to-Frequency Converter, SOIC-8
+K v-to-f v-f
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD654.pdf
+$ENDCMP
+#
 $CMP LF398H
 D Sample And Hold Unity Gain Follower, TO-99-8
 K sample hold buffer unity gain
