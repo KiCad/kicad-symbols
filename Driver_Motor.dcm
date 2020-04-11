@@ -156,8 +156,8 @@ K H-bridge motor driver
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000240.pdf
 $ENDCMP
 #
-$CMP L6219
-D Stepper motor driver, 750mA
+$CMP L6219DS
+D 750mA, 46V, Stepper motor driver, SO-24
 K bipolar stepper half-step full-step microstepping pwm
 F https://www.st.com/resource/en/datasheet/l6219.pdf
 $ENDCMP
