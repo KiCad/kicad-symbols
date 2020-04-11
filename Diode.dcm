@@ -1891,8 +1891,8 @@ F https://assets.nexperia.com/documents/data-sheet/PMEG4010EH_EJ_ET.pdf
 $ENDCMP
 #
 $CMP PMEG4050EP
-D 40V 5.0A Schottky Diode, SOD-128
-K diode Schottky
+D 40V, 5A low Vf Schottky barrier rectifier, SOD-128
+K forward voltage diode
 F https://assets.nexperia.com/documents/data-sheet/PMEG4050EP.pdf
 $ENDCMP
 #
@@ -1915,14 +1915,14 @@ F https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf
 $ENDCMP
 #
 $CMP PMEG6030EP
-D 60V 3.0A Schottky Diode, SOD-128
-K diode Schottky
+D 60V, 3A low Vf MEGA Schottky barrier rectifier, SOD-128
+K forward voltage diode
 F https://assets.nexperia.com/documents/data-sheet/PMEG6030EP.pdf
 $ENDCMP
 #
 $CMP PMEG6045ETP
-D 60V 4.5A Schottky Diode, SOD-128
-K diode Schottky
+D 60V, 4.5A High-Temperature Schottky barrier rectifier, SOD-128
+K forward voltage diode
 F https://assets.nexperia.com/documents/data-sheet/PMEG6045ETP.pdf
 $ENDCMP
 #
