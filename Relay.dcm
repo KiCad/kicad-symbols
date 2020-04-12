@@ -90,6 +90,12 @@ K Single Pole Relay SPDT
 F https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf
 $ENDCMP
 #
+$CMP FINDER-36.11
+D FINDER 36.11, SPDT relay, 10A
+K spdt relay
+F https://gfinder.findernet.com/public/attachments/36/EN/S36EN.pdf
+$ENDCMP
+#
 $CMP FINDER-36.11-4301
 D FINDER 36.11-4301, Single Pole Relay SPST-NO Sugar Cube, 10A
 K Single Pole Relay SPST-NO Sugar Cube
@@ -199,6 +205,12 @@ F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_1.pdf
 $ENDCMP
 #
 $CMP G5V-2
+D Relay Miniature Omron DPDT
+K Miniature Relay Dual Pole DPDT Omron
+F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf
+$ENDCMP
+#
+$CMP G5V-2_Split
 D Relay Miniature Omron DPDT
 K Miniature Relay Dual Pole DPDT Omron
 F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf
