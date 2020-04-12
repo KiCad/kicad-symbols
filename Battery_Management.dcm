@@ -6,6 +6,18 @@ K LiFePo4 Battery USB PMIC
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5063.pdf
 $ENDCMP
 #
+$CMP ADP5091
+D Ultralow Power Energy Harvester PMUs with MPPT and Charge Management, LFCSP-24
+K energy harvester
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5091-5092.pdf
+$ENDCMP
+#
+$CMP ADP5092
+D Ultralow Power Energy Harvester PMUs with MPPT and Charge Management, LFCSP-24
+K energy harvester
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5091-5092.pdf
+$ENDCMP
+#
 $CMP AP9101CK
 D Li+ Battery Protection IC for Single Cell Pack, SOT-23-5
 K battery protection li-ion li-po
@@ -82,6 +94,18 @@ $CMP BQ24133RGY
 D Synchronous switched mode Li-Ion and Li-Polymer battery charger, integrated MOSFETs and power path selector, Texas R-PVQFN-N24
 K Battery, Charger, Li-Ion, Li-Poly
 F http://www.ti.com/lit/ds/symlink/bq24133.pdf
+$ENDCMP
+#
+$CMP BQ24166RGE
+D High efficiency switched mode Li-Ion and Li-Polymer battery charger, integrated MOSFETs, power path selector and standard temperature sensing, Texas R-RGE0024H
+K Battery, Charger, Li-Ion, Li-Poly
+F https://www.ti.com/lit/ds/symlink/bq24166.pdf
+$ENDCMP
+#
+$CMP BQ24167RGE
+D High efficiency switched mode Li-Ion and Li-Polymer battery charger, integrated MOSFETs, power path selector and JEITA compatible temperature sensing, Texas R-RGE0024H
+K Battery, Charger, Li-Ion, Li-Poly
+F https://www.ti.com/lit/ds/symlink/bq24166.pdf
 $ENDCMP
 #
 $CMP BQ2501x

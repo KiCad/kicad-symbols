@@ -1,5 +1,71 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 0850BM14E0016
+D Sub-GHz Impedance Matched Balun + LPF integrated Passive
+K Sub-GHz Balun
+F https://www.johansontechnology.com/datasheets/0850BM14E0016/0850BM14E0016.pdf
+$ENDCMP
+#
+$CMP 1FP41-4R
+D 4A, 250VAC, 50/60Hz line filter
+K EMI
+F https://filtercon.com.pl/wp-content/uploads/2019/07/Karta-katalogowa-FP-12-1.pdf
+$ENDCMP
+#
+$CMP 1FP42-3R
+D 3A, 250VAC, 50/60Hz line filter
+K EMI
+F https://filtercon.com.pl/wp-content/uploads/2019/07/Karta-katalogowa-FP-12-1.pdf
+$ENDCMP
+#
+$CMP 1FP44-2R
+D 2A, 250VAC, 50/60Hz line filter
+K EMI
+F https://filtercon.com.pl/wp-content/uploads/2019/07/Karta-katalogowa-FP-12-1.pdf
+$ENDCMP
+#
+$CMP 1FP45-0R
+D 0.5A, 250VAC, 50/60Hz line filter
+K EMI
+F https://filtercon.com.pl/wp-content/uploads/2019/07/Karta-katalogowa-FP-12-1.pdf
+$ENDCMP
+#
+$CMP 1FP45-1R
+D 1A, 250VAC, 50/60Hz line filter
+K EMI
+F https://filtercon.com.pl/wp-content/uploads/2019/07/Karta-katalogowa-FP-12-1.pdf
+$ENDCMP
+#
+$CMP 1FP61-4R
+D 4A, 250VAC, 50/60Hz line filter
+K EMI
+F https://filtercon.com.pl/wp-content/uploads/2019/07/Karta-katalogowa-FP-12-1.pdf
+$ENDCMP
+#
+$CMP 1FP62-3R
+D 3A, 250VAC, 50/60Hz line filter
+K EMI
+F https://filtercon.com.pl/wp-content/uploads/2019/07/Karta-katalogowa-FP-12-1.pdf
+$ENDCMP
+#
+$CMP 1FP64-2R
+D 2A, 250VAC, 50/60Hz line filter
+K EMI
+F https://filtercon.com.pl/wp-content/uploads/2019/07/Karta-katalogowa-FP-12-1.pdf
+$ENDCMP
+#
+$CMP 1FP65-0R
+D 0.5A, 250VAC, 50/60Hz line filter
+K EMI
+F https://filtercon.com.pl/wp-content/uploads/2019/07/Karta-katalogowa-FP-12-1.pdf
+$ENDCMP
+#
+$CMP 1FP65-1R
+D 1A, 250VAC, 50/60Hz line filter
+K EMI
+F https://filtercon.com.pl/wp-content/uploads/2019/07/Karta-katalogowa-FP-12-1.pdf
+$ENDCMP
+#
 $CMP B39162B8813P810
 D 1582.47MHz SAW filter, SMD 1109
 K SAW filter
@@ -100,6 +166,18 @@ $CMP FN406B-8.4-02
 D 8.4A ultra compact EMI Filter, medical version
 K EMI mains
 F https://www.schaffner.com/products/download/product/datasheet/fn-406-ultra-compact-emc-filter/
+$ENDCMP
+#
+$CMP LTC1562xG-2
+D Active RC Quad Universal Filter, 20kHz to 300kHz, Low Noise, Low Distortion, SSOP-20
+K filter opamp quad
+F https://www.analog.com/media/en/technical-documentation/data-sheets/15622fa.pdf
+$ENDCMP
+#
+$CMP LTC1562xxG
+D Active RC Quad Universal Filter, 10kHz to 150kHz, Low Noise, Low Distortion, SSOP-20
+K filter opamp quad
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1562fa.pdf
 $ENDCMP
 #
 $CMP SAFFA1G58KA0F0A

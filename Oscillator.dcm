@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 5P49V6965
+D Programmable Clock Generator, I2C interface, 1kHz-350MHz, QFN-24
+K Low-noise PLL Reference Clock
+F https://www.idt.com/document/dst/5p49v6965-datasheet
+$ENDCMP
+#
 $CMP ABLNO
 D LVCMOS Ultra Low Phase Noise XO / VCXO, Abracon ABLNO
 K XO VCXO
@@ -136,6 +142,30 @@ $CMP KT2520K-T
 D 10-60MHz Temperature Compensated Crystal Oscillator, Kyocera 2520
 K tcxo
 F https://global.kyocera.com/prdct/electro/product/pdf/kt2520_e.pdf
+$ENDCMP
+#
+$CMP LTC6905xS5-100
+D 2.7-5.5V 100MHz Precision Fixed Frequency Silicon Oscillator, TSOT-23-5
+K oscillator fixed frequency divider silicon
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6905xfa.pdf
+$ENDCMP
+#
+$CMP LTC6905xS5-133
+D 2.7-5.5V 133MHz Precision Fixed Frequency Silicon Oscillator, TSOT-23-5
+K oscillator fixed frequency divider silicon
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6905xfa.pdf
+$ENDCMP
+#
+$CMP LTC6905xS5-80
+D 2.7-5.5V 80MHz Precision Fixed Frequency Silicon Oscillator, TSOT-23-5
+K oscillator fixed frequency divider silicon
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6905xfa.pdf
+$ENDCMP
+#
+$CMP LTC6905xS5-96
+D 2.7-5.5V 96MHz Precision Fixed Frequency Silicon Oscillator, TSOT-23-5
+K oscillator fixed frequency divider silicon
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6905xfa.pdf
 $ENDCMP
 #
 $CMP MAX7375AXR105

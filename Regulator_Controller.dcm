@@ -678,6 +678,12 @@ K PFC SMPS Controller
 F http://www.ti.com/lit/ds/symlink/uc3854.pdf
 $ENDCMP
 #
+$CMP UCC1895J
+D BiCMOS, Advanced Phase-ShiftPWM Controller, CDIP-20
+K Phase-shift full-bridge converter
+F http://www.ti.com/lit/ds/symlink/ucc3895.pdf
+$ENDCMP
+#
 $CMP UCC24610D
 D GREEN Rectifier Controller Device, 600kHz, SOIC-8
 K synchronous rectifier controller
@@ -742,6 +748,24 @@ $CMP UCC2894
 D SMPS Current-Mode Active Clamp PWM Controller, SOIC-16/TSSOP-16
 K SMPS PWM Controller
 F http://www.ti.com/lit/ds/symlink/ucc2894.pdf
+$ENDCMP
+#
+$CMP UCC2895DW
+D BiCMOS, Advanced Phase-ShiftPWM Controller, SOIC-20
+K Phase-shift full-bridge converter
+F http://www.ti.com/lit/ds/symlink/ucc3895.pdf
+$ENDCMP
+#
+$CMP UCC2895N
+D BiCMOS, Advanced Phase-ShiftPWM Controller, DIP-20
+K Phase-shift full-bridge converter
+F http://www.ti.com/lit/ds/symlink/ucc3895.pdf
+$ENDCMP
+#
+$CMP UCC2895PW
+D BiCMOS, Advanced Phase-ShiftPWM Controller, TSSOP-20
+K Phase-shift full-bridge converter
+F http://www.ti.com/lit/ds/symlink/ucc3895.pdf
 $ENDCMP
 #
 $CMP UCC2897
@@ -832,6 +856,24 @@ $CMP UCC3813-5
 D Low-Power Economy BiCMOS Current-Mode PWM, 50% Duty Cycle, 4.1V/3.6V UVLO, DIP-8/SOIC-8/TSSOP-8
 K SMPS PWM Controller
 F http://www.ti.com/lit/ds/symlink/ucc3813-1.pdf
+$ENDCMP
+#
+$CMP UCC3895DW
+D BiCMOS, Advanced Phase-ShiftPWM Controller, SOIC-20
+K Phase-shift full-bridge converter
+F http://www.ti.com/lit/ds/symlink/ucc3895.pdf
+$ENDCMP
+#
+$CMP UCC3895N
+D BiCMOS, Advanced Phase-ShiftPWM Controller, DIP-20
+K Phase-shift full-bridge converter
+F http://www.ti.com/lit/ds/symlink/ucc3895.pdf
+$ENDCMP
+#
+$CMP UCC3895PW
+D BiCMOS, Advanced Phase-ShiftPWM Controller, TSSOP-20
+K Phase-shift full-bridge converter
+F http://www.ti.com/lit/ds/symlink/ucc3895.pdf
 $ENDCMP
 #
 #End Doc Library
