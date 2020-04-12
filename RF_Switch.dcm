@@ -150,4 +150,10 @@ K RF SPDT switch
 F https://www.minicircuits.com/pdfs/MSWA2-50+.pdf
 $ENDCMP
 #
+$CMP SKY13575-639LF
+D SP4T 100MHz-6GHz absorptive switch, 50 Ohm, QFN-14
+K rf switch sp4t absorptive
+F https://www.skyworksinc.com/-/media/SkyWorks/Documents/Products/2201-2300/SKY13575_639LF_203270D.pdf
+$ENDCMP
+#
 #End Doc Library

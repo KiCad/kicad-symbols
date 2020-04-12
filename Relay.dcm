@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADW11
+D Panasonic, 8A/16A, Small Polarized Latching Power Relays, Single coil, 1 Form A
+K SPST 1P1T
+F https://www.panasonic-electric-works.com/pew/es/downloads/ds_dw_hl_en.pdf
+$ENDCMP
+#
 $CMP AZ850-x
 D American Zettler, Microminiature Polarised Dual Pole Relay
 K Miniature Polarised Relay Dual Pole
@@ -82,6 +88,12 @@ $CMP FINDER-34.51.7xxx.x019
 D Ultra-slim 1 Pole - 6A SPDT relay
 K Single Pole Relay SPDT
 F https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf
+$ENDCMP
+#
+$CMP FINDER-36.11
+D FINDER 36.11, SPDT relay, 10A
+K spdt relay
+F https://gfinder.findernet.com/public/attachments/36/EN/S36EN.pdf
 $ENDCMP
 #
 $CMP FINDER-36.11-4301
@@ -193,6 +205,12 @@ F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_1.pdf
 $ENDCMP
 #
 $CMP G5V-2
+D Relay Miniature Omron DPDT
+K Miniature Relay Dual Pole DPDT Omron
+F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf
+$ENDCMP
+#
+$CMP G5V-2_Split
 D Relay Miniature Omron DPDT
 K Miniature Relay Dual Pole DPDT Omron
 F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf
