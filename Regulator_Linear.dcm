@@ -1398,12 +1398,6 @@ K Fixed Voltage Regulator 1A Positive LDO
 F https://www.diodes.com/assets/Datasheets/AZ1117.pdf
 $ENDCMP
 #
-$CMP AZ1117-ADJ
-D 1A 20V Adjustable LDO Linear Regulator, SOT-89/SOT-223/TO-220/TO-252/TO-263
-K Adjustable Voltage Regulator 1A Positive LDO
-F https://www.diodes.com/assets/Datasheets/AZ1117.pdf
-$ENDCMP
-#
 $CMP BD15GA3WEFJ
 D 300mA, 1.5V LDO regulator with OVP & TSP, HTSOP-8
 K linear regulator fixed positive over voltage protection thermal shutdown
@@ -2646,16 +2640,16 @@ K Adjustable Voltage Regulator 3A Positive
 F http://www.ti.com/lit/ds/symlink/lm350a.pdf
 $ENDCMP
 #
-$CMP LM2931-5.0_SO8
-D Positive 100mA 30V Linear Regulator, Fixed Output 5V, SO-8
-K Voltage Regulator 100mA Positive
-F http://www.ti.com/lit/ds/symlink/lm2931-n.pdf
-$ENDCMP
-#
 $CMP LM2931-3.3_TO220
 D Positive 100 mA 60V Linear Low Dropout Regulator, Fixed Output 3.3V, TO-220
 K Low Dropout Voltage Regulator 100mA Positive
 F https://www.ti.com/lit/ds/symlink/lm2931-n.pdf
+$ENDCMP
+#
+$CMP LM2931-5.0_SO8
+D Positive 100mA 30V Linear Regulator, Fixed Output 5V, SO-8
+K Voltage Regulator 100mA Positive
+F http://www.ti.com/lit/ds/symlink/lm2931-n.pdf
 $ENDCMP
 #
 $CMP LM2931-5.0_TO220
@@ -2758,12 +2752,6 @@ $CMP LM317L_TO92
 D 100mA 35V Adjustable Linear Regulator, TO-92
 K Adjustable Voltage Regulator 100mA Positive
 F http://www.ti.com/lit/ds/snvs775k/snvs775k.pdf
-$ENDCMP
-#
-$CMP LM317_3PinPackage
-D 1A 35V Adjustable Linear Regulator, SOT-89/SOT-223/TO-220/TO-252/TO-263
-K Adjustable Voltage Regulator 1A Positive
-F http://www.ti.com/lit/ds/symlink/lm317.pdf
 $ENDCMP
 #
 $CMP LM317_TO3
