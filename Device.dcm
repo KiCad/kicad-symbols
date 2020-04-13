@@ -402,6 +402,18 @@ K diode
 F ~
 $ENDCMP
 #
+$CMP D_Schottky_x2_ACom_AKK_Parallel
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_x2_ACom_AKK_Split
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
 $CMP D_Schottky_x2_ACom_KAK
 D Dual Schottky diode, common anode on pin 2
 K diode
