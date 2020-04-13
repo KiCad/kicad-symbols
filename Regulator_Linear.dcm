@@ -2785,7 +2785,7 @@ F http://www.ti.com/lit/ds/snvs775k/snvs775k.pdf
 $ENDCMP
 #
 $CMP LM317L_SOT-89
-D 1A 35V Adjustable Linear Regulator, SOT-89
+D 100mA 35V Adjustable Linear Regulator, SOT-89
 K Adjustable Voltage Regulator 1A Positive
 F http://www.ti.com/lit/ds/symlink/lm317l.pdf
 $ENDCMP
@@ -2803,25 +2803,25 @@ F http://www.ti.com/lit/ds/symlink/lm317.pdf
 $ENDCMP
 #
 $CMP LM317_SOT-223
-D 1A 35V Adjustable Linear Regulator, SOT-223
+D 1.5A 35V Adjustable Linear Regulator, SOT-223
 K Adjustable Voltage Regulator 1A Positive
 F http://www.ti.com/lit/ds/symlink/lm317.pdf
 $ENDCMP
 #
 $CMP LM317_TO-220
-D 1A 35V Adjustable Linear Regulator, TO-220
+D 1.5A 35V Adjustable Linear Regulator, TO-220
 K Adjustable Voltage Regulator 1A Positive
 F http://www.ti.com/lit/ds/symlink/lm317.pdf
 $ENDCMP
 #
 $CMP LM317_TO-252
-D 1A 35V Adjustable Linear Regulator, TO-252
+D 1.5A 35V Adjustable Linear Regulator, TO-252
 K Adjustable Voltage Regulator 1A Positive
 F http://www.ti.com/lit/ds/snvs774n/snvs774n.pdf
 $ENDCMP
 #
 $CMP LM317_TO-263
-D 1A 35V Adjustable Linear Regulator, TO-263
+D 1.5A 35V Adjustable Linear Regulator, TO-263
 K Adjustable Voltage Regulator 1A Positive
 F http://www.ti.com/lit/ds/symlink/lm317.pdf
 $ENDCMP
