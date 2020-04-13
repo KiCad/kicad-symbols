@@ -966,4 +966,16 @@ K inverter
 F https://www.onsemi.com/pub/Collateral/NC7SVU04-D.pdf
 $ENDCMP
 #
+$CMP SN74LVC1G14DBV
+D Single Schmitt-Trigger Inverter, SOT-23
+K Inverter Schmitt Trigger
+F http://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf
+$ENDCMP
+#
+$CMP SN74LVC1G14DRL
+D Single Schmitt-Trigger Inverter, SOT-553
+K Inverter Schmitt Trigger
+F http://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf
+$ENDCMP
+#
 #End Doc Library

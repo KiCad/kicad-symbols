@@ -180,6 +180,18 @@ K single jfet opamp
 F http://www.ti.com/lit/ds/symlink/lf357.pdf
 $ENDCMP
 #
+$CMP LF351D
+D Wide bandwidth single JFET operational amplifier, SOIC-8
+K Single OpAmp JFET
+F https://www.st.com/resource/en/datasheet/lf351.pdf
+$ENDCMP
+#
+$CMP LF351N
+D Wide bandwidth single JFET operational amplifier, DIP-8
+K Single OpAmp JFET
+F https://www.st.com/resource/en/datasheet/lf351.pdf
+$ENDCMP
+#
 $CMP LF355
 D Single JFET Input Operational Amplifiers, DIP-8/SOIC-8
 K single jfet opamp
@@ -534,6 +546,12 @@ K quad opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/60812fd.pdf
 $ENDCMP
 #
+$CMP LTC6253xMS8
+D 720MHz, 3.5mA Power Efficient, Rail-to-Rail Op Amp, MSOP-8
+K dual opamp low-power
+F https://www.analog.com/media/en/technical-documentation/data-sheets/625234fc.pdf
+$ENDCMP
+#
 $CMP LTC6362xDD
 D Precision, Low Power, Rail-to-Rail Input/Output, Differential Op Amp/SAR ADC Driver, DFN-8
 K single differential opamp
@@ -694,6 +712,12 @@ $CMP MCP602
 D Dual 2.7V to 6.0V Single Supply CMOS Op Amps, DIP-8/SOIC-8/TSSOP-8
 K dual opamp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf
+$ENDCMP
+#
+$CMP MCP6022
+D Dual Operational Amplifiers, Rail-to-Rail Input/Output, DIP-8/SOIC-8/TSSOP-8
+K dual opamp rail-to-rail
+F http://ww1.microchip.com/downloads/en/devicedoc/20001685e.pdf
 $ENDCMP
 #
 $CMP MCP603-xCH
@@ -1642,6 +1666,12 @@ $CMP TLV6001DCK
 D Low-power, Rail-to-rail, 1MHz Operational Amplifier, SOT-353
 K op amp operational amplifier
 F http://www.ti.com/lit/ds/symlink/tlv6001.pdf
+$ENDCMP
+#
+$CMP TLV9001IDCK
+D Low-power, Rail-to-Rail, 1MHz Operational Amplifier, SOT-353
+K op amp operational amplifier
+F https://www.ti.com/lit/ds/symlink/tlv9001.pdf
 $ENDCMP
 #
 $CMP TLV9004xRUCR
