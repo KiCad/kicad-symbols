@@ -258,6 +258,54 @@ K Step-down  battery charger, Lithium Phosphate ( LiFePO4), Lead (Pb), Lithium+ 
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3652fe.pdf
 $ENDCMP
 #
+$CMP LTC1731EMS8-4.1
+D Single Cell Li-Ion Programmable Linear Charger (4.1 Float Voltage), MSOP-8
+K Constant-current constant-voltage linear charger single cell lithium-ion battery
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1731f.pdf
+$ENDCMP
+#
+$CMP LTC1731EMS8-4.2
+D Single Cell Li-Ion Programmable Linear Charger (4.2 Float Voltage), MSOP-8
+K Constant-current constant-voltage linear charger single cell lithium-ion battery
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1731f.pdf
+$ENDCMP
+#
+$CMP LTC1731EMS8-8.2
+D 2-Cell Li-Ion Programmable Linear Charger (8.2 Float Voltage), MSOP-8
+K Constant-current constant-voltage linear charger double cell lithium-ion battery
+F https://www.analog.com/media/en/technical-documentation/data-sheets/17318fs.pdf
+$ENDCMP
+#
+$CMP LTC1731EMS8-8.4
+D 2-Cell Li-Ion Programmable Linear Charger (8.4 Float Voltage), MSOP-8
+K Constant-current constant-voltage linear charger double cell lithium-ion battery
+F https://www.analog.com/media/en/technical-documentation/data-sheets/17318fs.pdf
+$ENDCMP
+#
+$CMP LTC1731ES8-4.1
+D Single Cell Li-Ion Programmable Linear Charger (4.1 Float Voltage), SO-8
+K Constant-current constant-voltage linear charger single cell lithium-ion battery
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1731f.pdf
+$ENDCMP
+#
+$CMP LTC1731ES8-4.2
+D Single Cell Li-Ion Programmable Linear Charger (4.2 Float Voltage), SO-8
+K Constant-current constant-voltage linear charger single cell lithium-ion battery
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1731f.pdf
+$ENDCMP
+#
+$CMP LTC1731ES8-8.2
+D 2-Cell Li-Ion Programmable Linear Charger (8.2 Float Voltage), SO-8
+K Constant-current constant-voltage linear charger double cell lithium-ion battery
+F https://www.analog.com/media/en/technical-documentation/data-sheets/17318fs.pdf
+$ENDCMP
+#
+$CMP LTC1731ES8-8.4
+D 2-Cell Li-Ion Programmable Linear Charger (8.4 Float Voltage), SO-8
+K Constant-current constant-voltage linear charger double cell lithium-ion battery
+F https://www.analog.com/media/en/technical-documentation/data-sheets/17318fs.pdf
+$ENDCMP
+#
 $CMP LTC2942
 D Battery Gas Gauge with Temperature, Voltage Measurement, DFN-6
 K Fuel gauge coulomb counter I2C
