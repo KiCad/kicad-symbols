@@ -54,16 +54,70 @@ K Maple Mini Microcontroller Module LeafLabs STM32 STM32F103
 F http://docs.leaflabs.com/static.leaflabs.com/pub/leaflabs/maple-docs/0.0.12/hardware/maple-mini.html
 $ENDCMP
 #
+$CMP NUCLEO144-F207ZG
+D Nucleo 144 Development Board with STM32F207ZGT6 MCU, 128+4Kb RAM, 1Mb FLASH
+K STM32 Nucleo ST
+F https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-boards-stmicroelectronics.pdf
+$ENDCMP
+#
+$CMP NUCLEO144-F412ZG
+D Nucleo 144 Development Board with STM32F412ZGT6 MCU, 256kB RAM, 1Mb FLASH
+K STM32 Nucleo ST
+F https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-boards-stmicroelectronics.pdf
+$ENDCMP
+#
+$CMP NUCLEO144-F413ZH
+D Nucleo 144 Development Board with STM32F413ZHT6 MCU, 320kB RAM, 1.5Mb FLASH
+K STM32 Nucleo ST
+F https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-boards-stmicroelectronics.pdf
+$ENDCMP
+#
 $CMP NUCLEO144-F429ZI
 D Nucleo 144 Development Board with STM32F429ZIT6 MCU, 256kB RAM, 1Mb FLASH
 K STM32 Nucleo ST
 F http://www.st.com/content/ccc/resource/technical/document/data_brief/group0/7b/df/1d/e9/64/55/43/8d/DM00247910/files/DM00247910.pdf/jcr:content/translations/en.DM00247910.pdf
 $ENDCMP
 #
+$CMP NUCLEO144-F439ZI
+D Nucleo 144 Development Board with STM32F439ZIT6 MCU, 256kB RAM, 2Mb FLASH
+K STM32 Nucleo ST
+F https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-boards-stmicroelectronics.pdf
+$ENDCMP
+#
+$CMP NUCLEO144-F446ZE
+D Nucleo 144 Development Board with STM32F446ZET6 MCU, 128kB RAM, 512Kb FLASH
+K STM32 Nucleo ST
+F https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-boards-stmicroelectronics.pdf
+$ENDCMP
+#
+$CMP NUCLEO144-F722ZE
+D Nucleo 144 Development Board with STM32F722ZET6 MCU, 256kB RAM, 512Kb FLASH
+K STM32 Nucleo ST
+F https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-boards-stmicroelectronics.pdf
+$ENDCMP
+#
 $CMP NUCLEO144-F746ZG
 D Nucleo 144 Development Board with STM32F746ZG MCU, 256kB RAM, 1Mb FLASH
 K STM32 Nucleo ST
-F http://www.st.com/content/ccc/resource/technical/document/data_brief/group0/7b/df/1d/e9/64/55/43/8d/DM00247910/files/DM00247910.pdf/jcr:content/translations/en.DM00247910.pdf
+F https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-boards-stmicroelectronics.pdf
+$ENDCMP
+#
+$CMP NUCLEO144-F756ZG
+D Nucleo 144 Development Board with STM32F756ZGT6 MCU, 320kB RAM, 1Mb FLASH
+K STM32 Nucleo ST
+F https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-boards-stmicroelectronics.pdf
+$ENDCMP
+#
+$CMP NUCLEO144-F767ZI
+D Nucleo 144 Development Board with STM32F767ZIT6 MCU, 512kB RAM, 2Mb FLASH
+K STM32 Nucleo ST
+F https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-boards-stmicroelectronics.pdf
+$ENDCMP
+#
+$CMP NUCLEO144-H743ZI
+D Nucleo 144 Development Board with STM32H743ZIT6 MCU, 1024kB RAM, 2Mb FLASH
+K STM32 Nucleo ST
+F https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-boards-stmicroelectronics.pdf
 $ENDCMP
 #
 $CMP NUCLEO64-F411RE

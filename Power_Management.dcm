@@ -522,6 +522,13 @@ K Automatic Capacitor Discarger
 F https://ac-dc.power.com/sites/default/files/product_document/data_sheet/capzero-3_family_datasheet.pdf
 $ENDCMP
 #
+$CMP DS1210
+D Nonvolatile Controller, PDIP-8
+K Nonvolatile, RAM, Controller, Battery, Power
+F https://datasheets.maximintegrated.com/en/ds/DS1210.pdf
+$ENDCMP
+#
+#
 $CMP HF81
 D X capacitor bleeder, SOIC-8
 K X capacitor discharge
