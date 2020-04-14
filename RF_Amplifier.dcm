@@ -102,6 +102,12 @@ K RF GAIN BLOCK
 F https://www.nxp.com/docs/en/data-sheet/BGA2874.pdf
 $ENDCMP
 #
+$CMP GRF2101
+D 4.0 to 10.0 GHz, 18dB Low-Noise Amplifier, DFN-6
+K LNA low noise amplifier RF
+F https://www.guerrilla-rf.com/prodFiles/2101/GRF2101DS.pdf
+$ENDCMP
+#
 $CMP MAX2679
 D GPS/GNSS Ultra-Low Current Low-Noise Amplifier, +19dB @ 1.57GHz, WLP-4
 K RF GAIN BLOCK
