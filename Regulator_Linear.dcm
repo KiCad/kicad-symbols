@@ -1620,6 +1620,42 @@ K fixed ldo positive voltage regulator
 F https://www.infineon.com/dgdl/Infineon-IFX25401-DS-v01_02-en.pdf?fileId=db3a304320d39d590120f62a690569f7
 $ENDCMP
 #
+$CMP IFX27001TFV
+D 1A Low Dropout Regulator, positive, adjustable output, TO-252-3
+K LDO positive voltage industrial
+F https://static6.arrow.com/aropdfconversion/dc75757ae45a88e5f69bdce3f2a651a5fe0ca07d/ifx27001_ds_10.pdf
+$ENDCMP
+#
+$CMP IFX27001TFV15
+D 1A Low Dropout Regulator, positive, 1.5V fixed output, TO-252-3
+K LDO positive voltage industrial
+F https://static6.arrow.com/aropdfconversion/dc75757ae45a88e5f69bdce3f2a651a5fe0ca07d/ifx27001_ds_10.pdf
+$ENDCMP
+#
+$CMP IFX27001TFV18
+D 1A Low Dropout Regulator, positive, 1.8V fixed output, TO-252-3
+K LDO positive voltage industrial
+F https://static6.arrow.com/aropdfconversion/dc75757ae45a88e5f69bdce3f2a651a5fe0ca07d/ifx27001_ds_10.pdf
+$ENDCMP
+#
+$CMP IFX27001TFV26
+D 1A Low Dropout Regulator, positive, 2.6V fixed output, TO-252-3
+K LDO positive voltage industrial
+F https://static6.arrow.com/aropdfconversion/dc75757ae45a88e5f69bdce3f2a651a5fe0ca07d/ifx27001_ds_10.pdf
+$ENDCMP
+#
+$CMP IFX27001TFV33
+D 1A Low Dropout Regulator, positive, 3.3V fixed output, TO-252-3
+K LDO positive voltage industrial
+F https://static6.arrow.com/aropdfconversion/dc75757ae45a88e5f69bdce3f2a651a5fe0ca07d/ifx27001_ds_10.pdf
+$ENDCMP
+#
+$CMP IFX27001TFV50
+D 1A Low Dropout Regulator, positive, 5.0V fixed output, TO-252-3
+K LDO positive voltage industrial
+F https://static6.arrow.com/aropdfconversion/dc75757ae45a88e5f69bdce3f2a651a5fe0ca07d/ifx27001_ds_10.pdf
+$ENDCMP
+#
 $CMP KA378R05
 D Positive 3A 35V Linear Regulator with Disable Pin, LDO, Fixed Output 5V, TO-220F-4L
 K Voltage Regulator 3A Positive LDO Disable Pin
