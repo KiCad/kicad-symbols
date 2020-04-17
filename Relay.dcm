@@ -222,6 +222,12 @@ K Omron Relay Dual Pole
 F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
 $ENDCMP
 #
+$CMP G2RL-2-DC5
+D General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, 5V coil
+K Omron Relay Dual Pole
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
+$ENDCMP
+#
 $CMP G2RL-2-HA-DC12
 D General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, IEC/EN60335-1, 12V coil
 K Omron Relay Dual Pole
@@ -618,12 +624,6 @@ K Single Pole Reed Relay SPST
 F https://standexelectronics.com/de/produkte/ms-reed-relais/
 $ENDCMP
 #
-$CMP G2RL-2-DC5
-D General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, 5V coil
-K Omron Relay Dual Pole
-F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
-$ENDCMP
-#
 $CMP RAYEX-L90
 D Power relay, SPDT, 30A
 K 30A Single Pole Relay
@@ -796,6 +796,18 @@ $CMP TE_PCH-1xxx2M
 D TE PCH relay, Miniature Single Pole, SPST-NO
 K Miniature Single Pole Relay
 F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FPCH_series_relay_data_sheet_E%7F1215%7Fpdf%7FEnglish%7FENG_DS_PCH_series_relay_data_sheet_E_1215.pdf%7F9-1440003-0
+$ENDCMP
+#
+$CMP TE_PE0xxFxx_CO
+D TE, Schrack miniature PCB Relay PE bistable, latching (CO)
+K Single Pole Latching Relay SPDT
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FPE_bistable%7F0919%7Fpdf%7FEnglish%7FENG_DS_PE_bistable_0919.pdf%7F3-1415390-1
+$ENDCMP
+#
+$CMP TE_PE0xxFxx_NO
+D TE, Schrack miniature PCB Relay PE bistable, latching (NO)
+K Single Pole Latching Relay SPST
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FPE_bistable%7F0919%7Fpdf%7FEnglish%7FENG_DS_PE_bistable_0919.pdf%7F3-1415390-1
 $ENDCMP
 #
 $CMP TIANBO-HJR-4102-L
