@@ -24,6 +24,12 @@ K frequency multiplier
 F https://www.minicircuits.com/pdfs/AMK-2-13+.pdf
 $ENDCMP
 #
+$CMP AX5043
+D Advanced High Performance ASK and FSK Narrow-band Transceiver for 27 - 1050 MHz Range
+K RF, tranceiver
+F https://www.onsemi.com/pub/Collateral/AX5043-D.PDF
+$ENDCMP
+#
 $CMP CC1000
 D Single Chip Low Power RF Transceiver, TSSOP-28
 K Low Power RF Transciever
@@ -268,6 +274,12 @@ $CMP Si4464
 D High-Performance, Low-Current Sub-GHz Transceiver, +20dBm, Banded 119-960 MHz, QFN-20
 K transceiver sub-ghz radio ism
 F https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf
+$ENDCMP
+#
+$CMP TCP-2-10X
+D Power splitter combiner, 5 to 1000 MHz, 2 way 0-degree, 50 ohm, Mini-Circuits DB1627
+K splitter combiner
+F https://www.minicircuits.com/pdfs/TCP-2-10X+.pdf
 $ENDCMP
 #
 $CMP nRF24L01P

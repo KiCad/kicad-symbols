@@ -90,6 +90,12 @@ K Single Pole Relay SPDT
 F https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf
 $ENDCMP
 #
+$CMP FINDER-36.11
+D FINDER 36.11, SPDT relay, 10A
+K spdt relay
+F https://gfinder.findernet.com/public/attachments/36/EN/S36EN.pdf
+$ENDCMP
+#
 $CMP FINDER-36.11-4301
 D FINDER 36.11-4301, Single Pole Relay SPST-NO Sugar Cube, 10A
 K Single Pole Relay SPST-NO Sugar Cube
@@ -174,6 +180,90 @@ K double pole double throw relay
 F https://www.fujitsu.com/downloads/MICRO/fcai/relays/ftr-f1.pdf
 $ENDCMP
 #
+$CMP G2RL-2-ASI-DC12
+D General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, AgSnIn (large inrush current) contacts, 12V coil
+K Omron Relay Dual Pole
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
+$ENDCMP
+#
+$CMP G2RL-2-ASI-DC24
+D General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, AgSnIn (large inrush current) contacts, 24V coil
+K Omron Relay Dual Pole
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
+$ENDCMP
+#
+$CMP G2RL-2-ASI-DC48
+D General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, AgSnIn (large inrush current) contacts, 48V coil
+K Omron Relay Dual Pole
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
+$ENDCMP
+#
+$CMP G2RL-2-ASI-DC5
+D General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, AgSnIn (large inrush current) contacts, 5V coil
+K Omron Relay Dual Pole
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
+$ENDCMP
+#
+$CMP G2RL-2-DC12
+D General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, 12V coil
+K Omron Relay Dual Pole
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
+$ENDCMP
+#
+$CMP G2RL-2-DC24
+D General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, 24V coil
+K Omron Relay Dual Pole
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
+$ENDCMP
+#
+$CMP G2RL-2-DC48
+D General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, 48V coil
+K Omron Relay Dual Pole
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
+$ENDCMP
+#
+$CMP G2RL-2-HA-DC12
+D General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, IEC/EN60335-1, 12V coil
+K Omron Relay Dual Pole
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
+$ENDCMP
+#
+$CMP G2RL-2-HA-DC24
+D General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, IEC/EN60335-1, 24V coil
+K Omron Relay Dual Pole
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
+$ENDCMP
+#
+$CMP G2RL-2-HA-DC5
+D General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, IEC/EN60335-1, 5V coil
+K Omron Relay Dual Pole
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
+$ENDCMP
+#
+$CMP G2RL-24-DC12
+D General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, sealed, 12V coil
+K Omron Relay Dual Pole
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
+$ENDCMP
+#
+$CMP G2RL-24-DC24
+D General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, sealed, 24V coil
+K Omron Relay Dual Pole
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
+$ENDCMP
+#
+$CMP G2RL-24-DC48
+D General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, sealed, 48V coil
+K Omron Relay Dual Pole
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
+$ENDCMP
+#
+$CMP G2RL-24-DC5
+D General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, sealed, 5V coil
+K Omron Relay Dual Pole
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
+$ENDCMP
+#
 $CMP G5LE-1
 D Omron G5LE relay, Miniature Single Pole, SPDT, 10A
 K Miniature Single Pole Relay
@@ -199,6 +289,12 @@ F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_1.pdf
 $ENDCMP
 #
 $CMP G5V-2
+D Relay Miniature Omron DPDT
+K Miniature Relay Dual Pole DPDT Omron
+F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf
+$ENDCMP
+#
+$CMP G5V-2_Split
 D Relay Miniature Omron DPDT
 K Miniature Relay Dual Pole DPDT Omron
 F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf
@@ -520,6 +616,12 @@ $CMP MSxx-1Bxx-75
 D Standex Meder MS reed relay, SPST, Opening Contact
 K Single Pole Reed Relay SPST
 F https://standexelectronics.com/de/produkte/ms-reed-relais/
+$ENDCMP
+#
+$CMP G2RL-2-DC5
+D General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, 5V coil
+K Omron Relay Dual Pole
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
 $ENDCMP
 #
 $CMP RAYEX-L90
