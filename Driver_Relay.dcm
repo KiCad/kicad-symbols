@@ -12,13 +12,13 @@ K Relay Driver
 F http://www.ti.com/lit/ds/symlink/drv8860.pdf
 $ENDCMP
 #
-$CMP MAX4820
-D 8-Channel Serial Interface Low-Side Driver
+$CMP MAX4820xUP
+D 8-Channel Serial Interface Low-Side Driver, TSSOP-20
 K Relay Driver
 F https://datasheets.maximintegrated.com/en/ds/MAX4820-MAX4821.pdf
 $ENDCMP
 #
-$CMP MAX4821
+$CMP MAX4821xUP
 D 8-Channel Parallel Interface Low-Side Driver
 K Relay Driver
 F https://datasheets.maximintegrated.com/en/ds/MAX4820-MAX4821.pdf
