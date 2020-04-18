@@ -402,6 +402,12 @@ K USB OTG HS PHY ULPI Interface
 F https://www.st.com/resource/en/datasheet/stulpi01b.pdf
 $ENDCMP
 #
+$CMP STUSB4500QTR
+D Stand-alone USB PD controller (with sink Auto-run mode), QFN-24
+K USB PD Type C Sink
+F https://www.st.com/resource/en/datasheet/stusb4500.pdf
+$ENDCMP
+#
 $CMP TPS2500DRC
 D Integrated USB power Switch with Boost Converter, High-Efficiency Eco-mode Control Scheme, Texas S-PVSON-10
 K USB switch boost
