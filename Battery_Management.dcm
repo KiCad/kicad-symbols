@@ -630,4 +630,10 @@ K battery charger lithium
 F http://www.mouser.com/ds/2/268/22090a-52174.pdf
 $ENDCMP
 #
+$CMP TP4056
+D Single cell, Li-Ion 1A linear charger with thermal regulation, 4.2V float voltage, SOP-8
+K li ion li-ion battery charger
+F https://download.kamami.pl/p562208-TP4056.pdf
+$ENDCMP
+#
 #End Doc Library
