@@ -24,6 +24,18 @@ K Limit USB Active Low
 F http://www.skyworksinc.com/uploads/documents/AAT4616_201940E.pdf
 $ENDCMP
 #
+$CMP AP2161W
+D Current limited power switch, single channel, SOT-23-5
+K Limit USB Active Low
+F https://www.diodes.com/assets/Datasheets/AP2161.pdf
+$ENDCMP
+#
+$CMP AP2171W
+D Current limited power switch, single channel, SOT-23-5
+K Limit USB Active High
+F https://www.diodes.com/assets/Datasheets/AP2161.pdf
+$ENDCMP
+#
 $CMP AUIPS1041R
 D Intelligent Power Low Side Switch, 39V, 4.5A, DPAK-5L
 K low side switch
@@ -527,7 +539,6 @@ D Nonvolatile Controller, PDIP-8
 K Nonvolatile, RAM, Controller, Battery, Power
 F https://datasheets.maximintegrated.com/en/ds/DS1210.pdf
 $ENDCMP
-#
 #
 $CMP HF81
 D X capacitor bleeder, SOIC-8
