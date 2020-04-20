@@ -31,9 +31,9 @@ F https://www.st.com/resource/en/datasheet/lm2901.pdf
 $ENDCMP
 #
 $CMP LM2903
-D Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8
+D Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SOP-8/TSSOP-8/VSSOP-8
 K dual comparator
-F http://www.ti.com/lit/ds/symlink/lm393-n.pdf
+F http://www.ti.com/lit/ds/symlink/lm393.pdf
 $ENDCMP
 #
 $CMP LM311
@@ -63,7 +63,7 @@ $ENDCMP
 $CMP LM393
 D Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8
 K dual comparator
-F http://www.ti.com/lit/ds/symlink/lm393-n.pdf
+F http://www.ti.com/lit/ds/symlink/lm393.pdf
 $ENDCMP
 #
 $CMP LMH7324
