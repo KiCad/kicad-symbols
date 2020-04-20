@@ -702,6 +702,12 @@ K step down buck regulator
 F http://www.st.com/resource/en/datasheet/l5973d.pdf
 $ENDCMP
 #
+$CMP L7980
+D 2A step down switching regulator, HSOP-8
+K step down buck regulator
+F http://www.st.com/resource/en/datasheet/l7980.pdf
+$ENDCMP
+#
 $CMP LD7575
 D Green-Mode PWM Controller with High-Voltage Start-Up Circuit, DIP-8/SOIC-8
 K smps controller
