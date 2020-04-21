@@ -366,22 +366,10 @@ K usb ethernet video
 F https://www.st.com/resource/en/datasheet/usblc6-2.pdf
 $ENDCMP
 #
-$CMP USBLC6-2SC6Y
-D Automotive very low capacitance ESD protection diode, 2 data-line, SOT-23-6
-K usb ethernet video
-F https://www.st.com/resource/en/datasheet/usblc6-2sc6y.pdf
-$ENDCMP
-#
 $CMP USBLC6-4SC6
 D Very low capacitance ESD protection diode, 4 data-line, SOT-23-6
 K usb ethernet sim card video
 F https://www.st.com/resource/en/datasheet/usblc6-4.pdf
-$ENDCMP
-#
-$CMP USBLC6-4SC6Y
-D Automotive very low capacitance ESD protection diode, 4 data-line, SOT-23-6
-K usb ethernet sim card video
-F https://www.st.com/resource/en/datasheet/usblc6-4sc6y.pdf
 $ENDCMP
 #
 $CMP WE-TVS-824014881
