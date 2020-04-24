@@ -18,21 +18,21 @@ K cmp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ad8561.pdf
 $ENDCMP
 #
-$CMP ADCMP350
-D Single-input comparator, internal 0.6V reference, Active-Low Open-Drain output, KS-4
-K single comparator with reference
+$CMP ADCMP350xKS
+D Single Comparator and Reference Circuit, internal 0.6Vref, Open-Drain active low output, KS-4
+K cmp collector
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf
 $ENDCMP
 #
-$CMP ADCMP354
-D Single-input comparator, internal 0.6V reference, Active-High Open-Drain output, KS-4
-K single comparator with reference
+$CMP ADCMP354xKS
+D Single Comparator and Reference Circuit, internal 0.6Vref, Open-Drain active high output, KS-4
+K cmp collector
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf
 $ENDCMP
 #
-$CMP ADCMP356
-D Single-input comparator, internal 0.6V reference, Active-High Push-Pull output, KS-4
-K single comparator with reference
+$CMP ADCMP356xKS
+D Single Comparator and Reference Circuit, internal 0.6Vref, Push-pull active high output, KS-4
+K cmp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf
 $ENDCMP
 #
