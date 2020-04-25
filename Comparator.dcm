@@ -282,9 +282,9 @@ K cmp r2r rtr
 F http://www.ti.com/lit/ds/symlink/lmv7271.pdf
 $ENDCMP
 #
-$CMP LMV7272
-D Dual, 1.8V Low Power, Rail-to-Rail Input, Push-Pull Output Comparator, DSBGA-8
-K dual comparator rail-to-rail
+$CMP LMV7272TL
+D Dual, 1.8V Low Power Comparator With Rail-to-Rail Input, DSBGA-8
+K cmp r2r rtr
 F http://www.ti.com/lit/ds/symlink/lmv7272.pdf
 $ENDCMP
 #
