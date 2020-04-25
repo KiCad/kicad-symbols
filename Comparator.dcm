@@ -145,14 +145,14 @@ F https://www.analog.com/media/en/technical-documentation/data-sheets/171112f.pd
 $ENDCMP
 #
 $CMP LTC6754xSC6
-D High Speed Rail-to-Rail Input Comparator with LVDS Compatible Outputs, SC-70
-K comparator high speed lvds
+D Single High Speed Rail-to-Rail Input Comparator with LVDS Compatible Outputs, SC-70-6
+K cmp r2r rtr
 F https://www.analog.com/media/en/technical-documentation/data-sheets/6754f.pdf
 $ENDCMP
 #
 $CMP LTC6754xUD
-D High Speed Rail-to-Rail Input Comparator with LVDS Compatible Outputs, QFN-16
-K comparator high speed lvds
+D Single High Speed Rail-to-Rail Input Comparator with LVDS Compatible Outputs, QFN-12
+K cmp r2r rtr
 F https://www.analog.com/media/en/technical-documentation/data-sheets/6754f.pdf
 $ENDCMP
 #
