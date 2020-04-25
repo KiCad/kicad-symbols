@@ -1434,6 +1434,12 @@ K transistor PMOS P-MOS P-MOSFET
 F ~
 $ENDCMP
 #
+$CMP Q_DUAL_PMOS_S1G1S2G2D2D2D1D1
+D Dual PMOS transistor, 8 pin package
+K transistor PMOS P-MOS P-MOSFET
+F ~
+$ENDCMP
+#
 $CMP Q_DUAL_PNP_C2C1E1E2
 D Double PNP transistors, current mirror configuration
 K transistor PNP
