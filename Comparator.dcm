@@ -408,6 +408,18 @@ K cmp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6561-1R-1U-2-4-1.8V-Low-Power-Push-Pull-Output-Comparator-DS20002139E.pdf
 $ENDCMP
 #
+$CMP MCP6564x-x-SL
+D Quad 1.8V Low-Power Push-Pull Output Comparator, SOIC-14
+K cmp
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6561-1R-1U-2-4-1.8V-Low-Power-Push-Pull-Output-Comparator-DS20002139E.pdf
+$ENDCMP
+#
+$CMP MCP6564x-x-ST
+D Quad 1.8V Low-Power Push-Pull Output Comparator, TSSOP-14
+K cmp
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6561-1R-1U-2-4-1.8V-Low-Power-Push-Pull-Output-Comparator-DS20002139E.pdf
+$ENDCMP
+#
 $CMP MCP6566Rx-x-OT
 D Single 1.8V Low-Power Open-Drain Output Comparator, SOT-23-5
 K cmp collector
@@ -444,9 +456,15 @@ K cmp collector
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf
 $ENDCMP
 #
-$CMP MCP6569
-D Quad 1.8V Low-Power Open-Drain Output Comparator, SOIC-14/TSSOP-14
-K quad comparator
+$CMP MCP6569x-x-SL
+D Quad 1.8V Low-Power Open-Drain Output Comparator, SOIC-14
+K cmp collector
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf
+$ENDCMP
+#
+$CMP MCP6569x-x-ST
+D Quad 1.8V Low-Power Open-Drain Output Comparator, TSSOP-14
+K cmp collector
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf
 $ENDCMP
 #
