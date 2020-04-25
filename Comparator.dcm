@@ -126,15 +126,21 @@ K cmp open collector drain
 F http://www.ti.com/lit/ds/symlink/lm311.pdf
 $ENDCMP
 #
-$CMP LM319
-D High Speed Dual Comparator, DIP-14/SOIC-14
-K dual comparator
-F http://www.ti.com/lit/ds/symlink/lm319-n.pdf
+$CMP LM319_DIP-14
+D Dual high-speed comparator, DIP-14
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm319.pdf
 $ENDCMP
 #
-$CMP LM319H
-D High Speed Dual Comparator, TO-100-10
-K dual comparator
+$CMP LM319_SOIC-14
+D Dual high-speed comparator, SOIC-14
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm319.pdf
+$ENDCMP
+#
+$CMP LM319_TO-100-10
+D Dual high-speed comparator, TO-100-10
+K cmp open collector drain
 F http://www.ti.com/lit/ds/symlink/lm319-n.pdf
 $ENDCMP
 #
