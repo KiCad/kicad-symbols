@@ -432,9 +432,15 @@ K cmp collector
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf
 $ENDCMP
 #
-$CMP MCP6567
-D Dual 1.8V Low-Power Open-Drain Output Comparator, SOIC-8/MSOP-8
-K dual comparator
+$CMP MCP6567x-x-MS
+D Dual 1.8V Low-Power Open-Drain Output Comparator, MSOP-8
+K cmp collector
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf
+$ENDCMP
+#
+$CMP MCP6567x-x-SN
+D Dual 1.8V Low-Power Open-Drain Output Comparator, SOIC-8
+K cmp collector
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf
 $ENDCMP
 #
