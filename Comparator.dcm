@@ -216,10 +216,16 @@ K cmp
 F http://www.ti.com/lit/ds/symlink/lmh7324.pdf
 $ENDCMP
 #
-$CMP LMV331
-D Single General-Purpose Low-Voltage Comparator, SOT-23-5/SC-70-5
-K single comparator
-F http://www.ti.com/lit/ds/symlink/lmv331.pdf
+$CMP LMV331_SC-70-5
+D Single general-purpose low voltage comparators, SC-70-5
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lmv331.pdf
+$ENDCMP
+#
+$CMP LMV331_SOT-23-5
+D Single general-purpose low voltage comparator, SOT-23-5
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lmv331.pdf
 $ENDCMP
 #
 $CMP LMV339_SOIC-14
@@ -276,9 +282,15 @@ K dual comparator rail-to-rail
 F http://www.ti.com/lit/ds/symlink/lmv7272.pdf
 $ENDCMP
 #
-$CMP LMV7275
-D Single, 1.8V Low Power, Rail-to-Rail Input, Open Collector Output Comparator, SOT-23-5/SC-70-5
-K single comparator rail-to-rail
+$CMP LMV7275MF
+D Single, 1.8V Low Power Comparators With Rail-to-Rail Input, SOT-23-5
+K cmp open collector drain r2r rtr
+F http://www.ti.com/lit/ds/symlink/lmv7275.pdf
+$ENDCMP
+#
+$CMP LMV7275MG
+D Single, 1.8V Low Power Comparators With Rail-to-Rail Input, SC-70-5
+K cmp open collector drain r2r rtr
 F http://www.ti.com/lit/ds/symlink/lmv7275.pdf
 $ENDCMP
 #
