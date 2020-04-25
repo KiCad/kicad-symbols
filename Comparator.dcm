@@ -66,10 +66,40 @@ K cmp open collector drain
 F https://www.st.com/resource/en/datasheet/lm2901.pdf
 $ENDCMP
 #
-$CMP LM2903
-D Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SOP-8/TSSOP-8/VSSOP-8
-K dual comparator
-F http://www.ti.com/lit/ds/symlink/lm393.pdf
+$CMP LM2903_DFN-8
+D Dual low-power dual voltage comparator, DFN-8
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm2903.pdf
+$ENDCMP
+#
+$CMP LM2903_DIP-8
+D Dual low-power dual voltage comparator, DIP-8
+K cmp open collector drain
+F http://www.ti.com/lit/ds/symlink/lm2903.pdf
+$ENDCMP
+#
+$CMP LM2903_MSOP-8
+D Dual low-power dual voltage comparator, MSOP-8
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm2903.pdf
+$ENDCMP
+#
+$CMP LM2903_SO-8
+D Dual low-power dual voltage comparator, SO-8
+K cmp open collector drain
+F http://www.ti.com/lit/ds/symlink/lm2903.pdf
+$ENDCMP
+#
+$CMP LM2903_SOIC-8
+D Dual low-power dual voltage comparator, SOIC-8
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm2903.pdf
+$ENDCMP
+#
+$CMP LM2903_TSSOP-8
+D Dual low-power dual voltage comparator, TSSOP-8
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm2903.pdf
 $ENDCMP
 #
 $CMP LM311_DIP-8
@@ -138,10 +168,40 @@ K cmp open collector drain
 F https://www.st.com/resource/en/datasheet/lm339.pdf
 $ENDCMP
 #
-$CMP LM393
-D Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8
-K dual comparator
+$CMP LM393_DFN-8
+D Dual low-power, dual-voltage comparator, DFN-8
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm393.pdf
+$ENDCMP
+#
+$CMP LM393_DIP-8
+D Dual low-power, dual-voltage comparator, DIP-8
+K cmp open collector drain
 F http://www.ti.com/lit/ds/symlink/lm393.pdf
+$ENDCMP
+#
+$CMP LM393_MSOP-8
+D Dual low-power, dual-voltage comparator, MSOP-8
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm393.pdf
+$ENDCMP
+#
+$CMP LM393_SO-8
+D Dual low-power, dual-voltage comparator, SO-8
+K cmp open collector drain
+F http://www.ti.com/lit/ds/symlink/lm393.pdf
+$ENDCMP
+#
+$CMP LM393_SOIC-8
+D Dual low-power, dual-voltage comparator, SOIC-8
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm393.pdf
+$ENDCMP
+#
+$CMP LM393_TSSOP-8
+D Dual low-power, dual-voltage comparator, TSSOP-8
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm393.pdf
 $ENDCMP
 #
 $CMP LMH7324
@@ -168,10 +228,22 @@ K cmp open collector drain
 F https://www.st.com/resource/en/datasheet/lmv339.pdf
 $ENDCMP
 #
-$CMP LMV393
-D Dual General-Purpose Low-Voltage Comparator, SOIC-8/TSSOP-8/VSSOP-8
-K dual comparator
-F http://www.ti.com/lit/ds/symlink/lmv331.pdf
+$CMP LMV393_MSOP-8
+D Dual general-purpose low voltage comparator, MSOP-8
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lmv393.pdf
+$ENDCMP
+#
+$CMP LMV393_SOIC-8
+D Dual general-purpose low voltage comparator, SOIC-8
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lmv393.pdf
+$ENDCMP
+#
+$CMP LMV393_VSSOP-8
+D Dual general-purpose low voltage comparator, VSSOP-8
+K cmp open collector drain
+F http://www.ti.com/lit/ds/symlink/lmv393.pdf
 $ENDCMP
 #
 $CMP LMV7219M5
