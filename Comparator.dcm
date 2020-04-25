@@ -216,6 +216,18 @@ K quad comparator
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf
 $ENDCMP
 #
+$CMP MCP65R41
+D 3 μA Comparator with Integrated Reference Voltage, SOT-23-6
+K comparator reference
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22269B.pdf
+$ENDCMP
+#
+$CMP MCP65R46
+D 3 μA Comparator with Integrated Reference Voltage, SOT-23-6
+K comparator reference
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22269B.pdf
+$ENDCMP
+#
 $CMP MIC845H
 D Micro-Power Comparator / Battery Monitor, Active-High Push-Pull Output, SC-70-5
 K single comparator battery monitor
