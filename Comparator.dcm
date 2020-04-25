@@ -36,9 +36,33 @@ K cmp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf
 $ENDCMP
 #
-$CMP LM2901
-D Quad Differential Comparators, DIP-14/SOIC-14/TSSOP-14
-K quad comparator
+$CMP LM2901_DIP-14
+D Quad low-power voltage comparator, DIP-14
+K cmp open collector drain
+F http://www.ti.com/lit/ds/symlink/lm2901.pdf
+$ENDCMP
+#
+$CMP LM2901_QFN-16
+D Quad low-power voltage comparator, QFN-16
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm2901.pdf
+$ENDCMP
+#
+$CMP LM2901_SO-14
+D Quad low-power voltage comparator, SO-14
+K cmp open collector drain
+F http://www.ti.com/lit/ds/symlink/lm2901.pdf
+$ENDCMP
+#
+$CMP LM2901_SOIC-14
+D Quad low-power voltage comparator, SOIC-14
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm2901.pdf
+$ENDCMP
+#
+$CMP LM2901_TSSOP-14
+D Quad low-power voltage comparator, TSSOP-14
+K cmp open collector drain
 F https://www.st.com/resource/en/datasheet/lm2901.pdf
 $ENDCMP
 #
@@ -84,10 +108,34 @@ K dual comparator
 F http://www.ti.com/lit/ds/symlink/lm319-n.pdf
 $ENDCMP
 #
-$CMP LM339
-D Quad Differential Comparators, SOIC-14/TSSOP-14
-K quad comparator
-F https://www.st.com/resource/en/datasheet/lm139.pdf
+$CMP LM339_DIP-14
+D Quad low-power voltage comparator, DIP-14
+K cmp open collector drain
+F http://www.ti.com/lit/ds/symlink/lm339.pdf
+$ENDCMP
+#
+$CMP LM339_QFN-16
+D Quad low-power voltage comparators, QFN-16
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm339.pdf
+$ENDCMP
+#
+$CMP LM339_SO-14
+D Quad low-power voltage comparator, SO-14
+K cmp open collector drain
+F http://www.ti.com/lit/ds/symlink/lm339.pdf
+$ENDCMP
+#
+$CMP LM339_SOIC-14
+D Quad low-power voltage comparators, SOIC-14
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm339.pdf
+$ENDCMP
+#
+$CMP LM339_TSSOP-14
+D Quad low-power voltage comparators, TSSOP-14
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm339.pdf
 $ENDCMP
 #
 $CMP LM393
@@ -108,10 +156,16 @@ K single comparator
 F http://www.ti.com/lit/ds/symlink/lmv331.pdf
 $ENDCMP
 #
-$CMP LMV339
-D Quad General-Purpose Low-Voltage Comparator, SOIC-14/TSSOP-14
-K quad comparator
-F https://www.st.com/resource/en/datasheet/lmv331.pdf
+$CMP LMV339_SOIC-14
+D Quad general-purpose low voltage comparators, SOIC-14
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lmv339.pdf
+$ENDCMP
+#
+$CMP LMV339_TSSOP-14
+D Quad general-purpose low voltage comparators, TSSOP-14
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lmv339.pdf
 $ENDCMP
 #
 $CMP LMV393
