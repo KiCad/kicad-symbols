@@ -396,9 +396,15 @@ K single comparator
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6561-1R-1U-2-4-1.8V-Low-Power-Push-Pull-Output-Comparator-DS20002139E.pdf
 $ENDCMP
 #
-$CMP MCP6562
-D Dual 1.8V Low-Power Push-Pull Output Comparator, SOIC-8/MSOP-8
-K dual comparator
+$CMP MCP6562x-x-MS
+D Dual 1.8V Low-Power Push-Pull Output Comparator, MSOP-8
+K cmp
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6561-1R-1U-2-4-1.8V-Low-Power-Push-Pull-Output-Comparator-DS20002139E.pdf
+$ENDCMP
+#
+$CMP MCP6562x-x-SN
+D Dual 1.8V Low-Power Push-Pull Output Comparator, SOIC-8
+K cmp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6561-1R-1U-2-4-1.8V-Low-Power-Push-Pull-Output-Comparator-DS20002139E.pdf
 $ENDCMP
 #
