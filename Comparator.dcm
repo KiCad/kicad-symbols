@@ -48,10 +48,28 @@ K dual comparator
 F http://www.ti.com/lit/ds/symlink/lm393.pdf
 $ENDCMP
 #
-$CMP LM311
-D Voltage Comparator, DIP-8/SOIC-8
-K comp
+$CMP LM311_DIP-8
+D Single voltage comparator with strobe, DIP-8
+K cmp open collector drain
 F https://www.st.com/resource/en/datasheet/lm311.pdf
+$ENDCMP
+#
+$CMP LM311_SO-8
+D Single voltage comparator with strobe, SO-8
+K cmp open collector drain
+F http://www.ti.com/lit/ds/symlink/lm311.pdf
+$ENDCMP
+#
+$CMP LM311_SOIC-8
+D Single voltage comparator with strobe, SOIC-8
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm311.pdf
+$ENDCMP
+#
+$CMP LM311_TSSOP-8
+D Single voltage comparator with strobe, TSSOP-8
+K cmp open collector drain
+F http://www.ti.com/lit/ds/symlink/lm311.pdf
 $ENDCMP
 #
 $CMP LM319
@@ -132,10 +150,28 @@ K single comparator rail-to-rail
 F http://www.ti.com/lit/ds/symlink/lmv7275.pdf
 $ENDCMP
 #
-$CMP LT1011
-D Voltage Comparator, DIP-8/SOIC-8
-K comp
-F https://www.analog.com/media/en/technical-documentation/data-sheets/lt1011.pdf
+$CMP LT1011AxN8
+D Single Voltage Comparator, DIP-8
+K cmp open collector drain
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1011.pdf
+$ENDCMP
+#
+$CMP LT1011AxS8
+D Single Voltage Comparator, SOIC-8
+K cmp open collector drain
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1011.pdf
+$ENDCMP
+#
+$CMP LT1011xN8
+D Single Voltage Comparator, DIP-8
+K cmp open collector drain
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1011.pdf
+$ENDCMP
+#
+$CMP LT1011xS8
+D Single Voltage Comparator, SOIC-8
+K cmp open collector drain
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1011.pdf
 $ENDCMP
 #
 $CMP LT1016xN8
