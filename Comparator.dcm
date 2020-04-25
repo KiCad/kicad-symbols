@@ -482,25 +482,31 @@ $ENDCMP
 #
 $CMP MIC845H
 D Micro-Power Comparator / Battery Monitor, Active-High Push-Pull Output, SC-70-5
-K single comparator battery monitor
+K cmp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic845.pdf
 $ENDCMP
 #
 $CMP MIC845L
 D Micro-Power Comparator / Battery Monitor, Active-Low Push-Pull Output, SC-70-5
-K single comparator battery monitor
+K cmp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic845.pdf
 $ENDCMP
 #
 $CMP MIC845N
 D Micro-Power Comparator / Battery Monitor, Active-High Open-Drain Output, SC-70-5
-K single comparator battery monitor
+K cmp collector
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic845.pdf
 $ENDCMP
 #
-$CMP TL3116
-D Single Ultra-Fast Low-Power Precision Comparators, SOIC-8/TSSOP-8
-K single comparator
+$CMP TL3116xD
+D Single Ultra-Fast Low-Power Precision Comparator, SOIC-8
+K cmp
+F http://www.ti.com/lit/ds/symlink/tl3116.pdf
+$ENDCMP
+#
+$CMP TL3116xPW
+D Single Ultra-Fast Low-Power Precision Comparator, TSSOP-8
+K cmp
 F http://www.ti.com/lit/ds/symlink/tl3116.pdf
 $ENDCMP
 #
