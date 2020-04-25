@@ -408,21 +408,27 @@ K cmp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6561-1R-1U-2-4-1.8V-Low-Power-Push-Pull-Output-Comparator-DS20002139E.pdf
 $ENDCMP
 #
-$CMP MCP6566
-D Single 1.8V Low-Power Open-Drain Output Comparator, SOT-23-5/SC-70
-K single comparator
+$CMP MCP6566Rx-x-OT
+D Single 1.8V Low-Power Open-Drain Output Comparator, SOT-23-5
+K cmp collector
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf
 $ENDCMP
 #
-$CMP MCP6566R
+$CMP MCP6566Ux-x-OT
 D Single 1.8V Low-Power Open-Drain Output Comparator, SOT-23-5
-K single comparator
+K cmp collector
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf
 $ENDCMP
 #
-$CMP MCP6566U
+$CMP MCP6566x-x-LT
+D Single 1.8V Low-Power Open-Drain Output Comparator, SC-70-5
+K cmp collector
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf
+$ENDCMP
+#
+$CMP MCP6566x-x-OT
 D Single 1.8V Low-Power Open-Drain Output Comparator, SOT-23-5
-K single comparator
+K cmp collector
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf
 $ENDCMP
 #
@@ -487,8 +493,14 @@ F https://www.ti.com/lit/ds/symlink/tlv7031.pdf
 $ENDCMP
 #
 $CMP TLV7041DBV
-D Single, 1.6V-6.5V, 315nA Quiescent, Open-Drain Output, Comparator, SOT-23-5/SC-70
-K single comparator
+D Single Small-Size, Nanopower, Low-Voltage Comparator, SOT-23-5
+K cmp open collector drain
+F https://www.ti.com/lit/ds/symlink/tlv7041.pdf
+$ENDCMP
+#
+$CMP TLV7041DCK
+D Single Small-Size, Nanopower, Low-Voltage Comparator, SC-70-5
+K cmp open collector drain
 F https://www.ti.com/lit/ds/symlink/tlv7041.pdf
 $ENDCMP
 #
