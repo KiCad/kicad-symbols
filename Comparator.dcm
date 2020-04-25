@@ -210,9 +210,9 @@ K cmp open collector drain
 F https://www.st.com/resource/en/datasheet/lm393.pdf
 $ENDCMP
 #
-$CMP LMH7324
-D Quad 700 ps High Speed Comparator with RSPECL Outputs, WQFN-32
-K comparator
+$CMP LMH7324SQ
+D Quad 700ps High Speed Comparator with RSPECL Outputs, WQFN-32
+K cmp
 F http://www.ti.com/lit/ds/symlink/lmh7324.pdf
 $ENDCMP
 #
