@@ -259,20 +259,26 @@ F http://www.ti.com/lit/ds/symlink/lmv393.pdf
 $ENDCMP
 #
 $CMP LMV7219M5
-D Single Low-Power High-Speed Push-Pull Output Comparator, SOT-23-5
-K single comparator
+D Single 7ns 2.7V to 5V Comparator with Rail-to-Rail Output, SOT-23-5
+K cmp r2r rtr
 F https://www.ti.com/lit/ds/symlink/lmv7219.pdf
 $ENDCMP
 #
 $CMP LMV7219M7
-D Single Low-Power High-Speed Push-Pull Output Comparator, SC-70-5
-K single comparator
+D Single 7ns 2.7V to 5V Comparator with Rail-to-Rail Output, SC-70-5
+K cmp r2r rtr
 F https://www.ti.com/lit/ds/symlink/lmv7219.pdf
 $ENDCMP
 #
-$CMP LMV7271
-D Single, 1.8V Low Power, Rail-to-Rail Input, Push-Pull Output Comparator, SOT-23-5/SC-70-5
-K single comparator rail-to-rail
+$CMP LMV7271MF
+D Single, 1.8-V Low Power Comparator With Rail-to-Rail Input, SOT-23-5
+K cmp r2r rtr
+F http://www.ti.com/lit/ds/symlink/lmv7271.pdf
+$ENDCMP
+#
+$CMP LMV7271MG
+D Single, 1.8-V Low Power Comparator With Rail-to-Rail Input, SC-70-5
+K cmp r2r rtr
 F http://www.ti.com/lit/ds/symlink/lmv7271.pdf
 $ENDCMP
 #
@@ -360,26 +366,26 @@ K cmp r2r rtr
 F https://www.analog.com/media/en/technical-documentation/data-sheets/6754f.pdf
 $ENDCMP
 #
-$CMP MCP6561-OT
+$CMP MCP6561Rx-x-OT
 D Single 1.8V Low-Power Push-Pull Output Comparator, SOT-23-5
-K single comparator
+K cmp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6561-1R-1U-2-4-1.8V-Low-Power-Push-Pull-Output-Comparator-DS20002139E.pdf
 $ENDCMP
 #
-$CMP MCP6561R
+$CMP MCP6561Ux-x-OT
 D Single 1.8V Low-Power Push-Pull Output Comparator, SOT-23-5
-K dual comparator
+K cmp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6561-1R-1U-2-4-1.8V-Low-Power-Push-Pull-Output-Comparator-DS20002139E.pdf
 $ENDCMP
 #
-$CMP MCP6561U
-D Single 1.8V Low-Power Push-Pull Output Comparator, SOT-23-5
-K dual comparator
-F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6561-1R-1U-2-4-1.8V-Low-Power-Push-Pull-Output-Comparator-DS20002139E.pdf
-$ENDCMP
-#
-$CMP MCP6561x-LT
+$CMP MCP6561x-x-LT
 D Single 1.8V Low-Power Push-Pull Output Comparator, SC-70-5
+K cmp
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6561-1R-1U-2-4-1.8V-Low-Power-Push-Pull-Output-Comparator-DS20002139E.pdf
+$ENDCMP
+#
+$CMP MCP6561x-x-OT
+D Single 1.8V Low-Power Push-Pull Output Comparator, SOT-23-5
 K single comparator
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6561-1R-1U-2-4-1.8V-Low-Power-Push-Pull-Output-Comparator-DS20002139E.pdf
 $ENDCMP
@@ -457,8 +463,14 @@ F http://www.ti.com/lit/ds/symlink/tl3116.pdf
 $ENDCMP
 #
 $CMP TLV7031DBV
-D Single, 1.6V-6.5V, 315nA Quiescent, Push-Pull Output, Comparator, SOT-23-5/SC-70
-K single comparator
+D Single Small-Size, Nanopower, Low-Voltage Comparator, SOT-23-5
+K cmp
+F https://www.ti.com/lit/ds/symlink/tlv7031.pdf
+$ENDCMP
+#
+$CMP TLV7031DCK
+D Single Small-Size, Nanopower, Low-Voltage Comparator, SC-70-5
+K cmp
 F https://www.ti.com/lit/ds/symlink/tlv7031.pdf
 $ENDCMP
 #
