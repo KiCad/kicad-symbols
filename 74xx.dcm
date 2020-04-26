@@ -42,6 +42,12 @@ K AHCMOS DFF DFF8 REG 3State
 F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT374.pdf
 $ENDCMP
 #
+$CMP 74AHC595
+D 8-bit serial in/out Shift Register 3-State Outputs
+K AHCMOS SR 3State
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf
+$ENDCMP
+#
 $CMP 74AHCT04
 D Hex Inverter
 K AHCTMOS not inv
@@ -70,6 +76,18 @@ $CMP 74AHCT374
 D 8-bit Register, 3-state outputs
 K AHCTMOS DFF DFF8 REG 3State
 F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT374.pdf
+$ENDCMP
+#
+$CMP 74AHCT595
+D 8-bit serial in/out Shift Register 3-State Outputs
+K AHCTMOS SR 3State
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf
+$ENDCMP
+#
+$CMP 74CBTLV16212
+D Low-voltage 24-bit FET Bus-exchange switch
+K bus
+F https://www.ti.com/lit/ds/symlink/sn74cbtlv16212.pdf
 $ENDCMP
 #
 $CMP 74CBTLV3257
@@ -501,7 +519,7 @@ $ENDCMP
 $CMP 74LS139
 D Dual Decoder 1 of 4, Active low outputs
 K TTL DECOD4
-F http://www.ti.com/lit/gpn/sn74LS139
+F http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf
 $ENDCMP
 #
 $CMP 74LS14
@@ -738,10 +756,22 @@ K TTL Buffer BUS 3State
 F http://www.ti.com/lit/gpn/sn74LS240
 $ENDCMP
 #
+$CMP 74LS240_Split
+D Octal Inverter 3-State Outputs
+K TTL buffer 3State
+F http://www.ti.com/lit/ds/symlink/sn74ls244.pdf
+$ENDCMP
+#
 $CMP 74LS241
 D 8-bit Bus Buffer 3-State outputs
 K TTL Buffer BUS 3State
 F http://www.ti.com/lit/gpn/sn74LS241
+$ENDCMP
+#
+$CMP 74LS241_Split
+D Octal Buffer 3-State Outputs
+K TTL buffer 3State
+F http://www.ti.com/lit/ds/symlink/sn74ls244.pdf
 $ENDCMP
 #
 $CMP 74LS242
@@ -760,6 +790,12 @@ $CMP 74LS244
 D 8-bit Bus Buffer 3-State outputs
 K TTL Buffer BUS 3State
 F http://www.ti.com/lit/gpn/sn74LS244
+$ENDCMP
+#
+$CMP 74LS244_Split
+D Octal Buffer 3-State Outputs
+K TTL buffer 3State
+F http://www.ti.com/lit/ds/symlink/sn74ls244.pdf
 $ENDCMP
 #
 $CMP 74LS245

@@ -114,6 +114,12 @@ K NXP Kinetis Microcontroller
 F http://cache.nxp.com/files/microcontrollers/doc/ref_manual/MKE02P64M40SF0RM.pdf
 $ENDCMP
 #
+$CMP MKE16Z64VLF4
+D Kinetis KE1xZ series, 48-MHz/32-bit ARM Cortex-M0+, 64 kB flash, 8 kB RAM, Mainstream, Touch (TSI) and CAN control, LQFP-48
+K Kinetis KE16 ARM Cortex M0+
+F https://www.nxp.com/docs/en/data-sheet/KE1xZP48M48SF0.pdf
+$ENDCMP
+#
 $CMP MKL02Z16VFG4
 D Kinetis KL02 series, 48-MHz/32-bit ARM Cortex-M0+, 16 kB flash, 2 kB SRAM, QFN-16
 K Kinetis KL02 ARM Cortex M0+
@@ -874,6 +880,12 @@ $CMP MKL46Z256VMP4
 D Kinetis KL46 series, 48-MHz/32-bit ARM Cortex-M0+, 256 kB flash, 32 kB SRAM, USB FS Device/OTG, Segment LCD, TSI, MAPBGA-64
 K Kinetis KL46 ARM Cortex M0+
 F http://www.nxp.com/docs/en/data-sheet/KL46P121M48SF4.pdf
+$ENDCMP
+#
+$CMP MKV11Z128VLF7
+D Kinetis KV11 series, 75-MHz/32-bit ARM Cortex-M0+, 128 kB flash, 16 kB RAM, Entry-Level, Real-time Motor Control, LQFP-48
+K Kinetis KV11 ARM Cortex M0+
+F https://www.nxp.com/docs/en/data-sheet/KV11P64M75.pdf
 $ENDCMP
 #
 $CMP MKV11Z128VLH7
