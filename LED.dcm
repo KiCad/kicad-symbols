@@ -25,8 +25,9 @@ F http://www.kingbrightusa.com/images/catalog/SPEC/APFA3010LSEEZGKQBKC.pdf
 $ENDCMP
 #
 $CMP ASMB-KTF0-0A306
-D 2220 Tricolor PLCC-4 LED
-K RGB LED
+D Tricolor LED, Common Anode Pin 1, PLCC-4
+K Tricolor LED
+F https://docs.broadcom.com/docs/ASMB-KTF0-0A306-DS100
 $ENDCMP
 #
 $CMP ASMB-MTB0-0A3A2
