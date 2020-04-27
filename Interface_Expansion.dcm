@@ -12,6 +12,18 @@ K led driver i2c
 F https://ams.com/documents/20143/36005/AS1115_DS000206_1-00.pdf/3d3e6d35-b184-1329-adf9-2d769eb2404f
 $ENDCMP
 #
+$CMP LTC4314xGN
+D Pin-Selectable, 4-Channel, 2-Wire Multiplexer with Bus Buffers, SSOP-20
+K I2C Multiplexer Buffer Level Shifter
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4314f.pdf
+$ENDCMP
+#
+$CMP LTC4314xUDC
+D Pin-Selectable, 4-Channel, 2-Wire Multiplexer with Bus Buffers, QFN-20
+K I2C Multiplexer Buffer Level Shifter
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4314f.pdf
+$ENDCMP
+#
 $CMP MAX7325AEG+
 D I2C Port Expander with 8 Push-Pull and 8 Open-Drain I/Os, QSOP-24
 K Expander I2C Parallel Port GPIO Maxim
@@ -154,6 +166,30 @@ $CMP PCA9548ARGE
 D Low voltage 8-channel I2C switch with reset, VQFN-24
 K Low voltage 8-channel I2C switch with reset
 F http://www.ti.com/lit/ds/symlink/pca9548a.pdf
+$ENDCMP
+#
+$CMP PCA9555D
+D IO expander 16 GPIO, I2C 400kHz, Interrupt, 2.3 - 5.5V, SOIC-24
+K I2C TWI IO expander
+F https://www.nxp.com/docs/en/data-sheet/PCA9555.pdf
+$ENDCMP
+#
+$CMP PCA9555DB
+D IO expander 16 GPIO, I2C 400kHz, Interrupt, 2.3 - 5.5V, SSOP-24
+K I2C TWI IO expander
+F https://www.nxp.com/docs/en/data-sheet/PCA9555.pdf
+$ENDCMP
+#
+$CMP PCA9555PW
+D IO expander 16 GPIO, I2C 400kHz, Interrupt, 2.3 - 5.5V, TSSOP-24
+K I2C TWI IO expander
+F https://www.nxp.com/docs/en/data-sheet/PCA9555.pdf
+$ENDCMP
+#
+$CMP PCAL6416APW
+D IO expander 16 GPIO, I2C 400kHz, Interrupt, 1.65 - 5.5V, TSSOP-24
+K I2C TWI IO expander
+F https://www.nxp.com/docs/en/data-sheet/PCAL6416A.pdf
 $ENDCMP
 #
 $CMP PCF8574

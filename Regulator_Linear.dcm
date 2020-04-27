@@ -1404,6 +1404,36 @@ K Adjustable Voltage Regulator 1A Positive LDO
 F https://www.diodes.com/assets/Datasheets/AZ1117.pdf
 $ENDCMP
 #
+$CMP AZ1117D-ADJ
+D 1A 20V Adjustable LDO Linear Regulator, TO-252
+K Adjustable Voltage Regulator 1A Positive LDO
+F https://www.diodes.com/assets/Datasheets/products_inactive_data/AZ1117.pdf
+$ENDCMP
+#
+$CMP AZ1117H-ADJ
+D 1A 20V Adjustable LDO Linear Regulator, SOT-223
+K Adjustable Voltage Regulator 1A Positive LDO
+F https://www.diodes.com/assets/Datasheets/products_inactive_data/AZ1117.pdf
+$ENDCMP
+#
+$CMP AZ1117R-ADJ
+D 1A 20V Adjustable LDO Linear Regulator, SOT-89
+K Adjustable Voltage Regulator 1A Positive LDO
+F https://www.diodes.com/assets/Datasheets/products_inactive_data/AZ1117.pdf
+$ENDCMP
+#
+$CMP AZ1117S-ADJ
+D 1A 20V Adjustable LDO Linear Regulator, TO-263
+K Adjustable Voltage Regulator 1A Positive LDO
+F https://www.diodes.com/assets/Datasheets/products_inactive_data/AZ1117.pdf
+$ENDCMP
+#
+$CMP AZ1117T-ADJ
+D 1A 20V Adjustable LDO Linear Regulator, TO-220
+K Adjustable Voltage Regulator 1A Positive LDO
+F https://www.diodes.com/assets/Datasheets/products_inactive_data/AZ1117.pdf
+$ENDCMP
+#
 $CMP BD15GA3WEFJ
 D 300mA, 1.5V LDO regulator with OVP & TSP, HTSOP-8
 K linear regulator fixed positive over voltage protection thermal shutdown
@@ -1588,6 +1618,42 @@ $CMP IFX25401TEV50
 D Fixed 5V LDO Linear Voltage Regulator (TO-252-4)
 K fixed ldo positive voltage regulator
 F https://www.infineon.com/dgdl/Infineon-IFX25401-DS-v01_02-en.pdf?fileId=db3a304320d39d590120f62a690569f7
+$ENDCMP
+#
+$CMP IFX27001TFV
+D 1A Low Dropout Regulator, positive, adjustable output, TO-252-3
+K LDO positive voltage industrial
+F https://static6.arrow.com/aropdfconversion/dc75757ae45a88e5f69bdce3f2a651a5fe0ca07d/ifx27001_ds_10.pdf
+$ENDCMP
+#
+$CMP IFX27001TFV15
+D 1A Low Dropout Regulator, positive, 1.5V fixed output, TO-252-3
+K LDO positive voltage industrial
+F https://static6.arrow.com/aropdfconversion/dc75757ae45a88e5f69bdce3f2a651a5fe0ca07d/ifx27001_ds_10.pdf
+$ENDCMP
+#
+$CMP IFX27001TFV18
+D 1A Low Dropout Regulator, positive, 1.8V fixed output, TO-252-3
+K LDO positive voltage industrial
+F https://static6.arrow.com/aropdfconversion/dc75757ae45a88e5f69bdce3f2a651a5fe0ca07d/ifx27001_ds_10.pdf
+$ENDCMP
+#
+$CMP IFX27001TFV26
+D 1A Low Dropout Regulator, positive, 2.6V fixed output, TO-252-3
+K LDO positive voltage industrial
+F https://static6.arrow.com/aropdfconversion/dc75757ae45a88e5f69bdce3f2a651a5fe0ca07d/ifx27001_ds_10.pdf
+$ENDCMP
+#
+$CMP IFX27001TFV33
+D 1A Low Dropout Regulator, positive, 3.3V fixed output, TO-252-3
+K LDO positive voltage industrial
+F https://static6.arrow.com/aropdfconversion/dc75757ae45a88e5f69bdce3f2a651a5fe0ca07d/ifx27001_ds_10.pdf
+$ENDCMP
+#
+$CMP IFX27001TFV50
+D 1A Low Dropout Regulator, positive, 5.0V fixed output, TO-252-3
+K LDO positive voltage industrial
+F https://static6.arrow.com/aropdfconversion/dc75757ae45a88e5f69bdce3f2a651a5fe0ca07d/ifx27001_ds_10.pdf
 $ENDCMP
 #
 $CMP KA378R05
@@ -2646,16 +2712,16 @@ K Adjustable Voltage Regulator 3A Positive
 F http://www.ti.com/lit/ds/symlink/lm350a.pdf
 $ENDCMP
 #
-$CMP LM2931-5.0_SO8
-D Positive 100mA 30V Linear Regulator, Fixed Output 5V, SO-8
-K Voltage Regulator 100mA Positive
-F http://www.ti.com/lit/ds/symlink/lm2931-n.pdf
-$ENDCMP
-#
 $CMP LM2931-3.3_TO220
 D Positive 100 mA 60V Linear Low Dropout Regulator, Fixed Output 3.3V, TO-220
 K Low Dropout Voltage Regulator 100mA Positive
 F https://www.ti.com/lit/ds/symlink/lm2931-n.pdf
+$ENDCMP
+#
+$CMP LM2931-5.0_SO8
+D Positive 100mA 30V Linear Regulator, Fixed Output 5V, SO-8
+K Voltage Regulator 100mA Positive
+F http://www.ti.com/lit/ds/symlink/lm2931-n.pdf
 $ENDCMP
 #
 $CMP LM2931-5.0_TO220
@@ -2754,6 +2820,12 @@ K Adjustable Voltage Regulator 100mA Positive
 F http://www.ti.com/lit/ds/snvs775k/snvs775k.pdf
 $ENDCMP
 #
+$CMP LM317L_SOT-89
+D 100mA 35V Adjustable Linear Regulator, SOT-89
+K Adjustable Voltage Regulator 1A Positive
+F http://www.ti.com/lit/ds/symlink/lm317l.pdf
+$ENDCMP
+#
 $CMP LM317L_TO92
 D 100mA 35V Adjustable Linear Regulator, TO-92
 K Adjustable Voltage Regulator 100mA Positive
@@ -2762,6 +2834,30 @@ $ENDCMP
 #
 $CMP LM317_3PinPackage
 D 1A 35V Adjustable Linear Regulator, SOT-89/SOT-223/TO-220/TO-252/TO-263
+K Adjustable Voltage Regulator 1A Positive
+F http://www.ti.com/lit/ds/symlink/lm317.pdf
+$ENDCMP
+#
+$CMP LM317_SOT-223
+D 1.5A 35V Adjustable Linear Regulator, SOT-223
+K Adjustable Voltage Regulator 1A Positive
+F http://www.ti.com/lit/ds/symlink/lm317.pdf
+$ENDCMP
+#
+$CMP LM317_TO-220
+D 1.5A 35V Adjustable Linear Regulator, TO-220
+K Adjustable Voltage Regulator 1A Positive
+F http://www.ti.com/lit/ds/symlink/lm317.pdf
+$ENDCMP
+#
+$CMP LM317_TO-252
+D 1.5A 35V Adjustable Linear Regulator, TO-252
+K Adjustable Voltage Regulator 1A Positive
+F http://www.ti.com/lit/ds/snvs774n/snvs774n.pdf
+$ENDCMP
+#
+$CMP LM317_TO-263
+D 1.5A 35V Adjustable Linear Regulator, TO-263
 K Adjustable Voltage Regulator 1A Positive
 F http://www.ti.com/lit/ds/symlink/lm317.pdf
 $ENDCMP
@@ -3334,6 +3430,102 @@ $CMP LP2988-5.0_WSON8
 D 200mA Linear LDO Regulator, Low Noise, MicroPower, Fixed Output 5.0V, WSON-8
 K Linear LDO Regulator 200mA 5V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
+$ENDCMP
+#
+$CMP LP38691SD-1.8
+D 500-mA Low-Dropout CMOS Linear Regulators Stable With Ceramic Output Capacitors, 1.8V output voltage, WSON-6
+K LDO Linear Regulator
+F https://www.ti.com/lit/ds/symlink/lp38691.pdf
+$ENDCMP
+#
+$CMP LP38691SD-2.5
+D 500-mA Low-Dropout CMOS Linear Regulators Stable With Ceramic Output Capacitors, 2.5V output voltage, WSON-6
+K LDO Linear Regulator
+F https://www.ti.com/lit/ds/symlink/lp38691.pdf
+$ENDCMP
+#
+$CMP LP38691SD-3.3
+D 500-mA Low-Dropout CMOS Linear Regulators Stable With Ceramic Output Capacitors, 3.3V output voltage, WSON-6
+K LDO Linear Regulator
+F https://www.ti.com/lit/ds/symlink/lp38691.pdf
+$ENDCMP
+#
+$CMP LP38691SD-5.0
+D 500-mA Low-Dropout CMOS Linear Regulators Stable With Ceramic Output Capacitors, 5.0V output voltage, WSON-6
+K LDO Linear Regulator
+F https://www.ti.com/lit/ds/symlink/lp38691.pdf
+$ENDCMP
+#
+$CMP LP38693DT-1.8
+D 500-mA Low-Dropout CMOS Linear Regulators Stable With Ceramic Output Capacitors, 1.8V output voltage, TO-252
+K LDO Linear Regulator
+F https://www.ti.com/lit/ds/symlink/lp38693.pdf
+$ENDCMP
+#
+$CMP LP38693DT-2.5
+D 500-mA Low-Dropout CMOS Linear Regulators Stable With Ceramic Output Capacitors, 2.5V output voltage, TO-252
+K LDO Linear Regulator
+F https://www.ti.com/lit/ds/symlink/lp38693.pdf
+$ENDCMP
+#
+$CMP LP38693DT-3.3
+D 500-mA Low-Dropout CMOS Linear Regulators Stable With Ceramic Output Capacitors, 3.3V output voltage, TO-252
+K LDO Linear Regulator
+F https://www.ti.com/lit/ds/symlink/lp38693.pdf
+$ENDCMP
+#
+$CMP LP38693DT-5.0
+D 500-mA Low-Dropout CMOS Linear Regulators Stable With Ceramic Output Capacitors, 5.0V output voltage, TO-252
+K LDO Linear Regulator
+F https://www.ti.com/lit/ds/symlink/lp38693.pdf
+$ENDCMP
+#
+$CMP LP38693MP-1.8
+D 500-mA Low-Dropout CMOS Linear Regulators Stable With Ceramic Output Capacitors, 1.8V output voltage, Enable Pin, SOT-223
+K LDO Linear Regulator
+F https://www.ti.com/lit/ds/symlink/lp38693.pdf
+$ENDCMP
+#
+$CMP LP38693MP-2.5
+D 500-mA Low-Dropout CMOS Linear Regulators Stable With Ceramic Output Capacitors, 2.5V output voltage, Enable Pin, SOT-223
+K LDO Linear Regulator
+F https://www.ti.com/lit/ds/symlink/lp38693.pdf
+$ENDCMP
+#
+$CMP LP38693MP-3.3
+D 500-mA Low-Dropout CMOS Linear Regulators Stable With Ceramic Output Capacitors, 3.3V output voltage, Enable Pin, SOT-223
+K LDO Linear Regulator
+F https://www.ti.com/lit/ds/symlink/lp38693.pdf
+$ENDCMP
+#
+$CMP LP38693MP-5.0
+D 500-mA Low-Dropout CMOS Linear Regulators Stable With Ceramic Output Capacitors, 5.0V output voltage, Enable Pin, SOT-223
+K LDO Linear Regulator
+F https://www.ti.com/lit/ds/symlink/lp38693.pdf
+$ENDCMP
+#
+$CMP LP38693SD-1.8
+D 500-mA Low-Dropout CMOS Linear Regulators Stable With Ceramic Output Capacitors, 1.8V output voltage, Enable Pin, WSON-6
+K LDO Linear Regulator
+F https://www.ti.com/lit/ds/symlink/lp38693.pdf
+$ENDCMP
+#
+$CMP LP38693SD-2.5
+D 500-mA Low-Dropout CMOS Linear Regulators Stable With Ceramic Output Capacitors, 2.5V output voltage, Enable Pin, WSON-6
+K LDO Linear Regulator
+F https://www.ti.com/lit/ds/symlink/lp38693.pdf
+$ENDCMP
+#
+$CMP LP38693SD-3.3
+D 500-mA Low-Dropout CMOS Linear Regulators Stable With Ceramic Output Capacitors, 3.3V output voltage, Enable Pin, WSON-6
+K LDO Linear Regulator
+F https://www.ti.com/lit/ds/symlink/lp38693.pdf
+$ENDCMP
+#
+$CMP LP38693SD-5.0
+D 500-mA Low-Dropout CMOS Linear Regulators Stable With Ceramic Output Capacitors, 5.0V output voltage, Enable Pin, WSON-6
+K LDO Linear Regulator
+F https://www.ti.com/lit/ds/symlink/lp38693.pdf
 $ENDCMP
 #
 $CMP LP3963-1.8
@@ -4198,6 +4390,18 @@ $CMP LT3080xT
 D Adjustable 1.1A Single Resistor Low Dropout Regulator, TO-220
 K Adjustable 1.1A Low Dropout Regulator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3080fc.pdf
+$ENDCMP
+#
+$CMP LT3093xMSE
+D -200mA, Adjustable, Ultralow Noise, Ultrahigh PSRR RF Negative Linear Regulator, MSOP-12
+K linear negative voltage regulator low-noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/lt3093.pdf
+$ENDCMP
+#
+$CMP LT3094xMSE
+D -500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR RF Negative Linear Regulator, MSOP-12
+K linear negative voltage regulator low-noise
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT3094.pdf
 $ENDCMP
 #
 $CMP MAX1615xUK

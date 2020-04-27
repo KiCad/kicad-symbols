@@ -519,7 +519,7 @@ $ENDCMP
 $CMP 74LS139
 D Dual Decoder 1 of 4, Active low outputs
 K TTL DECOD4
-F http://www.ti.com/lit/gpn/sn74LS139
+F http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf
 $ENDCMP
 #
 $CMP 74LS14
@@ -756,10 +756,22 @@ K TTL Buffer BUS 3State
 F http://www.ti.com/lit/gpn/sn74LS240
 $ENDCMP
 #
+$CMP 74LS240_Split
+D Octal Inverter 3-State Outputs
+K TTL buffer 3State
+F http://www.ti.com/lit/ds/symlink/sn74ls244.pdf
+$ENDCMP
+#
 $CMP 74LS241
 D 8-bit Bus Buffer 3-State outputs
 K TTL Buffer BUS 3State
 F http://www.ti.com/lit/gpn/sn74LS241
+$ENDCMP
+#
+$CMP 74LS241_Split
+D Octal Buffer 3-State Outputs
+K TTL buffer 3State
+F http://www.ti.com/lit/ds/symlink/sn74ls244.pdf
 $ENDCMP
 #
 $CMP 74LS242
@@ -778,6 +790,12 @@ $CMP 74LS244
 D 8-bit Bus Buffer 3-State outputs
 K TTL Buffer BUS 3State
 F http://www.ti.com/lit/gpn/sn74LS244
+$ENDCMP
+#
+$CMP 74LS244_Split
+D Octal Buffer 3-State Outputs
+K TTL buffer 3State
+F http://www.ti.com/lit/ds/symlink/sn74ls244.pdf
 $ENDCMP
 #
 $CMP 74LS245

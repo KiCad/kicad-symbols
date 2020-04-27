@@ -57,6 +57,18 @@ K rs232 uart transceiver
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
 $ENDCMP
 #
+$CMP ADM2481xRW
+D Isolated RS485/RS422 Transceiver, Half-Duplex, 500kbps, SOIC-16W
+K rs-485 rs-422 eia485 eia-485 eia422 eia-422 serial differential
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adm2481.pdf
+$ENDCMP
+#
+$CMP ADM2483xRW
+D Isolated RS485/RS422 Transceiver, Half-Duplex, 500kbps, SOIC-16W
+K rs-485 rs-422 eia485 eia-485 eia422 eia-422 serial differential
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adm2483.pdf
+$ENDCMP
+#
 $CMP ADM2484E
 D Isolated RS485/RS422 Transceiver, Half-/Full-Duplex, 500kbps,SOIC-16W
 K RS485 Transceiver RS422 Transceiver
@@ -571,6 +583,30 @@ $CMP SC16IS740
 D Single UART with I2C/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support, TSSOP-16
 K UART I2C/SPI 64B FIFO IrDA SIR
 F https://www.nxp.com/docs/en/data-sheet/SC16IS740_750_760.pdf
+$ENDCMP
+#
+$CMP SC16IS752IBS
+D Dual UART with I2C/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support, HVQFN-32
+K UART I2C/SPI 64B FIFO IrDA SIR
+F https://www.nxp.com/docs/en/data-sheet/SC16IS752_SC16IS762.pdf
+$ENDCMP
+#
+$CMP SC16IS752IPW
+D Dual UART with I2C/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support, TSSOP-28
+K UART I2C/SPI 64B FIFO IrDA SIR
+F https://www.nxp.com/docs/en/data-sheet/SC16IS752_SC16IS762.pdf
+$ENDCMP
+#
+$CMP SC16IS762IBS
+D Dual UART with I2C/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support, HVQFN-32
+K UART I2C/SPI 64B FIFO IrDA SIR
+F https://www.nxp.com/docs/en/data-sheet/SC16IS752_SC16IS762.pdf
+$ENDCMP
+#
+$CMP SC16IS762IPW
+D Dual UART with I2C/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support, TSSOP-28
+K UART I2C/SPI 64B FIFO IrDA SIR
+F https://www.nxp.com/docs/en/data-sheet/SC16IS752_SC16IS762.pdf
 $ENDCMP
 #
 $CMP SN65LBC176D
