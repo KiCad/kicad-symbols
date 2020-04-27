@@ -1,5 +1,29 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BGM121A256V2
+D Blue Gecko Bluetooth SiP Module with built-in antenna, +8dBm, 1.85V to 3.8V, 256KB Flash, 32KB RAM
+K Blue Gecko Bluetooth SiP Module
+F https://www.silabs.com/documents/public/data-sheets/bgm12x-datasheet.pdf
+$ENDCMP
+#
+$CMP BGM121N256V2
+D Blue Gecko Bluetooth SiP Module with RF pin antenna, +8dBm, 1.85V to 3.8V, 256KB Flash, 32KB RAM
+K Blue Gecko Bluetooth SiP Module
+F https://www.silabs.com/documents/public/data-sheets/bgm12x-datasheet.pdf
+$ENDCMP
+#
+$CMP BGM123A256V2
+D Blue Gecko Bluetooth SiP Module with built-in antenna, +2dBm, 1.85V to 3.8V, 256KB Flash, 32KB RAM
+K Blue Gecko Bluetooth SiP Module
+F https://www.silabs.com/documents/public/data-sheets/bgm12x-datasheet.pdf
+$ENDCMP
+#
+$CMP BGM123N256V2
+D Blue Gecko Bluetooth SiP Module with RF pin antenna, +2dBm, 1.85V to 3.8V, 256KB Flash, 32KB RAM
+K Blue Gecko Bluetooth SiP Module
+F https://www.silabs.com/documents/public/data-sheets/bgm12x-datasheet.pdf
+$ENDCMP
+#
 $CMP C8051F380-GQ
 D Full Speed USB Flash MCU Family, 64k flash, 4352 ram, 40 IO, EMIF, ADC, Temperature, VREF, TQFP-48
 K 8051 microcontroller PCA UART USB SPI I2C ADC EMIF TQFP48
