@@ -2868,6 +2868,12 @@ K buck dc-dc switcher switching
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3638fa.pdf
 $ENDCMP
 #
+$CMP LTC3639
+D 100mA High efficiency 150V syncrhonous step-down converter, MSOP-16(12)
+K buck dc-dc switcher switching
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3639fd.pdf
+$ENDCMP
+#
 $CMP LTC3886
 D 60V dual output buck output with digital power system management, UKG52(46)
 K step down switch manager I2C telemetry fault current sense
