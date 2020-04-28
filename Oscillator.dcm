@@ -222,6 +222,12 @@ K OCXO
 F https://www.morion-us.com/catalog_pdf/mv317.pdf
 $ENDCMP
 #
+$CMP NB3N502
+D 3.3V / 5.0V 14 MHz to 190 MHz PLL Clock Multiplier, SOIC-8
+K oscillator clock multiplier PLL
+F http://www.onsemi.com/pub/Collateral/NB3N502-D.PDF
+$ENDCMP
+#
 $CMP NB3N511
 D 3.3V / 5.0V 14 MHz to 200 MHz PLL Clock Multiplier, SOIC-8
 K oscillator clock multiplier PLL
