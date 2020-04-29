@@ -228,6 +228,30 @@ K Current-flow, voltage and temperature  measurement to support batterycapacity 
 F https://datasheets.maximintegrated.com/en/ds/DS2745.pdf
 $ENDCMP
 #
+$CMP LC709203FQH-01TWG
+D Single LiPo battery fuel gauge, I2C, type 01, WDFN-8
+K Battery gauge I2C
+F https://www.onsemi.com/pub/Collateral/LC709203F-D.PDF
+$ENDCMP
+#
+$CMP LC709203FQH-02TWG
+D Single LiPo battery fuel gauge, I2C, type 02, WDFN-8
+K Battery gauge I2C
+F https://www.onsemi.com/pub/Collateral/LC709203F-D.PDF
+$ENDCMP
+#
+$CMP LC709203FQH-03TWG
+D Single LiPo battery fuel gauge, I2C, type 03, WDFN-8
+K Battery gauge I2C
+F https://www.onsemi.com/pub/Collateral/LC709203F-D.PDF
+$ENDCMP
+#
+$CMP LC709203FQH-04TWG
+D Single LiPo battery fuel gauge, I2C, type 04, WDFN-8
+K Battery gauge I2C
+F https://www.onsemi.com/pub/Collateral/LC709203F-D.PDF
+$ENDCMP
+#
 $CMP LP3947
 D Single Cell Li-Ion LDO Battery Charger IC, Up to 1A, Support USB charging scheme
 K li-ion battery charger usb
