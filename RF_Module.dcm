@@ -114,14 +114,14 @@ K RF Radio BT ESP ESP32 Espressif external U.FL antenna
 F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
 $ENDCMP
 #
-$CMP Jadak_Thingmagic_M6e-MICRO_edge_pins
-D RFID UHF module, 2 antenna port, 30dBm, Micro-LTE version, 50tags/s, edge pin connections
+$CMP M6e-M
+D RFID UHF module, 2 antenna port, 30dBm, 750tags/s, edge pin connections
 K RFID UHF Jadak Thingmagic M6e
 F https://www.mouser.com/pdfDocs/TM_Micro_Micro-LTE-UG-Rev-06292018.pdf
 $ENDCMP
 #
-$CMP Jadak_Thingmagic_M6e-M_edge_pins
-D RFID UHF module, 2 antenna port, 30dBm, 750tags/s, edge pin connections
+$CMP M6e-MICRO
+D RFID UHF module, 2 antenna port, 30dBm, Micro-LTE version, 50tags/s, edge pin connections
 K RFID UHF Jadak Thingmagic M6e
 F https://www.mouser.com/pdfDocs/TM_Micro_Micro-LTE-UG-Rev-06292018.pdf
 $ENDCMP

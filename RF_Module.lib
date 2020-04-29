@@ -618,14 +618,14 @@ X IO33 9 600 -900 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Jadak_Thingmagic_M6e-M_edge_pins
+# M6e-M
 #
-DEF Jadak_Thingmagic_M6e-M_edge_pins U 0 20 Y Y 1 F N
+DEF M6e-M U 0 20 Y Y 1 F N
 F0 "U" -350 650 50 H V C CNN
-F1 "Jadak_Thingmagic_M6e-M_edge_pins" 750 650 50 H V C CNN
+F1 "M6e-M" 250 650 50 H V C CNN
 F2 "RF_Module:Jadak_Thingmagic_M6e-Micro_edge_connection" 900 -650 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-ALIAS Jadak_Thingmagic_M6e-MICRO_edge_pins
+ALIAS M6e-MICRO
 $FPLIST
  *Thingmagic*M6e?Micro*edge*
 $ENDFPLIST
