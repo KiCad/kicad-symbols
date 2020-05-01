@@ -990,6 +990,18 @@ K single opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/OP07.pdf
 $ENDCMP
 #
+$CMP OP1177AR
+D Precision Low Noise, Low Input Bias Current Operational Amplifier, SOIC-8
+K single operational amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/OP1177_2177_4177.pdf
+$ENDCMP
+#
+$CMP OP1177ARM
+D Precision Low Noise, Low Input Bias Current Operational Amplifier, MSOP-8
+K single operational amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/OP1177_2177_4177.pdf
+$ENDCMP
+#
 $CMP OP179GRT
 D Single Rail-to-Rail High Output Current Operational Amplifiers, SOT-23-5
 K single opamp
