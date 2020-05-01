@@ -1446,6 +1446,11 @@ K N-Channel MOSFET
 F https://www.onsemi.com/pub/Collateral/FDC2512-D.pdf
 $ENDCMP
 #
+$CMP FDC6330L
+D -2.3A, 20V Vds, Integrated load switch, P-Channel MOSFET driven by small N-Channel MOSFET, TSOT-23-6
+K complementary mosfet
+F https://www.onsemi.com/pub/Collateral/FDC6330L-D.PDF
+#
 $CMP FDC86244
 D 2.3A Id, 150V Vds, N-Channel MOSFET, 144mOhm Ron, SuperSOT-6
 K N-Channel MOSFET
