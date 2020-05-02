@@ -6,4 +6,10 @@ K microcontroller RISC-V SiFive
 F https://static.dev.sifive.com/SiFive-FE310-G000-datasheet-v1p5.pdf
 $ENDCMP
 #
+$CMP FU540-C000
+D 64-bit RISC‑V SoC, BGA-484
+K SiFive
+F https://static.dev.sifive.com/FU540-C000-v1.0.pdf
+$ENDCMP
+#
 #End Doc Library
