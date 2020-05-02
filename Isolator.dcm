@@ -66,6 +66,12 @@ K High Speed Optocoupler
 F https://optoelectronics.liteon.com/upload/download/DS70-2008-0032/6N135-L%206N136-L%20series.pdf
 $ENDCMP
 #
+$CMP 6N137
+D Single High Speed LSTTL/TTL Compatible Optocoupler with enable, dV/dt 1000/us, VCM 10, max 7V VCC, DIP-8
+K High speed optically coupled gates enable
+F https://docs.broadcom.com/docs/AV02-0940EN
+$ENDCMP
+#
 $CMP 6N138
 D Low Input Current high Gain Split Darlington Optocouplers, -0.5V to 7V VDD, DIP-8
 K darlington optocoupler
@@ -78,130 +84,184 @@ K darlington optocoupler
 F http://www.onsemi.com/pub/Collateral/HCPL2731-D.pdf
 $ENDCMP
 #
+$CMP ADN4651
+D Dual-Channel LVDS Isolators, 5 kV RMS/3.75 kV RMS, 600 Mbps, SSOP-20
+K LVDS Isolator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adn4650-4651-4652.pdf
+$ENDCMP
+#
+$CMP ADN4652
+D Dual-Channel LVDS Isolators, 5 kV RMS/3.75 kV RMS, 600 Mbps, SSOP-20
+K LVDS Isolator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adn4650-4651-4652.pdf
+$ENDCMP
+#
 $CMP ADuM1200AR
-D Dual-channel digital isolator, Bidirectional communication, 3 V/5 V level translation, SOIC-8
+D Dual-channel digital isolator, Bidirectional communication, 3V/5V level translation, SOIC-8
 K Dual-channel digital isolator
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1200_1201.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM1200BR
-D Dual-Channel Digital Isolator, 10Mbps 50ns, bidirectional communication, 3 V/5 V level translation, SOIC-8
+D Dual-Channel Digital Isolator, 10Mbps 50ns, bidirectional communication, 3V/5V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 10Mbps
-F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+F https://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM1200CR
-D Dual-Channel Digital Isolator, 25Mbps 45ns, bidirectional communication, 3 V/5 V level translation, SOIC-8
+D Dual-Channel Digital Isolator, 25Mbps 45ns, bidirectional communication, 3V/5V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 25Mbps
-F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+F https://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM1200WS
-D Dual-Channel Digital Isolator, 1Mbps 150ns, Highest Tem. Grade, bidirectional communication, 3 V/5 V level translation, SOIC-8
+D Dual-Channel Digital Isolator, 1Mbps 150ns, Highest Tem. Grade, bidirectional communication, 3V/5V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 1Mbps
-F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+F https://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM1200WT
-D Dual-Channel Digital Isolator, 10Mbps 50ns, Highest Tem. Grade, bidirectional communication, 3 V/5 V level translation, SOIC-8
+D Dual-Channel Digital Isolator, 10Mbps 50ns, Highest Tem. Grade, bidirectional communication, 3V/5V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 10Mbps
-F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+F https://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM1200WU
-D Dual-Channel Digital Isolator, 25Mbps 45ns, Highest Tem. Grade, bidirectional communication, 3 V/5 V level translation, SOIC-8
+D Dual-Channel Digital Isolator, 25Mbps 45ns, Highest Tem. Grade, bidirectional communication, 3V/5V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 25Mbps
-F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+F https://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM1201AR
-D Dual-channel digital isolator, bidirectional communication, 3 V/5 V level translation, SOIC-8
+D Dual-channel digital isolator, bidirectional communication, 3V/5V level translation, SOIC-8
 K Dual-channel digital isolator
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1200_1201.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM1201BR
-D Dual-Channel Digital Isolator, 10Mbps 50ns, bidirectional communication, 3 V/5 V level translation, SOIC-8
+D Dual-Channel Digital Isolator, 10Mbps 50ns, bidirectional communication, 3V/5V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 10Mbps
-F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+F https://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM1201CR
-D Dual-Channel Digital Isolator, 25Mbps 45ns, bidirectional communication, 3 V/5 V level translation, SOIC-8
+D Dual-Channel Digital Isolator, 25Mbps 45ns, bidirectional communication, 3V/5V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 25Mbps
-F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+F https://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM1201WS
-D Dual-Channel Digital Isolator, 1Mbps 150ns, Highest Temp. Grade, bidirectional communication, 3 V/5 V level translation, SOIC-8
+D Dual-Channel Digital Isolator, 1Mbps 150ns, Highest Temp. Grade, bidirectional communication, 3V/5V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 1Mbps
-F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+F https://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM1201WT
-D Dual-Channel Digital Isolator, 10Mbps 50ns, Hihgest Temp. Grade, bidirectional communication, 3 V/5 V level translation, SOIC-8
+D Dual-Channel Digital Isolator, 10Mbps 50ns, Hihgest Temp. Grade, bidirectional communication, 3V/5V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 10Mbps
-F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+F https://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM1201WU
-D Dual-Channel Digital Isolator, 25Mbps 45ns, Highest Temp. Grade, bidirectional communication, 3 V/5 V level translation, SOIC-8
+D Dual-Channel Digital Isolator, 25Mbps 45ns, Highest Temp. Grade, bidirectional communication, 3V/5V level translation, SOIC-8
 K 2Ch Dual Digital Isolator 25Mbps
-F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+F https://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
 $ENDCMP
 #
 $CMP ADuM120N
-D Dual-channel digital isolator,1.8 to 5 V, 150Mbs, 3kV
+D Dual-channel digital isolator,1.8 to 5V, 150Mbs, 3kV
 K Dual-channel digital isolator
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM120N_121N.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM120N_121N.pdf
 $ENDCMP
 #
 $CMP ADuM121N
-D Dual-channel digital isolator,1.8 to 5 V, 150Mbs, 3kV
+D Dual-channel digital isolator,1.8 to 5V, 150Mbs, 3kV
 K Dual-channel digital isolator
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM120N_121N.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM120N_121N.pdf
+$ENDCMP
+#
+$CMP ADuM1400xRW
+D Quad Channel Digital Isolator, 10Mbps, SOIC-16
+K Digital Isolator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1400_1401_1402.pdf
+$ENDCMP
+#
+$CMP ADuM1401xRW
+D Quad Channel Digital Isolator, 10Mbps, SOIC-16
+K Digital Isolator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1400_1401_1402.pdf
+$ENDCMP
+#
+$CMP ADuM1402xRW
+D Quad Channel Digital Isolator, 10Mbps, SOIC-16
+K Digital Isolator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1400_1401_1402.pdf
 $ENDCMP
 #
 $CMP ADuM1410
 D Quad Channel Digital Isolator,10Mbps,SO-16
 K Digital Isolator
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1410_1411_1412.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1410_1411_1412.pdf
 $ENDCMP
 #
 $CMP ADuM1411
 D Quad Channel Digital Isolator,10Mbps,SO-16
 K Digital Isolator
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1410_1411_1412.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1410_1411_1412.pdf
 $ENDCMP
 #
 $CMP ADuM1412
 D Quad Channel Digital Isolator,10Mbps,SO-16
 K Digital Isolator
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1410_1411_1412.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1410_1411_1412.pdf
+$ENDCMP
+#
+$CMP ADuM260N
+D 5.0 kV RMS, 6-Channel Digital Isolator, 0 reverse channels, SOIC-16
+K digital isolator galvanic isopower
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM260N-261N-262N-263N.pdf
+$ENDCMP
+#
+$CMP ADuM261N
+D 5.0 kV RMS, 6-Channel Digital Isolator, 1 reverse channels, SOIC-16
+K digital isolator galvanic isopower
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM260N-261N-262N-263N.pdf
+$ENDCMP
+#
+$CMP ADuM262N
+D 5.0 kV RMS, 6-Channel Digital Isolator, 2 reverse channels, SOIC-16
+K digital isolator galvanic isopower
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM260N-261N-262N-263N.pdf
+$ENDCMP
+#
+$CMP ADuM263N
+D 5.0 kV RMS, 6-Channel Digital Isolator, 3 reverse channels, SOIC-16
+K digital isolator galvanic isopower
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM260N-261N-262N-263N.pdf
 $ENDCMP
 #
 $CMP ADuM5401
 D Quad-Channel 2.5kV isolator with integrated isoPower dc-dc converter, 3 Input / 1 output, SOIC-16
 K digital isolator galvanic isopower
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM5401_5402_5403_5404.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM5401_5402_5403_5404.pdf
 $ENDCMP
 #
 $CMP ADuM5402
 D Quad-Channel 2.5kV isolator with integrated isoPower dc-dc converter, 2 Input / 2 output, SOIC-16
 K digital isolator galvanic isopower
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM5401_5402_5403_5404.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM5401_5402_5403_5404.pdf
 $ENDCMP
 #
 $CMP ADuM5403
 D Quad-Channel 2.5kV isolator with integrated isoPower dc-dc converter, 1 Input / 3 output, SOIC-16
 K digital isolator galvanic isopower
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM5401_5402_5403_5404.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM5401_5402_5403_5404.pdf
 $ENDCMP
 #
 $CMP ADuM5404
 D Quad-Channel 2.5kV isolator with integrated isoPower dc-dc converter, 0 Input / 4 output, SOIC-16
 K digital isolator galvanic isopower
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM5401_5402_5403_5404.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM5401_5402_5403_5404.pdf
 $ENDCMP
 #
 $CMP ADuM5410
@@ -225,7 +285,7 @@ $ENDCMP
 $CMP ADuM7643
 D Low Power Six-Channel 3/3 Digital Isolator, 25Mbps 6ns, Fail-Safe High, QSOP20
 K 6Ch Quad Digital Isolator 25Mbps
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
 $ENDCMP
 #
 $CMP CNY17-1
@@ -252,10 +312,64 @@ K NPN DC Optocoupler Base Connected
 F http://www.vishay.com/docs/83606/cny17.pdf
 $ENDCMP
 #
+$CMP CPC-5002
+D Dual High Speed CMOS Compatible Optocoupler, dV/dt 5000/us, VCM 20, -0.3V to 6.5V VCC, DIP-8
+K High speed optically coupled gates
+F http://www.ixysic.com/home/pdfs.nsf/www/CPC5002.pdf
+$ENDCMP
+#
 $CMP EL814
 D AC/DC NPN Optocoupler, DIP4/SMD4
 K NPN AC DC Optocoupler
 F http://www.everlight.com/file/ProductFile/EL814.pdf
+$ENDCMP
+#
+$CMP EL817
+D DC Optocoupler, Vce 35V, DIP-4
+K NPN DC Optocoupler
+F http://www.everlight.com/file/ProductFile/EL817.pdf
+$ENDCMP
+#
+$CMP FODM214
+D AC/DC Optocoupler, Vce 80V, CTR 20-400%, SOP-4
+K AC DC Phototransistor Optocoupler
+F https://www.onsemi.com/pub/Collateral/FODM214-D.PDF
+$ENDCMP
+#
+$CMP FODM214A
+D AC/DC Optocoupler, Vce 80V, CTR 50-250%, SOP-4
+K AC DC Phototransistor Optocoupler
+F https://www.onsemi.com/pub/Collateral/FODM214-D.PDF
+$ENDCMP
+#
+$CMP FODM217A
+D DC Optocoupler, Vce 80V, CTR 80-160%, SOP-4
+K DC Phototransistor Optocoupler
+F https://www.onsemi.com/pub/Collateral/FODM214-D.PDF
+$ENDCMP
+#
+$CMP FODM217B
+D DC Optocoupler, Vce 80V, CTR 130-260%, SOP-4
+K DC Phototransistor Optocoupler
+F https://www.onsemi.com/pub/Collateral/FODM214-D.PDF
+$ENDCMP
+#
+$CMP FODM217C
+D DC Optocoupler, Vce 80V, CTR 200-400%, SOP-4
+K DC Phototransistor Optocoupler
+F https://www.onsemi.com/pub/Collateral/FODM214-D.PDF
+$ENDCMP
+#
+$CMP FODM217D
+D DC Optocoupler, Vce 80V, CTR 300-600%, SOP-4
+K DC Phototransistor Optocoupler
+F https://www.onsemi.com/pub/Collateral/FODM214-D.PDF
+$ENDCMP
+#
+$CMP H11AA1
+D AC/DC NPN Optocoupler, DIP-6
+K NPN AC DC Optocoupler
+F https://www.vishay.com/docs/83608/h11aa1.pdf
 $ENDCMP
 #
 $CMP H11L1
@@ -276,16 +390,70 @@ K High Speed Schmitt Optocoupler
 F https://www.fairchildsemi.com/datasheets/H1/H11L1M.pdf
 $ENDCMP
 #
+$CMP HCNW2201
+D Opto Coupler, 1kV/us, 50V CMR, Schmitt trigger output, WDIP-8
+K opto coupler schmitt output
+F https://docs.broadcom.com/docs/AV02-0674EN
+$ENDCMP
+#
+$CMP HCNW2211
+D Opto Coupler, 10kV/us, 1kV CMR, Schmitt trigger output, WDIP-8
+K opto coupler schmitt output
+F https://docs.broadcom.com/docs/AV02-0674EN
+$ENDCMP
+#
+$CMP HCPL-0201
+D Opto Coupler, 1kV/us, 50V CMR, Schmitt trigger output, SOIC-8
+K opto coupler schmitt output
+F https://docs.broadcom.com/docs/AV02-0674EN
+$ENDCMP
+#
+$CMP HCPL-0211
+D Opto Coupler, 5kV/us, 300V CMR, Schmitt trigger output, SOIC-8
+K opto coupler schmitt output
+F https://docs.broadcom.com/docs/AV02-0674EN
+$ENDCMP
+#
+$CMP HCPL-0600
+D Single High Speed LSTTL/TTL Compatible Optocoupler with enable, dV/dt 5000/us, VCM 1000, max 7V VCC, SOIC-8
+K High speed optically coupled gates enable
+F https://docs.broadcom.com/docs/AV02-0940EN
+$ENDCMP
+#
+$CMP HCPL-0601
+D Single High Speed LSTTL/TTL Compatible Optocoupler with enable, dV/dt 10000/us, VCM 1000, max 7V VCC, SOIC-8
+K High speed optically coupled gates enable
+F https://docs.broadcom.com/docs/AV02-0940EN
+$ENDCMP
+#
+$CMP HCPL-0611
+D Single High Speed LSTTL/TTL Compatible Optocoupler with enable, dV/dt 15000/us, VCM 1000, max 7V VCC, SOIC-8
+K High speed optically coupled gates enable
+F https://docs.broadcom.com/docs/AV02-0940EN
+$ENDCMP
+#
 $CMP HCPL-061A
-D Dual High Speed HCMOS/LSTTL/TTL Compatible Optocoupler, dV/dt 1000/us, VCM 50, -0.5V to 7V VCC, SOIC-8
-K High speed optically coupled gates
+D Single High Speed HCMOS/LSTTL/TTL Compatible Optocoupler with enable, dV/dt 1000/us, VCM 50, -0.5V to 7V VCC, SOIC-8
+K High speed optically coupled gates enable
 F http://docs.avagotech.com/docs/AV02-0391EN
 $ENDCMP
 #
 $CMP HCPL-061N
-D Dual High Speed HCMOS/LSTTL/TTL Compatible Optocoupler, dV/dt 1000/us, VCM 1000, -0.5V to 7V VCC, SOIC-8
-K High speed optically coupled gates
+D Single High Speed HCMOS/LSTTL/TTL Compatible Optocoupler with enable, dV/dt 1000/us, VCM 1000, -0.5V to 7V VCC, SOIC-8
+K High speed optically coupled gates enable
 F http://docs.avagotech.com/docs/AV02-0391EN
+$ENDCMP
+#
+$CMP HCPL-0630
+D Dual High Speed LSTTL/TTL Compatible Optocoupler, dV/dt 5000/us, VCM 1000, max 7V VCC, SOIC-8
+K High speed optically coupled gates
+F https://docs.broadcom.com/docs/AV02-0940EN
+$ENDCMP
+#
+$CMP HCPL-0631
+D Dual High Speed LSTTL/TTL Compatible Optocoupler, dV/dt 10000/us, VCM 1000, max 7V VCC, SOIC-8
+K High speed optically coupled gates
+F https://docs.broadcom.com/docs/AV02-0940EN
 $ENDCMP
 #
 $CMP HCPL-063A
@@ -300,16 +468,70 @@ K High speed optically coupled gates
 F http://docs.avagotech.com/docs/AV02-0391EN
 $ENDCMP
 #
-$CMP HCPL-261A
-D Dual High Speed HCMOS/LSTTL/TTL Compatible Optocoupler, dV/dt 1000/us, VCM 50, -0.5V to 7V VCC, DIP-8
+$CMP HCPL-0661
+D Dual High Speed LSTTL/TTL Compatible Optocoupler, dV/dt 15000/us, VCM 1000, max 7V VCC, SOIC-8
 K High speed optically coupled gates
+F https://docs.broadcom.com/docs/AV02-0940EN
+$ENDCMP
+#
+$CMP HCPL-2201
+D Opto Coupler, 1kV/us, 50V CMR, Schmitt trigger output, DIP-8
+K opto coupler schmitt output
+F https://docs.broadcom.com/docs/AV02-0674EN
+$ENDCMP
+#
+$CMP HCPL-2202
+D Opto Coupler, 1kV/us, 50V CMR, Schmitt trigger output, DIP-8
+K opto coupler schmitt output
+F https://docs.broadcom.com/docs/AV02-0674EN
+$ENDCMP
+#
+$CMP HCPL-2211
+D Opto Coupler, 5kV/us, 300V CMR, Schmitt trigger output, DIP-8
+K opto coupler schmitt output
+F https://docs.broadcom.com/docs/AV02-0674EN
+$ENDCMP
+#
+$CMP HCPL-2212
+D Opto Coupler, 5kV/us, 300V CMR, Schmitt trigger output, DIP-8
+K opto coupler schmitt output
+F https://docs.broadcom.com/docs/AV02-0674EN
+$ENDCMP
+#
+$CMP HCPL-2601
+D Single High Speed LSTTL/TTL Compatible Optocoupler with enable, dV/dt 10000/us, VCM 1000, max 7V VCC, DIP-8
+K High speed optically coupled gates enable
+F https://docs.broadcom.com/docs/AV02-0940EN
+$ENDCMP
+#
+$CMP HCPL-2611
+D Single High Speed LSTTL/TTL Compatible Optocoupler with enable, dV/dt 15000/us, VCM 1000, max 7V VCC, DIP-8
+K High speed optically coupled gates enable
+F https://docs.broadcom.com/docs/AV02-0940EN
+$ENDCMP
+#
+$CMP HCPL-261A
+D Single High Speed HCMOS/LSTTL/TTL Compatible Optocoupler with enable, dV/dt 1000/us, VCM 50, -0.5V to 7V VCC, DIP-8
+K High speed optically coupled gates enable
 F http://docs.avagotech.com/docs/AV02-0391EN
 $ENDCMP
 #
 $CMP HCPL-261N
-D Dual High Speed HCMOS/LSTTL/TTL Compatible Optocoupler, dV/dt 1000/us, VCM 1000, -0.5V to 7V VCC, DIP-8
-K High speed optically coupled gates
+D Single High Speed HCMOS/LSTTL/TTL Compatible Optocoupler with enable, dV/dt 1000/us, VCM 1000, -0.5V to 7V VCC, DIP-8
+K High speed optically coupled gates enable
 F http://docs.avagotech.com/docs/AV02-0391EN
+$ENDCMP
+#
+$CMP HCPL-2630
+D Dual High Speed LSTTL/TTL Compatible Optocoupler, dV/dt 5000/us, VCM 1000, max 7V VCC, DIP-8
+K High speed optically coupled gates
+F https://docs.broadcom.com/docs/AV02-0940EN
+$ENDCMP
+#
+$CMP HCPL-2631
+D Dual High Speed LSTTL/TTL Compatible Optocoupler, dV/dt 10000/us, VCM 1000, max 7V VCC, DIP-8
+K High speed optically coupled gates
+F https://docs.broadcom.com/docs/AV02-0940EN
 $ENDCMP
 #
 $CMP HCPL-263A
@@ -322,6 +544,12 @@ $CMP HCPL-263N
 D Dual High Speed HCMOS/LSTTL/TTL Compatible Optocoupler, dV/dt 1000/us, VCM 1000, -0.5V to 7V VCC, DIP-8
 K High speed optically coupled gates
 F http://docs.avagotech.com/docs/AV02-0391EN
+$ENDCMP
+#
+$CMP HCPL-4661
+D Dual High Speed LSTTL/TTL Compatible Optocoupler, dV/dt 15000/us, VCM 1000, max 7V VCC, DIP-8
+K High speed optically coupled gates
+F https://docs.broadcom.com/docs/AV02-0940EN
 $ENDCMP
 #
 $CMP HCPL-9000
@@ -352,6 +580,18 @@ $CMP ILQ74
 D Quad Optocoupler, NPN Phototransistor Output, TTL compatible, DIP16/SMD16
 K NPN DC Dual Optocoupler
 F https://www.vishay.com/docs/83640/ild74.pdf
+$ENDCMP
+#
+$CMP ISO1211
+D Isolated, 1 Channel, 24 to 60V Digital Input Receiver, SOIC-8
+K isolated digital input
+F http://www.ti.com/lit/ds/symlink/iso1211.pdf
+$ENDCMP
+#
+$CMP ISO1212
+D Isolated, 2 Channels, 24 to 60V Digital Inputs Receiver, SSOP-16
+K isolated digital input
+F http://www.ti.com/lit/ds/symlink/iso1212.pdf
 $ENDCMP
 #
 $CMP ISO1540
@@ -448,6 +688,12 @@ $CMP ISO7342FC
 D Low Power Quad-Channel 2/2 Digital Isolator, 25Mbps 31ns, Fail-Safe Low, SO16
 K 4Ch Quad Digital Isolator 25Mbps
 F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=iso7342fc&fileType=pdf
+$ENDCMP
+#
+$CMP LTV-247
+D DC Quad Optocoupler, Vce 80V, CTR 100-600%, SOP-16
+K NPN DC Quad Optocoupler
+F http://optoelectronics.liteon.com/upload/download/DS70-2009-0014/LTV-2X7%20sereis%20Mar17.PDF
 $ENDCMP
 #
 $CMP LTV-352T
@@ -577,7 +823,7 @@ F http://www.sharpsma.com/webfm_send/395
 $ENDCMP
 #
 $CMP PC817
-D DC Optocoupler, Vce 35V, CTR 50-300%, DIP4
+D DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4
 K NPN DC Optocoupler
 F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
 $ENDCMP
@@ -1267,7 +1513,7 @@ F https://toshiba.semicon-storage.com/info/docget.jsp?did=53548&prodName=TLP2770
 $ENDCMP
 #
 $CMP TLP290
-D AC/DC Phototransistor Optocoupler, Vce 80V, CTR 50-600%, SOP4
+D AC/DC Phototransistor Optocoupler, Vce 80V, CTR 50-600%, not recommended for new designs, SOP4
 K NPN AC DC Phototransistor Optocoupler
 F https://toshiba.semicon-storage.com/info/docget.jsp?did=12882&prodName=TLP290
 $ENDCMP
@@ -1336,6 +1582,72 @@ $CMP TLP785F
 D DC Optocoupler, Vce 80V, CTR 50-200%, DIP4F
 K NPN DC Optocoupler
 F https://toshiba.semicon-storage.com/info/docget.jsp?did=10569&prodName=TLP785F
+$ENDCMP
+#
+$CMP VO0600T
+D Single High Speed CMOS Compatible Optocoupler with enable, dV/dt 1000/us, VCM 10, max 7V VCC, SOIC-8
+K High speed optically coupled gates enable
+F http://www.vishay.com/doc?84607
+$ENDCMP
+#
+$CMP VO0601T
+D Single High Speed CMOS Compatible Optocoupler with enable, dV/dt 5000/us, VCM 50, max 7V VCC, SOIC-8
+K High speed optically coupled gates enable
+F http://www.vishay.com/doc?84607
+$ENDCMP
+#
+$CMP VO0611T
+D Single High Speed CMOS Compatible Optocoupler with enable, dV/dt 15000/us, VCM 1000, max 7V VCC, SOIC-8
+K High speed optically coupled gates enable
+F http://www.vishay.com/doc?84607
+$ENDCMP
+#
+$CMP VO0630T
+D Dual High Speed CMOS Compatible Optocoupler, dV/dt 1000/us, VCM 50, max 7V VCC, SOIC-8
+K High speed optically coupled gates
+F http://www.vishay.com/doc?84607
+$ENDCMP
+#
+$CMP VO0631T
+D Dual High Speed CMOS Compatible Optocoupler, dV/dt 5000/us, VCM 1000, max 7V VCC, SOIC-8
+K High speed optically coupled gates
+F http://www.vishay.com/doc?84607
+$ENDCMP
+#
+$CMP VO0661T
+D Dual High Speed CMOS Compatible Optocoupler, dV/dt 15000/us, VCM 1000, max 7V VCC, SOIC-8
+K High speed optically coupled gates
+F http://www.vishay.com/doc?84607
+$ENDCMP
+#
+$CMP VO2601
+D Single High Speed CMOS Compatible Optocoupler with enable, dV/dt 5000/us, VCM 50, max 7V VCC, DIP-8
+K High speed optically coupled gates enable
+F https://www.vishay.com/doc?84732
+$ENDCMP
+#
+$CMP VO2611
+D Single High Speed CMOS Compatible Optocoupler with enable, dV/dt 15000/us, VCM 1000, max 7V VCC, DIP-8
+K High speed optically coupled gates enable
+F https://www.vishay.com/doc?84732
+$ENDCMP
+#
+$CMP VO2630
+D Dual High Speed CMOS Compatible Optocoupler, dV/dt 1000/us, VCM 10, max 7V VCC, DIP-8
+K High speed optically coupled gates
+F https://www.vishay.com/doc?84732
+$ENDCMP
+#
+$CMP VO2631
+D Dual High Speed CMOS Compatible Optocoupler, dV/dt 5000/us, VCM 50, max 7V VCC, DIP-8
+K High speed optically coupled gates
+F https://www.vishay.com/doc?84732
+$ENDCMP
+#
+$CMP VO4661
+D Dual High Speed CMOS Compatible Optocoupler, dV/dt 15000/us, VCM 1000, max 7V VCC, DIP-8
+K High speed optically coupled gates
+F https://www.vishay.com/doc?84732
 $ENDCMP
 #
 $CMP VO615A

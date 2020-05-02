@@ -54,22 +54,130 @@ K Maple Mini Microcontroller Module LeafLabs STM32 STM32F103
 F http://docs.leaflabs.com/static.leaflabs.com/pub/leaflabs/maple-docs/0.0.12/hardware/maple-mini.html
 $ENDCMP
 #
+$CMP NUCLEO144-F207ZG
+D Nucleo 144 Development Board with STM32F207ZGT6 MCU, 128+4Kb RAM, 1Mb FLASH
+K STM32 Nucleo ST
+F https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-boards-stmicroelectronics.pdf
+$ENDCMP
+#
+$CMP NUCLEO144-F412ZG
+D Nucleo 144 Development Board with STM32F412ZGT6 MCU, 256kB RAM, 1Mb FLASH
+K STM32 Nucleo ST
+F https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-boards-stmicroelectronics.pdf
+$ENDCMP
+#
+$CMP NUCLEO144-F413ZH
+D Nucleo 144 Development Board with STM32F413ZHT6 MCU, 320kB RAM, 1.5Mb FLASH
+K STM32 Nucleo ST
+F https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-boards-stmicroelectronics.pdf
+$ENDCMP
+#
 $CMP NUCLEO144-F429ZI
 D Nucleo 144 Development Board with STM32F429ZIT6 MCU, 256kB RAM, 1Mb FLASH
 K STM32 Nucleo ST
 F http://www.st.com/content/ccc/resource/technical/document/data_brief/group0/7b/df/1d/e9/64/55/43/8d/DM00247910/files/DM00247910.pdf/jcr:content/translations/en.DM00247910.pdf
 $ENDCMP
 #
+$CMP NUCLEO144-F439ZI
+D Nucleo 144 Development Board with STM32F439ZIT6 MCU, 256kB RAM, 2Mb FLASH
+K STM32 Nucleo ST
+F https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-boards-stmicroelectronics.pdf
+$ENDCMP
+#
+$CMP NUCLEO144-F446ZE
+D Nucleo 144 Development Board with STM32F446ZET6 MCU, 128kB RAM, 512Kb FLASH
+K STM32 Nucleo ST
+F https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-boards-stmicroelectronics.pdf
+$ENDCMP
+#
+$CMP NUCLEO144-F722ZE
+D Nucleo 144 Development Board with STM32F722ZET6 MCU, 256kB RAM, 512Kb FLASH
+K STM32 Nucleo ST
+F https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-boards-stmicroelectronics.pdf
+$ENDCMP
+#
 $CMP NUCLEO144-F746ZG
 D Nucleo 144 Development Board with STM32F746ZG MCU, 256kB RAM, 1Mb FLASH
 K STM32 Nucleo ST
-F http://www.st.com/content/ccc/resource/technical/document/data_brief/group0/7b/df/1d/e9/64/55/43/8d/DM00247910/files/DM00247910.pdf/jcr:content/translations/en.DM00247910.pdf
+F https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-boards-stmicroelectronics.pdf
+$ENDCMP
+#
+$CMP NUCLEO144-F756ZG
+D Nucleo 144 Development Board with STM32F756ZGT6 MCU, 320kB RAM, 1Mb FLASH
+K STM32 Nucleo ST
+F https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-boards-stmicroelectronics.pdf
+$ENDCMP
+#
+$CMP NUCLEO144-F767ZI
+D Nucleo 144 Development Board with STM32F767ZIT6 MCU, 512kB RAM, 2Mb FLASH
+K STM32 Nucleo ST
+F https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-boards-stmicroelectronics.pdf
+$ENDCMP
+#
+$CMP NUCLEO144-H743ZI
+D Nucleo 144 Development Board with STM32H743ZIT6 MCU, 1024kB RAM, 2Mb FLASH
+K STM32 Nucleo ST
+F https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-boards-stmicroelectronics.pdf
 $ENDCMP
 #
 $CMP NUCLEO64-F411RE
 D Nucleo 64 Development Board with STM32F411RET6 MCU, 128kB RAM, 512KB FLASH
 K STM32 Nucleo ST
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/data_brief/DM00105918.pdf
+$ENDCMP
+#
+$CMP Omega2+
+D Iot Computer Module by Onion
+K onion omega module
+F https://docs.onion.io/omega2-docs/omega2p.html
+$ENDCMP
+#
+$CMP Omega2S
+D Iot Computer Module by Onion, 64MB RAM, 16MB FLASH
+K onion omega module
+F https://github.com/OnionIoT/Omega2/raw/master/Documents/Omega2S%20Datasheet.pdf
+$ENDCMP
+#
+$CMP Omega2S+
+D Iot Computer Module by Onion, 128MB RAM, 32MB FLASH
+K onion omega module
+F https://github.com/OnionIoT/Omega2/raw/master/Documents/Omega2S%20Datasheet.pdf
+$ENDCMP
+#
+$CMP PocketBeagle
+D Singleboard computer with ARM Cortex-A8 1GHz, 512MB RAM
+K beagleboard pocketbeagle
+F https://github.com/beagleboard/pocketbeagle/wiki/System-Reference-Manual
+$ENDCMP
+#
+$CMP RaspberryPi-CM1
+D BCM2835 Broadcom 700 MZ single core, 512 MB RAM 4 GB eMMC, industrial SoM computer
+K raspberry pi compute module
+F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM_1p0.pdf
+$ENDCMP
+#
+$CMP RaspberryPi-CM3
+D BCM2837 Broadcom 1.2 GHZ single core, 1 GB RAM 4 GB eMMC,  industrial SoM computer
+K raspberry pi compute module
+F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM_1p0.pdf
+$ENDCMP
+#
+$CMP RaspberryPi-CM3+
+D BCM2837B0 Broadcom 1.2 GHZ single core, 1 GB RAM 8/16/32 GB eMMC, industrial SoM computer
+K raspberry pi compute module
+F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM3plus_1p0.pdf
+$ENDCMP
+#
+$CMP RaspberryPi-CM3+L
+D BCM2837B0 Broadcom 1.2 GHZ single core, 1 GB RAM, industrial SoM computer
+K raspberry pi compute module
+F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM3plus_1p0.pdf
+$ENDCMP
+#
+$CMP RaspberryPi-CM3-L
+D BCM2837 Broadcom 1.2 GHZ single core, 1 GB RAM, industrial SoM computer
+K raspberry pi compute module
+F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM_1p0.pdf
 $ENDCMP
 #
 $CMP VisionSOM-6UL
@@ -82,6 +190,18 @@ $CMP VisionSOM-6ULL
 D i.MX6-ULL NXP ARM Cortex-A7 900MHz single core industrial SoM computer
 K somlabs module
 F https://wiki.somlabs.com/extensions/JZPDFGen/pdf/VisionSOM-6ULL%20Datasheet%20and%20Pinout-21.pdf
+$ENDCMP
+#
+$CMP VisionSOM-RT
+D i.MX-RT NXP ARM Cortex-M7 528MHz single core industrial SoM computer
+K somlabs module
+F https://wiki.somlabs.com/index.php/VisionSOM-RT_Datasheet_and_Pinout
+$ENDCMP
+#
+$CMP WeMos_D1_mini
+D 32-bit microcontroller module with WiFi
+K ESP8266 WiFi microcontroller ESP8266EX
+F https://wiki.wemos.cc/products:d1:d1_mini#documentation
 $ENDCMP
 #
 #End Doc Library
