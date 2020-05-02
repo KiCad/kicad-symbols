@@ -102,18 +102,6 @@ K VCA CEM3360 ALFA
 F http://www.alfarzpp.lv/eng/sc/AS3360.pdf
 $ENDCMP
 #
-$CMP BTDR-1H
-D Digi-Log Digital Reverb Module, 5V, Horizontal Mount, TH
-K audio belton reverb
-F http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf
-$ENDCMP
-#
-$CMP BTDR-1V
-D Digi-Log Digital Reverb Module, 5V, Vertical Mount, TH
-K audio belton reverb
-F http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf
-$ENDCMP
-#
 $CMP CS4245
 D 104 dB, 24-Bit, 192 kHz Stereo Audio CODEC, LQFP-48
 K audio codec 2ch 24bit 192kHz
