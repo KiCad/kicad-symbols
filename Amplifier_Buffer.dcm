@@ -6,6 +6,12 @@ K buffer amplifier
 F http://www.ti.com/lit/ds/symlink/buf602.pdf
 $ENDCMP
 #
+$CMP BUF602xDBV
+D High-Speed, 1000 MHz, Closed-Loop Buffer, SOT23-5
+K buffer amplifier
+F http://www.ti.com/lit/ds/symlink/buf602.pdf
+$ENDCMP
+#
 $CMP EL2001CN
 D Monolithic high slew rate, buffer amplifier, DIP-8
 K Monolithic high slew rate, buffer amplifier
