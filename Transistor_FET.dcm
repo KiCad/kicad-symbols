@@ -1272,6 +1272,12 @@ K complementary mosfet
 F https://www.diodes.com/assets/Datasheets/DMC2053UVT.pdf
 $ENDCMP
 #
+$CMP DMC3071LVT
+D 3.4A/-2.7A Id, 30V Vds, Complementary pair enhancement mode P-Channel and N-Channel MOSFET, TSOT-23-6
+K complementary mosfet
+F https://www.diodes.com/assets/Datasheets/DMC3071LVT.pdf
+$ENDCMP
+#
 $CMP DMG1012T
 D 20V Vds, 0.63 Id, N-Channel MOSFET with ESD protection, SOT-523
 K N-Channel MOSFET

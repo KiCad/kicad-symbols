@@ -1104,6 +1104,54 @@ K efuse protection switch
 F http://www.ti.com/lit/ds/symlink/tps25925.pdf
 $ENDCMP
 #
+$CMP TPS26630RGE
+D 60V, 6A Power Limiting, Surge Protection Industrial eFuse, Adjustable Overvoltage cut-off, Active Current Limiting, VQFN-24
+K efuse protection switch
+F https://www.ti.com/lit/ds/symlink/tps2663.pdf
+$ENDCMP
+#
+$CMP TPS26631PWP
+D 60V, 6A Power Limiting, Surge Protection Industrial eFuse, Adjustable Overvoltage cut-off, Active Current Limiting with Pulse current support, HTTSOP-20
+K efuse protection switch
+F https://www.ti.com/lit/ds/symlink/tps2663.pdf
+$ENDCMP
+#
+$CMP TPS26631RGE
+D 60V, 6A Power Limiting, Surge Protection Industrial eFuse, Adjustable Overvoltage cut-off, Active Current Limiting with Pulse current support, VQFN-24
+K efuse protection switch
+F https://www.ti.com/lit/ds/symlink/tps2663.pdf
+$ENDCMP
+#
+$CMP TPS26632RGE
+D 60V, 6A Power Limiting, Surge Protection Industrial eFuse, 35V fixed Overvoltage clamp, Active Current Limiting, VQFN-24
+K efuse protection switch
+F https://www.ti.com/lit/ds/symlink/tps2663.pdf
+$ENDCMP
+#
+$CMP TPS26633PWP
+D 60V, 6A Power Limiting, Surge Protection Industrial eFuse, 35V fixed Overvoltage clamp, Active Current Limiting with Pulse current support, HTTSOP-20
+K efuse protection switch
+F https://www.ti.com/lit/ds/symlink/tps2663.pdf
+$ENDCMP
+#
+$CMP TPS26633RGE
+D 60V, 6A Power Limiting, Surge Protection Industrial eFuse, 35V fixed Overvoltage clamp, Active Current Limiting with Pulse current support, VQFN-24
+K efuse protection switch
+F https://www.ti.com/lit/ds/symlink/tps2663.pdf
+$ENDCMP
+#
+$CMP TPS26635RGE
+D 60V, 6A Power Limiting, Surge Protection Industrial eFuse, 39V fixed Overvoltage clamp, Active Current Limiting with Pulse current support, VQFN-24
+K efuse protection switch
+F https://www.ti.com/lit/ds/symlink/tps2663.pdf
+$ENDCMP
+#
+$CMP TPS26636PWP
+D 60V, 6A Power Limiting, Surge Protection Industrial eFuse, 35V fixed Overvoltage clamp, Active Current Limiting with Pulse current support, HTTSOP-20
+K efuse protection switch
+F https://www.ti.com/lit/ds/symlink/tps2663.pdf
+$ENDCMP
+#
 $CMP TSM102
 D Dual Operational Amplifier and Dual Comparator and 1% Voltage Reference, SOIC-16
 K dual opamp comparator reference

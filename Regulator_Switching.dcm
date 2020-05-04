@@ -2868,6 +2868,12 @@ K buck dc-dc switcher switching
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3638fa.pdf
 $ENDCMP
 #
+$CMP LTC3639
+D 100mA High efficiency 150V syncrhonous step-down converter, MSOP-16(12)
+K buck dc-dc switcher switching
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3639fd.pdf
+$ENDCMP
+#
 $CMP LTC3886
 D 60V dual output buck output with digital power system management, UKG52(46)
 K step down switch manager I2C telemetry fault current sense
@@ -3220,6 +3226,18 @@ $CMP MT3608
 D High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6
 K Step-Up Boost DC-DC Regulator Adjustable
 F https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf
+$ENDCMP
+#
+$CMP MUN12AD01-SH
+D DC/DC Switching Regulator, Power Module, 1A, Cyntec MUN12AD01
+K DC/DC Switching Regulator Power Module 1A Cyntec MUN12AD01
+F http://www.cyntec.com/upfile/products/download/Cyntec%20MUN12AD01-SH_Datasheet.pdf
+$ENDCMP
+#
+$CMP MUN12AD03-SH
+D DC/DC Switching Regulator, Power Module, 3A, Cyntec MUN12AD03
+K DC/DC Switching Regulator Power Module 3A Cyntec MUN12AD03
+F http://www.cyntec.com/upfile/products/download/Cyntec%20MUN12AD03-SH_Datasheet.pdf
 $ENDCMP
 #
 $CMP NCP1070P065
