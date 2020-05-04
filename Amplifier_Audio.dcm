@@ -498,4 +498,10 @@ K audio vca
 F http://www.thatcorp.com/datashts/THAT_2181-Series_Datasheet.pdf
 $ENDCMP
 #
+$CMP TPA6132A2RTE
+D 25mW, Stereo, DirectPath Audio Amplifier, WQFN-16
+K DirectPath audio amplifier Stereo
+F https://www.ti.com/lit/ds/symlink/tpa6132a2.pdf
+$ENDCMP
+#
 #End Doc Library
