@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 5P49V6965
+D Programmable Clock Generator, I2C interface, 1kHz-350MHz, QFN-24
+K Low-noise PLL Reference Clock
+F https://www.idt.com/document/dst/5p49v6965-datasheet
+$ENDCMP
+#
 $CMP ABLNO
 D LVCMOS Ultra Low Phase Noise XO / VCXO, Abracon ABLNO
 K XO VCXO
@@ -138,6 +144,30 @@ K tcxo
 F https://global.kyocera.com/prdct/electro/product/pdf/kt2520_e.pdf
 $ENDCMP
 #
+$CMP LTC6905xS5-100
+D 2.7-5.5V 100MHz Precision Fixed Frequency Silicon Oscillator, TSOT-23-5
+K oscillator fixed frequency divider silicon
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6905xfa.pdf
+$ENDCMP
+#
+$CMP LTC6905xS5-133
+D 2.7-5.5V 133MHz Precision Fixed Frequency Silicon Oscillator, TSOT-23-5
+K oscillator fixed frequency divider silicon
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6905xfa.pdf
+$ENDCMP
+#
+$CMP LTC6905xS5-80
+D 2.7-5.5V 80MHz Precision Fixed Frequency Silicon Oscillator, TSOT-23-5
+K oscillator fixed frequency divider silicon
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6905xfa.pdf
+$ENDCMP
+#
+$CMP LTC6905xS5-96
+D 2.7-5.5V 96MHz Precision Fixed Frequency Silicon Oscillator, TSOT-23-5
+K oscillator fixed frequency divider silicon
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6905xfa.pdf
+$ENDCMP
+#
 $CMP MAX7375AXR105
 D Silicon Clock Oscillator 1MHz, SC-70-3
 K Silicon Clock Oscillator 1MHz 1000kHz
@@ -190,6 +220,12 @@ $CMP MV317
 D 60, 80, 100, 120 & 122.76 MHz OCXO, Morion MV317
 K OCXO
 F https://www.morion-us.com/catalog_pdf/mv317.pdf
+$ENDCMP
+#
+$CMP NB3N502
+D 3.3V / 5.0V 14 MHz to 190 MHz PLL Clock Multiplier, SOIC-8
+K oscillator clock multiplier PLL
+F http://www.onsemi.com/pub/Collateral/NB3N502-D.PDF
 $ENDCMP
 #
 $CMP NB3N511
@@ -246,6 +282,24 @@ K Crystal Clock Oscillator
 F https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-3030CM
 $ENDCMP
 #
+$CMP SG-5032CAN
+D CMOS Clock Oscillator 1 to 75 MHz
+K Crystal Clock Oscillator
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CAN&lang=en
+$ENDCMP
+#
+$CMP SG-5032CBN
+D CMOS Clock Oscillator 80 to 170 MHz
+K Crystal Clock Oscillator
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CBN&lang=en
+$ENDCMP
+#
+$CMP SG-5032CCN
+D CMOS Clock Oscillator 2.5 to 50 MHz
+K Crystal Clock Oscillator
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CCN&lang=en
+$ENDCMP
+#
 $CMP SG-51
 D CMOS Crystal Clock Oscillator, DIP14-style plastic package
 K Crystal Clock Oscillator
@@ -264,8 +318,26 @@ K Crystal Clock Oscillator
 F https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-51P
 $ENDCMP
 #
+$CMP SG-7050CAN
+D CMOS Clock Oscillator 1 to 75 MHz
+K Crystal Clock Oscillator
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_SG7050CAN&lang=en
+$ENDCMP
+#
+$CMP SG-7050CBN
+D CMOS Clock Oscillator 80 to 170 MHz
+K Crystal Clock Oscillator
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_SG7050CBN&lang=en
+$ENDCMP
+#
+$CMP SG-7050CCN
+D CMOS Clock Oscillator 2.5 to 50 MHz
+K Crystal Clock Oscillator
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_SG7050CAN&lang=en
+$ENDCMP
+#
 $CMP SG-8002CA
-D CMOS Clock Oscillator
+D CMOS Clock Oscillator 1 to 125 MHz
 K Crystal Clock Oscillator
 F https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC
 $ENDCMP
@@ -279,7 +351,7 @@ $ENDCMP
 $CMP SG-8002DB
 D Crystal Clock Oscillator, DIP14-style plastic package
 K Crystal Clock Oscillator
-F https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_SG-8002DB&lang=en
 $ENDCMP
 #
 $CMP SG-8002DC
@@ -301,9 +373,9 @@ F https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC
 $ENDCMP
 #
 $CMP SG-8002LB
-D CMOS Clock Oscillator
+D CMOS Clock Oscillator 1 to 125 MHz
 K Crystal Clock Oscillator
-F https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_SG-8002LB&lang=en
 $ENDCMP
 #
 $CMP Si512A_2.5x3.2mm
@@ -418,6 +490,78 @@ $CMP XO91
 D HCMOS Clock Oscillator
 K Crystal Clock Oscillator
 F http://cdn-reichelt.de/documents/datenblatt/B400/XO91.pdf
+$ENDCMP
+#
+$CMP XUX51
+D Low phase noise, quartz-based PLL oscillator, 0.016-1500 MHz, complementary output
+K OTP XHCMOS 1.8V VCXO
+F https://www.idt.com/document/dst/xu-family-datasheet
+$ENDCMP
+#
+$CMP XUX52
+D Low phase noise, quartz-based PLL oscillator, 0.016-1500 MHz, complementary output
+K OTP XHCMOS 2.5V VCXO
+F https://www.idt.com/document/dst/xu-family-datasheet
+$ENDCMP
+#
+$CMP XUX53
+D Low phase noise, quartz-based PLL oscillator, 0.016-1500 MHz, complementary output
+K OTP XHCMOS 3.3V VCXO
+F https://www.idt.com/document/dst/xu-family-datasheet
+$ENDCMP
+#
+$CMP XUX71
+D Low phase noise, quartz-based PLL oscillator, 0.016-1500 MHz, complementary output
+K OTP XHCMOS 1.8V VCXO
+F https://www.idt.com/document/dst/xu-family-datasheet
+$ENDCMP
+#
+$CMP XUX72
+D Low phase noise, quartz-based PLL oscillator, 0.016-1500 MHz, complementary output
+K OTP XHCMOS 2.5V VCXO
+F https://www.idt.com/document/dst/xu-family-datasheet
+$ENDCMP
+#
+$CMP XUX73
+D Low phase noise, quartz-based PLL oscillator, 0.016-1500 MHz, complementary output
+K OTP XHCMOS 3.3V VCXO
+F https://www.idt.com/document/dst/xu-family-datasheet
+$ENDCMP
+#
+$CMP XUY51
+D Low phase noise, quartz-based PLL oscillator, 0.016-1500 MHz, complementary output
+K OTP HCMOS 1.8V VCXO
+F https://www.idt.com/document/dst/xu-family-datasheet
+$ENDCMP
+#
+$CMP XUY52
+D Low phase noise, quartz-based PLL oscillator, 0.016-1500 MHz, complementary output
+K OTP XHCMOS 2.5V VCXO
+F https://www.idt.com/document/dst/xu-family-datasheet
+$ENDCMP
+#
+$CMP XUY53
+D Low phase noise, quartz-based PLL oscillator, 0.016-1500 MHz, complementary output
+K OTP XHCMOS 3.3V VCXO
+F https://www.idt.com/document/dst/xu-family-datasheet
+$ENDCMP
+#
+$CMP XUY71
+D Low phase noise, quartz-based PLL oscillator, 0.016-1500 MHz, complementary output
+K OTP HCMOS 1.8V VCXO
+F https://www.idt.com/document/dst/xu-family-datasheet
+$ENDCMP
+#
+$CMP XUY72
+D Low phase noise, quartz-based PLL oscillator, 0.016-1500 MHz, complementary output
+K OTP XHCMOS 2.5V VCXO
+F https://www.idt.com/document/dst/xu-family-datasheet
+$ENDCMP
+#
+$CMP XUY73
+D Low phase noise, quartz-based PLL oscillator, 0.016-1500 MHz, complementary output
+K OTP XHCMOS 3.3V VCXO
+F https://www.idt.com/document/dst/xu-family-datasheet
 $ENDCMP
 #
 #End Doc Library
