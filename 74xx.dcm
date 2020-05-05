@@ -216,6 +216,12 @@ K HCMOS SR OpenCollector
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf
 $ENDCMP
 #
+$CMP 74HC688
+D 8-bit magnitude comparator
+K HCMOS DECOD Arith
+F https://www.ti.com/lit/ds/symlink/cd54hc688.pdf
+$ENDCMP
+#
 $CMP 74HC7014
 D Hex non-inverting buffer with precision Schmitt Trigger inputs, SOIC-14
 K Hex non-inverting Schmitt buffer
@@ -328,6 +334,12 @@ $CMP 74HCT596
 D 8-bit serial in/out Shift Register Open Collector Outputs
 K HCTMOS SR OpenCollector
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf
+$ENDCMP
+#
+$CMP 74HCT688
+D 8-bit magnitude comparator
+K HCTMOS DECOD Arith
+F https://www.ti.com/lit/ds/symlink/cd54hc688.pdf
 $ENDCMP
 #
 $CMP 74LCX07
@@ -1201,7 +1213,7 @@ F http://www.ti.com/lit/gpn/sn74LS670
 $ENDCMP
 #
 $CMP 74LS688
-D 8-bit Comparator
+D 8-bit magnitude comparator
 K TTL DECOD Arith
 F http://www.ti.com/lit/gpn/sn74LS688
 $ENDCMP
