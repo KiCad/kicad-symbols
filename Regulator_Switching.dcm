@@ -5520,6 +5520,12 @@ K Step-Down DC-DC Switching Regulator High Voltage Adjustable Frequency
 F http://www.ti.com/lit/ds/symlink/tps54061.pdf
 $ENDCMP
 #
+$CMP TPS54202
+D Simple Switcher Synchronous Step Down Converter, Vin=4.5-28V, Iout=2A, F=500kHz, Adjustable output voltage, SOT-23 (6)
+K simple-switcher synchronous buck step-down voltage-regulator
+F https://www.ti.com/lit/ds/symlink/tps54202.pdf
+$ENDCMP
+#
 $CMP TPS5420D
 D Adjustable Output, 2A Step-Down Converter, 5.5V-36V Input, 500kHz Switching Frequency
 K switching buck converter step-down
