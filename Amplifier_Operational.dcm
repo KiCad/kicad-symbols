@@ -1141,14 +1141,14 @@ F http://www.ti.com/lit/ds/symlink/opa134.pdf
 $ENDCMP
 #
 $CMP OPA2156xD
-D Low noise, high speed, CMOS precision RRIO dual op amp
-K dual opamp low-power
+D Dual 36V, Ultra Low Noise, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8
+K dual opamp low-noise r2r
 F https://www.ti.com/lit/ds/symlink/opa2156.pdf
 $ENDCMP
 #
 $CMP OPA2156xDGK
 D Dual 36V, Ultra Low Noise, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8
-K dual opamp rtor
+K dual opamp low-noise r2r
 F http://www.ti.com/lit/ds/symlink/opa2156.pdf
 $ENDCMP
 #
