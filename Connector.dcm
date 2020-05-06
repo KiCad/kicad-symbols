@@ -1116,6 +1116,18 @@ K expresscard pci express
 F https://web.archive.org/web/20180809060653/http://www.usb.org/developers/expresscard/EC_specifications/ExpressCard_2_0_FINAL.pdf
 $ENDCMP
 #
+$CMP GPIB_Female
+D IEEE 488 female connector 24 pins
+K connector
+F https://en.wikipedia.org/wiki/IEEE-488
+$ENDCMP
+#
+$CMP GPIB_Male
+D IEEE 488 female connector 24 pins
+K connector
+F https://en.wikipedia.org/wiki/IEEE-488
+$ENDCMP
+#
 $CMP HDMI_A
 D HDMI type A connector
 K hdmi conn
@@ -1161,6 +1173,18 @@ $ENDCMP
 $CMP IEEE1394a
 D FireWire/IEEE1394a 6-pin connector
 K connector IEEE1394a FireWire
+F ~
+$ENDCMP
+#
+$CMP IEEE488
+D IEEE 488 female connector 24 pins
+K connector IEEE 488
+F ~
+$ENDCMP
+#
+$CMP IEEE488_copy
+D IEEE 488 female connector 24 pins
+K connector IEEE 488
 F ~
 $ENDCMP
 #
