@@ -264,6 +264,12 @@ K audio amplifier class d
 F https://www.diodes.com/assets/Datasheets/PAM8302A.pdf
 $ENDCMP
 #
+$CMP PAM8403DR
+D 3W Filterless Class-D Stereo Audio Amplifier, SOP-16
+K audio amplifier class d
+F https://www.diodes.com/assets/Datasheets/PAM8403.pdf
+$ENDCMP
+#
 $CMP SSM2017P
 D Self-Contained Audio Preamplifier, DIP-8
 K audio preamplifier
