@@ -16,4 +16,4 @@ Thanks for creating a pull request to contribute to the KiCad libraries! To spee
 
 ---
 
-Be patient, we maintainers are volunteers with limited time and need to check your contribution against the datasheet. You can speed up the process by providing all the necessary information (see above). And you can speed up the process even more by providing additional info like the screenshot of the pin table sorted in the same way as the pin table in the datasheet and a direct link to the datasheet page that contains the pin table.
+Be patient, we maintainers are volunteers with limited time and need to check your contribution against the datasheet. You can speed up the process by providing all the necessary information (see above). And you can speed up the process even more by providing additional info like the screenshot of the symbol editor pin table (or for high pin counts converted to csv) sorted in the same way as the pin table in the datasheet and a direct link to the datasheet page that contains the pin table.
