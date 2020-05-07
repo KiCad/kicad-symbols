@@ -5982,6 +5982,12 @@ K Buck-Boost converter 5V
 F http://www.ti.com/lit/ds/symlink/tps63060.pdf
 $ENDCMP
 #
+$CMP TPS65130RGE
+D  Split-Rail Converter with Dual, Positive and Negative Outputs (300mA typ), 2.7-5.5V, VQFN-24
+K split-rail switching dual positive negative
+F http://www.ti.com/lit/ds/symlink/tps65130.pdf
+$ENDCMP
+#
 $CMP TPS82130
 D 17V Input 3A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8
 K 17V 3A Step-down Buck Module
