@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATAES132A-SH
+D 32K AES serial EEPROM, SOIC-8
+K cryptographic security AES SPI
+F http://ww1.microchip.com/downloads/en/DeviceDoc/ATAES132A-Data-Sheet-40002023A.pdf
+$ENDCMP
+#
+$CMP ATECC608A-MAHDA
+D Cryptographic Co-Processor with Secure Hardware-based 16 Key Storage, ECDSA and ECDH support, I2C, UDFN-8
+K Cryptographic coprocessor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/ATECC608A-CryptoAuthentication-Device-Summary-Data-Sheet-DS40001977B.pdf
+$ENDCMP
+#
+$CMP ATECC608A-SSHDA
+D Cryptographic Co-Processor with Secure Hardware-based 16 Key Storage, ECDSA and ECDH support, I2C, SOIC-8
+K Cryptographic coprocessor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/ATECC608A-CryptoAuthentication-Device-Summary-Data-Sheet-DS40001977B.pdf
+$ENDCMP
+#
+#End Doc Library

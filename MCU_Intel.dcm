@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 80186
+D High-Integration 16-Bit Microprocessor
+K MPRO
+F http://datasheets.chipdb.org/Intel/x86/8018x/datashts/27243002.PDF
+$ENDCMP
+#
+$CMP 80188
+D High-Integration 16-Bit Microprocessor
+K MPRO
+F http://datasheets.chipdb.org/Intel/x86/8018x/datashts/27243002.PDF
+$ENDCMP
+#
 $CMP 8035
 D MCS-48 8-bit Microcontroller, No (EP)ROM, 64B RAM, DIP-40
 K MCS-48 uC Microcontroller
@@ -28,6 +40,18 @@ $ENDCMP
 $CMP 8050
 D MCS-48 8-bit Microcontroller, 4KB Mask ROM, 256B RAM, DIP-40
 K MCS-48 uC Microcontroller
+$ENDCMP
+#
+$CMP 8080
+D 8-bit N-channel Microprocessor, DIP-40
+K cpu mpu microprocessor
+F http://datasheets.chipdb.org/Intel/MCS-80/intel-8080.pdf
+$ENDCMP
+#
+$CMP 8080A
+D 8-bit N-channel Microprocessor, DIP-40
+K cpu mpu microprocessor
+F http://datasheets.chipdb.org/Intel/MCS-80/intel-8080.pdf
 $ENDCMP
 #
 $CMP 8086_Max_Mode
@@ -66,6 +90,24 @@ K MPRO
 F http://datasheets.chipdb.org/Intel/x86/808x/datashts/8088/231456-006.pdf
 $ENDCMP
 #
+$CMP 80C186XL
+D 16-Bit High-Integration Embedded Processor
+K MPRO
+F http://datasheets.chipdb.org/Intel/x86/8018x/datashts/27243104.PDF
+$ENDCMP
+#
+$CMP 80C188
+D CHMOS High-Integration 16-Bit Microprocessor
+K MPRO
+F http://datasheets.chipdb.org/Intel/x86/8018x/datashts/80188/intel-80c188.pdf
+$ENDCMP
+#
+$CMP 80C188XL
+D 16-Bit High-Integration Embedded Processor
+K MPRO
+F http://datasheets.chipdb.org/Intel/x86/8018x/datashts/27243104.PDF
+$ENDCMP
+#
 $CMP 8748
 D i8748, MCS-48 8-bit Microcontroller with Internal EPROM, 1KB EPROM, 64B RAM, DIP-40
 K MCS-48 uC Microcontroller
@@ -79,6 +121,30 @@ $ENDCMP
 $CMP I386EX_PQFP
 D Intel I386EX Embedded microprocessor, PQFP-132
 K MPRO
+$ENDCMP
+#
+$CMP IA186XLPLC68IR2
+D MCU Replacement for Intel 80C186XL
+K MPRO
+F http://www.innovasic.com/upload/products/Innovasic_IA186XL_IA188XL_Data_Sheet_20110706_2.pdf
+$ENDCMP
+#
+$CMP IA188XLPLC68IR2
+D MCU Replacement for Intel 80C188XL
+K MPRO
+F http://www.innovasic.com/upload/products/Innovasic_IA186XL_IA188XL_Data_Sheet_20110706_2.pdf
+$ENDCMP
+#
+$CMP M80C186
+D CHMOS High-Integration 16-Bit Microprocessor
+K MPRO
+F http://datasheets.chipdb.org/Intel/x86/8018x/datashts/80186/27050008.PDF
+$ENDCMP
+#
+$CMP M80C186XL
+D 16-Bit High-Integration Embedded Processor
+K MPRO
+F http://datasheets.chipdb.org/Intel/x86/8018x/datashts/80186/27127602.pdf
 $ENDCMP
 #
 #End Doc Library
