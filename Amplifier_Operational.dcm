@@ -546,6 +546,36 @@ K quad opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/60812fd.pdf
 $ENDCMP
 #
+$CMP LTC6228xDC
+D Low Distortion Rail-to-Rail Output Op Amp with Shutdown
+K single opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6228-6229.pdf
+$ENDCMP
+#
+$CMP LTC6228xS6
+D Low Distortion Rail-to-Rail Output Op Amp with Shutdown
+K single opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6228-6229.pdf
+$ENDCMP
+#
+$CMP LTC6228xS8
+D Low Distortion Rail-to-Rail Output Op Amp with Shutdown
+K single opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6228-6229.pdf
+$ENDCMP
+#
+$CMP LTC6229xDD
+D Low Distortion Rail-to-Rail Output Op Amps with Shutdown
+K dual opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6228-6229.pdf
+$ENDCMP
+#
+$CMP LTC6229xMS8E
+D Low Distortion Rail-to-Rail Output Op Amps with Shutdown
+K dual opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6228-6229.pdf
+$ENDCMP
+#
 $CMP LTC6253xMS8
 D 720MHz, 3.5mA Power Efficient, Rail-to-Rail Op Amp, MSOP-8
 K dual opamp low-power
