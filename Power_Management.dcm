@@ -24,6 +24,18 @@ K Limit USB Active Low
 F http://www.skyworksinc.com/uploads/documents/AAT4616_201940E.pdf
 $ENDCMP
 #
+$CMP AP2161W
+D Current limited power switch, single channel, SOT-23-5
+K Limit USB Active Low
+F https://www.diodes.com/assets/Datasheets/AP2161.pdf
+$ENDCMP
+#
+$CMP AP2171W
+D Current limited power switch, single channel, SOT-23-5
+K Limit USB Active High
+F https://www.diodes.com/assets/Datasheets/AP2161.pdf
+$ENDCMP
+#
 $CMP AUIPS1041R
 D Intelligent Power Low Side Switch, 39V, 4.5A, DPAK-5L
 K low side switch
@@ -522,6 +534,12 @@ K Automatic Capacitor Discarger
 F https://ac-dc.power.com/sites/default/files/product_document/data_sheet/capzero-3_family_datasheet.pdf
 $ENDCMP
 #
+$CMP DS1210
+D Nonvolatile Controller, PDIP-8
+K Nonvolatile, RAM, Controller, Battery, Power
+F https://datasheets.maximintegrated.com/en/ds/DS1210.pdf
+$ENDCMP
+#
 $CMP HF81
 D X capacitor bleeder, SOIC-8
 K X capacitor discharge
@@ -810,6 +828,18 @@ K overvoltage undervoltage reverse-polarity protection
 F https://www.analog.com/media/en/technical-documentation/data-sheets/4365fa.pdf
 $ENDCMP
 #
+$CMP LTC4370xDE
+D OR Controller Current Sharing Controller N-Channel 2:1, DFN-16
+K ideal-diode or-ing current sharing load balancing
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4370f.pdf
+$ENDCMP
+#
+$CMP LTC4370xMS
+D OR Controller Current Sharing Controller N-Channel 2:1, MSOP-16
+K ideal-diode or-ing current sharing load balancing
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4370f.pdf
+$ENDCMP
+#
 $CMP LTC4412xS6
 D Low Loss PowerPath Controller, TSOT-23-6
 K ideal-diode or-ing
@@ -1020,6 +1050,12 @@ K 4-chanel power-distribution USB
 F http://www.ti.com/lit/ds/symlink/tps2044.pdf
 $ENDCMP
 #
+$CMP TPS22810DRV
+D 2.7-18V, 79mohms On-Resistance Load Switch With Thermal Protection, WSON-6
+K load switch thermal protection
+F http://www.ti.com/lit/ds/symlink/tps22810.pdf
+$ENDCMP
+#
 $CMP TPS22917DBV
 D 1V to 5.5V, 2A, 80mΩ Ultra-Low Leakage Load Switch, SOT23-6
 K high-side power distribution switch
@@ -1066,6 +1102,54 @@ $CMP TPS2592xx
 D 5V/12V eFuse Protection Switch (VSON-10)
 K efuse protection switch
 F http://www.ti.com/lit/ds/symlink/tps25925.pdf
+$ENDCMP
+#
+$CMP TPS26630RGE
+D 60V, 6A Power Limiting, Surge Protection Industrial eFuse, Adjustable Overvoltage cut-off, Active Current Limiting, VQFN-24
+K efuse protection switch
+F https://www.ti.com/lit/ds/symlink/tps2663.pdf
+$ENDCMP
+#
+$CMP TPS26631PWP
+D 60V, 6A Power Limiting, Surge Protection Industrial eFuse, Adjustable Overvoltage cut-off, Active Current Limiting with Pulse current support, HTTSOP-20
+K efuse protection switch
+F https://www.ti.com/lit/ds/symlink/tps2663.pdf
+$ENDCMP
+#
+$CMP TPS26631RGE
+D 60V, 6A Power Limiting, Surge Protection Industrial eFuse, Adjustable Overvoltage cut-off, Active Current Limiting with Pulse current support, VQFN-24
+K efuse protection switch
+F https://www.ti.com/lit/ds/symlink/tps2663.pdf
+$ENDCMP
+#
+$CMP TPS26632RGE
+D 60V, 6A Power Limiting, Surge Protection Industrial eFuse, 35V fixed Overvoltage clamp, Active Current Limiting, VQFN-24
+K efuse protection switch
+F https://www.ti.com/lit/ds/symlink/tps2663.pdf
+$ENDCMP
+#
+$CMP TPS26633PWP
+D 60V, 6A Power Limiting, Surge Protection Industrial eFuse, 35V fixed Overvoltage clamp, Active Current Limiting with Pulse current support, HTTSOP-20
+K efuse protection switch
+F https://www.ti.com/lit/ds/symlink/tps2663.pdf
+$ENDCMP
+#
+$CMP TPS26633RGE
+D 60V, 6A Power Limiting, Surge Protection Industrial eFuse, 35V fixed Overvoltage clamp, Active Current Limiting with Pulse current support, VQFN-24
+K efuse protection switch
+F https://www.ti.com/lit/ds/symlink/tps2663.pdf
+$ENDCMP
+#
+$CMP TPS26635RGE
+D 60V, 6A Power Limiting, Surge Protection Industrial eFuse, 39V fixed Overvoltage clamp, Active Current Limiting with Pulse current support, VQFN-24
+K efuse protection switch
+F https://www.ti.com/lit/ds/symlink/tps2663.pdf
+$ENDCMP
+#
+$CMP TPS26636PWP
+D 60V, 6A Power Limiting, Surge Protection Industrial eFuse, 35V fixed Overvoltage clamp, Active Current Limiting with Pulse current support, HTTSOP-20
+K efuse protection switch
+F https://www.ti.com/lit/ds/symlink/tps2663.pdf
 $ENDCMP
 #
 $CMP TSM102
