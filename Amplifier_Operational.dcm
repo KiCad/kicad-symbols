@@ -138,6 +138,12 @@ K single opamp
 F http://www.intersil.com/content/dam/intersil/documents/ca31/ca3140-a.pdf
 $ENDCMP
 #
+$CMP HMC799LP3E
+D DC - 700 MHz, 10 kOhm Transimpedance amplifier, QFN-16
+K amplifier transimpedance
+F https://www.analog.com/media/en/technical-documentation/data-sheets/hmc799.pdf
+$ENDCMP
+#
 $CMP L272
 D Dual Power Operation Amplifier, DIP-16
 K dual power opamp
