@@ -585,6 +585,18 @@ K UART I2C/SPI 64B FIFO IrDA SIR
 F https://www.nxp.com/docs/en/data-sheet/SC16IS740_750_760.pdf
 $ENDCMP
 #
+$CMP SC16IS750xBS
+D Single UART with I2C/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support, HVQFN-24
+K UART I2C/SPI 64B FIFO IrDA SIR
+F https://www.nxp.com/docs/en/data-sheet/SC16IS740_750_760.pdf
+$ENDCMP
+#
+$CMP SC16IS750xPW
+D Single UART with I2C/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support, TSSOP-24
+K UART I2C/SPI 64B FIFO IrDA SIR
+F https://www.nxp.com/docs/en/data-sheet/SC16IS740_750_760.pdf
+$ENDCMP
+#
 $CMP SC16IS752IBS
 D Dual UART with I2C/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support, HVQFN-32
 K UART I2C/SPI 64B FIFO IrDA SIR
@@ -595,6 +607,18 @@ $CMP SC16IS752IPW
 D Dual UART with I2C/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support, TSSOP-28
 K UART I2C/SPI 64B FIFO IrDA SIR
 F https://www.nxp.com/docs/en/data-sheet/SC16IS752_SC16IS762.pdf
+$ENDCMP
+#
+$CMP SC16IS760xBS
+D Single UART with I2C/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support, HVQFN-24
+K UART I2C/SPI 64B FIFO IrDA SIR
+F https://www.nxp.com/docs/en/data-sheet/SC16IS740_750_760.pdf
+$ENDCMP
+#
+$CMP SC16IS760xPW
+D Single UART with I2C/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support, TSSOP-24
+K UART I2C/SPI 64B FIFO IrDA SIR
+F https://www.nxp.com/docs/en/data-sheet/SC16IS740_750_760.pdf
 $ENDCMP
 #
 $CMP SC16IS762IBS
