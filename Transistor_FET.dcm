@@ -2484,6 +2484,18 @@ K P-Channel MOSFET
 F http://www.jaolen.com/images/pdf/QM6015D.pdf
 $ENDCMP
 #
+$CMP SQJ457EP
+D 26A Id, 60V Vds, 25 mOhm Ron, PowerPAK-8
+K P-Channel MOSFET
+F https://www.vishay.com/docs/76628/sqj457ep.pdf
+$ENDCMP
+#
+$CMP SQJ479EP
+D 32A Id, 80V Vds, 33 mOhm Ron, PowerPAK-8
+K P-Channel MOSFET
+F https://www.vishay.com/docs/75129/sqj479ep.pdf
+$ENDCMP
+#
 $CMP STS2DNE60
 D 2A Id, 60V Vds, Dual N-Channel MOSFET, 180mOhm Ron, SO-8
 K Dual N-Channel MOSFET
