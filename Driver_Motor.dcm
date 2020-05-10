@@ -30,6 +30,12 @@ K BLDC 3-Phase
 F https://www.allegromicro.com/-/media/Files/Datasheets/AMT49413-Datasheet.ashx
 $ENDCMP
 #
+$CMP AMT49413
+D 3-Phase BLDC Controller and MOSFET Driver
+K BLDC 3-Phase
+F https://www.allegromicro.com/-/media/Files/Datasheets/AMT49413-Datasheet.ashx
+$ENDCMP
+#
 $CMP DRV8308
 D Brushless DC motor controller, closed loop, hall sensor inputs, current limiting, SPI interface
 K bldc mosfet-driver hall-sensor
