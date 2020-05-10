@@ -60,10 +60,22 @@ K Driver MOSFET
 F http://www.onsemi.com/pub/Collateral/FAN3268T_F085-D.PDF
 $ENDCMP
 #
+$CMP FAN3278
+D 8-27V PMOS-NMOS Bridge Driver, SOIC-8
+K Driver MOSFET
+F https://www.onsemi.com/pub/Collateral/FAN3278-D.pdf
+$ENDCMP
+#
 $CMP FAN7371
 D High-Current High-Side Gate Driver, 600V Vs, 4A Io, SOIC-8
 K high-side gate driver
 F https://www.fairchildsemi.com/datasheets/FA/FAN7371.pdf
+$ENDCMP
+#
+$CMP FAN7388
+D 3 Half-Bridge Gate-Drive IC, 600V operation, Output Current 350/650mA, SOIC-20
+K 3 Phase Gate Driver
+F https://www.onsemi.com/pub/Collateral/FAN7388-D.pdf
 $ENDCMP
 #
 $CMP FAN7842
@@ -702,6 +714,24 @@ K Gate Driver
 F https://www.infineon.com/dgdl/Infineon-IRS2890DS-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aad6fbc8a4bf4
 $ENDCMP
 #
+$CMP ITS711L1
+D Smart High-Side Power Switch for Industrial Applications, Four Channels, Rds 200mΩ, SOIC-20W
+K driver fet quad
+F https://www.infineon.com/dgdl/Infineon-ITS711L1-DS-v01_03-en.pdf?fileId=db3a30432239cccd0122e560bae03c62
+$ENDCMP
+#
+$CMP ITS716G
+D Smart High-Side Power Switch for Industrial Applications, Four Channels, Rds 140mΩ, SOIC-20W
+K driver fet quad
+F https://www.infineon.com/dgdl/Infineon-ITS716G-DS-v01_01-en.pdf?fileId=db3a304412b407950112b428c2cf3e6d
+$ENDCMP
+#
+$CMP ITS724G
+D Smart High-Side Power Switch for Industrial Applications, Four Channels, Rds 90mΩ, SOIC-20W
+K driver fet quad
+F https://www.infineon.com/dgdl/Infineon-ITS724G-DS-v01_01-en.pdf?fileId=db3a304412b407950112b428d6083e90
+$ENDCMP
+#
 $CMP LM5109AMA
 D Half-Bridge Gate Driver, Output Current 1.0A, 100V, SOIC-8
 K Half-Bridge Gate Driver
@@ -870,6 +900,24 @@ K mosfet driver
 F http://www.st.com/resource/en/datasheet/pm8834.pdf
 $ENDCMP
 #
+$CMP SM72295MA
+D Full Bridge Gate Driver with integrated Current Sense Amplifier, 3A, 115V, SOIC-28
+K Full Bridge Gate Driver
+F http://www.ti.com/lit/gpn/sm72295
+$ENDCMP
+#
+$CMP STGAP2SCM
+D Galvanically isolated 4 A single gate driver, Single Output And Miller Clamp, SOIC-8
+K isolated fet driver
+F https://www.st.com/resource/en/datasheet/stgap2s.pdf
+$ENDCMP
+#
+$CMP STGAP2SM
+D Galvanically isolated 4 A single gate driver, Separated Outputs, SOIC-8
+K isolated fet driver
+F https://www.st.com/resource/en/datasheet/stgap2s.pdf
+$ENDCMP
+#
 $CMP TC4421
 D 9A High-Speed inverting MOSFET Driver
 K MOSFET IGBT driver
@@ -898,6 +946,12 @@ $CMP UCC21520DW
 D Isolated Dual-Channel Gate Driver, Output Current 4.0/6.0A, 5.7kV Isolation, 8V UVLO, SOIC-16W
 K Dual Isolated Gate Driver
 F http://www.ti.com/lit/ds/symlink/ucc21520.pdf
+$ENDCMP
+#
+$CMP UCC27714D
+D High-Speed, 600-V High-Side Low-Side Gate Driver, SOIC-14
+K gate driver bootstrap
+F http://www.ti.com/lit/ds/symlink/ucc27714.pdf
 $ENDCMP
 #
 $CMP ZXGD3001E6

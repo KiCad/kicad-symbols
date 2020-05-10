@@ -66,6 +66,12 @@ K ublox GPS GNSS module
 F https://www.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_%28UBX-15031086%29.pdf
 $ENDCMP
 #
+$CMP NEO-M8P
+D GNSS RTK Module NEO M8, VCC 2.7V to 3.6V
+K ublox GPS GNSS RTK module
+F https://www.u-blox.com/sites/default/files/NEO-M8P_DataSheet_%28UBX-15016656%29.pdf
+$ENDCMP
+#
 $CMP NEO-M8Q
 D GNSS Module NEO M8, VCC 2.7V to 3.6V
 K ublox GPS GNSS module
@@ -94,6 +100,12 @@ $CMP SIM28ML
 D Standalone GPS/A-GPS receiver module, built-in LNA, -165dBm sensitivity, 2.8-4.3V, SMD
 K GPS A-GPS receiver
 F https://simcom.ee/documents/SIM28ML/SIM28ML_Hardware%20Design_V1.01.pdf
+$ENDCMP
+#
+$CMP ZED-F9P
+D GNSS Module ZED F9, VCC 2.7V to 3.6V, LGA-54
+K u-blox GNSS multi-band RTK
+F https://www.u-blox.com/sites/default/files/ZED-F9P_DataSheet_%28UBX-17051259%29.pdf
 $ENDCMP
 #
 $CMP ublox_SAM-M8Q

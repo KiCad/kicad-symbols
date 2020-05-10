@@ -147,7 +147,7 @@ $ENDCMP
 $CMP LM4810
 D Boomer Dual 105mW Headphone Amplifier with Active-High Shutdown Mode, VSSOP-8
 K audio amplifier headphone
-F http://www.ti.com/lit/ds/symlink/lm4811.pdf
+F http://www.ti.com/lit/ds/symlink/lm4810.pdf
 $ENDCMP
 #
 $CMP LM4811
@@ -190,6 +190,36 @@ $CMP LM4990MM
 D Boomer 2 Watt Audio Power Amplifier with Selectable Shutdown Logic Level, VSSOP-8
 K audio amplifier class d
 F http://www.ti.com/lit/ds/symlink/lm4990.pdf
+$ENDCMP
+#
+$CMP LME49600
+D High-Performance, High-Fidelity, High-Current Headphone Buffer, 250mA, TO-263
+K audio buffer amplifier
+F http://www.ti.com/lit/ds/symlink/lme49600.pdf
+$ENDCMP
+#
+$CMP MA12040
+D Filterless and High-Efficiency +4V to +18V Audio Amplifier with Analog Input, QFN-64
+K integrated class d amplifier
+F https://www.infineon.com/dgdl/Infineon-MA12040-DS-v01_00-EN.pdf?fileId=5546d46264a8de7e0164b7467a3d617c
+$ENDCMP
+#
+$CMP MA12040P
+D Filterless and High-Efficiency +4V to +18V Audio Amplifier with I2S Digital Input, QFN-64
+K integrated class d amplifier
+F https://www.infineon.com/dgdl/Infineon-MA12040P-DS-v01_00-EN.pdf?fileId=5546d46264a8de7e0164b74ff0e561a2
+$ENDCMP
+#
+$CMP MA12070
+D Filterless and High-Efficiency +4V to +26V Audio Amplifier with Analog Input, QFN-64
+K integrated class d amplifier
+F https://www.infineon.com/dgdl/Infineon-MA12070-DS-v01_00-EN.pdf?fileId=5546d46264a8de7e0164b750002861a5
+$ENDCMP
+#
+$CMP MA12070P
+D Filterless and High-Efficiency +4V to +26V Audio Amplifier with I2S Digital Input, QFN-64
+K integrated class d amplifier
+F https://www.infineon.com/dgdl/Infineon-MA12070P-DS-v01_00-EN.pdf?fileId=5546d46264a8de7e0164b761f2f261e4
 $ENDCMP
 #
 $CMP MAX9715ETE+
@@ -268,6 +298,18 @@ $CMP SSM2167
 D Low Voltage Microphone Preamplifier with Variable Compression and Noise Gating, MSOP-10
 K audio microphone amplifier
 F https://www.analog.com/media/en/technical-documentation/data-sheets/SSM2167.pdf
+$ENDCMP
+#
+$CMP SSM2211CP
+D 1.5W BTL or 250mW SE 4MHz-bandwidth high performance amplifier, LFCSP-8
+K audio amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/SSM2211.pdf
+$ENDCMP
+#
+$CMP SSM2211S
+D 1.5W BTL or 250mW SE 4MHz-bandwidth high performance amplifier, SOIC-8
+K audio amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/SSM2211.pdf
 $ENDCMP
 #
 $CMP STK433_Sanyo
@@ -478,6 +520,12 @@ $CMP THAT2181
 D Blackmer Trimmable IC Voltage Controlled Amplifiers, SIP-8/SOIC-8
 K audio vca
 F http://www.thatcorp.com/datashts/THAT_2181-Series_Datasheet.pdf
+$ENDCMP
+#
+$CMP TPA6132A2RTE
+D 25mW, Stereo, DirectPath Audio Amplifier, WQFN-16
+K DirectPath audio amplifier Stereo
+F https://www.ti.com/lit/ds/symlink/tpa6132a2.pdf
 $ENDCMP
 #
 #End Doc Library
