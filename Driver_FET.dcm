@@ -12,6 +12,12 @@ K Driver, Dual MOSFET
 F https://www.infineon.com/dgdl/Infineon-1EDN7550B-DS-v02_00-EN.pdf?fileId=5546d46262b31d2e01635d9799ef264f
 $ENDCMP
 #
+$CMP ACPL-336J
+D 2.5A Gate Drive Optocoupler with Integrated LED Driver, Active Miller Clamp, DESAT Detection, and Fault & UVLO Status Feedback, SOIC-16
+K Gate Driver IGBT
+F https://docs.broadcom.com/docs/AV02-4391EN
+$ENDCMP
+#
 $CMP ACPL-P343
 D Gate Drive Optocoupler, Output Current 4.0/4.0A, Propagation Delay 200ns, SSO-6
 K MOSFET Driver IGBT Driver Optocoupler
@@ -832,6 +838,12 @@ $CMP NCD5702
 D High Current IGBT Gate, +4/-6A, SOIC-16
 K igbt gate driver
 F https://www.onsemi.com/pub/Collateral/NCD5702-D.PDF
+$ENDCMP
+#
+$CMP NCV8402xST
+D Self-Protected Low Side Driver with Temperature and Current Limit, SOT−223
+K MOSFET ESD Overcurrent
+F https://www.onsemi.com/pub/Collateral/NCV8402-D.PDF
 $ENDCMP
 #
 $CMP PE29101
