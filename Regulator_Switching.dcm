@@ -5520,6 +5520,12 @@ K Step-Down DC-DC Switching Regulator High Voltage Adjustable Frequency
 F http://www.ti.com/lit/ds/symlink/tps54061.pdf
 $ENDCMP
 #
+$CMP TPS54202DDC
+D 2A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6
+K switching buck converter power-supply voltage regulator emi spread spectrum
+F http://www.ti.com/lit/ds/symlink/tps54202.pdf
+$ENDCMP
+#
 $CMP TPS5420D
 D Adjustable Output, 2A Step-Down Converter, 5.5V-36V Input, 500kHz Switching Frequency
 K switching buck converter step-down
