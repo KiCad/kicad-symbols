@@ -36,6 +36,12 @@ K N-Channel MOSFET Dual Gate
 F http://www.onsemi.com/pub_link/Collateral/EN4423-D.PDF
 $ENDCMP
 #
+$CMP AO3401A
+D -4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf
+$ENDCMP
+#
 $CMP BF244A
 D 50mA Id, 30V Vgs, N-Channel FET Transistor, TO-92
 K N-Channel FET Transistor Low Voltage
@@ -115,7 +121,7 @@ F http://www.diodes.com/assets/Datasheets/BS170F.pdf
 $ENDCMP
 #
 $CMP BS250
-D -0.18A Id, -60V Vds, P-Channel MOSFET, TO-92
+D -0.18A Id, -45V Vds, P-Channel MOSFET, TO-92
 K P-Channel MOSFET
 F http://www.vishay.com/docs/70209/70209.pdf
 $ENDCMP
@@ -424,6 +430,30 @@ $CMP BSP129
 D 0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223
 K N-Channel MOSFET
 F https://www.infineon.com/dgdl/Infineon-BSP129-DS-v01_42-en.pdf?fileId=db3a30433c1a8752013c1fc296d2395f
+$ENDCMP
+#
+$CMP BSP89
+D 0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55
+$ENDCMP
+#
+$CMP BSR56
+D 50mA min, 40V, 25mOhm max, 4-10V Vgs(off), N-Channel JFET, SOT-23
+K N-Channel FET Transistor
+F https://www.nxp.com/docs/en/data-sheet/BSR56_57_58.pdf
+$ENDCMP
+#
+$CMP BSR57
+D 20mA min, 40V, 40mOhm max, 2-6V Vgs(off), N-Channel JFET, SOT-23
+K N-Channel FET Transistor
+F https://www.nxp.com/docs/en/data-sheet/BSR56_57_58.pdf
+$ENDCMP
+#
+$CMP BSR58
+D 80mA min, 40V, 60mOhm max, 0.8-4V Vgs(off), N-Channel JFET, SOT-23
+K N-Channel FET Transistor
+F https://www.nxp.com/docs/en/data-sheet/BSR56_57_58.pdf
 $ENDCMP
 #
 $CMP BSS123
@@ -1242,6 +1272,18 @@ K complementary mosfet
 F https://www.diodes.com/assets/Datasheets/DMC2053UVT.pdf
 $ENDCMP
 #
+$CMP DMC3071LVT
+D 3.4A/-2.7A Id, 30V Vds, Complementary pair enhancement mode P-Channel and N-Channel MOSFET, TSOT-23-6
+K complementary mosfet
+F https://www.diodes.com/assets/Datasheets/DMC3071LVT.pdf
+$ENDCMP
+#
+$CMP DMG1012T
+D 20V Vds, 0.63 Id, N-Channel MOSFET with ESD protection, SOT-523
+K N-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/ds31783.pdf
+$ENDCMP
+#
 $CMP DMG2301L
 D -3A Id, -20V Vds, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET
@@ -1420,6 +1462,12 @@ $CMP DMP3013SFV
 D -12A Id, -30V Vds, P-Channel Power MOSFET, 9.5mOhm Ron, 33.7nC Qg (typ), PowerDI3333-8
 K P-Channel MOSFET
 F https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf
+$ENDCMP
+#
+$CMP FDC6330L
+D -2.3A, 20V Vds, Integrated load switch, P-Channel MOSFET driven by small N-Channel MOSFET, TSOT-23-6
+K complementary mosfet
+F https://www.onsemi.com/pub/Collateral/FDC6330L-D.PDF
 $ENDCMP
 #
 $CMP FDG1024NZ
@@ -1632,6 +1680,12 @@ K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/FD/FDS8960C.pdf
 $ENDCMP
 #
+$CMP FDS9435A
+D -5.3A Id, -30V Vds, P-Channel MOSFET, 50mOhm Ron, SO-8
+K P-Channel MOSFET
+F https://www.onsemi.com/pub/Collateral/FDS9435A-D.PDF
+$ENDCMP
+#
 $CMP FDS9926A
 D 6.5A Id, 20V Vds, Dual N-Channel MOSFET, 30mOhm Ron, SO-8
 K Dual N-Channel MOSFET
@@ -1642,6 +1696,12 @@ $CMP FDS9934C
 D 6.5A Id, 20V Vds, Dual N and P Channel MOSFET, 30mOhm Ron, 4.5V Vgs, SO8L
 K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/FD/FDS9934C.pdf
+$ENDCMP
+#
+$CMP FQP27P06
+D -27A Id, -60V Vds, QFET P-Channel MOSFET, TO-220
+K QFET P-Channel MOSFET
+F https://www.onsemi.com/pub/Collateral/FQP27P06-D.PDF
 $ENDCMP
 #
 $CMP IGLD60R070D1
@@ -1732,6 +1792,12 @@ $CMP IPDD60R190G7
 D 13A Id, 600V Vds, 190mOhm, N-Channel MOSFET, CoolMOS G7, PG-HDSOP-10-1 (DDPAK)
 K N-Channel MOSFET
 F https://www.infineon.com/dgdl/Infineon-IPDD60R190G7-DS-v02_00-EN.pdf?fileId=5546d4626102d35a01617087dc0f79ea
+$ENDCMP
+#
+$CMP IPP060N06N
+D 45A Id, 60V Vds, Single N-Channel Power MOSFET, 6mOhm Ron, TO-220
+K N-Channel Power MOSFET Infineon
+F https://www.infineon.com/dgdl/Infineon-IPP060N06N-DS-v02_02-en.pdf?fileId=db3a30433727a44301372c06d9d7498a
 $ENDCMP
 #
 $CMP IPT012N08N5
@@ -2340,16 +2406,34 @@ K Single N-Channel HEXFET Power MOSFET
 F http://www.irf.com/product-info/datasheets/data/irliz44n.pdf
 $ENDCMP
 #
+$CMP IRLML0030
+D 5.3A Id, 30V Vds, N-Channel HEXFET Power MOSFET, 27mOhm Rds, SOT-23
+K N-Channel HEXFET Power MOSFET
+F https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df
+$ENDCMP
+#
 $CMP IRLML2060
 D 1.2A Id, 60V Vds, N-Channel MOSFET, 480mOhm Rds, SOT-23
 K N-Channel MOSFET
 F https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee
 $ENDCMP
 #
+$CMP IRLML5203
+D -3.0A Id, -30V Vds, P-Channel HEXFET Power MOSFET, 98mOhm Rds, SOT-23
+K P-Channel MOSFET
+F https://www.infineon.com/dgdl/irlml5203pbf.pdf?fileId=5546d462533600a40153566868da261d
+$ENDCMP
+#
 $CMP IRLML6402
 D -3.7A Id, -20V Vds, P-Channel MOSFET, 65mOhm Rds, SOT-23
 K P-Channel MOSFET
 F https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c
+$ENDCMP
+#
+$CMP IRLML9301
+D -3.6A Id, -30V Vds, P-Channel HEXFET Power MOSFET, 64mOhm Rds, SOT-23
+K P-Channel MOSFET
+F https://www.infineon.com/dgdl/irlml9301pbf.pdf?fileId=5546d462533600a401535668e5e42640
 $ENDCMP
 #
 $CMP IRLZ34N
@@ -2368,6 +2452,42 @@ $CMP MMBF170
 D 0.5A Id, 60V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
 F https://www.diodes.com/assets/Datasheets/ds30104.pdf
+$ENDCMP
+#
+$CMP MMBF4391
+D 50mA min, 30V, 30mOhm max, 4-10V Vgs(off), N-Channel JFET, SOT-23
+K N-Channel FET Transistor
+F https://www.onsemi.com/pub/Collateral/MMBF4391LT1-D.PDF
+$ENDCMP
+#
+$CMP MMBF4392
+D 25mA min, 30V, 60mOhm max, 2-5V Vgs(off), N-Channel JFET, SOT-23
+K N-Channel FET Transistor
+F https://www.onsemi.com/pub/Collateral/MMBF4391LT1-D.PDF
+$ENDCMP
+#
+$CMP MMBF4393
+D 5mA min, 30V, 100mOhm max, 0.5-3V Vgs(off), N-Channel JFET, SOT-23
+K N-Channel FET Transistor
+F https://www.onsemi.com/pub/Collateral/MMBF4391LT1-D.PDF
+$ENDCMP
+#
+$CMP MMBFJ111
+D 20mA min, 35V, 30mOhm max, 3-10V Vgs(off), N-Channel JFET, SOT-23
+K N-Channel FET Transistor
+F https://www.onsemi.com/pub/Collateral/MMBFJ113-D.PDF
+$ENDCMP
+#
+$CMP MMBFJ112
+D 5mA min, 35V, 50mOhm max, 1-5V Vgs(off), N-Channel JFET, SOT-23
+K N-Channel FET Transistor
+F https://www.onsemi.com/pub/Collateral/MMBFJ113-D.PDF
+$ENDCMP
+#
+$CMP MMBFJ113
+D 2mA min, 35V, 100mOhm max, 0.5-3V Vgs(off), N-Channel JFET, SOT-23
+K N-Channel FET Transistor
+F https://www.onsemi.com/pub/Collateral/MMBFJ113-D.PDF
 $ENDCMP
 #
 $CMP NTR2101P
@@ -2472,6 +2592,18 @@ K P-Channel MOSFET
 F http://www.vishay.com/docs/66709/si2319cd.pdf
 $ENDCMP
 #
+$CMP Si2371EDS
+D -3.6A Id, -30V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://www.vishay.com/docs/63924/si2371eds.pdf
+$ENDCMP
+#
+$CMP Si4162DY
+D 19.3A Id, 30V Vds, TrenchFET N-Channel Power MOSFET, SO-8
+K N-Channel MOSFET
+F http://www.vishay.com/docs/68967/si4162dy.pdf
+$ENDCMP
+#
 $CMP Si4532DY
 D 3.9A Id, 30V Vds, Dual N and P Channel MOSFET, 65mOhm Ron, 10V Vgs, SO8L
 K Dual N-Channel P-Channel MOSFET
@@ -2520,6 +2652,12 @@ K P-Channel MOSFET
 F https://www.vishay.com/docs/63684/sis415dnt.pdf
 $ENDCMP
 #
+$CMP SiSS27DN
+D -50A Id, -30V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single
+K P-Channel MOSFET
+F http://www.vishay.com/docs/62847/siss27dn.pdf
+$ENDCMP
+#
 $CMP TP0610L
 D -0.18A Id, -60V Vds, P-Channel MOSFET, TO-92
 K P-Channel MOSFET
@@ -2532,10 +2670,28 @@ K P-Channel MOSFET
 F http://www.vishay.com/docs/70209/70209.pdf
 $ENDCMP
 #
+$CMP TSM2301ACX
+D -2.8A Id, -20V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F https://www.taiwansemi.com/products/datasheet/TSM2301A_C15.pdf
+$ENDCMP
+#
+$CMP TSM2302CX
+D 3.9A Id, 20V Vds, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F https://www.taiwansemi.com/products/datasheet/TSM2302CX_E1608.pdf
+$ENDCMP
+#
 $CMP VN10LF
 D 0.15A Id, 60V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
 F http://www.diodes.com/assets/Datasheets/VN10LF.pdf
+$ENDCMP
+#
+$CMP VNP10N07
+D 10A Id, 70V Vds, N-Channel Power MOSFET, fully autoprotected, TO-220
+K N-Channel Power MOSFET OMNIFET
+F https://www.st.com/resource/en/datasheet/vnp10n07.pdf
 $ENDCMP
 #
 $CMP VP0610L
