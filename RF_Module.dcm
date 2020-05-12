@@ -242,12 +242,10 @@ $ENDCMP
 #
 #End Doc Library
 
-EESchema-DOCLIB  Version 2.0
 #
 $CMP MDBT42Q
 D MDBT42Q bluetooth low energy(BLE)
-K  GPIO SPI UART I2C I2S PWM
+K GPIO SPI UART I2C I2S PWM
 F https://statics3.seeedstudio.com/assets/file/bazaar/product/MDBT42Q-Version_B.pdf
 $ENDCMP
 #
-#End Doc Library
