@@ -1200,6 +1200,30 @@ K hall effect current sensor
 F http://www.akm.com/akm/en/file/datasheet/CQ-330J.pdf
 $ENDCMP
 #
+$CMP CSLW6B1
+D Miniature Wired Open-Loop Current Sensors, 1A
+K hall current sensor
+F https://sensing.honeywell.com/honeywell-sensing-cslw-series-product-sheet-005861-1-en.pdf
+$ENDCMP
+#
+$CMP CSLW6B200M
+D Miniature Wired Open-Loop Current Sensors, 200mA
+K hall current sensor
+F https://sensing.honeywell.com/honeywell-sensing-cslw-series-product-sheet-005861-1-en.pdf
+$ENDCMP
+#
+$CMP CSLW6B40M
+D Miniature Wired Open-Loop Current Sensors, 40mA
+K hall current sensor
+F https://sensing.honeywell.com/honeywell-sensing-cslw-series-product-sheet-005861-1-en.pdf
+$ENDCMP
+#
+$CMP CSLW6B5
+D Miniature Wired Open-Loop Current Sensors, 5A
+K hall current sensor
+F https://sensing.honeywell.com/honeywell-sensing-cslw-series-product-sheet-005861-1-en.pdf
+$ENDCMP
+#
 $CMP CZ-3813
 D Coreless Current Sensor, Bidirectional, -33.0A to +33.0A, 60mV/A, VSOP-24
 K hall effect current sensor
