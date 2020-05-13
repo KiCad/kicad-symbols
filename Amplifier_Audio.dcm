@@ -72,6 +72,18 @@ K Gate Driver Class D 2ch
 F https://www.infineon.com/dgdl/Infineon-IRS2452AM-DS-v01_00-EN.pdf?fileId=5546d462584d1d4a01584ee4f1f00713
 $ENDCMP
 #
+$CMP IS31AP4991-GRLS2-TR
+D 1.2W Audio Power Amplifier with Active-Low Standby Mode, SOP-8
+K audio amplifier
+F http://www.issi.com/WW/pdf/31AP4991.pdf
+$ENDCMP
+#
+$CMP IS31AP4991-SLS2-TR
+D 1.2W Audio Power Amplifier with Active-Low Standby Mode, MSOP-8
+K audio amplifier
+F http://www.issi.com/WW/pdf/31AP4991.pdf
+$ENDCMP
+#
 $CMP LM1875
 D 20W Audio Power Amplifier, TO-220-5
 K audio amplifier
