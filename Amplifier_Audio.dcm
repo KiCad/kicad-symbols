@@ -354,6 +354,30 @@ K audio amplifier 2ch
 F http://datasheet.octopart.com/STK430-Sanyo-datasheet-107060.pdf
 $ENDCMP
 #
+$CMP Si8241BB
+D Class D Audio Driver With Precision Dead-Time Generator, 8V UVLO, +/-750V, +0.5/-0.5A, SOIC-16
+K class d gate driver
+F https://www.silabs.com/documents/public/data-sheets/Si824x.pdf
+$ENDCMP
+#
+$CMP Si8241CB
+D Class D Audio Driver With Precision Dead-Time Generator, 10V UVLO, +/-750V, +0.5/-0.5A, SOIC-16
+K class d gate driver
+F https://www.onsemi.com/pub/Collateral/NCD5702-D.PDF
+$ENDCMP
+#
+$CMP Si8244BB
+D Class D Audio Driver With Precision Dead-Time Generator, 8V UVLO, +/-750V, +4/-4A, SOIC-16
+K class d gate driver
+F https://www.onsemi.com/pub/Collateral/NCD5702-D.PDF
+$ENDCMP
+#
+$CMP Si8244CB
+D Class D Audio Driver With Precision Dead-Time Generator, 10V UVLO, +/-750V, +4/-4A, SOIC-16
+K class d gate driver
+F https://www.onsemi.com/pub/Collateral/NCD5702-D.PDF
+$ENDCMP
+#
 $CMP TAS5825MRHB
 D 38-W Stereo, Inductor-Less, Digital Input, Closed-Loop Class-D Audio Amplifier with 192-kHz Extended Audio Processing, VQFN-32
 K Class-D Stereo
