@@ -1242,6 +1242,12 @@ K Step-Down Voltage Regulator Adjustable 3A
 F http://www.ti.com/lit/ds/symlink/lm2596.pdf
 $ENDCMP
 #
+$CMP LM2611xMF
+D 1.4MHz Cuk Converter, SOT-23-5
+K switched converter inverter PWM
+F https://www.ti.com/lit/ds/symlink/lm2611.pdf
+$ENDCMP
+#
 $CMP LM26480SQ
 D Dual 1.5A 2MHz Buck Regulators and Dual 300mA LDOs, WQFN-24
 K Dual Buck Regulator LDO 2MHz 1.5A 300mA
