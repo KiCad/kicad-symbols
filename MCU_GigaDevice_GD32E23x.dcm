@@ -1,0 +1,57 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GD32E230C4Tx
+D ARM Cortex-M23 MCU, 16KB flash, 4KB RAM, 72MHz, 1.8-3.6V, 39 GPIO, LQFP-48
+K ARM Cortex-M23 GD32E230
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf
+$ENDCMP
+#
+$CMP GD32E230C6Tx
+D ARM Cortex-M23 MCU, 32KB flash, 6KB RAM, 72MHz, 1.8-3.6V, 39 GPIO, LQFP-48
+K ARM Cortex-M23 GD32E230
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf
+$ENDCMP
+#
+$CMP GD32E230C8Tx
+D ARM Cortex-M23 MCU, 64KB flash, 8KB RAM, 72MHz, 1.8-3.6V, 39 GPIO, LQFP-48
+K ARM Cortex-M23 GD32E230
+F http://www.gd32mcu.com/data/documents/shujushouce/GD32E230xx_Datasheet_Rev1.3.pdf
+$ENDCMP
+#
+$CMP GD32E230F4Tx
+D ARM Cortex-M23 MCU, 16KB flash, 4KB RAM, 72MHz, 1.8-3.6V, 15 GPIO, TSSOP-20
+K ARM Cortex-M23 GD32E230
+F http://www.gd32mcu.com/data/documents/shujushouce/GD32E230xx_Datasheet_Rev1.3.pdf
+$ENDCMP
+#
+$CMP GD32E230F6Tx
+D ARM Cortex-M23 MCU, 32KB flash, 6KB RAM, 72MHz, 1.8-3.6V, 15 GPIO, TSSOP-20
+K ARM Cortex-M23 GD32E230
+F http://www.gd32mcu.com/data/documents/shujushouce/GD32E230xx_Datasheet_Rev1.3.pdf
+$ENDCMP
+#
+$CMP GD32E230F8Px
+D ARM Cortex-M23 MCU, 64KB flash, 8KB RAM, 72MHz, 1.8-3.6V, 15 GPIO, TSSOP-20
+K ARM Cortex-M23 GD32E230
+F http://www.gd32mcu.com/data/documents/shujushouce/GD32E230xx_Datasheet_Rev1.3.pdf
+$ENDCMP
+#
+$CMP GD32E231C4Tx
+D ARM Cortex-M23 MCU, 16KB flash, 4KB RAM, 72MHz, 1.8-3.6V, 39 GPIO, LQFP-48, OP-AMP
+K ARM Cortex-M23 GD32E231 OP-AMP
+F http://www.gd32mcu.com/data/documents/shujushouce/GD32E231CxT6_Datasheet_Rev1.1.pdf
+$ENDCMP
+#
+$CMP GD32E231C6Tx
+D ARM Cortex-M23 MCU, 32KB flash, 6KB RAM, 72MHz, 1.8-3.6V, 39 GPIO, LQFP-48, OP-AMP
+K ARM Cortex-M23 GD32E231 OP-AMP
+F http://www.gd32mcu.com/data/documents/shujushouce/GD32E231CxT6_Datasheet_Rev1.1.pdf
+$ENDCMP
+#
+$CMP GD32E231C8Tx
+D ARM Cortex-M23 MCU, 64KB flash, 8KB RAM, 72MHz, 1.8-3.6V, 39 GPIO, LQFP-48, OP-AMP
+K ARM Cortex-M23 GD32E231 OP-AMP
+F http://www.gd32mcu.com/data/documents/shujushouce/GD32E231CxT6_Datasheet_Rev1.1.pdf
+$ENDCMP
+#
+#End Doc Library
