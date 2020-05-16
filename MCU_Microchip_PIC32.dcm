@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP PIC32MM0064GPL028-xML
+D 32-Bit Flash MCU, 25MHz, 64KB Flash, 8KB RAM, QFN-28
+K FLASH-Based 32-Bit CMOS Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/60001324b.pdf
+$ENDCMP
+#
 $CMP PIC32MX110F016D-IPT
 D 32-bit Microcontrollers (16KB Flash and 4KB SRAM TQFP-44) with Audio and Graphics Interfaces, USB, and Advanced Analog
 K Microchip PIC32 Microcontroller MIPS
