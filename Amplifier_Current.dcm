@@ -132,6 +132,12 @@ K current monitor shunt sensor bidirectional
 F http://www.ti.com/lit/ds/symlink/ina181.pdf
 $ENDCMP
 #
+$CMP INA186
+D Bidirectional, Low- and High-Side Voltage Output, Current-Sense Amplifier, SC70-6
+K current monitor shunt sensor bidirectional
+F http://www.ti.com/lit/ds/symlink/ina186.pdf
+$ENDCMP
+#
 $CMP INA193
 D Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5
 K current sense shunt monitor
