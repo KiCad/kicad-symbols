@@ -2706,6 +2706,12 @@ K P-Channel MOSFET
 F https://www.vishay.com/docs/63684/sis415dnt.pdf
 $ENDCMP
 #
+$CMP SiS443DN
+D -35A Id, -40V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single
+K P-Channel MOSFET
+F https://www.vishay.com/docs/63253/sis443dn.pdf
+$ENDCMP
+#
 $CMP SiSS27DN
 D -50A Id, -30V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single
 K P-Channel MOSFET
