@@ -384,10 +384,52 @@ K I2C DAC 12-bit
 F http://www.ti.com/lit/ds/symlink/dac121c081.pdf
 $ENDCMP
 #
+$CMP DAC1220E
+D 20-Bit , Low-Power Digital-to-Analog Converter, SSOP-16
+K DAC
+F https://www.ti.com/lit/ds/symlink/dac1220.pdf
+$ENDCMP
+#
+$CMP DAC5578xPW
+D 8-Bit, Octal-Channel, Ultra-Low Glitch, Voltage Output, Two-Wire Interface Digital-to-Analog Converters, TSSOP-16
+K DAC I2C TWI 8-channel
+F http://www.ti.com/lit/ds/symlink/dac5578.pdf
+$ENDCMP
+#
+$CMP DAC5578xRGE
+D 8-Bit, Octal-Channel, Ultra-Low Glitch, Voltage Output, Two-Wire Interface Digital-to-Analog Converters, QFN-24
+K DAC I2C TWI 8-channel
+F http://www.ti.com/lit/ds/symlink/dac5578.pdf
+$ENDCMP
+#
+$CMP DAC6578xPW
+D 10-Bit, Octal-Channel, Ultra-Low Glitch, Voltage Output, Two-Wire Interface Digital-to-Analog Converters, TSSOP-16
+K DAC I2C TWI 8-channel
+F http://www.ti.com/lit/ds/symlink/dac5578.pdf
+$ENDCMP
+#
+$CMP DAC6578xRGE
+D 10-Bit, Octal-Channel, Ultra-Low Glitch, Voltage Output, Two-Wire Interface Digital-to-Analog Converters, QFN-24
+K DAC I2C TWI 8-channel
+F http://www.ti.com/lit/ds/symlink/dac5578.pdf
+$ENDCMP
+#
 $CMP DAC7513_DCN
 D Low-Power, Rail-to-Rail Output, 12-Bit Serial Input DAC
 K TI DAC 12 bit
 F http://www.ti.com.cn/cn/lit/ds/symlink/dac7513.pdf
+$ENDCMP
+#
+$CMP DAC7578xPW
+D 12-Bit, Octal-Channel, Ultra-Low Glitch, Voltage Output, Two-Wire Interface Digital-to-Analog Converters, TSSOP-16
+K DAC I2C TWI 8-channel
+F http://www.ti.com/lit/ds/symlink/dac5578.pdf
+$ENDCMP
+#
+$CMP DAC7578xRGE
+D 12-Bit, Octal-Channel, Ultra-Low Glitch, Voltage Output, Two-Wire Interface Digital-to-Analog Converters, QFN-24
+K DAC I2C TWI 8-channel
+F http://www.ti.com/lit/ds/symlink/dac5578.pdf
 $ENDCMP
 #
 $CMP DAC7750xRHA
@@ -468,6 +510,18 @@ K DA 16 Bit 1 ch
 F https://datasheets.maximintegrated.com/en/ds/MAX5215-MAX5217.pdf
 $ENDCMP
 #
+$CMP MAX5717xSD
+D 16-bit Voltage Digital-to-Analog converter, SOIC-14
+K DAC
+F https://datasheets.maximintegrated.com/en/ds/MAX5717-MAX5719.pdf
+$ENDCMP
+#
+$CMP MAX5719xSD
+D 20-bit Voltage Digital-to-Analog converter, SOIC-14
+K DAC
+F https://datasheets.maximintegrated.com/en/ds/MAX5717-MAX5719.pdf
+$ENDCMP
+#
 $CMP MAX5741
 D Digital to analog, 10 Bit, 4 ch, 2.7 - 5.5 VDD, SPI, uMAX-10
 K DA 8 Bit 4 ch
@@ -520,6 +574,12 @@ $CMP MC1408_SOIC
 D 8-bit multiplying DAC
 K 8 bit multiplying DAC
 F http://www.pinballpcb.com/datasheets/OnMC1408-dac.pdf
+$ENDCMP
+#
+$CMP MCP4725xxx-xCH
+D 12-bit Digital-to-Analog Converter, integrated EEPROM, I2C interface, SOT-23-6
+K dac twi
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf
 $ENDCMP
 #
 $CMP MCP4728

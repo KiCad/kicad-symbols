@@ -19,7 +19,19 @@ F ~
 $ENDCMP
 #
 $CMP Heatsink_Pad
-D Heatsink with electrical connection
+D Heatsink with electrical connection, 1 pin
+K thermal heat temperature
+F ~
+$ENDCMP
+#
+$CMP Heatsink_Pad_2Pin
+D Heatsink with electrical connection, 2 pin
+K thermal heat temperature
+F ~
+$ENDCMP
+#
+$CMP Heatsink_Pad_3Pin
+D Heatsink with electrical connection, 3 pin
 K thermal heat temperature
 F ~
 $ENDCMP

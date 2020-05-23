@@ -103,15 +103,63 @@ F https://www.mouser.com/ds/2/268/HV9972-272498-1181261.pdf
 $ENDCMP
 #
 $CMP IS31FL3216
-D 16 channel LED controller with audio modulation mode, VCC +2.7 to +5.5V, -40 to +85 degree, QFN-28
-K 16 channel LED controller with audio modulation mode
+D 16 channel LED controller with audio modulation mode, QFN-28
+K led pwm audio
 F http://www.issi.com/WW/pdf/IS31FL3216.pdf
 $ENDCMP
 #
 $CMP IS31FL3216A
-D 16 channel LED controller with audio modulation mode, VCC +2.7 to +5.5V, -40 to +125 degree, QFN-28
-K 16 channel LED controller with audio modulation mode
+D 16 channel LED controller with audio modulation mode, QFN-28
+K led pwm audio
 F http://www.issi.com/WW/pdf/IS31FL3216A.pdf
+$ENDCMP
+#
+$CMP IS31FL3218-GR
+D 18 LED matrix driver with 8-bit PWM, SOP-24
+K led matrix pwm
+F http://www.issi.com/WW/pdf/31FL3218.pdf
+$ENDCMP
+#
+$CMP IS31FL3218-QF
+D 18 LED matrix driver with 8-bit PWM, QFN-24
+K led matrix pwm
+F http://www.issi.com/WW/pdf/31FL3218.pdf
+$ENDCMP
+#
+$CMP IS31FL3731-QF
+D 9x16 LED matrix driver with 8-bit PWM and breathing, QFN-28
+K led matrix pwm
+F http://www.issi.com/WW/pdf/31FL3731.pdf
+$ENDCMP
+#
+$CMP IS31FL3731-SA
+D 9x16 LED matrix driver with 8-bit PWM and breathing, SSOP-28
+K led matrix pwm
+F http://www.issi.com/WW/pdf/31FL3731.pdf
+$ENDCMP
+#
+$CMP IS31FL3733-QF
+D 12x16 LED matrix driver with 8-bit PWM and breathing, QFN-48
+K led matrix pwm
+F http://www.issi.com/WW/pdf/IS31FL3733.pdf
+$ENDCMP
+#
+$CMP IS31FL3733-TQ
+D 12x16 LED matrix driver with 8-bit PWM and breathing, TQFP-48
+K led matrix pwm
+F http://www.issi.com/WW/pdf/IS31FL3733.pdf
+$ENDCMP
+#
+$CMP IS31FL3736
+D 12x8 LED matrix driver with 8-bit PWM and breathing, QFN-40
+K led matrix pwm
+F http://www.issi.com/WW/pdf/31FL3736.pdf
+$ENDCMP
+#
+$CMP IS31FL3737
+D 12x12 LED matrix driver with 8-bit PWM and breathing, QFN-40
+K led matrix pwm
+F http://www.issi.com/WW/pdf/31FL3737.pdf
 $ENDCMP
 #
 $CMP IS31LT3360
@@ -124,6 +172,18 @@ $CMP LED5000
 D 3A monolithic step-down current source with dimming, HSOP-8
 K LED buck driver
 F https://www.st.com/resource/en/datasheet/led5000.pdf
+$ENDCMP
+#
+$CMP LM3914V
+D 10 LED Dot/Bar Display Driver, PLCC-20
+K LED driver bar dot
+F https://www.ti.com/lit/ds/symlink/lm3914.pdf
+$ENDCMP
+#
+$CMP LP5036
+D 36-Channel 12-Bit PWM Ultra-low Quiescent Current I2C RGB LED Driver
+K PWM LED driver I2C
+F http://www.ti.com/lit/ds/symlink/lp5036.pdf
 $ENDCMP
 #
 $CMP LT3465
@@ -174,10 +234,82 @@ K Boost Buck Buck-Boost SEPIC Flyback
 F https://www.analog.com/media/en/technical-documentation/data-sheets/37551fd.pdf
 $ENDCMP
 #
+$CMP LT3756xMSE
+D 100 Vin, 100 Vout, DC/DC LED Controllers, Hysteresis Open led Status pin, MSOP-16
+K Boost Buck Buck-Boost SEPIC Flyback
+F https://www.analog.com/media/en/technical-documentation/data-sheets/375612fb.pdf
+$ENDCMP
+#
+$CMP LT3756xMSE-1
+D 100 Vin, 100 Vout, DC/DC LED Controllers, Frequency Synchronisation, MSOP-16
+K Boost Buck Buck-Boost SEPIC Flyback
+F https://www.analog.com/media/en/technical-documentation/data-sheets/375612fb.pdf
+$ENDCMP
+#
+$CMP LT3756xMSE-2
+D 100 Vin, 100 Vout, DC/DC LED Controllers, Improved Open Led Status Pin, MSOP-16
+K Boost Buck Buck-Boost SEPIC Flyback
+F https://www.analog.com/media/en/technical-documentation/data-sheets/375612fb.pdf
+$ENDCMP
+#
+$CMP LT3756xUD
+D 100 Vin, 100 Vout, DC/DC LED Controller, Hysteresis Open led Status pins, QFN-16
+K Boost Buck Buck-Boost SEPIC Flyback
+F https://www.analog.com/media/en/technical-documentation/data-sheets/375612fb.pdf
+$ENDCMP
+#
+$CMP LT3756xUD-1
+D 100 Vin, 100 Vout, DC/DC LED Controllers, Frequency Synchronisation, QFN-16
+K Boost Buck Buck-Boost SEPIC Flyback
+F https://www.analog.com/media/en/technical-documentation/data-sheets/375612fb.pdf
+$ENDCMP
+#
+$CMP LT3756xUD-2
+D 100 Vin, 100 Vout, DC/DC LED Controllers, Improved Open led Status pin, QFN-16
+K Boost Buck Buck-Boost SEPIC Flyback
+F https://www.analog.com/media/en/technical-documentation/data-sheets/375612fb.pdf
+$ENDCMP
+#
+$CMP MAX7219
+D 8-Digit LED Display Driver
+K LED 8-Digit Display Driver
+F https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf
+$ENDCMP
+#
+$CMP MAX7221xNG
+D Serially Interfaced, 8-Digit LED Display Driver, PDIP-24
+K spi qspi microwire
+F https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf
+$ENDCMP
+#
+$CMP MAX7221xRG
+D Serially Interfaced, 8-Digit LED Display Driver, CDIP-24
+K spi qspi microwire
+F https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf
+$ENDCMP
+#
+$CMP MAX7221xWG
+D Serially Interfaced, 8-Digit LED Display Driver, SOIC-24W
+K spi qspi microwire
+F https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf
+$ENDCMP
+#
 $CMP MPQ2483DQ
 D 55V, 2.5A Programmable Frequency LED Driver, DFN-10
 K LED driver
 F https://www.monolithicpower.com/pub/media/document/MPQ2483_r1.05.pdf
+$ENDCMP
+#
+$CMP NCR401U
+D 10mA (with external R up to 65mA) constant current driver (linear), max 40V, SOT457 (SC-74)
+K LED driver constant current
+F https://assets.nexperia.com/documents/data-sheet/NCR401U.pdf
+$ENDCMP
+#
+$CMP PCA9635
+D 16-bit PWM Fm+ I2C-bus LED driver, TSSOP-28
+K led pwm rgb rgba
+F https://www.nxp.com/docs/en/data-sheet/PCA9635.pdf
 $ENDCMP
 #
 $CMP PCA9685BS
