@@ -589,9 +589,9 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF18855-75-Data-Sheet-400
 $ENDCMP
 #
 $CMP PIC16F18855-xSO
-D 8-bit Flash MCU, 32MHz, 14KB Flash, 1KB RAM 256B EEPROM, SOIC-28
+D 8-bit Flash MCU, 32MHz, 14KB Flash, 1024B RAM 256B EEPROM, SOIC-28
 K FLASH-Based 8-Bit CMOS Microcontroller Low Power CRC DSM  ADC^2 CLC PLL 32MHz
-F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF18855-75-Data-Sheet-40001802F.pdf
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001802G.pdf
 $ENDCMP
 #
 $CMP PIC16F1934-IML
