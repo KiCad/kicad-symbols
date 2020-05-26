@@ -168,6 +168,18 @@ K silicon temperature sensor diode
 F http://www.nxp.com/documents/other/SC17_GENERAL_TEMP_1996_3.pdf
 $ENDCMP
 #
+$CMP LM20BIM7
+D Precision Temperature Sensor, Accuracy at 30°C ±1.5°C to ±4°C Maximum, SC70
+K temperature sensor thermistor
+F http://www.ti.com/lit/ds/symlink/lm20.pdf
+$ENDCMP
+#
+$CMP LM20CIM7
+D Precision Temperature Sensor, Accuracy at 30°C ±4°C to ±5°C Maximum, SC70
+K temperature sensor thermistor
+F http://www.ti.com/lit/ds/symlink/lm20.pdf
+$ENDCMP
+#
 $CMP LM35-D
 D Precision centigrade temperature sensor, SOIC-8
 K temperature sensor thermistor

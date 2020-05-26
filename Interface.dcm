@@ -351,6 +351,30 @@ K Dual bidirectional I2C Bus and SMBus voltage level translator
 F http://www.ti.com/lit/ds/symlink/pca9306.pdf
 $ENDCMP
 #
+$CMP PCA9306D
+D Dual bidirectional I2C Bus and SMBus voltage level translator, SO-8
+K I2C SMBus
+F https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf
+$ENDCMP
+#
+$CMP PCA9306DC
+D Dual bidirectional I2C Bus and SMBus voltage level translator, VSSOP-8
+K I2C SMBus
+F https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf
+$ENDCMP
+#
+$CMP PCA9306DC1
+D Dual bidirectional I2C Bus and SMBus voltage level translator, VSSOP-8
+K I2C SMBus
+F https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf
+$ENDCMP
+#
+$CMP PCA9306DP
+D Dual bidirectional I2C Bus and SMBus voltage level translator, TSSOP-8
+K I2C SMBus
+F https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf
+$ENDCMP
+#
 $CMP PCA9600D
 D Dual bidirectional bus buffer, SO-8
 K I2C buffer
