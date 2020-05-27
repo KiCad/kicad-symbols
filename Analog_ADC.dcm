@@ -623,6 +623,12 @@ K LT ADC 32bit
 F https://www.analog.com/media/en/technical-documentation/data-sheets/250832fc.pdf
 $ENDCMP
 #
+$CMP LTC4151xMS
+D High Voltage I2C Current and Voltage Monitor, MSOP-10
+K I2C Current Monitor
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4151ff.pdf
+$ENDCMP
+#
 $CMP MAX1112
 D 8-Channel Single-Ended or 4-Channel Differential 8-Bit ADC, SSOP-20
 K MAXIM ADC 5V 8-Bit SPI QSPI MICROWIRE
