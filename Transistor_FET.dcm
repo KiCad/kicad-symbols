@@ -2707,7 +2707,7 @@ F https://www.vishay.com/docs/63684/sis415dnt.pdf
 $ENDCMP
 #
 $CMP SiS454DN
-D -35A Id, -20V Vds, N-Channel MOSFET, PowerPAK 1212-8 Single
+D 35A Id, 20V Vds, N-Channel MOSFET, PowerPAK 1212-8 Single
 K N-Channel MOSFET
 F https://www.vishay.com/docs/66707/sis454dn.pdf
 $ENDCMP
