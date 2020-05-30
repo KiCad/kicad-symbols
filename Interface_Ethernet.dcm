@@ -156,12 +156,6 @@ K WIZnet Ethernet controller
 F https://www.wiznet.io/wp-content/uploads/wiznethome/Chip/W5100/Document/W5100_DS_V128E.pdf
 $ENDCMP
 #
-$CMP W5100S
-D 10/100Mb Ethernet controller with TCP/IP stack
-K WIZnet Ethernet controller
-F https://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w5100s:w5100s_ds_v125e.pdf
-$ENDCMP
-#
 $CMP W5100S_L
 D 10/100Mb Ethernet controller with TCP/IP stack
 K WIZnet Ethernet controller
@@ -192,12 +186,6 @@ K WIZnet Ethernet controller
 F http://wizwiki.net/wiki/lib/exe/fetch.php/products:w5500:w5500_ds_v109e.pdf
 $ENDCMP
 #
-$CMP W6100
-D 10/100Mb Ethernet controller with IPv6 TCP/IP stack
-K WIZnet Ethernet controller IPv6
-F https://wizwiki.net/wiki/lib/exe/fetch.php/products:w6100:w6100_ds_v104e.pdf
-$ENDCMP
-#
 $CMP W6100_L
 D 10/100Mb Ethernet controller with IPv6 TCP/IP stack
 K WIZnet Ethernet controller IPv6
@@ -210,13 +198,13 @@ K WIZnet Ethernet controller IPv6
 F https://wizwiki.net/wiki/lib/exe/fetch.php/products:w6100:w6100_ds_v104e.pdf
 $ENDCMP
 #
-$CMP W7100A_LQFP100
+$CMP W7100A_L
 D 10/100Mb Ethernet controller with TCP/IP stack and offload processor
 K WIZnet Ethernet controller offload processor 8051
 F https://www.wiznet.io/wp-content/uploads/wiznethome/Chip/W7100A/Document/W7100A_DS_V124E.pdf
 $ENDCMP
 #
-$CMP W7100A_QFN64
+$CMP W7100A_Q
 D 10/100Mb Ethernet controller with TCP/IP stack and offload processor
 K WIZnet Ethernet controller offload processor 8051
 F https://www.wiznet.io/wp-content/uploads/wiznethome/Chip/W7100A/Document/W7100A_DS_V124E.pdf
