@@ -504,6 +504,11 @@ K Gate Driver
 F https://www.infineon.com/dgdl/irs2011pbf.pdf?fileId=5546d462533600a401535675c19f2784
 $ENDCMP
 #
+$CMP IRS20752
+D High side gate driver, 200V bootstrap bootstrap input, SOT23-6
+F https://www.infineon.com/dgdl/irs20752lpbf.pdf?fileId=5546d462533600a401535675e709278e
+$ENDCMP
+#
 $CMP IRS2101
 D High and Low Side Driver, 600V, 290/600mA, PDIP-8/SOIC-8
 K Gate Driver
