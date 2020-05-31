@@ -120,10 +120,22 @@ K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina138.pdf
 $ENDCMP
 #
+$CMP INA139
+D High-Side Measurement Current Shunt Monitor, 40V, SOT-23-5
+K current sense shunt monitor
+F http://www.ti.com/lit/ds/symlink/ina169.pdf
+$ENDCMP
+#
 $CMP INA168
 D High-Side Measurement Current Shunt Monitor, 60V, SOT-23-5
 K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina138.pdf
+$ENDCMP
+#
+$CMP INA169
+D High-Side Measurement Current Shunt Monitor, 60V, SOT-23-5
+K current sense shunt monitor
+F http://www.ti.com/lit/ds/symlink/ina169.pdf
 $ENDCMP
 #
 $CMP INA181

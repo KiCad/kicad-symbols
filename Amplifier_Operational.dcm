@@ -138,6 +138,12 @@ K single opamp
 F http://www.intersil.com/content/dam/intersil/documents/ca31/ca3140-a.pdf
 $ENDCMP
 #
+$CMP HMC799LP3E
+D DC - 700 MHz, 10 kOhm Transimpedance amplifier, QFN-16
+K amplifier transimpedance
+F https://www.analog.com/media/en/technical-documentation/data-sheets/hmc799.pdf
+$ENDCMP
+#
 $CMP L272
 D Dual Power Operation Amplifier, DIP-16
 K dual power opamp
@@ -544,6 +550,36 @@ $CMP LTC6082xGN
 D Precision Quad CMOS Rail-to-Rail Input/Output Amplifiers, SSOP-16
 K quad opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/60812fd.pdf
+$ENDCMP
+#
+$CMP LTC6228xDC
+D Low Distortion Rail-to-Rail Output Op Amp with Shutdown, DFN-6
+K single opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6228-6229.pdf
+$ENDCMP
+#
+$CMP LTC6228xS6
+D Low Distortion Rail-to-Rail Output Op Amp with Shutdown, TSOT-23-6
+K single opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6228-6229.pdf
+$ENDCMP
+#
+$CMP LTC6228xS8
+D Low Distortion Rail-to-Rail Output Op Amp with Shutdown, SO-8
+K single opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6228-6229.pdf
+$ENDCMP
+#
+$CMP LTC6229xDD
+D Low Distortion Rail-to-Rail Output Op Amps with Shutdown, DFN-10
+K dual opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6228-6229.pdf
+$ENDCMP
+#
+$CMP LTC6229xMS8E
+D Low Distortion Rail-to-Rail Output Op Amps with Shutdown, MSOP-8
+K dual opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6228-6229.pdf
 $ENDCMP
 #
 $CMP LTC6253xMS8
@@ -990,6 +1026,18 @@ K single opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/OP07.pdf
 $ENDCMP
 #
+$CMP OP1177AR
+D Precision Low Noise, Low Input Bias Current Operational Amplifier, SOIC-8
+K single operational amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/OP1177_2177_4177.pdf
+$ENDCMP
+#
+$CMP OP1177ARM
+D Precision Low Noise, Low Input Bias Current Operational Amplifier, MSOP-8
+K single operational amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/OP1177_2177_4177.pdf
+$ENDCMP
+#
 $CMP OP179GRT
 D Single Rail-to-Rail High Output Current Operational Amplifiers, SOT-23-5
 K single opamp
@@ -1138,6 +1186,18 @@ $CMP OPA2134
 D Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8
 K dual opamp
 F http://www.ti.com/lit/ds/symlink/opa134.pdf
+$ENDCMP
+#
+$CMP OPA2156xD
+D Dual 36V, Ultra Low Noise, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8
+K dual opamp low-noise r2r
+F https://www.ti.com/lit/ds/symlink/opa2156.pdf
+$ENDCMP
+#
+$CMP OPA2156xDGK
+D Dual 36V, Ultra Low Noise, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8
+K dual opamp low-noise r2r
+F http://www.ti.com/lit/ds/symlink/opa2156.pdf
 $ENDCMP
 #
 $CMP OPA2196xD

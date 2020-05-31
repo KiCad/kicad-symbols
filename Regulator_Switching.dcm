@@ -198,6 +198,24 @@ K Step-Down Regulator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2302_2303.pdf
 $ENDCMP
 #
+$CMP ADP2360xCP
+D High Efficiency Buck Regulator, Vin 60V, Vout Adjustable, 50mA, LFCSP-8
+K Step-Down Buck Regulator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2360.pdf
+$ENDCMP
+#
+$CMP ADP2360xCP-3.3
+D High Efficiency Buck Regulator, Vin 60V, Vout 3.3V, 50mA, LFCSP-8
+K Step-Down Buck Regulator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2360.pdf
+$ENDCMP
+#
+$CMP ADP2360xCP-5.0
+D High Efficiency Buck Regulator, Vin 60V, Vout 5.0V, 50mA, LFCSP-8
+K Step-Down Buck Regulator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2360.pdf
+$ENDCMP
+#
 $CMP ADP5054
 D 250kHz to 2MHz, 6A/6A/2A/2A Quad Buck Regulator, -40 to +125C, QFN-48
 K quad regulator dcdc buck synchronizable parallel
@@ -2868,6 +2886,12 @@ K buck dc-dc switcher switching
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3638fa.pdf
 $ENDCMP
 #
+$CMP LTC3639
+D 100mA High efficiency 150V syncrhonous step-down converter, MSOP-16(12)
+K buck dc-dc switcher switching
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3639fd.pdf
+$ENDCMP
+#
 $CMP LTC3886
 D 60V dual output buck output with digital power system management, UKG52(46)
 K step down switch manager I2C telemetry fault current sense
@@ -2916,6 +2940,42 @@ K step-down dc-dc switching regulator
 F http://datasheets.maximintegrated.com/en/ds/MAX15062.pdf
 $ENDCMP
 #
+$CMP MAX17501AxTB
+D 4.5V–60Vin, 500mA, High-Efficiency, 3.3V Synchronous Step-Down DC-DC Converter, PFM Mode, TDFN-10
+K Step-down dc-dc switching regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX17501.pdf
+$ENDCMP
+#
+$CMP MAX17501BxTB
+D 4.5V–60Vin, 500mA, High-Efficiency, 5V Synchronous Step-Down DC-DC Converter, PFM Mode, DFN-10
+K Step-down dc-dc switching regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX17501.pdf
+$ENDCMP
+#
+$CMP MAX17501ExTB
+D 4.5V–60Vin, 500mA, High-Efficiency, 3.3V Synchronous Step-Down DC-DC Converter, PWM Mode, DFN-10
+K Step-down dc-dc switching regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX17501.pdf
+$ENDCMP
+#
+$CMP MAX17501FxTB
+D 4.5V–60Vin, 500mA, High-Efficiency, 5V Synchronous Step-Down DC-DC Converter, PWM Mode, DFN-10
+K Step-down dc-dc switching regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX17501.pdf
+$ENDCMP
+#
+$CMP MAX17501GxTB
+D 4.5V–60Vin, 500mA, High-Efficiency, Adjustable Synchronous Step-Down DC-DC Converter, 600KHz, TDFN-10
+K Step-down dc-dc switching regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX17501.pdf
+$ENDCMP
+#
+$CMP MAX17501HxTB
+D 4.5V–60Vin, 500mA, High-Efficiency, Adjustable Synchronous Step-Down DC-DC Converter, 300KHz, DFN-10
+K Step-down dc-dc switching regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX17501.pdf
+$ENDCMP
+#
 $CMP MAX17572
 D 4.5V–60V, 1A, High-Efficiency, Synchronous Step-Down DC-DC Converter with Internal Compensation, DFN-12
 K Step-down dc-dc switching regulator
@@ -2926,6 +2986,12 @@ $CMP MAX17574
 D 4.5V–60V, 3A, High-Efficiency, Synchronous Step-Down DC-DC Converter with Internal Compensation, QFN-24
 K Step-down dc-dc switching regulator
 F https://datasheets.maximintegrated.com/en/ds/MAX17574.pdf
+$ENDCMP
+#
+$CMP MAX17620ATA
+D 2.7-5.5V, 600mA, Synchronous Step-Down DC-DC Converter with Integrated MOSFETs, DFN-8
+K switching-regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX17620.pdf
 $ENDCMP
 #
 $CMP MAX5035AUPA
@@ -3220,6 +3286,18 @@ $CMP MT3608
 D High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6
 K Step-Up Boost DC-DC Regulator Adjustable
 F https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf
+$ENDCMP
+#
+$CMP MUN12AD01-SH
+D DC/DC Switching Regulator, Power Module, 1A, Cyntec MUN12AD01
+K DC/DC Switching Regulator Power Module 1A Cyntec MUN12AD01
+F http://www.cyntec.com/upfile/products/download/Cyntec%20MUN12AD01-SH_Datasheet.pdf
+$ENDCMP
+#
+$CMP MUN12AD03-SH
+D DC/DC Switching Regulator, Power Module, 3A, Cyntec MUN12AD03
+K DC/DC Switching Regulator Power Module 3A Cyntec MUN12AD03
+F http://www.cyntec.com/upfile/products/download/Cyntec%20MUN12AD03-SH_Datasheet.pdf
 $ENDCMP
 #
 $CMP NCP1070P065
@@ -5442,6 +5520,12 @@ K Step-Down DC-DC Switching Regulator High Voltage Adjustable Frequency
 F http://www.ti.com/lit/ds/symlink/tps54061.pdf
 $ENDCMP
 #
+$CMP TPS54202DDC
+D 2A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6
+K switching buck converter power-supply voltage regulator emi spread spectrum
+F http://www.ti.com/lit/ds/symlink/tps54202.pdf
+$ENDCMP
+#
 $CMP TPS5420D
 D Adjustable Output, 2A Step-Down Converter, 5.5V-36V Input, 500kHz Switching Frequency
 K switching buck converter step-down
@@ -5512,6 +5596,12 @@ $CMP TPS563200
 D 3A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6
 K step-down dcdc voltage regulator
 F http://www.ti.com/lit/ds/symlink/tps563200.pdf
+$ENDCMP
+#
+$CMP TPS56339DDC
+D 4.5V to 24V Input, 3-A Output Synchronous Buck Converter, SOT-23-6
+K step-down dcdc voltage regulator
+F https://www.ti.com/lit/ds/symlink/tps56339.pdf
 $ENDCMP
 #
 $CMP TPS565208
