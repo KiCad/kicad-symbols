@@ -426,6 +426,18 @@ K temperature sensor I2C
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22203b.pdf
 $ENDCMP
 #
+$CMP MCP9808_DFN
+D Microchip Technology Digital Temperature Sensor, +/-0.25C (+/-0.5C) Typical (Maximum), DFN
+K temperature sensor I2C
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP9808-0.5C-Maximum-Accuracy-Digital-Temperature-Sensor-Data-Sheet-DS20005095B.pdf
+$ENDCMP
+#
+$CMP MCP9808_MSOP
+D Microchip Technology Digital Temperature Sensor, +/-0.25C (+/-0.5C) Typical (Maximum), DFN
+K temperature sensor I2C
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22203b.pdf
+$ENDCMP
+#
 $CMP MCP9844x-xMN
 D ±1°C Accurate, 1.8V Digital Temperature Sensor, I²C, DFN-8
 K I2C TWI
