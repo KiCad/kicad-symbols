@@ -486,6 +486,24 @@ K diode
 F https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf
 $ENDCMP
 #
+$CMP BAS19
+D 120V, 0.4A, High-speed Switching Diode, SOT-23
+K diode
+F https://www.diodes.com/assets/Datasheets/Ds12004.pdf
+$ENDCMP
+#
+$CMP BAS20
+D 200V, 0.4A, High-speed Switching Diode, SOT-23
+K diode
+F https://www.diodes.com/assets/Datasheets/Ds12004.pdf
+$ENDCMP
+#
+$CMP BAS21
+D 250V, 0.4A, High-speed Switching Diode, SOT-23
+K diode
+F https://www.diodes.com/assets/Datasheets/Ds12004.pdf
+$ENDCMP
+#
 $CMP BAS316
 D 100V, 0.25A, High-speed Switching Diode, SOD-323
 K diode

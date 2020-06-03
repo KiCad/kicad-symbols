@@ -144,6 +144,36 @@ K comparator latch
 F https://www.analog.com/media/en/technical-documentation/data-sheets/171112f.pdf
 $ENDCMP
 #
+$CMP LTC6752xMS8-2
+D Single 280Mhz 2.9ns Comparator, Rail-to-Rail Inputs, CMOS Output, MSOP-8
+K single comparator high speed cmos
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6752fc.pdf
+$ENDCMP
+#
+$CMP LTC6752xS5
+D Single 280Mhz 2.9ns Comparator, Rail-to-Rail Inputs, CMOS Output, TSOT-23-5
+K single comparator high speed cmos
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6752fc.pdf
+$ENDCMP
+#
+$CMP LTC6752xSC6-1
+D Single 280Mhz 2.9ns Comparator, Rail-to-Rail Inputs, CMOS Output, SC-70
+K single comparator high speed cmos
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6752fc.pdf
+$ENDCMP
+#
+$CMP LTC6752xSC6-4
+D Single 280Mhz 2.9ns Comparator, Rail-to-Rail Inputs, CMOS Output, SC-70
+K single comparator high speed cmos
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6752fc.pdf
+$ENDCMP
+#
+$CMP LTC6752xUD-3
+D Single 280Mhz 2.9ns Comparator, Rail-to-Rail Inputs, CMOS Output, QFN-12
+K single comparator high speed cmos
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6752fc.pdf
+$ENDCMP
+#
 $CMP LTC6754xSC6
 D Single High Speed Rail-to-Rail Input Comparator with LVDS Compatible Outputs, SC-70-6
 K cmp r2r rtr

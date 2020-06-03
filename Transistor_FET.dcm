@@ -36,6 +36,12 @@ K N-Channel MOSFET Dual Gate
 F http://www.onsemi.com/pub_link/Collateral/EN4423-D.PDF
 $ENDCMP
 #
+$CMP AO3400A
+D 30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf
+$ENDCMP
+#
 $CMP AO3401A
 D -4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23
 K P-Channel MOSFET
@@ -1392,6 +1398,12 @@ K N-Channel MOSFET
 F http://www.diodes.com/assets/Datasheets/DMN24H3D5L.pdf
 $ENDCMP
 #
+$CMP DMN3033LDM
+D 6.9A Id, 30V Vds, N-Channel MOSFET, SOT-23-6
+K N-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/ds31345.pdf
+$ENDCMP
+#
 $CMP DMN3042L
 D 5.8A Id, 30V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
@@ -1464,10 +1476,22 @@ K P-Channel MOSFET
 F https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf
 $ENDCMP
 #
+$CMP FDC2512
+D 1.4A Id, 150V Vds, N-Channel MOSFET, 425mOhm Ron, SuperSOT-6
+K N-Channel MOSFET
+F https://www.onsemi.com/pub/Collateral/FDC2512-D.pdf
+$ENDCMP
+#
 $CMP FDC6330L
 D -2.3A, 20V Vds, Integrated load switch, P-Channel MOSFET driven by small N-Channel MOSFET, TSOT-23-6
 K complementary mosfet
 F https://www.onsemi.com/pub/Collateral/FDC6330L-D.PDF
+$ENDCMP
+#
+$CMP FDC86244
+D 2.3A Id, 150V Vds, N-Channel MOSFET, 144mOhm Ron, SuperSOT-6
+K N-Channel MOSFET
+F https://www.onsemi.com/pub/Collateral/FDC86244-D.pdf
 $ENDCMP
 #
 $CMP FDG1024NZ
@@ -1702,6 +1726,12 @@ $CMP FQP27P06
 D -27A Id, -60V Vds, QFET P-Channel MOSFET, TO-220
 K QFET P-Channel MOSFET
 F https://www.onsemi.com/pub/Collateral/FQP27P06-D.PDF
+$ENDCMP
+#
+$CMP IPB180N10S4-02
+D 180A Id, 100V Vds, OptiMOS-T2 N-Channel Power MOSFET, 2.5mOhm Ron, Qg (typ) 156nC, TO-263-6
+K OptiMOS-T2 Power MOSFET N-MOS
+F https://www.infineon.com/dgdl/Infineon-IPB180N10S4_02-DS-v01_00-en.pdf?fileId=db3a30433d1d0bbe013d2129cf8a2f88
 $ENDCMP
 #
 $CMP IPD50R380CE
@@ -2334,6 +2364,42 @@ K Dual N-Channel MOSFET
 F https://www.infineon.com/dgdl/irfi4212h-117p.pdf?fileId=5546d462533600a401535623fc841f7a
 $ENDCMP
 #
+$CMP IRFS4115
+D 99A Id, 150V Vds, N-Channel MOSFET, 10.3mOhm Ron, D2PAK
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/irfs4115pbf.pdf?fileId=5546d462533600a401535636e5d2218f
+$ENDCMP
+#
+$CMP IRFS4127
+D 72A Id, 200V Vds, N-Channel MOSFET, 18.6mOhm Ron, D2PAK
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/irfs4127pbf.pdf?fileId=5546d462533600a401535636ee7b2192
+$ENDCMP
+#
+$CMP IRFS4227
+D 130A Id, 200V Vds, N-Channel MOSFET, 22mOhm Ron, D2PAK
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/irfs4227pbf.pdf?fileId=5546d462533600a401535639ef64219b
+$ENDCMP
+#
+$CMP IRFS4229
+D 91A Id, 250V Vds, N-Channel MOSFET, 42mOhm Ron, D2PAK
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/irfs4229pbf.pdf?fileId=5546d462533600a401535639fdc421a1
+$ENDCMP
+#
+$CMP IRFS4310Z
+D 120A Id, 100V Vds, N-Channel MOSFET, 4.8mOhm Ron, D2PAK
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/irfb4310zpbf.pdf?fileId=5546d462533600a4015356161b4d1e2d
+$ENDCMP
+#
+$CMP IRFS4321
+D 85A Id, 150V Vds, N-Channel MOSFET, 12mOhm Ron, D2PAK
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/irfs4321pbf.pdf?fileId=5546d462533600a40153563a20dd21ad
+$ENDCMP
+#
 $CMP IRL6283M
 D 38A Id, 20V Vds, 0.75mOhm Rds, N-Channel MOSFET, DirectFET MD
 K N-Channel MOSFET
@@ -2466,6 +2532,12 @@ K N-Channel GaN MOSFET
 F https://industrial.panasonic.com/content/data/SC/ds/ds4/PGA26E19BA_E.pdf
 $ENDCMP
 #
+$CMP PMN48XP
+D -4.1A Id, -20V Vds, P-Channel Power MOSFET, 48mOhm Ron, SC-74-6
+K P-Channel MOSFET
+F https://assets.nexperia.com/documents/data-sheet/PMN48XP.pdf
+$ENDCMP
+#
 $CMP PSMN5R2-60YL
 D 100A, 60V Vds, N-Channel MOSFET, 5.2mOhm Ron, LFPAK56
 K N-Channel MOSFET
@@ -2482,6 +2554,30 @@ $CMP QM6015D
 D -35A Id, -60V Vds, P-Channel Power MOSFET, 25mOhm Ron, 25.0nC Qg (typ), TO252
 K P-Channel MOSFET
 F http://www.jaolen.com/images/pdf/QM6015D.pdf
+$ENDCMP
+#
+$CMP STB15N80K5
+D 14A Id, 800V Vds, N-Channel MOSFET, 375mOhm Ron, D2PAK
+K N-Channel MOSFET
+F https://www.st.com/resource/en/datasheet/stb15n80k5.pdf
+$ENDCMP
+#
+$CMP STB33N65M2
+D 24A Id, 650V Vds, N-Channel MDmesh M2 MOSFET, 140mOhm Ron, D2PAK
+K N-Channel MOSFET
+F https://www.st.com/resource/en/datasheet/stb33n65m2.pdf
+$ENDCMP
+#
+$CMP STB40N60M2
+D 34A Id, 600V Vds, N-Channel MDmesh M2 MOSFET, 78mOhm Ron, D2PAK
+K N-Channel MOSFET
+F https://www.st.com/resource/en/datasheet/stp40n60m2.pdf
+$ENDCMP
+#
+$CMP STD7NK40Z
+D 5.4A Id, 400V Vds, N-Channel MOSFET, 1Ohm Ron, DPAK
+K N-Channel MOSFET
+F https://www.st.com/resource/en/datasheet/std7nk40zt4.pdf
 $ENDCMP
 #
 $CMP STS2DNE60
