@@ -72,6 +72,18 @@ K microcontroller PIC18F flash XLP
 F http://ww1.microchip.com/downloads/en/DeviceDoc/40001303H.pdf
 $ENDCMP
 #
+$CMP PIC18F23K22-xSO
+D 8K Flash, 512B SRAM, 256B EEPROM, nanoWatt XLP, 2.3V to 5.5V, SOIC28
+K Flash-Based 8-Bit Microcontroller XLP
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001412G.pdf
+$ENDCMP
+#
+$CMP PIC18F23K22-xSP
+D 8K Flash, 512B SRAM, 256B EEPROM, nanoWatt XLP, 2.3V to 5.5V, SPDIP28
+K Flash-Based 8-Bit Microcontroller XLP
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001412G.pdf
+$ENDCMP
+#
 $CMP PIC18F2420-xML
 D MCU 16k Flash, 768B SRAM, 256B EEPROM, ADC, QFN-28
 K Flash-Based 8bit CMOS Microcontroller
@@ -138,6 +150,18 @@ K microcontroller PIC18F flash XLP
 F http://ww1.microchip.com/downloads/en/DeviceDoc/40001303H.pdf
 $ENDCMP
 #
+$CMP PIC18F24K22-xSO
+D 16K Flash, 768B SRAM, 256B EEPROM, nanoWatt XLP, 2.3V to 5.5V, SOIC28
+K Flash-Based 8-Bit Microcontroller XLP
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001412G.pdf
+$ENDCMP
+#
+$CMP PIC18F24K22-xSP
+D 16K Flash, 768B SRAM, 256B EEPROM, nanoWatt XLP, 2.3V to 5.5V, SPDIP28
+K Flash-Based 8-Bit Microcontroller XLP
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001412G.pdf
+$ENDCMP
+#
 $CMP PIC18F24K50-xML
 D 16K Flash, 2K SRAM, 256 EEPROM, USB, nanoWatt XLP, 2.3V to 5.5V, QFN28
 K Flash-Based 8-Bit Microcontroller XLP
@@ -192,6 +216,18 @@ K microcontroller PIC18F flash XLP
 F http://ww1.microchip.com/downloads/en/DeviceDoc/40001303H.pdf
 $ENDCMP
 #
+$CMP PIC18F25K22-xSO
+D 32K Flash, 1536B SRAM, 256B EEPROM, nanoWatt XLP, 2.3V to 5.5V, SOIC28
+K Flash-Based 8-Bit Microcontroller XLP
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001412G.pdf
+$ENDCMP
+#
+$CMP PIC18F25K22-xSP
+D 32K Flash, 1536B SRAM, 256B EEPROM, nanoWatt XLP, 2.3V to 5.5V, SPDIP28
+K Flash-Based 8-Bit Microcontroller XLP
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001412G.pdf
+$ENDCMP
+#
 $CMP PIC18F25K50-xML
 D 32K Flash, 2K SRAM, 256 EEPROM, USB, nanoWatt XLP, 2.3V to 5.5V, QFN28
 K Flash-Based 8-Bit Microcontroller XLP
@@ -238,6 +274,18 @@ $CMP PIC18F26K20_ISS
 D 64K Flash, 3936Byte RAM, 1KByte EEPROM, PIC18 Microcontroller ADC PWM SPI I2C USART in SSOP28 package
 K microcontroller PIC18F flash XLP
 F http://ww1.microchip.com/downloads/en/DeviceDoc/40001303H.pdf
+$ENDCMP
+#
+$CMP PIC18F26K22-xSO
+D 64K Flash, 3896B SRAM, 1024B EEPROM, nanoWatt XLP, 2.3V to 5.5V, SOIC28
+K Flash-Based 8-Bit Microcontroller XLP
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001412G.pdf
+$ENDCMP
+#
+$CMP PIC18F26K22-xSP
+D 64K Flash, 3896B SRAM, 1024B EEPROM, nanoWatt XLP, 2.3V to 5.5V, SPDIP28
+K Flash-Based 8-Bit Microcontroller XLP
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40001412G.pdf
 $ENDCMP
 #
 $CMP PIC18F26K80_IML

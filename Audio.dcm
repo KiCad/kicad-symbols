@@ -114,6 +114,12 @@ K Audio Codec
 F https://statics.cirrus.com/pubs/proDatasheet/CS4270_F1.pdf
 $ENDCMP
 #
+$CMP CS4272
+D 24-Bit, 192 kHz Stereo Audio CODEC, TSSOP-28
+K stereo 2ch audio codec i2s 24bit 192kHz
+F https://statics.cirrus.com/pubs/proDatasheet/CS4272_F1.pdf
+$ENDCMP
+#
 $CMP CS43L21
 D Low-Power, Stereo Digital-to-Analog Converter, QFN-32
 K audio dac 2ch 24bit 96kHz
@@ -270,6 +276,18 @@ K EG&G RETICON BBD N-channel silicon-gate
 F http://thmq.mysteria.cz/em1022/SAD1024.pdf
 $ENDCMP
 #
+$CMP SGTL5000XNAA3
+D Low Power Stereo Codec with Headphone Amp, QFN-32
+K Codec
+F https://www.nxp.com/docs/en/data-sheet/SGTL5000.pdf
+$ENDCMP
+#
+$CMP SGTL5000XNLA3
+D Low Power Stereo Codec with Headphone Amp, QFN-20
+K Codec
+F https://www.nxp.com/docs/en/data-sheet/SGTL5000.pdf
+$ENDCMP
+#
 $CMP SSI2144
 D Four-pole VCF, SSOP-16
 K Sound Semiconductor VCF SSM2044
@@ -364,6 +382,12 @@ $CMP UDA1334ATS
 D Low Power Audio DAC with PLL, SSOP-16
 K audio dac 2ch 24bit 96kHz
 F http://www.nxp.com/docs/en/data-sheet/UDA1334ATS.pdf
+$ENDCMP
+#
+$CMP YM2149
+D Software-Controlled Sound Generator, DIP-40
+K audio ssg 3ch
+F http://www.ym2149.com/ym2149.pdf
 $ENDCMP
 #
 #End Doc Library
