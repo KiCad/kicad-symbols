@@ -5598,6 +5598,12 @@ K step-down dcdc voltage regulator
 F http://www.ti.com/lit/ds/symlink/tps563200.pdf
 $ENDCMP
 #
+$CMP TPS56339DDC
+D 4.5V to 24V Input, 3-A Output Synchronous Buck Converter, SOT-23-6
+K step-down dcdc voltage regulator
+F https://www.ti.com/lit/ds/symlink/tps56339.pdf
+$ENDCMP
+#
 $CMP TPS565208
 D 5A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6
 K step-down dcdc voltage regulator
