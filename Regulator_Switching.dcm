@@ -5269,7 +5269,7 @@ F http://www.ti.com/lit/ds/symlink/tps61252.pdf
 $ENDCMP
 #
 $CMP TPS62056DGS
-D Vout 0.7 tpo 6V, Vin 2.7-V to 10-V, 800-mA Synchronous Step-Down Converter
+D 800 mA Step-Down Converter, Adjustable Output Voltage, 0.7-6V Input Voltage, VSSOP-10
 K voltage regulator switch mode step down
 F http://www.ti.com/lit/ds/symlink/tps62056.pdf
 $ENDCMP
