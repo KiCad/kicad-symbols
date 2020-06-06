@@ -2592,6 +2592,42 @@ K R res resistor variable potentiometer rheostat
 F ~
 $ENDCMP
 #
+$CMP Relay_DPDT
+D Relay, double pole, double throw
+K Relay double pole throw dpdt make break
+F ~
+$ENDCMP
+#
+$CMP Relay_DPST_NC
+D Relay, double pole, single throw, normally closed
+K Relay double pole single throw dspt normally closed nc
+F ~
+$ENDCMP
+#
+$CMP Relay_DPST_NO
+D Relay, double pole, single throw, normally open
+K Relay double pole single throw dspt normally open no
+F ~
+$ENDCMP
+#
+$CMP Relay_SPDT
+D Relay, single pole, double throw
+K Relay single pole souble throw spdt
+F ~
+$ENDCMP
+#
+$CMP Relay_SPST_NC
+D Relay, single pole, single throw, normally closed
+K Relay single pole throw spst normally closed nc
+F ~
+$ENDCMP
+#
+$CMP Relay_SPST_NO
+D Relay, single pole, single throw, normally open
+K Relay single pole throw spst normally open open
+F ~
+$ENDCMP
+#
 $CMP Resonator
 D Three pin ceramic resonator
 K ceramic resonator
