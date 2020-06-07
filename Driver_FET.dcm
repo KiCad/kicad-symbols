@@ -162,6 +162,18 @@ K Half Bridge Gate Driver
 F http://www.intersil.com/content/dam/Intersil/documents/hip4/hip4080a.pdf
 $ENDCMP
 #
+$CMP HIP4082xB
+D 80V, 1.25A Peak Current H-Bridge FET Driver, SOIC-16
+K Driver H-bridge
+F https://www.renesas.com/www/doc/datasheet/hip4082.pdf
+$ENDCMP
+#
+$CMP HIP4082xP
+D 80V, 1.25A Peak Current H-Bridge FET Driver, DIP-16
+K Driver H-bridge
+F https://www.renesas.com/www/doc/datasheet/hip4082.pdf
+$ENDCMP
+#
 $CMP ICL7667
 D Dual Power MOSFET Driver, DIP-8/SOIC-8
 K MOSFET driver array
