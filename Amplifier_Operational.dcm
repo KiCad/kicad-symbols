@@ -894,6 +894,12 @@ K quad opamp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22141b.pdf
 $ENDCMP
 #
+$CMP MCP6V67EMS
+D Dual Operational Amplifiers, Zero-Drift, 80 kHz Bandwidth, 1.8V to 5.5V, Rail-to-Rail, MSOP-8
+K dual opamp zero drift
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6V66-Family-Data-Sheet-DS20006266A.pdf
+$ENDCMP
+#
 $CMP NCS20071SN
 D Single, 2.8V/µs, Rail-to-Rail Output, TSOP-5
 K OpAmp Rail-to-rail Output Single vfa
