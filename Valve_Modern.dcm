@@ -209,6 +209,12 @@ K triode pentode valve
 F http://www.r-type.org/pdfs/ecl82.pdf
 $ENDCMP
 #
+$CMP ECL86
+D Triode & pentode, B9A NOVAL
+K triode pentode valve
+F http://www.r-type.org/pdfs/ecl86.pdf
+$ENDCMP
+#
 $CMP EF83
 D Pentode, B9A NOVAL
 K pentode valve
@@ -848,6 +854,11 @@ F https://shop.ehx.com/catalog/addimages/EL84Sov.pdf
 $ENDCMP
 #
 $CMP TRIODE-PENTODE-PRE-B9A-V1
+D Triode & pentode, B9A NOVAL
+K triode pentode valve
+$ENDCMP
+#
+$CMP TRIODE-PENTODE-PRE-B9A-V2
 D Triode & pentode, B9A NOVAL
 K triode pentode valve
 $ENDCMP
