@@ -144,6 +144,42 @@ K 8-bit shift register
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf
 $ENDCMP
 #
+$CMP 74HC165
+D Shift Register, 8-bit, Parallel Load
+K 8 bit shift register parallel load cmos
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf
+$ENDCMP
+#
+$CMP 74HC165D,653
+D Shift Register, 8-bit, Parallel Load, 
+K 8 bit shift register parallel load cmos
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf
+$ENDCMP
+#
+$CMP 74HC165D,653_SO
+D Shift Register, 8-bit, Parallel Load, SO-16
+K 8 bit shift register parallel load cmos
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf
+$ENDCMP
+#
+$CMP 74HC165D,653_SOT
+D Shift Register, 8-bit, Parallel Load, SOT
+K TTL SR SR8
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf
+$ENDCMP
+#
+$CMP 74HC165D,653_SSOP
+D Shift Register, 8-bit, Parallel Load, SSOP-16
+K 8 bit shift register parallel load cmos
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf
+$ENDCMP
+#
+$CMP 74HC165D,653_TSSOP
+D Shift Register, 8-bit, Parallel Load, TSSOP-16
+K 8 bit shift register parallel load cmos
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf
+$ENDCMP
+#
 $CMP 74HC237
 D 3-to-8 line decoder/multiplexer with address latches, DIP-16/SOIC-16/SSOP-16
 K demux
