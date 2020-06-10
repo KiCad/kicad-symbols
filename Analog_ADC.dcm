@@ -228,6 +228,12 @@ K adc spi
 F http://www.ti.com/lit/ds/symlink/ads1120.pdf
 $ENDCMP
 #
+$CMP ADS1220xPW
+D Low-power, quad-input, 24-bit analog to digital converter, integrated temperature sensor, SPI interface, TSSOP-16 package
+K adc spi
+F http://www.ti.com/lit/ds/symlink/ads1220.pdf
+$ENDCMP
+#
 $CMP ADS1232IPW
 D Single Bridge 24bit ADC for Sensors, TSSOP-24
 K ADC 24bit Sensors Dual Channel
@@ -365,6 +371,18 @@ D Convertisseur A->D 6 bits rapide
 K ADC CAN
 $ENDCMP
 #
+$CMP ICL7106CPL
+D 3 1/2 Digit, LCD Display, A/D Converter, DIP-40
+K LCD ADC
+F https://www.renesas.com/eu/en/www/doc/datasheet/icl7106-07-07s.pdf
+$ENDCMP
+#
+$CMP ICL7107CPL
+D 3 1/2 Digit, LED Display, A/D Converter, DIP-40
+K LED ADC
+F https://www.renesas.com/eu/en/www/doc/datasheet/icl7106-07-07s.pdf
+$ENDCMP
+#
 $CMP INA219AxD
 D Zero-Drift, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOIC-8
 K ADC I2C 16-Bit Oversampling Current Shunt
@@ -393,6 +411,12 @@ $CMP INA226
 D High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C Compatible Interface, VSSOP-10
 K ADC I2C 16-Bit Oversampling Current Shunt
 F http://www.ti.com/lit/ds/symlink/ina226.pdf
+$ENDCMP
+#
+$CMP INA233
+D High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C, SMBus-, and PMBus-Compatible Interface, VSSOP-10
+K ADC I2C 16-Bit Oversampling Current Shunt
+F https://www.ti.com/lit/ds/symlink/ina233.pdf
 $ENDCMP
 #
 $CMP LTC1406CGN
@@ -603,6 +627,60 @@ $CMP MAX1112
 D 8-Channel Single-Ended or 4-Channel Differential 8-Bit ADC, SSOP-20
 K MAXIM ADC 5V 8-Bit SPI QSPI MICROWIRE
 F http://datasheets.maximintegrated.com/en/ds/MAX1112-MAX1113.pdf
+$ENDCMP
+#
+$CMP MAX11120xTI
+D 4-Channel 8-Bit 1.5MHz Full-Linear Bandwidth External Reference High-Speed Low-Power ADC, QFN-28
+K MAXIM ADC 3.3V 8-Bit SPI
+F https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf
+$ENDCMP
+#
+$CMP MAX11121xTI
+D 4-Channel 10-Bit 1.5MHz Full-Linear Bandwidth External Reference High-Speed Low-Power ADC, QFN-28
+K MAXIM ADC 3.3V 10-Bit SPI
+F https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf
+$ENDCMP
+#
+$CMP MAX11122xTI
+D 4-Channel 12-Bit 1.5MHz Full-Linear Bandwidth External Reference High-Speed Low-Power ADC, QFN-28
+K MAXIM ADC 3.3V 12-Bit SPI
+F https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf
+$ENDCMP
+#
+$CMP MAX11123xTI
+D 8-Channel 8-Bit 1.5MHz Full-Linear Bandwidth External Reference High-Speed Low-Power ADC, QFN-28
+K MAXIM ADC 3.3V 8-Bit SPI
+F https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf
+$ENDCMP
+#
+$CMP MAX11124xTI
+D 8-Channel 10-Bit 1.5MHz Full-Linear Bandwidth External Reference High-Speed Low-Power ADC, QFN-28
+K MAXIM ADC 3.3V 10-Bit SPI
+F https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf
+$ENDCMP
+#
+$CMP MAX11125xTI
+D 8-Channel 12-Bit 1.5MHz Full-Linear Bandwidth External Reference High-Speed Low-Power ADC, QFN-28
+K MAXIM ADC 3.3V 12-Bit SPI
+F https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf
+$ENDCMP
+#
+$CMP MAX11126xTI
+D 16-Channel 8-Bit 1.5MHz Full-Linear Bandwidth External Reference High-Speed Low-Power ADC, QFN-28
+K MAXIM ADC 3.3V 8-Bit SPI
+F https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf
+$ENDCMP
+#
+$CMP MAX11127xTI
+D 16-Channel 10-Bit 1.5MHz Full-Linear Bandwidth External Reference High-Speed Low-Power ADC, QFN-28
+K MAXIM ADC 3.3V 10-Bit SPI
+F https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf
+$ENDCMP
+#
+$CMP MAX11128xTI
+D 16-Channel 12-Bit 1.5MHz Full-Linear Bandwidth External Reference High-Speed Low-Power ADC, QFN-28
+K MAXIM ADC 3.3V 12-Bit SPI
+F https://datasheets.maximintegrated.com/en/ds/MAX11120-MAX11128.pdf
 $ENDCMP
 #
 $CMP MAX1113
@@ -825,6 +903,30 @@ $CMP MCP3553-ESN
 D Single Delta-Sigma 22bit Analog to Digital Converter, SPI Interface, MSOP-8
 K Sigma-Delta ADC Converter 22bit SPI 1ch
 F http://ww1.microchip.com/downloads/en/devicedoc/21950c.pdf
+$ENDCMP
+#
+$CMP PAC1931x-xJQ
+D Single-Channel DC Power/Energy Monitor with Accumulator, UQFN-16
+K I2C Current Shunt Energy Monitor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PAC1931-Family-Data-Sheet-DS20005850E.pdf
+$ENDCMP
+#
+$CMP PAC1932x-xJQ
+D Multi-Channel DC Power/Energy Monitor with Accumulator, UQFN-16
+K I2C Current Shunt Energy Monitor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PAC1931-Family-Data-Sheet-DS20005850E.pdf
+$ENDCMP
+#
+$CMP PAC1933x-xJQ
+D Multi-Channel DC Power/Energy Monitor with Accumulator, UQFN-16
+K I2C Current Shunt Energy Monitor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PAC1931-Family-Data-Sheet-DS20005850E.pdf
+$ENDCMP
+#
+$CMP PAC1934x-xJQ
+D Multi-Channel DC Power/Energy Monitor with Accumulator, UQFN-16
+K I2C Current Shunt Energy Monitor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PAC1931-Family-Data-Sheet-DS20005850E.pdf
 $ENDCMP
 #
 #End Doc Library
