@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1EDN7550B
+D Single-Channel EiceDRIVER With True Differential Inputs, 4V UVLO, +4/-8A, SOT-23-6
+K Driver, Dual MOSFET
+F https://www.infineon.com/dgdl/Infineon-1EDN7550B-DS-v02_00-EN.pdf?fileId=5546d46262b31d2e01635d9799ef264f
+$ENDCMP
+#
+$CMP 1EDN8550B
+D Single-Channel EiceDRIVER With True Differential Inputs, 8V UVLO, +4/-8A, SOT-23-6
+K Driver, Dual MOSFET
+F https://www.infineon.com/dgdl/Infineon-1EDN7550B-DS-v02_00-EN.pdf?fileId=5546d46262b31d2e01635d9799ef264f
+$ENDCMP
+#
 $CMP ACPL-336J
 D 2.5A Gate Drive Optocoupler with Integrated LED Driver, Active Miller Clamp, DESAT Detection, and Fault & UVLO Status Feedback, SOIC-16
 K Gate Driver IGBT
@@ -148,6 +160,18 @@ $CMP HIP4081A
 D High Frequency Full Bridge FET Driver, 2.5A, 80V, DIP-20/SOIC-20
 K Half Bridge Gate Driver
 F http://www.intersil.com/content/dam/Intersil/documents/hip4/hip4080a.pdf
+$ENDCMP
+#
+$CMP HIP4082xB
+D 80V, 1.25A Peak Current H-Bridge FET Driver, SOIC-16
+K Driver H-bridge
+F https://www.renesas.com/www/doc/datasheet/hip4082.pdf
+$ENDCMP
+#
+$CMP HIP4082xP
+D 80V, 1.25A Peak Current H-Bridge FET Driver, DIP-16
+K Driver H-bridge
+F https://www.renesas.com/www/doc/datasheet/hip4082.pdf
 $ENDCMP
 #
 $CMP ICL7667
@@ -850,6 +874,12 @@ $CMP MIC4604YM
 D 85V Half-Bridge MOSFET Driver with up to 16V Programmable Gate Drive, SOIC-8
 K Half-Bridge Gate Driver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005852A.pdf
+$ENDCMP
+#
+$CMP NCD5702
+D High Current IGBT Gate, +4/-6A, SOIC-16
+K igbt gate driver
+F https://www.onsemi.com/pub/Collateral/NCD5702-D.PDF
 $ENDCMP
 #
 $CMP NCV8402xST

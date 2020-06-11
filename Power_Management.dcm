@@ -36,6 +36,30 @@ K Limit USB Active High
 F https://www.diodes.com/assets/Datasheets/AP2161.pdf
 $ENDCMP
 #
+$CMP AP22804AW5
+D Current limited 2.5A power switch, single channel, SOT-23-5
+K Limit USB Active High
+F https://www.diodes.com/assets/Datasheets/AP22804_14.pdf
+$ENDCMP
+#
+$CMP AP22804BW5
+D Current limited 2.5A power switch, single channel, SOT-23-5
+K Limit USB Active Low
+F https://www.diodes.com/assets/Datasheets/AP22804_14.pdf
+$ENDCMP
+#
+$CMP AP22814AW5
+D Current limited 3A power switch, single channel, SOT-23-5
+K Limit USB Active High
+F https://www.diodes.com/assets/Datasheets/AP22804_14.pdf
+$ENDCMP
+#
+$CMP AP22814BW5
+D Current limited 3A power switch, single channel, SOT-23-5
+K Limit USB Active Low
+F https://www.diodes.com/assets/Datasheets/AP22804_14.pdf
+$ENDCMP
+#
 $CMP AUIPS1041R
 D Intelligent Power Low Side Switch, 39V, 4.5A, DPAK-5L
 K low side switch

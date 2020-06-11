@@ -510,6 +510,12 @@ K USB2.0 Hi-Speed-USB-Hub Hub-Controller
 F http://ww1.microchip.com/downloads/en/DeviceDoc/00001692C.pdf
 $ENDCMP
 #
+$CMP USB3250-ABZJ
+D Hi-Speed USB Device Transceiver with UTMI Interface, QFN-56
+K HS FS Device USB PHY UTMI
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00002142A.pdf
+$ENDCMP
+#
 $CMP USB3300-EZK
 D Hi-Speed USB Host, Device or OTG PHY with ULPI Interface
 K USB OTG Hi-Speed PHY ULPI Interface

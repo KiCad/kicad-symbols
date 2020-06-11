@@ -763,27 +763,27 @@ F http://www.ti.com/lit/gpn/sn74LS221
 $ENDCMP
 #
 $CMP 74LS240
-D 8-bit BUS Buffer (Inverter) 3-State outputs
-K TTL Buffer BUS 3State
-F http://www.ti.com/lit/gpn/sn74LS240
+D Octal Buffer and Line Driver With 3-State Output, active-low enables, inverting outputs
+K 7400 logic ttl low power schottky
+F http://www.ti.com/lit/ds/symlink/sn74ls240.pdf
 $ENDCMP
 #
 $CMP 74LS240_Split
-D Octal Inverter 3-State Outputs
-K TTL buffer 3State
-F http://www.ti.com/lit/ds/symlink/sn74ls244.pdf
+D Octal Buffer and Line Driver With 3-State Output, active-low enables, inverting outputs, split symbol
+K 7400 logic ttl low power schottky
+F http://www.ti.com/lit/ds/symlink/sn74ls240.pdf
 $ENDCMP
 #
 $CMP 74LS241
-D 8-bit Bus Buffer 3-State outputs
-K TTL Buffer BUS 3State
-F http://www.ti.com/lit/gpn/sn74LS241
+D Octal Buffer and Line Driver With 3-State Output, complementary enables, non-inverting outputs
+K 7400 logic ttl low power schottky
+F http://www.ti.com/lit/ds/symlink/sn74ls241.pdf
 $ENDCMP
 #
 $CMP 74LS241_Split
-D Octal Buffer 3-State Outputs
-K TTL buffer 3State
-F http://www.ti.com/lit/ds/symlink/sn74ls244.pdf
+D Octal Buffer and Line Driver With 3-State Output, complementary enables, non-inverting outputs, split symbol
+K 7400 logic ttl low power schottky
+F http://www.ti.com/lit/ds/symlink/sn74ls241.pdf
 $ENDCMP
 #
 $CMP 74LS242
@@ -799,15 +799,15 @@ F http://www.ti.com/lit/gpn/sn74LS243
 $ENDCMP
 #
 $CMP 74LS244
-D 8-bit Bus Buffer 3-State outputs
-K TTL Buffer BUS 3State
-F http://www.ti.com/lit/gpn/sn74LS244
+D Octal Buffer and Line Driver With 3-State Output, active-low enables, non-inverting outputs
+K 7400 logic ttl low power schottky
+F http://www.ti.com/lit/ds/symlink/sn74ls244.pdf
 $ENDCMP
 #
 $CMP 74LS244_Split
-D Octal Buffer 3-State Outputs
-K TTL buffer 3State
-F http://www.ti.com/lit/ds/symlink/sn74ls244.pdf
+D Octal Buffer and Line Driver With 3-State Output, active-low enables, non-inverting outputs, split symbol
+K 7400 logic ttl low power schottky
+F http://www.ti.com/lit/ds/symlink/sn74ls241.pdf
 $ENDCMP
 #
 $CMP 74LS245
