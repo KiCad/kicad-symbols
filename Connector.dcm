@@ -1572,6 +1572,12 @@ K SIM card UICC
 F  ~
 $ENDCMP
 #
+$CMP SIM_Card_Shielded
+D SIM Card
+K SIM card UICC
+F  ~
+$ENDCMP
+#
 $CMP SODIMM-200
 D SODIMM 200 Pin socket
 K SODIMM SO-DIMM DDR1 DDR2
