@@ -1206,6 +1206,24 @@ K diode
 F https://www.dccomponents.com/upload/product/original/806236332588.pdf
 $ENDCMP
 #
+$CMP CDBA3100-HF
+D 100V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.mouser.com/datasheet/2/80/CDBA340-HF_Thru193640._CDBA3100-HF_RevB-1480766.pdf
+$ENDCMP
+#
+$CMP CDBA340-HF
+D 40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.mouser.com/datasheet/2/80/CDBA340-HF_Thru193640._CDBA3100-HF_RevB-1480766.pdf
+$ENDCMP
+#
+$CMP CDBA360-HF
+D 60V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.mouser.com/datasheet/2/80/CDBA340-HF_Thru193640._CDBA3100-HF_RevB-1480766.pdf
+$ENDCMP
+#
 $CMP CSD01060A
 D 600V, 1A, SiC Schottky Diode, TO-220
 K sic diode
