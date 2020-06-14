@@ -1476,6 +1476,12 @@ K P-Channel MOSFET
 F https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf
 $ENDCMP
 #
+$CMP DMP4010SK3Q
+D -50A Id, -40V Vds, P-Channel Power MOSFET, 9.9mOhm Ron, 42.7nC Qg (typ)
+K P-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/DMP4010SK3Q.pdf
+$ENDCMP
+#
 $CMP FDC2512
 D 1.4A Id, 150V Vds, N-Channel MOSFET, 425mOhm Ron, SuperSOT-6
 K N-Channel MOSFET
