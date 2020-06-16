@@ -1152,4 +1152,28 @@ K Rail splitter precision vitrual ground
 F http://www.ti.com/lit/ds/symlink/tle2426.pdf
 $ENDCMP
 #
+$CMP TLV431xLP
+D Shunt Regulator, 1.24V Vref, 16V Vmax, 80uA Imin, 20mA Imax, TO-92
+K diode device shunt regulator reference
+F https://www.onsemi.com/pub/Collateral/TLV431A-D.PDF
+$ENDCMP
+#
+$CMP TLV431xLPxxG
+D Shunt Regulator, 1.24V Vref, 16V Vmax, 80uA Imin, 20mA Imax, TO-92
+K diode device shunt regulator reference
+F https://www.onsemi.com/pub/Collateral/TLV431A-D.PDF
+$ENDCMP
+#
+$CMP TLV431xSN1T1G
+D Shunt Regulator, 1.24V Vref, 16V Vmax, 80uA Imin, 20mA Imax, SOT-23
+K diode device shunt regulator reference
+F https://www.onsemi.com/pub/Collateral/TLV431A-D.PDF
+$ENDCMP
+#
+$CMP TLV431xSNT1G
+D Shunt Regulator, 1.24V Vref, 16V Vmax, 80uA Imin, 20mA Imax, SOT-23
+K diode device shunt regulator reference
+F https://www.onsemi.com/pub/Collateral/TLV431A-D.PDF
+$ENDCMP
+#
 #End Doc Library
