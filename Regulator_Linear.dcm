@@ -1356,6 +1356,48 @@ K 300mA LDO Regulator Fixed Positive
 F http://www.tme.eu/fr/Document/ced3461ed31ea70a3c416fb648e0cde7/APE8865-3.pdf
 $ENDCMP
 #
+$CMP AZ1084-1.2
+D 5A 12V Fixed LDO Linear Regulator, 1.2V, TO-220/TO-252/TO-263
+K Fixed Voltage Regulator 5A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1084.pdf
+$ENDCMP
+#
+$CMP AZ1084-1.5
+D 5A 12V Fixed LDO Linear Regulator, 1.5V, TO-220/TO-252/TO-263
+K Fixed Voltage Regulator 5A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1084.pdf
+$ENDCMP
+#
+$CMP AZ1084-1.8
+D 5A 12V Fixed LDO Linear Regulator, 1.5V, TO-220/TO-252/TO-263
+K Fixed Voltage Regulator 5A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1084.pdf
+$ENDCMP
+#
+$CMP AZ1084-2.5
+D 5A 12V Fixed LDO Linear Regulator, 1.5V, TO-220/TO-252/TO-263
+K Fixed Voltage Regulator 5A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1084.pdf
+$ENDCMP
+#
+$CMP AZ1084-2.85
+D 5A 12V Fixed LDO Linear Regulator, 1.5V, TO-220/TO-252/TO-263
+K Fixed Voltage Regulator 5A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1084.pdf
+$ENDCMP
+#
+$CMP AZ1084-3.3
+D 5A 12V Fixed LDO Linear Regulator, 1.5V, TO-220/TO-252/TO-263
+K Fixed Voltage Regulator 5A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1084.pdf
+$ENDCMP
+#
+$CMP AZ1084-5.0
+D 5A 12V Fixed LDO Linear Regulator, 1.5V, TO-220/TO-252/TO-263
+K Fixed Voltage Regulator 5A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1084.pdf
+$ENDCMP
+#
 $CMP AZ1117-1.2
 D 1A 20V Fixed LDO Linear Regulator, 1.2V, SOT-89/SOT-223/TO-220/TO-252/TO-263
 K Fixed Voltage Regulator 1A Positive LDO
