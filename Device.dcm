@@ -786,6 +786,18 @@ K fuse
 F ~
 $ENDCMP
 #
+$CMP GDT_2pin
+D Gas Discharge Tube with 2 Pins
+K gdt
+F ~
+$ENDCMP
+#
+$CMP GDT_3pin
+D Gas Discharge Tube with 3 Pins
+K gdt
+F ~
+$ENDCMP
+#
 $CMP Galvanometer
 D Galvanometer
 K galvanometer
