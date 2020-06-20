@@ -1404,6 +1404,18 @@ K NPN AC DC Phototransistor Optocoupler
 F http://www.vishay.com/docs/83512/tcmt1600.pdf
 $ENDCMP
 #
+$CMP TCMT4100
+D Quad Optocoupler, Vce 70V, CTR 50-600%, Viso 3750V (RMS), SOP16
+K NPN DC
+F https://www.vishay.com/docs/84181/tcmt4100.pdf
+$ENDCMP
+#
+$CMP TCMT4106
+D Quad Optocoupler, Vce 70V, CTR 100-300%, Viso 3750V (RMS), SOP16
+K NPN DC
+F https://www.vishay.com/docs/84181/tcmt4100.pdf
+$ENDCMP
+#
 $CMP TCMT4600
 D Quad AC/DC Phototransistor Optocoupler, Vce 70V, CTR 80-300%, SOP16
 K NPN AC DC Quad Phototransistor Optocoupler
