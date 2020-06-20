@@ -438,6 +438,12 @@ K battery charger
 F https://datasheets.maximintegrated.com/en/ds/MAX1647-MAX1648.pdf
 $ENDCMP
 #
+$CMP MAX17263
+D Single/Multi-Cell Fuel Gauge,  ModelGauge m5 EZ,  Integrated LED ControlD, FN14
+K fuel-gauge
+F https://datasheets.maximintegrated.com/en/ds/MAX17263.pdf
+$ENDCMP
+#
 $CMP MAX1811
 D USB Powered Li+ Charger, 4.1V/4.2V battery, 5V input, 0.1/0.5A charging current
 K USB Battery Charger
