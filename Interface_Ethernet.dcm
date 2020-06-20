@@ -13,37 +13,37 @@ F http://www.ti.com/lit/ds/symlink/dp83848c.pdf
 $ENDCMP
 #
 $CMP ENC28J60x-ML
-D ENC28J60 Single Chip Ethernet Interface,QFN
+D ENC28J60 Single Chip Ethernet Interface,QFN-28
 K ENC Ethernet
 F http://ww1.microchip.com/downloads/en/devicedoc/39662e.pdf
 $ENDCMP
 #
 $CMP ENC28J60x-SO
-D ENC28J60 Single Chip Ethernet Interface,SOIC
+D ENC28J60 Single Chip Ethernet Interface, SOIC-28
 K ENC Ethernet
 F http://ww1.microchip.com/downloads/en/devicedoc/39662e.pdf
 $ENDCMP
 #
 $CMP ENC28J60x-SP
-D ENC28J60 Single Chip Ethernet Interface,SPDIP
+D ENC28J60 Single Chip Ethernet Interface, DIP-28
 K ENC Ethernet
 F http://ww1.microchip.com/downloads/en/devicedoc/39662e.pdf
 $ENDCMP
 #
 $CMP ENC28J60x-SS
-D ENC28J60 Single Chip Ethernet Interface,SSOP
+D ENC28J60 Single Chip Ethernet Interface, SSOP-28
 K ENC Ethernet
 F http://ww1.microchip.com/downloads/en/devicedoc/39662e.pdf
 $ENDCMP
 #
 $CMP ENC424J600-ML
-D Stand-Alone 10/100 Ethernet Controller with SPI or Parallel Interface, QFN Package
+D Stand-Alone 10/100 Ethernet Controller with SPI or Parallel Interface, QFN-44
 K ENC Ethernet
 F http://ww1.microchip.com/downloads/en/DeviceDoc/39935c.pdf
 $ENDCMP
 #
 $CMP ENC424J600-PT
-D Stand-Alone 10/100 Ethernet Controller with SPI or Parallel Interface, TQFP Package
+D Stand-Alone 10/100 Ethernet Controller with SPI or Parallel Interface, TQFP-44
 K ENC Ethernet
 F http://ww1.microchip.com/downloads/en/DeviceDoc/39935c.pdf
 $ENDCMP
@@ -61,13 +61,37 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/00002199A.pdf
 $ENDCMP
 #
 $CMP KSZ9031RNXCA
-D 10/100/1000Mbps Ethernet Transciever with RGMII Interface
+D 10/100/1000Mbps Ethernet Transciever with RGMII Interface, QFN-48
 K ETHERNET PHY RGMII WOL IEEE 802.3 MICROCHIP
 F http://ww1.microchip.com/downloads/en/DeviceDoc/00002117C.pdf
 $ENDCMP
 #
+$CMP KSZ9563RNX
+D 3-Port Gigabit Ethernet Switch with RGMII/MII/RMII Interface and IEEE 1588v2, QFN-64
+K Gigabit Ethernet Switch RGMII MII RMII ieee1588v2
+F http://ww1.microchip.com/downloads/en/DeviceDoc/KSZ9563R-Data-Sheet-DS00002419C.pdf
+$ENDCMP
+#
+$CMP KSZ9893RNX
+D 3-Port Gigabit Ethernet Switch with RGMII/MII/RMII Interface, QFN-64
+K Gigabit Ethernet Switch RGMII MII RMII
+F http://ww1.microchip.com/downloads/en/DeviceDoc/KSZ9893R-Data-Sheet-DS00002420C.pdf
+$ENDCMP
+#
+$CMP LAN7500-ABJZ
+D Hi-Speed USB 2.0 to 10/100/1000 Ethernet Controller, QFN-56
+K USB Ethernet 10/100/1000
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00001734B.pdf
+$ENDCMP
+#
+$CMP LAN8710A
+D LAN8710 Ethernet PHY with MII/RMII interface, QFN-32
+K ETH PHY MII RMII
+F http://ww1.microchip.com/downloads/en/DeviceDoc/8710a.pdf
+$ENDCMP
+#
 $CMP LAN8720A
-D LAN8720 Ethernet PHY with RMII interface
+D LAN8720 Ethernet PHY with RMII interface, QFN-24
 K ETH PHY RMII
 F http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf
 $ENDCMP
@@ -106,6 +130,12 @@ $CMP LAN9514i
 D Four USB 2.0 hub with an integrated 10/100 Ethernet controller (-40° to 85°C), QFN-48
 K USB HUB Ethernet 10/100
 F http://ww1.microchip.com/downloads/en/DeviceDoc/00002306A.pdf
+$ENDCMP
+#
+$CMP RTL8211EG-VB-CG
+D 10/100/1000Mbps Ethernet Transceiver with RGMII/GMII/MII/RMII Interface, QFN-64
+K Ethernet Phy Gigabit
+F https://datasheet.lcsc.com/szlcsc/Realtek-Semicon-RTL8211EG-VB-CG_C69264.pdf
 $ENDCMP
 #
 $CMP VSC8541XMV-0x

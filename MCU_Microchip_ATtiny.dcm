@@ -216,6 +216,12 @@ K AVR 8bit Microcontroller tinyAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8235-8-bit-avr-microcontroller-attiny20_datasheet.pdf
 $ENDCMP
 #
+$CMP ATtiny20-UU
+D 12MHz, 2kB Flash, 128B SRAM, No EEPROM, WLCSP-12
+K AVR 8bit Microcontroller tinyAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8235-8-bit-avr-microcontroller-attiny20_datasheet.pdf
+$ENDCMP
+#
 $CMP ATtiny20-XU
 D 12MHz, 2kB Flash, 128B SRAM, No EEPROM, TSSOP-14
 K AVR 8bit Microcontroller tinyAVR
