@@ -84,6 +84,12 @@ K darlington optocoupler
 F http://www.onsemi.com/pub/Collateral/HCPL2731-D.pdf
 $ENDCMP
 #
+$CMP ACPL-214-500E
+D AC/DC Phototransistor Optocoupler, Vce 80V, CTR 20-400%, SOP-4
+K npn ac dc ac-dc acdc phototransistor optocoupler optoisolator
+F https://docs.broadcom.com/doc/AV02-0469EN
+$ENDCMP
+#
 $CMP ADN4651
 D Dual-Channel LVDS Isolators, 5 kV RMS/3.75 kV RMS, 600 Mbps, SSOP-20
 K LVDS Isolator
