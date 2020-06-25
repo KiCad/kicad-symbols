@@ -5766,6 +5766,12 @@ K boost converter switching
 F http://www.ti.com/lit/ds/symlink/tps61252.pdf
 $ENDCMP
 #
+$CMP TPS62056DGS
+D 800 mA Step-Down Converter, Adjustable Output Voltage, 0.7-6V Input Voltage, VSSOP-10
+K voltage regulator switch mode step down
+F http://www.ti.com/lit/ds/symlink/tps62056.pdf
+$ENDCMP
+#
 $CMP TPS613221ADBV
 D 1.2A Step-Up Converter, 3.3V Output Voltage, 0.9-5.5V Input Voltage, SOT-23-5
 K Boost converter
