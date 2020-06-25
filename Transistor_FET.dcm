@@ -498,6 +498,12 @@ K P-Channel MOSFET
 F http://assets.nexperia.com/documents/data-sheet/BSS84.pdf
 $ENDCMP
 #
+$CMP BUK7880-55A
+D 7A Id, 55V Vds, N-Channel Enhancement Mode MOSFET, SOT-223
+K n-channel n channel mosfet enhancement mode
+F https://assets.nexperia.com/documents/data-sheet/BUK7880-55A.pdf
+$ENDCMP
+#
 $CMP BUK7M10-40EX
 D 56A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 10mOhm Ron, 19.5nC Qqd, -55 to 175 °C, LFPAK33
 K Power MOSFET N-MOS
@@ -1728,6 +1734,48 @@ K QFET P-Channel MOSFET
 F https://www.onsemi.com/pub/Collateral/FQP27P06-D.PDF
 $ENDCMP
 #
+$CMP IGLD60R070D1
+D 15A Id, 600V Vds, 70mOhm, N-Channel GaN MOSFET, LSON-8
+K N-Channel GaN MOSFET
+F https://www.infineon.com/dgdl/Infineon-IGLD60R070D1-DataSheet-v02_00-EN.pdf?fileId=5546d46265f064ff016685f03f056511
+$ENDCMP
+#
+$CMP IGLD60R190D1
+D 10A Id, 600V Vds, 190mOhm, N-Channel GaN MOSFET, LSON-8
+K N-Channel GaN MOSFET
+F https://www.infineon.com/dgdl/Infineon-IGLD60R190D1-DataSheet-v02_00-EN.pdf?fileId=5546d46269e1c019016a6d78ff5e2aba
+$ENDCMP
+#
+$CMP IGO60R070D1
+D 31A Id, 600V Vds, 70mOhm, N-Channel GaN MOSFET, PD-DSO-20-85
+K N-Channel GaN MOSFET
+F https://www.infineon.com/dgdl/Infineon-IGO60R070D1-DataSheet-v02_01-EN.pdf?fileId=5546d46265f064ff016685f053216514
+$ENDCMP
+#
+$CMP IGOT60R070D1
+D 31A Id, 600V Vds, 70mOhm, N-Channel GaN MOSFET, PD-DSO-20-87
+K N-Channel GaN MOSFET
+F https://www.infineon.com/dgdl/Infineon-IGOT60R070D1-DataSheet-v02_11-EN.pdf?fileId=5546d46265f064ff016685fa65066523
+$ENDCMP
+#
+$CMP IGT40R070D1_E8220
+D 31A Id, 400V Vds, 70mOhm, N-Channel GaN MOSFET, HSOF-8
+K N-Channel GaN MOSFET
+F https://www.infineon.com/dgdl/Infineon-IGT40R070D1%20E8220-DataSheet-v02_00-EN.pdf?fileId=5546d4626afcd350016b269dd8f34ec4
+$ENDCMP
+#
+$CMP IGT60R070D1
+D 31A Id, 600V Vds, 70mOhm, N-Channel GaN MOSFET, HSOF-8
+K N-Channel GaN MOSFET
+F https://www.infineon.com/dgdl/Infineon-IGT60R070D1-DataSheet-v02_01-EN.pdf?fileId=5546d46265f064ff016686028dd56526
+$ENDCMP
+#
+$CMP IGT60R190D1S
+D 12.5A Id, 600V Vds, 190mOhm, N-Channel GaN MOSFET, HSOF-8
+K N-Channel GaN MOSFET
+F https://www.infineon.com/dgdl/Infineon-IGT60R190D1S-DataSheet-v03_01-EN.pdf?fileId=5546d46265f064ff016685fa29796520
+$ENDCMP
+#
 $CMP IPB180N10S4-02
 D 180A Id, 100V Vds, OptiMOS-T2 N-Channel Power MOSFET, 2.5mOhm Ron, Qg (typ) 156nC, TO-263-6
 K OptiMOS-T2 Power MOSFET N-MOS
@@ -2704,6 +2752,12 @@ $CMP SiS415DNT
 D -35A Id, -20V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single
 K P-Channel MOSFET
 F https://www.vishay.com/docs/63684/sis415dnt.pdf
+$ENDCMP
+#
+$CMP SiS443DN
+D -35A Id, -40V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single
+K P-Channel MOSFET
+F https://www.vishay.com/docs/63253/sis443dn.pdf
 $ENDCMP
 #
 $CMP SiSS27DN
