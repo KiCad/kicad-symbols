@@ -498,6 +498,12 @@ K P-Channel MOSFET
 F http://assets.nexperia.com/documents/data-sheet/BSS84.pdf
 $ENDCMP
 #
+$CMP BUK7880-55A
+D 7A Id, 55V Vds, N-Channel Enhancement Mode MOSFET, SOT-223
+K n-channel n channel mosfet enhancement mode
+F https://assets.nexperia.com/documents/data-sheet/BUK7880-55A.pdf
+$ENDCMP
+#
 $CMP BUK7M10-40EX
 D 56A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 10mOhm Ron, 19.5nC Qqd, -55 to 175 °C, LFPAK33
 K Power MOSFET N-MOS
