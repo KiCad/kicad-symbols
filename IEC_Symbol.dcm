@@ -1,0 +1,183 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 06-08-01_Induction_Motor_Dahlander
+D 3 Phase, 1 Winding
+K iec symbol generic acim
+$ENDCMP
+#
+$CMP 06-08-01_Induction_Motor_Squirrel_Cage_D
+D 3 Phase, 1 Winding, DELTA
+K iec symbol generic acim
+$ENDCMP
+#
+$CMP 06-08-01_Induction_Motor_Squirrel_Cage_DD
+D 3 Phase, 2 Windings, DELTA, DELTA
+K iecsymbol generic acim
+$ENDCMP
+#
+$CMP 06-08-01_Induction_Motor_Squirrel_Cage_Y
+D 3 Phase, 1 Winding, STAR
+K iec symbol generic acim
+$ENDCMP
+#
+$CMP 06-08-01_Induction_Motor_Squirrel_Cage_YD
+D 3 Phase, 1 Winding, STAR/DELTA
+K iec symbol generic acim
+$ENDCMP
+#
+$CMP 06-08-01_Induction_Motor_Squirrel_Cage_YY
+D 3 Phase, 2 Windings, STAR, STAR
+K iec symbol generic acim
+$ENDCMP
+#
+$CMP 06-08-03_Induction_Motor_Wound_Rotor_D
+D 3 Phase, 1 Winding, Slip rings, DELTA
+K iec symbol generic acim
+$ENDCMP
+#
+$CMP 06-08-03_Induction_Motor_Wound_Rotor_Y
+D 3 Phase, 1 Winding, Slip rings, STAR
+K iec symbol generic acim
+$ENDCMP
+#
+$CMP 07-13-02_Contact_Main_1P_NO
+D 1 Pole, Power, Contact
+K iec symbol generic
+$ENDCMP
+#
+$CMP 07-13-02_Contact_Main_2P_NO
+D 2 Pole, Power, Contact
+K iec symbol generic
+$ENDCMP
+#
+$CMP 07-13-02_Contact_Main_3P_NO
+D 3 Pole, Power, Contact
+K iec symbol generic
+$ENDCMP
+#
+$CMP 07-15-07_Relay_Coil_Delay_Release
+D Delay, Release, Coil
+K iec symbol generic
+$ENDCMP
+#
+$CMP 07-15-08_Relay_Coil_Delay_Action
+D Delay, Act, Coil
+K iec symbol generic
+$ENDCMP
+#
+$CMP 07-15-14_Relay_Coil_Mechanical_Latched
+D Mechanicaly, Latch, Coil
+K iec symbol generic
+$ENDCMP
+#
+$CMP 07-15-14_Relay_Coil_Mechanical_Latched_NO
+D Mechanicaly, Latch, Coil, SPST, Contact
+K iec symbol generic
+$ENDCMP
+#
+$CMP 07-15-15_Relay_Coil_Polarized
+D Polarized, Coil
+K iec symbol generic
+$ENDCMP
+#
+$CMP 07-15-21_Relay_Coil_Thermal_1P
+D 1 Pole, Thermal, Protection
+K iec symbol generic
+$ENDCMP
+#
+$CMP 07-21-07_Fuse_CircuitBreaker_1P
+D 1 Pole, ON_Load, Disconnector, Fuse
+K iec symbol generic
+$ENDCMP
+#
+$CMP 07-21-07_Fuse_CircuitBreaker_2P
+D 2 Pole, ON_Load, Disconnector, Fuse
+K iec symbol generic
+$ENDCMP
+#
+$CMP 07-21-07_Fuse_CircuitBreaker_3P
+D 3 Pole, ON_Load, Disconnector, Fuse
+K iec symbol generic
+$ENDCMP
+#
+$CMP 07-21-07_Fuse_CircuitBreaker_4P
+D 4 Pole, ON_Load, Disconnector, Fuse
+K iec symbol generic
+$ENDCMP
+#
+$CMP 07-21-08_Fuse_Disconnector_1P
+D 1 Pole, OFF_Load, Disconnector, Isolator, Fuse
+K iec symbol generic
+$ENDCMP
+#
+$CMP 07-21-08_Fuse_Disconnector_2P
+D 2 Pole, OFF_Load, Disconnector, Isolator, Fuse
+K iec symbol generic
+$ENDCMP
+#
+$CMP 07-21-08_Fuse_Disconnector_3P
+D 3 Pole, OFF_Load, Disconnector, Isolator, Fuse
+K iec symbol generic
+$ENDCMP
+#
+$CMP 07-21-08_Fuse_Disconnector_4P
+D 4 Pole, OFF_Load, Disconnector, Isolator, Fuse
+K iec symbol generic
+$ENDCMP
+#
+$CMP 07-21-09_Fuse_CircuitBreaker_1P
+D 1 Pole, ON_Load, Disconnector, Isolator, Fuse
+K iec symbol generic
+$ENDCMP
+#
+$CMP 07-21-09_Fuse_CircuitBreaker_2P
+D 2 Pole, ON_Load, Disconnector, Isolator, Fuse
+K iec symbol generic
+$ENDCMP
+#
+$CMP 07-21-09_Fuse_CircuitBreaker_3P
+D 3 Pole, ON_Load, Disconnector, Isolator, Fuse
+K iec symbol generic
+$ENDCMP
+#
+$CMP 07-21-09_Fuse_CircuitBreaker_4P
+D 4 Pole, ON_Load, Disconnector, Isolator, Fuse
+K iec symbol generic
+$ENDCMP
+#
+$CMP 07-26-03_Relay_Coil_Thermal_3P
+D 3 Pole, Thermal, Protection, External, Coil,  Activation
+K iec symbol generic
+$ENDCMP
+#
+$CMP 07-26-03_Relay_Coil_Thermal_3P_NCNO
+D 3 Pole, Thermal, Protection, External, Coil, Activation, DPST, Contact
+K iec symbol generic
+$ENDCMP
+#
+$CMP 11-03-01_Line_Underground
+D Underground, Conductor
+K iec symbol generic
+$ENDCMP
+#
+$CMP 11-03-02_Line_Underwater
+D Underwater, Conductor
+K iec symbol generic
+$ENDCMP
+#
+$CMP 11-03-03_Line_Aerial
+D Aerial, Conductor
+K iec symbol generic
+$ENDCMP
+#
+$CMP 11-03-07_Line_Buried_Connection_Point
+D Underground, Conductor, Connection
+K iec symbol generic
+$ENDCMP
+#
+$CMP 11-16-02_Fan
+D Ventilator, Load
+K iec symbol generic
+$ENDCMP
+#
+#End Doc Library
