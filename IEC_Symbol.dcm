@@ -40,6 +40,16 @@ D 3 Phase, 1 Winding, Slip rings, STAR
 K iec symbol generic acim
 $ENDCMP
 #
+$CMP 07-08-02_Switch_Position_OneDir_1P_NC
+D 1 Pole, 1 Direction
+K iec symbol
+$ENDCMP
+#
+$CMP 07-08-03_Switch_Position_TwoDir_2P_NCNO
+D 2 Pole, 2 Direction
+K iec symbol
+$ENDCMP
+#
 $CMP 07-13-02_Contact_Main_1P_NO
 D 1 Pole, Power, Contact
 K iec symbol generic
