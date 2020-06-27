@@ -54,6 +54,12 @@ K Zigbee, RF, 802.15.4
 F http://www.cdebyte.com/en/downpdf.aspx?id=122
 $ENDCMP
 #
+$CMP E22-900M30S-SX1262
+D SX1262, 850~930MHz, 2.5-5V, 30dBm, 12km, LoRa, module
+K lora rf wireless module sx1262
+F http://www.ebyte.com/en/downpdf.aspx?id=453
+$ENDCMP
+#
 $CMP E73-2G4M04S-52810
 D nRF52810 BLE5 Module
 K BLE5, BLE, nRF52810
