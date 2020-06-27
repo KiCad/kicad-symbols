@@ -438,6 +438,174 @@ K rectifier acdc
 F http://www.vishay.com/docs/88656/gbu8a.pdf
 $ENDCMP
 #
+$CMP KBPC15005T
+D Single-Phase Bridge Rectifier, 35V Vrms, 15A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc15005t.pdf
+$ENDCMP
+#
+$CMP KBPC1501T
+D Single-Phase Bridge Rectifier, 70V Vrms, 15A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc1501t.pdf
+$ENDCMP
+#
+$CMP KBPC1502T
+D Single-Phase Bridge Rectifier, 140V Vrms, 15A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc1502t.pdf
+$ENDCMP
+#
+$CMP KBPC1504T
+D Single-Phase Bridge Rectifier, 280V Vrms, 15A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc1504t.pdf
+$ENDCMP
+#
+$CMP KBPC1506T
+D Single-Phase Bridge Rectifier, 420V Vrms, 15A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc1506t.pdf
+$ENDCMP
+#
+$CMP KBPC1508T
+D Single-Phase Bridge Rectifier, 560V Vrms, 15A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc1508t.pdf
+$ENDCMP
+#
+$CMP KBPC1510T
+D Single-Phase Bridge Rectifier, 700V Vrms, 15A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc1510t.pdf
+$ENDCMP
+#
+$CMP KBPC25005T
+D Single-Phase Bridge Rectifier, 35V Vrms, 25A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc25005t.pdf
+$ENDCMP
+#
+$CMP KBPC2501T
+D Single-Phase Bridge Rectifier, 70V Vrms, 25A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc2501t.pdf
+$ENDCMP
+#
+$CMP KBPC2502T
+D Single-Phase Bridge Rectifier, 140V Vrms, 25A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc2502t.pdf
+$ENDCMP
+#
+$CMP KBPC2504T
+D Single-Phase Bridge Rectifier, 280V Vrms, 25A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc2504t.pdf
+$ENDCMP
+#
+$CMP KBPC2506T
+D Single-Phase Bridge Rectifier, 420V Vrms, 25A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc2506t.pdf
+$ENDCMP
+#
+$CMP KBPC2508T
+D Single-Phase Bridge Rectifier, 560V Vrms, 25A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc2508t.pdf
+$ENDCMP
+#
+$CMP KBPC2510T
+D Single-Phase Bridge Rectifier, 700V Vrms, 25A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc2510t.pdf
+$ENDCMP
+#
+$CMP KBPC35005T
+D Single-Phase Bridge Rectifier, 35V Vrms, 35A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc35005t.pdf
+$ENDCMP
+#
+$CMP KBPC3501T
+D Single-Phase Bridge Rectifier, 70V Vrms, 35A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc3501t.pdf
+$ENDCMP
+#
+$CMP KBPC3502T
+D Single-Phase Bridge Rectifier, 140V Vrms, 35A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc3502t.pdf
+$ENDCMP
+#
+$CMP KBPC3504T
+D Single-Phase Bridge Rectifier, 280V Vrms, 35A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc3504t.pdf
+$ENDCMP
+#
+$CMP KBPC3506T
+D Single-Phase Bridge Rectifier, 420V Vrms, 35A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc3506t.pdf
+$ENDCMP
+#
+$CMP KBPC3508T
+D Single-Phase Bridge Rectifier, 560V Vrms, 35A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc3508t.pdf
+$ENDCMP
+#
+$CMP KBPC3510T
+D Single-Phase Bridge Rectifier, 700V Vrms, 35A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc3510t.pdf
+$ENDCMP
+#
+$CMP KBPC50005T
+D Single-Phase Bridge Rectifier, 35V Vrms, 50A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc50005t.pdf
+$ENDCMP
+#
+$CMP KBPC5001T
+D Single-Phase Bridge Rectifier, 70V Vrms, 50A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc5001t.pdf
+$ENDCMP
+#
+$CMP KBPC5002T
+D Single-Phase Bridge Rectifier, 140V Vrms, 50A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc5002t.pdf
+$ENDCMP
+#
+$CMP KBPC5004T
+D Single-Phase Bridge Rectifier, 280V Vrms, 50A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc5004t.pdf
+$ENDCMP
+#
+$CMP KBPC5006T
+D Single-Phase Bridge Rectifier, 420V Vrms, 50A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc5006t.pdf
+$ENDCMP
+#
+$CMP KBPC5008T
+D Single-Phase Bridge Rectifier, 560V Vrms, 50A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc5008t.pdf
+$ENDCMP
+#
+$CMP KBPC5010T
+D Single-Phase Bridge Rectifier, 700V Vrms, 50A If, KBPC-T(FP)
+K diode full
+F https://www.diodemodule.com/bridge-rectifier/kbpc/kbpc5010t.pdf
+$ENDCMP
+#
 $CMP KBU4A
 D Single-Phase Bridge Rectifier, 35V Vrms, 4.0A If, KBU package
 K rectifier acdc
