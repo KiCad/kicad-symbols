@@ -66,6 +66,30 @@ K Compact size 2 Form A 35A power relay, 9V coil
 F https://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_hes.pdf
 $ENDCMP
 #
+$CMP ALFG1PF09
+D Panasonic LF-G relay 9V, SPST, Closing Contact
+K Single Pole Relay SPST
+F https://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_lfg.pdf
+$ENDCMP
+#
+$CMP ALFG1PF12
+D Panasonic LF-G relay 12V, SPST, Closing Contact
+K Single Pole Relay SPST 9V
+F https://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_lfg.pdf
+$ENDCMP
+#
+$CMP ALFG1PF18
+D Panasonic LF-G relay 18V, SPST, Closing Contact
+K Single Pole Relay SPST
+F https://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_lfg.pdf
+$ENDCMP
+#
+$CMP ALFG1PF24
+D Panasonic LF-G relay 24V, SPST, Closing Contact
+K Single Pole Relay SPST
+F https://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_lfg.pdf
+$ENDCMP
+#
 $CMP AZ850-x
 D American Zettler, Microminiature Polarised Dual Pole Relay
 K Miniature Polarised Relay Dual Pole
