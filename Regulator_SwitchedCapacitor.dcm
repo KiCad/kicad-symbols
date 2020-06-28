@@ -78,6 +78,18 @@ K monolithic CMOS switched capacitor voltage converter invert double divide mult
 F http://datasheets.maximintegrated.com/en/ds/ICL7660-MAX1044.pdf
 $ENDCMP
 #
+$CMP RT9361AxE
+D Switched capacitor boost, Fixed 5V output, 110mA, SOT-23-6
+K Switched capacitor boost
+F https://www.richtek.com/assets/product_file/RT9361A=RT9361B/DS9361AB-14.pdf
+$ENDCMP
+#
+$CMP RT9361BxE
+D Switched capacitor boost, Fixed 4.5V output, 150mA, SOT-23-6
+K Switched capacitor boost
+F https://www.richtek.com/assets/product_file/RT9361A=RT9361B/DS9361AB-14.pdf
+$ENDCMP
+#
 $CMP TPS60151DRV
 D 5V, 140mA charge-pump, WSON-6
 K charge pump

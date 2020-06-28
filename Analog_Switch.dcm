@@ -647,6 +647,18 @@ K gbit base-t lvds lvpecl video
 F http://www.ti.com/lit/ds/symlink/ts3l501e.pdf
 $ENDCMP
 #
+$CMP TS5A23159DGS
+D Dual SPDT 1ohm Bidirectional Analog Switch with Off protection, VSSOP-10
+K switch analog SPDT
+F http://www.ti.com/lit/ds/symlink/ts5a23159.pdf
+$ENDCMP
+#
+$CMP TS5A23159RSE
+D Dual SPDT 1ohm Bidirectional Analog Switch with Off protection, UQFN-10
+K switch analog SPDT
+F http://www.ti.com/lit/ds/symlink/ts5a23159.pdf
+$ENDCMP
+#
 $CMP TS5A3159ADBVR
 D Single SPDT Analog Switch, 1.65-V to 5.5-V Single-Supply Operation, 1Ohm Ron, SOT-23-6
 K Analog Switch
