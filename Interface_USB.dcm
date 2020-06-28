@@ -402,6 +402,12 @@ K USB OTG HS PHY ULPI Interface
 F https://www.st.com/resource/en/datasheet/stulpi01b.pdf
 $ENDCMP
 #
+$CMP STUSB4500QTR
+D Stand-alone USB PD controller (with sink Auto-run mode), QFN-24
+K USB PD Type C Sink
+F https://www.st.com/resource/en/datasheet/stusb4500.pdf
+$ENDCMP
+#
 $CMP TPS2500DRC
 D Integrated USB power Switch with Boost Converter, High-Efficiency Eco-mode Control Scheme, Texas S-PVSON-10
 K USB switch boost
@@ -502,6 +508,12 @@ $CMP USB2514B_Bi
 D USB 2.0 Hi-Speed Hub Controller
 K USB2.0 Hi-Speed-USB-Hub Hub-Controller
 F http://ww1.microchip.com/downloads/en/DeviceDoc/00001692C.pdf
+$ENDCMP
+#
+$CMP USB3250-ABZJ
+D Hi-Speed USB Device Transceiver with UTMI Interface, QFN-56
+K HS FS Device USB PHY UTMI
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00002142A.pdf
 $ENDCMP
 #
 $CMP USB3300-EZK

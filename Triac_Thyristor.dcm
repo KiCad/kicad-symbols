@@ -210,6 +210,18 @@ K Triac
 F http://pdf.datasheetcatalog.com/datasheet/PowerInnovations/mXuqxvy.pdf
 $ENDCMP
 #
+$CMP X0202MN
+D 1.25A Ion, 600 Voff, Silicon Controlled Rectifier (Thyristor), SOT-223
+K thyristor
+F https://www.st.com/resource/en/datasheet/x02.pdf
+$ENDCMP
+#
+$CMP X0202NN
+D 1.25A Ion, 800 Voff, Silicon Controlled Rectifier (Thyristor), SOT-223
+K thyristor
+F https://www.st.com/resource/en/datasheet/x02.pdf
+$ENDCMP
+#
 $CMP Z0103MN
 D 4Q Triac, 1A RMS, 600V VDRM, 3mA Igt, 7mA Ih, SOT-223
 K 4Q Triac

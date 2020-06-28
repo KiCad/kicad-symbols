@@ -78,6 +78,12 @@ K Dual Digital Potentiometer Maxim
 F https://datasheets.maximintegrated.com/en/ds/DS1267.pdf
 $ENDCMP
 #
+$CMP DS1882E
+D Dual Log Audio Digital Potentiometer, 64 positions, TSSOP-16
+K digital potentiometer
+F https://datasheets.maximintegrated.com/en/ds/DS1882.pdf
+$ENDCMP
+#
 $CMP MAX5436
 D Low-Drift Digital Potentiometer
 K digital potentiometer resistor variable
