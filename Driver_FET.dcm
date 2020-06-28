@@ -744,6 +744,12 @@ K driver fet quad
 F https://www.infineon.com/dgdl/Infineon-ITS724G-DS-v01_01-en.pdf?fileId=db3a304412b407950112b428d6083e90
 $ENDCMP
 #
+$CMP L6491
+D High voltage high and low-side 4 A gate driver
+K MOSFET driver
+F https://www.st.com/resource/en/datasheet/l6491.pdf
+$ENDCMP
+#
 $CMP LM5109AMA
 D Half-Bridge Gate Driver, Output Current 1.0A, 100V, SOIC-8
 K Half-Bridge Gate Driver
