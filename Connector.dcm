@@ -894,6 +894,18 @@ K BNC SMA SMB SMC coaxial socket CINCH RCA
 F  ~
 $ENDCMP
 #
+$CMP Conn_Coaxial_HV
+D high voltage coaxial connector (MHV, SHV, ...)
+K MHV SHV coaxial connector HV
+F ~
+$ENDCMP
+#
+$CMP Conn_Coaxial_HV_Female
+D high voltage coaxial socket (MHV, SHV, ...)
+K MHV SHV coaxial socket HV
+F ~
+$ENDCMP
+#
 $CMP Conn_Coaxial_Power
 D coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
 K BNC SMA SMB SMC coaxial connector CINCH RCA
