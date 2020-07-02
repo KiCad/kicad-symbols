@@ -8717,6 +8717,31 @@ X Ext 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Conn_Coaxial_Female
+#
+DEF Conn_Coaxial_Female J 0 40 Y N 1 F N
+F0 "J" 10 120 50 H V C CNN
+F1 "Conn_Coaxial_Female" 115 0 50 V V C CNN
+F2 "" 475 -50 50 H I C CNN
+F3 "" 475 -50 50 H I C CNN
+$FPLIST
+ *BNC*
+ *SMA*
+ *SMB*
+ *SMC*
+ *Cinch*
+$ENDFPLIST
+DRAW
+A -2 0 71 1636 0 0 1 10 N -70 20 70 0
+A -1 0 71 0 -1638 0 1 10 N 70 0 -70 -20
+A 0 0 20 901 -901 0 1 0 N 0 20 0 -20
+P 2 0 1 0 -100 0 -20 0 N
+P 2 0 1 0 0 -100 0 -70 N
+X In 1 -200 0 100 R 50 50 1 1 P
+X Ext 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Conn_Coaxial_Power
 #
 DEF Conn_Coaxial_Power J 0 40 Y N 1 F N

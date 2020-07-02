@@ -888,6 +888,12 @@ K BNC SMA SMB SMC coaxial connector CINCH RCA
 F  ~
 $ENDCMP
 #
+$CMP Conn_Coaxial_Female
+D coaxial socket (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
+K BNC SMA SMB SMC coaxial socket CINCH RCA
+F  ~
+$ENDCMP
+#
 $CMP Conn_Coaxial_Power
 D coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
 K BNC SMA SMB SMC coaxial connector CINCH RCA
