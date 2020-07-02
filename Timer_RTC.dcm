@@ -1,5 +1,29 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AB0805
+D Real-Time Clock, I2C Interface, 3 GPO, QFN-16
+K rtc
+F https://abracon.com/Precisiontiming/AB08X5-RTC.PDF
+$ENDCMP
+#
+$CMP AB0815
+D Real-Time Clock, SPI Interface, 2 GPO, QFN-16
+K rtc
+F https://abracon.com/Precisiontiming/AB08X5-RTC.PDF
+$ENDCMP
+#
+$CMP AB1805
+D Real-Time Clock, I2C Interface, 4 GPO, QFN-16
+K rtc
+F https://abracon.com/Precisiontiming/AB18X5-RTC.pdf
+$ENDCMP
+#
+$CMP AB1815
+D Real-Time Clock, SPI Interface, 3 GPO, QFN-16
+K rtc
+F https://abracon.com/Precisiontiming/AB18X5-RTC.pdf
+$ENDCMP
+#
 $CMP BQ32000
 D Serial, I2C Real-time clock, Trickle charger, 3V to 3.6V VCC, -40°C to +85°C, SOIC-8
 K RTC, I2C Timekeeping Chip

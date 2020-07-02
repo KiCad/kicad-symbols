@@ -54,6 +54,126 @@ K thyristor logic level
 F https://media.digikey.com/pdf/Data%20Sheets/NXP%20PDFs/BT169_Series.pdf
 $ENDCMP
 #
+$CMP BTA16-600B
+D 16A RMS, 600V Off-State Voltage, 50mA Sensitivity, Insulated, Triac, TO-220
+K Triac
+F https://www.st.com/resource/en/datasheet/bta16.pdf
+$ENDCMP
+#
+$CMP BTA16-600BW
+D 16A RMS, 600V Off-State Voltage, 50mA Sensitivity, Snubberless, Insulated, Triac, TO-220
+K Triac
+F https://www.st.com/resource/en/datasheet/bta16.pdf
+$ENDCMP
+#
+$CMP BTA16-600C
+D 16A RMS, 600V Off-State Voltage, 35mA Sensitivity, Insulated, Triac, TO-220
+K Triac
+F https://www.st.com/resource/en/datasheet/bta16.pdf
+$ENDCMP
+#
+$CMP BTA16-600CW
+D 16A RMS, 600V Off-State Voltage, 35mA Sensitivity, Snubberless, Insulated, Triac, TO-220
+K Triac
+F https://www.st.com/resource/en/datasheet/bta16.pdf
+$ENDCMP
+#
+$CMP BTA16-600SW
+D 16A RMS, 600V Off-State Voltage, 10mA Sensitivity, Snubberless, Insulated, Triac, TO-220
+K Triac
+F https://www.st.com/resource/en/datasheet/bta16.pdf
+$ENDCMP
+#
+$CMP BTA16-800B
+D 16A RMS, 800V Off-State Voltage, 50mA Sensitivity, Insulated, Triac, TO-220
+K Triac
+F https://www.st.com/resource/en/datasheet/bta16.pdf
+$ENDCMP
+#
+$CMP BTA16-800BW
+D 16A RMS, 800V Off-State Voltage, 50mA Sensitivity, Snubberless, Insulated, Triac, TO-220
+K Triac
+F https://www.st.com/resource/en/datasheet/bta16.pdf
+$ENDCMP
+#
+$CMP BTA16-800C
+D 16A RMS, 800V Off-State Voltage, 35mA Sensitivity, Insulated, Triac, TO-220
+K Triac
+F https://www.st.com/resource/en/datasheet/bta16.pdf
+$ENDCMP
+#
+$CMP BTA16-800CW
+D 16A RMS, 800V Off-State Voltage, 35mA Sensitivity, Snubberless, Insulated, Triac, TO-220
+K Triac
+F https://www.st.com/resource/en/datasheet/bta16.pdf
+$ENDCMP
+#
+$CMP BTA16-800SW
+D 16A RMS, 800V Off-State Voltage, 10mA Sensitivity, Snubberless, Insulated, Triac, TO-220
+K Triac
+F https://www.st.com/resource/en/datasheet/bta16.pdf
+$ENDCMP
+#
+$CMP BTB16-600B
+D 16A RMS, 600V Off-State Voltage, 50mA Sensitivity, Non-Insulated, Triac, TO-220
+K Triac
+F https://www.st.com/resource/en/datasheet/bta16.pdf
+$ENDCMP
+#
+$CMP BTB16-600BW
+D 16A RMS, 600V Off-State Voltage, 50mA Sensitivity, Snubberless, Non-Insulated, Triac, TO-220
+K Triac
+F https://www.st.com/resource/en/datasheet/bta16.pdf
+$ENDCMP
+#
+$CMP BTB16-600C
+D 16A RMS, 600V Off-State Voltage, 35mA Sensitivity, Non-Insulated, Triac, TO-220
+K Triac
+F https://www.st.com/resource/en/datasheet/bta16.pdf
+$ENDCMP
+#
+$CMP BTB16-600CW
+D 16A RMS, 600V Off-State Voltage, 35mA Sensitivity, Snubberless, Non-Insulated, Triac, TO-220
+K Triac
+F https://www.st.com/resource/en/datasheet/bta16.pdf
+$ENDCMP
+#
+$CMP BTB16-600SW
+D 16A RMS, 600V Off-State Voltage, 10mA Sensitivity, Snubberless, Non-Insulated, Triac, TO-220
+K Triac
+F https://www.st.com/resource/en/datasheet/bta16.pdf
+$ENDCMP
+#
+$CMP BTB16-800B
+D 16A RMS, 800V Off-State Voltage, 50mA Sensitivity, Non-Insulated, Triac, TO-220
+K Triac
+F https://www.st.com/resource/en/datasheet/bta16.pdf
+$ENDCMP
+#
+$CMP BTB16-800BW
+D 16A RMS, 800V Off-State Voltage, 50mA Sensitivity, Snubberless, Non-Insulated, Triac, TO-220
+K Triac
+F https://www.st.com/resource/en/datasheet/bta16.pdf
+$ENDCMP
+#
+$CMP BTB16-800C
+D 16A RMS, 800V Off-State Voltage, 35mA Sensitivity, Non-Insulated, Triac, TO-220
+K Triac
+F https://www.st.com/resource/en/datasheet/bta16.pdf
+$ENDCMP
+#
+$CMP BTB16-800CW
+D 16A RMS, 800V Off-State Voltage, 35mA Sensitivity, Snubberless, Non-Insulated, Triac, TO-220
+K Triac
+F https://www.st.com/resource/en/datasheet/bta16.pdf
+$ENDCMP
+#
+$CMP BTB16-800SW
+D 16A RMS, 800V Off-State Voltage, 10mA Sensitivity, Snubberless, Non-Insulated, Triac, TO-220
+K Triac
+F https://www.st.com/resource/en/datasheet/bta16.pdf
+$ENDCMP
+#
 $CMP TIC106
 D 5A Ion, 400-800V Voff, Silicon Controlled Rectifier (Thyristor), TO-220
 K thyristor
@@ -88,6 +208,18 @@ $CMP TIC226
 D 8A RMS, 400-800V Off-State Voltage, Triac, TO-220
 K Triac
 F http://pdf.datasheetcatalog.com/datasheet/PowerInnovations/mXuqxvy.pdf
+$ENDCMP
+#
+$CMP X0202MN
+D 1.25A Ion, 600 Voff, Silicon Controlled Rectifier (Thyristor), SOT-223
+K thyristor
+F https://www.st.com/resource/en/datasheet/x02.pdf
+$ENDCMP
+#
+$CMP X0202NN
+D 1.25A Ion, 800 Voff, Silicon Controlled Rectifier (Thyristor), SOT-223
+K thyristor
+F https://www.st.com/resource/en/datasheet/x02.pdf
 $ENDCMP
 #
 $CMP Z0103MN
