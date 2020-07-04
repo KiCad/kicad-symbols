@@ -1644,6 +1644,12 @@ K dual-cool-powertrench MOSFET fairchild
 F https://www.fairchildsemi.com/datasheets/FD/FDMT80080DC.pdf
 $ENDCMP
 #
+$CMP FDN340P
+D 2A Id, 20V Vds, P-Channel MOSFET, 70mOhm Ron, SOT-23
+K P-Channel MOSFET
+F https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF
+$ENDCMP
+#
 $CMP FDS2734
 D 3.0A Id, 250V Vds, N-Channel MOSFET, 117mOhm Ron, SOIC-8
 K N-Channel MOSFET
