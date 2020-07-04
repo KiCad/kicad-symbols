@@ -114,6 +114,12 @@ K dip switch
 F ~
 $ENDCMP
 #
+$CMP SW_DP3T
+D Switch, three position, dual pole triple throw, 3 position switch, SP3T
+K switch dp3t ON-ON-ON
+F ~
+$ENDCMP
+#
 $CMP SW_DPDT_x2
 D Switch, dual pole double throw, separate symbols
 K switch dual-pole double-throw DPDT spdt ON-ON
