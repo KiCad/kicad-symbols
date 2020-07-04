@@ -354,6 +354,12 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/lm675.pdf
 $ENDCMP
 #
+$CMP LM7171
+D Single Very High Speed High Output Current Voltage Feedback Amplifier, DIP-8/SOIC-8
+K single opamp
+F https://www.ti.com/lit/ds/symlink/lm7171.pdf
+$ENDCMP
+#
 $CMP LM7332
 D Dual Rail-to-Rail Input and Output 30-V, Wide Voltage Range, High Output, Operational Amplifier, SOIC-8/SSOP-8
 K dual opamp
