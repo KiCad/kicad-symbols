@@ -7674,6 +7674,72 @@ K LDO Voltage Regulator 200mA
 F http://www.ti.com/lit/ds/symlink/tps79333-ep.pdf
 $ENDCMP
 #
+$CMP TPS7A0508PDBV
+D 200-mA Ultra-Low-Iq LDO, 0.8V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A0510PDBV
+D 200-mA Ultra-Low-Iq LDO, 1.0V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A0512PDBV
+D 200-mA Ultra-Low-Iq LDO, 1.2V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A0515PDBV
+D 200-mA Ultra-Low-Iq LDO, 1.5V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A0518PDBV
+D 200-mA Ultra-Low-Iq LDO, 1.8V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A0522PDBV
+D 200-mA Ultra-Low-Iq LDO, 2.2V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A0525PDBV
+D 200-mA Ultra-Low-Iq LDO, 2.5V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A05285PDBV
+D 200-mA Ultra-Low-Iq LDO, 2.85V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A0530PDBV
+D 200-mA Ultra-Low-Iq LDO, 3.0V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A0531PDBV
+D 200-mA Ultra-Low-Iq LDO, 3.1V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A0533PDBV
+D 200-mA Ultra-Low-Iq LDO, 3.3V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
 $CMP TPS7A7001DDA
 D 2A, Low-Dropout Voltage Regulator, 1.425-6.5V Input, Adjustable Min 0.5V Output, PowerPad SO-8
 K ldo regulator voltage linear

@@ -42,6 +42,12 @@ K AHCMOS DFF DFF8
 F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT273.pdf
 $ENDCMP
 #
+$CMP 74AHC373
+D 8-bit Latch, 3-state outputs
+K AHCMOS REG DFF DFF8 LATCH
+F https://assets.nexperia.com/documents/data-sheet/74AHC373.pdf
+$ENDCMP
+#
 $CMP 74AHC374
 D 8-bit Register, 3-state outputs
 K AHCMOS DFF DFF8 REG 3State
@@ -82,6 +88,12 @@ $CMP 74AHCT273
 D 8-bit D Flip-Flop, reset
 K AHCTMOS DFF DFF8
 F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT273.pdf
+$ENDCMP
+#
+$CMP 74AHCT373
+D 8-bit Latch, 3-state outputs
+K AHCTMOS REG DFF DFF8 LATCH
+F https://www.ti.com/lit/ds/symlink/sn74ahct373.pdf
 $ENDCMP
 #
 $CMP 74AHCT374
@@ -190,6 +202,12 @@ $CMP 74HC273
 D 8-bit D Flip-Flop, reset
 K HCMOS DFF DFF8
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT273.pdf
+$ENDCMP
+#
+$CMP 74HC373
+D 8-bit Latch, 3-state outputs
+K HCMOS REG DFF DFF8 LATCH
+F https://www.ti.com/lit/ds/symlink/cd54hc373.pdf
 $ENDCMP
 #
 $CMP 74HC374
@@ -316,6 +334,12 @@ $CMP 74HCT273
 D 8-bit D Flip-Flop, reset
 K HCTMOS DFF DFF8
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT273.pdf
+$ENDCMP
+#
+$CMP 74HCT373
+D 8-bit Latch, 3-state outputs
+K HCTMOS REG DFF DFF8 LATCH
+F https://www.ti.com/lit/ds/symlink/sn74hct373.pdf
 $ENDCMP
 #
 $CMP 74HCT374
