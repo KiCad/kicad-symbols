@@ -258,6 +258,30 @@ K switching buck converter
 F http://www.aosmd.com/res/data_sheets/AOZ1282CI-1.pdf
 $ENDCMP
 #
+$CMP AP63200
+D 2A, 500kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6
+K 2A 500kHz PWM Buck DC/DC
+F https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
+$ENDCMP
+#
+$CMP AP63201WU-7
+D 2A, 500kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6
+K 2A 500kHz PWM Buck DC/DC
+F https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
+$ENDCMP
+#
+$CMP AP63203WU-7
+D 2A,1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6
+K 2A 500kHz PWM Buck DC/DC
+F https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
+$ENDCMP
+#
+$CMP AP63205WU-7
+D 2A,1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6
+K 2A 500kHz PWM Buck DC/DC
+F https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
+$ENDCMP
+#
 $CMP AP6502
 D 340kHz 18V 2A Synchronois DC/DC Buck Converter
 K buck switching converter
