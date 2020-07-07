@@ -384,6 +384,12 @@ K connector 3-pin PD-30 power DIN
 F http://www.cui.com/product/resource/pd-30.pdf
 $ENDCMP
 #
+$CMP CoaxialSwitch_Testpoint
+D Subminiature Coaxial Switch testpoint
+K  Coaxial Switch RF testpoint
+F ~
+$ENDCMP
+#
 $CMP Conn_01x01_Female
 D Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
