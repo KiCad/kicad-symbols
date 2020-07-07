@@ -3289,9 +3289,8 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2290.pdf
 $ENDCMP
 #
 $CMP MIC33050-4YHL
-D 4 MHz Internal Inductor PWM Buck Power Module with
-HyperLight Load
-K Microchip PWM buck power
+D 4 MHz Internal Inductor PWM Buck Power Module with HyperLight Load, 1.2V Fixed Output Voltage
+K Microchip PWM buck power internal inductor
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC33050-4MHz-Internal-Inductor-PWM-Buck-Power-Module-with-HyperLight-Load-DS20006120A.pdf
 $ENDCMP
 #
