@@ -6,11 +6,11 @@ EESchema-LIBRARY Version 2.4
 DEF Adafruit_Feather_BluefruitLE_32U4 A 0 20 Y Y 1 F N
 F0 "A" -400 925 50 H V L BNN
 F1 "Adafruit_Feather_BluefruitLE_32U4" 100 -950 50 H V L TNN
-F2 "Module:Adafruit_Feather_BluefruitLE" 0 0 50 H I C CIN
+F2 "Module:Adafruit_Feather" 0 0 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 ALIAS Adafruit_Feather_BluefruitLE_M0
 $FPLIST
- Adafruit*Feather*BluefruitLE*
+ Adafruit*Feather*
 $ENDFPLIST
 DRAW
 S -400 900 400 -900 0 1 10 f
