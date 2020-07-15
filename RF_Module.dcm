@@ -138,6 +138,12 @@ K Wi-Fi module
 F https://docs.particle.io/datasheets/p1-datasheet/
 $ENDCMP
 #
+$CMP RAK4200
+D LoRa Module, STM32L071,  RAKwireless
+K IoT, LoRa, LoRaWAN, RF
+F https://downloads.rakwireless.com/LoRa/RAK4200/Hardware-Specification/RAK4200_Module_Specifications_V1.4.pdf
+$ENDCMP
+#
 $CMP RFM69HCW
 D Low power ISM Radio Transceiver Module, SPI interface, AES encryption, 434 or 915 MHz, up to 100mW, up to 300 kb/s, SMD-16, DIP-16
 K low power Radio ISM Transceiver Module AES encryption SPI HopeRF
