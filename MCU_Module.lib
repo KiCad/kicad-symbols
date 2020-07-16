@@ -1,13 +1,14 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Adafruit_Feather_M0
+# Adafruit_Feather_M0_Basic_Proto
 #
-DEF Adafruit_Feather_M0 A 0 20 Y Y 1 F N
+DEF Adafruit_Feather_M0_Basic_Proto A 0 20 Y Y 1 F N
 F0 "A" -200 1025 50 H V R CNN
-F1 "Adafruit_Feather_M0" -200 950 50 H V R CNN
+F1 "Adafruit_Feather_M0_Basic_Proto" -200 950 50 H V R CNN
 F2 "Module:Adafruit_Feather_WithMountingHoles" 150 -1050 50 H I L CNN
 F3 "" 0 -1000 50 H I C CNN
+ALIAS Adafruit_Feather_M0_Adalogger Adafruit_Feather_M0_Express
 $FPLIST
  Adafruit*Feather*
 $ENDFPLIST

@@ -1,9 +1,21 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP Adafruit_Feather_M0
+$CMP Adafruit_Feather_M0_Adalogger
+D Microcontroller module with SAMD21 Cortex-M0 MCU and SD card reader
+K Adafruit feather microcontroller module USB SD
+F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-m0-adalogger.pdf
+$ENDCMP
+#
+$CMP Adafruit_Feather_M0_Basic_Proto
 D Microcontroller module with SAMD21 Cortex-M0 MCU
 K Adafruit feather microcontroller module USB
 F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-m0-basic-proto.pdf
+$ENDCMP
+#
+$CMP Adafruit_Feather_M0_Express
+D Microcontroller module with SAMD21 Cortex-M0 MCU and SPI Flash
+K Adafruit feather microcontroller module USB SPI Flash CircuitPython
+F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-m0-express-designed-for-circuit-python-circuitpython.pdf
 $ENDCMP
 #
 $CMP Adafruit_HUZZAH_ESP8266_breakout
