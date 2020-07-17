@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP W65C134SxxPLx-8
+D 8-Bit Microcontroller unit 8.0MHz, PLCC-68
+K PLCC-68, 6502, 65C02, 65134, 65C134, MCU
+F https://www.westerndesigncenter.com/wdc/documentation/w65c134s.pdf
+$ENDCMP
+#
+$CMP W65C134SxxQx-8
+D 8-Bit Microcontroller unit 8.0MHz, QFP-80
+K QFP-80, 6502, 65C02, 65134, 65C134, MCU
+F https://www.westerndesigncenter.com/wdc/documentation/w65c134s.pdf
+$ENDCMP
+#
+$CMP W65C265SxxPLx-8
+D 8/16-Bit Microcontroller unit 8.0MHz, PLCC-84
+K PLCC-84, 65816, 65C816, 65265, 65C265, MCU
+F https://www.westerndesigncenter.com/wdc/documentation/w65c265s.pdf
+$ENDCMP
+#
+$CMP W65C265SxxQx-8
+D 8/16-Bit Microcontroller unit 8.0MHz, QFP-100
+K QFP-100, 65816, 65C816, 65265, 65C265, MCU
+F https://www.westerndesigncenter.com/wdc/documentation/w65c265s.pdf
+$ENDCMP
+#
+#End Doc Library
