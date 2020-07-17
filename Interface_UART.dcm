@@ -57,6 +57,18 @@ K rs232 uart transceiver
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM222_232A_242.pdf
 $ENDCMP
 #
+$CMP ADM2481xRW
+D Isolated RS485/RS422 Transceiver, Half-Duplex, 500kbps, SOIC-16W
+K rs-485 rs-422 eia485 eia-485 eia422 eia-422 serial differential
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adm2481.pdf
+$ENDCMP
+#
+$CMP ADM2483xRW
+D Isolated RS485/RS422 Transceiver, Half-Duplex, 500kbps, SOIC-16W
+K rs-485 rs-422 eia485 eia-485 eia422 eia-422 serial differential
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adm2483.pdf
+$ENDCMP
+#
 $CMP ADM2484E
 D Isolated RS485/RS422 Transceiver, Half-/Full-Duplex, 500kbps,SOIC-16W
 K RS485 Transceiver RS422 Transceiver
@@ -87,6 +99,24 @@ K RS485 Transciever, RS422 Transciever, Isopower
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM2682E_2687E.pdf
 $ENDCMP
 #
+$CMP ADM3488ExR
+D RS-485, RS-422 full duplex 250 kbps transceiver, SOIC-8
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3483E_3486E_3488E_3490E_3491E.pdf
+$ENDCMP
+#
+$CMP ADM3490ExR
+D RS-485, RS-422 full duplex 12 Mbps transceiver, SOIC-8
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3483E_3486E_3488E_3490E_3491E.pdf
+$ENDCMP
+#
+$CMP ADM3491ExR
+D RS-485, RS-422 full duplex 12 Mbps transceiver, SOIC-14
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3483E_3486E_3488E_3490E_3491E.pdf
+$ENDCMP
+#
 $CMP GD65232DB
 D Multiple RS-232 Driver and Receiver, SSOP-20
 K RS232 UART Driver Receiver Interface
@@ -94,7 +124,7 @@ F http://www.ti.com/lit/ds/symlink/gd75232.pdf
 $ENDCMP
 #
 $CMP GD65232DW
-D Multiple RS-232 Driver and Receiver, SOIC20
+D Multiple RS-232 Driver and Receiver, SOIC-20
 K RS232 UART Driver Receiver Interface
 F http://www.ti.com/lit/ds/symlink/gd75232.pdf
 $ENDCMP
@@ -112,13 +142,13 @@ F http://www.ti.com/lit/ds/symlink/gd75232.pdf
 $ENDCMP
 #
 $CMP GD75232DW
-D Multiple RS-232 Driver and Receiver, SOIC20
+D Multiple RS-232 Driver and Receiver, SOIC-20
 K RS232 UART Driver Receiver Interface
 F http://www.ti.com/lit/ds/symlink/gd75232.pdf
 $ENDCMP
 #
 $CMP GD75232N
-D Multiple RS-232 Driver and Receiver, PDIP-20
+D Multiple RS-232 Driver and Receiver, DIP-20
 K RS232 UART Driver Receiver Interface
 F http://www.ti.com/lit/ds/symlink/gd75232.pdf
 $ENDCMP
@@ -165,6 +195,180 @@ K rs232 uart transceiver
 F https://www.analog.com/media/en/technical-documentation/data-sheets/10801fe.pdf
 $ENDCMP
 #
+$CMP LT1785AxN8
+D RS-485, RS-422 Half duplex 250kbps transceiver, fail-safe receiver, DIP-8
+K RS485 RS422 transceiver half duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1785-1785A-1791-1791A.pdf
+$ENDCMP
+#
+$CMP LT1785AxS8
+D RS-485, RS-422 Half duplex 250kbps transceiver, fail-safe receiver, SOIC-8
+K RS485 RS422 transceiver half duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1785-1785A-1791-1791A.pdf
+$ENDCMP
+#
+$CMP LT1785xN8
+D RS-485, RS-422 Half duplex 250kbps transceiver, DIP-8
+K RS485 RS422 transceiver half duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1785-1785A-1791-1791A.pdf
+$ENDCMP
+#
+$CMP LT1785xS8
+D RS-485, RS-422 Half duplex 250kbps transceiver, SOIC-8
+K RS485 RS422 transceiver half duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1785-1785A-1791-1791A.pdf
+$ENDCMP
+#
+$CMP LT1791AxN8
+D RS-485, RS-422 Full duplex 250kbps transceiver, fail-safe receiver, DIP-14
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1785-1785A-1791-1791A.pdf
+$ENDCMP
+#
+$CMP LT1791AxS
+D RS-485, RS-422 Full duplex 250kbps transceiver, fail-safe receiver, SOIC-14
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1785-1785A-1791-1791A.pdf
+$ENDCMP
+#
+$CMP LT1791xN8
+D RS-485, RS-422 Full duplex 250kbps transceiver, DIP-14
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf
+$ENDCMP
+#
+$CMP LT1791xS
+D RS-485, RS-422 Full duplex 250kbps transceiver, SOIC-14
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1785-1785A-1791-1791A.pdf
+$ENDCMP
+#
+$CMP LTC2850xDD
+D RS-485, RS-422 Half duplex 20Mbps transceiver, DFN-8
+K RS485 RS422 transceiver half duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf
+$ENDCMP
+#
+$CMP LTC2850xMS8
+D RS-485, RS-422 Half duplex 20Mbps transceiver, MSOP-8
+K RS485 RS422 transceiver half duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf
+$ENDCMP
+#
+$CMP LTC2850xS8
+D RS-485, RS-422 Half duplex 20Mbps transceiver, SOIC-8
+K RS485 RS422 transceiver half duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf
+$ENDCMP
+#
+$CMP LTC2851xDD
+D RS-485, RS-422 Full duplex 20Mbps transceiver, DFN-8
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf
+$ENDCMP
+#
+$CMP LTC2851xMS8
+D RS-485, RS-422 Full duplex 20Mbps transceiver, MSOP-8
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf
+$ENDCMP
+#
+$CMP LTC2851xS8
+D RS-485, RS-422 Full duplex 20Mbps transceiver, SOIC-8
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf
+$ENDCMP
+#
+$CMP LTC2852xDD
+D RS-485, RS-422 Full duplex 20Mbps transceiver, DFN-10
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf
+$ENDCMP
+#
+$CMP LTC2852xMS
+D RS-485, RS-422 Full duplex 20Mbps transceiver, MSOP-10
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf
+$ENDCMP
+#
+$CMP LTC2852xS
+D RS-485, RS-422 Full duplex 20Mbps transceiver, SOIC-14
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf
+$ENDCMP
+#
+$CMP LTC2856xDD-1
+D RS-485, RS-422 Half duplex 20Mbps transceiver, DFN-8
+K RS485 RS422 transceiver half duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285678fg.pdf
+$ENDCMP
+#
+$CMP LTC2856xDD-2
+D RS-485, RS-422 Half duplex 250kbps transceiver, DFN-8
+K RS485 RS422 transceiver half duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285678fg.pdf
+$ENDCMP
+#
+$CMP LTC2856xMS8-1
+D RS-485, RS-422 Half duplex 20Mbps transceiver, MSOP-8
+K RS485 RS422 transceiver half duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285678fg.pdf
+$ENDCMP
+#
+$CMP LTC2856xMS8-2
+D RS-485, RS-422 Half duplex 250kbps transceiver, MSOP-8
+K RS485 RS422 transceiver half duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285678fg.pdf
+$ENDCMP
+#
+$CMP LTC2857xDD-1
+D RS-485, RS-422 Full duplex 250kbps transceiver, DFN-8
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285678fg.pdf
+$ENDCMP
+#
+$CMP LTC2857xDD-2
+D RS-485, RS-422 Full duplex 250kbps transceiver, DFN-8
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf
+$ENDCMP
+#
+$CMP LTC2857xMS8-1
+D RS-485, RS-422 Full duplex 20Mbps transceiver, MSOP-8
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285678fg.pdf
+$ENDCMP
+#
+$CMP LTC2857xMS8-2
+D RS-485, RS-422 Full duplex 250kbps transceiver, MSOP-8
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285678fg.pdf
+$ENDCMP
+#
+$CMP LTC2858xDD-1
+D RS-485, RS-422 Full duplex 20Mbps transceiver, DFN-10
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285678fg.pdf
+$ENDCMP
+#
+$CMP LTC2858xDD-2
+D RS-485, RS-422 Full duplex 250kbps transceiver, DFN-10
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285678fg.pdf
+$ENDCMP
+#
+$CMP LTC2858xMS-1
+D RS-485, RS-422 Full duplex 20Mbps transceiver, MSOP-10
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285678fg.pdf
+$ENDCMP
+#
+$CMP LTC2858xMS-2
+D RS-485, RS-422 Full duplex 250kbps transceiver, MSOP-10
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/285678fg.pdf
+$ENDCMP
+#
 $CMP LTC2861
 D 20Mbps RS485 transceiver with tntegrated switchable termination
 K RS485
@@ -201,6 +405,12 @@ K High-Speed 3.3V/5V RS-485/RS-422 Transceiver ESD 42Mbps
 F https://datasheets.maximintegrated.com/en/ds/MAX14783E.pdf
 $ENDCMP
 #
+$CMP MAX14830
+D Quad UART with I2C/SPI interface, 128 Word FIFOs, IrDA SIR built-in support, TQFN-48
+K UART I2C/SPI 128W FIFO IrDA SIR
+F https://datasheets.maximintegrated.com/en/ds/MAX14830.pdf
+$ENDCMP
+#
 $CMP MAX1487E
 D Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 128 receiver drive kapacitity, DIP-8 and SOIC-8
 K Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 128 receiver drive kapacitity, DIP-8 and SOIC-8
@@ -232,19 +442,19 @@ F http://datasheets.maximintegrated.com/en/ds/MAX3051.pdf
 $ENDCMP
 #
 $CMP MAX3072E
-D +3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers
+D +3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers, SOIC-8
 K Low Power Half-Duplex RS-485 RS-422 Transceiver
 F https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf
 $ENDCMP
 #
 $CMP MAX3075E
-D +3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers
+D +3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers, SOIC-8
 K Low Power Half-Duplex RS-485 RS-422 Transceiver
 F https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf
 $ENDCMP
 #
 $CMP MAX3078E
-D +3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers
+D +3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers, SOIC-8
 K Low Power Half-Duplex RS-485 RS-422 Transceiver
 F https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf
 $ENDCMP
@@ -375,50 +585,110 @@ K UART I2C/SPI 64B FIFO IrDA SIR
 F https://www.nxp.com/docs/en/data-sheet/SC16IS740_750_760.pdf
 $ENDCMP
 #
+$CMP SC16IS750xBS
+D Single UART with I2C/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support, HVQFN-24
+K UART I2C/SPI 64B FIFO IrDA SIR
+F https://www.nxp.com/docs/en/data-sheet/SC16IS740_750_760.pdf
+$ENDCMP
+#
+$CMP SC16IS750xPW
+D Single UART with I2C/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support, TSSOP-24
+K UART I2C/SPI 64B FIFO IrDA SIR
+F https://www.nxp.com/docs/en/data-sheet/SC16IS740_750_760.pdf
+$ENDCMP
+#
+$CMP SC16IS752IBS
+D Dual UART with I2C/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support, HVQFN-32
+K UART I2C/SPI 64B FIFO IrDA SIR
+F https://www.nxp.com/docs/en/data-sheet/SC16IS752_SC16IS762.pdf
+$ENDCMP
+#
+$CMP SC16IS752IPW
+D Dual UART with I2C/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support, TSSOP-28
+K UART I2C/SPI 64B FIFO IrDA SIR
+F https://www.nxp.com/docs/en/data-sheet/SC16IS752_SC16IS762.pdf
+$ENDCMP
+#
+$CMP SC16IS760xBS
+D Single UART with I2C/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support, HVQFN-24
+K UART I2C/SPI 64B FIFO IrDA SIR
+F https://www.nxp.com/docs/en/data-sheet/SC16IS740_750_760.pdf
+$ENDCMP
+#
+$CMP SC16IS760xPW
+D Single UART with I2C/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support, TSSOP-24
+K UART I2C/SPI 64B FIFO IrDA SIR
+F https://www.nxp.com/docs/en/data-sheet/SC16IS740_750_760.pdf
+$ENDCMP
+#
+$CMP SC16IS762IBS
+D Dual UART with I2C/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support, HVQFN-32
+K UART I2C/SPI 64B FIFO IrDA SIR
+F https://www.nxp.com/docs/en/data-sheet/SC16IS752_SC16IS762.pdf
+$ENDCMP
+#
+$CMP SC16IS762IPW
+D Dual UART with I2C/SPI interface, 64 bytes of transmit and receive FIFOs, IrDA SIR built-in support, TSSOP-28
+K UART I2C/SPI 64B FIFO IrDA SIR
+F https://www.nxp.com/docs/en/data-sheet/SC16IS752_SC16IS762.pdf
+$ENDCMP
+#
 $CMP SN65LBC176D
-D Differential bus transiver, SOIC-8
-K Differential bus transiver
+D Differential bus transceiver, SOIC-8
+K Differential bus transceiver
 F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
 $ENDCMP
 #
 $CMP SN65LBC176P
-D Differential bus transiver, DIP-8
-K Differential bus transiver
+D Differential bus transceiver, DIP-8
+K Differential bus transceiver
 F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
 $ENDCMP
 #
 $CMP SN65LBC176QD
-D Differential bus transiver, SOIC-8
-K Differential bus transiver
+D Differential bus transceiver, SOIC-8
+K Differential bus transceiver
 F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
 $ENDCMP
 #
 $CMP SN65LBC176QDR
-D Differential bus transiver, SOIC-8
-K Differential bus transiver
+D Differential bus transceiver, SOIC-8
+K Differential bus transceiver
 F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
 $ENDCMP
 #
+$CMP SN75176AD
+D Differential RS-422/RS-485 bus transceiver, SOIC-8
+K Differential bus transceiver
+F http://www.ti.com/lit/ds/symlink/sn75176a.pdf
+$ENDCMP
+#
+$CMP SN75176AP
+D Differential RS-422/RS-485 bus transceiver, DIP-8
+K Differential bus transceiver
+F http://www.ti.com/lit/ds/symlink/sn75176a.pdf
+$ENDCMP
+#
 $CMP SN75LBC176D
-D Differential bus transiver, SOIC-8
-K Differential bus transiver
+D Differential bus transceiver, SOIC-8
+K Differential bus transceiver
 F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
 $ENDCMP
 #
 $CMP SN75LBC176P
-D Differential bus transiver, DIP-8
-K Differential bus transiver
+D Differential bus transceiver, DIP-8
+K Differential bus transceiver
 F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
 $ENDCMP
 #
 $CMP SNJ55LBC176JG
-D Differential bus transiver, ceramic DIP-8
-K Differential bus transiver
+D Differential bus transceiver, ceramic DIP-8
+K Differential bus transceiver
 F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
 $ENDCMP
 #
 $CMP SP3481CN
-D 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SO8
+D 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SOIC-8
 K Low Power Half-Duplex RS-485 Transceiver 10Mbps
 F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
 $ENDCMP
@@ -430,7 +700,7 @@ F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
 $ENDCMP
 #
 $CMP SP3481EN
-D Industrial 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SO8
+D Industrial 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SOIC-8
 K Low Power Half-Duplex RS-485 Transceiver 10Mbps
 F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
 $ENDCMP
@@ -442,7 +712,7 @@ F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
 $ENDCMP
 #
 $CMP SP3485CN
-D 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SO8
+D 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SOIC-8
 K Low Power Half-Duplex RS-485 Transceiver 10Mbps
 F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
 $ENDCMP
@@ -454,7 +724,7 @@ F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
 $ENDCMP
 #
 $CMP SP3485EN
-D Industrial 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SO8
+D Industrial 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SOIC-8
 K Low Power Half-Duplex RS-485 Transceiver 10Mbps
 F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
 $ENDCMP

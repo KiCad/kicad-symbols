@@ -138,6 +138,12 @@ K Half-H Driver Motor
 F http://www.ti.com/lit/ds/symlink/l293.pdf
 $ENDCMP
 #
+$CMP L293E
+D Push-pull four-channel driver, DIP-20
+K Half-H Driver Motor Sense
+F https://www.st.com/resource/en/datasheet/l293e.pdf
+$ENDCMP
+#
 $CMP L297
 D Stepper Motor Controller, DIP-20/SO-20
 K Stepper Motor Controller
