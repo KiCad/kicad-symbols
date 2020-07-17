@@ -1,0 +1,69 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP W65C21NxxPLx-14
+D NMOS Peripheral Interface Adapter 14MHz, PLCC-44
+K 6521, 65C21, PIA
+F http://www.westerndesigncenter.com/wdc/documentation/w65c21.pdf
+$ENDCMP
+#
+$CMP W65C21NxxPx-14
+D NMOS Peripheral Interface Adapter 14MHz, DIP-40
+K 6521, 65C21, PIA
+F http://www.westerndesigncenter.com/wdc/documentation/w65c21.pdf
+$ENDCMP
+#
+$CMP W65C21SxxPLx-14
+D CMOS Peripheral Interface Adapter 14MHz, PLCC-44
+K 6521, 65C21, PIA
+F http://www.westerndesigncenter.com/wdc/documentation/w65c21.pdf
+$ENDCMP
+#
+$CMP W65C21SxxPx-14
+D CMOS Peripheral Interface Adapter 14MHz, DIP-40
+K 6521, 65C21, PIA
+F http://www.westerndesigncenter.com/wdc/documentation/w65c21.pdf
+$ENDCMP
+#
+$CMP W65C22NxxPLx-14
+D 8/16 bit NMOS Versatile Interface Adapter 14MHz, PLCC-44
+K 6522, 65C22, VIA
+F http://www.westerndesigncenter.com/wdc/documentation/w65c22.pdf
+$ENDCMP
+#
+$CMP W65C22NxxPx-14
+D 8/16 bit NMOS Versatile Interface Adapter 14MHz, DIP-40
+K 6522, 65C22, VIA
+F http://www.westerndesigncenter.com/wdc/documentation/w65c22.pdf
+$ENDCMP
+#
+$CMP W65C22SxxPLx-14
+D 8/16 bit CMOS Versatile Interface Adapter 14MHz, PLCC-44
+K 6522, 65C22, VIA
+F http://www.westerndesigncenter.com/wdc/documentation/w65c22.pdf
+$ENDCMP
+#
+$CMP W65C22SxxPx-14
+D 8/16 bit CMOS Versatile Interface Adapter 14MHz, DIP-40
+K 6522, 65C22, VIA
+F http://www.westerndesigncenter.com/wdc/documentation/w65c22.pdf
+$ENDCMP
+#
+$CMP W65C51NxxPLx-14
+D NMOS Asynchronous Communications Interface Adapter 14MHz, PLCC-28
+K 6551, 65C51, ACIA
+F http://www.westerndesigncenter.com/wdc/documentation/w65c51n.pdf
+$ENDCMP
+#
+$CMP W65C51NxxPQx-14
+D NMOS Asynchronous Communications Interface Adapter 14MHz, LQFP-32
+K 6551, 65C51, ACIA
+F http://www.westerndesigncenter.com/wdc/documentation/w65c51n.pdf
+$ENDCMP
+#
+$CMP W65C51NxxPx-14
+D NMOS Asynchronous Communications Interface Adapter 14MHz, DIP-28
+K 6551, 65C51, ACIA
+F http://www.westerndesigncenter.com/wdc/documentation/w65c51n.pdf
+$ENDCMP
+#
+#End Doc Library

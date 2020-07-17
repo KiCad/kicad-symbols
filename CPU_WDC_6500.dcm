@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP W65C02SxxPLx-14
+D 8-Bit Microprocessing unit 14.0MHz, PLCC-44
+K PLCC-44, 6502, 65C02, CPU
+F http://westerndesigncenter.com/wdc/documentation/w65c02s.pdf
+$ENDCMP
+#
+$CMP W65C02SxxPQx-14
+D 8-Bit Microprocessing unit 14.0MHz, QFP-44
+K QFP-44, 6502, 65C02, CPU
+F http://westerndesigncenter.com/wdc/documentation/w65c02s.pdf
+$ENDCMP
+#
+$CMP W65C02SxxPx-14
+D 8-Bit Microprocessing unit 14.0MHz, DIP-40
+K DIP-40, 6502, 65C02, CPU
+F http://westerndesigncenter.com/wdc/documentation/w65c02s.pdf
+$ENDCMP
+#
+$CMP W65C816SxxPLx-14
+D 16-Bit Microprocessing unit 14MHz, PLCC-44
+K 65816, 65C816, CPU
+F http://www.westerndesigncenter.com/wdc/documentation/w65c816s.pdf
+$ENDCMP
+#
+$CMP W65C816SxxPQx-14
+D 16-Bit Microprocessing unit 14MHz, QFP-44
+K 65816, 65C816, CPU
+F http://www.westerndesigncenter.com/wdc/documentation/w65c816s.pdf
+$ENDCMP
+#
+$CMP W65C816SxxPx-14
+D 16-Bit Microprocessing unit 14MHz, DIP-40
+K 65816, 65C816, CPU
+F http://www.westerndesigncenter.com/wdc/documentation/w65c816s.pdf
+$ENDCMP
+#
+#End Doc Library
