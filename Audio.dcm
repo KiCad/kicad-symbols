@@ -204,8 +204,8 @@ K audio dac 2ch 24bit 192kHz
 F http://www.ti.com/lit/ds/symlink/pcm1794a.pdf
 $ENDCMP
 #
-$CMP PCM2707C
-D single-chip USB stereo audio digital-to-analog converter, USB 2.0, 32kHz, 44.1kHz, 48kHz, 16bit DAC, HID, PCM Interface, TQFP-32
+$CMP PCM2707CPJTR
+D USB Audio Stereo DAC with 16-bits, 32kHz, 44.1kHz, 48kHz PCM Interface, TQFP-32
 K audio dac 2ch 16bit
 F http://www.ti.com/lit/ds/symlink/pcm2707c.pdf
 $ENDCMP
