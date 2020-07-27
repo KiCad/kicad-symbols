@@ -2880,6 +2880,96 @@ K Recom dc-dc converter
 F https://www.recom-power.com/pdf/Innoline/RPM-6.0.pdf
 $ENDCMP
 #
+$CMP TBA_1-0310
+D 260mA unregulated 1W DC/DC converter with 1.06kV isolation, 2.97V-3.36V input, 3.3V fixed output voltage, efficiency 73%, short circuit protection, SIP-4
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/sites/default/files/products/datasheets/tba1_datasheet.pdf
+$ENDCMP
+#
+$CMP TBA_1-0311
+D 200mA unregulated 1W DC/DC converter with 1.06kV isolation, 2.97V-3.36V input, 5V fixed output voltage, efficiency 76%, short circuit protection, SIP-4
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/sites/default/files/products/datasheets/tba1_datasheet.pdf
+$ENDCMP
+#
+$CMP TBA_1-0510
+D 260mA unregulated 1W DC/DC converter with 1.06kV isolation, 4.5V-5.5V input, 3.3V fixed output voltage, efficiency 75%, short circuit protection, SIP-4
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/sites/default/files/products/datasheets/tba1_datasheet.pdf
+$ENDCMP
+#
+$CMP TBA_1-0511
+D 200mA unregulated 1W DC/DC converter with 1.06kV isolation, 4.5V-5.5V input, 5V fixed output voltage, efficiency 79%, short circuit protection, SIP-4
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/sites/default/files/products/datasheets/tba1_datasheet.pdf
+$ENDCMP
+#
+$CMP TBA_1-0512
+D 80mA unregulated 1W DC/DC converter with 1.06kV isolation, 4.5V-5.5V input, 12V fixed output voltage, efficiency 82%, short circuit protection, SIP-4
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/sites/default/files/products/datasheets/tba1_datasheet.pdf
+$ENDCMP
+#
+$CMP TBA_1-0513
+D 65mA unregulated 1W DC/DC converter with 1.06kV isolation, 4.5V-5.5V input, 15V fixed output voltage, efficiency 82%, short circuit protection, SIP-4
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/sites/default/files/products/datasheets/tba1_datasheet.pdf
+$ENDCMP
+#
+$CMP TBA_1-0519
+D 110mA unregulated 1W DC/DC converter with 1.06kV isolation, 4.5V-5.5V input, 9V fixed output voltage, efficiency 80%, short circuit protection, SIP-4
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/sites/default/files/products/datasheets/tba1_datasheet.pdf
+$ENDCMP
+#
+$CMP TBA_1-1211
+D 200mA unregulated 1W DC/DC converter with 1.06kV isolation, 10.8V-13.2V input, 5V fixed output voltage, efficiency 79%, short circuit protection, SIP-4
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/sites/default/files/products/datasheets/tba1_datasheet.pdf
+$ENDCMP
+#
+$CMP TBA_1-1212
+D 80mA unregulated 1W DC/DC converter with 1.06kV isolation, 10.8V-13.2V input, 12V fixed output voltage, efficiency 80%, short circuit protection, SIP-4
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/sites/default/files/products/datasheets/tba1_datasheet.pdf
+$ENDCMP
+#
+$CMP TBA_1-1213
+D 65mA unregulated 1W DC/DC converter with 1.06kV isolation, 10.8V-13.2V input, 15V fixed output voltage, efficiency 80%, short circuit protection, SIP-4
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/sites/default/files/products/datasheets/tba1_datasheet.pdf
+$ENDCMP
+#
+$CMP TBA_1-1219
+D 110mA unregulated 1W DC/DC converter with 1.06kV isolation, 10.8V-13.2V input, 9V fixed output voltage, efficiency 79%, short circuit protection, SIP-4
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/sites/default/files/products/datasheets/tba1_datasheet.pdf
+$ENDCMP
+#
+$CMP TBA_1-2411
+D 200mA unregulated 1W DC/DC converter with 1.06kV isolation, 21.6V-26.4V input, 5V fixed output voltage, efficiency 79%, short circuit protection, SIP-4
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/sites/default/files/products/datasheets/tba1_datasheet.pdf
+$ENDCMP
+#
+$CMP TBA_1-2412
+D 80mA unregulated 1W DC/DC converter with 1.06kV isolation, 21.6V-26.4V input, 12V fixed output voltage, efficiency 82%, short circuit protection, SIP-4
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/sites/default/files/products/datasheets/tba1_datasheet.pdf
+$ENDCMP
+#
+$CMP TBA_1-2413
+D 65mA unregulated 1W DC/DC converter with 1.06kV isolation, 21.6V-26.4V input, 15V fixed output voltage, efficiency 82%, short circuit protection, SIP-4
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/sites/default/files/products/datasheets/tba1_datasheet.pdf
+$ENDCMP
+#
+$CMP TBA_1-2419
+D 110mA unregulated 1W DC/DC converter with 1.06kV isolation, 21.6V-26.4V input, 9V fixed output voltage, efficiency 80%, short circuit protection, SIP-4
+K Traco isolated isolation dc-dc converter transformer
+F https://www.tracopower.com/sites/default/files/products/datasheets/tba1_datasheet.pdf
+$ENDCMP
+#
 $CMP TC7662AxPA
 D Charge Pump DC-to-DC Converter, 3 - 18V, 40mA, DIP-8
 K charge pump DC-to-DC converter
