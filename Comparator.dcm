@@ -1,146 +1,362 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP AD8561
-D Ultrafast 7 ns Single Supply Comparator, DIP-8/SOIC-8/TSSOP-8
-K comparator ultrafast
+$CMP AD8561xN
+D Single Ultrafast 7ns Single Supply Comparator, DIP-8
+K cmp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ad8561.pdf
 $ENDCMP
 #
-$CMP ADCMP350
-D Single-input comparator, internal 0.6V reference, Active-Low Open-Drain output, KS-4
-K single comparator with reference
+$CMP AD8561xR
+D Single Ultrafast 7ns Single Supply Comparator, SOIC-8
+K cmp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ad8561.pdf
+$ENDCMP
+#
+$CMP AD8561xRU
+D Single Ultrafast 7ns Single Supply Comparator, TSSOP-8
+K cmp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ad8561.pdf
+$ENDCMP
+#
+$CMP ADCMP350xKS
+D Single Comparator and Reference Circuit, internal 0.6Vref, Open-Drain active low output, KS-4
+K cmp collector
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf
 $ENDCMP
 #
-$CMP ADCMP354
-D Single-input comparator, internal 0.6V reference, Active-High Open-Drain output, KS-4
-K single comparator with reference
+$CMP ADCMP354xKS
+D Single Comparator and Reference Circuit, internal 0.6Vref, Open-Drain active high output, KS-4
+K cmp collector
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf
 $ENDCMP
 #
-$CMP ADCMP356
-D Single-input comparator, internal 0.6V reference, Active-High Push-Pull output, KS-4
-K single comparator with reference
+$CMP ADCMP356xKS
+D Single Comparator and Reference Circuit, internal 0.6Vref, Push-pull active high output, KS-4
+K cmp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf
 $ENDCMP
 #
-$CMP LM2901
-D Quad Differential Comparators, DIP-14/SOIC-14/TSSOP-14
-K quad comparator
+$CMP LM2901_DIP-14
+D Quad low-power voltage comparator, DIP-14
+K cmp open collector drain
+F http://www.ti.com/lit/ds/symlink/lm2901.pdf
+$ENDCMP
+#
+$CMP LM2901_QFN-16
+D Quad low-power voltage comparator, QFN-16
+K cmp open collector drain
 F https://www.st.com/resource/en/datasheet/lm2901.pdf
 $ENDCMP
 #
-$CMP LM2903
-D Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SOP-8/TSSOP-8/VSSOP-8
-K dual comparator
-F http://www.ti.com/lit/ds/symlink/lm393.pdf
+$CMP LM2901_SO-14
+D Quad low-power voltage comparator, SO-14
+K cmp open collector drain
+F http://www.ti.com/lit/ds/symlink/lm2901.pdf
 $ENDCMP
 #
-$CMP LM311
-D Voltage Comparator, DIP-8/SOIC-8
-K comp
+$CMP LM2901_SOIC-14
+D Quad low-power voltage comparator, SOIC-14
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm2901.pdf
+$ENDCMP
+#
+$CMP LM2901_TSSOP-14
+D Quad low-power voltage comparator, TSSOP-14
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm2901.pdf
+$ENDCMP
+#
+$CMP LM2903_DFN-8
+D Dual low-power dual voltage comparator, DFN-8
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm2903.pdf
+$ENDCMP
+#
+$CMP LM2903_DIP-8
+D Dual low-power dual voltage comparator, DIP-8
+K cmp open collector drain
+F http://www.ti.com/lit/ds/symlink/lm2903.pdf
+$ENDCMP
+#
+$CMP LM2903_MSOP-8
+D Dual low-power dual voltage comparator, MSOP-8
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm2903.pdf
+$ENDCMP
+#
+$CMP LM2903_SO-8
+D Dual low-power dual voltage comparator, SO-8
+K cmp open collector drain
+F http://www.ti.com/lit/ds/symlink/lm2903.pdf
+$ENDCMP
+#
+$CMP LM2903_SOIC-8
+D Dual low-power dual voltage comparator, SOIC-8
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm2903.pdf
+$ENDCMP
+#
+$CMP LM2903_TSSOP-8
+D Dual low-power dual voltage comparator, TSSOP-8
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm2903.pdf
+$ENDCMP
+#
+$CMP LM311_DIP-8
+D Single voltage comparator with strobe, DIP-8
+K cmp open collector drain
 F https://www.st.com/resource/en/datasheet/lm311.pdf
 $ENDCMP
 #
-$CMP LM319
-D High Speed Dual Comparator, DIP-14/SOIC-14
-K dual comparator
+$CMP LM311_SO-8
+D Single voltage comparator with strobe, SO-8
+K cmp open collector drain
+F http://www.ti.com/lit/ds/symlink/lm311.pdf
+$ENDCMP
+#
+$CMP LM311_SOIC-8
+D Single voltage comparator with strobe, SOIC-8
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm311.pdf
+$ENDCMP
+#
+$CMP LM311_TSSOP-8
+D Single voltage comparator with strobe, TSSOP-8
+K cmp open collector drain
+F http://www.ti.com/lit/ds/symlink/lm311.pdf
+$ENDCMP
+#
+$CMP LM319_DIP-14
+D Dual high-speed comparator, DIP-14
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm319.pdf
+$ENDCMP
+#
+$CMP LM319_SOIC-14
+D Dual high-speed comparator, SOIC-14
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm319.pdf
+$ENDCMP
+#
+$CMP LM319_TO-100-10
+D Dual high-speed comparator, TO-100-10
+K cmp open collector drain
 F http://www.ti.com/lit/ds/symlink/lm319-n.pdf
 $ENDCMP
 #
-$CMP LM319H
-D High Speed Dual Comparator, TO-100-10
-K dual comparator
-F http://www.ti.com/lit/ds/symlink/lm319-n.pdf
+$CMP LM339_DIP-14
+D Quad low-power voltage comparator, DIP-14
+K cmp open collector drain
+F http://www.ti.com/lit/ds/symlink/lm339.pdf
 $ENDCMP
 #
-$CMP LM339
-D Quad Differential Comparators, SOIC-14/TSSOP-14
-K quad comparator
-F https://www.st.com/resource/en/datasheet/lm139.pdf
+$CMP LM339_QFN-16
+D Quad low-power voltage comparators, QFN-16
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm339.pdf
 $ENDCMP
 #
-$CMP LM393
-D Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8
-K dual comparator
+$CMP LM339_SO-14
+D Quad low-power voltage comparator, SO-14
+K cmp open collector drain
+F http://www.ti.com/lit/ds/symlink/lm339.pdf
+$ENDCMP
+#
+$CMP LM339_SOIC-14
+D Quad low-power voltage comparators, SOIC-14
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm339.pdf
+$ENDCMP
+#
+$CMP LM339_TSSOP-14
+D Quad low-power voltage comparators, TSSOP-14
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm339.pdf
+$ENDCMP
+#
+$CMP LM393_DFN-8
+D Dual low-power, dual-voltage comparator, DFN-8
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm393.pdf
+$ENDCMP
+#
+$CMP LM393_DIP-8
+D Dual low-power, dual-voltage comparator, DIP-8
+K cmp open collector drain
 F http://www.ti.com/lit/ds/symlink/lm393.pdf
 $ENDCMP
 #
-$CMP LMH7324
-D Quad 700 ps High Speed Comparator with RSPECL Outputs, WQFN-32
-K comparator
+$CMP LM393_MSOP-8
+D Dual low-power, dual-voltage comparator, MSOP-8
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm393.pdf
+$ENDCMP
+#
+$CMP LM393_SO-8
+D Dual low-power, dual-voltage comparator, SO-8
+K cmp open collector drain
+F http://www.ti.com/lit/ds/symlink/lm393.pdf
+$ENDCMP
+#
+$CMP LM393_SOIC-8
+D Dual low-power, dual-voltage comparator, SOIC-8
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm393.pdf
+$ENDCMP
+#
+$CMP LM393_TSSOP-8
+D Dual low-power, dual-voltage comparator, TSSOP-8
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lm393.pdf
+$ENDCMP
+#
+$CMP LMH7324SQ
+D Quad 700ps High Speed Comparator with RSPECL Outputs, WQFN-32
+K cmp
 F http://www.ti.com/lit/ds/symlink/lmh7324.pdf
 $ENDCMP
 #
-$CMP LMV331
-D Single General-Purpose Low-Voltage Comparator, SOT-23-5/SC-70-5
-K single comparator
-F http://www.ti.com/lit/ds/symlink/lmv331.pdf
-$ENDCMP
-#
-$CMP LMV339
-D Quad General-Purpose Low-Voltage Comparator, SOIC-14/TSSOP-14
-K quad comparator
+$CMP LMV331_SC-70-5
+D Single general-purpose low voltage comparators, SC-70-5
+K cmp open collector drain
 F https://www.st.com/resource/en/datasheet/lmv331.pdf
 $ENDCMP
 #
-$CMP LMV393
-D Dual General-Purpose Low-Voltage Comparator, SOIC-8/TSSOP-8/VSSOP-8
-K dual comparator
-F http://www.ti.com/lit/ds/symlink/lmv331.pdf
+$CMP LMV331_SOT-23-5
+D Single general-purpose low voltage comparator, SOT-23-5
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lmv331.pdf
+$ENDCMP
+#
+$CMP LMV339_SOIC-14
+D Quad general-purpose low voltage comparators, SOIC-14
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lmv339.pdf
+$ENDCMP
+#
+$CMP LMV339_TSSOP-14
+D Quad general-purpose low voltage comparators, TSSOP-14
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lmv339.pdf
+$ENDCMP
+#
+$CMP LMV393_MSOP-8
+D Dual general-purpose low voltage comparator, MSOP-8
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lmv393.pdf
+$ENDCMP
+#
+$CMP LMV393_SOIC-8
+D Dual general-purpose low voltage comparator, SOIC-8
+K cmp open collector drain
+F https://www.st.com/resource/en/datasheet/lmv393.pdf
+$ENDCMP
+#
+$CMP LMV393_VSSOP-8
+D Dual general-purpose low voltage comparator, VSSOP-8
+K cmp open collector drain
+F http://www.ti.com/lit/ds/symlink/lmv393.pdf
 $ENDCMP
 #
 $CMP LMV7219M5
-D Single Low-Power High-Speed Push-Pull Output Comparator, SOT-23-5
-K single comparator
+D Single 7ns 2.7V to 5V Comparator with Rail-to-Rail Output, SOT-23-5
+K cmp r2r rtr
 F https://www.ti.com/lit/ds/symlink/lmv7219.pdf
 $ENDCMP
 #
 $CMP LMV7219M7
-D Single Low-Power High-Speed Push-Pull Output Comparator, SC-70-5
-K single comparator
+D Single 7ns 2.7V to 5V Comparator with Rail-to-Rail Output, SC-70-5
+K cmp r2r rtr
 F https://www.ti.com/lit/ds/symlink/lmv7219.pdf
 $ENDCMP
 #
-$CMP LMV7271
-D Single, 1.8V Low Power, Rail-to-Rail Input, Push-Pull Output Comparator, SOT-23-5/SC-70-5
-K single comparator rail-to-rail
+$CMP LMV7271MF
+D Single, 1.8-V Low Power Comparator With Rail-to-Rail Input, SOT-23-5
+K cmp r2r rtr
 F http://www.ti.com/lit/ds/symlink/lmv7271.pdf
 $ENDCMP
 #
-$CMP LMV7272
-D Dual, 1.8V Low Power, Rail-to-Rail Input, Push-Pull Output Comparator, DSBGA-8
-K dual comparator rail-to-rail
+$CMP LMV7271MG
+D Single, 1.8-V Low Power Comparator With Rail-to-Rail Input, SC-70-5
+K cmp r2r rtr
+F http://www.ti.com/lit/ds/symlink/lmv7271.pdf
+$ENDCMP
+#
+$CMP LMV7272TL
+D Dual, 1.8V Low Power Comparator With Rail-to-Rail Input, DSBGA-8
+K cmp r2r rtr
 F http://www.ti.com/lit/ds/symlink/lmv7272.pdf
 $ENDCMP
 #
-$CMP LMV7275
-D Single, 1.8V Low Power, Rail-to-Rail Input, Open Collector Output Comparator, SOT-23-5/SC-70-5
-K single comparator rail-to-rail
+$CMP LMV7275MF
+D Single, 1.8V Low Power Comparators With Rail-to-Rail Input, SOT-23-5
+K cmp open collector drain r2r rtr
 F http://www.ti.com/lit/ds/symlink/lmv7275.pdf
 $ENDCMP
 #
-$CMP LT1011
-D Voltage Comparator, DIP-8/SOIC-8
-K comp
-F https://www.analog.com/media/en/technical-documentation/data-sheets/lt1011.pdf
+$CMP LMV7275MG
+D Single, 1.8V Low Power Comparators With Rail-to-Rail Input, SC-70-5
+K cmp open collector drain r2r rtr
+F http://www.ti.com/lit/ds/symlink/lmv7275.pdf
 $ENDCMP
 #
-$CMP LT1016
-D Single UltraFast Precision 10ns Comparator, DIP-8/SOIC-8
-K single comparator
+$CMP LT1011AxN8
+D Single Voltage Comparator, DIP-8
+K cmp open collector drain
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1011.pdf
+$ENDCMP
+#
+$CMP LT1011AxS8
+D Single Voltage Comparator, SOIC-8
+K cmp open collector drain
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1011.pdf
+$ENDCMP
+#
+$CMP LT1011xN8
+D Single Voltage Comparator, DIP-8
+K cmp open collector drain
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1011.pdf
+$ENDCMP
+#
+$CMP LT1011xS8
+D Single Voltage Comparator, SOIC-8
+K cmp open collector drain
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1011.pdf
+$ENDCMP
+#
+$CMP LT1016xN8
+D Single UltraFast Precision 10ns Comparator, DIP-8
+K cmp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/lt1016.pdf
 $ENDCMP
 #
-$CMP LT1116
-D Single 12ns, Single Supply Ground-Sensing Comparator, DIP-8/SOIC-8
-K single comparator
+$CMP LT1016xS8
+D Single UltraFast Precision 10ns Comparator, SOIC-8
+K cmp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/lt1016.pdf
+$ENDCMP
+#
+$CMP LT1116xN8
+D Single 12ns, Single Supply Ground-Sensing Comparator, DIP-8
+K cmp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1116fc.pdf
+$ENDCMP
+#
+$CMP LT1116xS8
+D Single 12ns, Single Supply Ground-Sensing Comparator, SOIC-8
+K cmp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1116fc.pdf
 $ENDCMP
 #
 $CMP LT1711xMS8
-D Single ultrafast 4.5 ns rail-to-rail comparator, MSOP-8
-K comparator latch
+D Single 4.5ns, 3V/5V/±5V, Rail-to-Rail Comparator, MSOP-8
+K cmp r2r rtr
+F https://www.analog.com/media/en/technical-documentation/data-sheets/171112f.pdf
+$ENDCMP
+#
+$CMP LT1712xGN
+D Dual 4.5ns, 3V/5V/±5V, Rail-to-Rail Comparator, SSOP-16
+K cmp r2r rtr
 F https://www.analog.com/media/en/technical-documentation/data-sheets/171112f.pdf
 $ENDCMP
 #
@@ -186,63 +402,99 @@ K cmp r2r rtr
 F https://www.analog.com/media/en/technical-documentation/data-sheets/6754f.pdf
 $ENDCMP
 #
-$CMP MCP6561-OT
+$CMP MCP6561Rx-x-OT
 D Single 1.8V Low-Power Push-Pull Output Comparator, SOT-23-5
-K single comparator
+K cmp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6561-1R-1U-2-4-1.8V-Low-Power-Push-Pull-Output-Comparator-DS20002139E.pdf
 $ENDCMP
 #
-$CMP MCP6561R
+$CMP MCP6561Ux-x-OT
 D Single 1.8V Low-Power Push-Pull Output Comparator, SOT-23-5
-K dual comparator
+K cmp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6561-1R-1U-2-4-1.8V-Low-Power-Push-Pull-Output-Comparator-DS20002139E.pdf
 $ENDCMP
 #
-$CMP MCP6561U
-D Single 1.8V Low-Power Push-Pull Output Comparator, SOT-23-5
-K dual comparator
-F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6561-1R-1U-2-4-1.8V-Low-Power-Push-Pull-Output-Comparator-DS20002139E.pdf
-$ENDCMP
-#
-$CMP MCP6561x-LT
+$CMP MCP6561x-x-LT
 D Single 1.8V Low-Power Push-Pull Output Comparator, SC-70-5
+K cmp
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6561-1R-1U-2-4-1.8V-Low-Power-Push-Pull-Output-Comparator-DS20002139E.pdf
+$ENDCMP
+#
+$CMP MCP6561x-x-OT
+D Single 1.8V Low-Power Push-Pull Output Comparator, SOT-23-5
 K single comparator
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6561-1R-1U-2-4-1.8V-Low-Power-Push-Pull-Output-Comparator-DS20002139E.pdf
 $ENDCMP
 #
-$CMP MCP6562
-D Dual 1.8V Low-Power Push-Pull Output Comparator, SOIC-8/MSOP-8
-K dual comparator
+$CMP MCP6562x-x-MS
+D Dual 1.8V Low-Power Push-Pull Output Comparator, MSOP-8
+K cmp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6561-1R-1U-2-4-1.8V-Low-Power-Push-Pull-Output-Comparator-DS20002139E.pdf
 $ENDCMP
 #
-$CMP MCP6566
-D Single 1.8V Low-Power Open-Drain Output Comparator, SOT-23-5/SC-70
-K single comparator
-F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf
+$CMP MCP6562x-x-SN
+D Dual 1.8V Low-Power Push-Pull Output Comparator, SOIC-8
+K cmp
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6561-1R-1U-2-4-1.8V-Low-Power-Push-Pull-Output-Comparator-DS20002139E.pdf
 $ENDCMP
 #
-$CMP MCP6566R
+$CMP MCP6564x-x-SL
+D Quad 1.8V Low-Power Push-Pull Output Comparator, SOIC-14
+K cmp
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6561-1R-1U-2-4-1.8V-Low-Power-Push-Pull-Output-Comparator-DS20002139E.pdf
+$ENDCMP
+#
+$CMP MCP6564x-x-ST
+D Quad 1.8V Low-Power Push-Pull Output Comparator, TSSOP-14
+K cmp
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6561-1R-1U-2-4-1.8V-Low-Power-Push-Pull-Output-Comparator-DS20002139E.pdf
+$ENDCMP
+#
+$CMP MCP6566Rx-x-OT
 D Single 1.8V Low-Power Open-Drain Output Comparator, SOT-23-5
-K single comparator
+K cmp collector
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf
 $ENDCMP
 #
-$CMP MCP6566U
+$CMP MCP6566Ux-x-OT
 D Single 1.8V Low-Power Open-Drain Output Comparator, SOT-23-5
-K single comparator
+K cmp collector
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf
 $ENDCMP
 #
-$CMP MCP6567
-D Dual 1.8V Low-Power Open-Drain Output Comparator, SOIC-8/MSOP-8
-K dual comparator
+$CMP MCP6566x-x-LT
+D Single 1.8V Low-Power Open-Drain Output Comparator, SC-70-5
+K cmp collector
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf
 $ENDCMP
 #
-$CMP MCP6569
-D Quad 1.8V Low-Power Open-Drain Output Comparator, SOIC-14/TSSOP-14
-K quad comparator
+$CMP MCP6566x-x-OT
+D Single 1.8V Low-Power Open-Drain Output Comparator, SOT-23-5
+K cmp collector
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf
+$ENDCMP
+#
+$CMP MCP6567x-x-MS
+D Dual 1.8V Low-Power Open-Drain Output Comparator, MSOP-8
+K cmp collector
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf
+$ENDCMP
+#
+$CMP MCP6567x-x-SN
+D Dual 1.8V Low-Power Open-Drain Output Comparator, SOIC-8
+K cmp collector
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf
+$ENDCMP
+#
+$CMP MCP6569x-x-SL
+D Quad 1.8V Low-Power Open-Drain Output Comparator, SOIC-14
+K cmp collector
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf
+$ENDCMP
+#
+$CMP MCP6569x-x-ST
+D Quad 1.8V Low-Power Open-Drain Output Comparator, TSSOP-14
+K cmp collector
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf
 $ENDCMP
 #
@@ -260,37 +512,55 @@ $ENDCMP
 #
 $CMP MIC845H
 D Micro-Power Comparator / Battery Monitor, Active-High Push-Pull Output, SC-70-5
-K single comparator battery monitor
+K cmp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic845.pdf
 $ENDCMP
 #
 $CMP MIC845L
 D Micro-Power Comparator / Battery Monitor, Active-Low Push-Pull Output, SC-70-5
-K single comparator battery monitor
+K cmp
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic845.pdf
 $ENDCMP
 #
 $CMP MIC845N
 D Micro-Power Comparator / Battery Monitor, Active-High Open-Drain Output, SC-70-5
-K single comparator battery monitor
+K cmp collector
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic845.pdf
 $ENDCMP
 #
-$CMP TL3116
-D Single Ultra-Fast Low-Power Precision Comparators, SOIC-8/TSSOP-8
-K single comparator
+$CMP TL3116xD
+D Single Ultra-Fast Low-Power Precision Comparator, SOIC-8
+K cmp
+F http://www.ti.com/lit/ds/symlink/tl3116.pdf
+$ENDCMP
+#
+$CMP TL3116xPW
+D Single Ultra-Fast Low-Power Precision Comparator, TSSOP-8
+K cmp
 F http://www.ti.com/lit/ds/symlink/tl3116.pdf
 $ENDCMP
 #
 $CMP TLV7031DBV
-D Single, 1.6V-6.5V, 315nA Quiescent, Push-Pull Output, Comparator, SOT-23-5/SC-70
-K single comparator
+D Single Small-Size, Nanopower, Low-Voltage Comparator, SOT-23-5
+K cmp
+F https://www.ti.com/lit/ds/symlink/tlv7031.pdf
+$ENDCMP
+#
+$CMP TLV7031DCK
+D Single Small-Size, Nanopower, Low-Voltage Comparator, SC-70-5
+K cmp
 F https://www.ti.com/lit/ds/symlink/tlv7031.pdf
 $ENDCMP
 #
 $CMP TLV7041DBV
-D Single, 1.6V-6.5V, 315nA Quiescent, Open-Drain Output, Comparator, SOT-23-5/SC-70
-K single comparator
+D Single Small-Size, Nanopower, Low-Voltage Comparator, SOT-23-5
+K cmp open collector drain
+F https://www.ti.com/lit/ds/symlink/tlv7041.pdf
+$ENDCMP
+#
+$CMP TLV7041DCK
+D Single Small-Size, Nanopower, Low-Voltage Comparator, SC-70-5
+K cmp open collector drain
 F https://www.ti.com/lit/ds/symlink/tlv7041.pdf
 $ENDCMP
 #
