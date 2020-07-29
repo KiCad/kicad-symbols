@@ -24,6 +24,12 @@ K AHCMOS not inv
 F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf
 $ENDCMP
 #
+$CMP 74AHC240
+D 8-bit Buffer/Line Driver 3-state Inverting
+K AHCMOS BUFFER 3State inv
+F https://www.ti.com/lit/ds/symlink/sn54ahc240.pdf
+$ENDCMP
+#
 $CMP 74AHC244
 D 8-bit Buffer/Line Driver 3-state
 K AHCMOS BUFFER 3State
@@ -34,6 +40,12 @@ $CMP 74AHC273
 D 8-bit D Flip-Flop, reset
 K AHCMOS DFF DFF8
 F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT273.pdf
+$ENDCMP
+#
+$CMP 74AHC373
+D 8-bit Latch, 3-state outputs
+K AHCMOS REG DFF DFF8 LATCH
+F https://assets.nexperia.com/documents/data-sheet/74AHC373.pdf
 $ENDCMP
 #
 $CMP 74AHC374
@@ -60,6 +72,12 @@ K TTL monostable, multivibrator
 F http://www.ti.com/lit/gpn/sn74ahct123a
 $ENDCMP
 #
+$CMP 74AHCT240
+D 8-bit Buffer/Line Driver 3-state Inverting
+K AHCTMOS BUFFER 3State inv
+F https://assets.nexperia.com/documents/data-sheet/74AHCT240.pdf
+$ENDCMP
+#
 $CMP 74AHCT244
 D 8-bit Buffer/Line Driver 3-state
 K AHCTMOS BUFFER 3State
@@ -70,6 +88,12 @@ $CMP 74AHCT273
 D 8-bit D Flip-Flop, reset
 K AHCTMOS DFF DFF8
 F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT273.pdf
+$ENDCMP
+#
+$CMP 74AHCT373
+D 8-bit Latch, 3-state outputs
+K AHCTMOS REG DFF DFF8 LATCH
+F https://www.ti.com/lit/ds/symlink/sn74ahct373.pdf
 $ENDCMP
 #
 $CMP 74AHCT374
@@ -144,6 +168,12 @@ K 8-bit shift register
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf
 $ENDCMP
 #
+$CMP 74HC165
+D Shift Register, 8-bit, Parallel Load
+K 8 bit shift register parallel load cmos
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf
+$ENDCMP
+#
 $CMP 74HC237
 D 3-to-8 line decoder/multiplexer with address latches, DIP-16/SOIC-16/SSOP-16
 K demux
@@ -152,7 +182,7 @@ $ENDCMP
 #
 $CMP 74HC240
 D 8-bit Buffer/Line Driver 3-state Inverting
-K TTL BUFFER 3State inv
+K HCMOS BUFFER 3State inv
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT240.pdf
 $ENDCMP
 #
@@ -172,6 +202,12 @@ $CMP 74HC273
 D 8-bit D Flip-Flop, reset
 K HCMOS DFF DFF8
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT273.pdf
+$ENDCMP
+#
+$CMP 74HC373
+D 8-bit Latch, 3-state outputs
+K HCMOS REG DFF DFF8 LATCH
+F https://www.ti.com/lit/ds/symlink/cd54hc373.pdf
 $ENDCMP
 #
 $CMP 74HC374
@@ -284,7 +320,7 @@ $ENDCMP
 #
 $CMP 74HCT240
 D 8-bit buffer; 3-state; inverting
-K octal buffer line driver inverting
+K HCTMOS BUFFER 3State inv
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT240.pdf
 $ENDCMP
 #
@@ -298,6 +334,12 @@ $CMP 74HCT273
 D 8-bit D Flip-Flop, reset
 K HCTMOS DFF DFF8
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT273.pdf
+$ENDCMP
+#
+$CMP 74HCT373
+D 8-bit Latch, 3-state outputs
+K HCTMOS REG DFF DFF8 LATCH
+F https://www.ti.com/lit/ds/symlink/sn74hct373.pdf
 $ENDCMP
 #
 $CMP 74HCT374
@@ -633,7 +675,7 @@ $ENDCMP
 $CMP 74LS165
 D Shift Register 8-bit, parallel load
 K TTL SR SR8
-F http://www.ti.com/lit/gpn/sn74LS165
+F https://www.ti.com/lit/ds/symlink/sn74ls165a.pdf
 $ENDCMP
 #
 $CMP 74LS166
