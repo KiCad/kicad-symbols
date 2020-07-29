@@ -1398,16 +1398,16 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/opa356.pdf
 $ENDCMP
 #
-$CMP OPA365xB
+$CMP OPA365xxD
+D 50-MHz, Zero-Crossover, Low-Distortion, High CMRR, RRI/O, Single-Supply, SOIC-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/opa365.pdf
+$ENDCMP
+#
+$CMP OPA365xxDBV
 D 50-MHz, Zero-Crossover, Low-Distortion, High CMRR, RRI/O, Single-Supply, SOT-23-5
 K single opamp
 F https://www.ti.com/lit/ds/symlink/opa365.pdf
-$ENDCMP
-#
-$CMP OPA365xD
-D 50-MHz, Zerø-Crossover, Low-Distortion, High CMRR, RRI/O, Single-Supply, SOIC-8
-K single opamp
-F http://www.ti.com/lit/ds/symlink/opa365.pdf
 $ENDCMP
 #
 $CMP OPA376xxD
