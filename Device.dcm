@@ -786,6 +786,18 @@ K fuse
 F ~
 $ENDCMP
 #
+$CMP GDT_2pin
+D Gas Discharge Tube with 2 Pins
+K gdt
+F ~
+$ENDCMP
+#
+$CMP GDT_3pin
+D Gas Discharge Tube with 3 Pins
+K gdt
+F ~
+$ENDCMP
+#
 $CMP Galvanometer
 D Galvanometer
 K galvanometer
@@ -840,8 +852,26 @@ K LED diode
 F ~
 $ENDCMP
 #
+$CMP LED_ABGR
+D RGB LED, anode/blue/green/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP LED_ABRG
 D RGB LED, anode/blue/red/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_AGBR
+D RGB LED, anode/green/blue/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_AGRB
+D RGB LED, anode/green/red/blue
 K LED RGB diode
 F ~
 $ENDCMP
@@ -854,12 +884,18 @@ $ENDCMP
 #
 $CMP LED_ARBG
 D RGB LED, anode/red/blue/green
-K LED RGB Diode
+K LED RGB diode
 F ~
 $ENDCMP
 #
 $CMP LED_ARGB
 D RGB LED, anode/red/green/blue
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_BAGR
+D RGB LED, blue/anode/green/red
 K LED RGB diode
 F ~
 $ENDCMP
@@ -870,8 +906,92 @@ K LED RGB diode
 F ~
 $ENDCMP
 #
+$CMP LED_BCGR
+D RGB LED, blue/cathode/green/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_BCRG
+D RGB LED, blue/cathode/red/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_BGAR
+D RGB LED, blue/green/anode/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_BGCR
+D RGB LED, blue/green/cathode/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP LED_BGRA
 D RGB LED, blue/green/red/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_BGRC
+D RGB LED, blue/green/red/cathode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_BRAG
+D RGB LED, blue/red/anode/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_BRCG
+D RGB LED, blue/red/cathode/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_BRGA
+D RGB LED, blue/red/green/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_BRGC
+D RGB LED, blue/red/green/cathode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_CBGR
+D RGB LED, cathode/blue/green/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_CBRG
+D RGB LED, cathode/blue/red/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_CGBR
+D RGB LED, cathode/green/blue/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_CGRB
+D RGB LED, cathode/green/red/blue
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_CRBG
+D RGB LED, cathode/red/blue/green
 K LED RGB diode
 F ~
 $ENDCMP
@@ -930,6 +1050,78 @@ K LED diode bicolor dual
 F ~
 $ENDCMP
 #
+$CMP LED_GABR
+D RGB LED, green/anode/blue/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GARB
+D RGB LED, green/anode/red/blue
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GBAR
+D RGB LED, green/blue/anode/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GBCR
+D RGB LED, green/blue/cathode/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GBRA
+D RGB LED, green/blue/red/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GBRC
+D RGB LED, green/blue/red/cathode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GCBR
+D RGB LED, green/cathode/blue/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GCRB
+D RGB LED, green/cathode/red/blue
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GRAB
+D RGB LED, green/red/anode/blue
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GRBA
+D RGB LED, green/red/blue/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GRBC
+D RGB LED, green/red/blue/cathode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GRCB
+D RGB LED, green/red/cathode/blue
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP LED_PAD
 D Light emitting diode with pad
 K LED diode pad
@@ -948,6 +1140,30 @@ K LED RGB diode
 F ~
 $ENDCMP
 #
+$CMP LED_RBAG
+D RGB LED, red/blue/anode/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RBCG
+D RGB LED, red/blue/cathode/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RBGA
+D RGB LED, red/blue/green/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RBGC
+D RGB LED, red/blue/green/cathode
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP LED_RCBG
 D RGB LED, red/cathode/blue/green
 K LED RGB diode
@@ -956,6 +1172,12 @@ $ENDCMP
 #
 $CMP LED_RCGB
 D RGB LED, red/cathode/green/blue
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RGAB
+D RGB LED, red/green/anode/blue
 K LED RGB diode
 F ~
 $ENDCMP
@@ -974,6 +1196,12 @@ $ENDCMP
 #
 $CMP LED_RGBC
 D RGB LED, red/green/blue/cathode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RGCB
+D RGB LED, red/green/cathode/blue
 K LED RGB diode
 F ~
 $ENDCMP
