@@ -1338,6 +1338,12 @@ K N-Channel MOSFET
 F http://www.diodes.com/assets/Datasheets/DMG3418L.pdf
 $ENDCMP
 #
+$CMP DMG9926UDM
+D 4.2A Id, 20V Vds, Common-Drain, Dual N-Channel MOSFET, 28mOhm Ron, SOT-23-6
+K Dual N-Channel MOSFET Logic Level Common Drain
+F https://www.diodes.com/assets/Datasheets/ds31770.pdf
+$ENDCMP
+#
 $CMP DMN10H220L
 D 1.6A Id, 100V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
@@ -1507,6 +1513,12 @@ F http://www.fairchildsemi.com/ds/FD/FDG1024NZ.pdf
 $ENDCMP
 #
 $CMP FDG6335N
+D 0.7A Id, 20V Vds, Dual N-Channel MOSFET, 300mOhm Ron, SC-70-6
+K Dual N-Channel MOSFET
+F http://www.gneic.com/product/datasheet/FDG6335N-1122853.pdf
+$ENDCMP
+#
+$CMP FDG6335N_copy
 D 0.7A Id, 20V Vds, Dual N-Channel MOSFET, 300mOhm Ron, SC-70-6
 K Dual N-Channel MOSFET
 F http://www.gneic.com/product/datasheet/FDG6335N-1122853.pdf
