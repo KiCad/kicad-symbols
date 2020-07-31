@@ -1518,12 +1518,6 @@ K Dual N-Channel MOSFET
 F http://www.gneic.com/product/datasheet/FDG6335N-1122853.pdf
 $ENDCMP
 #
-$CMP FDG6335N_copy
-D 0.7A Id, 20V Vds, Dual N-Channel MOSFET, 300mOhm Ron, SC-70-6
-K Dual N-Channel MOSFET
-F http://www.gneic.com/product/datasheet/FDG6335N-1122853.pdf
-$ENDCMP
-#
 $CMP FDMC8032L
 D 7A Id, 40V Vds, Dual N-Channel MOSFET, 20mOhm Ron, Power33 Package
 K Dual N-Channel MOSFET
