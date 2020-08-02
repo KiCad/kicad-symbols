@@ -2377,152 +2377,152 @@ F https://www.infineon.com/dgdl/irf9383mpbf.pdf?fileId=5546d462533600a4015356116
 $ENDCMP
 #
 $CMP IRF9394M
-D -14A Id, -30V Vds, 6.5mOhm Rds, P-Channel MOSFET, DirectFET MC
-K P-Channel MOSFET
+D -14A Id, -30V Vds, 6.5mOhm Rds, Dual P-Channel MOSFET, DirectFET MC
+K Dual P-Channel MOSFET HEXFET
 F https://www.infineon.com/dgdl/irf9394mpbf.pdf?fileId=5546d462533600a4015356118ff01db5
 $ENDCMP
 #
 $CMP IRF9395M
-D -14A Id, -30V Vds, 7mOhm Rds, P-Channel MOSFET, DirectFET MC
-K P-Channel MOSFET
+D -14A Id, -30V Vds, 7mOhm Rds, P-Channel HEXFET Power MOSFET, DirectFET MC
+K P-Channel MOSFET HEXFET
 F https://www.infineon.com/dgdl/irf9395mpbf.pdf?fileId=5546d462533600a40153561198461db7
 $ENDCMP
 #
 $CMP IRF9540N
-D -23A Id, -100V Vds, HEXFET P-Channel MOSFET, TO-220
-K HEXFET P-Channel MOSFET
+D -23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220
+K P-Channel MOSFET HEXFET
 F http://www.irf.com/product-info/datasheets/data/irf9540n.pdf
 $ENDCMP
 #
 $CMP IRFI4019H
-D 8.7A Id, 150V Vds, 80mOhm, Dual Half Bridge N-Channel MOSFET, TO-220-5
-K Dual N-Channel MOSFET
+D 8.7A Id, 150V Vds, 80mOhm Rds, Dual Half Bridge N-Channel MOSFET, TO-220-5
+K Dual N-Channel MOSFET Half-Bridge
 F https://www.infineon.com/dgdl/irfi4019h-117p.pdf?fileId=5546d462533600a401535623d74d1f6f
 $ENDCMP
 #
 $CMP IRFI4020H
-D 9.1A Id, 200V Vds, 80mOhm, Dual Half Bridge N-Channel MOSFET, TO-220-5
-K Dual N-Channel MOSFET
+D 9.1A Id, 200V Vds, 80mOhm Rds, Dual Half Bridge N-Channel MOSFET, TO-220-5
+K Dual N-Channel MOSFET Half-Bridge
 F https://www.infineon.com/dgdl/irfi4020h-117p.pdf?fileId=5546d462533600a401535623e7271f73
 $ENDCMP
 #
 $CMP IRFI4212H
-D 11A Id, 100V Vds, 58mOhm, Dual Half Bridge N-Channel MOSFET, TO-220-5
-K Dual N-Channel MOSFET
+D 11A Id, 100V Vds, 58mOhm Rds, Dual Half Bridge N-Channel MOSFET, TO-220-5
+K Dual N-Channel MOSFET Half-Bridge
 F https://www.infineon.com/dgdl/irfi4212h-117p.pdf?fileId=5546d462533600a401535623fc841f7a
 $ENDCMP
 #
 $CMP IRFS4115
-D 99A Id, 150V Vds, N-Channel MOSFET, 10.3mOhm Ron, D2PAK
-K N-Channel MOSFET
+D 99A Id, 150V Vds, 10.3mOhm Rds, N-Channel HEXFET Power MOSFET, D2PAK
+K N-Channel HEXFET MOSFET
 F https://www.infineon.com/dgdl/irfs4115pbf.pdf?fileId=5546d462533600a401535636e5d2218f
 $ENDCMP
 #
 $CMP IRFS4127
-D 72A Id, 200V Vds, N-Channel MOSFET, 18.6mOhm Ron, D2PAK
+D 72A Id, 200V Vds, 18.6mOhm Rds, N-Channel MOSFET, 18.6mOhm Ron, D2PAK
 K N-Channel MOSFET
 F https://www.infineon.com/dgdl/irfs4127pbf.pdf?fileId=5546d462533600a401535636ee7b2192
 $ENDCMP
 #
 $CMP IRFS4227
-D 130A Id, 200V Vds, N-Channel MOSFET, 22mOhm Ron, D2PAK
+D 130A Id, 200V Vds, 22mOhm Rds, N-Channel MOSFET, D2PAK
 K N-Channel MOSFET
 F https://www.infineon.com/dgdl/irfs4227pbf.pdf?fileId=5546d462533600a401535639ef64219b
 $ENDCMP
 #
 $CMP IRFS4229
-D 91A Id, 250V Vds, N-Channel MOSFET, 42mOhm Ron, D2PAK
+D 91A Id, 250V Vds, 42mOhm Rds, N-Channel MOSFET, D2PAK
 K N-Channel MOSFET
 F https://www.infineon.com/dgdl/irfs4229pbf.pdf?fileId=5546d462533600a401535639fdc421a1
 $ENDCMP
 #
 $CMP IRFS4310Z
-D 120A Id, 100V Vds, N-Channel MOSFET, 4.8mOhm Ron, D2PAK
+D 120A Id, 100V Vds, 4.8mOhm Rds, N-Channel HEXFET Power MOSFET, D2PAK
 K N-Channel MOSFET
 F https://www.infineon.com/dgdl/irfb4310zpbf.pdf?fileId=5546d462533600a4015356161b4d1e2d
 $ENDCMP
 #
 $CMP IRFS4321
-D 85A Id, 150V Vds, N-Channel MOSFET, 12mOhm Ron, D2PAK
-K N-Channel MOSFET
+D 85A Id, 150V Vds, 12mOhm Rds, N-Channel HEXFET Power MOSFET, D2PAK
+K N-Channel MOSFET HEXFET
 F https://www.infineon.com/dgdl/irfs4321pbf.pdf?fileId=5546d462533600a40153563a20dd21ad
 $ENDCMP
 #
 $CMP IRL6283M
-D 38A Id, 20V Vds, 0.75mOhm Rds, N-Channel MOSFET, DirectFET MD
-K N-Channel MOSFET
+D 38A Id, 20V Vds, 0.75mOhm Rds, N-Channel HEXFET Power MOSFET, DirectFET MD
+K N-Channel HEXFET MOSFET IRFET
 F https://www.infineon.com/dgdl/irl6283mpbf.pdf?fileId=5546d462533600a40153565fe9452573
 $ENDCMP
 #
 $CMP IRL6297SD
-D 15A Id, 20V Vds, 4.9mOhm Rds, Dual N-Channel MOSFET, DirectFET SA
-K Dual N-Channel MOSFET
+D 15A Id, 20V Vds, 4.9mOhm Rds, Dual N-Channel HEXFET Power MOSFET, DirectFET SA
+K Dual N-Channel HEXFET MOSFET Logic-Level
 F https://www.infineon.com/dgdl/irl6297sdpbf.pdf?fileId=5546d462533600a40153565ff22f2575
 $ENDCMP
 #
 $CMP IRL7472L1
-D 375A Id, 40V Vds, 0.45mOhm Rds, N-Channel MOSFET, DirectFET L8
-K N-Channel MOSFET
+D 375A Id, 40V Vds, 0.45mOhm Rds, N-Channel HEXFET Power MOSFET, DirectFET L8
+K N-Channel HEXFET MOSFET Logic-Level IRFET
 F https://www.infineon.com/dgdl/Infineon-IRL7472L1-DS-v02_00-EN.pdf?fileId=5546d46254e133b401555d17178250d8
 $ENDCMP
 #
 $CMP IRLB8721PBF
-D 62A Id, 30V Vds, N-Channel MOSFET, TO-220
-K N-Channel HEXFET Power MOSFET
+D 62A Id, 30V Vds, 8.7 mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220
+K N-Channel HEXFET MOSFET Logic-Level
 F http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591
 $ENDCMP
 #
 $CMP IRLIZ44N
-D 30A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 22mOhm Ron, TO-220AB
-K Single N-Channel HEXFET Power MOSFET
+D 30A Id, 55V Vds, 22mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220AB
+K N-Channel HEXFET MOSFET Logic-Level
 F http://www.irf.com/product-info/datasheets/data/irliz44n.pdf
 $ENDCMP
 #
 $CMP IRLML0030
-D 5.3A Id, 30V Vds, N-Channel HEXFET Power MOSFET, 27mOhm Rds, SOT-23
-K N-Channel HEXFET Power MOSFET
+D 5.3A Id, 30V Vds, 27mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23
+K N-Channel HEXFET MOSFET Logic-Level
 F https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df
 $ENDCMP
 #
 $CMP IRLML2060
-D 1.2A Id, 60V Vds, N-Channel MOSFET, 480mOhm Rds, SOT-23
-K N-Channel MOSFET
+D 1.2A Id, 60V Vds, 480mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23
+K N-Channel HEXFET MOSFET Logic-Level
 F https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee
 $ENDCMP
 #
 $CMP IRLML5203
-D -3.0A Id, -30V Vds, P-Channel HEXFET Power MOSFET, 98mOhm Rds, SOT-23
-K P-Channel MOSFET
+D -3.0A Id, -30V Vds, 98mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23
+K P-Channel HEXFET MOSFET Logic-Level
 F https://www.infineon.com/dgdl/irlml5203pbf.pdf?fileId=5546d462533600a40153566868da261d
 $ENDCMP
 #
 $CMP IRLML6401
-D -4.3A Id, -12V Vds, P-Channel HEXFET Power MOSFET, 50mOhm Rds, SOT-23
-K P-Channel MOSFET
+D -4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23
+K P-Channel HEXFET MOSFET Logic-Level
 F https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c
 $ENDCMP
 #
 $CMP IRLML6402
-D -3.7A Id, -20V Vds, P-Channel HEXFET Power MOSFET, 65mOhm Rds, SOT-23
-K P-Channel MOSFET
+D -3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23
+K P-Channel HEXFET MOSFET Logic-Level
 F https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c
 $ENDCMP
 #
 $CMP IRLML9301
-D -3.6A Id, -30V Vds, P-Channel HEXFET Power MOSFET, 64mOhm Rds, SOT-23
-K P-Channel MOSFET
+D -3.6A Id, -30V Vds, 64mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23
+K P-Channel HEXFET MOSFET Logic-Level
 F https://www.infineon.com/dgdl/irlml9301pbf.pdf?fileId=5546d462533600a401535668e5e42640
 $ENDCMP
 #
 $CMP IRLZ34N
-D 30A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 35mOhm Ron, TO-220AB
-K Single N-Channel HEXFET Power MOSFET
+D 30A Id, 55V Vds, 35mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220AB
+K N-Channel HEXFET MOSFET Logic-Level
 F http://www.infineon.com/dgdl/irlz34npbf.pdf?fileId=5546d462533600a40153567206892720
 $ENDCMP
 #
 $CMP IRLZ44N
-D 47A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 22mOhm Ron, TO-220AB
-K Single N-Channel HEXFET Power MOSFET
+D 47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB
+K N-Channel HEXFET MOSFET Logic-Level
 F http://www.irf.com/product-info/datasheets/data/irlz44n.pdf
 $ENDCMP
 #
