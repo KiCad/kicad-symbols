@@ -1609,37 +1609,37 @@ F https://www.fairchildsemi.com/datasheets/FD/FDMS86550ET60.pdf
 $ENDCMP
 #
 $CMP FDMT800100DC
-D 24A Id, 100V Vds, N-Channel Dual Cool PowerTrench MOSFET, 2.95mOhm Ron, 111nC Qgmax, -55 to 150 °C, 5x6mm SON8
+D 24A Id, 100V Vds, N-Channel Dual Cool PowerTrench MOSFET, 2.95mOhm Ron, 111nC Qgmax, -55 to 150 °C, 8x8mm MLP
 K dual-cool-powertrench MOSFET fairchild
 F https://www.fairchildsemi.com/datasheets/FD/FDMT800100DC.pdf
 $ENDCMP
 #
 $CMP FDMT800120DC
-D 20A Id, 120V Vds, N-Channel Dual cool 88 PowerTrench MOSFET, 4.2mOhm Ron, 107nC Qgmax, -55 to 150 °C, 5x6mm SON8
+D 20A Id, 120V Vds, N-Channel Dual cool 88 PowerTrench MOSFET, 4.2mOhm Ron, 107nC Qgmax, -55 to 150 °C, 8x8mm MLP
 K dual-cool-powertrench MOSFET fairchild
 F https://www.fairchildsemi.com/datasheets/FD/FDMT800120DC.pdf
 $ENDCMP
 #
 $CMP FDMT800150DC
-D 15A Id, 150V Vds, N-Channel Dual cool PowerTrench MOSFET, 6.5mOhm Ron, 108nC Qgmax, -55 to 150 °C, 5x6mm SON8
+D 15A Id, 150V Vds, N-Channel Dual cool PowerTrench MOSFET, 6.5mOhm Ron, 108nC Qgmax, -55 to 150 °C, 8x8mm MLP
 K dual-cool-powertrench MOSFET fairchild
 F https://www.fairchildsemi.com/datasheets/FD/FDMT800150DC.pdf
 $ENDCMP
 #
 $CMP FDMT800152DC
-D 13A Id, 150V Vds, N-Channel Dual Cool PowerTrench MOSFET, 9.0mOhm Ron, 83nC Qgmax, -55 to 150 °C, 5x6mm SON8
+D 13A Id, 150V Vds, N-Channel Dual Cool PowerTrench MOSFET, 9.0mOhm Ron, 83nC Qgmax, -55 to 150 °C, 8x8mm MLP
 K dual-cool-powertrench MOSFET fairchild
 F https://www.fairchildsemi.com/datasheets/FD/FDMT800152DC.pdf
 $ENDCMP
 #
 $CMP FDMT80060DC
-D 43A Id, 60V Vds, N-Channel Dual Cool PowerTrench MOSFET, 1.1mOhm Ron, 238nC Qgmax, -55 to 150 °C, 5x6mm SON8
-K dual-cool-powertrench MOSFET fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMT80060DC.pdf
+D 43A Id, 60V Vds, PowerTrench N-Channel Power MOSFET, 6.9mOhm Ron, Qg (typ) 7.9nC 8x8mm MLP
+K PowerTrench Power MOSFET N-MOS
+F https://www.onsemi.com/pub/Collateral/FDMT80060DC-D.pdf
 $ENDCMP
 #
 $CMP FDMT80080DC
-D 36A Id, 80V Vds, N-Channel Dual Cool PowerTrench MOSFET, 1.35mOhm Ron, 273nC Qgmax, -55 to 150 °C, 5x6mm SON8
+D 36A Id, 80V Vds, N-Channel Dual Cool PowerTrench MOSFET, 1.35mOhm Ron, 273nC Qgmax, -55 to 150 °C, 8x8mm MLP
 K dual-cool-powertrench MOSFET fairchild
 F https://www.fairchildsemi.com/datasheets/FD/FDMT80080DC.pdf
 $ENDCMP
