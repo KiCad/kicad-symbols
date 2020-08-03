@@ -12,6 +12,12 @@ K Bluetooth BLE BT GAP SPP SDP RFCOMM L2CAP GATT ATT SMP L2CAP
 F http://ww1.microchip.com/downloads/en/DeviceDoc/60001380C.pdf
 $ENDCMP
 #
+$CMP BM78SPPS5NC2
+D Bluetooth Dual-Mode, UART, Class 2
+K Bluetooth BLE BT GAP SPP SDP RFCOMM L2CAP GATT ATT SMP L2CAP
+F http://ww1.microchip.com/downloads/en/DeviceDoc/60001380C.pdf
+$ENDCMP
+#
 $CMP BTM112
 D Bluetooth SPP Module, UART, Class 2
 K Bluetooth BT SPP Module
