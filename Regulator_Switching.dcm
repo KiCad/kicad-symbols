@@ -738,6 +738,18 @@ K DC/DC Buck Converter 3A
 F http://www.ti.com/lit/ds/symlink/lm22676.pdf
 $ENDCMP
 #
+$CMP LM22678TJ-5
+D 5A Step-Down Switching Voltage Regulater, 4.5-42V Input, 5V Output, 500kHz Switching Frequency, TO-263
+K DC/DC Buck Converter 5A
+F https://www.ti.com/lit/ds/symlink/lm22678.pdf
+$ENDCMP
+#
+$CMP LM22678TJ-ADJ
+D 5A Step-Down Switching Voltage Regulater, 4.5-42V Input, Adjustable Output, 500kHz Switching Frequency, TO-263
+K DC/DC Buck Converter 5A
+F https://www.ti.com/lit/ds/symlink/lm22678.pdf
+$ENDCMP
+#
 $CMP LM25085MM
 D 42V Constant On-Time PFET Buck Switching Controller, MSOP-8
 K buck switching contoller
@@ -1242,6 +1254,12 @@ K Step-Down Voltage Regulator Adjustable 3A
 F http://www.ti.com/lit/ds/symlink/lm2596.pdf
 $ENDCMP
 #
+$CMP LM2611xMF
+D 1.4MHz Cuk Converter, SOT-23-5
+K switched converter inverter PWM
+F https://www.ti.com/lit/ds/symlink/lm2611.pdf
+$ENDCMP
+#
 $CMP LM26480SQ
 D Dual 1.5A 2MHz Buck Regulators and Dual 300mA LDOs, WQFN-24
 K Dual Buck Regulator LDO 2MHz 1.5A 300mA
@@ -1690,6 +1708,36 @@ $CMP LMR16006YQ5
 D Simple Switcher Buck Regulator, Vin=4-40V, Iout=600mA, Fixed 5.0V output voltage, SOT-23-6 package
 K simple-switcher buck step-down voltage-regulator
 F http://www.ti.com/lit/ds/symlink/lmr16006y-q1.pdf
+$ENDCMP
+#
+$CMP LMR33610ADDAR
+D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=1A, F=400kHz, Adjustable output voltage, HSOP-8
+K simple-switcher synchronous buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr33610.pdf
+$ENDCMP
+#
+$CMP LMR33610BDDAR
+D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=1A, F=1400kHz, Adjustable output voltage, HSOP-8
+K simple-switcher synchronous buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr33610.pdf
+$ENDCMP
+#
+$CMP LMR33620ADDA
+D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=2A, F=400kHz, Adjustable output voltage, HSOP-8
+K simple-switcher synchronous buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr33620.pdf
+$ENDCMP
+#
+$CMP LMR33620BDDA
+D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=2A, F=1400kHz, Adjustable output voltage, HSOP-8
+K simple-switcher synchronous buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr33620.pdf
+$ENDCMP
+#
+$CMP LMR33620CDDA
+D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=2A, F=2100kHz, Adjustable output voltage, HSOP-8
+K simple-switcher synchronous buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr33640.pdf
 $ENDCMP
 #
 $CMP LMR33630ADDA
@@ -3258,6 +3306,12 @@ K boost switching voltage converter regulator
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2290.pdf
 $ENDCMP
 #
+$CMP MIC4684
+D 2A, 200kHz SuperSwitcher Buck Regulator, 4-30V Input Voltage, Adjustable Output Voltage, SO-8
+K regulator switching adjustable
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MIC4684.pdf
+$ENDCMP
+#
 $CMP MIC4690
 D 1A, 500kHz SuperSwitcher Buck Regulator, 4-34V Input Voltage, Adjustable Output Voltage, SO-8
 K regulator switching adjustable
@@ -3748,6 +3802,24 @@ $CMP NXE2S1215MC
 D 2W 12V to 15V 400mA DC-DC Converter with 3kV isolation
 K isolated isolation dc-dc converter transformer
 F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
+$ENDCMP
+#
+$CMP PAM2301CAAB120
+D 800mA, Step-Down DC/DC-Converter, 1.2V Fixed Output Voltage, 1.5MHz, TSOT-23-5
+K Voltage regulator switching buck fixed output analog
+F https://www.diodes.com/assets/Datasheets/products_inactive_data/PAM2301.pdf
+$ENDCMP
+#
+$CMP PAM2301CAAB330
+D 800mA, Step-Down DC/DC-Converter, 3.3V Fixed Output Voltage, 1.5MHz, TSOT-23-5
+K Voltage regulator switching buck fixed output analog
+F https://www.diodes.com/assets/Datasheets/products_inactive_data/PAM2301.pdf
+$ENDCMP
+#
+$CMP PAM2301CAABADJ
+D 800mA, Step-Down DC/DC-Converter, Adjustable Output Voltage, 1.5MHz, TSOT-23-5
+K Voltage regulator switching buck fixed output analog
+F https://www.diodes.com/assets/Datasheets/products_inactive_data/PAM2301.pdf
 $ENDCMP
 #
 $CMP PAM2305AAB120
@@ -5598,6 +5670,12 @@ K step-down dcdc voltage regulator
 F http://www.ti.com/lit/ds/symlink/tps563200.pdf
 $ENDCMP
 #
+$CMP TPS56339DDC
+D 4.5V to 24V Input, 3-A Output Synchronous Buck Converter, SOT-23-6
+K step-down dcdc voltage regulator
+F https://www.ti.com/lit/ds/symlink/tps56339.pdf
+$ENDCMP
+#
 $CMP TPS565208
 D 5A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6
 K step-down dcdc voltage regulator
@@ -5710,6 +5788,90 @@ $CMP TPS61252DSG
 D Tiny 1.5-A Boost Converter With Adjustable Input Current Limit, 2.3-6.0V Vin, 3.0-6.5V Vout, WSON-8
 K boost converter switching
 F http://www.ti.com/lit/ds/symlink/tps61252.pdf
+$ENDCMP
+#
+$CMP TPS613221ADBV
+D 1.2A Step-Up Converter, 3.3V Output Voltage, 0.9-5.5V Input Voltage, SOT-23-5
+K Boost converter
+F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS613221ADBZ
+D 1.2A Step-Up Converter, 3.3V Output Voltage, 0.9-5.5V Input Voltage, SOT-23
+K Boost converter
+F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS613222ADBV
+D 1.8A Step-Up Converter, 5V Output Voltage, 0.9-5.5V Input Voltage, SOT-23-5
+K Boost converter
+F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS613222ADBZ
+D 1.8A Step-Up Converter, 5V Output Voltage, 0.9-5.5V Input Voltage, SOT-23
+K Boost converter
+F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS613223ADBV
+D 750mA Step-Up Converter, 2V Output Voltage, 0.9-5.5V Input Voltage, SOT-23-5
+K Boost converter
+F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS613223ADBZ
+D 750mA Step-Up Converter, 2V Output Voltage, 0.9-5.5V Input Voltage, SOT-23
+K Boost converter
+F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS613224ADBV
+D 750mA Step-Up Converter, 2.5V Output Voltage, 0.9-5.5V Input Voltage, SOT-23-5
+K Boost converter
+F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS613224ADBZ
+D 750mA Step-Up Converter, 2.5V Output Voltage, 0.9-5.5V Input Voltage, SOT-23
+K Boost converter
+F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS613225ADBV
+D 1.2A Step-Up Converter, 3V Output Voltage, 0.9-5.5V Input Voltage, SOT-23-5
+K Boost converter
+F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS613225ADBZ
+D 1.2A Step-Up Converter, 3V Output Voltage, 0.9-5.5V Input Voltage, SOT-23
+K Boost converter
+F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS613226ADBV
+D 1.2A Step-Up Converter, 3.6V Output Voltage, 0.9-5.5V Input Voltage, SOT-23-5
+K Boost converter
+F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS613226ADBZ
+D 1.2A Step-Up Converter, 3.6V Output Voltage, 0.9-5.5V Input Voltage, SOT-23
+K Boost converter
+F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS61322DBZ
+D 750mA Step-Up Converter, 2.2V Output Voltage, 0.9-5.5V Input Voltage, SOT-23
+K Boost converter
+F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS62056DGS
+D 800 mA Step-Down Converter, Adjustable Output Voltage, 0.7-6V Input Voltage, VSSOP-10
+K voltage regulator switch mode step down
+F http://www.ti.com/lit/ds/symlink/tps62056.pdf
 $ENDCMP
 #
 $CMP TPS62125DSG
