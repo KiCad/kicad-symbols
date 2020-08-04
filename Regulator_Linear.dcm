@@ -6480,9 +6480,21 @@ K LDO Voltage Regulator 200mA
 F http://www.ti.com/lit/ds/symlink/tps79333-ep.pdf
 $ENDCMP
 #
-$CMP TPS7A16xxDGN
+$CMP TPS7A1601DGN
 D 100mA, Low-Dropout Voltage Regulator, 60V Input Voltage, Adjustable Output, 8-HVSSOP
 K linear regulator adjustable wide vin
+F http://www.ti.com/lit/ds/sbvs171f/sbvs171f.pdf
+$ENDCMP
+#
+$CMP TPS7A1605DGN
+D 100mA, Low-Dropout Voltage Regulator, 60V Input Voltage, 5V Fixed Output, 8-HVSSOP
+K linear regulator fixed wide vin
+F http://www.ti.com/lit/ds/sbvs171f/sbvs171f.pdf
+$ENDCMP
+#
+$CMP TPS7A1633DGN
+D 100mA, Low-Dropout Voltage Regulator, 60V Input Voltage, 3.3V Fixed Output, 8-HVSSOP
+K linear regulator fixed wide vin
 F http://www.ti.com/lit/ds/sbvs171f/sbvs171f.pdf
 $ENDCMP
 #
