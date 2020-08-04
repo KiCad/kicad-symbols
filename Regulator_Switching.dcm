@@ -1242,6 +1242,12 @@ K Step-Down Voltage Regulator Adjustable 3A
 F http://www.ti.com/lit/ds/symlink/lm2596.pdf
 $ENDCMP
 #
+$CMP LM2611xMF
+D 1.4MHz Cuk Converter, SOT-23-5
+K switched converter inverter PWM
+F https://www.ti.com/lit/ds/symlink/lm2611.pdf
+$ENDCMP
+#
 $CMP LM26480SQ
 D Dual 1.5A 2MHz Buck Regulators and Dual 300mA LDOs, WQFN-24
 K Dual Buck Regulator LDO 2MHz 1.5A 300mA
@@ -3286,6 +3292,12 @@ $CMP MIC2290
 D 1.2 Mhz PWM Boost Regulator with Internal Schotty Diode, MLF-8
 K boost switching voltage converter regulator
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2290.pdf
+$ENDCMP
+#
+$CMP MIC4684
+D 2A, 200kHz SuperSwitcher Buck Regulator, 4-30V Input Voltage, Adjustable Output Voltage, SO-8
+K regulator switching adjustable
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MIC4684.pdf
 $ENDCMP
 #
 $CMP MIC4690
@@ -5766,12 +5778,6 @@ K boost converter switching
 F http://www.ti.com/lit/ds/symlink/tps61252.pdf
 $ENDCMP
 #
-$CMP TPS62056DGS
-D 800 mA Step-Down Converter, Adjustable Output Voltage, 0.7-6V Input Voltage, VSSOP-10
-K voltage regulator switch mode step down
-F http://www.ti.com/lit/ds/symlink/tps62056.pdf
-$ENDCMP
-#
 $CMP TPS613221ADBV
 D 1.2A Step-Up Converter, 3.3V Output Voltage, 0.9-5.5V Input Voltage, SOT-23-5
 K Boost converter
@@ -5848,6 +5854,12 @@ $CMP TPS61322DBZ
 D 750mA Step-Up Converter, 2.2V Output Voltage, 0.9-5.5V Input Voltage, SOT-23
 K Boost converter
 F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS62056DGS
+D 800 mA Step-Down Converter, Adjustable Output Voltage, 0.7-6V Input Voltage, VSSOP-10
+K voltage regulator switch mode step down
+F http://www.ti.com/lit/ds/symlink/tps62056.pdf
 $ENDCMP
 #
 $CMP TPS62125DSG
