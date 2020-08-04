@@ -93,6 +93,12 @@ K PCIe2.0 SATA3.0
 F https://www.marvell.com/documents/bqcwxsoiqfjkcjdjhkvc/
 $ENDCMP
 #
+$CMP AD9833xRM
+D 10 bit 25 MHz Programmable Waveform Generator, 2.3V to 5.5V, 12.65mW, MSOP-10
+K Direct Digital Synthesizer DDS
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ad9833.pdf
+$ENDCMP
+#
 $CMP AD9834
 D 10 bit 75 MHz Complete Direct Digital Synthesizer, 2.3V to 5.5V, 20mW, TSSOP-20
 K Direct Digital Synthesizer DDS

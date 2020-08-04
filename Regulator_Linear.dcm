@@ -2190,6 +2190,24 @@ K 150mA LDO Regulator Fixed Positive
 F http://www.st.com/resource/en/datasheet/ld39015.pdf
 $ENDCMP
 #
+$CMP LD39150DT18
+D 1.5A Ultra Low Dropout regulator, positive, 1.8V fixed output, TO-252
+K linear regulator ldo fixed positive
+F https://www.st.com/resource/en/datasheet/ld39150.pdf
+$ENDCMP
+#
+$CMP LD39150DT25
+D 1.5A Ultra Low Dropout regulator, positive, 2.5V fixed output, TO-252
+K linear regulator ldo fixed positive
+F https://www.st.com/resource/en/datasheet/ld39150.pdf
+$ENDCMP
+#
+$CMP LD39150DT33
+D 1.5A Ultra Low Dropout regulator, positive, 3.3V fixed output, TO-252
+K linear regulator ldo fixed positive
+F https://www.st.com/resource/en/datasheet/ld39150.pdf
+$ENDCMP
+#
 $CMP LD3985G122R_TSOT23
 D 150mA Low Dropout Voltage Regulator, Fixed Output 1.22V, TSOT-23-5
 K 150mA LDO Regulator Fixed Positive
