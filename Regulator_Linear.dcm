@@ -5070,6 +5070,12 @@ K Regulator LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
 $ENDCMP
 #
+$CMP MCP1802x-1202xOT
+D 300mA, 10V LDO Regulator With Shutdown, 1.2V Fixed Output, SOT-23-5
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22053C.pdf
+$ENDCMP
+#
 $CMP MCP1804x-1802xDB
 D 150mA, 28V LDO Regulator With Shutdown, 1.8V Fixed Output, SOT-223
 K linear regulator ldo fixed positive
