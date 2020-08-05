@@ -36,4 +36,10 @@ K MCU, ARM, BLE, ANT, 2.4GHz, 802.15.4
 F http://infocenter.nordicsemi.com/topic/com.nordic.infocenter.nrf52/dita/nrf52/chips/nrf52840.html
 $ENDCMP
 #
+$CMP nRF52820-QDAA
+D Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4 SoC, QFN-40
+K MCU, ARM, BLE, ANT, 2.4GHz, 802.15.4
+F https://infocenter.nordicsemi.com/pdf/nRF52820_PS_v1.0.pdf
+$ENDCMP
+#
 #End Doc Library
