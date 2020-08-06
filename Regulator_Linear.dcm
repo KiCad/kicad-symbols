@@ -1356,6 +1356,48 @@ K 300mA LDO Regulator Fixed Positive
 F http://www.tme.eu/fr/Document/ced3461ed31ea70a3c416fb648e0cde7/APE8865-3.pdf
 $ENDCMP
 #
+$CMP AZ1084-1.2
+D 5A 12V Fixed LDO Linear Regulator, 1.2V, TO-220/TO-252/TO-263
+K Fixed Voltage Regulator 5A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1084.pdf
+$ENDCMP
+#
+$CMP AZ1084-1.5
+D 5A 12V Fixed LDO Linear Regulator, 1.5V, TO-220/TO-252/TO-263
+K Fixed Voltage Regulator 5A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1084.pdf
+$ENDCMP
+#
+$CMP AZ1084-1.8
+D 5A 12V Fixed LDO Linear Regulator, 1.5V, TO-220/TO-252/TO-263
+K Fixed Voltage Regulator 5A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1084.pdf
+$ENDCMP
+#
+$CMP AZ1084-2.5
+D 5A 12V Fixed LDO Linear Regulator, 1.5V, TO-220/TO-252/TO-263
+K Fixed Voltage Regulator 5A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1084.pdf
+$ENDCMP
+#
+$CMP AZ1084-2.85
+D 5A 12V Fixed LDO Linear Regulator, 1.5V, TO-220/TO-252/TO-263
+K Fixed Voltage Regulator 5A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1084.pdf
+$ENDCMP
+#
+$CMP AZ1084-3.3
+D 5A 12V Fixed LDO Linear Regulator, 1.5V, TO-220/TO-252/TO-263
+K Fixed Voltage Regulator 5A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1084.pdf
+$ENDCMP
+#
+$CMP AZ1084-5.0
+D 5A 12V Fixed LDO Linear Regulator, 1.5V, TO-220/TO-252/TO-263
+K Fixed Voltage Regulator 5A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1084.pdf
+$ENDCMP
+#
 $CMP AZ1117-1.2
 D 1A 20V Fixed LDO Linear Regulator, 1.2V, SOT-89/SOT-223/TO-220/TO-252/TO-263
 K Fixed Voltage Regulator 1A Positive LDO
@@ -2188,6 +2230,24 @@ $CMP LD39015M33R
 D 150mA low quiescent current low noise voltage regulator, Fixed Output 3.3V, SOT-23-5
 K 150mA LDO Regulator Fixed Positive
 F http://www.st.com/resource/en/datasheet/ld39015.pdf
+$ENDCMP
+#
+$CMP LD39150DT18
+D 1.5A Ultra Low Dropout regulator, positive, 1.8V fixed output, TO-252
+K linear regulator ldo fixed positive
+F https://www.st.com/resource/en/datasheet/ld39150.pdf
+$ENDCMP
+#
+$CMP LD39150DT25
+D 1.5A Ultra Low Dropout regulator, positive, 2.5V fixed output, TO-252
+K linear regulator ldo fixed positive
+F https://www.st.com/resource/en/datasheet/ld39150.pdf
+$ENDCMP
+#
+$CMP LD39150DT33
+D 1.5A Ultra Low Dropout regulator, positive, 3.3V fixed output, TO-252
+K linear regulator ldo fixed positive
+F https://www.st.com/resource/en/datasheet/ld39150.pdf
 $ENDCMP
 #
 $CMP LD3985G122R_TSOT23
@@ -5052,6 +5112,12 @@ K Regulator LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
 $ENDCMP
 #
+$CMP MCP1802x-xx02xOT
+D 150mA, Tiny CMOS LDO With Shutdown, Fixed Voltage, SOT-23-5
+K LDO Linear Voltage Regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22053C.pdf
+$ENDCMP
+#
 $CMP MCP1804x-1802xDB
 D 150mA, 28V LDO Regulator With Shutdown, 1.8V Fixed Output, SOT-223
 K linear regulator ldo fixed positive
@@ -7674,6 +7740,72 @@ K LDO Voltage Regulator 200mA
 F http://www.ti.com/lit/ds/symlink/tps79333-ep.pdf
 $ENDCMP
 #
+$CMP TPS7A0508PDBV
+D 200-mA Ultra-Low-Iq LDO, 0.8V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A0510PDBV
+D 200-mA Ultra-Low-Iq LDO, 1.0V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A0512PDBV
+D 200-mA Ultra-Low-Iq LDO, 1.2V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A0515PDBV
+D 200-mA Ultra-Low-Iq LDO, 1.5V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A0518PDBV
+D 200-mA Ultra-Low-Iq LDO, 1.8V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A0522PDBV
+D 200-mA Ultra-Low-Iq LDO, 2.2V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A0525PDBV
+D 200-mA Ultra-Low-Iq LDO, 2.5V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A05285PDBV
+D 200-mA Ultra-Low-Iq LDO, 2.85V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A0530PDBV
+D 200-mA Ultra-Low-Iq LDO, 3.0V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A0531PDBV
+D 200-mA Ultra-Low-Iq LDO, 3.1V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A0533PDBV
+D 200-mA Ultra-Low-Iq LDO, 3.3V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
 $CMP TPS7A7001DDA
 D 2A, Low-Dropout Voltage Regulator, 1.425-6.5V Input, Adjustable Min 0.5V Output, PowerPad SO-8
 K ldo regulator voltage linear
@@ -7702,6 +7834,12 @@ $CMP XC6206PxxxMR
 D Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23
 K Torex LDO Voltage Regulator Fixed Positive
 F https://www.torexsemi.com/file/xc6206/XC6206.pdf
+$ENDCMP
+#
+$CMP XC6210B332MR
+D 700mA, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-23-5
+K LDO Voltage Regulator 700mA
+F https://www.torexsemi.com/file/xc6210/XC6210.pdf
 $ENDCMP
 #
 $CMP XC6220B331MR

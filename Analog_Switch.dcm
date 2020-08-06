@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADG1408YRUZ
+D 8-channel iCMOS analog multiplexer, 4.7 Ohm Ron, 60 MHz, TSSOP-16
+K analog switch  multiplexer SP8T
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG1408_1409.pdf
+$ENDCMP
+#
 $CMP ADG1414BRU
 D ±15V, +12V, ±5V, 9.5 Ohm on resistance, iCMOS Serially-Controlled Octal SPST Switches, TSSOP-24
 K SPI SPST Analog Switches
