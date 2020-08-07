@@ -78,4 +78,10 @@ K simulation
 F ~
 $ENDCMP
 #
+$CMP GSOURCE
+D Voltage-dependent Current source symbol for simulation only
+K simulation
+F https://www.pspice.com/source/controlled-sources
+$ENDCMP
+#
 #End Doc Library
