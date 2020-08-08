@@ -1339,8 +1339,8 @@ F http://www.diodes.com/assets/Datasheets/DMG3418L.pdf
 $ENDCMP
 #
 $CMP DMG9926UDM
-D 4.2A Id, 20V Vds, Common-Drain, Dual N-Channel MOSFET, 28mOhm Ron, SOT-23-6
-K Dual N-Channel MOSFET Logic Level Common Drain
+D 4.2A Id, 20V Vds, Common-Drain, Dual Half Bridge N-Channel MOSFET, 28mOhm Ron, SOT-23-6
+K Dual Half Bridge N-Channel MOSFET Logic Level Common Drain
 F https://www.diodes.com/assets/Datasheets/ds31770.pdf
 $ENDCMP
 #
