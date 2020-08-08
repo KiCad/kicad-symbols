@@ -377,7 +377,7 @@ F2 "Diode_THT:Diode_Bridge_Comchip_SCVB-L" 0 -500 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS SC35VB160S-G
 $FPLIST
- Diode*Bridge*Comchip*SCVB-L*
+ Diode*Bridge*Comchip*SCVB?L*
 $ENDFPLIST
 DRAW
 C -200 100 10 1 1 0 F
