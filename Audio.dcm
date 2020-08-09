@@ -384,6 +384,24 @@ K audio dac 2ch 24bit 96kHz
 F http://www.nxp.com/docs/en/data-sheet/UDA1334ATS.pdf
 $ENDCMP
 #
+$CMP WM8731CLSEFL
+D Portable Internet Audio CODEC with Headphone Driver and Programmable Sample Rates, QFN-28
+K wolfson stereo audio codec adc dac headphone
+F https://statics.cirrus.com/pubs/proDatasheet/WM8731_v4.9.pdf
+$ENDCMP
+#
+$CMP WM8731CSEFL
+D Portable Internet Audio CODEC with Headphone Driver and Programmable Sample Rates, QFN-28
+K wolfson stereo audio codec adc dac headphone
+F https://statics.cirrus.com/pubs/proDatasheet/WM8731_v4.9.pdf
+$ENDCMP
+#
+$CMP WM8731SEDS
+D Portable Internet Audio CODEC with Headphone Driver and Programmable Sample Rates, SSOP-28
+K wolfson stereo audio codec adc dac headphone
+F https://statics.cirrus.com/pubs/proDatasheet/WM8731_v4.9.pdf
+$ENDCMP
+#
 $CMP YM2149
 D Software-Controlled Sound Generator, DIP-40
 K audio ssg 3ch
