@@ -564,6 +564,54 @@ K Nonvolatile, RAM, Controller, Battery, Power
 F https://datasheets.maximintegrated.com/en/ds/DS1210.pdf
 $ENDCMP
 #
+$CMP FPF2000
+D Single power-distribution switcher, current limit = 50mA, blanking time = 10 ms, auto-restart time = 80 ms, ON Pin Polarity = HIGH, SOT-353
+K 1-chanel power-distribution USB
+F https://www.onsemi.com/pub/Collateral/FPF2001-D.pdf
+$ENDCMP
+#
+$CMP FPF2001
+D Single power-distribution switcher, current limit = 50mA, blanking time = 10 ms, auto-restart time = 80 ms, ON Pin Polarity = LOW, SOT-353
+K 1-chanel power-distribution USB
+F https://www.onsemi.com/pub/Collateral/FPF2001-D.pdf
+$ENDCMP
+#
+$CMP FPF2002
+D Single power-distribution switcher, current limit = 50mA, blanking time = 10 ms, w/o auto-restart, ON Pin Polarity = HIGH, SOT-353
+K 1-chanel power-distribution USB
+F https://www.onsemi.com/pub/Collateral/FPF2001-D.pdf
+$ENDCMP
+#
+$CMP FPF2003
+D Single power-distribution switcher, current limit = 50mA, blanking time = 0 ms, w/o auto-restart, ON Pin Polarity = HIGH, SOT-353
+K 1-chanel power-distribution USB
+F https://www.onsemi.com/pub/Collateral/FPF2001-D.pdf
+$ENDCMP
+#
+$CMP FPF2004
+D Single power-distribution switcher, current limit = 100mA, blanking time = 10 ms, auto-restart time = 80 ms, ON Pin Polarity = HIGH, SOT-353
+K 1-chanel power-distribution USB
+F https://www.onsemi.com/pub/Collateral/FPF2001-D.pdf
+$ENDCMP
+#
+$CMP FPF2005
+D Single power-distribution switcher, current limit = 100mA, blanking time = 10 ms, auto-restart time = 80 ms, ON Pin Polarity = LOW, SOT-353
+K 1-chanel power-distribution USB
+F https://www.onsemi.com/pub/Collateral/FPF2001-D.pdf
+$ENDCMP
+#
+$CMP FPF2006
+D Single power-distribution switcher, current limit = 100mA, blanking time = 10 ms, w/o auto-restart, ON Pin Polarity = HIGH, SOT-353
+K 1-chanel power-distribution USB
+F https://www.onsemi.com/pub/Collateral/FPF2001-D.pdf
+$ENDCMP
+#
+$CMP FPF2007
+D Single power-distribution switcher, current limit = 100mA, blanking time = 0 ms, w/o auto-restart, ON Pin Polarity = HIGH, SOT-353
+K 1-chanel power-distribution USB
+F https://www.onsemi.com/pub/Collateral/FPF2001-D.pdf
+$ENDCMP
+#
 $CMP HF81
 D X capacitor bleeder, SOIC-8
 K X capacitor discharge

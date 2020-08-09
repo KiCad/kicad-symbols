@@ -12,6 +12,18 @@ K modulator demodulator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ad630.pdf
 $ENDCMP
 #
+$CMP AD637xQ
+D High Precision, Wideband RMS-to-DC Converter, DIP-14
+K rms-to-dc
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD637.pdf
+$ENDCMP
+#
+$CMP AD637xRZ
+D High Precision, Wideband RMS-to-DC Converter, SOIC-16
+K rms-to-dc
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD637.pdf
+$ENDCMP
+#
 $CMP AD654JN
 D Low Cost Monolithic Voltage-to-Frequency Converter, DIP-8
 K v-to-f v-f
