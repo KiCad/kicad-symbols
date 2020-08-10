@@ -1152,20 +1152,44 @@ K Rail splitter precision vitrual ground
 F http://www.ti.com/lit/ds/symlink/tle2426.pdf
 $ENDCMP
 #
-$CMP TLV431xLPxxG
-D Shunt Regulator, 1.24V Vref, 16V Vmax, 80uA Imin, 20mA Imax, TO-92
+$CMP TLV431ALP
+D Shunt Regulator, 1.24V Vref, +/-1% (+/-2%), 16V Vmax, 80uA Imin, 20mA Imax, TO-92
 K diode device shunt regulator reference
 F https://www.onsemi.com/pub/Collateral/TLV431A-D.PDF
 $ENDCMP
 #
-$CMP TLV431xSN1T1G
-D Shunt Regulator, 1.24V Vref, 16V Vmax, 80uA Imin, 20mA Imax, SOT-23
+$CMP TLV431ASN
+D Shunt Regulator, 1.24V Vref, +/-1% (+/-2%), 16V Vmax, 80uA Imin, 20mA Imax, TSOP-5
 K diode device shunt regulator reference
 F https://www.onsemi.com/pub/Collateral/TLV431A-D.PDF
 $ENDCMP
 #
-$CMP TLV431xSNT1G
-D Shunt Regulator, 1.24V Vref, 16V Vmax, 80uA Imin, 20mA Imax, TSOP-5
+$CMP TLV431ASN1
+D Shunt Regulator, 1.24V Vref, +/-1% (+/-2%), 16V Vmax, 80uA Imin, 20mA Imax, SOT-23
+K diode device shunt regulator reference
+F https://www.onsemi.com/pub/Collateral/TLV431A-D.PDF
+$ENDCMP
+#
+$CMP TLV431BLP
+D Shunt Regulator, 1.24V Vref, +/-0.5% (+/-1%), 16V Vmax, 80uA Imin, 20mA Imax, TO-92
+K diode device shunt regulator reference
+F https://www.onsemi.com/pub/Collateral/TLV431A-D.PDF
+$ENDCMP
+#
+$CMP TLV431BSN
+D Shunt Regulator, 1.24V Vref, +/-0.5% (+/-1%), 16V Vmax, 80uA Imin, 20mA Imax, TSOP-5
+K diode device shunt regulator reference
+F https://www.onsemi.com/pub/Collateral/TLV431A-D.PDF
+$ENDCMP
+#
+$CMP TLV431BSN1
+D Shunt Regulator, 1.24V Vref, +/-0.5% (+/-1%), 16V Vmax, 80uA Imin, 20mA Imax, SOT-23
+K diode device shunt regulator reference
+F https://www.onsemi.com/pub/Collateral/TLV431A-D.PDF
+$ENDCMP
+#
+$CMP TLV431CSN1
+D Shunt Regulator, 1.24V Vref, +/-0.2% (+/-1%), 16V Vmax, 80uA Imin, 20mA Imax, SOT-23
 K diode device shunt regulator reference
 F https://www.onsemi.com/pub/Collateral/TLV431A-D.PDF
 $ENDCMP
