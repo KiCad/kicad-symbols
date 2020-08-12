@@ -126,6 +126,42 @@ K RF Radio BT ESP ESP32 Espressif external U.FL antenna
 F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
 $ENDCMP
 #
+$CMP MDBT50Q-1MV2
+D Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52840 module
+K BLE ANT ZigBee Thread 802.15.4 nRF52840 nordic MDBT50Q
+F https://www.raytac.com/download/index.php?index_id=43
+$ENDCMP
+#
+$CMP MDBT50Q-512K
+D Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52833 module
+K MCU, ARM, BLE, ANT, 2.4GHz, 802.15.4 MDBT50Q
+F https://www.raytac.com/download/index.php?index_id=46
+$ENDCMP
+#
+$CMP MDBT50Q-P1MV2
+D Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52840 module
+K BLE ANT ZigBee Thread 802.15.4 nRF52840 nordic MDBT50Q
+F https://www.raytac.com/download/index.php?index_id=43
+$ENDCMP
+#
+$CMP MDBT50Q-P512K
+D Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52833 module
+K MCU, ARM, BLE, ANT, 2.4GHz, 802.15.4 MDBT50Q
+F https://www.raytac.com/download/index.php?index_id=46
+$ENDCMP
+#
+$CMP MDBT50Q-U1MV2
+D Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52840 module
+K BLE ANT ZigBee Thread 802.15.4 nRF52840 nordic MDBT50Q
+F https://www.raytac.com/download/index.php?index_id=43
+$ENDCMP
+#
+$CMP MDBT50Q-U512K
+D Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52833 module
+K MCU, ARM, BLE, ANT, 2.4GHz, 802.15.4 MDBT50Q
+F https://www.raytac.com/download/index.php?index_id=46
+$ENDCMP
+#
 $CMP MM002
 D NEMEUS Modem dual-mode LoRa/SIGFOX
 K IOT LoRa SIGFOX
