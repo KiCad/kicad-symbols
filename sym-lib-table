@@ -64,6 +64,7 @@
   (lib (name FPGA_Xilinx_Virtex7)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/FPGA_Xilinx_Virtex7.lib)(options "")(descr "Xilinx Virtex7 FPGA symbols"))
   (lib (name GPU)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/GPU.lib)(options "")(descr "Graphics Processing Units"))
   (lib (name Graphic)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Graphic.lib)(options "")(descr "Graphical symbols"))
+  (lib (name IGBT_Module)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/IGBT_Module.lib)(options "")(descr "IGBT modules"))
   (lib (name Interface)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface.lib)(options "")(descr "Assorted interface symbols"))
   (lib (name Interface_CAN_LIN)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface_CAN_LIN.lib)(options "")(descr "CAN / LIN interface symbols"))
   (lib (name Interface_CurrentLoop)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface_CurrentLoop.lib)(options "")(descr "Current loop interface devices"))
