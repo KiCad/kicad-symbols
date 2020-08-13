@@ -1345,62 +1345,62 @@ F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
 $ENDCMP
 #
 $CMP TCMT1100
-D Optocoupler, Vce 70V, CTR 50-600%, Viso 3750V (RMS)
-K NPN DC
+D Optocoupler, Vce 70V, CTR 50-600%, Viso 3750V (RMS), SOP-4
+K NPN DC opto
 F http://www.vishay.com/docs/83510/tcmt1100.pdf
 $ENDCMP
 #
 $CMP TCMT1101
-D Optocoupler, Vce 70V, CTR 40-80%, Viso 3750V (RMS)
-K NPN DC
+D Optocoupler, Vce 70V, CTR 40-80%, Viso 3750V (RMS), SOP-4
+K NPN DC opto
 F http://www.vishay.com/docs/83510/tcmt1100.pdf
 $ENDCMP
 #
 $CMP TCMT1102
-D Optocoupler, Vce 70V, CTR 63-125%, Viso 3750V (RMS)
-K NPN DC
+D Optocoupler, Vce 70V, CTR 63-125%, Viso 3750V (RMS), SOP-4
+K NPN DC opto
 F http://www.vishay.com/docs/83510/tcmt1100.pdf
 $ENDCMP
 #
 $CMP TCMT1103
-D Optocoupler, Vce 70V, CTR 100-200%, Viso 3750V (RMS)
-K NPN DC
+D Optocoupler, Vce 70V, CTR 100-200%, Viso 3750V (RMS), SOP-4
+K NPN DC opto
 F http://www.vishay.com/docs/83510/tcmt1100.pdf
 $ENDCMP
 #
 $CMP TCMT1104
-D Optocoupler, Vce 70V, CTR 160-320%, Viso 3750V (RMS)
-K NPN DC
+D Optocoupler, Vce 70V, CTR 160-320%, Viso 3750V (RMS), SOP-4
+K NPN DC opto
 F http://www.vishay.com/docs/83510/tcmt1100.pdf
 $ENDCMP
 #
 $CMP TCMT1105
-D Optocoupler, Vce 70V, CTR 50-150%, Viso 3750V (RMS)
-K NPN DC
+D Optocoupler, Vce 70V, CTR 50-150%, Viso 3750V (RMS), SOP-4
+K NPN DC opto
 F http://www.vishay.com/docs/83510/tcmt1100.pdf
 $ENDCMP
 #
 $CMP TCMT1106
-D Optocoupler, Vce 70V, CTR 100-300%, Viso 3750V (RMS)
-K NPN DC
+D Optocoupler, Vce 70V, CTR 100-300%, Viso 3750V (RMS), SOP-4
+K NPN DC opto
 F http://www.vishay.com/docs/83510/tcmt1100.pdf
 $ENDCMP
 #
 $CMP TCMT1107
-D Optocoupler, Vce 70V, CTR 80-160%, Viso 3750V (RMS)
-K NPN DC
+D Optocoupler, Vce 70V, CTR 80-160%, Viso 3750V (RMS), SOP-4
+K NPN DC opto
 F http://www.vishay.com/docs/83510/tcmt1100.pdf
 $ENDCMP
 #
 $CMP TCMT1108
-D Optocoupler, Vce 70V, CTR 130-260%, Viso 3750V (RMS)
-K NPN DC
+D Optocoupler, Vce 70V, CTR 130-260%, Viso 3750V (RMS), SOP-4
+K NPN DC opto
 F http://www.vishay.com/docs/83510/tcmt1100.pdf
 $ENDCMP
 #
 $CMP TCMT1109
-D Optocoupler, Vce 70V, CTR 200-400%, Viso 3750V (RMS)
-K NPN DC
+D Optocoupler, Vce 70V, CTR 200-400%, Viso 3750V (RMS), SOP-4
+K NPN DC opto
 F http://www.vishay.com/docs/83510/tcmt1100.pdf
 $ENDCMP
 #
@@ -1408,6 +1408,18 @@ $CMP TCMT1600
 D AC/DC Phototransistor Optocoupler, Vce 70V, CTR 80-300%, SOP4
 K NPN AC DC Phototransistor Optocoupler
 F http://www.vishay.com/docs/83512/tcmt1600.pdf
+$ENDCMP
+#
+$CMP TCMT4100
+D Quad Optocoupler, Vce 70V, CTR 50-600%, Viso 3750V (RMS), SOP-16
+K NPN DC opto
+F https://www.vishay.com/docs/84181/tcmt4100.pdf
+$ENDCMP
+#
+$CMP TCMT4106
+D Quad Optocoupler, Vce 70V, CTR 100-300%, Viso 3750V (RMS), SOP-16
+K NPN DC opto
+F https://www.vishay.com/docs/84181/tcmt4100.pdf
 $ENDCMP
 #
 $CMP TCMT4600
