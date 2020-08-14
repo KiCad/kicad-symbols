@@ -4320,12 +4320,6 @@ K DC/DC Buck Conwerter 3A
 F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00285678.pdf
 $ENDCMP
 #
-$CMP TDN_5-0910WISM
-D Input 4.5 to 13.2V, Output 3.3V
-K dcdc traco 5W
-F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
-$ENDCMP
-#
 $CMP TDN_5-0911WISM
 D Input 4.5 to 13.2V, Output 5.0V
 K dcdc traco 5W
@@ -4426,6 +4420,30 @@ $CMP TDN_5-4819WISM
 D Input 18.0 to 75.0V, Output 9.0V
 K dcdc traco 5W
 F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_x-xx1xWI
+D DC/DC Single output DIP ultra compact
+K dcdc traco TDN single 1W 3W 5W
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn5wi_datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_x-xx1xWISM
+D DC/DC Single output SMD ultra compact
+K dcdc traco TDN single 1W 3W 5W
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn5wism_datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_x-xx2xWISM
+D DC/DC Dual output SMD ultra compact
+K dcdc traco TDN dual 1W 3W 5W
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn5wism_datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_x_xx2xWI
+D DC/DC Dual output DIP ultra compact
+K dcdc traco TDN dual 1W 3W 5W
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn5wi_datasheet.pdf
 $ENDCMP
 #
 $CMP TL497
