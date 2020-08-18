@@ -36,6 +36,12 @@ K GaN Gate Driver
 F https://industrial.panasonic.com/content/data/SC/ds/ds4/AN34092B_E.pdf
 $ENDCMP
 #
+$CMP BSP75N
+D Self-Protected Low Side Driver with Temperature and Current Limit, SOT−223
+K MOSFET ESD Overcurrent
+F https://www.infineon.com/dgdl/Infineon-BSP75N-DS-v01_04-en.pdf?fileId=db3a30431ed1d7b2011f471f5a0256d1
+$ENDCMP
+#
 $CMP EL7202CN
 D High Speed, Dual Channel Power MOSFET Driver, DIP-8/SOIC-8
 K Driver, Dual MOSFET
