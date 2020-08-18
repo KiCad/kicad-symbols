@@ -93,6 +93,12 @@ K PCIe2.0 SATA3.0
 F https://www.marvell.com/documents/bqcwxsoiqfjkcjdjhkvc/
 $ENDCMP
 #
+$CMP AD9833xRM
+D 10 bit 25 MHz Programmable Waveform Generator, 2.3V to 5.5V, 12.65mW, MSOP-10
+K Direct Digital Synthesizer DDS
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ad9833.pdf
+$ENDCMP
+#
 $CMP AD9834
 D 10 bit 75 MHz Complete Direct Digital Synthesizer, 2.3V to 5.5V, 20mW, TSSOP-20
 K Direct Digital Synthesizer DDS
@@ -277,6 +283,30 @@ $CMP MAX6816
 D Single Switch  Debouncer, SOT-143
 K Switch Debouncer
 F https://datasheets.maximintegrated.com/en/ds/1896.pdf
+$ENDCMP
+#
+$CMP MC100EPT22D
+D 3.3 V Dual LVTTL/LVCMOS to Differential LVPECL Translator, SOIC-8
+K PECL buffer interface
+F https://www.onsemi.com/pub/Collateral/MC100EPT22-D.PDF
+$ENDCMP
+#
+$CMP MC100EPT22DT
+D 3.3 V Dual LVTTL/LVCMOS to Differential LVPECL Translator, TSSOP-8
+K PECL buffer interface
+F https://www.onsemi.com/pub/Collateral/MC100EPT22-D.PDF
+$ENDCMP
+#
+$CMP MC100LVELT22D
+D 3.3 V Dual LVTTL/LVCMOS to Differential LVPECL Translator, SOIC-8
+K PECL buffer interface
+F https://www.onsemi.com/pub/Collateral/MC100LVELT22-D.PDF
+$ENDCMP
+#
+$CMP MC100LVELT22DT
+D 3.3 V Dual LVTTL/LVCMOS to Differential LVPECL Translator, TSSOP-8
+K PECL buffer interface
+F https://www.onsemi.com/pub/Collateral/MC100LVELT22-D.PDF
 $ENDCMP
 #
 $CMP MC6840

@@ -486,6 +486,24 @@ K diode
 F https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf
 $ENDCMP
 #
+$CMP BAS19
+D 120V, 0.4A, High-speed Switching Diode, SOT-23
+K diode
+F https://www.diodes.com/assets/Datasheets/Ds12004.pdf
+$ENDCMP
+#
+$CMP BAS20
+D 200V, 0.4A, High-speed Switching Diode, SOT-23
+K diode
+F https://www.diodes.com/assets/Datasheets/Ds12004.pdf
+$ENDCMP
+#
+$CMP BAS21
+D 250V, 0.4A, High-speed Switching Diode, SOT-23
+K diode
+F https://www.diodes.com/assets/Datasheets/Ds12004.pdf
+$ENDCMP
+#
 $CMP BAS316
 D 100V, 0.25A, High-speed Switching Diode, SOD-323
 K diode
@@ -1188,6 +1206,24 @@ K diode
 F https://www.dccomponents.com/upload/product/original/806236332588.pdf
 $ENDCMP
 #
+$CMP CDBA3100-HF
+D 100V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.comchiptech.com/admin/files/product/CDBA340-HF%20Thru193640.%20CDBA3100-HF%20RevB.pdf
+$ENDCMP
+#
+$CMP CDBA340-HF
+D 40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.comchiptech.com/admin/files/product/CDBA340-HF%20Thru193640.%20CDBA3100-HF%20RevB.pdf
+$ENDCMP
+#
+$CMP CDBA360-HF
+D 60V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)
+K diode Schottky
+F https://www.comchiptech.com/admin/files/product/CDBA340-HF%20Thru193640.%20CDBA3100-HF%20RevB.pdf
+$ENDCMP
+#
 $CMP CSD01060A
 D 600V, 1A, SiC Schottky Diode, TO-220
 K sic diode
@@ -1510,6 +1546,12 @@ $CMP MBR0580
 D 80V 0.5A Schottky Power Rectifier Diode, SOD-123
 K diode Schottky
 F http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf
+$ENDCMP
+#
+$CMP MBR1020VL
+D 20V, 1A, 340 mV, Schottky Diode Rectifier, SOD-123F
+K forward voltage diode
+F https://www.onsemi.com/pub/Collateral/MBR1020VL-D.PDF
 $ENDCMP
 #
 $CMP MBR340

@@ -623,6 +623,12 @@ K LT ADC 32bit
 F https://www.analog.com/media/en/technical-documentation/data-sheets/250832fc.pdf
 $ENDCMP
 #
+$CMP LTC4151xMS
+D High Voltage I2C Current and Voltage Monitor, MSOP-10
+K I2C Current Monitor
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4151ff.pdf
+$ENDCMP
+#
 $CMP MAX1112
 D 8-Channel Single-Ended or 4-Channel Differential 8-Bit ADC, SSOP-20
 K MAXIM ADC 5V 8-Bit SPI QSPI MICROWIRE
@@ -903,6 +909,30 @@ $CMP MCP3553-ESN
 D Single Delta-Sigma 22bit Analog to Digital Converter, SPI Interface, MSOP-8
 K Sigma-Delta ADC Converter 22bit SPI 1ch
 F http://ww1.microchip.com/downloads/en/devicedoc/21950c.pdf
+$ENDCMP
+#
+$CMP PAC1931x-xJQ
+D Single-Channel DC Power/Energy Monitor with Accumulator, UQFN-16
+K I2C Current Shunt Energy Monitor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PAC1931-Family-Data-Sheet-DS20005850E.pdf
+$ENDCMP
+#
+$CMP PAC1932x-xJQ
+D Multi-Channel DC Power/Energy Monitor with Accumulator, UQFN-16
+K I2C Current Shunt Energy Monitor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PAC1931-Family-Data-Sheet-DS20005850E.pdf
+$ENDCMP
+#
+$CMP PAC1933x-xJQ
+D Multi-Channel DC Power/Energy Monitor with Accumulator, UQFN-16
+K I2C Current Shunt Energy Monitor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PAC1931-Family-Data-Sheet-DS20005850E.pdf
+$ENDCMP
+#
+$CMP PAC1934x-xJQ
+D Multi-Channel DC Power/Energy Monitor with Accumulator, UQFN-16
+K I2C Current Shunt Energy Monitor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PAC1931-Family-Data-Sheet-DS20005850E.pdf
 $ENDCMP
 #
 #End Doc Library
