@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 40374
+D 8-bit D-flip-flop with 3-State outputs
+K CMOS BUFFER 3State
+F https://www.digchip.com/datasheets/download_datasheet.php?id=369790&part-number=HEF40374BDB
+$ENDCMP
+#
+$CMP 4068
+D CMOS 8-input NAND/AND Gate
+K cmos nand and 8-input
+F http://www.ti.com/lit/ds/symlink/cd4068b.pdf
+$ENDCMP
+#
 $CMP 4504
 D 4504 Hex Voltage-level Shifter
 K cmos, level converter
