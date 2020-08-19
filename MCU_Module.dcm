@@ -12,6 +12,12 @@ K Arduino LEONARDO Microcontroller Module Atmel AVR USB
 F https://www.arduino.cc/en/Main/ArduinoBoardLeonardo
 $ENDCMP
 #
+$CMP Arduino_Nano_Every
+D Arduino Nano Every
+K Arduino nano microcontroller module USB UPDI AATMega4809 AVR
+F https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf
+$ENDCMP
+#
 $CMP Arduino_Nano_v2.x
 D Arduino Nano v2.x
 K Arduino nano microcontroller module USB
