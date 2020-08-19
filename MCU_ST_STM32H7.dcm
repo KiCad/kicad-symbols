@@ -42,12 +42,6 @@ K ARM Cortex-M7 STM32H7
 F https://www.st.com/resource/en/datasheet/stm32h750ib.pdf
 $ENDCMP
 #
-$CMP STM32H750VBTx
-D ARM Cortex-M7 MCU, 128KB flash, 864KB RAM, 480MHz, 1.7-3.6V, 82 GPIO, LQFP-100
-K ARM Cortex-M7 STM32H7
-F https://www.st.com/resource/en/datasheet/stm32h750ib.pdf
-$ENDCMP
-#
 $CMP STM32H750VBTx1
 D ARM Cortex-M7 MCU, 128KB flash, 864KB RAM, 480MHz, 1.7-3.6V, 82 GPIO, LQFP-100
 K ARM Cortex-M7 STM32H7
