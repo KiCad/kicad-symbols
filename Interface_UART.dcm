@@ -165,6 +165,18 @@ K rs232 uart transceiver line-driver
 F http://www.intersil.com/content/dam/Intersil/documents/icl3/icl3221-22-23-32-41-43.pdf
 $ENDCMP
 #
+$CMP ISL3295ExHZ-T
+D TSOT-23-6
+K RS485 RS422
+F https://eu.mouser.com/datasheet/2/698/isl3295e-98e-1697114.pdf
+$ENDCMP
+#
+$CMP ISL3298ExRTZ-T
+D TDFN-8
+K RS422 RS485
+F https://eu.mouser.com/datasheet/2/698/isl3295e-98e-1697114.pdf
+$ENDCMP
+#
 $CMP ISL83491
 D 10Mbps RS485/RS422 transceiver, full duplex, receiver/driver enable, low power shutdown
 K RS485 RS422 transceiver full duplex
