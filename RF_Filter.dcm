@@ -1167,13 +1167,11 @@ $ENDCMP
 $CMP STA0232A
 D Bandpass Filter, 1090MHz, SAW filter 8-pin
 K SAW Filter 1090 bandpass
-F https://www.golledge.com/media/1831/ma05497.pdf
 $ENDCMP
 #
 $CMP STA1090EC
 D Bandpass Filter, 1090MHz, SAW filter 6-pin
 K SAW Filter 1090 bandpass
-F https://www.golledge.com/media/3785/mp08167.pdf
 $ENDCMP
 #
 $CMP SXBP-100
