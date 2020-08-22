@@ -171,21 +171,9 @@ K RS485 RS422 transceiver
 F https://www.renesas.com/sg/en/www/doc/datasheet/isl3295e-98e.pdf
 $ENDCMP
 #
-$CMP ISL3295ExHZ-T
-D RS-422/RS-485, Interface IC SING, RS-485 DRVR, 2X3 FAST SPD EXT TEMP
-K RS485 RS422
-F https://www.renesas.com/sg/en/www/doc/datasheet/isl3295e-98e.pdf
-$ENDCMP
-#
 $CMP ISL3298E
 D RS485, RS422, 20Mbps Transceiver, 3.0V to 7V, Low-Power, TDFN-8
 K RS485 RS422 transceiver
-F https://www.renesas.com/sg/en/www/doc/datasheet/isl3295e-98e.pdf
-$ENDCMP
-#
-$CMP ISL3298ExRTZ-T
-D TDFN-8, RS-422/RS-485 Interface IC SING RS-485 DRVR 2X3 FAST SPD EXT TEMP
-K RS422 RS485
 F https://www.renesas.com/sg/en/www/doc/datasheet/isl3295e-98e.pdf
 $ENDCMP
 #
