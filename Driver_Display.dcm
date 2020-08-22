@@ -47,6 +47,30 @@ K driver display
 F http://pan.baidu.com/s/11Y990
 $ENDCMP
 #
+$CMP TM1621C
+D Titan Micro Electronics LCD Driver. "SOP28" Package.
+K LCD Driver
+F https://datasheet.lcsc.com/szlcsc/Shenzhen-Titan-Micro-Elec-TM1621C_C63565.pdf
+$ENDCMP
+#
+$CMP TM1621D
+D Titan Micro Electronics LCD Driver. "SOP24" Package.
+K LCD Driver
+F https://datasheet.lcsc.com/szlcsc/Shenzhen-Titan-Micro-Elec-TM1621D_C79896.pdf
+$ENDCMP
+#
+$CMP TM1621_LQFP44
+D Titan Micro Electronics LCD Driver. Available in SSOP48 and LQFP44 packages. This symbol covers only LQFP44.
+K LCD Driver
+F https://datasheet.lcsc.com/szlcsc/Shenzhen-Titan-Micro-Elec-TM1621_C41326.pdf
+$ENDCMP
+#
+$CMP TM1621_SSOP48
+D Titan Micro Electronics LCD Driver. Available in SSOP48 and LQFP44 packages. This symbol covers only SSOP48.
+K LCD Driver
+F https://datasheet.lcsc.com/szlcsc/Shenzhen-Titan-Micro-Elec-TM1621_C41326.pdf
+$ENDCMP
+#
 $CMP XPT2046QF
 D Single-supply, 12bit, 4 ch, touch screen driver, 2.2 - 5.25 VDD, -40 to +85 C, QSPI, SPI, 3-wire serial interface, QFN-16
 K Single-supply, 12bit, 4 ch, touch screen driver, 2.2 - 5.25 VDD, -40 to +85 C, QSPI, SPI, 3-wire serial interface, QFN-16
