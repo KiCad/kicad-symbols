@@ -432,6 +432,36 @@ K LED current driver 12bit PWM
 F http://www.ti.com/lit/ds/symlink/tlc5973.pdf
 $ENDCMP
 #
+$CMP TM1620
+D Titan Micro Electronics LED Driver with 8 seg x 6 grid / 10 seg x 4 grid, and 3-pin serial interface. Measurements show it matching the 7.5mm wide JEDEC MS-013 standard.
+K LED Driver
+F https://datasheet.lcsc.com/szlcsc/Shenzhen-Titan-Micro-Elec-TM1620_C19579.pdf
+$ENDCMP
+#
+$CMP TM1628
+D Titan Micro Electronics LED Driver. Datasheet refers to the package as SOP28, but measurements show it matching the 7.5mm wide JEDEC MS-013 standard.
+K LED Driver
+F https://datasheet.lcsc.com/szlcsc/Shenzhen-Titan-Micro-Elec-TM1628_C37175.pdf
+$ENDCMP
+#
+$CMP TM1629_LQFP44
+D Titan Micro Electronics LED Control Driver. Available in: QFP44, LQFP44. This symbol only applies to the LQFP44 package.
+K LED Driver
+F https://cdn.datasheetspdf.com/pdf-down/T/M/1/TM1629_ETC.pdf
+$ENDCMP
+#
+$CMP TM1638
+D Titan Micro Electronics LED Driver with 10 seg x 8 grid, 8x3bit key scan, and 3-pin serial interface. Datasheet refers to the package as SOP28, but measurements show it matching the 7.5mm wide JEDEC MS-013 standard.
+K LED Driver
+F https://retrocip.cz/files/tm1638.pdf
+$ENDCMP
+#
+$CMP TM1640
+D Titan Micro Electronics LED Driver with 8 sections x 16 bits, and dual-line serial interface. Datasheet refers to the package as SOP28, but measurements show it matching the 7.5mm wide JEDEC MS-013 standard.
+K LED Driver
+F https://cdn.datasheetspdf.com/pdf-down/T/M/1/TM1640-TitanMicro.pdf
+$ENDCMP
+#
 $CMP WS2811
 D 3-Channel 8-Bit PWM LED Driver, DIP-8/SOIC-8
 K PWM LED driver
