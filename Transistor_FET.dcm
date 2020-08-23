@@ -3,13 +3,13 @@ EESchema-DOCLIB  Version 2.0
 $CMP 2N7000
 D 0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92
 K N-Channel MOSFET Logic-Level
-F https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf
+F https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF
 $ENDCMP
 #
 $CMP 2N7002
 D 0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23
 K N-Channel Switching MOSFET
-F https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf
+F https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF
 $ENDCMP
 #
 $CMP 2N7002E
@@ -51,37 +51,37 @@ $ENDCMP
 $CMP BF244A
 D 50mA Id, 30V Vgs, N-Channel FET Transistor, TO-92
 K N-Channel FET Transistor Low Voltage
-F http://www.fairchildsemi.com/ds/BF/BF244A.pdf
+F https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BF244x.pdf
 $ENDCMP
 #
 $CMP BF244B
 D 50mA Id, 30V Vgs, N-Channel FET Transistor, TO-92
 K N-Channel FET Transistor Low Voltage
-F http://www.fairchildsemi.com/ds/BF/BF244A.pdf
+F https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BF244x.pdf
 $ENDCMP
 #
 $CMP BF244C
 D 10mA Id, 30V Vgs, N-Channel FET Transistor, TO-92
 K N-Channel FET Transistor Low Voltage
-F http://www.fairchildsemi.com/ds/BF/BF244A.pdf
+F https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BF244x.pdf
 $ENDCMP
 #
 $CMP BF245A
 D 50mA Id, 30V Vgs, N-Channel FET Transistor, TO-92
 K N-Channel FET Transistor Low Voltage
-F http://www.fairchildsemi.com/ds/BF/BF245A.pdf
+F https://www.onsemi.com/pub/Collateral/BF245A-D.PDF
 $ENDCMP
 #
 $CMP BF245B
 D 10mA Id, 30V Vgs, N-Channel FET Transistor, TO-92
 K N-Channel FET Transistor Low Voltage
-F http://www.fairchildsemi.com/ds/BF/BF245A.pdf
+F https://www.onsemi.com/pub/Collateral/BF245A-D.PDF
 $ENDCMP
 #
 $CMP BF245C
 D 10mA Id, 30V Vgs, N-Channel FET Transistor, TO-92
 K N-Channel FET Transistor Low Voltage
-F http://www.fairchildsemi.com/ds/BF/BF245A.pdf
+F https://www.onsemi.com/pub/Collateral/BF245A-D.PDF
 $ENDCMP
 #
 $CMP BF545A
@@ -117,7 +117,7 @@ $ENDCMP
 $CMP BS170
 D 0.5A Id, 60V Vds, N-Channel MOSFET, TO-92
 K N-Channel MOSFET
-F http://www.fairchildsemi.com/ds/BS/BS170.pdf
+F https://www.onsemi.com/pub/Collateral/BS170-D.PDF
 $ENDCMP
 #
 $CMP BS170F
@@ -477,7 +477,7 @@ $ENDCMP
 $CMP BSS138
 D 50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
-F https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf
+F https://www.onsemi.com/pub/Collateral/BSS138-D.PDF
 $ENDCMP
 #
 $CMP BSS214NW
@@ -747,7 +747,7 @@ $ENDCMP
 $CMP BUZ11
 D 30A Id, 50V Vds, N-Channel Power MOSFET, TO-220
 K N-Channel Power MOSFET
-F http://www.fairchildsemi.com/ds/BU/BUZ11.pdf
+F https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BUZ11.pdf
 $ENDCMP
 #
 $CMP C2M0025120D
@@ -1338,6 +1338,12 @@ K N-Channel MOSFET
 F http://www.diodes.com/assets/Datasheets/DMG3418L.pdf
 $ENDCMP
 #
+$CMP DMG9926UDM
+D 4.2A Id, 20V Vds, Common-Drain, Dual Half Bridge N-Channel MOSFET, 28mOhm Ron, SOT-23-6
+K Dual Half Bridge N-Channel MOSFET Logic Level Common Drain
+F https://www.diodes.com/assets/Datasheets/ds31770.pdf
+$ENDCMP
+#
 $CMP DMN10H220L
 D 1.6A Id, 100V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
@@ -1503,7 +1509,7 @@ $ENDCMP
 $CMP FDG1024NZ
 D 1.2A Id, 20V Vds, Dual N-Channel MOSFET, 175mOhm Ron, SC-70-6
 K Dual N-Channel MOSFET Logic Level
-F http://www.fairchildsemi.com/ds/FD/FDG1024NZ.pdf
+F https://www.onsemi.com/pub/Collateral/FDG1024NZ-D.pdf
 $ENDCMP
 #
 $CMP FDG6335N
@@ -1515,133 +1521,139 @@ $ENDCMP
 $CMP FDMC8032L
 D 7A Id, 40V Vds, Dual N-Channel MOSFET, 20mOhm Ron, Power33 Package
 K Dual N-Channel MOSFET
-F https://www.fairchildsemi.com/datasheets/FD/FDMC8032L.pdf
+F https://www.onsemi.com/pub/Collateral/FDMC8032L-D.PDF
 $ENDCMP
 #
 $CMP FDMS8050
 D 55A Id, 30V Vds, N-Channel PowerTrench MOSFET, 0.65mOhm Ron, 285nC Qgmax, -55 to 150 °C, 5x6mm SON8
 K powertrench MOSFET fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS8050.pdf
+F https://www.onsemi.com/pub/Collateral/FDMS8050-D.pdf
 $ENDCMP
 #
 $CMP FDMS8050ET30
 D 55A Id, 30V Vds, N-Channel PowerTrench MOSFET, 0.65mOhm Ron, 285nC Qgmax, -55 to 175 °C, 5x6mm SON8
 K powertrench MOSFET fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS8050ET30.pdf
+F https://www.onsemi.com/pub/Collateral/FDMS8050ET30-D.pdf
 $ENDCMP
 #
 $CMP FDMS8350L
 D 47A Id, 40V Vds, N-Channel PowerTrench MOSFET, 0.85mOhm Ron, 242nC Qgmax, -55 to 150 °C, 5x6mm SON8
 K powertrench MOSFET fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS8350L.pdf
+F https://www.onsemi.com/pub/Collateral/FDMS8350L-D.pdf
 $ENDCMP
 #
 $CMP FDMS8350LET40
 D 49A Id, 40V Vds, N-Channel PowerTrench MOSFET, 0.85mOhm Ron, 242nC Qgmax, -55 to 175 °C, 5x6mm SON8
 K powertrench-MOSFET MOSFET fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS8350LET40.pdf
+F https://www.onsemi.com/pub/Collateral/FDMS8350LET40-D.pdf
 $ENDCMP
 #
 $CMP FDMS86150
 D 16A Id, 100V Vds, N-Channel PowerTrench MOSFET, 4.85mOhm Ron, 62nC Qgmax, -55 to 150 °C, 5x6mm SON8
 K powertrench MOSFET fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS86150.pdf
+F https://www.onsemi.com/pub/Collateral/FDMS86150ET100-D.pdf
 $ENDCMP
 #
 $CMP FDMS86150ET100
 D 16A Id, 100V Vds, N-Channel PowerTrench MOSFET, 4.85mOhm Ron, 62nC Qgmax, -55 to 175 °C, 5x6mm SON8
 K powertrench-MOSFET MOSFET fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS86150ET100.pdf
+F https://www.mouser.fr/datasheet/2/308/FDMS86150ET100-D-1807744.pdf
 $ENDCMP
 #
 $CMP FDMS86152
 D 14A Id, 100V Vds, N-Channel PowerTrench MOSFET, 6mOhm Ron, 50nC Qgmax, -55 to 150 °C, 5x6mm SON8
 K powertrench MOSFET fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS86152.pdf
+F https://www.mouser.fr/datasheet/2/308/FDMS86152-D-1808412.pdf
 $ENDCMP
 #
 $CMP FDMS86202
 D 13.5A Id, 120V Vds, N-Channel Shielded Gate PowerTrench MOSFET, 7.2mOhm Ron, 64nC Qgmax, -55 to 150 °C, 5x6mm SON8
 K shielded-gate-powertrench MOSFET fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS86202.pdf
+F https://www.mouser.fr/datasheet/2/308/FDMS86202-D-1808220.pdf
 $ENDCMP
 #
 $CMP FDMS86202ET120
 D 13.5A Id, 120V Vds, N-Channel Shielded Gate PowerTrench MOSFET, 7.2mOhm Ron, 64nC Qgmax, -55 to 175 °C, 5x6mm SON8
 K shielded-gate-powertrench MOSFET fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS86202ET120.pdf
+F https://www.onsemi.com/pub/Collateral/FDMS86202ET120-D.pdf
 $ENDCMP
 #
 $CMP FDMS86255
 D 10A Id, 150V Vds, N-Channel Shielded Gate PowerTrench MOSFET, 12.4mOhm Ron, 63nC Qgmax, -55 to 150 °C, 5x6mm SON8
 K shielded-gate-powertrench-MOSFET MOSFET fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS86255.pdf
+F https://www.onsemi.com/pub/Collateral/FDMS86255-D.pdf
 $ENDCMP
 #
 $CMP FDMS86255ET150
 D 10A Id, 150V Vds, N-Channel Shielded Gate PowerTrench MOSFET, 12.4mOhm Ron, 63nC Qgmax, -55 to 175 °C, 5x6mm SON8
 K shielded-gate-powertrench MOSFET fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS86255ET150.pdf
+F https://www.onsemi.com/pub/Collateral/FDMS86255ET150-D.pdf
 $ENDCMP
 #
 $CMP FDMS86350
 D 25A Id, 80V Vds, N-Channel PowerTrench MOSFET, 2.4mOhm Ron, 155nC Qgmax, -55 to 150 °C, 5x6mm SON8
 K powertrench MOSFET fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS86350.pdf
+F https://www.onsemi.com/pub/Collateral/FDMS86350-D.PDF
 $ENDCMP
 #
 $CMP FDMS86350ET80
 D 25A Id, 80V Vds, N-Channel PowerTrench MOSFET, 2.4mOhm Ron, 155nC Qgmax, -55 to 175 °C, 5x6mm SON8
 K powertrench MOSFET fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS86350ET80.pdf
+F https://www.onsemi.com/pub/Collateral/FDMS86350ET80-D.pdf
 $ENDCMP
 #
 $CMP FDMS86550
 D 32A Id, 60V Vds, N-Channel PowerTrench MOSFET, 1.65mOhm Ron, 154nC Qgmax, -55 to 150 °C, 5x6mm SON8
 K powertrench MOSFET fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS86550.pdf
+F https://www.onsemi.com/pub/Collateral/FDMS86550-D.pdf
 $ENDCMP
 #
 $CMP FDMS86550ET60
 D 32A Id, 60V Vds, N-Channel PowerTrench MOSFET, 1.65mOhm Ron, 154nC Qgmax, -55 to 175 °C, 5x6mm SON8
 K powertrench MOSFET fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMS86550ET60.pdf
+F https://www.onsemi.com/pub/Collateral/FDMS86550ET60-D.pdf
 $ENDCMP
 #
 $CMP FDMT800100DC
-D 24A Id, 100V Vds, N-Channel Dual Cool PowerTrench MOSFET, 2.95mOhm Ron, 111nC Qgmax, -55 to 150 °C, 5x6mm SON8
+D 24A Id, 100V Vds, N-Channel Dual Cool PowerTrench MOSFET, 2.95mOhm Ron, 111nC Qgmax, -55 to 150 °C, 8x8mm MLP
 K dual-cool-powertrench MOSFET fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMT800100DC.pdf
+F https://www.onsemi.com/pub/Collateral/FDMT800100DC-D.pdf
 $ENDCMP
 #
 $CMP FDMT800120DC
-D 20A Id, 120V Vds, N-Channel Dual cool 88 PowerTrench MOSFET, 4.2mOhm Ron, 107nC Qgmax, -55 to 150 °C, 5x6mm SON8
+D 20A Id, 120V Vds, N-Channel Dual cool 88 PowerTrench MOSFET, 4.2mOhm Ron, 107nC Qgmax, -55 to 150 °C, 8x8mm MLP
 K dual-cool-powertrench MOSFET fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMT800120DC.pdf
+F https://www.onsemi.com/pub/Collateral/FDMT800120DC-D.pdf
 $ENDCMP
 #
 $CMP FDMT800150DC
-D 15A Id, 150V Vds, N-Channel Dual cool PowerTrench MOSFET, 6.5mOhm Ron, 108nC Qgmax, -55 to 150 °C, 5x6mm SON8
+D 15A Id, 150V Vds, N-Channel Dual cool PowerTrench MOSFET, 6.5mOhm Ron, 108nC Qgmax, -55 to 150 °C, 8x8mm MLP
 K dual-cool-powertrench MOSFET fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMT800150DC.pdf
+F https://www.onsemi.com/pub/Collateral/FDMT800150DC-D.pdf
 $ENDCMP
 #
 $CMP FDMT800152DC
-D 13A Id, 150V Vds, N-Channel Dual Cool PowerTrench MOSFET, 9.0mOhm Ron, 83nC Qgmax, -55 to 150 °C, 5x6mm SON8
+D 13A Id, 150V Vds, N-Channel Dual Cool PowerTrench MOSFET, 9.0mOhm Ron, 83nC Qgmax, -55 to 150 °C, 8x8mm MLP
 K dual-cool-powertrench MOSFET fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMT800152DC.pdf
+F https://www.onsemi.com/pub/Collateral/FDMT800152DC-D.pdf
 $ENDCMP
 #
 $CMP FDMT80060DC
-D 43A Id, 60V Vds, N-Channel Dual Cool PowerTrench MOSFET, 1.1mOhm Ron, 238nC Qgmax, -55 to 150 °C, 5x6mm SON8
-K dual-cool-powertrench MOSFET fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMT80060DC.pdf
+D 43A Id, 60V Vds, PowerTrench N-Channel Power MOSFET, 6.9mOhm Ron, Qg (typ) 7.9nC 8x8mm MLP
+K PowerTrench Power MOSFET N-MOS
+F https://www.onsemi.com/pub/Collateral/FDMT80060DC-D.pdf
 $ENDCMP
 #
 $CMP FDMT80080DC
-D 36A Id, 80V Vds, N-Channel Dual Cool PowerTrench MOSFET, 1.35mOhm Ron, 273nC Qgmax, -55 to 150 °C, 5x6mm SON8
+D 36A Id, 80V Vds, N-Channel Dual Cool PowerTrench MOSFET, 1.35mOhm Ron, 273nC Qgmax, -55 to 150 °C, 8x8mm MLP
 K dual-cool-powertrench MOSFET fairchild
-F https://www.fairchildsemi.com/datasheets/FD/FDMT80080DC.pdf
+F https://www.onsemi.com/pub/Collateral/FDMT80080DC-D.pdf
+$ENDCMP
+#
+$CMP FDN340P
+D 2A Id, 20V Vds, P-Channel MOSFET, 70mOhm Ron, SOT-23
+K P-Channel MOSFET
+F https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF
 $ENDCMP
 #
 $CMP FDS2734
@@ -1653,19 +1665,19 @@ $ENDCMP
 $CMP FDS4559
 D 4.5A Id, 60V Vds, Dual N and P Channel MOSFET, 55mOhm Ron, 10V Vgs, SO8L
 K Dual N-Channel P-Channel MOSFET
-F https://www.fairchildsemi.com/datasheets/FD/FDS4559.pdf
+F https://www.onsemi.com/pub/Collateral/FDS4559-D.PDF
 $ENDCMP
 #
 $CMP FDS4897AC
 D 6.1A Id, 40V Vds, Dual N and P Channel MOSFET, 26mOhm Ron, 10V Vgs, SO8L
 K Dual N-Channel P-Channel MOSFET
-F https://www.fairchildsemi.com/datasheets/FD/FDS4897AC.pdf
+F https://www.onsemi.com/pub/Collateral/FDS4897AC-D.pdf
 $ENDCMP
 #
 $CMP FDS4897C
 D 6.2A Id, 40V Vds, Dual N and P Channel MOSFET, 29mOhm Ron, 10V Vgs, SO8L
 K Dual N-Channel P-Channel MOSFET
-F https://www.fairchildsemi.com/datasheets/FD/FDS4897C.pdf
+F https://www.onsemi.com/pub/Collateral/FDS4897C-D.pdf
 $ENDCMP
 #
 $CMP FDS6630A
@@ -1677,19 +1689,19 @@ $ENDCMP
 $CMP FDS6890A
 D 7.5A Id, 20V Vds, Dual N-Channel MOSFET, 18mOhm Ron, SO-8
 K Dual N-Channel MOSFET
-F http://www.fairchildsemi.com/ds/FD/FDS6890A.pdf
+F https://www.onsemi.com/pub/Collateral/FDS6890A-D.PDF
 $ENDCMP
 #
 $CMP FDS6892A
 D 7.5A Id, 20V Vds, Dual N-Channel MOSFET PWM Optimized, 18mOhm Ron, SO-8
 K Dual N-Channel MOSFET Low Gate Charge
-F http://www.fairchildsemi.com/ds/FD/FDS6892A.pdf
+F https://www.onsemi.com/pub/Collateral/FDS6892A-D.pdf
 $ENDCMP
 #
 $CMP FDS6898A
 D 9.4A Id, 20V Vds, Dual N-Channel MOSFET, 14mOhm Ron, SO-8
 K Dual N-Channel MOSFET
-F http://www.fairchildsemi.com/ds/FD/FDS6898A.pdf
+F https://www.onsemi.com/pub/Collateral/FDS6898A-D.PDF
 $ENDCMP
 #
 $CMP FDS6930A
@@ -1707,7 +1719,7 @@ $ENDCMP
 $CMP FDS8960C
 D 7A Id, 35V Vds, Dual N and P Channel MOSFET, 24mOhm Ron, 10V Vgs, SO8L
 K Dual N-Channel P-Channel MOSFET
-F https://www.fairchildsemi.com/datasheets/FD/FDS8960C.pdf
+F https://www.mouser.fr/datasheet/2/308/FDS8960C-D-1808807.pdf
 $ENDCMP
 #
 $CMP FDS9435A
@@ -1719,13 +1731,13 @@ $ENDCMP
 $CMP FDS9926A
 D 6.5A Id, 20V Vds, Dual N-Channel MOSFET, 30mOhm Ron, SO-8
 K Dual N-Channel MOSFET
-F http://www.fairchildsemi.com/ds/FD/FDS9926A.pdf
+F https://www.onsemi.com/pub/Collateral/FDS9926A-D.pdf
 $ENDCMP
 #
 $CMP FDS9934C
 D 6.5A Id, 20V Vds, Dual N and P Channel MOSFET, 30mOhm Ron, 4.5V Vgs, SO8L
 K Dual N-Channel P-Channel MOSFET
-F https://www.fairchildsemi.com/datasheets/FD/FDS9934C.pdf
+F https://www.onsemi.com/pub/Collateral/FDS9934C-D.pdf
 $ENDCMP
 #
 $CMP FQP27P06
@@ -2709,13 +2721,13 @@ $ENDCMP
 $CMP Si4532DY
 D 3.9A Id, 30V Vds, Dual N and P Channel MOSFET, 65mOhm Ron, 10V Vgs, SO8L
 K Dual N-Channel P-Channel MOSFET
-F https://www.fairchildsemi.com/datasheets/SI/SI4532DY.pdf
+F https://www.onsemi.com/pub/Collateral/SI4532DY-D.PDF
 $ENDCMP
 #
 $CMP Si4542DY
 D Dual N and P Channel MOSFET, 6A Id, 30V Vds, 28mOhm Ron, 10V Vgs, SO8L
 K Dual N-Channel P-Channel MOSFET
-F https://www.fairchildsemi.com/datasheets/SI/SI4542DY.pdf
+F https://www.onsemi.com/pub/Collateral/SI4542DY-D.PDF
 $ENDCMP
 #
 $CMP Si7141DP
@@ -2752,6 +2764,12 @@ $CMP SiS415DNT
 D -35A Id, -20V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single
 K P-Channel MOSFET
 F https://www.vishay.com/docs/63684/sis415dnt.pdf
+$ENDCMP
+#
+$CMP SiS454DN
+D 35A Id, 20V Vds, N-Channel MOSFET, PowerPAK 1212-8 Single
+K N-Channel MOSFET
+F https://www.vishay.com/docs/66707/sis454dn.pdf
 $ENDCMP
 #
 $CMP SiS443DN

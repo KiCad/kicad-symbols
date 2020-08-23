@@ -1080,4 +1080,16 @@ K gate driver
 F https://www.diodes.com/assets/Datasheets/ZXGD3009E6.pdf
 $ENDCMP
 #
+$CMP FL5150MX
+D IGBT and MOSFET, AC Phase Cut, Dimmer Controller, SSOP-10
+K dimmer
+F https://www.onsemi.com/pub/Collateral/FL5150-D.pdf
+$ENDCMP
+#
+$CMP FL5160MX
+D IGBT and MOSFET, AC Phase Cut, Dimmer Controller, SSOP-10
+K dimmer
+F https://www.onsemi.com/pub/Collateral/FL5150-D.pdf
+$ENDCMP
+#
 #End Doc Library
