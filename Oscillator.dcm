@@ -138,6 +138,12 @@ K VCXO
 F https://www.minicircuits.com/pdfs/JTOS-50+.pdf
 $ENDCMP
 #
+$CMP KC2520Z
+D 1.8432MHz ~ 125MHz Crystal Oscillator
+K xo
+F https://global.kyocera.com/prdct/electro/product/pdf/clock_z_xz_e.pdf
+$ENDCMP
+#
 $CMP KT2520K-T
 D 10-60MHz Temperature Compensated Crystal Oscillator, Kyocera 2520
 K tcxo
