@@ -2377,7 +2377,7 @@ F https://www.infineon.com/dgdl/irf9383mpbf.pdf?fileId=5546d462533600a4015356116
 $ENDCMP
 #
 $CMP IRF9394M
-D -14A Id, -30V Vds, 6.5mOhm Rds, Dual P-Channel MOSFET, DirectFET MC
+D -14A Id, -30V Vds, 6.5mOhm Rds, Dual Common-Drain P-Channel MOSFET, DirectFET MC
 K Dual P-Channel MOSFET HEXFET
 F https://www.infineon.com/dgdl/irf9394mpbf.pdf?fileId=5546d462533600a4015356118ff01db5
 $ENDCMP
@@ -2486,13 +2486,13 @@ $ENDCMP
 #
 $CMP IRLML2060
 D 1.2A Id, 60V Vds, 480mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23
-K N-Channel HEXFET MOSFET Logic-Level
+K N-Channel HEXFET MOSFET
 F https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee
 $ENDCMP
 #
 $CMP IRLML5203
 D -3.0A Id, -30V Vds, 98mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23
-K P-Channel HEXFET MOSFET Logic-Level
+K P-Channel HEXFET MOSFET
 F https://www.infineon.com/dgdl/irlml5203pbf.pdf?fileId=5546d462533600a40153566868da261d
 $ENDCMP
 #
@@ -2504,7 +2504,7 @@ $ENDCMP
 #
 $CMP IRLML6402
 D -3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23
-K P-Channel HEXFET MOSFET Logic-Level
+K P-Channel HEXFET MOSFET
 F https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c
 $ENDCMP
 #
