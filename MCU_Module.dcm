@@ -204,6 +204,12 @@ K somlabs module
 F https://wiki.somlabs.com/index.php/VisionSOM-RT_Datasheet_and_Pinout
 $ENDCMP
 #
+$CMP VisionSOM-STM32MP1
+D STM32MP1 STMicroelectronics ARM Cortex-A7 800MHz single/dual core + ARM Cortex-M4 209MHz single core industrial SoM computer
+K somlabs module
+F https://wiki.somlabs.com/index.php/VisionSOM-STM32MP1_Datasheet_and_Pinout
+$ENDCMP
+#
 $CMP WeMos_D1_mini
 D 32-bit microcontroller module with WiFi
 K ESP8266 WiFi microcontroller ESP8266EX
