@@ -96,18 +96,6 @@ K 3 Phase Gate Driver
 F http://www.onsemi.com/pub/Collateral/FAN7888-D.pdf
 $ENDCMP
 #
-$CMP FL5150MX
-D IGBT and MOSFET, AC Phase Cut, Dimmer Controller, SSOP-10
-K dimmer
-F https://www.onsemi.com/pub/Collateral/FL5150-D.pdf
-$ENDCMP
-#
-$CMP FL5160MX
-D IGBT and MOSFET, AC Phase Cut, Dimmer Controller, SSOP-10
-K dimmer
-F https://www.onsemi.com/pub/Collateral/FL5150-D.pdf
-$ENDCMP
-#
 $CMP HCPL-3120
 D Gate Drive Optocoupler, Output Current 2.5/2.5A, PDIP-8
 K MOSFET Driver IGBT Driver Optocoupler
