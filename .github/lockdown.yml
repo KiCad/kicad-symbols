@@ -8,13 +8,14 @@ skipCreatedBefore: 2020-09-01
 exemptLabels: []
 
 # Comment to post before closing or locking. Set to `false` to disable
-comment: false
+comment: >
+  This repository does not accept pull requests at this time, see the README for details.
 
 # Label to add before closing or locking. Set to `false` to disable
 label: false
 
 # Close issues and pull requests
-close: false
+close: true
 
 # Lock issues and pull requests
 lock: true
