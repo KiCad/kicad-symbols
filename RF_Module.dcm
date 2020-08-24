@@ -252,14 +252,14 @@ K IOT LoRa
 F http://www.wireless-solutions.de/images/stories/downloads/Radio%20Modules/iM880B/General_Information/iM880B_Datasheet_V1_0.pdf
 $ENDCMP
 #
-$CMP RAK811-HF
-D LoRa Module, STM32L151, EU868, IN865, US915, AU915, KR920, AS923 RAKwireless
+$CMP RAK811-HF-EU868
+D LoRa Module, STM32L151, EU868, RAKwireless
 K IoT LoRa LoRaWAN RF
 F https://downloads.rakwireless.com/LoRa/RAK811/Hardware_Specification/RAK811_LoRa_Module_Datasheet_V1.4.pdf
 $ENDCMP
 #
-$CMP RAK811-LF
-D LoRa Module, STM32L151, EU433, CN470, RAKwireless
+$CMP RAK811-LF-EU433
+D LoRa Module, STM32L151, EU433, RAKwireless
 K IoT LoRa LoRaWAN RF
 F https://downloads.rakwireless.com/LoRa/RAK811/Hardware_Specification/RAK811_LoRa_Module_Datasheet_V1.4.pdf
 $ENDCMP
