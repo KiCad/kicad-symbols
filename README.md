@@ -1,9 +1,9 @@
 ## :warning: Deprecation warning
-In preparation for the KiCad v6 release this repository will be locked down on 2020-09.01. No new pull-requests will be accepted. Existing pull-requests can be worked on until 2020-10-01. Changes breaking v5.1 compatibility can be merged starting 2020-09-01.
+In preparation for the KiCad v6 release this repository will be locked down on Sept 1, 2020. No new pull-requests will be accepted. Existing pull-requests can be worked on until Oct 1, 2020. Changes breaking v5.1 compatibility can be merged starting Sept 1, 2020.
 
 On 2020-10-01 this repository, including issues and pull requests, will be archived and transferred to [gitlab.com](https://gitlab.com/kicad/libraries/kicad-symbols/). In order for the GitLab importer to function properly it is recommended you set your email address on GitHub to public and use the same address for your GitLab account. Or login to GitLab at least once using the GitHub icon. Otherwise the importer can't correlate the account information and the issues/comments on GitLab will be owned by `kicad-bot` ([importer documentation](https://docs.gitlab.com/ee/user/project/import/github.html#how-it-works)).
 
-We plan to convert the library to the new v6 S-expr format after it is imported to GitLab. That also means that old pull requests will need to be redone with v6 format if they are not merged until then.
+We plan to convert the library to the new v6 S-expr format after it is imported to GitLab. That also means that old pull requests will need to be redone with v6 format if they are not merged before then.
 
 # KiCad Symbols
 
