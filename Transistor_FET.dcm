@@ -2388,18 +2388,6 @@ K P-Channel MOSFET
 F https://www.infineon.com/dgdl/irf9383mpbf.pdf?fileId=5546d462533600a40153561169a11dab
 $ENDCMP
 #
-$CMP IRF9394M
-D -14A Id, -30V Vds, 6.5mOhm Rds, P-Channel MOSFET, DirectFET MC
-K P-Channel MOSFET
-F https://www.infineon.com/dgdl/irf9394mpbf.pdf?fileId=5546d462533600a4015356118ff01db5
-$ENDCMP
-#
-$CMP IRF9395M
-D -14A Id, -30V Vds, 7mOhm Rds, P-Channel MOSFET, DirectFET MC
-K P-Channel MOSFET
-F https://www.infineon.com/dgdl/irf9395mpbf.pdf?fileId=5546d462533600a40153561198461db7
-$ENDCMP
-#
 $CMP IRF9540N
 D -23A Id, -100V Vds, HEXFET P-Channel MOSFET, TO-220
 K HEXFET P-Channel MOSFET
