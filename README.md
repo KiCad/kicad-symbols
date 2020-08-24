@@ -1,9 +1,9 @@
 ## :warning: Deprecation warning
-In preparation for the KiCad v6 release this repository will be locked down on 2020-09.01. No new pull-requests will be accepted. Existing pull-requests can be worked on until 2020-10-01. During that time breaking changes can be merged.
+In preparation for the KiCad v6 release this repository will be locked down on 2020-09.01. No new pull-requests will be accepted. Existing pull-requests can be worked on until 2020-10-01. Changes breaking v5.1 compatibility can be merged starting 2020-09-01.
 
-On 2020-10-01 this repository including issues and pull-requests will be archived and transferred to gitlab.com. In order for the gitlab importer to function properly it is recommend to set your email-address on github to public and use the same address for you github account. Otherwise the importer can't correlate the account-information and the issues/comments on gitlab will be owned by `kicad-bot`.
+On 2020-10-01 this repository, including issues and pull requests, will be archived and transferred to gitlab.com. In order for the gitlab importer to function properly it is recommend you set your email-address on github to public and use the same address for you gitlab account. Otherwise the importer can't correlate the account information and the issues/comments on gitlab will be owned by `kicad-bot`.
 
-We plan to convert the library to the new v6 S-expr format after it arrives on gitlab. That also means that old pull-requests will need to be redone with v6 format if they are not merged until then.
+We plan to convert the library to the new v6 S-expr format after it arrives on gitlab. That also means that old pull requests will need to be redone with v6 format if they are not merged until then.
 
 # KiCad Symbols
 
