@@ -1632,12 +1632,6 @@ K step-down dc-dc buck regulator adjustable
 F http://www.ti.com/lit/ds/symlink/lm5161.pdf
 $ENDCMP
 #
-$CMP LM5164
-D 1A synchronous buck converter with ultra-low IQ, 6V - 100V input, adjustable output voltage, SO-8
-K step-down dc-dc buck regulator adjustable
-F https://www.ti.com/lit/ds/symlink/lm5164.pdf?ts=1598311864250&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM5164%253FHQS%253DTI-null-null-octopart-df-pf-null-wwe
-$ENDCMP
-#
 $CMP LM5164DDA
 D 1A synchronous buck converter with ultra-low IQ, 6V - 100V input, adjustable output voltage, HSOP-8
 K step-down dc-dc buck regulator adjustable
