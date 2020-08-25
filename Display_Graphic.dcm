@@ -204,4 +204,9 @@ K display TFT LCD graphic
 F http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft70-ae.pdf
 $ENDCMP
 #
+$CMP ILI9341_module_16bit_3.2inch
+D 3.2-inch color touch screen, 240x320 resolution, 16-bit parallel bus, support SD card function expansion, 57.60x90.73 (mm)
+K 3.2 inch color 240x320 touch screen
+$ENDCMP
+#
 #End Doc Library
