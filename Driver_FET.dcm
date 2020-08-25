@@ -324,6 +324,30 @@ K Gate Driver
 F https://www.infineon.com/dgdl/ir2114ss.pdf?fileId=5546d462533600a4015355c836cd168a
 $ENDCMP
 #
+$CMP IR2133
+D 600V, Vout 10-20V, PDIP-28
+K 3 Phase Gate Driver
+F https://www.infineon.com/dgdl/Infineon-IR2x33-IR2x35-DataSheet-v01_00-EN.pdf?fileId=5546d462533600a4015355c890ba169f
+$ENDCMP
+#
+$CMP IR2133S
+D 600V, Vout 10-20V, SOIC-28
+K 3 Phase Gate Driver
+F https://www.infineon.com/dgdl/Infineon-IR2x33-IR2x35-DataSheet-v01_00-EN.pdf?fileId=5546d462533600a4015355c890ba169f
+$ENDCMP
+#
+$CMP IR2135
+D 600V, Vout 12-20V, PDIP-28
+K 3 Phase Gate Driver
+F https://www.infineon.com/dgdl/Infineon-IR2x33-IR2x35-DataSheet-v01_00-EN.pdf?fileId=5546d462533600a4015355c890ba169f
+$ENDCMP
+#
+$CMP IR2135S
+D 600V, Vout 12-20V, SOIC-28
+K 3 Phase Gate Driver
+F https://www.infineon.com/dgdl/Infineon-IR2x33-IR2x35-DataSheet-v01_00-EN.pdf?fileId=5546d462533600a4015355c890ba169f
+$ENDCMP
+#
 $CMP IR2153
 D Self-Oscillating Half-Bridge Driver, 600V, PDIP-8/SOIC-8
 K Oscillating Gate Driver
@@ -394,6 +418,30 @@ $CMP IR2214S
 D Half-Bridge Gate Driver IC, 1200V, 1.0/1.5A, SSOP-24
 K Gate Driver
 F https://www.infineon.com/dgdl/ir2114ss.pdf?fileId=5546d462533600a4015355c836cd168a
+$ENDCMP
+#
+$CMP IR2233
+D 1200V, Vout 10-20V, PDIP-28
+K 3 Phase Gate Driver
+F https://www.infineon.com/dgdl/Infineon-IR2x33-IR2x35-DataSheet-v01_00-EN.pdf?fileId=5546d462533600a4015355c890ba169f
+$ENDCMP
+#
+$CMP IR2233S
+D 1200V, Vout 10-20V, SOIC-28
+K 3 Phase Gate Driver
+F https://www.infineon.com/dgdl/Infineon-IR2x33-IR2x35-DataSheet-v01_00-EN.pdf?fileId=5546d462533600a4015355c890ba169f
+$ENDCMP
+#
+$CMP IR2235
+D 1200V, Vout 12-20V, PDIP-28
+K 3 Phase Gate Driver
+F https://www.infineon.com/dgdl/Infineon-IR2x33-IR2x35-DataSheet-v01_00-EN.pdf?fileId=5546d462533600a4015355c890ba169f
+$ENDCMP
+#
+$CMP IR2235S
+D 1200V, Vout 12-20V, SOIC-28
+K 3 Phase Gate Driver
+F https://www.infineon.com/dgdl/Infineon-IR2x33-IR2x35-DataSheet-v01_00-EN.pdf?fileId=5546d462533600a4015355c890ba169f
 $ENDCMP
 #
 $CMP IR2301
