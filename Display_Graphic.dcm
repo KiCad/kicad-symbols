@@ -204,4 +204,10 @@ K display TFT LCD graphic
 F http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft70-ae.pdf
 $ENDCMP
 #
+$CMP ER-TFT024-3
+D Graphics Display 2.4" 240x320,  8b, 9b, 16b, 18b parallel, SPI, RGB, ILI9341 Controller, 2.8V VDD
+K display LCD graphic TFT ILI9341
+F https://www.buydisplay.com/download/manual/ER-TFT024-3_Datasheet.pdf
+$ENDCMP
+#
 #End Doc Library
