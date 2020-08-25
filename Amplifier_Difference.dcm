@@ -3,19 +3,31 @@ EESchema-DOCLIB  Version 2.0
 $CMP AD628
 D High Common-Mode Voltage, Programmable Gain Difference Amplifier, +/-120V, Gain = 0.1 to 100, SOIC-8/MSOP-8
 K difference amplifier
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD628.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD628.pdf
 $ENDCMP
 #
 $CMP AD8207
 D 65V (35V) Zero-Drift, High Voltage, Bidirectional, Difference Amplifier, 20V/V gain, bandwidth 150kHz, Vcc=5V (3.3V), SOIC-8
 K highside HS current sense difference amplifier linear buffered
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8207.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8207.pdf
 $ENDCMP
 #
 $CMP AD8276
 D Low Power, Wide Supply Range, Low Cost Unity-Gain Difference Amplifier, SOIC-8/MSOP-8
 K difference amplifier
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8276_8277.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8276_8277.pdf
+$ENDCMP
+#
+$CMP AD8475ACPZ
+D Precision, Selectable Gain, Fully Differential Funnel Amplifier, LFCSP-16
+K selectable gain ADC driver
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8475.pdf
+$ENDCMP
+#
+$CMP AD8475xRMZ
+D Precision, Selectable Gain, Fully Differential Funnel Amplifier, MSOP-10
+K selectable gain ADC driver
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8475.pdf
 $ENDCMP
 #
 $CMP ADA4940-2

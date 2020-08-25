@@ -102,6 +102,12 @@ K trimmer capacitor
 F ~
 $ENDCMP
 #
+$CMP CTRIM_Small
+D Trimmable capacitor, small symbol
+K trimmer variable capacitor
+F ~
+$ENDCMP
+#
 $CMP C_Feedthrough
 D Feedthrough capacitor
 K EMI filter feedthrough capacitor
@@ -117,6 +123,42 @@ $ENDCMP
 $CMP C_Variable
 D Variable capacitor
 K trimmer capacitor
+F ~
+$ENDCMP
+#
+$CMP CircuitBreaker_1P
+D Single pole circuit breaker
+K CB
+F ~
+$ENDCMP
+#
+$CMP CircuitBreaker_1P_US
+D Single pole circuit breaker, US symbol
+K CB
+F ~
+$ENDCMP
+#
+$CMP CircuitBreaker_2P
+D Double pole circuit breaker
+K CB 2P
+F ~
+$ENDCMP
+#
+$CMP CircuitBreaker_2P_US
+D Double pole circuit breaker, US symbol
+K CB 2P
+F ~
+$ENDCMP
+#
+$CMP CircuitBreaker_3P
+D Triple pole circuit breaker
+K CB 3P
+F ~
+$ENDCMP
+#
+$CMP CircuitBreaker_3P_US
+D Triple pole circuit breaker, US symbol
+K CB 3P
 F ~
 $ENDCMP
 #
@@ -198,6 +240,12 @@ K AC diode DIAC
 F ~
 $ENDCMP
 #
+$CMP D_AAK
+D Diode, anode on pins 1 and 2
+K diode
+F ~
+$ENDCMP
+#
 $CMP D_ALT
 D Diode, filled shape
 K diode
@@ -243,6 +291,24 @@ $ENDCMP
 $CMP D_Capacitance_ALT
 D Variable capacitance diode, filled shape
 K capacitance diode varicap varactor
+F ~
+$ENDCMP
+#
+$CMP D_KAA
+D Diode, anode on pins 2 and 3
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_KAK
+D Diode, cathode on pins 1 and 3
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_KKA
+D Diode, cathode on pins 1 and 2
+K diode
 F ~
 $ENDCMP
 #
@@ -516,6 +582,42 @@ K diode
 F ~
 $ENDCMP
 #
+$CMP D_Zener_x2_ACom_AKK
+D Dual Zener diode, common anode on pin 1
+K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_ACom_KAK
+D Dual Zener diode, common anode on pin 2
+K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_ACom_KKA
+D Dual Zener diode, common anode on pin 3
+K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_KCom_AAK
+D Dual Zener diode, common cathode on pin 3
+K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_KCom_AKA
+D Dual Zener diode, common cathode on pin 2
+K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_KCom_KAA
+D Dual Zener diode, common cathode on pin 1
+K diode zener dual
+F ~
+$ENDCMP
+#
 $CMP D_x2_ACom_AKK
 D Dual diode, common anode on pin 1
 K diode
@@ -621,7 +723,7 @@ $ENDCMP
 $CMP EMI_Filter_LL
 D EMI 2-inductor filter
 K EMI filter
-F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c30e.ashx?la=en-gb
+F ~
 $ENDCMP
 #
 $CMP EMI_Filter_LL_1423
@@ -684,6 +786,18 @@ K fuse
 F ~
 $ENDCMP
 #
+$CMP GDT_2pin
+D Gas Discharge Tube with 2 Pins
+K gdt
+F ~
+$ENDCMP
+#
+$CMP GDT_3pin
+D Gas Discharge Tube with 3 Pins
+K gdt
+F ~
+$ENDCMP
+#
 $CMP Galvanometer
 D Galvanometer
 K galvanometer
@@ -738,14 +852,50 @@ K LED diode
 F ~
 $ENDCMP
 #
+$CMP LED_ABGR
+D RGB LED, anode/blue/green/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_ABRG
+D RGB LED, anode/blue/red/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_AGBR
+D RGB LED, anode/green/blue/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_AGRB
+D RGB LED, anode/green/red/blue
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP LED_ALT
 D Light emitting diode, filled shape
 K LED diode
 F ~
 $ENDCMP
 #
+$CMP LED_ARBG
+D RGB LED, anode/red/blue/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP LED_ARGB
 D RGB LED, anode/red/green/blue
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_BAGR
+D RGB LED, blue/anode/green/red
 K LED RGB diode
 F ~
 $ENDCMP
@@ -756,8 +906,92 @@ K LED RGB diode
 F ~
 $ENDCMP
 #
+$CMP LED_BCGR
+D RGB LED, blue/cathode/green/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_BCRG
+D RGB LED, blue/cathode/red/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_BGAR
+D RGB LED, blue/green/anode/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_BGCR
+D RGB LED, blue/green/cathode/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP LED_BGRA
 D RGB LED, blue/green/red/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_BGRC
+D RGB LED, blue/green/red/cathode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_BRAG
+D RGB LED, blue/red/anode/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_BRCG
+D RGB LED, blue/red/cathode/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_BRGA
+D RGB LED, blue/red/green/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_BRGC
+D RGB LED, blue/red/green/cathode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_CBGR
+D RGB LED, cathode/blue/green/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_CBRG
+D RGB LED, cathode/blue/red/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_CGBR
+D RGB LED, cathode/green/blue/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_CGRB
+D RGB LED, cathode/green/red/blue
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_CRBG
+D RGB LED, cathode/red/blue/green
 K LED RGB diode
 F ~
 $ENDCMP
@@ -804,9 +1038,87 @@ K LED diode bicolor dual
 F ~
 $ENDCMP
 #
+$CMP LED_Dual_CACA
+D Dual LED, cathodes on pins 1 and 3
+K LED diode bicolor dual
+F ~
+$ENDCMP
+#
 $CMP LED_Dual_CCA
 D Dual LED, common anode on pin 3
 K LED diode bicolor dual
+F ~
+$ENDCMP
+#
+$CMP LED_GABR
+D RGB LED, green/anode/blue/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GARB
+D RGB LED, green/anode/red/blue
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GBAR
+D RGB LED, green/blue/anode/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GBCR
+D RGB LED, green/blue/cathode/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GBRA
+D RGB LED, green/blue/red/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GBRC
+D RGB LED, green/blue/red/cathode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GCBR
+D RGB LED, green/cathode/blue/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GCRB
+D RGB LED, green/cathode/red/blue
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GRAB
+D RGB LED, green/red/anode/blue
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GRBA
+D RGB LED, green/red/blue/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GRBC
+D RGB LED, green/red/blue/cathode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GRCB
+D RGB LED, green/red/cathode/blue
+K LED RGB diode
 F ~
 $ENDCMP
 #
@@ -828,6 +1140,30 @@ K LED RGB diode
 F ~
 $ENDCMP
 #
+$CMP LED_RBAG
+D RGB LED, red/blue/anode/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RBCG
+D RGB LED, red/blue/cathode/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RBGA
+D RGB LED, red/blue/green/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RBGC
+D RGB LED, red/blue/green/cathode
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP LED_RCBG
 D RGB LED, red/cathode/blue/green
 K LED RGB diode
@@ -840,8 +1176,32 @@ K LED RGB diode
 F ~
 $ENDCMP
 #
+$CMP LED_RGAB
+D RGB LED, red/green/anode/blue
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP LED_RGB
 D RGB LED, 6 pin package
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RGBA
+D RGB LED, red/green/blue/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RGBC
+D RGB LED, red/green/blue/cathode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RGCB
+D RGB LED, red/green/cathode/blue
 K LED RGB diode
 F ~
 $ENDCMP
@@ -894,7 +1254,55 @@ K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
+$CMP L_Core_Ferrite_Coupled_1243
+D Coupled inductor with ferrite core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Ferrite_Coupled_1324
+D Coupled inductor with ferrite core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Ferrite_Coupled_1342
+D Coupled inductor with ferrite core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Ferrite_Coupled_1423
+D Coupled inductor with ferrite core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
 $CMP L_Core_Ferrite_Coupled_Small
+D Coupled inductor with ferrite core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Ferrite_Coupled_Small_1243
+D Coupled inductor with ferrite core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Ferrite_Coupled_Small_1324
+D Coupled inductor with ferrite core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Ferrite_Coupled_Small_1342
+D Coupled inductor with ferrite core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Ferrite_Coupled_Small_1423
 D Coupled inductor with ferrite core, small symbol
 K inductor choke coil reactor magnetic coupled
 F ~
@@ -918,7 +1326,55 @@ K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
+$CMP L_Core_Iron_Coupled_1243
+D Coupled inductor with iron core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Iron_Coupled_1324
+D Coupled inductor with iron core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Iron_Coupled_1342
+D Coupled inductor with iron core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Iron_Coupled_1423
+D Coupled inductor with iron core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
 $CMP L_Core_Iron_Coupled_Small
+D Coupled inductor with iron core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Iron_Coupled_Small_1243
+D Coupled inductor with iron core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Iron_Coupled_Small_1324
+D Coupled inductor with iron core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Iron_Coupled_Small_1342
+D Coupled inductor with iron core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Core_Iron_Coupled_Small_1423
 D Coupled inductor with iron core, small symbol
 K inductor choke coil reactor magnetic coupled
 F ~
@@ -936,7 +1392,55 @@ K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
+$CMP L_Coupled_1243
+D Coupled inductor
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Coupled_1324
+D Coupled inductor
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Coupled_1342
+D Coupled inductor
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Coupled_1423
+D Coupled inductor
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
 $CMP L_Coupled_Small
+D Coupled inductor, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Coupled_Small_1243
+D Coupled inductor, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Coupled_Small_1324
+D Coupled inductor, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Coupled_Small_1342
+D Coupled inductor, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Coupled_Small_1423
 D Coupled inductor, small symbol
 K inductor choke coil reactor magnetic coupled
 F ~
@@ -1104,6 +1608,12 @@ K transistor NMOS N-MOS N-MOSFET
 F ~
 $ENDCMP
 #
+$CMP Q_DUAL_NMOS_S1G1D2S2G2D1
+D Dual NMOS transistor, 6 pin package
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
 $CMP Q_DUAL_NPN_C2C1E1E2
 D Double NPN transistors, current mirror configuration
 K transistor NPN
@@ -1112,6 +1622,12 @@ $ENDCMP
 #
 $CMP Q_DUAL_NPN_NPN_BRT_E1B1C2E2B2C1
 D Dual NPN bias resistor transistor, 6 pin package
+K transistor NPN
+F ~
+$ENDCMP
+#
+$CMP Q_DUAL_NPN_NPN_C2E2C1E1B1B2
+D Dual NPN transistor, 6 pin package
 K transistor NPN
 F ~
 $ENDCMP
@@ -1140,6 +1656,18 @@ K transistor PMOS P-MOS P-MOSFET
 F ~
 $ENDCMP
 #
+$CMP Q_DUAL_PMOS_S1G1D2S2G2D1
+D Dual PMOS transistor, 6 pin package
+K transistor PMOS P-MOS P-MOSFET
+F ~
+$ENDCMP
+#
+$CMP Q_DUAL_PMOS_S1G1S2G2D2D2D1D1
+D Dual PMOS transistor, 8 pin package
+K transistor PMOS P-MOS P-MOSFET
+F ~
+$ENDCMP
+#
 $CMP Q_DUAL_PNP_C2C1E1E2
 D Double PNP transistors, current mirror configuration
 K transistor PNP
@@ -1162,6 +1690,12 @@ $CMP Q_DUAL_PNP_PNP_C1B1B2C2E2E1
 D Dual PNP transistor, 6 pin package
 K transistor PNP
 F https://www.diodes.com/assets/Datasheets/ds30437.pdf
+$ENDCMP
+#
+$CMP Q_DUAL_PNP_PNP_C2E2C1E1B1B2
+D Dual PNP transistor, 6 pin package
+K transistor PNP
+F ~
 $ENDCMP
 #
 $CMP Q_DUAL_PNP_PNP_E1B1C2E2B2C1
@@ -1398,14 +1932,14 @@ K transistor NPN
 F ~
 $ENDCMP
 #
-$CMP Q_NPN_ECB_BRT
-D NPN transistor, emitter/collector/base
+$CMP Q_NPN_ECBC
+D NPN transistor, emitter/collector/base, collector connected to mounting plane
 K transistor NPN
 F ~
 $ENDCMP
 #
-$CMP Q_NPN_ECBC
-D NPN transistor, emitter/collector/base, collector connected to mounting plane
+$CMP Q_NPN_ECB_BRT
+D NPN transistor, emitter/collector/base
 K transistor NPN
 F ~
 $ENDCMP
@@ -1596,14 +2130,14 @@ K transistor PNP
 F ~
 $ENDCMP
 #
-$CMP Q_PNP_ECB_BRT
-D PNP bias resistor transistor, emitter/collector/base
+$CMP Q_PNP_ECBC
+D PNP transistor, emitter/collector/base, collector connected to mounting plane
 K transistor PNP
 F ~
 $ENDCMP
 #
-$CMP Q_PNP_ECBC
-D PNP transistor, emitter/collector/base, collector connected to mounting plane
+$CMP Q_PNP_ECB_BRT
+D PNP bias resistor transistor, emitter/collector/base
 K transistor PNP
 F ~
 $ENDCMP
@@ -1746,6 +2280,12 @@ K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
+$CMP R_Network03_Split
+D 3 resistor network, star topology, bussed resistors, split
+K R network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
 $CMP R_Network03_US
 D 3 resistor network, star topology, bussed resistors, small US symbol
 K R network star-topology
@@ -1754,6 +2294,12 @@ $ENDCMP
 #
 $CMP R_Network04
 D 4 resistor network, star topology, bussed resistors, small symbol
+K R network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_Network04_Split
+D 4 resistor network, star topology, bussed resistors, split
 K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
@@ -1770,6 +2316,12 @@ K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
+$CMP R_Network05_Split
+D 5 resistor network, star topology, bussed resistors, split
+K R network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
 $CMP R_Network05_US
 D 5 resistor network, star topology, bussed resistors, small US symbol
 K R network star-topology
@@ -1778,6 +2330,12 @@ $ENDCMP
 #
 $CMP R_Network06
 D 6 resistor network, star topology, bussed resistors, small symbol
+K R network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_Network06_Split
+D 6 resistor network, star topology, bussed resistors, split
 K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
@@ -1794,6 +2352,12 @@ K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
+$CMP R_Network07_Split
+D 7 resistor network, star topology, bussed resistors, split
+K R network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
 $CMP R_Network07_US
 D 7 resistor network, star topology, bussed resistors, small US symbol
 K R network star-topology
@@ -1802,6 +2366,12 @@ $ENDCMP
 #
 $CMP R_Network08
 D 8 resistor network, star topology, bussed resistors, small symbol
+K R network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_Network08_Split
+D 8 resistor network, star topology, bussed resistors, split
 K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
@@ -1818,6 +2388,12 @@ K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
+$CMP R_Network09_Split
+D 9 resistor network, star topology, bussed resistors, split
+K R network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
 $CMP R_Network09_US
 D 9 resistor network, star topology, bussed resistors, small US symbol
 K R network star-topology
@@ -1826,6 +2402,12 @@ $ENDCMP
 #
 $CMP R_Network10
 D 10 resistor network, star topology, bussed resistors, small symbol
+K R network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_Network10_Split
+D 10 resistor network, star topology, bussed resistors, split
 K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
@@ -1842,6 +2424,12 @@ K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
+$CMP R_Network11_Split
+D 11 resistor network, star topology, bussed resistors, split
+K R network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
 $CMP R_Network11_US
 D 11 resistor network, star topology, bussed resistors, small US symbol
 K R network star-topology
@@ -1854,6 +2442,12 @@ K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
+$CMP R_Network12_Split
+D 12 resistor network, star topology, bussed resistors, split
+K R network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
 $CMP R_Network12_US
 D 12 resistor network, star topology, bussed resistors, small US symbol
 K R network star-topology
@@ -1862,6 +2456,12 @@ $ENDCMP
 #
 $CMP R_Network13
 D 13 resistor network, star topology, bussed resistors, small symbol
+K R network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_Network13_Split
+D 13 resistor network, star topology, bussed resistors, split
 K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
@@ -1956,6 +2556,18 @@ K resistor variable
 F ~
 $ENDCMP
 #
+$CMP R_POT_MountingPin
+D Potentiometer with a mounting pin
+K resistor variable
+F ~
+$ENDCMP
+#
+$CMP R_POT_Small
+D Potentiometer
+K resistor variable
+F ~
+$ENDCMP
+#
 $CMP R_POT_TRIM
 D Trim-potentiometer
 K resistor variable trimpot trimmer
@@ -1975,7 +2587,7 @@ F ~
 $ENDCMP
 #
 $CMP R_Pack02
-D 2 resistor network, parallel topology, DIP package
+D 2 resistor network, parallel topology
 K R network parallel topology isolated
 F ~
 $ENDCMP
@@ -1986,8 +2598,20 @@ K R network parallel topology isolated
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
+$CMP R_Pack02_SIP_Split
+D 2 resistor network, parallel topology, SIP package, split
+K R network parallel topology isolated
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_Pack02_Split
+D 2 resistor network, parallel topology, split
+K R network parallel topology isolated
+F ~
+$ENDCMP
+#
 $CMP R_Pack03
-D 3 resistor network, parallel topology, DIP package
+D 3 resistor network, parallel topology
 K R network parallel topology isolated
 F ~
 $ENDCMP
@@ -1998,8 +2622,20 @@ K R network parallel topology isolated
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
+$CMP R_Pack03_SIP_Split
+D 3 resistor network, parallel topology, SIP package, split
+K R network parallel topology isolated
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_Pack03_Split
+D 3 resistor network, parallel topology, split
+K R network parallel topology isolated
+F ~
+$ENDCMP
+#
 $CMP R_Pack04
-D 4 resistor network, parallel topology, DIP package
+D 4 resistor network, parallel topology
 K R network parallel topology isolated
 F ~
 $ENDCMP
@@ -2010,8 +2646,20 @@ K R network parallel topology isolated
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
+$CMP R_Pack04_SIP_Split
+D 4 resistor network, parallel topology, SIP package, split
+K R network parallel topology isolated
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_Pack04_Split
+D 4 resistor network, parallel topology, split
+K R network parallel topology isolated
+F ~
+$ENDCMP
+#
 $CMP R_Pack05
-D 5 resistor network, parallel topology, DIP package
+D 5 resistor network, parallel topology
 K R network parallel topology isolated
 F ~
 $ENDCMP
@@ -2022,8 +2670,20 @@ K R network parallel topology isolated
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
+$CMP R_Pack05_SIP_Split
+D 5 resistor network, parallel topology, SIP package, split
+K R network parallel topology isolated
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_Pack05_Split
+D 5 resistor network, parallel topology, split
+K R network parallel topology isolated
+F ~
+$ENDCMP
+#
 $CMP R_Pack06
-D 6 resistor network, parallel topology, DIP package
+D 6 resistor network, parallel topology
 K R network parallel topology isolated
 F ~
 $ENDCMP
@@ -2034,8 +2694,20 @@ K R network parallel topology isolated
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
+$CMP R_Pack06_SIP_Split
+D 6 resistor network, parallel topology, SIP package, split
+K R network parallel topology isolated
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_Pack06_Split
+D 6 resistor network, parallel topology, split
+K R network parallel topology isolated
+F ~
+$ENDCMP
+#
 $CMP R_Pack07
-D 7 resistor network, parallel topology, DIP package
+D 7 resistor network, parallel topology
 K R network parallel topology isolated
 F ~
 $ENDCMP
@@ -2046,26 +2718,62 @@ K R network parallel topology isolated
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
+$CMP R_Pack07_SIP_Split
+D 7 resistor network, parallel topology, SIP package, split
+K R network parallel topology isolated
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_Pack07_Split
+D 7 resistor network, parallel topology, split
+K R network parallel topology isolated
+F ~
+$ENDCMP
+#
 $CMP R_Pack08
-D 8 resistor network, parallel topology, DIP package
+D 8 resistor network, parallel topology
+K R network parallel topology isolated
+F ~
+$ENDCMP
+#
+$CMP R_Pack08_Split
+D 8 resistor network, parallel topology, split
 K R network parallel topology isolated
 F ~
 $ENDCMP
 #
 $CMP R_Pack09
-D 9 resistor network, parallel topology, DIP package
+D 9 resistor network, parallel topology
+K R network parallel topology isolated
+F ~
+$ENDCMP
+#
+$CMP R_Pack09_Split
+D 9 resistor network, parallel topology, split
 K R network parallel topology isolated
 F ~
 $ENDCMP
 #
 $CMP R_Pack10
-D 10 resistor network, parallel topology, DIP package
+D 10 resistor network, parallel topology
+K R network parallel topology isolated
+F ~
+$ENDCMP
+#
+$CMP R_Pack10_Split
+D 10 resistor network, parallel topology, split
 K R network parallel topology isolated
 F ~
 $ENDCMP
 #
 $CMP R_Pack11
-D 11 resistor network, parallel topology, DIP package
+D 11 resistor network, parallel topology
+K R network parallel topology isolated
+F ~
+$ENDCMP
+#
+$CMP R_Pack11_Split
+D 11 resistor network, parallel topology, split
 K R network parallel topology isolated
 F ~
 $ENDCMP
