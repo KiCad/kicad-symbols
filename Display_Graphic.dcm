@@ -204,4 +204,10 @@ K display TFT LCD graphic
 F http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft70-ae.pdf
 $ENDCMP
 #
+$CMP OLED-128O064D-BPP3N00000
+D 128 x 64 Graphic OLED, blue, 0.96 inch
+K oled graphic
+F https://www.vishay.com/docs/37902/oled128o064dbpp3n00000.pdf
+$ENDCMP
+#
 #End Doc Library
