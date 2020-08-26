@@ -18,6 +18,42 @@ K Temerature Humidity Sensor
 F http://www.ti.com/lit/ds/symlink/hdc2080.pdf
 $ENDCMP
 #
+$CMP SHT30-DIS
+D I²C humidity and temperature sensor, ±2%RH, ±0.2°C, DFN-8
+K digital temperature humidity i2c
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Datasheets/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf
+$ENDCMP
+#
+$CMP SHT30A-DIS
+D I²C humidity and temperature sensor, ±3%RH, ±0.3°C, AEQ-100, DFN-8
+K digital temperature humidity automotive i2c
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Datasheets/Sensirion_Humidity_Sensors_SHT3xA_Datasheet.pdf
+$ENDCMP
+#
+$CMP SHT31-DIS
+D I²C humidity and temperature sensor, ±2%RH, ±0.2°C, DFN-8
+K digital temperature humidity i2c
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Datasheets/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf
+$ENDCMP
+#
+$CMP SHT31A-DIS
+D I²C humidity and temperature sensor, ±2%RH, ±0.3°C, AEQ-100, DFN-8
+K digital temperature humidity automotive i2c
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Datasheets/Sensirion_Humidity_Sensors_SHT3xA_Datasheet.pdf
+$ENDCMP
+#
+$CMP SHT35-DIS
+D I²C humidity and temperature sensor, ±1.5%RH, ±0.1°C, DFN-8
+K digital temperature humidity i2c
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Datasheets/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf
+$ENDCMP
+#
+$CMP SHT35A-DIS
+D I²C humidity and temperature sensor, ±1.5%RH, ±0.2°C, AEQ-100, DFN-8
+K digital temperature humidity automotive i2c
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Datasheets/Sensirion_Humidity_Sensors_SHT3xA_Datasheet.pdf
+$ENDCMP
+#
 $CMP SHTC1
 D Humidity and Temperature Sensor, +/-3%RH, +/-0.3degC, I2C, 1.62-1.98V, DFN-4
 K Sensirion environment environmental measurement digital

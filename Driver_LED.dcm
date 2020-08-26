@@ -174,6 +174,12 @@ K LED buck driver
 F https://www.st.com/resource/en/datasheet/led5000.pdf
 $ENDCMP
 #
+$CMP LM3914V
+D 10 LED Dot/Bar Display Driver, PLCC-20
+K LED driver bar dot
+F https://www.ti.com/lit/ds/symlink/lm3914.pdf
+$ENDCMP
+#
 $CMP LP5036
 D 36-Channel 12-Bit PWM Ultra-low Quiescent Current I2C RGB LED Driver
 K PWM LED driver I2C
