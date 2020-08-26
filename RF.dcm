@@ -12,6 +12,18 @@ K mixer rf
 F www.minicircuits.com/pdfs/ADE-6.pdf
 $ENDCMP
 #
+$CMP ADCH-80
+D 50-10000MHz, RF Choke, Mini-Circuits CD542
+K bias filter DC choke
+F https://www.minicircuits.com/pdfs/ADCH-80+.pdf
+$ENDCMP
+#
+$CMP ADCH-80A
+D 50-10000MHz, RF Choke, Mini-Circuits CD542
+K bias filter DC choke
+F https://www.minicircuits.com/pdfs/ADCH-80A+.pdf
+$ENDCMP
+#
 $CMP ADL5904
 D DC to 6 GHz, 45 dB TruPwr Detector with Envelope Threshold Detection, LFCSP-16
 K RMS power detector log decibel dB
