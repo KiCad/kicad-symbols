@@ -300,6 +300,12 @@ K USB USB-C PD Power Delivery PHY TCPC
 F http://www.onsemi.com/pub/Collateral/FUSB307B-D.PDF
 $ENDCMP
 #
+$CMP MA8601
+D USB 2.0 High Speed 4-Port Hub Controller, SSOP-28
+K 4-Port, EEPROM, High Speed, Hub, USB2.0
+F https://datasheetspdf.com/pdf-file/1312067/Prolific/MA8601/1
+$ENDCMP
+#
 $CMP MCP2200-E-SS
 D USB 2.0 to UART Protocol Converter with GPIO, Extended Temperature Range, SSOP-20
 K USB UART Converter
