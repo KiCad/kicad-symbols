@@ -258,6 +258,30 @@ K switching buck converter
 F http://www.aosmd.com/res/data_sheets/AOZ1282CI-1.pdf
 $ENDCMP
 #
+$CMP AP63200WU
+D 2A, 500kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6
+K 2A Buck DC/DC
+F https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
+$ENDCMP
+#
+$CMP AP63201WU
+D 2A, 500kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6
+K 2A Buck DC/DC
+F https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
+$ENDCMP
+#
+$CMP AP63203WU
+D 2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6
+K 2A Buck DC/DC
+F https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
+$ENDCMP
+#
+$CMP AP63205WU
+D 2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6
+K 2A Buck DC/DC
+F https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
+$ENDCMP
+#
 $CMP AP6502
 D 340kHz 18V 2A Synchronois DC/DC Buck Converter
 K buck switching converter
@@ -435,13 +459,13 @@ $ENDCMP
 $CMP FSBH0170
 D Green Mode Fairchild Power Switch, 700V Vds, 1.0A Id, 15W/13W 230V/85-265V, VIN Pin, DIP-8
 K smps regulator
-F https://www.fairchildsemi.com/datasheets/FS/FSBH0370.pdf
+F https://www.onsemi.com/pub/Collateral/FSBH0270-D.PDF
 $ENDCMP
 #
 $CMP FSBH0170A
 D Green Mode Fairchild Power Switch, 700V Vds, 1.0A Id, 15W/13W 230V/85-265V, DIP-8
 K smps regulator
-F https://www.fairchildsemi.com/datasheets/FS/FSBH0370.pdf
+F https://www.onsemi.com/pub/Collateral/FSBH0270-D.PDF
 $ENDCMP
 #
 $CMP FSBH0170W
@@ -453,13 +477,13 @@ $ENDCMP
 $CMP FSBH0270
 D Green Mode Fairchild Power Switch, 700V Vds, 2.0A Id, 20W/16W 230V/85-265V, VIN Pin, DIP-8
 K smps regulator
-F https://www.fairchildsemi.com/datasheets/FS/FSBH0370.pdf
+F https://www.onsemi.com/pub/Collateral/FSBH0270-D.PDF
 $ENDCMP
 #
 $CMP FSBH0270A
 D Green Mode Fairchild Power Switch, 700V Vds, 2.0A Id, 20W/16W 230V/85-265V, DIP-8
 K smps regulator
-F https://www.fairchildsemi.com/datasheets/FS/FSBH0370.pdf
+F https://www.onsemi.com/pub/Collateral/FSBH0270-D.PDF
 $ENDCMP
 #
 $CMP FSBH0270W
@@ -471,13 +495,13 @@ $ENDCMP
 $CMP FSBH0370
 D Green Mode Fairchild Power Switch, 700V Vds, 3.0A Id, 25W/19W 230V/85-265V, VIN Pin, DIP-8
 K smps regulator
-F https://www.fairchildsemi.com/datasheets/FS/FSBH0370.pdf
+F https://www.onsemi.com/pub/Collateral/FSBH0270-D.PDF
 $ENDCMP
 #
 $CMP FSBH0F70A
 D Green Mode Fairchild Power Switch, 700V Vds, 0.5A Id, 10W/8W 230V/85-265V, DIP-8
 K smps regulator
-F https://www.fairchildsemi.com/datasheets/FS/FSBH0370.pdf
+F https://www.onsemi.com/pub/Collateral/FSBH0270-D.PDF
 $ENDCMP
 #
 $CMP FSBH0F70WA
@@ -489,31 +513,31 @@ $ENDCMP
 $CMP FSDH321
 D 17W SMPS Controller, 100kHz, AC-DC, PDIP-8
 K SMPS Controller with MOSFET 17W AC-DC
-F www.fairchildsemi.com/ds/FS/FSDH321.pdf
+F https://www.onsemi.com/pub/Collateral/FSDH321JP-D.pdf
 $ENDCMP
 #
 $CMP FSDH321L
 D 17W SMPS Controller, 100kHz, AC-DC, SMD-8
 K SMPS Controller with MOSFET 17W AC-DC
-F www.fairchildsemi.com/ds/FS/FSDH321.pdf
+F https://www.onsemi.com/pub/Collateral/FSDH321JP-D.pdf
 $ENDCMP
 #
 $CMP FSDL321
 D 17W SMPS Controller, 50kHz, AC-DC, PDIP-8
 K SMPS Controller with MOSFET 17W AC-DC
-F www.fairchildsemi.com/ds/FS/FSDH321.pdf
+F https://www.onsemi.com/pub/Collateral/FSDH321JP-D.pdf
 $ENDCMP
 #
 $CMP FSDL321L
 D 17W SMPS Controller, 50kHz, AC-DC, SMD-8
 K SMPS Controller with MOSFET 17W AC-DC
-F www.fairchildsemi.com/ds/FS/FSDH321.pdf
+F https://www.onsemi.com/pub/Collateral/FSDH321JP-D.pdf
 $ENDCMP
 #
 $CMP FSL136MRT
 D 67kHz SMPS Controller w/ Soft Start, max. 50W AC-DC, TO-220F-6L
 K SMPS Controller 50W AC-DC
-F http://www.fairchildsemi.com/ds/FS/FSL136MRT.pdf
+F https://www.onsemi.com/pub/Collateral/FSL136MRT-D.pdf
 $ENDCMP
 #
 $CMP FSQ0565RQLDTU
@@ -736,6 +760,18 @@ $CMP LM22676MR-ADJ
 D 3A Step-Down Switching Voltage Regulater, 4.5-42V Input, Adjustable Output, 500kHz Switching Frequency, SOIC-8
 K DC/DC Buck Converter 3A
 F http://www.ti.com/lit/ds/symlink/lm22676.pdf
+$ENDCMP
+#
+$CMP LM22678TJ-5
+D 5A Step-Down Switching Voltage Regulater, 4.5-42V Input, 5V Output, 500kHz Switching Frequency, TO-263
+K DC/DC Buck Converter 5A
+F https://www.ti.com/lit/ds/symlink/lm22678.pdf
+$ENDCMP
+#
+$CMP LM22678TJ-ADJ
+D 5A Step-Down Switching Voltage Regulater, 4.5-42V Input, Adjustable Output, 500kHz Switching Frequency, TO-263
+K DC/DC Buck Converter 5A
+F https://www.ti.com/lit/ds/symlink/lm22678.pdf
 $ENDCMP
 #
 $CMP LM25085MM
@@ -1240,6 +1276,12 @@ $CMP LM2596T-ADJ
 D Adjustable 3A 150kHz Step-Down Voltage Regulator, TO-220
 K Step-Down Voltage Regulator Adjustable 3A
 F http://www.ti.com/lit/ds/symlink/lm2596.pdf
+$ENDCMP
+#
+$CMP LM2611xMF
+D 1.4MHz Cuk Converter, SOT-23-5
+K switched converter inverter PWM
+F https://www.ti.com/lit/ds/symlink/lm2611.pdf
 $ENDCMP
 #
 $CMP LM26480SQ
@@ -3286,6 +3328,12 @@ $CMP MIC2290
 D 1.2 Mhz PWM Boost Regulator with Internal Schotty Diode, MLF-8
 K boost switching voltage converter regulator
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2290.pdf
+$ENDCMP
+#
+$CMP MIC4684
+D 2A, 200kHz SuperSwitcher Buck Regulator, 4-30V Input Voltage, Adjustable Output Voltage, SO-8
+K regulator switching adjustable
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MIC4684.pdf
 $ENDCMP
 #
 $CMP MIC4690
@@ -5766,12 +5814,6 @@ K boost converter switching
 F http://www.ti.com/lit/ds/symlink/tps61252.pdf
 $ENDCMP
 #
-$CMP TPS62056DGS
-D 800 mA Step-Down Converter, Adjustable Output Voltage, 0.7-6V Input Voltage, VSSOP-10
-K voltage regulator switch mode step down
-F http://www.ti.com/lit/ds/symlink/tps62056.pdf
-$ENDCMP
-#
 $CMP TPS613221ADBV
 D 1.2A Step-Up Converter, 3.3V Output Voltage, 0.9-5.5V Input Voltage, SOT-23-5
 K Boost converter
@@ -5848,6 +5890,12 @@ $CMP TPS61322DBZ
 D 750mA Step-Up Converter, 2.2V Output Voltage, 0.9-5.5V Input Voltage, SOT-23
 K Boost converter
 F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS62056DGS
+D 800 mA Step-Down Converter, Adjustable Output Voltage, 0.7-6V Input Voltage, VSSOP-10
+K voltage regulator switch mode step down
+F http://www.ti.com/lit/ds/symlink/tps62056.pdf
 $ENDCMP
 #
 $CMP TPS62125DSG

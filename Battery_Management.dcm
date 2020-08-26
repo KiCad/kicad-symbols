@@ -222,6 +222,18 @@ K Battery Pack Charge/Discharge High-Side
 F http://www.ti.com/lit/ds/symlink/bq76200.pdf
 $ENDCMP
 #
+$CMP BQ76920PW
+D Lithium battery monitor, 3-5 cells, integrated balancing, I2C interface, TSSOP-20
+K lithium battery balance charge afe
+F http://www.ti.com/lit/ds/symlink/bq76920.pdf
+$ENDCMP
+#
+$CMP BQ76930DBT
+D Lithium battery monitor, 6-10 cells, integrated balancing, I2C interface, TSSOP-30
+K lithium battery balance charge afe
+F http://www.ti.com/lit/ds/symlink/bq76930.pdf
+$ENDCMP
+#
 $CMP BQ76940
 D Lithium battery monitor, 9-15 cells, integrated balancing, I2C interface
 K lithium battery balance charge afe
