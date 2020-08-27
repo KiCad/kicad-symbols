@@ -18,6 +18,12 @@ K lightning sensor
 F https://www.embeddedadventures.com/datasheets/AS3935_Datasheet_EN_v2.pdf
 $ENDCMP
 #
+$CMP BL0937
+D Single Phase Energy Meter IC with Integrated Oscillator
+K current sensor
+F http://www.belling.com.cn/media/file_object/bel_product/BL0937/datasheet/BL0937_V1.02_en.pdf
+$ENDCMP
+#
 $CMP BME280
 D 3-in-1 sensor, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8
 K Bosch pressure humidity temperature environment environmental measurement digital
