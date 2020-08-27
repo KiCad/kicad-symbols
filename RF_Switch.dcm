@@ -114,6 +114,12 @@ K RF SWITCH SPDT
 F https://cdn.macom.com/datasheets/MASWSS0176.pdf
 $ENDCMP
 #
+$CMP MASWSS0178
+D SPDT High Isolation Terminated Switch, 0.01-3.0 GHz, MSOP-8
+K RF switch SPDT
+F https://cdn.macom.com/datasheets/MASWSS0178.pdf
+$ENDCMP
+#
 $CMP MASWSS0179
 D Macom GaAs RF SPDT switch, DC-2GHz, 0.6/22dB loss/isolation, SOT-26 (SOT-23-6)
 K RF SWITCH SPDT
