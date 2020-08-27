@@ -408,6 +408,12 @@ K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC440N10NS3-DS-v02_04-en.pdf?fileId=db3a30432239cccd0122604520d47f56
 $ENDCMP
 #
+$CMP BSD235C
+D Infineon's OptiMOS Complementary P+N Small Signal Transistor Enhanced Super Logic 2.5V Avalanche Rated.
+K OptiMOS MOSFET complementary nmos pmos enchanced avalanche AEC Q101 super logic
+F https://www.infineon.com/cms/en/product/power/mosfet/20v-60v-complementary-mosfet/bsd235c/
+$ENDCMP
+#
 $CMP BSF030NE2LQ
 D 75A Id, 25V Vds, 3mOhm Rds, N-Channel MOSFET, DirectFET SQ
 K N-Channel MOSFET
@@ -2772,16 +2778,16 @@ K P-Channel MOSFET
 F https://www.vishay.com/docs/63684/sis415dnt.pdf
 $ENDCMP
 #
-$CMP SiS454DN
-D 35A Id, 20V Vds, N-Channel MOSFET, PowerPAK 1212-8 Single
-K N-Channel MOSFET
-F https://www.vishay.com/docs/66707/sis454dn.pdf
-$ENDCMP
-#
 $CMP SiS443DN
 D -35A Id, -40V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single
 K P-Channel MOSFET
 F https://www.vishay.com/docs/63253/sis443dn.pdf
+$ENDCMP
+#
+$CMP SiS454DN
+D 35A Id, 20V Vds, N-Channel MOSFET, PowerPAK 1212-8 Single
+K N-Channel MOSFET
+F https://www.vishay.com/docs/66707/sis454dn.pdf
 $ENDCMP
 #
 $CMP SiSS27DN
