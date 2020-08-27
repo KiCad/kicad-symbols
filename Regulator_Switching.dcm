@@ -258,6 +258,12 @@ K switching buck converter
 F http://www.aosmd.com/res/data_sheets/AOZ1282CI-1.pdf
 $ENDCMP
 #
+$CMP AP3402
+D 1.0MHz 2A Step-Down DC-DC Buck Converter
+K buck switching converter
+F https://www.diodes.com/assets/Datasheets/AP3402.pdf
+$ENDCMP
+#
 $CMP AP63200WU
 D 2A, 500kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6
 K 2A Buck DC/DC
