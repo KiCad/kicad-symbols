@@ -798,6 +798,167 @@ K gdt
 F ~
 $ENDCMP
 #
+$CMP GT-P02W2
+D Light emitting diode with pad Warm White (2600-2900 °K)
+K Power LED diode pad
+F https://www.getiangroup.com/data/upload/ueditor/20190909/5d75f9d95ad18.pdf
+$ENDCMP
+#
+$CMP GT-P02W3
+D Light emitting diode with pad Warm White (2900-3200 °K)
+K Power LED diode pad
+F https://www.getiangroup.com/data/upload/ueditor/20190909/5d75f9d95ad18.pdf
+$ENDCMP
+#
+$CMP GT-P02W4
+D Light emitting diode with pad Natural White (4000-4500 °K)
+K Power LED diode pad
+F https://www.getiangroup.com/data/upload/ueditor/20190909/5d75f9d95ad18.pdf
+$ENDCMP
+#
+$CMP GT-P02W5
+D Light emitting diode with pad Pure White (5000-6000 °K)
+K Power LED diode pad
+F https://www.getiangroup.com/data/upload/ueditor/20190909/5d75f9d95ad18.pdf
+$ENDCMP
+#
+$CMP GT-P02W6
+D Light emitting diode with pad Pure White (6000-6500 °K)
+K Power LED diode pad
+F https://www.getiangroup.com/data/upload/ueditor/20190909/5d75f9d95ad18.pdf
+$ENDCMP
+#
+$CMP GT-P02B5
+D Light emitting diode with pad Royal Blue (440-450 nm)
+K Power LED diode pad
+F https://www.getiangroup.com/data/upload/20190902/5d6cc52e92386.pdf
+$ENDCMP
+#
+$CMP GT-P02B3
+D Light emitting diode with pad Blue (460-470 nm)
+K Power LED diode pad
+F https://www.getiangroup.com/data/upload/20190902/5d6cc52e92386.pdf
+$ENDCMP
+#
+$CMP GT-P02G5
+D Light emitting diode with pad Green (510-520 nm)
+K Power LED diode pad
+F https://www.getiangroup.com/data/upload/20190902/5d6cc52e92386.pdf
+$ENDCMP
+#
+$CMP GT-P02G6
+D Light emitting diode with pad Green (520-530 nm)
+K Power LED diode pad
+F https://www.getiangroup.com/data/upload/20190902/5d6cc52e92386.pdf
+$ENDCMP
+#
+$CMP GT-P02Y2
+D Light emitting diode with pad Yellow (585-595 nm)
+K Power LED diode pad
+F https://www.getiangroup.com/data/upload/20190902/5d6cc52e92386.pdf
+$ENDCMP
+#
+$CMP GT-P02A1
+D Light emitting diode with pad Amber (600-610 nm)
+K Power LED diode pad
+F https://www.getiangroup.com/data/upload/20190902/5d6cc52e92386.pdf
+$ENDCMP
+#
+$CMP GT-P02R1
+D Light emitting diode with pad Red (620-630 nm)
+K Power LED diode pad
+F https://www.getiangroup.com/data/upload/20190902/5d6cc52e92386.pdf
+$ENDCMP
+#
+$CMP GT-P02R6
+D Light emitting diode with pad Deep Red (640-660 nm)
+K Power LED diode pad
+F https://www.getiangroup.com/data/upload/20190902/5d6cc52e92386.pdf
+$ENDCMP
+#
+$CMP KLHP331WW
+D Light emitting diode with pad Warm White (2600-2700 °K) 1W
+K Power LED diode pad
+F http://www.kwalityphotonics.com/images/pdfdocs/ds_47.1_klsl331we.pdf
+$ENDCMP
+#
+$CMP KLHP331NW
+D Light emitting diode with pad Natural White (3700-4750 °K) 1W
+K Power LED diode pad
+F http://www.kwalityphotonics.com/images/pdfdocs/ds_47.1_klsl331we.pdf
+$ENDCMP
+#
+$CMP KLHP331W
+D Light emitting diode with pad White (4750-7000 °K) 1W
+K Power LED diode pad
+F http://www.kwalityphotonics.com/images/pdfdocs/ds_47.1_klsl331we.pdf
+$ENDCMP
+#
+$CMP KLHP331B
+D Light emitting diode with pad Blue (460-470 nm) 1W
+K Power LED diode pad
+F http://www.kwalityphotonics.com/images/pdfdocs/ds_47.1_klsl331we.pdf
+$ENDCMP
+#
+$CMP KLHP331G
+D Light emitting diode with pad Green (520-535 nm) 1W
+K Power LED diode pad
+F http://www.kwalityphotonics.com/images/pdfdocs/ds_47.1_klsl331we.pdf
+$ENDCMP
+#
+$CMP KLHP331A
+D Light emitting diode with pad Amber (580-600 nm) 1W
+K Power LED diode pad
+F http://www.kwalityphotonics.com/images/pdfdocs/ds_47.1_klsl331we.pdf
+$ENDCMP
+#
+$CMP KLHP331R
+D Light emitting diode with pad Red (620-635 nm) 1W
+K Power LED diode pad
+F http://www.kwalityphotonics.com/images/pdfdocs/ds_47.1_klsl331we.pdf
+$ENDCMP
+#
+$CMP KLHP3433WW
+D Light emitting diode with pad Warm White (2600-2700 °K) 3W
+K Power LED diode pad
+F http://www.kwalityphotonics.com/images/pdfdocs/ds_47_klhp3433xe.pdf
+$ENDCMP
+#
+$CMP KLHP3433NW
+D Light emitting diode with pad Natural White (3700-4750 °K) 3W
+K Power LED diode pad
+F http://www.kwalityphotonics.com/images/pdfdocs/ds_47_klhp3433xe.pdf
+$ENDCMP
+#
+$CMP KLHP3433W
+D Light emitting diode with pad White (4750-7000 °K) 3W
+K Power LED diode pad
+F http://www.kwalityphotonics.com/images/pdfdocs/ds_47_klhp3433xe.pdf
+$ENDCMP
+#
+$CMP KLHP3433B
+D Light emitting diode with pad Blue (460-470 nm) 3W
+K Power LED diode pad
+F http://www.kwalityphotonics.com/images/pdfdocs/ds_47_klhp3433xe.pdf
+$ENDCMP
+#
+$CMP KLHP3433G
+D Light emitting diode with pad Green (520-535 nm) 3W
+K Power LED diode pad
+F http://www.kwalityphotonics.com/images/pdfdocs/ds_47_klhp3433xe.pdf
+$ENDCMP
+#
+$CMP KLHP3433A
+D Light emitting diode with pad Amber (580-600 nm) 3W
+K Power LED diode pad
+F http://www.kwalityphotonics.com/images/pdfdocs/ds_47_klhp3433xe.pdf
+$ENDCMP
+#
+$CMP KLHP3433R
+D Light emitting diode with pad Red (620-635 nm) 3W
+K Power LED diode pad
+F http://www.kwalityphotonics.com/images/pdfdocs/ds_47_klhp3433xe.pdf
+$ENDCMP
 $CMP Galvanometer
 D Galvanometer
 K galvanometer
@@ -1124,7 +1285,7 @@ $ENDCMP
 #
 $CMP LED_PAD
 D Light emitting diode with pad
-K LED diode pad
+K Power LED diode pad
 F ~
 $ENDCMP
 #
@@ -1200,14 +1361,14 @@ K LED RGB diode
 F ~
 $ENDCMP
 #
-$CMP LED_RGCB
-D RGB LED, red/green/cathode/blue
+$CMP LED_RGB_EP
+D RGB LED, 6 pin package with exposed pad
 K LED RGB diode
 F ~
 $ENDCMP
 #
-$CMP LED_RGB_EP
-D RGB LED, 6 pin package with exposed pad
+$CMP LED_RGCB
+D RGB LED, red/green/cathode/blue
 K LED RGB diode
 F ~
 $ENDCMP
