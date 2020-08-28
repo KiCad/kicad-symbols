@@ -3210,4 +3210,22 @@ K Traco isolated isolation dc-dc converter transformer
 F https://www.tracopower.com/products/tmr2wi.pdf
 $ENDCMP
 #
+$CMP TPSM53602RDAR
+D  36-V, 2A input, stepdown, DC/DC converter
+K step down DCDC converter regulator
+F https://www.ti.com/lit/ds/symlink/tpsm53602.pdf?ts=1598540493042&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DTPSM53602RDAR%2526utm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dapp-null-null-OPN_EN-cpc-store-google-wwe%2526utm_content%253DDevice%2526ds_k%253DTPSM53602RDAR%2526DCM%253Dyes%2526gclid%253DCj0KCQjws536BRDTARIsANeUZ5_vJ8t9GtFSZ1ZydJHyffGJ-2RDdkveDmfCJBsLhdJH01hKdff-JCIaAoiAEALw_wcB%2526gclsrc%253Daw.ds
+$ENDCMP
+#
+$CMP TPSM53603RDAR
+D  36-V, 3A input, stepdown, DC/DC converter
+K step down DCDC converter regulator
+F https://www.ti.com/lit/ds/symlink/tpsm53603.pdf?ts=1598541600622&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DTPSM53603RDAR%2526utm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dapp-null-null-OPN_EN-cpc-store-google-wwe%2526utm_content%253DDevice%2526ds_k%253DTPSM53603RDAR%2526DCM%253Dyes%2526gclid%253DCj0KCQjws536BRDTARIsANeUZ58ZGqGW60RmZyDOKBR9kB68W-2PZSPnEkOTvGTPaAbdb466d5QBaZYaAtTSEALw_wcB%2526gclsrc%253Daw.ds
+$ENDCMP
+#
+$CMP TPSM53604RDAR
+D  36-V, 4A input, stepdown, DC/DC converter
+K step down DCDC converter regulator
+F https://www.ti.com/lit/ds/symlink/tpsm53604.pdf?ts=1598541139112&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fdocs%252Funiversalsearch.tsp%253FsearchTerm%253Dtpsm53604
+$ENDCMP
+#
 #End Doc Library
