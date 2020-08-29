@@ -222,12 +222,6 @@ K Omron Relay Dual Pole
 F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
 $ENDCMP
 #
-$CMP G2RL-2-DC5
-D General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, 5V coil
-K Omron Relay Dual Pole
-F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
-$ENDCMP
-#
 $CMP G2RL-2-HA-DC12
 D General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, IEC/EN60335-1, 12V coil
 K Omron Relay Dual Pole
@@ -622,6 +616,12 @@ $CMP MSxx-1Bxx-75
 D Standex Meder MS reed relay, SPST, Opening Contact
 K Single Pole Reed Relay SPST
 F https://standexelectronics.com/de/produkte/ms-reed-relais/
+$ENDCMP
+#
+$CMP G2RL-2-DC5
+D General Purpose Relay DPDT (2 Form C) Through Hole, Omron G2RL series, 5V coil
+K Omron Relay Dual Pole
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
 $ENDCMP
 #
 $CMP RAYEX-L90
