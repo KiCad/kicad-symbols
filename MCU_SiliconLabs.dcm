@@ -193,19 +193,19 @@ F https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
 $ENDCMP
 #
 $CMP EFM8UB30F40G-A-QFN20
-D 8051-compatible microcontroller, 48 MHz, 2.3 to 5.5V, 40K flash, 3.25K RAM, -40 to +85 C, QFN20, 13 GPIO
+D 8051-compatible microcontroller, 48 MHz, 2.3 to 5.5V, 40K flash, 3.25K RAM, -40 to +85 C, QFN-20
 K 8051 microcontroller PWM UART SPI I2C USB LDOREG ADC QFN20
 F https://www.silabs.com/documents/public/data-sheets/efm8ub3-datasheet.pdf
 $ENDCMP
 #
 $CMP EFM8UB31F40G-A-QFN24
-D 8051-compatible microcontroller, 48 MHz, 2.3 to 5.5V, 40K flash, 3.25K RAM, -40 to +85 C, QFN24, 17 GPIO
+D 8051-compatible microcontroller, 48 MHz, 2.3 to 5.5V, 40K flash, 3.25K RAM, -40 to +85 C, QFN-24
 K 8051 microcontroller PWM UART SPI I2C USB LDOREG ADC QFN24
 F https://www.silabs.com/documents/public/data-sheets/efm8ub3-datasheet.pdf
 $ENDCMP
 #
 $CMP EFM8UB31F40G-A-QSOP24
-D 8051-compatible microcontroller, 48 MHz, 2.3 to 5.5V, 40K flash, 3.25K RAM, -40 to +85 C, QSOP24, 17 GPIO
+D 8051-compatible microcontroller, 48 MHz, 2.3 to 5.5V, 40K flash, 3.25K RAM, -40 to +85 C, QSOP-24
 K 8051 microcontroller PWM UART SPI I2C USB LDOREG ADC QSOP24
 F https://www.silabs.com/documents/public/data-sheets/efm8ub3-datasheet.pdf
 $ENDCMP
