@@ -12,6 +12,12 @@ K Energy Metering
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADE7763.pdf
 $ENDCMP
 #
+$CMP ADE7953xCP
+D Single Phase Multifunction Energy Metering with Neutral Current Measurement, LFCSP-28
+K Energy Metering
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADE7953.pdf
+$ENDCMP
+#
 $CMP AS3935
 D Programmable fully integrated Lightning Sensor IC
 K lightning sensor
