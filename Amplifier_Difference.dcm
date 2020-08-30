@@ -30,8 +30,14 @@ K selectable gain ADC driver
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8475.pdf
 $ENDCMP
 #
+$CMP ADA4940-1xCP
+D Ultralow Power, Low Distortion, Fully Differential ADC Drivers, LFCSP-16
+K differential amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4940-1_4940-2.pdf
+$ENDCMP
+#
 $CMP ADA4940-2
-D Ultralow Power, Low Distortion, Fully Differential ADC Drivers, LFCSP-24
+D Ultralow Power, Low Distortion, Fully Differential ADC Drivers, Dual-Channel, LFCSP-24
 K differential amplifier
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4940-1_4940-2.pdf
 $ENDCMP
