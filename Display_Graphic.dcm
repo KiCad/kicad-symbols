@@ -6,6 +6,18 @@ K display LCD graphic
 F https://www.digchip.com/datasheets/parts/datasheet/1121/AG-12864E-pdf.php
 $ENDCMP
 #
+$CMP EA_DOGL128X-6
+D EA DOGL128X-6 Graphical Display 128x64 optional backlight SPI 3.0-3.3V
+K display LCD graphic
+F https://www.lcd-module.com/eng/pdf/grafik/dogl128-6e.pdf
+$ENDCMP
+#
+$CMP EA_DOGM128X-6
+D EA DOGM128X-6 Graphical Display 128x64 optional backlight SPI 3.0-3.3V
+K display LCD graphic
+F https://www.lcd-module.de/eng/pdf/grafik/dogm128e.pdf
+$ENDCMP
+#
 $CMP EA_DOGS104B-A
 D LCD 4x10 character display blue transmissive background, +3.3V VDD, I2C or SPI
 K display LCD graphic
