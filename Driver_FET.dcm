@@ -324,6 +324,30 @@ K Gate Driver
 F https://www.infineon.com/dgdl/ir2114ss.pdf?fileId=5546d462533600a4015355c836cd168a
 $ENDCMP
 #
+$CMP IR2133
+D 600V, Vout 10-20V, PDIP-28
+K 3 Phase Gate Driver
+F https://www.infineon.com/dgdl/Infineon-IR2x33-IR2x35-DataSheet-v01_00-EN.pdf?fileId=5546d462533600a4015355c890ba169f
+$ENDCMP
+#
+$CMP IR2133S
+D 600V, Vout 10-20V, SOIC-28
+K 3 Phase Gate Driver
+F https://www.infineon.com/dgdl/Infineon-IR2x33-IR2x35-DataSheet-v01_00-EN.pdf?fileId=5546d462533600a4015355c890ba169f
+$ENDCMP
+#
+$CMP IR2135
+D 600V, Vout 12-20V, PDIP-28
+K 3 Phase Gate Driver
+F https://www.infineon.com/dgdl/Infineon-IR2x33-IR2x35-DataSheet-v01_00-EN.pdf?fileId=5546d462533600a4015355c890ba169f
+$ENDCMP
+#
+$CMP IR2135S
+D 600V, Vout 12-20V, SOIC-28
+K 3 Phase Gate Driver
+F https://www.infineon.com/dgdl/Infineon-IR2x33-IR2x35-DataSheet-v01_00-EN.pdf?fileId=5546d462533600a4015355c890ba169f
+$ENDCMP
+#
 $CMP IR2153
 D Self-Oscillating Half-Bridge Driver, 600V, PDIP-8/SOIC-8
 K Oscillating Gate Driver
@@ -394,6 +418,30 @@ $CMP IR2214S
 D Half-Bridge Gate Driver IC, 1200V, 1.0/1.5A, SSOP-24
 K Gate Driver
 F https://www.infineon.com/dgdl/ir2114ss.pdf?fileId=5546d462533600a4015355c836cd168a
+$ENDCMP
+#
+$CMP IR2233
+D 1200V, Vout 10-20V, PDIP-28
+K 3 Phase Gate Driver
+F https://www.infineon.com/dgdl/Infineon-IR2x33-IR2x35-DataSheet-v01_00-EN.pdf?fileId=5546d462533600a4015355c890ba169f
+$ENDCMP
+#
+$CMP IR2233S
+D 1200V, Vout 10-20V, SOIC-28
+K 3 Phase Gate Driver
+F https://www.infineon.com/dgdl/Infineon-IR2x33-IR2x35-DataSheet-v01_00-EN.pdf?fileId=5546d462533600a4015355c890ba169f
+$ENDCMP
+#
+$CMP IR2235
+D 1200V, Vout 12-20V, PDIP-28
+K 3 Phase Gate Driver
+F https://www.infineon.com/dgdl/Infineon-IR2x33-IR2x35-DataSheet-v01_00-EN.pdf?fileId=5546d462533600a4015355c890ba169f
+$ENDCMP
+#
+$CMP IR2235S
+D 1200V, Vout 12-20V, SOIC-28
+K 3 Phase Gate Driver
+F https://www.infineon.com/dgdl/Infineon-IR2x33-IR2x35-DataSheet-v01_00-EN.pdf?fileId=5546d462533600a4015355c890ba169f
 $ENDCMP
 #
 $CMP IR2301
@@ -750,6 +798,12 @@ K driver fet quad
 F https://www.infineon.com/dgdl/Infineon-ITS724G-DS-v01_01-en.pdf?fileId=db3a304412b407950112b428d6083e90
 $ENDCMP
 #
+$CMP L6491
+D High voltage high and low-side 4 A gate driver, SO-14
+K fet driver
+F https://www.st.com/resource/en/datasheet/l6491.pdf
+$ENDCMP
+#
 $CMP LM5109AMA
 D Half-Bridge Gate Driver, Output Current 1.0A, 100V, SOIC-8
 K Half-Bridge Gate Driver
@@ -906,6 +960,30 @@ K Driver, Dual MOSFET
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP14A0303_4_5-Data-Sheet-20006046A.pdf
 $ENDCMP
 #
+$CMP MCP14A0901xMNY
+D Dual 9A-Peak MOSFET Driver, inverting outputs, DFN-8
+K Driver, Dual MOSFET
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP14A0901_2-Data-Sheet-20006183A.pdf
+$ENDCMP
+#
+$CMP MCP14A0902xMNY
+D Dual 9A-Peak MOSFET Driver, non-inverting outputs, DFN-8
+K Driver, Dual MOSFET
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP14A0901_2-Data-Sheet-20006183A.pdf
+$ENDCMP
+#
+$CMP MCP14A1201xMNY
+D Dual 12A-Peak MOSFET Driver, inverting outputs, DFN-8
+K Driver, Dual MOSFET
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP14A1201-Family-Data-Sheet-DS20006228A.pdf
+$ENDCMP
+#
+$CMP MCP14A1202xMNY
+D Dual 12A-Peak MOSFET Driver, non-inverting outputs, DFN-8
+K Driver, Dual MOSFET
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP14A1201-Family-Data-Sheet-DS20006228A.pdf
+$ENDCMP
+#
 $CMP MIC4426
 D Dual 1.5A-Peak Low-Side MOSFET Driver, DIP-8/SOIC-8/MSOP-8
 K Driver, Dual MOSFET
@@ -972,14 +1050,20 @@ K Full Bridge Gate Driver
 F http://www.ti.com/lit/gpn/sm72295
 $ENDCMP
 #
+$CMP STGAP1AS
+D Galvanically isolated 5 A advanced single gate driver, Dual Output, Miller Clamp, Sense, Desaturation, UVLO, OVLO, SPI, AEC-Q100, SOIC-24
+K isolated fet driver
+F https://www.st.com/resource/en/datasheet/stgap1as.pdf
+$ENDCMP
+#
 $CMP STGAP2SCM
-D Galvanically isolated 4 A single gate driver, Single Output And Miller Clamp, SOIC-8
+D Galvanically isolated 4 A single gate driver, Single Output, Miller Clamp, SOIC-8
 K isolated fet driver
 F https://www.st.com/resource/en/datasheet/stgap2s.pdf
 $ENDCMP
 #
 $CMP STGAP2SM
-D Galvanically isolated 4 A single gate driver, Separated Outputs, SOIC-8
+D Galvanically isolated 4 A single gate driver, Dual Output, SOIC-8
 K isolated fet driver
 F https://www.st.com/resource/en/datasheet/stgap2s.pdf
 $ENDCMP
