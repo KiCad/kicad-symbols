@@ -93,6 +93,12 @@ K PCIe2.0 SATA3.0
 F https://www.marvell.com/documents/bqcwxsoiqfjkcjdjhkvc/
 $ENDCMP
 #
+$CMP AD9833xRM
+D 10 bit 25 MHz Programmable Waveform Generator, 2.3V to 5.5V, 12.65mW, MSOP-10
+K Direct Digital Synthesizer DDS
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ad9833.pdf
+$ENDCMP
+#
 $CMP AD9834
 D 10 bit 75 MHz Complete Direct Digital Synthesizer, 2.3V to 5.5V, 20mW, TSSOP-20
 K Direct Digital Synthesizer DDS
@@ -541,6 +547,30 @@ $CMP U2270B
 D IDIC read/write base stations in contactless identification and immobilizer systems, SO-16
 K IDIC read/write base stations in contactless identification and immobilizer systems
 F http://www.farnell.com/datasheets/94393.pdf
+$ENDCMP
+#
+$CMP WD2791
+D Floppy disk controller, DIP-40
+K Floppy disk controller
+F http://pdf.datasheetcatalog.com/datasheets2/12/1229802_1.pdf
+$ENDCMP
+#
+$CMP WD2793
+D Floppy disk controller, DIP-40
+K Floppy disk controller
+F http://pdf.datasheetcatalog.com/datasheets2/12/1229802_1.pdf
+$ENDCMP
+#
+$CMP WD2795
+D Floppy disk controller, DIP-40
+K Floppy disk controller
+F http://pdf.datasheetcatalog.com/datasheets2/12/1229802_1.pdf
+$ENDCMP
+#
+$CMP WD2797
+D Floppy disk controller, DIP-40
+K Floppy disk controller
+F http://pdf.datasheetcatalog.com/datasheets2/12/1229802_1.pdf
 $ENDCMP
 #
 $CMP Z8420
