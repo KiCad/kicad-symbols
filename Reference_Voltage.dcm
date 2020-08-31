@@ -588,146 +588,146 @@ K Low-Dropout Precision Voltage Reference
 F https://pdfserv.maximintegrated.com/en/ds/MAX872-MAX874.pdf
 $ENDCMP
 #
-$CMP MCP1501-10_SOIC
-D 1.024V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8
-K precision buffered voltage reference 1.024V
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
-$ENDCMP
-#
-$CMP MCP1501-10_SOT
+$CMP MCP1501-10xCH
 D 1.024V, 0.1%, 20mA, Precision Voltage Reference, SOT-23-6
 K precision buffered voltage reference 1.024V
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 $ENDCMP
 #
-$CMP MCP1501-10_WDFN
+$CMP MCP1501-10xRW
 D 1.024V, 0.1%, 20mA, Precision Voltage Reference, WDFN-8
 K precision buffered voltage reference 1.024V
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 $ENDCMP
 #
-$CMP MCP1501-12_SOIC
-D 1.25V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8
-K precision buffered voltage reference 1.25V
+$CMP MCP1501-10xSN
+D 1.024V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8
+K precision buffered voltage reference 1.024V
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 $ENDCMP
 #
-$CMP MCP1501-12_SOT
+$CMP MCP1501-12xCH
 D 1.25V, 0.1%, 20mA, Precision Voltage Reference, SOT-23-6
 K precision buffered voltage reference 1.25V
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 $ENDCMP
 #
-$CMP MCP1501-12_WDFN
+$CMP MCP1501-12xRW
 D 1.25V, 0.1%, 20mA, Precision Voltage Reference, WDFN-8
 K precision buffered voltage reference 1.25V
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 $ENDCMP
 #
-$CMP MCP1501-18_SOIC
-D 1.8V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8
-K precision buffered voltage reference 1.8V
+$CMP MCP1501-12xSN
+D 1.25V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8
+K precision buffered voltage reference 1.25V
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 $ENDCMP
 #
-$CMP MCP1501-18_SOT
+$CMP MCP1501-18xCH
 D 1.8V, 0.1%, 20mA, Precision Voltage Reference, SOT-23-6
 K precision buffered voltage reference 1.8V
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 $ENDCMP
 #
-$CMP MCP1501-18_WDFN
+$CMP MCP1501-18xRW
 D 1.8V, 0.1%, 20mA, Precision Voltage Reference, WDFN-8
 K precision buffered voltage reference 1.8V
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 $ENDCMP
 #
-$CMP MCP1501-20_SOIC
-D 2.048V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8
-K precision buffered voltage reference 2.048V
+$CMP MCP1501-18xSN
+D 1.8V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8
+K precision buffered voltage reference 1.8V
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 $ENDCMP
 #
-$CMP MCP1501-20_SOT
+$CMP MCP1501-20xCH
 D 2.048V, 0.1%, 20mA, Precision Voltage Reference, SOT-23-6
 K precision buffered voltage reference 2.048V
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 $ENDCMP
 #
-$CMP MCP1501-20_WDFN
+$CMP MCP1501-20xRW
 D 2.048V, 0.1%, 20mA, Precision Voltage Reference, WDFN-8
 K precision buffered voltage reference 2.048V
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 $ENDCMP
 #
-$CMP MCP1501-25_SOIC
-D 2.5V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8
-K precision buffered voltage reference 2.5V
+$CMP MCP1501-20xSN
+D 2.048V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8
+K precision buffered voltage reference 2.048V
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 $ENDCMP
 #
-$CMP MCP1501-25_SOT
+$CMP MCP1501-25xCH
 D 2.5V, 0.1%, 20mA, Precision Voltage Reference, SOT-23-6
 K precision buffered voltage reference 2.5V
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 $ENDCMP
 #
-$CMP MCP1501-25_WDFN
+$CMP MCP1501-25xRW
 D 2.5V, 0.1%, 20mA, Precision Voltage Reference, WDFN-8
 K precision buffered voltage reference 2.5V
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 $ENDCMP
 #
-$CMP MCP1501-30_SOIC
-D 3V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8
-K precision buffered voltage reference 3V
+$CMP MCP1501-25xSN
+D 2.5V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8
+K precision buffered voltage reference 2.5V
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 $ENDCMP
 #
-$CMP MCP1501-30_SOT
+$CMP MCP1501-30xCH
 D 3V, 0.1%, 20mA, Precision Voltage Reference, SOT-23-6
 K precision buffered voltage reference 3V
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 $ENDCMP
 #
-$CMP MCP1501-30_WDFN
+$CMP MCP1501-30xRW
 D 3V, 0.1%, 20mA, Precision Voltage Reference, WDFN-8
 K precision buffered voltage reference 3V
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 $ENDCMP
 #
-$CMP MCP1501-33_SOIC
-D 3.3V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8
-K precision buffered voltage reference 3.3V
+$CMP MCP1501-30xSN
+D 3V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8
+K precision buffered voltage reference 3V
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 $ENDCMP
 #
-$CMP MCP1501-33_SOT
+$CMP MCP1501-33xCH
 D 3.3V, 0.1%, 20mA, Precision Voltage Reference, SOT-23-6
 K precision buffered voltage reference 3.3V
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 $ENDCMP
 #
-$CMP MCP1501-33_WDFN
+$CMP MCP1501-33xRW
 D 3.3V, 0.1%, 20mA, Precision Voltage Reference, WDFN-8
 K precision buffered voltage reference 3.3V
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 $ENDCMP
 #
-$CMP MCP1501-40_SOIC
-D 4.096V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8
-K precision buffered voltage reference 4.096V
+$CMP MCP1501-33xSN
+D 3.3V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8
+K precision buffered voltage reference 3.3V
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 $ENDCMP
 #
-$CMP MCP1501-40_SOT
+$CMP MCP1501-40xCH
 D 4.096V, 0.1%, 20mA, Precision Voltage Reference, SOT-23-6
 K precision buffered voltage reference 4.096V
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 $ENDCMP
 #
-$CMP MCP1501-40_WDFN
+$CMP MCP1501-40xRW
 D 4.096V, 0.1%, 20mA, Precision Voltage Reference, WDFN-8
+K precision buffered voltage reference 4.096V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
+$ENDCMP
+#
+$CMP MCP1501-40xSN
+D 4.096V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8
 K precision buffered voltage reference 4.096V
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 $ENDCMP
