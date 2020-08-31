@@ -1356,6 +1356,48 @@ K 300mA LDO Regulator Fixed Positive
 F http://www.tme.eu/fr/Document/ced3461ed31ea70a3c416fb648e0cde7/APE8865-3.pdf
 $ENDCMP
 #
+$CMP AZ1084-1.2
+D 5A 12V Fixed LDO Linear Regulator, 1.2V, TO-220/TO-252/TO-263
+K Fixed Voltage Regulator 5A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1084.pdf
+$ENDCMP
+#
+$CMP AZ1084-1.5
+D 5A 12V Fixed LDO Linear Regulator, 1.5V, TO-220/TO-252/TO-263
+K Fixed Voltage Regulator 5A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1084.pdf
+$ENDCMP
+#
+$CMP AZ1084-1.8
+D 5A 12V Fixed LDO Linear Regulator, 1.5V, TO-220/TO-252/TO-263
+K Fixed Voltage Regulator 5A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1084.pdf
+$ENDCMP
+#
+$CMP AZ1084-2.5
+D 5A 12V Fixed LDO Linear Regulator, 1.5V, TO-220/TO-252/TO-263
+K Fixed Voltage Regulator 5A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1084.pdf
+$ENDCMP
+#
+$CMP AZ1084-2.85
+D 5A 12V Fixed LDO Linear Regulator, 1.5V, TO-220/TO-252/TO-263
+K Fixed Voltage Regulator 5A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1084.pdf
+$ENDCMP
+#
+$CMP AZ1084-3.3
+D 5A 12V Fixed LDO Linear Regulator, 1.5V, TO-220/TO-252/TO-263
+K Fixed Voltage Regulator 5A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1084.pdf
+$ENDCMP
+#
+$CMP AZ1084-5.0
+D 5A 12V Fixed LDO Linear Regulator, 1.5V, TO-220/TO-252/TO-263
+K Fixed Voltage Regulator 5A Positive LDO
+F https://www.diodes.com/assets/Datasheets/AZ1084.pdf
+$ENDCMP
+#
 $CMP AZ1117-1.2
 D 1A 20V Fixed LDO Linear Regulator, 1.2V, SOT-89/SOT-223/TO-220/TO-252/TO-263
 K Fixed Voltage Regulator 1A Positive LDO
@@ -1659,25 +1701,25 @@ $ENDCMP
 $CMP KA378R05
 D Positive 3A 35V Linear Regulator with Disable Pin, LDO, Fixed Output 5V, TO-220F-4L
 K Voltage Regulator 3A Positive LDO Disable Pin
-F http://www.fairchildsemi.com/ds/KA/KA378R05.pdf
+F https://www.onsemi.com/pub/Collateral/KA378R05-D.pdf
 $ENDCMP
 #
 $CMP KA378R12C
 D Positive 3A 35V Linear Regulator with Disable Pin, LDO, Fixed Output 12V, TO-220F-4L
 K Voltage Regulator 3A Positive LDO Disable Pin
-F https://www.fairchildsemi.com/datasheets/KA/KA378R12CTU.pdf
+F https://www.onsemi.com/pub/Collateral/KA378R12CTU-D.pdf
 $ENDCMP
 #
 $CMP KA378R33
 D Positive 3A 35V Linear Regulator with Disable Pin, LDO, Fixed Output 3.3V, TO-220F-4L
 K Voltage Regulator 3A Positive LDO Disable Pin
-F https://www.fairchildsemi.com/datasheets/KA/KA378R33.pdf
+F https://www.onsemi.com/pub/Collateral/KA378R33-D.pdf
 $ENDCMP
 #
 $CMP KA78M05_TO252
 D Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)
 K Voltage Regulator 500mA Positive
-F http://www.fairchildsemi.com/ds/LM/LM78M05.pdf
+F https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF
 $ENDCMP
 #
 $CMP L200
@@ -2188,6 +2230,24 @@ $CMP LD39015M33R
 D 150mA low quiescent current low noise voltage regulator, Fixed Output 3.3V, SOT-23-5
 K 150mA LDO Regulator Fixed Positive
 F http://www.st.com/resource/en/datasheet/ld39015.pdf
+$ENDCMP
+#
+$CMP LD39150DT18
+D 1.5A Ultra Low Dropout regulator, positive, 1.8V fixed output, TO-252
+K linear regulator ldo fixed positive
+F https://www.st.com/resource/en/datasheet/ld39150.pdf
+$ENDCMP
+#
+$CMP LD39150DT25
+D 1.5A Ultra Low Dropout regulator, positive, 2.5V fixed output, TO-252
+K linear regulator ldo fixed positive
+F https://www.st.com/resource/en/datasheet/ld39150.pdf
+$ENDCMP
+#
+$CMP LD39150DT33
+D 1.5A Ultra Low Dropout regulator, positive, 3.3V fixed output, TO-252
+K linear regulator ldo fixed positive
+F https://www.st.com/resource/en/datasheet/ld39150.pdf
 $ENDCMP
 #
 $CMP LD3985G122R_TSOT23
@@ -2925,19 +2985,19 @@ $ENDCMP
 $CMP LM341T-05_TO220
 D Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-220
 K Voltage Regulator 500mA Positive
-F http://www.fairchildsemi.com/ds/LM/LM78M05.pdf
+F https://www.ti.com/lit/ds/symlink/lm341.pdf
 $ENDCMP
 #
 $CMP LM341T-12_TO220
 D Positive 500mA 35V Linear Regulator, Fixed Output 12V, TO-220
 K Voltage Regulator 500mA Positive
-F http://www.fairchildsemi.com/ds/LM/LM78M05.pdf
+F https://www.ti.com/lit/ds/symlink/lm341.pdf
 $ENDCMP
 #
 $CMP LM341T-15_TO220
 D Positive 500mA 35V Linear Regulator, Fixed Output 15V, TO-220
 K Voltage Regulator 500mA Positive
-F http://www.fairchildsemi.com/ds/LM/LM78M05.pdf
+F https://www.ti.com/lit/ds/symlink/lm341.pdf
 $ENDCMP
 #
 $CMP LM3480-12
@@ -2967,7 +3027,7 @@ $ENDCMP
 $CMP LM350_TO220
 D 3A 33V Adjustable Linear Regulator, TO-220
 K Adjustable Voltage Regulator 3A Positive
-F http://www.fairchildsemi.com/ds/LM/LM350.pdf
+F https://www.onsemi.com/pub/Collateral/LM350-D.pdf
 $ENDCMP
 #
 $CMP LM350_TO3
@@ -2991,145 +3051,145 @@ $ENDCMP
 $CMP LM7805_TO220
 D Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220
 K Voltage Regulator 1A Positive
-F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+F https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF
 $ENDCMP
 #
 $CMP LM7806_TO220
 D Positive 1A 35V Linear Regulator, Fixed Output 6V, TO-220
 K Voltage Regulator 1A Positive
-F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+F https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF
 $ENDCMP
 #
 $CMP LM7808_TO220
 D Positive 1A 35V Linear Regulator, Fixed Output 8V, TO-220
 K Voltage Regulator 1A Positive
-F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+F https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF
 $ENDCMP
 #
 $CMP LM7809_TO220
 D Positive 1A 35V Linear Regulator, Fixed Output 9V, TO-220
 K Voltage Regulator 1A Positive
-F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+F https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF
 $ENDCMP
 #
 $CMP LM7810_TO220
 D Positive 1A 35V Linear Regulator, Fixed Output 10V, TO-220
 K Voltage Regulator 1A Positive
-F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+F https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF
 $ENDCMP
 #
 $CMP LM7812_TO220
 D Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220
 K Voltage Regulator 1A Positive
-F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+F https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF
 $ENDCMP
 #
 $CMP LM7815_TO220
 D Positive 1A 35V Linear Regulator, Fixed Output 15V, TO-220
 K Voltage Regulator 1A Positive
-F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+F https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF
 $ENDCMP
 #
 $CMP LM7818_TO220
 D Positive 1A 35V Linear Regulator, Fixed Output 18V, TO-220
 K Voltage Regulator 1A Positive
-F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+F https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF
 $ENDCMP
 #
 $CMP LM7824_TO220
 D Positive 1A 35V Linear Regulator, Fixed Output 24V, TO-220
 K Voltage Regulator 1A Positive
-F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+F https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF
 $ENDCMP
 #
 $CMP LM78L05_SO8
 D Positive 100mA 30V Linear Regulator, Fixed Output 5V, SO-8
 K Voltage Regulator 100mA Positive
-F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+F https://www.onsemi.com/pub/Collateral/MC78L06A-D.pdf
 $ENDCMP
 #
 $CMP LM78L05_TO92
 D Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92
 K Voltage Regulator 100mA Positive
-F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+F https://www.onsemi.com/pub/Collateral/MC78L06A-D.pdf
 $ENDCMP
 #
 $CMP LM78L12_SO8
 D Positive 100mA 30V Linear Regulator, Fixed Output 12V, SO-8
 K Voltage Regulator 100mA Positive
-F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+F https://www.onsemi.com/pub/Collateral/MC78L06A-D.pdf
 $ENDCMP
 #
 $CMP LM78L12_TO92
 D Positive 100mA 30V Linear Regulator, Fixed Output 12V, TO-92
 K Voltage Regulator 100mA Positive
-F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+F https://www.onsemi.com/pub/Collateral/MC78L06A-D.pdf
 $ENDCMP
 #
 $CMP LM78M05_TO220
 D Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-220
 K Voltage Regulator 500mA Positive
-F http://www.fairchildsemi.com/ds/LM/LM78M05.pdf
+F https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF
 $ENDCMP
 #
 $CMP LM78M05_TO252
 D Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)
 K Voltage Regulator 500mA Positive
-F http://www.fairchildsemi.com/ds/LM/LM78M05.pdf
+F https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF
 $ENDCMP
 #
 $CMP LM7905_TO220
 D Negative 1A 35V Linear Regulator, Fixed Output 5V, TO-220
 K Voltage Regulator 1A Negative
-F http://www.fairchildsemi.com/ds/LM/LM7905.pdf
+F https://www.onsemi.com/pub/Collateral/MC7900-D.PDF
 $ENDCMP
 #
 $CMP LM7906_TO220
 D Negative 1A 35V Linear Regulator, Fixed Output 6V, TO-220
 K Voltage Regulator 1A Negative
-F http://www.fairchildsemi.com/ds/LM/LM7905.pdf
+F https://www.onsemi.com/pub/Collateral/MC7900-D.PDF
 $ENDCMP
 #
 $CMP LM7908_TO220
 D Negative 1A 35V Linear Regulator, Fixed Output 8V, TO-220
 K Voltage Regulator 1A Negative
-F http://www.fairchildsemi.com/ds/LM/LM7905.pdf
+F https://www.onsemi.com/pub/Collateral/MC7900-D.PDF
 $ENDCMP
 #
 $CMP LM7909_TO220
 D Negative 1A 35V Linear Regulator, Fixed Output 9V, TO-220
 K Voltage Regulator 1A Negative
-F http://www.fairchildsemi.com/ds/LM/LM7905.pdf
+F https://www.onsemi.com/pub/Collateral/MC7900-D.PDF
 $ENDCMP
 #
 $CMP LM7910_TO220
 D Negative 1A 35V Linear Regulator, Fixed Output 10V, TO-220
 K Voltage Regulator 1A Negative
-F http://www.fairchildsemi.com/ds/LM/LM7905.pdf
+F https://www.onsemi.com/pub/Collateral/MC7900-D.PDF
 $ENDCMP
 #
 $CMP LM7912_TO220
 D Negative 1A 35V Linear Regulator, Fixed Output 12V, TO-220
 K Voltage Regulator 1A Negative
-F http://www.fairchildsemi.com/ds/LM/LM7905.pdf
+F hhttps://www.onsemi.com/pub/Collateral/MC7900-D.PDF
 $ENDCMP
 #
 $CMP LM7915_TO220
 D Negative 1A 35V Linear Regulator, Fixed Output 15V, TO-220
 K Voltage Regulator 1A Negative
-F http://www.fairchildsemi.com/ds/LM/LM7905.pdf
+F https://www.onsemi.com/pub/Collateral/MC7900-D.PDF
 $ENDCMP
 #
 $CMP LM7918_TO220
 D Negative 1A 35V Linear Regulator, Fixed Output 18V, TO-220
 K Voltage Regulator 1A Negative
-F http://www.fairchildsemi.com/ds/LM/LM7905.pdf
+F https://www.onsemi.com/pub/Collateral/MC7900-D.PDF
 $ENDCMP
 #
 $CMP LM7924_TO220
 D Negative 1A 35V Linear Regulator, Fixed Output 24V, TO-220
 K Voltage Regulator 1A Negative
-F http://www.fairchildsemi.com/ds/LM/LM7905.pdf
+F https://www.onsemi.com/pub/Collateral/MC7900-D.PDF
 $ENDCMP
 #
 $CMP LM79L05_TO92
@@ -3153,19 +3213,19 @@ $ENDCMP
 $CMP LM79M05_TO220
 D Negative 500mA 35V Linear Regulator, Fixed Output 5V, TO-220
 K Voltage Regulator 500mA Negative
-F http://www.fairchildsemi.com/ds/LM/LM79M05.pdf
+F https://www.onsemi.com/pub/Collateral/MC79M00-D.PDF
 $ENDCMP
 #
 $CMP LM79M12_TO220
 D Negative 500mA 35V Linear Regulator, Fixed Output 12V, TO-220
 K Voltage Regulator 500mA Negative
-F http://www.fairchildsemi.com/ds/LM/LM79M05.pdf
+F https://www.onsemi.com/pub/Collateral/MC79M00-D.PDF
 $ENDCMP
 #
 $CMP LM79M15_TO220
 D Negative 500mA 35V Linear Regulator, Fixed Output 15V, TO-220
 K Voltage Regulator 500mA Negative
-F http://www.fairchildsemi.com/ds/LM/LM79M05.pdf
+F https://www.onsemi.com/pub/Collateral/MC79M00-D.PDF
 $ENDCMP
 #
 $CMP LP2950-3.0_TO252
@@ -3706,6 +3766,72 @@ $CMP LP5907MFX-4.5
 D 250-mA Ultra-Low-Noise Low-IQ LDO, 4.5V, SOT-23
 K Single Output LDO Low-Noise
 F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5912-0.9DRV
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 0.9V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-1.0DRV
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 1.0V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-1.1DRV
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 1.1V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-1.2DRV
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 1.2V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-1.5DRV
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 1.5V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-1.8DRV
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 1.8V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-2.5DRV
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 2.5V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-2.8DRV
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 2.8V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-3.0DRV
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 3.0V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-3.3DRV
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-5.0DRV
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 5.0V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
 $ENDCMP
 #
 $CMP LR8K4-G
@@ -4509,79 +4635,79 @@ $ENDCMP
 $CMP MC78L05_SO8
 D Positive 100mA 30V Linear Regulator, Fixed Output 5V, SO-8
 K Voltage Regulator 100mA Positive
-F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+F https://www.onsemi.com/pub/Collateral/MC78L00A-D.PDF
 $ENDCMP
 #
 $CMP MC78L05_SOT89
 D Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89
 K Voltage Regulator 100mA Positive
-F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+F https://www.onsemi.com/pub/Collateral/MC78L00A-D.PDF
 $ENDCMP
 #
 $CMP MC78L05_TO92
 D Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92
 K Voltage Regulator 100mA Positive
-F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+F https://www.onsemi.com/pub/Collateral/MC78L00A-D.PDF
 $ENDCMP
 #
 $CMP MC78L06_SO8
 D Positive 100mA 30V Linear Regulator, Fixed Output 6V, SO-8
 K Voltage Regulator 100mA Positive
-F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+F https://www.onsemi.com/pub/Collateral/MC78L00A-D.PDF
 $ENDCMP
 #
 $CMP MC78L06_TO92
 D Positive 100mA 30V Linear Regulator, Fixed Output 6V, TO-92
 K Voltage Regulator 100mA Positive
-F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+F https://www.onsemi.com/pub/Collateral/MC78L00A-D.PDF
 $ENDCMP
 #
 $CMP MC78L08_SO8
 D Positive 100mA 30V Linear Regulator, Fixed Output 8V, SO-8
 K Voltage Regulator 100mA Positive
-F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+F https://www.onsemi.com/pub/Collateral/MC78L00A-D.PDF
 $ENDCMP
 #
 $CMP MC78L08_SOT89
 D Positive 100mA 30V Linear Regulator, Fixed Output 8V, SOT-89
 K Voltage Regulator 100mA Positive
-F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+F https://www.onsemi.com/pub/Collateral/MC78L00A-D.PDF
 $ENDCMP
 #
 $CMP MC78L08_TO92
 D Positive 100mA 30V Linear Regulator, Fixed Output 8V, TO-92
 K Voltage Regulator 100mA Positive
-F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+F https://www.onsemi.com/pub/Collateral/MC78L00A-D.PDF
 $ENDCMP
 #
 $CMP MC78L12_SO8
 D Positive 100mA 30V Linear Regulator, Fixed Output 12V, SO-8
 K Voltage Regulator 100mA Positive
-F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+F https://www.onsemi.com/pub/Collateral/MC78L00A-D.PDF
 $ENDCMP
 #
 $CMP MC78L12_SOT89
 D Positive 100mA 30V Linear Regulator, Fixed Output 12V, SOT-89
 K Voltage Regulator 100mA Positive
-F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+F https://www.onsemi.com/pub/Collateral/MC78L00A-D.PDF
 $ENDCMP
 #
 $CMP MC78L12_TO92
 D Positive 100mA 30V Linear Regulator, Fixed Output 12V, TO-92
 K Voltage Regulator 100mA Positive
-F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+F https://www.onsemi.com/pub/Collateral/MC78L00A-D.PDF
 $ENDCMP
 #
 $CMP MC78L15_SO8
 D Positive 100mA 30V Linear Regulator, Fixed Output 15V, SO-8
 K Voltage Regulator 100mA Positive
-F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+F https://www.onsemi.com/pub/Collateral/MC78L00A-D.PDF
 $ENDCMP
 #
 $CMP MC78L15_TO92
 D Positive 100mA 30V Linear Regulator, Fixed Output 15V, TO-92
 K Voltage Regulator 100mA Positive
-F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+F https://www.onsemi.com/pub/Collateral/MC78L00A-D.PDF
 $ENDCMP
 #
 $CMP MC78L18_SO8
@@ -4611,7 +4737,7 @@ $ENDCMP
 $CMP MC78M05_TO252
 D Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)
 K Voltage Regulator 500mA Positive
-F http://www.fairchildsemi.com/ds/LM/LM78M05.pdf
+F https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF
 $ENDCMP
 #
 $CMP MC7905
@@ -5050,6 +5176,12 @@ $CMP MCP1754S-5002xCB
 D Fixed 150mA Low Dropout Voltage Regulator, Positive, 5V output, SOT-23
 K Regulator LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
+$CMP MCP1802x-xx02xOT
+D 150mA, Tiny CMOS LDO With Shutdown, Fixed Voltage, SOT-23-5
+K LDO Linear Voltage Regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22053C.pdf
 $ENDCMP
 #
 $CMP MCP1804x-1802xDB
@@ -7674,6 +7806,72 @@ K LDO Voltage Regulator 200mA
 F http://www.ti.com/lit/ds/symlink/tps79333-ep.pdf
 $ENDCMP
 #
+$CMP TPS7A0508PDBV
+D 200-mA Ultra-Low-Iq LDO, 0.8V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A0510PDBV
+D 200-mA Ultra-Low-Iq LDO, 1.0V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A0512PDBV
+D 200-mA Ultra-Low-Iq LDO, 1.2V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A0515PDBV
+D 200-mA Ultra-Low-Iq LDO, 1.5V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A0518PDBV
+D 200-mA Ultra-Low-Iq LDO, 1.8V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A0522PDBV
+D 200-mA Ultra-Low-Iq LDO, 2.2V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A0525PDBV
+D 200-mA Ultra-Low-Iq LDO, 2.5V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A05285PDBV
+D 200-mA Ultra-Low-Iq LDO, 2.85V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A0530PDBV
+D 200-mA Ultra-Low-Iq LDO, 3.0V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A0531PDBV
+D 200-mA Ultra-Low-Iq LDO, 3.1V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
+$CMP TPS7A0533PDBV
+D 200-mA Ultra-Low-Iq LDO, 3.3V, SOT-23-5
+K Single Output LDO Low-Iq
+F https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+$ENDCMP
+#
 $CMP TPS7A7001DDA
 D 2A, Low-Dropout Voltage Regulator, 1.425-6.5V Input, Adjustable Min 0.5V Output, PowerPad SO-8
 K ldo regulator voltage linear
@@ -7702,6 +7900,12 @@ $CMP XC6206PxxxMR
 D Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23
 K Torex LDO Voltage Regulator Fixed Positive
 F https://www.torexsemi.com/file/xc6206/XC6206.pdf
+$ENDCMP
+#
+$CMP XC6210B332MR
+D 700mA, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-23-5
+K LDO Voltage Regulator 700mA
+F https://www.torexsemi.com/file/xc6210/XC6210.pdf
 $ENDCMP
 #
 $CMP XC6220B331MR
