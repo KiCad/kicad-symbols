@@ -165,6 +165,18 @@ K rs232 uart transceiver line-driver
 F http://www.intersil.com/content/dam/Intersil/documents/icl3/icl3221-22-23-32-41-43.pdf
 $ENDCMP
 #
+$CMP ISL3295xxH
+D RS485, RS422, 20Mbps Transceiver, 3.0V to 7V, Low-Power, SOT-23
+K RS485 RS422 transceiver
+F https://www.renesas.com/sg/en/www/doc/datasheet/isl3295e-98e.pdf
+$ENDCMP
+#
+$CMP ISL3298xxRT
+D RS485, RS422, 20Mbps Transceiver, 3.0V to 7V, Low-Power, TDFN-8
+K RS485 RS422 transceiver
+F https://www.renesas.com/sg/en/www/doc/datasheet/isl3295e-98e.pdf
+$ENDCMP
+#
 $CMP ISL83491
 D 10Mbps RS485/RS422 transceiver, full duplex, receiver/driver enable, low power shutdown
 K RS485 RS422 transceiver full duplex
