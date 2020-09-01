@@ -549,6 +549,30 @@ K IDIC read/write base stations in contactless identification and immobilizer sy
 F http://www.farnell.com/datasheets/94393.pdf
 $ENDCMP
 #
+$CMP WD2791
+D Floppy disk controller, DIP-40
+K Floppy disk controller
+F http://pdf.datasheetcatalog.com/datasheets2/12/1229802_1.pdf
+$ENDCMP
+#
+$CMP WD2793
+D Floppy disk controller, DIP-40
+K Floppy disk controller
+F http://pdf.datasheetcatalog.com/datasheets2/12/1229802_1.pdf
+$ENDCMP
+#
+$CMP WD2795
+D Floppy disk controller, DIP-40
+K Floppy disk controller
+F http://pdf.datasheetcatalog.com/datasheets2/12/1229802_1.pdf
+$ENDCMP
+#
+$CMP WD2797
+D Floppy disk controller, DIP-40
+K Floppy disk controller
+F http://pdf.datasheetcatalog.com/datasheets2/12/1229802_1.pdf
+$ENDCMP
+#
 $CMP Z8420
 D Parallel I/O, DIP-40
 K Z80 PIO parallel

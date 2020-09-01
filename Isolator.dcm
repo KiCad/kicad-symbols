@@ -696,6 +696,102 @@ K 4Ch Quad Digital Isolator 25Mbps
 F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=iso7342fc&fileType=pdf
 $ENDCMP
 #
+$CMP ISO7760DBQ
+D Default high, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf
+$ENDCMP
+#
+$CMP ISO7760DW
+D Default high, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SOIC-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf
+$ENDCMP
+#
+$CMP ISO7760FDBQ
+D Default low, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf?ts=1596905577895
+$ENDCMP
+#
+$CMP ISO7760FDW
+D Default low, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SOIC-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf?ts=1596905577895
+$ENDCMP
+#
+$CMP ISO7761DBQ
+D Default high, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf
+$ENDCMP
+#
+$CMP ISO7761DW
+D Default high, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SOIC-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf
+$ENDCMP
+#
+$CMP ISO7761FDBQ
+D Default low, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf?ts=1596905577895
+$ENDCMP
+#
+$CMP ISO7761FDW
+D Default low, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SOIC-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf?ts=1596905577895
+$ENDCMP
+#
+$CMP ISO7762DBQ
+D Default high, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf
+$ENDCMP
+#
+$CMP ISO7762DW
+D Default high, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SOIC-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf
+$ENDCMP
+#
+$CMP ISO7762FDBQ
+D Default low, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf?ts=1596905577895
+$ENDCMP
+#
+$CMP ISO7762FDW
+D Default low, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SOIC-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf?ts=1596905577895
+$ENDCMP
+#
+$CMP ISO7763DBQ
+D Default high, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf
+$ENDCMP
+#
+$CMP ISO7763DW
+D Default high, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SOIC-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf
+$ENDCMP
+#
+$CMP ISO7763FDBQ
+D Default low, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf?ts=1596905577895
+$ENDCMP
+#
+$CMP ISO7763FDW
+D Default low, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SOIC-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf?ts=1596905577895
+$ENDCMP
+#
 $CMP LTV-247
 D DC Quad Optocoupler, Vce 80V, CTR 100-600%, SOP-16
 K NPN DC Quad Optocoupler
@@ -1738,6 +1834,18 @@ $CMP VTL5Cx2
 D Dual Element Axial Vactrols
 K vactrol
 F http://www.alliedelec.com/m/d/ecb1ed91959ae54d97cf67f5103d9b2b.pdf
+$ENDCMP
+#
+$CMP π120U30
+D Dual-channel digital isolator, 3V/5V level translation, Safe LOW, SOIC-8
+K Dual-channel digital isolator pi120U30
+F http://www.rpsemi.com/public/doc/2Pai_%CF%8012xUxx_20200416_EN.pdf
+$ENDCMP
+#
+$CMP π120U31
+D Dual-channel digital isolator, 3V/5V level translation, Safe HIGH, SOIC-8
+K Dual-channel digital isolator pi120U31
+F http://www.rpsemi.com/public/doc/2Pai_%CF%8012xUxx_20200416_EN.pdf
 $ENDCMP
 #
 #End Doc Library

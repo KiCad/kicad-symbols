@@ -1324,6 +1324,12 @@ D Digital NPN Transistor, 6k8/NONE, SOT-23
 K ROHM Digital NPN Transistor
 $ENDCMP
 #
+$CMP EMH3
+D 0.1A Ic, 50V Vce, Dual NPN Input Resistor Transistors, SOT-563
+K Dual NPN Transistor
+F http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf
+$ENDCMP
+#
 $CMP FFB2222A
 D 600mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
 K NPN/NPN Transistor
@@ -1370,6 +1376,12 @@ $CMP FMB3946
 D 200mA IC, 40V Vce, Dual NPN/PNP Transistors, SuperSOT-6
 K NPN/PNP Transistor
 F http://www.onsemi.com/pub/Collateral/FMB3946-D.pdf
+$ENDCMP
+#
+$CMP IMH3A
+D 0.1A Ic, 50V Vce, Dual NPN Input Resistor Transistors, SOT-457
+K Dual NPN Transistor
+F http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf
 $ENDCMP
 #
 $CMP KTD1624
@@ -1736,6 +1748,12 @@ $CMP TIP42C
 D -6A Ic, -100V Vce, Power PNP Transistor, TO-220
 K power PNP Transistor
 F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF
+$ENDCMP
+#
+$CMP UMH3N
+D 0.1A Ic, 50V Vce, Dual NPN Input Resistor Transistors, SOT-363
+K Dual NPN Transistor
+F http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf
 $ENDCMP
 #
 #End Doc Library
