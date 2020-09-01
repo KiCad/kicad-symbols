@@ -138,6 +138,12 @@ K VCXO
 F https://www.minicircuits.com/pdfs/JTOS-50+.pdf
 $ENDCMP
 #
+$CMP KC2520Z
+D 1.8432MHz ~ 125MHz Crystal Oscillator
+K xo
+F https://global.kyocera.com/prdct/electro/product/pdf/clock_z_xz_e.pdf
+$ENDCMP
+#
 $CMP KT2520K-T
 D 10-60MHz Temperature Compensated Crystal Oscillator, Kyocera 2520
 K tcxo
@@ -220,6 +226,12 @@ $CMP MV317
 D 60, 80, 100, 120 & 122.76 MHz OCXO, Morion MV317
 K OCXO
 F https://www.morion-us.com/catalog_pdf/mv317.pdf
+$ENDCMP
+#
+$CMP NB3N502
+D 3.3V / 5.0V 14 MHz to 190 MHz PLL Clock Multiplier, SOIC-8
+K oscillator clock multiplier PLL
+F http://www.onsemi.com/pub/Collateral/NB3N502-D.PDF
 $ENDCMP
 #
 $CMP NB3N511

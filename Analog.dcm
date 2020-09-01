@@ -12,6 +12,18 @@ K modulator demodulator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ad630.pdf
 $ENDCMP
 #
+$CMP AD637xQ
+D High Precision, Wideband RMS-to-DC Converter, DIP-14
+K rms-to-dc
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD637.pdf
+$ENDCMP
+#
+$CMP AD637xRZ
+D High Precision, Wideband RMS-to-DC Converter, SOIC-16
+K rms-to-dc
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD637.pdf
+$ENDCMP
+#
 $CMP AD654JN
 D Low Cost Monolithic Voltage-to-Frequency Converter, DIP-8
 K v-to-f v-f
@@ -46,6 +58,18 @@ $CMP LF398_SOIC8
 D Sample And Hold Unity Gain Follower, SOIC-8
 K sample hold buffer unity gain
 F https://www.analog.com/media/en/technical-documentation/data-sheets/lt0398s8.pdf
+$ENDCMP
+#
+$CMP MLX90314xDF
+D Programmable Sensor Interface (Signal Conditioner), SOIC-16W
+K sensor signal conditioning
+F https://www.melexis.com/-/media/files/documents/datasheets/mlx90314-datasheet-melexis.pdf
+$ENDCMP
+#
+$CMP MLX90320xFR
+D Programmable Automotive Sensor Interface (Signal Conditioner), SSOP-14
+K sensor signal conditioning
+F https://www.melexis.com/-/media/files/documents/datasheets/mlx90320-datasheet-melexis.pdf
 $ENDCMP
 #
 $CMP MPY634KP

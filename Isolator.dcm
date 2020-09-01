@@ -84,6 +84,12 @@ K darlington optocoupler
 F http://www.onsemi.com/pub/Collateral/HCPL2731-D.pdf
 $ENDCMP
 #
+$CMP ACPL-214-500E
+D AC/DC Phototransistor Optocoupler, Vce 80V, CTR 20-400%, SOP-4
+K npn ac dc ac-dc acdc phototransistor optocoupler optoisolator
+F https://docs.broadcom.com/doc/AV02-0469EN
+$ENDCMP
+#
 $CMP ADN4651
 D Dual-Channel LVDS Isolators, 5 kV RMS/3.75 kV RMS, 600 Mbps, SSOP-20
 K LVDS Isolator
@@ -180,6 +186,24 @@ K Dual-channel digital isolator
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM120N_121N.pdf
 $ENDCMP
 #
+$CMP ADuM1400xRW
+D Quad Channel Digital Isolator, 10Mbps, SOIC-16
+K Digital Isolator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1400_1401_1402.pdf
+$ENDCMP
+#
+$CMP ADuM1401xRW
+D Quad Channel Digital Isolator, 10Mbps, SOIC-16
+K Digital Isolator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1400_1401_1402.pdf
+$ENDCMP
+#
+$CMP ADuM1402xRW
+D Quad Channel Digital Isolator, 10Mbps, SOIC-16
+K Digital Isolator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1400_1401_1402.pdf
+$ENDCMP
+#
 $CMP ADuM1410
 D Quad Channel Digital Isolator,10Mbps,SO-16
 K Digital Isolator
@@ -264,9 +288,51 @@ K digital isolator galvanic isopower
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM5410-5411-5412.pdf
 $ENDCMP
 #
-$CMP ADuM7643
-D Low Power Six-Channel 3/3 Digital Isolator, 25Mbps 6ns, Fail-Safe High, QSOP20
-K 6Ch Quad Digital Isolator 25Mbps
+$CMP ADuM7640A
+D Low Power Six-Channel 6/0 Digital Isolator, 1Mbps 25ns, Fail-Safe High, QSOP-20
+K 6-Channels Hex Digital Isolator 1Mbps
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
+$ENDCMP
+#
+$CMP ADuM7640C
+D Low Power Six-Channel 6/0 Digital Isolator, 25Mbps 6ns, Fail-Safe High, QSOP-20
+K 6-Channels Hex Digital Isolator 25Mbps
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
+$ENDCMP
+#
+$CMP ADuM7641A
+D Low Power Six-Channel 5/1 Digital Isolator, 1Mbps 25ns, Fail-Safe High, QSOP-20
+K 6-Channels Hex Digital Isolator 1Mbps
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
+$ENDCMP
+#
+$CMP ADuM7641C
+D Low Power Six-Channel 5/1 Digital Isolator, 25Mbps 6ns, Fail-Safe High, QSOP-20
+K 6-Channels Hex Digital Isolator 25Mbps
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
+$ENDCMP
+#
+$CMP ADuM7642A
+D Low Power Six-Channel 4/2 Digital Isolator, 1Mbps 25ns, Fail-Safe High, QSOP-20
+K 6-Channels Hex Digital Isolator 1Mbps
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
+$ENDCMP
+#
+$CMP ADuM7642C
+D Low Power Six-Channel 4/2 Digital Isolator, 25Mbps 6ns, Fail-Safe High, QSOP-20
+K 6-Channels Hex Digital Isolator 25Mbps
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
+$ENDCMP
+#
+$CMP ADuM7643A
+D Low Power Six-Channel 3/3 Digital Isolator, 1Mbps 25ns, Fail-Safe High, QSOP-20
+K 6-Channels Hex Digital Isolator 1Mbps
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
+$ENDCMP
+#
+$CMP ADuM7643C
+D Low Power Six-Channel 3/3 Digital Isolator, 25Mbps 6ns, Fail-Safe High, QSOP-20
+K 6-Channels Hex Digital Isolator 25Mbps
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
 $ENDCMP
 #
@@ -357,19 +423,19 @@ $ENDCMP
 $CMP H11L1
 D Schmitt Trigger Output Optocoupler, High Speed, DIP-6, 1.6mA turn on threshold
 K High Speed Schmitt Optocoupler
-F https://www.fairchildsemi.com/datasheets/H1/H11L1M.pdf
+F https://www.onsemi.com/pub/Collateral/H11L3M-D.PDF
 $ENDCMP
 #
 $CMP H11L2
 D Schmitt Trigger Output Optocoupler, High Speed, DIP-6, 10mA turn on threshold
 K High Speed Schmitt Optocoupler
-F https://www.fairchildsemi.com/datasheets/H1/H11L1M.pdf
+F https://www.onsemi.com/pub/Collateral/H11L3M-D.PDF
 $ENDCMP
 #
 $CMP H11L3
 D Schmitt Trigger Output Optocoupler, High Speed, DIP-6, 5mA turn on threshold
 K High Speed Schmitt Optocoupler
-F https://www.fairchildsemi.com/datasheets/H1/H11L1M.pdf
+F https://www.onsemi.com/pub/Collateral/H11L3M-D.PDF
 $ENDCMP
 #
 $CMP HCNW2201
@@ -672,6 +738,102 @@ K 4Ch Quad Digital Isolator 25Mbps
 F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=iso7342fc&fileType=pdf
 $ENDCMP
 #
+$CMP ISO7760DBQ
+D Default high, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf
+$ENDCMP
+#
+$CMP ISO7760DW
+D Default high, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SOIC-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf
+$ENDCMP
+#
+$CMP ISO7760FDBQ
+D Default low, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf?ts=1596905577895
+$ENDCMP
+#
+$CMP ISO7760FDW
+D Default low, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SOIC-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf?ts=1596905577895
+$ENDCMP
+#
+$CMP ISO7761DBQ
+D Default high, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf
+$ENDCMP
+#
+$CMP ISO7761DW
+D Default high, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SOIC-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf
+$ENDCMP
+#
+$CMP ISO7761FDBQ
+D Default low, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf?ts=1596905577895
+$ENDCMP
+#
+$CMP ISO7761FDW
+D Default low, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SOIC-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf?ts=1596905577895
+$ENDCMP
+#
+$CMP ISO7762DBQ
+D Default high, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf
+$ENDCMP
+#
+$CMP ISO7762DW
+D Default high, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SOIC-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf
+$ENDCMP
+#
+$CMP ISO7762FDBQ
+D Default low, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf?ts=1596905577895
+$ENDCMP
+#
+$CMP ISO7762FDW
+D Default low, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SOIC-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf?ts=1596905577895
+$ENDCMP
+#
+$CMP ISO7763DBQ
+D Default high, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf
+$ENDCMP
+#
+$CMP ISO7763DW
+D Default high, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SOIC-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf
+$ENDCMP
+#
+$CMP ISO7763FDBQ
+D Default low, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf?ts=1596905577895
+$ENDCMP
+#
+$CMP ISO7763FDW
+D Default low, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SOIC-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf?ts=1596905577895
+$ENDCMP
+#
 $CMP LTV-247
 D DC Quad Optocoupler, Vce 80V, CTR 100-600%, SOP-16
 K NPN DC Quad Optocoupler
@@ -717,7 +879,7 @@ $ENDCMP
 $CMP LTV-814
 D AC/DC Optocoupler, Vce 35V, CTR 20%, DIP4
 K NPN AC DC Optocoupler
-F http://optoelectronics.liteon.com/upload/download/DS-70-96-0013/S_110_LTV-814%20824%20844%20(M,%20S,%20S-TA,%20S-TA1,%20S-TP)%20Series.pdf
+F https://optoelectronics.liteon.com/upload/download/DS-70-96-0013/LTV-8X4%20series%20201509.pdf
 $ENDCMP
 #
 $CMP LTV-817
@@ -1321,62 +1483,62 @@ F https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf
 $ENDCMP
 #
 $CMP TCMT1100
-D Optocoupler, Vce 70V, CTR 50-600%, Viso 3750V (RMS)
-K NPN DC
+D Optocoupler, Vce 70V, CTR 50-600%, Viso 3750V (RMS), SOP-4
+K NPN DC opto
 F http://www.vishay.com/docs/83510/tcmt1100.pdf
 $ENDCMP
 #
 $CMP TCMT1101
-D Optocoupler, Vce 70V, CTR 40-80%, Viso 3750V (RMS)
-K NPN DC
+D Optocoupler, Vce 70V, CTR 40-80%, Viso 3750V (RMS), SOP-4
+K NPN DC opto
 F http://www.vishay.com/docs/83510/tcmt1100.pdf
 $ENDCMP
 #
 $CMP TCMT1102
-D Optocoupler, Vce 70V, CTR 63-125%, Viso 3750V (RMS)
-K NPN DC
+D Optocoupler, Vce 70V, CTR 63-125%, Viso 3750V (RMS), SOP-4
+K NPN DC opto
 F http://www.vishay.com/docs/83510/tcmt1100.pdf
 $ENDCMP
 #
 $CMP TCMT1103
-D Optocoupler, Vce 70V, CTR 100-200%, Viso 3750V (RMS)
-K NPN DC
+D Optocoupler, Vce 70V, CTR 100-200%, Viso 3750V (RMS), SOP-4
+K NPN DC opto
 F http://www.vishay.com/docs/83510/tcmt1100.pdf
 $ENDCMP
 #
 $CMP TCMT1104
-D Optocoupler, Vce 70V, CTR 160-320%, Viso 3750V (RMS)
-K NPN DC
+D Optocoupler, Vce 70V, CTR 160-320%, Viso 3750V (RMS), SOP-4
+K NPN DC opto
 F http://www.vishay.com/docs/83510/tcmt1100.pdf
 $ENDCMP
 #
 $CMP TCMT1105
-D Optocoupler, Vce 70V, CTR 50-150%, Viso 3750V (RMS)
-K NPN DC
+D Optocoupler, Vce 70V, CTR 50-150%, Viso 3750V (RMS), SOP-4
+K NPN DC opto
 F http://www.vishay.com/docs/83510/tcmt1100.pdf
 $ENDCMP
 #
 $CMP TCMT1106
-D Optocoupler, Vce 70V, CTR 100-300%, Viso 3750V (RMS)
-K NPN DC
+D Optocoupler, Vce 70V, CTR 100-300%, Viso 3750V (RMS), SOP-4
+K NPN DC opto
 F http://www.vishay.com/docs/83510/tcmt1100.pdf
 $ENDCMP
 #
 $CMP TCMT1107
-D Optocoupler, Vce 70V, CTR 80-160%, Viso 3750V (RMS)
-K NPN DC
+D Optocoupler, Vce 70V, CTR 80-160%, Viso 3750V (RMS), SOP-4
+K NPN DC opto
 F http://www.vishay.com/docs/83510/tcmt1100.pdf
 $ENDCMP
 #
 $CMP TCMT1108
-D Optocoupler, Vce 70V, CTR 130-260%, Viso 3750V (RMS)
-K NPN DC
+D Optocoupler, Vce 70V, CTR 130-260%, Viso 3750V (RMS), SOP-4
+K NPN DC opto
 F http://www.vishay.com/docs/83510/tcmt1100.pdf
 $ENDCMP
 #
 $CMP TCMT1109
-D Optocoupler, Vce 70V, CTR 200-400%, Viso 3750V (RMS)
-K NPN DC
+D Optocoupler, Vce 70V, CTR 200-400%, Viso 3750V (RMS), SOP-4
+K NPN DC opto
 F http://www.vishay.com/docs/83510/tcmt1100.pdf
 $ENDCMP
 #
@@ -1384,6 +1546,18 @@ $CMP TCMT1600
 D AC/DC Phototransistor Optocoupler, Vce 70V, CTR 80-300%, SOP4
 K NPN AC DC Phototransistor Optocoupler
 F http://www.vishay.com/docs/83512/tcmt1600.pdf
+$ENDCMP
+#
+$CMP TCMT4100
+D Quad Optocoupler, Vce 70V, CTR 50-600%, Viso 3750V (RMS), SOP-16
+K NPN DC opto
+F https://www.vishay.com/docs/84181/tcmt4100.pdf
+$ENDCMP
+#
+$CMP TCMT4106
+D Quad Optocoupler, Vce 70V, CTR 100-300%, Viso 3750V (RMS), SOP-16
+K NPN DC opto
+F https://www.vishay.com/docs/84181/tcmt4100.pdf
 $ENDCMP
 #
 $CMP TCMT4600
@@ -1702,6 +1876,18 @@ $CMP VTL5Cx2
 D Dual Element Axial Vactrols
 K vactrol
 F http://www.alliedelec.com/m/d/ecb1ed91959ae54d97cf67f5103d9b2b.pdf
+$ENDCMP
+#
+$CMP π120U30
+D Dual-channel digital isolator, 3V/5V level translation, Safe LOW, SOIC-8
+K Dual-channel digital isolator pi120U30
+F http://www.rpsemi.com/public/doc/2Pai_%CF%8012xUxx_20200416_EN.pdf
+$ENDCMP
+#
+$CMP π120U31
+D Dual-channel digital isolator, 3V/5V level translation, Safe HIGH, SOIC-8
+K Dual-channel digital isolator pi120U31
+F http://www.rpsemi.com/public/doc/2Pai_%CF%8012xUxx_20200416_EN.pdf
 $ENDCMP
 #
 #End Doc Library

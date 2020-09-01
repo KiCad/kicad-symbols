@@ -282,6 +282,24 @@ K audio jack receptacle stereo headphones TRRRS connector
 F ~
 $ENDCMP
 #
+$CMP AudioPlug2
+D Audio Jack, 2 Poles (Mono / TS)
+K audio jack plug stereo headphones TRRS connector 2.5mm 3.5mm 6.35mm
+F ~
+$ENDCMP
+#
+$CMP AudioPlug3
+D Audio Jack, 3 Poles (Stereo / TRS)
+K audio jack plug stereo headphones TRRS connector 2.5mm 3.5mm 6.35mm
+F ~
+$ENDCMP
+#
+$CMP AudioPlug4
+D Audio Jack, 4 Poles (Stereo / TRRS)
+K audio jack plug stereo headphones TRRS connector 2.5mm 3.5mm
+F ~
+$ENDCMP
+#
 $CMP Barrel_Jack
 D DC Barrel Jack
 K DC power barrel jack connector
@@ -302,6 +320,12 @@ $ENDCMP
 #
 $CMP Barrel_Jack_Switch_MountingPin
 D DC Barrel Jack with an internal switch and a mounting pin
+K DC power barrel jack connector
+F ~
+$ENDCMP
+#
+$CMP Barrel_Jack_Switch_Pin3Ring
+D DC Barrel Jack with an internal switch
 K DC power barrel jack connector
 F ~
 $ENDCMP
@@ -358,6 +382,12 @@ $CMP CUI_PD-30
 D 3 pin connector, PD-30
 K connector 3-pin PD-30 power DIN
 F http://www.cui.com/product/resource/pd-30.pdf
+$ENDCMP
+#
+$CMP CoaxialSwitch_Testpoint
+D Subminiature Coaxial Switch testpoint
+K  Coaxial Switch RF testpoint
+F ~
 $ENDCMP
 #
 $CMP Conn_01x01_Female
@@ -888,6 +918,12 @@ K icsp icd pic microchip
 F http://ww1.microchip.com/downloads/en/devicedoc/30277d.pdf
 $ENDCMP
 #
+$CMP Conn_ST_STDC14
+D ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART
+K ST STM32 Cortex Debug Connector ARM SWD JTAG
+F https://www.st.com/content/ccc/resource/technical/document/user_manual/group1/99/49/91/b6/b2/3a/46/e5/DM00526767/files/DM00526767.pdf/jcr:content/translations/en.DM00526767.pdf
+$ENDCMP
+#
 $CMP Conn_WallPlug
 D 3-pin general wall plug, no Earth wire (110VAC, 220VAC)
 K wall plug 110VAC 220VAC
@@ -1132,6 +1168,12 @@ $CMP IEEE1394a
 D FireWire/IEEE1394a 6-pin connector
 K connector IEEE1394a FireWire
 F ~
+$ENDCMP
+#
+$CMP JAE_SIM_Card_SF72S006
+D Nano-SIM Card (4FF) connector with Detect Switch
+K SIM card UICC 4FF
+F https://www.jae.com/direct/topics/topics_file_download/topics_id=68892&ext_no=06&index=0&_lang=en&v=202003111511468456809
 $ENDCMP
 #
 $CMP JK0654219
@@ -1536,7 +1578,19 @@ K SIM card UICC
 F  ~
 $ENDCMP
 #
+$CMP SIM_Card_Shielded
+D SIM Card
+K SIM card UICC
+F  ~
+$ENDCMP
+#
 $CMP SODIMM-200
+D SODIMM 200 Pin socket
+K SODIMM SO-DIMM DDR1 DDR2
+F ~
+$ENDCMP
+#
+$CMP SODIMM-200_Split
 D SODIMM 200 Pin socket
 K SODIMM SO-DIMM DDR1 DDR2
 F ~

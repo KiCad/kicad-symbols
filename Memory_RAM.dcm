@@ -12,6 +12,12 @@ K RAM SRAM CMOS MEMORY
 F http://www.futurlec.com/Datasheet/Memory/628128.pdf
 $ENDCMP
 #
+$CMP AS4C256M16D3
+D 4Gb (256Mx16 bit) Double Data Rate 3 Synchronous DRAM
+K DDR3 DRAM MEMORY
+F https://www.alliancememory.com/wp-content/uploads/pdf/ddr3/4GB-AS4C256M16D3.pdf
+$ENDCMP
+#
 $CMP AS4C4M16SA
 D 64M – (4M x 16 bit) Synchronous DRAM (SDRAM), TSOP II 54pin
 K SDRAM Synchronus DRAM PC166 PC143 64Mb 16Mbx4 MEMORY
@@ -30,6 +36,12 @@ K RAM SRAM CMOS MEMORY
 F https://www.alliancememory.com/wp-content/uploads/pdf/AS6C4008.pdf
 $ENDCMP
 #
+$CMP CY62256-70PC
+D 256K (32K x 8) Static RAM, 70ns, DIP-28
+K RAM SRAM CMOS MEMORY
+F https://ecee.colorado.edu/~mcclurel/Cypress_SRAM_CY62256.pdf
+$ENDCMP
+#
 $CMP ESP-PSRAM32
 D 32 Mbit serial pseudo SRAM device organized as 4Mx8 bits, 1.8 VCC, SOIC8 (SOP8)
 K 32 Mbit serial pseudo SRAM MEMORY
@@ -40,6 +52,12 @@ $CMP H5AN8G8NAFR-UHC
 D 8Gb CMOS Double Data Rate IV Synchronous RAM
 K DDR4 DRAM MEMORY
 F https://www.skhynix.com/product/filedata/fileDownload.do?seq=7687
+$ENDCMP
+#
+$CMP HM62256BLP
+D 32,768-word × 8-bit High Speed CMOS Static RAM, 70ns, DIP-28
+K RAM SRAM CMOS MEMORY
+F https://web.mit.edu/6.115/www/document/62256.pdf
 $ENDCMP
 #
 $CMP IDT7006PF
@@ -140,6 +158,12 @@ $CMP IS64C5128AL-12KLA3
 D 512K x 8 HIGH-SPEED CMOS STATIC RAM, 12ns, SOJ-36
 K SRAM MEMORY
 F http://www.issi.com/WW/pdf/61-64C5128AL.pdf
+$ENDCMP
+#
+$CMP KM62256CLP
+D 32Kx8 bit Low Power CMOS Static RAM, 55/70ns, DIP-28
+K RAM SRAM CMOS MEMORY
+F https://www.futurlec.com/Datasheet/Memory/62256.pdf
 $ENDCMP
 #
 $CMP W9812G6KH-5

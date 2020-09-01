@@ -288,12 +288,6 @@ K 32-bit ARM Cortex-M0+ MCU Microcontroller
 F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf
 $ENDCMP
 #
-$CMP ATSAMD21G18A-AUT
-D SAM D21 Microchip SMART ARM-based Flash MCU, 48Mhz, 256K Flash, 32K SRAM, TQFP-48
-K 32-bit ARM Cortex-M0+ MCU Microcontroller
-F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf
-$ENDCMP
-#
 $CMP ATSAMD21G18A-M
 D SAM D21 Microchip SMART ARM-based Flash MCU, 48Mhz, 256K Flash, 32K SRAM, QFN-48
 K 32-bit ARM Cortex-M0+ MCU Microcontroller
@@ -436,6 +430,96 @@ $CMP ATSAMD51J20A-M
 D SAM D51 Microchip SMART ARM Cortex-M4F-based MCU, 1024K Flash, 256K SRAM, VQFN-64
 K 32-bit ARM Cortex-M4F MCU Microcontroller
 F http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf
+$ENDCMP
+#
+$CMP ATSAMDA1E14B-A
+D SAM DA1 Microchip SMART ARM-based Flash MCU, 48Mhz, 16K Flash w/ 0.5K RWW, 4K SRAM, TQFP-32
+K 32-bit ARM Cortex-M0+ MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf
+$ENDCMP
+#
+$CMP ATSAMDA1E14B-M
+D SAM DA1 Microchip SMART ARM-based Flash MCU, 48Mhz, 16K Flash w/ 0.5K RWW, 4K SRAM, QFN-32
+K 32-bit ARM Cortex-M0+ MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf
+$ENDCMP
+#
+$CMP ATSAMDA1E15B-A
+D SAM DA1 Microchip SMART ARM-based Flash MCU, 48Mhz, 32K Flash w/ 1K RWW, 4K SRAM, TQFP-32
+K 32-bit ARM Cortex-M0+ MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf
+$ENDCMP
+#
+$CMP ATSAMDA1E15B-M
+D SAM DA1 Microchip SMART ARM-based Flash MCU, 48Mhz, 32K Flash w/ 1K RWW, 4K SRAM, QFN-32
+K 32-bit ARM Cortex-M0+ MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf
+$ENDCMP
+#
+$CMP ATSAMDA1E16B-A
+D SAM DA1 Microchip SMART ARM-based Flash MCU, 48Mhz, 64K Flash w/ 2K RWW, 8K SRAM, TQFP-32
+K 32-bit ARM Cortex-M0+ MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf
+$ENDCMP
+#
+$CMP ATSAMDA1E16B-M
+D SAM DA1 Microchip SMART ARM-based Flash MCU, 48Mhz, 64K Flash w/ 2K RWW, 8K SRAM, QFN-32
+K 32-bit ARM Cortex-M0+ MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf
+$ENDCMP
+#
+$CMP ATSAMDA1G14B-A
+D SAM DA1 Microchip SMART ARM-based Flash MCU, 48Mhz, 16K Flash w/ 0.5K RWW, 4K SRAM, TQFP-48
+K 32-bit ARM Cortex-M0+ MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf
+$ENDCMP
+#
+$CMP ATSAMDA1G14B-M
+D SAM DA1 Microchip SMART ARM-based Flash MCU, 48Mhz, 16K Flash w/ 0.5K RWW, 4K SRAM, QFN-48
+K 32-bit ARM Cortex-M0+ MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf
+$ENDCMP
+#
+$CMP ATSAMDA1G15B-A
+D SAM DA1 Microchip SMART ARM-based Flash MCU, 48Mhz, 32K Flash w/ 1K RWW, 4K SRAM, TQFP-48
+K 32-bit ARM Cortex-M0+ MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf
+$ENDCMP
+#
+$CMP ATSAMDA1G15B-M
+D SAM DA1 Microchip SMART ARM-based Flash MCU, 48Mhz, 32K Flash w/ 1K RWW, 4K SRAM, QFN-48
+K 32-bit ARM Cortex-M0+ MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf
+$ENDCMP
+#
+$CMP ATSAMDA1G16B-A
+D SAM DA1 Microchip SMART ARM-based Flash MCU, 48Mhz, 64K Flash w/ 2K RWW, 8K SRAM, TQFP-48
+K 32-bit ARM Cortex-M0+ MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf
+$ENDCMP
+#
+$CMP ATSAMDA1G16B-M
+D SAM DA1 Microchip SMART ARM-based Flash MCU, 48Mhz, 64K Flash w/ 2K RWW, 8K SRAM, QFN-48
+K 32-bit ARM Cortex-M0+ MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf
+$ENDCMP
+#
+$CMP ATSAMDA1J14B-A
+D SAM DA1 Microchip SMART ARM-based Flash MCU, 48Mhz, 16K Flash w/ 0.5K RWW, 4K SRAM, TQFP-64
+K 32-bit ARM Cortex-M0+ MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf
+$ENDCMP
+#
+$CMP ATSAMDA1J15B-A
+D SAM DA1 Microchip SMART ARM-based Flash MCU, 48Mhz, 32K Flash w/ 1K RWW, 4K SRAM, TQFP-64
+K 32-bit ARM Cortex-M0+ MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf
+$ENDCMP
+#
+$CMP ATSAMDA1J16B-A
+D SAM DA1 Microchip SMART ARM-based Flash MCU, 48Mhz, 64K Flash w/ 2K RWW, 8K SRAM, TQFP-64
+K 32-bit ARM Cortex-M0+ MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf
 $ENDCMP
 #
 #End Doc Library
