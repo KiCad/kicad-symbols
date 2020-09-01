@@ -1,9 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP FE310-G000
-D 32-bit RISC-V microcontroller
+D RISC-V MCU, 8KB OTP Program Memory, 8KB ROM, 16KB Instruction Cache, 16KB SRAM, 320MHz, 1.8 and 3.6V, 24 GPIO, QFN-48
 K microcontroller RISC-V SiFive
-F https://static.dev.sifive.com/SiFive-FE310-G000-datasheet-v1p5.pdf
+F https://sifive.cdn.prismic.io/sifive%2Ffeb6f967-ff96-418f-9af4-a7f3b7fd1dfc_fe310-g000-ds.pdf
+$ENDCMP
+#
+$CMP FE310-G002
+D RISC-V MCU, 8KB OTP Program Memory, 8KB ROM, 16KB Instruction Cache, 16KB SRAM, 320MHz, 1.8 and 3.6V, 24 GPIO, QFN-48
+K microcontroller RISC-V SiFive
+F https://sifive.cdn.prismic.io/sifive%2F3d777659-a0dd-49ed-a011-5bebba17aecf_fe310-g002-ds.pdf
 $ENDCMP
 #
 $CMP FU540-C000

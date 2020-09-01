@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CH376T
+D File Management USB Flash Card SD Interface, SSOP-20
+K USB Mass-Storage SD Card Interface
+F https://www.mpja.com/download/ch376ds1.pdf
+$ENDCMP
+#
 $CMP 5PB1108PGxx
 D 1:8 LVCMOS High-Performance Clock Buffer, 1.8V to 3.3V, TSSOP-16
 K clock buffer lvcmos
@@ -199,6 +205,12 @@ $CMP FIN1019MTC
 D 3.3V LVDS High Speed Differential Driver/Receiver, 400Mbps, TSSOP-14
 K lvds driver reciever
 F http://www.onsemi.com/pub/Collateral/FIN1019-D.pdf
+$ENDCMP
+#
+$CMP HT12D
+D 2^12 serial decoder, SOP-20
+K Serial Decoder
+F https://www.holtek.com/documents/10179/116711/2_12dv120.pdf
 $ENDCMP
 #
 $CMP LTC1518
@@ -547,6 +559,30 @@ $CMP U2270B
 D IDIC read/write base stations in contactless identification and immobilizer systems, SO-16
 K IDIC read/write base stations in contactless identification and immobilizer systems
 F http://www.farnell.com/datasheets/94393.pdf
+$ENDCMP
+#
+$CMP WD2791
+D Floppy disk controller, DIP-40
+K Floppy disk controller
+F http://pdf.datasheetcatalog.com/datasheets2/12/1229802_1.pdf
+$ENDCMP
+#
+$CMP WD2793
+D Floppy disk controller, DIP-40
+K Floppy disk controller
+F http://pdf.datasheetcatalog.com/datasheets2/12/1229802_1.pdf
+$ENDCMP
+#
+$CMP WD2795
+D Floppy disk controller, DIP-40
+K Floppy disk controller
+F http://pdf.datasheetcatalog.com/datasheets2/12/1229802_1.pdf
+$ENDCMP
+#
+$CMP WD2797
+D Floppy disk controller, DIP-40
+K Floppy disk controller
+F http://pdf.datasheetcatalog.com/datasheets2/12/1229802_1.pdf
 $ENDCMP
 #
 $CMP Z8420
