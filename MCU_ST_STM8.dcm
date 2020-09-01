@@ -1,67 +1,43 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP STM8AF6223
-D Automotive 8-bit MCU, 8 Kbyte Flash, TSSOP20
+D 16MHz, 8K Flash, 1K RAM, 640 EEPROM, USART, LIN,  I²C, SPI, ADC, TSSOP-20
 K STM8 Microcontroller Automotive Line
 F http://www.st.com/resource/en/datasheet/stm8af6223.pdf
 $ENDCMP
 #
 $CMP STM8AF6223A
-D Automotive 8-bit MCU, 8 Kbyte Flash, TSSOP20
+D 16MHz, 8K Flash, 1K RAM, 640 EEPROM, USART, LIN,  I²C, SPI, ADC, TSSOP-20
 K STM8 Microcontroller Automotive Line
 F http://www.st.com/resource/en/datasheet/stm8af6223.pdf
 $ENDCMP
 #
 $CMP STM8L051F3P
-D 16MHz, 8K Flash, 1k RAM, 256 EEPROM, RTC, USART, I2C, SPI, ADC, TSSOP20
+D 16MHz, 8K Flash, 1K RAM, 256 EEPROM, RTC, USART,  I²C, SPI, ADC, TSSOP-20
 K STM8L Microcontroller Value Line Low Power
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00060484.pdf
 $ENDCMP
 #
 $CMP STM8L101F2P
-D 16MHz, 4K Flash, 1.5k RAM, USART, I2C, SPI, AC, TSSOP20
+D 16MHz, 4K Flash, 1.5K RAM, 2K EEPROM, USART,  I²C, SPI, ADC, TSSOP-20
 K STM8L Microcontroller Value Line Low Power
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00220591.pdf
 $ENDCMP
 #
 $CMP STM8L101F3P
-D 16MHz, 8K Flash, 1.5k RAM, 2k EEPROM, USART, I2C, SPI, AC, TSSOP20
+D 16MHz, 8K Flash, 1.5K RAM, 2K EEPROM, USART, I²C, SPI, ADC, TSSOP-20
 K STM8L Microcontroller Value Line Low Power
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00220591.pdf
 $ENDCMP
 #
-$CMP STM8L152R6T3
-D 8-bit ultra-low-power MCU, 64k Flash, 2k EEPROM, LCD, USART, I2C, SPI, ADC, DAC, -40 to 85C, LQFP-64
+$CMP STM8L152R6T
+D 16MHz, 32K Flash, 2K EEPROM, LCD, USART, I²C, SPI, ADC, DAC, LQFP-64
 K STM8L Microcontroller Low Power LCD
 F https://www.st.com/resource/en/datasheet/stm8l152r6.pdf
 $ENDCMP
 #
-$CMP STM8L152R6T6
-D 8-bit ultra-low-power MCU, 64k Flash, 2k EEPROM, LCD, USART, I2C, SPI, ADC, DAC, -40 to 85C, LQFP-64
-K STM8L Microcontroller Low Power LCD
-F https://www.st.com/resource/en/datasheet/stm8l152r6.pdf
-$ENDCMP
-#
-$CMP STM8L152R6T7
-D 8-bit ultra-low-power MCU, 64k Flash, 2k EEPROM, LCD, USART, I2C, SPI, ADC, DAC, -40 to 85C, LQFP-64
-K STM8L Microcontroller Low Power LCD
-F https://www.st.com/resource/en/datasheet/stm8l152r6.pdf
-$ENDCMP
-#
-$CMP STM8L152R8T3
-D 8-bit ultra-low-power MCU, 64k Flash, 2k EEPROM, LCD, USART, I2C, SPI, ADC, DAC, -40 to 85C, LQFP-64
-K STM8L Microcontroller Low Power LCD
-F https://www.st.com/resource/en/datasheet/stm8l152r8.pdf
-$ENDCMP
-#
-$CMP STM8L152R8T6
-D 8-bit ultra-low-power MCU, 64k Flash, 2k EEPROM, LCD, USART, I2C, SPI, ADC, DAC, -40 to 85C, LQFP-64
-K STM8L Microcontroller Low Power LCD
-F https://www.st.com/resource/en/datasheet/stm8l152r8.pdf
-$ENDCMP
-#
-$CMP STM8L152R8T7
-D 8-bit ultra-low-power MCU, 64k Flash, 2k EEPROM, LCD, USART, I2C, SPI, ADC, DAC, -40 to 85C, LQFP-64
+$CMP STM8L152R8T
+D 16MHz, 64K Flash, 2K EEPROM, LCD, USART, I²C, SPI, ADC, DAC, LQFP-64
 K STM8L Microcontroller Low Power LCD
 F https://www.st.com/resource/en/datasheet/stm8l152r8.pdf
 $ENDCMP
@@ -73,73 +49,91 @@ F https://www.st.com/resource/en/datasheet/stm8s001j3.pdf
 $ENDCMP
 #
 $CMP STM8S003F3P
-D 16MHz, 8K Flash, 1k RAM, 128 EEPROM, USART, I2C, SPI, TSSOP20
+D 16MHz, 8K Flash, 1K RAM, 128 EEPROM, USART, I²C, SPI, TSSOP-20
 K STM8S Mainstream Value line 8-bit, 16MHz, 1k RAM, 128 EEPROM
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00024550.pdf
 $ENDCMP
 #
 $CMP STM8S003F3U
-D 16MHz, 8K Flash, 1k RAM, 128 EEPROM, USART, I2C, SPI, UFQFPN20
+D 16MHz, 8K Flash, 1K RAM, 128 EEPROM, USART, I²C, SPI, UFQFPN-20
 K STM8S Mainstream Value line 8-bit, 16MHz, 1k RAM, 128 EEPROM
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00024550.pdf
 $ENDCMP
 #
 $CMP STM8S003K3T
-D 16MHz, 8K Flash, 1K RAM, 128 EEPROM, LQFP32 (7x7mm, 0.8mm pitch)
+D 16MHz, 8K Flash, 1K RAM, 128 EEPROM, LQFP-32
 K STM8 Microcontroller Value Line
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00024550.pdf
 $ENDCMP
 #
 $CMP STM8S207C6
-D 24 MHz, 32 KB Flash, 2KB EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, LQFP-48
+D 24MHz, 32K Flash, 2K EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, LQFP-48
 K STM8 Microcontroller Performance Line
 F https://www.st.com/resource/en/datasheet/stm8s208cb.pdf
 $ENDCMP
 #
 $CMP STM8S207C8
-D 24 MHz, 64 KB Flash, 2KB EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, LQFP-48
+D 24MHz, 64K Flash, 2K EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, LQFP-48
 K STM8 Microcontroller Performance Line
 F https://www.st.com/resource/en/datasheet/stm8s208cb.pdf
 $ENDCMP
 #
 $CMP STM8S207CB
-D 24 MHz, 128 KB Flash, 2KB EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, LQFP-48
+D 24MHz, 128K Flash, 2K EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, LQFP-48
 K STM8 Microcontroller Performance Line
 F https://www.st.com/resource/en/datasheet/stm8s208cb.pdf
 $ENDCMP
 #
+$CMP STM8S207R6
+D 24MHz, 32K Flash, 2K EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, LQFP-64
+K STM8 Microcontroller Performance Line
+F https://www.st.com/resource/en/datasheet/stm8s208rb.pdf
+$ENDCMP
+#
+$CMP STM8S207R8
+D 24MHz, 64K Flash, 2K EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, LQFP-64
+K STM8 Microcontroller Performance Line
+F https://www.st.com/resource/en/datasheet/stm8s208rb.pdf
+$ENDCMP
+#
+$CMP STM8S207RB
+D 24MHz, 128K Flash, 2K EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, LQFP-64
+K STM8 Microcontroller Performance Line
+F https://www.st.com/resource/en/datasheet/stm8s208rb.pdf
+$ENDCMP
+#
 $CMP STM8S208C6
-D 24 MHz, 32 KB Flash, 2KB EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, CAN, LQFP-48
+D 24MHz, 32K Flash, 2K EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, CAN, LQFP-48
 K STM8 Microcontroller Performance Line
 F https://www.st.com/resource/en/datasheet/stm8s208cb.pdf
 $ENDCMP
 #
 $CMP STM8S208C8
-D 24 MHz, 64 KB Flash, 2KB EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, CAN, LQFP-48
+D 24MHz, 64K Flash, 2K EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, CAN, LQFP-48
 K STM8 Microcontroller Performance Line
 F https://www.st.com/resource/en/datasheet/stm8s208cb.pdf
 $ENDCMP
 #
 $CMP STM8S208CB
-D 24 MHz, 128 KB Flash, 2KB EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, CAN, LQFP-48
+D 24MHz, 128K Flash, 2K EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, CAN, LQFP-48
 K STM8 Microcontroller Performance Line
 F https://www.st.com/resource/en/datasheet/stm8s208cb.pdf
 $ENDCMP
 #
 $CMP STM8S208R6
-D 24 MHz, 32 KB Flash, 2KB EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, CAN, LQFP-64
+D 24MHz, 32K Flash, 2K EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, CAN, LQFP-64
 K STM8 Microcontroller Performance Line
 F https://www.st.com/resource/en/datasheet/stm8s208rb.pdf
 $ENDCMP
 #
 $CMP STM8S208R8
-D 24 MHz, 64 KB Flash, 2KB EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, CAN, LQFP-64
+D 24MHz, 64K Flash, 2K EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, CAN, LQFP-64
 K STM8 Microcontroller Performance Line
 F https://www.st.com/resource/en/datasheet/stm8s208rb.pdf
 $ENDCMP
 #
 $CMP STM8S208RB
-D 24 MHz, 128 KB Flash, 2KB EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, CAN, LQFP-64
+D 24MHz, 128K Flash, 2K EEPROM, 10-bit ADC, 2 UARTs, SPI, I²C, CAN, LQFP-64
 K STM8 Microcontroller Performance Line
 F https://www.st.com/resource/en/datasheet/stm8s208rb.pdf
 $ENDCMP
