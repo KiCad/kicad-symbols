@@ -30,6 +30,12 @@ K I2C, SPI, pressure, temperature, sensor
 F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf
 $ENDCMP
 #
+$CMP BMP388
+D Absolute Barometric Pressure and Temperature Sensor, LGA-10
+K I2C, SPI, pressure, temperature, sensor, bosch
+F https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp388-ds001.pdf
+$ENDCMP
+#
 $CMP LPS25HB
 D MEMS pressure sensor, 260-1260 hPa, absolute digital output baromeeter
 K mems absolute baromeeter
