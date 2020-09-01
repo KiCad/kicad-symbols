@@ -89,6 +89,18 @@ K CMOS Analog Switch
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf
 $ENDCMP
 #
+$CMP ADG884xCP
+D 0.5Ω CMOS, Dual 2:1 MUX/SPDT Audio Switch, LFCSP-WD-10
+K analog switch
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG884.pdf
+$ENDCMP
+#
+$CMP ADG884xRM
+D 0.5Ω CMOS, Dual 2:1 MUX/SPDT Audio Switch, MSOP-10
+K analog switch
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG884.pdf
+$ENDCMP
+#
 $CMP CBTL02043A
 D 3.3 V, 2 differential channel, 2:1 MUX/deMUX switch, 10 Gbps, WQFN-20
 K Multiplexer Demultiplexer Switch Hi-Speed

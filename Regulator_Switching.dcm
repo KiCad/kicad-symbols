@@ -456,6 +456,12 @@ K Murata isolated isolation dc-dc converter transformer
 F http://power.murata.com/datasheet?/data/power/ncl/kdc_cre1.pdf
 $ENDCMP
 #
+$CMP DIO6970
+D High-Efficiency 2A, 24V Input Synchronous Step Down Converter, SOT-23-6
+K smps buck boost inverting
+F http://www.dioo.com/uploads/product/20190313/7a4d03690a9be004035eb1035a429f24.pdf
+$ENDCMP
+#
 $CMP FSBH0170
 D Green Mode Fairchild Power Switch, 700V Vds, 1.0A Id, 15W/13W 230V/85-265V, VIN Pin, DIP-8
 K smps regulator
@@ -1630,6 +1636,12 @@ $CMP LM5161PWP
 D 1A Synchronous Buck/Fly-buck Converter, 4.5V-100V input, adjustable output voltage, HTSSOP-14
 K step-down dc-dc buck regulator adjustable
 F http://www.ti.com/lit/ds/symlink/lm5161.pdf
+$ENDCMP
+#
+$CMP LM5164DDA
+D 1A synchronous buck converter with ultra-low IQ, 6V - 100V input, adjustable output voltage, HSOP-8
+K step-down dc-dc buck regulator adjustable
+F https://www.ti.com/lit/ds/symlink/lm5164.pdf?ts=1598311864250&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM5164%253FHQS%253DTI-null-null-octopart-df-pf-null-wwe
 $ENDCMP
 #
 $CMP LM5165
@@ -5808,6 +5820,12 @@ K Boost adjustable converter
 F http://www.ti.com/lit/ds/symlink/tps61220.pdf
 $ENDCMP
 #
+$CMP TPS61230DRC
+D High Efficiency Synchronous Step Up Converters with 5-A Switches, 2.3-5.5V Input Voltage, VSON-10
+K boost converter switching adjustable 5A-switch VSON-10
+F http://www.ti.com/lit/ds/symlink/tps61232.pdf
+$ENDCMP
+#
 $CMP TPS61252DSG
 D Tiny 1.5-A Boost Converter With Adjustable Input Current Limit, 2.3-6.0V Vin, 3.0-6.5V Vout, WSON-8
 K boost converter switching
@@ -6172,6 +6190,12 @@ $CMP TPS63061
 D Buck-Boost Converter, 2.5-12V Input Voltage, 2-A Switch Current, Fixed 5V Output Voltage, S-PWSON-10
 K Buck-Boost converter 5V
 F http://www.ti.com/lit/ds/symlink/tps63060.pdf
+$ENDCMP
+#
+$CMP TPS65130RGE
+D Split-Rail Converter with Dual, Positive and Negative Outputs (300mA typ), 2.7-5.5V, VQFN-24
+K split-rail switching dual positive negative
+F http://www.ti.com/lit/ds/symlink/tps65130.pdf
 $ENDCMP
 #
 $CMP TPS82130
