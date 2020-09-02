@@ -288,9 +288,51 @@ K digital isolator galvanic isopower
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM5410-5411-5412.pdf
 $ENDCMP
 #
-$CMP ADuM7643
-D Low Power Six-Channel 3/3 Digital Isolator, 25Mbps 6ns, Fail-Safe High, QSOP20
-K 6Ch Quad Digital Isolator 25Mbps
+$CMP ADuM7640A
+D Low Power Six-Channel 6/0 Digital Isolator, 1Mbps 25ns, Fail-Safe High, QSOP-20
+K 6-Channels Hex Digital Isolator 1Mbps
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
+$ENDCMP
+#
+$CMP ADuM7640C
+D Low Power Six-Channel 6/0 Digital Isolator, 25Mbps 6ns, Fail-Safe High, QSOP-20
+K 6-Channels Hex Digital Isolator 25Mbps
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
+$ENDCMP
+#
+$CMP ADuM7641A
+D Low Power Six-Channel 5/1 Digital Isolator, 1Mbps 25ns, Fail-Safe High, QSOP-20
+K 6-Channels Hex Digital Isolator 1Mbps
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
+$ENDCMP
+#
+$CMP ADuM7641C
+D Low Power Six-Channel 5/1 Digital Isolator, 25Mbps 6ns, Fail-Safe High, QSOP-20
+K 6-Channels Hex Digital Isolator 25Mbps
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
+$ENDCMP
+#
+$CMP ADuM7642A
+D Low Power Six-Channel 4/2 Digital Isolator, 1Mbps 25ns, Fail-Safe High, QSOP-20
+K 6-Channels Hex Digital Isolator 1Mbps
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
+$ENDCMP
+#
+$CMP ADuM7642C
+D Low Power Six-Channel 4/2 Digital Isolator, 25Mbps 6ns, Fail-Safe High, QSOP-20
+K 6-Channels Hex Digital Isolator 25Mbps
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
+$ENDCMP
+#
+$CMP ADuM7643A
+D Low Power Six-Channel 3/3 Digital Isolator, 1Mbps 25ns, Fail-Safe High, QSOP-20
+K 6-Channels Hex Digital Isolator 1Mbps
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
+$ENDCMP
+#
+$CMP ADuM7643C
+D Low Power Six-Channel 3/3 Digital Isolator, 25Mbps 6ns, Fail-Safe High, QSOP-20
+K 6-Channels Hex Digital Isolator 25Mbps
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
 $ENDCMP
 #
@@ -1834,6 +1876,18 @@ $CMP VTL5Cx2
 D Dual Element Axial Vactrols
 K vactrol
 F http://www.alliedelec.com/m/d/ecb1ed91959ae54d97cf67f5103d9b2b.pdf
+$ENDCMP
+#
+$CMP π120U30
+D Dual-channel digital isolator, 3V/5V level translation, Safe LOW, SOIC-8
+K Dual-channel digital isolator pi120U30
+F http://www.rpsemi.com/public/doc/2Pai_%CF%8012xUxx_20200416_EN.pdf
+$ENDCMP
+#
+$CMP π120U31
+D Dual-channel digital isolator, 3V/5V level translation, Safe HIGH, SOIC-8
+K Dual-channel digital isolator pi120U31
+F http://www.rpsemi.com/public/doc/2Pai_%CF%8012xUxx_20200416_EN.pdf
 $ENDCMP
 #
 #End Doc Library

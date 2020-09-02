@@ -2388,18 +2388,6 @@ K P-Channel MOSFET
 F https://www.infineon.com/dgdl/irf9383mpbf.pdf?fileId=5546d462533600a40153561169a11dab
 $ENDCMP
 #
-$CMP IRF9394M
-D -14A Id, -30V Vds, 6.5mOhm Rds, Dual Common-Drain P-Channel MOSFET, DirectFET MC
-K Dual P-Channel MOSFET HEXFET
-F https://www.infineon.com/dgdl/irf9394mpbf.pdf?fileId=5546d462533600a4015356118ff01db5
-$ENDCMP
-#
-$CMP IRF9395M
-D -14A Id, -30V Vds, 7mOhm Rds, P-Channel HEXFET Power MOSFET, DirectFET MC
-K P-Channel MOSFET HEXFET
-F https://www.infineon.com/dgdl/irf9395mpbf.pdf?fileId=5546d462533600a40153561198461db7
-$ENDCMP
-#
 $CMP IRF9540N
 D -23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220
 K P-Channel MOSFET HEXFET
@@ -2772,16 +2760,16 @@ K P-Channel MOSFET
 F https://www.vishay.com/docs/63684/sis415dnt.pdf
 $ENDCMP
 #
-$CMP SiS454DN
-D 35A Id, 20V Vds, N-Channel MOSFET, PowerPAK 1212-8 Single
-K N-Channel MOSFET
-F https://www.vishay.com/docs/66707/sis454dn.pdf
-$ENDCMP
-#
 $CMP SiS443DN
 D -35A Id, -40V Vds, P-Channel MOSFET, PowerPAK 1212-8 Single
 K P-Channel MOSFET
 F https://www.vishay.com/docs/63253/sis443dn.pdf
+$ENDCMP
+#
+$CMP SiS454DN
+D 35A Id, 20V Vds, N-Channel MOSFET, PowerPAK 1212-8 Single
+K N-Channel MOSFET
+F https://www.vishay.com/docs/66707/sis454dn.pdf
 $ENDCMP
 #
 $CMP SiSS27DN
