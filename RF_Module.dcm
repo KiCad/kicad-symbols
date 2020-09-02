@@ -1,9 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP Ai-Thinker-Ra-01
-D Ai-Thinker LoRa Module Ra-01
+D Ai-Thinker Ra-01 410-525 MHz LoRa Module, SPI interface, external antenna
 K Ra-01 LoRa
-F https://mikroelectron.com/Product/10KM-433M-LORA-LONG-RANGE-WIRELESS-MODULE-RA-01
+F http://wiki.ai-thinker.com/_media/lora/docs/c047ps01a1_ra-01_product_specification_v1.1.pdf
+$ENDCMP
+#
+$CMP Ai-Thinker-Ra-02
+D Ai-Thinker Ra-02 410-525 MHz LoRa Module, SPI interface, U.FL antenna connector
+K Ra-02 LoRa
+F http://wiki.ai-thinker.com/_media/lora/docs/c048ps01a1_ra-02_product_specification_v1.1.pdf
 $ENDCMP
 #
 $CMP CMWX1ZZABZ-078
