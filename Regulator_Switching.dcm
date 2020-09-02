@@ -762,6 +762,18 @@ K DC/DC Buck Converter 3A
 F http://www.ti.com/lit/ds/symlink/lm22676.pdf
 $ENDCMP
 #
+$CMP LM22678TJ-5
+D 5A Step-Down Switching Voltage Regulater, 4.5-42V Input, 5V Output, 500kHz Switching Frequency, TO-263
+K DC/DC Buck Converter 5A
+F https://www.ti.com/lit/ds/symlink/lm22678.pdf
+$ENDCMP
+#
+$CMP LM22678TJ-ADJ
+D 5A Step-Down Switching Voltage Regulater, 4.5-42V Input, Adjustable Output, 500kHz Switching Frequency, TO-263
+K DC/DC Buck Converter 5A
+F https://www.ti.com/lit/ds/symlink/lm22678.pdf
+$ENDCMP
+#
 $CMP LM25085MM
 D 42V Constant On-Time PFET Buck Switching Controller, MSOP-8
 K buck switching contoller
