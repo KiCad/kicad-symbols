@@ -207,6 +207,12 @@ K lvds driver reciever
 F http://www.onsemi.com/pub/Collateral/FIN1019-D.pdf
 $ENDCMP
 #
+$CMP HT12E
+D 2^12 serial encoder, SOP-20
+K Serial Encoder
+F https://www.holtek.com/documents/10179/116711/2_12ev120.pdf
+$ENDCMP
+#
 $CMP HT12D
 D 2^12 serial decoder, SOP-20
 K Serial Decoder

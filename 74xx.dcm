@@ -1404,4 +1404,10 @@ K TTL hex buffer OpenCol
 F www.ti.com/lit/ds/symlink/sn74ls07.pdf
 $ENDCMP
 #
+$CMP SN74LV4T125
+D Single Supply Logic Level Translator Quad Buffer with 3-State Outputs
+K 3State CMOS shifter translator
+F https://www.ti.com/lit/ds/symlink/sn74lv4t125.pdf
+$ENDCMP
+#
 #End Doc Library

@@ -408,6 +408,12 @@ K OptiMOS Power MOSFET N-MOS
 F http://www.infineon.com/dgdl/Infineon-BSC440N10NS3-DS-v02_04-en.pdf?fileId=db3a30432239cccd0122604520d47f56
 $ENDCMP
 #
+$CMP BSD235C
+D -0.53/+0.95A Id, -20/+20V Vds, P/N-Channel MOSFET, SOT-363, Infineon
+K OptiMOS MOSFET complementary nmos pmos enchanced avalanche AEC Q101 super logic infineon
+F https://www.infineon.com/dgdl/Infineon-BSD235C-DS-v02_04-EN.pdf?fileId=db3a30433580b371013585a2d0d53326
+$ENDCMP
+#
 $CMP BSF030NE2LQ
 D 75A Id, 25V Vds, 3mOhm Rds, N-Channel MOSFET, DirectFET SQ
 K N-Channel MOSFET
