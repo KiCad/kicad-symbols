@@ -138,6 +138,12 @@ D Flash EEProm 1MO (TSOP 40 pack.) 3,3V
 K EEPROM FLASH 1MO
 $ENDCMP
 #
+$CMP MX25L3233F
+D 32Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOP-8
+K flash memory SPI
+F https://www.macronix.com/Lists/Datasheet/Attachments/7426/MX25L3233F%2c%203V%2c%2032Mb%2c%20v1.6.pdf
+$ENDCMP
+#
 $CMP MX25R3235FM1xx0
 D 32-Mbit, Wide Range Voltage SPI Serial Flash Memory, SOP-8
 K SPI 32Mbit 1.65V-3.6V
