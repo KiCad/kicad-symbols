@@ -48,13 +48,19 @@ K USB UART Serial Converter Interface
 F https://cdn.sparkfun.com/datasheets/Dev/Arduino/Other/CH340DS1.PDF
 $ENDCMP
 #
-$CMP CP2102N-A01-GQFN24
+$CMP CP2102N-Axx-xQFN20
+D USB to UART master bridge, QFN-20
+K USB UART bridge
+F https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
+$ENDCMP
+#
+$CMP CP2102N-Axx-xQFN24
 D USB to UART master bridge, QFN-24
 K USB UART bridge
 F https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
 $ENDCMP
 #
-$CMP CP2102N-A01-GQFN28
+$CMP CP2102N-Axx-xQFN28
 D USB to UART master bridge, QFN-28
 K USB UART bridge
 F https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
