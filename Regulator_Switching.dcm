@@ -4320,112 +4320,220 @@ K DC/DC Buck Conwerter 3A
 F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00285678.pdf
 $ENDCMP
 #
+$CMP TDN_3-1210WISM
+D DC/DC 3W Single Output 3.3V, Input 4.5-18V, SMD
+K dcdc traco 3W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn3wism_datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_3-1211WISM
+D DC/DC 3W Single Output 5V, Input 4.5-18V, SMD
+K dcdc traco 3W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn3wism_datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_3-1212WISM
+D DC/DC 3W Single Output 12V, Input 4.5-18V, SMD
+K dcdc traco 3W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn3wism_datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_3-1213WISM
+D DC/DC 3W Single Output 15V, Input 4.5-18V, SMD
+K dcdc traco 3W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn3wism_datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_3-1215WISM
+D DC/DC 3W Single Output 24V, Input 4.5-18V, SMD
+K dcdc traco 3W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn3wism_datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_3-1219WISM
+D DC/DC 3W Single Output 9V, Input 4.5-18V, SMD
+K dcdc traco 3W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn3wism_datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_3-2410WISM
+D DC/DC 3W Single Output 3.3V, Input 9-36V, SMD
+K dcdc traco 3W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn3wism_datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_3-2411WISM
+D DC/DC 3W Single Output 5V, Input 9-36V, SMD
+K dcdc traco 3W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn3wism_datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_3-2412WISM
+D DC/DC 3W Single Output 12V, Input 9-36V, SMD
+K dcdc traco 3W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn3wism_datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_3-2413WISM
+D DC/DC 3W Single Output 15V, Input 9-36V, SMD
+K dcdc traco 3W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn3wism_datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_3-2415WISM
+D DC/DC 3W Single Output 24V, Input 9-36V, SMD
+K dcdc traco 3W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn3wism_datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_3-2419WISM
+D DC/DC 3W Single Output 9V, Input 9-36V, SMD
+K dcdc traco 3W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn3wism_datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_3-4810WISM
+D DC/DC 3W Single Output 3.3V, Input 18-75V, SMD
+K dcdc traco 3W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn3wism_datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_3-4811WISM
+D DC/DC 3W Single Output 5V, Input 18-75V, SMD
+K dcdc traco 3W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn3wism_datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_3-4812WISM
+D DC/DC 3W Single Output 12V, Input 18-75V, SMD
+K dcdc traco 3W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn3wism_datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_3-4813WISM
+D DC/DC 3W Single Output 15V, Input 18-75V, SMD
+K dcdc traco 3W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn3wism_datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_3-4815WISM
+D DC/DC 3W Single Output 24V, Input 18-75V, SMD
+K dcdc traco 3W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn3wism_datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_3-4819WISM
+D DC/DC 3W Single Output 9V, Input 18-75V, SMD
+K dcdc traco 3W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn3wism_datasheet.pdf
+$ENDCMP
+#
 $CMP TDN_5-0910WISM
-D Input 4.5 to 13.2V, Output 3.3V
-K dcdc traco 5W
-F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+D DC/DC 5W Single Output 3.3V, Input 4.5-13.2V, SMD
+K dcdc traco 5W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn5wism_datasheet.pdf
 $ENDCMP
 #
 $CMP TDN_5-0911WISM
-D Input 4.5 to 13.2V, Output 5.0V
-K dcdc traco 5W
+D DC/DC 5W Single Output 5V, Input 4.5-13.2V, SMD
+K dcdc traco 5W SMD TDN
 F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
 $ENDCMP
 #
 $CMP TDN_5-0912WISM
-D Input 4.5 to 13.2V, Output 12.0V
-K dcdc traco 5W
-F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+D DC/DC 5W Single Output 12V, Input 4.5-13.2V, SMD
+K dcdc traco 5W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn5wism_datasheet.pdf
 $ENDCMP
 #
 $CMP TDN_5-0913WISM
-D Input 4.5 to 13.2V, Output 15.0V
-K dcdc traco 5W
-F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+D DC/DC 5W Single Output 15V, Input 4.5-13.2V, SMD
+K dcdc traco 5W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn5wism_datasheet.pdf
 $ENDCMP
 #
 $CMP TDN_5-0915WISM
-D Input 4.5 to 13.2V, Output 24.0V
-K dcdc traco 5W
-F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+D DC/DC 5W Single Output 24V, Input 4.5-13.2V, SMD
+K dcdc traco 5W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn5wism_datasheet.pdf
 $ENDCMP
 #
 $CMP TDN_5-0919WISM
-D Input 4.5 to 13.2V, Output 9.0V
-K dcdc traco 5W
-F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+D DC/DC 5W Single Output 9V, Input 4.5-13.2V, SMD
+K dcdc traco 5W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn5wism_datasheet.pdf
 $ENDCMP
 #
 $CMP TDN_5-2410WISM
-D Input 9.0 to 36.0V, Output 3.3V
-K dcdc traco 5W
-F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+D DC/DC 5W Single Output 3.3V, Input 9-36V, SMD
+K dcdc traco 5W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn5wism_datasheet.pdf
 $ENDCMP
 #
 $CMP TDN_5-2411WISM
-D Input 9.0 to 36.0V, Output 5.0V
-K dcdc traco 5W
-F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+D DC/DC 5W Single Output 5V, Input 9-36V, SMD
+K dcdc traco 5W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn5wism_datasheet.pdf
 $ENDCMP
 #
 $CMP TDN_5-2412WISM
-D Input 9.0 to 36.0V, Output 12.0V
-K dcdc traco 5W
-F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+D DC/DC 5W Single Output 12V, Input 9-36V, SMD
+K dcdc traco 5W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn5wism_datasheet.pdf
 $ENDCMP
 #
 $CMP TDN_5-2413WISM
-D Input 9.0 to 36.0V, Output 15.0V
-K dcdc traco 5W
-F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+D DC/DC 5W Single Output 15V, Input 9-36V, SMD
+K dcdc traco 5W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn5wism_datasheet.pdf
 $ENDCMP
 #
 $CMP TDN_5-2415WISM
-D Input 9.0 to 36.0V, Output 24.0V
-K dcdc traco 5W
-F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+D DC/DC 5W Single Output 24V, Input 9-36V, SMD
+K dcdc traco 5W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn5wism_datasheet.pdf
 $ENDCMP
 #
 $CMP TDN_5-2419WISM
-D Input 9.0 to 36.0V, Output 9.0V
-K dcdc traco 5WW
+D DC/DC 5W Single Output 9V, Input 9-36V, SMD
+K dcdc traco 5W SMD TDN
 F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
 $ENDCMP
 #
 $CMP TDN_5-4810WISM
-D Input 18.0 to 75.0V, Output 3.3V
-K dcdc traco 5W
-F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+D DC/DC 5W Single Output 3.3V, Input 18-75V, SMD
+K dcdc traco 5W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn5wism_datasheet.pdf
 $ENDCMP
 #
 $CMP TDN_5-4811WISM
-D Input 18.0 to 75.0V, Output 5.0V
-K dcdc traco 5W
-F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+D DC/DC 5W Single Output 5V, Input 18-75V, SMD
+K dcdc traco 5W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn5wism_datasheet.pdf
 $ENDCMP
 #
 $CMP TDN_5-4812WISM
-D Input 18.0 to 75.0V, Output 12.0V
-K dcdc traco 5W
-F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+D DC/DC 5W Single Output 12V, Input 18-75V, SMD
+K dcdc traco 5W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn5wism_datasheet.pdf
 $ENDCMP
 #
 $CMP TDN_5-4813WISM
-D Input 18.0 to 75.0V, Output 15.0V
-K dcdc traco 5W
-F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+D DC/DC 5W Single Output 15V, Input 18-75V, SMD
+K dcdc traco 5W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn5wism_datasheet.pdf
 $ENDCMP
 #
 $CMP TDN_5-4815WISM
-D Input 18.0 to 75.0V, Output 24.0V
-K dcdc traco 5W
-F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+D DC/DC 5W Single Output 24V, Input 18-75V, SMD
+K dcdc traco 5W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn5wism_datasheet.pdf
 $ENDCMP
 #
 $CMP TDN_5-4819WISM
-D Input 18.0 to 75.0V, Output 9.0V
-K dcdc traco 5W
-F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+D DC/DC 5W Single Output 9V, Input 18-75V, SMD
+K dcdc traco 5W SMD TDN
+F https://www.tracopower.com/sites/default/files/products/datasheets/tdn5wism_datasheet.pdf
 $ENDCMP
 #
 $CMP TL497
