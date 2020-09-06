@@ -402,8 +402,32 @@ K diode
 F ~
 $ENDCMP
 #
+$CMP D_Schottky_x2_ACom_AKK_Parallel
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_x2_ACom_AKK_Split
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
 $CMP D_Schottky_x2_ACom_KAK
 D Dual Schottky diode, common anode on pin 2
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_x2_ACom_KAK_Parallel
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_x2_ACom_KAK_Split
+D Dual Schottky diode, common anode on pin 1
 K diode
 F ~
 $ENDCMP
@@ -414,8 +438,32 @@ K diode
 F ~
 $ENDCMP
 #
+$CMP D_Schottky_x2_ACom_KKA_Parallel
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_x2_ACom_KKA_Split
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
 $CMP D_Schottky_x2_KCom_AAK
 D Dual Schottky diode, common cathode on pin 3
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_x2_KCom_AAK_Parallel
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_x2_KCom_AAK_Split
+D Dual Schottky diode, common anode on pin 1
 K diode
 F ~
 $ENDCMP
@@ -426,8 +474,32 @@ K diode
 F ~
 $ENDCMP
 #
+$CMP D_Schottky_x2_KCom_AKA_Parallel
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_x2_KCom_AKA_Split
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
 $CMP D_Schottky_x2_KCom_KAA
 D Dual Schottky diode, common cathode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_x2_KCom_KAA_Parallel
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_x2_KCom_KAA_Split
+D Dual Schottky diode, common anode on pin 1
 K diode
 F ~
 $ENDCMP
@@ -464,6 +536,78 @@ $ENDCMP
 #
 $CMP D_Schottky_x2_Serial_KCA
 D Dual Schottky diode, cathode/center/anode
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_x2_Series_ACK_Parallel
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_x2_Series_ACK_Split
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_x2_Series_AKC_Parallel
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_x2_Series_AKC_Split
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_x2_Series_CAK_Parallel
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_x2_Series_CAK_Split
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_x2_Series_CKA_Parallel
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_x2_Series_CKA_Split
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_x2_Series_KAC_Parallel
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_x2_Series_KAC_Split
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_x2_Series_KCA_Parallel
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_x2_Series_KCA_Split
+D Dual Schottky diode, common anode on pin 1
 K diode
 F ~
 $ENDCMP
@@ -588,9 +732,33 @@ K diode zener dual
 F ~
 $ENDCMP
 #
+$CMP D_Zener_x2_ACom_AKK_Parallel
+D Dual Zener diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_ACom_AKK_Split
+D Dual Zener diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
 $CMP D_Zener_x2_ACom_KAK
 D Dual Zener diode, common anode on pin 2
 K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_ACom_KAK_Parallel
+D Dual Zener diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_ACom_KAK_Split
+D Dual Zener diode, common anode on pin 1
+K diode
 F ~
 $ENDCMP
 #
@@ -600,9 +768,33 @@ K diode zener dual
 F ~
 $ENDCMP
 #
+$CMP D_Zener_x2_ACom_KKA_Parallel
+D Dual Zener diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_ACom_KKA_Split
+D Dual Zener diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
 $CMP D_Zener_x2_KCom_AAK
 D Dual Zener diode, common cathode on pin 3
 K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_KCom_AAK_Parallel
+D Dual Zener diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_KCom_AAK_Split
+D Dual Zener diode, common anode on pin 1
+K diode
 F ~
 $ENDCMP
 #
@@ -612,13 +804,49 @@ K diode zener dual
 F ~
 $ENDCMP
 #
+$CMP D_Zener_x2_KCom_AKA_Parallel
+D Dual Zener diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_KCom_AKA_Split
+D Dual Zener diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
 $CMP D_Zener_x2_KCom_KAA
 D Dual Zener diode, common cathode on pin 1
 K diode zener dual
 F ~
 $ENDCMP
 #
+$CMP D_Zener_x2_KCom_KAA_Parallel
+D Dual Zener diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Zener_x2_KCom_KAA_Split
+D Dual Zener diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
 $CMP D_x2_ACom_AKK
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_x2_ACom_AKK_Parallel
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_x2_ACom_AKK_Split
 D Dual diode, common anode on pin 1
 K diode
 F ~
@@ -630,8 +858,32 @@ K diode
 F ~
 $ENDCMP
 #
+$CMP D_x2_ACom_KAK_Parallel
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_x2_ACom_KAK_Split
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
 $CMP D_x2_ACom_KKA
 D Dual diode, common anode on pin 3
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_x2_ACom_KKA_Parallel
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_x2_ACom_KKA_Split
+D Dual diode, common anode on pin 1
 K diode
 F ~
 $ENDCMP
@@ -642,14 +894,50 @@ K diode
 F ~
 $ENDCMP
 #
+$CMP D_x2_KCom_AAK_Parallel
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_x2_KCom_AAK_Split
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
 $CMP D_x2_KCom_AKA
 D Dual diode, common cathode on pin 2
 K diode
 F ~
 $ENDCMP
 #
+$CMP D_x2_KCom_AKA_Parallel
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_x2_KCom_AKA_Split
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
 $CMP D_x2_KCom_KAA
 D Dual diode, common cathode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_x2_KCom_KAA_Parallel
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_x2_KCom_KAA_Split
+D Dual diode, common anode on pin 1
 K diode
 F ~
 $ENDCMP
@@ -686,6 +974,78 @@ $ENDCMP
 #
 $CMP D_x2_Serial_KCA
 D Dual diode, cathode/center/anode
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_x2_Series_ACK_Parallel
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_x2_Series_ACK_Split
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_x2_Series_AKC_Parallel
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_x2_Series_AKC_Split
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_x2_Series_CAK_Parallel
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_x2_Series_CAK_Split
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_x2_Series_CKA_Parallel
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_x2_Series_CKA_Split
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_x2_Series_KAC_Parallel
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_x2_Series_KAC_Split
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_x2_Series_KCA_Parallel
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_x2_Series_KCA_Split
+D Dual diode, common anode on pin 1
 K diode
 F ~
 $ENDCMP
@@ -1610,6 +1970,12 @@ $ENDCMP
 #
 $CMP Q_DUAL_NMOS_S1G1D2S2G2D1
 D Dual NMOS transistor, 6 pin package
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
+$CMP Q_DUAL_NMOS_S1G1S2G2D2D2D1D1
+D Dual NMOS transistor, 8 pin package
 K transistor NMOS N-MOS N-MOSFET
 F ~
 $ENDCMP
