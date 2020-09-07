@@ -420,6 +420,12 @@ K RF amplifier
 F https://www.minicircuits.com/pdfs/PHA-23LN+.pdf
 $ENDCMP
 #
+$CMP SGL0622Z
+D 5 MHz to 4000 MHz, Low-Noise SiGe HBT MMIC Amplifier, DFN-8
+K rf gain block
+F https://www.qorvo.com/products/d/da001879
+$ENDCMP
+#
 $CMP SKY65404
 D 4.9-5.9GHz, 13dB Low-Noise Amplifier, QFN-6
 K LNA low noise amplifier RF

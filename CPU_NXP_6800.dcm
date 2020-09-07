@@ -6,6 +6,12 @@ K MCU
 F http://pdf.datasheetcatalog.com/datasheet/motorola/MC68A00L.pdf
 $ENDCMP
 #
+$CMP MC6802
+D 8-Bit Microprocessing unit 1.0MHz, DIP-40
+K MCU
+F https://www.jameco.com/Jameco/Products/ProdDS/43502.pdf
+$ENDCMP
+#
 $CMP MC6809
 D 8-Bit Microprocessing unit 1.0MHz, DIP-40
 K MCU
@@ -24,6 +30,12 @@ K MCU
 F http://pdf.datasheetcatalog.com/datasheet/motorola/MC68A00L.pdf
 $ENDCMP
 #
+$CMP MC68A02
+D 8-Bit Microprocessing unit 1.5MHz, DIP-40
+K MCU
+F https://www.jameco.com/Jameco/Products/ProdDS/43502.pdf
+$ENDCMP
+#
 $CMP MC68A09
 D 8-Bit Microprocessing unit 1.5MHz, DIP-40
 K MCU
@@ -40,6 +52,12 @@ $CMP MC68B00
 D 8-Bit Microprocessing unit 2.0MHz, DIP-40
 K MCU
 F http://pdf.datasheetcatalog.com/datasheet/motorola/MC68A00L.pdf
+$ENDCMP
+#
+$CMP MC68B02
+D 8-Bit Microprocessing unit 2.0MHz, DIP-40
+K MCU
+F https://www.jameco.com/Jameco/Products/ProdDS/43502.pdf
 $ENDCMP
 #
 $CMP MC68B09
