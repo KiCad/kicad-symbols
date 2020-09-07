@@ -246,6 +246,12 @@ K Dual Synchronous Buck
 F http://www.ti.com/lit/ds/symlink/lm25119.pdf
 $ENDCMP
 #
+$CMP LM5023
+D Quasi-Resonant Current-Mode PWM Controller for Off-Line Supplies, OVP/OTP, Latched OVP, VSSOP-8
+K smps pwm controller ac-dc ac dc offline off-line quasi resonant quasi-resonant flyback
+F https://www.ti.com/lit/ds/symlink/lm5023.pdf
+$ENDCMP
+#
 $CMP LT1248
 D Power Factor Controller, DIP-16/SOIC-16
 K pfc controller

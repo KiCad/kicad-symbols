@@ -54,6 +54,12 @@ K rf switch sp4t absorptive
 F https://www.analog.com/media/en/technical-documentation/data-sheets/HMC7992.pdf
 $ENDCMP
 #
+$CMP HMC849A
+D High Isolation SPDT Non-Reflective Switch, DC-6GHz, Matched to 50 Ohm, LFCSP-16
+K RF SPDT switch
+F https://www.analog.com/media/en/technical-documentation/data-sheets/hmc849a.pdf
+$ENDCMP
+#
 $CMP KSW-2-46
 D SPDT DC-4.6GHz reflective switch, 50 Ohm, XX112
 K RF SPDT switch
