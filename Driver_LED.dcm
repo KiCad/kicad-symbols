@@ -294,6 +294,12 @@ K spi qspi microwire
 F https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf
 $ENDCMP
 #
+$CMP MCP1643xMS
+D Constant-current LED boost regulator, 0.65V startup, 550mA output, MSOP-8
+K LED driver low voltage
+F https://ww1.microchip.com/downloads/en/DeviceDoc/20005208A.pdf
+$ENDCMP
+#
 $CMP MPQ2483DQ
 D 55V, 2.5A Programmable Frequency LED Driver, DFN-10
 K LED driver
