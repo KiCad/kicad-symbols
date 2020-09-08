@@ -98,6 +98,18 @@ K Adesto Flash Memory DataFlash
 F https://www.adestotech.com/wp-content/uploads/doc3500.pdf
 $ENDCMP
 #
+$CMP GD25D05CT
+D 512kbit, 3.0V Standard and Dual Serial Flash, SOP-8
+K SPI DSPI QSPI 512Kbit 3.0V
+F http://www.elm-tech.com/en/products/spi-flash-memory/gd25d10/gd25d10.pdf
+$ENDCMP
+#
+$CMP GD25D10CT
+D 1Mbit, 3.0V Standard and Dual Serial Flash, SOP-8
+K SPI DSPI QSPI 1Mbit 3.0V
+F http://www.elm-tech.com/en/products/spi-flash-memory/gd25d10/gd25d10.pdf
+$ENDCMP
+#
 $CMP IS25WP256D-xM
 D 256-Mbit, 1.8V SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-16
 K SPI DSPI QSPI NOR 256Mbit 1.8V

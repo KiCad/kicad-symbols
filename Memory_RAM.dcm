@@ -12,6 +12,12 @@ K RAM SRAM CMOS MEMORY
 F http://www.futurlec.com/Datasheet/Memory/628128.pdf
 $ENDCMP
 #
+$CMP AS4C256M16D3
+D 4Gb (256Mx16 bit) Double Data Rate 3 Synchronous DRAM
+K DDR3 DRAM MEMORY
+F https://www.alliancememory.com/wp-content/uploads/pdf/ddr3/4GB-AS4C256M16D3.pdf
+$ENDCMP
+#
 $CMP AS4C4M16SA
 D 64M – (4M x 16 bit) Synchronous DRAM (SDRAM), TSOP II 54pin
 K SDRAM Synchronus DRAM PC166 PC143 64Mb 16Mbx4 MEMORY

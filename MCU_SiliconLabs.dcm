@@ -6,21 +6,9 @@ K 8051 microcontroller PCA UART USB SPI I2C ADC EMIF TQFP48
 F https://www.silabs.com/documents/public/data-sheets/C8051F38x.pdf
 $ENDCMP
 #
-$CMP C8051F382-GQ
-D Full Speed USB Flash MCU Family, 32k flash, 2304 ram, 40 IO, EMIF, ADC, Temperature, VREF, TQFP-48
-K 8051 microcontroller PCA UART USB SPI I2C ADC EMIF TQFP48
-F https://www.silabs.com/documents/public/data-sheets/C8051F38x.pdf
-$ENDCMP
-#
-$CMP C8051F384-GQ
-D Full Speed USB Flash MCU Family, 64k flash, 4352 ram, 40 IO, EMIF, TQFP-48
-K 8051 microcontroller PCA UART USB SPI I2C EMIF TQFP48
-F https://www.silabs.com/documents/public/data-sheets/C8051F38x.pdf
-$ENDCMP
-#
-$CMP C8051F386-GQ
-D Full Speed USB Flash MCU Family, 32k flash, 2304 ram, 40 IO, EMIF, TQFP-48
-K 8051 microcontroller PCA UART USB SPI I2C EMIF TQFP48
+$CMP C8051F381-GM
+D Full Speed USB Flash MCU Family, 64k flash, 4352 ram, 25 IO, ADC, Temperature, VREF, QFN-32
+K 8051 microcontroller PCA UART USB SPI I2C ADC QFN32
 F https://www.silabs.com/documents/public/data-sheets/C8051F38x.pdf
 $ENDCMP
 #
@@ -30,33 +18,9 @@ K 8051 microcontroller PCA UART USB SPI I2C ADC LQFP32
 F https://www.silabs.com/documents/public/data-sheets/C8051F38x.pdf
 $ENDCMP
 #
-$CMP C8051F383-GQ
-D Full Speed USB Flash MCU Family, 32k flash, 2304 ram, 25 IO, ADC, Temperature, VREF, LQFP-32
-K 8051 microcontroller PCA UART USB SPI I2C ADC LQFP32
-F https://www.silabs.com/documents/public/data-sheets/C8051F38x.pdf
-$ENDCMP
-#
-$CMP C8051F385-GQ
-D Full Speed USB Flash MCU Family, 64k flash, 4352 ram, 25 IO, LQFP-32
-K 8051 microcontroller PCA UART USB SPI I2C LQFP32
-F https://www.silabs.com/documents/public/data-sheets/C8051F38x.pdf
-$ENDCMP
-#
-$CMP C8051F387-GQ
-D Full Speed USB Flash MCU Family, 32k flash, 2304 ram, 25 IO, LQFP-32
-K 8051 microcontroller PCA UART USB SPI I2C LQFP32
-F https://www.silabs.com/documents/public/data-sheets/C8051F38x.pdf
-$ENDCMP
-#
-$CMP C8051F38C-GQ
-D Full Speed USB Flash MCU Family, 16k flash, 2304 ram, 25 IO, ADC, Temperature, VREF, LQFP-32
-K 8051 microcontroller PCA UART USB SPI I2C ADC LQFP32
-F https://www.silabs.com/documents/public/data-sheets/C8051F38x.pdf
-$ENDCMP
-#
-$CMP C8051F381-GM
-D Full Speed USB Flash MCU Family, 64k flash, 4352 ram, 25 IO, ADC, Temperature, VREF, QFN-32
-K 8051 microcontroller PCA UART USB SPI I2C ADC QFN32
+$CMP C8051F382-GQ
+D Full Speed USB Flash MCU Family, 32k flash, 2304 ram, 40 IO, EMIF, ADC, Temperature, VREF, TQFP-48
+K 8051 microcontroller PCA UART USB SPI I2C ADC EMIF TQFP48
 F https://www.silabs.com/documents/public/data-sheets/C8051F38x.pdf
 $ENDCMP
 #
@@ -66,9 +30,33 @@ K 8051 microcontroller PCA UART USB SPI I2C ADC QFN32
 F https://www.silabs.com/documents/public/data-sheets/C8051F38x.pdf
 $ENDCMP
 #
+$CMP C8051F383-GQ
+D Full Speed USB Flash MCU Family, 32k flash, 2304 ram, 25 IO, ADC, Temperature, VREF, LQFP-32
+K 8051 microcontroller PCA UART USB SPI I2C ADC LQFP32
+F https://www.silabs.com/documents/public/data-sheets/C8051F38x.pdf
+$ENDCMP
+#
+$CMP C8051F384-GQ
+D Full Speed USB Flash MCU Family, 64k flash, 4352 ram, 40 IO, EMIF, TQFP-48
+K 8051 microcontroller PCA UART USB SPI I2C EMIF TQFP48
+F https://www.silabs.com/documents/public/data-sheets/C8051F38x.pdf
+$ENDCMP
+#
 $CMP C8051F385-GM
 D Full Speed USB Flash MCU Family, 64k flash, 4352 ram, 25 IO, QFN-32
 K 8051 microcontroller PCA UART USB SPI I2C QFN32
+F https://www.silabs.com/documents/public/data-sheets/C8051F38x.pdf
+$ENDCMP
+#
+$CMP C8051F385-GQ
+D Full Speed USB Flash MCU Family, 64k flash, 4352 ram, 25 IO, LQFP-32
+K 8051 microcontroller PCA UART USB SPI I2C LQFP32
+F https://www.silabs.com/documents/public/data-sheets/C8051F38x.pdf
+$ENDCMP
+#
+$CMP C8051F386-GQ
+D Full Speed USB Flash MCU Family, 32k flash, 2304 ram, 40 IO, EMIF, TQFP-48
+K 8051 microcontroller PCA UART USB SPI I2C EMIF TQFP48
 F https://www.silabs.com/documents/public/data-sheets/C8051F38x.pdf
 $ENDCMP
 #
@@ -78,9 +66,21 @@ K 8051 microcontroller PCA UART USB SPI I2C QFN32
 F https://www.silabs.com/documents/public/data-sheets/C8051F38x.pdf
 $ENDCMP
 #
+$CMP C8051F387-GQ
+D Full Speed USB Flash MCU Family, 32k flash, 2304 ram, 25 IO, LQFP-32
+K 8051 microcontroller PCA UART USB SPI I2C LQFP32
+F https://www.silabs.com/documents/public/data-sheets/C8051F38x.pdf
+$ENDCMP
+#
 $CMP C8051F38C-GM
 D Full Speed USB Flash MCU Family, 16k flash, 2304 ram, 25 IO, ADC, Temperature, VREF, QFN-32
 K 8051 microcontroller PCA UART USB SPI I2C ADC QFN32
+F https://www.silabs.com/documents/public/data-sheets/C8051F38x.pdf
+$ENDCMP
+#
+$CMP C8051F38C-GQ
+D Full Speed USB Flash MCU Family, 16k flash, 2304 ram, 25 IO, ADC, Temperature, VREF, LQFP-32
+K 8051 microcontroller PCA UART USB SPI I2C ADC LQFP32
 F https://www.silabs.com/documents/public/data-sheets/C8051F38x.pdf
 $ENDCMP
 #
@@ -190,6 +190,24 @@ $CMP EFM8BB10F8I-A-SOIC16
 D 8051-compatible microcontroller, 25 MHz, 2.2 to 3.6V, 8K flash, 512B RAM, -40 to +125 C, SOIC16
 K 8051 microcontroller PWM UART SPI I2C ADC SOIC16
 F https://www.silabs.com/documents/public/data-sheets/efm8bb1-datasheet.pdf
+$ENDCMP
+#
+$CMP EFM8UB30F40G-A-QFN20
+D 8051-compatible microcontroller, 48 MHz, 2.3 to 5.5V, 40K flash, 3.25K RAM, -40 to +85 C, QFN-20
+K 8051 microcontroller PWM UART SPI I2C USB LDOREG ADC QFN20
+F https://www.silabs.com/documents/public/data-sheets/efm8ub3-datasheet.pdf
+$ENDCMP
+#
+$CMP EFM8UB31F40G-A-QFN24
+D 8051-compatible microcontroller, 48 MHz, 2.3 to 5.5V, 40K flash, 3.25K RAM, -40 to +85 C, QFN-24
+K 8051 microcontroller PWM UART SPI I2C USB LDOREG ADC QFN24
+F https://www.silabs.com/documents/public/data-sheets/efm8ub3-datasheet.pdf
+$ENDCMP
+#
+$CMP EFM8UB31F40G-A-QSOP24
+D 8051-compatible microcontroller, 48 MHz, 2.3 to 5.5V, 40K flash, 3.25K RAM, -40 to +85 C, QSOP-24
+K 8051 microcontroller PWM UART SPI I2C USB LDOREG ADC QSOP24
+F https://www.silabs.com/documents/public/data-sheets/efm8ub3-datasheet.pdf
 $ENDCMP
 #
 #End Doc Library

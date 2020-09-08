@@ -78,6 +78,18 @@ K Gate Driver Class D 2ch
 F https://www.infineon.com/dgdl/Infineon-IRS2452AM-DS-v01_00-EN.pdf?fileId=5546d462584d1d4a01584ee4f1f00713
 $ENDCMP
 #
+$CMP IS31AP4991-GRLS2
+D 1.2W, 2.7-5.5V, Audio Power Amplifier, Active-Low Standby, SOP-8
+K ultra low consumption distortion
+F http://www.issi.com/WW/pdf/31AP4991.pdf
+$ENDCMP
+#
+$CMP IS31AP4991-SLS2
+D 1.2W, 2.7-5.5V, Audio Power Amplifier, Active-Low Standby, MSOP-8
+K ultra low consumption distortion
+F http://www.issi.com/WW/pdf/31AP4991.pdf
+$ENDCMP
+#
 $CMP LM1875
 D 20W Audio Power Amplifier, TO-220-5
 K audio amplifier
@@ -268,6 +280,12 @@ $CMP PAM8302AAY
 D 2.5W Filterless Class-D Mono Audio Amplifier, DFN-8
 K audio amplifier class d
 F https://www.diodes.com/assets/Datasheets/PAM8302A.pdf
+$ENDCMP
+#
+$CMP PAM8403D
+D 3W Filterless Class-D Stereo Audio Amplifier, SOP-16
+K audio amplifier class d
+F https://www.diodes.com/assets/Datasheets/PAM8403.pdf
 $ENDCMP
 #
 $CMP SSM2017P
