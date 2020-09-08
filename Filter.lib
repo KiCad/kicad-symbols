@@ -145,14 +145,14 @@ X CG 4 400 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Choke_RN102-0.3-02-22M
+# Choke_Schaffner_RN102-0.3-02-22M
 #
-DEF Choke_RN102-0.3-02-22M FL 0 20 Y N 1 F N
+DEF Choke_Schaffner_RN102-0.3-02-22M FL 0 20 Y N 1 F N
 F0 "FL" 0 200 50 H V C CNN
-F1 "Choke_RN102-0.3-02-22M" 0 -200 50 H V C CNN
+F1 "Choke_Schaffner_RN102-0.3-02-22M" 0 -200 50 H V C CNN
 F2 "Inductor_THT:Choke_Schaffner_RN102-04-14.0x14.0mm" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-ALIAS Choke_RN102-0.3-02-12M Choke_RN102-0.6-02-4M4 Choke_RN102-1-02-3M0 Choke_RN102-1.5-02-1M6 Choke_RN102-2-02-1M1
+ALIAS Choke_Schaffner_RN102-0.3-02-12M Choke_Schaffner_RN102-0.6-02-4M4 Choke_Schaffner_RN102-1-02-3M0 Choke_Schaffner_RN102-1.5-02-1M6 Choke_Schaffner_RN102-2-02-1M1
 $FPLIST
  Choke*Schaffner*RN102*
 $ENDFPLIST
