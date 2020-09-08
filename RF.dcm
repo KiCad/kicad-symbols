@@ -6,12 +6,6 @@ K Directional Coupler
 F https://www.minicircuits.com/pdfs/ADC-10-1R.pdf
 $ENDCMP
 #
-$CMP ADE-6
-D Mixer, +7 dBm LO, 0.05 to 250 MHz
-K mixer rf
-F www.minicircuits.com/pdfs/ADE-6.pdf
-$ENDCMP
-#
 $CMP ADCH-80
 D 50-10000MHz, RF Choke, Mini-Circuits CD542
 K bias filter DC choke
