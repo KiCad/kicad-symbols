@@ -354,6 +354,18 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/lm675.pdf
 $ENDCMP
 #
+$CMP LM7171xIM
+D Single Very High Speed High Output Current Voltage Feedback Amplifier, SOIC-8
+K single opamp
+F https://www.ti.com/lit/ds/symlink/lm7171.pdf
+$ENDCMP
+#
+$CMP LM7171xIN
+D Single Very High Speed High Output Current Voltage Feedback Amplifier, DIP-8
+K single opamp
+F https://www.ti.com/lit/ds/symlink/lm7171.pdf
+$ENDCMP
+#
 $CMP LM7332
 D Dual Rail-to-Rail Input and Output 30-V, Wide Voltage Range, High Output, Operational Amplifier, SOIC-8/SSOP-8
 K dual opamp
@@ -896,6 +908,12 @@ $ENDCMP
 #
 $CMP MCP6V67EMS
 D Dual Operational Amplifiers, Zero-Drift, 80 kHz Bandwidth, 1.8V to 5.5V, Rail-to-Rail, MSOP-8
+K dual opamp zero drift
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6V66-Family-Data-Sheet-DS20006266A.pdf
+$ENDCMP
+#
+$CMP MCP6V67xMNY
+D Dual Operational Amplifiers, Zero-Drift, 80 kHz Bandwidth, 1.8V to 5.5V, Rail-to-Rail, TDFN-8
 K dual opamp zero drift
 F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6V66-Family-Data-Sheet-DS20006266A.pdf
 $ENDCMP
