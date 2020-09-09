@@ -98,6 +98,18 @@ K Adesto Flash Memory DataFlash
 F https://www.adestotech.com/wp-content/uploads/doc3500.pdf
 $ENDCMP
 #
+$CMP GD25D05CT
+D 512kbit, 3.0V Standard and Dual Serial Flash, SOP-8
+K SPI DSPI QSPI 512Kbit 3.0V
+F http://www.elm-tech.com/en/products/spi-flash-memory/gd25d10/gd25d10.pdf
+$ENDCMP
+#
+$CMP GD25D10CT
+D 1Mbit, 3.0V Standard and Dual Serial Flash, SOP-8
+K SPI DSPI QSPI 1Mbit 3.0V
+F http://www.elm-tech.com/en/products/spi-flash-memory/gd25d10/gd25d10.pdf
+$ENDCMP
+#
 $CMP IS25WP256D-xM
 D 256-Mbit, 1.8V SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-16
 K SPI DSPI QSPI NOR 256Mbit 1.8V
@@ -124,6 +136,42 @@ $ENDCMP
 $CMP M29W008
 D Flash EEProm 1MO (TSOP 40 pack.) 3,3V
 K EEPROM FLASH 1MO
+$ENDCMP
+#
+$CMP MX25R3235FM1xx0
+D 32-Mbit, Wide Range Voltage SPI Serial Flash Memory, SOP-8
+K SPI 32Mbit 1.65V-3.6V
+F http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf
+$ENDCMP
+#
+$CMP MX25R3235FM1xx1
+D 32-Mbit, Wide Range Voltage SPI Serial Flash Memory, SOP-8
+K SPI 32Mbit 1.65V-3.6V
+F http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf
+$ENDCMP
+#
+$CMP MX25R3235FM2xx0
+D 32-Mbit, Wide Range Voltage SPI Serial Flash Memory, SOP-8
+K SPI 32Mbit 1.65V-3.6V
+F http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf
+$ENDCMP
+#
+$CMP MX25R3235FM2xx1
+D 32-Mbit, Wide Range Voltage SPI Serial Flash Memory, SOP-8
+K SPI 32Mbit 1.65V-3.6V
+F http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf
+$ENDCMP
+#
+$CMP MX25R3235FZNxx0
+D 32-Mbit, Wide Range Voltage SPI Serial Flash Memory, WSON-8
+K SPI 32Mbit 1.65V-3.6V
+F http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf
+$ENDCMP
+#
+$CMP MX25R3235FZNxx1
+D 32-Mbit, Wide Range Voltage SPI Serial Flash Memory, WSON-8
+K SPI 32Mbit 1.65V-3.6V
+F http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf
 $ENDCMP
 #
 $CMP SST25VF080B-50-4x-S2Ax

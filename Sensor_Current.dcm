@@ -972,6 +972,30 @@ K hall effect current monitor sensor isolated
 F http://www.allegromicro.com/~/media/Files/Datasheets/ACS781-Datsaheet.ashx?la=en
 $ENDCMP
 #
+$CMP CKSR_15-NP
+D Current Transducer, 15A, Unipolar, 0-5V Output
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/cksr_series.pdf
+$ENDCMP
+#
+$CMP CKSR_25-NP
+D Current Transducer, 25A, Unipolar, 0-5V Output
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/cksr_series.pdf
+$ENDCMP
+#
+$CMP CKSR_50-NP
+D Current Transducer, 50A, Unipolar, 0-5V Output
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/cksr_series.pdf
+$ENDCMP
+#
+$CMP CKSR_6-NP
+D Current Transducer, 6A, Unipolar, 0-5V Output
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/cksr_series.pdf
+$ENDCMP
+#
 $CMP CQ-2063
 D High-Speed Small-Sized Current Sensor, Bidirectional, -35A to +35A, 60mV/A, CQ-7
 K hall effect current sensor
@@ -1198,6 +1222,30 @@ $CMP CQ-330J
 D High-Speed Response Coreless Current Sensor, Unidirectional, -2.0A to +42.0A, 82.7mV/A, VSOP-24
 K hall effect current sensor
 F http://www.akm.com/akm/en/file/datasheet/CQ-330J.pdf
+$ENDCMP
+#
+$CMP CSLW6B1
+D Miniature Wired Open-Loop Current Sensors, 1A
+K hall current sensor
+F https://sensing.honeywell.com/honeywell-sensing-cslw-series-product-sheet-005861-1-en.pdf
+$ENDCMP
+#
+$CMP CSLW6B200M
+D Miniature Wired Open-Loop Current Sensors, 200mA
+K hall current sensor
+F https://sensing.honeywell.com/honeywell-sensing-cslw-series-product-sheet-005861-1-en.pdf
+$ENDCMP
+#
+$CMP CSLW6B40M
+D Miniature Wired Open-Loop Current Sensors, 40mA
+K hall current sensor
+F https://sensing.honeywell.com/honeywell-sensing-cslw-series-product-sheet-005861-1-en.pdf
+$ENDCMP
+#
+$CMP CSLW6B5
+D Miniature Wired Open-Loop Current Sensors, 5A
+K hall current sensor
+F https://sensing.honeywell.com/honeywell-sensing-cslw-series-product-sheet-005861-1-en.pdf
 $ENDCMP
 #
 $CMP CZ-3813
