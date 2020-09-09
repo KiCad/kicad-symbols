@@ -3508,7 +3508,8 @@ $CMP LP38512TS-1.8
 D 1.5A Fast-Transient Response Low-Dropout Linear Voltage Regulator with Error Flag, 1.8V Output, TO-263/DDPAK/D2PAK
 K LDO Linear Regulator
 F http://www.ti.com/lit/ds/symlink/lp38512.pdf
-=======
+$ENDCMP
+#
 $CMP LP38691SD-1.8
 D 500-mA Low-Dropout CMOS Linear Regulators Stable With Ceramic Output Capacitors, 1.8V output voltage, WSON-6
 K LDO Linear Regulator
