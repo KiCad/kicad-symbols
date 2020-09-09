@@ -252,6 +252,12 @@ K current sense transformer
 F https://www.coilcraft.com/pdfs/cst.pdf
 $ENDCMP
 #
+$CMP ETC1-1-13
+D 4.5-4000MHz 1:1 RF Transformer, Balanced Transmission Line, SM-22
+K MACOM RF Transformer
+F https://cdn.macom.com/datasheets/ETC1-1-13.pdf
+$ENDCMP
+#
 $CMP LL1587
 D Lundahl Transformers, Microphone Transformer
 K microphone transformer
@@ -496,6 +502,12 @@ $CMP TG111-MSC13LF
 D Single Port Gigabit Ethernet Transformers
 K Single Port Gigabit Ethernet Transformer
 F https://www.haloelectronics.com/pdf/discrete-genesus.pdf
+$ENDCMP
+#
+$CMP Wuerth_750315371
+D 5V, 1A , 320 - 480kHz, 1:1.1, Center Tapped, SMD
+K Power Center Tapped Flyback Transformer AEC-Q200
+F https://www.we-online.com/catalog/datasheet/750315371.pdf
 $ENDCMP
 #
 $CMP Wuerth_750343373

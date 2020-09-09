@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CH376T
+D File Management USB Flash Card SD Interface, SSOP-20
+K USB Mass-Storage SD Card Interface
+F https://www.mpja.com/download/ch376ds1.pdf
+$ENDCMP
+#
 $CMP 5PB1108PGxx
 D 1:8 LVCMOS High-Performance Clock Buffer, 1.8V to 3.3V, TSSOP-16
 K clock buffer lvcmos
@@ -91,6 +97,12 @@ $CMP 88SE9125C0-NAA
 D One-Lane PCIe SATA Two-Ports Controller, QFN-76
 K PCIe2.0 SATA3.0
 F https://www.marvell.com/documents/bqcwxsoiqfjkcjdjhkvc/
+$ENDCMP
+#
+$CMP AD9833xRM
+D 10 bit 25 MHz Programmable Waveform Generator, 2.3V to 5.5V, 12.65mW, MSOP-10
+K Direct Digital Synthesizer DDS
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ad9833.pdf
 $ENDCMP
 #
 $CMP AD9834
@@ -195,6 +207,18 @@ K lvds driver reciever
 F http://www.onsemi.com/pub/Collateral/FIN1019-D.pdf
 $ENDCMP
 #
+$CMP HT12E
+D 2^12 serial encoder, SOP-20
+K Serial Encoder
+F https://www.holtek.com/documents/10179/116711/2_12ev120.pdf
+$ENDCMP
+#
+$CMP HT12D
+D 2^12 serial decoder, SOP-20
+K Serial Decoder
+F https://www.holtek.com/documents/10179/116711/2_12dv120.pdf
+$ENDCMP
+#
 $CMP LTC1518
 D 52Mbps Precision Delay RS485 Quad Line Receivers
 K receiver rs485 rs422 differential
@@ -277,6 +301,30 @@ $CMP MAX6816
 D Single Switch  Debouncer, SOT-143
 K Switch Debouncer
 F https://datasheets.maximintegrated.com/en/ds/1896.pdf
+$ENDCMP
+#
+$CMP MC100EPT22D
+D 3.3 V Dual LVTTL/LVCMOS to Differential LVPECL Translator, SOIC-8
+K PECL buffer interface
+F https://www.onsemi.com/pub/Collateral/MC100EPT22-D.PDF
+$ENDCMP
+#
+$CMP MC100EPT22DT
+D 3.3 V Dual LVTTL/LVCMOS to Differential LVPECL Translator, TSSOP-8
+K PECL buffer interface
+F https://www.onsemi.com/pub/Collateral/MC100EPT22-D.PDF
+$ENDCMP
+#
+$CMP MC100LVELT22D
+D 3.3 V Dual LVTTL/LVCMOS to Differential LVPECL Translator, SOIC-8
+K PECL buffer interface
+F https://www.onsemi.com/pub/Collateral/MC100LVELT22-D.PDF
+$ENDCMP
+#
+$CMP MC100LVELT22DT
+D 3.3 V Dual LVTTL/LVCMOS to Differential LVPECL Translator, TSSOP-8
+K PECL buffer interface
+F https://www.onsemi.com/pub/Collateral/MC100LVELT22-D.PDF
 $ENDCMP
 #
 $CMP MC6840
@@ -517,6 +565,30 @@ $CMP U2270B
 D IDIC read/write base stations in contactless identification and immobilizer systems, SO-16
 K IDIC read/write base stations in contactless identification and immobilizer systems
 F http://www.farnell.com/datasheets/94393.pdf
+$ENDCMP
+#
+$CMP WD2791
+D Floppy disk controller, DIP-40
+K Floppy disk controller
+F http://pdf.datasheetcatalog.com/datasheets2/12/1229802_1.pdf
+$ENDCMP
+#
+$CMP WD2793
+D Floppy disk controller, DIP-40
+K Floppy disk controller
+F http://pdf.datasheetcatalog.com/datasheets2/12/1229802_1.pdf
+$ENDCMP
+#
+$CMP WD2795
+D Floppy disk controller, DIP-40
+K Floppy disk controller
+F http://pdf.datasheetcatalog.com/datasheets2/12/1229802_1.pdf
+$ENDCMP
+#
+$CMP WD2797
+D Floppy disk controller, DIP-40
+K Floppy disk controller
+F http://pdf.datasheetcatalog.com/datasheets2/12/1229802_1.pdf
 $ENDCMP
 #
 $CMP Z8420

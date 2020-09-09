@@ -6,6 +6,12 @@ K LiFePo4 Battery USB PMIC
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5063.pdf
 $ENDCMP
 #
+$CMP ADP5090ACP
+D Ultralow Power Boost Regulator with MPPT and Charge Management, LFCSP-16
+K boost regulator MPPT charge
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5090.pdf
+$ENDCMP
+#
 $CMP ADP5091
 D Ultralow Power Energy Harvester PMUs with MPPT and Charge Management, LFCSP-24
 K energy harvester
@@ -84,8 +90,8 @@ K USB Charge
 F http://www.ti.com/lit/ds/symlink/bq24074.pdf
 $ENDCMP
 #
-$CMP BQ24075
-D USB-Friendly Li-Ion Battery Charger and Power-Path Management
+$CMP BQ24075RGT
+D USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16
 K USB Charge
 F http://www.ti.com/lit/ds/symlink/bq24075.pdf
 $ENDCMP
@@ -94,6 +100,12 @@ $CMP BQ24090DGQ
 D 1A, Single-Input, SingleCell Li-Ion and Li-Pol BatteryCharger, MSOP-10
 K battery charger singlecell li-ion li-poly, 1A
 F http://www.ti.com/lit/ds/symlink/bq24090.pdf
+$ENDCMP
+#
+$CMP BQ24079RGT
+D USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16
+K USB Charge
+F http://www.ti.com/lit/ds/symlink/bq24079.pdf
 $ENDCMP
 #
 $CMP BQ24133RGY
@@ -214,6 +226,24 @@ $CMP BQ51052BYFP
 D Qi v1.2, Wireless Power Receiver and Battery Charger, Vout 4.40V, DSBGA-28
 K Qi Wireless Power Receiver Battery Charger 4.40V
 F http://www.ti.com/lit/ds/symlink/bq51052b.pdf
+$ENDCMP
+#
+$CMP BQ76200PW
+D High Voltage Battery Pack Front-End Charge/Discharge High-Side NFET Driver, TSSOP-16
+K Battery Pack Charge/Discharge High-Side
+F http://www.ti.com/lit/ds/symlink/bq76200.pdf
+$ENDCMP
+#
+$CMP BQ76920PW
+D Lithium battery monitor, 3-5 cells, integrated balancing, I2C interface, TSSOP-20
+K lithium battery balance charge afe
+F http://www.ti.com/lit/ds/symlink/bq76920.pdf
+$ENDCMP
+#
+$CMP BQ76930DBT
+D Lithium battery monitor, 6-10 cells, integrated balancing, I2C interface, TSSOP-30
+K lithium battery balance charge afe
+F http://www.ti.com/lit/ds/symlink/bq76930.pdf
 $ENDCMP
 #
 $CMP BQ76940
@@ -430,6 +460,12 @@ $CMP MAX1648
 D Smart Battery Charger, 18V battery, 28V input, standalone
 K battery charger
 F https://datasheets.maximintegrated.com/en/ds/MAX1647-MAX1648.pdf
+$ENDCMP
+#
+$CMP MAX17263xxTE
+D Single/Multi-Cell Fuel Gauge, ModelGauge m5 EZ, Integrated LED Control, TDFN-14
+K fuel-gauge
+F https://datasheets.maximintegrated.com/en/ds/MAX17263.pdf
 $ENDCMP
 #
 $CMP MAX1811

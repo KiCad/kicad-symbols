@@ -60,6 +60,18 @@ K Noninverting Bidirectional
 F https://www.ti.com/lit/ds/symlink/sn74avc8t245.pdf
 $ENDCMP
 #
+$CMP SN74LV1T34DBV
+D Single Power Supply, Single Buffer GATE, CMOS Logic, Level Shifter, SOT-23-5
+K single buffer level shift
+F https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf
+$ENDCMP
+#
+$CMP SN74LV1T34DCK
+D Single Power Supply, Single Buffer GATE, CMOS Logic, Level Shifter, SOT-353
+K single buffer level shift
+F https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf
+$ENDCMP
+#
 $CMP SN74LVC1T45DBV
 D Single-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, SOT-23-6
 K Level-Shifter CMOS-TTL-Translation

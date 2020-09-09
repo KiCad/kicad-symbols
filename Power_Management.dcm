@@ -36,6 +36,30 @@ K Limit USB Active High
 F https://www.diodes.com/assets/Datasheets/AP2161.pdf
 $ENDCMP
 #
+$CMP AP22804AW5
+D Current limited 2.5A power switch, single channel, SOT-23-5
+K Limit USB Active High
+F https://www.diodes.com/assets/Datasheets/AP22804_14.pdf
+$ENDCMP
+#
+$CMP AP22804BW5
+D Current limited 2.5A power switch, single channel, SOT-23-5
+K Limit USB Active Low
+F https://www.diodes.com/assets/Datasheets/AP22804_14.pdf
+$ENDCMP
+#
+$CMP AP22814AW5
+D Current limited 3A power switch, single channel, SOT-23-5
+K Limit USB Active High
+F https://www.diodes.com/assets/Datasheets/AP22804_14.pdf
+$ENDCMP
+#
+$CMP AP22814BW5
+D Current limited 3A power switch, single channel, SOT-23-5
+K Limit USB Active Low
+F https://www.diodes.com/assets/Datasheets/AP22804_14.pdf
+$ENDCMP
+#
 $CMP AUIPS1041R
 D Intelligent Power Low Side Switch, 39V, 4.5A, DPAK-5L
 K low side switch
@@ -262,6 +286,12 @@ $CMP BD49xxFVE
 D Standard CMOS Voltage Detector IC, CMOS Output, VSOF5
 K voltage detector cmos VSOF5
 F https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e
+$ENDCMP
+#
+$CMP BQ24230RGT
+D USB-Friendly Lithium-Ion Battery Charger And Power-Path Management IC, VQFN-16
+K Lithium-ion battery charger
+F http://www.ti.com/cn/lit/ds/symlink/bq24230.pdf
 $ENDCMP
 #
 $CMP BTN8982TA
@@ -538,6 +568,54 @@ $CMP DS1210
 D Nonvolatile Controller, PDIP-8
 K Nonvolatile, RAM, Controller, Battery, Power
 F https://datasheets.maximintegrated.com/en/ds/DS1210.pdf
+$ENDCMP
+#
+$CMP FPF2000
+D Single power-distribution switcher, current limit = 50mA, blanking time = 10 ms, auto-restart time = 80 ms, ON Pin Polarity = HIGH, SOT-353
+K 1-chanel power-distribution USB
+F https://www.onsemi.com/pub/Collateral/FPF2001-D.pdf
+$ENDCMP
+#
+$CMP FPF2001
+D Single power-distribution switcher, current limit = 50mA, blanking time = 10 ms, auto-restart time = 80 ms, ON Pin Polarity = LOW, SOT-353
+K 1-chanel power-distribution USB
+F https://www.onsemi.com/pub/Collateral/FPF2001-D.pdf
+$ENDCMP
+#
+$CMP FPF2002
+D Single power-distribution switcher, current limit = 50mA, blanking time = 10 ms, w/o auto-restart, ON Pin Polarity = HIGH, SOT-353
+K 1-chanel power-distribution USB
+F https://www.onsemi.com/pub/Collateral/FPF2001-D.pdf
+$ENDCMP
+#
+$CMP FPF2003
+D Single power-distribution switcher, current limit = 50mA, blanking time = 0 ms, w/o auto-restart, ON Pin Polarity = HIGH, SOT-353
+K 1-chanel power-distribution USB
+F https://www.onsemi.com/pub/Collateral/FPF2001-D.pdf
+$ENDCMP
+#
+$CMP FPF2004
+D Single power-distribution switcher, current limit = 100mA, blanking time = 10 ms, auto-restart time = 80 ms, ON Pin Polarity = HIGH, SOT-353
+K 1-chanel power-distribution USB
+F https://www.onsemi.com/pub/Collateral/FPF2001-D.pdf
+$ENDCMP
+#
+$CMP FPF2005
+D Single power-distribution switcher, current limit = 100mA, blanking time = 10 ms, auto-restart time = 80 ms, ON Pin Polarity = LOW, SOT-353
+K 1-chanel power-distribution USB
+F https://www.onsemi.com/pub/Collateral/FPF2001-D.pdf
+$ENDCMP
+#
+$CMP FPF2006
+D Single power-distribution switcher, current limit = 100mA, blanking time = 10 ms, w/o auto-restart, ON Pin Polarity = HIGH, SOT-353
+K 1-chanel power-distribution USB
+F https://www.onsemi.com/pub/Collateral/FPF2001-D.pdf
+$ENDCMP
+#
+$CMP FPF2007
+D Single power-distribution switcher, current limit = 100mA, blanking time = 0 ms, w/o auto-restart, ON Pin Polarity = HIGH, SOT-353
+K 1-chanel power-distribution USB
+F https://www.onsemi.com/pub/Collateral/FPF2001-D.pdf
 $ENDCMP
 #
 $CMP HF81
