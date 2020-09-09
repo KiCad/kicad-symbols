@@ -732,6 +732,12 @@ K SMPS PWM Controller
 F http://www.ti.com/lit/ds/symlink/ucc25600.pdf
 $ENDCMP
 #
+$CMP UCC256301
+D Hybrid Hysteretic LLC Resonant Controller, SOIC-16
+K SMPS PWM Controller
+F https://www.ti.com/lit/ds/symlink/ucc256301.pdf
+$ENDCMP
+#
 $CMP UCC2891
 D SMPS Current-Mode Active Clamp PWM Controller, SOIC-16/TSSOP-16
 K SMPS PWM Controller

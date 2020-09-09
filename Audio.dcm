@@ -372,6 +372,12 @@ K audio codec 2ch 96kHz headphone amplifier
 F http://www.ti.com/lit/ds/symlink/tlv320aic23b.pdf
 $ENDCMP
 #
+$CMP TLV320AIC3100
+D Low Power Audio Codec with Audio Processing and Mono Class‑D Amplifier, VQFN-32
+K audio codec 2ch 192kHz class-d amplifier
+F http://www.ti.com/lit/ds/symlink/tlv320aic3100.pdf
+$ENDCMP
+#
 $CMP TPA5050
 D Stereo Digital Audio Lip-Sync Delay Processor With I2C Control, QFN-16
 K audio delay
