@@ -288,6 +288,12 @@ K voltage detector cmos VSOF5
 F https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e
 $ENDCMP
 #
+$CMP BQ24230RGT
+D USB-Friendly Lithium-Ion Battery Charger And Power-Path Management IC, VQFN-16
+K Lithium-ion battery charger
+F http://www.ti.com/cn/lit/ds/symlink/bq24230.pdf
+$ENDCMP
+#
 $CMP BTN8982TA
 D High Current PN Half Bridge, TO-263-7
 K half bridge for motor drive applications
