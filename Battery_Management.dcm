@@ -96,16 +96,16 @@ K USB Charge
 F http://www.ti.com/lit/ds/symlink/bq24075.pdf
 $ENDCMP
 #
-$CMP BQ24090DGQ
-D 1A, Single-Input, SingleCell Li-Ion and Li-Pol BatteryCharger, MSOP-10
-K battery charger singlecell li-ion li-poly, 1A
-F http://www.ti.com/lit/ds/symlink/bq24090.pdf
-$ENDCMP
-#
 $CMP BQ24079RGT
 D USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16
 K USB Charge
 F http://www.ti.com/lit/ds/symlink/bq24079.pdf
+$ENDCMP
+#
+$CMP BQ24090DGQ
+D 1A, Single-Input, SingleCell Li-Ion and Li-Pol BatteryCharger, HVSSOP-10
+K battery charger singlecell li-ion li-poly, 1A
+F http://www.ti.com/lit/ds/symlink/bq24090.pdf
 $ENDCMP
 #
 $CMP BQ24133RGY
