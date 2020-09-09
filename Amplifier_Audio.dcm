@@ -534,6 +534,12 @@ K audio amplifier 2ch
 F http://www.st.com/resource/en/datasheet/tda7297.pdf
 $ENDCMP
 #
+$CMP TFA9879HN
+D Mono BTL class-D audio amplifier for portable applications with digital input, HVQFN-24
+K Audio Amplifier Class D NXP Semiconductors
+F https://www.nxp.com/docs/en/data-sheet/TFA9879.pdf
+$ENDCMP
+#
 $CMP THAT2180
 D Blackmer Pre-Trimmed IC Voltage Controlled Amplifiers, SIP-8
 K audio vca
