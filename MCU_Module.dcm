@@ -186,6 +186,12 @@ K raspberry pi compute module
 F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM_1p0.pdf
 $ENDCMP
 #
+$CMP STM32F0308-DISCO-MB1134-REV-A
+D Discovery kit for STM32F030 Value Line microcontrollers
+K STM32F030
+F https://www.st.com/resource/en/user_manual/dm00092306-discovery-kit-for-stm32f030-value-line-microcontrollers-stmicroelectronics.pdf
+$ENDCMP
+#
 $CMP VisionSOM-6UL
 D i.MX6-UL NXP ARM Cortex-A7 696MHz single core industrial SoM computer
 K somlabs module
