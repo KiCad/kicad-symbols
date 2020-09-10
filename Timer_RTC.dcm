@@ -1,5 +1,29 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AB0805
+D Real-Time Clock, I2C Interface, 3 GPO, QFN-16
+K rtc
+F https://abracon.com/Precisiontiming/AB08X5-RTC.PDF
+$ENDCMP
+#
+$CMP AB0815
+D Real-Time Clock, SPI Interface, 2 GPO, QFN-16
+K rtc
+F https://abracon.com/Precisiontiming/AB08X5-RTC.PDF
+$ENDCMP
+#
+$CMP AB1805
+D Real-Time Clock, I2C Interface, 4 GPO, QFN-16
+K rtc
+F https://abracon.com/Precisiontiming/AB18X5-RTC.pdf
+$ENDCMP
+#
+$CMP AB1815
+D Real-Time Clock, SPI Interface, 3 GPO, QFN-16
+K rtc
+F https://abracon.com/Precisiontiming/AB18X5-RTC.pdf
+$ENDCMP
+#
 $CMP BQ32000
 D Serial, I2C Real-time clock, Trickle charger, 3V to 3.6V VCC, -40°C to +85°C, SOIC-8
 K RTC, I2C Timekeeping Chip
@@ -118,6 +142,36 @@ $CMP PCF8523TS
 D Realtime Clock/Calendar I2C Interface, TSSOP-14
 K I2C RTC Clock Calendar
 F https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf
+$ENDCMP
+#
+$CMP PCF85263AT
+D Tiny Real-Time Clock/calendar with alarm function, battery switch-over, time stamp input, I2C bus, SO-8
+K RTC battery I2C
+F https://www.nxp.com/docs/en/data-sheet/PCF85263A.pdf
+$ENDCMP
+#
+$CMP PCF85263ATT
+D Tiny Real-Time Clock/calendar with alarm function, battery switch-over, time stamp input, I2C bus, TSSOP-8
+K RTC battery I2C
+F https://www.nxp.com/docs/en/data-sheet/PCF85263A.pdf
+$ENDCMP
+#
+$CMP PCF85263ATT1
+D Tiny Real-Time Clock/calendar with alarm function, battery switch-over, time stamp input, I2C bus, TSSOP-10
+K RTC battery I2C
+F https://www.nxp.com/docs/en/data-sheet/PCF85263A.pdf
+$ENDCMP
+#
+$CMP PCF85363ATT
+D Tiny Real-Time Clock/calendar with 64 byte RAM, alarm function, battery switch-over, time stamp input, I2C bus, TSSOP-8
+K RTC RAM battery I2C
+F https://www.nxp.com/docs/en/data-sheet/PCF85363A.pdf
+$ENDCMP
+#
+$CMP PCF85363ATT1
+D Tiny Real-Time Clock/calendar with 64 byte RAM, alarm function, battery switch-over, time stamp input, I2C bus, TSSOP-10
+K RTC RAM battery I2C
+F https://www.nxp.com/docs/en/data-sheet/PCF85363A.pdf
 $ENDCMP
 #
 $CMP PCF8563T
