@@ -1056,37 +1056,37 @@ K delay propagation retard impedance
 F ~
 $ENDCMP
 #
-$CMP EMI_Filter_C
+$CMP Filter_EMI_C
 D EMI filter, single capacitor
 K EMI filter feedthrough capacitor
 F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
 $ENDCMP
 #
-$CMP EMI_Filter_CLC
+$CMP Filter_EMI_CLC
 D EMI T-filter (CLC)
 K EMI T-filter
 F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
 $ENDCMP
 #
-$CMP EMI_Filter_CommonMode
+$CMP Filter_EMI_CommonMode
 D EMI 2-inductor common mode filter
 K EMI common mode filter
 F ~
 $ENDCMP
 #
-$CMP EMI_Filter_LCL
+$CMP Filter_EMI_LCL
 D EMI T-filter (LCL)
 K EMI T-filter
 F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
 $ENDCMP
 #
-$CMP EMI_Filter_LL
+$CMP Filter_EMI_LL
 D EMI 2-inductor filter
 K EMI filter
 F ~
 $ENDCMP
 #
-$CMP EMI_Filter_LL_1423
+$CMP Filter_LL_EMI_1423
 D EMI 2-inductor filter, pin-connections 1-4 and 2-3
 K EMI filter common-mode choke
 F ~
