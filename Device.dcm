@@ -1830,31 +1830,31 @@ K neon lamp
 F ~
 $ENDCMP
 #
-$CMP Laserdiode_1A3C
+$CMP D_Laser_1A3C
 D Laser diode, cathode on pin 3, anode on pin 1
 K opto laserdiode
 F ~
 $ENDCMP
 #
-$CMP Laserdiode_1C2A
+$CMP D_Laser_1C2A
 D Laser diode, cathode on pin 1, anode on pin 2
 K opto laserdiode
 F ~
 $ENDCMP
 #
-$CMP Laserdiode_MType
+$CMP D_Laser_Photo_MType
 D Laser diode with photodiode, common cathode on pin 2
 K opto laserdiode photodiode
 F http://www.egismos.disonhu.com/laser/diode-package.htm
 $ENDCMP
 #
-$CMP Laserdiode_NType
+$CMP D_Laser_Photo_NType
 D Laser diode with photodiode, center on pin 2, LD cathode on pin 1
 K opto laserdiode photodiode
 F http://www.egismos.disonhu.com/laser/diode-package.htm
 $ENDCMP
 #
-$CMP Laserdiode_PType
+$CMP D_Laser_Photo_PType
 D Laser diode with photodiode, center on pin 2, PD cathode on pin 3
 K opto laserdiode photodiode
 F http://www.egismos.disonhu.com/laser/diode-package.htm

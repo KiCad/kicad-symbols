@@ -8800,11 +8800,11 @@ X ~ 2 0 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Laserdiode_1A3C
+# D_Laser_1A3C
 #
-DEF Laserdiode_1A3C LD 0 40 Y N 1 F N
+DEF D_Laser_1A3C LD 0 40 Y N 1 F N
 F0 "LD" -50 175 50 H V C CNN
-F1 "Laserdiode_1A3C" -50 -100 50 H V C CNN
+F1 "D_Laser_1A3C" -50 -100 50 H V C CNN
 F2 "" -100 -25 50 H I C CNN
 F3 "" 30 -200 50 H I C CNN
 $FPLIST
@@ -8831,11 +8831,11 @@ X K 3 -300 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Laserdiode_1C2A
+# D_Laser_1C2A
 #
-DEF Laserdiode_1C2A LD 0 40 Y N 1 F N
+DEF D_Laser_1C2A LD 0 40 Y N 1 F N
 F0 "LD" -50 175 50 H V C CNN
-F1 "Laserdiode_1C2A" -50 -100 50 H V C CNN
+F1 "D_Laser_1C2A" -50 -100 50 H V C CNN
 F2 "" -100 -25 50 H I C CNN
 F3 "" 30 -200 50 H I C CNN
 $FPLIST
@@ -8862,11 +8862,11 @@ X A 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Laserdiode_MType
+# D_Laser_Photo_MType
 #
-DEF Laserdiode_MType LD 0 20 Y N 1 F N
+DEF D_Laser_Photo_MType LD 0 20 Y N 1 F N
 F0 "LD" 40 280 50 H V C CNN
-F1 "Laserdiode_MType" 40 -220 50 H V C CNN
+F1 "D_Laser_Photo_MType" 40 -220 50 H V C CNN
 F2 "" 40 75 50 H I C CNN
 F3 "" 90 -100 50 H I C CNN
 $FPLIST
@@ -8909,11 +8909,11 @@ X ~ 3 300 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Laserdiode_NType
+# D_Laser_Photo_NType
 #
-DEF Laserdiode_NType LD 0 20 Y N 1 F N
+DEF D_Laser_Photo_NType LD 0 20 Y N 1 F N
 F0 "LD" 40 280 50 H V C CNN
-F1 "Laserdiode_NType" 40 -220 50 H V C CNN
+F1 "D_Laser_Photo_NType" 40 -220 50 H V C CNN
 F2 "" 0 75 50 H I C CNN
 F3 "" 50 -100 50 H I C CNN
 $FPLIST
@@ -8956,11 +8956,11 @@ X ~ 3 300 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Laserdiode_PType
+# D_Laser_Photo_PType
 #
-DEF Laserdiode_PType LD 0 20 Y N 1 F N
+DEF D_Laser_Photo_PType LD 0 20 Y N 1 F N
 F0 "LD" 40 280 50 H V C CNN
-F1 "Laserdiode_PType" 40 -220 50 H V C CNN
+F1 "D_Laser_Photo_PType" 40 -220 50 H V C CNN
 F2 "" 0 75 50 H I C CNN
 F3 "" 130 -100 50 H I C CNN
 $FPLIST
