@@ -234,7 +234,7 @@ K AC diode DIAC
 F ~
 $ENDCMP
 #
-$CMP DIAC_ALT
+$CMP DIAC_Alt
 D Diode for alternating current, filled shape
 K AC diode DIAC
 F ~
@@ -246,7 +246,7 @@ K diode
 F ~
 $ENDCMP
 #
-$CMP D_ALT
+$CMP D_Alt
 D Diode, filled shape
 K diode
 F ~
@@ -288,7 +288,7 @@ K capacitance diode varicap varactor
 F ~
 $ENDCMP
 #
-$CMP D_Capacitance_ALT
+$CMP D_Capacitance_Alt
 D Variable capacitance diode, filled shape
 K capacitance diode varicap varactor
 F ~
@@ -318,7 +318,7 @@ K photodiode diode opto
 F ~
 $ENDCMP
 #
-$CMP D_Photo_ALT
+$CMP D_Photo_Alt
 D Photodiode, filled shape
 K photodiode diode opto
 F ~
@@ -330,7 +330,7 @@ K radiation detector diode
 F ~
 $ENDCMP
 #
-$CMP D_Radiation_ALT
+$CMP D_Radiation_Alt
 D Semiconductor radiation detector, filled shape
 K radiation detector diode
 F ~
@@ -360,7 +360,7 @@ K diode Schottky SCHDPAK
 F ~
 $ENDCMP
 #
-$CMP D_Schottky_ALT
+$CMP D_Schottky_Alt
 D Schottky diode, filled shape
 K diode Schottky
 F ~
@@ -390,7 +390,7 @@ K diode Schottky
 F ~
 $ENDCMP
 #
-$CMP D_Schottky_Small_ALT
+$CMP D_Schottky_Small_Alt
 D Schottky diode, small symbol, filled shape
 K diode Schottky
 F ~
@@ -630,7 +630,7 @@ K diode
 F ~
 $ENDCMP
 #
-$CMP D_Small_ALT
+$CMP D_Small_Alt
 D Diode, small symbol, filled shape
 K diode
 F ~
@@ -642,7 +642,7 @@ K diode TVS thyrector
 F ~
 $ENDCMP
 #
-$CMP D_TVS_ALT
+$CMP D_TVS_Alt
 D Bidirectional transient-voltage-suppression diode, filled shape
 K diode TVS thyrector
 F ~
@@ -672,7 +672,7 @@ K temperature sensor diode
 F ~
 $ENDCMP
 #
-$CMP D_Temperature_Dependent_ALT
+$CMP D_Temperature_Dependent_Alt
 D Temperature dependent diode, filled shape
 K temperature sensor diode
 F ~
@@ -684,7 +684,7 @@ K tunnel diode
 F ~
 $ENDCMP
 #
-$CMP D_Tunnel_ALT
+$CMP D_Tunnel_Alt
 D Tunnel diode (Esaki diode), filled shape
 K tunnel diode
 F ~
@@ -696,7 +696,7 @@ K unitunnel diode
 F ~
 $ENDCMP
 #
-$CMP D_Unitunnel_ALT
+$CMP D_Unitunnel_Alt
 D Unitunnel diode, filled shape
 K unitunnel diode
 F ~
@@ -708,7 +708,7 @@ K diode
 F ~
 $ENDCMP
 #
-$CMP D_Zener_ALT
+$CMP D_Zener_Alt
 D Zener diode, filled shape
 K diode
 F ~
@@ -720,7 +720,7 @@ K diode
 F ~
 $ENDCMP
 #
-$CMP D_Zener_Small_ALT
+$CMP D_Zener_Small_Alt
 D Zener diode, small symbol, filled shape
 K diode
 F ~
@@ -1236,7 +1236,7 @@ K LED RGB diode
 F ~
 $ENDCMP
 #
-$CMP LED_ALT
+$CMP LED_Alt
 D Light emitting diode, filled shape
 K LED diode
 F ~
@@ -1590,7 +1590,7 @@ K LED diode light-emitting-diode
 F ~
 $ENDCMP
 #
-$CMP LED_Small_ALT
+$CMP LED_Small_Alt
 D Light emitting diode, small symbol, filled shape
 K LED diode light-emitting-diode
 F ~
@@ -3312,7 +3312,7 @@ K thermocouple temperature sensor cold junction
 F ~
 $ENDCMP
 #
-$CMP Thermocouple_ALT
+$CMP Thermocouple_Alt
 D Thermocouple with connector block
 K thermocouple temperature sensor cold junction
 F ~

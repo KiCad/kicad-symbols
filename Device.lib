@@ -834,11 +834,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DIAC_ALT
+# DIAC_Alt
 #
-DEF DIAC_ALT D 0 40 N N 1 F N
+DEF DIAC_Alt D 0 40 N N 1 F N
 F0 "D" 0 150 50 H V C CNN
-F1 "DIAC_ALT" 0 -150 50 H V C CNN
+F1 "DIAC_Alt" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -879,11 +879,11 @@ X K 3 -150 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D_ALT
+# D_Alt
 #
-DEF D_ALT D 0 40 N N 1 F N
+DEF D_Alt D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_ALT" 0 -100 50 H V C CNN
+F1 "D_Alt" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1087,11 +1087,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Capacitance_ALT
+# D_Capacitance_Alt
 #
-DEF D_Capacitance_ALT D 0 40 N N 1 F N
+DEF D_Capacitance_Alt D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Capacitance_ALT" 0 -130 50 H V C CNN
+F1 "D_Capacitance_Alt" 0 -130 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1204,11 +1204,11 @@ X A 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Photo_ALT
+# D_Photo_Alt
 #
-DEF D_Photo_ALT D 0 20 N N 1 F N
+DEF D_Photo_Alt D 0 20 N N 1 F N
 F0 "D" 20 70 50 H V L CNN
-F1 "D_Photo_ALT" -40 -110 50 H V C CNN
+F1 "D_Photo_Alt" -40 -110 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -1251,11 +1251,11 @@ X A 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Radiation_ALT
+# D_Radiation_Alt
 #
-DEF D_Radiation_ALT D 0 40 N N 1 F N
+DEF D_Radiation_Alt D 0 40 N N 1 F N
 F0 "D" -50 -90 50 H V C CNN
-F1 "D_Radiation_ALT" -50 -160 50 H V C CNN
+F1 "D_Radiation_Alt" -50 -160 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -1373,11 +1373,11 @@ X K 3 -250 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_ALT
+# D_Schottky_Alt
 #
-DEF D_Schottky_ALT D 0 40 N N 1 F N
+DEF D_Schottky_Alt D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Schottky_ALT" 0 -100 50 H V C CNN
+F1 "D_Schottky_Alt" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1489,11 +1489,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_Small_ALT
+# D_Schottky_Small_Alt
 #
-DEF D_Schottky_Small_ALT D 0 10 N N 1 F N
+DEF D_Schottky_Small_Alt D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "D_Schottky_Small_ALT" -280 -80 50 H V L CNN
+F1 "D_Schottky_Small_Alt" -280 -80 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -2361,11 +2361,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Small_ALT
+# D_Small_Alt
 #
-DEF D_Small_ALT D 0 10 N N 1 F N
+DEF D_Small_Alt D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "D_Small_ALT" -150 -80 50 H V L CNN
+F1 "D_Small_Alt" -150 -80 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -2405,11 +2405,11 @@ X A2 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D_TVS_ALT
+# D_TVS_Alt
 #
-DEF D_TVS_ALT D 0 40 N N 1 F N
+DEF D_TVS_Alt D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_TVS_ALT" 0 -100 50 H V C CNN
+F1 "D_TVS_Alt" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -2521,11 +2521,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Temperature_Dependent_ALT
+# D_Temperature_Dependent_Alt
 #
-DEF D_Temperature_Dependent_ALT D 0 40 N N 1 F N
+DEF D_Temperature_Dependent_Alt D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Temperature_Dependent_ALT" 0 -125 50 H V C CNN
+F1 "D_Temperature_Dependent_Alt" 0 -125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -2573,11 +2573,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Tunnel_ALT
+# D_Tunnel_Alt
 #
-DEF D_Tunnel_ALT D 0 40 N N 1 F N
+DEF D_Tunnel_Alt D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Tunnel_ALT" 0 -100 50 H V C CNN
+F1 "D_Tunnel_Alt" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -2617,11 +2617,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Unitunnel_ALT
+# D_Unitunnel_Alt
 #
-DEF D_Unitunnel_ALT D 0 40 N N 1 F N
+DEF D_Unitunnel_Alt D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Unitunnel_ALT" 0 -100 50 H V C CNN
+F1 "D_Unitunnel_Alt" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -2661,11 +2661,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_ALT
+# D_Zener_Alt
 #
-DEF D_Zener_ALT D 0 40 N N 1 F N
+DEF D_Zener_Alt D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Zener_ALT" 0 -100 50 H V C CNN
+F1 "D_Zener_Alt" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -2705,11 +2705,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_Small_ALT
+# D_Zener_Small_Alt
 #
-DEF D_Zener_Small_ALT D 0 10 N N 1 F N
+DEF D_Zener_Small_Alt D 0 10 N N 1 F N
 F0 "D" 0 90 50 H V C CNN
-F1 "D_Zener_Small_ALT" 0 -90 50 H V C CNN
+F1 "D_Zener_Small_Alt" 0 -90 50 H V C CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -4634,11 +4634,11 @@ X BK 4 -200 -200 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LED_ALT
+# LED_Alt
 #
-DEF LED_ALT D 0 40 N N 1 F N
+DEF LED_Alt D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "LED_ALT" 0 -100 50 H V C CNN
+F1 "LED_Alt" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -7373,11 +7373,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LED_Small_ALT
+# LED_Small_Alt
 #
-DEF LED_Small_ALT D 0 10 N N 1 F N
+DEF LED_Small_Alt D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "LED_Small_ALT" -175 -100 50 H V L CNN
+F1 "LED_Small_Alt" -175 -100 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -16431,11 +16431,11 @@ X - 2 100 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Thermocouple_ALT
+# Thermocouple_Alt
 #
-DEF Thermocouple_ALT TC 0 0 N Y 1 F N
+DEF Thermocouple_Alt TC 0 0 N Y 1 F N
 F0 "TC" -120 150 50 H V C CNN
-F1 "Thermocouple_ALT" -180 -200 50 H V L CNN
+F1 "Thermocouple_Alt" -180 -200 50 H V L CNN
 F2 "" -575 50 50 H I C CNN
 F3 "" -575 50 50 H I C CNN
 $FPLIST
