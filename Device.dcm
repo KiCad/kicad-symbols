@@ -90,19 +90,19 @@ K cap capacitor
 F ~
 $ENDCMP
 #
-$CMP CTrim
+$CMP C_Trim
 D Trimmable capacitor
 K trimmer variable capacitor
 F ~
 $ENDCMP
 #
-$CMP CTrim_Dif
+$CMP C_Trim_Dif
 D Differential variable capacitor with two stators
 K trimmer capacitor
 F ~
 $ENDCMP
 #
-$CMP CTrim_Small
+$CMP C_Trim_Small
 D Trimmable capacitor, small symbol
 K trimmer variable capacitor
 F ~
@@ -666,13 +666,13 @@ K diode TVS thyrector
 F ~
 $ENDCMP
 #
-$CMP D_Temperature_Dependent
+$CMP D_TemperatureDependent
 D Temperature dependent diode
 K temperature sensor diode
 F ~
 $ENDCMP
 #
-$CMP D_Temperature_Dependent_Alt
+$CMP D_TemperatureDependent_Alt
 D Temperature dependent diode, filled shape
 K temperature sensor diode
 F ~
@@ -1050,7 +1050,7 @@ K diode
 F ~
 $ENDCMP
 #
-$CMP Delay_Line
+$CMP DelayLine
 D Delay line
 K delay propagation retard impedance
 F ~
@@ -1098,25 +1098,25 @@ K earphone speaker headphone
 F ~
 $ENDCMP
 #
-$CMP Electromagnetic_Actor
+$CMP ElectromagneticActor
 D Electromagnetic actor
 K electromagnet coil inductor
 F ~
 $ENDCMP
 #
-$CMP Ferrite_Bead
+$CMP FerriteBead
 D Ferrite bead
 K L ferrite bead inductor filter
 F ~
 $ENDCMP
 #
-$CMP Ferrite_Bead_Small
+$CMP FerriteBead_Small
 D Ferrite bead, small symbol
 K L ferrite bead inductor filter
 F ~
 $ENDCMP
 #
-$CMP Frequency_Counter
+$CMP FrequencyCounter
 D Frequency counter
 K frequency counter
 F ~
@@ -1164,7 +1164,7 @@ K galvanometer
 F ~
 $ENDCMP
 #
-$CMP Hall_Generator
+$CMP HallGenerator
 D Hall effect generator
 K Hall generator magnet
 F ~
@@ -1596,7 +1596,7 @@ K LED diode light-emitting-diode
 F ~
 $ENDCMP
 #
-$CMP LTrim
+$CMP L_Trim
 D Variable inductor
 K inductor choke coil reactor magnetic
 F ~
@@ -1842,19 +1842,19 @@ K opto laserdiode
 F ~
 $ENDCMP
 #
-$CMP Laserdiode_M_Type
+$CMP Laserdiode_MType
 D Laser diode with photodiode, common cathode on pin 2
 K opto laserdiode photodiode
 F http://www.egismos.disonhu.com/laser/diode-package.htm
 $ENDCMP
 #
-$CMP Laserdiode_N_Type
+$CMP Laserdiode_NType
 D Laser diode with photodiode, center on pin 2, LD cathode on pin 1
 K opto laserdiode photodiode
 F http://www.egismos.disonhu.com/laser/diode-package.htm
 $ENDCMP
 #
-$CMP Laserdiode_P_Type
+$CMP Laserdiode_PType
 D Laser diode with photodiode, center on pin 2, PD cathode on pin 3
 K opto laserdiode photodiode
 F http://www.egismos.disonhu.com/laser/diode-package.htm
@@ -1890,31 +1890,31 @@ K microphone ultrasound crystal
 F ~
 $ENDCMP
 #
-$CMP Net-Tie_2
+$CMP NetTie_2
 D Net tie, 2 pins
 K net tie short
 F ~
 $ENDCMP
 #
-$CMP Net-Tie_3
+$CMP NetTie_3
 D Net tie, 3 pins
 K net tie short
 F ~
 $ENDCMP
 #
-$CMP Net-Tie_3_Tee
+$CMP NetTie_3_Tee
 D Net tie, 3 pins, tee
 K net tie short
 F ~
 $ENDCMP
 #
-$CMP Net-Tie_4
+$CMP NetTie_4
 D Net tie, 4 pins
 K net tie short
 F ~
 $ENDCMP
 #
-$CMP Net-Tie_4_Cross
+$CMP NetTie_4_Cross
 D Net tie, 4 pins, cross
 K net tie short
 F ~
@@ -1944,7 +1944,7 @@ K oscilloscope
 F ~
 $ENDCMP
 #
-$CMP Peltier_Element
+$CMP PeltierElement
 D Peltier element, thermoelectric cooler
 K Peltier TEC
 F ~
@@ -2622,19 +2622,19 @@ K R res resistor
 F ~
 $ENDCMP
 #
-$CMP RF_Shield_One_Piece
+$CMP RFShield_One_Piece
 D One-piece EMI RF shielding cabinet
 K RF EMI shielding cabinet
 F ~
 $ENDCMP
 #
-$CMP RF_Shield_Two_Pieces
+$CMP RFShield_Two_Pieces
 D Two-piece EMI RF shielding cabinet
 K RF EMI shielding cabinet
 F ~
 $ENDCMP
 #
-$CMP RTrim
+$CMP R_Trim
 D Trimmable resistor (preset resistor)
 K R res resistor variable potentiometer trimmer
 F ~
@@ -3198,19 +3198,19 @@ K ceramic resonator
 F ~
 $ENDCMP
 #
-$CMP Rotary_Encoder
+$CMP RotaryEncoder
 D Rotary encoder, dual channel, incremental quadrate outputs
 K rotary switch encoder
 F ~
 $ENDCMP
 #
-$CMP Rotary_Encoder_Switch
+$CMP RotaryEncoder_Switch
 D Rotary encoder, dual channel, incremental quadrate outputs, with switch
 K rotary switch encoder switch push button
 F ~
 $ENDCMP
 #
-$CMP Spark_Gap
+$CMP SparkGap
 D Spark gap
 K spark gap ESD electrostatic suppression
 F ~
@@ -3378,19 +3378,19 @@ K VDR resistance
 F ~
 $ENDCMP
 #
-$CMP Voltage_Divider
+$CMP VoltageDivider
 D Voltage divider
 K R network voltage divider
 F ~
 $ENDCMP
 #
-$CMP Voltage_Divider_CenterPin1
+$CMP VoltageDivider_CenterPin1
 D Voltage divider, center on pin 1
 K R network voltage divider
 F ~
 $ENDCMP
 #
-$CMP Voltage_Divider_CenterPin3
+$CMP VoltageDivider_CenterPin3
 D Voltage divider, center on pin 3
 K R network voltage divider
 F ~

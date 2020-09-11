@@ -288,11 +288,11 @@ X ~ 2 0 -100 73 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CTrim
+# C_Trim
 #
-DEF CTrim C 0 10 N N 1 F N
+DEF C_Trim C 0 10 N N 1 F N
 F0 "C" 60 -80 50 H V C CNN
-F1 "CTrim" 120 -140 50 H V C CNN
+F1 "C_Trim" 120 -140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -306,11 +306,11 @@ X ~ 2 0 -150 120 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CTrim_Dif
+# C_Trim_Dif
 #
-DEF CTrim_Dif C 0 10 Y N 1 F N
+DEF C_Trim_Dif C 0 10 Y N 1 F N
 F0 "C" 200 50 50 H V L CNN
-F1 "CTrim_Dif" 200 -25 50 H V L CNN
+F1 "C_Trim_Dif" 200 -25 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -328,11 +328,11 @@ X ~ 3 100 150 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CTrim_Small
+# C_Trim_Small
 #
-DEF CTrim_Small C 0 10 N N 1 F N
+DEF C_Trim_Small C 0 10 N N 1 F N
 F0 "C" 60 -80 50 H V C CNN
-F1 "CTrim_Small" 120 -140 50 H V C CNN
+F1 "C_Trim_Small" 120 -140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -2491,11 +2491,11 @@ X A2 3 350 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Temperature_Dependent
+# D_TemperatureDependent
 #
-DEF D_Temperature_Dependent D 0 40 N N 1 F N
+DEF D_TemperatureDependent D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Temperature_Dependent" 0 -125 50 H V C CNN
+F1 "D_TemperatureDependent" 0 -125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -2521,11 +2521,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Temperature_Dependent_Alt
+# D_TemperatureDependent_Alt
 #
-DEF D_Temperature_Dependent_Alt D 0 40 N N 1 F N
+DEF D_TemperatureDependent_Alt D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Temperature_Dependent_Alt" 0 -125 50 H V C CNN
+F1 "D_TemperatureDependent_Alt" 0 -125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -3853,11 +3853,11 @@ X K 1 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# Delay_Line
+# DelayLine
 #
-DEF Delay_Line L 0 40 Y N 1 F N
+DEF DelayLine L 0 40 Y N 1 F N
 F0 "L" 100 50 50 H V L CNN
-F1 "Delay_Line" 100 -50 50 H V L CNN
+F1 "DelayLine" 100 -50 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -4034,11 +4034,11 @@ X + 2 0 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Electromagnetic_Actor
+# ElectromagneticActor
 #
-DEF Electromagnetic_Actor L 0 1 N N 1 F N
+DEF ElectromagneticActor L 0 1 N N 1 F N
 F0 "L" 50 150 50 H V L CNN
-F1 "Electromagnetic_Actor" 50 -50 50 H V L CNN
+F1 "ElectromagneticActor" 50 -50 50 H V L CNN
 F2 "" -25 100 50 V I C CNN
 F3 "" -25 100 50 V I C CNN
 $FPLIST
@@ -4053,11 +4053,11 @@ X + 2 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ferrite_Bead
+# FerriteBead
 #
-DEF Ferrite_Bead FB 0 0 N Y 1 F N
+DEF FerriteBead FB 0 0 N Y 1 F N
 F0 "FB" -150 25 50 V V C CNN
-F1 "Ferrite_Bead" 150 0 50 V V C CNN
+F1 "FerriteBead" 150 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -4074,11 +4074,11 @@ X ~ 2 0 -150 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Ferrite_Bead_Small
+# FerriteBead_Small
 #
-DEF Ferrite_Bead_Small FB 0 0 N Y 1 F N
+DEF FerriteBead_Small FB 0 0 N Y 1 F N
 F0 "FB" 75 50 50 H V L CNN
-F1 "Ferrite_Bead_Small" 75 -50 50 H V L CNN
+F1 "FerriteBead_Small" 75 -50 50 H V L CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -4095,11 +4095,11 @@ X ~ 2 0 -100 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Frequency_Counter
+# FrequencyCounter
 #
-DEF Frequency_Counter MES 0 1 N N 1 F N
+DEF FrequencyCounter MES 0 1 N N 1 F N
 F0 "MES" -130 40 50 H V R CNN
-F1 "Frequency_Counter" -130 -30 50 H V R CNN
+F1 "FrequencyCounter" -130 -30 50 H V R CNN
 F2 "" 0 100 50 V I C CNN
 F3 "" 0 100 50 V I C CNN
 DRAW
@@ -4256,11 +4256,11 @@ X + 2 0 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Hall_Generator
+# HallGenerator
 #
-DEF Hall_Generator HG 0 0 Y N 1 F N
+DEF HallGenerator HG 0 0 Y N 1 F N
 F0 "HG" 100 175 50 H V L CNN
-F1 "Hall_Generator" 100 100 50 H V L CNN
+F1 "HallGenerator" 100 100 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -7396,11 +7396,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LTrim
+# L_Trim
 #
-DEF LTrim L 0 40 N N 1 F N
+DEF L_Trim L 0 40 N N 1 F N
 F0 "L" -75 0 50 V V C CNN
-F1 "LTrim" 125 0 50 V V C CNN
+F1 "L_Trim" 125 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -8862,11 +8862,11 @@ X A 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Laserdiode_M_Type
+# Laserdiode_MType
 #
-DEF Laserdiode_M_Type LD 0 20 Y N 1 F N
+DEF Laserdiode_MType LD 0 20 Y N 1 F N
 F0 "LD" 40 280 50 H V C CNN
-F1 "Laserdiode_M_Type" 40 -220 50 H V C CNN
+F1 "Laserdiode_MType" 40 -220 50 H V C CNN
 F2 "" 40 75 50 H I C CNN
 F3 "" 90 -100 50 H I C CNN
 $FPLIST
@@ -8909,11 +8909,11 @@ X ~ 3 300 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Laserdiode_N_Type
+# Laserdiode_NType
 #
-DEF Laserdiode_N_Type LD 0 20 Y N 1 F N
+DEF Laserdiode_NType LD 0 20 Y N 1 F N
 F0 "LD" 40 280 50 H V C CNN
-F1 "Laserdiode_N_Type" 40 -220 50 H V C CNN
+F1 "Laserdiode_NType" 40 -220 50 H V C CNN
 F2 "" 0 75 50 H I C CNN
 F3 "" 50 -100 50 H I C CNN
 $FPLIST
@@ -8956,11 +8956,11 @@ X ~ 3 300 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Laserdiode_P_Type
+# Laserdiode_PType
 #
-DEF Laserdiode_P_Type LD 0 20 Y N 1 F N
+DEF Laserdiode_PType LD 0 20 Y N 1 F N
 F0 "LD" 40 280 50 H V C CNN
-F1 "Laserdiode_P_Type" 40 -220 50 H V C CNN
+F1 "Laserdiode_PType" 40 -220 50 H V C CNN
 F2 "" 0 75 50 H I C CNN
 F3 "" 130 -100 50 H I C CNN
 $FPLIST
@@ -9078,11 +9078,11 @@ X + 2 0 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Net-Tie_2
+# NetTie_2
 #
-DEF Net-Tie_2 NT 0 0 N N 1 F N
+DEF NetTie_2 NT 0 0 N N 1 F N
 F0 "NT" 0 50 50 H V C CNN
-F1 "Net-Tie_2" 0 -50 50 H V C CNN
+F1 "NetTie_2" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -9095,11 +9095,11 @@ X 2 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Net-Tie_3
+# NetTie_3
 #
-DEF Net-Tie_3 NT 0 0 N N 1 F N
+DEF NetTie_3 NT 0 0 N N 1 F N
 F0 "NT" 0 50 50 H V C CNN
-F1 "Net-Tie_3" 0 -150 50 H V C CNN
+F1 "NetTie_3" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -9114,11 +9114,11 @@ X 3 3 -100 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Net-Tie_3_Tee
+# NetTie_3_Tee
 #
-DEF Net-Tie_3_Tee NT 0 0 N N 1 F N
+DEF NetTie_3_Tee NT 0 0 N N 1 F N
 F0 "NT" 0 125 50 H V C CNN
-F1 "Net-Tie_3_Tee" 0 50 50 H V C CNN
+F1 "NetTie_3_Tee" 0 50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -9135,11 +9135,11 @@ X 3 3 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Net-Tie_4
+# NetTie_4
 #
-DEF Net-Tie_4 NT 0 0 N N 1 F N
+DEF NetTie_4 NT 0 0 N N 1 F N
 F0 "NT" 0 50 50 H V C CNN
-F1 "Net-Tie_4" 0 -150 50 H V C CNN
+F1 "NetTie_4" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -9156,11 +9156,11 @@ X 4 4 100 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Net-Tie_4_Cross
+# NetTie_4_Cross
 #
-DEF Net-Tie_4_Cross NT 0 0 N N 1 F N
+DEF NetTie_4_Cross NT 0 0 N N 1 F N
 F0 "NT" 25 50 50 H V L CNN
-F1 "Net-Tie_4_Cross" 25 -50 50 H V L CNN
+F1 "NetTie_4_Cross" 25 -50 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -9284,11 +9284,11 @@ X + 2 0 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Peltier_Element
+# PeltierElement
 #
-DEF Peltier_Element PE 0 0 N Y 1 F N
+DEF PeltierElement PE 0 0 N Y 1 F N
 F0 "PE" 0 125 50 H V C CNN
-F1 "Peltier_Element" 0 -50 50 H V C CNN
+F1 "PeltierElement" 0 -50 50 H V C CNN
 F2 "" 0 -70 50 H I C CNN
 F3 "" 0 25 50 V I C CNN
 DRAW
@@ -11954,11 +11954,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# RF_Shield_One_Piece
+# RFShield_OnePiece
 #
-DEF RF_Shield_One_Piece J 0 40 Y Y 1 F N
+DEF RFShield_OnePiece J 0 40 Y Y 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "RF_Shield_One_Piece" 0 100 50 H V C CNN
+F1 "RFShield_OnePiece" 0 100 50 H V C CNN
 F2 "" 0 -100 50 H I C CNN
 F3 "" 0 -100 50 H I C CNN
 DRAW
@@ -11990,11 +11990,11 @@ X Shield 1 0 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# RF_Shield_Two_Pieces
+# RFShield_TwoPieces
 #
-DEF RF_Shield_Two_Pieces J 0 40 Y Y 1 F N
+DEF RFShield_TwoPieces J 0 40 Y Y 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "RF_Shield_Two_Pieces" 0 100 50 H V C CNN
+F1 "RFShield_TwoPieces" 0 100 50 H V C CNN
 F2 "" 0 -100 50 H I C CNN
 F3 "" 0 -100 50 H I C CNN
 DRAW
@@ -12027,11 +12027,11 @@ X Shield 1 0 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# RTrim
+# R_Trim
 #
-DEF RTrim R 0 0 N Y 1 F N
+DEF R_Trim R 0 0 N Y 1 F N
 F0 "R" 100 -100 50 V V L CNN
-F1 "RTrim" -100 -25 50 V V L CNN
+F1 "R_Trim" -100 -25 50 V V L CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -15893,11 +15893,11 @@ X 3 3 100 100 50 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Rotary_Encoder
+# RotaryEncoder
 #
-DEF Rotary_Encoder SW 0 10 Y N 1 F N
+DEF RotaryEncoder SW 0 10 Y N 1 F N
 F0 "SW" 0 260 50 H V C CNN
-F1 "Rotary_Encoder" 0 -260 50 H V C CNN
+F1 "RotaryEncoder" 0 -260 50 H V C CNN
 F2 "" -150 160 50 H I C CNN
 F3 "" 0 260 50 H I C CNN
 $FPLIST
@@ -15923,11 +15923,11 @@ X C C -300 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Rotary_Encoder_Switch
+# RotaryEncoder_Switch
 #
-DEF Rotary_Encoder_Switch SW 0 10 Y N 1 F N
+DEF RotaryEncoder_Switch SW 0 10 Y N 1 F N
 F0 "SW" 0 260 50 H V C CNN
-F1 "Rotary_Encoder_Switch" 0 -260 50 H V C CNN
+F1 "RotaryEncoder_Switch" 0 -260 50 H V C CNN
 F2 "" -150 160 50 H I C CNN
 F3 "" 0 260 50 H I C CNN
 $FPLIST
@@ -15961,11 +15961,11 @@ X S2 S2 300 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Spark_Gap
+# SparkGap
 #
-DEF Spark_Gap E 0 0 N Y 1 F N
+DEF SparkGap E 0 0 N Y 1 F N
 F0 "E" 0 80 50 H V C CNN
-F1 "Spark_Gap" 0 -75 50 H V C CNN
+F1 "SparkGap" 0 -75 50 H V C CNN
 F2 "" 0 -70 50 H I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -16783,11 +16783,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Voltage_Divider
+# VoltageDivider
 #
-DEF Voltage_Divider RN 0 0 Y N 1 F N
+DEF VoltageDivider RN 0 0 Y N 1 F N
 F0 "RN" -175 0 50 V V C CNN
-F1 "Voltage_Divider" -100 0 50 V V C CNN
+F1 "VoltageDivider" -100 0 50 V V C CNN
 F2 "" 475 0 50 V I C CNN
 F3 "" 200 0 50 H I C CNN
 $FPLIST
@@ -16809,11 +16809,11 @@ X ~ 3 0 -250 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Voltage_Divider_CenterPin1
+# VoltageDivider_CenterPin1
 #
-DEF Voltage_Divider_CenterPin1 RN 0 0 Y N 1 F N
+DEF VoltageDivider_CenterPin1 RN 0 0 Y N 1 F N
 F0 "RN" -175 0 50 V V C CNN
-F1 "Voltage_Divider_CenterPin1" -100 0 50 V V C CNN
+F1 "VoltageDivider_CenterPin1" -100 0 50 V V C CNN
 F2 "" 475 0 50 V I C CNN
 F3 "" 200 0 50 H I C CNN
 $FPLIST
@@ -16835,11 +16835,11 @@ X ~ 3 0 -250 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Voltage_Divider_CenterPin3
+# VoltageDivider_CenterPin3
 #
-DEF Voltage_Divider_CenterPin3 RN 0 0 Y N 1 F N
+DEF VoltageDivider_CenterPin3 RN 0 0 Y N 1 F N
 F0 "RN" -175 0 50 V V C CNN
-F1 "Voltage_Divider_CenterPin3" -100 0 50 V V C CNN
+F1 "VoltageDivider_CenterPin3" -100 0 50 V V C CNN
 F2 "" 475 0 50 V I C CNN
 F3 "" 200 0 50 H I C CNN
 $FPLIST
