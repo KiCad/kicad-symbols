@@ -90,19 +90,19 @@ K cap capacitor
 F ~
 $ENDCMP
 #
-$CMP CTRIM
+$CMP CTrim
 D Trimmable capacitor
 K trimmer variable capacitor
 F ~
 $ENDCMP
 #
-$CMP CTRIM_DIF
+$CMP CTrim_Dif
 D Differential variable capacitor with two stators
 K trimmer capacitor
 F ~
 $ENDCMP
 #
-$CMP CTRIM_Small
+$CMP CTrim_Small
 D Trimmable capacitor, small symbol
 K trimmer variable capacitor
 F ~
@@ -1146,13 +1146,13 @@ K fuse
 F ~
 $ENDCMP
 #
-$CMP GDT_2pin
+$CMP GDT_2Pin
 D Gas Discharge Tube with 2 Pins
 K gdt
 F ~
 $ENDCMP
 #
-$CMP GDT_3pin
+$CMP GDT_3Pin
 D Gas Discharge Tube with 3 Pins
 K gdt
 F ~
@@ -1362,7 +1362,7 @@ K LED RGB diode
 F ~
 $ENDCMP
 #
-$CMP LED_Dual_2pin
+$CMP LED_Dual_2Pin
 D Dual LED, bidirectional
 K LED diode bicolor dual
 F ~
@@ -1482,7 +1482,7 @@ K LED RGB diode
 F ~
 $ENDCMP
 #
-$CMP LED_PAD
+$CMP LED_Pad
 D Light emitting diode with pad
 K LED diode pad
 F ~
@@ -1578,7 +1578,7 @@ K LED diode
 F ~
 $ENDCMP
 #
-$CMP LED_Series_PAD
+$CMP LED_Series_Pad
 D Several LEDs in series with exposed pad
 K LED diode pad
 F ~
@@ -1596,7 +1596,7 @@ K LED diode light-emitting-diode
 F ~
 $ENDCMP
 #
-$CMP LTRIM
+$CMP LTrim
 D Variable inductor
 K inductor choke coil reactor magnetic
 F ~
@@ -1842,25 +1842,25 @@ K opto laserdiode
 F ~
 $ENDCMP
 #
-$CMP Laserdiode_M_TYPE
+$CMP Laserdiode_M_Type
 D Laser diode with photodiode, common cathode on pin 2
 K opto laserdiode photodiode
 F http://www.egismos.disonhu.com/laser/diode-package.htm
 $ENDCMP
 #
-$CMP Laserdiode_N_TYPE
+$CMP Laserdiode_N_Type
 D Laser diode with photodiode, center on pin 2, LD cathode on pin 1
 K opto laserdiode photodiode
 F http://www.egismos.disonhu.com/laser/diode-package.htm
 $ENDCMP
 #
-$CMP Laserdiode_P_TYPE
+$CMP Laserdiode_P_Type
 D Laser diode with photodiode, center on pin 2, PD cathode on pin 3
 K opto laserdiode photodiode
 F http://www.egismos.disonhu.com/laser/diode-package.htm
 $ENDCMP
 #
-$CMP MEMRISTOR
+$CMP Memristor
 D Memristor
 K memristor
 F ~
@@ -1962,109 +1962,109 @@ K resettable fuse PTC PPTC polyfuse polyswitch
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_NMOS_G1S2G2D2S1D1
+$CMP Q_Dual_NMOS_G1S2G2D2S1D1
 D Dual NMOS transistor, 6 pin package
 K transistor NMOS N-MOS N-MOSFET
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_NMOS_S1G1D2S2G2D1
+$CMP Q_Dual_NMOS_S1G1D2S2G2D1
 D Dual NMOS transistor, 6 pin package
 K transistor NMOS N-MOS N-MOSFET
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_NMOS_S1G1S2G2D2D2D1D1
+$CMP Q_Dual_NMOS_S1G1S2G2D2D2D1D1
 D Dual NMOS transistor, 8 pin package
 K transistor NMOS N-MOS N-MOSFET
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_NPN_C2C1E1E2
+$CMP Q_Dual_NPN_C2C1E1E2
 D Double NPN transistors, current mirror configuration
 K transistor NPN
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_NPN_NPN_BRT_E1B1C2E2B2C1
+$CMP Q_Dual_NPN_NPN_BRT_E1B1C2E2B2C1
 D Dual NPN bias resistor transistor, 6 pin package
 K transistor NPN
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_NPN_NPN_C2E2C1E1B1B2
+$CMP Q_Dual_NPN_NPN_C2E2C1E1B1B2
 D Dual NPN transistor, 6 pin package
 K transistor NPN
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_NPN_NPN_E1B1C2E2B2C1
+$CMP Q_Dual_NPN_NPN_E1B1C2E2B2C1
 D Dual NPN transistor, 6 pin package
 K transistor NPN
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_NPN_PNP_BRT_E1B1C2E2B2C1
+$CMP Q_Dual_NPN_PNP_BRT_E1B1C2E2B2C1
 D Dual NPN/PNP bias resistor transistor, 6 pin package
 K transistor NPN
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_NPN_PNP_E1B1C2E2B2C1
+$CMP Q_Dual_NPN_PNP_E1B1C2E2B2C1
 D Dual NPN/PNP transistor, 6 pin package
 K transistor NPN PNP
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_PMOS_G1S2G2D2S1D1
+$CMP Q_Dual_PMOS_G1S2G2D2S1D1
 D Dual PMOS transistor, 6 pin package
 K transistor PMOS P-MOS P-MOSFET
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_PMOS_S1G1D2S2G2D1
+$CMP Q_Dual_PMOS_S1G1D2S2G2D1
 D Dual PMOS transistor, 6 pin package
 K transistor PMOS P-MOS P-MOSFET
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_PMOS_S1G1S2G2D2D2D1D1
+$CMP Q_Dual_PMOS_S1G1S2G2D2D2D1D1
 D Dual PMOS transistor, 8 pin package
 K transistor PMOS P-MOS P-MOSFET
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_PNP_C2C1E1E2
+$CMP Q_Dual_PNP_C2C1E1E2
 D Double PNP transistors, current mirror configuration
 K transistor PNP
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_PNP_NPN_BRT_E1B1C2E2B2C1
+$CMP Q_Dual_PNP_NPN_BRT_E1B1C2E2B2C1
 D Dual PNP/NPN bias resistor transistor, 6 pin package
 K transistor NPN
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_PNP_PNP_BRT_E1B1C2E2B2C1
+$CMP Q_Dual_PNP_PNP_BRT_E1B1C2E2B2C1
 D Dual PNP bias resistor transistor, 6 pin package
 K transistor NPN
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_PNP_PNP_C1B1B2C2E2E1
+$CMP Q_Dual_PNP_PNP_C1B1B2C2E2E1
 D Dual PNP transistor, 6 pin package
 K transistor PNP
 F https://www.diodes.com/assets/Datasheets/ds30437.pdf
 $ENDCMP
 #
-$CMP Q_DUAL_PNP_PNP_C2E2C1E1B1B2
+$CMP Q_Dual_PNP_PNP_C2E2C1E1B1B2
 D Dual PNP transistor, 6 pin package
 K transistor PNP
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_PNP_PNP_E1B1C2E2B2C1
+$CMP Q_Dual_PNP_PNP_E1B1C2E2B2C1
 D Dual PNP transistor, 6 pin package
 K transistor PNP
 F ~
@@ -2634,7 +2634,7 @@ K RF EMI shielding cabinet
 F ~
 $ENDCMP
 #
-$CMP RTRIM
+$CMP RTrim
 D Trimmable resistor (preset resistor)
 K R res resistor variable potentiometer trimmer
 F ~
@@ -2898,55 +2898,55 @@ K R network divider topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
-$CMP R_PHOTO
+$CMP R_Photo
 D Photoresistor
 K resistor variable light sensitive opto LDR
 F ~
 $ENDCMP
 #
-$CMP R_POT
+$CMP R_Pot
 D Potentiometer
 K resistor variable
 F ~
 $ENDCMP
 #
-$CMP R_POT_Dual
+$CMP R_Pot_Dual
 D Dual potentiometer
 K resistor variable
 F ~
 $ENDCMP
 #
-$CMP R_POT_Dual_Separate
+$CMP R_Pot_Dual_Separate
 D Dual potentiometer, separate units
 K resistor variable
 F ~
 $ENDCMP
 #
-$CMP R_POT_MountingPin
+$CMP R_Pot_MountingPin
 D Potentiometer with a mounting pin
 K resistor variable
 F ~
 $ENDCMP
 #
-$CMP R_POT_Small
+$CMP R_Pot_Small
 D Potentiometer
 K resistor variable
 F ~
 $ENDCMP
 #
-$CMP R_POT_TRIM
+$CMP R_Pot_Trim
 D Trim-potentiometer
 K resistor variable trimpot trimmer
 F ~
 $ENDCMP
 #
-$CMP R_POT_TRIM_US
+$CMP R_Pot_Trim_US
 D Trim-potentiometer, US symbol
 K resistor variable trimpot trimmer
 F ~
 $ENDCMP
 #
-$CMP R_POT_US
+$CMP R_Pot_US
 D Potentiometer, US symbol
 K resistor variable
 F ~
@@ -3210,7 +3210,7 @@ K rotary switch encoder switch push button
 F ~
 $ENDCMP
 #
-$CMP SPARK_GAP
+$CMP Spark_Gap
 D Spark gap
 K spark gap ESD electrostatic suppression
 F ~
@@ -3258,13 +3258,13 @@ K thermistor NTC resistor sensor RTD
 F ~
 $ENDCMP
 #
-$CMP Thermistor_NTC_3wire
+$CMP Thermistor_NTC_3Wire
 D Temperature dependent resistor, negative temperature coefficient, 3-wire interface
 K thermistor NTC resistor sensor RTD
 F ~
 $ENDCMP
 #
-$CMP Thermistor_NTC_4wire
+$CMP Thermistor_NTC_4Wire
 D Temperature dependent resistor, negative temperature coefficient, 4-wire interface
 K thermistor NTC resistor sensor RTD
 F ~
@@ -3282,13 +3282,13 @@ K resistor PTC thermistor sensor RTD
 F ~
 $ENDCMP
 #
-$CMP Thermistor_PTC_3wire
+$CMP Thermistor_PTC_3Wire
 D Temperature dependent resistor, positive temperature coefficient, 3-wire interface
 K resistor PTC thermistor sensor RTD
 F ~
 $ENDCMP
 #
-$CMP Thermistor_PTC_4wire
+$CMP Thermistor_PTC_4Wire
 D Temperature dependent resistor, positive temperature coefficient, 3-wire interface
 K resistor PTC thermistor sensor RTD
 F ~
@@ -3348,7 +3348,7 @@ K transformer coil magnet
 F ~
 $ENDCMP
 #
-$CMP Transformer_AUDIO
+$CMP Transformer_Audio
 D Audio transformer
 K transformer coil magnet sound
 F ~
