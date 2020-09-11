@@ -208,11 +208,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CP
+# C_Polarized
 #
-DEF CP C 0 10 N Y 1 F N
+DEF C_Polarized C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "CP" 25 -100 50 H V L CNN
+F1 "C_Polarized" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -228,11 +228,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CP1
+# C_Polarized_US
 #
-DEF CP1 C 0 10 N N 1 F N
+DEF C_Polarized_US C 0 10 N N 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "CP1" 25 -100 50 H V L CNN
+F1 "C_Polarized_US" 25 -100 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -248,11 +248,11 @@ X ~ 2 0 -150 130 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CP1_Small
+# C_Polarized_Small_US
 #
-DEF CP1_Small C 0 10 N N 1 F N
+DEF C_Polarized_Small_US C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CP1_Small" 10 -80 50 H V L CNN
+F1 "C_Polarized_Small_US" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -268,11 +268,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CP_Small
+# C_Polarized_Small
 #
-DEF CP_Small C 0 10 N N 1 F N
+DEF C_Polarized_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CP_Small" 10 -80 50 H V L CNN
+F1 "C_Polarized_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST

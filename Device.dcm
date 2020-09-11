@@ -66,25 +66,25 @@ K cap capacitor
 F ~
 $ENDCMP
 #
-$CMP CP
+$CMP C_Polarized
 D Polarized capacitor
 K cap capacitor
 F ~
 $ENDCMP
 #
-$CMP CP1
+$CMP C_Polarized_US
 D Polarized capacitor, US symbol
 K cap capacitor
 F ~
 $ENDCMP
 #
-$CMP CP1_Small
+$CMP C_Polarized_Small_US
 D Polarized capacitor, small US symbol
 K cap capacitor
 F ~
 $ENDCMP
 #
-$CMP CP_Small
+$CMP C_Polarized_Small
 D Polarized capacitor, small symbol
 K cap capacitor
 F ~
