@@ -1511,11 +1511,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_ACom_AKK
+# D_Schottky_Dual_ACom_AKK
 #
-DEF D_Schottky_x2_ACom_AKK D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_ACom_AKK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Schottky_x2_ACom_AKK" 0 100 50 H V C CNN
+F1 "D_Schottky_Dual_ACom_AKK" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1536,11 +1536,11 @@ X K 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_ACom_AKK_Parallel
+# D_Schottky_Dual_ACom_AKK_Parallel
 #
-DEF D_Schottky_x2_ACom_AKK_Parallel D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_ACom_AKK_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Schottky_x2_ACom_AKK_Parallel" 0 -200 50 H V C CNN
+F1 "D_Schottky_Dual_ACom_AKK_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -1557,11 +1557,11 @@ X K 3 200 -100 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_ACom_AKK_Split
+# D_Schottky_Dual_ACom_AKK_Split
 #
-DEF D_Schottky_x2_ACom_AKK_Split D 0 30 Y N 2 L N
+DEF D_Schottky_Dual_ACom_AKK_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Schottky_x2_ACom_AKK_Split" 0 -100 50 H V C CNN
+F1 "D_Schottky_Dual_ACom_AKK_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -1576,11 +1576,11 @@ X K 3 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_ACom_KAK
+# D_Schottky_Dual_ACom_KAK
 #
-DEF D_Schottky_x2_ACom_KAK D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_ACom_KAK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Schottky_x2_ACom_KAK" 0 100 50 H V C CNN
+F1 "D_Schottky_Dual_ACom_KAK" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1601,11 +1601,11 @@ X K 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_ACom_KAK_Parallel
+# D_Schottky_Dual_ACom_KAK_Parallel
 #
-DEF D_Schottky_x2_ACom_KAK_Parallel D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_ACom_KAK_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Schottky_x2_ACom_KAK_Parallel" 0 -200 50 H V C CNN
+F1 "D_Schottky_Dual_ACom_KAK_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -1622,11 +1622,11 @@ X K 3 200 -100 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_ACom_KAK_Split
+# D_Schottky_Dual_ACom_KAK_Split
 #
-DEF D_Schottky_x2_ACom_KAK_Split D 0 30 Y N 2 L N
+DEF D_Schottky_Dual_ACom_KAK_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Schottky_x2_ACom_KAK_Split" 0 -100 50 H V C CNN
+F1 "D_Schottky_Dual_ACom_KAK_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -1641,11 +1641,11 @@ X K 3 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_ACom_KKA
+# D_Schottky_Dual_ACom_KKA
 #
-DEF D_Schottky_x2_ACom_KKA D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_ACom_KKA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Schottky_x2_ACom_KKA" 0 100 50 H V C CNN
+F1 "D_Schottky_Dual_ACom_KKA" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1666,11 +1666,11 @@ X A 3 0 -200 100 U 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_ACom_KKA_Parallel
+# D_Schottky_Dual_ACom_KKA_Parallel
 #
-DEF D_Schottky_x2_ACom_KKA_Parallel D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_ACom_KKA_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Schottky_x2_ACom_KKA_Parallel" 0 -200 50 H V C CNN
+F1 "D_Schottky_Dual_ACom_KKA_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -1687,11 +1687,11 @@ X A 3 -200 0 100 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_ACom_KKA_Split
+# D_Schottky_Dual_ACom_KKA_Split
 #
-DEF D_Schottky_x2_ACom_KKA_Split D 0 30 Y N 2 L N
+DEF D_Schottky_Dual_ACom_KKA_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Schottky_x2_ACom_KKA_Split" 0 -100 50 H V C CNN
+F1 "D_Schottky_Dual_ACom_KKA_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -1706,11 +1706,11 @@ X K 2 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_KCom_AAK
+# D_Schottky_Dual_KCom_AAK
 #
-DEF D_Schottky_x2_KCom_AAK D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_KCom_AAK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Schottky_x2_KCom_AAK" 0 100 50 H V C CNN
+F1 "D_Schottky_Dual_KCom_AAK" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1731,11 +1731,11 @@ X K 3 0 -200 100 U 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_KCom_AAK_Parallel
+# D_Schottky_Dual_KCom_AAK_Parallel
 #
-DEF D_Schottky_x2_KCom_AAK_Parallel D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_KCom_AAK_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Schottky_x2_KCom_AAK_Parallel" 0 -200 50 H V C CNN
+F1 "D_Schottky_Dual_KCom_AAK_Parallel" 0 -200 50 H V C CNN
 F2 "" 50 0 50 H I C CNN
 F3 "" 50 0 50 H I C CNN
 DRAW
@@ -1752,11 +1752,11 @@ X A 3 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_KCom_AAK_Split
+# D_Schottky_Dual_KCom_AAK_Split
 #
-DEF D_Schottky_x2_KCom_AAK_Split D 0 30 Y N 2 L N
+DEF D_Schottky_Dual_KCom_AAK_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Schottky_x2_KCom_AAK_Split" 0 -100 50 H V C CNN
+F1 "D_Schottky_Dual_KCom_AAK_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -1771,11 +1771,11 @@ X K 2 -150 0 100 R 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_KCom_AKA
+# D_Schottky_Dual_KCom_AKA
 #
-DEF D_Schottky_x2_KCom_AKA D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_KCom_AKA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Schottky_x2_KCom_AKA" 0 100 50 H V C CNN
+F1 "D_Schottky_Dual_KCom_AKA" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1796,11 +1796,11 @@ X A 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_KCom_AKA_Parallel
+# D_Schottky_Dual_KCom_AKA_Parallel
 #
-DEF D_Schottky_x2_KCom_AKA_Parallel D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_KCom_AKA_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Schottky_x2_KCom_AKA_Parallel" 0 -200 50 H V C CNN
+F1 "D_Schottky_Dual_KCom_AKA_Parallel" 0 -200 50 H V C CNN
 F2 "" 50 0 50 H I C CNN
 F3 "" 50 0 50 H I C CNN
 DRAW
@@ -1817,11 +1817,11 @@ X K 3 -200 -100 100 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_KCom_AKA_Split
+# D_Schottky_Dual_KCom_AKA_Split
 #
-DEF D_Schottky_x2_KCom_AKA_Split D 0 30 Y N 2 L N
+DEF D_Schottky_Dual_KCom_AKA_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Schottky_x2_KCom_AKA_Split" 0 -100 50 H V C CNN
+F1 "D_Schottky_Dual_KCom_AKA_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -1836,11 +1836,11 @@ X K 3 -150 0 100 R 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_KCom_KAA
+# D_Schottky_Dual_KCom_KAA
 #
-DEF D_Schottky_x2_KCom_KAA D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_KCom_KAA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Schottky_x2_KCom_KAA" 0 100 50 H V C CNN
+F1 "D_Schottky_Dual_KCom_KAA" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1861,11 +1861,11 @@ X A 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_KCom_KAA_Parallel
+# D_Schottky_Dual_KCom_KAA_Parallel
 #
-DEF D_Schottky_x2_KCom_KAA_Parallel D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_KCom_KAA_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Schottky_x2_KCom_KAA_Parallel" 0 -200 50 H V C CNN
+F1 "D_Schottky_Dual_KCom_KAA_Parallel" 0 -200 50 H V C CNN
 F2 "" 50 0 50 H I C CNN
 F3 "" 50 0 50 H I C CNN
 DRAW
@@ -1882,11 +1882,11 @@ X K 3 -200 -100 100 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_KCom_KAA_Split
+# D_Schottky_Dual_KCom_KAA_Split
 #
-DEF D_Schottky_x2_KCom_KAA_Split D 0 30 Y N 2 L N
+DEF D_Schottky_Dual_KCom_KAA_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Schottky_x2_KCom_KAA_Split" 0 -100 50 H V C CNN
+F1 "D_Schottky_Dual_KCom_KAA_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -1901,11 +1901,11 @@ X K 3 -150 0 100 R 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_Serial_ACK
+# D_Schottky_Dual_Serial_ACK
 #
-DEF D_Schottky_x2_Serial_ACK D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_Serial_ACK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Schottky_x2_Serial_ACK" 0 100 50 H V C CNN
+F1 "D_Schottky_Dual_Serial_ACK" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1927,11 +1927,11 @@ X K 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_Serial_AKC
+# D_Schottky_Dual_Serial_AKC
 #
-DEF D_Schottky_x2_Serial_AKC D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_Serial_AKC D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Schottky_x2_Serial_AKC" 0 100 50 H V C CNN
+F1 "D_Schottky_Dual_Serial_AKC" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1953,11 +1953,11 @@ X common 3 0 -200 100 U 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_Serial_CAK
+# D_Schottky_Dual_Serial_CAK
 #
-DEF D_Schottky_x2_Serial_CAK D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_Serial_CAK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Schottky_x2_Serial_CAK" 0 100 50 H V C CNN
+F1 "D_Schottky_Dual_Serial_CAK" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1978,11 +1978,11 @@ X K 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_Serial_CKA
+# D_Schottky_Dual_Serial_CKA
 #
-DEF D_Schottky_x2_Serial_CKA D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_Serial_CKA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Schottky_x2_Serial_CKA" 0 100 50 H V C CNN
+F1 "D_Schottky_Dual_Serial_CKA" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -2003,11 +2003,11 @@ X A 3 -300 0 150 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_Serial_KAC
+# D_Schottky_Dual_Serial_KAC
 #
-DEF D_Schottky_x2_Serial_KAC D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_Serial_KAC D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Schottky_x2_Serial_KAC" 0 100 50 H V C CNN
+F1 "D_Schottky_Dual_Serial_KAC" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -2028,11 +2028,11 @@ X common 3 0 -200 100 U 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_Serial_KCA
+# D_Schottky_Dual_Serial_KCA
 #
-DEF D_Schottky_x2_Serial_KCA D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_Serial_KCA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Schottky_x2_Serial_KCA" 0 100 50 H V C CNN
+F1 "D_Schottky_Dual_Serial_KCA" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -2054,11 +2054,11 @@ X A 3 -300 0 150 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_Series_ACK_Parallel
+# D_Schottky_Dual_Series_ACK_Parallel
 #
-DEF D_Schottky_x2_Series_ACK_Parallel D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_Series_ACK_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Schottky_x2_Series_ACK_Parallel" 0 -200 50 H V C CNN
+F1 "D_Schottky_Dual_Series_ACK_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -2075,11 +2075,11 @@ X K 3 200 100 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_Series_ACK_Split
+# D_Schottky_Dual_Series_ACK_Split
 #
-DEF D_Schottky_x2_Series_ACK_Split D 0 30 Y N 2 L N
+DEF D_Schottky_Dual_Series_ACK_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Schottky_x2_Series_ACK_Split" 0 -100 50 H V C CNN
+F1 "D_Schottky_Dual_Series_ACK_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -2094,11 +2094,11 @@ X K 3 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_Series_AKC_Parallel
+# D_Schottky_Dual_Series_AKC_Parallel
 #
-DEF D_Schottky_x2_Series_AKC_Parallel D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_Series_AKC_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Schottky_x2_Series_AKC_Parallel" 0 -200 50 H V C CNN
+F1 "D_Schottky_Dual_Series_AKC_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -2115,11 +2115,11 @@ X A 3 -200 0 100 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_Series_AKC_Split
+# D_Schottky_Dual_Series_AKC_Split
 #
-DEF D_Schottky_x2_Series_AKC_Split D 0 30 Y N 2 L N
+DEF D_Schottky_Dual_Series_AKC_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Schottky_x2_Series_AKC_Split" 0 -100 50 H V C CNN
+F1 "D_Schottky_Dual_Series_AKC_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -2134,11 +2134,11 @@ X K 2 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_Series_CAK_Parallel
+# D_Schottky_Dual_Series_CAK_Parallel
 #
-DEF D_Schottky_x2_Series_CAK_Parallel D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_Series_CAK_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Schottky_x2_Series_CAK_Parallel" 0 -200 50 H V C CNN
+F1 "D_Schottky_Dual_Series_CAK_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -2155,11 +2155,11 @@ X K 3 200 100 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_Series_CAK_Split
+# D_Schottky_Dual_Series_CAK_Split
 #
-DEF D_Schottky_x2_Series_CAK_Split D 0 30 Y N 2 L N
+DEF D_Schottky_Dual_Series_CAK_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Schottky_x2_Series_CAK_Split" 0 -100 50 H V C CNN
+F1 "D_Schottky_Dual_Series_CAK_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -2174,11 +2174,11 @@ X K 3 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_Series_CKA_Parallel
+# D_Schottky_Dual_Series_CKA_Parallel
 #
-DEF D_Schottky_x2_Series_CKA_Parallel D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_Series_CKA_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Schottky_x2_Series_CKA_Parallel" 0 -200 50 H V C CNN
+F1 "D_Schottky_Dual_Series_CKA_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -2195,11 +2195,11 @@ X K 3 200 -100 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_Series_CKA_Split
+# D_Schottky_Dual_Series_CKA_Split
 #
-DEF D_Schottky_x2_Series_CKA_Split D 0 30 Y N 2 L N
+DEF D_Schottky_Dual_Series_CKA_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Schottky_x2_Series_CKA_Split" 0 -100 50 H V C CNN
+F1 "D_Schottky_Dual_Series_CKA_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -2214,11 +2214,11 @@ X K 2 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_Series_KAC_Parallel
+# D_Schottky_Dual_Series_KAC_Parallel
 #
-DEF D_Schottky_x2_Series_KAC_Parallel D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_Series_KAC_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Schottky_x2_Series_KAC_Parallel" 0 -200 50 H V C CNN
+F1 "D_Schottky_Dual_Series_KAC_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -2235,11 +2235,11 @@ X A 3 -200 0 100 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_Series_KAC_Split
+# D_Schottky_Dual_Series_KAC_Split
 #
-DEF D_Schottky_x2_Series_KAC_Split D 0 30 Y N 2 L N
+DEF D_Schottky_Dual_Series_KAC_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Schottky_x2_Series_KAC_Split" 0 -100 50 H V C CNN
+F1 "D_Schottky_Dual_Series_KAC_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -2254,11 +2254,11 @@ X K 1 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_Series_KCA_Parallel
+# D_Schottky_Dual_Series_KCA_Parallel
 #
-DEF D_Schottky_x2_Series_KCA_Parallel D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_Series_KCA_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Schottky_x2_Series_KCA_Parallel" 0 -200 50 H V C CNN
+F1 "D_Schottky_Dual_Series_KCA_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -2275,11 +2275,11 @@ X K 3 200 -100 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_x2_Series_KCA_Split
+# D_Schottky_Dual_Series_KCA_Split
 #
-DEF D_Schottky_x2_Series_KCA_Split D 0 30 Y N 2 L N
+DEF D_Schottky_Dual_Series_KCA_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Schottky_x2_Series_KCA_Split" 0 -100 50 H V C CNN
+F1 "D_Schottky_Dual_Series_KCA_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -2428,11 +2428,11 @@ X A2 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D_TVS_x2_AAC
+# D_TVS_Dual_AAC
 #
-DEF D_TVS_x2_AAC D 0 40 Y N 1 F N
+DEF D_TVS_Dual_AAC D 0 40 Y N 1 F N
 F0 "D" 0 175 50 H V C CNN
-F1 "D_TVS_x2_AAC" 0 100 50 H V C CNN
+F1 "D_TVS_Dual_AAC" 0 100 50 H V C CNN
 F2 "" -150 0 50 H I C CNN
 F3 "" -150 0 50 H I C CNN
 DRAW
@@ -2449,11 +2449,11 @@ X common 3 0 -150 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# D_TVS_x2_ACA
+# D_TVS_Dual_ACA
 #
-DEF D_TVS_x2_ACA D 0 40 Y N 1 F N
+DEF D_TVS_Dual_ACA D 0 40 Y N 1 F N
 F0 "D" 0 175 50 H V C CNN
-F1 "D_TVS_x2_ACA" 0 100 50 H V C CNN
+F1 "D_TVS_Dual_ACA" 0 100 50 H V C CNN
 F2 "" -150 0 50 H I C CNN
 F3 "" -150 0 50 H I C CNN
 DRAW
@@ -2470,11 +2470,11 @@ X A2 3 350 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D_TVS_x2_CAA
+# D_TVS_Dual_CAA
 #
-DEF D_TVS_x2_CAA D 0 40 Y N 1 F N
+DEF D_TVS_Dual_CAA D 0 40 Y N 1 F N
 F0 "D" 0 175 50 H V C CNN
-F1 "D_TVS_x2_CAA" 0 100 50 H V C CNN
+F1 "D_TVS_Dual_CAA" 0 100 50 H V C CNN
 F2 "" -150 0 50 H I C CNN
 F3 "" -150 0 50 H I C CNN
 DRAW
@@ -2727,11 +2727,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_x2_ACom_AKK
+# D_Zener_Dual_ACom_AKK
 #
-DEF D_Zener_x2_ACom_AKK D 0 30 Y N 1 F N
+DEF D_Zener_Dual_ACom_AKK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Zener_x2_ACom_AKK" 0 100 50 H V C CNN
+F1 "D_Zener_Dual_ACom_AKK" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -2752,11 +2752,11 @@ X K 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_x2_ACom_AKK_Parallel
+# D_Zener_Dual_ACom_AKK_Parallel
 #
-DEF D_Zener_x2_ACom_AKK_Parallel D 0 30 Y N 1 F N
+DEF D_Zener_Dual_ACom_AKK_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Zener_x2_ACom_AKK_Parallel" 0 -200 50 H V C CNN
+F1 "D_Zener_Dual_ACom_AKK_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -2773,11 +2773,11 @@ X K 3 200 -100 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_x2_ACom_AKK_Split
+# D_Zener_Dual_ACom_AKK_Split
 #
-DEF D_Zener_x2_ACom_AKK_Split D 0 30 Y N 2 L N
+DEF D_Zener_Dual_ACom_AKK_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Zener_x2_ACom_AKK_Split" 0 -100 50 H V C CNN
+F1 "D_Zener_Dual_ACom_AKK_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -2792,11 +2792,11 @@ X K 3 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_x2_ACom_KAK
+# D_Zener_Dual_ACom_KAK
 #
-DEF D_Zener_x2_ACom_KAK D 0 30 Y N 1 F N
+DEF D_Zener_Dual_ACom_KAK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Zener_x2_ACom_KAK" 0 100 50 H V C CNN
+F1 "D_Zener_Dual_ACom_KAK" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -2817,11 +2817,11 @@ X K 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_x2_ACom_KAK_Parallel
+# D_Zener_Dual_ACom_KAK_Parallel
 #
-DEF D_Zener_x2_ACom_KAK_Parallel D 0 30 Y N 1 F N
+DEF D_Zener_Dual_ACom_KAK_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Zener_x2_ACom_KAK_Parallel" 0 -200 50 H V C CNN
+F1 "D_Zener_Dual_ACom_KAK_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -2838,11 +2838,11 @@ X K 3 200 -100 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_x2_ACom_KAK_Split
+# D_Zener_Dual_ACom_KAK_Split
 #
-DEF D_Zener_x2_ACom_KAK_Split D 0 30 Y N 2 L N
+DEF D_Zener_Dual_ACom_KAK_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Zener_x2_ACom_KAK_Split" 0 -100 50 H V C CNN
+F1 "D_Zener_Dual_ACom_KAK_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -2857,11 +2857,11 @@ X K 3 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_x2_ACom_KKA
+# D_Zener_Dual_ACom_KKA
 #
-DEF D_Zener_x2_ACom_KKA D 0 30 Y N 1 F N
+DEF D_Zener_Dual_ACom_KKA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Zener_x2_ACom_KKA" 0 100 50 H V C CNN
+F1 "D_Zener_Dual_ACom_KKA" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -2882,11 +2882,11 @@ X A 3 0 -200 100 U 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_x2_ACom_KKA_Parallel
+# D_Zener_Dual_ACom_KKA_Parallel
 #
-DEF D_Zener_x2_ACom_KKA_Parallel D 0 30 Y N 1 F N
+DEF D_Zener_Dual_ACom_KKA_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Zener_x2_ACom_KKA_Parallel" 0 -200 50 H V C CNN
+F1 "D_Zener_Dual_ACom_KKA_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -2903,11 +2903,11 @@ X A 3 -200 0 100 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_x2_ACom_KKA_Split
+# D_Zener_Dual_ACom_KKA_Split
 #
-DEF D_Zener_x2_ACom_KKA_Split D 0 30 Y N 2 L N
+DEF D_Zener_Dual_ACom_KKA_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Zener_x2_ACom_KKA_Split" 0 -100 50 H V C CNN
+F1 "D_Zener_Dual_ACom_KKA_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -2922,11 +2922,11 @@ X K 2 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_x2_KCom_AAK
+# D_Zener_Dual_KCom_AAK
 #
-DEF D_Zener_x2_KCom_AAK D 0 30 Y N 1 F N
+DEF D_Zener_Dual_KCom_AAK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Zener_x2_KCom_AAK" 0 100 50 H V C CNN
+F1 "D_Zener_Dual_KCom_AAK" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -2947,11 +2947,11 @@ X K 3 0 -200 100 U 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_x2_KCom_AAK_Parallel
+# D_Zener_Dual_KCom_AAK_Parallel
 #
-DEF D_Zener_x2_KCom_AAK_Parallel D 0 30 Y N 1 F N
+DEF D_Zener_Dual_KCom_AAK_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Zener_x2_KCom_AAK_Parallel" 0 -200 50 H V C CNN
+F1 "D_Zener_Dual_KCom_AAK_Parallel" 0 -200 50 H V C CNN
 F2 "" 50 0 50 H I C CNN
 F3 "" 50 0 50 H I C CNN
 DRAW
@@ -2968,11 +2968,11 @@ X A 3 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_x2_KCom_AAK_Split
+# D_Zener_Dual_KCom_AAK_Split
 #
-DEF D_Zener_x2_KCom_AAK_Split D 0 30 Y N 2 L N
+DEF D_Zener_Dual_KCom_AAK_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Zener_x2_KCom_AAK_Split" 0 -100 50 H V C CNN
+F1 "D_Zener_Dual_KCom_AAK_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -2987,11 +2987,11 @@ X K 2 -150 0 100 R 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_x2_KCom_AKA
+# D_Zener_Dual_KCom_AKA
 #
-DEF D_Zener_x2_KCom_AKA D 0 30 Y N 1 F N
+DEF D_Zener_Dual_KCom_AKA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Zener_x2_KCom_AKA" 0 100 50 H V C CNN
+F1 "D_Zener_Dual_KCom_AKA" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -3013,11 +3013,11 @@ X A 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_x2_KCom_AKA_Parallel
+# D_Zener_Dual_KCom_AKA_Parallel
 #
-DEF D_Zener_x2_KCom_AKA_Parallel D 0 30 Y N 1 F N
+DEF D_Zener_Dual_KCom_AKA_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Zener_x2_KCom_AKA_Parallel" 0 -200 50 H V C CNN
+F1 "D_Zener_Dual_KCom_AKA_Parallel" 0 -200 50 H V C CNN
 F2 "" 50 0 50 H I C CNN
 F3 "" 50 0 50 H I C CNN
 DRAW
@@ -3034,11 +3034,11 @@ X K 3 -200 -100 100 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_x2_KCom_AKA_Split
+# D_Zener_Dual_KCom_AKA_Split
 #
-DEF D_Zener_x2_KCom_AKA_Split D 0 30 Y N 2 L N
+DEF D_Zener_Dual_KCom_AKA_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Zener_x2_KCom_AKA_Split" 0 -100 50 H V C CNN
+F1 "D_Zener_Dual_KCom_AKA_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -3053,11 +3053,11 @@ X K 3 -150 0 100 R 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_x2_KCom_KAA
+# D_Zener_Dual_KCom_KAA
 #
-DEF D_Zener_x2_KCom_KAA D 0 30 Y N 1 F N
+DEF D_Zener_Dual_KCom_KAA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Zener_x2_KCom_KAA" 0 100 50 H V C CNN
+F1 "D_Zener_Dual_KCom_KAA" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -3078,11 +3078,11 @@ X A 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_x2_KCom_KAA_Parallel
+# D_Zener_Dual_KCom_KAA_Parallel
 #
-DEF D_Zener_x2_KCom_KAA_Parallel D 0 30 Y N 1 F N
+DEF D_Zener_Dual_KCom_KAA_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Zener_x2_KCom_KAA_Parallel" 0 -200 50 H V C CNN
+F1 "D_Zener_Dual_KCom_KAA_Parallel" 0 -200 50 H V C CNN
 F2 "" 50 0 50 H I C CNN
 F3 "" 50 0 50 H I C CNN
 DRAW
@@ -3099,11 +3099,11 @@ X K 3 -200 -100 100 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_x2_KCom_KAA_Split
+# D_Zener_Dual_KCom_KAA_Split
 #
-DEF D_Zener_x2_KCom_KAA_Split D 0 30 Y N 2 L N
+DEF D_Zener_Dual_KCom_KAA_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Zener_x2_KCom_KAA_Split" 0 -100 50 H V C CNN
+F1 "D_Zener_Dual_KCom_KAA_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -3118,11 +3118,11 @@ X K 3 -150 0 100 R 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_ACom_AKK
+# D_Dual_ACom_AKK
 #
-DEF D_x2_ACom_AKK D 0 30 Y N 1 F N
+DEF D_Dual_ACom_AKK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_x2_ACom_AKK" 0 100 50 H V C CNN
+F1 "D_Dual_ACom_AKK" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3139,11 +3139,11 @@ X K 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_ACom_AKK_Parallel
+# D_Dual_ACom_AKK_Parallel
 #
-DEF D_x2_ACom_AKK_Parallel D 0 30 Y N 1 F N
+DEF D_Dual_ACom_AKK_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_x2_ACom_AKK_Parallel" 0 -200 50 H V C CNN
+F1 "D_Dual_ACom_AKK_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -3160,11 +3160,11 @@ X K 3 200 -100 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_ACom_AKK_Split
+# D_Dual_ACom_AKK_Split
 #
-DEF D_x2_ACom_AKK_Split D 0 30 Y N 2 L N
+DEF D_Dual_ACom_AKK_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_x2_ACom_AKK_Split" 0 -100 50 H V C CNN
+F1 "D_Dual_ACom_AKK_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -3179,11 +3179,11 @@ X K 3 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_ACom_KAK
+# D_Dual_ACom_KAK
 #
-DEF D_x2_ACom_KAK D 0 30 Y N 1 F N
+DEF D_Dual_ACom_KAK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_x2_ACom_KAK" 0 100 50 H V C CNN
+F1 "D_Dual_ACom_KAK" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3200,11 +3200,11 @@ X K 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_ACom_KAK_Parallel
+# D_Dual_ACom_KAK_Parallel
 #
-DEF D_x2_ACom_KAK_Parallel D 0 30 Y N 1 F N
+DEF D_Dual_ACom_KAK_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_x2_ACom_KAK_Parallel" 0 -200 50 H V C CNN
+F1 "D_Dual_ACom_KAK_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -3221,11 +3221,11 @@ X K 3 200 -100 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_ACom_KAK_Split
+# D_Dual_ACom_KAK_Split
 #
-DEF D_x2_ACom_KAK_Split D 0 30 Y N 2 L N
+DEF D_Dual_ACom_KAK_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_x2_ACom_KAK_Split" 0 -100 50 H V C CNN
+F1 "D_Dual_ACom_KAK_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -3240,11 +3240,11 @@ X K 3 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_ACom_KKA
+# D_Dual_ACom_KKA
 #
-DEF D_x2_ACom_KKA D 0 30 Y N 1 F N
+DEF D_Dual_ACom_KKA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_x2_ACom_KKA" 0 100 50 H V C CNN
+F1 "D_Dual_ACom_KKA" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3261,11 +3261,11 @@ X A 3 0 -200 100 U 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_ACom_KKA_Parallel
+# D_Dual_ACom_KKA_Parallel
 #
-DEF D_x2_ACom_KKA_Parallel D 0 30 Y N 1 F N
+DEF D_Dual_ACom_KKA_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_x2_ACom_KKA_Parallel" 0 -200 50 H V C CNN
+F1 "D_Dual_ACom_KKA_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -3282,11 +3282,11 @@ X A 3 -200 0 100 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_ACom_KKA_Split
+# D_Dual_ACom_KKA_Split
 #
-DEF D_x2_ACom_KKA_Split D 0 30 Y N 2 L N
+DEF D_Dual_ACom_KKA_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_x2_ACom_KKA_Split" 0 -100 50 H V C CNN
+F1 "D_Dual_ACom_KKA_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -3301,11 +3301,11 @@ X K 2 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_KCom_AAK
+# D_Dual_KCom_AAK
 #
-DEF D_x2_KCom_AAK D 0 30 Y N 1 F N
+DEF D_Dual_KCom_AAK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_x2_KCom_AAK" 0 100 50 H V C CNN
+F1 "D_Dual_KCom_AAK" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3322,11 +3322,11 @@ X K 3 0 -200 100 U 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_KCom_AAK_Parallel
+# D_Dual_KCom_AAK_Parallel
 #
-DEF D_x2_KCom_AAK_Parallel D 0 30 Y N 1 F N
+DEF D_Dual_KCom_AAK_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_x2_KCom_AAK_Parallel" 0 -200 50 H V C CNN
+F1 "D_Dual_KCom_AAK_Parallel" 0 -200 50 H V C CNN
 F2 "" 50 0 50 H I C CNN
 F3 "" 50 0 50 H I C CNN
 DRAW
@@ -3343,11 +3343,11 @@ X A 3 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_KCom_AAK_Split
+# D_Dual_KCom_AAK_Split
 #
-DEF D_x2_KCom_AAK_Split D 0 30 Y N 2 L N
+DEF D_Dual_KCom_AAK_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_x2_KCom_AAK_Split" 0 -100 50 H V C CNN
+F1 "D_Dual_KCom_AAK_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -3362,11 +3362,11 @@ X K 2 -150 0 100 R 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_KCom_AKA
+# D_Dual_KCom_AKA
 #
-DEF D_x2_KCom_AKA D 0 30 Y N 1 F N
+DEF D_Dual_KCom_AKA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_x2_KCom_AKA" 0 100 50 H V C CNN
+F1 "D_Dual_KCom_AKA" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3383,11 +3383,11 @@ X A 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_KCom_AKA_Parallel
+# D_Dual_KCom_AKA_Parallel
 #
-DEF D_x2_KCom_AKA_Parallel D 0 30 Y N 1 F N
+DEF D_Dual_KCom_AKA_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_x2_KCom_AKA_Parallel" 0 -200 50 H V C CNN
+F1 "D_Dual_KCom_AKA_Parallel" 0 -200 50 H V C CNN
 F2 "" 50 0 50 H I C CNN
 F3 "" 50 0 50 H I C CNN
 DRAW
@@ -3404,11 +3404,11 @@ X K 3 -200 -100 100 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_KCom_AKA_Split
+# D_Dual_KCom_AKA_Split
 #
-DEF D_x2_KCom_AKA_Split D 0 30 Y N 2 L N
+DEF D_Dual_KCom_AKA_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_x2_KCom_AKA_Split" 0 -100 50 H V C CNN
+F1 "D_Dual_KCom_AKA_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -3423,11 +3423,11 @@ X K 3 -150 0 100 R 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_KCom_KAA
+# D_Dual_KCom_KAA
 #
-DEF D_x2_KCom_KAA D 0 30 Y N 1 F N
+DEF D_Dual_KCom_KAA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_x2_KCom_KAA" 0 100 50 H V C CNN
+F1 "D_Dual_KCom_KAA" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3444,11 +3444,11 @@ X A 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_KCom_KAA_Parallel
+# D_Dual_KCom_KAA_Parallel
 #
-DEF D_x2_KCom_KAA_Parallel D 0 30 Y N 1 F N
+DEF D_Dual_KCom_KAA_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_x2_KCom_KAA_Parallel" 0 -200 50 H V C CNN
+F1 "D_Dual_KCom_KAA_Parallel" 0 -200 50 H V C CNN
 F2 "" 50 0 50 H I C CNN
 F3 "" 50 0 50 H I C CNN
 DRAW
@@ -3465,11 +3465,11 @@ X K 3 -200 -100 100 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_KCom_KAA_Split
+# D_Dual_KCom_KAA_Split
 #
-DEF D_x2_KCom_KAA_Split D 0 30 Y N 2 L N
+DEF D_Dual_KCom_KAA_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_x2_KCom_KAA_Split" 0 -100 50 H V C CNN
+F1 "D_Dual_KCom_KAA_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -3484,11 +3484,11 @@ X K 3 -150 0 100 R 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_Serial_ACK
+# D_Dual_Serial_ACK
 #
-DEF D_x2_Serial_ACK D 0 30 Y N 1 F N
+DEF D_Dual_Serial_ACK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_x2_Serial_ACK" 0 100 50 H V C CNN
+F1 "D_Dual_Serial_ACK" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3506,11 +3506,11 @@ X K 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_Serial_AKC
+# D_Dual_Serial_AKC
 #
-DEF D_x2_Serial_AKC D 0 30 Y N 1 F N
+DEF D_Dual_Serial_AKC D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_x2_Serial_AKC" 0 100 50 H V C CNN
+F1 "D_Dual_Serial_AKC" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3528,11 +3528,11 @@ X common 3 0 -200 100 U 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_Serial_CAK
+# D_Dual_Serial_CAK
 #
-DEF D_x2_Serial_CAK D 0 30 Y N 1 F N
+DEF D_Dual_Serial_CAK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_x2_Serial_CAK" 0 100 50 H V C CNN
+F1 "D_Dual_Serial_CAK" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3549,11 +3549,11 @@ X K 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_Serial_CKA
+# D_Dual_Serial_CKA
 #
-DEF D_x2_Serial_CKA D 0 30 Y N 1 F N
+DEF D_Dual_Serial_CKA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_x2_Serial_CKA" 0 100 50 H V C CNN
+F1 "D_Dual_Serial_CKA" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3570,11 +3570,11 @@ X A 3 -300 0 150 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_Serial_KAC
+# D_Dual_Serial_KAC
 #
-DEF D_x2_Serial_KAC D 0 30 Y N 1 F N
+DEF D_Dual_Serial_KAC D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_x2_Serial_KAC" 0 100 50 H V C CNN
+F1 "D_Dual_Serial_KAC" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3591,11 +3591,11 @@ X common 3 0 -200 100 U 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_Serial_KCA
+# D_Dual_Serial_KCA
 #
-DEF D_x2_Serial_KCA D 0 30 Y N 1 F N
+DEF D_Dual_Serial_KCA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_x2_Serial_KCA" 0 100 50 H V C CNN
+F1 "D_Dual_Serial_KCA" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3613,11 +3613,11 @@ X A 3 -300 0 150 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_Series_ACK_Parallel
+# D_Dual_Series_ACK_Parallel
 #
-DEF D_x2_Series_ACK_Parallel D 0 30 Y N 1 F N
+DEF D_Dual_Series_ACK_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_x2_Series_ACK_Parallel" 0 -200 50 H V C CNN
+F1 "D_Dual_Series_ACK_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -3634,11 +3634,11 @@ X K 3 200 100 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_Series_ACK_Split
+# D_Dual_Series_ACK_Split
 #
-DEF D_x2_Series_ACK_Split D 0 30 Y N 2 L N
+DEF D_Dual_Series_ACK_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_x2_Series_ACK_Split" 0 -100 50 H V C CNN
+F1 "D_Dual_Series_ACK_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -3653,11 +3653,11 @@ X K 3 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_Series_AKC_Parallel
+# D_Dual_Series_AKC_Parallel
 #
-DEF D_x2_Series_AKC_Parallel D 0 30 Y N 1 F N
+DEF D_Dual_Series_AKC_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_x2_Series_AKC_Parallel" 0 -200 50 H V C CNN
+F1 "D_Dual_Series_AKC_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -3674,11 +3674,11 @@ X A 3 -200 0 100 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_Series_AKC_Split
+# D_Dual_Series_AKC_Split
 #
-DEF D_x2_Series_AKC_Split D 0 30 Y N 2 L N
+DEF D_Dual_Series_AKC_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_x2_Series_AKC_Split" 0 -100 50 H V C CNN
+F1 "D_Dual_Series_AKC_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -3693,11 +3693,11 @@ X K 2 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_Series_CAK_Parallel
+# D_Dual_Series_CAK_Parallel
 #
-DEF D_x2_Series_CAK_Parallel D 0 30 Y N 1 F N
+DEF D_Dual_Series_CAK_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_x2_Series_CAK_Parallel" 0 -200 50 H V C CNN
+F1 "D_Dual_Series_CAK_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -3714,11 +3714,11 @@ X K 3 200 100 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_Series_CAK_Split
+# D_Dual_Series_CAK_Split
 #
-DEF D_x2_Series_CAK_Split D 0 30 Y N 2 L N
+DEF D_Dual_Series_CAK_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_x2_Series_CAK_Split" 0 -100 50 H V C CNN
+F1 "D_Dual_Series_CAK_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -3733,11 +3733,11 @@ X K 3 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_Series_CKA_Parallel
+# D_Dual_Series_CKA_Parallel
 #
-DEF D_x2_Series_CKA_Parallel D 0 30 Y N 1 F N
+DEF D_Dual_Series_CKA_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_x2_Series_CKA_Parallel" 0 -200 50 H V C CNN
+F1 "D_Dual_Series_CKA_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -3754,11 +3754,11 @@ X K 3 200 -100 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_Series_CKA_Split
+# D_Dual_Series_CKA_Split
 #
-DEF D_x2_Series_CKA_Split D 0 30 Y N 2 L N
+DEF D_Dual_Series_CKA_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_x2_Series_CKA_Split" 0 -100 50 H V C CNN
+F1 "D_Dual_Series_CKA_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -3773,11 +3773,11 @@ X K 2 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_Series_KAC_Parallel
+# D_Dual_Series_KAC_Parallel
 #
-DEF D_x2_Series_KAC_Parallel D 0 30 Y N 1 F N
+DEF D_Dual_Series_KAC_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_x2_Series_KAC_Parallel" 0 -200 50 H V C CNN
+F1 "D_Dual_Series_KAC_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -3794,11 +3794,11 @@ X A 3 -200 0 100 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_Series_KAC_Split
+# D_Dual_Series_KAC_Split
 #
-DEF D_x2_Series_KAC_Split D 0 30 Y N 2 L N
+DEF D_Dual_Series_KAC_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_x2_Series_KAC_Split" 0 -100 50 H V C CNN
+F1 "D_Dual_Series_KAC_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -3813,11 +3813,11 @@ X K 1 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_Series_KCA_Parallel
+# D_Dual_Series_KCA_Parallel
 #
-DEF D_x2_Series_KCA_Parallel D 0 30 Y N 1 F N
+DEF D_Dual_Series_KCA_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_x2_Series_KCA_Parallel" 0 -200 50 H V C CNN
+F1 "D_Dual_Series_KCA_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -3834,11 +3834,11 @@ X K 3 200 -100 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_x2_Series_KCA_Split
+# D_Dual_Series_KCA_Split
 #
-DEF D_x2_Series_KCA_Split D 0 30 Y N 2 L N
+DEF D_Dual_Series_KCA_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_x2_Series_KCA_Split" 0 -100 50 H V C CNN
+F1 "D_Dual_Series_KCA_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
