@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Amperemeter_AC
+# Ammeter_AC
 #
-DEF Amperemeter_AC MES 0 1 N N 1 F N
+DEF Ammeter_AC MES 0 1 N N 1 F N
 F0 "MES" -130 40 50 H V R CNN
-F1 "Amperemeter_AC" -130 -30 50 H V R CNN
+F1 "Ammeter_AC" -130 -30 50 H V R CNN
 F2 "" 0 100 50 V I C CNN
 F3 "" 0 100 50 V I C CNN
 DRAW
@@ -21,11 +21,11 @@ X ~ 2 0 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Amperemeter_DC
+# Ammeter_DC
 #
-DEF Amperemeter_DC MES 0 1 N N 1 F N
+DEF Ammeter_DC MES 0 1 N N 1 F N
 F0 "MES" -130 40 50 H V R CNN
-F1 "Amperemeter_DC" -130 -30 50 H V R CNN
+F1 "Ammeter_DC" -130 -30 50 H V R CNN
 F2 "" 0 100 50 V I C CNN
 F3 "" 0 100 50 V I C CNN
 DRAW
