@@ -1511,11 +1511,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_Dual_ACom_AKK
+# D_Schottky_Dual_CommonAnode_AKK
 #
-DEF D_Schottky_Dual_ACom_AKK D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_CommonAnode_AKK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Schottky_Dual_ACom_AKK" 0 100 50 H V C CNN
+F1 "D_Schottky_Dual_CommonAnode_AKK" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1536,11 +1536,11 @@ X K 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_Dual_ACom_AKK_Parallel
+# D_Schottky_Dual_CommonAnode_AKK_Parallel
 #
-DEF D_Schottky_Dual_ACom_AKK_Parallel D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_CommonAnode_AKK_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Schottky_Dual_ACom_AKK_Parallel" 0 -200 50 H V C CNN
+F1 "D_Schottky_Dual_CommonAnode_AKK_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -1557,11 +1557,11 @@ X K 3 200 -100 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_Dual_ACom_AKK_Split
+# D_Schottky_Dual_CommonAnode_AKK_Split
 #
-DEF D_Schottky_Dual_ACom_AKK_Split D 0 30 Y N 2 L N
+DEF D_Schottky_Dual_CommonAnode_AKK_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Schottky_Dual_ACom_AKK_Split" 0 -100 50 H V C CNN
+F1 "D_Schottky_Dual_CommonAnode_AKK_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -1576,11 +1576,11 @@ X K 3 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_Dual_ACom_KAK
+# D_Schottky_Dual_CommonAnode_KAK
 #
-DEF D_Schottky_Dual_ACom_KAK D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_CommonAnode_KAK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Schottky_Dual_ACom_KAK" 0 100 50 H V C CNN
+F1 "D_Schottky_Dual_CommonAnode_KAK" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1601,11 +1601,11 @@ X K 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_Dual_ACom_KAK_Parallel
+# D_Schottky_Dual_CommonAnode_KAK_Parallel
 #
-DEF D_Schottky_Dual_ACom_KAK_Parallel D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_CommonAnode_KAK_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Schottky_Dual_ACom_KAK_Parallel" 0 -200 50 H V C CNN
+F1 "D_Schottky_Dual_CommonAnode_KAK_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -1622,11 +1622,11 @@ X K 3 200 -100 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_Dual_ACom_KAK_Split
+# D_Schottky_Dual_CommonAnode_KAK_Split
 #
-DEF D_Schottky_Dual_ACom_KAK_Split D 0 30 Y N 2 L N
+DEF D_Schottky_Dual_CommonAnode_KAK_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Schottky_Dual_ACom_KAK_Split" 0 -100 50 H V C CNN
+F1 "D_Schottky_Dual_CommonAnode_KAK_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -1641,11 +1641,11 @@ X K 3 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_Dual_ACom_KKA
+# D_Schottky_Dual_CommonAnode_KKA
 #
-DEF D_Schottky_Dual_ACom_KKA D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_CommonAnode_KKA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Schottky_Dual_ACom_KKA" 0 100 50 H V C CNN
+F1 "D_Schottky_Dual_CommonAnode_KKA" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1666,11 +1666,11 @@ X A 3 0 -200 100 U 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_Dual_ACom_KKA_Parallel
+# D_Schottky_Dual_CommonAnode_KKA_Parallel
 #
-DEF D_Schottky_Dual_ACom_KKA_Parallel D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_CommonAnode_KKA_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Schottky_Dual_ACom_KKA_Parallel" 0 -200 50 H V C CNN
+F1 "D_Schottky_Dual_CommonAnode_KKA_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -1687,11 +1687,11 @@ X A 3 -200 0 100 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_Dual_ACom_KKA_Split
+# D_Schottky_Dual_CommonAnode_KKA_Split
 #
-DEF D_Schottky_Dual_ACom_KKA_Split D 0 30 Y N 2 L N
+DEF D_Schottky_Dual_CommonAnode_KKA_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Schottky_Dual_ACom_KKA_Split" 0 -100 50 H V C CNN
+F1 "D_Schottky_Dual_CommonAnode_KKA_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -1706,11 +1706,11 @@ X K 2 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_Dual_KCom_AAK
+# D_Schottky_Dual_CommonCathode_AAK
 #
-DEF D_Schottky_Dual_KCom_AAK D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_CommonCathode_AAK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Schottky_Dual_KCom_AAK" 0 100 50 H V C CNN
+F1 "D_Schottky_Dual_CommonCathode_AAK" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1731,11 +1731,11 @@ X K 3 0 -200 100 U 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_Dual_KCom_AAK_Parallel
+# D_Schottky_Dual_CommonCathode_AAK_Parallel
 #
-DEF D_Schottky_Dual_KCom_AAK_Parallel D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_CommonCathode_AAK_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Schottky_Dual_KCom_AAK_Parallel" 0 -200 50 H V C CNN
+F1 "D_Schottky_Dual_CommonCathode_AAK_Parallel" 0 -200 50 H V C CNN
 F2 "" 50 0 50 H I C CNN
 F3 "" 50 0 50 H I C CNN
 DRAW
@@ -1752,11 +1752,11 @@ X A 3 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_Dual_KCom_AAK_Split
+# D_Schottky_Dual_CommonCathode_AAK_Split
 #
-DEF D_Schottky_Dual_KCom_AAK_Split D 0 30 Y N 2 L N
+DEF D_Schottky_Dual_CommonCathode_AAK_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Schottky_Dual_KCom_AAK_Split" 0 -100 50 H V C CNN
+F1 "D_Schottky_Dual_CommonCathode_AAK_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -1771,11 +1771,11 @@ X K 2 -150 0 100 R 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_Dual_KCom_AKA
+# D_Schottky_Dual_CommonCathode_AKA
 #
-DEF D_Schottky_Dual_KCom_AKA D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_CommonCathode_AKA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Schottky_Dual_KCom_AKA" 0 100 50 H V C CNN
+F1 "D_Schottky_Dual_CommonCathode_AKA" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1796,11 +1796,11 @@ X A 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_Dual_KCom_AKA_Parallel
+# D_Schottky_Dual_CommonCathode_AKA_Parallel
 #
-DEF D_Schottky_Dual_KCom_AKA_Parallel D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_CommonCathode_AKA_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Schottky_Dual_KCom_AKA_Parallel" 0 -200 50 H V C CNN
+F1 "D_Schottky_Dual_CommonCathode_AKA_Parallel" 0 -200 50 H V C CNN
 F2 "" 50 0 50 H I C CNN
 F3 "" 50 0 50 H I C CNN
 DRAW
@@ -1817,11 +1817,11 @@ X K 3 -200 -100 100 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_Dual_KCom_AKA_Split
+# D_Schottky_Dual_CommonCathode_AKA_Split
 #
-DEF D_Schottky_Dual_KCom_AKA_Split D 0 30 Y N 2 L N
+DEF D_Schottky_Dual_CommonCathode_AKA_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Schottky_Dual_KCom_AKA_Split" 0 -100 50 H V C CNN
+F1 "D_Schottky_Dual_CommonCathode_AKA_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -1836,11 +1836,11 @@ X K 3 -150 0 100 R 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_Dual_KCom_KAA
+# D_Schottky_Dual_CommonCathode_KAA
 #
-DEF D_Schottky_Dual_KCom_KAA D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_CommonCathode_KAA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Schottky_Dual_KCom_KAA" 0 100 50 H V C CNN
+F1 "D_Schottky_Dual_CommonCathode_KAA" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -1861,11 +1861,11 @@ X A 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_Dual_KCom_KAA_Parallel
+# D_Schottky_Dual_CommonCathode_KAA_Parallel
 #
-DEF D_Schottky_Dual_KCom_KAA_Parallel D 0 30 Y N 1 F N
+DEF D_Schottky_Dual_CommonCathode_KAA_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Schottky_Dual_KCom_KAA_Parallel" 0 -200 50 H V C CNN
+F1 "D_Schottky_Dual_CommonCathode_KAA_Parallel" 0 -200 50 H V C CNN
 F2 "" 50 0 50 H I C CNN
 F3 "" 50 0 50 H I C CNN
 DRAW
@@ -1882,11 +1882,11 @@ X K 3 -200 -100 100 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Schottky_Dual_KCom_KAA_Split
+# D_Schottky_Dual_CommonCathode_KAA_Split
 #
-DEF D_Schottky_Dual_KCom_KAA_Split D 0 30 Y N 2 L N
+DEF D_Schottky_Dual_CommonCathode_KAA_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Schottky_Dual_KCom_KAA_Split" 0 -100 50 H V C CNN
+F1 "D_Schottky_Dual_CommonCathode_KAA_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -2727,11 +2727,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_Dual_ACom_AKK
+# D_Zener_Dual_CommonAnode_AKK
 #
-DEF D_Zener_Dual_ACom_AKK D 0 30 Y N 1 F N
+DEF D_Zener_Dual_CommonAnode_AKK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Zener_Dual_ACom_AKK" 0 100 50 H V C CNN
+F1 "D_Zener_Dual_CommonAnode_AKK" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -2752,11 +2752,11 @@ X K 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_Dual_ACom_AKK_Parallel
+# D_Zener_Dual_CommonAnode_AKK_Parallel
 #
-DEF D_Zener_Dual_ACom_AKK_Parallel D 0 30 Y N 1 F N
+DEF D_Zener_Dual_CommonAnode_AKK_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Zener_Dual_ACom_AKK_Parallel" 0 -200 50 H V C CNN
+F1 "D_Zener_Dual_CommonAnode_AKK_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -2773,11 +2773,11 @@ X K 3 200 -100 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_Dual_ACom_AKK_Split
+# D_Zener_Dual_CommonAnode_AKK_Split
 #
-DEF D_Zener_Dual_ACom_AKK_Split D 0 30 Y N 2 L N
+DEF D_Zener_Dual_CommonAnode_AKK_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Zener_Dual_ACom_AKK_Split" 0 -100 50 H V C CNN
+F1 "D_Zener_Dual_CommonAnode_AKK_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -2792,11 +2792,11 @@ X K 3 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_Dual_ACom_KAK
+# D_Zener_Dual_CommonAnode_KAK
 #
-DEF D_Zener_Dual_ACom_KAK D 0 30 Y N 1 F N
+DEF D_Zener_Dual_CommonAnode_KAK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Zener_Dual_ACom_KAK" 0 100 50 H V C CNN
+F1 "D_Zener_Dual_CommonAnode_KAK" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -2817,11 +2817,11 @@ X K 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_Dual_ACom_KAK_Parallel
+# D_Zener_Dual_CommonAnode_KAK_Parallel
 #
-DEF D_Zener_Dual_ACom_KAK_Parallel D 0 30 Y N 1 F N
+DEF D_Zener_Dual_CommonAnode_KAK_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Zener_Dual_ACom_KAK_Parallel" 0 -200 50 H V C CNN
+F1 "D_Zener_Dual_CommonAnode_KAK_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -2838,11 +2838,11 @@ X K 3 200 -100 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_Dual_ACom_KAK_Split
+# D_Zener_Dual_CommonAnode_KAK_Split
 #
-DEF D_Zener_Dual_ACom_KAK_Split D 0 30 Y N 2 L N
+DEF D_Zener_Dual_CommonAnode_KAK_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Zener_Dual_ACom_KAK_Split" 0 -100 50 H V C CNN
+F1 "D_Zener_Dual_CommonAnode_KAK_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -2857,11 +2857,11 @@ X K 3 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_Dual_ACom_KKA
+# D_Zener_Dual_CommonAnode_KKA
 #
-DEF D_Zener_Dual_ACom_KKA D 0 30 Y N 1 F N
+DEF D_Zener_Dual_CommonAnode_KKA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Zener_Dual_ACom_KKA" 0 100 50 H V C CNN
+F1 "D_Zener_Dual_CommonAnode_KKA" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -2882,11 +2882,11 @@ X A 3 0 -200 100 U 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_Dual_ACom_KKA_Parallel
+# D_Zener_Dual_CommonAnode_KKA_Parallel
 #
-DEF D_Zener_Dual_ACom_KKA_Parallel D 0 30 Y N 1 F N
+DEF D_Zener_Dual_CommonAnode_KKA_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Zener_Dual_ACom_KKA_Parallel" 0 -200 50 H V C CNN
+F1 "D_Zener_Dual_CommonAnode_KKA_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -2903,11 +2903,11 @@ X A 3 -200 0 100 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_Dual_ACom_KKA_Split
+# D_Zener_Dual_CommonAnode_KKA_Split
 #
-DEF D_Zener_Dual_ACom_KKA_Split D 0 30 Y N 2 L N
+DEF D_Zener_Dual_CommonAnode_KKA_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Zener_Dual_ACom_KKA_Split" 0 -100 50 H V C CNN
+F1 "D_Zener_Dual_CommonAnode_KKA_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -2922,11 +2922,11 @@ X K 2 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_Dual_KCom_AAK
+# D_Zener_Dual_CommonCathode_AAK
 #
-DEF D_Zener_Dual_KCom_AAK D 0 30 Y N 1 F N
+DEF D_Zener_Dual_CommonCathode_AAK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Zener_Dual_KCom_AAK" 0 100 50 H V C CNN
+F1 "D_Zener_Dual_CommonCathode_AAK" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -2947,11 +2947,11 @@ X K 3 0 -200 100 U 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_Dual_KCom_AAK_Parallel
+# D_Zener_Dual_CommonCathode_AAK_Parallel
 #
-DEF D_Zener_Dual_KCom_AAK_Parallel D 0 30 Y N 1 F N
+DEF D_Zener_Dual_CommonCathode_AAK_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Zener_Dual_KCom_AAK_Parallel" 0 -200 50 H V C CNN
+F1 "D_Zener_Dual_CommonCathode_AAK_Parallel" 0 -200 50 H V C CNN
 F2 "" 50 0 50 H I C CNN
 F3 "" 50 0 50 H I C CNN
 DRAW
@@ -2968,11 +2968,11 @@ X A 3 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_Dual_KCom_AAK_Split
+# D_Zener_Dual_CommonCathode_AAK_Split
 #
-DEF D_Zener_Dual_KCom_AAK_Split D 0 30 Y N 2 L N
+DEF D_Zener_Dual_CommonCathode_AAK_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Zener_Dual_KCom_AAK_Split" 0 -100 50 H V C CNN
+F1 "D_Zener_Dual_CommonCathode_AAK_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -2987,11 +2987,11 @@ X K 2 -150 0 100 R 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_Dual_KCom_AKA
+# D_Zener_Dual_CommonCathode_AKA
 #
-DEF D_Zener_Dual_KCom_AKA D 0 30 Y N 1 F N
+DEF D_Zener_Dual_CommonCathode_AKA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Zener_Dual_KCom_AKA" 0 100 50 H V C CNN
+F1 "D_Zener_Dual_CommonCathode_AKA" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -3013,11 +3013,11 @@ X A 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_Dual_KCom_AKA_Parallel
+# D_Zener_Dual_CommonCathode_AKA_Parallel
 #
-DEF D_Zener_Dual_KCom_AKA_Parallel D 0 30 Y N 1 F N
+DEF D_Zener_Dual_CommonCathode_AKA_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Zener_Dual_KCom_AKA_Parallel" 0 -200 50 H V C CNN
+F1 "D_Zener_Dual_CommonCathode_AKA_Parallel" 0 -200 50 H V C CNN
 F2 "" 50 0 50 H I C CNN
 F3 "" 50 0 50 H I C CNN
 DRAW
@@ -3034,11 +3034,11 @@ X K 3 -200 -100 100 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_Dual_KCom_AKA_Split
+# D_Zener_Dual_CommonCathode_AKA_Split
 #
-DEF D_Zener_Dual_KCom_AKA_Split D 0 30 Y N 2 L N
+DEF D_Zener_Dual_CommonCathode_AKA_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Zener_Dual_KCom_AKA_Split" 0 -100 50 H V C CNN
+F1 "D_Zener_Dual_CommonCathode_AKA_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -3053,11 +3053,11 @@ X K 3 -150 0 100 R 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_Dual_KCom_KAA
+# D_Zener_Dual_CommonCathode_KAA
 #
-DEF D_Zener_Dual_KCom_KAA D 0 30 Y N 1 F N
+DEF D_Zener_Dual_CommonCathode_KAA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Zener_Dual_KCom_KAA" 0 100 50 H V C CNN
+F1 "D_Zener_Dual_CommonCathode_KAA" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -3078,11 +3078,11 @@ X A 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_Dual_KCom_KAA_Parallel
+# D_Zener_Dual_CommonCathode_KAA_Parallel
 #
-DEF D_Zener_Dual_KCom_KAA_Parallel D 0 30 Y N 1 F N
+DEF D_Zener_Dual_CommonCathode_KAA_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Zener_Dual_KCom_KAA_Parallel" 0 -200 50 H V C CNN
+F1 "D_Zener_Dual_CommonCathode_KAA_Parallel" 0 -200 50 H V C CNN
 F2 "" 50 0 50 H I C CNN
 F3 "" 50 0 50 H I C CNN
 DRAW
@@ -3099,11 +3099,11 @@ X K 3 -200 -100 100 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Zener_Dual_KCom_KAA_Split
+# D_Zener_Dual_CommonCathode_KAA_Split
 #
-DEF D_Zener_Dual_KCom_KAA_Split D 0 30 Y N 2 L N
+DEF D_Zener_Dual_CommonCathode_KAA_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Zener_Dual_KCom_KAA_Split" 0 -100 50 H V C CNN
+F1 "D_Zener_Dual_CommonCathode_KAA_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -3118,11 +3118,11 @@ X K 3 -150 0 100 R 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Dual_ACom_AKK
+# D_Dual_CommonAnode_AKK
 #
-DEF D_Dual_ACom_AKK D 0 30 Y N 1 F N
+DEF D_Dual_CommonAnode_AKK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Dual_ACom_AKK" 0 100 50 H V C CNN
+F1 "D_Dual_CommonAnode_AKK" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3139,11 +3139,11 @@ X K 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Dual_ACom_AKK_Parallel
+# D_Dual_CommonAnode_AKK_Parallel
 #
-DEF D_Dual_ACom_AKK_Parallel D 0 30 Y N 1 F N
+DEF D_Dual_CommonAnode_AKK_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Dual_ACom_AKK_Parallel" 0 -200 50 H V C CNN
+F1 "D_Dual_CommonAnode_AKK_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -3160,11 +3160,11 @@ X K 3 200 -100 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Dual_ACom_AKK_Split
+# D_Dual_CommonAnode_AKK_Split
 #
-DEF D_Dual_ACom_AKK_Split D 0 30 Y N 2 L N
+DEF D_Dual_CommonAnode_AKK_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Dual_ACom_AKK_Split" 0 -100 50 H V C CNN
+F1 "D_Dual_CommonAnode_AKK_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -3179,11 +3179,11 @@ X K 3 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Dual_ACom_KAK
+# D_Dual_CommonAnode_KAK
 #
-DEF D_Dual_ACom_KAK D 0 30 Y N 1 F N
+DEF D_Dual_CommonAnode_KAK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Dual_ACom_KAK" 0 100 50 H V C CNN
+F1 "D_Dual_CommonAnode_KAK" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3200,11 +3200,11 @@ X K 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Dual_ACom_KAK_Parallel
+# D_Dual_CommonAnode_KAK_Parallel
 #
-DEF D_Dual_ACom_KAK_Parallel D 0 30 Y N 1 F N
+DEF D_Dual_CommonAnode_KAK_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Dual_ACom_KAK_Parallel" 0 -200 50 H V C CNN
+F1 "D_Dual_CommonAnode_KAK_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -3221,11 +3221,11 @@ X K 3 200 -100 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Dual_ACom_KAK_Split
+# D_Dual_CommonAnode_KAK_Split
 #
-DEF D_Dual_ACom_KAK_Split D 0 30 Y N 2 L N
+DEF D_Dual_CommonAnode_KAK_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Dual_ACom_KAK_Split" 0 -100 50 H V C CNN
+F1 "D_Dual_CommonAnode_KAK_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -3240,11 +3240,11 @@ X K 3 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Dual_ACom_KKA
+# D_Dual_CommonAnode_KKA
 #
-DEF D_Dual_ACom_KKA D 0 30 Y N 1 F N
+DEF D_Dual_CommonAnode_KKA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Dual_ACom_KKA" 0 100 50 H V C CNN
+F1 "D_Dual_CommonAnode_KKA" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3261,11 +3261,11 @@ X A 3 0 -200 100 U 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Dual_ACom_KKA_Parallel
+# D_Dual_CommonAnode_KKA_Parallel
 #
-DEF D_Dual_ACom_KKA_Parallel D 0 30 Y N 1 F N
+DEF D_Dual_CommonAnode_KKA_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Dual_ACom_KKA_Parallel" 0 -200 50 H V C CNN
+F1 "D_Dual_CommonAnode_KKA_Parallel" 0 -200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
@@ -3282,11 +3282,11 @@ X A 3 -200 0 100 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Dual_ACom_KKA_Split
+# D_Dual_CommonAnode_KKA_Split
 #
-DEF D_Dual_ACom_KKA_Split D 0 30 Y N 2 L N
+DEF D_Dual_CommonAnode_KKA_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Dual_ACom_KKA_Split" 0 -100 50 H V C CNN
+F1 "D_Dual_CommonAnode_KKA_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -3301,11 +3301,11 @@ X K 2 150 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Dual_KCom_AAK
+# D_Dual_CommonCathode_AAK
 #
-DEF D_Dual_KCom_AAK D 0 30 Y N 1 F N
+DEF D_Dual_CommonCathode_AAK D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Dual_KCom_AAK" 0 100 50 H V C CNN
+F1 "D_Dual_CommonCathode_AAK" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3322,11 +3322,11 @@ X K 3 0 -200 100 U 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Dual_KCom_AAK_Parallel
+# D_Dual_CommonCathode_AAK_Parallel
 #
-DEF D_Dual_KCom_AAK_Parallel D 0 30 Y N 1 F N
+DEF D_Dual_CommonCathode_AAK_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Dual_KCom_AAK_Parallel" 0 -200 50 H V C CNN
+F1 "D_Dual_CommonCathode_AAK_Parallel" 0 -200 50 H V C CNN
 F2 "" 50 0 50 H I C CNN
 F3 "" 50 0 50 H I C CNN
 DRAW
@@ -3343,11 +3343,11 @@ X A 3 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Dual_KCom_AAK_Split
+# D_Dual_CommonCathode_AAK_Split
 #
-DEF D_Dual_KCom_AAK_Split D 0 30 Y N 2 L N
+DEF D_Dual_CommonCathode_AAK_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Dual_KCom_AAK_Split" 0 -100 50 H V C CNN
+F1 "D_Dual_CommonCathode_AAK_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -3362,11 +3362,11 @@ X K 2 -150 0 100 R 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Dual_KCom_AKA
+# D_Dual_CommonCathode_AKA
 #
-DEF D_Dual_KCom_AKA D 0 30 Y N 1 F N
+DEF D_Dual_CommonCathode_AKA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Dual_KCom_AKA" 0 100 50 H V C CNN
+F1 "D_Dual_CommonCathode_AKA" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3383,11 +3383,11 @@ X A 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Dual_KCom_AKA_Parallel
+# D_Dual_CommonCathode_AKA_Parallel
 #
-DEF D_Dual_KCom_AKA_Parallel D 0 30 Y N 1 F N
+DEF D_Dual_CommonCathode_AKA_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Dual_KCom_AKA_Parallel" 0 -200 50 H V C CNN
+F1 "D_Dual_CommonCathode_AKA_Parallel" 0 -200 50 H V C CNN
 F2 "" 50 0 50 H I C CNN
 F3 "" 50 0 50 H I C CNN
 DRAW
@@ -3404,11 +3404,11 @@ X K 3 -200 -100 100 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Dual_KCom_AKA_Split
+# D_Dual_CommonCathode_AKA_Split
 #
-DEF D_Dual_KCom_AKA_Split D 0 30 Y N 2 L N
+DEF D_Dual_CommonCathode_AKA_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Dual_KCom_AKA_Split" 0 -100 50 H V C CNN
+F1 "D_Dual_CommonCathode_AKA_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
@@ -3423,11 +3423,11 @@ X K 3 -150 0 100 R 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Dual_KCom_KAA
+# D_Dual_CommonCathode_KAA
 #
-DEF D_Dual_KCom_KAA D 0 30 Y N 1 F N
+DEF D_Dual_CommonCathode_KAA D 0 30 Y N 1 F N
 F0 "D" 50 -100 50 H V C CNN
-F1 "D_Dual_KCom_KAA" 0 100 50 H V C CNN
+F1 "D_Dual_CommonCathode_KAA" 0 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -3444,11 +3444,11 @@ X A 3 300 0 150 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Dual_KCom_KAA_Parallel
+# D_Dual_CommonCathode_KAA_Parallel
 #
-DEF D_Dual_KCom_KAA_Parallel D 0 30 Y N 1 F N
+DEF D_Dual_CommonCathode_KAA_Parallel D 0 30 Y N 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "D_Dual_KCom_KAA_Parallel" 0 -200 50 H V C CNN
+F1 "D_Dual_CommonCathode_KAA_Parallel" 0 -200 50 H V C CNN
 F2 "" 50 0 50 H I C CNN
 F3 "" 50 0 50 H I C CNN
 DRAW
@@ -3465,11 +3465,11 @@ X K 3 -200 -100 100 R 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# D_Dual_KCom_KAA_Split
+# D_Dual_CommonCathode_KAA_Split
 #
-DEF D_Dual_KCom_KAA_Split D 0 30 Y N 2 L N
+DEF D_Dual_CommonCathode_KAA_Split D 0 30 Y N 2 L N
 F0 "D" 0 100 50 H V C CNN
-F1 "D_Dual_KCom_KAA_Split" 0 -100 50 H V C CNN
+F1 "D_Dual_CommonCathode_KAA_Split" 0 -100 50 H V C CNN
 F2 "" -100 -100 50 H I C CNN
 F3 "" -100 -100 50 H I C CNN
 DRAW
