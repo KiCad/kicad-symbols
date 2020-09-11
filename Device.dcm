@@ -2904,49 +2904,49 @@ K resistor variable light sensitive opto LDR
 F ~
 $ENDCMP
 #
-$CMP R_Pot
+$CMP R_Potentiometer
 D Potentiometer
 K resistor variable
 F ~
 $ENDCMP
 #
-$CMP R_Pot_Dual
+$CMP R_Potentiometer_Dual
 D Dual potentiometer
 K resistor variable
 F ~
 $ENDCMP
 #
-$CMP R_Pot_Dual_Separate
+$CMP R_Potentiometer_Dual_Separate
 D Dual potentiometer, separate units
 K resistor variable
 F ~
 $ENDCMP
 #
-$CMP R_Pot_MountingPin
+$CMP R_Potentiometer_MountingPin
 D Potentiometer with a mounting pin
 K resistor variable
 F ~
 $ENDCMP
 #
-$CMP R_Pot_Small
+$CMP R_Potentiometer_Small
 D Potentiometer
 K resistor variable
 F ~
 $ENDCMP
 #
-$CMP R_Pot_Trim
+$CMP R_Potentiometer_Trim
 D Trim-potentiometer
 K resistor variable trimpot trimmer
 F ~
 $ENDCMP
 #
-$CMP R_Pot_Trim_US
+$CMP R_Potentiometer_Trim_US
 D Trim-potentiometer, US symbol
 K resistor variable trimpot trimmer
 F ~
 $ENDCMP
 #
-$CMP R_Pot_US
+$CMP R_Potentiometer_US
 D Potentiometer, US symbol
 K resistor variable
 F ~

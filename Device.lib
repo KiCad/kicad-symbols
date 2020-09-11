@@ -14331,11 +14331,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_Pot
+# R_Potentiometer
 #
-DEF R_Pot RV 0 40 Y N 1 F N
+DEF R_Potentiometer RV 0 40 Y N 1 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "R_Pot" -100 0 50 V V C CNN
+F1 "R_Potentiometer" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -14351,11 +14351,11 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_Pot_Dual
+# R_Potentiometer_Dual
 #
-DEF R_Pot_Dual RV 0 40 Y N 1 F N
+DEF R_Potentiometer_Dual RV 0 40 Y N 1 F N
 F0 "RV" 0 150 50 H V C CNN
-F1 "R_Pot_Dual" 0 75 50 H V C CNN
+F1 "R_Potentiometer_Dual" 0 75 50 H V C CNN
 F2 "" 250 -75 50 H I C CNN
 F3 "" 250 -75 50 H I C CNN
 $FPLIST
@@ -14393,11 +14393,11 @@ X 6 6 400 -100 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_Pot_Dual_Separate
+# R_Potentiometer_Dual_Separate
 #
-DEF R_Pot_Dual_Separate RV 0 40 Y N 2 F N
+DEF R_Potentiometer_Dual_Separate RV 0 40 Y N 2 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "R_Pot_Dual_Separate" -100 0 50 V V C CNN
+F1 "R_Potentiometer_Dual_Separate" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -14416,11 +14416,11 @@ X 6 6 0 -150 50 U 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# R_Pot_MountingPin
+# R_Potentiometer_MountingPin
 #
-DEF R_Pot_MountingPin RV 0 40 Y N 1 F N
+DEF R_Potentiometer_MountingPin RV 0 40 Y N 1 F N
 F0 "RV" -325 0 50 V V C CNN
-F1 "R_Pot_MountingPin" -250 0 50 V V C CNN
+F1 "R_Potentiometer_MountingPin" -250 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -14439,11 +14439,11 @@ X MountPin MP -200 0 120 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_Pot_Small
+# R_Potentiometer_Small
 #
-DEF R_Pot_Small RV 0 40 Y N 1 F N
+DEF R_Potentiometer_Small RV 0 40 Y N 1 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "R_Pot_Small" -100 0 50 V V C CNN
+F1 "R_Potentiometer_Small" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -14458,11 +14458,11 @@ X 3 3 0 -100 25 U 25 25 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_Pot_Trim
+# R_Potentiometer_Trim
 #
-DEF R_Pot_Trim RV 0 40 Y N 1 F N
+DEF R_Potentiometer_Trim RV 0 40 Y N 1 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "R_Pot_Trim" -100 0 50 V V C CNN
+F1 "R_Potentiometer_Trim" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -14478,11 +14478,11 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_Pot_Trim_US
+# R_Potentiometer_Trim_US
 #
-DEF R_Pot_Trim_US RV 0 40 Y N 1 F N
+DEF R_Potentiometer_Trim_US RV 0 40 Y N 1 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "R_Pot_Trim_US" -100 0 50 V V C CNN
+F1 "R_Potentiometer_Trim_US" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -14502,11 +14502,11 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_Pot_US
+# R_Potentiometer_US
 #
-DEF R_Pot_US RV 0 40 Y N 1 F N
+DEF R_Potentiometer_US RV 0 40 Y N 1 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "R_Pot_US" -100 0 50 V V C CNN
+F1 "R_Potentiometer_US" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
