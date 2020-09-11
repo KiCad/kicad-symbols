@@ -96,7 +96,7 @@ K trimmer variable capacitor
 F ~
 $ENDCMP
 #
-$CMP C_Trim_Dif
+$CMP C_Trim_Differential
 D Differential variable capacitor with two stators
 K trimmer capacitor
 F ~
@@ -1086,7 +1086,7 @@ K EMI filter
 F ~
 $ENDCMP
 #
-$CMP Filter_LL_EMI_1423
+$CMP Filter_EMI_LL_1423
 D EMI 2-inductor filter, pin-connections 1-4 and 2-3
 K EMI filter common-mode choke
 F ~
@@ -1176,7 +1176,7 @@ K heater R resistor
 F ~
 $ENDCMP
 #
-$CMP Jumper
+$CMP Jumper_NC
 D Jumper, normally closed
 K jumper bridge link NC
 F ~
@@ -1362,7 +1362,7 @@ K LED RGB diode
 F ~
 $ENDCMP
 #
-$CMP LED_Dual_2Pin
+$CMP LED_Dual_Bidirectional
 D Dual LED, bidirectional
 K LED diode bicolor dual
 F ~
@@ -1602,145 +1602,145 @@ K inductor choke coil reactor magnetic
 F ~
 $ENDCMP
 #
-$CMP L_Core_Ferrite
+$CMP L_Ferrite
 D Inductor with ferrite core
 K inductor choke coil reactor magnetic
 F ~
 $ENDCMP
 #
-$CMP L_Core_Ferrite_Coupled
+$CMP L_Ferrite_Coupled
 D Coupled inductor with ferrite core
 K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
-$CMP L_Core_Ferrite_Coupled_1243
+$CMP L_Ferrite_Coupled_1243
 D Coupled inductor with ferrite core
 K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
-$CMP L_Core_Ferrite_Coupled_1324
+$CMP L_Ferrite_Coupled_1324
 D Coupled inductor with ferrite core
 K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
-$CMP L_Core_Ferrite_Coupled_1342
+$CMP L_Ferrite_Coupled_1342
 D Coupled inductor with ferrite core
 K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
-$CMP L_Core_Ferrite_Coupled_1423
+$CMP L_Ferrite_Coupled_1423
 D Coupled inductor with ferrite core
 K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
-$CMP L_Core_Ferrite_Coupled_Small
+$CMP L_Ferrite_Coupled_Small
 D Coupled inductor with ferrite core, small symbol
 K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
-$CMP L_Core_Ferrite_Coupled_Small_1243
+$CMP L_Ferrite_Coupled_Small_1243
 D Coupled inductor with ferrite core, small symbol
 K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
-$CMP L_Core_Ferrite_Coupled_Small_1324
+$CMP L_Ferrite_Coupled_Small_1324
 D Coupled inductor with ferrite core, small symbol
 K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
-$CMP L_Core_Ferrite_Coupled_Small_1342
+$CMP L_Ferrite_Coupled_Small_1342
 D Coupled inductor with ferrite core, small symbol
 K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
-$CMP L_Core_Ferrite_Coupled_Small_1423
+$CMP L_Ferrite_Coupled_Small_1423
 D Coupled inductor with ferrite core, small symbol
 K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
-$CMP L_Core_Ferrite_Small
+$CMP L_Ferrite_Small
 D Inductor with ferrite core, small symbol
 K inductor choke coil reactor magnetic
 F ~
 $ENDCMP
 #
-$CMP L_Core_Iron
+$CMP L_Iron
 D Inductor with iron core
 K inductor choke coil reactor magnetic
 F ~
 $ENDCMP
 #
-$CMP L_Core_Iron_Coupled
+$CMP L_Iron_Coupled
 D Coupled inductor with iron core
 K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
-$CMP L_Core_Iron_Coupled_1243
+$CMP L_Iron_Coupled_1243
 D Coupled inductor with iron core
 K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
-$CMP L_Core_Iron_Coupled_1324
+$CMP L_Iron_Coupled_1324
 D Coupled inductor with iron core
 K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
-$CMP L_Core_Iron_Coupled_1342
+$CMP L_Iron_Coupled_1342
 D Coupled inductor with iron core
 K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
-$CMP L_Core_Iron_Coupled_1423
+$CMP L_Iron_Coupled_1423
 D Coupled inductor with iron core
 K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
-$CMP L_Core_Iron_Coupled_Small
+$CMP L_Iron_Coupled_Small
 D Coupled inductor with iron core, small symbol
 K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
-$CMP L_Core_Iron_Coupled_Small_1243
+$CMP L_Iron_Coupled_Small_1243
 D Coupled inductor with iron core, small symbol
 K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
-$CMP L_Core_Iron_Coupled_Small_1324
+$CMP L_Iron_Coupled_Small_1324
 D Coupled inductor with iron core, small symbol
 K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
-$CMP L_Core_Iron_Coupled_Small_1342
+$CMP L_Iron_Coupled_Small_1342
 D Coupled inductor with iron core, small symbol
 K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
-$CMP L_Core_Iron_Coupled_Small_1423
+$CMP L_Iron_Coupled_Small_1423
 D Coupled inductor with iron core, small symbol
 K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
-$CMP L_Core_Iron_Small
+$CMP L_Iron_Small
 D Inductor with iron core, small symbol
 K inductor choke coil reactor magnetic
 F ~
@@ -1926,13 +1926,13 @@ K ohmmeter resistance
 F ~
 $ENDCMP
 #
-$CMP Opamp_Dual_Generic
+$CMP Opamp_Dual
 D Dual operational amplifier
 K dual opamp
 F ~
 $ENDCMP
 #
-$CMP Opamp_Quad_Generic
+$CMP Opamp_Quad
 D Quad operational amplifier
 K quad opamp
 F ~
@@ -2622,13 +2622,13 @@ K R res resistor
 F ~
 $ENDCMP
 #
-$CMP RFShield_One_Piece
+$CMP RFShield_OnePiece
 D One-piece EMI RF shielding cabinet
 K RF EMI shielding cabinet
 F ~
 $ENDCMP
 #
-$CMP RFShield_Two_Pieces
+$CMP RFShield_TwoPieces
 D Two-piece EMI RF shielding cabinet
 K RF EMI shielding cabinet
 F ~

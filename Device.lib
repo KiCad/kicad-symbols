@@ -306,11 +306,11 @@ X ~ 2 0 -150 120 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_Trim_Dif
+# C_Trim_Differential
 #
-DEF C_Trim_Dif C 0 10 Y N 1 F N
+DEF C_Trim_Differential C 0 10 Y N 1 F N
 F0 "C" 200 50 50 H V L CNN
-F1 "C_Trim_Dif" 200 -25 50 H V L CNN
+F1 "C_Trim_Differential" 200 -25 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -4294,11 +4294,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Jumper
+# Jumper_NC
 #
-DEF Jumper JP 0 30 Y N 1 F N
+DEF Jumper_NC JP 0 30 Y N 1 F N
 F0 "JP" 0 150 50 H V C CNN
-F1 "Jumper" 0 -80 50 H V C CNN
+F1 "Jumper_NC" 0 -80 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -5677,11 +5677,11 @@ X BA 4 200 -200 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LED_Dual_2Pin
+# LED_Dual_Bidirectional
 #
-DEF LED_Dual_2Pin D 0 0 Y N 1 F N
+DEF LED_Dual_Bidirectional D 0 0 Y N 1 F N
 F0 "D" 0 225 50 H V C CNN
-F1 "LED_Dual_2Pin" 0 -250 50 H V C CNN
+F1 "LED_Dual_Bidirectional" 0 -250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -7420,11 +7420,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# L_Core_Ferrite
+# L_Ferrite
 #
-DEF L_Core_Ferrite L 0 40 N N 1 F N
+DEF L_Ferrite L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "L_Core_Ferrite" 110 0 50 V V C CNN
+F1 "L_Ferrite" 110 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -7455,11 +7455,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# L_Core_Ferrite_Coupled
+# L_Ferrite_Coupled
 #
-DEF L_Core_Ferrite_Coupled L 0 10 Y N 1 F N
+DEF L_Ferrite_Coupled L 0 10 Y N 1 F N
 F0 "L" 0 175 50 H V C CNN
-F1 "L_Core_Ferrite_Coupled" 0 -175 50 H V C CNN
+F1 "L_Ferrite_Coupled" 0 -175 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -7504,11 +7504,11 @@ X 4 4 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# L_Core_Ferrite_Coupled_1243
+# L_Ferrite_Coupled_1243
 #
-DEF L_Core_Ferrite_Coupled_1243 L 0 10 Y N 1 F N
+DEF L_Ferrite_Coupled_1243 L 0 10 Y N 1 F N
 F0 "L" 0 175 50 H V C CNN
-F1 "L_Core_Ferrite_Coupled_1243" 0 -175 50 H V C CNN
+F1 "L_Ferrite_Coupled_1243" 0 -175 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -7553,11 +7553,11 @@ X 4 4 -200 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# L_Core_Ferrite_Coupled_1324
+# L_Ferrite_Coupled_1324
 #
-DEF L_Core_Ferrite_Coupled_1324 L 0 10 Y N 1 F N
+DEF L_Ferrite_Coupled_1324 L 0 10 Y N 1 F N
 F0 "L" 0 175 50 H V C CNN
-F1 "L_Core_Ferrite_Coupled_1324" 0 -175 50 H V C CNN
+F1 "L_Ferrite_Coupled_1324" 0 -175 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -7602,11 +7602,11 @@ X 4 4 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# L_Core_Ferrite_Coupled_1342
+# L_Ferrite_Coupled_1342
 #
-DEF L_Core_Ferrite_Coupled_1342 L 0 10 Y N 1 F N
+DEF L_Ferrite_Coupled_1342 L 0 10 Y N 1 F N
 F0 "L" 0 175 50 H V C CNN
-F1 "L_Core_Ferrite_Coupled_1342" 0 -175 50 H V C CNN
+F1 "L_Ferrite_Coupled_1342" 0 -175 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -7651,11 +7651,11 @@ X 4 4 -200 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# L_Core_Ferrite_Coupled_1423
+# L_Ferrite_Coupled_1423
 #
-DEF L_Core_Ferrite_Coupled_1423 L 0 10 Y N 1 F N
+DEF L_Ferrite_Coupled_1423 L 0 10 Y N 1 F N
 F0 "L" 0 175 50 H V C CNN
-F1 "L_Core_Ferrite_Coupled_1423" 0 -175 50 H V C CNN
+F1 "L_Ferrite_Coupled_1423" 0 -175 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -7700,11 +7700,11 @@ X 4 4 200 100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# L_Core_Ferrite_Coupled_Small
+# L_Ferrite_Coupled_Small
 #
-DEF L_Core_Ferrite_Coupled_Small L 0 10 Y N 1 F N
+DEF L_Ferrite_Coupled_Small L 0 10 Y N 1 F N
 F0 "L" 0 125 50 H V C CNN
-F1 "L_Core_Ferrite_Coupled_Small" 0 -125 50 H V C CNN
+F1 "L_Ferrite_Coupled_Small" 0 -125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -7745,11 +7745,11 @@ X 4 4 100 -50 20 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# L_Core_Ferrite_Coupled_Small_1243
+# L_Ferrite_Coupled_Small_1243
 #
-DEF L_Core_Ferrite_Coupled_Small_1243 L 0 10 Y N 1 F N
+DEF L_Ferrite_Coupled_Small_1243 L 0 10 Y N 1 F N
 F0 "L" 0 125 50 H V C CNN
-F1 "L_Core_Ferrite_Coupled_Small_1243" 0 -125 50 H V C CNN
+F1 "L_Ferrite_Coupled_Small_1243" 0 -125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -7790,11 +7790,11 @@ X 4 4 -100 -50 20 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# L_Core_Ferrite_Coupled_Small_1324
+# L_Ferrite_Coupled_Small_1324
 #
-DEF L_Core_Ferrite_Coupled_Small_1324 L 0 10 Y N 1 F N
+DEF L_Ferrite_Coupled_Small_1324 L 0 10 Y N 1 F N
 F0 "L" 0 125 50 H V C CNN
-F1 "L_Core_Ferrite_Coupled_Small_1324" 0 -125 50 H V C CNN
+F1 "L_Ferrite_Coupled_Small_1324" 0 -125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -7835,11 +7835,11 @@ X 4 4 100 -50 20 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# L_Core_Ferrite_Coupled_Small_1342
+# L_Ferrite_Coupled_Small_1342
 #
-DEF L_Core_Ferrite_Coupled_Small_1342 L 0 10 Y N 1 F N
+DEF L_Ferrite_Coupled_Small_1342 L 0 10 Y N 1 F N
 F0 "L" 0 125 50 H V C CNN
-F1 "L_Core_Ferrite_Coupled_Small_1342" 0 -125 50 H V C CNN
+F1 "L_Ferrite_Coupled_Small_1342" 0 -125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -7880,11 +7880,11 @@ X 4 4 -100 -50 20 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# L_Core_Ferrite_Coupled_Small_1423
+# L_Ferrite_Coupled_Small_1423
 #
-DEF L_Core_Ferrite_Coupled_Small_1423 L 0 10 Y N 1 F N
+DEF L_Ferrite_Coupled_Small_1423 L 0 10 Y N 1 F N
 F0 "L" 0 125 50 H V C CNN
-F1 "L_Core_Ferrite_Coupled_Small_1423" 0 -125 50 H V C CNN
+F1 "L_Ferrite_Coupled_Small_1423" 0 -125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -7925,11 +7925,11 @@ X 4 4 100 50 20 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# L_Core_Ferrite_Small
+# L_Ferrite_Small
 #
-DEF L_Core_Ferrite_Small L 0 10 N N 1 F N
+DEF L_Ferrite_Small L 0 10 N N 1 F N
 F0 "L" 50 40 50 H V L CNN
-F1 "L_Core_Ferrite_Small" 50 -50 50 H V L CNN
+F1 "L_Ferrite_Small" 50 -50 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -7964,11 +7964,11 @@ X ~ 2 0 -100 20 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# L_Core_Iron
+# L_Iron
 #
-DEF L_Core_Iron L 0 40 N N 1 F N
+DEF L_Iron L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "L_Core_Iron" 110 0 50 V V C CNN
+F1 "L_Iron" 110 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -7989,11 +7989,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# L_Core_Iron_Coupled
+# L_Iron_Coupled
 #
-DEF L_Core_Iron_Coupled L 0 10 Y N 1 F N
+DEF L_Iron_Coupled L 0 10 Y N 1 F N
 F0 "L" 0 175 50 H V C CNN
-F1 "L_Core_Iron_Coupled" 0 -175 50 H V C CNN
+F1 "L_Iron_Coupled" 0 -175 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -8028,11 +8028,11 @@ X 4 4 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# L_Core_Iron_Coupled_1243
+# L_Iron_Coupled_1243
 #
-DEF L_Core_Iron_Coupled_1243 L 0 10 Y N 1 F N
+DEF L_Iron_Coupled_1243 L 0 10 Y N 1 F N
 F0 "L" 0 175 50 H V C CNN
-F1 "L_Core_Iron_Coupled_1243" 0 -175 50 H V C CNN
+F1 "L_Iron_Coupled_1243" 0 -175 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -8067,11 +8067,11 @@ X 4 4 -200 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# L_Core_Iron_Coupled_1324
+# L_Iron_Coupled_1324
 #
-DEF L_Core_Iron_Coupled_1324 L 0 10 Y N 1 F N
+DEF L_Iron_Coupled_1324 L 0 10 Y N 1 F N
 F0 "L" 0 175 50 H V C CNN
-F1 "L_Core_Iron_Coupled_1324" 0 -175 50 H V C CNN
+F1 "L_Iron_Coupled_1324" 0 -175 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -8106,11 +8106,11 @@ X 4 4 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# L_Core_Iron_Coupled_1342
+# L_Iron_Coupled_1342
 #
-DEF L_Core_Iron_Coupled_1342 L 0 10 Y N 1 F N
+DEF L_Iron_Coupled_1342 L 0 10 Y N 1 F N
 F0 "L" 0 175 50 H V C CNN
-F1 "L_Core_Iron_Coupled_1342" 0 -175 50 H V C CNN
+F1 "L_Iron_Coupled_1342" 0 -175 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -8145,11 +8145,11 @@ X 4 4 -200 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# L_Core_Iron_Coupled_1423
+# L_Iron_Coupled_1423
 #
-DEF L_Core_Iron_Coupled_1423 L 0 10 Y N 1 F N
+DEF L_Iron_Coupled_1423 L 0 10 Y N 1 F N
 F0 "L" 0 175 50 H V C CNN
-F1 "L_Core_Iron_Coupled_1423" 0 -175 50 H V C CNN
+F1 "L_Iron_Coupled_1423" 0 -175 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -8184,11 +8184,11 @@ X 4 4 200 100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# L_Core_Iron_Coupled_Small
+# L_Iron_Coupled_Small
 #
-DEF L_Core_Iron_Coupled_Small L 0 10 Y N 1 F N
+DEF L_Iron_Coupled_Small L 0 10 Y N 1 F N
 F0 "L" 0 125 50 H V C CNN
-F1 "L_Core_Iron_Coupled_Small" 0 -125 50 H V C CNN
+F1 "L_Iron_Coupled_Small" 0 -125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -8217,11 +8217,11 @@ X 4 4 100 -50 20 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# L_Core_Iron_Coupled_Small_1243
+# L_Iron_Coupled_Small_1243
 #
-DEF L_Core_Iron_Coupled_Small_1243 L 0 10 Y N 1 F N
+DEF L_Iron_Coupled_Small_1243 L 0 10 Y N 1 F N
 F0 "L" 0 125 50 H V C CNN
-F1 "L_Core_Iron_Coupled_Small_1243" 0 -125 50 H V C CNN
+F1 "L_Iron_Coupled_Small_1243" 0 -125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -8250,11 +8250,11 @@ X 4 4 -100 -50 20 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# L_Core_Iron_Coupled_Small_1324
+# L_Iron_Coupled_Small_1324
 #
-DEF L_Core_Iron_Coupled_Small_1324 L 0 10 Y N 1 F N
+DEF L_Iron_Coupled_Small_1324 L 0 10 Y N 1 F N
 F0 "L" 0 125 50 H V C CNN
-F1 "L_Core_Iron_Coupled_Small_1324" 0 -125 50 H V C CNN
+F1 "L_Iron_Coupled_Small_1324" 0 -125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -8283,11 +8283,11 @@ X 4 4 100 -50 20 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# L_Core_Iron_Coupled_Small_1342
+# L_Iron_Coupled_Small_1342
 #
-DEF L_Core_Iron_Coupled_Small_1342 L 0 10 Y N 1 F N
+DEF L_Iron_Coupled_Small_1342 L 0 10 Y N 1 F N
 F0 "L" 0 125 50 H V C CNN
-F1 "L_Core_Iron_Coupled_Small_1342" 0 -125 50 H V C CNN
+F1 "L_Iron_Coupled_Small_1342" 0 -125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -8316,11 +8316,11 @@ X 4 4 -100 -50 20 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# L_Core_Iron_Coupled_Small_1423
+# L_Iron_Coupled_Small_1423
 #
-DEF L_Core_Iron_Coupled_Small_1423 L 0 10 Y N 1 F N
+DEF L_Iron_Coupled_Small_1423 L 0 10 Y N 1 F N
 F0 "L" 0 125 50 H V C CNN
-F1 "L_Core_Iron_Coupled_Small_1423" 0 -125 50 H V C CNN
+F1 "L_Iron_Coupled_Small_1423" 0 -125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -8349,11 +8349,11 @@ X 4 4 100 50 20 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# L_Core_Iron_Small
+# L_Iron_Small
 #
-DEF L_Core_Iron_Small L 0 10 N N 1 F N
+DEF L_Iron_Small L 0 10 N N 1 F N
 F0 "L" 50 40 50 H V L CNN
-F1 "L_Core_Iron_Small" 50 -50 50 H V L CNN
+F1 "L_Iron_Small" 50 -50 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -9194,11 +9194,11 @@ X + 2 0 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Opamp_Dual_Generic
+# Opamp_Dual
 #
-DEF Opamp_Dual_Generic U 0 20 Y Y 3 L N
+DEF Opamp_Dual U 0 20 Y Y 3 L N
 F0 "U" 0 200 50 H V L CNN
-F1 "Opamp_Dual_Generic" 0 -200 50 H V L CNN
+F1 "Opamp_Dual" 0 -200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -9224,11 +9224,11 @@ X V+ 8 -100 300 150 D 50 50 3 1 W
 ENDDRAW
 ENDDEF
 #
-# Opamp_Quad_Generic
+# Opamp_Quad
 #
-DEF Opamp_Quad_Generic U 0 20 Y Y 5 L N
+DEF Opamp_Quad U 0 20 Y Y 5 L N
 F0 "U" 0 200 50 H V L CNN
-F1 "Opamp_Quad_Generic" 0 -200 50 H V L CNN
+F1 "Opamp_Quad" 0 -200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
