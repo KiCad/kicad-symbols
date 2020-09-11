@@ -3487,7 +3487,7 @@ F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
 $CMP LP38512MR-ADJ
-D 1.5A Fast-Transient Response Low-Dropout Linear Voltage Regulator with Error Flag, Adjustable Output, SO-8
+D 1.5A Fast-Transient Response Low-Dropout Linear Voltage Regulator with Error Flag, Adjustable Output, HTSOP-8
 K LDO Linear Regulator
 F http://www.ti.com/lit/ds/symlink/lp38512-adj.pdf
 $ENDCMP
@@ -3505,8 +3505,8 @@ F http://www.ti.com/lit/ds/symlink/lp38512-adj.pdf
 $ENDCMP
 #
 $CMP LP38512TS-1.8
-D 1.5A Fast-Transient Response Low-Dropout Linear Voltage Regulator with Error Flag, 1.8V Output, TO-263/DDPAK/D2PAK
-K LDO Linear Regulator
+D 1.5A Fast-Transient Response Low-Dropout Linear Voltage Regulator with Error Flag, 1.8V Output, TO-263
+K LDO Linear Regulator DDPAK D2PAK
 F http://www.ti.com/lit/ds/symlink/lp38512.pdf
 $ENDCMP
 #
