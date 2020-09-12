@@ -6,4 +6,10 @@ K N-Channel IGBT Power Transistor
 F http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf
 $ENDCMP
 #
+$CMP STGP7NC60HD
+D 25A, 600V, N-Channel IGBT, TO-220
+K N-Channel very fast IGBT with ultrafast diode Power Transistor
+F http://www.farnell.com/datasheets/2309889.pdf
+$ENDCMP
+#
 #End Doc Library

@@ -8,8 +8,14 @@ $ENDCMP
 #
 $CMP 628128_TSOP32
 D 128K x 8 High-Speed CMOS Static RAM, 55/70ns, TSOP-I-32
-K RAM SRAM CMOS MEMORY 
+K RAM SRAM CMOS MEMORY
 F http://www.futurlec.com/Datasheet/Memory/628128.pdf
+$ENDCMP
+#
+$CMP AS4C256M16D3
+D 4Gb (256Mx16 bit) Double Data Rate 3 Synchronous DRAM
+K DDR3 DRAM MEMORY
+F https://www.alliancememory.com/wp-content/uploads/pdf/ddr3/4GB-AS4C256M16D3.pdf
 $ENDCMP
 #
 $CMP AS4C4M16SA
@@ -24,6 +30,18 @@ K memory SRAM
 F https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1616-TSOPI.pdf
 $ENDCMP
 #
+$CMP AS6C4008-55PCN
+D 512K x 8 Low Power CMOS RAM, DIP-32
+K RAM SRAM CMOS MEMORY
+F https://www.alliancememory.com/wp-content/uploads/pdf/AS6C4008.pdf
+$ENDCMP
+#
+$CMP CY62256-70PC
+D 256K (32K x 8) Static RAM, 70ns, DIP-28
+K RAM SRAM CMOS MEMORY
+F https://ecee.colorado.edu/~mcclurel/Cypress_SRAM_CY62256.pdf
+$ENDCMP
+#
 $CMP ESP-PSRAM32
 D 32 Mbit serial pseudo SRAM device organized as 4Mx8 bits, 1.8 VCC, SOIC8 (SOP8)
 K 32 Mbit serial pseudo SRAM MEMORY
@@ -34,6 +52,18 @@ $CMP H5AN8G8NAFR-UHC
 D 8Gb CMOS Double Data Rate IV Synchronous RAM
 K DDR4 DRAM MEMORY
 F https://www.skhynix.com/product/filedata/fileDownload.do?seq=7687
+$ENDCMP
+#
+$CMP HM62256BLP
+D 32,768-word × 8-bit High Speed CMOS Static RAM, 70ns, DIP-28
+K RAM SRAM CMOS MEMORY
+F https://web.mit.edu/6.115/www/document/62256.pdf
+$ENDCMP
+#
+$CMP IDT7006PF
+D 16K x 8 Dual-Port SRAM, TQFP-64
+K dual-port ram
+F https://www.idt.com/document/dst/7006-data-sheet
 $ENDCMP
 #
 $CMP IDT71V65903S
@@ -130,10 +160,34 @@ K SRAM MEMORY
 F http://www.issi.com/WW/pdf/61-64C5128AL.pdf
 $ENDCMP
 #
-$CMP AS6C4008-55PCN
-D 512K x 8 Low Power CMOS RAM, DIP-32
+$CMP KM62256CLP
+D 32Kx8 bit Low Power CMOS Static RAM, 55/70ns, DIP-28
 K RAM SRAM CMOS MEMORY
-F https://www.alliancememory.com/wp-content/uploads/pdf/AS6C4008.pdf
+F https://www.futurlec.com/Datasheet/Memory/62256.pdf
+$ENDCMP
+#
+$CMP W9812G6KH-5
+D 128Mb Synchronous DRAM, 2 Mb x 16 b x 4 Banks, 200 MHz, TSOP-II-54
+K DRAM MEMORY
+F https://www.winbond.com/resource-files/da00-w9812g6khc1.pdf
+$ENDCMP
+#
+$CMP W9812G6KH-6
+D 128Mb Synchronous DRAM, 2 Mb x 16 b x 4 Banks, 166 MHz, TSOP-II-54
+K DRAM MEMORY
+F https://www.winbond.com/resource-files/da00-w9812g6khc1.pdf
+$ENDCMP
+#
+$CMP W9812G6KH-6I
+D 128Mb Synchronous DRAM, 2 Mb x 16 b x 4 Banks, 166 MHz, TSOP-II-54
+K DRAM MEMORY
+F https://www.winbond.com/resource-files/da00-w9812g6khc1.pdf
+$ENDCMP
+#
+$CMP W9812G6KH-75
+D 128Mb Synchronous DRAM, 2 Mb x 16 b x 4 Banks, 133 MHz, TSOP-II-54
+K DRAM MEMORY
+F https://www.winbond.com/resource-files/da00-w9812g6khc1.pdf
 $ENDCMP
 #
 #End Doc Library
