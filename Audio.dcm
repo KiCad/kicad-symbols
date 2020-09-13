@@ -210,6 +210,12 @@ K audio dac 2ch 24bit 192kHz
 F http://www.ti.com/lit/ds/symlink/pcm1794a.pdf
 $ENDCMP
 #
+$CMP PCM2707CPJTR
+D USB Audio Stereo DAC with 16-bits, 32kHz, 44.1kHz, 48kHz PCM Interface, TQFP-32
+K audio dac 2ch 16bit
+F http://www.ti.com/lit/ds/symlink/pcm2707c.pdf
+$ENDCMP
+#
 $CMP PCM5100
 D 2VRMS DirectPath, 100dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface, TSSOP-20
 K audio dac 2ch 32bit 384kHz
