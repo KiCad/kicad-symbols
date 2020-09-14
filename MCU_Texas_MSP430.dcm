@@ -636,6 +636,12 @@ K TI MSP430 16-bit mixed signal microcontroller
 F http://www.ti.com/lit/ds/symlink/msp430f2370.pdf
 $ENDCMP
 #
+$CMP MSP430F2618-EP
+D 116kB + 256B Flash, 8K RAM, 113-BGA
+K TI MSP430 16-bit mixed signal microcontroller
+F http://www.ti.com/lit/ds/symlink/msp430f2618-ep.pdf
+$ENDCMP
+#
 $CMP MSP430F5217IRGC
 D 64kB Flash, 8kB RAM, QFN-64
 K TI MSP430 16-bit mixed signal microcontroller

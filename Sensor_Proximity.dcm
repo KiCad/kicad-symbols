@@ -48,6 +48,30 @@ K Reflective Optical Sensor Opto
 F http://www.kingbright.com/attachments/file/psearch/000/00/00/KRC011(Ver.15).pdf
 $ENDCMP
 #
+$CMP LDC1312
+D Inductance to digital converter, 2-channel 12-bit, WSON-12
+K inductance sensor
+F http://www.ti.com/lit/ds/symlink/ldc1312.pdf
+$ENDCMP
+#
+$CMP LDC1314
+D Inductance to digital converter, 4-channel 12-bit, WQFN-16
+K inductance sensor
+F http://www.ti.com/lit/ds/symlink/ldc1312.pdf
+$ENDCMP
+#
+$CMP LDC1612
+D Inductance to digital converter, 2-channel 28-bit, WSON-12
+K inductance sensor
+F http://www.ti.com/lit/ds/symlink/ldc1612.pdf
+$ENDCMP
+#
+$CMP LDC1614
+D Inductance to digital converter, 4-channel 28-bit, WQFN-16
+K inductance sensor
+F http://www.ti.com/lit/ds/symlink/ldc1612.pdf
+$ENDCMP
+#
 $CMP LG206D
 D Photointerrupter infrared LED with photo IC, non-inverting output, -0.5V to 17V VDD, -20 to +85 degree Celsius, LG206D
 K Photointerrupter infrared LED with photo IC, non-inverting output, -0.5V to 17V VDD, -20 to +85 degree Celsius, LG206D
