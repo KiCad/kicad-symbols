@@ -1,11 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP CH376T
-D File Management USB Flash Card SD Interface, SSOP-20
-K USB Mass-Storage SD Card Interface
-F https://www.mpja.com/download/ch376ds1.pdf
-$ENDCMP
-#
 $CMP 5PB1108PGxx
 D 1:8 LVCMOS High-Performance Clock Buffer, 1.8V to 3.3V, TSSOP-16
 K clock buffer lvcmos
@@ -159,6 +153,12 @@ K Clock Buffer LVDS
 F http://www.ti.com/lit/ds/symlink/cdclvp1102.pdf
 $ENDCMP
 #
+$CMP CH376T
+D File Management USB Flash Card SD Interface, SSOP-20
+K USB Mass-Storage SD Card Interface
+F https://www.mpja.com/download/ch376ds1.pdf
+$ENDCMP
+#
 $CMP DS90C124
 D DC-Balanced 24-Bit FPD-Link II Deserializer, TQFP-48
 K DC-Balanced 24-Bit FPD-Link II Deserializer
@@ -207,16 +207,16 @@ K lvds driver reciever
 F http://www.onsemi.com/pub/Collateral/FIN1019-D.pdf
 $ENDCMP
 #
-$CMP HT12E
-D 2^12 serial encoder, SOP-20
-K Serial Encoder
-F https://www.holtek.com/documents/10179/116711/2_12ev120.pdf
-$ENDCMP
-#
 $CMP HT12D
 D 2^12 serial decoder, SOP-20
 K Serial Decoder
 F https://www.holtek.com/documents/10179/116711/2_12dv120.pdf
+$ENDCMP
+#
+$CMP HT12E
+D 2^12 serial encoder, SOP-20
+K Serial Encoder
+F https://www.holtek.com/documents/10179/116711/2_12ev120.pdf
 $ENDCMP
 #
 $CMP LTC1518
@@ -421,6 +421,11 @@ $CMP PCA9306DP
 D Dual bidirectional I2C Bus and SMBus voltage level translator, TSSOP-8
 K I2C SMBus
 F https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf
+$ENDCMP
+#
+$CMP PCA9540BDP_Q900J
+D Encoders, Decoders, Multiplexers & Demultiplexers PCA9540BDP/TSSOP8//Q900/REEL 13 Q1 NDP
+F http://www.nxp.com/docs/en/data-sheet/PCA9540B.pdf
 $ENDCMP
 #
 $CMP PCA9600D
