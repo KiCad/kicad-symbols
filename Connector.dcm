@@ -1284,6 +1284,12 @@ K lan jack transformer
 F https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/JXD6-0001NL/doc_part/JXD6-0001NL.pdf
 $ENDCMP
 #
+$CMP QFS-026-04.25L-D-A-RT1
+D Board to Board & Mezzanine Connectors 0.635 mm Q2 High-Speed Rugged Ground Plane Socket Strip
+K Samtec QFS
+F http://suddendocs.samtec.com/prints/qfxx-xxx-xx.xx-x-d-x-xxx-footprint.pdf
+$ENDCMP
+#
 $CMP RJ10
 D RJ connector, 4P4C (4 positions 4 connected)
 K 4P4C RJ female connector
