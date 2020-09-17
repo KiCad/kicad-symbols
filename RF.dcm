@@ -6,10 +6,22 @@ K Directional Coupler
 F https://www.minicircuits.com/pdfs/ADC-10-1R.pdf
 $ENDCMP
 #
-$CMP ADE-6
-D Mixer, +7 dBm LO, 0.05 to 250 MHz
-K mixer rf
-F www.minicircuits.com/pdfs/ADE-6.pdf
+$CMP ADCH-80
+D 50-10000MHz, RF Choke, Mini-Circuits CD542
+K bias filter DC choke
+F https://www.minicircuits.com/pdfs/ADCH-80+.pdf
+$ENDCMP
+#
+$CMP ADCH-80A
+D 50-10000MHz, RF Choke, Mini-Circuits CD542
+K bias filter DC choke
+F https://www.minicircuits.com/pdfs/ADCH-80A+.pdf
+$ENDCMP
+#
+$CMP ADL5904
+D DC to 6 GHz, 45 dB TruPwr Detector with Envelope Threshold Detection, LFCSP-16
+K RMS power detector log decibel dB
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5904.pdf
 $ENDCMP
 #
 $CMP ADP-2-1W
@@ -22,6 +34,12 @@ $CMP AMK-2-13
 D 2x Frequency Multiplier, output 20 to 1000 MHz, 50 Ohm, Mini-Circuits CD542
 K frequency multiplier
 F https://www.minicircuits.com/pdfs/AMK-2-13+.pdf
+$ENDCMP
+#
+$CMP AX5043
+D Advanced High Performance ASK and FSK Narrow-band Transceiver for 27 - 1050 MHz Range
+K RF, tranceiver
+F https://www.onsemi.com/pub/Collateral/AX5043-D.PDF
 $ENDCMP
 #
 $CMP CC1000
@@ -213,7 +231,7 @@ $ENDCMP
 $CMP SE5004L
 D 5 GHz, 26dBm Power Amplifier with Power Detector, QFN-20
 K RF Power Amplifier
-F http://www.skyworksinc.com/uploads/documents/SE5004L_202393B.pdf
+F https://www.skyworksinc.com/-/media/SkyWorks/Documents/Products/601-700/SE5004L_202393B.pdf
 $ENDCMP
 #
 $CMP SX1272
@@ -268,6 +286,12 @@ $CMP Si4464
 D High-Performance, Low-Current Sub-GHz Transceiver, +20dBm, Banded 119-960 MHz, QFN-20
 K transceiver sub-ghz radio ism
 F https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf
+$ENDCMP
+#
+$CMP TCP-2-10X
+D Power splitter combiner, 5 to 1000 MHz, 2 way 0-degree, 50 ohm, Mini-Circuits DB1627
+K splitter combiner
+F https://www.minicircuits.com/pdfs/TCP-2-10X+.pdf
 $ENDCMP
 #
 $CMP nRF24L01P

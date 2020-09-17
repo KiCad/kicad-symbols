@@ -54,6 +54,12 @@ K common mode filter ESD protection
 F https://assets.nexperia.com/documents/data-sheet/IP3319CX6.pdf
 $ENDCMP
 #
+$CMP NUF4401MN
+D 4 channel EMI filters with integrated ESD protection, DFN-8
+K EMI, ESD protection
+F https://www.onsemi.com/pub/Collateral/NUF4401MN-D.PDF
+$ENDCMP
+#
 $CMP NUP2105L
 D Dual Line CAN Bus Protector, 24Vrwm
 K can esd protection suppression transient
@@ -276,6 +282,12 @@ K ESD-Protection
 F http://www.ti.com/lit/ds/symlink/tpd3s014.pdf
 $ENDCMP
 #
+$CMP TPD4E02B04DQA
+D 4-Channel ESD Protection Diode for USB Type-C and HDMI 2.0, USON-10
+K ESD protection USB HDMI
+F http://www.ti.com/lit/ds/symlink/tpd4e02b04.pdf
+$ENDCMP
+#
 $CMP TPD4EUSB30
 D 4-Channel ESD Protection for Super-Speed USB 3.0 Interface, USON-10
 K ESD protection USB 3.0
@@ -348,10 +360,28 @@ K ESD USB
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/3e/ec/b2/54/b2/76/47/90/CD00001361.pdf/files/CD00001361.pdf/jcr:content/translations/en.CD00001361.pdf
 $ENDCMP
 #
+$CMP USBLC6-2P6
+D Very low capacitance ESD protection diode, 2 data-line, SOT-666
+K usb ethernet video
+F https://www.st.com/resource/en/datasheet/usblc6-2.pdf
+$ENDCMP
+#
 $CMP USBLC6-2SC6
-D Bidirectional ESD Protection Diode, SOT-23-6
-K usb ethernet
-F http://www2.st.com/resource/en/datasheet/CD00050750.pdf
+D Very low capacitance ESD protection diode, 2 data-line, SOT-23-6
+K usb ethernet video
+F https://www.st.com/resource/en/datasheet/usblc6-2.pdf
+$ENDCMP
+#
+$CMP USBLC6-4SC6
+D Very low capacitance ESD protection diode, 4 data-line, SOT-23-6
+K usb ethernet sim card video
+F https://www.st.com/resource/en/datasheet/usblc6-4.pdf
+$ENDCMP
+#
+$CMP WE-TVS-82400102
+D Low Capacitance TVS Diode Array, 2 Channels, SOT-23-6
+K ESD Protection TVS High-speed USB
+F https://katalog.we-online.de/pbs/datasheet/82400102.pdf
 $ENDCMP
 #
 $CMP WE-TVS-824014881

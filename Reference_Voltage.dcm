@@ -30,6 +30,42 @@ K 5V voltage reference
 F https://www.analog.com/media/en/technical-documentation/data-sheets/adr420_421_423_425.pdf
 $ENDCMP
 #
+$CMP ADR4520
+D 2.048V, Ultralow Noise, High Accuracy Voltage Reference, SOIC-8
+K vref
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADR4520_4525_4530_4533_4540_4550.pdf
+$ENDCMP
+#
+$CMP ADR4525
+D 2.5V, Ultralow Noise, High Accuracy Voltage Reference, SOIC-8
+K vref
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADR4520_4525_4530_4533_4540_4550.pdf
+$ENDCMP
+#
+$CMP ADR4530
+D 3.0V,  Ultralow Noise, High Accuracy Voltage Reference, SOIC-8
+K vref
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADR4520_4525_4530_4533_4540_4550.pdf
+$ENDCMP
+#
+$CMP ADR4533
+D 3.3V,  Ultralow Noise, High Accuracy Voltage Reference, SOIC-8
+K vref
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADR4520_4525_4530_4533_4540_4550.pdf
+$ENDCMP
+#
+$CMP ADR4540
+D 4.096V,  Ultralow Noise, High Accuracy Voltage Reference, SOIC-8
+K vref
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADR4520_4525_4530_4533_4540_4550.pdf
+$ENDCMP
+#
+$CMP ADR4550
+D 5.0V,  Ultralow Noise, High Accuracy Voltage Reference, SOIC-8
+K vref
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADR4520_4525_4530_4533_4540_4550.pdf
+$ENDCMP
+#
 $CMP CJ432
 D Shunt Regulator, SOT-23
 K diode device shunt regulator
@@ -100,6 +136,12 @@ $CMP LM285Z-ADJ
 D Adjustable Micropower Voltage Reference Diodes, TO-92
 K diode device voltage reference
 F http://www.ti.com/lit/ds/symlink/lm185-adj.pdf
+$ENDCMP
+#
+$CMP LM329xZ
+D 6.9V Precision Voltage Reference, TO-92
+K diode device voltage reference shunt
+F https://www.analog.com/media/en/technical-documentation/data-sheets/129329fd.pdf
 $ENDCMP
 #
 $CMP LM385BZ-1.2
@@ -336,6 +378,126 @@ K voltage reference vref
 F https://www.analog.com/media/en/technical-documentation/data-sheets/1019fd.pdf
 $ENDCMP
 #
+$CMP LT1461AxS8-2.5
+D Voltage Reference, +/-0.04%, 2.5V, 100mA, 3V-20V Vin, SOIC-8
+K voltage reference precision
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1461.pdf
+$ENDCMP
+#
+$CMP LT1461AxS8-3
+D Voltage Reference, +/-0.04%, 3V, 100mA, 3.5V-20V Vin, SOIC-8
+K voltage reference precision
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1461.pdf
+$ENDCMP
+#
+$CMP LT1461AxS8-3.3
+D Voltage Reference, +/-0.04%, 3.3V, 100mA, 3.8V-20V Vin, SOIC-8
+K voltage reference precision
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1461.pdf
+$ENDCMP
+#
+$CMP LT1461AxS8-4
+D Voltage Reference, +/-0.04%, 4.096V, 100mA, 4.596V-20V Vin, SOIC-8
+K voltage reference precision
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1461.pdf
+$ENDCMP
+#
+$CMP LT1461AxS8-5
+D Voltage Reference, +/-0.04%, 5V, 100mA, 5.5V-20V Vin, SOIC-8
+K voltage reference precision
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1461.pdf
+$ENDCMP
+#
+$CMP LT1461BxS8-2.5
+D Voltage Reference, +/-0.06%, 2.5V, 100mA, 3V-20V Vin, SOIC-8
+K voltage reference precision
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1461.pdf
+$ENDCMP
+#
+$CMP LT1461BxS8-3
+D Voltage Reference, +/-0.06%, 3V, 100mA, 3.5V-20V Vin, SOIC-8
+K voltage reference precision
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1461.pdf
+$ENDCMP
+#
+$CMP LT1461BxS8-3.3
+D Voltage Reference, +/-0.06%, 3.3V, 100mA, 3.8V-20V Vin, SOIC-8
+K voltage reference precision
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1461.pdf
+$ENDCMP
+#
+$CMP LT1461BxS8-4
+D Voltage Reference, +/-0.06%, 4.096V, 100mA, 4.596V-20V Vin, SOIC-8
+K voltage reference precision
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1461.pdf
+$ENDCMP
+#
+$CMP LT1461BxS8-5
+D Voltage Reference, +/-0.06%, 5V, 100mA, 5.5V-20V Vin, SOIC-8
+K voltage reference precision
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1461.pdf
+$ENDCMP
+#
+$CMP LT1461CxS8-2.5
+D Voltage Reference, +/-0.08%, 2.5V, 100mA, 3V-20V Vin, SOIC-8
+K voltage reference precision
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1461.pdf
+$ENDCMP
+#
+$CMP LT1461CxS8-3
+D Voltage Reference, +/-0.08%, 3V, 100mA, 3.5V-20V Vin, SOIC-8
+K voltage reference precision
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1461.pdf
+$ENDCMP
+#
+$CMP LT1461CxS8-3.3
+D Voltage Reference, +/-0.08%, 3.3V, 100mA, 3.8V-20V Vin, SOIC-8
+K voltage reference precision
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1461.pdf
+$ENDCMP
+#
+$CMP LT1461CxS8-4
+D Voltage Reference, +/-0.08%, 4.096V, 100mA, 4.596V-20V Vin, SOIC-8
+K voltage reference precision
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1461.pdf
+$ENDCMP
+#
+$CMP LT1461CxS8-5
+D Voltage Reference, +/-0.08%, 5V, 100mA, 5.5V-20V Vin, SOIC-8
+K voltage reference precision
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1461.pdf
+$ENDCMP
+#
+$CMP LT1461DxS8-2.5
+D Voltage Reference, +/-0.15%, 2.5V, 100mA, 3V-20V Vin, SOIC-8
+K voltage reference precision
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1461.pdf
+$ENDCMP
+#
+$CMP LT1461DxS8-3
+D Voltage Reference, +/-0.15%, 3V, 100mA, 3.5V-20V Vin, SOIC-8
+K voltage reference precision
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1461.pdf
+$ENDCMP
+#
+$CMP LT1461DxS8-3.3
+D Voltage Reference, +/-0.15%, 3.3V, 100mA, 3.8V-20V Vin, SOIC-8
+K voltage reference precision
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1461.pdf
+$ENDCMP
+#
+$CMP LT1461DxS8-4
+D Voltage Reference, +/-0.15%, 4.096V, 100mA, 4.596V-20V Vin, SOIC-8
+K voltage reference precision
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1461.pdf
+$ENDCMP
+#
+$CMP LT1461DxS8-5
+D Voltage Reference, +/-0.15%, 5V, 100mA, 5.5V-20V Vin, SOIC-8
+K voltage reference precision
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1461.pdf
+$ENDCMP
+#
 $CMP LT1790-1.25
 D 1.25V Voltage Reference, Low Dropout, Micropower, TSOT-23-6
 K voltage reference Micropower
@@ -546,6 +708,150 @@ K Low-Dropout Precision Voltage Reference
 F https://pdfserv.maximintegrated.com/en/ds/MAX872-MAX874.pdf
 $ENDCMP
 #
+$CMP MCP1501-10xCH
+D 1.024V, 0.1%, 20mA, Precision Voltage Reference, SOT-23-6
+K precision buffered voltage reference 1.024V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
+$ENDCMP
+#
+$CMP MCP1501-10xRW
+D 1.024V, 0.1%, 20mA, Precision Voltage Reference, WDFN-8
+K precision buffered voltage reference 1.024V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
+$ENDCMP
+#
+$CMP MCP1501-10xSN
+D 1.024V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8
+K precision buffered voltage reference 1.024V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
+$ENDCMP
+#
+$CMP MCP1501-12xCH
+D 1.25V, 0.1%, 20mA, Precision Voltage Reference, SOT-23-6
+K precision buffered voltage reference 1.25V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
+$ENDCMP
+#
+$CMP MCP1501-12xRW
+D 1.25V, 0.1%, 20mA, Precision Voltage Reference, WDFN-8
+K precision buffered voltage reference 1.25V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
+$ENDCMP
+#
+$CMP MCP1501-12xSN
+D 1.25V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8
+K precision buffered voltage reference 1.25V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
+$ENDCMP
+#
+$CMP MCP1501-18xCH
+D 1.8V, 0.1%, 20mA, Precision Voltage Reference, SOT-23-6
+K precision buffered voltage reference 1.8V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
+$ENDCMP
+#
+$CMP MCP1501-18xRW
+D 1.8V, 0.1%, 20mA, Precision Voltage Reference, WDFN-8
+K precision buffered voltage reference 1.8V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
+$ENDCMP
+#
+$CMP MCP1501-18xSN
+D 1.8V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8
+K precision buffered voltage reference 1.8V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
+$ENDCMP
+#
+$CMP MCP1501-20xCH
+D 2.048V, 0.1%, 20mA, Precision Voltage Reference, SOT-23-6
+K precision buffered voltage reference 2.048V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
+$ENDCMP
+#
+$CMP MCP1501-20xRW
+D 2.048V, 0.1%, 20mA, Precision Voltage Reference, WDFN-8
+K precision buffered voltage reference 2.048V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
+$ENDCMP
+#
+$CMP MCP1501-20xSN
+D 2.048V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8
+K precision buffered voltage reference 2.048V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
+$ENDCMP
+#
+$CMP MCP1501-25xCH
+D 2.5V, 0.1%, 20mA, Precision Voltage Reference, SOT-23-6
+K precision buffered voltage reference 2.5V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
+$ENDCMP
+#
+$CMP MCP1501-25xRW
+D 2.5V, 0.1%, 20mA, Precision Voltage Reference, WDFN-8
+K precision buffered voltage reference 2.5V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
+$ENDCMP
+#
+$CMP MCP1501-25xSN
+D 2.5V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8
+K precision buffered voltage reference 2.5V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
+$ENDCMP
+#
+$CMP MCP1501-30xCH
+D 3V, 0.1%, 20mA, Precision Voltage Reference, SOT-23-6
+K precision buffered voltage reference 3V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
+$ENDCMP
+#
+$CMP MCP1501-30xRW
+D 3V, 0.1%, 20mA, Precision Voltage Reference, WDFN-8
+K precision buffered voltage reference 3V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
+$ENDCMP
+#
+$CMP MCP1501-30xSN
+D 3V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8
+K precision buffered voltage reference 3V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
+$ENDCMP
+#
+$CMP MCP1501-33xCH
+D 3.3V, 0.1%, 20mA, Precision Voltage Reference, SOT-23-6
+K precision buffered voltage reference 3.3V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
+$ENDCMP
+#
+$CMP MCP1501-33xRW
+D 3.3V, 0.1%, 20mA, Precision Voltage Reference, WDFN-8
+K precision buffered voltage reference 3.3V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
+$ENDCMP
+#
+$CMP MCP1501-33xSN
+D 3.3V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8
+K precision buffered voltage reference 3.3V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
+$ENDCMP
+#
+$CMP MCP1501-40xCH
+D 4.096V, 0.1%, 20mA, Precision Voltage Reference, SOT-23-6
+K precision buffered voltage reference 4.096V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
+$ENDCMP
+#
+$CMP MCP1501-40xRW
+D 4.096V, 0.1%, 20mA, Precision Voltage Reference, WDFN-8
+K precision buffered voltage reference 4.096V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
+$ENDCMP
+#
+$CMP MCP1501-40xSN
+D 4.096V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8
+K precision buffered voltage reference 4.096V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
+$ENDCMP
+#
 $CMP MCP1525-TO
 D 2.5V Voltage Reference, TO-92
 K Voltage Reference 2.5V
@@ -570,6 +876,36 @@ K Voltage Reference 4.096V
 F http://ww1.microchip.com/downloads/en/devicedoc/21653b.pdf
 $ENDCMP
 #
+$CMP REF01CP
+D 10V ±100mV Precision Voltage Reference, PDIP-8
+K Precision Voltage Reference 10V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
+$ENDCMP
+#
+$CMP REF01CS
+D 10V ±100mV Precision Voltage Reference, SO-8
+K Precision Voltage Reference 10V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
+$ENDCMP
+#
+$CMP REF01EZ
+D 10V ±30mV Precision Voltage Reference, CERDIP-8
+K Precision Voltage Reference 10V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
+$ENDCMP
+#
+$CMP REF01HP
+D 10V ±50mV Precision Voltage Reference, PDIP-8
+K Precision Voltage Reference 10V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
+$ENDCMP
+#
+$CMP REF01HZ
+D 10V ±50mV Precision Voltage Reference, CERDIP-8
+K Precision Voltage Reference 10V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
+$ENDCMP
+#
 $CMP REF02AP
 D 5V ±15mV Precision Voltage Reference, PDIP-8
 K Precision Voltage Reference 5V
@@ -582,6 +918,12 @@ K Precision Voltage Reference 5V
 F http://www.ti.com/lit/ds/symlink/ref02.pdf
 $ENDCMP
 #
+$CMP REF02AZ
+D 5V ±15mV Precision Voltage Reference, CERDIP-8
+K Precision Voltage Reference 5V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
+$ENDCMP
+#
 $CMP REF02BP
 D 5V ±10mV Precision Voltage Reference, PDIP-8
 K Precision Voltage Reference 5V
@@ -592,6 +934,60 @@ $CMP REF02BU
 D 5V ±10mV Precision Voltage Reference, SO-8
 K Precision Voltage Reference 5V
 F http://www.ti.com/lit/ds/symlink/ref02.pdf
+$ENDCMP
+#
+$CMP REF02CP
+D 5V ±50mV Precision Voltage Reference, PDIP-8
+K Precision Voltage Reference 5V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
+$ENDCMP
+#
+$CMP REF02CS
+D 5V ±50mV Precision Voltage Reference, SO-8
+K Precision Voltage Reference 5V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
+$ENDCMP
+#
+$CMP REF02EZ
+D 5V ±15mV Precision Voltage Reference, CERDIP-8
+K Precision Voltage Reference 5V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
+$ENDCMP
+#
+$CMP REF02HP
+D 5V ±25mV Precision Voltage Reference, PDIP-8
+K Precision Voltage Reference 5V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
+$ENDCMP
+#
+$CMP REF02HS
+D 5V ±25mV Precision Voltage Reference, SO-8
+K Precision Voltage Reference 5V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
+$ENDCMP
+#
+$CMP REF02HZ
+D 5V ±25mV Precision Voltage Reference, CERDIP-8
+K Precision Voltage Reference 5V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
+$ENDCMP
+#
+$CMP REF02Z
+D 5V ±25mV Precision Voltage Reference, CERDIP-8
+K Precision Voltage Reference 5V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
+$ENDCMP
+#
+$CMP REF03GP
+D 2.5V ±15mV Precision Voltage Reference, PDIP-8
+K Precision Voltage Reference 2.5V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
+$ENDCMP
+#
+$CMP REF03GS
+D 2.5V ±15mV Precision Voltage Reference, SO-8
+K Precision Voltage Reference 2.5V
+F https://www.analog.com/media/en/technical-documentation/data-sheets/REF01_02_03.pdf
 $ENDCMP
 #
 $CMP REF102AP
@@ -710,37 +1106,37 @@ $ENDCMP
 #
 $CMP REF3212AMDBVREP
 D 1.25V 100μA Micropower Precision Voltage Reference, SOT-23-6
-K Micropower Prevision Voltage Reference 1.25V
+K Micropower Precision Voltage Reference 1.25V
 F http://www.ti.com/lit/ds/symlink/ref3240-ep.pdf
 $ENDCMP
 #
 $CMP REF3220AMDBVREP
 D 2.048V 100μA Micropower Precision Voltage Reference, SOT-23-6
-K Micropower Prevision Voltage Reference 2.048V
+K Micropower Precision Voltage Reference 2.048V
 F http://www.ti.com/lit/ds/symlink/ref3240-ep.pdf
 $ENDCMP
 #
 $CMP REF3225AMDBVREP
 D 2.5V 100μA Micropower Precision Voltage Reference, SOT-23-6
-K Micropower Prevision Voltage Reference 2.5V
+K Micropower Precision Voltage Reference 2.5V
 F http://www.ti.com/lit/ds/symlink/ref3240-ep.pdf
 $ENDCMP
 #
 $CMP REF3230AMDBVREP
 D 3V 100μA Micropower Precision Voltage Reference, SOT-23-6
-K Micropower Prevision Voltage Reference 3V
+K Micropower Precision Voltage Reference 3V
 F http://www.ti.com/lit/ds/symlink/ref3240-ep.pdf
 $ENDCMP
 #
 $CMP REF3233AMDBVREP
 D 3.3V 100μA Micropower Precision Voltage Reference, SOT-23-6
-K Micropower Prevision Voltage Reference 3.3V
+K Micropower Precision Voltage Reference 3.3V
 F http://www.ti.com/lit/ds/symlink/ref3240-ep.pdf
 $ENDCMP
 #
 $CMP REF3240AMDBVREP
 D 4.096V 100μA Micropower Precision Voltage Reference, SOT-23-6
-K Micropower Prevision Voltage Reference 4.096V
+K Micropower Precision Voltage Reference 4.096V
 F http://www.ti.com/lit/ds/symlink/ref3240-ep.pdf
 $ENDCMP
 #

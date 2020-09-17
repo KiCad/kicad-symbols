@@ -1,51 +1,51 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP A1101ELHL
-D Hall effect switch, unipolar, Bop=100G, Brp=45G, -40C to +85C
+D Hall effect switch, unipolar, Bop=100G, Brp=45G, -40C to +85C, SOT-23W
 K hall switch
-F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+F https://www.allegromicro.com/-/media/files/datasheets/a110x-datasheet.ashx
 $ENDCMP
 #
 $CMP A1101LLHL
-D Hall effect switch, unipolar, Bop=100G, Brp=45G, -40C to +125C
+D Hall effect switch, unipolar, Bop=100G, Brp=45G, -40C to +125C, SOT-23W
 K hall switch
-F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+F https://www.allegromicro.com/-/media/files/datasheets/a110x-datasheet.ashx
 $ENDCMP
 #
 $CMP A1102ELHL
-D Hall effect switch, unipolar, Bop=180G, Brp=125G, -40C to +85C
+D Hall effect switch, unipolar, Bop=180G, Brp=125G, -40C to +85C, SOT-23W
 K hall switch
-F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+F https://www.allegromicro.com/-/media/files/datasheets/a110x-datasheet.ashx
 $ENDCMP
 #
 $CMP A1102LLHL
-D Hall effect switch, unipolar, Bop=180G, Brp=125G, -40C to +125C
+D Hall effect switch, unipolar, Bop=180G, Brp=125G, -40C to +125C, SOT-23W
 K hall switch
-F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+F https://www.allegromicro.com/-/media/files/datasheets/a110x-datasheet.ashx
 $ENDCMP
 #
 $CMP A1103ELHL
-D Hall effect switch, unipolar, Bop=280G, Brp=225G, -40C to +85C
+D Hall effect switch, unipolar, Bop=280G, Brp=225G, -40C to +85C, SOT-23W
 K hall switch
-F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+F https://www.allegromicro.com/-/media/files/datasheets/a110x-datasheet.ashx
 $ENDCMP
 #
 $CMP A1103LLHL
-D Hall effect switch, unipolar, Bop=280G, Brp=225G, -40C to +125C
+D Hall effect switch, unipolar, Bop=280G, Brp=225G, -40C to +125C, SOT-23W
 K hall switch
-F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+F https://www.allegromicro.com/-/media/files/datasheets/a110x-datasheet.ashx
 $ENDCMP
 #
 $CMP A1104LLHL
-D Hall effect switch, unipolar, Bop=240G, Brp=200G, -40C to +125C
+D Hall effect switch, unipolar, Bop=240G, Brp=200G, -40C to +125C, SOT-23W
 K hall switch
-F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+F https://www.allegromicro.com/-/media/files/datasheets/a110x-datasheet.ashx
 $ENDCMP
 #
 $CMP A1106LLHL
-D Hall effect switch, unipolar, Bop=340G, Brp=240G, -40C to +125C
+D Hall effect switch, unipolar, Bop=340G, Brp=240G, -40C to +125C, SOT-23W
 K hall switch
-F http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf
+F https://www.allegromicro.com/-/media/files/datasheets/a110x-datasheet.ashx
 $ENDCMP
 #
 $CMP A1301EUA-T
@@ -120,6 +120,12 @@ K Magnetic Hall Encoder
 F https://ams.com/documents/20143/36005/AS5045B_DS000397_2-00.pdf
 $ENDCMP
 #
+$CMP AS5047D
+D On-Axis Magnetic Position Sensor, 14-bit, PWM Output, ABI Output, UVW Output, SPI Interface, TSSOP-14
+K Magnetic Hall Sensor
+F https://ams.com/documents/20143/36005/AS5047D_DS000394_2-00.pdf
+$ENDCMP
+#
 $CMP AS5048A
 D Magnetic position sensor, 14-bit, PWM output, SPI Interface, TSSOP-14
 K sensor magnetic hall position rotation spi
@@ -150,16 +156,76 @@ K BOSH Geomagnetic Sensor
 F https://www.mouser.com/datasheet/2/783/BST-BMM150-DS001-01-786480.pdf
 $ENDCMP
 #
-$CMP DRV5033AJQDBZ
-D Hall effect switch, omnipolar, Bop=6.9mT, Brp=3.5, -40C to +125C
-K hall switch
-F http://www.ti.com/lit/ds/symlink/drv5033.pdf
+$CMP DRV5033AJxDBZ
+D ±6.9 / ±3.5 mT, 20-kHz, 2-38V, SOT-23
+K Digital Omnipolar Switch Hall Effect Sensor
+F https://www.ti.com/lit/ds/symlink/drv5033.pdf
 $ENDCMP
 #
-$CMP DRV5033FAQDBZ
-D Hall effect switch, omnipolar, Bop=3.5mT, Brp=2.0, -40C to +125C
-K hall switch
-F http://www.ti.com/lit/ds/symlink/drv5033.pdf
+$CMP DRV5033AJxLPG
+D ±6.9 / ±3.5 mT, 20-kHz, 2-38V, TO-92
+K Digital Omnipolar Switch Hall Effect Sensor
+F https://www.ti.com/lit/ds/symlink/drv5033.pdf
+$ENDCMP
+#
+$CMP DRV5033FAxDBZ
+D ±3.5 / ±2 mT, 20-kHz, 2-38V, SOT-23
+K Digital Omnipolar Switch Hall Effect Sensor
+F https://www.ti.com/lit/ds/symlink/drv5033.pdf
+$ENDCMP
+#
+$CMP DRV5033FAxLPG
+D ±3.5 / ±2 mT, 20-kHz, 2-38V, TO-92
+K Digital Omnipolar Switch Hall Effect Sensor
+F https://www.ti.com/lit/ds/symlink/drv5033.pdf
+$ENDCMP
+#
+$CMP DRV5055A1xDBZxQ1
+D 100 mV/mT,±21-mT, 20-kHz, 3.3/5V, SOT-23
+K Automotive Ratiometric Linear Hall Effect Sensor AEC-Q100
+F https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf
+$ENDCMP
+#
+$CMP DRV5055A1xLPGxQ1
+D 100 mV/mT,±21-mT, 20-kHz, 3.3/5V, TO-92
+K Automotive Ratiometric Linear Hall Effect Sensor AEC-Q100
+F https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf
+$ENDCMP
+#
+$CMP DRV5055A2xDBZxQ1
+D 50 mV/mT,±42-mT, 20-kHz, 3.3/5V, SOT-23
+K Automotive Ratiometric Linear Hall Effect Sensor AEC-Q100
+F https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf
+$ENDCMP
+#
+$CMP DRV5055A2xLPGxQ1
+D 50 mV/mT,±42-mT, 20-kHz, 3.3/5V, TO-92
+K Automotive Ratiometric Linear Hall Effect Sensor AEC-Q100
+F https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf
+$ENDCMP
+#
+$CMP DRV5055A3xDBZxQ1
+D 25 mV/mT,±85-mT, 20-kHz, 3.3/5V, SOT-23
+K Automotive Ratiometric Linear Hall Effect Sensor AEC-Q100
+F https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf
+$ENDCMP
+#
+$CMP DRV5055A3xLPGxQ1
+D 25 mV/mT,±85-mT, 20-kHz, 3.3/5V, TO-92
+K Automotive Ratiometric Linear Hall Effect Sensor AEC-Q100
+F https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf
+$ENDCMP
+#
+$CMP DRV5055A4xDBZxQ1
+D 12.5 mV/mT,±169-mT, 20-kHz, 3.3/5V, SOT-23
+K Automotive Ratiometric Linear Hall Effect Sensor AEC-Q100
+F https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf
+$ENDCMP
+#
+$CMP DRV5055A4xLPGxQ1
+D 12.5mV/mT,±169-mT, 20-kHz, 3.3/5V, TO-92
+K Automotive Ratiometric Linear Hall Effect Sensor AEC-Q100
+F https://www.ti.com/lit/ds/symlink/drv5055-q1.pdf
 $ENDCMP
 #
 $CMP IST8308

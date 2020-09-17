@@ -24,6 +24,12 @@ K AHCMOS not inv
 F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf
 $ENDCMP
 #
+$CMP 74AHC240
+D 8-bit Buffer/Line Driver 3-state Inverting
+K AHCMOS BUFFER 3State inv
+F https://www.ti.com/lit/ds/symlink/sn54ahc240.pdf
+$ENDCMP
+#
 $CMP 74AHC244
 D 8-bit Buffer/Line Driver 3-state
 K AHCMOS BUFFER 3State
@@ -34,6 +40,12 @@ $CMP 74AHC273
 D 8-bit D Flip-Flop, reset
 K AHCMOS DFF DFF8
 F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT273.pdf
+$ENDCMP
+#
+$CMP 74AHC373
+D 8-bit Latch, 3-state outputs
+K AHCMOS REG DFF DFF8 LATCH
+F https://assets.nexperia.com/documents/data-sheet/74AHC373.pdf
 $ENDCMP
 #
 $CMP 74AHC374
@@ -60,6 +72,12 @@ K TTL monostable, multivibrator
 F http://www.ti.com/lit/gpn/sn74ahct123a
 $ENDCMP
 #
+$CMP 74AHCT240
+D 8-bit Buffer/Line Driver 3-state Inverting
+K AHCTMOS BUFFER 3State inv
+F https://assets.nexperia.com/documents/data-sheet/74AHCT240.pdf
+$ENDCMP
+#
 $CMP 74AHCT244
 D 8-bit Buffer/Line Driver 3-state
 K AHCTMOS BUFFER 3State
@@ -70,6 +88,12 @@ $CMP 74AHCT273
 D 8-bit D Flip-Flop, reset
 K AHCTMOS DFF DFF8
 F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT273.pdf
+$ENDCMP
+#
+$CMP 74AHCT373
+D 8-bit Latch, 3-state outputs
+K AHCTMOS REG DFF DFF8 LATCH
+F https://www.ti.com/lit/ds/symlink/sn74ahct373.pdf
 $ENDCMP
 #
 $CMP 74AHCT374
@@ -144,6 +168,12 @@ K 8-bit shift register
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf
 $ENDCMP
 #
+$CMP 74HC165
+D Shift Register, 8-bit, Parallel Load
+K 8 bit shift register parallel load cmos
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT165.pdf
+$ENDCMP
+#
 $CMP 74HC237
 D 3-to-8 line decoder/multiplexer with address latches, DIP-16/SOIC-16/SSOP-16
 K demux
@@ -152,7 +182,7 @@ $ENDCMP
 #
 $CMP 74HC240
 D 8-bit Buffer/Line Driver 3-state Inverting
-K TTL BUFFER 3State inv
+K HCMOS BUFFER 3State inv
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT240.pdf
 $ENDCMP
 #
@@ -172,6 +202,12 @@ $CMP 74HC273
 D 8-bit D Flip-Flop, reset
 K HCMOS DFF DFF8
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT273.pdf
+$ENDCMP
+#
+$CMP 74HC373
+D 8-bit Latch, 3-state outputs
+K HCMOS REG DFF DFF8 LATCH
+F https://www.ti.com/lit/ds/symlink/cd54hc373.pdf
 $ENDCMP
 #
 $CMP 74HC374
@@ -214,6 +250,12 @@ $CMP 74HC596
 D 8-bit serial in/out Shift Register Open Collector Outputs
 K HCMOS SR OpenCollector
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf
+$ENDCMP
+#
+$CMP 74HC688
+D 8-bit magnitude comparator
+K HCMOS DECOD Arith
+F https://www.ti.com/lit/ds/symlink/cd54hc688.pdf
 $ENDCMP
 #
 $CMP 74HC7014
@@ -278,7 +320,7 @@ $ENDCMP
 #
 $CMP 74HCT240
 D 8-bit buffer; 3-state; inverting
-K octal buffer line driver inverting
+K HCTMOS BUFFER 3State inv
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT240.pdf
 $ENDCMP
 #
@@ -292,6 +334,12 @@ $CMP 74HCT273
 D 8-bit D Flip-Flop, reset
 K HCTMOS DFF DFF8
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT273.pdf
+$ENDCMP
+#
+$CMP 74HCT373
+D 8-bit Latch, 3-state outputs
+K HCTMOS REG DFF DFF8 LATCH
+F https://www.ti.com/lit/ds/symlink/sn74hct373.pdf
 $ENDCMP
 #
 $CMP 74HCT374
@@ -328,6 +376,12 @@ $CMP 74HCT596
 D 8-bit serial in/out Shift Register Open Collector Outputs
 K HCTMOS SR OpenCollector
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf
+$ENDCMP
+#
+$CMP 74HCT688
+D 8-bit magnitude comparator
+K HCTMOS DECOD Arith
+F https://www.ti.com/lit/ds/symlink/cd54hc688.pdf
 $ENDCMP
 #
 $CMP 74LCX07
@@ -519,7 +573,7 @@ $ENDCMP
 $CMP 74LS139
 D Dual Decoder 1 of 4, Active low outputs
 K TTL DECOD4
-F http://www.ti.com/lit/gpn/sn74LS139
+F http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf
 $ENDCMP
 #
 $CMP 74LS14
@@ -621,7 +675,7 @@ $ENDCMP
 $CMP 74LS165
 D Shift Register 8-bit, parallel load
 K TTL SR SR8
-F http://www.ti.com/lit/gpn/sn74LS165
+F https://www.ti.com/lit/ds/symlink/sn74ls165a.pdf
 $ENDCMP
 #
 $CMP 74LS166
@@ -751,15 +805,27 @@ F http://www.ti.com/lit/gpn/sn74LS221
 $ENDCMP
 #
 $CMP 74LS240
-D 8-bit BUS Buffer (Inverter) 3-State outputs
-K TTL Buffer BUS 3State
-F http://www.ti.com/lit/gpn/sn74LS240
+D Octal Buffer and Line Driver With 3-State Output, active-low enables, inverting outputs
+K 7400 logic ttl low power schottky
+F http://www.ti.com/lit/ds/symlink/sn74ls240.pdf
+$ENDCMP
+#
+$CMP 74LS240_Split
+D Octal Buffer and Line Driver With 3-State Output, active-low enables, inverting outputs, split symbol
+K 7400 logic ttl low power schottky
+F http://www.ti.com/lit/ds/symlink/sn74ls240.pdf
 $ENDCMP
 #
 $CMP 74LS241
-D 8-bit Bus Buffer 3-State outputs
-K TTL Buffer BUS 3State
-F http://www.ti.com/lit/gpn/sn74LS241
+D Octal Buffer and Line Driver With 3-State Output, complementary enables, non-inverting outputs
+K 7400 logic ttl low power schottky
+F http://www.ti.com/lit/ds/symlink/sn74ls241.pdf
+$ENDCMP
+#
+$CMP 74LS241_Split
+D Octal Buffer and Line Driver With 3-State Output, complementary enables, non-inverting outputs, split symbol
+K 7400 logic ttl low power schottky
+F http://www.ti.com/lit/ds/symlink/sn74ls241.pdf
 $ENDCMP
 #
 $CMP 74LS242
@@ -775,9 +841,15 @@ F http://www.ti.com/lit/gpn/sn74LS243
 $ENDCMP
 #
 $CMP 74LS244
-D 8-bit Bus Buffer 3-State outputs
-K TTL Buffer BUS 3State
-F http://www.ti.com/lit/gpn/sn74LS244
+D Octal Buffer and Line Driver With 3-State Output, active-low enables, non-inverting outputs
+K 7400 logic ttl low power schottky
+F http://www.ti.com/lit/ds/symlink/sn74ls244.pdf
+$ENDCMP
+#
+$CMP 74LS244_Split
+D Octal Buffer and Line Driver With 3-State Output, active-low enables, non-inverting outputs, split symbol
+K 7400 logic ttl low power schottky
+F http://www.ti.com/lit/ds/symlink/sn74ls241.pdf
 $ENDCMP
 #
 $CMP 74LS245
@@ -1183,7 +1255,7 @@ F http://www.ti.com/lit/gpn/sn74LS670
 $ENDCMP
 #
 $CMP 74LS688
-D 8-bit Comparator
+D 8-bit magnitude comparator
 K TTL DECOD Arith
 F http://www.ti.com/lit/gpn/sn74LS688
 $ENDCMP
@@ -1290,6 +1362,12 @@ K TTL buffer 3State
 F http://www.ti.com/lit/gpn/sn74LVC125
 $ENDCMP
 #
+$CMP 74VHC9164FT
+D 8-bit Universal Shift Register, 2V to 5.5V, TSSOP-16
+K shift register universal serial parallel
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=15655&prodName=74VHC9164FT
+$ENDCMP
+#
 $CMP CD74HC4067M
 D High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SOIC-24
 K multiplexer demultiplexer mux demux
@@ -1324,6 +1402,12 @@ $CMP SN74LS07N
 D Hex Buffers and Drivers With Open Collector High Voltage Outputs
 K TTL hex buffer OpenCol
 F www.ti.com/lit/ds/symlink/sn74ls07.pdf
+$ENDCMP
+#
+$CMP SN74LV4T125
+D Single Supply Logic Level Translator Quad Buffer with 3-State Outputs
+K 3State CMOS shifter translator
+F https://www.ti.com/lit/ds/symlink/sn74lv4t125.pdf
 $ENDCMP
 #
 #End Doc Library

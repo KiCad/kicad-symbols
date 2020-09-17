@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74LS139
+D Dual Decoder 1 of 4, Active low outputs
+K TTL DECOD4
+F http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf
+$ENDCMP
+#
 $CMP 74LS192
 D Synchronous 4-bit Up/Down (2 clk) counter
 K TTL CNT CNT4
@@ -10,6 +16,24 @@ $CMP 74LS193
 D Synchronous 4-bit Up/Down (2 clk) counter
 K TTL CNT CNT4
 F http://www.ti.com/lit/ds/symlink/sn74ls193.pdf
+$ENDCMP
+#
+$CMP 74LS240
+D Octal Buffer and Line Driver With 3-State Output, active-low enables, inverting outputs
+K 7400 logic ttl low power schottky
+F http://www.ti.com/lit/ds/symlink/sn74ls240.pdf
+$ENDCMP
+#
+$CMP 74LS241
+D Octal Buffer and Line Driver With 3-State Output, complementary enables, non-inverting outputs
+K 7400 logic ttl low power schottky
+F http://www.ti.com/lit/ds/symlink/sn74ls241.pdf
+$ENDCMP
+#
+$CMP 74LS244
+D Octal Buffer and Line Driver With 3-State Output, active-low enables, non-inverting outputs
+K 7400 logic ttl low power schottky
+F http://www.ti.com/lit/ds/symlink/sn74ls244.pdf
 $ENDCMP
 #
 #End Doc Library

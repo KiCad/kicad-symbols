@@ -43,7 +43,13 @@ F https://www.infineon.com/dgdl/irs2052mpbf.pdf?fileId=5546d462533600a401535675d
 $ENDCMP
 #
 $CMP IRS2092
-D Protected Digital Audio Amplifier, PWM Modulator, +/-100V, 1.0/1.2A, PDIP-16/SOIC-16
+D Protected Digital Audio Amplifier, PWM Modulator, +/-100V, 1.0/1.2A, PDIP-16
+K Gate Driver Class D
+F http://www.infineon.com/dgdl/irs2092.pdf?fileId=5546d462533600a401535675f1be2790
+$ENDCMP
+#
+$CMP IRS2092S
+D Protected Digital Audio Amplifier, PWM Modulator, +/-100V, 1.0/1.2A, SOIC-16
 K Gate Driver Class D
 F http://www.infineon.com/dgdl/irs2092.pdf?fileId=5546d462533600a401535675f1be2790
 $ENDCMP
@@ -70,6 +76,18 @@ $CMP IRS2452AM
 D Class D Audio IC, PWM Modulator, +/-200V, 0.5/0.6A, MLPQ-32
 K Gate Driver Class D 2ch
 F https://www.infineon.com/dgdl/Infineon-IRS2452AM-DS-v01_00-EN.pdf?fileId=5546d462584d1d4a01584ee4f1f00713
+$ENDCMP
+#
+$CMP IS31AP4991-GRLS2
+D 1.2W, 2.7-5.5V, Audio Power Amplifier, Active-Low Standby, SOP-8
+K ultra low consumption distortion
+F http://www.issi.com/WW/pdf/31AP4991.pdf
+$ENDCMP
+#
+$CMP IS31AP4991-SLS2
+D 1.2W, 2.7-5.5V, Audio Power Amplifier, Active-Low Standby, MSOP-8
+K ultra low consumption distortion
+F http://www.issi.com/WW/pdf/31AP4991.pdf
 $ENDCMP
 #
 $CMP LM1875
@@ -198,6 +216,30 @@ K audio buffer amplifier
 F http://www.ti.com/lit/ds/symlink/lme49600.pdf
 $ENDCMP
 #
+$CMP MA12040
+D Filterless and High-Efficiency +4V to +18V Audio Amplifier with Analog Input, QFN-64
+K integrated class d amplifier
+F https://www.infineon.com/dgdl/Infineon-MA12040-DS-v01_00-EN.pdf?fileId=5546d46264a8de7e0164b7467a3d617c
+$ENDCMP
+#
+$CMP MA12040P
+D Filterless and High-Efficiency +4V to +18V Audio Amplifier with I2S Digital Input, QFN-64
+K integrated class d amplifier
+F https://www.infineon.com/dgdl/Infineon-MA12040P-DS-v01_00-EN.pdf?fileId=5546d46264a8de7e0164b74ff0e561a2
+$ENDCMP
+#
+$CMP MA12070
+D Filterless and High-Efficiency +4V to +26V Audio Amplifier with Analog Input, QFN-64
+K integrated class d amplifier
+F https://www.infineon.com/dgdl/Infineon-MA12070-DS-v01_00-EN.pdf?fileId=5546d46264a8de7e0164b750002861a5
+$ENDCMP
+#
+$CMP MA12070P
+D Filterless and High-Efficiency +4V to +26V Audio Amplifier with I2S Digital Input, QFN-64
+K integrated class d amplifier
+F https://www.infineon.com/dgdl/Infineon-MA12070P-DS-v01_00-EN.pdf?fileId=5546d46264a8de7e0164b761f2f261e4
+$ENDCMP
+#
 $CMP MAX9715ETE+
 D 2.8W, Low-EMI, Stereo, Filterless Class D Audio Amplifier, TQFN-16
 K Class-D Stereo
@@ -238,6 +280,12 @@ $CMP PAM8302AAY
 D 2.5W Filterless Class-D Mono Audio Amplifier, DFN-8
 K audio amplifier class d
 F https://www.diodes.com/assets/Datasheets/PAM8302A.pdf
+$ENDCMP
+#
+$CMP PAM8403D
+D 3W Filterless Class-D Stereo Audio Amplifier, SOP-16
+K audio amplifier class d
+F https://www.diodes.com/assets/Datasheets/PAM8403.pdf
 $ENDCMP
 #
 $CMP SSM2017P
@@ -328,6 +376,30 @@ $CMP STK443_Sanyo
 D 2-Channel 28 Wmin Audio Frequency Power Amplifier, 4010, SIP-15
 K audio amplifier 2ch
 F http://datasheet.octopart.com/STK430-Sanyo-datasheet-107060.pdf
+$ENDCMP
+#
+$CMP Si8241BB
+D Class D Audio Driver With Precision Dead-Time Generator, 8V UVLO, +/-750V, +0.5/-0.5A, SOIC-16
+K class d gate driver
+F https://www.silabs.com/documents/public/data-sheets/Si824x.pdf
+$ENDCMP
+#
+$CMP Si8241CB
+D Class D Audio Driver With Precision Dead-Time Generator, 10V UVLO, +/-750V, +0.5/-0.5A, SOIC-16
+K class d gate driver
+F https://www.onsemi.com/pub/Collateral/NCD5702-D.PDF
+$ENDCMP
+#
+$CMP Si8244BB
+D Class D Audio Driver With Precision Dead-Time Generator, 8V UVLO, +/-750V, +4/-4A, SOIC-16
+K class d gate driver
+F https://www.onsemi.com/pub/Collateral/NCD5702-D.PDF
+$ENDCMP
+#
+$CMP Si8244CB
+D Class D Audio Driver With Precision Dead-Time Generator, 10V UVLO, +/-750V, +4/-4A, SOIC-16
+K class d gate driver
+F https://www.onsemi.com/pub/Collateral/NCD5702-D.PDF
 $ENDCMP
 #
 $CMP TAS5825MRHB
@@ -462,6 +534,12 @@ K audio amplifier 2ch
 F http://www.st.com/resource/en/datasheet/tda7297.pdf
 $ENDCMP
 #
+$CMP TFA9879HN
+D Mono BTL class-D audio amplifier for portable applications with digital input, HVQFN-24
+K Audio Amplifier Class D NXP Semiconductors
+F https://www.nxp.com/docs/en/data-sheet/TFA9879.pdf
+$ENDCMP
+#
 $CMP THAT2180
 D Blackmer Pre-Trimmed IC Voltage Controlled Amplifiers, SIP-8
 K audio vca
@@ -472,6 +550,12 @@ $CMP THAT2181
 D Blackmer Trimmable IC Voltage Controlled Amplifiers, SIP-8/SOIC-8
 K audio vca
 F http://www.thatcorp.com/datashts/THAT_2181-Series_Datasheet.pdf
+$ENDCMP
+#
+$CMP TPA6132A2RTE
+D 25mW, Stereo, DirectPath Audio Amplifier, WQFN-16
+K DirectPath audio amplifier Stereo
+F https://www.ti.com/lit/ds/symlink/tpa6132a2.pdf
 $ENDCMP
 #
 #End Doc Library
