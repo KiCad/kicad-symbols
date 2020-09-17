@@ -384,6 +384,12 @@ K I2C DAC 12-bit
 F http://www.ti.com/lit/ds/symlink/dac121c081.pdf
 $ENDCMP
 #
+$CMP DAC1220E
+D 20-Bit , Low-Power Digital-to-Analog Converter, SSOP-16
+K DAC
+F https://www.ti.com/lit/ds/symlink/dac1220.pdf
+$ENDCMP
+#
 $CMP DAC5578xPW
 D 8-Bit, Octal-Channel, Ultra-Low Glitch, Voltage Output, Two-Wire Interface Digital-to-Analog Converters, TSSOP-16
 K DAC I2C TWI 8-channel
@@ -502,6 +508,18 @@ $CMP MAX5217
 D Digital to analog, 16 Bit, 1 ch, 2.7 - 5.5 VDD, I2C, uMAX-8
 K DA 16 Bit 1 ch
 F https://datasheets.maximintegrated.com/en/ds/MAX5215-MAX5217.pdf
+$ENDCMP
+#
+$CMP MAX5717xSD
+D 16-bit Voltage Digital-to-Analog converter, SOIC-14
+K DAC
+F https://datasheets.maximintegrated.com/en/ds/MAX5717-MAX5719.pdf
+$ENDCMP
+#
+$CMP MAX5719xSD
+D 20-bit Voltage Digital-to-Analog converter, SOIC-14
+K DAC
+F https://datasheets.maximintegrated.com/en/ds/MAX5717-MAX5719.pdf
 $ENDCMP
 #
 $CMP MAX5741
@@ -712,6 +730,18 @@ $CMP MCP4922-EST
 D Dual 12-bit Digital to Analog Converter, SPI Interface, TSSOP-14
 K Dual DAC 1ch 12bit SPI
 F http://ww1.microchip.com/downloads/en/devicedoc/21897a.pdf
+$ENDCMP
+#
+$CMP THS5641AxDW
+D 8-Bit, 100 MSPS, CommsDAC, Parallel Current DAC, SOIC-28
+K DAC IDAC
+F http://www.ti.com/lit/ds/symlink/ths5641a.pdf
+$ENDCMP
+#
+$CMP THS5641AxPW
+D 8-Bit, 100 MSPS, CommsDAC, Parallel Current DAC, TSSOP-28
+K DAC IDAC
+F http://www.ti.com/lit/ds/symlink/ths5641a.pdf
 $ENDCMP
 #
 $CMP TLV5627CD

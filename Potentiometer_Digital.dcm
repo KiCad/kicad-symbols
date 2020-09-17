@@ -12,6 +12,30 @@ K digital potentiometer
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5253_5254.pdf
 $ENDCMP
 #
+$CMP AD5272BCP
+D Digital potentiometer, 1024 position, 1% Resistor Tolerance, I2C interface, LFCSP-10
+K digital potentiometer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5272_5274.pdf
+$ENDCMP
+#
+$CMP AD5272BRM
+D Digital potentiometer, 1024 position, 1% Resistor Tolerance, I2C interface, MSOP-10
+K digital potentiometer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5272_5274.pdf
+$ENDCMP
+#
+$CMP AD5274BCP
+D Digital potentiometer, 256 position, 1% Resistor Tolerance, I2C interface, LFCSP-10
+K digital potentiometer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5272_5274.pdf
+$ENDCMP
+#
+$CMP AD5274BRM
+D Digital potentiometer, 256 position, 1% Resistor Tolerance, I2C interface, MSOP-10
+K digital potentiometer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5272_5274.pdf
+$ENDCMP
+#
 $CMP AD5280
 D Digital potentiometer, 256 position, single output, I2C interface
 K digital potentiometer
@@ -52,6 +76,12 @@ $CMP DS1267_TSSOP
 D Dual Digital Potentiometer, Serial, 256 Steps, TSSOP-20
 K Dual Digital Potentiometer Maxim
 F https://datasheets.maximintegrated.com/en/ds/DS1267.pdf
+$ENDCMP
+#
+$CMP DS1882E
+D Dual Log Audio Digital Potentiometer, 64 positions, TSSOP-16
+K digital potentiometer
+F https://datasheets.maximintegrated.com/en/ds/DS1882.pdf
 $ENDCMP
 #
 $CMP MAX5436
