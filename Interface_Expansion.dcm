@@ -24,6 +24,12 @@ K I2C Multiplexer Buffer Level Shifter
 F https://www.analog.com/media/en/technical-documentation/data-sheets/4314f.pdf
 $ENDCMP
 #
+$CMP LTC4317
+D Dual I2C/SMBus Address-Translator, DFN-16
+K I2C Translator 4kV-ESD Level-Shifter Hot-Swap
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4317fa.pdf
+$ENDCMP
+#
 $CMP MAX7325AEG+
 D I2C Port Expander with 8 Push-Pull and 8 Open-Drain I/Os, QSOP-24
 K Expander I2C Parallel Port GPIO Maxim
