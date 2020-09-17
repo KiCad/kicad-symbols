@@ -1176,29 +1176,6 @@ K heater R resistor
 F ~
 $ENDCMP
 #
-$CMP Jumper_NC
-D Jumper, normally closed
-K jumper bridge link NC
-F ~
-$ENDCMP
-#
-$CMP Jumper_NC_Dual
-D Dual jumper, normally closed
-K jumper bridge link NC
-F ~
-$ENDCMP
-#
-$CMP Jumper_NC_Small
-D Jumper, normally closed, small symbol
-K jumper link bridge NC
-F ~
-$ENDCMP
-#
-$CMP Jumper_NO_Small
-D Jumper, normally open, small symbol
-K jumper link bridge NO
-F ~
-$ENDCMP
 #
 $CMP L
 D Inductor
