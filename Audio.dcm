@@ -288,6 +288,12 @@ K Codec
 F https://www.nxp.com/docs/en/data-sheet/SGTL5000.pdf
 $ENDCMP
 #
+$CMP SRC4392xPFB
+D Two-Channel, Asynchronous Sample Rate Converter with Integrated Digital Audio Interface Receiver and Transmitter, TQFP-48
+K audio sample rate converter
+F http://www.ti.com/lit/ds/symlink/src4392.pdf
+$ENDCMP
+#
 $CMP SSI2144
 D Four-pole VCF, SSOP-16
 K Sound Semiconductor VCF SSM2044
