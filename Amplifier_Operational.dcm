@@ -600,6 +600,18 @@ K dual opamp low-power
 F https://www.analog.com/media/en/technical-documentation/data-sheets/625234fc.pdf
 $ENDCMP
 #
+$CMP LTC6268xS6-10
+D 4GHz, Ultra-Low Bias Current, FET Input, Op Amp, TSOT-23
+K single opamp transimpedance
+F https://www.analog.com/media/en/technical-documentation/data-sheets/626810f.pdf
+$ENDCMP
+#
+$CMP LTC6268xS8-10
+D 4GHz, Ultra-Low Bias Current, FET Input, Op Amp, SOIC-8
+K single opamp transimpedance
+F https://www.analog.com/media/en/technical-documentation/data-sheets/626810f.pdf
+$ENDCMP
+#
 $CMP LTC6362xDD
 D Precision, Low Power, Rail-to-Rail Input/Output, Differential Op Amp/SAR ADC Driver, DFN-8
 K single differential opamp
