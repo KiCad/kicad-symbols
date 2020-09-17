@@ -42,6 +42,12 @@ K audio adc 2ch 24bit 96kHz I2S MSB TDM
 F https://www.akm.com/akm/en/file/datasheet/AK5720VT.pdf
 $ENDCMP
 #
+$CMP AK7742EQ
+D 24bit 2ch ADC + 24bit 4ch DAC with Audio DSP, LQFP-48
+K audio adc 2ch dac 4ch dsp
+F https://www.akm.com/akm/en/file/datasheet/AK7742EQ.pdf
+$ENDCMP
+#
 $CMP AS3310
 D ADSR Voltage Controlled Envelope Generator, DIP-16/SOIC-16
 K VCEG CEM3310 ALFA
@@ -106,6 +112,12 @@ $CMP CS4270
 D 24-Bit, 192-kHz Stereo Audio CODEC, TSSOP-24
 K Audio Codec
 F https://statics.cirrus.com/pubs/proDatasheet/CS4270_F1.pdf
+$ENDCMP
+#
+$CMP CS4272
+D 24-Bit, 192 kHz Stereo Audio CODEC, TSSOP-28
+K stereo 2ch audio codec i2s 24bit 192kHz
+F https://statics.cirrus.com/pubs/proDatasheet/CS4272_F1.pdf
 $ENDCMP
 #
 $CMP CS43L21
@@ -264,6 +276,24 @@ K EG&G RETICON BBD N-channel silicon-gate
 F http://thmq.mysteria.cz/em1022/SAD1024.pdf
 $ENDCMP
 #
+$CMP SGTL5000XNAA3
+D Low Power Stereo Codec with Headphone Amp, QFN-32
+K Codec
+F https://www.nxp.com/docs/en/data-sheet/SGTL5000.pdf
+$ENDCMP
+#
+$CMP SGTL5000XNLA3
+D Low Power Stereo Codec with Headphone Amp, QFN-20
+K Codec
+F https://www.nxp.com/docs/en/data-sheet/SGTL5000.pdf
+$ENDCMP
+#
+$CMP SRC4392xPFB
+D Two-Channel, Asynchronous Sample Rate Converter with Integrated Digital Audio Interface Receiver and Transmitter, TQFP-48
+K audio sample rate converter
+F http://www.ti.com/lit/ds/symlink/src4392.pdf
+$ENDCMP
+#
 $CMP SSI2144
 D Four-pole VCF, SSOP-16
 K Sound Semiconductor VCF SSM2044
@@ -348,6 +378,12 @@ K audio codec 2ch 96kHz headphone amplifier
 F http://www.ti.com/lit/ds/symlink/tlv320aic23b.pdf
 $ENDCMP
 #
+$CMP TLV320AIC3100
+D Low Power Audio Codec with Audio Processing and Mono Class‑D Amplifier, VQFN-32
+K audio codec 2ch 192kHz class-d amplifier
+F http://www.ti.com/lit/ds/symlink/tlv320aic3100.pdf
+$ENDCMP
+#
 $CMP TPA5050
 D Stereo Digital Audio Lip-Sync Delay Processor With I2C Control, QFN-16
 K audio delay
@@ -358,6 +394,30 @@ $CMP UDA1334ATS
 D Low Power Audio DAC with PLL, SSOP-16
 K audio dac 2ch 24bit 96kHz
 F http://www.nxp.com/docs/en/data-sheet/UDA1334ATS.pdf
+$ENDCMP
+#
+$CMP WM8731CLSEFL
+D Portable Internet Audio CODEC with Headphone Driver and Programmable Sample Rates, QFN-28
+K wolfson stereo audio codec adc dac headphone
+F https://statics.cirrus.com/pubs/proDatasheet/WM8731_v4.9.pdf
+$ENDCMP
+#
+$CMP WM8731CSEFL
+D Portable Internet Audio CODEC with Headphone Driver and Programmable Sample Rates, QFN-28
+K wolfson stereo audio codec adc dac headphone
+F https://statics.cirrus.com/pubs/proDatasheet/WM8731_v4.9.pdf
+$ENDCMP
+#
+$CMP WM8731SEDS
+D Portable Internet Audio CODEC with Headphone Driver and Programmable Sample Rates, SSOP-28
+K wolfson stereo audio codec adc dac headphone
+F https://statics.cirrus.com/pubs/proDatasheet/WM8731_v4.9.pdf
+$ENDCMP
+#
+$CMP YM2149
+D Software-Controlled Sound Generator, DIP-40
+K audio ssg 3ch
+F http://www.ym2149.com/ym2149.pdf
 $ENDCMP
 #
 #End Doc Library

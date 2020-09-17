@@ -1,5 +1,41 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD5253
+D Digital potentiometer, 64 position, 4 output, I2C interface, TSSOP-20
+K digital potentiometer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5253_5254.pdf
+$ENDCMP
+#
+$CMP AD5254
+D Digital potentiometer, 256 position, 4 output, I2C interface, TSSOP-20
+K digital potentiometer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5253_5254.pdf
+$ENDCMP
+#
+$CMP AD5272BCP
+D Digital potentiometer, 1024 position, 1% Resistor Tolerance, I2C interface, LFCSP-10
+K digital potentiometer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5272_5274.pdf
+$ENDCMP
+#
+$CMP AD5272BRM
+D Digital potentiometer, 1024 position, 1% Resistor Tolerance, I2C interface, MSOP-10
+K digital potentiometer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5272_5274.pdf
+$ENDCMP
+#
+$CMP AD5274BCP
+D Digital potentiometer, 256 position, 1% Resistor Tolerance, I2C interface, LFCSP-10
+K digital potentiometer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5272_5274.pdf
+$ENDCMP
+#
+$CMP AD5274BRM
+D Digital potentiometer, 256 position, 1% Resistor Tolerance, I2C interface, MSOP-10
+K digital potentiometer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5272_5274.pdf
+$ENDCMP
+#
 $CMP AD5280
 D Digital potentiometer, 256 position, single output, I2C interface
 K digital potentiometer
@@ -42,6 +78,12 @@ K Dual Digital Potentiometer Maxim
 F https://datasheets.maximintegrated.com/en/ds/DS1267.pdf
 $ENDCMP
 #
+$CMP DS1882E
+D Dual Log Audio Digital Potentiometer, 64 positions, TSSOP-16
+K digital potentiometer
+F https://datasheets.maximintegrated.com/en/ds/DS1882.pdf
+$ENDCMP
+#
 $CMP MAX5436
 D Low-Drift Digital Potentiometer
 K digital potentiometer resistor variable
@@ -82,6 +124,24 @@ $CMP MCP4014-xxxxOT
 D Low-Cost 64-Step Volatile Digital Potentiometer
 K Digital Pot Potentiometer Up Down
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21978c.pdf, SOT-23-5
+$ENDCMP
+#
+$CMP MCP4017-xxxxLT
+D Low-Cost 128-Step Volatile I2C Digital Potentiometer, SC-70-6
+K TWI pot rheostat
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22147a.pdf
+$ENDCMP
+#
+$CMP MCP4018-xxxxLT
+D Low-Cost 128-Step Volatile I2C Digital Potentiometer, SC-70-6
+K TWI pot
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22147a.pdf
+$ENDCMP
+#
+$CMP MCP4019-xxxxLT
+D Low-Cost 128-Step Volatile I2C Digital Potentiometer, SC-70-5
+K TWI pot rheostat
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22147a.pdf
 $ENDCMP
 #
 $CMP MCP4021-xxxxMS
@@ -148,6 +208,30 @@ $CMP MCP42100
 D Dual Digital Potentiometer, SPI interface, 256 taps, 100 kohm
 K R POT
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP4251-xxxx-ML
+D Dual 8 Bit Digital Pot, SPI, Volatile Memory, QFN-16
+K Digital Pot Potentiometer
+F http://ww1.microchip.com/downloads/en/devicedoc/22060b.pdf
+$ENDCMP
+#
+$CMP MCP4251-xxxx-P
+D Dual 8 Bit Digital Pot, SPI, Volatile Memory, PDIP-14
+K Digital Pot Potentiometer
+F http://ww1.microchip.com/downloads/en/devicedoc/22060b.pdf
+$ENDCMP
+#
+$CMP MCP4251-xxxx-SL
+D Dual 8 Bit Digital Pot, SPI, Volatile Memory, SOIC-14
+K Digital Pot Potentiometer
+F http://ww1.microchip.com/downloads/en/devicedoc/22060b.pdf
+$ENDCMP
+#
+$CMP MCP4251-xxxx-ST
+D Dual 8 Bit Digital Pot, SPI, Volatile Memory, TSSOP-14
+K Digital Pot Potentiometer
+F http://ww1.microchip.com/downloads/en/devicedoc/22060b.pdf
 $ENDCMP
 #
 $CMP MCP45HV31-MQ
