@@ -7146,6 +7146,42 @@ K ldo positive
 F https://www.ti.com/lit/ds/symlink/tlv758p.pdf
 $ENDCMP
 #
+$CMP TLV76701DRVx
+D 1A, 16V Precision Linear Voltage Regulator, with enable pin, Adjustable Output 0.8-13.6V, WSON-6
+K 1A, 16V Precision Linear Voltage Regulator
+F www.ti.com/lit/gpn/TLV767
+$ENDCMP
+#
+$CMP TLV76708DRVx
+D 1A Precision Linear Voltage Regulator, with enable pin, Fixed Output 0.8V, WSON6
+K 1A Precision Linear Voltage Regulator
+F www.ti.com/lit/gpn/TLV767
+$ENDCMP
+#
+$CMP TLV76718DRVx
+D 1A Precision Linear Voltage Regulator, with enable pin, Fixed Output 1.8V, WSON6
+K 1A Precision Linear Voltage Regulator
+F www.ti.com/lit/gpn/TLV767
+$ENDCMP
+#
+$CMP TLV76728DRVx
+D 1A Precision Linear Voltage Regulator, with enable pin, Fixed Output 2.8V, WSON6
+K 1A Precision Linear Voltage Regulator
+F www.ti.com/lit/gpn/TLV767
+$ENDCMP
+#
+$CMP TLV76733DRVx
+D 1A Precision Linear Voltage Regulator, with enable pin, Fixed Output 3.3V, WSON6
+K 1A Precision Linear Voltage Regulator
+F www.ti.com/lit/gpn/TLV767
+$ENDCMP
+#
+$CMP TLV76750DRVx
+D 1A, 16V Precision Linear Voltage Regulator, with enable pin, Fixed Output 5.0V, WSON-6
+K 1A, 16V Precision Linear Voltage Regulator
+F www.ti.com/lit/gpn/TLV767
+$ENDCMP
+#
 $CMP TPS51200DRC
 D Sink and Source DDR Termination Regulator, VSON-10
 K DDR LDO
