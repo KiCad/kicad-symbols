@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRV2510-Q1
+D Haptic driver for solenoids and voice coils, up to 3A output, TSSOP-16
+K driver haptic solenoid coil
+F http://www.ti.com/lit/ds/symlink/drv2510-q1.pdf
+$ENDCMP
+#
+$CMP DRV2605LDGS
+D Haptic driver for LRAs and ERMs with effect library, 2-5.2V, VSSOP-10
+K haptic driver i2c
+F http://www.ti.com/lit/ds/symlink/drv2605l.pdf
+$ENDCMP
+#
+#End Doc Library

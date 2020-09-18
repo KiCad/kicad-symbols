@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
 # PL450B
@@ -89,7 +89,7 @@ F1 "SPL_PL90" -50 -100 50 H V C CNN
 F2 "LED_THT:LED_D5.0mm" -60 -180 50 H I C CNN
 F3 "" 30 -200 50 H I C CNN
 $FPLIST
- LED*5mm*
+ LED*5.0mm*
 $ENDFPLIST
 DRAW
 P 2 0 1 0 -160 50 -100 110 N

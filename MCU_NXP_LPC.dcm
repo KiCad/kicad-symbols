@@ -420,6 +420,78 @@ K ARM, 32-bit, Cortex-M0, M0, NXP, microcontroller
 F http://www.nxp.com/documents/data_sheet/LPC11U3X.pdf
 $ENDCMP
 #
+$CMP LPC1224FBD48-101
+D LPC122x 32-bit ARM Cortex-M0 microcontroller, 32 kB FLASH, 4 kB SRAM, LQFP-48
+K ARM, 32-bit, Cortex-M0, M0, NXP, microcontroller
+F https://www.nxp.com/docs/en/data-sheet/LPC122X.pdf
+$ENDCMP
+#
+$CMP LPC1224FBD48-121
+D LPC122x 32-bit ARM Cortex-M0 microcontroller, 48 kB FLASH, 4 kB SRAM, LQFP-48
+K ARM, 32-bit, Cortex-M0, M0, NXP, microcontroller
+F https://www.nxp.com/docs/en/data-sheet/LPC122X.pdf
+$ENDCMP
+#
+$CMP LPC1224FBD64-101
+D LPC122x 32-bit ARM Cortex-M0 microcontroller, 32 kB FLASH, 4 kB SRAM, LQFP-64
+K ARM, 32-bit, Cortex-M0, M0, NXP, microcontroller
+F https://www.nxp.com/docs/en/data-sheet/LPC122X.pdf
+$ENDCMP
+#
+$CMP LPC1224FBD64-121
+D LPC122x 32-bit ARM Cortex-M0 microcontroller, 48 kB FLASH, 4 kB SRAM, LQFP-64
+K ARM, 32-bit, Cortex-M0, M0, NXP, microcontroller
+F https://www.nxp.com/docs/en/data-sheet/LPC122X.pdf
+$ENDCMP
+#
+$CMP LPC1225FBD48-301
+D LPC122x 32-bit ARM Cortex-M0 microcontroller, 64 kB FLASH, 8 kB SRAM, LQFP-48
+K ARM, 32-bit, Cortex-M0, M0, NXP, microcontroller
+F https://www.nxp.com/docs/en/data-sheet/LPC122X.pdf
+$ENDCMP
+#
+$CMP LPC1225FBD48-321
+D LPC122x 32-bit ARM Cortex-M0 microcontroller, 80 kB FLASH, 8 kB SRAM, LQFP-48
+K ARM, 32-bit, Cortex-M0, M0, NXP, microcontroller
+F https://www.nxp.com/docs/en/data-sheet/LPC122X.pdf
+$ENDCMP
+#
+$CMP LPC1225FBD64-301
+D LPC122x 32-bit ARM Cortex-M0 microcontroller, 64 kB FLASH, 8 kB SRAM, LQFP-64
+K ARM, 32-bit, Cortex-M0, M0, NXP, microcontroller
+F https://www.nxp.com/docs/en/data-sheet/LPC122X.pdf
+$ENDCMP
+#
+$CMP LPC1225FBD64-321
+D LPC122x 32-bit ARM Cortex-M0 microcontroller, 80 kB FLASH, 8 kB SRAM, LQFP-64
+K ARM, 32-bit, Cortex-M0, M0, NXP, microcontroller
+F https://www.nxp.com/docs/en/data-sheet/LPC122X.pdf
+$ENDCMP
+#
+$CMP LPC1226FBD48-301
+D LPC122x 32-bit ARM Cortex-M0 microcontroller, 96 kB FLASH, 8 kB SRAM, LQFP-48
+K ARM, 32-bit, Cortex-M0, M0, NXP, microcontroller
+F https://www.nxp.com/docs/en/data-sheet/LPC122X.pdf
+$ENDCMP
+#
+$CMP LPC1226FBD64-301
+D LPC122x 32-bit ARM Cortex-M0 microcontroller, 96 kB FLASH, 8 kB SRAM, LQFP-64
+K ARM, 32-bit, Cortex-M0, M0, NXP, microcontroller
+F https://www.nxp.com/docs/en/data-sheet/LPC122X.pdf
+$ENDCMP
+#
+$CMP LPC1227FBD48-301
+D LPC122x 32-bit ARM Cortex-M0 microcontroller, 128 kB FLASH, 8 kB SRAM, LQFP-48
+K ARM, 32-bit, Cortex-M0, M0, NXP, microcontroller
+F https://www.nxp.com/docs/en/data-sheet/LPC122X.pdf
+$ENDCMP
+#
+$CMP LPC1227FBD64-301
+D LPC122x 32-bit ARM Cortex-M0 microcontroller, 128 kB FLASH, 8 kB SRAM, LQFP-64
+K ARM, 32-bit, Cortex-M0, M0, NXP, microcontroller
+F https://www.nxp.com/docs/en/data-sheet/LPC122X.pdf
+$ENDCMP
+#
 $CMP LPC1763FBD100
 D 32-bit ARM Cortex-M3 microcontroller, 256KB flash, 64KB RAM
 K ARM, 32-bit, Cortex-M3, M3, NXP, microcontroller
