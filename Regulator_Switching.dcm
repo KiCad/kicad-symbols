@@ -3384,14 +3384,14 @@ K regulator switching adjustable
 F https://www.monolithicpower.com/pub/media/document/m/p/mp171_r1.01.pdf
 $ENDCMP
 #
-$CMP MP2303A_DIP
-D Synchronous Rectified 3A, 28V, 360kHz Step-Down Converter, DIP-8
+$CMP MP2303ADN
+D Synchronous Rectified 3A, 28V, 360kHz Step-Down Converter, SOIC-8
 K buck converter step down
 F https://www.monolithicpower.com/pub/media/document/MP2303A_r1.1.pdf
 $ENDCMP
 #
-$CMP MP2303A_SOIC
-D Synchronous Rectified 3A, 28V, 360kHz Step-Down Converter, SOIC-8
+$CMP MP2303ADP
+D Synchronous Rectified 3A, 28V, 360kHz Step-Down Converter, DIP-8
 K buck converter step down
 F https://www.monolithicpower.com/pub/media/document/MP2303A_r1.1.pdf
 $ENDCMP
