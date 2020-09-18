@@ -3,13 +3,19 @@ EESchema-DOCLIB  Version 2.0
 $CMP ADUM3160
 D Full/Low Speed, iCoupler USB Digital Isolator, 2.5kV protection
 K usb isolation
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM3160.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM3160.pdf
 $ENDCMP
 #
 $CMP ADUM4160
 D Full/Low Speed, iCoupler USB Digital Isolator, 5kV protection, SOIC-16
 K usb isolation
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM4160.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM4160.pdf
+$ENDCMP
+#
+$CMP BQ24392
+D Dual SPST USB 2.0 High Speed Switch with USB Battery Charging Specification Revision 1.2 Detection, UQFN-10
+K USB BC detector charger
+F http://www.ti.com/lit/ds/symlink/bq24392.pdf
 $ENDCMP
 #
 $CMP CH330N
@@ -18,28 +24,64 @@ K usb uart wch serial
 F http://www.wch.cn/downloads/file/240.html
 $ENDCMP
 #
+$CMP CH340C
+D USB serial converter, UART, SOIC-16
+K USB UART Serial Converter Interface
+F https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf
+$ENDCMP
+#
+$CMP CH340E
+D USB serial converter, UART, MSOP-10
+K USB UART Serial Converter Interface
+F https://www.mpja.com/download/35227cpdata.pdf
+$ENDCMP
+#
 $CMP CH340G
 D USB serial converter, UART, SOIC-16
 K USB UART Serial Converter Interface
 F http://www.datasheet5.com/pdf-local-2195953
 $ENDCMP
 #
-$CMP CP2102N-A01-GQFN24
-D USB to UART master bridge
+$CMP CH340T
+D USB serial converter, UART, SSOP-20
+K USB UART Serial Converter Interface
+F https://cdn.sparkfun.com/datasheets/Dev/Arduino/Other/CH340DS1.PDF
+$ENDCMP
+#
+$CMP CP2102N-Axx-xQFN20
+D USB to UART master bridge, QFN-20
 K USB UART bridge
-F http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf
+F https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
+$ENDCMP
+#
+$CMP CP2102N-Axx-xQFN24
+D USB to UART master bridge, QFN-24
+K USB UART bridge
+F https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
+$ENDCMP
+#
+$CMP CP2102N-Axx-xQFN28
+D USB to UART master bridge, QFN-28
+K USB UART bridge
+F https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
 $ENDCMP
 #
 $CMP CP2104
-D Single-Chip USB-to-UART Bridge, USB 2.0 Full-Speed, 2Mbps UART, QFN package
+D Single-Chip USB-to-UART Bridge, USB 2.0 Full-Speed, 2Mbps UART, QFN-24
 K uart usb bridge interface transceiver
-F https://www.silabs.com/Support%20Documents/TechnicalDocs/cp2104.pdf
+F https://www.silabs.com/documents/public/data-sheets/cp2104.pdf
 $ENDCMP
 #
 $CMP CP2112
 D HID USB to SMBUS master bridge
 K USB SMBUS bridge
-F http://www.silabs.com/Support%20Documents/TechnicalDocs/CP2112.pdf
+F https://www.silabs.com/documents/public/data-sheets/cp2112-datasheet.pdf
+$ENDCMP
+#
+$CMP CP2615-xx-xM
+D USB to I2S bridge, USB 1.0 Audio Class, QFN-32
+K usb i2s i2c uart audio bridge hid gpio
+F https://www.silabs.com/documents/public/data-sheets/cp2615-datasheet.pdf
 $ENDCMP
 #
 $CMP CY7C65211-24LTXI
@@ -90,46 +132,58 @@ K USB-Serial single channel bridge
 F http://www.cypress.com/file/129956/download
 $ENDCMP
 #
+$CMP FE1.1s
+D USB 2.0 High Speed 4-Port Hub Controller, SSOP-28
+K 4-Port, EEPROM, High Speed, Hub, USB2.0
+F https://cdn-shop.adafruit.com/product-files/2991/FE1.1s+Data+Sheet+(Rev.+1.0).pdf
+$ENDCMP
+#
+$CMP FSUSB42MUX
+D Low-Power, Two-Port, High-Speed, USB2.0 (480Mbps) or UART Switch, MSOP-10
+K USB 2.0 UART High Speed Switch
+F https://www.onsemi.com/pub/Collateral/FSUSB42-D.PDF
+$ENDCMP
+#
 $CMP FT200XD
 D Full Speed USB to I2C Bridge, DFN-10
 K FTDI USB I2C Interface Converter
-F http://www.ftdichip.com/Products/ICs/FT200XD.html
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT200XD.pdf
 $ENDCMP
 #
 $CMP FT201XQ
 D Full Speed USB to I2C Bridge, QFN-10
 K FTDI USB I2C interface Converter
-F http://www.ftdichip.com/Products/ICs/FT201X.html
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT201X.pdf
 $ENDCMP
 #
 $CMP FT201XS
 D Full Speed USB to I2C Bridge, SSOP-16
 K FTDI USB I2C Interface Converter
-F http://www.ftdichip.com/Products/ICs/FT201X.html
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT201X.pdf
 $ENDCMP
 #
 $CMP FT220XQ
 D Full Speed USB to 4-Bit SPI / FT1248 Bridge, QFN-16
 K FTDI USB SPI FT1248 Interface Converter
-F http://www.ftdichip.com/Products/ICs/FT220X.html
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT220X.pdf
 $ENDCMP
 #
 $CMP FT220XS
 D Full Speed USB to 4-Bit SPI / FT1248 Bridge, SSOP-16
 K FTDI USB SPI FT1248 Interface Converter
-F http://www.ftdichip.com/Products/ICs/FT220X.html
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT220X.pdf
 $ENDCMP
 #
 $CMP FT221XQ
 D Full Speed USB to 8-Bit SPI / FT1248 Bridge, QFN-20
 K FTDI USB SPI FT1248 interface converter
-F http://www.ftdichip.com/Products/ICs/FT221X.html
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT221X.pdf
 $ENDCMP
 #
 $CMP FT221XS
 D Full Speed USB to 8-Bit SPI / FT1248 Bridge, SSOP-20
 K FTDI USB SPI FT1248 interface converter
-F http://www.ftdichip.com/Products/ICs/FT221X.html
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT221X.pdf
 $ENDCMP
 #
 $CMP FT2232D
@@ -138,70 +192,88 @@ K USB Double UART FIFO
 F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232D.pdf
 $ENDCMP
 #
-$CMP FT2232H
-D FT2232Hx, Hi Speed Double Channel USB UART/FIFO, LQFP/QFN-64
+$CMP FT2232HL
+D Hi Speed Double Channel USB UART/FIFO, LQFP-64
 K USB Double UART FIFO
-F http://www.ftdichip.com/Products/ICs/FT2232H.html
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf
+$ENDCMP
+#
+$CMP FT2232HQ
+D Hi Speed Double Channel USB UART/FIFO, QFN-64
+K USB Double UART FIFO
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf
 $ENDCMP
 #
 $CMP FT230XQ
 D Full Speed USB to Basic UART, QFN-16
 K FTDI USB UART interface converter
-F http://www.ftdichip.com/Products/ICs/FT230X.html
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf
 $ENDCMP
 #
 $CMP FT230XS
 D Full Speed USB to Basic UART, SSOP-16
 K FTDI USB UART interface converter
-F http://www.ftdichip.com/Products/ICs/FT230X.html
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf
 $ENDCMP
 #
 $CMP FT231XQ
 D Full Speed USB to Full Handshake UART, QFN-20
 K FTDI USB UART interface converter
-F http://www.ftdichip.com/Products/ICs/FT231X.html
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf
 $ENDCMP
 #
 $CMP FT231XS
 D Full Speed USB to Full Handshake UART, SSOP-20
 K FTDI USB UART interface converter
-F http://www.ftdichip.com/Products/ICs/FT231X.html
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf
 $ENDCMP
 #
 $CMP FT232BM
 D Hi Speed Single Channel USB UART/FIFO, LQFP-32
-K USB Single UART FIFO
-F http://www.ftdichip.com/Products/ICs/FT232BM.htm
+K FTDI USB Single UART FIFO
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232BM.pdf
 $ENDCMP
 #
 $CMP FT232H
-D FT232Hx, Hi Speed Single Channel USB UART/FIFO, LQFP/QFN-48
-K USB Single UART FIFO
-F http://www.ftdichip.com/Products/ICs/FT232H.htm
+D Hi Speed Single Channel USB UART/FIFO, LQFP/QFN-48
+K FTDI USB Single UART FIFO
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232H.pdf
 $ENDCMP
 #
 $CMP FT232RL
 D USB to Serial Interface, SSOP-28
-K USB Serial
-F http://www.ftdichip.com/Products/ICs/FT232RL.htm
+K FTDI USB Serial
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf
 $ENDCMP
 #
 $CMP FT240XQ
 D Full Speed USB to 8-Bit FIFO, QFN-24
 K FTDI USB FIFO interface converter
-F http://www.ftdichip.com/Products/ICs/FT240X.html
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT240X.pdf
 $ENDCMP
 #
 $CMP FT240XS
 D Full Speed USB to 8-Bit FIFO, SSOP-24
 K FTDI USB FIFO interface converter
-F http://www.ftdichip.com/Products/ICs/FT240X.html
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT240X.pdf
 $ENDCMP
 #
 $CMP FT245BM
 D Full Speed USB to 8-Bit FIFO, LQFP-32
 K FTDI USB FIFO Interface Converter
-F http://www.ftdichip.com/Products/ICs/FT245B.html
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT245BM.pdf
+$ENDCMP
+#
+$CMP FT4222HQ
+D USB 2.0 to Quad SPI or I2C Bridge, VQFN-32
+K USB SPI I2C FTDI Bridge Converter Interface
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4222H.pdf
+$ENDCMP
+#
+$CMP FT4232H
+D Hi Speed Quad Channel USB UART/FIFO, LQFP/QFN-64
+K FTDI USB Quad UART FIFO
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf
 $ENDCMP
 #
 $CMP FUSB302B01MPX
@@ -234,38 +306,44 @@ K USB USB-C PD Power Delivery PHY TCPC
 F http://www.onsemi.com/pub/Collateral/FUSB307B-D.PDF
 $ENDCMP
 #
+$CMP MA8601
+D USB 2.0 High Speed 4-Port Hub Controller, SSOP-28
+K 4-Port, EEPROM, High Speed, Hub, USB2.0
+F https://datasheetspdf.com/pdf-file/1312067/Prolific/MA8601/1
+$ENDCMP
+#
 $CMP MCP2200-E-SS
-D USB 2.0 to UART Protocol Converter with GPIO,Extended Temperature Range,SSOP
+D USB 2.0 to UART Protocol Converter with GPIO, Extended Temperature Range, SSOP-20
 K USB UART Converter
 F http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf
 $ENDCMP
 #
 $CMP MCP2200-I-MQ
-D USB 2.0 to UART Protocol Converter with GPIO,QFN
+D USB 2.0 to UART Protocol Converter with GPIO, QFN-20
 K USB UART Converter
 F http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf
 $ENDCMP
 #
 $CMP MCP2200-I-SO
-D USB 2.0 to UART Protocol Converter with GPIO,SOIC
+D USB 2.0 to UART Protocol Converter with GPIO, SOIC-20
 K USB UART Converter
 F http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf
 $ENDCMP
 #
 $CMP MCP2200-I-SS
-D USB 2.0 to UART Protocol Converter with GPIO,SSOP
+D USB 2.0 to UART Protocol Converter with GPIO, SSOP-20
 K USB UART Converter
 F http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf
 $ENDCMP
 #
 $CMP MCP2200T-E-SS
-D USB 2.0 to UART Protocol Converter with GPIO,Extended Temperature Range,TnR,SSOP
+D USB 2.0 to UART Protocol Converter with GPIO, Extended Temperature Range, TnR, SSOP-20
 K USB UART Converter
 F http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf
 $ENDCMP
 #
 $CMP MCP2200T-I-MQ
-D USB 2.0 to UART Protocol Converter with GPIO,TnR,QFN
+D USB 2.0 to UART Protocol Converter with GPIO, TnR, QFN-20
 K USB UART Converter
 F http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf
 $ENDCMP
@@ -277,9 +355,81 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf
 $ENDCMP
 #
 $CMP MCP2200T-I-SS
-D USB 2.0 to UART Protocol Converter with GPIO,TnR,SSOP
+D USB 2.0 to UART Protocol Converter with GPIO, TnR, SSOP-20
 K USB UART Converter
 F http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf
+$ENDCMP
+#
+$CMP MCP2210x-MQ
+D USB to SPI Protocol Converter with GPIO, QFN-20
+K USB SPI Master Converter Bridge
+F https://ww1.microchip.com/downloads/en/DeviceDoc/22288A.pdf
+$ENDCMP
+#
+$CMP MCP2210x-SO
+D USB to SPI Protocol Converter with GPIO, SOIC-20
+K USB SPI Master Converter Bridge
+F https://ww1.microchip.com/downloads/en/DeviceDoc/22288A.pdf
+$ENDCMP
+#
+$CMP MCP2210x-SS
+D USB to SPI Protocol Converter with GPIO, SSOP-20
+K USB SPI Master Converter Bridge
+F https://ww1.microchip.com/downloads/en/DeviceDoc/22288A.pdf
+$ENDCMP
+#
+$CMP MCP2221AxML
+D USB to I2C/UART Protocol Converter with GPIO, QFN-16
+K USB I2C UART Converter Bridge
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005565B.pdf
+$ENDCMP
+#
+$CMP MCP2221AxP
+D USB to I2C/UART Protocol Converter with GPIO, DIP-14
+K USB I2C UART Converter Bridge
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005565B.pdf
+$ENDCMP
+#
+$CMP MCP2221AxSL
+D USB to I2C/UART Protocol Converter with GPIO, SOIC-14
+K USB I2C UART Converter Bridge
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005565B.pdf
+$ENDCMP
+#
+$CMP MCP2221AxST
+D USB to I2C/UART Protocol Converter with GPIO, TSSOP-14
+K USB I2C UART Converter Bridge
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005565B.pdf
+$ENDCMP
+#
+$CMP STULPI01A
+D High-speed USB On-The-Go ULPI transceiver
+K USB OTG HS PHY ULPI Interface
+F https://www.st.com/resource/en/datasheet/stulpi01a.pdf
+$ENDCMP
+#
+$CMP STULPI01B
+D High-speed USB On-The-Go ULPI transceiver
+K USB OTG HS PHY ULPI Interface
+F https://www.st.com/resource/en/datasheet/stulpi01b.pdf
+$ENDCMP
+#
+$CMP STUSB4500QTR
+D Stand-alone USB PD controller (with sink Auto-run mode), QFN-24
+K USB PD Type C Sink
+F https://www.st.com/resource/en/datasheet/stusb4500.pdf
+$ENDCMP
+#
+$CMP TPS2500DRC
+D Integrated USB power Switch with Boost Converter, High-Efficiency Eco-mode Control Scheme, Texas S-PVSON-10
+K USB switch boost
+F http://www.ti.com/lit/ds/symlink/tps2500.pdf
+$ENDCMP
+#
+$CMP TPS2501DRC
+D Integrated USB power Switch with Boost Converter, Constant Frequency, Texas S-PVSON-10
+K USB switch boost
+F http://www.ti.com/lit/ds/symlink/tps2500.pdf
 $ENDCMP
 #
 $CMP TPS2513
@@ -324,6 +474,30 @@ K 2-Port, 3-Port, 3.3V, EEPROM, Full Speed, Hub, Texas Instruments, USB1.1
 F http://www.ti.com/lit/ds/symlink/tusb2036.pdf
 $ENDCMP
 #
+$CMP TUSB320
+D USB Type-C Configuration Channel Logic and Port Control, X2QFN-12
+K USB PD CC
+F http://www.ti.com/lit/ds/symlink/tusb320.pdf
+$ENDCMP
+#
+$CMP TUSB320I
+D USB Type-C Configuration Channel Logic and Port Control, industrial temperature range, X2QFN-12
+K USB PD CC
+F http://www.ti.com/lit/ds/symlink/tusb320.pdf
+$ENDCMP
+#
+$CMP TUSB321
+D USB Type-C Configuration Channel Logic and Port Control with VCONN, X2QFN-12
+K USB CC PD VCONN
+F http://www.ti.com/lit/ds/symlink/tusb321.pdf
+$ENDCMP
+#
+$CMP TUSB322I
+D USB Type-C Configuration Channel Logic and Port Control with VCONN, X2QFN-12
+K USB VCONN PD CC
+F www.ti.com/lit/ds/symlink/tusb322i.pdf
+$ENDCMP
+#
 $CMP TUSB4041I
 D four port USB 2.0 Hub
 K USB2.0 hub
@@ -348,10 +522,40 @@ K USB2.0 Hi-Speed-USB-Hub Hub-Controller
 F http://ww1.microchip.com/downloads/en/DeviceDoc/00001692C.pdf
 $ENDCMP
 #
+$CMP USB3250-ABZJ
+D Hi-Speed USB Device Transceiver with UTMI Interface, QFN-56
+K HS FS Device USB PHY UTMI
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00002142A.pdf
+$ENDCMP
+#
 $CMP USB3300-EZK
 D Hi-Speed USB Host, Device or OTG PHY with ULPI Interface
 K USB OTG Hi-Speed PHY ULPI Interface
 F http://ww1.microchip.com/downloads/en/DeviceDoc/00001783C.pdf
+$ENDCMP
+#
+$CMP USB3341
+D Hi-Speed USB ULPI Transceiver, QFN-24
+K USB ULPI Transceiver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/334x.pdf
+$ENDCMP
+#
+$CMP USB3343
+D Hi-Speed USB ULPI Transceiver, QFN-24
+K USB ULPI Transceiver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/334x.pdf
+$ENDCMP
+#
+$CMP USB3346
+D Hi-Speed USB ULPI Transceiver, QFN-24
+K USB ULPI Transceiver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/334x.pdf
+$ENDCMP
+#
+$CMP USB3347
+D Hi-Speed USB ULPI Transceiver, QFN-24
+K USB ULPI Transceiver
+F http://ww1.microchip.com/downloads/en/DeviceDoc/334x.pdf
 $ENDCMP
 #
 $CMP USB3740B-AI2

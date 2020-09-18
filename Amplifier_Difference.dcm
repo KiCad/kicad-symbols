@@ -3,19 +3,55 @@ EESchema-DOCLIB  Version 2.0
 $CMP AD628
 D High Common-Mode Voltage, Programmable Gain Difference Amplifier, +/-120V, Gain = 0.1 to 100, SOIC-8/MSOP-8
 K difference amplifier
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD628.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD628.pdf
 $ENDCMP
 #
 $CMP AD8207
 D 65V (35V) Zero-Drift, High Voltage, Bidirectional, Difference Amplifier, 20V/V gain, bandwidth 150kHz, Vcc=5V (3.3V), SOIC-8
 K highside HS current sense difference amplifier linear buffered
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8207.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8207.pdf
 $ENDCMP
 #
 $CMP AD8276
 D Low Power, Wide Supply Range, Low Cost Unity-Gain Difference Amplifier, SOIC-8/MSOP-8
 K difference amplifier
-F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8276_8277.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8276_8277.pdf
+$ENDCMP
+#
+$CMP AD8475ACPZ
+D Precision, Selectable Gain, Fully Differential Funnel Amplifier, LFCSP-16
+K selectable gain ADC driver
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8475.pdf
+$ENDCMP
+#
+$CMP AD8475xRMZ
+D Precision, Selectable Gain, Fully Differential Funnel Amplifier, MSOP-10
+K selectable gain ADC driver
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8475.pdf
+$ENDCMP
+#
+$CMP ADA4940-1xCP
+D Ultralow Power, Low Distortion, Fully Differential ADC Drivers, LFCSP-16
+K differential amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4940-1_4940-2.pdf
+$ENDCMP
+#
+$CMP ADA4940-2
+D Ultralow Power, Low Distortion, Fully Differential ADC Drivers, Dual-Channel, LFCSP-24
+K differential amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4940-1_4940-2.pdf
+$ENDCMP
+#
+$CMP AMC1100DWV
+D Fully-Differential Isolation Amplifier, Fixed Gain = 8, UL1577/IEC60747-5-2 Approved, SOIC-8
+K isolated difference amplifier
+F http://www.ti.com/lit/ds/symlink/amc1100.pdf
+$ENDCMP
+#
+$CMP AMC1300DWV
+D Precision, ±250-mV Input, Reinforced Isolated Amplifier, Fixed Gain = 8.2, UL1577/VDE V 0884-11 Approved, SOIC-8
+K isolated difference amplifier
+F http://www.ti.com/lit/ds/symlink/amc1300.pdf
 $ENDCMP
 #
 $CMP LM733CH
