@@ -270,6 +270,12 @@ K pfc pwm controller
 F https://www.analog.com/media/en/technical-documentation/data-sheets/lt1509.pdf
 $ENDCMP
 #
+$CMP LT4295xUFD
+D IEEE 802.3bt PD Interface with Forward/Flyback Controller, QFN-28
+K LTPoE++ IEEE 802.3af IEEE 802.3at IEEE 802.3bt
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT4295.pdf
+$ENDCMP
+#
 $CMP LTC1624CS8
 D High Efficiency N-Channel Switching Regulator Controller, SOIC-8
 K Switching Regulator Controller

@@ -792,6 +792,24 @@ K high-voltage hot-swap
 F https://www.analog.com/media/en/technical-documentation/data-sheets/164112fc.pdf
 $ENDCMP
 #
+$CMP LT4230xDD
+D Ideal Diode Bridge Controller, DC to 60Hz, DFN-8
+K diode bridge replacement
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4320fb.pdf
+$ENDCMP
+#
+$CMP LT4231xUF
+D PoE Ideal Diode Bridge Controller, QFN-16
+K LTPoE++ dual diode bridge replacement
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4321f.pdf
+$ENDCMP
+#
+$CMP LT4320xDD-1
+D Ideal Diode Bridge Controller, DC to 600Hz, DFN-8
+K diode bridge replacement
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4320fb.pdf
+$ENDCMP
+#
 $CMP LTC4242xUHF
 D Hot-Swap Power Controller, QFN-38
 K Dual-Slot PCIe
