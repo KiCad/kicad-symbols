@@ -60,6 +60,12 @@ K current source
 F https://www.analog.com/media/en/technical-documentation/data-sheets/3092fc.pdf
 $ENDCMP
 #
+$CMP PSSI2021SAY
+D Constant current source, Io 15µA to 50mA, SOT-353
+K iref adjustable
+F https://assets.nexperia.com/documents/data-sheet/PSSI2021SAY.pdf
+$ENDCMP
+#
 $CMP REF200AU
 D 2x100μA Current Sources/Sinks with Current Mirror, SO-8
 K Current Source/Sink 100μA
