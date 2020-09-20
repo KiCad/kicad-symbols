@@ -66,4 +66,10 @@ K BLE bluetooth module low-power
 F http://www.st.com/resource/en/datasheet/spbtle-rf0.pdf
 $ENDCMP
 #
+$CMP FSC-BT802
+D Bluetooth Audio Module, UART, Class 1.5
+K Bluetooth 5.0 BT Module HSP HFP A2DP AVRCP PBAP MAP SPP BLE SBC MP3 AAC AAC+ Faststream atpX
+F http://de.feasywifi.com/uploads/201813049/FSC-BT802.pdf
+$ENDCMP
+#
 #End Doc Library
