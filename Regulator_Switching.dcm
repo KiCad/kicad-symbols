@@ -258,8 +258,38 @@ K switching buck converter
 F http://www.aosmd.com/res/data_sheets/AOZ1282CI-1.pdf
 $ENDCMP
 #
+$CMP AP3402
+D 1.0MHz 2A Step-Down DC-DC Buck Converter, TSOT-23-6
+K buck switching converter
+F https://www.diodes.com/assets/Datasheets/AP3402.pdf
+$ENDCMP
+#
+$CMP AP63200WU
+D 2A, 500kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6
+K 2A Buck DC/DC
+F https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
+$ENDCMP
+#
+$CMP AP63201WU
+D 2A, 500kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6
+K 2A Buck DC/DC
+F https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
+$ENDCMP
+#
+$CMP AP63203WU
+D 2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6
+K 2A Buck DC/DC
+F https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
+$ENDCMP
+#
+$CMP AP63205WU
+D 2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6
+K 2A Buck DC/DC
+F https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
+$ENDCMP
+#
 $CMP AP6502
-D 340kHz 18V 2A Synchronois DC/DC Buck Converter
+D 340kHz 18V 2A Synchronous DC/DC Buck Converter
 K buck switching converter
 F https://www.diodes.com/assets/Datasheets/AP6502.pdf
 $ENDCMP
@@ -432,16 +462,22 @@ K Murata isolated isolation dc-dc converter transformer
 F http://power.murata.com/datasheet?/data/power/ncl/kdc_cre1.pdf
 $ENDCMP
 #
+$CMP DIO6970
+D High-Efficiency 2A, 24V Input Synchronous Step Down Converter, SOT-23-6
+K smps buck boost inverting
+F http://www.dioo.com/uploads/product/20190313/7a4d03690a9be004035eb1035a429f24.pdf
+$ENDCMP
+#
 $CMP FSBH0170
 D Green Mode Fairchild Power Switch, 700V Vds, 1.0A Id, 15W/13W 230V/85-265V, VIN Pin, DIP-8
 K smps regulator
-F https://www.fairchildsemi.com/datasheets/FS/FSBH0370.pdf
+F https://www.onsemi.com/pub/Collateral/FSBH0270-D.PDF
 $ENDCMP
 #
 $CMP FSBH0170A
 D Green Mode Fairchild Power Switch, 700V Vds, 1.0A Id, 15W/13W 230V/85-265V, DIP-8
 K smps regulator
-F https://www.fairchildsemi.com/datasheets/FS/FSBH0370.pdf
+F https://www.onsemi.com/pub/Collateral/FSBH0270-D.PDF
 $ENDCMP
 #
 $CMP FSBH0170W
@@ -453,13 +489,13 @@ $ENDCMP
 $CMP FSBH0270
 D Green Mode Fairchild Power Switch, 700V Vds, 2.0A Id, 20W/16W 230V/85-265V, VIN Pin, DIP-8
 K smps regulator
-F https://www.fairchildsemi.com/datasheets/FS/FSBH0370.pdf
+F https://www.onsemi.com/pub/Collateral/FSBH0270-D.PDF
 $ENDCMP
 #
 $CMP FSBH0270A
 D Green Mode Fairchild Power Switch, 700V Vds, 2.0A Id, 20W/16W 230V/85-265V, DIP-8
 K smps regulator
-F https://www.fairchildsemi.com/datasheets/FS/FSBH0370.pdf
+F https://www.onsemi.com/pub/Collateral/FSBH0270-D.PDF
 $ENDCMP
 #
 $CMP FSBH0270W
@@ -471,13 +507,13 @@ $ENDCMP
 $CMP FSBH0370
 D Green Mode Fairchild Power Switch, 700V Vds, 3.0A Id, 25W/19W 230V/85-265V, VIN Pin, DIP-8
 K smps regulator
-F https://www.fairchildsemi.com/datasheets/FS/FSBH0370.pdf
+F https://www.onsemi.com/pub/Collateral/FSBH0270-D.PDF
 $ENDCMP
 #
 $CMP FSBH0F70A
 D Green Mode Fairchild Power Switch, 700V Vds, 0.5A Id, 10W/8W 230V/85-265V, DIP-8
 K smps regulator
-F https://www.fairchildsemi.com/datasheets/FS/FSBH0370.pdf
+F https://www.onsemi.com/pub/Collateral/FSBH0270-D.PDF
 $ENDCMP
 #
 $CMP FSBH0F70WA
@@ -489,31 +525,31 @@ $ENDCMP
 $CMP FSDH321
 D 17W SMPS Controller, 100kHz, AC-DC, PDIP-8
 K SMPS Controller with MOSFET 17W AC-DC
-F www.fairchildsemi.com/ds/FS/FSDH321.pdf
+F https://www.onsemi.com/pub/Collateral/FSDH321JP-D.pdf
 $ENDCMP
 #
 $CMP FSDH321L
 D 17W SMPS Controller, 100kHz, AC-DC, SMD-8
 K SMPS Controller with MOSFET 17W AC-DC
-F www.fairchildsemi.com/ds/FS/FSDH321.pdf
+F https://www.onsemi.com/pub/Collateral/FSDH321JP-D.pdf
 $ENDCMP
 #
 $CMP FSDL321
 D 17W SMPS Controller, 50kHz, AC-DC, PDIP-8
 K SMPS Controller with MOSFET 17W AC-DC
-F www.fairchildsemi.com/ds/FS/FSDH321.pdf
+F https://www.onsemi.com/pub/Collateral/FSDH321JP-D.pdf
 $ENDCMP
 #
 $CMP FSDL321L
 D 17W SMPS Controller, 50kHz, AC-DC, SMD-8
 K SMPS Controller with MOSFET 17W AC-DC
-F www.fairchildsemi.com/ds/FS/FSDH321.pdf
+F https://www.onsemi.com/pub/Collateral/FSDH321JP-D.pdf
 $ENDCMP
 #
 $CMP FSL136MRT
 D 67kHz SMPS Controller w/ Soft Start, max. 50W AC-DC, TO-220F-6L
 K SMPS Controller 50W AC-DC
-F http://www.fairchildsemi.com/ds/FS/FSL136MRT.pdf
+F https://www.onsemi.com/pub/Collateral/FSL136MRT-D.pdf
 $ENDCMP
 #
 $CMP FSQ0565RQLDTU
@@ -718,6 +754,12 @@ $CMP L5973D
 D 2.5A step down switching regulator, HSOP-8
 K step down buck regulator
 F http://www.st.com/resource/en/datasheet/l5973d.pdf
+$ENDCMP
+#
+$CMP L7980A
+D 2A step down switching regulator, HSOP-8
+K step down buck regulator
+F https://www.st.com/resource/en/datasheet/l7980.pdf
 $ENDCMP
 #
 $CMP LD7575
@@ -1606,6 +1648,12 @@ $CMP LM5161PWP
 D 1A Synchronous Buck/Fly-buck Converter, 4.5V-100V input, adjustable output voltage, HTSSOP-14
 K step-down dc-dc buck regulator adjustable
 F http://www.ti.com/lit/ds/symlink/lm5161.pdf
+$ENDCMP
+#
+$CMP LM5164DDA
+D 1A synchronous buck converter with ultra-low IQ, 6V - 100V input, adjustable output voltage, HSOP-8
+K step-down dc-dc buck regulator adjustable
+F https://www.ti.com/lit/ds/symlink/lm5164.pdf?ts=1598311864250&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM5164%253FHQS%253DTI-null-null-octopart-df-pf-null-wwe
 $ENDCMP
 #
 $CMP LM5165
@@ -3765,43 +3813,43 @@ $ENDCMP
 $CMP NXE1S0303MC
 D 1W 3.3V to 3.3V 303mA DC-DC Converter with 3kV isolation
 K isolated isolation dc-dc converter transformer
-F http://power.murata.com/data/power/ncl/kdc_nxe1.pdf
+F https://www.murata.com/products/productdata/8807031865374/kdc-nxe1.pdf
 $ENDCMP
 #
 $CMP NXE1S0305MC
 D 1W 3.3V to 5V 200mA DC-DC Converter with 3kV isolation
 K isolated isolation dc-dc converter transformer
-F http://power.murata.com/data/power/ncl/kdc_nxe1.pdf
+F https://www.murata.com/products/productdata/8807031865374/kdc-nxe1.pdf
 $ENDCMP
 #
 $CMP NXE1S0505MC
 D 1W 5V to 5V 200mA DC-DC Converter with 3kV isolation
 K isolated isolation dc-dc converter transformer
-F http://power.murata.com/data/power/ncl/kdc_nxe1.pdf
+F https://www.murata.com/products/productdata/8807031865374/kdc-nxe1.pdf
 $ENDCMP
 #
 $CMP NXE2S0505MC
 D 2W 5V to 5V 400mA DC-DC Converter with 3kV isolation
 K isolated isolation dc-dc converter transformer
-F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
+F https://www.murata.com/products/productdata/8807031898142/kdc-nxe2.pdf
 $ENDCMP
 #
 $CMP NXE2S1205MC
 D 2W 12V to 5V 400mA DC-DC Converter with 3kV isolation
 K isolated isolation dc-dc converter transformer
-F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
+F https://www.murata.com/products/productdata/8807031898142/kdc-nxe2.pdf
 $ENDCMP
 #
 $CMP NXE2S1212MC
 D 2W 12V to 12V 400mA DC-DC Converter with 3kV isolation
 K isolated isolation dc-dc converter transformer
-F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
+F https://www.murata.com/products/productdata/8807031898142/kdc-nxe2.pdf
 $ENDCMP
 #
 $CMP NXE2S1215MC
 D 2W 12V to 15V 400mA DC-DC Converter with 3kV isolation
 K isolated isolation dc-dc converter transformer
-F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
+F https://www.murata.com/products/productdata/8807031898142/kdc-nxe2.pdf
 $ENDCMP
 #
 $CMP PAM2301CAAB120
@@ -5784,6 +5832,12 @@ K Boost adjustable converter
 F http://www.ti.com/lit/ds/symlink/tps61220.pdf
 $ENDCMP
 #
+$CMP TPS61230DRC
+D High Efficiency Synchronous Step Up Converters with 5-A Switches, 2.3-5.5V Input Voltage, VSON-10
+K boost converter switching adjustable 5A-switch VSON-10
+F http://www.ti.com/lit/ds/symlink/tps61232.pdf
+$ENDCMP
+#
 $CMP TPS61252DSG
 D Tiny 1.5-A Boost Converter With Adjustable Input Current Limit, 2.3-6.0V Vin, 3.0-6.5V Vout, WSON-8
 K boost converter switching
@@ -6148,6 +6202,12 @@ $CMP TPS63061
 D Buck-Boost Converter, 2.5-12V Input Voltage, 2-A Switch Current, Fixed 5V Output Voltage, S-PWSON-10
 K Buck-Boost converter 5V
 F http://www.ti.com/lit/ds/symlink/tps63060.pdf
+$ENDCMP
+#
+$CMP TPS65130RGE
+D Split-Rail Converter with Dual, Positive and Negative Outputs (300mA typ), 2.7-5.5V, VQFN-24
+K split-rail switching dual positive negative
+F http://www.ti.com/lit/ds/symlink/tps65130.pdf
 $ENDCMP
 #
 $CMP TPS82130

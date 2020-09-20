@@ -3210,4 +3210,22 @@ K Traco isolated isolation dc-dc converter transformer
 F https://www.tracopower.com/products/tmr2wi.pdf
 $ENDCMP
 #
+$CMP TPSM53602RDA
+D  36-V, 2A input, stepdown, DC/DC converter, Texas B3QFN-14
+K step down DCDC converter regulator
+F https://www.ti.com/lit/ds/symlink/tpsm53602.pdf
+$ENDCMP
+#
+$CMP TPSM53603RDA
+D  36-V, 3A input, stepdown, DC/DC converter, Texas B3QFN-14
+K step down DCDC converter regulator
+F https://www.ti.com/lit/ds/symlink/tpsm53603.pdf
+$ENDCMP
+#
+$CMP TPSM53604RDA
+D  36-V, 4A input, stepdown, DC/DC converter, Texas B3QFN-14
+K step down DCDC converter regulator
+F https://www.ti.com/lit/ds/symlink/tpsm53604.pdf
+$ENDCMP
+#
 #End Doc Library

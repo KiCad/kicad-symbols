@@ -6,10 +6,28 @@ K Energy Metering
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADE7758.pdf
 $ENDCMP
 #
+$CMP ADE7763xRS
+D Single-Phase Active and Apparent Energy Metering, SSOP-20
+K Energy Metering
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADE7763.pdf
+$ENDCMP
+#
+$CMP ADE7953xCP
+D Single Phase Multifunction Energy Metering with Neutral Current Measurement, LFCSP-28
+K Energy Metering
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADE7953.pdf
+$ENDCMP
+#
 $CMP AS3935
 D Programmable fully integrated Lightning Sensor IC
 K lightning sensor
 F https://www.embeddedadventures.com/datasheets/AS3935_Datasheet_EN_v2.pdf
+$ENDCMP
+#
+$CMP BL0937
+D Single Phase Energy Meter IC with Integrated Oscillator, SOP-8
+K current sensor
+F http://www.belling.com.cn/media/file_object/bel_product/BL0937/datasheet/BL0937_V1.02_en.pdf
 $ENDCMP
 #
 $CMP BME280
