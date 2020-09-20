@@ -384,24 +384,6 @@ K pcie
 F http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=63
 $ENDCMP
 #
-$CMP C64AB
-D Connector Europe 64 contacts ranges A,B
-K connector DIN
-F  ~
-$ENDCMP
-#
-$CMP C64AC
-D Connector Europe 64 contacts, ranges A,B,C
-K connector DIN
-F  ~
-$ENDCMP
-#
-$CMP C96ABC
-D Connector Europe, 96 contacts, ranges A,B,C
-K connector
-F  ~
-$ENDCMP
-#
 $CMP CUI_PD-30
 D 3 pin connector, PD-30
 K connector 3-pin PD-30 power DIN
