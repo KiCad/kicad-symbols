@@ -2892,12 +2892,6 @@ K Adjustable Voltage Regulator 100mA Positive
 F http://www.ti.com/lit/ds/snvs775k/snvs775k.pdf
 $ENDCMP
 #
-$CMP LM317_3PinPackage
-D 1A 35V Adjustable Linear Regulator, SOT-89/SOT-223/TO-220/TO-252/TO-263
-K Adjustable Voltage Regulator 1A Positive
-F http://www.ti.com/lit/ds/symlink/lm317.pdf
-$ENDCMP
-#
 $CMP LM317_SOT-223
 D 1.5A 35V Adjustable Linear Regulator, SOT-223
 K Adjustable Voltage Regulator 1A Positive
@@ -3492,6 +3486,30 @@ K Linear LDO Regulator 200mA 5V
 F http://www.ti.com/lit/ds/symlink/lp2987.pdf
 $ENDCMP
 #
+$CMP LP38512MR-ADJ
+D 1.5A Fast-Transient Response Low-Dropout Linear Voltage Regulator with Error Flag, Adjustable Output, HTSOP-8
+K LDO Linear Regulator
+F http://www.ti.com/lit/ds/symlink/lp38512-adj.pdf
+$ENDCMP
+#
+$CMP LP38512TJ-1.8
+D 1.5A Fast-Transient Response Low-Dropout Linear Voltage Regulator with Error Flag, 1.8V Output, NDQ
+K LDO Linear Regulator
+F http://www.ti.com/lit/ds/symlink/lp38512.pdf
+$ENDCMP
+#
+$CMP LP38512TJ-ADJ
+D 1.5A Fast-Transient Response Low-Dropout Linear Voltage Regulator with Error Flag, Adjustable Output, NDQ
+K LDO Linear Regulator
+F http://www.ti.com/lit/ds/symlink/lp38512-adj.pdf
+$ENDCMP
+#
+$CMP LP38512TS-1.8
+D 1.5A Fast-Transient Response Low-Dropout Linear Voltage Regulator with Error Flag, 1.8V Output, TO-263
+K LDO Linear Regulator DDPAK D2PAK
+F http://www.ti.com/lit/ds/symlink/lp38512.pdf
+$ENDCMP
+#
 $CMP LP38691SD-1.8
 D 500-mA Low-Dropout CMOS Linear Regulators Stable With Ceramic Output Capacitors, 1.8V output voltage, WSON-6
 K LDO Linear Regulator
@@ -3766,6 +3784,72 @@ $CMP LP5907MFX-4.5
 D 250-mA Ultra-Low-Noise Low-IQ LDO, 4.5V, SOT-23
 K Single Output LDO Low-Noise
 F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP LP5912-0.9DRV
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 0.9V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-1.0DRV
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 1.0V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-1.1DRV
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 1.1V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-1.2DRV
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 1.2V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-1.5DRV
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 1.5V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-1.8DRV
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 1.8V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-2.5DRV
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 2.5V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-2.8DRV
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 2.8V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-3.0DRV
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 3.0V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-3.3DRV
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-5.0DRV
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 5.0V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
 $ENDCMP
 #
 $CMP LR8K4-G
@@ -5076,26 +5160,14 @@ K REGULATOR LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf
 $ENDCMP
 #
-$CMP MCP1754-1802E_SOT89
-D Fixed 150mA Low Dropout Voltage Regulator, Positive, 1.8V output, SOT-89
-K Regulator LDO
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
-$ENDCMP
-#
-$CMP MCP1754-3302E_SOT89
-D Fixed 150mA Low Dropout Voltage Regulator, Positive, 3.3V output, SOT-89
-K Regulator LDO
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
-$ENDCMP
-#
-$CMP MCP1754-5002E_SOT89
-D Fixed 150mA Low Dropout Voltage Regulator, Positive, 5V output, SOT-89
-K Regulator LDO
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
-$ENDCMP
-#
 $CMP MCP1754S-1802xCB
 D Fixed 150mA Low Dropout Voltage Regulator, Positive, 1.8V output, SOT-23
+K Regulator LDO
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
+$CMP MCP1754S-1802xMB
+D Fixed 150mA Low Dropout Voltage Regulator, Positive, 1.8V output, SOT-89
 K Regulator LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
 $ENDCMP
@@ -5106,8 +5178,20 @@ K Regulator LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
 $ENDCMP
 #
+$CMP MCP1754S-3302xMB
+D Fixed 150mA Low Dropout Voltage Regulator, Positive, 3.3V output, SOT-89
+K Regulator LDO
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
 $CMP MCP1754S-5002xCB
 D Fixed 150mA Low Dropout Voltage Regulator, Positive, 5V output, SOT-23
+K Regulator LDO
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
+$CMP MCP1754S-5002xMB
+D Fixed 150mA Low Dropout Voltage Regulator, Positive, 5V output, SOT-89
 K Regulator LDO
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
 $ENDCMP
@@ -7060,6 +7144,42 @@ $CMP TLV75801PDRV
 D 500mA Low-Dropout Linear Regulator, Adjustable Output, WSON-6
 K ldo positive
 F https://www.ti.com/lit/ds/symlink/tlv758p.pdf
+$ENDCMP
+#
+$CMP TLV76701DRVx
+D 1A, 16V Precision Linear Voltage Regulator, with enable pin, Adjustable Output 0.8-13.6V, WSON-6
+K 1A, 16V Precision Linear Voltage Regulator
+F www.ti.com/lit/gpn/TLV767
+$ENDCMP
+#
+$CMP TLV76708DRVx
+D 1A Precision Linear Voltage Regulator, with enable pin, Fixed Output 0.8V, WSON6
+K 1A Precision Linear Voltage Regulator
+F www.ti.com/lit/gpn/TLV767
+$ENDCMP
+#
+$CMP TLV76718DRVx
+D 1A Precision Linear Voltage Regulator, with enable pin, Fixed Output 1.8V, WSON6
+K 1A Precision Linear Voltage Regulator
+F www.ti.com/lit/gpn/TLV767
+$ENDCMP
+#
+$CMP TLV76728DRVx
+D 1A Precision Linear Voltage Regulator, with enable pin, Fixed Output 2.8V, WSON6
+K 1A Precision Linear Voltage Regulator
+F www.ti.com/lit/gpn/TLV767
+$ENDCMP
+#
+$CMP TLV76733DRVx
+D 1A Precision Linear Voltage Regulator, with enable pin, Fixed Output 3.3V, WSON6
+K 1A Precision Linear Voltage Regulator
+F www.ti.com/lit/gpn/TLV767
+$ENDCMP
+#
+$CMP TLV76750DRVx
+D 1A, 16V Precision Linear Voltage Regulator, with enable pin, Fixed Output 5.0V, WSON-6
+K 1A, 16V Precision Linear Voltage Regulator
+F www.ti.com/lit/gpn/TLV767
 $ENDCMP
 #
 $CMP TPS51200DRC
