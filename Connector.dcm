@@ -360,6 +360,30 @@ K mini pcie
 F ~
 $ENDCMP
 #
+$CMP Bus_PCI_Express_x1
+D PCI Express bus connector x1
+K pcie
+F http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=63
+$ENDCMP
+#
+$CMP Bus_PCI_Express_x16
+D PCI Express bus connector x16
+K pcie
+F http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=63
+$ENDCMP
+#
+$CMP Bus_PCI_Express_x4
+D PCI Express bus connector x4
+K pcie
+F http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=63
+$ENDCMP
+#
+$CMP Bus_PCI_Express_x8
+D PCI Express bus connector x8
+K pcie
+F http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=63
+$ENDCMP
+#
 $CMP CUI_PD-30
 D 3 pin connector, PD-30
 K connector 3-pin PD-30 power DIN
