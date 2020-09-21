@@ -468,6 +468,18 @@ K battery charger
 F https://datasheets.maximintegrated.com/en/ds/MAX1647-MAX1648.pdf
 $ENDCMP
 #
+$CMP MAX17261xxTD
+D 5.1μA Multi-Cell Fuel Gauge with ModelGauge m5 EZ, TDFN-14
+K Charge pump, battery
+F https://datasheets.maximintegrated.com/en/ds/MAX17261.pdf
+$ENDCMP
+#
+$CMP MAX17261xxWL
+D 5.1μA Multi-Cell Fuel Gauge with ModelGauge m5 EZ, WLP-9
+K Charge pump, battery
+F https://datasheets.maximintegrated.com/en/ds/MAX17261.pdf
+$ENDCMP
+#
 $CMP MAX17263xxTE
 D Single/Multi-Cell Fuel Gauge, ModelGauge m5 EZ, Integrated LED Control, TDFN-14
 K fuel-gauge
