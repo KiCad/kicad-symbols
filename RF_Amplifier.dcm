@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD8313xRM
+D 100 MHz to 2.5 GHz, 80 dB Logarithmic Detector / Controller, MSOP-8
+K RF LOG POWER DETECTOR
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8313.pdf
+$ENDCMP
+#
 $CMP ADL5541
 D 20-6000MHz RF/IF +15dB gain block, LFCSP-8
 K RF GAIN BLOCK
@@ -102,6 +108,216 @@ K RF GAIN BLOCK
 F https://www.nxp.com/docs/en/data-sheet/BGA2874.pdf
 $ENDCMP
 #
+$CMP GALI-1
+D DC-8000MHz +11.8dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GALI-1+.pdf
+$ENDCMP
+#
+$CMP GALI-19
+D DC-7000MHz +11.6dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GALI-19+.pdf
+$ENDCMP
+#
+$CMP GALI-2
+D DC-8000MHz +14.8dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GALI-2+.pdf
+$ENDCMP
+#
+$CMP GALI-21
+D DC-8000MHz +13.1dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GALI-21+.pdf
+$ENDCMP
+#
+$CMP GALI-24
+D DC-6000MHz +16.6dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GALI-24+.pdf
+$ENDCMP
+#
+$CMP GALI-29
+D DC-7000MHz +19.7dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GALI-29+.pdf
+$ENDCMP
+#
+$CMP GALI-3
+D DC-3000MHz +19.1dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GALI-3+.pdf
+$ENDCMP
+#
+$CMP GALI-33
+D DC-4000MHz +17.5dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GALI-33+.pdf
+$ENDCMP
+#
+$CMP GALI-39
+D DC-7000MHz +19.7dB Low Noise Amplifier, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GALI-39+.pdf
+$ENDCMP
+#
+$CMP GALI-4
+D DC-4000MHz +13.5dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GALI-4+.pdf
+$ENDCMP
+#
+$CMP GALI-49
+D DC-5000MHz +13.6dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GALI-49+.pdf
+$ENDCMP
+#
+$CMP GALI-4F
+D DC-4000MHz +13.4dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GALI-4F+.pdf
+$ENDCMP
+#
+$CMP GALI-5
+D DC-4000MHz +17.5dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GALI-5+.pdf
+$ENDCMP
+#
+$CMP GALI-51
+D DC-4000MHz +16.1dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GALI-51+.pdf
+$ENDCMP
+#
+$CMP GALI-51F
+D DC-4000MHz +15.9dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GALI-51F+.pdf
+$ENDCMP
+#
+$CMP GALI-52
+D DC-2000MHz +17.8dB Low Noise Amplifier, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GALI-52+.pdf
+$ENDCMP
+#
+$CMP GALI-55
+D DC-4000MHz +18.5dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GALI-55+.pdf
+$ENDCMP
+#
+$CMP GALI-59
+D DC-5000MHz +18.3dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GALI-59+.pdf
+$ENDCMP
+#
+$CMP GALI-5F
+D DC-4000MHz +17.4dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GALI-5F+.pdf
+$ENDCMP
+#
+$CMP GALI-6
+D DC-4000MHz +11.3dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GALI-6+.pdf
+$ENDCMP
+#
+$CMP GALI-6F
+D DC-4000MHz +11.6dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GALI-6F+.pdf
+$ENDCMP
+#
+$CMP GALI-74
+D DC-1000MHz +21.8dB Low Noise Amplifier, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GALI-74+.pdf
+$ENDCMP
+#
+$CMP GALI-84
+D DC-6000MHz +16.7dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GALI-84+.pdf
+$ENDCMP
+#
+$CMP GALI-S66
+D DC-3000MHz +18.2dB Low Noise Amplifier, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GALI-S66+.pdf
+$ENDCMP
+#
+$CMP GVA-123
+D 10-12000MHz +16.9dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GVA-123+.pdf
+$ENDCMP
+#
+$CMP GVA-60
+D 10-5000MHz +19.8dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GVA-60+.pdf
+$ENDCMP
+#
+$CMP GVA-62
+D 10-6000MHz +15.4dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GVA-62+.pdf
+$ENDCMP
+#
+$CMP GVA-63
+D 10-6000MHz +20dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GVA-63+.pdf
+$ENDCMP
+#
+$CMP GVA-81
+D DC-6000MHz +10dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GVA-81+.pdf
+$ENDCMP
+#
+$CMP GVA-82
+D DC-7000MHz +13.8dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GVA-82+.pdf
+$ENDCMP
+#
+$CMP GVA-83
+D DC-7000MHz +17.1dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GVA-83+.pdf
+$ENDCMP
+#
+$CMP GVA-84
+D DC-7000MHz +16dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GVA-84+.pdf
+$ENDCMP
+#
+$CMP GVA-93
+D 10-9000MHz +16.9dB Gain Block, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/GVA-93+.pdf
+$ENDCMP
+#
+$CMP HMC1099PM5E
+D 10 W (40 dBm), 0.01 GHz to 1.1 GHz, GaN Power Amplifier, LFCSP-32
+K RF Amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/HMC1099PM5E.pdf
+$ENDCMP
+#
+$CMP HMC8500PM5E
+D 10 W (40 dBm), 0.01 GHz to 2.8 GHz, GaN Power Amplifier, LFCSP-32
+K RF Amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/HMC8500PM5E.pdf
+$ENDCMP
+#
 $CMP MAX2679
 D GPS/GNSS Ultra-Low Current Low-Noise Amplifier, +19dB @ 1.57GHz, WLP-4
 K RF GAIN BLOCK
@@ -112,6 +328,102 @@ $CMP MAX2679B
 D GPS/GNSS Ultra-Low Current Low-Noise Amplifier, +16.5dB @ 1.57GHz, WLP-4
 K RF GAIN BLOCK
 F https://datasheets.maximintegrated.com/en/ds/MAX2679-MAX2679B.pdf
+$ENDCMP
+#
+$CMP PGA-102
+D 50-6000MHz +15.9dB Low Noise Amplifier, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/PGA-102+.pdf
+$ENDCMP
+#
+$CMP PGA-1021
+D 50-6000MHz +15.1dB Low Noise Amplifier, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/PGA-1021+.pdf
+$ENDCMP
+#
+$CMP PGA-103
+D 50-4000MHz +11dB Low Noise Amplifier, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/PGA-103+.pdf
+$ENDCMP
+#
+$CMP PGA-105
+D 40-2600MHz +15.1dB Low Noise Amplifier, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/PGA-105+.pdf
+$ENDCMP
+#
+$CMP PGA-106-75
+D 50-1500MHz +16.9dB CATV Amplifier, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/PGA-106-75+.pdf
+$ENDCMP
+#
+$CMP PGA-106R-75
+D 5-250MHz +17.9dB CATV Amplifier, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/PGA-106R-75+.pdf
+$ENDCMP
+#
+$CMP PGA-122-75
+D 5-1500MHz +15.5dB CATV Amplifier, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/PGA-122-75+.pdf
+$ENDCMP
+#
+$CMP PGA-32-75
+D 5-300MHz +15.6dB CATV Amplifier, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/PGA-32-75+.pdf
+$ENDCMP
+#
+$CMP PHA-1
+D 50-6000MHz +13.5dB Linear Amplifier, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/PHA-1+.pdf
+$ENDCMP
+#
+$CMP PHA-101
+D 50-1500MHz +15.2dB Linear Amplifier, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/PHA-101+.pdf
+$ENDCMP
+#
+$CMP PHA-13HLN
+D 1-1000MHz +22.7dB Low Noise Amplifier, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/PHA-13HLN+.pdf
+$ENDCMP
+#
+$CMP PHA-13LN
+D 1-1000MHz +22.4dB Low Noise Amplifier, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/PHA-13LN+.pdf
+$ENDCMP
+#
+$CMP PHA-1H
+D 50-6000MHz +13.8dB Linear Amplifier, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/PHA-1H+.pdf
+$ENDCMP
+#
+$CMP PHA-23HLN
+D 30-2000MHz +21.3dB Low Noise Amplifier, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/PHA-23HLN+.pdf
+$ENDCMP
+#
+$CMP PHA-23LN
+D 30-2000MHz +21dB Low Noise Amplifier, SOT-89
+K RF amplifier
+F https://www.minicircuits.com/pdfs/PHA-23LN+.pdf
+$ENDCMP
+#
+$CMP SGL0622Z
+D 5 MHz to 4000 MHz, Low-Noise SiGe HBT MMIC Amplifier, DFN-8
+K rf gain block
+F https://www.qorvo.com/products/d/da001879
 $ENDCMP
 #
 $CMP SKY65404
