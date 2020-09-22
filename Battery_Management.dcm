@@ -78,14 +78,14 @@ K lithium battery balance charge afe
 F http://www.ti.com/lit/gpn/bq76940
 $ENDCMP
 #
-$CMP BQ78350
-D Lithium battery fuel gauge, battery management controller for BQ769x0
+$CMP BQ78350DBT
+D Lithium battery fuel gauge, battery management controller for BQ769x0, TSSOP-30
 K battery, management, Li-Ion, Gauge, controller
 F http://www.ti.com/lit/ds/symlink/bq78350.pdf
 $ENDCMP
 #
-$CMP BQ78350-R1
-D Lithium battery fuel gauge, battery management controller
+$CMP BQ78350DBT-R1
+D Lithium battery fuel gauge, battery management controller for BQ769x0, TSSOP-30
 K battery, management, Li-Ion, gauge, controller
 F http://www.ti.com/lit/ds/symlink/bq78350-r1.pdf
 $ENDCMP
