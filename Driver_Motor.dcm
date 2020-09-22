@@ -24,6 +24,12 @@ K Full-bridge h-bridge
 F www.allegromicro.com/~/media/Files/Datasheets/A4952-3-Datasheet.ashx?la=en
 $ENDCMP
 #
+$CMP A4954
+D Fullbridge PWM Motor Driver, UVLO, OCP, Current Limit, Short Circuit Protection, TSSOP-16
+K Fullbridge, Stepper Driver
+F https://www.allegromicro.com/-/media/Files/Datasheets/A4954-Datasheet.ashx
+$ENDCMP
+#
 $CMP DRV8308
 D Brushless DC motor controller, closed loop, hall sensor inputs, current limiting, SPI interface
 K bldc mosfet-driver hall-sensor
@@ -100,6 +106,30 @@ $CMP DRV8838
 D H-Bridge driver, 1.8A, Low Voltage, PH/EN input, WSON-8
 K half bridge driver
 F http://www.ti.com/lit/ds/symlink/drv8837.pdf
+$ENDCMP
+#
+$CMP DRV8847PWP
+D Dual H-Bridge Motor Driver, 1A, HTSSOP-16
+K Dual H-Bridge motor driver
+F https://www.ti.com/lit/ds/symlink/drv8847.pdf
+$ENDCMP
+#
+$CMP DRV8847PWR
+D Dual H-Bridge Motor Driver, 1A, TSSOP-16
+K Dual H-Bridge motor driver
+F https://www.ti.com/lit/ds/symlink/drv8847.pdf
+$ENDCMP
+#
+$CMP DRV8847RTE
+D Dual H-Bridge Motor Driver, 1A, WQFN-16
+K Dual H-Bridge motor driver
+F https://www.ti.com/lit/ds/symlink/drv8847.pdf
+$ENDCMP
+#
+$CMP DRV8847SPWR
+D Dual H-Bridge Motor Driver, 1A, I2C Interface, TSSOP-16
+K Dual H-Bridge motor driver
+F https://www.ti.com/lit/ds/symlink/drv8847.pdf
 $ENDCMP
 #
 $CMP DRV8848

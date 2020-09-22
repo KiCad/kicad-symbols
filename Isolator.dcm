@@ -288,9 +288,51 @@ K digital isolator galvanic isopower
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM5410-5411-5412.pdf
 $ENDCMP
 #
-$CMP ADuM7643
-D Low Power Six-Channel 3/3 Digital Isolator, 25Mbps 6ns, Fail-Safe High, QSOP20
-K 6Ch Quad Digital Isolator 25Mbps
+$CMP ADuM7640A
+D Low Power Six-Channel 6/0 Digital Isolator, 1Mbps 25ns, Fail-Safe High, QSOP-20
+K 6-Channels Hex Digital Isolator 1Mbps
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
+$ENDCMP
+#
+$CMP ADuM7640C
+D Low Power Six-Channel 6/0 Digital Isolator, 25Mbps 6ns, Fail-Safe High, QSOP-20
+K 6-Channels Hex Digital Isolator 25Mbps
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
+$ENDCMP
+#
+$CMP ADuM7641A
+D Low Power Six-Channel 5/1 Digital Isolator, 1Mbps 25ns, Fail-Safe High, QSOP-20
+K 6-Channels Hex Digital Isolator 1Mbps
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
+$ENDCMP
+#
+$CMP ADuM7641C
+D Low Power Six-Channel 5/1 Digital Isolator, 25Mbps 6ns, Fail-Safe High, QSOP-20
+K 6-Channels Hex Digital Isolator 25Mbps
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
+$ENDCMP
+#
+$CMP ADuM7642A
+D Low Power Six-Channel 4/2 Digital Isolator, 1Mbps 25ns, Fail-Safe High, QSOP-20
+K 6-Channels Hex Digital Isolator 1Mbps
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
+$ENDCMP
+#
+$CMP ADuM7642C
+D Low Power Six-Channel 4/2 Digital Isolator, 25Mbps 6ns, Fail-Safe High, QSOP-20
+K 6-Channels Hex Digital Isolator 25Mbps
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
+$ENDCMP
+#
+$CMP ADuM7643A
+D Low Power Six-Channel 3/3 Digital Isolator, 1Mbps 25ns, Fail-Safe High, QSOP-20
+K 6-Channels Hex Digital Isolator 1Mbps
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
+$ENDCMP
+#
+$CMP ADuM7643C
+D Low Power Six-Channel 3/3 Digital Isolator, 25Mbps 6ns, Fail-Safe High, QSOP-20
+K 6-Channels Hex Digital Isolator 25Mbps
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM7640_7641_7642_7643.pdf
 $ENDCMP
 #
@@ -694,6 +736,102 @@ $CMP ISO7342FC
 D Low Power Quad-Channel 2/2 Digital Isolator, 25Mbps 31ns, Fail-Safe Low, SO16
 K 4Ch Quad Digital Isolator 25Mbps
 F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=iso7342fc&fileType=pdf
+$ENDCMP
+#
+$CMP ISO7760DBQ
+D Default high, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf
+$ENDCMP
+#
+$CMP ISO7760DW
+D Default high, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SOIC-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf
+$ENDCMP
+#
+$CMP ISO7760FDBQ
+D Default low, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf?ts=1596905577895
+$ENDCMP
+#
+$CMP ISO7760FDW
+D Default low, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SOIC-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf?ts=1596905577895
+$ENDCMP
+#
+$CMP ISO7761DBQ
+D Default high, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf
+$ENDCMP
+#
+$CMP ISO7761DW
+D Default high, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SOIC-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf
+$ENDCMP
+#
+$CMP ISO7761FDBQ
+D Default low, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf?ts=1596905577895
+$ENDCMP
+#
+$CMP ISO7761FDW
+D Default low, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SOIC-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf?ts=1596905577895
+$ENDCMP
+#
+$CMP ISO7762DBQ
+D Default high, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf
+$ENDCMP
+#
+$CMP ISO7762DW
+D Default high, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SOIC-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf
+$ENDCMP
+#
+$CMP ISO7762FDBQ
+D Default low, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf?ts=1596905577895
+$ENDCMP
+#
+$CMP ISO7762FDW
+D Default low, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SOIC-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf?ts=1596905577895
+$ENDCMP
+#
+$CMP ISO7763DBQ
+D Default high, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf
+$ENDCMP
+#
+$CMP ISO7763DW
+D Default high, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SOIC-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf
+$ENDCMP
+#
+$CMP ISO7763FDBQ
+D Default low, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SSOP-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf?ts=1596905577895
+$ENDCMP
+#
+$CMP ISO7763FDW
+D Default low, High-speed, robust EMC, reinforced, six-channel, digital, isolator, SOIC-16
+K 6 channel digital isolator
+F https://www.ti.com/lit/ds/symlink/iso7763.pdf?ts=1596905577895
 $ENDCMP
 #
 $CMP LTV-247
@@ -1738,6 +1876,18 @@ $CMP VTL5Cx2
 D Dual Element Axial Vactrols
 K vactrol
 F http://www.alliedelec.com/m/d/ecb1ed91959ae54d97cf67f5103d9b2b.pdf
+$ENDCMP
+#
+$CMP π120U30
+D Dual-channel digital isolator, 3V/5V level translation, Safe LOW, SOIC-8
+K Dual-channel digital isolator pi120U30
+F http://www.rpsemi.com/public/doc/2Pai_%CF%8012xUxx_20200416_EN.pdf
+$ENDCMP
+#
+$CMP π120U31
+D Dual-channel digital isolator, 3V/5V level translation, Safe HIGH, SOIC-8
+K Dual-channel digital isolator pi120U31
+F http://www.rpsemi.com/public/doc/2Pai_%CF%8012xUxx_20200416_EN.pdf
 $ENDCMP
 #
 #End Doc Library

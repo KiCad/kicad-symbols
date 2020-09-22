@@ -2124,6 +2124,126 @@ K diode
 F http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf
 $ENDCMP
 #
+$CMP SM6T100A
+D 600W unidirectional Transil Transient Voltage Suppressor, 100Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T10A
+D 600W unidirectional Transil Transient Voltage Suppressor, 10Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T12A
+D 600W unidirectional Transil Transient Voltage Suppressor, 12Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T150A
+D 600W unidirectional Transil Transient Voltage Suppressor, 150Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T15A
+D 600W unidirectional Transil Transient Voltage Suppressor, 15Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T18A
+D 600W unidirectional Transil Transient Voltage Suppressor, 18Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T200A
+D 600W unidirectional Transil Transient Voltage Suppressor, 200Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T220A
+D 600W unidirectional Transil Transient Voltage Suppressor, 220Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T22A
+D 600W unidirectional Transil Transient Voltage Suppressor, 22Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T24A
+D 600W unidirectional Transil Transient Voltage Suppressor, 24Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T27A
+D 600W unidirectional Transil Transient Voltage Suppressor, 27Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T30A
+D 600W unidirectional Transil Transient Voltage Suppressor, 30Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T33A
+D 600W unidirectional Transil Transient Voltage Suppressor, 33Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T36A
+D 600W unidirectional Transil Transient Voltage Suppressor, 36Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T39A
+D 600W unidirectional Transil Transient Voltage Suppressor, 39Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T56A
+D 600W unidirectional Transil Transient Voltage Suppressor, 56Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T68A
+D 600W unidirectional Transil Transient Voltage Suppressor, 68Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T6V8A
+D 600W unidirectional Transil Transient Voltage Suppressor, 6.8Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T75A
+D 600W unidirectional Transil Transient Voltage Suppressor, 75Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
+$CMP SM6T7V5A
+D 600W unidirectional Transil Transient Voltage Suppressor, 7.5Vrwm, DO-214AA
+K diode TVS voltage suppressor
+F https://www.st.com/resource/en/datasheet/sm6t.pdf
+$ENDCMP
+#
 $CMP SM712_SOT23
 D 7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23
 K transient voltage suppressor thyrector transil
@@ -2134,6 +2254,30 @@ $CMP SMZxxx
 D 2000mW Zener Diode, MELF
 K zener diode
 F https://diotec.com/tl_files/diotec/files/pdf/datasheets/smz1.pdf
+$ENDCMP
+#
+$CMP STBR3008WY
+D 800V, 30A, General Purpose Rectifier Diode, DO-247
+K AEC-Q101
+F https://www.st.com/resource/en/datasheet/stbr3008-y.pdf
+$ENDCMP
+#
+$CMP STBR3012WY
+D 1200V, 30A, General Purpose Rectifier Diode, DO-247
+K AEC-Q101
+F https://www.st.com/resource/en/datasheet/stbr3012-y.pdf
+$ENDCMP
+#
+$CMP STBR6008WY
+D 800V, 60A, General Purpose Rectifier Diode, DO-247
+K AEC-Q101
+F https://www.st.com/resource/en/datasheet/stbr6008-y.pdf
+$ENDCMP
+#
+$CMP STBR6012WY
+D 1200V, 60A, General Purpose Rectifier Diode, DO-247
+K AEC-Q101
+F https://www.st.com/resource/en/datasheet/stbr6012-y.pdf
 $ENDCMP
 #
 $CMP STTH212S

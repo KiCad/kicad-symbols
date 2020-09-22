@@ -6,6 +6,12 @@ K FPGA programmable logic
 F http://www.latticesemi.com/Products/FPGAandCPLD/iCE40
 $ENDCMP
 #
+$CMP ICE40HX4K-BG121
+D iCE40 HX FPGA, 3520 LUTs, 1.2V, BGA-121
+K FPGA programmable logic
+F http://www.latticesemi.com/Products/FPGAandCPLD/iCE40
+$ENDCMP
+#
 $CMP ICE40HX4K-TQ144
 D iCE40 HX FPGA, 3520 LUTs, 1.2V, TQFP-144
 K FPGA programmable logic
@@ -16,6 +22,12 @@ $CMP ICE40HX8K-BG121
 D iCE40 HX FPGA, 7680 LUTs, 1.2V, BGA-121
 K FPGA programmable logic
 F http://www.latticesemi.com/Products/FPGAandCPLD/iCE40
+$ENDCMP
+#
+$CMP ICE40UL1K-SWG16
+D iCE40 UltraPlus FPGA, 1.2V, WLCSP-16
+K FPGA programmable logic
+F https://www.latticesemi.com/view_document?document_id=50945
 $ENDCMP
 #
 $CMP ICE40UP5K-SG48ITR
