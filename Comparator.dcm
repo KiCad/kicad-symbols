@@ -156,9 +156,21 @@ K cmp r2r rtr
 F https://www.analog.com/media/en/technical-documentation/data-sheets/6754f.pdf
 $ENDCMP
 #
-$CMP MAX941
-D High-Speed, Low-Power, 3V/5V, Rail-to-Rail, Single-Supply Comparator
-K comp
+$CMP MAX941xPA
+D High-Speed, Low-Power, 3V/5V, Rail-to-Rail, Single-Supply Comparator, PDIP
+K single comparator
+F https://datasheets.maximintegrated.com/en/ds/MAX941-MAX944.pdf
+$ENDCMP
+#
+$CMP MAX941xSA
+D High-Speed, Low-Power, 3V/5V, Rail-to-Rail, Single-Supply Comparator, SOIC
+K single comparator
+F https://datasheets.maximintegrated.com/en/ds/MAX941-MAX944.pdf
+$ENDCMP
+#
+$CMP MAX941xUA-T
+D High-Speed, Low-Power, 3V/5V, Rail-to-Rail, Single-Supply Comparator, µMAX/MSOP
+K single comparator
 F https://datasheets.maximintegrated.com/en/ds/MAX941-MAX944.pdf
 $ENDCMP
 #
