@@ -3,31 +3,127 @@ EESchema-DOCLIB  Version 2.0
 $CMP ADF4002BCPZ
 D 400MHz Bandwidth Frequency Synthesizer, LFCSP-20
 K Analog Devices PFD
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADF4002.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADF4002.pdf
 $ENDCMP
 #
 $CMP ADF4002BRUZ
 D 400MHz Bandwidth Frequency Synthesizer, TSSOP-16
 K Analog Devices PFD
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADF4002.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADF4002.pdf
+$ENDCMP
+#
+$CMP ADF4158
+D 0.5-6.1GHz fractional-N PLL, LFCSP-24
+K fractional-N PLL
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADF4158.pdf
 $ENDCMP
 #
 $CMP ADF4350
 D 137.5-4400MHz fractional-N PLL, LFCSP-32
 K fractional-N PLL
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADF4350.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADF4350.pdf
 $ENDCMP
 #
 $CMP ADF4351
 D 35-4400MHz fractional-N PLL, LFCSP-32
 K fractional-N PLL
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADF4351.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADF4351.pdf
 $ENDCMP
 #
 $CMP CDCVF2505
 D Clock Phase-Lock Loop Clock Driver, 24-200MHz, 3.3V, SOIC-8/TSSOP-8
 K pll clock driver
 F http://www.ti.com/lit/ds/symlink/cdcvf2505.pdf
+$ENDCMP
+#
+$CMP CS2000-CP
+D Fractional-N Clock Synthesizer & Clock Multiplier, MSOP-10
+K Clock Synthesizer Multiplier
+F https://statics.cirrus.com/pubs/proDatasheet/CS2000-CP_F3.pdf
+$ENDCMP
+#
+$CMP ICS525-01R
+D User configurable clock up to 160 MHz, SSOP-28
+K Configurable clock
+F https://www.idt.com/document/dst/525-01-02-datasheet
+$ENDCMP
+#
+$CMP ICS525R-02
+D User configurable clock up to 200 MHz, SSOP-28
+K Configurable clock
+F https://www.idt.com/document/dst/525-01-02-datasheet
+$ENDCMP
+#
+$CMP Si5342A-D
+D Jitter Attenuator/Clock Multiplier, 2 channel, Fractional, 0.001-1028 MHz, QFN-44
+K Clock Jitter Attenuator Multiplier
+F https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataSheet.pdf
+$ENDCMP
+#
+$CMP Si5342B-D
+D Jitter Attenuator/Clock Multiplier, 2 channel, Fractional, 0.001-350 MHz, QFN-44
+K Clock Jitter Attenuator Multiplier
+F https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataSheet.pdf
+$ENDCMP
+#
+$CMP Si5342C-D
+D Jitter Attenuator/Clock Multiplier, 2 channel, Integer, 0.001-1028 MHz, QFN-44
+K Clock Jitter Attenuator Multiplier
+F https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataSheet.pdf
+$ENDCMP
+#
+$CMP Si5342D-D
+D Jitter Attenuator/Clock Multiplier, 2 channel, Integer, 0.001-350 MHz, QFN-44
+K Clock Jitter Attenuator Multiplier
+F https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataSheet.pdf
+$ENDCMP
+#
+$CMP Si5344A-D
+D Jitter Attenuator/Clock Multiplier, 4 channel, Fractional, 0.001-1028 MHz, QFN-44
+K Clock Jitter Attenuator Multiplier
+F https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataSheet.pdf
+$ENDCMP
+#
+$CMP Si5344B-D
+D Jitter Attenuator/Clock Multiplier, 4 channel, Fractional, 0.001-350 MHz, QFN-44
+K Clock Jitter Attenuator Multiplier
+F https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataSheet.pdf
+$ENDCMP
+#
+$CMP Si5344C-D
+D Jitter Attenuator/Clock Multiplier, 4 channel, Integer, 0.001-1028 MHz, QFN-44
+K Clock Jitter Attenuator Multiplier
+F https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataSheet.pdf
+$ENDCMP
+#
+$CMP Si5344D-D
+D Jitter Attenuator/Clock Multiplier, 4 channel, Integer, 0.001-350 MHz, QFN-44
+K Clock Jitter Attenuator Multiplier
+F https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataSheet.pdf
+$ENDCMP
+#
+$CMP Si5345A-D
+D Jitter Attenuator/Clock Multiplier, 10-channel, Fractional, 0.001-1028 MHz, QFN-64
+K Clock Jitter Attenuator Multiplier
+F https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataSheet.pdf
+$ENDCMP
+#
+$CMP Si5345B-D
+D Jitter Attenuator/Clock Multiplier, 10-channel, Fractional, 0.001-350 MHz, QFN-64
+K Clock Jitter Attenuator Multiplier
+F https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataSheet.pdf
+$ENDCMP
+#
+$CMP Si5345C-D
+D Jitter Attenuator/Clock Multiplier, 10-channel, Integer, 0.001-1028 MHz, QFN-64
+K Clock Jitter Attenuator Multiplier
+F https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataSheet.pdf
+$ENDCMP
+#
+$CMP Si5345D-D
+D Jitter Attenuator/Clock Multiplier, 10-channel, Integer, 0.001-350 MHz, QFN-64
+K Clock Jitter Attenuator Multiplier
+F https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataSheet.pdf
 $ENDCMP
 #
 #End Doc Library

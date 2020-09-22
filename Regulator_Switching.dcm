@@ -1,189 +1,309 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 171050601
+D MagI3C Power Module, Variable Step Down Regulator Module, 6 to 36V Input Voltage, 0.8 to 6V, 5A Output, TO-263
+K power module regulator
+F https://katalog.we-online.de/pm/datasheet/171050601.pdf
+$ENDCMP
+#
+$CMP A4403GEU
+D Valley current mode buck converter, 46V, 3A, up to 2MHz, QFN-16
+K buck regulator adjustable
+F https://www.allegromicro.com/~/media/Files/Datasheets/A4403-Datasheet.ashx
+$ENDCMP
+#
+$CMP AAT1217ICA-1.2
+D 600mA, 2.5-5.5V, 1.2MHz, Micropower Synchronous Step-Up Converter, TSOT-23-6
+K regulator step-up adjustable
+F http://www.skyworksinc.com/uploads/documents/AAT1217_202050B.pdf
+$ENDCMP
+#
+$CMP AAT1217ICA-3.3
+D 600mA, 3.3V, 1.2MHz, Micropower Synchronous Step-Up Converter, TSOT-23-6
+K regulator step-up
+F http://www.skyworksinc.com/uploads/documents/AAT1217_202050B.pdf
+$ENDCMP
+#
+$CMP AAT1217ICA-5.0
+D 600mA, 5.0V, 1.2MHz, Micropower Synchronous Step-Up Converter, TSOT-23-6
+K regulator step-up
+F http://www.skyworksinc.com/uploads/documents/AAT1217_202050B.pdf
+$ENDCMP
+#
+$CMP AAT1217IGU-3.3
+D 600mA, 3.3V, 1.2MHz, Micropower Synchronous Step-Up Converter, SOT-23-6
+K regulator step-up
+F http://www.skyworksinc.com/uploads/documents/AAT1217_202050B.pdf
+$ENDCMP
+#
 $CMP ADP1108AN
 D Micropower DC-DC conveter, step-up or step-down operation, 2V-30Vin, adjustable output voltage, DIP-8
 K switching buck boost converter step-down step-up
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP1108.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP1108.pdf
 $ENDCMP
 #
 $CMP ADP1108AN-12
 D Micropower DC-DC conveter, step-up or step-down operation, 2V-30Vin, 12V fixed output voltage, DIP-8
 K switching buck boost converter step-down step-up
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP1108.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP1108.pdf
 $ENDCMP
 #
 $CMP ADP1108AN-3.3
 D Micropower DC-DC conveter, step-up or step-down operation, 2V-30Vin, 3.3V fixed output voltage, DIP-8
 K switching buck boost converter step-down step-up
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP1108.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP1108.pdf
 $ENDCMP
 #
 $CMP ADP1108AN-5
 D Micropower DC-DC conveter, step-up or step-down operation, 2V-30Vin, 5V fixed output voltage, DIP-8
 K switching buck boost converter step-down step-up
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP1108.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP1108.pdf
 $ENDCMP
 #
 $CMP ADP1108AR
 D Micropower DC-DC conveter, step-up or step-down operation, 2V-30Vin, adjustable output voltage, DIP-8
 K switching buck boost converter step-down step-up
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP1108.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP1108.pdf
 $ENDCMP
 #
 $CMP ADP1108AR-12
 D Micropower DC-DC conveter, step-up or step-down operation, 2V-30Vin, 12V fixed output voltage, DIP-8
 K switching buck boost converter step-down step-up
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP1108.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP1108.pdf
 $ENDCMP
 #
 $CMP ADP1108AR-3.3
 D Micropower DC-DC conveter, step-up or step-down operation, 2V-30Vin, 3.3V fixed output voltage, DIP-8
 K switching buck boost converter step-down step-up
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP1108.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP1108.pdf
 $ENDCMP
 #
 $CMP ADP1108AR-5
 D Micropower DC-DC conveter, step-up or step-down operation, 2V-30Vin, 5V fixed output voltage, DIP-8
 K switching buck boost converter step-down step-up
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP1108.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP1108.pdf
 $ENDCMP
 #
 $CMP ADP2108AUJ-1.0
 D 3MHz switching bucK regulator, 600mA 1.0V output voltage,
 K Voltage regulator switching buck fixed output analog
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
 $ENDCMP
 #
 $CMP ADP2108AUJ-1.1
 D 3MHz switching bucK regulator, 600mA 1.1V output voltage,
 K Voltage regulator switching buck fixed output analog
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
 $ENDCMP
 #
 $CMP ADP2108AUJ-1.2
 D 3MHz switching bucK regulator, 600mA 1.2V output voltage,
 K Voltage regulator switching buck fixed output analog
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
 $ENDCMP
 #
 $CMP ADP2108AUJ-1.3
 D 3MHz switching bucK regulator, 600mA 1.3V output voltage,
 K Voltage regulator switching buck fixed output analog
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
 $ENDCMP
 #
 $CMP ADP2108AUJ-1.5
 D 3MHz switching bucK regulator, 600mA 1.5V output voltage,
 K Voltage regulator switching buck fixed output analog
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
 $ENDCMP
 #
 $CMP ADP2108AUJ-1.8
 D 3MHz switching bucK regulator, 600mA 1.8V output voltage,
 K Voltage regulator switching buck fixed output analog
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
 $ENDCMP
 #
 $CMP ADP2108AUJ-1.82
 D 3MHz switching bucK regulator, 600mA 1.82V output voltage,
 K Voltage regulator switching buck fixed output analog
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
 $ENDCMP
 #
 $CMP ADP2108AUJ-2.3
 D 3MHz switching bucK regulator, 600mA 2.3V output voltage,
 K Voltage regulator switching buck fixed output analog
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
 $ENDCMP
 #
 $CMP ADP2108AUJ-2.5
 D 3MHz switching bucK regulator, 600mA 2.5V output voltage,
 K Voltage regulator switching buck fixed output analog
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
 $ENDCMP
 #
 $CMP ADP2108AUJ-3.0
 D 3MHz switching bucK regulator, 600mA 3.0V output voltage,
 K Voltage regulator switching buck fixed output analog
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
 $ENDCMP
 #
 $CMP ADP2108AUJ-3.3
 D 3MHz switching bucK regulator, 600mA 3.3V output voltage,
 K Voltage regulator switching buck fixed output analog
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
 $ENDCMP
 #
 $CMP ADP2302ARDZ
 D Nonsynchronous Step-Down Regulator 2 Amp Vout Adjustable SOIC-8
 K Step-Down Regulator
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2302_2303.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2302_2303.pdf
 $ENDCMP
 #
 $CMP ADP2302ARDZ-2.5
 D Nonsynchronous Step-Down Regulator 2 Amp Vout 2.5v SOIC-8
 K Step-Down Regulator
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2302_2303.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2302_2303.pdf
 $ENDCMP
 #
 $CMP ADP2302ARDZ-3.3
 D Nonsynchronous Step-Down Regulator 2 Amp Vout 3.3v SOIC-8
 K Step-Down Regulator
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2302_2303.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2302_2303.pdf
 $ENDCMP
 #
 $CMP ADP2302ARDZ-5.0
 D Nonsynchronous Step-Down Regulator 2 Amp Vout 5.0v SOIC-8
 K Step-Down Regulator
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2302_2303.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2302_2303.pdf
 $ENDCMP
 #
 $CMP ADP2303ARDZ
 D Nonsynchronous Step-Down Regulator 3 Amp Vout Adjustable SOIC-8
 K Step-Down Regulator
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2302_2303.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2302_2303.pdf
 $ENDCMP
 #
 $CMP ADP2303ARDZ-2.5
 D Nonsynchronous Step-Down Regulator 3 Amp Vout 2.5v SOIC-8
 K Step-Down Regulator
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2302_2303.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2302_2303.pdf
 $ENDCMP
 #
 $CMP ADP2303ARDZ-3.3
 D Nonsynchronous Step-Down Regulator 3 Amp Vout 3.3v SOIC-8
 K Step-Down Regulator
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2302_2303.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2302_2303.pdf
 $ENDCMP
 #
 $CMP ADP2303ARDZ-5.0
 D Nonsynchronous Step-Down Regulator 3 Amp Vout 5.0v SOIC-8
 K Step-Down Regulator
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2302_2303.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2302_2303.pdf
+$ENDCMP
+#
+$CMP ADP2360xCP
+D High Efficiency Buck Regulator, Vin 60V, Vout Adjustable, 50mA, LFCSP-8
+K Step-Down Buck Regulator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2360.pdf
+$ENDCMP
+#
+$CMP ADP2360xCP-3.3
+D High Efficiency Buck Regulator, Vin 60V, Vout 3.3V, 50mA, LFCSP-8
+K Step-Down Buck Regulator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2360.pdf
+$ENDCMP
+#
+$CMP ADP2360xCP-5.0
+D High Efficiency Buck Regulator, Vin 60V, Vout 5.0V, 50mA, LFCSP-8
+K Step-Down Buck Regulator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2360.pdf
 $ENDCMP
 #
 $CMP ADP5054
 D 250kHz to 2MHz, 6A/6A/2A/2A Quad Buck Regulator, -40 to +125C, QFN-48
 K quad regulator dcdc buck synchronizable parallel
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP5054.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5054.pdf
 $ENDCMP
 #
 $CMP ADP5070AREZ
-D 1 A/0.6 A DC-to-DC Switching Regulator with Independent Positive and Negative Outputs
+D 1A/0.6A DC-to-DC Switching Regulator with Independent Positive and Negative Outputs
 K voltage regulator switching inverter double positive negative
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP5070.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5070.pdf
 $ENDCMP
 #
 $CMP ADP5071AREZ
-D 2 A/1.2 A DC-to-DC Switching Regulator with Independent Positive and Negative Outputs
+D 2A/1.2A DC-to-DC Switching Regulator with Independent Positive and Negative Outputs
 K voltage regulator switching inverter double positive negative
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP5071.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5071.pdf
 $ENDCMP
 #
 $CMP ADuM6000
 D Isolated 5 kV DC-to-DC Converter
 K Isolated DC-to-DC Converter 5kV
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM6000.PDF
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM6000.PDF
+$ENDCMP
+#
+$CMP AOZ1280CI
+D 1.2 A Simple Buck Regulator, 3-26V input, 1.5Mhz
+K switching buck converter
+F http://aosmd.com/res/data_sheets/AOZ1280CI.pdf
+$ENDCMP
+#
+$CMP AOZ1282CI
+D 1.2 A Simple Buck Regulator, 4.5-36V input, 450kHz
+K switching buck converter
+F http://aosmd.com/res/data_sheets/AOZ1282CI.pdf
+$ENDCMP
+#
+$CMP AOZ1282CI-1
+D 600 mA Simple Buck Regulator, 4.5-36V input, 1MHz
+K switching buck converter
+F http://www.aosmd.com/res/data_sheets/AOZ1282CI-1.pdf
+$ENDCMP
+#
+$CMP AP3402
+D 1.0MHz 2A Step-Down DC-DC Buck Converter, TSOT-23-6
+K buck switching converter
+F https://www.diodes.com/assets/Datasheets/AP3402.pdf
+$ENDCMP
+#
+$CMP AP63200WU
+D 2A, 500kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6
+K 2A Buck DC/DC
+F https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
+$ENDCMP
+#
+$CMP AP63201WU
+D 2A, 500kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6
+K 2A Buck DC/DC
+F https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
+$ENDCMP
+#
+$CMP AP63203WU
+D 2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6
+K 2A Buck DC/DC
+F https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
+$ENDCMP
+#
+$CMP AP63205WU
+D 2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6
+K 2A Buck DC/DC
+F https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
+$ENDCMP
+#
+$CMP AP6502
+D 340kHz 18V 2A Synchronous DC/DC Buck Converter
+K buck switching converter
+F https://www.diodes.com/assets/Datasheets/AP6502.pdf
+$ENDCMP
+#
+$CMP AP6503
+D 340kHz 23V 3A Synchonous DC/DC Buck Converter
+K buck switching converter
+F https://www.diodes.com/assets/Datasheets/AP6503.pdf
+$ENDCMP
+#
+$CMP AP65111AWU
+D 1.5A, 500kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6
+K 1.5A 500kHz PWM Buck DC/DC
+F https://www.diodes.com/assets/Datasheets/AP65111A.pdf
 $ENDCMP
 #
 $CMP APE1707H-12-HF
@@ -342,16 +462,22 @@ K Murata isolated isolation dc-dc converter transformer
 F http://power.murata.com/datasheet?/data/power/ncl/kdc_cre1.pdf
 $ENDCMP
 #
+$CMP DIO6970
+D High-Efficiency 2A, 24V Input Synchronous Step Down Converter, SOT-23-6
+K smps buck boost inverting
+F http://www.dioo.com/uploads/product/20190313/7a4d03690a9be004035eb1035a429f24.pdf
+$ENDCMP
+#
 $CMP FSBH0170
 D Green Mode Fairchild Power Switch, 700V Vds, 1.0A Id, 15W/13W 230V/85-265V, VIN Pin, DIP-8
 K smps regulator
-F https://www.fairchildsemi.com/datasheets/FS/FSBH0370.pdf
+F https://www.onsemi.com/pub/Collateral/FSBH0270-D.PDF
 $ENDCMP
 #
 $CMP FSBH0170A
 D Green Mode Fairchild Power Switch, 700V Vds, 1.0A Id, 15W/13W 230V/85-265V, DIP-8
 K smps regulator
-F https://www.fairchildsemi.com/datasheets/FS/FSBH0370.pdf
+F https://www.onsemi.com/pub/Collateral/FSBH0270-D.PDF
 $ENDCMP
 #
 $CMP FSBH0170W
@@ -363,13 +489,13 @@ $ENDCMP
 $CMP FSBH0270
 D Green Mode Fairchild Power Switch, 700V Vds, 2.0A Id, 20W/16W 230V/85-265V, VIN Pin, DIP-8
 K smps regulator
-F https://www.fairchildsemi.com/datasheets/FS/FSBH0370.pdf
+F https://www.onsemi.com/pub/Collateral/FSBH0270-D.PDF
 $ENDCMP
 #
 $CMP FSBH0270A
 D Green Mode Fairchild Power Switch, 700V Vds, 2.0A Id, 20W/16W 230V/85-265V, DIP-8
 K smps regulator
-F https://www.fairchildsemi.com/datasheets/FS/FSBH0370.pdf
+F https://www.onsemi.com/pub/Collateral/FSBH0270-D.PDF
 $ENDCMP
 #
 $CMP FSBH0270W
@@ -381,13 +507,13 @@ $ENDCMP
 $CMP FSBH0370
 D Green Mode Fairchild Power Switch, 700V Vds, 3.0A Id, 25W/19W 230V/85-265V, VIN Pin, DIP-8
 K smps regulator
-F https://www.fairchildsemi.com/datasheets/FS/FSBH0370.pdf
+F https://www.onsemi.com/pub/Collateral/FSBH0270-D.PDF
 $ENDCMP
 #
 $CMP FSBH0F70A
 D Green Mode Fairchild Power Switch, 700V Vds, 0.5A Id, 10W/8W 230V/85-265V, DIP-8
 K smps regulator
-F https://www.fairchildsemi.com/datasheets/FS/FSBH0370.pdf
+F https://www.onsemi.com/pub/Collateral/FSBH0270-D.PDF
 $ENDCMP
 #
 $CMP FSBH0F70WA
@@ -399,31 +525,31 @@ $ENDCMP
 $CMP FSDH321
 D 17W SMPS Controller, 100kHz, AC-DC, PDIP-8
 K SMPS Controller with MOSFET 17W AC-DC
-F www.fairchildsemi.com/ds/FS/FSDH321.pdf
+F https://www.onsemi.com/pub/Collateral/FSDH321JP-D.pdf
 $ENDCMP
 #
 $CMP FSDH321L
 D 17W SMPS Controller, 100kHz, AC-DC, SMD-8
 K SMPS Controller with MOSFET 17W AC-DC
-F www.fairchildsemi.com/ds/FS/FSDH321.pdf
+F https://www.onsemi.com/pub/Collateral/FSDH321JP-D.pdf
 $ENDCMP
 #
 $CMP FSDL321
 D 17W SMPS Controller, 50kHz, AC-DC, PDIP-8
 K SMPS Controller with MOSFET 17W AC-DC
-F www.fairchildsemi.com/ds/FS/FSDH321.pdf
+F https://www.onsemi.com/pub/Collateral/FSDH321JP-D.pdf
 $ENDCMP
 #
 $CMP FSDL321L
 D 17W SMPS Controller, 50kHz, AC-DC, SMD-8
 K SMPS Controller with MOSFET 17W AC-DC
-F www.fairchildsemi.com/ds/FS/FSDH321.pdf
+F https://www.onsemi.com/pub/Collateral/FSDH321JP-D.pdf
 $ENDCMP
 #
 $CMP FSL136MRT
 D 67kHz SMPS Controller w/ Soft Start, max. 50W AC-DC, TO-220F-6L
 K SMPS Controller 50W AC-DC
-F http://www.fairchildsemi.com/ds/FS/FSL136MRT.pdf
+F https://www.onsemi.com/pub/Collateral/FSL136MRT-D.pdf
 $ENDCMP
 #
 $CMP FSQ0565RQLDTU
@@ -628,6 +754,42 @@ $CMP L5973D
 D 2.5A step down switching regulator, HSOP-8
 K step down buck regulator
 F http://www.st.com/resource/en/datasheet/l5973d.pdf
+$ENDCMP
+#
+$CMP L7980A
+D 2A step down switching regulator, HSOP-8
+K step down buck regulator
+F https://www.st.com/resource/en/datasheet/l7980.pdf
+$ENDCMP
+#
+$CMP LD7575
+D Green-Mode PWM Controller with High-Voltage Start-Up Circuit, DIP-8/SOIC-8
+K smps controller
+F http://www.leadtrend.com.tw/archive/doc/product/sheets/LD7575-DS-04b.pdf
+$ENDCMP
+#
+$CMP LM22676MR-5
+D 3A Step-Down Switching Voltage Regulater, 4.5-42V Input, 5V Output, 500kHz Switching Frequency, SOIC-8
+K DC/DC Buck Converter 3A
+F http://www.ti.com/lit/ds/symlink/lm22676.pdf
+$ENDCMP
+#
+$CMP LM22676MR-ADJ
+D 3A Step-Down Switching Voltage Regulater, 4.5-42V Input, Adjustable Output, 500kHz Switching Frequency, SOIC-8
+K DC/DC Buck Converter 3A
+F http://www.ti.com/lit/ds/symlink/lm22676.pdf
+$ENDCMP
+#
+$CMP LM22678TJ-5
+D 5A Step-Down Switching Voltage Regulater, 4.5-42V Input, 5V Output, 500kHz Switching Frequency, TO-263
+K DC/DC Buck Converter 5A
+F https://www.ti.com/lit/ds/symlink/lm22678.pdf
+$ENDCMP
+#
+$CMP LM22678TJ-ADJ
+D 5A Step-Down Switching Voltage Regulater, 4.5-42V Input, Adjustable Output, 500kHz Switching Frequency, TO-263
+K DC/DC Buck Converter 5A
+F https://www.ti.com/lit/ds/symlink/lm22678.pdf
 $ENDCMP
 #
 $CMP LM25085MM
@@ -1134,6 +1296,18 @@ K Step-Down Voltage Regulator Adjustable 3A
 F http://www.ti.com/lit/ds/symlink/lm2596.pdf
 $ENDCMP
 #
+$CMP LM2611xMF
+D 1.4MHz Cuk Converter, SOT-23-5
+K switched converter inverter PWM
+F https://www.ti.com/lit/ds/symlink/lm2611.pdf
+$ENDCMP
+#
+$CMP LM26480SQ
+D Dual 1.5A 2MHz Buck Regulators and Dual 300mA LDOs, WQFN-24
+K Dual Buck Regulator LDO 2MHz 1.5A 300mA
+F http://www.ti.com/lit/ds/symlink/lm26480.pdf
+$ENDCMP
+#
 $CMP LM2672M-12
 D 12V, 1A Step-Down Voltage Regulator, SO-8
 K Step-Down Voltage Regulator 12V 1A
@@ -1183,49 +1357,49 @@ F http://www.ti.com/lit/ds/symlink/lm2672.pdf
 $ENDCMP
 #
 $CMP LM2674M-12
-D 12V, 500 mA Step-Down Voltage Regulator, SO-8
+D 12V, 500mA Step-Down Voltage Regulator, SO-8
 K Step-Down Voltage Regulator 12V 500mA
 F http://www.ti.com/lit/ds/symlink/lm2674.pdf
 $ENDCMP
 #
 $CMP LM2674M-3.3
-D 3.3V, 500 mA Step-Down Voltage Regulator, SO-8
+D 3.3V, 500mA Step-Down Voltage Regulator, SO-8
 K Step-Down Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lm2674.pdf
 $ENDCMP
 #
 $CMP LM2674M-5.0
-D 5V, 500 mA Step-Down Voltage Regulator, SO-8
+D 5V, 500mA Step-Down Voltage Regulator, SO-8
 K Step-Down Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lm2674.pdf
 $ENDCMP
 #
 $CMP LM2674M-ADJ
-D Adjustable Output Voltage, 500 mA Step-Down Voltage Regulator, SO-8
+D Adjustable Output Voltage, 500mA Step-Down Voltage Regulator, SO-8
 K Step-Down Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lm2674.pdf
 $ENDCMP
 #
 $CMP LM2674N-12
-D 12V, 500 mA Step-Down Voltage Regulator, DIP-8
+D 12V, 500mA Step-Down Voltage Regulator, DIP-8
 K Step-Down Voltage Regulator 12V 500mA
 F http://www.ti.com/lit/ds/symlink/lm2674.pdf
 $ENDCMP
 #
 $CMP LM2674N-3.3
-D 3.3V, 500 mA Step-Down Voltage Regulator, DIP-8
+D 3.3V, 500mA Step-Down Voltage Regulator, DIP-8
 K Step-Down Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lm2674.pdf
 $ENDCMP
 #
 $CMP LM2674N-5.0
-D 5V, 500 mA Step-Down Voltage Regulator, DIP-8
+D 5V, 500mA Step-Down Voltage Regulator, DIP-8
 K Step-Down Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lm2674.pdf
 $ENDCMP
 #
 $CMP LM2674N-ADJ
-D Adjustable Output Voltage, 500 mA Step-Down Voltage Regulator, DIP-8
+D Adjustable Output Voltage, 500mA Step-Down Voltage Regulator, DIP-8
 K Step-Down Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lm2674.pdf
 $ENDCMP
@@ -1362,6 +1536,12 @@ K Miniature Step-Down Buck Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lm2842-q1.pdf
 $ENDCMP
 #
+$CMP LM3150MH
+D 42V Wide Vin synchronous Buck controller, HTSSOP-14
+K Buck step-down converter
+F http://www.ti.com/lit/ds/symlink/lm3150.pdf
+$ENDCMP
+#
 $CMP LM3407MY
 D LED Lighting CC Floating Buck Switching Regulator, MSOP-8
 K LED Step-Down Switching Regulator
@@ -1380,56 +1560,62 @@ K DC-DC buck conveter step down voltage regulator
 F http://www.ti.com/lit/ds/symlink/lm3670.pdf
 $ENDCMP
 #
+$CMP LM5001MA
+D 1A, High Voltage (75V) Switch-Mode Regulator, Adjustable Output Voltage, SOIC-8
+K High-Voltage Switch-mode Regulator Flyback SEPIC Boost
+F http://www.ti.com/lit/ds/symlink/lm5001.pdf
+$ENDCMP
+#
 $CMP LM5006MM
-D 600 mA, 80V Constant On-Time Buck Switching Regulator, MSOP-10
+D 600mA, 80V Constant On-Time Buck Switching Regulator, MSOP-10
 K Constant On-Time Buck Switching Regulator
 F http://www.ti.com/lit/ds/symlink/lm5006.pdf
 $ENDCMP
 #
 $CMP LM5007MM
-D 700 mA, High Voltage (80V) Step-Down Switching Regulator, Adjustable Output Voltage, MSOP-8
+D 700mA, High Voltage (80V) Step-Down Switching Regulator, Adjustable Output Voltage, MSOP-8
 K Step-Down Switching Regulator
 F http://www.ti.com/lit/ds/symlink/lm5007.pdf
 $ENDCMP
 #
 $CMP LM5007SD
-D 700 mA, High Voltage (80V) Step-Down Switching Regulator, Adjustable Output Voltage, WSON-8
+D 700mA, High Voltage (80V) Step-Down Switching Regulator, Adjustable Output Voltage, WSON-8
 K Step-Down Switching Regulator
 F http://www.ti.com/lit/ds/symlink/lm5007.pdf
 $ENDCMP
 #
 $CMP LM5008MM
-D 500 mA, High Voltage (100V) Step-Down Switching Regulator, Adjustable Output Voltage, MSOP-8
+D 500mA, High Voltage (100V) Step-Down Switching Regulator, Adjustable Output Voltage, MSOP-8
 K Step-Down Switching Regulator
 F http://www.ti.com/lit/ds/symlink/lm5008.pdf
 $ENDCMP
 #
 $CMP LM5008SD
-D 500 mA, High Voltage (100V) Step-Down Switching Regulator, Adjustable Output Voltage, WSON-8
+D 500mA, High Voltage (100V) Step-Down Switching Regulator, Adjustable Output Voltage, WSON-8
 K Step-Down Switching Regulator
 F http://www.ti.com/lit/ds/symlink/lm5008.pdf
 $ENDCMP
 #
 $CMP LM5009MM
-D 150 mA, High Voltage (80V) Step-Down Switching Regulator, Adjustable Output Voltage, MSOP-8
+D 150mA, High Voltage (80V) Step-Down Switching Regulator, Adjustable Output Voltage, MSOP-8
 K Step-Down Switching Regulator
 F http://www.ti.com/lit/ds/symlink/lm5009.pdf
 $ENDCMP
 #
 $CMP LM5009SD
-D 500 mA, High Voltage (80V) Step-Down Switching Regulator, Adjustable Output Voltage, WSON-8
+D 500mA, High Voltage (80V) Step-Down Switching Regulator, Adjustable Output Voltage, WSON-8
 K Step-Down Switching Regulator
 F http://www.ti.com/lit/ds/symlink/lm5009.pdf
 $ENDCMP
 #
 $CMP LM5017MR
-D 600 mA, 100V Step-Down Switching Regulator, PowerSO-8
+D 600mA, 100V Step-Down Switching Regulator, PowerSO-8
 K Step-Down Switching Regulator High Voltage
 F http://www.ti.com/lit/ds/symlink/lm5017.pdf
 $ENDCMP
 #
 $CMP LM5017SD
-D 600 mA, 100V Step-Down Switching Regulator, WSON-8
+D 600mA, 100V Step-Down Switching Regulator, WSON-8
 K Step-Down Switching Regulator High Voltage
 F http://www.ti.com/lit/ds/symlink/lm5017.pdf
 $ENDCMP
@@ -1438,6 +1624,36 @@ $CMP LM5022MM
 D 60-V Low-Side Controller for Boost and SEPIC, MSOP-10
 K boost switching controller
 F http://www.ti.com/lit/ds/symlink/lm5022.pdf
+$ENDCMP
+#
+$CMP LM5088-1
+D Wide Input Range Non-Synchronous Buck Controller, Frequency Dithering, 75V, HTSSOP-16
+K step down buck high voltage
+F http://www.ti.com/lit/ds/symlink/lm5088.pdf
+$ENDCMP
+#
+$CMP LM5088-2
+D Wide Input Range Non-Synchronous Buck Controller, Hiccup Mode Restart, 75V, HTSSOP-16
+K step down buck high voltage
+F http://www.ti.com/lit/ds/symlink/lm5088.pdf
+$ENDCMP
+#
+$CMP LM5118MH
+D Wide Voltage Range Buck-Boost Controller, HTSSOP-20
+K Buck Boost step-up step-down
+F https://www.ti.com/lit/ds/symlink/lm5118.pdf
+$ENDCMP
+#
+$CMP LM5161PWP
+D 1A Synchronous Buck/Fly-buck Converter, 4.5V-100V input, adjustable output voltage, HTSSOP-14
+K step-down dc-dc buck regulator adjustable
+F http://www.ti.com/lit/ds/symlink/lm5161.pdf
+$ENDCMP
+#
+$CMP LM5164DDA
+D 1A synchronous buck converter with ultra-low IQ, 6V - 100V input, adjustable output voltage, HSOP-8
+K step-down dc-dc buck regulator adjustable
+F https://www.ti.com/lit/ds/symlink/lm5164.pdf?ts=1598311864250&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM5164%253FHQS%253DTI-null-null-octopart-df-pf-null-wwe
 $ENDCMP
 #
 $CMP LM5165
@@ -1488,6 +1704,18 @@ K Buck Boost step-up step-down
 F http://www.ti.com/lit/ds/symlink/lm5175.pdf
 $ENDCMP
 #
+$CMP LM5176PWP
+D 55-V wide Vin synchronous 4-switch Buck-Boost controller, HTSSOP-28 package
+K Buck Boost step-up step-down
+F http://www.ti.com/lit/ds/symlink/lm5176.pdf
+$ENDCMP
+#
+$CMP LM5176RHF
+D 55-V wide Vin synchronous 4-switch Buck-Boost controller, QFN-28 package
+K Buck Boost step-up step-down
+F http://www.ti.com/lit/ds/symlink/lm5176.pdf
+$ENDCMP
+#
 $CMP LMR10510XMF
 D 1A, 5.5V Step-Down Voltage Regulator, 1.6MHz Frequency, SOT-23-5
 K Miniature Step-Down Buck Voltage Regulator
@@ -1506,6 +1734,12 @@ K Miniature Step-Down Buck Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lmr10510.pdf
 $ENDCMP
 #
+$CMP LMR14206
+D Simple Switcher Buck Regulator, Vin=4.5-42V, Iout=600mA, Adjustable output voltage, SOT-23-6 package
+K simple-switcher buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr14206.pdf
+$ENDCMP
+#
 $CMP LMR16006YQ
 D Simple Switcher Buck Regulator, Vin=4-40V, Iout=600mA, Adjustable output voltage, SOT-23-6 package
 K simple-switcher buck step-down voltage-regulator
@@ -1522,6 +1756,66 @@ $CMP LMR16006YQ5
 D Simple Switcher Buck Regulator, Vin=4-40V, Iout=600mA, Fixed 5.0V output voltage, SOT-23-6 package
 K simple-switcher buck step-down voltage-regulator
 F http://www.ti.com/lit/ds/symlink/lmr16006y-q1.pdf
+$ENDCMP
+#
+$CMP LMR33610ADDAR
+D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=1A, F=400kHz, Adjustable output voltage, HSOP-8
+K simple-switcher synchronous buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr33610.pdf
+$ENDCMP
+#
+$CMP LMR33610BDDAR
+D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=1A, F=1400kHz, Adjustable output voltage, HSOP-8
+K simple-switcher synchronous buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr33610.pdf
+$ENDCMP
+#
+$CMP LMR33620ADDA
+D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=2A, F=400kHz, Adjustable output voltage, HSOP-8
+K simple-switcher synchronous buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr33620.pdf
+$ENDCMP
+#
+$CMP LMR33620BDDA
+D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=2A, F=1400kHz, Adjustable output voltage, HSOP-8
+K simple-switcher synchronous buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr33620.pdf
+$ENDCMP
+#
+$CMP LMR33620CDDA
+D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=2A, F=2100kHz, Adjustable output voltage, HSOP-8
+K simple-switcher synchronous buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr33640.pdf
+$ENDCMP
+#
+$CMP LMR33630ADDA
+D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=3A, F=400kHz, Adjustable output voltage, HSOP-8
+K simple-switcher synchronous buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr33630.pdf
+$ENDCMP
+#
+$CMP LMR33630BDDA
+D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=3A, F=1400kHz, Adjustable output voltage, HSOP-8
+K simple-switcher synchronous buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr33630.pdf
+$ENDCMP
+#
+$CMP LMR33630CDDA
+D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=3A, F=2100kHz, Adjustable output voltage, HSOP-8
+K simple-switcher synchronous buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr33630.pdf
+$ENDCMP
+#
+$CMP LMR33640ADDA
+D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=4A, F=400kHz, Adjustable output voltage, HSOP-8
+K simple-switcher synchronous buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr33640.pdf
+$ENDCMP
+#
+$CMP LMR33640DDDA
+D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=4A, F=1000kHz, Adjustable output voltage, HSOP-8
+K simple-switcher synchronous buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr33640.pdf
 $ENDCMP
 #
 $CMP LMR62014XMF
@@ -1546,6 +1840,48 @@ $CMP LMR64010XMF
 D 1A, 40Vout Step-Up Voltage Regulator, 1.6MHz Frequency, SOT-23-5
 K Miniature Step-Up Boost Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lmr64010.pdf
+$ENDCMP
+#
+$CMP LMZ13608
+D 8A Adjustable Step-Down DC/DC Power Module in 15x15mm, Texas NDY0011A
+K Step-Down DC/DC Module
+F http://www.ti.com/lit/ds/snvs710i/snvs710i.pdf
+$ENDCMP
+#
+$CMP LMZM23600
+D 0.5A Adjustable Step-Down DC/DC Power Module in 3.8x3mm, MicroSIP-10
+K Step-Down DC/DC Module
+F http://www.ti.com/lit/ds/symlink/lmzm23600.pdf
+$ENDCMP
+#
+$CMP LMZM23600V3
+D 0.5A 3.3V Step-Down DC/DC Power Module in 3.8x3mm, MicroSIP-10
+K Step-Down DC/DC Module
+F http://www.ti.com/lit/ds/symlink/lmzm23600.pdf
+$ENDCMP
+#
+$CMP LMZM23600V5
+D 0.5A 5V Step-Down DC/DC Power Module in 3.8x3mm, MicroSIP-10
+K Step-Down DC/DC Module
+F http://www.ti.com/lit/ds/symlink/lmzm23600.pdf
+$ENDCMP
+#
+$CMP LMZM23601
+D 1A Adjustable Step-Down DC/DC Power Module in 3.8x3mm, MicroSIP-10
+K Step-Down DC/DC Module
+F http://www.ti.com/lit/ds/symlink/lmzm23601.pdf
+$ENDCMP
+#
+$CMP LMZM23601V3
+D 1A 3.3V Step-Down DC/DC Power Module in 3.8x3mm, MicroSIP-10
+K Step-Down DC/DC Module
+F http://www.ti.com/lit/ds/symlink/lmzm23601.pdf
+$ENDCMP
+#
+$CMP LMZM23601V5
+D 1A 5V Step-Down DC/DC Power Module in 3.8x3mm, MicroSIP-10
+K Step-Down DC/DC Module
+F http://www.ti.com/lit/ds/symlink/lmzm23601.pdf
 $ENDCMP
 #
 $CMP LNK302D
@@ -1618,6 +1954,78 @@ $CMP LNK306P
 D LinkSwitch-TN Family, 360mA Output Current, DIP-8B
 K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
 F http://www.powerint.com/sites/default/files/product-docs/lnk302_304-306.pdf
+$ENDCMP
+#
+$CMP LNK3202D
+D LinkSwitch-TN2 Family, 80mA Output Current, SO-8C
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F https://ac-dc.power.com/sites/default/files/product-docs/LinkSwitch-TN2_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK3202G
+D LinkSwitch-TN2 Family, 80mA Output Current, SMD-8C
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F https://ac-dc.power.com/sites/default/files/product-docs/LinkSwitch-TN2_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK3202P
+D LinkSwitch-TN2 Family, 80mA Output Current, DIP-8C
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F https://ac-dc.power.com/sites/default/files/product-docs/LinkSwitch-TN2_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK3204D
+D LinkSwitch-TN2 Family, 170mA Output Current, SO-8C
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F https://ac-dc.power.com/sites/default/files/product-docs/LinkSwitch-TN2_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK3204G
+D LinkSwitch-TN2 Family, 170mA Output Current, SMD-8C
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F https://ac-dc.power.com/sites/default/files/product-docs/LinkSwitch-TN2_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK3204P
+D LinkSwitch-TN2 Family, 170mA Output Current, DIP-8C
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F https://ac-dc.power.com/sites/default/files/product-docs/LinkSwitch-TN2_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK3205D
+D LinkSwitch-TN Family, 270mA Output Current, SO-8C
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F https://ac-dc.power.com/sites/default/files/product-docs/LinkSwitch-TN2_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK3205G
+D LinkSwitch-TN Family, 270mA Output Current, SMD-8C
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F https://ac-dc.power.com/sites/default/files/product-docs/LinkSwitch-TN2_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK3205P
+D LinkSwitch-TN Family, 270mA Output Current, DIP-8C
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F https://ac-dc.power.com/sites/default/files/product-docs/LinkSwitch-TN2_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK3206D
+D LinkSwitch-TN2 Family, 360mA Output Current, SO-8C
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F https://ac-dc.power.com/sites/default/files/product-docs/LinkSwitch-TN2_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK3206G
+D LinkSwitch-TN2 Family, 360mA Output Current, SMD-8C
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F https://ac-dc.power.com/sites/default/files/product-docs/LinkSwitch-TN2_family_datasheet.pdf
+$ENDCMP
+#
+$CMP LNK3206P
+D LinkSwitch-TN2 Family, 360mA Output Current, DIP-8B
+K Lowest Component Count, Energy-Efficient Off-Line Switcher IC
+F https://ac-dc.power.com/sites/default/files/product-docs/LinkSwitch-TN2_family_datasheet.pdf
 $ENDCMP
 #
 $CMP LNK362D
@@ -2139,403 +2547,475 @@ $ENDCMP
 $CMP LT1073CN
 D Micropower DC/DC Converter Adjustable Output Voltage, DIP-8
 K Micropower DC/DC Converter
-F http://cds.linear.com/docs/en/datasheet/1073fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1073fa.pdf
 $ENDCMP
 #
 $CMP LT1073CN-12
 D Micropower DC/DC Converter, Fixed 12V Output Voltage, DIP-8
 K Micropower DC/DC Converter
-F http://cds.linear.com/docs/en/datasheet/1073fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1073fa.pdf
 $ENDCMP
 #
 $CMP LT1073CN-5
 D Micropower DC/DC Converter, Fixed 5V Output Voltage, DIP-8
 K Micropower DC/DC Converter
-F http://cds.linear.com/docs/en/datasheet/1073fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1073fa.pdf
 $ENDCMP
 #
 $CMP LT1073CS
 D Micropower DC/DC Converter Adjustable Output Voltage, SO-8
 K Micropower DC/DC Converter
-F http://cds.linear.com/docs/en/datasheet/1073fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1073fa.pdf
 $ENDCMP
 #
 $CMP LT1073CS-12
 D Micropower DC/DC Converter, Fixed 12V Output Voltage, SO-8
 K Micropower DC/DC Converter
-F http://cds.linear.com/docs/en/datasheet/1073fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1073fa.pdf
 $ENDCMP
 #
 $CMP LT1073CS-5
 D Micropower DC/DC Converter, Fixed 5V Output Voltage, SO-8
 K Micropower DC/DC Converter
-F http://cds.linear.com/docs/en/datasheet/1073fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1073fa.pdf
 $ENDCMP
 #
 $CMP LT1108CN
 D Micropower DC-DC conveter, step-up or step-down operation, 2V-30Vin, adjustable output voltage, DIP-8
 K switching buck boost converter step-down step-up
-F http://cds.linear.com/docs/en/datasheet/lt1108.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/lt1108.pdf
 $ENDCMP
 #
 $CMP LT1108CN-12
 D Micropower DC-DC conveter, step-up or step-down operation, 2V-30Vin, fixed 12V output voltage, DIP-8
 K switching buck boost converter step-down step-up
-F http://cds.linear.com/docs/en/datasheet/lt1108.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/lt1108.pdf
 $ENDCMP
 #
 $CMP LT1108CN-5
 D Micropower DC-DC conveter, step-up or step-down operation, 2V-30Vin, fixed 5V output voltage, DIP-8
 K switching buck boost converter step-down step-up
-F http://cds.linear.com/docs/en/datasheet/lt1108.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/lt1108.pdf
 $ENDCMP
 #
 $CMP LT1108CS
 D Micropower DC-DC conveter, step-up or step-down operation, 2V-30Vin, adjustable output voltage, SO-8
 K switching buck boost converter step-down step-up
-F http://cds.linear.com/docs/en/datasheet/lt1108.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/lt1108.pdf
 $ENDCMP
 #
 $CMP LT1108CS-12
 D Micropower DC-DC conveter, step-up or step-down operation, 2V-30Vin, fixed 12V output voltage, SO-8
 K switching buck boost converter step-down step-up
-F http://cds.linear.com/docs/en/datasheet/lt1108.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/lt1108.pdf
 $ENDCMP
 #
 $CMP LT1108CS-5
 D Micropower DC-DC conveter, step-up or step-down operation, 2V-30Vin, fixed 5V output voltage, SO-8
 K switching buck boost converter step-down step-up
-F http://cds.linear.com/docs/en/datasheet/lt1108.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/lt1108.pdf
 $ENDCMP
 #
 $CMP LT1301
 D Micropower High Efficiency 5V/12V Step-Up DC/DC Converter for Flash Memory, DIP-8/SOIC-8
 K 5v 12v dc converter boost
-F http://www.linear.com/docs/3451
+F https://www.analog.com/media/en/technical-documentation/data-sheets/lt1301.pdf
 $ENDCMP
 #
 $CMP LT1307BCMS8
 D Single Cell Micropower 600kHz PWM DC/DC Converter, 10µA Quiescent Current, MSOP-8
 K Micropower PWM DC/DC Converter
-F http://cds.linear.com/docs/en/datasheet/1307fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1307fa.pdf
 $ENDCMP
 #
 $CMP LT1307BCS8
 D Single Cell Micropower 600kHz PWM DC/DC Converter, 10µA Quiescent Current, SO-8
 K Micropower PWM DC/DC Converter
-F http://cds.linear.com/docs/en/datasheet/1307fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1307fa.pdf
 $ENDCMP
 #
 $CMP LT1307CMS8
 D Single Cell Micropower 600kHz PWM DC/DC Converter, 50µA Quiescent Current, MSOP-8
 K Micropower PWM DC/DC Converter
-F http://cds.linear.com/docs/en/datasheet/1307fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1307fa.pdf
 $ENDCMP
 #
 $CMP LT1307CN8
 D Single Cell Micropower 600kHz PWM DC/DC Converter, 50µA Quiescent Current, DIP-8
 K Micropower PWM DC/DC Converter
-F http://cds.linear.com/docs/en/datasheet/1307fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1307fa.pdf
 $ENDCMP
 #
 $CMP LT1307CS8
 D Single Cell Micropower 600kHz PWM DC/DC Converter, 50µA Quiescent Current, SO-8
 K Micropower PWM DC/DC Converter
-F http://cds.linear.com/docs/en/datasheet/1307fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1307fa.pdf
 $ENDCMP
 #
 $CMP LT1372CN8
 D 1.5A High Efficiency Switching Regulators, 500kHz, 35V Switch Voltage, Adjustable Output Voltage, DIP-8
 K Switching Regulator Adjustable
-F http://cds.linear.com/docs/en/datasheet/13727fbs.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/13727fbs.pdf
 $ENDCMP
 #
 $CMP LT1372CS8
 D 1.5A High Efficiency Switching Regulators, 500kHz, 35V Switch Voltage, Adjustable Output Voltage, SO-8
 K Switching Regulator Adjustable
-F http://cds.linear.com/docs/en/datasheet/13727fbs.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/13727fbs.pdf
 $ENDCMP
 #
 $CMP LT1372HVCN8
 D 1.5A High Efficiency Switching Regulators, 500kHz, 42V Switch Voltage, Adjustable Output Voltage, DIP-8
 K Switching Regulator Adjustable
-F http://cds.linear.com/docs/en/datasheet/13727fbs.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/13727fbs.pdf
 $ENDCMP
 #
 $CMP LT1372HVCS8
 D 1.5A High Efficiency Switching Regulators, 500kHz, 42V Switch Voltage, Adjustable Output Voltage, SO-8
 K Switching Regulator Adjustable
-F http://cds.linear.com/docs/en/datasheet/13727fbs.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/13727fbs.pdf
 $ENDCMP
 #
 $CMP LT1373CN8
 D 1.5A Low Supply Current High Efficiency Switching Regulators, 250kHz, 35V Switch Voltage, Adjustable Output Voltage, DIP-8
 K Switching Regulator Adjustable
-F http://cds.linear.com/docs/en/datasheet/1373fbs.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1373fbs.pdf
 $ENDCMP
 #
 $CMP LT1373CS8
 D 1.5A Low Supply Current High Efficiency Switching Regulators, 250kHz, 35V Switch Voltage, Adjustable Output Voltage, SO-8
 K Switching Regulator Adjustable
-F http://cds.linear.com/docs/en/datasheet/1373fbs.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1373fbs.pdf
 $ENDCMP
 #
 $CMP LT1373HVCN8
 D 1.5A Low Supply Current High Efficiency Switching Regulators, 250kHz, 42V Switch Voltage, Adjustable Output Voltage, DIP-8
 K Switching Regulator Adjustable
-F http://cds.linear.com/docs/en/datasheet/1373fbs.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1373fbs.pdf
 $ENDCMP
 #
 $CMP LT1373HVCS8
 D 1.5A Low Supply Current High Efficiency Switching Regulators, 250kHz, 42V Switch Voltage, Adjustable Output Voltage, SO-8
 K Switching Regulator Adjustable
-F http://cds.linear.com/docs/en/datasheet/1373fbs.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1373fbs.pdf
 $ENDCMP
 #
 $CMP LT1377CN8
 D 1.5A High Efficiency Switching Regulators, 1MHz, 35V Switch Voltage, Adjustable Output Voltage, DIP-8
 K Switching Regulator Adjustable
-F http://cds.linear.com/docs/en/datasheet/13727fbs.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/13727fbs.pdf
 $ENDCMP
 #
 $CMP LT1377CS8
 D 1.5A High Efficiency Switching Regulators, 1MHz, 35V Switch Voltage, Adjustable Output Voltage, SO-8
 K Switching Regulator Adjustable
-F http://cds.linear.com/docs/en/datasheet/13727fbs.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/13727fbs.pdf
 $ENDCMP
 #
 $CMP LT1945
 D Dual Micropower DC/DC Converter with Positive and Negative Outputs, MSOP-10
 K switched voltage converter regulator inverter double shutdown  positive negative
-F https://cds.linear.com/docs/en/datasheet/1945fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1945fa.pdf
 $ENDCMP
 #
 $CMP LT3430
 D 3A High Voltage 200kHz Step-Down Switching Regulator, TSSOP-16
 K Step-Down Switching Regulator
-F http://cds.linear.com/docs/en/datasheet/34301fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/34301fa.pdf
 $ENDCMP
 #
 $CMP LT3430-1
 D 3A High Voltage 100kHz Step-Down Switching Regulator, TSSOP-16
 K Step-Down Switching Regulator
-F http://cds.linear.com/docs/en/datasheet/34301fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/34301fa.pdf
 $ENDCMP
 #
 $CMP LT3439
 D 1A Slew Rate Controlled Ultralow Noise Isolated DC/DC Transformer Driver, TSSOP-16
 K Isolated DC/DC Transformer Driver
-F http://cds.linear.com/docs/en/datasheet/3439fs.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3439fs.pdf
+$ENDCMP
+#
+$CMP LT3471
+D Dual 1.3A, 1.2MHz Boost/Inverter, DFN-10
+K dc/dc converter boost inverter
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3471fb.pdf
 $ENDCMP
 #
 $CMP LT3472
 D Boost and Inverting DC/DC Converter for CCD Bias, DFN-10
 K DC/DC converter CCD Bias Boost
-F http://cds.linear.com/docs/en/datasheet/3472f.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3472f.pdf
+$ENDCMP
+#
+$CMP LT3514xUFD
+D Triple Step-Down Switching Regulator with 100% Duty Cycle Operation, QFN-28
+K triple step-down
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3514fa.pdf
+$ENDCMP
+#
+$CMP LT3580xDD
+D Boost/Inverting DC/DC Converter with 2A Switch, Soft-Start, and Synchronization, DFN-8
+K boost inverting dc-dc
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3580fg.pdf
+$ENDCMP
+#
+$CMP LT3580xMS8E
+D Boost/Inverting DC/DC Converter with 2A Switch, Soft-Start, and Synchronization, MSOP-8
+K boost inverting dc-dc
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3580fg.pdf
+$ENDCMP
+#
+$CMP LT3748xMS
+D 100V Isolated Flyback Controller, MSOP-16
+K isolated flyback controller
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3748fb.pdf
 $ENDCMP
 #
 $CMP LT3757AEDD
 D Boost, flyback, SEPIC and inverting regulator, improved load transient performance, DFN-10
 K Boost flyback SEPIC inverting DC/DC regulator
-F http://cds.linear.com/docs/en/datasheet/3757Afe.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3757Afe.pdf
 $ENDCMP
 #
 $CMP LT3757AEMSE
 D Boost, flyback, SEPIC and inverting regulator, improved load transient performance, MSOP-10
 K Boost flyback SEPIC inverting DC/DC regulator
-F http://cds.linear.com/docs/en/datasheet/3757Afe.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3757Afe.pdf
 $ENDCMP
 #
 $CMP LT3757EDD
 D Boost, flyback, SEPIC and inverting regulator. DFN-10
 K Boost flyback SEPIC inverting DC/DC regulator
-F http://cds.linear.com/docs/en/datasheet/3757Afe.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3757Afe.pdf
 $ENDCMP
 #
 $CMP LT3757EMSE
 D Boost, flyback, SEPIC and inverting regulator. MSOP-10
 K Boost flyback SEPIC inverting DC/DC regulator
-F http://cds.linear.com/docs/en/datasheet/3757Afe.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3757Afe.pdf
+$ENDCMP
+#
+$CMP LT8303
+D 100VIN Micropower Isolated Flyback Converter with 150V/450mA Switch, TSOT-23-5
+K Flyback switcher
+F https://www.analog.com/media/en/technical-documentation/data-sheets/8303fa.pdf
 $ENDCMP
 #
 $CMP LT8610
 D 42V, 2.5A Synchronous Step-Down Regulator with 2.5uA Quiescent Current, MSOP-16
 K high efficiency speed synchronous monolithic buck step-down switching regulator 42V 2.5A
-F http://cds.linear.com/docs/en/datasheet/8610fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/8610fa.pdf
 $ENDCMP
 #
 $CMP LT8610AC
 D 42V, 3.5A Synchronous Step-Down Regulator with 2.5uA Quiescent Current, 0.8V Feedback Voltage, 3.0V Minimum Vin, MSOP-16
 K high efficiency speed synchronous monolithic buck step-down switching regulator 42V 3.5A lower feedback voltage minimum vin
-F http://cds.linear.com/docs/en/datasheet/8610acfa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/8610acfa.pdf
 $ENDCMP
 #
 $CMP LT8610AC-1
 D 42V, 3.5A Synchronous Step-Down Regulator with 2.5uA Quiescent Current, Internal Compensation for Improved Transient, Soft-Start at Dropout and Brownout, MSOP-16
 K high efficiency speed synchronous monolithic buck step-down switching regulator 42V 3.5A lower feedback voltage minimum vin internal compensation soft-start
-F http://cds.linear.com/docs/en/datasheet/8610acfa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/8610acfa.pdf
 $ENDCMP
 #
 $CMP LTC1436A
 D High Efficiency Low Noise Synchronous Step-Down Switching Regulators, SSOP-24
 K buck controller 36V
-F http://cds.linear.com/docs/en/datasheet/14367afb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/14367afb.pdf
 $ENDCMP
 #
 $CMP LTC1436A-PLL
 D High Efficiency Low Noise Synchronous Step-Down Switching Regulators, SSOP-24
 K buck controller 36V
-F http://cds.linear.com/docs/en/datasheet/14367afb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/14367afb.pdf
 $ENDCMP
 #
 $CMP LTC1437A
 D High Efficiency Low Noise Synchronous Step-Down Switching Regulators, SSOP-28
 K buck controller 36V
-F http://cds.linear.com/docs/en/datasheet/14367afb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/14367afb.pdf
 $ENDCMP
 #
 $CMP LTC1878EMS8
 D High Efficiency Monolithic Synchronous Step-Down Regulator, MSOP-8
 K Synchronous Step-Down Regulator
-F http://cds.linear.com/docs/en/datasheet/1878f.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1878f.pdf
+$ENDCMP
+#
+$CMP LTC3105xDD
+D 400mA Step-Up DC/DC Converter with Maximum Power Point Control and 250mV Start-Up, DFN-10
+K Solar MPPT Maximum Power Point Control Converter Step-Up
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3105fb.pdf
+$ENDCMP
+#
+$CMP LTC3105xMS
+D 400mA Step-Up DC/DC Converter with Maximum Power Point Control and 250mV Start-Up, MSOP-12
+K Solar MPPT Maximum Power Point Control Converter Step-Up
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3105fb.pdf
 $ENDCMP
 #
 $CMP LTC3406AES5
 D 600mA Synchronous Step-Down Regulator, 1.5MHz, Fixed 1.2V Output Voltage, Low Ripple Burst Mode, ThinSOT-23
 K Regulator step-down
-F http://cds.linear.com/docs/en/datasheet/3406afa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3406afa.pdf
 $ENDCMP
 #
 $CMP LTC3406B-2ES5
 D 600mA Synchronous Step-Down Regulator, 2.25MHz, Adjustable Output Voltage,ThinSOT-23
 K Regulator step-down
-F http://cds.linear.com/docs/en/datasheet/3406b2fs.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3406b2fs.pdf
 $ENDCMP
 #
 $CMP LTC3406BES5-1.2
 D 600mA Synchronous Step-Down Regulator, 1.5MHz, Fixed 1.2V Output Voltage, Burst Mode Disabled, ThinSOT-23
 K Regulator step-down
-F http://cds.linear.com/docs/en/datasheet/3406b12fs.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3406b12fs.pdf
 $ENDCMP
 #
 $CMP LTC3406ES5
 D 600mA Synchronous Step-Down Regulator, 1.5MHz, Adjustable Output Voltage, Burst Mode, ThinSOT-23
 K Regulator step-down
-F http://cds.linear.com/docs/en/datasheet/3406b12fs.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3406b12fs.pdf
 $ENDCMP
 #
 $CMP LTC3406ES5-1.2
 D 600mA Synchronous Step-Down Regulator, 1.5MHz, Fixed 1.2V Output Voltage, Burst Mode, ThinSOT-23
 K Regulator step-down
-F http://cds.linear.com/docs/en/datasheet/3406b12fs.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3406b12fs.pdf
 $ENDCMP
 #
 $CMP LTC3406ES5-1.5
 D 600mA Synchronous Step-Down Regulator, 1.5MHz, Fixed 1.5V Output Voltage, Burst Mode, ThinSOT-23
 K Regulator step-down
-F http://cds.linear.com/docs/en/datasheet/3406b12fs.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3406b12fs.pdf
 $ENDCMP
 #
 $CMP LTC3406ES5-1.8
 D 600mA Synchronous Step-Down Regulator, 1.5MHz, Fixed 1.8V Output Voltage, Burst Mode, ThinSOT-23
 K Regulator step-down
-F http://cds.linear.com/docs/en/datasheet/3406b12fs.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3406b12fs.pdf
 $ENDCMP
 #
 $CMP LTC3429
 D 600mA, 500kHz Micropower Synchronous Boost Converter with Output Disconnect, TSOT-23-6
 K boost step-up DC/DC synchronous
-F http://cds.linear.com/docs/en/datasheet/3429fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3429fa.pdf
 $ENDCMP
 #
 $CMP LTC3429B
 D 600mA, 500kHz Micropower Synchronous Boost Converter with Output Disconnect, Continuous Switching at Light Loads, TSOT-23-6
 K boost step-up DC/DC synchronous
-F http://cds.linear.com/docs/en/datasheet/3429fa.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3429fa.pdf
 $ENDCMP
 #
 $CMP LTC3442
 D Micropower Synchronous Buck-Boost DC/DC Converter with Automatic Burst Mode Operation, DFN-12
 K Micropower Synchronous Buck-Boost DC/DC Converter
-F http://cds.linear.com/docs/en/datasheet/3442fb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3442fb.pdf
 $ENDCMP
 #
 $CMP LTC3525
 D 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect, SC-70-6
 K boost step-up DC/DC synchronous
-F http://cds.linear.com/docs/en/datasheet/3525fc.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3525fc.pdf
 $ENDCMP
 #
 $CMP LTC3525-3
 D Fixed 3V, 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect, SC-70-6
 K fixed boost step-up DC/DC synchronous
-F http://cds.linear.com/docs/en/datasheet/3525fc.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3525fc.pdf
 $ENDCMP
 #
 $CMP LTC3525-3.3
 D Fixed 3V3, 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect, SC-70-6
 K fixed boost step-up DC/DC synchronous
-F http://cds.linear.com/docs/en/datasheet/3525fc.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3525fc.pdf
 $ENDCMP
 #
 $CMP LTC3525-5
 D Fixed 5V, 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect, SC-70-6
 K fixed boost step-up DC/DC synchronous
-F http://cds.linear.com/docs/en/datasheet/3525fc.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3525fc.pdf
 $ENDCMP
 #
 $CMP LTC3525D-3.3
 D Fixed 3V3, 400mA Micropower Synchronous Step-Up DC/DC Converter with Pass Through Mode, SC-70-6
 K fixed boost step-up DC/DC synchronous
-F http://cds.linear.com/docs/en/datasheet/3525d33fb.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3525d33fb.pdf
 $ENDCMP
 #
 $CMP LTC3525L-3
 D Fixed 3V, 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect, SC-70-6
 K fixed boost step-up DC/DC synchronous
-F http://cds.linear.com/docs/en/datasheet/3525laf.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3525laf.pdf
 $ENDCMP
 #
 $CMP LTC3630ADHC
 D High efficiency 76V 500mA synchronous step-down converter, DFN-16
 K buck dc-dc switcher switching
-F http://cds.linear.com/docs/en/datasheet/3630afc.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3630afc.pdf
 $ENDCMP
 #
 $CMP LTC3630AMSE
 D High efficiency 76V 500mA synchronous step-down converter, MSOP-16(12)
 K buck dc-dc switcher switching
-F http://cds.linear.com/docs/en/datasheet/3630afc.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3630afc.pdf
 $ENDCMP
 #
 $CMP LTC3630DHC
 D 500mA High efficiency 65V synchronous step-down converter, DFN-16
 K buck dc-dc switcher switching
-F http://cds.linear.com/docs/en/datasheet/3630fd.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3630fd.pdf
 $ENDCMP
 #
 $CMP LTC3630MSE
 D 500mA High efficiency 65V synchronous step-down converter, MSOP-16(12)
 K buck dc-dc switcher switching
-F http://cds.linear.com/docs/en/datasheet/3630fd.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3630fd.pdf
+$ENDCMP
+#
+$CMP LTC3638
+D 250mA High efficiency 140V step-down converter, MSOP-16(12)
+K buck dc-dc switcher switching
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3638fa.pdf
+$ENDCMP
+#
+$CMP LTC3639
+D 100mA High efficiency 150V syncrhonous step-down converter, MSOP-16(12)
+K buck dc-dc switcher switching
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3639fd.pdf
 $ENDCMP
 #
 $CMP LTC3886
 D 60V dual output buck output with digital power system management, UKG52(46)
 K step down switch manager I2C telemetry fault current sense
-F http://cds.linear.com/docs/en/datasheet/3886fe.pdf
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC3886-3886-1.pdf
 $ENDCMP
 #
-$CMP LTC3890
-D 60V dual 2-phase synchronous step-down DC/DC controller, QFN-32
-K switching buck converter regulator dual-output
-F http://cds.linear.com/docs/en/datasheet/3890fc.pdf
+$CMP LTC7138
+D 400mA High efficiency 140V step-down converter, MSOP-16(12)
+K buck dc-dc switcher switching
+F https://www.analog.com/media/en/technical-documentation/data-sheets/7138f.pdf
 $ENDCMP
 #
-$CMP LTC3890-1
-D 60V dual 2-phase synchronous step-down DC/DC controller, SSOP-28
-K switching buck converter regulator dual-output
-F http://cds.linear.com/docs/en/datasheet/38901fb.pdf
+$CMP LTM4637xV
+D 20A DC/DC µModule Step-Down Regulator, LGA-133
+K uModule DCDC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4637fc.pdf
+$ENDCMP
+#
+$CMP LTM4637xY
+D 20A DC/DC µModule Step-Down Regulator, BGA-133
+K uModule DCDC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4637fc.pdf
+$ENDCMP
+#
+$CMP LTM8063
+D 40VIN, 2A Silent Switcher µModule Regulator, BGA-28
+K uModule DCDC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
 $ENDCMP
 #
 $CMP MAX15062A
@@ -2556,6 +3036,42 @@ K step-down dc-dc switching regulator
 F http://datasheets.maximintegrated.com/en/ds/MAX15062.pdf
 $ENDCMP
 #
+$CMP MAX17501AxTB
+D 4.5V–60Vin, 500mA, High-Efficiency, 3.3V Synchronous Step-Down DC-DC Converter, PFM Mode, TDFN-10
+K Step-down dc-dc switching regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX17501.pdf
+$ENDCMP
+#
+$CMP MAX17501BxTB
+D 4.5V–60Vin, 500mA, High-Efficiency, 5V Synchronous Step-Down DC-DC Converter, PFM Mode, DFN-10
+K Step-down dc-dc switching regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX17501.pdf
+$ENDCMP
+#
+$CMP MAX17501ExTB
+D 4.5V–60Vin, 500mA, High-Efficiency, 3.3V Synchronous Step-Down DC-DC Converter, PWM Mode, DFN-10
+K Step-down dc-dc switching regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX17501.pdf
+$ENDCMP
+#
+$CMP MAX17501FxTB
+D 4.5V–60Vin, 500mA, High-Efficiency, 5V Synchronous Step-Down DC-DC Converter, PWM Mode, DFN-10
+K Step-down dc-dc switching regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX17501.pdf
+$ENDCMP
+#
+$CMP MAX17501GxTB
+D 4.5V–60Vin, 500mA, High-Efficiency, Adjustable Synchronous Step-Down DC-DC Converter, 600KHz, TDFN-10
+K Step-down dc-dc switching regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX17501.pdf
+$ENDCMP
+#
+$CMP MAX17501HxTB
+D 4.5V–60Vin, 500mA, High-Efficiency, Adjustable Synchronous Step-Down DC-DC Converter, 300KHz, DFN-10
+K Step-down dc-dc switching regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX17501.pdf
+$ENDCMP
+#
 $CMP MAX17572
 D 4.5V–60V, 1A, High-Efficiency, Synchronous Step-Down DC-DC Converter with Internal Compensation, DFN-12
 K Step-down dc-dc switching regulator
@@ -2566,6 +3082,12 @@ $CMP MAX17574
 D 4.5V–60V, 3A, High-Efficiency, Synchronous Step-Down DC-DC Converter with Internal Compensation, QFN-24
 K Step-down dc-dc switching regulator
 F https://datasheets.maximintegrated.com/en/ds/MAX17574.pdf
+$ENDCMP
+#
+$CMP MAX17620ATA
+D 2.7-5.5V, 600mA, Synchronous Step-Down DC-DC Converter with Integrated MOSFETs, DFN-8
+K switching-regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX17620.pdf
 $ENDCMP
 #
 $CMP MAX5035AUPA
@@ -2832,10 +3354,52 @@ K boost switching voltage converter regulator
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2290.pdf
 $ENDCMP
 #
+$CMP MIC4684
+D 2A, 200kHz SuperSwitcher Buck Regulator, 4-30V Input Voltage, Adjustable Output Voltage, SO-8
+K regulator switching adjustable
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MIC4684.pdf
+$ENDCMP
+#
 $CMP MIC4690
 D 1A, 500kHz SuperSwitcher Buck Regulator, 4-34V Input Voltage, Adjustable Output Voltage, SO-8
 K regulator switching adjustable
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic4690.pdf
+$ENDCMP
+#
+$CMP MP1470
+D High-Efficiency, 2A, 16V, 500kHz Synchronous, Step-Down Converter, TSOT-23-6
+K buck converter
+F https://www.monolithicpower.com/pub/media/document/MP1470_r1.02.pdf
+$ENDCMP
+#
+$CMP MP171GJ
+D 60mA Non-Isolated Off-Line Regulator, 700V Input Voltage, Adjustable Output Voltage, TSOT-23-5
+K regulator switching adjustable
+F https://www.monolithicpower.com/pub/media/document/m/p/mp171_r1.01.pdf
+$ENDCMP
+#
+$CMP MP171GS
+D 60mA Non-Isolated Off-Line Regulator, 700V Input Voltage, Adjustable Output Voltage, SOIC-8
+K regulator switching adjustable
+F https://www.monolithicpower.com/pub/media/document/m/p/mp171_r1.01.pdf
+$ENDCMP
+#
+$CMP MT3608
+D High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6
+K Step-Up Boost DC-DC Regulator Adjustable
+F https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf
+$ENDCMP
+#
+$CMP MUN12AD01-SH
+D DC/DC Switching Regulator, Power Module, 1A, Cyntec MUN12AD01
+K DC/DC Switching Regulator Power Module 1A Cyntec MUN12AD01
+F http://www.cyntec.com/upfile/products/download/Cyntec%20MUN12AD01-SH_Datasheet.pdf
+$ENDCMP
+#
+$CMP MUN12AD03-SH
+D DC/DC Switching Regulator, Power Module, 3A, Cyntec MUN12AD03
+K DC/DC Switching Regulator Power Module 3A Cyntec MUN12AD03
+F http://www.cyntec.com/upfile/products/download/Cyntec%20MUN12AD03-SH_Datasheet.pdf
 $ENDCMP
 #
 $CMP NCP1070P065
@@ -3054,6 +3618,12 @@ K SMPS Converter
 F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
 $ENDCMP
 #
+$CMP NCP1529A
+D 1.7MHz, 1A, High Efficiency, Low Ripple, Adjustable Output Voltage Step-down Converter, SOT-23-5
+K Step-Down Buck DC-DC Regulator Adjustable
+F https://www.onsemi.com/pub/Collateral/NCP1529-D.PDF
+$ENDCMP
+#
 $CMP NCV33063AVD
 D 1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, SO-8
 K smps buck boost inverting
@@ -3240,28 +3810,64 @@ K Murata isolated isolation dc-dc converter
 F http://power.murata.com/data/power/ncl/kdc_nma.pdf
 $ENDCMP
 #
-$CMP NXE2S0505MC
-D 5V to 5V 400mA DC-DC Converter with 3kV isolation
+$CMP NXE1S0303MC
+D 1W 3.3V to 3.3V 303mA DC-DC Converter with 3kV isolation
 K isolated isolation dc-dc converter transformer
-F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
+F https://www.murata.com/products/productdata/8807031865374/kdc-nxe1.pdf
+$ENDCMP
+#
+$CMP NXE1S0305MC
+D 1W 3.3V to 5V 200mA DC-DC Converter with 3kV isolation
+K isolated isolation dc-dc converter transformer
+F https://www.murata.com/products/productdata/8807031865374/kdc-nxe1.pdf
+$ENDCMP
+#
+$CMP NXE1S0505MC
+D 1W 5V to 5V 200mA DC-DC Converter with 3kV isolation
+K isolated isolation dc-dc converter transformer
+F https://www.murata.com/products/productdata/8807031865374/kdc-nxe1.pdf
+$ENDCMP
+#
+$CMP NXE2S0505MC
+D 2W 5V to 5V 400mA DC-DC Converter with 3kV isolation
+K isolated isolation dc-dc converter transformer
+F https://www.murata.com/products/productdata/8807031898142/kdc-nxe2.pdf
 $ENDCMP
 #
 $CMP NXE2S1205MC
-D 12V to 5V 400mA DC-DC Converter with 3kV isolation
+D 2W 12V to 5V 400mA DC-DC Converter with 3kV isolation
 K isolated isolation dc-dc converter transformer
-F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
+F https://www.murata.com/products/productdata/8807031898142/kdc-nxe2.pdf
 $ENDCMP
 #
 $CMP NXE2S1212MC
-D 12V to 12V 400mA DC-DC Converter with 3kV isolation
+D 2W 12V to 12V 400mA DC-DC Converter with 3kV isolation
 K isolated isolation dc-dc converter transformer
-F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
+F https://www.murata.com/products/productdata/8807031898142/kdc-nxe2.pdf
 $ENDCMP
 #
 $CMP NXE2S1215MC
-D 12V to 15V 400mA DC-DC Converter with 3kV isolation
+D 2W 12V to 15V 400mA DC-DC Converter with 3kV isolation
 K isolated isolation dc-dc converter transformer
-F http://power.murata.com/data/power/ncl/kdc_nxe2.pdf
+F https://www.murata.com/products/productdata/8807031898142/kdc-nxe2.pdf
+$ENDCMP
+#
+$CMP PAM2301CAAB120
+D 800mA, Step-Down DC/DC-Converter, 1.2V Fixed Output Voltage, 1.5MHz, TSOT-23-5
+K Voltage regulator switching buck fixed output analog
+F https://www.diodes.com/assets/Datasheets/products_inactive_data/PAM2301.pdf
+$ENDCMP
+#
+$CMP PAM2301CAAB330
+D 800mA, Step-Down DC/DC-Converter, 3.3V Fixed Output Voltage, 1.5MHz, TSOT-23-5
+K Voltage regulator switching buck fixed output analog
+F https://www.diodes.com/assets/Datasheets/products_inactive_data/PAM2301.pdf
+$ENDCMP
+#
+$CMP PAM2301CAABADJ
+D 800mA, Step-Down DC/DC-Converter, Adjustable Output Voltage, 1.5MHz, TSOT-23-5
+K Voltage regulator switching buck fixed output analog
+F https://www.diodes.com/assets/Datasheets/products_inactive_data/PAM2301.pdf
 $ENDCMP
 #
 $CMP PAM2305AAB120
@@ -3388,6 +3994,48 @@ $CMP PAM2305CGFADJ
 D 1A, Step-Down DC/DC-Converter, Adjustable Output Voltage, 1.5MHz, DFN-6
 K Voltage regulator switching buck fixed output analog
 F https://www.diodes.com/assets/Datasheets/PAM2305.pdf
+$ENDCMP
+#
+$CMP PAM2306AYPAA
+D 1A, Dual Step-Down DC/DC-Converter, Out1 ADJ, Out2 ADJ, 1.5MHz, W-DFN3x3
+K STEP-DOWN Dual channel 1A Out1 ADJ, Out2 ADJ
+F https://www.diodes.com/assets/Datasheets/PAM2306.pdf
+$ENDCMP
+#
+$CMP PAM2306AYPBB
+D 1A, Dual Step-Down DC/DC-Converter, Out1 1.2V, Out2 1.2V, 1.5MHz, W-DFN3x3
+K STEP-DOWN Dual channel 1A Out1 1.2V, Out2 1.2V
+F https://www.diodes.com/assets/Datasheets/PAM2306.pdf
+$ENDCMP
+#
+$CMP PAM2306AYPBK
+D 1A, Dual Step-Down DC/DC-Converter, Out1 1.2V, Out2 3.3V, 1.5MHz, W-DFN3x3
+K STEP-DOWN Dual channel 1A Out1 1.5V, Out2 3.3V
+F https://www.diodes.com/assets/Datasheets/PAM2306.pdf
+$ENDCMP
+#
+$CMP PAM2306AYPCB
+D 1A, Dual Step-Down DC/DC-Converter, Out1 1.5V, Out2 1.2V, 1.5MHz, W-DFN3x3
+K STEP-DOWN Dual channel 1A Out1 1.5V, Out2 1.2V
+F https://www.diodes.com/assets/Datasheets/PAM2306.pdf
+$ENDCMP
+#
+$CMP PAM2306AYPKB
+D 1A, Dual Step-Down DC/DC-Converter, Out1 3.3V, Out2 1.2V, 1.5MHz, W-DFN3x3
+K STEP-DOWN Dual channel 1A Out1 3.3V, Out2 1.2V
+F https://www.diodes.com/assets/Datasheets/PAM2306.pdf
+$ENDCMP
+#
+$CMP PAM2306AYPKE
+D 1A, Dual Step-Down DC/DC-Converter, Out1 3.3V, Out2 1.8V, 1.5MHz, W-DFN3x3
+K STEP-DOWN Dual channel 1A Out1 3.3V, Out2 1.8V
+F https://www.diodes.com/assets/Datasheets/PAM2306.pdf
+$ENDCMP
+#
+$CMP PAM2306DYPAA
+D 1A, Dual Step-Down DC/DC-Converter, Out1 ADJ, Out2 ADJ, 1.5MHz, W-DFN3x3
+K STEP-DOWN Dual channel 1A Out1 ADJ, Out2 ADJ
+F https://www.diodes.com/assets/Datasheets/PAM2306D.pdf
 $ENDCMP
 #
 $CMP R-781.5-0.5
@@ -3654,6 +4302,12 @@ K smps buck boost inverting
 F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
 $ENDCMP
 #
+$CMP SC4503TSK
+D 1.9A, 1.3MHz Step-Up DC/DC Converter, 2.5V-20V output voltage, TSOT23
+K 1.9A 1.3MHz Step-Up DC/DC
+F https://www.semtech.com/uploads/documents/sc4503.pdf
+$ENDCMP
+#
 $CMP ST1S10PHR
 D 3A monolithic synchronous step-down regulator, Adjustable Output Voltage, 2.5-18V Input Voltage, 900kHz, PowerSO-8
 K DC/DC Buck Conwerter 3A Low Voltage Input
@@ -3672,16 +4326,190 @@ K DC/DC Buck Conwerter 3A
 F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00285678.pdf
 $ENDCMP
 #
+$CMP TDN_5-0910WISM
+D Input 4.5 to 13.2V, Output 3.3V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-0911WISM
+D Input 4.5 to 13.2V, Output 5.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-0912WISM
+D Input 4.5 to 13.2V, Output 12.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-0913WISM
+D Input 4.5 to 13.2V, Output 15.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-0915WISM
+D Input 4.5 to 13.2V, Output 24.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-0919WISM
+D Input 4.5 to 13.2V, Output 9.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-2410WISM
+D Input 9.0 to 36.0V, Output 3.3V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-2411WISM
+D Input 9.0 to 36.0V, Output 5.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-2412WISM
+D Input 9.0 to 36.0V, Output 12.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-2413WISM
+D Input 9.0 to 36.0V, Output 15.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-2415WISM
+D Input 9.0 to 36.0V, Output 24.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-2419WISM
+D Input 9.0 to 36.0V, Output 9.0V
+K dcdc traco 5WW
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-4810WISM
+D Input 18.0 to 75.0V, Output 3.3V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-4811WISM
+D Input 18.0 to 75.0V, Output 5.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-4812WISM
+D Input 18.0 to 75.0V, Output 12.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-4813WISM
+D Input 18.0 to 75.0V, Output 15.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-4815WISM
+D Input 18.0 to 75.0V, Output 24.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-4819WISM
+D Input 18.0 to 75.0V, Output 9.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
 $CMP TL497
-D 500 mA step up/step down/inverting switching voltage regulator, SIP-14/SOIC-14(W)
+D 500mA step up/step down/inverting switching voltage regulator, SIP-14/SOIC-14(W)
 K buck regulator
 F http://www.ti.com/lit/ds/symlink/tl497a.pdf
 $ENDCMP
 #
 $CMP TL497A
-D 500 mA step up/step down switching regulator
+D 500mA step up/step down switching regulator
 K buck regulator
 F http://www.ti.com/lit/ds/symlink/tl497a.pdf
+$ENDCMP
+#
+$CMP TLV61046ADB
+D 28-V Output Voltage Boost Converter with Power Diode and Isolation Switch, SOT-23-6
+K Step-Up DC-DC Converter
+F http://www.ti.com/lit/ds/symlink/tlv61046a.pdf
+$ENDCMP
+#
+$CMP TLV62080DSGx
+D High-efficiency Step-down Converter
+K Synchronous Buck
+F http://www.ti.com/lit/ds/symlink/tlv62080.pdf
+$ENDCMP
+#
+$CMP TLV62084ADSGx
+D High-efficiency Step-down Converter
+K Synchronous Buck
+F http://www.ti.com/lit/ds/symlink/tlv62080.pdf
+$ENDCMP
+#
+$CMP TLV62084DSGx
+D High-efficiency Step-down Converter
+K Synchronous Buck
+F http://www.ti.com/lit/ds/symlink/tlv62080.pdf
+$ENDCMP
+#
+$CMP TLV62095RGTx
+D High efficiency step-down converter
+K Synchronous Buck
+F http://www.ti.com/lit/ds/symlink/tlv62095.pdf
+$ENDCMP
+#
+$CMP TLV62568DBV
+D High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 1A, SOT-23-5
+K Step-Down Buck DC-DC Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/tlv62568.pdf
+$ENDCMP
+#
+$CMP TLV62568DDC
+D High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 1A, SOT-23-6
+K Step-Down Buck DC-DC Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/tlv62568.pdf
+$ENDCMP
+#
+$CMP TLV62568DRL
+D High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 1A, SOT-563-6
+K Step-Down Buck DC-DC Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/tlv62568.pdf
+$ENDCMP
+#
+$CMP TLV62569DBV
+D High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-5
+K Step-Down Buck DC-DC Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/tlv62569.pdf
+$ENDCMP
+#
+$CMP TLV62569DDC
+D High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-6
+K Step-Down Buck DC-DC Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/tlv62569.pdf
+$ENDCMP
+#
+$CMP TLV62569DRL
+D High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-563-6
+K Step-Down Buck DC-DC Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/tlv62569.pdf
 $ENDCMP
 #
 $CMP TMR_1-0511
@@ -4800,6 +5628,48 @@ K Integrated Off-Line Switcher with EcoSmart™ Technology
 F https://ac-dc.power.com/sites/default/files/product-docs/topswitch-jx_family_datasheet.pdf
 $ENDCMP
 #
+$CMP TPS51363
+D High-voltage input, synchronous converter with integrated FET, QFN-28
+K Step-down
+F http://www.ti.com/lit/ds/symlink/tps51363.pdf
+$ENDCMP
+#
+$CMP TPS54061DRB
+D 0.2A, Step Down DC-DC Converter with Low IQ, 4.5-60V Input Voltage, VSON-8
+K Step-Down DC-DC Switching Regulator High Voltage Adjustable Frequency
+F http://www.ti.com/lit/ds/symlink/tps54061.pdf
+$ENDCMP
+#
+$CMP TPS54202DDC
+D 2A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6
+K switching buck converter power-supply voltage regulator emi spread spectrum
+F http://www.ti.com/lit/ds/symlink/tps54202.pdf
+$ENDCMP
+#
+$CMP TPS5420D
+D Adjustable Output, 2A Step-Down Converter, 5.5V-36V Input, 500kHz Switching Frequency
+K switching buck converter step-down
+F http://www.ti.com/lit/ds/symlink/tps5420.pdf
+$ENDCMP
+#
+$CMP TPS54233
+D 2A, Step Down DC-DC Converter with Eco-mode, 3.5-28V Input Voltage, SO-8
+K Step-Down DC-DC Switching Regulator High Voltage High Frequency
+F http://www.ti.com/lit/ds/symlink/tps54233.pdf
+$ENDCMP
+#
+$CMP TPS54302
+D 3A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6
+K switching buck converter power-supply voltage regulator emi spread spectrum
+F http://www.ti.com/lit/ds/symlink/tps54302.pdf
+$ENDCMP
+#
+$CMP TPS54308
+D 3A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, continuous-conduction, SOT-23-6
+K switching buck converter power-supply voltage regulator emi spread spectrum FCCM
+F http://www.ti.com/lit/ds/symlink/tps54308.pdf
+$ENDCMP
+#
 $CMP TPS5430DDA
 D 3A, Step Down Swift Converter, Adjustable Output Voltage, 5.5-36V Input Voltage, PowerSO-8
 K Step-Down DC-DC Switching Regulator
@@ -4810,6 +5680,12 @@ $CMP TPS5431DDA
 D 3A, Step Down Swift Converter, Adjustable Output Voltage, 5.5-23V Input Voltage, PowerSO-8
 K Step-Down DC-DC Switching Regulator
 F http://www.ti.com/lit/ds/symlink/tps5430.pdf
+$ENDCMP
+#
+$CMP TPS54336ADDA
+D  4.5V to 28V Input, 3A, Synchronous Step-Down Converter with Eco-mode(tm)
+K Step-Down DC-DC Switching Regulator
+F http://www.ti.com/lit/ds/symlink/tps54336a.pdf
 $ENDCMP
 #
 $CMP TPS54340DDA
@@ -4840,6 +5716,60 @@ $CMP TPS563200
 D 3A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6
 K step-down dcdc voltage regulator
 F http://www.ti.com/lit/ds/symlink/tps563200.pdf
+$ENDCMP
+#
+$CMP TPS56339DDC
+D 4.5V to 24V Input, 3-A Output Synchronous Buck Converter, SOT-23-6
+K step-down dcdc voltage regulator
+F https://www.ti.com/lit/ds/symlink/tps56339.pdf
+$ENDCMP
+#
+$CMP TPS565208
+D 5A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6
+K step-down dcdc voltage regulator
+F http://www.ti.com/lit/ds/symlink/tps565208.pdf
+$ENDCMP
+#
+$CMP TPS568215RNN
+D 4.5V-17V Input, 8A Synchronous Step-Down SWIFT Converter, Adjustable Output, 400kHz/800kHz/1.2MHz Switching Frequency, Texas VQFN-18
+K switching buck converter step-down
+F http://www.ti.com/lit/ds/symlink/tps568215.pdf
+$ENDCMP
+#
+$CMP TPS61040DBV
+D Synchronous Boost Regulator, Adjustable Output up to 28V, 400 mA Switch Current Limit, SOT-23-5
+K Step-Up Boost DC-DC Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/tps61040.pdf
+$ENDCMP
+#
+$CMP TPS61040DDC
+D Synchronous Boost Regulator, Adjustable Output up to 28V, 400 mA Switch Current Limit, SOT-23-5
+K Step-Up Boost DC-DC Regulator Adjustable
+F https://www.ti.com/lit/ds/symlink/tps61040.pdf
+$ENDCMP
+#
+$CMP TPS61040DRV
+D Synchronous Boost Regulator, Adjustable Output up to 28V, 400 mA Switch Current Limit, WSON-6
+K Step-Up Boost DC-DC Regulator Adjustable
+F https://www.ti.com/lit/ds/symlink/tps61040.pdf
+$ENDCMP
+#
+$CMP TPS61041DBV
+D Synchronous Boost Regulator, Adjustable Output up to 28V, 250 mA Switch Current Limit, SOT-23-5
+K Step-Up Boost DC-DC Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/tps61040.pdf
+$ENDCMP
+#
+$CMP TPS61041DDC
+D Synchronous Boost Regulator, Adjustable Output up to 28V, 250 mA Switch Current Limit, SOT-23-5
+K Step-Up Boost DC-DC Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/tps61040.pdf
+$ENDCMP
+#
+$CMP TPS61041DRV
+D Synchronous Boost Regulator, Adjustable Output up to 28V, 250 mA Switch Current Limit, WSON-6
+K Step-Up Boost DC-DC Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/tps61040.pdf
 $ENDCMP
 #
 $CMP TPS61090
@@ -4882,6 +5812,120 @@ $CMP TPS61202DSC
 D Low Input Voltage Synchronous Boost Converter With 1.3A Switches, Fixed 5V Output Voltage, 0.3-5.5V Input Voltage, WSON-10
 K boost step-up DC/DC synchronous
 F http://www.ti.com/lit/ds/symlink/tps61200.pdf
+$ENDCMP
+#
+$CMP TPS61220DCK
+D 400 mA Step-Up Converter, Adjustable Output Voltage, 0.7-5.5V Input Voltage, SC-70
+K Boost adjustable converter
+F http://www.ti.com/lit/ds/symlink/tps61220.pdf
+$ENDCMP
+#
+$CMP TPS61221DCK
+D 400 mA Step-Up Converter, Fixed 3.3V Output Voltage, 0.7-5.5V Input Voltage, SC-70
+K Boost adjustable converter
+F http://www.ti.com/lit/ds/symlink/tps61220.pdf
+$ENDCMP
+#
+$CMP TPS61222DCK
+D 400 mA Step-Up Converter, Fixed 5V Output Voltage, 0.7-5.5V Input Voltage, SC-70
+K Boost adjustable converter
+F http://www.ti.com/lit/ds/symlink/tps61220.pdf
+$ENDCMP
+#
+$CMP TPS61230DRC
+D High Efficiency Synchronous Step Up Converters with 5-A Switches, 2.3-5.5V Input Voltage, VSON-10
+K boost converter switching adjustable 5A-switch VSON-10
+F http://www.ti.com/lit/ds/symlink/tps61232.pdf
+$ENDCMP
+#
+$CMP TPS61252DSG
+D Tiny 1.5-A Boost Converter With Adjustable Input Current Limit, 2.3-6.0V Vin, 3.0-6.5V Vout, WSON-8
+K boost converter switching
+F http://www.ti.com/lit/ds/symlink/tps61252.pdf
+$ENDCMP
+#
+$CMP TPS613221ADBV
+D 1.2A Step-Up Converter, 3.3V Output Voltage, 0.9-5.5V Input Voltage, SOT-23-5
+K Boost converter
+F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS613221ADBZ
+D 1.2A Step-Up Converter, 3.3V Output Voltage, 0.9-5.5V Input Voltage, SOT-23
+K Boost converter
+F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS613222ADBV
+D 1.8A Step-Up Converter, 5V Output Voltage, 0.9-5.5V Input Voltage, SOT-23-5
+K Boost converter
+F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS613222ADBZ
+D 1.8A Step-Up Converter, 5V Output Voltage, 0.9-5.5V Input Voltage, SOT-23
+K Boost converter
+F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS613223ADBV
+D 750mA Step-Up Converter, 2V Output Voltage, 0.9-5.5V Input Voltage, SOT-23-5
+K Boost converter
+F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS613223ADBZ
+D 750mA Step-Up Converter, 2V Output Voltage, 0.9-5.5V Input Voltage, SOT-23
+K Boost converter
+F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS613224ADBV
+D 750mA Step-Up Converter, 2.5V Output Voltage, 0.9-5.5V Input Voltage, SOT-23-5
+K Boost converter
+F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS613224ADBZ
+D 750mA Step-Up Converter, 2.5V Output Voltage, 0.9-5.5V Input Voltage, SOT-23
+K Boost converter
+F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS613225ADBV
+D 1.2A Step-Up Converter, 3V Output Voltage, 0.9-5.5V Input Voltage, SOT-23-5
+K Boost converter
+F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS613225ADBZ
+D 1.2A Step-Up Converter, 3V Output Voltage, 0.9-5.5V Input Voltage, SOT-23
+K Boost converter
+F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS613226ADBV
+D 1.2A Step-Up Converter, 3.6V Output Voltage, 0.9-5.5V Input Voltage, SOT-23-5
+K Boost converter
+F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS613226ADBZ
+D 1.2A Step-Up Converter, 3.6V Output Voltage, 0.9-5.5V Input Voltage, SOT-23
+K Boost converter
+F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS61322DBZ
+D 750mA Step-Up Converter, 2.2V Output Voltage, 0.9-5.5V Input Voltage, SOT-23
+K Boost converter
+F http://www.ti.com/lit/ds/symlink/tps61322.pdf
+$ENDCMP
+#
+$CMP TPS62056DGS
+D 800 mA Step-Down Converter, Adjustable Output Voltage, 0.7-6V Input Voltage, VSSOP-10
+K voltage regulator switch mode step down
+F http://www.ti.com/lit/ds/symlink/tps62056.pdf
 $ENDCMP
 #
 $CMP TPS62125DSG
@@ -5094,6 +6138,60 @@ K Step-Down DC-DC Converter
 F http://www.ti.com/lit/ds/symlink/tps62201.pdf
 $ENDCMP
 #
+$CMP TPS62821DLC
+D 1A Step-Down Converter with DCS-Control, adjustable output, 2.4-5.5V input voltage, QFN-8
+K step-down dc-dc buck regulator
+F http://www.ti.com/lit/ds/symlink/tps62823.pdf
+$ENDCMP
+#
+$CMP TPS62822DLC
+D 2A Step-Down Converter with DCS-Control, adjustable output, 2.4-5.5V input voltage, QFN-8
+K step-down dc-dc buck regulator
+F http://www.ti.com/lit/ds/symlink/tps62823.pdf
+$ENDCMP
+#
+$CMP TPS62823DLC
+D 3A Step-Down Converter with DCS-Control, adjustable output, 2.4-5.5V input voltage, QFN-8
+K step-down dc-dc buck regulator
+F http://www.ti.com/lit/ds/symlink/tps62823.pdf
+$ENDCMP
+#
+$CMP TPS63000
+D Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.8A Switch Current, Adjustable 1.2-5.5V Output Voltage, VSON-10
+K Buck-Boost adjustable converter
+F http://www.ti.com/lit/ds/symlink/tps63000.pdf
+$ENDCMP
+#
+$CMP TPS63000-Q1
+D Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.8A Switch Current, Adjustable 1.2-5.5V Output Voltage, Automotive, VSON-10
+K Buck-Boost adjustable converter
+F http://www.ti.com/lit/ds/symlink/tps63000-q1.pdf
+$ENDCMP
+#
+$CMP TPS63001
+D Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.7A Switch Current, 3.3V Output Voltage, VSON-10
+K Buck-Boost fixed 3.3V converter
+F http://www.ti.com/lit/ds/symlink/tps63000.pdf
+$ENDCMP
+#
+$CMP TPS63002
+D Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.7A Switch Current, 5V Output Voltage, VSON-10
+K Buck-Boost fixed 5V converter
+F http://www.ti.com/lit/ds/symlink/tps63000.pdf
+$ENDCMP
+#
+$CMP TPS63030DSK
+D Buck-Boost Converter, 1.8-5.5V Input Voltage, 1A Switch Current, Adjustable Output Voltage, VSON-10 (DSK0010A)
+K Buck-Boost adjustable converter
+F http://www.ti.com/lit/ds/symlink/tps63030.pdf
+$ENDCMP
+#
+$CMP TPS63031DSK
+D Buck-Boost Converter, 1.8-5.5V Input Voltage, 1A Switch Current, 3.3V Output Voltage, VSON-10 (DSK0010A)
+K Buck-Boost fixed 3.3V converter
+F http://www.ti.com/lit/ds/symlink/tps63031.pdf
+$ENDCMP
+#
 $CMP TPS63060
 D Buck-Boost Converter, 2.5-12V Input Voltage, 2-A Switch Current, Adjustable 2.5-8V Output Voltage, S-PWSON-N10
 K Buck-Boost adjustable converter
@@ -5104,6 +6202,30 @@ $CMP TPS63061
 D Buck-Boost Converter, 2.5-12V Input Voltage, 2-A Switch Current, Fixed 5V Output Voltage, S-PWSON-10
 K Buck-Boost converter 5V
 F http://www.ti.com/lit/ds/symlink/tps63060.pdf
+$ENDCMP
+#
+$CMP TPS65130RGE
+D Split-Rail Converter with Dual, Positive and Negative Outputs (300mA typ), 2.7-5.5V, VQFN-24
+K split-rail switching dual positive negative
+F http://www.ti.com/lit/ds/symlink/tps65130.pdf
+$ENDCMP
+#
+$CMP TPS82130
+D 17V Input 3A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8
+K 17V 3A Step-down Buck Module
+F http://www.ti.com/lit/ds/symlink/tps82130.pdf
+$ENDCMP
+#
+$CMP TPS82140
+D 17V Input 2A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8
+K 17V 2A Step-down Buck Module
+F http://www.ti.com/lit/ds/symlink/tps82140.pdf
+$ENDCMP
+#
+$CMP TPS82150
+D 17V Input 1A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8
+K 17V 1A Step-down Buck Module
+F http://www.ti.com/lit/ds/symlink/tps82150.pdf
 $ENDCMP
 #
 $CMP TSR_1-2412
@@ -5188,6 +6310,30 @@ $CMP VIPer25LN
 D 12W SMPS Controller, AC-DC, PDIP-7
 K SMPS Controller with MOSFET 12W AC-DC
 F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00231127.pdf
+$ENDCMP
+#
+$CMP VIPer26HD
+D 800V, 10-20W, 115kHz, SMPS Controller, SOIC-16
+K SMPS Controller with MOSFET
+F https://www.st.com/resource/en/datasheet/viper26.pdf
+$ENDCMP
+#
+$CMP VIPer26HN
+D 800V, 10-20W, 115kHz, SMPS Controller, DIP-7
+K SMPS Controller with MOSFET
+F https://www.st.com/resource/en/datasheet/viper26.pdf
+$ENDCMP
+#
+$CMP VIPer26LD
+D 800V, 10-20W, 60kHz, SMPS Controller, SOIC-16
+K SMPS Controller with MOSFET
+F https://www.st.com/resource/en/datasheet/viper26.pdf
+$ENDCMP
+#
+$CMP VIPer26LN
+D 800V, 10-20W, 60kHz, SMPS Controller, DIP-7
+K SMPS Controller with MOSFET
+F https://www.st.com/resource/en/datasheet/viper26.pdf
 $ENDCMP
 #
 #End Doc Library
