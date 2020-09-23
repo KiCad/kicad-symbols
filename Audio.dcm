@@ -177,7 +177,13 @@ $ENDCMP
 $CMP ISD25120P
 D Single-Chip Voice Record/Playback Device 120-Second Duration, DIP-28
 K isd25120
-F http://kitsrus.com/pdf/isd_2560.pdf
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
+$CMP ISD25120S
+D Single-Chip Voice Record/Playback Device 120-Second Duration, SOIC-28
+K isd25120
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
 $ENDCMP
 #
 $CMP ISD2560
@@ -186,22 +192,58 @@ K isd2560
 F http://kitsrus.com/pdf/isd_2560.pdf
 $ENDCMP
 #
+$CMP ISD2560E
+D Single-Chip Voice Record/Playback Device 60-Second Duration, TSOP I-28
+K isd2560
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
 $CMP ISD2560P
 D Single-Chip Voice Record/Playback Device 60-Second Duration, DIP-28
 K isd2560
-F http://kitsrus.com/pdf/isd_2560.pdf
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
+$CMP ISD2560S
+D Single-Chip Voice Record/Playback Device 60-Second Duration, SOIC-28
+K isd2560
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
+$CMP ISD2575E
+D Single-Chip Voice Record/Playback Device 75-Second Duration, TSOP I-28
+K isd2575
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
 $ENDCMP
 #
 $CMP ISD2575P
 D Single-Chip Voice Record/Playback Device 75-Second Duration, DIP-28
 K isd2575
-F http://kitsrus.com/pdf/isd_2560.pdf
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
+$CMP ISD2575S
+D Single-Chip Voice Record/Playback Device 75-Second Duration, SOIC-28
+K isd2575
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
+$CMP ISD2590E
+D Single-Chip Voice Record/Playback Device 90-Second Duration, TSOP I-28
+K isd2590
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
 $ENDCMP
 #
 $CMP ISD2590P
 D Single-Chip Voice Record/Playback Device 90-Second Duration, DIP-28
 K isd2590
-F http://kitsrus.com/pdf/isd_2560.pdf
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
+$CMP ISD2590S
+D Single-Chip Voice Record/Playback Device 90-Second Duration, SOIC-28
+K isd2590
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
 $ENDCMP
 #
 $CMP MN3005
