@@ -168,6 +168,30 @@ K Switching LED driver
 F http://www.issi.com/WW/pdf/31LT3360.pdf
 $ENDCMP
 #
+$CMP LED1642GWPTR
+D 16-channel LED driver with error detection, current gain control and 12/16 bit PWM brightness control, QSOP-24
+K PWM LED driver error detection brightness QSOP-24
+F https://www.st.com/resource/en/datasheet/led1642gw.pdf
+$ENDCMP
+#
+$CMP LED1642GWQTR
+D 16-channel LED driver with error detection, current gain control and 12/16 bit PWM brightness control, QFN-24
+K PWM LED driver error detection brightness QFN-24
+F https://www.st.com/resource/en/datasheet/led1642gw.pdf
+$ENDCMP
+#
+$CMP LED1642GWTTR
+D 16-channel LED driver with error detection, current gain control and 12/16 bit PWM brightness control, TSSOP-24
+K PWM LED driver error detection brightness TSSOP-24
+F https://www.st.com/resource/en/datasheet/led1642gw.pdf
+$ENDCMP
+#
+$CMP LED1642GWXTTR
+D 16-channel LED driver with error detection, current gain control and 12/16 bit PWM brightness control, TSSOP-24
+K PWM LED driver error detection brightness TSSOP-24
+F https://www.st.com/resource/en/datasheet/led1642gw.pdf
+$ENDCMP
+#
 $CMP LED5000
 D 3A monolithic step-down current source with dimming, HSOP-8
 K LED buck driver

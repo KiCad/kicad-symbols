@@ -165,6 +165,36 @@ K rs232 uart transceiver line-driver
 F http://www.intersil.com/content/dam/Intersil/documents/icl3/icl3221-22-23-32-41-43.pdf
 $ENDCMP
 #
+$CMP ISL3280ExHZ
+D RS485, RS422, 20Mbps Transceiver, 3.0V to 5.5V, SOT-23-5
+K Interface Driver Receiver Transciever
+F https://www.renesas.com/us/en/www/doc/datasheet/isl3280e-81e-82e-83e-84e-85e.pdf
+$ENDCMP
+#
+$CMP ISL3281ExHZ
+D RS485, RS422, 20Mbps Transceiver, 3.0V to 5.5V, SOT-23-6
+K Interface - Driver Receiver Transceiver
+F https://www.renesas.com/us/en/www/doc/datasheet/isl3280e-81e-82e-83e-84e-85e.pdf
+$ENDCMP
+#
+$CMP ISL3282ExRHZ
+D RS485, RS422, 20Mbps Transceiver, 3.0V to 5.5V, TDFN-8
+K Interface Driver Receiver Transceiver
+F https://www.renesas.com/us/en/www/doc/datasheet/isl3280e-81e-82e-83e-84e-85e.pdf
+$ENDCMP
+#
+$CMP ISL3283ExHZ
+D RS485, RS422, 20Mbps Transceiver, 3.0V to 5.5V, SOT-23-6
+K Interface Driver Receiver Transceiver
+F https://www.renesas.com/us/en/www/doc/datasheet/isl3280e-81e-82e-83e-84e-85e.pdf
+$ENDCMP
+#
+$CMP ISL3284ExHZ
+D RS485, RS422, 20Mbps Transceiver, 3.0V to 5.5V, SOT-23-6
+K Interface Driver Receiver Transceiver
+F https://www.renesas.com/us/en/www/doc/datasheet/isl3280e-81e-82e-83e-84e-85e.pdf
+$ENDCMP
+#
 $CMP ISL3295xxH
 D RS485, RS422, 20Mbps Transceiver, 3.0V to 7V, Low-Power, SOT-23
 K RS485 RS422 transceiver

@@ -12,6 +12,18 @@ K Driver, Dual MOSFET
 F https://www.infineon.com/dgdl/Infineon-1EDN7550B-DS-v02_00-EN.pdf?fileId=5546d46262b31d2e01635d9799ef264f
 $ENDCMP
 #
+$CMP 2ED21824S06J
+D 650V Half Bridge Gate Driver with Integrated Bootstrap Diode, 2.5A drive current, SOIC-14
+K Gate Driver MOSFET IGBT
+F https://www.infineon.com/dgdl/Infineon-2ED2182-4-S06F-J-DataSheet-v02_10-EN.pdf?fileId=5546d4626cb27db2016cb8d7368a29e3
+$ENDCMP
+#
+$CMP 2EDL23N06PJXUMA1
+D 600V Half Bridge Gate Driver with OCP and Integrated Bootstrap Diode, +1.8A/-2.5A drive current, SOIC-14
+K Gate Driver MOSFET IGBT
+F https://www.infineon.com/dgdl/Infineon-2EDL23x06xx-DS-v02_01-EN.pdf?fileId=5546d46146d18cb4014738a20c5236f0
+$ENDCMP
+#
 $CMP ACPL-336J
 D 2.5A Gate Drive Optocoupler with Integrated LED Driver, Active Miller Clamp, DESAT Detection, and Fault & UVLO Status Feedback, SOIC-16
 K Gate Driver IGBT

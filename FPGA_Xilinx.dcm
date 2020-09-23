@@ -6,6 +6,12 @@ K CPLD
 F https://www.xilinx.com/support/documentation/data_sheets/ds094.pdf
 $ENDCMP
 #
+$CMP XC2C256-VQ100
+D CoolRunner-II CPLD, 256 macrocells, VQFP-100
+K CPLD
+F https://www.xilinx.com/support/documentation/data_sheets/ds094.pdf
+$ENDCMP
+#
 $CMP XC2S100TQ144
 D spartan 2
 K FPGA

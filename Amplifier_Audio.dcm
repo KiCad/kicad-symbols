@@ -282,6 +282,12 @@ K audio amplifier class d
 F https://www.diodes.com/assets/Datasheets/PAM8302A.pdf
 $ENDCMP
 #
+$CMP PAM8403D
+D 3W Filterless Class-D Stereo Audio Amplifier, SOP-16
+K audio amplifier class d
+F https://www.diodes.com/assets/Datasheets/PAM8403.pdf
+$ENDCMP
+#
 $CMP SSM2017P
 D Self-Contained Audio Preamplifier, DIP-8
 K audio preamplifier
@@ -528,6 +534,12 @@ K audio amplifier 2ch
 F http://www.st.com/resource/en/datasheet/tda7297.pdf
 $ENDCMP
 #
+$CMP TFA9879HN
+D Mono BTL class-D audio amplifier for portable applications with digital input, HVQFN-24
+K Audio Amplifier Class D NXP Semiconductors
+F https://www.nxp.com/docs/en/data-sheet/TFA9879.pdf
+$ENDCMP
+#
 $CMP THAT2180
 D Blackmer Pre-Trimmed IC Voltage Controlled Amplifiers, SIP-8
 K audio vca
@@ -538,6 +550,12 @@ $CMP THAT2181
 D Blackmer Trimmable IC Voltage Controlled Amplifiers, SIP-8/SOIC-8
 K audio vca
 F http://www.thatcorp.com/datashts/THAT_2181-Series_Datasheet.pdf
+$ENDCMP
+#
+$CMP TPA3251
+D 175-W Stereo, 350-W Mono PurePath Ultra-HD Analog-Input Class-D Amplifier, HTSSOP-44
+K stereo class d amplifier
+F http://www.ti.com/lit/ds/symlink/tpa3251.pdf
 $ENDCMP
 #
 $CMP TPA6132A2RTE
