@@ -150,6 +150,12 @@ K Wi-Fi module
 F https://docs.particle.io/datasheets/p1-datasheet/
 $ENDCMP
 #
+$CMP RAK4200
+D LoRa Module, STM32L071,  RAKwireless
+K IoT, LoRa, LoRaWAN, RF
+F https://downloads.rakwireless.com/LoRa/RAK4200/Hardware-Specification/RAK4200_Module_Specifications_V1.4.pdf
+$ENDCMP
+#
 $CMP RFM69HCW
 D Low power ISM Radio Transceiver Module, SPI interface, AES encryption, 434 or 915 MHz, up to 100mW, up to 300 kb/s, SMD-16, DIP-16
 K low power Radio ISM Transceiver Module AES encryption SPI HopeRF
@@ -262,6 +268,54 @@ $CMP iM880B
 D IMST Long Range Radio Module - LoRa Alliance Certified
 K IOT LoRa
 F http://www.wireless-solutions.de/images/stories/downloads/Radio%20Modules/iM880B/General_Information/iM880B_Datasheet_V1_0.pdf
+$ENDCMP
+#
+$CMP RAK811-HF-EU868
+D LoRa Module, STM32L151, EU868, RAKwireless
+K IoT LoRa LoRaWAN RF
+F https://downloads.rakwireless.com/LoRa/RAK811/Hardware_Specification/RAK811_LoRa_Module_Datasheet_V1.4.pdf
+$ENDCMP
+#
+$CMP RAK811-HF-IN865
+D LoRa Module, STM32L151, IN865, RAKwireless
+K IoT LoRa LoRaWAN RF
+F https://downloads.rakwireless.com/LoRa/RAK811/Hardware_Specification/RAK811_LoRa_Module_Datasheet_V1.4.pdf
+$ENDCMP
+#
+$CMP RAK811-HF-US915
+D LoRa Module, STM32L151, US915, RAKwireless
+K IoT LoRa LoRaWAN RF
+F https://downloads.rakwireless.com/LoRa/RAK811/Hardware_Specification/RAK811_LoRa_Module_Datasheet_V1.4.pdf
+$ENDCMP
+#
+$CMP RAK811-HF-AU915
+D LoRa Module, STM32L151, AU915, RAKwireless
+K IoT LoRa LoRaWAN RF
+F https://downloads.rakwireless.com/LoRa/RAK811/Hardware_Specification/RAK811_LoRa_Module_Datasheet_V1.4.pdf
+$ENDCMP
+#
+$CMP RAK811-HF-KR920
+D LoRa Module, STM32L151, KR920, RAKwireless
+K IoT LoRa LoRaWAN RF
+F https://downloads.rakwireless.com/LoRa/RAK811/Hardware_Specification/RAK811_LoRa_Module_Datasheet_V1.4.pdf
+$ENDCMP
+#
+$CMP RAK811-HF-AS923
+D LoRa Module, STM32L151, AS923, RAKwireless
+K IoT LoRa LoRaWAN RF
+F https://downloads.rakwireless.com/LoRa/RAK811/Hardware_Specification/RAK811_LoRa_Module_Datasheet_V1.4.pdf
+$ENDCMP
+#
+$CMP RAK811-LF-EU433
+D LoRa Module, STM32L151, EU433, RAKwireless
+K IoT LoRa LoRaWAN RF
+F https://downloads.rakwireless.com/LoRa/RAK811/Hardware_Specification/RAK811_LoRa_Module_Datasheet_V1.4.pdf
+$ENDCMP
+#
+$CMP RAK811-LF-CN470
+D LoRa Module, STM32L151, CN470, RAKwireless
+K IoT LoRa LoRaWAN RF
+F https://downloads.rakwireless.com/LoRa/RAK811/Hardware_Specification/RAK811_LoRa_Module_Datasheet_V1.4.pdf
 $ENDCMP
 #
 #End Doc Library

@@ -54,10 +54,64 @@ K dual low-power opamp
 F https://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf
 $ENDCMP
 #
+$CMP ADA4077-1xR
+D 4MHz, 7nV/sqrtHz, Low Offset and Drift, High Precision Amplifier, SOIC-8
+K single opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4077-1_4077-2_4077-4.pdf
+$ENDCMP
+#
+$CMP ADA4077-1xRM
+D 4MHz, 7nV/sqrtHz, Low Offset and Drift, High Precision Amplifier, MSOP-8
+K single opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4077-1_4077-2_4077-4.pdf
+$ENDCMP
+#
 $CMP ADA4530-1
 D Femtoampere Input Bias Current Electrometer Amplifier, SOIC-8
 K single opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4530-1.pdf
+$ENDCMP
+#
+$CMP ADA4610-1xR
+D Low Noise, Precision, Rail-to-Rail Output, JFET Single Op Amp, SOIC-8
+K single opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4610-1_4610-2_4610-4.pdf
+$ENDCMP
+#
+$CMP ADA4610-1xRJ
+D Low Noise, Precision, Rail-to-Rail Output, JFET Single Op Amp, SOT-23-5
+K single opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4610-1_4610-2_4610-4.pdf
+$ENDCMP
+#
+$CMP ADA4610-2xCP
+D Dual Low Noise, Precision, Rail-to-Rail Output, JFET Op Amp, LFCSP-8
+K dual opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4610-1_4610-2_4610-4.pdf
+$ENDCMP
+#
+$CMP ADA4610-2xR
+D Dual Low Noise, Precision, Rail-to-Rail Output, JFET Op Amp, SOIC-8
+K dual opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4610-1_4610-2_4610-4.pdf
+$ENDCMP
+#
+$CMP ADA4610-2xRM
+D Dual Low Noise, Precision, Rail-to-Rail Output, JFET Op Amp, MSOP-8
+K dual opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4610-1_4610-2_4610-4.pdf
+$ENDCMP
+#
+$CMP ADA4610-4xCP
+D Quad Low Noise, Precision, Rail-to-Rail Output, JFET Op Amp, LFCSP-16
+K quad opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4610-1_4610-2_4610-4.pdf
+$ENDCMP
+#
+$CMP ADA4610-4xR
+D Quad Low Noise, Precision, Rail-to-Rail Output, JFET Single Op Amp, SOIC-14
+K quad opamp low-power
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4610-1_4610-2_4610-4.pdf
 $ENDCMP
 #
 $CMP ADA4807-1
@@ -1528,6 +1582,12 @@ $CMP OPA552U
 D High-Voltage High-Current Operational Amplifier, bandwidth 12MHz, slew-rate 24V/us, SOIC-8
 K single opamp
 F http://www.ti.com/lit/ds/symlink/opa552.pdf
+$ENDCMP
+#
+$CMP OPA569DWP
+D Rail-to-Rail I/O, 2A, Power Amplifier, SO-20
+K opamp single high current
+F http://www.ti.com/lit/ds/symlink/opa569.pdf
 $ENDCMP
 #
 $CMP OPA842xD

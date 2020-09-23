@@ -102,6 +102,12 @@ K USB Charge
 F http://www.ti.com/lit/ds/symlink/bq24079.pdf
 $ENDCMP
 #
+$CMP BQ24090DGQ
+D 1A, Single-Input, SingleCell Li-Ion and Li-Pol BatteryCharger, HVSSOP-10
+K battery charger singlecell li-ion li-poly, 1A
+F http://www.ti.com/lit/ds/symlink/bq24090.pdf
+$ENDCMP
+#
 $CMP BQ24133RGY
 D Synchronous switched mode Li-Ion and Li-Polymer battery charger, integrated MOSFETs and power path selector, Texas R-PVQFN-N24
 K Battery, Charger, Li-Ion, Li-Poly
@@ -240,16 +246,22 @@ K lithium battery balance charge afe
 F http://www.ti.com/lit/ds/symlink/bq76930.pdf
 $ENDCMP
 #
-$CMP BQ76940
-D Lithium battery monitor, 9-15 cells, integrated balancing, I2C interface
+$CMP BQ76940DBT
+D Lithium battery monitor, 9-15 cells, integrated balancing, I2C interface, TSSOP-44
 K lithium battery balance charge afe
-F http://www.ti.com/lit/gpn/bq76940
+F http://www.ti.com/lit/ds/symlink/bq76940.pdf
 $ENDCMP
 #
-$CMP BQ78350
-D Lithium battery fuel gauge, companion controller for BQ769x0
-K lithium battery
+$CMP BQ78350DBT
+D Lithium battery fuel gauge, battery management controller for BQ769x0, TSSOP-30
+K battery, management, Li-Ion, Gauge, controller
 F http://www.ti.com/lit/ds/symlink/bq78350.pdf
+$ENDCMP
+#
+$CMP BQ78350DBT-R1
+D Lithium battery fuel gauge, battery management controller for BQ769x0, TSSOP-30
+K battery, management, Li-Ion, gauge, controller
+F http://www.ti.com/lit/ds/symlink/bq78350-r1.pdf
 $ENDCMP
 #
 $CMP DS2745U
@@ -444,6 +456,12 @@ K battery balance afe
 F https://www.analog.com/media/en/technical-documentation/data-sheets/680324fa.pdf
 $ENDCMP
 #
+$CMP LTC6804-1
+D Multicell Battery Stack Monitor, 12-cell max, multi-chemistry, integrated balancing, stackable, serial interface, SSOP-48
+K battery balance afe
+F https://www.analog.com/media/en/technical-documentation/data-sheets/680412fc.pdf
+$ENDCMP
+#
 $CMP MAX1647
 D Smart Battery Charger, 18V battery, 28V input, SMBus serial interface
 K battery charger
@@ -454,6 +472,18 @@ $CMP MAX1648
 D Smart Battery Charger, 18V battery, 28V input, standalone
 K battery charger
 F https://datasheets.maximintegrated.com/en/ds/MAX1647-MAX1648.pdf
+$ENDCMP
+#
+$CMP MAX17261xxTD
+D 5.1μA Multi-Cell Fuel Gauge with ModelGauge m5 EZ, TDFN-14
+K Charge pump, battery
+F https://datasheets.maximintegrated.com/en/ds/MAX17261.pdf
+$ENDCMP
+#
+$CMP MAX17261xxWL
+D 5.1μA Multi-Cell Fuel Gauge with ModelGauge m5 EZ, WLP-9
+K Charge pump, battery
+F https://datasheets.maximintegrated.com/en/ds/MAX17261.pdf
 $ENDCMP
 #
 $CMP MAX17263xxTE

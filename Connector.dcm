@@ -342,6 +342,30 @@ K ISA
 F https://en.wikipedia.org/wiki/Industry_Standard_Architecture
 $ENDCMP
 #
+$CMP Bus_M.2_Socket_A
+D M.2 Socket 1-DP Mechanical Key A
+K M2 NGNF PCI-E
+F http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=148
+$ENDCMP
+#
+$CMP Bus_M.2_Socket_B
+D M.2 Socket 2 Mechanical Key B
+K M2 NGNF PCI-E
+F http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=154
+$ENDCMP
+#
+$CMP Bus_M.2_Socket_E
+D M.2 Socket 1-SD Mechanical Key E
+K M2 NGNF PCI-E
+F http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=150
+$ENDCMP
+#
+$CMP Bus_M.2_Socket_M
+D M.2 Socket 3 Mechanical Key M
+K M2 NGNF PCI-E
+F http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=155
+$ENDCMP
+#
 $CMP Bus_PCI_32bit_5V
 D PCI bus connector for 5V cards
 K PCI 5V
@@ -358,6 +382,30 @@ $CMP Bus_PCI_Express_Mini
 D Mini-PCI Express bus connector
 K mini pcie
 F ~
+$ENDCMP
+#
+$CMP Bus_PCI_Express_x1
+D PCI Express bus connector x1
+K pcie
+F http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=63
+$ENDCMP
+#
+$CMP Bus_PCI_Express_x16
+D PCI Express bus connector x16
+K pcie
+F http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=63
+$ENDCMP
+#
+$CMP Bus_PCI_Express_x4
+D PCI Express bus connector x4
+K pcie
+F http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=63
+$ENDCMP
+#
+$CMP Bus_PCI_Express_x8
+D PCI Express bus connector x8
+K pcie
+F http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=63
 $ENDCMP
 #
 $CMP CUI_PD-30
@@ -1996,6 +2044,12 @@ $CMP USB_OTG
 D USB mini/micro connector
 K connector USB
 F  ~
+$ENDCMP
+#
+$CMP Wuerth_74980111211
+D LAN Transformer Jack, RJ45, 10/100 BaseT
+K lan jack transformer smt
+F https://www.we-online.de/katalog/datasheet/74980111211.pdf
 $ENDCMP
 #
 $CMP Wuerth_7499010121A

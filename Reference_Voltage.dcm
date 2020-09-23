@@ -372,6 +372,42 @@ K Precision Micropower Low Dropout Voltage Reference 2.5V
 F http://www.ti.com/lit/ds/symlink/lm4128.pdf
 $ENDCMP
 #
+$CMP LM4132xMF-1.8
+D Precision Low Dropout Voltage Reference, 1.8V, ±0.05% to ±0.5%, SOT-23-5
+K Precision Low Dropout Voltage Reference 1.8V
+F http://www.ti.com/lit/ds/symlink/lm4132.pdf
+$ENDCMP
+#
+$CMP LM4132xMF-2.0
+D Precision Low Dropout Voltage Reference, 2.048V, ±0.05% to ±0.5%, SOT-23-5
+K Precision Low Dropout Voltage Reference 2.048V
+F http://www.ti.com/lit/ds/symlink/lm4132.pdf
+$ENDCMP
+#
+$CMP LM4132xMF-2.5
+D Precision Low Dropout Voltage Reference, 2.5V, ±0.05% to ±0.5%, SOT-23-5
+K Precision Low Dropout Voltage Reference 2.5V
+F http://www.ti.com/lit/ds/symlink/lm4132.pdf
+$ENDCMP
+#
+$CMP LM4132xMF-3.0
+D Precision Low Dropout Voltage Reference, 3.0V, ±0.05% to ±0.5%, SOT-23-5
+K Precision Low Dropout Voltage Reference 3.0V
+F http://www.ti.com/lit/ds/symlink/lm4132.pdf
+$ENDCMP
+#
+$CMP LM4132xMF-3.3
+D Precision Low Dropout Voltage Reference, 3.3V, ±0.05% to ±0.5%, SOT-23-5
+K Precision Low Dropout Voltage Reference 3.3V
+F http://www.ti.com/lit/ds/symlink/lm4132.pdf
+$ENDCMP
+#
+$CMP LM4132xMF-4.1
+D Precision Low Dropout Voltage Reference, 4.096V, ±0.05% to ±0.5%, SOT-23-5
+K Precision Low Dropout Voltage Reference 4.096V
+F http://www.ti.com/lit/ds/symlink/lm4132.pdf
+$ENDCMP
+#
 $CMP LT1019xN8
 D Precision Reference, Ultra Low Drift, DIP-8
 K voltage reference vref
@@ -496,6 +532,66 @@ $CMP LT1461DxS8-5
 D Voltage Reference, +/-0.15%, 5V, 100mA, 5.5V-20V Vin, SOIC-8
 K voltage reference precision
 F https://www.analog.com/media/en/technical-documentation/data-sheets/LT1461.pdf
+$ENDCMP
+#
+$CMP LT1634BCMS8-1.25
+D 1.25V Micropower Precision Shunt Voltage Reference, MSOP-8
+K voltage reference Micropower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
+$ENDCMP
+#
+$CMP LT1634BCMS8-2.5
+D 2.5V Micropower Precision Shunt Voltage Reference, MSOP-8
+K voltage reference Micropower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
+$ENDCMP
+#
+$CMP LT1634CCZ-1.25
+D 1.25V Micropower Precision Shunt Voltage Reference, TO-92
+K voltage reference Micropower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
+$ENDCMP
+#
+$CMP LT1634CCZ-2.5
+D 2.5V Micropower Precision Shunt Voltage Reference, TO-92
+K voltage reference Micropower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
+$ENDCMP
+#
+$CMP LT1634CCZ-4.096
+D 4.096V Micropower Precision Shunt Voltage Reference, TO-92
+K voltage reference Micropower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
+$ENDCMP
+#
+$CMP LT1634CCZ-5
+D 5V Micropower Precision Shunt Voltage Reference, TO-92
+K voltage reference Micropower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
+$ENDCMP
+#
+$CMP LT1634xxS8-1.25
+D 1.25V Micropower Precision Shunt Voltage Reference, SO-8
+K voltage reference Micropower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
+$ENDCMP
+#
+$CMP LT1634xxS8-2.5
+D 2.5V Micropower Precision Shunt Voltage Reference, SO-8
+K voltage reference Micropower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
+$ENDCMP
+#
+$CMP LT1634xxS8-4.096
+D 4.096V Micropower Precision Shunt Voltage Reference, SO-8
+K voltage reference Micropower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
+$ENDCMP
+#
+$CMP LT1634xxS8-5
+D 5V Micropower Precision Shunt Voltage Reference, SO-8
+K voltage reference Micropower
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1634ff.pdf
 $ENDCMP
 #
 $CMP LT1790-1.25
