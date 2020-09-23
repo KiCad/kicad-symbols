@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP PIC32MK1024GPD100-xPT
+D MIPS MCU, 120MHz, 1MB Flash, 256KB RAM, 2.3-3.6V, USB, TQFP-100
+K 32-bit MIPS MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC32MK_GP_MC_Familly_Datasheet_60001402G.pdf
+$ENDCMP
+#
+$CMP PIC32MK1024GPE100-xPT
+D MIPS MCU, 120MHz, 1MB Flash, 256KB RAM, 2.3-3.6V, USB, TQFP-100
+K 32-bit MIPS MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC32MK_GP_MC_Familly_Datasheet_60001402G.pdf
+$ENDCMP
+#
 $CMP PIC32MX110F016D-IPT
 D 32-bit Microcontrollers (16KB Flash and 4KB SRAM TQFP-44) with Audio and Graphics Interfaces, USB, and Advanced Analog
 K Microchip PIC32 Microcontroller MIPS
