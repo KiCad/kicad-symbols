@@ -204,6 +204,12 @@ K diode device voltage reference
 F http://www.ti.com/lit/ds/symlink/lm185-adj.pdf
 $ENDCMP
 #
+$CMP LM399
+D Precision Reference, 6.95V, Buried Zener Diode with Thermal Shielding Can, TO-46-4
+K Zener diode device voltage reference
+F https://www.analog.com/media/en/technical-documentation/data-sheets/199399fc.pdf
+$ENDCMP
+#
 $CMP LM4030-2.5
 D 2.500V Ultra-High Precision Shunt Voltage Reference, SOT-23-5
 K diode device voltage reference shunt
