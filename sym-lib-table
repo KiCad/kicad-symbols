@@ -169,6 +169,7 @@
   (lib (name Sensor)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Sensor.lib)(options "")(descr "Multi-function sensors, assorted sensors"))
   (lib (name Sensor_Audio)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Sensor_Audio.lib)(options "")(descr "Audio / sound / microphone sensors"))
   (lib (name Sensor_Current)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Sensor_Current.lib)(options "")(descr "Current sensors"))
+  (lib (name Sensor_Distance)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Sensor_Distance.lib)(options "")(descr "Distance sensors"))
   (lib (name Sensor_Gas)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Sensor_Gas.lib)(options "")(descr "Gas sensors"))
   (lib (name Sensor_Humidity)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Sensor_Humidity.lib)(options "")(descr "Humidity sensors"))
   (lib (name Sensor_Magnetic)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Sensor_Magnetic.lib)(options "")(descr "Magnetic field and hall-effect sensors"))

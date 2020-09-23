@@ -78,6 +78,12 @@ K Gigabit Ethernet Switch RGMII MII RMII
 F http://ww1.microchip.com/downloads/en/DeviceDoc/KSZ9893R-Data-Sheet-DS00002420C.pdf
 $ENDCMP
 #
+$CMP LAN7500-ABJZ
+D Hi-Speed USB 2.0 to 10/100/1000 Ethernet Controller, QFN-56
+K USB Ethernet 10/100/1000
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00001734B.pdf
+$ENDCMP
+#
 $CMP LAN8710A
 D LAN8710 Ethernet PHY with MII/RMII interface, QFN-32
 K ETH PHY MII RMII
@@ -142,6 +148,12 @@ $CMP W5100
 D 10/100Mb Ethernet controller with TCP/IP stack, LQFP-80
 K Wiznet Ethernet controller
 F http://www.wiznet.io/wp-content/uploads/wiznethome/Chip/W5100/Document/W5100_Datasheet_v1.2.7.pdf
+$ENDCMP
+#
+$CMP W5500
+D 10/100Mb SPI Ethernet controller with TCP/IP stack, LQFP-48
+K WIZnet Ethernet controller
+F http://wizwiki.net/wiki/lib/exe/fetch.php/products:w5500:w5500_ds_v109e.pdf
 $ENDCMP
 #
 #End Doc Library
