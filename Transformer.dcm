@@ -1,5 +1,29 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 0433BM15A0001
+D 430-435MHz 1:1 RF Transformer, Unbalanced to Balanced, with integrated DC blocking capacitor
+K balun rf transformer
+F https://www.johansontechnology.com/datasheets/0433BM15A0001/0433BM15A0001.pdf
+$ENDCMP
+#
+$CMP 0868BM15C0001
+D 863-873MHz 1:1 RF Transformer, Unbalanced to Balanced, with integrated DC blocking capacitor
+K balun rf transformer
+F https://www.johansontechnology.com/datasheets/0868BM15C0001/0868BM15C0001.pdf
+$ENDCMP
+#
+$CMP 0896BM15A0001
+D 863-928MHz 1:1 RF Transformer, Unbalanced to Balanced
+K balun rf transformer
+F https://www.johansontechnology.com/datasheets/0896BM15A0001/0896BM15A0001.pdf
+$ENDCMP
+#
+$CMP 0915BM15A0001
+D 902-928MHz 1:1 RF Transformer, Unbalanced to Balanced, with integrated DC blocking capacitor
+K balun rf transformer
+F https://www.johansontechnology.com/datasheets/0915BM15A0001/0915BM15A0001.pdf
+$ENDCMP
+#
 $CMP 5400BL15B050
 D 4.9-5.9GHz 1:1 RF Transformer, Unbalanced to Balanced
 K balun rf transformer
@@ -15,7 +39,7 @@ $ENDCMP
 $CMP ADT1-1WT
 D 0.005-125MHz 1:1 RF Transformer, Unbalanced to Balanced Center Tap, CD542
 K Mini-Circuits RF Transformer
-F https://www.minicircuits.com/pdfs/ADT1-1WT+.pdf
+F https://www.minicircuits.com/pdfs/ADT1-1WT.pdf
 $ENDCMP
 #
 $CMP ADT1-1WT-1
@@ -250,6 +274,12 @@ $CMP CST2_Split
 D Coilcraft Current Sense Transformer, SMD, 20A, 1:20 to 1:125
 K current sense transformer
 F https://www.coilcraft.com/pdfs/cst.pdf
+$ENDCMP
+#
+$CMP ETC1-1-13
+D 4.5-4000MHz 1:1 RF Transformer, Balanced Transmission Line, SM-22
+K MACOM RF Transformer
+F https://cdn.macom.com/datasheets/ETC1-1-13.pdf
 $ENDCMP
 #
 $CMP LL1587
@@ -496,6 +526,12 @@ $CMP TG111-MSC13LF
 D Single Port Gigabit Ethernet Transformers
 K Single Port Gigabit Ethernet Transformer
 F https://www.haloelectronics.com/pdf/discrete-genesus.pdf
+$ENDCMP
+#
+$CMP Wuerth_750315371
+D 5V, 1A , 320 - 480kHz, 1:1.1, Center Tapped, SMD
+K Power Center Tapped Flyback Transformer AEC-Q200
+F https://www.we-online.com/catalog/datasheet/750315371.pdf
 $ENDCMP
 #
 $CMP Wuerth_750343373
