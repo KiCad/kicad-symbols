@@ -611,6 +611,18 @@ K 18bit Simultaneous Sampling ADC 8 Channels SPI buffered
 F https://www.analog.com/media/en/technical-documentation/data-sheets/235818f.pdf
 $ENDCMP
 #
+$CMP LTC2451xDDB
+D Analog to Digital Converter, Single Channel, 16-Bit, 30/60 SPS, 2.7V to 5.5V, I2C interface, DFN-8
+K analog to digital converter adc i2c twi single channel delta sigma 16 bit
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2451fg.pdf
+$ENDCMP
+#
+$CMP LTC2451xTS8
+D Analog to Digital Converter, Single Channel, 16-Bit, 30/60 SPS, 2.7V to 5.5V, I2C interface, TSOT-23-6
+K analog to digital converter adc i2c twi single channel delta sigma 16 bit
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2451fg.pdf
+$ENDCMP
+#
 $CMP LTC2508CDKD-32
 D 32-Bit Oversampling ADC with Configurable Digital Filter, 0°C to 70°C, DFN-24 package
 K LT ADC 32bit
@@ -621,6 +633,12 @@ $CMP LTC2508IDKD-32
 D 32-Bit Oversampling ADC with Configurable Digital Filter, -40°C to 85°C, DFN-24 package
 K LT ADC 32bit
 F https://www.analog.com/media/en/technical-documentation/data-sheets/250832fc.pdf
+$ENDCMP
+#
+$CMP LTC4151xMS
+D High Voltage I2C Current and Voltage Monitor, MSOP-10
+K I2C Current Monitor
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4151ff.pdf
 $ENDCMP
 #
 $CMP MAX1112
@@ -903,6 +921,30 @@ $CMP MCP3553-ESN
 D Single Delta-Sigma 22bit Analog to Digital Converter, SPI Interface, MSOP-8
 K Sigma-Delta ADC Converter 22bit SPI 1ch
 F http://ww1.microchip.com/downloads/en/devicedoc/21950c.pdf
+$ENDCMP
+#
+$CMP PAC1931x-xJQ
+D Single-Channel DC Power/Energy Monitor with Accumulator, UQFN-16
+K I2C Current Shunt Energy Monitor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PAC1931-Family-Data-Sheet-DS20005850E.pdf
+$ENDCMP
+#
+$CMP PAC1932x-xJQ
+D Multi-Channel DC Power/Energy Monitor with Accumulator, UQFN-16
+K I2C Current Shunt Energy Monitor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PAC1931-Family-Data-Sheet-DS20005850E.pdf
+$ENDCMP
+#
+$CMP PAC1933x-xJQ
+D Multi-Channel DC Power/Energy Monitor with Accumulator, UQFN-16
+K I2C Current Shunt Energy Monitor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PAC1931-Family-Data-Sheet-DS20005850E.pdf
+$ENDCMP
+#
+$CMP PAC1934x-xJQ
+D Multi-Channel DC Power/Energy Monitor with Accumulator, UQFN-16
+K I2C Current Shunt Energy Monitor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PAC1931-Family-Data-Sheet-DS20005850E.pdf
 $ENDCMP
 #
 #End Doc Library

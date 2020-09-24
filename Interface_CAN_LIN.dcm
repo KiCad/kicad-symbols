@@ -6,6 +6,12 @@ K can transceiver isolated protected
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3053.pdf
 $ENDCMP
 #
+$CMP ADM3057ExRW
+D Isolated CAN FD Transceiver, integrated isolated DC-DC converter, 12Mbps, SOIC-20W
+K can transceiver isolated protected
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3055E-3057E.pdf
+$ENDCMP
+#
 $CMP ISO1050DUB
 D Isolated CAN Transceiver, SOP-8
 K CAN Isolated
@@ -259,7 +265,7 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/20005282B.pdf
 $ENDCMP
 #
 $CMP PCA82C251
-D CAN Transceiver for 24V Systems, SOIC-8
+D CAN Transceiver for 24V Systems, SO-8
 K BUS CAN
 F http://www.nxp.com/documents/data_sheet/PCA82C251.pdf
 $ENDCMP
@@ -379,7 +385,7 @@ F http://www.nxp.com/documents/data_sheet/TJA1029.pdf
 $ENDCMP
 #
 $CMP TJA1029TK
-D LIN 2.2A/SAE J2602 transceiver with TXD dominant timeout, DFN-8-1EP
+D LIN 2.2A/SAE J2602 transceiver with TXD dominant timeout, DFN-8
 K LIN 2.2A/SAE J2602 Transceiver HVSON-8
 F http://www.nxp.com/documents/data_sheet/TJA1029.pdf
 $ENDCMP
@@ -433,7 +439,7 @@ F http://www.nxp.com/documents/data_sheet/TJA1049.pdf
 $ENDCMP
 #
 $CMP TJA1049TK-3
-D High-Speed CAN Transceiver, separate VIO, standby mode, DFN-8-1EP
+D High-Speed CAN Transceiver, separate VIO, standby mode, DFN-8
 K High-Speed CAN Transceiver HVSON-8
 F http://www.nxp.com/documents/data_sheet/TJA1049.pdf
 $ENDCMP

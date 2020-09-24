@@ -312,6 +312,18 @@ K rectifier acdc
 F http://www.vishay.com/docs/88571/dfm.pdf
 $ENDCMP
 #
+$CMP DMA40U1800GU
+D 575V Vrms, 40A If, GUFP(X025B)
+K Three-Phase Bridge Rectifier
+F https://ixapps.ixys.com/Datasheet/DMA40U1800GU.pdf
+$ENDCMP
+#
+$CMP DNA40U2200GU
+D 690V Vrms, 40A If, GUFP(X025B)
+K Three-Phase Bridge Rectifier
+F https://ixapps.ixys.com/Datasheet/DNA40U2200GU.pdf
+$ENDCMP
+#
 $CMP GBU4A
 D Single-Phase Bridge Rectifier, 35V Vrms, 4.0A If, GBU package
 K rectifier acdc
@@ -436,6 +448,24 @@ $CMP GBU8M
 D Single-Phase Bridge Rectifier, 700V Vrms, 8.0A If, GBU package
 K rectifier acdc
 F http://www.vishay.com/docs/88656/gbu8a.pdf
+$ENDCMP
+#
+$CMP GUO40-08NO1
+D 250V Vrms, 40A If, GUFP(X025B)
+K Three-Phase Bridge Rectifier
+F https://ixapps.ixys.com/DataSheet/GUO40-08NO1.pdf
+$ENDCMP
+#
+$CMP GUO40-12NO1
+D 400V Vrms, 40A If, GUFP(X025B)
+K Three-Phase Bridge Rectifier
+F https://ixapps.ixys.com/DataSheet/GUO40-12NO1.pdf
+$ENDCMP
+#
+$CMP GUO40-16NO1
+D 500V Vrms, 40A If, GUFP(X025B)
+K Three-Phase Bridge Rectifier
+F https://ixapps.ixys.com/DataSheet/GUO40-16NO1.pdf
 $ENDCMP
 #
 $CMP KBU4A
@@ -604,6 +634,24 @@ $CMP MBL110S
 D Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 700V Vrms, 1.0A If, MBLS SMD package
 K rectifier acdc
 F http://www.vishay.com/docs/89959/mbl104s.pdf
+$ENDCMP
+#
+$CMP MDB10S
+D Single-Phase Bridge Rectifier, 700V Vrms, 1A If, TSSOP-4
+K bridge diode rectifier ac dc acdc ac-dc
+F https://www.onsemi.com/pub/Collateral/MDB8S-D.PDF
+$ENDCMP
+#
+$CMP MDB6S
+D Single-Phase Bridge Rectifier, 420V Vrms, 1A If, TSSOP-4
+K bridge diode rectifier ac dc acdc ac-dc
+F https://www.onsemi.com/pub/Collateral/MDB8S-D.PDF
+$ENDCMP
+#
+$CMP MDB8S
+D Single-Phase Bridge Rectifier, 560V Vrms, 1A If, TSSOP-4
+K bridge diode rectifier ac dc acdc ac-dc
+F https://www.onsemi.com/pub/Collateral/MDB8S-D.PDF
 $ENDCMP
 #
 $CMP RB151

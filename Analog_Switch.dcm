@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADG1408YRUZ
+D 8-channel iCMOS analog multiplexer, 4.7 Ohm Ron, 60 MHz, TSSOP-16
+K analog switch  multiplexer SP8T
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG1408_1409.pdf
+$ENDCMP
+#
 $CMP ADG1414BRU
 D ±15V, +12V, ±5V, 9.5 Ohm on resistance, iCMOS Serially-Controlled Octal SPST Switches, TSSOP-24
 K SPI SPST Analog Switches
@@ -81,6 +87,18 @@ $CMP ADG734
 D Quad SPDT CMOS Analog Switch, 2.5Ohm Ron, TSSOP-20
 K CMOS Analog Switch
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf
+$ENDCMP
+#
+$CMP ADG884xCP
+D 0.5Ω CMOS, Dual 2:1 MUX/SPDT Audio Switch, LFCSP-WD-10
+K analog switch
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG884.pdf
+$ENDCMP
+#
+$CMP ADG884xRM
+D 0.5Ω CMOS, Dual 2:1 MUX/SPDT Audio Switch, MSOP-10
+K analog switch
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG884.pdf
 $ENDCMP
 #
 $CMP CBTL02043A
@@ -386,13 +404,13 @@ $ENDCMP
 $CMP FSA3157L6X
 D Single SPDT Low-Voltage Analog Switch or 2:1 Multiplexer/De-Multiplexer Bus Switch, 10Ohm Ron, MicroPak-6
 K CMOS Analog Switch
-F https://www.fairchildsemi.com/datasheets/NC/NC7SB3157.pdf
+F https://www.onsemi.com/pub/Collateral/NC7SB3157-D.PDF
 $ENDCMP
 #
 $CMP FSA3157P6X
 D Single SPDT Low-Voltage Analog Switch or 2:1 Multiplexer/De-Multiplexer Bus Switch, 10Ohm Ron, SC-70-6
 K CMOS Analog Switch
-F https://www.fairchildsemi.com/datasheets/NC/NC7SB3157.pdf
+F https://www.onsemi.com/pub/Collateral/NC7SB3157-D.PDF
 $ENDCMP
 #
 $CMP HI524
@@ -596,13 +614,13 @@ $ENDCMP
 $CMP NC7SB3157L6X
 D Single SPDT Low-Voltage Analog Switch or 2:1 Multiplexer/De-Multiplexer Bus Switch, 10Ohm Ron, MicroPak-6
 K CMOS Analog Switch
-F https://www.fairchildsemi.com/datasheets/NC/NC7SB3157.pdf
+F https://www.onsemi.com/pub/Collateral/NC7SB3157-D.PDF
 $ENDCMP
 #
 $CMP NC7SB3157P6X
 D Single SPDT Low-Voltage Analog Switch or 2:1 Multiplexer/De-Multiplexer Bus Switch, 10Ohm Ron, SC-70-6
 K CMOS Analog Switch
-F https://www.fairchildsemi.com/datasheets/NC/NC7SB3157.pdf
+F https://www.onsemi.com/pub/Collateral/NC7SB3157-D.PDF
 $ENDCMP
 #
 $CMP SN74CBT3253
