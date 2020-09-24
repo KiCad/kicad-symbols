@@ -12,6 +12,12 @@ K 32-bit MIPS MCU Microcontroller
 F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC32MK_GP_MC_Familly_Datasheet_60001402G.pdf
 $ENDCMP
 #
+$CMP PIC32MM0064GPL028x-ML
+D 32-Bit Flash MCU, 25MHz, 64KB Flash, 8KB RAM, QFN-28
+K FLASH-Based 32-Bit CMOS Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC32MM0064GPL036-Family-Data-Sheet-DS60001324C.pdf
+$ENDCMP
+#
 $CMP PIC32MX110F016D-IPT
 D 32-bit Microcontrollers (16KB Flash and 4KB SRAM TQFP-44) with Audio and Graphics Interfaces, USB, and Advanced Analog
 K Microchip PIC32 Microcontroller MIPS
