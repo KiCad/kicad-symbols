@@ -1584,16 +1584,16 @@ K single opamp
 F http://www.ti.com/lit/ds/symlink/opa552.pdf
 $ENDCMP
 #
-$CMP OPA818xDRG
-D  2.7 GHz, High-Voltage, FET-Input, Low Noise, Operational Amplifier, WSON-8
-K opamp VFA
-F https://www.ti.com/lit/ds/symlink/opa818.pdf
-$ENDCMP
-#
 $CMP OPA569DWP
 D Rail-to-Rail I/O, 2A, Power Amplifier, SO-20
 K opamp single high current
 F http://www.ti.com/lit/ds/symlink/opa569.pdf
+$ENDCMP
+#
+$CMP OPA818xDRG
+D  2.7 GHz, High-Voltage, FET-Input, Low Noise, Operational Amplifier, WSON-8
+K opamp VFA
+F https://www.ti.com/lit/ds/symlink/opa818.pdf
 $ENDCMP
 #
 $CMP OPA842xD
