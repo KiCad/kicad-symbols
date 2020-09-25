@@ -972,6 +972,30 @@ K hall effect current monitor sensor isolated
 F http://www.allegromicro.com/~/media/Files/Datasheets/ACS781-Datsaheet.ashx?la=en
 $ENDCMP
 #
+$CMP CKSR_15-NP
+D Current Transducer, 15A, Unipolar, 0-5V Output
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/cksr_series.pdf
+$ENDCMP
+#
+$CMP CKSR_25-NP
+D Current Transducer, 25A, Unipolar, 0-5V Output
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/cksr_series.pdf
+$ENDCMP
+#
+$CMP CKSR_50-NP
+D Current Transducer, 50A, Unipolar, 0-5V Output
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/cksr_series.pdf
+$ENDCMP
+#
+$CMP CKSR_6-NP
+D Current Transducer, 6A, Unipolar, 0-5V Output
+K current transducer
+F https://www.lem.com/sites/default/files/products_datasheets/cksr_series.pdf
+$ENDCMP
+#
 $CMP CQ-2063
 D High-Speed Small-Sized Current Sensor, Bidirectional, -35A to +35A, 60mV/A, CQ-7
 K hall effect current sensor

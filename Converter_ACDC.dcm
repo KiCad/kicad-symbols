@@ -300,6 +300,36 @@ K Miniature Module-type Power Supply MeanWell
 F http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF
 $ENDCMP
 #
+$CMP IRM-60-12
+D 12V, 5A, 60W, Isolated, AC-DC, IRM60
+K Miniature Module-type Power Supply MeanWell
+F http://www.meanwellusa.com/productPdf.aspx?i=687
+$ENDCMP
+#
+$CMP IRM-60-15
+D 15V, 4A, 60W, Isolated, AC-DC, IRM60
+K Miniature Module-type Power Supply MeanWell
+F http://www.meanwellusa.com/productPdf.aspx?i=687
+$ENDCMP
+#
+$CMP IRM-60-24
+D 24V, 2.5A, 60W, Isolated, AC-DC, IRM60
+K Miniature Module-type Power Supply MeanWell
+F http://www.meanwellusa.com/productPdf.aspx?i=687
+$ENDCMP
+#
+$CMP IRM-60-48
+D 48V, 1.25A, 50W, Isolated, AC-DC, IRM60
+K Miniature Module-type Power Supply MeanWell
+F http://www.meanwellusa.com/productPdf.aspx?i=687
+$ENDCMP
+#
+$CMP IRM-60-5
+D 5V, 10A, 50W, Isolated, AC-DC, IRM60
+K Miniature Module-type Power Supply MeanWell
+F http://www.meanwellusa.com/productPdf.aspx?i=687
+$ENDCMP
+#
 $CMP PBO-3-S12
 D 12V 0.25A 3W miniature AC-DC module-type power supply
 K ac dc power supply
@@ -478,6 +508,48 @@ $CMP RAC05-3.3SK
 D 5W Single Output EMC Class B 3.3V 1515mA
 K ac dc power supply
 F https://www.recom-power.com/pdf/Powerline-AC-DC/RAC05-K.pdf
+$ENDCMP
+#
+$CMP RAC20-05SK
+D 20 Watt Single Output AC/DC power supply 5V 4000mA
+K ac dc power supply
+F https://recom-power.com/pdf/Powerline_AC-DC/RAC20-K.pdf
+$ENDCMP
+#
+$CMP RAC20-12DK
+D 20 Watt Dual Output AC/DC power supply ±12V ±833mA
+K ac dc power supply
+F https://recom-power.com/pdf/Powerline_AC-DC/RAC20-K.pdf
+$ENDCMP
+#
+$CMP RAC20-12SK
+D 20 Watt Single Output AC/DC power supply 12V 1670mA
+K ac dc power supply
+F https://recom-power.com/pdf/Powerline_AC-DC/RAC20-K.pdf
+$ENDCMP
+#
+$CMP RAC20-15DK
+D 20 Watt Dual Output AC/DC power supply ±15V ±670mA
+K ac dc power supply
+F https://recom-power.com/pdf/Powerline_AC-DC/RAC20-K.pdf
+$ENDCMP
+#
+$CMP RAC20-15SK
+D 20 Watt Single Output AC/DC power supply 15V 1333mA
+K ac dc power supply
+F https://recom-power.com/pdf/Powerline_AC-DC/RAC20-K.pdf
+$ENDCMP
+#
+$CMP RAC20-24SK
+D 20 Watt Single Output AC/DC power supply 24V 840mA
+K ac dc power supply
+F https://recom-power.com/pdf/Powerline_AC-DC/RAC20-K.pdf
+$ENDCMP
+#
+$CMP RAC20-48SK
+D 20 Watt Single Output AC/DC power supply 48V 420mA
+K ac dc power supply
+F https://recom-power.com/pdf/Powerline_AC-DC/RAC20-K.pdf
 $ENDCMP
 #
 $CMP TMLM04103

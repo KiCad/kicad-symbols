@@ -1,12 +1,12 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP Amperemeter_AC
+$CMP Ammeter_AC
 D AC ammeter
 K ammeter AC ampere meter
 F ~
 $ENDCMP
 #
-$CMP Amperemeter_DC
+$CMP Ammeter_DC
 D DC ammeter
 K ammeter DC ampere meter
 F ~
@@ -66,57 +66,57 @@ K cap capacitor
 F ~
 $ENDCMP
 #
-$CMP CP
-D Polarized capacitor
-K cap capacitor
-F ~
-$ENDCMP
-#
-$CMP CP1
-D Polarized capacitor, US symbol
-K cap capacitor
-F ~
-$ENDCMP
-#
-$CMP CP1_Small
-D Polarized capacitor, small US symbol
-K cap capacitor
-F ~
-$ENDCMP
-#
-$CMP CP_Small
-D Polarized capacitor, small symbol
-K cap capacitor
-F ~
-$ENDCMP
-#
-$CMP CTRIM
-D Trimmable capacitor
-K trimmer variable capacitor
-F ~
-$ENDCMP
-#
-$CMP CTRIM_DIF
-D Differential variable capacitor with two stators
-K trimmer capacitor
-F ~
-$ENDCMP
-#
-$CMP CTRIM_Small
-D Trimmable capacitor, small symbol
-K trimmer variable capacitor
-F ~
-$ENDCMP
-#
 $CMP C_Feedthrough
 D Feedthrough capacitor
 K EMI filter feedthrough capacitor
 F ~
 $ENDCMP
 #
+$CMP C_Polarized
+D Polarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP C_Polarized_Small
+D Polarized capacitor, small symbol
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP C_Polarized_Small_US
+D Polarized capacitor, small US symbol
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP C_Polarized_US
+D Polarized capacitor, US symbol
+K cap capacitor
+F ~
+$ENDCMP
+#
 $CMP C_Small
 D Unpolarized capacitor, small symbol
 K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP C_Trim
+D Trimmable capacitor
+K trimmer variable capacitor
+F ~
+$ENDCMP
+#
+$CMP C_Trim_Differential
+D Differential variable capacitor with two stators
+K trimmer capacitor
+F ~
+$ENDCMP
+#
+$CMP C_Trim_Small
+D Trimmable capacitor, small symbol
+K trimmer variable capacitor
 F ~
 $ENDCMP
 #
@@ -234,7 +234,7 @@ K AC diode DIAC
 F ~
 $ENDCMP
 #
-$CMP DIAC_ALT
+$CMP DIAC_Filled
 D Diode for alternating current, filled shape
 K AC diode DIAC
 F ~
@@ -242,12 +242,6 @@ $ENDCMP
 #
 $CMP D_AAK
 D Diode, anode on pins 1 and 2
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_ALT
-D Diode, filled shape
 K diode
 F ~
 $ENDCMP
@@ -288,9 +282,231 @@ K capacitance diode varicap varactor
 F ~
 $ENDCMP
 #
-$CMP D_Capacitance_ALT
+$CMP D_Capacitance_Filled
 D Variable capacitance diode, filled shape
 K capacitance diode varicap varactor
+F ~
+$ENDCMP
+#
+$CMP D_Dual_CommonAnode_AKK
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_CommonAnode_AKK_Parallel
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_CommonAnode_AKK_Split
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_CommonAnode_KAK
+D Dual diode, common anode on pin 2
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_CommonAnode_KAK_Parallel
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_CommonAnode_KAK_Split
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_CommonAnode_KKA
+D Dual diode, common anode on pin 3
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_CommonAnode_KKA_Parallel
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_CommonAnode_KKA_Split
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_CommonCathode_AAK
+D Dual diode, common cathode on pin 3
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_CommonCathode_AAK_Parallel
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_CommonCathode_AAK_Split
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_CommonCathode_AKA
+D Dual diode, common cathode on pin 2
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_CommonCathode_AKA_Parallel
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_CommonCathode_AKA_Split
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_CommonCathode_KAA
+D Dual diode, common cathode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_CommonCathode_KAA_Parallel
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_CommonCathode_KAA_Split
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_Serial_ACK
+D Dual diode, anode/center/cathode
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_Serial_AKC
+D Dual diode, anode/cathode/center
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_Serial_CAK
+D Dual diode, center/anode/cathode
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_Serial_CKA
+D Dual diode, center/cathode/anode
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_Serial_KAC
+D Dual diode, cathode/anode/center
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_Serial_KCA
+D Dual diode, cathode/center/anode
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_Series_ACK_Parallel
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_Series_ACK_Split
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_Series_AKC_Parallel
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_Series_AKC_Split
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_Series_CAK_Parallel
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_Series_CAK_Split
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_Series_CKA_Parallel
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_Series_CKA_Split
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_Series_KAC_Parallel
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_Series_KAC_Split
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_Series_KCA_Parallel
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_Series_KCA_Split
+D Dual diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Filled
+D Diode, filled shape
+K diode
 F ~
 $ENDCMP
 #
@@ -312,13 +528,43 @@ K diode
 F ~
 $ENDCMP
 #
+$CMP D_Laser_1A3C
+D Laser diode, cathode on pin 3, anode on pin 1
+K opto laserdiode
+F ~
+$ENDCMP
+#
+$CMP D_Laser_1C2A
+D Laser diode, cathode on pin 1, anode on pin 2
+K opto laserdiode
+F ~
+$ENDCMP
+#
+$CMP D_Laser_Photo_MType
+D Laser diode with photodiode, common cathode on pin 2
+K opto laserdiode photodiode
+F http://www.egismos.disonhu.com/laser/diode-package.htm
+$ENDCMP
+#
+$CMP D_Laser_Photo_NType
+D Laser diode with photodiode, center on pin 2, LD cathode on pin 1
+K opto laserdiode photodiode
+F http://www.egismos.disonhu.com/laser/diode-package.htm
+$ENDCMP
+#
+$CMP D_Laser_Photo_PType
+D Laser diode with photodiode, center on pin 2, PD cathode on pin 3
+K opto laserdiode photodiode
+F http://www.egismos.disonhu.com/laser/diode-package.htm
+$ENDCMP
+#
 $CMP D_Photo
 D Photodiode
 K photodiode diode opto
 F ~
 $ENDCMP
 #
-$CMP D_Photo_ALT
+$CMP D_Photo_Filled
 D Photodiode, filled shape
 K photodiode diode opto
 F ~
@@ -330,7 +576,7 @@ K radiation detector diode
 F ~
 $ENDCMP
 #
-$CMP D_Radiation_ALT
+$CMP D_Radiation_Filled
 D Semiconductor radiation detector, filled shape
 K radiation detector diode
 F ~
@@ -360,7 +606,223 @@ K diode Schottky SCHDPAK
 F ~
 $ENDCMP
 #
-$CMP D_Schottky_ALT
+$CMP D_Schottky_Dual_CommonAnode_AKK
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_CommonAnode_AKK_Parallel
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_CommonAnode_AKK_Split
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_CommonAnode_KAK
+D Dual Schottky diode, common anode on pin 2
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_CommonAnode_KAK_Parallel
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_CommonAnode_KAK_Split
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_CommonAnode_KKA
+D Dual Schottky diode, common anode on pin 3
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_CommonAnode_KKA_Parallel
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_CommonAnode_KKA_Split
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_CommonCathode_AAK
+D Dual Schottky diode, common cathode on pin 3
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_CommonCathode_AAK_Parallel
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_CommonCathode_AAK_Split
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_CommonCathode_AKA
+D Dual Schottky diode, common cathode on pin 2
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_CommonCathode_AKA_Parallel
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_CommonCathode_AKA_Split
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_CommonCathode_KAA
+D Dual Schottky diode, common cathode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_CommonCathode_KAA_Parallel
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_CommonCathode_KAA_Split
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_Serial_ACK
+D Dual Schottky diode, anode/center/cathode
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_Serial_AKC
+D Dual Schottky diode, anode/cathode/center
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_Serial_CAK
+D Dual Schottky diode, center/anode/cathode
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_Serial_CKA
+D Dual Schottky diode, center/cathode/anode
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_Serial_KAC
+D Dual Schottky diode, cathode/anode/center
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_Serial_KCA
+D Dual Schottky diode, cathode/center/anode
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_Series_ACK_Parallel
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_Series_ACK_Split
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_Series_AKC_Parallel
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_Series_AKC_Split
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_Series_CAK_Parallel
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_Series_CAK_Split
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_Series_CKA_Parallel
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_Series_CKA_Split
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_Series_KAC_Parallel
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_Series_KAC_Split
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_Series_KCA_Parallel
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_Series_KCA_Split
+D Dual Schottky diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Filled
 D Schottky diode, filled shape
 K diode Schottky
 F ~
@@ -390,81 +852,9 @@ K diode Schottky
 F ~
 $ENDCMP
 #
-$CMP D_Schottky_Small_ALT
+$CMP D_Schottky_Small_Filled
 D Schottky diode, small symbol, filled shape
 K diode Schottky
-F ~
-$ENDCMP
-#
-$CMP D_Schottky_x2_ACom_AKK
-D Dual Schottky diode, common anode on pin 1
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_Schottky_x2_ACom_KAK
-D Dual Schottky diode, common anode on pin 2
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_Schottky_x2_ACom_KKA
-D Dual Schottky diode, common anode on pin 3
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_Schottky_x2_KCom_AAK
-D Dual Schottky diode, common cathode on pin 3
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_Schottky_x2_KCom_AKA
-D Dual Schottky diode, common cathode on pin 2
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_Schottky_x2_KCom_KAA
-D Dual Schottky diode, common cathode on pin 1
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_Schottky_x2_Serial_ACK
-D Dual Schottky diode, anode/center/cathode
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_Schottky_x2_Serial_AKC
-D Dual Schottky diode, anode/cathode/center
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_Schottky_x2_Serial_CAK
-D Dual Schottky diode, center/anode/cathode
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_Schottky_x2_Serial_CKA
-D Dual Schottky diode, center/cathode/anode
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_Schottky_x2_Serial_KAC
-D Dual Schottky diode, cathode/anode/center
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_Schottky_x2_Serial_KCA
-D Dual Schottky diode, cathode/center/anode
-K diode
 F ~
 $ENDCMP
 #
@@ -486,7 +876,7 @@ K diode
 F ~
 $ENDCMP
 #
-$CMP D_Small_ALT
+$CMP D_Small_Filled
 D Diode, small symbol, filled shape
 K diode
 F ~
@@ -498,37 +888,37 @@ K diode TVS thyrector
 F ~
 $ENDCMP
 #
-$CMP D_TVS_ALT
-D Bidirectional transient-voltage-suppression diode, filled shape
-K diode TVS thyrector
-F ~
-$ENDCMP
-#
-$CMP D_TVS_x2_AAC
+$CMP D_TVS_Dual_AAC
 D Bidirectional dual transient-voltage-suppression diode, center on pin 3
 K diode TVS thyrector
 F ~
 $ENDCMP
 #
-$CMP D_TVS_x2_ACA
+$CMP D_TVS_Dual_ACA
 D Bidirectional dual transient-voltage-suppression diode, center on pin 2
 K diode TVS thyrector
 F ~
 $ENDCMP
 #
-$CMP D_TVS_x2_CAA
+$CMP D_TVS_Dual_CAA
 D Bidirectional dual transient-voltage-suppression diode, center on pin 1
 K diode TVS thyrector
 F ~
 $ENDCMP
 #
-$CMP D_Temperature_Dependent
+$CMP D_TVS_Filled
+D Bidirectional transient-voltage-suppression diode, filled shape
+K diode TVS thyrector
+F ~
+$ENDCMP
+#
+$CMP D_TemperatureDependent
 D Temperature dependent diode
 K temperature sensor diode
 F ~
 $ENDCMP
 #
-$CMP D_Temperature_Dependent_ALT
+$CMP D_TemperatureDependent_Filled
 D Temperature dependent diode, filled shape
 K temperature sensor diode
 F ~
@@ -540,7 +930,7 @@ K tunnel diode
 F ~
 $ENDCMP
 #
-$CMP D_Tunnel_ALT
+$CMP D_Tunnel_Filled
 D Tunnel diode (Esaki diode), filled shape
 K tunnel diode
 F ~
@@ -552,7 +942,7 @@ K unitunnel diode
 F ~
 $ENDCMP
 #
-$CMP D_Unitunnel_ALT
+$CMP D_Unitunnel_Filled
 D Unitunnel diode, filled shape
 K unitunnel diode
 F ~
@@ -564,7 +954,115 @@ K diode
 F ~
 $ENDCMP
 #
-$CMP D_Zener_ALT
+$CMP D_Zener_Dual_CommonAnode_AKK
+D Dual Zener diode, common anode on pin 1
+K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_Dual_CommonAnode_AKK_Parallel
+D Dual Zener diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Zener_Dual_CommonAnode_AKK_Split
+D Dual Zener diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Zener_Dual_CommonAnode_KAK
+D Dual Zener diode, common anode on pin 2
+K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_Dual_CommonAnode_KAK_Parallel
+D Dual Zener diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Zener_Dual_CommonAnode_KAK_Split
+D Dual Zener diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Zener_Dual_CommonAnode_KKA
+D Dual Zener diode, common anode on pin 3
+K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_Dual_CommonAnode_KKA_Parallel
+D Dual Zener diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Zener_Dual_CommonAnode_KKA_Split
+D Dual Zener diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Zener_Dual_CommonCathode_AAK
+D Dual Zener diode, common cathode on pin 3
+K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_Dual_CommonCathode_AAK_Parallel
+D Dual Zener diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Zener_Dual_CommonCathode_AAK_Split
+D Dual Zener diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Zener_Dual_CommonCathode_AKA
+D Dual Zener diode, common cathode on pin 2
+K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_Dual_CommonCathode_AKA_Parallel
+D Dual Zener diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Zener_Dual_CommonCathode_AKA_Split
+D Dual Zener diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Zener_Dual_CommonCathode_KAA
+D Dual Zener diode, common cathode on pin 1
+K diode zener dual
+F ~
+$ENDCMP
+#
+$CMP D_Zener_Dual_CommonCathode_KAA_Parallel
+D Dual Zener diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Zener_Dual_CommonCathode_KAA_Split
+D Dual Zener diode, common anode on pin 1
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Zener_Filled
 D Zener diode, filled shape
 K diode
 F ~
@@ -576,159 +1074,15 @@ K diode
 F ~
 $ENDCMP
 #
-$CMP D_Zener_Small_ALT
+$CMP D_Zener_Small_Filled
 D Zener diode, small symbol, filled shape
 K diode
 F ~
 $ENDCMP
 #
-$CMP D_Zener_x2_ACom_AKK
-D Dual Zener diode, common anode on pin 1
-K diode zener dual
-F ~
-$ENDCMP
-#
-$CMP D_Zener_x2_ACom_KAK
-D Dual Zener diode, common anode on pin 2
-K diode zener dual
-F ~
-$ENDCMP
-#
-$CMP D_Zener_x2_ACom_KKA
-D Dual Zener diode, common anode on pin 3
-K diode zener dual
-F ~
-$ENDCMP
-#
-$CMP D_Zener_x2_KCom_AAK
-D Dual Zener diode, common cathode on pin 3
-K diode zener dual
-F ~
-$ENDCMP
-#
-$CMP D_Zener_x2_KCom_AKA
-D Dual Zener diode, common cathode on pin 2
-K diode zener dual
-F ~
-$ENDCMP
-#
-$CMP D_Zener_x2_KCom_KAA
-D Dual Zener diode, common cathode on pin 1
-K diode zener dual
-F ~
-$ENDCMP
-#
-$CMP D_x2_ACom_AKK
-D Dual diode, common anode on pin 1
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_x2_ACom_KAK
-D Dual diode, common anode on pin 2
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_x2_ACom_KKA
-D Dual diode, common anode on pin 3
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_x2_KCom_AAK
-D Dual diode, common cathode on pin 3
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_x2_KCom_AKA
-D Dual diode, common cathode on pin 2
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_x2_KCom_KAA
-D Dual diode, common cathode on pin 1
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_x2_Serial_ACK
-D Dual diode, anode/center/cathode
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_x2_Serial_AKC
-D Dual diode, anode/cathode/center
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_x2_Serial_CAK
-D Dual diode, center/anode/cathode
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_x2_Serial_CKA
-D Dual diode, center/cathode/anode
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_x2_Serial_KAC
-D Dual diode, cathode/anode/center
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_x2_Serial_KCA
-D Dual diode, cathode/center/anode
-K diode
-F ~
-$ENDCMP
-#
-$CMP Delay_Line
+$CMP DelayLine
 D Delay line
 K delay propagation retard impedance
-F ~
-$ENDCMP
-#
-$CMP EMI_Filter_C
-D EMI filter, single capacitor
-K EMI filter feedthrough capacitor
-F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
-$ENDCMP
-#
-$CMP EMI_Filter_CLC
-D EMI T-filter (CLC)
-K EMI T-filter
-F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
-$ENDCMP
-#
-$CMP EMI_Filter_CommonMode
-D EMI 2-inductor common mode filter
-K EMI common mode filter
-F ~
-$ENDCMP
-#
-$CMP EMI_Filter_LCL
-D EMI T-filter (LCL)
-K EMI T-filter
-F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
-$ENDCMP
-#
-$CMP EMI_Filter_LL
-D EMI 2-inductor filter
-K EMI filter
-F ~
-$ENDCMP
-#
-$CMP EMI_Filter_LL_1423
-D EMI 2-inductor filter, pin-connections 1-4 and 2-3
-K EMI filter common-mode choke
 F ~
 $ENDCMP
 #
@@ -738,25 +1092,61 @@ K earphone speaker headphone
 F ~
 $ENDCMP
 #
-$CMP Electromagnetic_Actor
+$CMP ElectromagneticActor
 D Electromagnetic actor
 K electromagnet coil inductor
 F ~
 $ENDCMP
 #
-$CMP Ferrite_Bead
+$CMP FerriteBead
 D Ferrite bead
 K L ferrite bead inductor filter
 F ~
 $ENDCMP
 #
-$CMP Ferrite_Bead_Small
+$CMP FerriteBead_Small
 D Ferrite bead, small symbol
 K L ferrite bead inductor filter
 F ~
 $ENDCMP
 #
-$CMP Frequency_Counter
+$CMP Filter_EMI_C
+D EMI filter, single capacitor
+K EMI filter feedthrough capacitor
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
+$ENDCMP
+#
+$CMP Filter_EMI_CLC
+D EMI T-filter (CLC)
+K EMI T-filter
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
+$ENDCMP
+#
+$CMP Filter_EMI_CommonMode
+D EMI 2-inductor common mode filter
+K EMI common mode filter
+F ~
+$ENDCMP
+#
+$CMP Filter_EMI_LCL
+D EMI T-filter (LCL)
+K EMI T-filter
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
+$ENDCMP
+#
+$CMP Filter_EMI_LL
+D EMI 2-inductor filter
+K EMI filter
+F ~
+$ENDCMP
+#
+$CMP Filter_EMI_LL_1423
+D EMI 2-inductor filter, pin-connections 1-4 and 2-3
+K EMI filter common-mode choke
+F ~
+$ENDCMP
+#
+$CMP FrequencyCounter
 D Frequency counter
 K frequency counter
 F ~
@@ -786,13 +1176,13 @@ K fuse
 F ~
 $ENDCMP
 #
-$CMP GDT_2pin
+$CMP GDT_2Pin
 D Gas Discharge Tube with 2 Pins
 K gdt
 F ~
 $ENDCMP
 #
-$CMP GDT_3pin
+$CMP GDT_3Pin
 D Gas Discharge Tube with 3 Pins
 K gdt
 F ~
@@ -804,7 +1194,7 @@ K galvanometer
 F ~
 $ENDCMP
 #
-$CMP Hall_Generator
+$CMP HallGenerator
 D Hall effect generator
 K Hall generator magnet
 F ~
@@ -813,30 +1203,6 @@ $ENDCMP
 $CMP Heater
 D Resistive heater
 K heater R resistor
-F ~
-$ENDCMP
-#
-$CMP Jumper
-D Jumper, normally closed
-K jumper bridge link NC
-F ~
-$ENDCMP
-#
-$CMP Jumper_NC_Dual
-D Dual jumper, normally closed
-K jumper bridge link NC
-F ~
-$ENDCMP
-#
-$CMP Jumper_NC_Small
-D Jumper, normally closed, small symbol
-K jumper link bridge NC
-F ~
-$ENDCMP
-#
-$CMP Jumper_NO_Small
-D Jumper, normally open, small symbol
-K jumper link bridge NO
 F ~
 $ENDCMP
 #
@@ -852,26 +1218,44 @@ K LED diode
 F ~
 $ENDCMP
 #
+$CMP LED_ABGR
+D RGB LED, anode/blue/green/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP LED_ABRG
 D RGB LED, anode/blue/red/green
 K LED RGB diode
 F ~
 $ENDCMP
 #
-$CMP LED_ALT
-D Light emitting diode, filled shape
-K LED diode
+$CMP LED_AGBR
+D RGB LED, anode/green/blue/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_AGRB
+D RGB LED, anode/green/red/blue
+K LED RGB diode
 F ~
 $ENDCMP
 #
 $CMP LED_ARBG
 D RGB LED, anode/red/blue/green
-K LED RGB Diode
+K LED RGB diode
 F ~
 $ENDCMP
 #
 $CMP LED_ARGB
 D RGB LED, anode/red/green/blue
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_BAGR
+D RGB LED, blue/anode/green/red
 K LED RGB diode
 F ~
 $ENDCMP
@@ -882,67 +1266,229 @@ K LED RGB diode
 F ~
 $ENDCMP
 #
+$CMP LED_BGAR
+D RGB LED, blue/green/anode/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_BGKR
+D RGB LED, blue/green/cathode/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP LED_BGRA
 D RGB LED, blue/green/red/anode
 K LED RGB diode
 F ~
 $ENDCMP
 #
-$CMP LED_CRGB
-D RGB LED, cathode/red/green/blue
+$CMP LED_BGRK
+D RGB LED, blue/green/red/cathode
 K LED RGB diode
 F ~
 $ENDCMP
 #
-$CMP LED_Dual_2pin
-D Dual LED, bidirectional
-K LED diode bicolor dual
+$CMP LED_BKGR
+D RGB LED, blue/cathode/green/red
+K LED RGB diode
 F ~
 $ENDCMP
 #
-$CMP LED_Dual_AAC
+$CMP LED_BKRG
+D RGB LED, blue/cathode/red/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_BRAG
+D RGB LED, blue/red/anode/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_BRGA
+D RGB LED, blue/red/green/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_BRGK
+D RGB LED, blue/red/green/cathode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_BRKG
+D RGB LED, blue/red/cathode/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_Dual_AAK
 D Dual LED, common cathode on pin 3
 K LED diode bicolor dual
 F ~
 $ENDCMP
 #
-$CMP LED_Dual_AACC
+$CMP LED_Dual_AAKK
 D Dual LED, cathodes on pins 3 and 4
 K LED diode bicolor dual
 F ~
 $ENDCMP
 #
-$CMP LED_Dual_ACA
+$CMP LED_Dual_AKA
 D Dual LED, common cathode on pin 2
 K LED diode bicolor dual
 F ~
 $ENDCMP
 #
-$CMP LED_Dual_ACAC
+$CMP LED_Dual_AKAK
 D Dual LED, cathodes on pins 2 and 4
 K LED diode bicolor dual
 F ~
 $ENDCMP
 #
-$CMP LED_Dual_CAC
+$CMP LED_Dual_Bidirectional
+D Dual LED, bidirectional
+K LED diode bicolor dual
+F ~
+$ENDCMP
+#
+$CMP LED_Dual_KAK
 D Dual LED, common anode on pin 2
 K LED diode bicolor dual
 F ~
 $ENDCMP
 #
-$CMP LED_Dual_CACA
+$CMP LED_Dual_KAKA
 D Dual LED, cathodes on pins 1 and 3
 K LED diode bicolor dual
 F ~
 $ENDCMP
 #
-$CMP LED_Dual_CCA
+$CMP LED_Dual_KKA
 D Dual LED, common anode on pin 3
 K LED diode bicolor dual
 F ~
 $ENDCMP
 #
-$CMP LED_PAD
+$CMP LED_Filled
+D Light emitting diode, filled shape
+K LED diode
+F ~
+$ENDCMP
+#
+$CMP LED_GABR
+D RGB LED, green/anode/blue/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GARB
+D RGB LED, green/anode/red/blue
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GBAR
+D RGB LED, green/blue/anode/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GBKR
+D RGB LED, green/blue/cathode/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GBRA
+D RGB LED, green/blue/red/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GBRK
+D RGB LED, green/blue/red/cathode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GKBR
+D RGB LED, green/cathode/blue/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GKRB
+D RGB LED, green/cathode/red/blue
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GRAB
+D RGB LED, green/red/anode/blue
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GRBA
+D RGB LED, green/red/blue/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GRBK
+D RGB LED, green/red/blue/cathode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_GRKB
+D RGB LED, green/red/cathode/blue
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_KBGR
+D RGB LED, cathode/blue/green/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_KBRG
+D RGB LED, cathode/blue/red/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_KGBR
+D RGB LED, cathode/green/blue/red
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_KGRB
+D RGB LED, cathode/green/red/blue
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_KRBG
+D RGB LED, cathode/red/blue/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_KRGB
+D RGB LED, cathode/red/green/blue
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_Pad
 D Light emitting diode with pad
 K LED diode pad
 F ~
@@ -960,14 +1506,32 @@ K LED RGB diode
 F ~
 $ENDCMP
 #
-$CMP LED_RCBG
-D RGB LED, red/cathode/blue/green
+$CMP LED_RBAG
+D RGB LED, red/blue/anode/green
 K LED RGB diode
 F ~
 $ENDCMP
 #
-$CMP LED_RCGB
-D RGB LED, red/cathode/green/blue
+$CMP LED_RBGA
+D RGB LED, red/blue/green/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RBGK
+D RGB LED, red/blue/green/cathode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RBKG
+D RGB LED, red/blue/cathode/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RGAB
+D RGB LED, red/green/anode/blue
 K LED RGB diode
 F ~
 $ENDCMP
@@ -984,7 +1548,7 @@ K LED RGB diode
 F ~
 $ENDCMP
 #
-$CMP LED_RGBC
+$CMP LED_RGBK
 D RGB LED, red/green/blue/cathode
 K LED RGB diode
 F ~
@@ -996,13 +1560,31 @@ K LED RGB diode
 F ~
 $ENDCMP
 #
+$CMP LED_RGKB
+D RGB LED, red/green/cathode/blue
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RKBG
+D RGB LED, red/cathode/blue/green
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RKGB
+D RGB LED, red/cathode/green/blue
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP LED_Series
 D Several LEDs in series
 K LED diode
 F ~
 $ENDCMP
 #
-$CMP LED_Series_PAD
+$CMP LED_Series_Pad
 D Several LEDs in series with exposed pad
 K LED diode pad
 F ~
@@ -1014,159 +1596,9 @@ K LED diode light-emitting-diode
 F ~
 $ENDCMP
 #
-$CMP LED_Small_ALT
+$CMP LED_Small_Filled
 D Light emitting diode, small symbol, filled shape
 K LED diode light-emitting-diode
-F ~
-$ENDCMP
-#
-$CMP LTRIM
-D Variable inductor
-K inductor choke coil reactor magnetic
-F ~
-$ENDCMP
-#
-$CMP L_Core_Ferrite
-D Inductor with ferrite core
-K inductor choke coil reactor magnetic
-F ~
-$ENDCMP
-#
-$CMP L_Core_Ferrite_Coupled
-D Coupled inductor with ferrite core
-K inductor choke coil reactor magnetic coupled
-F ~
-$ENDCMP
-#
-$CMP L_Core_Ferrite_Coupled_1243
-D Coupled inductor with ferrite core
-K inductor choke coil reactor magnetic coupled
-F ~
-$ENDCMP
-#
-$CMP L_Core_Ferrite_Coupled_1324
-D Coupled inductor with ferrite core
-K inductor choke coil reactor magnetic coupled
-F ~
-$ENDCMP
-#
-$CMP L_Core_Ferrite_Coupled_1342
-D Coupled inductor with ferrite core
-K inductor choke coil reactor magnetic coupled
-F ~
-$ENDCMP
-#
-$CMP L_Core_Ferrite_Coupled_1423
-D Coupled inductor with ferrite core
-K inductor choke coil reactor magnetic coupled
-F ~
-$ENDCMP
-#
-$CMP L_Core_Ferrite_Coupled_Small
-D Coupled inductor with ferrite core, small symbol
-K inductor choke coil reactor magnetic coupled
-F ~
-$ENDCMP
-#
-$CMP L_Core_Ferrite_Coupled_Small_1243
-D Coupled inductor with ferrite core, small symbol
-K inductor choke coil reactor magnetic coupled
-F ~
-$ENDCMP
-#
-$CMP L_Core_Ferrite_Coupled_Small_1324
-D Coupled inductor with ferrite core, small symbol
-K inductor choke coil reactor magnetic coupled
-F ~
-$ENDCMP
-#
-$CMP L_Core_Ferrite_Coupled_Small_1342
-D Coupled inductor with ferrite core, small symbol
-K inductor choke coil reactor magnetic coupled
-F ~
-$ENDCMP
-#
-$CMP L_Core_Ferrite_Coupled_Small_1423
-D Coupled inductor with ferrite core, small symbol
-K inductor choke coil reactor magnetic coupled
-F ~
-$ENDCMP
-#
-$CMP L_Core_Ferrite_Small
-D Inductor with ferrite core, small symbol
-K inductor choke coil reactor magnetic
-F ~
-$ENDCMP
-#
-$CMP L_Core_Iron
-D Inductor with iron core
-K inductor choke coil reactor magnetic
-F ~
-$ENDCMP
-#
-$CMP L_Core_Iron_Coupled
-D Coupled inductor with iron core
-K inductor choke coil reactor magnetic coupled
-F ~
-$ENDCMP
-#
-$CMP L_Core_Iron_Coupled_1243
-D Coupled inductor with iron core
-K inductor choke coil reactor magnetic coupled
-F ~
-$ENDCMP
-#
-$CMP L_Core_Iron_Coupled_1324
-D Coupled inductor with iron core
-K inductor choke coil reactor magnetic coupled
-F ~
-$ENDCMP
-#
-$CMP L_Core_Iron_Coupled_1342
-D Coupled inductor with iron core
-K inductor choke coil reactor magnetic coupled
-F ~
-$ENDCMP
-#
-$CMP L_Core_Iron_Coupled_1423
-D Coupled inductor with iron core
-K inductor choke coil reactor magnetic coupled
-F ~
-$ENDCMP
-#
-$CMP L_Core_Iron_Coupled_Small
-D Coupled inductor with iron core, small symbol
-K inductor choke coil reactor magnetic coupled
-F ~
-$ENDCMP
-#
-$CMP L_Core_Iron_Coupled_Small_1243
-D Coupled inductor with iron core, small symbol
-K inductor choke coil reactor magnetic coupled
-F ~
-$ENDCMP
-#
-$CMP L_Core_Iron_Coupled_Small_1324
-D Coupled inductor with iron core, small symbol
-K inductor choke coil reactor magnetic coupled
-F ~
-$ENDCMP
-#
-$CMP L_Core_Iron_Coupled_Small_1342
-D Coupled inductor with iron core, small symbol
-K inductor choke coil reactor magnetic coupled
-F ~
-$ENDCMP
-#
-$CMP L_Core_Iron_Coupled_Small_1423
-D Coupled inductor with iron core, small symbol
-K inductor choke coil reactor magnetic coupled
-F ~
-$ENDCMP
-#
-$CMP L_Core_Iron_Small
-D Inductor with iron core, small symbol
-K inductor choke coil reactor magnetic
 F ~
 $ENDCMP
 #
@@ -1230,8 +1662,158 @@ K inductor choke coil reactor magnetic coupled
 F ~
 $ENDCMP
 #
+$CMP L_Ferrite
+D Inductor with ferrite core
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP L_Ferrite_Coupled
+D Coupled inductor with ferrite core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Ferrite_Coupled_1243
+D Coupled inductor with ferrite core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Ferrite_Coupled_1324
+D Coupled inductor with ferrite core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Ferrite_Coupled_1342
+D Coupled inductor with ferrite core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Ferrite_Coupled_1423
+D Coupled inductor with ferrite core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Ferrite_Coupled_Small
+D Coupled inductor with ferrite core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Ferrite_Coupled_Small_1243
+D Coupled inductor with ferrite core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Ferrite_Coupled_Small_1324
+D Coupled inductor with ferrite core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Ferrite_Coupled_Small_1342
+D Coupled inductor with ferrite core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Ferrite_Coupled_Small_1423
+D Coupled inductor with ferrite core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Ferrite_Small
+D Inductor with ferrite core, small symbol
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP L_Iron
+D Inductor with iron core
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP L_Iron_Coupled
+D Coupled inductor with iron core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Iron_Coupled_1243
+D Coupled inductor with iron core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Iron_Coupled_1324
+D Coupled inductor with iron core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Iron_Coupled_1342
+D Coupled inductor with iron core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Iron_Coupled_1423
+D Coupled inductor with iron core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Iron_Coupled_Small
+D Coupled inductor with iron core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Iron_Coupled_Small_1243
+D Coupled inductor with iron core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Iron_Coupled_Small_1324
+D Coupled inductor with iron core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Iron_Coupled_Small_1342
+D Coupled inductor with iron core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Iron_Coupled_Small_1423
+D Coupled inductor with iron core, small symbol
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP L_Iron_Small
+D Inductor with iron core, small symbol
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
 $CMP L_Small
 D Inductor, small symbol
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP L_Trim
+D Variable inductor
 K inductor choke coil reactor magnetic
 F ~
 $ENDCMP
@@ -1254,37 +1836,7 @@ K neon lamp
 F ~
 $ENDCMP
 #
-$CMP Laserdiode_1A3C
-D Laser diode, cathode on pin 3, anode on pin 1
-K opto laserdiode
-F ~
-$ENDCMP
-#
-$CMP Laserdiode_1C2A
-D Laser diode, cathode on pin 1, anode on pin 2
-K opto laserdiode
-F ~
-$ENDCMP
-#
-$CMP Laserdiode_M_TYPE
-D Laser diode with photodiode, common cathode on pin 2
-K opto laserdiode photodiode
-F http://www.egismos.disonhu.com/laser/diode-package.htm
-$ENDCMP
-#
-$CMP Laserdiode_N_TYPE
-D Laser diode with photodiode, center on pin 2, LD cathode on pin 1
-K opto laserdiode photodiode
-F http://www.egismos.disonhu.com/laser/diode-package.htm
-$ENDCMP
-#
-$CMP Laserdiode_P_TYPE
-D Laser diode with photodiode, center on pin 2, PD cathode on pin 3
-K opto laserdiode photodiode
-F http://www.egismos.disonhu.com/laser/diode-package.htm
-$ENDCMP
-#
-$CMP MEMRISTOR
+$CMP Memristor
 D Memristor
 K memristor
 F ~
@@ -1314,31 +1866,31 @@ K microphone ultrasound crystal
 F ~
 $ENDCMP
 #
-$CMP Net-Tie_2
+$CMP NetTie_2
 D Net tie, 2 pins
 K net tie short
 F ~
 $ENDCMP
 #
-$CMP Net-Tie_3
+$CMP NetTie_3
 D Net tie, 3 pins
 K net tie short
 F ~
 $ENDCMP
 #
-$CMP Net-Tie_3_Tee
+$CMP NetTie_3_Tee
 D Net tie, 3 pins, tee
 K net tie short
 F ~
 $ENDCMP
 #
-$CMP Net-Tie_4
+$CMP NetTie_4
 D Net tie, 4 pins
 K net tie short
 F ~
 $ENDCMP
 #
-$CMP Net-Tie_4_Cross
+$CMP NetTie_4_Cross
 D Net tie, 4 pins, cross
 K net tie short
 F ~
@@ -1350,13 +1902,13 @@ K ohmmeter resistance
 F ~
 $ENDCMP
 #
-$CMP Opamp_Dual_Generic
+$CMP Opamp_Dual
 D Dual operational amplifier
 K dual opamp
 F ~
 $ENDCMP
 #
-$CMP Opamp_Quad_Generic
+$CMP Opamp_Quad
 D Quad operational amplifier
 K quad opamp
 F ~
@@ -1368,7 +1920,7 @@ K oscilloscope
 F ~
 $ENDCMP
 #
-$CMP Peltier_Element
+$CMP PeltierElement
 D Peltier element, thermoelectric cooler
 K Peltier TEC
 F ~
@@ -1386,103 +1938,109 @@ K resettable fuse PTC PPTC polyfuse polyswitch
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_NMOS_G1S2G2D2S1D1
+$CMP Q_Dual_NMOS_G1S2G2D2S1D1
 D Dual NMOS transistor, 6 pin package
 K transistor NMOS N-MOS N-MOSFET
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_NMOS_S1G1D2S2G2D1
+$CMP Q_Dual_NMOS_S1G1D2S2G2D1
 D Dual NMOS transistor, 6 pin package
 K transistor NMOS N-MOS N-MOSFET
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_NPN_C2C1E1E2
+$CMP Q_Dual_NMOS_S1G1S2G2D2D2D1D1
+D Dual NMOS transistor, 8 pin package
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
+$CMP Q_Dual_NPN_C2C1E1E2
 D Double NPN transistors, current mirror configuration
 K transistor NPN
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_NPN_NPN_BRT_E1B1C2E2B2C1
+$CMP Q_Dual_NPN_NPN_BRT_E1B1C2E2B2C1
 D Dual NPN bias resistor transistor, 6 pin package
 K transistor NPN
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_NPN_NPN_C2E2C1E1B1B2
+$CMP Q_Dual_NPN_NPN_C2E2C1E1B1B2
 D Dual NPN transistor, 6 pin package
 K transistor NPN
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_NPN_NPN_E1B1C2E2B2C1
+$CMP Q_Dual_NPN_NPN_E1B1C2E2B2C1
 D Dual NPN transistor, 6 pin package
 K transistor NPN
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_NPN_PNP_BRT_E1B1C2E2B2C1
+$CMP Q_Dual_NPN_PNP_BRT_E1B1C2E2B2C1
 D Dual NPN/PNP bias resistor transistor, 6 pin package
 K transistor NPN
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_NPN_PNP_E1B1C2E2B2C1
+$CMP Q_Dual_NPN_PNP_E1B1C2E2B2C1
 D Dual NPN/PNP transistor, 6 pin package
 K transistor NPN PNP
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_PMOS_G1S2G2D2S1D1
+$CMP Q_Dual_PMOS_G1S2G2D2S1D1
 D Dual PMOS transistor, 6 pin package
 K transistor PMOS P-MOS P-MOSFET
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_PMOS_S1G1D2S2G2D1
+$CMP Q_Dual_PMOS_S1G1D2S2G2D1
 D Dual PMOS transistor, 6 pin package
 K transistor PMOS P-MOS P-MOSFET
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_PMOS_S1G1S2G2D2D2D1D1
+$CMP Q_Dual_PMOS_S1G1S2G2D2D2D1D1
 D Dual PMOS transistor, 8 pin package
 K transistor PMOS P-MOS P-MOSFET
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_PNP_C2C1E1E2
+$CMP Q_Dual_PNP_C2C1E1E2
 D Double PNP transistors, current mirror configuration
 K transistor PNP
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_PNP_NPN_BRT_E1B1C2E2B2C1
+$CMP Q_Dual_PNP_NPN_BRT_E1B1C2E2B2C1
 D Dual PNP/NPN bias resistor transistor, 6 pin package
 K transistor NPN
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_PNP_PNP_BRT_E1B1C2E2B2C1
+$CMP Q_Dual_PNP_PNP_BRT_E1B1C2E2B2C1
 D Dual PNP bias resistor transistor, 6 pin package
 K transistor NPN
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_PNP_PNP_C1B1B2C2E2E1
+$CMP Q_Dual_PNP_PNP_C1B1B2C2E2E1
 D Dual PNP transistor, 6 pin package
 K transistor PNP
 F https://www.diodes.com/assets/Datasheets/ds30437.pdf
 $ENDCMP
 #
-$CMP Q_DUAL_PNP_PNP_C2E2C1E1B1B2
+$CMP Q_Dual_PNP_PNP_C2E2C1E1B1B2
 D Dual PNP transistor, 6 pin package
 K transistor PNP
 F ~
 $ENDCMP
 #
-$CMP Q_DUAL_PNP_PNP_E1B1C2E2B2C1
+$CMP Q_Dual_PNP_PNP_E1B1C2E2B2C1
 D Dual PNP transistor, 6 pin package
 K transistor PNP
 F ~
@@ -2040,21 +2598,15 @@ K R res resistor
 F ~
 $ENDCMP
 #
-$CMP RF_Shield_One_Piece
+$CMP RFShield_OnePiece
 D One-piece EMI RF shielding cabinet
 K RF EMI shielding cabinet
 F ~
 $ENDCMP
 #
-$CMP RF_Shield_Two_Pieces
+$CMP RFShield_TwoPieces
 D Two-piece EMI RF shielding cabinet
 K RF EMI shielding cabinet
-F ~
-$ENDCMP
-#
-$CMP RTRIM
-D Trimmable resistor (preset resistor)
-K R res resistor variable potentiometer trimmer
 F ~
 $ENDCMP
 #
@@ -2316,60 +2868,6 @@ K R network divider topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
-$CMP R_PHOTO
-D Photoresistor
-K resistor variable light sensitive opto LDR
-F ~
-$ENDCMP
-#
-$CMP R_POT
-D Potentiometer
-K resistor variable
-F ~
-$ENDCMP
-#
-$CMP R_POT_Dual
-D Dual potentiometer
-K resistor variable
-F ~
-$ENDCMP
-#
-$CMP R_POT_Dual_Separate
-D Dual potentiometer, separate units
-K resistor variable
-F ~
-$ENDCMP
-#
-$CMP R_POT_MountingPin
-D Potentiometer with a mounting pin
-K resistor variable
-F ~
-$ENDCMP
-#
-$CMP R_POT_Small
-D Potentiometer
-K resistor variable
-F ~
-$ENDCMP
-#
-$CMP R_POT_TRIM
-D Trim-potentiometer
-K resistor variable trimpot trimmer
-F ~
-$ENDCMP
-#
-$CMP R_POT_TRIM_US
-D Trim-potentiometer, US symbol
-K resistor variable trimpot trimmer
-F ~
-$ENDCMP
-#
-$CMP R_POT_US
-D Potentiometer, US symbol
-K resistor variable
-F ~
-$ENDCMP
-#
 $CMP R_Pack02
 D 2 resistor network, parallel topology
 K R network parallel topology isolated
@@ -2562,6 +3060,60 @@ K R network parallel topology isolated
 F ~
 $ENDCMP
 #
+$CMP R_Photo
+D Photoresistor
+K resistor variable light sensitive opto LDR
+F ~
+$ENDCMP
+#
+$CMP R_Potentiometer
+D Potentiometer
+K resistor variable
+F ~
+$ENDCMP
+#
+$CMP R_Potentiometer_Dual
+D Dual potentiometer
+K resistor variable
+F ~
+$ENDCMP
+#
+$CMP R_Potentiometer_Dual_Separate
+D Dual potentiometer, separate units
+K resistor variable
+F ~
+$ENDCMP
+#
+$CMP R_Potentiometer_MountingPin
+D Potentiometer with a mounting pin
+K resistor variable
+F ~
+$ENDCMP
+#
+$CMP R_Potentiometer_Small
+D Potentiometer
+K resistor variable
+F ~
+$ENDCMP
+#
+$CMP R_Potentiometer_Trim
+D Trim-potentiometer
+K resistor variable trimpot trimmer
+F ~
+$ENDCMP
+#
+$CMP R_Potentiometer_Trim_US
+D Trim-potentiometer, US symbol
+K resistor variable trimpot trimmer
+F ~
+$ENDCMP
+#
+$CMP R_Potentiometer_US
+D Potentiometer, US symbol
+K resistor variable
+F ~
+$ENDCMP
+#
 $CMP R_Shunt
 D Shunt resistor
 K R res shunt resistor
@@ -2583,6 +3135,12 @@ $ENDCMP
 $CMP R_Small_US
 D Resistor, small US symbol
 K r resistor
+F ~
+$ENDCMP
+#
+$CMP R_Trim
+D Trimmable resistor (preset resistor)
+K R res resistor variable potentiometer trimmer
 F ~
 $ENDCMP
 #
@@ -2616,21 +3174,15 @@ K ceramic resonator
 F ~
 $ENDCMP
 #
-$CMP Rotary_Encoder
+$CMP RotaryEncoder
 D Rotary encoder, dual channel, incremental quadrate outputs
 K rotary switch encoder
 F ~
 $ENDCMP
 #
-$CMP Rotary_Encoder_Switch
+$CMP RotaryEncoder_Switch
 D Rotary encoder, dual channel, incremental quadrate outputs, with switch
 K rotary switch encoder switch push button
-F ~
-$ENDCMP
-#
-$CMP SPARK_GAP
-D Spark gap
-K spark gap ESD electrostatic suppression
 F ~
 $ENDCMP
 #
@@ -2643,6 +3195,12 @@ $ENDCMP
 $CMP Solar_Cells
 D Multiple solar cells
 K solar cell
+F ~
+$ENDCMP
+#
+$CMP SparkGap
+D Spark gap
+K spark gap ESD electrostatic suppression
 F ~
 $ENDCMP
 #
@@ -2676,13 +3234,13 @@ K thermistor NTC resistor sensor RTD
 F ~
 $ENDCMP
 #
-$CMP Thermistor_NTC_3wire
+$CMP Thermistor_NTC_3Wire
 D Temperature dependent resistor, negative temperature coefficient, 3-wire interface
 K thermistor NTC resistor sensor RTD
 F ~
 $ENDCMP
 #
-$CMP Thermistor_NTC_4wire
+$CMP Thermistor_NTC_4Wire
 D Temperature dependent resistor, negative temperature coefficient, 4-wire interface
 K thermistor NTC resistor sensor RTD
 F ~
@@ -2700,13 +3258,13 @@ K resistor PTC thermistor sensor RTD
 F ~
 $ENDCMP
 #
-$CMP Thermistor_PTC_3wire
+$CMP Thermistor_PTC_3Wire
 D Temperature dependent resistor, positive temperature coefficient, 3-wire interface
 K resistor PTC thermistor sensor RTD
 F ~
 $ENDCMP
 #
-$CMP Thermistor_PTC_4wire
+$CMP Thermistor_PTC_4Wire
 D Temperature dependent resistor, positive temperature coefficient, 3-wire interface
 K resistor PTC thermistor sensor RTD
 F ~
@@ -2730,7 +3288,7 @@ K thermocouple temperature sensor cold junction
 F ~
 $ENDCMP
 #
-$CMP Thermocouple_ALT
+$CMP Thermocouple_Alt
 D Thermocouple with connector block
 K thermocouple temperature sensor cold junction
 F ~
@@ -2766,7 +3324,7 @@ K transformer coil magnet
 F ~
 $ENDCMP
 #
-$CMP Transformer_AUDIO
+$CMP Transformer_Audio
 D Audio transformer
 K transformer coil magnet sound
 F ~
@@ -2796,19 +3354,19 @@ K VDR resistance
 F ~
 $ENDCMP
 #
-$CMP Voltage_Divider
+$CMP VoltageDivider
 D Voltage divider
 K R network voltage divider
 F ~
 $ENDCMP
 #
-$CMP Voltage_Divider_CenterPin1
+$CMP VoltageDivider_CenterPin1
 D Voltage divider, center on pin 1
 K R network voltage divider
 F ~
 $ENDCMP
 #
-$CMP Voltage_Divider_CenterPin3
+$CMP VoltageDivider_CenterPin3
 D Voltage divider, center on pin 3
 K R network voltage divider
 F ~

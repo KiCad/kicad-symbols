@@ -6,4 +6,10 @@ K HITAG RFID
 F https://www.nxp.com/docs/en/data-sheet/037031.pdf
 $ENDCMP
 #
+$CMP PN5120A0HN1
+D NFC frontend.  ISO/IEC 14443A&B, MIFARE®, FeliCa and NFC Forum tag types, HVQFN-32
+K PN512 RFID
+F https://www.nxp.com/docs/en/data-sheet/PN512.pdf
+$ENDCMP
+#
 #End Doc Library

@@ -89,6 +89,18 @@ K CMOS Analog Switch
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG733_734.pdf
 $ENDCMP
 #
+$CMP ADG884xCP
+D 0.5Ω CMOS, Dual 2:1 MUX/SPDT Audio Switch, LFCSP-WD-10
+K analog switch
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG884.pdf
+$ENDCMP
+#
+$CMP ADG884xRM
+D 0.5Ω CMOS, Dual 2:1 MUX/SPDT Audio Switch, MSOP-10
+K analog switch
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG884.pdf
+$ENDCMP
+#
 $CMP CBTL02043A
 D 3.3 V, 2 differential channel, 2:1 MUX/deMUX switch, 10 Gbps, WQFN-20
 K Multiplexer Demultiplexer Switch Hi-Speed
@@ -392,13 +404,13 @@ $ENDCMP
 $CMP FSA3157L6X
 D Single SPDT Low-Voltage Analog Switch or 2:1 Multiplexer/De-Multiplexer Bus Switch, 10Ohm Ron, MicroPak-6
 K CMOS Analog Switch
-F https://www.fairchildsemi.com/datasheets/NC/NC7SB3157.pdf
+F https://www.onsemi.com/pub/Collateral/NC7SB3157-D.PDF
 $ENDCMP
 #
 $CMP FSA3157P6X
 D Single SPDT Low-Voltage Analog Switch or 2:1 Multiplexer/De-Multiplexer Bus Switch, 10Ohm Ron, SC-70-6
 K CMOS Analog Switch
-F https://www.fairchildsemi.com/datasheets/NC/NC7SB3157.pdf
+F https://www.onsemi.com/pub/Collateral/NC7SB3157-D.PDF
 $ENDCMP
 #
 $CMP HI524
@@ -602,13 +614,13 @@ $ENDCMP
 $CMP NC7SB3157L6X
 D Single SPDT Low-Voltage Analog Switch or 2:1 Multiplexer/De-Multiplexer Bus Switch, 10Ohm Ron, MicroPak-6
 K CMOS Analog Switch
-F https://www.fairchildsemi.com/datasheets/NC/NC7SB3157.pdf
+F https://www.onsemi.com/pub/Collateral/NC7SB3157-D.PDF
 $ENDCMP
 #
 $CMP NC7SB3157P6X
 D Single SPDT Low-Voltage Analog Switch or 2:1 Multiplexer/De-Multiplexer Bus Switch, 10Ohm Ron, SC-70-6
 K CMOS Analog Switch
-F https://www.fairchildsemi.com/datasheets/NC/NC7SB3157.pdf
+F https://www.onsemi.com/pub/Collateral/NC7SB3157-D.PDF
 $ENDCMP
 #
 $CMP SN74CBT3253
@@ -645,6 +657,12 @@ $CMP TS3A27518ERTW
 D 6-channel analog mux, WQFN-24
 K SPI qSPI multiplexer demux
 F http://www.ti.com/lit/ds/symlink/ts3a27518e.pdf
+$ENDCMP
+#
+$CMP TS3DS10224RUK
+D High-Speed Differential Crosspoint, WQFN-20
+K multiplexer demultiplexer 1:4 differential
+F http://www.ti.com/lit/ds/symlink/ts3ds10224.pdf
 $ENDCMP
 #
 $CMP TS3L501ERUA

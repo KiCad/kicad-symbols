@@ -528,6 +528,24 @@ K temperature sensor i2c smbus
 F http://www.ti.com/lit/gpn/tmp101
 $ENDCMP
 #
+$CMP TMP1075D
+D I2C-bus digital temperature sensor and thermal watchdog, SO-8
+K temperature sensor I2C single channel
+F https://www.ti.com/lit/gpn/tmp1075
+$ENDCMP
+#
+$CMP TMP1075DGK
+D I2C-bus digital temperature sensor and thermal watchdog, VSSOP-8
+K temperature sensor I2C single channel
+F https://www.ti.com/lit/gpn/tmp1075
+$ENDCMP
+#
+$CMP TMP1075DSG
+D I2C-bus digital temperature sensor and thermal watchdog, WSON-8
+K temperature sensor I2C single channel
+F https://www.ti.com/lit/gpn/tmp1075
+$ENDCMP
+#
 $CMP TMP20AIDCK
 D Analog thermistor temperature sensor, ±2.5C accuracy, -55C to +130C, SC-70-5
 K temperature sensor thermistor
