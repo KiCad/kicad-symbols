@@ -96,6 +96,18 @@ K Crystal Clock Oscillator ECS SMD
 F https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf
 $ENDCMP
 #
+$CMP FT5HN
+D HCMOS temperature compensated oscillator
+K TXCO
+F https://foxonline.com/wp-content/uploads/pdfs/T5HN_T5HV.pdf
+$ENDCMP
+#
+$CMP FT5HV
+D HCMOS temperature compensated voltage controlled oscillator
+K TXCO VCTCXO
+F https://foxonline.com/wp-content/uploads/pdfs/T5HN_T5HV.pdf
+$ENDCMP
+#
 $CMP GTXO-14T
 D Crystal Clock Oscillator, DIP14-style metal package
 K Crystal Clock Oscillator
@@ -136,6 +148,12 @@ $CMP JTOS-50
 D Voltage Controlled Oscillator, 25 to 47 MHz, Mini-Circuits BK377
 K VCXO
 F https://www.minicircuits.com/pdfs/JTOS-50+.pdf
+$ENDCMP
+#
+$CMP KC2520Z
+D 1.8432MHz ~ 125MHz Crystal Oscillator
+K xo
+F https://global.kyocera.com/prdct/electro/product/pdf/clock_z_xz_e.pdf
 $ENDCMP
 #
 $CMP KT2520K-T

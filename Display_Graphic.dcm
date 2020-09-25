@@ -6,6 +6,18 @@ K display LCD graphic
 F https://www.digchip.com/datasheets/parts/datasheet/1121/AG-12864E-pdf.php
 $ENDCMP
 #
+$CMP EA_DOGL128X-6
+D EA DOGL128X-6 Graphical Display 128x64 optional backlight SPI 3.0-3.3V
+K display LCD graphic
+F https://www.lcd-module.com/eng/pdf/grafik/dogl128-6e.pdf
+$ENDCMP
+#
+$CMP EA_DOGM128X-6
+D EA DOGM128X-6 Graphical Display 128x64 optional backlight SPI 3.0-3.3V
+K display LCD graphic
+F https://www.lcd-module.de/eng/pdf/grafik/dogm128e.pdf
+$ENDCMP
+#
 $CMP EA_DOGS104B-A
 D LCD 4x10 character display blue transmissive background, +3.3V VDD, I2C or SPI
 K display LCD graphic
@@ -202,6 +214,12 @@ $CMP EA_eDIPTFT70-ATP
 D TFT-graphical display with LED background, 800x480, 16-bit colours, +5V VDD, RS-232, I2C or SPI
 K display TFT LCD graphic
 F http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft70-ae.pdf
+$ENDCMP
+#
+$CMP OLED-128O064D
+D OLED display 128x64
+K display oled
+F https://www.vishay.com/docs/37902/oled128o064dbpp3n00000.pdf
 $ENDCMP
 #
 #End Doc Library

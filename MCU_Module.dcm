@@ -12,6 +12,12 @@ K Arduino LEONARDO Microcontroller Module Atmel AVR USB
 F https://www.arduino.cc/en/Main/ArduinoBoardLeonardo
 $ENDCMP
 #
+$CMP Arduino_Nano_Every
+D Arduino Nano Every
+K Arduino nano microcontroller module USB UPDI AATMega4809 AVR
+F https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf
+$ENDCMP
+#
 $CMP Arduino_Nano_v2.x
 D Arduino Nano v2.x
 K Arduino nano microcontroller module USB
@@ -157,25 +163,25 @@ F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rp
 $ENDCMP
 #
 $CMP RaspberryPi-CM3
-D BCM2837 Broadcom 1.2 GHZ single core, 1 GB RAM 4 GB eMMC,  industrial SoM computer
+D BCM2837 Broadcom 1.2 GHZ quad core, 1 GB RAM 4 GB eMMC,  industrial SoM computer
 K raspberry pi compute module
 F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM_1p0.pdf
 $ENDCMP
 #
 $CMP RaspberryPi-CM3+
-D BCM2837B0 Broadcom 1.2 GHZ single core, 1 GB RAM 8/16/32 GB eMMC, industrial SoM computer
+D BCM2837B0 Broadcom 1.2 GHZ quad core, 1 GB RAM 8/16/32 GB eMMC, industrial SoM computer
 K raspberry pi compute module
 F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM3plus_1p0.pdf
 $ENDCMP
 #
 $CMP RaspberryPi-CM3+L
-D BCM2837B0 Broadcom 1.2 GHZ single core, 1 GB RAM, industrial SoM computer
+D BCM2837B0 Broadcom 1.2 GHZ quad core, 1 GB RAM, industrial SoM computer
 K raspberry pi compute module
 F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM3plus_1p0.pdf
 $ENDCMP
 #
 $CMP RaspberryPi-CM3-L
-D BCM2837 Broadcom 1.2 GHZ single core, 1 GB RAM, industrial SoM computer
+D BCM2837 Broadcom 1.2 GHZ quad core, 1 GB RAM, industrial SoM computer
 K raspberry pi compute module
 F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM_1p0.pdf
 $ENDCMP
@@ -196,6 +202,12 @@ $CMP VisionSOM-RT
 D i.MX-RT NXP ARM Cortex-M7 528MHz single core industrial SoM computer
 K somlabs module
 F https://wiki.somlabs.com/index.php/VisionSOM-RT_Datasheet_and_Pinout
+$ENDCMP
+#
+$CMP VisionSOM-STM32MP1
+D STM32MP1 STMicroelectronics ARM Cortex-A7 800MHz single/dual core + ARM Cortex-M4 209MHz single core industrial SoM computer
+K somlabs module
+F https://wiki.somlabs.com/index.php/VisionSOM-STM32MP1_Datasheet_and_Pinout
 $ENDCMP
 #
 $CMP WeMos_D1_mini
