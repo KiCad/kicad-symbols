@@ -156,6 +156,24 @@ K ESD protection diode
 F https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf
 $ENDCMP
 #
+$CMP RCLAMP0502B
+D Low capacitance unidirectional dual ESD protection diode, SC-75
+K tvs unidirectional
+F https://www.semtech.com/products/circuit-protection/low-capacitance/rclamp0502b
+$ENDCMP
+#
+$CMP RCLAMP0502BA
+D Low capacitance unidirectional dual ESD protection diode, SC-75
+K tvs unidirectional
+F https://www.semtech.com/products/circuit-protection/low-capacitance/rclamp0502ba
+$ENDCMP
+#
+$CMP RCLAMP0582B
+D Low capacitance unidirectional dual ESD protection diode, SC-75
+K tvs unidirectional
+F https://www.semtech.com/products/circuit-protection/low-capacitance/rclamp0582b
+$ENDCMP
+#
 $CMP RCLAMP3328P
 D Low Capacitance TVS Diode Array, 3.3V Standoff, 8 Channels, UDFN-9
 K usb esd protection suppression transient
