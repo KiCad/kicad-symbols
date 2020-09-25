@@ -6,6 +6,18 @@ K Bluetooth Nordic nRF52
 F http://cdn.lairdtech.com/home/brandworld/files/Datasheet%20-%20BL652.pdf
 $ENDCMP
 #
+$CMP BM78SPPS5MC2
+D Bluetooth Dual-Mode, UART, Class 2
+K Bluetooth BLE BT GAP SPP SDP RFCOMM L2CAP GATT ATT SMP L2CAP
+F http://ww1.microchip.com/downloads/en/DeviceDoc/60001380C.pdf
+$ENDCMP
+#
+$CMP BM78SPPS5NC2
+D Bluetooth Dual-Mode, UART, Class 2
+K Bluetooth BLE BT GAP SPP SDP RFCOMM L2CAP GATT ATT SMP L2CAP
+F http://ww1.microchip.com/downloads/en/DeviceDoc/60001380C.pdf
+$ENDCMP
+#
 $CMP BTM112
 D Bluetooth SPP Module, UART, Class 2
 K Bluetooth BT SPP Module
@@ -22,12 +34,6 @@ $CMP MOD-nRF8001
 D Bluetooth Low Energy module based on nRF8001 chipset
 K Bluetooth Low Energy nRF8001
 F https://www.olimex.com/Products/Modules/RF/MOD-nRF8001/
-$ENDCMP
-#
-$CMP nRF8001
-D BLE LE Connectivity IC, QFN-32
-K BLE, bluetooth
-F https://www.nordicsemi.com/eng/nordic/content_download/2981/38488/file/nRF8001_PS_v1.3.pdf
 $ENDCMP
 #
 $CMP RFD77101
@@ -64,6 +70,12 @@ $CMP SPBTLE-RF0
 D Very Low Power network processor module for BLE v4.1
 K BLE bluetooth module low-power
 F http://www.st.com/resource/en/datasheet/spbtle-rf0.pdf
+$ENDCMP
+#
+$CMP nRF8001
+D BLE LE Connectivity IC, QFN-32
+K BLE, bluetooth
+F https://www.nordicsemi.com/eng/nordic/content_download/2981/38488/file/nRF8001_PS_v1.3.pdf
 $ENDCMP
 #
 #End Doc Library
