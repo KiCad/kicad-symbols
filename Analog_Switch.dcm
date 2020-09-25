@@ -659,6 +659,12 @@ K SPI qSPI multiplexer demux
 F http://www.ti.com/lit/ds/symlink/ts3a27518e.pdf
 $ENDCMP
 #
+$CMP TS3DS10224RUK
+D High-Speed Differential Crosspoint, WQFN-20
+K multiplexer demultiplexer 1:4 differential
+F http://www.ti.com/lit/ds/symlink/ts3ds10224.pdf
+$ENDCMP
+#
 $CMP TS3L501ERUA
 D 8-Channel SPDT/16-Bit to 8-Bit Multiplexer and Demultiplexer, Ethernet LAN Switch With Power-Down Mode, WQFN-42
 K gbit base-t lvds lvpecl video
