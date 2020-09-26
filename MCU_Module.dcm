@@ -1,8 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP Adafruit_Feather_32U4_BluefruitLE
-D ATmega32U4 development board with Bluetooth LE
-K bluetooth ble microcontroller module atmel avr usb
+D Microcontroller module with ATmega32U4 MCU and bluetooth
+K Adafruit feather microcontroller module USB AVR ATmega32U4  Bluetooth BLE
 F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-32u4-bluefruit-le.pdf
 $ENDCMP
 #
@@ -14,13 +14,13 @@ $ENDCMP
 #
 $CMP Adafruit_Feather_M0_Basic_Proto
 D Microcontroller module with SAMD21 Cortex-M0 MCU
-K Adafruit feather microcontroller module USB
+K Adafruit feather microcontroller module USB M0 SAMD21
 F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-m0-basic-proto.pdf
 $ENDCMP
 #
 $CMP Adafruit_Feather_M0_BluefruitLE
-D ATSAMD21G18 development board with Bluetooth LE
-K bluetooth ble microcontroller module atmel atsam usb
+D Microcontroller module with SAMD21 Cortex-M0 MCU and bluetooth
+K Adafruit feather microcontroller module USB M0 SAMD21 Bluetooth BLE
 F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-m0-bluefruit-le.pdf
 $ENDCMP
 #
