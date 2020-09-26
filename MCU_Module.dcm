@@ -6,6 +6,24 @@ K Adafruit feather microcontroller module USB AVR ATmega32U4  Bluetooth BLE
 F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-32u4-bluefruit-le.pdf
 $ENDCMP
 #
+$CMP Adafruit_Feather_Generic
+D Microcontroller module in various flavor, generic symbol
+K Adafruit feather microcontroller module
+F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather.pdf
+$ENDCMP
+#
+$CMP Adafruit_Feather_HUZZAH32_ESP32
+D Microcontroller module with ESP32 MCU
+K Adafruit feather microcontroller module USB
+F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-huzzah32-esp32-feather.pdf
+$ENDCMP
+#
+$CMP Adafruit_Feather_HUZZAH_ESP8266
+D Microcontroller module with ESP8266 MCU
+K Adafruit feather microcontroller module USB
+F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-huzzah-esp8266.pdf
+$ENDCMP
+#
 $CMP Adafruit_Feather_M0_Adalogger
 D Microcontroller module with SAMD21 Cortex-M0 MCU and SD card reader
 K Adafruit feather microcontroller module USB SD
@@ -28,6 +46,36 @@ $CMP Adafruit_Feather_M0_Express
 D Microcontroller module with SAMD21 Cortex-M0 MCU and SPI Flash
 K Adafruit feather microcontroller module USB SPI Flash CircuitPython
 F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-m0-express-designed-for-circuit-python-circuitpython.pdf
+$ENDCMP
+#
+$CMP Adafruit_Feather_M0_RFM69HCW_Packet_Radio
+D Microcontroller module with SAMD21 Cortex-M0 MCU and RFM69HCW Radio
+K Adafruit feather microcontroller module USB M0 SAMD21 Radio
+F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-m0-radio-with-rfm69-packet-radio.pdf
+$ENDCMP
+#
+$CMP Adafruit_Feather_M0_RFM69HCW_Packet_Radio_copy
+D Microcontroller module with SAMD21 Cortex-M0 MCU and RFM69HCW Radio
+K Adafruit feather microcontroller module USB M0 SAMD21 Radio
+F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-m0-radio-with-rfm69-packet-radio.pdf
+$ENDCMP
+#
+$CMP Adafruit_Feather_M0_RFM9x_LoRa_Radio
+D Microcontroller module with SAMD21 Cortex-M0 MCU and RFM9x Radio
+K Adafruit feather microcontroller module USB M0 SAMD21 LoRa Radio
+F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-m0-radio-with-lora-radio-module.pdf
+$ENDCMP
+#
+$CMP Adafruit_Feather_M0_RFM9x_LoRa_Radio_copy
+D Microcontroller module with SAMD21 Cortex-M0 MCU and RFM9x Radio
+K Adafruit feather microcontroller module USB M0 SAMD21 LoRa Radio
+F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-m0-radio-with-lora-radio-module.pdf
+$ENDCMP
+#
+$CMP Adafruit_Feather_M0_Wifi
+D Microcontroller module with SAMD21 Cortex-M0 MCU and ATWINC1500 Wifi
+K Adafruit feather microcontroller module USB M0 SAMD21 Wifi ATWINC1500
+F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-m0-wifi-atwinc1500.pdf
 $ENDCMP
 #
 $CMP Adafruit_HUZZAH_ESP8266_breakout
