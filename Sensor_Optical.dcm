@@ -270,6 +270,24 @@ K opto SiPM MPPC hamamatsu SPAD
 F http://www.hamamatsu.com/resources/pdf/ssd/s13360_series_kapd1052e.pdf
 $ENDCMP
 #
+$CMP S5971
+D Si PIN Photodiode, 0.1 GHz, TO-18-3
+K opto photodiode
+F https://www.hamamatsu.com/resources/pdf/ssd/s5971_etc_kpin1025e.pdf
+$ENDCMP
+#
+$CMP S5972
+D Si PIN Photodiode, 0.5 GHz, TO-18-3
+K opto photodiode
+F https://www.hamamatsu.com/resources/pdf/ssd/s5971_etc_kpin1025e.pdf
+$ENDCMP
+#
+$CMP S5973
+D Si PIN Photodiode, 1 GHz, TO-18-3
+K opto photodiode
+F https://www.hamamatsu.com/resources/pdf/ssd/s5971_etc_kpin1025e.pdf
+$ENDCMP
+#
 $CMP SFH203
 D Silicon PIN Photodiode
 K opto PIN photodiode
