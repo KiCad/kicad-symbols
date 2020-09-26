@@ -1,5 +1,41 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 004-0-0010
+D S8 Commercial, CO2 sensor, 400-2000 PPM, 1kHz PWM output, Modbus, THT
+K Senseair co2 gas sensor pwm modbus
+F https://rmtplusstoragesenseair.blob.core.windows.net/docs/publicerat/PSP103.pdf
+$ENDCMP
+#
+$CMP 004-0-0013
+D S8 Residential, CO2 sensor, 400-2000 PPM, 1kHz PWM output, Modbus, THT
+K Senseair co2 gas sensor pwm modbus
+F https://rmtplusstoragesenseair.blob.core.windows.net/docs/publicerat/PSP107.pdf
+$ENDCMP
+#
+$CMP 004-0-0050
+D S8 2%, CO2 sensor, 0.04-2% by volume, 1kHz PWM output, Modbus, THT
+K Senseair co2 gas sensor pwm modbus
+F https://rmtplusstoragesenseair.blob.core.windows.net/docs/publicerat/PSP108.pdf
+$ENDCMP
+#
+$CMP 004-0-0053
+D S8 LP, CO2 sensor, 400-2000 PPM, 1kHz PWM output, Modbus, THT
+K Senseair co2 gas sensor pwm modbus
+F https://rmtplusstoragesenseair.blob.core.windows.net/docs/publicerat/PSP126.pdf
+$ENDCMP
+#
+$CMP 004-0-0071
+D S8 5%, CO2 sensor, 0.04-5% by volume, 1kHz PWM output, Modbus, THT
+K Senseair co2 gas sensor pwm modbus
+F https://rmtplusstoragesenseair.blob.core.windows.net/docs/publicerat/PSP0113.pdf
+$ENDCMP
+#
+$CMP 004-0-0075
+D S8 Commercial, CO2 sensor, 400-2000 PPM, 1kHz PWM output, Modbus, THT
+K Senseair co2 gas sensor pwm modbus
+F https://rmtplusstoragesenseair.blob.core.windows.net/docs/publicerat/PSP103.pdf
+$ENDCMP
+#
 $CMP CCS811
 D Ultra-low power digital gas sensor for monitoring indoor air quality
 K metal oxide gas sensor MOX volatile organix comounds VOC I2C

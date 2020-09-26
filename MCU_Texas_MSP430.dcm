@@ -1,5 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CC430F5133xRGZ
+D 8KB Flash, 2KB RAM, MSP430 core with integrated CC1101 radio transceiver, VQFN-48
+K TI MSP430 CC430 16-bit mixed signal microcontroller CC1101
+F http://www.ti.com/lit/ds/symlink/cc430f5137.pdf
+$ENDCMP
+#
+$CMP CC430F5135xRGZ
+D 16KB Flash, 2KB RAM, MSP430 core with integrated CC1101 radio transceiver, VQFN-48
+K TI MSP430 CC430 16-bit mixed signal microcontroller CC1101
+F http://www.ti.com/lit/ds/symlink/cc430f5137.pdf
+$ENDCMP
+#
+$CMP CC430F5137xRGZ
+D 32KB Flash, 4KB RAM, MSP430 core with integrated CC1101 radio transceiver, VQFN-48
+K TI MSP430 CC430 16-bit mixed signal microcontroller CC1101
+F http://www.ti.com/lit/ds/symlink/cc430f5137.pdf
+$ENDCMP
+#
 $CMP MSP430AFE221IPW
 D 4kB Flash, 256B RAM, TSSOP-24
 K TI MSP430 16-bit mixed signal microcontroller

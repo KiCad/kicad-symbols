@@ -192,36 +192,6 @@ K single timer 555
 F https://www.onsemi.com/pub/Collateral/MC1455-D.PDF
 $ENDCMP
 #
-$CMP MCP7940N-xMNY
-D Real-Time Clock, I2C, Battery Backup, TDFN-8
-K realtime clock RTC
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf
-$ENDCMP
-#
-$CMP MCP7940N-xMS
-D Real-Time Clock, I2C, Battery Backup, MSOP-8
-K realtime clock RTC
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf
-$ENDCMP
-#
-$CMP MCP7940N-xP
-D Real-Time Clock, I2C, Battery Backup, DIP-8
-K realtime clock RTC
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf
-$ENDCMP
-#
-$CMP MCP7940N-xSN
-D Real-Time Clock, I2C, Battery Backup, SOIC-8
-K realtime clock RTC
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf
-$ENDCMP
-#
-$CMP MCP7940N-xST
-D Real-Time Clock, I2C, Battery Backup, TSSOP-8
-K realtime clock RTC
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf
-$ENDCMP
-#
 $CMP MN3101
 D Clock Generator Driver/Driver for MN3000 Series BBD (bucket brigade device), -8V to -16V, DIP-8
 K Matsushita Panasonic BBD CMOS
