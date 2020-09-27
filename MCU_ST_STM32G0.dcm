@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32G071KxT
+D ARM Cortex-M0+ MCU, 64/128 kB flash, 36 kB SRAM, 64 MHz, 1.7-3.6 V, 30 GPIO, LQFP-32
+K ARM Cortex-M0+ STM32G0 STM32G071
+F https://www.st.com/resource/en/datasheet/stm32g071kb.pdf
+$ENDCMP
+#
+$CMP STM32G071KxU
+D ARM Cortex-M0+ MCU, 64/128 kB flash, 36 kB SRAM, 64 MHz, 1.7-3.6 V, 30 GPIO, UFQFPN-32
+K ARM Cortex-M0+ STM32G0 STM32G071
+F https://www.st.com/resource/en/datasheet/stm32g071kb.pdf
+$ENDCMP
+#
+#End Doc Library
