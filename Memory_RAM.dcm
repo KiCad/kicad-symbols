@@ -19,7 +19,7 @@ F https://www.alliancememory.com/wp-content/uploads/pdf/ddr3/4GB-AS4C256M16D3.pd
 $ENDCMP
 #
 $CMP AS4C4M16SA
-D 64M – (4M x 16 bit) Synchronous DRAM (SDRAM), TSOP II 54pin
+D 64M – (4M x 16 bit) Synchronous DRAM (SDRAM), TSOP-II-54
 K SDRAM Synchronus DRAM PC166 PC143 64Mb 16Mbx4 MEMORY
 F https://www.alliancememory.com/wp-content/uploads/pdf/dram/64M-AS4C4M16SA-CI_v3.0_March%202015.pdf
 $ENDCMP
@@ -118,6 +118,18 @@ K DRAM MEMORY
 F http://www.issi.com/WW/pdf/42-45S16400J.pdf
 $ENDCMP
 #
+$CMP IS43LQ32256A-062BLI
+D 256Mx32 bit Low Power Double Data Rate 4 (LPDDR4) SDRAM, 1600 MHz, Industrial, BGA-200
+K DRAM MEMORY
+F http://www.issi.com/WW/pdf/43-46LQ32256A-AL.pdf
+$ENDCMP
+#
+$CMP IS43LQ32256AL-062BLI
+D 256Mx32 bit Low Power Double Data Rate 4X (LPDDR4X) SDRAM, 1600 MHz, Industrial, BGA-200
+K DRAM MEMORY
+F http://www.issi.com/WW/pdf/43-46LQ32256AL-AL.pdf
+$ENDCMP
+#
 $CMP IS61C5128AL-10KLI
 D 512K x 8 HIGH-SPEED CMOS STATIC RAM, 10ns, SOJ-36
 K SRAM MEMORY
@@ -164,6 +176,42 @@ $CMP KM62256CLP
 D 32Kx8 bit Low Power CMOS Static RAM, 55/70ns, DIP-28
 K RAM SRAM CMOS MEMORY
 F https://www.futurlec.com/Datasheet/Memory/62256.pdf
+$ENDCMP
+#
+$CMP MT48LC16M16A2P
+D 256M – (16M x 16 bit) Synchronous DRAM (SDRAM), TSOP-II-54
+K SDRAM Synchronus DRAM PC100 PC133 256Mb 16Mbx16 MEMORY
+F https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/256mb_sdr.pdf
+$ENDCMP
+#
+$CMP MT48LC16M16A2TG
+D 256M – (16M x 16 bit) Synchronous DRAM (SDRAM), TSOP-II-54
+K SDRAM Synchronus DRAM PC100 PC133 256Mb 16Mbx16 MEMORY
+F https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/256mb_sdr.pdf
+$ENDCMP
+#
+$CMP MT48LC32M8A2P
+D 256M – (32M x 8 bit) Synchronous DRAM (SDRAM), TSOP-II-54
+K SDRAM Synchronus DRAM PC100 PC133 256Mb 32Mbx8 MEMORY
+F https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/256mb_sdr.pdf
+$ENDCMP
+#
+$CMP MT48LC32M8A2TG
+D 256M – (32M x 8 bit) Synchronous DRAM (SDRAM), TSOP-II-54
+K SDRAM Synchronus DRAM PC100 PC133 256Mb 32Mbx8 MEMORY
+F https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/256mb_sdr.pdf
+$ENDCMP
+#
+$CMP MT48LC64M4A2P
+D 256M – (64M x 4 bit) Synchronous DRAM (SDRAM), TSOP-II-54
+K SDRAM Synchronus DRAM PC100 PC133 256Mb 64Mbx4 MEMORY
+F https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/256mb_sdr.pdf
+$ENDCMP
+#
+$CMP MT48LC64M4A2TG
+D 256M – (64M x 4 bit) Synchronous DRAM (SDRAM), TSOP-II-54
+K SDRAM Synchronus DRAM PC100 PC133 256Mb 64Mbx4 MEMORY
+F https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/256mb_sdr.pdf
 $ENDCMP
 #
 $CMP W9812G6KH-5

@@ -246,6 +246,12 @@ K Dual Synchronous Buck
 F http://www.ti.com/lit/ds/symlink/lm25119.pdf
 $ENDCMP
 #
+$CMP LM5023
+D Quasi-Resonant Current-Mode PWM Controller for Off-Line Supplies, OVP/OTP, Latched OVP, VSSOP-8
+K smps pwm controller ac-dc ac dc offline off-line quasi resonant quasi-resonant flyback
+F https://www.ti.com/lit/ds/symlink/lm5023.pdf
+$ENDCMP
+#
 $CMP LT1248
 D Power Factor Controller, DIP-16/SOIC-16
 K pfc controller
@@ -262,6 +268,12 @@ $CMP LT1509
 D Power Factor and PWM Controller, DIP-20/SOIC-20
 K pfc pwm controller
 F https://www.analog.com/media/en/technical-documentation/data-sheets/lt1509.pdf
+$ENDCMP
+#
+$CMP LT4295xUFD
+D IEEE 802.3bt PD Interface with Forward/Flyback Controller, QFN-28
+K LTPoE++ IEEE 802.3af IEEE 802.3at IEEE 802.3bt
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LT4295.pdf
 $ENDCMP
 #
 $CMP LTC1624CS8
@@ -724,6 +736,12 @@ $CMP UCC25600
 D High-Performance Resonant Mode Controller, SOIC-8
 K SMPS PWM Controller
 F http://www.ti.com/lit/ds/symlink/ucc25600.pdf
+$ENDCMP
+#
+$CMP UCC256301
+D Hybrid Hysteretic LLC Resonant Controller, SOIC-16
+K SMPS PWM Controller
+F https://www.ti.com/lit/ds/symlink/ucc256301.pdf
 $ENDCMP
 #
 $CMP UCC2891

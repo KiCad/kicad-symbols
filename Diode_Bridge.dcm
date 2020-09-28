@@ -636,6 +636,24 @@ K rectifier acdc
 F http://www.vishay.com/docs/89959/mbl104s.pdf
 $ENDCMP
 #
+$CMP MDB10S
+D Single-Phase Bridge Rectifier, 700V Vrms, 1A If, TSSOP-4
+K bridge diode rectifier ac dc acdc ac-dc
+F https://www.onsemi.com/pub/Collateral/MDB8S-D.PDF
+$ENDCMP
+#
+$CMP MDB6S
+D Single-Phase Bridge Rectifier, 420V Vrms, 1A If, TSSOP-4
+K bridge diode rectifier ac dc acdc ac-dc
+F https://www.onsemi.com/pub/Collateral/MDB8S-D.PDF
+$ENDCMP
+#
+$CMP MDB8S
+D Single-Phase Bridge Rectifier, 560V Vrms, 1A If, TSSOP-4
+K bridge diode rectifier ac dc acdc ac-dc
+F https://www.onsemi.com/pub/Collateral/MDB8S-D.PDF
+$ENDCMP
+#
 $CMP RB151
 D Single-Phase Bridge Rectifier, 35V Vrms, 1.5A If, WOG-like package
 K rectifier acdc

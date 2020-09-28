@@ -126,6 +126,36 @@ K I2C RTC Alarm interrupt
 F http://www.st.com/resource/en/datasheet/m41t62.pdf
 $ENDCMP
 #
+$CMP MCP7940N-xMNY
+D Real-Time Clock, I2C, Battery Backup, TDFN-8
+K realtime clock RTC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf
+$ENDCMP
+#
+$CMP MCP7940N-xMS
+D Real-Time Clock, I2C, Battery Backup, MSOP-8
+K realtime clock RTC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf
+$ENDCMP
+#
+$CMP MCP7940N-xP
+D Real-Time Clock, I2C, Battery Backup, DIP-8
+K realtime clock RTC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf
+$ENDCMP
+#
+$CMP MCP7940N-xSN
+D Real-Time Clock, I2C, Battery Backup, SOIC-8
+K realtime clock RTC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf
+$ENDCMP
+#
+$CMP MCP7940N-xST
+D Real-Time Clock, I2C, Battery Backup, TSSOP-8
+K realtime clock RTC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf
+$ENDCMP
+#
 $CMP PCF8523T
 D Realtime Clock/Calendar I2C Interface, SOIC-8
 K I2C RTC Clock Calendar

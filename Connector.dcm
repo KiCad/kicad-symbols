@@ -342,6 +342,30 @@ K ISA
 F https://en.wikipedia.org/wiki/Industry_Standard_Architecture
 $ENDCMP
 #
+$CMP Bus_M.2_Socket_A
+D M.2 Socket 1-DP Mechanical Key A
+K M2 NGNF PCI-E
+F http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=148
+$ENDCMP
+#
+$CMP Bus_M.2_Socket_B
+D M.2 Socket 2 Mechanical Key B
+K M2 NGNF PCI-E
+F http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=154
+$ENDCMP
+#
+$CMP Bus_M.2_Socket_E
+D M.2 Socket 1-SD Mechanical Key E
+K M2 NGNF PCI-E
+F http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=150
+$ENDCMP
+#
+$CMP Bus_M.2_Socket_M
+D M.2 Socket 3 Mechanical Key M
+K M2 NGNF PCI-E
+F http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=155
+$ENDCMP
+#
 $CMP Bus_PCI_32bit_5V
 D PCI bus connector for 5V cards
 K PCI 5V
@@ -360,22 +384,28 @@ K mini pcie
 F ~
 $ENDCMP
 #
-$CMP C64AB
-D Connector Europe 64 contacts ranges A,B
-K connector DIN
-F  ~
+$CMP Bus_PCI_Express_x1
+D PCI Express bus connector x1
+K pcie
+F http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=63
 $ENDCMP
 #
-$CMP C64AC
-D Connector Europe 64 contacts, ranges A,B,C
-K connector DIN
-F  ~
+$CMP Bus_PCI_Express_x16
+D PCI Express bus connector x16
+K pcie
+F http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=63
 $ENDCMP
 #
-$CMP C96ABC
-D Connector Europe, 96 contacts, ranges A,B,C
-K connector
-F  ~
+$CMP Bus_PCI_Express_x4
+D PCI Express bus connector x4
+K pcie
+F http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=63
+$ENDCMP
+#
+$CMP Bus_PCI_Express_x8
+D PCI Express bus connector x8
+K pcie
+F http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=63
 $ENDCMP
 #
 $CMP CUI_PD-30
@@ -1116,6 +1146,156 @@ K circular DIN connector
 F http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf
 $ENDCMP
 #
+$CMP DIN41612_01x32_A
+D DIN41612 connector, single row (A), 01x32, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DIN41612_02x05_AB_EvenPins
+D DIN41612 connector, double row (AB) even pins only, 02x05, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DIN41612_02x05_AC_EvenPins
+D DIN41612 connector, double row (AC) even pins only, 02x05, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DIN41612_02x05_AE_EvenPins
+D DIN41612 connector, double row (AE) even pins only, 02x05, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DIN41612_02x05_ZB_EvenPins
+D DIN41612 connector, double row (ZB) even pins only, 02x05, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DIN41612_02x08_AB_EvenPins
+D DIN41612 connector, double row (AB) even pins only, 02x08, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DIN41612_02x08_AC_EvenPins
+D DIN41612 connector, double row (AC) even pins only, 02x08, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DIN41612_02x08_AE_EvenPins
+D DIN41612 connector, double row (AE) even pins only, 02x08, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DIN41612_02x08_ZB_EvenPins
+D DIN41612 connector, double row (ZB) even pins only, 02x08, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DIN41612_02x10_AB
+D DIN41612 connector, double row (AB), 02x10, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DIN41612_02x10_AC
+D DIN41612 connector, double row (AC), 02x10, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DIN41612_02x10_AE
+D DIN41612 connector, double row (AE), 02x10, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DIN41612_02x10_ZB
+D DIN41612 connector, double row (ZB), 02x10, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DIN41612_02x16_AB
+D DIN41612 connector, double row (AB), 02x16, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DIN41612_02x16_AB_EvenPins
+D DIN41612 connector, double row (AB) even pins only, 02x16, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DIN41612_02x16_AC
+D DIN41612 connector, double row (AC), 02x16, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DIN41612_02x16_AC_EvenPins
+D DIN41612 connector, double row (AC) even pins only, 02x16, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DIN41612_02x16_AE
+D DIN41612 connector, double row (AE), 02x16, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DIN41612_02x16_AE_EvenPins
+D DIN41612 connector, double row (AE) even pins only, 02x16, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DIN41612_02x16_ZB
+D DIN41612 connector, double row (ZB), 02x16, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DIN41612_02x16_ZB_EvenPins
+D DIN41612 connector, double row (ZB) even pins only, 02x16, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DIN41612_02x32_AB
+D DIN41612 connector, double row (AB), 02x32, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DIN41612_02x32_AC
+D DIN41612 connector, double row (AC), 02x32, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DIN41612_02x32_AE
+D DIN41612 connector, double row (AE), 02x32, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DIN41612_02x32_ZB
+D DIN41612 connector, double row (ZB), 02x32, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP ExpressCard
 D ExpressCard connector
 K expresscard pci express
@@ -1282,6 +1462,12 @@ $CMP Pulse_JXD6-0001NL
 D LAN Transformer Jack, RJ45, 10/100 BaseT
 K lan jack transformer
 F https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/JXD6-0001NL/doc_part/JXD6-0001NL.pdf
+$ENDCMP
+#
+$CMP RB1-125B8G1A
+D LAN Transformer Jack, RJ45, 10/100/1000 BaseT
+K lan jack transformer ethernet gigabit 10 100 1000 baset
+F https://datasheet.lcsc.com/szlcsc/1901091107_UDE-Corp-RB1-125B8G1A_C363353.pdf
 $ENDCMP
 #
 $CMP RJ10
@@ -1596,6 +1782,12 @@ K SODIMM SO-DIMM DDR1 DDR2
 F ~
 $ENDCMP
 #
+$CMP Samtec_ASP-134486-01
+D Connector array, 10x40, 1.27mm pitch, female pins, gold finish, VITA 57.1 FMC, SMD
+K FPGA Mezzanine Card FMC Terminal Connector Header
+F http://suddendocs.samtec.com/prints/asp-134486-01-mkt.pdf
+$ENDCMP
+#
 $CMP Samtec_ASP-134602-01
 D Connector array, 10x40, 1.27mm pitch, male pins, gold finish, VITA 57.1 FMC, SMD
 K FPGA Mezzanine Card FMC Terminal Connector Header
@@ -1858,6 +2050,12 @@ $CMP USB_OTG
 D USB mini/micro connector
 K connector USB
 F  ~
+$ENDCMP
+#
+$CMP Wuerth_74980111211
+D LAN Transformer Jack, RJ45, 10/100 BaseT
+K lan jack transformer smt
+F https://www.we-online.de/katalog/datasheet/74980111211.pdf
 $ENDCMP
 #
 $CMP Wuerth_7499010121A
