@@ -126,6 +126,12 @@ K Touch Sensor 16ch
 F http://www.cypress.com/?docID=49119
 $ENDCMP
 #
+$CMP MPR121QR2
+D 12ch Touch Sensor controller, UQFN-20
+K Touch Sensor 12ch
+F https://resurgentsemi.com/wp-content/uploads/2018/09/MPR121_rev5-Resurgent.pdf?d453f8&d453f8
+$ENDCMP
+#
 $CMP PCA8886
 D Dual capacitive touch/proximity switch with auto-calibration, TSSOP-16
 K NXP capacitive touch sensor auto-calibration
