@@ -1590,6 +1590,12 @@ K opamp single high current
 F http://www.ti.com/lit/ds/symlink/opa569.pdf
 $ENDCMP
 #
+$CMP OPA818xDRG
+D  2.7 GHz, High-Voltage, FET-Input, Low Noise, Operational Amplifier, WSON-8
+K opamp VFA
+F https://www.ti.com/lit/ds/symlink/opa818.pdf
+$ENDCMP
+#
 $CMP OPA842xD
 D 200MHz, Low Distortion, Unity-Gain Stable, Voltage Feedback Operational Amplifier, SOIC-8
 K single opamp
