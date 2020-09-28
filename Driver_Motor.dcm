@@ -348,12 +348,6 @@ K trinamic tlc262 stepper
 F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC262_Datasheet.pdf
 $ENDCMP
 #
-$CMP TMC5160-TA
-D 20A Driver for two-phase bipolar stepper motor, SPI, UART, TQFP-48
-K stepper motor driver trinamic
-F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC5160A_Datasheet_Rev1.14.pdf
-$ENDCMP
-#
 $CMP TMC5160A-TA
 D 20A Driver for two-phase bipolar stepper motor, SPI, UART, TQFP-48
 K stepper motor driver trinamic
