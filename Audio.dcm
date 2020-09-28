@@ -174,6 +174,72 @@ K audio dac 2ch 24bit 192kHz
 F http://www.ti.com/lit/ds/symlink/dsd1794a.pdf
 $ENDCMP
 #
+$CMP ISD25120P
+D Single-Chip Voice Record/Playback Device 120-Second Duration, DIP-28
+K isd25120
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
+$CMP ISD25120S
+D Single-Chip Voice Record/Playback Device 120-Second Duration, SOIC-28
+K isd25120
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
+$CMP ISD2560E
+D Single-Chip Voice Record/Playback Device 60-Second Duration, TSOP-I-28
+K isd2560
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
+$CMP ISD2560P
+D Single-Chip Voice Record/Playback Device 60-Second Duration, DIP-28
+K isd2560
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
+$CMP ISD2560S
+D Single-Chip Voice Record/Playback Device 60-Second Duration, SOIC-28
+K isd2560
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
+$CMP ISD2575E
+D Single-Chip Voice Record/Playback Device 75-Second Duration, TSOP-I-28
+K isd2575
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
+$CMP ISD2575P
+D Single-Chip Voice Record/Playback Device 75-Second Duration, DIP-28
+K isd2575
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
+$CMP ISD2575S
+D Single-Chip Voice Record/Playback Device 75-Second Duration, SOIC-28
+K isd2575
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
+$CMP ISD2590E
+D Single-Chip Voice Record/Playback Device 90-Second Duration, TSOP-I-28
+K isd2590
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
+$CMP ISD2590P
+D Single-Chip Voice Record/Playback Device 90-Second Duration, DIP-28
+K isd2590
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
+$CMP ISD2590S
+D Single-Chip Voice Record/Playback Device 90-Second Duration, SOIC-28
+K isd2590
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
 $CMP MN3005
 D 4096-STAGE LONG DELAY BBD (bucket brigade device), delay time 20.48ms to 204.8ms, S/N 75dB, clock frequency range 10KHz to 100KHz
 K Matsushita Panasonic BBD
@@ -208,6 +274,12 @@ $CMP PCM1794A
 D 24-Bit, 192-kHz Sampling, Advanced Segment, Audio Stereo Digital-to-Analog Converter, HW Control, SSOP-28
 K audio dac 2ch 24bit 192kHz
 F http://www.ti.com/lit/ds/symlink/pcm1794a.pdf
+$ENDCMP
+#
+$CMP PCM2902
+D Stereo Audio Codec with USB interface, Analog Iput/Output, and S/PDIF, SSOP-28
+K pcm2902 usb audio
+F http://www.ti.com/lit/ds/symlink/pcm2902c.pdf
 $ENDCMP
 #
 $CMP PCM5100
