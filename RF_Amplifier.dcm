@@ -330,6 +330,12 @@ K RF GAIN BLOCK
 F https://datasheets.maximintegrated.com/en/ds/MAX2679-MAX2679B.pdf
 $ENDCMP
 #
+$CMP MMZ09332BT1
+D High Efficiency/Linearity Amplifier high linearity broadband amplifier, QFN-12
+K RF
+F https://www.nxp.com/docs/en/data-sheet/MMZ09332B.pdf
+$ENDCMP
+#
 $CMP PGA-102
 D 50-6000MHz +15.9dB Low Noise Amplifier, SOT-89
 K RF amplifier
