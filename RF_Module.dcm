@@ -1,19 +1,43 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ATSAMR21G18-MR210UA_NoRFPads
+D RF Module, ATSAMR21, Zigbee 802.15.4, external antenna, SMD
+K Wireless Zigbee 802.15.4 ATSAMR21G18 AT45DB041E TECC508A
+F http://ww1.microchip.com/downloads/en/devicedoc/atmel-42475-atsamr21g18-mr210ua_datasheet.pdf
+$ENDCMP
+#
+$CMP AX-SIP-SFEU
+D Ultra low power, Sigfox or custom, system in package transceiver, 868Mhz
+K Sigfox SIP 868Mhz
+F https://www.onsemi.com/pub/Collateral/AX-SIP-SFEU-D.PDF
+$ENDCMP
+#
+$CMP AX-SIP-SFEU-API
+D Ultra low power, Sigfox or custom, programmable system in package, 868Mhz
+K Sigfox SIP 868Mhz
+F https://www.onsemi.com/pub/Collateral/AX-SIP-SFEU-D.PDF
+$ENDCMP
+#
 $CMP Ai-Thinker-Ra-01
-D Ai-Thinker LoRa Module Ra-01
+D Ai-Thinker Ra-01 410-525 MHz LoRa Module, SPI interface, external antenna
 K Ra-01 LoRa
-F https://mikroelectron.com/Product/10KM-433M-LORA-LONG-RANGE-WIRELESS-MODULE-RA-01
+F http://wiki.ai-thinker.com/_media/lora/docs/c047ps01a1_ra-01_product_specification_v1.1.pdf
+$ENDCMP
+#
+$CMP Ai-Thinker-Ra-02
+D Ai-Thinker Ra-02 410-525 MHz LoRa Module, SPI interface, U.FL antenna connector
+K Ra-02 LoRa
+F http://wiki.ai-thinker.com/_media/lora/docs/c048ps01a1_ra-02_product_specification_v1.1.pdf
 $ENDCMP
 #
 $CMP CMWX1ZZABZ-078
-D LoRa/SigFox Module, STM32L082 MCU, muRata CMWX1ZZABZ
+D LoRa/SigFox Module, STM32L082 MCU, Murata CMWX1ZZABZ
 K iot lora sigfox
 F https://wireless.murata.com/RFM/data/type_abz.pdf
 $ENDCMP
 #
 $CMP CMWX1ZZABZ-091
-D LoRa/SigFox Module, STM32L072 MCU, muRata CMWX1ZZABZ
+D LoRa/SigFox Module, STM32L072 MCU, Murata CMWX1ZZABZ
 K iot lora sigfox
 F https://wireless.murata.com/RFM/data/type_abz.pdf
 $ENDCMP
@@ -126,6 +150,42 @@ K RF Radio BT ESP ESP32 Espressif external U.FL antenna
 F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
 $ENDCMP
 #
+$CMP MDBT50Q-1MV2
+D Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52840 module
+K BLE ANT ZigBee Thread 802.15.4 nRF52840 nordic MDBT50Q
+F https://www.raytac.com/download/index.php?index_id=43
+$ENDCMP
+#
+$CMP MDBT50Q-512K
+D Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52833 module
+K MCU, ARM, BLE, ANT, 2.4GHz, 802.15.4 MDBT50Q
+F https://www.raytac.com/download/index.php?index_id=46
+$ENDCMP
+#
+$CMP MDBT50Q-P1MV2
+D Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52840 module
+K BLE ANT ZigBee Thread 802.15.4 nRF52840 nordic MDBT50Q
+F https://www.raytac.com/download/index.php?index_id=43
+$ENDCMP
+#
+$CMP MDBT50Q-P512K
+D Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52833 module
+K MCU, ARM, BLE, ANT, 2.4GHz, 802.15.4 MDBT50Q
+F https://www.raytac.com/download/index.php?index_id=46
+$ENDCMP
+#
+$CMP MDBT50Q-U1MV2
+D Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52840 module
+K BLE ANT ZigBee Thread 802.15.4 nRF52840 nordic MDBT50Q
+F https://www.raytac.com/download/index.php?index_id=43
+$ENDCMP
+#
+$CMP MDBT50Q-U512K
+D Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52833 module
+K MCU, ARM, BLE, ANT, 2.4GHz, 802.15.4 MDBT50Q
+F https://www.raytac.com/download/index.php?index_id=46
+$ENDCMP
+#
 $CMP MM002
 D NEMEUS Modem dual-mode LoRa/SIGFOX
 K IOT LoRa SIGFOX
@@ -136,6 +196,12 @@ $CMP Particle_P1
 D Wi-Fi module, 1MB flash, 128KB RAM
 K Wi-Fi module
 F https://docs.particle.io/datasheets/p1-datasheet/
+$ENDCMP
+#
+$CMP RAK4200
+D LoRa Module, STM32L071,  RAKwireless
+K IoT, LoRa, LoRaWAN, RF
+F https://downloads.rakwireless.com/LoRa/RAK4200/Hardware-Specification/RAK4200_Module_Specifications_V1.4.pdf
 $ENDCMP
 #
 $CMP RFM69HCW
@@ -250,6 +316,54 @@ $CMP iM880B
 D IMST Long Range Radio Module - LoRa Alliance Certified
 K IOT LoRa
 F http://www.wireless-solutions.de/images/stories/downloads/Radio%20Modules/iM880B/General_Information/iM880B_Datasheet_V1_0.pdf
+$ENDCMP
+#
+$CMP RAK811-HF-EU868
+D LoRa Module, STM32L151, EU868, RAKwireless
+K IoT LoRa LoRaWAN RF
+F https://downloads.rakwireless.com/LoRa/RAK811/Hardware_Specification/RAK811_LoRa_Module_Datasheet_V1.4.pdf
+$ENDCMP
+#
+$CMP RAK811-HF-IN865
+D LoRa Module, STM32L151, IN865, RAKwireless
+K IoT LoRa LoRaWAN RF
+F https://downloads.rakwireless.com/LoRa/RAK811/Hardware_Specification/RAK811_LoRa_Module_Datasheet_V1.4.pdf
+$ENDCMP
+#
+$CMP RAK811-HF-US915
+D LoRa Module, STM32L151, US915, RAKwireless
+K IoT LoRa LoRaWAN RF
+F https://downloads.rakwireless.com/LoRa/RAK811/Hardware_Specification/RAK811_LoRa_Module_Datasheet_V1.4.pdf
+$ENDCMP
+#
+$CMP RAK811-HF-AU915
+D LoRa Module, STM32L151, AU915, RAKwireless
+K IoT LoRa LoRaWAN RF
+F https://downloads.rakwireless.com/LoRa/RAK811/Hardware_Specification/RAK811_LoRa_Module_Datasheet_V1.4.pdf
+$ENDCMP
+#
+$CMP RAK811-HF-KR920
+D LoRa Module, STM32L151, KR920, RAKwireless
+K IoT LoRa LoRaWAN RF
+F https://downloads.rakwireless.com/LoRa/RAK811/Hardware_Specification/RAK811_LoRa_Module_Datasheet_V1.4.pdf
+$ENDCMP
+#
+$CMP RAK811-HF-AS923
+D LoRa Module, STM32L151, AS923, RAKwireless
+K IoT LoRa LoRaWAN RF
+F https://downloads.rakwireless.com/LoRa/RAK811/Hardware_Specification/RAK811_LoRa_Module_Datasheet_V1.4.pdf
+$ENDCMP
+#
+$CMP RAK811-LF-EU433
+D LoRa Module, STM32L151, EU433, RAKwireless
+K IoT LoRa LoRaWAN RF
+F https://downloads.rakwireless.com/LoRa/RAK811/Hardware_Specification/RAK811_LoRa_Module_Datasheet_V1.4.pdf
+$ENDCMP
+#
+$CMP RAK811-LF-CN470
+D LoRa Module, STM32L151, CN470, RAKwireless
+K IoT LoRa LoRaWAN RF
+F https://downloads.rakwireless.com/LoRa/RAK811/Hardware_Specification/RAK811_LoRa_Module_Datasheet_V1.4.pdf
 $ENDCMP
 #
 #End Doc Library

@@ -120,10 +120,22 @@ K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina138.pdf
 $ENDCMP
 #
+$CMP INA139
+D High-Side Measurement Current Shunt Monitor, 40V, SOT-23-5
+K current sense shunt monitor
+F http://www.ti.com/lit/ds/symlink/ina169.pdf
+$ENDCMP
+#
 $CMP INA168
 D High-Side Measurement Current Shunt Monitor, 60V, SOT-23-5
 K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina138.pdf
+$ENDCMP
+#
+$CMP INA169
+D High-Side Measurement Current Shunt Monitor, 60V, SOT-23-5
+K current sense shunt monitor
+F http://www.ti.com/lit/ds/symlink/ina169.pdf
 $ENDCMP
 #
 $CMP INA181
@@ -351,19 +363,49 @@ $ENDCMP
 $CMP NCS210
 D Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 200V/V Gain, SC-70-6
 K Current shunt monitor
-F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
+F https://www.onsemi.com/pub/Collateral/NCS210R-D.PDF
 $ENDCMP
 #
 $CMP NCS211
 D Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 500V/V Gain, SC-70-6
 K Current shunt monitor
-F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
+F https://www.onsemi.com/pub/Collateral/NCS210R-D.PDF
+$ENDCMP
+#
+$CMP NCS213
+D Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 50V/V Gain, SC-70-6
+K Current shunt monitor
+F https://www.onsemi.com/pub/Collateral/NCS210R-D.PDF
+$ENDCMP
+#
+$CMP NCS214
+D Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 100V/V Gain, SC-70-6
+K Current shunt monitor
+F https://www.onsemi.com/pub/Collateral/NCS210R-D.PDF
 $ENDCMP
 #
 $CMP NCV210
 D Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 200V/V Gain, SC-70-6
 K Current shunt monitor
-F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
+F https://www.onsemi.com/pub/Collateral/NCS210R-D.PDF
+$ENDCMP
+#
+$CMP NCV211
+D Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 500V/V Gain, SC-70-6
+K Current shunt monitor
+F https://www.onsemi.com/pub/Collateral/NCS210R-D.PDF
+$ENDCMP
+#
+$CMP NCV213
+D Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 50V/V Gain, SC-70-6
+K Current shunt monitor
+F https://www.onsemi.com/pub/Collateral/NCS210R-D.PDF
+$ENDCMP
+#
+$CMP NCV214
+D Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 100V/V Gain, SC-70-6
+K Current shunt monitor
+F https://www.onsemi.com/pub/Collateral/NCS210R-D.PDF
 $ENDCMP
 #
 $CMP ZXCT1009F

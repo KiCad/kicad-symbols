@@ -156,6 +156,24 @@ K ESD protection diode
 F https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf
 $ENDCMP
 #
+$CMP RCLAMP0502B
+D Low capacitance unidirectional dual ESD protection diode, SC-75
+K tvs unidirectional
+F https://www.semtech.com/products/circuit-protection/low-capacitance/rclamp0502b
+$ENDCMP
+#
+$CMP RCLAMP0502BA
+D Low capacitance unidirectional dual ESD protection diode, SC-75
+K tvs unidirectional
+F https://www.semtech.com/products/circuit-protection/low-capacitance/rclamp0502ba
+$ENDCMP
+#
+$CMP RCLAMP0582B
+D Low capacitance unidirectional dual ESD protection diode, SC-75
+K tvs unidirectional
+F https://www.semtech.com/products/circuit-protection/low-capacitance/rclamp0582b
+$ENDCMP
+#
 $CMP RCLAMP3328P
 D Low Capacitance TVS Diode Array, 3.3V Standoff, 8 Channels, UDFN-9
 K usb esd protection suppression transient
@@ -360,10 +378,22 @@ K ESD USB
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/3e/ec/b2/54/b2/76/47/90/CD00001361.pdf/files/CD00001361.pdf/jcr:content/translations/en.CD00001361.pdf
 $ENDCMP
 #
+$CMP USBLC6-2P6
+D Very low capacitance ESD protection diode, 2 data-line, SOT-666
+K usb ethernet video
+F https://www.st.com/resource/en/datasheet/usblc6-2.pdf
+$ENDCMP
+#
 $CMP USBLC6-2SC6
-D Bidirectional ESD Protection Diode, SOT-23-6
-K usb ethernet
-F http://www2.st.com/resource/en/datasheet/CD00050750.pdf
+D Very low capacitance ESD protection diode, 2 data-line, SOT-23-6
+K usb ethernet video
+F https://www.st.com/resource/en/datasheet/usblc6-2.pdf
+$ENDCMP
+#
+$CMP USBLC6-4SC6
+D Very low capacitance ESD protection diode, 4 data-line, SOT-23-6
+K usb ethernet sim card video
+F https://www.st.com/resource/en/datasheet/usblc6-4.pdf
 $ENDCMP
 #
 $CMP WE-TVS-82400102
