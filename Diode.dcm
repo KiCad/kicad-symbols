@@ -2154,6 +2154,24 @@ K diode Schottky
 F https://www.onsemi.com/pub/Collateral/NSR0340H-D.PDF
 $ENDCMP
 #
+$CMP PMEG10010ELR
+D 100V, 1A low leakage current MEGA Schottky barrier rectifier, SOD-123W
+K ir diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG10010ELR.pdf
+$ENDCMP
+#
+$CMP PMEG10020AELR
+D 100V, 2A low leakage current MEGA Schottky barrier rectifier, SOD-123W
+K ir diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG10020AELR.pdf
+$ENDCMP
+#
+$CMP PMEG10020ELR
+D 100V, 2A low leakage current MEGA Schottky barrier rectifier, SOD-123W
+K ir diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG10020ELR.pdf
+$ENDCMP
+#
 $CMP PMEG030V030EPD
 D 30V, 3A low Vf MEGA Schottky barrier rectifier, SOT-1289
 K forward voltage diode
@@ -2328,6 +2346,12 @@ K forward voltage diode
 F https://assets.nexperia.com/documents/data-sheet/PMEG2010AEH_PMEG2010AET.pdf
 $ENDCMP
 #
+$CMP PMEG2010BER
+D 20V, 1A low Vf MEGA Schottky barrier rectifier, SOD-123W
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG2010BER.pdf
+$ENDCMP
+#
 $CMP PMEG2010EH
 D 20V, 1A very low Vf MEGA Schottky barrier rectifier, SOD-123F
 K forward voltage diode
@@ -2338,6 +2362,12 @@ $CMP PMEG2010EJ
 D 20V, 1A very low Vf MEGA Schottky barrier rectifier, SOD-323F
 K forward voltage diode
 F https://assets.nexperia.com/documents/data-sheet/PMEG2010EH_EJ_ET.pdf
+$ENDCMP
+#
+$CMP PMEG2010ER
+D 20V, 1A low Vf MEGA Schottky barrier rectifier, SOD-123W
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf
 $ENDCMP
 #
 $CMP PMEG2010ET
@@ -2388,6 +2418,12 @@ K forward voltage diode
 F https://assets.nexperia.com/documents/data-sheet/PMEGXX05EH_EJ_SER.pdf
 $ENDCMP
 #
+$CMP PMEG3010BER
+D 30V, 1A low Vf MEGA Schottky barrier rectifier, SOD-123W
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG3010BER.pdf
+$ENDCMP
+#
 $CMP PMEG3010CEH
 D 30V, 1A very low Vf MEGA Schottky barrier rectifier, SOD-123F
 K forward voltage diode
@@ -2412,6 +2448,12 @@ K forward voltage diode
 F https://assets.nexperia.com/documents/data-sheet/PMEG3010EH_EJ_ET.pdf
 $ENDCMP
 #
+$CMP PMEG3010ER
+D 30V, 1A low Vf MEGA Schottky barrier rectifier, SOD-123W
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG3010ER.pdf
+$ENDCMP
+#
 $CMP PMEG3010ET
 D 30V, 1A very low Vf MEGA Schottky barrier rectifier, SOT-23
 K forward voltage diode
@@ -2430,6 +2472,12 @@ K forward voltage diode
 F https://assets.nexperia.com/documents/data-sheet/PMEG3015EH_EJ.pdf
 $ENDCMP
 #
+$CMP PMEG3020BER
+D 30V, 2A low Vf MEGA Schottky barrier rectifier, SOD-123W
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG3020BER.pdf
+$ENDCMP
+#
 $CMP PMEG3020EH
 D 30V, 2A ultra low Vf MEGA Schottky barrier rectifier, SOD-123F
 K forward voltage diode
@@ -2440,6 +2488,12 @@ $CMP PMEG3020EJ
 D 30V, 2A ultra low Vf MEGA Schottky barrier rectifier, SOD-323F
 K forward voltage diode
 F https://assets.nexperia.com/documents/data-sheet/PMEG3020EH_EJ.pdf
+$ENDCMP
+#
+$CMP PMEG3020ER
+D 30V, 2A low Vf MEGA Schottky barrier rectifier, SOD-123W
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG3020ER.pdf
 $ENDCMP
 #
 $CMP PMEG4002EJ
@@ -2490,16 +2544,52 @@ K forward voltage diode
 F https://assets.nexperia.com/documents/data-sheet/PMEG4010EH_EJ_ET.pdf
 $ENDCMP
 #
+$CMP PMEG4010ER
+D 40V, 1A low Vf MEGA Schottky barrier rectifier, SOD-123W
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG4010ER.pdf
+$ENDCMP
+#
 $CMP PMEG4010ET
 D 40V, 1A very low Vf MEGA Schottky barrier rectifier, SOT-23
 K forward voltage diode
 F https://assets.nexperia.com/documents/data-sheet/PMEG4010EH_EJ_ET.pdf
 $ENDCMP
 #
+$CMP PMEG4020ER
+D 40V, 2A low Vf MEGA Schottky barrier rectifier, SOD-123W
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG4020ER.pdf
+$ENDCMP
+#
+$CMP PMEG4030ER
+D 40V, 3A low Vf MEGA Schottky barrier rectifier, SOD-123W
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG4030ER.pdf
+$ENDCMP
+#
 $CMP PMEG4050EP
 D 40V, 5A low Vf Schottky barrier rectifier, SOD-128
 K forward voltage diode
 F https://assets.nexperia.com/documents/data-sheet/PMEG4050EP.pdf
+$ENDCMP
+#
+$CMP PMEG40T10ER
+D 40V, 1A low Vf Trench MEGA Schottky barrier rectifier, SOD-123W
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG40T10ER.pdf
+$ENDCMP
+#
+$CMP PMEG40T20ER
+D 40V, 2A low Vf Trench MEGA Schottky barrier rectifier, SOD-123W
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG40T20ER.pdf
+$ENDCMP
+#
+$CMP PMEG40T30ER
+D 40V, 3A low Vf Trench MEGA Schottky barrier rectifier, SOD-123W
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG40T30ER.pdf
 $ENDCMP
 #
 $CMP PMEG45A10EPD
@@ -2538,6 +2628,36 @@ K forward voltage diode
 F https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf
 $ENDCMP
 #
+$CMP PMEG6010ELR
+D 60V, 1A low leakage current MEGA Schottky barrier rectifier, SOD-123W
+K ir diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG6010ELR.pdf
+$ENDCMP
+#
+$CMP PMEG6010ER
+D 60V, 1A low Vf MEGA Schottky barrier rectifier, SOD-123W
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG6010ER.pdf
+$ENDCMP
+#
+$CMP PMEG6020AELR
+D 60V, 2A low leakage current MEGA Schottky barrier rectifier, SOD-123W
+K ir diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG6020AELR.pdf
+$ENDCMP
+#
+$CMP PMEG6020ELR
+D 60V, 2A low leakage current MEGA Schottky barrier rectifier, SOD-123W
+K ir diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG6020ELR.pdf
+$ENDCMP
+#
+$CMP PMEG6020ER
+D 60V, 2A low Vf MEGA Schottky barrier rectifier, SOD-123W
+K forward voltage diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG6020ER.pdf
+$ENDCMP
+#
 $CMP PMEG6030EP
 D 60V, 3A low Vf MEGA Schottky barrier rectifier, SOD-128
 K forward voltage diode
@@ -2548,6 +2668,24 @@ $CMP PMEG6045ETP
 D 60V, 4.5A High-Temperature Schottky barrier rectifier, SOD-128
 K forward voltage diode
 F https://assets.nexperia.com/documents/data-sheet/PMEG6045ETP.pdf
+$ENDCMP
+#
+$CMP PMEG60T10ELR
+D 60V, 1A low leakage current Trench MEGA Schottky barrier rectifier, SOD-123W
+K ir diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG60T10ELR.pdf
+$ENDCMP
+#
+$CMP PMEG60T20ELR
+D 60V, 2A low leakage current Trench MEGA Schottky barrier rectifier, SOD-123W
+K ir diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG60T20ELR.pdf
+$ENDCMP
+#
+$CMP PMEG60T30ELR
+D 60V, 3A low leakage current Trench MEGA Schottky barrier rectifier, SOD-123W
+K ir diode
+F https://assets.nexperia.com/documents/data-sheet/PMEG60T30ELR.pdf
 $ENDCMP
 #
 $CMP Panasonic_MA5J002E
