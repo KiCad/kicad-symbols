@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP L80
+D GPS module with an embedded patch antenna
+K GPS antenna
+F https://www.quectel.com/UploadImage/Downlad/L80_Hardware_Design_V1.1.pdf
+$ENDCMP
+#
 $CMP LEA-M8F
 D GNSS Module LEA M8, VCC 3V to 3.6V
 K ublox GPS GNSS module
