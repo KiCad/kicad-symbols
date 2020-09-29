@@ -60,12 +60,6 @@ K Adafruit feather microcontroller module USB M0 SAMD21 LoRa Radio
 F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-m0-radio-with-lora-radio-module.pdf
 $ENDCMP
 #
-$CMP Adafruit_Feather_M0_RFM9x_LoRa_Radio_copy
-D Microcontroller module with SAMD21 Cortex-M0 MCU and RFM9x Radio
-K Adafruit feather microcontroller module USB M0 SAMD21 LoRa Radio
-F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-m0-radio-with-lora-radio-module.pdf
-$ENDCMP
-#
 $CMP Adafruit_Feather_M0_Wifi
 D Microcontroller module with SAMD21 Cortex-M0 MCU and ATWINC1500 Wifi
 K Adafruit feather microcontroller module USB M0 SAMD21 Wifi ATWINC1500
