@@ -708,6 +708,18 @@ K rectifier acdc
 F http://www.vishay.com/docs/88705/rmbs.pdf
 $ENDCMP
 #
+$CMP SC35VB160S-G
+D 1120V Vrms, 35A If, SCVB-L
+K Three-Phase Bridge Rectifier
+F https://www.comchiptech.com/admin/files/product/SC35VB80S-G%20Thru506369.%20SC35VB160S-G%20RevB.pdf
+$ENDCMP
+#
+$CMP SC35VB80S-G
+D 560V Vrms, 35A If, SCVB-L
+K Three-Phase Bridge Rectifier
+F https://www.comchiptech.com/admin/files/product/SC35VB80S-G%20Thru506369.%20SC35VB160S-G%20RevB.pdf
+$ENDCMP
+#
 $CMP VS-KBPC1005
 D Single-Phase Bridge Rectifier, 20V Vrms, 3.0A If, KBPC1 package
 K rectifier acdc
