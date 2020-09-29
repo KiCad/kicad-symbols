@@ -450,6 +450,42 @@ K display LCD dot-matrix
 F http://pdf.datasheetcatalog.com/datasheet/Sharp/mXvtrzw.pdf
 $ENDCMP
 #
+$CMP LTC-4627JD
+D 4 digit 7 segment hyper red, common anode
+K display LED 7-segment
+F http://optoelectronics.liteon.com/upload/download/DS30-2001-093/LTC-4627JD.pdf
+$ENDCMP
+#
+$CMP LTC-4627JD-01
+D 4 digit 7 segment hyper red, common anode
+K display LED 7-segment
+F http://optoelectronics.liteon.com/upload/download/DS30-2008-0116/LTC-4627JD-01.pdf
+$ENDCMP
+#
+$CMP LTC-4627JF
+D 4 digit 7 segment yellow orange, common anode
+K display LED 7-segment
+F http://optoelectronics.liteon.com/upload/download/DS30-2000-192/C4627JF.pdf
+$ENDCMP
+#
+$CMP LTC-4627JG
+D 4 digit 7 segment green, common anode
+K display LED 7-segment
+F http://optoelectronics.liteon.com/upload/download/DS30-2001-393/C4627JG.pdf
+$ENDCMP
+#
+$CMP LTC-4627JR
+D 4 digit 7 segment super red, common anode
+K display LED 7-segment
+F http://optoelectronics.liteon.com/upload/download/DS30-2000-185/LTC-4627JR.pdf
+$ENDCMP
+#
+$CMP LTC-4627JS
+D 4 digit 7 segment yellow, common anode
+K display LED 7-segment
+F http://optoelectronics.liteon.com/upload/download/DS30-2000-186/LTC-4627JS.pdf
+$ENDCMP
+#
 $CMP LTS-6960HR
 D DISPLAY 7 SEGMENTS common A.
 K display LED 7-segment
