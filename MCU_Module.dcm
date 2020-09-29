@@ -66,6 +66,12 @@ K Adafruit feather microcontroller module USB M0 SAMD21 Wifi ATWINC1500
 F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-m0-wifi-atwinc1500.pdf
 $ENDCMP
 #
+$CMP Adafruit_Feather_WICED_Wifi
+D Microcontroller module with STM32F205 Cortex-M3 MCU and BCM43362 Wifi
+K Adafruit feather microcontroller module USB M3 STM32F205 Wifi
+F https://cdn-learn.adafruit.com/downloads/pdf/introducing-the-adafruit-wiced-feather-wifi.pdf
+$ENDCMP
+#
 $CMP Adafruit_HUZZAH_ESP8266_breakout
 D 32-bit microcontroller module with WiFi
 K ESP8266 WiFi microcontroller
