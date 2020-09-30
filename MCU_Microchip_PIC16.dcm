@@ -594,21 +594,57 @@ K FLASH-Based 8-Bit CMOS Microcontroller Low Power CRC DSM  ADC^2 CLC PLL 32MHz
 F http://ww1.microchip.com/downloads/en/DeviceDoc/40001802G.pdf
 $ENDCMP
 #
-$CMP PIC16F19195
-D 8kW FLASH, 1kB RAM, 256B EEPROM, TQFP-64, QFN-64, VQFN-64
-K FLASH-Based 8-Bit CMOS Microcontroller Low Power
+$CMP PIC16F19195-x5LX
+D 8kW FLASH, 1kB RAM, 256B EEPROM, VQFN-64
+K FLASH-Based 8-Bit CMOS Microcontroller
 F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19195-6-7-Data-Sheet-40001873D.pdf
 $ENDCMP
 #
-$CMP PIC16F19196
-D 16kW FLASH, 2kB RAM, 256B EEPROM, TQFP-64, QFN-64, VQFN-64
-K FLASH-Based 8-Bit CMOS Microcontroller Low Power
+$CMP PIC16F19195-xMR
+D 8kW FLASH, 1kB RAM, 256B EEPROM, QFN-64
+K FLASH-Based 8-Bit CMOS Microcontroller
 F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19195-6-7-Data-Sheet-40001873D.pdf
 $ENDCMP
 #
-$CMP PIC16F19197
-D 32kW FLASH, 4kB RAM, 256B EEPROM, TQFP-64, QFN-64, VQFN-64
-K FLASH-Based 8-Bit CMOS Microcontroller Low Power
+$CMP PIC16F19195-xPT
+D 8kW FLASH, 1kB RAM, 256B EEPROM, TQFP-64
+K FLASH-Based 8-Bit CMOS Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19195-6-7-Data-Sheet-40001873D.pdf
+$ENDCMP
+#
+$CMP PIC16F19196-x5LX
+D 16kW FLASH, 2kB RAM, 256B EEPROM, VQFN-64
+K FLASH-Based 8-Bit CMOS Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19195-6-7-Data-Sheet-40001873D.pdf
+$ENDCMP
+#
+$CMP PIC16F19196-xMR
+D 16kW FLASH, 2kB RAM, 256B EEPROM, QFN-64
+K FLASH-Based 8-Bit CMOS Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19195-6-7-Data-Sheet-40001873D.pdf
+$ENDCMP
+#
+$CMP PIC16F19196-xPT
+D 16kW FLASH, 2kB RAM, 256B EEPROM, TQFP-64
+K FLASH-Based 8-Bit CMOS Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19195-6-7-Data-Sheet-40001873D.pdf
+$ENDCMP
+#
+$CMP PIC16F19197-x5LX
+D 32kW FLASH, 4kB RAM, 256B EEPROM, VQFN-64
+K FLASH-Based 8-Bit CMOS Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19195-6-7-Data-Sheet-40001873D.pdf
+$ENDCMP
+#
+$CMP PIC16F19197-xMR
+D 32kW FLASH, 4kB RAM, 256B EEPROM, QFN-64
+K FLASH-Based 8-Bit CMOS Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19195-6-7-Data-Sheet-40001873D.pdf
+$ENDCMP
+#
+$CMP PIC16F19197-xPT
+D 32kW FLASH, 4kB RAM, 256B EEPROM, TQFP-64
+K FLASH-Based 8-Bit CMOS Microcontroller
 F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19195-6-7-Data-Sheet-40001873D.pdf
 $ENDCMP
 #
@@ -1356,20 +1392,56 @@ K FLASH-Based 8-Bit CMOS Microcontroller Low Power
 F http://ww1.microchip.com/downloads/en/DeviceDoc/40001795E.pdf
 $ENDCMP
 #
-$CMP PIC16LF19195
-D 8kW FLASH, 1kB RAM, 256B EEPROM, TQFP-64, QFN-64, VQFN-64
+$CMP PIC16LF19195-x5LX
+D 8kW FLASH, 1kB RAM, 256B EEPROM, VQFN-64
 K FLASH-Based 8-Bit CMOS Microcontroller Low Power
 F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19195-6-7-Data-Sheet-40001873D.pdf
 $ENDCMP
 #
-$CMP PIC16LF19196
-D 16kW FLASH, 2kB RAM, 256B EEPROM, TQFP-64, QFN-64, VQFN-64
+$CMP PIC16LF19195-xMR
+D 8kW FLASH, 1kB RAM, 256B EEPROM, QFN-64
 K FLASH-Based 8-Bit CMOS Microcontroller Low Power
 F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19195-6-7-Data-Sheet-40001873D.pdf
 $ENDCMP
 #
-$CMP PIC16LF19197
-D 32kW FLASH, 4kB RAM, 256B EEPROM, TQFP-64, QFN-64, VQFN-64
+$CMP PIC16LF19195-xPT
+D 8kW FLASH, 1kB RAM, 256B EEPROM, TQFP-64
+K FLASH-Based 8-Bit CMOS Microcontroller Low Power
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19195-6-7-Data-Sheet-40001873D.pdf
+$ENDCMP
+#
+$CMP PIC16LF19196-x5LX
+D 16kW FLASH, 2kB RAM, 256B EEPROM, VQFN-64
+K FLASH-Based 8-Bit CMOS Microcontroller Low Power
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19195-6-7-Data-Sheet-40001873D.pdf
+$ENDCMP
+#
+$CMP PIC16LF19196-xMR
+D 16kW FLASH, 2kB RAM, 256B EEPROM, QFN-64
+K FLASH-Based 8-Bit CMOS Microcontroller Low Power
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19195-6-7-Data-Sheet-40001873D.pdf
+$ENDCMP
+#
+$CMP PIC16LF19196-xPT
+D 16kW FLASH, 2kB RAM, 256B EEPROM, TQFP-64
+K FLASH-Based 8-Bit CMOS Microcontroller Low Power
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19195-6-7-Data-Sheet-40001873D.pdf
+$ENDCMP
+#
+$CMP PIC16LF19197-x5LX
+D 32kW FLASH, 4kB RAM, 256B EEPROM, VQFN-64
+K FLASH-Based 8-Bit CMOS Microcontroller Low Power
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19195-6-7-Data-Sheet-40001873D.pdf
+$ENDCMP
+#
+$CMP PIC16LF19197-xMR
+D 32kW FLASH, 4kB RAM, 256B EEPROM, QFN-64
+K FLASH-Based 8-Bit CMOS Microcontroller Low Power
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19195-6-7-Data-Sheet-40001873D.pdf
+$ENDCMP
+#
+$CMP PIC16LF19197-xPT
+D 32kW FLASH, 4kB RAM, 256B EEPROM, TQFP-64
 K FLASH-Based 8-Bit CMOS Microcontroller Low Power
 F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19195-6-7-Data-Sheet-40001873D.pdf
 $ENDCMP
