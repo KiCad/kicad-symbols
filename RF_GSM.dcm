@@ -6,6 +6,12 @@ K NB-IoT Data SMS
 F https://www.quectel.com/UploadImage/Downlad/Quectel_BC66_Hardware_Design_V1.1.pdf
 $ENDCMP
 #
+$CMP M95
+D Quectel quad-band GSM/GPRS module in LCC package
+K GSM GPRS AT SMS voice TCP/IP
+F https://www.quectel.com/UploadImage/Downlad/M95_Hardware_Design_V1.3.pdf
+$ENDCMP
+#
 $CMP BC95
 D NB-IoT, GSM Quad-Band Communication Module, GPRS, Audio Engine, AT Command Set
 K NB-IoT GSM GPRS Quad-Band SMS
