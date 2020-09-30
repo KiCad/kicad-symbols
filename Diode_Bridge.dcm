@@ -312,6 +312,18 @@ K rectifier acdc
 F http://www.vishay.com/docs/88571/dfm.pdf
 $ENDCMP
 #
+$CMP DMA40U1800GU
+D 575V Vrms, 40A If, GUFP(X025B)
+K Three-Phase Bridge Rectifier
+F https://ixapps.ixys.com/Datasheet/DMA40U1800GU.pdf
+$ENDCMP
+#
+$CMP DNA40U2200GU
+D 690V Vrms, 40A If, GUFP(X025B)
+K Three-Phase Bridge Rectifier
+F https://ixapps.ixys.com/Datasheet/DNA40U2200GU.pdf
+$ENDCMP
+#
 $CMP GBU4A
 D Single-Phase Bridge Rectifier, 35V Vrms, 4.0A If, GBU package
 K rectifier acdc
@@ -436,6 +448,24 @@ $CMP GBU8M
 D Single-Phase Bridge Rectifier, 700V Vrms, 8.0A If, GBU package
 K rectifier acdc
 F http://www.vishay.com/docs/88656/gbu8a.pdf
+$ENDCMP
+#
+$CMP GUO40-08NO1
+D 250V Vrms, 40A If, GUFP(X025B)
+K Three-Phase Bridge Rectifier
+F https://ixapps.ixys.com/DataSheet/GUO40-08NO1.pdf
+$ENDCMP
+#
+$CMP GUO40-12NO1
+D 400V Vrms, 40A If, GUFP(X025B)
+K Three-Phase Bridge Rectifier
+F https://ixapps.ixys.com/DataSheet/GUO40-12NO1.pdf
+$ENDCMP
+#
+$CMP GUO40-16NO1
+D 500V Vrms, 40A If, GUFP(X025B)
+K Three-Phase Bridge Rectifier
+F https://ixapps.ixys.com/DataSheet/GUO40-16NO1.pdf
 $ENDCMP
 #
 $CMP KBU4A
@@ -606,6 +636,24 @@ K rectifier acdc
 F http://www.vishay.com/docs/89959/mbl104s.pdf
 $ENDCMP
 #
+$CMP MDB10S
+D Single-Phase Bridge Rectifier, 700V Vrms, 1A If, TSSOP-4
+K bridge diode rectifier ac dc acdc ac-dc
+F https://www.onsemi.com/pub/Collateral/MDB8S-D.PDF
+$ENDCMP
+#
+$CMP MDB6S
+D Single-Phase Bridge Rectifier, 420V Vrms, 1A If, TSSOP-4
+K bridge diode rectifier ac dc acdc ac-dc
+F https://www.onsemi.com/pub/Collateral/MDB8S-D.PDF
+$ENDCMP
+#
+$CMP MDB8S
+D Single-Phase Bridge Rectifier, 560V Vrms, 1A If, TSSOP-4
+K bridge diode rectifier ac dc acdc ac-dc
+F https://www.onsemi.com/pub/Collateral/MDB8S-D.PDF
+$ENDCMP
+#
 $CMP RB151
 D Single-Phase Bridge Rectifier, 35V Vrms, 1.5A If, WOG-like package
 K rectifier acdc
@@ -658,6 +706,18 @@ $CMP RMB4S
 D Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 280V Vrms, 0.5A If, TO-269AA
 K rectifier acdc
 F http://www.vishay.com/docs/88705/rmbs.pdf
+$ENDCMP
+#
+$CMP SC35VB160S-G
+D 1120V Vrms, 35A If, SCVB-L
+K Three-Phase Bridge Rectifier
+F https://www.comchiptech.com/admin/files/product/SC35VB80S-G%20Thru506369.%20SC35VB160S-G%20RevB.pdf
+$ENDCMP
+#
+$CMP SC35VB80S-G
+D 560V Vrms, 35A If, SCVB-L
+K Three-Phase Bridge Rectifier
+F https://www.comchiptech.com/admin/files/product/SC35VB80S-G%20Thru506369.%20SC35VB160S-G%20RevB.pdf
 $ENDCMP
 #
 $CMP VS-KBPC1005

@@ -42,6 +42,18 @@ K Reflective Optical Sensor Opto
 F https://everlighteurope.com/index.php?controller=attachment&id_attachment=5385
 $ENDCMP
 #
+$CMP ITR8307-L24-TR8
+D Miniature Reflective Optical Object Sensor, SMD-4
+K Reflective Optical Sensor Opto reflex coupler
+F https://www.everlight.com/file/ProductFile/ITR8307-L24-TR8.pdf
+$ENDCMP
+#
+$CMP ITR8307-S17-TR8
+D Miniature Reflective Optical Object Sensor, SMD-4
+K Reflective Optical Sensor Opto reflex coupler
+F https://datasheet.lcsc.com/szlcsc/1810010232_Everlight-Elec-ITR8307-S17-TR8-B_C81632.pdf
+$ENDCMP
+#
 $CMP KRC011
 D Subminiature Reflective Optical Sensor
 K Reflective Optical Sensor Opto
@@ -85,14 +97,14 @@ F http://kodenshi.co.jp/products/pdf/sensor/photointerrupter_ic/LG206L.pdf
 $ENDCMP
 #
 $CMP QRE1113
-D Miniature Reflective Optical Object Sensor, SMD-4
+D Miniature Reflective Optical Object Sensor, DIP-like THT-package
 K Reflective Optical Sensor Opto reflex coupler
 F http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF
 $ENDCMP
 #
 $CMP QRE1113GR
-D Subminiature Reflective Optical Sensor, DIP-like THT-package
-K Reflective Optical Sensor Opto
+D Miniature Reflective Optical Object Sensor, SMD-4
+K Reflective Optical Sensor Opto reflex coupler
 F http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF
 $ENDCMP
 #

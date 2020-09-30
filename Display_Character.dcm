@@ -90,6 +90,30 @@ K display LED 7-segment
 F http://www.kingbrightusa.com/images/catalog/SPEC/CC56-12YWA.pdf
 $ENDCMP
 #
+$CMP D148K
+D One digit 7 segment yellowish-green LED, low current, common cathode
+K display LED 7-segment
+F https://ia800903.us.archive.org/24/items/CTKD1x8K/Cromatek%20D168K.pdf
+$ENDCMP
+#
+$CMP D168K
+D One digit 7 segment ultra bright red LED, low current, common cathode
+K display LED 7-segment
+F https://ia800903.us.archive.org/24/items/CTKD1x8K/Cromatek%20D168K.pdf
+$ENDCMP
+#
+$CMP D198K
+D One digit 7 segment orangish-red LED, low current, common cathode
+K display LED 7-segment
+F https://ia800903.us.archive.org/24/items/CTKD1x8K/Cromatek%20D168K.pdf
+$ENDCMP
+#
+$CMP D1X8K-14BL
+D One digit 7 segment ultra bright blue LED, low current, common cathode
+K display LED 7-segment
+F https://ia800903.us.archive.org/24/items/CTKD1x8K/Cromatek%20D168K.pdf
+$ENDCMP
+#
 $CMP DA04-11CGKWA
 D Double 7 segment green LED common anode
 K display LED 7-segment
@@ -450,6 +474,42 @@ K display LCD dot-matrix
 F http://pdf.datasheetcatalog.com/datasheet/Sharp/mXvtrzw.pdf
 $ENDCMP
 #
+$CMP LTC-4627JD
+D 4 digit 7 segment hyper red, common anode
+K display LED 7-segment
+F http://optoelectronics.liteon.com/upload/download/DS30-2001-093/LTC-4627JD.pdf
+$ENDCMP
+#
+$CMP LTC-4627JD-01
+D 4 digit 7 segment hyper red, common anode
+K display LED 7-segment
+F http://optoelectronics.liteon.com/upload/download/DS30-2008-0116/LTC-4627JD-01.pdf
+$ENDCMP
+#
+$CMP LTC-4627JF
+D 4 digit 7 segment yellow orange, common anode
+K display LED 7-segment
+F http://optoelectronics.liteon.com/upload/download/DS30-2000-192/C4627JF.pdf
+$ENDCMP
+#
+$CMP LTC-4627JG
+D 4 digit 7 segment green, common anode
+K display LED 7-segment
+F http://optoelectronics.liteon.com/upload/download/DS30-2001-393/C4627JG.pdf
+$ENDCMP
+#
+$CMP LTC-4627JR
+D 4 digit 7 segment super red, common anode
+K display LED 7-segment
+F http://optoelectronics.liteon.com/upload/download/DS30-2000-185/LTC-4627JR.pdf
+$ENDCMP
+#
+$CMP LTC-4627JS
+D 4 digit 7 segment yellow, common anode
+K display LED 7-segment
+F http://optoelectronics.liteon.com/upload/download/DS30-2000-186/LTC-4627JS.pdf
+$ENDCMP
+#
 $CMP LTS-6960HR
 D DISPLAY 7 SEGMENTS common A.
 K display LED 7-segment
@@ -550,6 +610,12 @@ $CMP NHD-0420H1Z
 D LCD 20x4 Alphanumeric 16pin Blue/White/Green Backlight, 8bit parallel, 3.3V VDD
 K display LCD 20x4
 F http://www.newhavendisplay.com/specs/NHD-0420H1Z-FSW-GBW-33V3.pdf
+$ENDCMP
+#
+$CMP NHD-C0220BIZ
+D LCD 20x2 Alphanumeric 10pin Blue/White/Green Backlight, i2c, 3.3V VDD
+K display LCD 20x2
+F http://www.newhavendisplay.com/specs/NHD-C0220BiZ-FSW-FBW-3V3M.pdf
 $ENDCMP
 #
 $CMP RC1602A

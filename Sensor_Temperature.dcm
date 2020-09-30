@@ -415,13 +415,25 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
 $ENDCMP
 #
 $CMP MCP9804_DFN
-D Microchip Technology Digital Temperature Sensor DFN
+D +/-0.25C (+/-1C) Typical (Maximum), Digital Temperature Sensor, DFN-8
 K temperature sensor I2C
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22203b.pdf
 $ENDCMP
 #
 $CMP MCP9804_MSOP
-D Microchip Technology Digital Temperature Sensor MSOP
+D +/-0.25C (+/-1C) Typical (Maximum), Digital Temperature Sensor, MSOP-8
+K temperature sensor I2C
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22203b.pdf
+$ENDCMP
+#
+$CMP MCP9808_DFN
+D +/-0.25C (+/-0.5C) Typical (Maximum), Digital Temperature Sensor, DFN-8
+K temperature sensor I2C
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP9808-0.5C-Maximum-Accuracy-Digital-Temperature-Sensor-Data-Sheet-DS20005095B.pdf
+$ENDCMP
+#
+$CMP MCP9808_MSOP
+D +/-0.25C (+/-0.5C) Typical (Maximum), Digital Temperature Sensor, MSOP-8
 K temperature sensor I2C
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22203b.pdf
 $ENDCMP
@@ -514,6 +526,24 @@ $CMP TMP101
 D Temperature Sensor with I2C/SMBus Interface, SOT-23-6
 K temperature sensor i2c smbus
 F http://www.ti.com/lit/gpn/tmp101
+$ENDCMP
+#
+$CMP TMP1075D
+D I2C-bus digital temperature sensor and thermal watchdog, SO-8
+K temperature sensor I2C single channel
+F https://www.ti.com/lit/gpn/tmp1075
+$ENDCMP
+#
+$CMP TMP1075DGK
+D I2C-bus digital temperature sensor and thermal watchdog, VSSOP-8
+K temperature sensor I2C single channel
+F https://www.ti.com/lit/gpn/tmp1075
+$ENDCMP
+#
+$CMP TMP1075DSG
+D I2C-bus digital temperature sensor and thermal watchdog, WSON-8
+K temperature sensor I2C single channel
+F https://www.ti.com/lit/gpn/tmp1075
 $ENDCMP
 #
 $CMP TMP20AIDCK

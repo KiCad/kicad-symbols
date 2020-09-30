@@ -288,6 +288,12 @@ K voltage detector cmos VSOF5
 F https://www.rohm.de/datasheet/BD4830FVE/bd48xxg-e
 $ENDCMP
 #
+$CMP BQ24230RGT
+D USB-Friendly Lithium-Ion Battery Charger And Power-Path Management IC, VQFN-16
+K Lithium-ion battery charger
+F http://www.ti.com/cn/lit/ds/symlink/bq24230.pdf
+$ENDCMP
+#
 $CMP BTN8982TA
 D High Current PN Half Bridge, TO-263-7
 K half bridge for motor drive applications
@@ -564,6 +570,54 @@ K Nonvolatile, RAM, Controller, Battery, Power
 F https://datasheets.maximintegrated.com/en/ds/DS1210.pdf
 $ENDCMP
 #
+$CMP FPF2000
+D Single power-distribution switcher, current limit = 50mA, blanking time = 10 ms, auto-restart time = 80 ms, ON Pin Polarity = HIGH, SOT-353
+K 1-chanel power-distribution USB
+F https://www.onsemi.com/pub/Collateral/FPF2001-D.pdf
+$ENDCMP
+#
+$CMP FPF2001
+D Single power-distribution switcher, current limit = 50mA, blanking time = 10 ms, auto-restart time = 80 ms, ON Pin Polarity = LOW, SOT-353
+K 1-chanel power-distribution USB
+F https://www.onsemi.com/pub/Collateral/FPF2001-D.pdf
+$ENDCMP
+#
+$CMP FPF2002
+D Single power-distribution switcher, current limit = 50mA, blanking time = 10 ms, w/o auto-restart, ON Pin Polarity = HIGH, SOT-353
+K 1-chanel power-distribution USB
+F https://www.onsemi.com/pub/Collateral/FPF2001-D.pdf
+$ENDCMP
+#
+$CMP FPF2003
+D Single power-distribution switcher, current limit = 50mA, blanking time = 0 ms, w/o auto-restart, ON Pin Polarity = HIGH, SOT-353
+K 1-chanel power-distribution USB
+F https://www.onsemi.com/pub/Collateral/FPF2001-D.pdf
+$ENDCMP
+#
+$CMP FPF2004
+D Single power-distribution switcher, current limit = 100mA, blanking time = 10 ms, auto-restart time = 80 ms, ON Pin Polarity = HIGH, SOT-353
+K 1-chanel power-distribution USB
+F https://www.onsemi.com/pub/Collateral/FPF2001-D.pdf
+$ENDCMP
+#
+$CMP FPF2005
+D Single power-distribution switcher, current limit = 100mA, blanking time = 10 ms, auto-restart time = 80 ms, ON Pin Polarity = LOW, SOT-353
+K 1-chanel power-distribution USB
+F https://www.onsemi.com/pub/Collateral/FPF2001-D.pdf
+$ENDCMP
+#
+$CMP FPF2006
+D Single power-distribution switcher, current limit = 100mA, blanking time = 10 ms, w/o auto-restart, ON Pin Polarity = HIGH, SOT-353
+K 1-chanel power-distribution USB
+F https://www.onsemi.com/pub/Collateral/FPF2001-D.pdf
+$ENDCMP
+#
+$CMP FPF2007
+D Single power-distribution switcher, current limit = 100mA, blanking time = 0 ms, w/o auto-restart, ON Pin Polarity = HIGH, SOT-353
+K 1-chanel power-distribution USB
+F https://www.onsemi.com/pub/Collateral/FPF2001-D.pdf
+$ENDCMP
+#
 $CMP HF81
 D X capacitor bleeder, SOIC-8
 K X capacitor discharge
@@ -736,6 +790,24 @@ $CMP LT1641-2
 D High voltage hot swap controller, +9V to +80V operation, with auto-retry feature
 K high-voltage hot-swap
 F https://www.analog.com/media/en/technical-documentation/data-sheets/164112fc.pdf
+$ENDCMP
+#
+$CMP LT4230xDD
+D Ideal Diode Bridge Controller, DC to 60Hz, DFN-8
+K diode bridge replacement
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4320fb.pdf
+$ENDCMP
+#
+$CMP LT4231xUF
+D PoE Ideal Diode Bridge Controller, QFN-16
+K LTPoE++ dual diode bridge replacement
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4321f.pdf
+$ENDCMP
+#
+$CMP LT4320xDD-1
+D Ideal Diode Bridge Controller, DC to 600Hz, DFN-8
+K diode bridge replacement
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4320fb.pdf
 $ENDCMP
 #
 $CMP LTC4242xUHF

@@ -1,15 +1,27 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 0900PC15J0013
+D 868/915MHz Impedance Matched, Multi-Function, Integrated Ceramic Passive Component for Texas Instruments CC112x, CC117x & CC12xx Chipsets
+K CC1120 CC1121 CC1125 CC1175 CC1200 CC1201 balun
+F https://www.johansontechnology.com/datasheets/0900PC15J0013/0900PC15J0013.pdf
+$ENDCMP
+#
 $CMP ADC-10-1R
 D Directional Coupler, 5 to 900 MHz, 10 dB Coupling, 50 Ohm, Mini-Circuits CD542
 K Directional Coupler
 F https://www.minicircuits.com/pdfs/ADC-10-1R.pdf
 $ENDCMP
 #
-$CMP ADE-6
-D Mixer, +7 dBm LO, 0.05 to 250 MHz
-K mixer rf
-F www.minicircuits.com/pdfs/ADE-6.pdf
+$CMP ADCH-80
+D 50-10000MHz, RF Choke, Mini-Circuits CD542
+K bias filter DC choke
+F https://www.minicircuits.com/pdfs/ADCH-80+.pdf
+$ENDCMP
+#
+$CMP ADCH-80A
+D 50-10000MHz, RF Choke, Mini-Circuits CD542
+K bias filter DC choke
+F https://www.minicircuits.com/pdfs/ADCH-80A+.pdf
 $ENDCMP
 #
 $CMP ADL5904

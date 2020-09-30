@@ -894,4 +894,40 @@ K Kinetis KV11 ARM Cortex M0+
 F https://www.nxp.com/docs/en/data-sheet/KV11P64M75.pdf
 $ENDCMP
 #
+$CMP MKW21Z256VHT
+D Kinetis KW41Z-2.4 GHz, Arm Cortex-M0+, 256kB Flash, 64kB SRAM, generic FSK, LQFN-48
+K Kinetis KW21Z ARM Cortex M0+
+F https://www.nxp.com/docs/en/data-sheet/MKW41Z512.pdf
+$ENDCMP
+#
+$CMP MKW21Z512VHT
+D Kinetis KW41Z-2.4 GHz, Arm Cortex-M0+, 512kB Flash, 128kB SRAM, generic FSK, LQFN-48
+K Kinetis KW21Z ARM Cortex M0+
+F https://www.nxp.com/docs/en/data-sheet/MKW41Z512.pdf
+$ENDCMP
+#
+$CMP MKW31Z256VHT
+D Kinetis KW31Z-2.4 GHz, Arm Cortex-M0+, 256kB Flash, 64kB SRAM, Dual Mode: Bluetooth LE and generic FSK, LQFN-48
+K Kinetis KW31Z ARM Cortex M0+
+F https://www.nxp.com/docs/en/data-sheet/MKW41Z512.pdf
+$ENDCMP
+#
+$CMP MKW31Z512VHT
+D Kinetis KW41Z-2.4 GHz, Arm Cortex-M0+, 512kB Flash, 128kB SRAM, Dual Mode: Bluetooth LE and generic FSK, LQFN-48
+K Kinetis KW31Z ARM Cortex M0+
+F https://www.nxp.com/docs/en/data-sheet/MKW41Z512.pdf
+$ENDCMP
+#
+$CMP MKW41Z256VHT
+D Kinetis KW41Z-2.4 GHz, Arm Cortex-M0+, 256kB Flash, 64kB SRAM, Multi Mode: Bluetooth LE and 802.15.4 Wireless Radio and generic FSK, LQFN-48
+K Kinetis KW41Z ARM Cortex M0+
+F https://www.nxp.com/docs/en/data-sheet/MKW41Z512.pdf
+$ENDCMP
+#
+$CMP MKW41Z512VHT
+D Kinetis KW41Z-2.4 GHz, Arm Cortex-M0+, 512kB Flash, 128kB SRAM, Multi Mode: Bluetooth LE and 802.15.4 Wireless Radio and generic FSK, LQFN-48
+K Kinetis KW41Z ARM Cortex M0+
+F https://www.nxp.com/docs/en/data-sheet/MKW41Z512.pdf
+$ENDCMP
+#
 #End Doc Library

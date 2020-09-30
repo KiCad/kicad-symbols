@@ -168,6 +168,30 @@ K Switching LED driver
 F http://www.issi.com/WW/pdf/31LT3360.pdf
 $ENDCMP
 #
+$CMP LED1642GWPTR
+D 16-channel LED driver with error detection, current gain control and 12/16 bit PWM brightness control, QSOP-24
+K PWM LED driver error detection brightness QSOP-24
+F https://www.st.com/resource/en/datasheet/led1642gw.pdf
+$ENDCMP
+#
+$CMP LED1642GWQTR
+D 16-channel LED driver with error detection, current gain control and 12/16 bit PWM brightness control, QFN-24
+K PWM LED driver error detection brightness QFN-24
+F https://www.st.com/resource/en/datasheet/led1642gw.pdf
+$ENDCMP
+#
+$CMP LED1642GWTTR
+D 16-channel LED driver with error detection, current gain control and 12/16 bit PWM brightness control, TSSOP-24
+K PWM LED driver error detection brightness TSSOP-24
+F https://www.st.com/resource/en/datasheet/led1642gw.pdf
+$ENDCMP
+#
+$CMP LED1642GWXTTR
+D 16-channel LED driver with error detection, current gain control and 12/16 bit PWM brightness control, TSSOP-24
+K PWM LED driver error detection brightness TSSOP-24
+F https://www.st.com/resource/en/datasheet/led1642gw.pdf
+$ENDCMP
+#
 $CMP LED5000
 D 3A monolithic step-down current source with dimming, HSOP-8
 K LED buck driver
@@ -292,6 +316,12 @@ $CMP MAX7221xWG
 D Serially Interfaced, 8-Digit LED Display Driver, SOIC-24W
 K spi qspi microwire
 F https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf
+$ENDCMP
+#
+$CMP MCP1643xMS
+D Constant-current LED boost regulator, 0.65V startup, 550mA output, MSOP-8
+K LED driver low voltage
+F https://ww1.microchip.com/downloads/en/DeviceDoc/20005208A.pdf
 $ENDCMP
 #
 $CMP MPQ2483DQ
