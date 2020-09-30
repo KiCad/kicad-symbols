@@ -263,9 +263,9 @@ ENDDEF
 # Adafruit_Feather_M0_RFM69HCW_Packet_Radio
 #
 DEF Adafruit_Feather_M0_RFM69HCW_Packet_Radio A 0 20 Y Y 1 F N
-F0 "A" -200 1225 50 H V R CNN
-F1 "Adafruit_Feather_M0_RFM69HCW_Packet_Radio" -200 1150 50 H V R CNN
-F2 "Module:Adafruit_Feather_M0_RFM" 50 -1250 50 H I L CNN
+F0 "A" -400 1150 50 H V L CNN
+F1 "Adafruit_Feather_M0_RFM69HCW_Packet_Radio" 100 -1250 50 H V L CNN
+F2 "Module:Adafruit_Feather_M0_RFM" 100 -1350 50 H I L CNN
 F3 "" 0 -800 50 H I C CNN
 ALIAS Adafruit_Feather_M0_RFM9x_LoRa_Radio
 $FPLIST
