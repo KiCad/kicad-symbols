@@ -396,110 +396,110 @@ K diode
 F ~
 $ENDCMP
 #
-$CMP D_Dual_Serial_ACK
+$CMP D_Dual_Series_ACK
 D Dual diode, anode/center/cathode
 K diode
 F ~
 $ENDCMP
 #
-$CMP D_Dual_Serial_AKC
-D Dual diode, anode/cathode/center
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_Dual_Serial_CAK
-D Dual diode, center/anode/cathode
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_Dual_Serial_CKA
-D Dual diode, center/cathode/anode
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_Dual_Serial_KAC
-D Dual diode, cathode/anode/center
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_Dual_Serial_KCA
-D Dual diode, cathode/center/anode
-K diode
-F ~
-$ENDCMP
-#
 $CMP D_Dual_Series_ACK_Parallel
-D Dual diode, common anode on pin 1
+D Dual diode, anode/center/cathode
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Dual_Series_ACK_Split
-D Dual diode, common anode on pin 1
+D Dual diode, anode/center/cathode
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_Series_AKC
+D Dual diode, anode/cathode/center
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Dual_Series_AKC_Parallel
-D Dual diode, common anode on pin 1
+D Dual diode, anode/cathode/center
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Dual_Series_AKC_Split
-D Dual diode, common anode on pin 1
+D Dual diode, anode/cathode/center
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_Series_CAK
+D Dual diode, center/anode/cathode
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Dual_Series_CAK_Parallel
-D Dual diode, common anode on pin 1
+D Dual diode, center/anode/cathode
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Dual_Series_CAK_Split
-D Dual diode, common anode on pin 1
+D Dual diode, center/anode/cathode
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_Series_CKA
+D Dual diode, center/cathode/anode
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Dual_Series_CKA_Parallel
-D Dual diode, common anode on pin 1
+D Dual diode, center/cathode/anode
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Dual_Series_CKA_Split
-D Dual diode, common anode on pin 1
+D Dual diode, center/cathode/anode
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_Series_KAC
+D Dual diode, cathode/anode/center
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Dual_Series_KAC_Parallel
-D Dual diode, common anode on pin 1
+D Dual diode, cathode/anode/center
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Dual_Series_KAC_Split
-D Dual diode, common anode on pin 1
+D Dual diode, cathode/anode/center
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Dual_Series_KCA
+D Dual diode, cathode/center/anode
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Dual_Series_KCA_Parallel
-D Dual diode, common anode on pin 1
+D Dual diode, cathode/center/anode
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Dual_Series_KCA_Split
-D Dual diode, common anode on pin 1
+D Dual diode, cathode/center/anode
 K diode
 F ~
 $ENDCMP
@@ -714,110 +714,110 @@ K diode
 F ~
 $ENDCMP
 #
-$CMP D_Schottky_Dual_Serial_ACK
+$CMP D_Schottky_Dual_Series_ACK
 D Dual Schottky diode, anode/center/cathode
 K diode
 F ~
 $ENDCMP
 #
-$CMP D_Schottky_Dual_Serial_AKC
-D Dual Schottky diode, anode/cathode/center
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_Schottky_Dual_Serial_CAK
-D Dual Schottky diode, center/anode/cathode
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_Schottky_Dual_Serial_CKA
-D Dual Schottky diode, center/cathode/anode
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_Schottky_Dual_Serial_KAC
-D Dual Schottky diode, cathode/anode/center
-K diode
-F ~
-$ENDCMP
-#
-$CMP D_Schottky_Dual_Serial_KCA
-D Dual Schottky diode, cathode/center/anode
-K diode
-F ~
-$ENDCMP
-#
 $CMP D_Schottky_Dual_Series_ACK_Parallel
-D Dual Schottky diode, common anode on pin 1
+D Dual Schottky diode, anode/center/cathode
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Schottky_Dual_Series_ACK_Split
-D Dual Schottky diode, common anode on pin 1
+D Dual Schottky diode, anode/center/cathode
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_Series_AKC
+D Dual Schottky diode, anode/cathode/center
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Schottky_Dual_Series_AKC_Parallel
-D Dual Schottky diode, common anode on pin 1
+D Dual Schottky diode, anode/cathode/center
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Schottky_Dual_Series_AKC_Split
-D Dual Schottky diode, common anode on pin 1
+D Dual Schottky diode, anode/cathode/center
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_Series_CAK
+D Dual Schottky diode, center/anode/cathode
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Schottky_Dual_Series_CAK_Parallel
-D Dual Schottky diode, common anode on pin 1
+D Dual Schottky diode, center/anode/cathode
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Schottky_Dual_Series_CAK_Split
-D Dual Schottky diode, common anode on pin 1
+D Dual Schottky diode, center/anode/cathode
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_Series_CKA
+D Dual Schottky diode, center/cathode/anode
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Schottky_Dual_Series_CKA_Parallel
-D Dual Schottky diode, common anode on pin 1
+D Dual Schottky diode, center/cathode/anode
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Schottky_Dual_Series_CKA_Split
-D Dual Schottky diode, common anode on pin 1
+D Dual Schottky diode, center/cathode/anode
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_Series_KAC
+D Dual Schottky diode, cathode/anode/center
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Schottky_Dual_Series_KAC_Parallel
-D Dual Schottky diode, common anode on pin 1
+D Dual Schottky diode, cathode/anode/center
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Schottky_Dual_Series_KAC_Split
-D Dual Schottky diode, common anode on pin 1
+D Dual Schottky diode, cathode/anode/center
+K diode
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_Dual_Series_KCA
+D Dual Schottky diode, cathode/center/anode
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Schottky_Dual_Series_KCA_Parallel
-D Dual Schottky diode, common anode on pin 1
+D Dual Schottky diode, cathode/center/anode
 K diode
 F ~
 $ENDCMP
 #
 $CMP D_Schottky_Dual_Series_KCA_Split
-D Dual Schottky diode, common anode on pin 1
+D Dual Schottky diode, cathode/center/anode
 K diode
 F ~
 $ENDCMP
