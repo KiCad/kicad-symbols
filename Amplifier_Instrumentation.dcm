@@ -73,7 +73,7 @@ F https://www.analog.com/media/en/technical-documentation/data-sheets/AD623.pdf
 $ENDCMP
 #
 $CMP AD8230
-D 16 V Rail-to-Rail, Zero-Drift, Precision Instrumentation Amplifier, SOIC-8
+D 16V Rail-to-Rail, Zero-Drift, Precision Instrumentation Amplifier, SOIC-8
 K single instrumentation amplifier
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8230.pdf
 $ENDCMP
@@ -190,6 +190,18 @@ $CMP INA327
 D Precision, Rail-to-Rail I/O Instrumentation Amplifier, MSOP-10 package
 K instrumentation opamp
 F http://www.ti.com/lit/ds/symlink/ina326.pdf
+$ENDCMP
+#
+$CMP INA333xxDGK
+D Zero Drift, Micropower Instrumentation Amplifier G = 1 + 100kOhm/Rg, VSSOP-8
+K instrumentation opamp amplifier
+F https://www.ti.com/lit/ds/symlink/ina333.pdf
+$ENDCMP
+#
+$CMP INA333xxDRG
+D Zero Drift, Micropower Instrumentation Amplifier G = 1 + 100kOhm/Rg, WSON-8
+K instrumentation opamp amplifier
+F https://www.ti.com/lit/ds/symlink/ina333.pdf
 $ENDCMP
 #
 $CMP LTC1100xN8

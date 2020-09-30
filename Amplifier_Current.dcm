@@ -120,10 +120,22 @@ K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina138.pdf
 $ENDCMP
 #
+$CMP INA139
+D High-Side Measurement Current Shunt Monitor, 40V, SOT-23-5
+K current sense shunt monitor
+F http://www.ti.com/lit/ds/symlink/ina169.pdf
+$ENDCMP
+#
 $CMP INA168
 D High-Side Measurement Current Shunt Monitor, 60V, SOT-23-5
 K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina138.pdf
+$ENDCMP
+#
+$CMP INA169
+D High-Side Measurement Current Shunt Monitor, 60V, SOT-23-5
+K current sense shunt monitor
+F http://www.ti.com/lit/ds/symlink/ina169.pdf
 $ENDCMP
 #
 $CMP INA181
@@ -133,37 +145,37 @@ F http://www.ti.com/lit/ds/symlink/ina181.pdf
 $ENDCMP
 #
 $CMP INA193
-D Current Shunt Monitor −16 V to +80 V Common-Mode Range, 20V/V, SOT-23-5
+D Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5
 K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina193.pdf
 $ENDCMP
 #
 $CMP INA194
-D Current Shunt Monitor −16 V to +80 V Common-Mode Range, 50V/V, SOT-23-5
+D Current Shunt Monitor −16V to +80V Common-Mode Range, 50V/V, SOT-23-5
 K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina193.pdf
 $ENDCMP
 #
 $CMP INA195
-D Current Shunt Monitor −16 V to +80 V Common-Mode Range, 100V/V, SOT-23-5
+D Current Shunt Monitor −16V to +80V Common-Mode Range, 100V/V, SOT-23-5
 K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina193.pdf
 $ENDCMP
 #
 $CMP INA196
-D Current Shunt Monitor −16 V to +80 V Common-Mode Range, 20V/V, SOT-23-5
+D Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5
 K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina193.pdf
 $ENDCMP
 #
 $CMP INA197
-D Current Shunt Monitor −16 V to +80 V Common-Mode Range, 50V/V, SOT-23-5
+D Current Shunt Monitor −16V to +80V Common-Mode Range, 50V/V, SOT-23-5
 K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina193.pdf
 $ENDCMP
 #
 $CMP INA198
-D Current Shunt Monitor −16 V to +80 V Common-Mode Range, 100V/V, SOT-23-5
+D Current Shunt Monitor −16V to +80V Common-Mode Range, 100V/V, SOT-23-5
 K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina193.pdf
 $ENDCMP
@@ -214,6 +226,12 @@ $CMP INA240A4PW
 D High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 200V/V, TSSOP-8
 K current monitor shunt sensor bidirectional high low
 F http://www.ti.com/lit/ds/symlink/ina240.pdf
+$ENDCMP
+#
+$CMP INA253
+D High Voltage, Bidirectional, Zero-Drift, Current-ShuntMonitor With Integrated, 2-mΩ, Precision, Low Inductive Shunt Resistor, TSSOP-20
+K shunt current amplifier bidirectional
+F http://www.ti.com/lit/ds/symlink/ina253.pdf
 $ENDCMP
 #
 $CMP INA282
@@ -345,19 +363,49 @@ $ENDCMP
 $CMP NCS210
 D Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 200V/V Gain, SC-70-6
 K Current shunt monitor
-F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
+F https://www.onsemi.com/pub/Collateral/NCS210R-D.PDF
 $ENDCMP
 #
 $CMP NCS211
 D Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 500V/V Gain, SC-70-6
 K Current shunt monitor
-F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
+F https://www.onsemi.com/pub/Collateral/NCS210R-D.PDF
+$ENDCMP
+#
+$CMP NCS213
+D Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 50V/V Gain, SC-70-6
+K Current shunt monitor
+F https://www.onsemi.com/pub/Collateral/NCS210R-D.PDF
+$ENDCMP
+#
+$CMP NCS214
+D Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 100V/V Gain, SC-70-6
+K Current shunt monitor
+F https://www.onsemi.com/pub/Collateral/NCS210R-D.PDF
 $ENDCMP
 #
 $CMP NCV210
 D Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 200V/V Gain, SC-70-6
 K Current shunt monitor
-F http://www.onsemi.com/pub_link/Collateral/NCS210-D.PDF
+F https://www.onsemi.com/pub/Collateral/NCS210R-D.PDF
+$ENDCMP
+#
+$CMP NCV211
+D Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 500V/V Gain, SC-70-6
+K Current shunt monitor
+F https://www.onsemi.com/pub/Collateral/NCS210R-D.PDF
+$ENDCMP
+#
+$CMP NCV213
+D Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 50V/V Gain, SC-70-6
+K Current shunt monitor
+F https://www.onsemi.com/pub/Collateral/NCS210R-D.PDF
+$ENDCMP
+#
+$CMP NCV214
+D Current-Shunt Monitor, Voltage Output, Bi-Directional Zero-Drift, 100V/V Gain, SC-70-6
+K Current shunt monitor
+F https://www.onsemi.com/pub/Collateral/NCS210R-D.PDF
 $ENDCMP
 #
 $CMP ZXCT1009F
@@ -370,6 +418,12 @@ $CMP ZXCT1009T8
 D High-Side Current Monitor, SM8
 K High side current monitor shunt
 F https://www.diodes.com/assets/Datasheets/ZXCT1009.pdf
+$ENDCMP
+#
+$CMP ZXCT1010
+D Enhanced High-Side Current Monitors, SOT-23-5
+K High side current monitor shunt
+F https://www.diodes.com/assets/Datasheets/ZXCT1010.pdf
 $ENDCMP
 #
 $CMP ZXCT1107

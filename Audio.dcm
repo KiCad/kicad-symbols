@@ -42,6 +42,12 @@ K audio adc 2ch 24bit 96kHz I2S MSB TDM
 F https://www.akm.com/akm/en/file/datasheet/AK5720VT.pdf
 $ENDCMP
 #
+$CMP AK7742EQ
+D 24bit 2ch ADC + 24bit 4ch DAC with Audio DSP, LQFP-48
+K audio adc 2ch dac 4ch dsp
+F https://www.akm.com/akm/en/file/datasheet/AK7742EQ.pdf
+$ENDCMP
+#
 $CMP AS3310
 D ADSR Voltage Controlled Envelope Generator, DIP-16/SOIC-16
 K VCEG CEM3310 ALFA
@@ -102,6 +108,18 @@ K audio codec 2ch 24bit 192kHz
 F https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/CS4245_F3.pdf
 $ENDCMP
 #
+$CMP CS4270
+D 24-Bit, 192-kHz Stereo Audio CODEC, TSSOP-24
+K Audio Codec
+F https://statics.cirrus.com/pubs/proDatasheet/CS4270_F1.pdf
+$ENDCMP
+#
+$CMP CS4272
+D 24-Bit, 192 kHz Stereo Audio CODEC, TSSOP-28
+K stereo 2ch audio codec i2s 24bit 192kHz
+F https://statics.cirrus.com/pubs/proDatasheet/CS4272_F1.pdf
+$ENDCMP
+#
 $CMP CS43L21
 D Low-Power, Stereo Digital-to-Analog Converter, QFN-32
 K audio dac 2ch 24bit 96kHz
@@ -156,6 +174,72 @@ K audio dac 2ch 24bit 192kHz
 F http://www.ti.com/lit/ds/symlink/dsd1794a.pdf
 $ENDCMP
 #
+$CMP ISD25120P
+D Single-Chip Voice Record/Playback Device 120-Second Duration, DIP-28
+K isd25120
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
+$CMP ISD25120S
+D Single-Chip Voice Record/Playback Device 120-Second Duration, SOIC-28
+K isd25120
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
+$CMP ISD2560E
+D Single-Chip Voice Record/Playback Device 60-Second Duration, TSOP-I-28
+K isd2560
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
+$CMP ISD2560P
+D Single-Chip Voice Record/Playback Device 60-Second Duration, DIP-28
+K isd2560
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
+$CMP ISD2560S
+D Single-Chip Voice Record/Playback Device 60-Second Duration, SOIC-28
+K isd2560
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
+$CMP ISD2575E
+D Single-Chip Voice Record/Playback Device 75-Second Duration, TSOP-I-28
+K isd2575
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
+$CMP ISD2575P
+D Single-Chip Voice Record/Playback Device 75-Second Duration, DIP-28
+K isd2575
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
+$CMP ISD2575S
+D Single-Chip Voice Record/Playback Device 75-Second Duration, SOIC-28
+K isd2575
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
+$CMP ISD2590E
+D Single-Chip Voice Record/Playback Device 90-Second Duration, TSOP-I-28
+K isd2590
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
+$CMP ISD2590P
+D Single-Chip Voice Record/Playback Device 90-Second Duration, DIP-28
+K isd2590
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
+$CMP ISD2590S
+D Single-Chip Voice Record/Playback Device 90-Second Duration, SOIC-28
+K isd2590
+F https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
+$ENDCMP
+#
 $CMP MN3005
 D 4096-STAGE LONG DELAY BBD (bucket brigade device), delay time 20.48ms to 204.8ms, S/N 75dB, clock frequency range 10KHz to 100KHz
 K Matsushita Panasonic BBD
@@ -192,6 +276,12 @@ K audio dac 2ch 24bit 192kHz
 F http://www.ti.com/lit/ds/symlink/pcm1794a.pdf
 $ENDCMP
 #
+$CMP PCM2902
+D Stereo Audio Codec with USB interface, Analog Iput/Output, and S/PDIF, SSOP-28
+K pcm2902 usb audio
+F http://www.ti.com/lit/ds/symlink/pcm2902c.pdf
+$ENDCMP
+#
 $CMP PCM5100
 D 2VRMS DirectPath, 100dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface, TSSOP-20
 K audio dac 2ch 32bit 384kHz
@@ -208,6 +298,18 @@ $CMP PCM5102
 D 2VRMS DirectPath, 112dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface, TSSOP-20
 K audio dac 2ch 32bit 384kHz
 F http://www.ti.com/lit/ds/symlink/pcm5102.pdf
+$ENDCMP
+#
+$CMP PCM5121PW
+D 2VRMS DirectPath, 106dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface, TSSOP-28
+K audio dac 2ch 32bit 384kHz
+F http://www.ti.com/lit/ds/symlink/pcm5121.pdf
+$ENDCMP
+#
+$CMP PCM5122PW
+D 2VRMS DirectPath, 112dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface, TSSOP-28
+K audio dac 2ch 32bit 384kHz
+F http://www.ti.com/lit/ds/symlink/pcm5122.pdf
 $ENDCMP
 #
 $CMP PGA4311
@@ -244,6 +346,24 @@ $CMP SAD512
 D SAD-512 ANALOG DELAY LINE, bucket brigade device, 512 stages, signal frequency range 0 to 200KHz, clock frequency range 1.5KHz to 1.5MHz
 K EG&G RETICON BBD N-channel silicon-gate
 F http://thmq.mysteria.cz/em1022/SAD1024.pdf
+$ENDCMP
+#
+$CMP SGTL5000XNAA3
+D Low Power Stereo Codec with Headphone Amp, QFN-32
+K Codec
+F https://www.nxp.com/docs/en/data-sheet/SGTL5000.pdf
+$ENDCMP
+#
+$CMP SGTL5000XNLA3
+D Low Power Stereo Codec with Headphone Amp, QFN-20
+K Codec
+F https://www.nxp.com/docs/en/data-sheet/SGTL5000.pdf
+$ENDCMP
+#
+$CMP SRC4392xPFB
+D Two-Channel, Asynchronous Sample Rate Converter with Integrated Digital Audio Interface Receiver and Transmitter, TQFP-48
+K audio sample rate converter
+F http://www.ti.com/lit/ds/symlink/src4392.pdf
 $ENDCMP
 #
 $CMP SSI2144
@@ -330,6 +450,12 @@ K audio codec 2ch 96kHz headphone amplifier
 F http://www.ti.com/lit/ds/symlink/tlv320aic23b.pdf
 $ENDCMP
 #
+$CMP TLV320AIC3100
+D Low Power Audio Codec with Audio Processing and Mono Class‑D Amplifier, VQFN-32
+K audio codec 2ch 192kHz class-d amplifier
+F http://www.ti.com/lit/ds/symlink/tlv320aic3100.pdf
+$ENDCMP
+#
 $CMP TPA5050
 D Stereo Digital Audio Lip-Sync Delay Processor With I2C Control, QFN-16
 K audio delay
@@ -340,6 +466,30 @@ $CMP UDA1334ATS
 D Low Power Audio DAC with PLL, SSOP-16
 K audio dac 2ch 24bit 96kHz
 F http://www.nxp.com/docs/en/data-sheet/UDA1334ATS.pdf
+$ENDCMP
+#
+$CMP WM8731CLSEFL
+D Portable Internet Audio CODEC with Headphone Driver and Programmable Sample Rates, QFN-28
+K wolfson stereo audio codec adc dac headphone
+F https://statics.cirrus.com/pubs/proDatasheet/WM8731_v4.9.pdf
+$ENDCMP
+#
+$CMP WM8731CSEFL
+D Portable Internet Audio CODEC with Headphone Driver and Programmable Sample Rates, QFN-28
+K wolfson stereo audio codec adc dac headphone
+F https://statics.cirrus.com/pubs/proDatasheet/WM8731_v4.9.pdf
+$ENDCMP
+#
+$CMP WM8731SEDS
+D Portable Internet Audio CODEC with Headphone Driver and Programmable Sample Rates, SSOP-28
+K wolfson stereo audio codec adc dac headphone
+F https://statics.cirrus.com/pubs/proDatasheet/WM8731_v4.9.pdf
+$ENDCMP
+#
+$CMP YM2149
+D Software-Controlled Sound Generator, DIP-40
+K audio ssg 3ch
+F http://www.ym2149.com/ym2149.pdf
 $ENDCMP
 #
 #End Doc Library
