@@ -313,7 +313,7 @@ ENDDEF
 DEF Adafruit_Feather_M0_Wifi A 0 20 Y Y 1 F N
 F0 "A" -400 950 50 H V L CNN
 F1 "Adafruit_Feather_M0_Wifi" 100 -1450 50 H V L CNN
-F2 "Module:Adafruit_Feather" 100 -1550 50 H I L CNN
+F2 "Module:Adafruit_Feather_M0_Wifi" 100 -1550 50 H I L CNN
 F3 "" 0 -1000 50 H I C CNN
 $FPLIST
  Adafruit*Feather*
