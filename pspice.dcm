@@ -78,4 +78,22 @@ K simulation
 F ~
 $ENDCMP
 #
+$CMP BSOURCE
+D Arbitrary behavioral voltage or current source
+K simulation
+F http://ltwiki.org/?title=B_sources_%28complete_reference%29
+$ENDCMP
+#
+$CMP ESOURCE
+D Voltage-dependent Voltage source symbol for simulation only
+K simulation
+F https://www.pspice.com/source/controlled-sources
+$ENDCMP
+#
+$CMP GSOURCE
+D Voltage-dependent Current source symbol for simulation only
+K simulation
+F https://www.pspice.com/source/controlled-sources
+$ENDCMP
+#
 #End Doc Library

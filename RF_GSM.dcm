@@ -6,6 +6,12 @@ K NB-IoT Data SMS
 F https://www.quectel.com/UploadImage/Downlad/Quectel_BC66_Hardware_Design_V1.1.pdf
 $ENDCMP
 #
+$CMP BC95
+D NB-IoT, GSM Quad-Band Communication Module, GPRS, Audio Engine, AT Command Set
+K NB-IoT GSM GPRS Quad-Band SMS
+F https://www.quectel.com/UploadImage/Downlad/Quectel_BC95_Hardware_Design_V1.3.pdf
+$ENDCMP
+#
 $CMP SARA-U201
 D Ublox HSPA GSM Quad-Band Communication Module, AT Command Set, AT Command Set, Worldwide , LGA-96
 K GSM HSPA 2G 3G
@@ -33,13 +39,13 @@ $ENDCMP
 $CMP SIM7020C
 D NB-IoT B1/B3/B5/B8, AT Command Set
 K NB-IoT Data SMS
-F https://simcom.ee/documents/SIM7020/SIM7020%20Hardware%20Design_V1.01.pdf
+F https://simcom.ee/documents/SIM7020/SIM7020%20Hardware%20Design_V1.02.pdf
 $ENDCMP
 #
 $CMP SIM7020E
 D NB-IoT B1/B3/B5/B8/B20/B28, AT Command Set
 K NB-IoT Data SMS
-F https://simcom.ee/documents/SIM7020/SIM7020%20Hardware%20Design_V1.01.pdf
+F https://simcom.ee/documents/SIM7020/SIM7020%20Hardware%20Design_V1.02.pdf
 $ENDCMP
 #
 $CMP SIM800C
