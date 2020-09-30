@@ -1673,6 +1673,12 @@ K RJ45 Magjack
 F https://www.amphenolcanada.com/ProductSearch/Drawings/AC/RJMG1BD3B8K1ANR.PDF
 $ENDCMP
 #
+$CMP RJ45_Bel_SI-60062-F
+D 1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, AutoMDIX
+K RJ45 Magjack
+F https://belfuse.com/resources/drawings/magneticsolutions/dr-mag-si-60062-f.pdf
+$ENDCMP
+#
 $CMP RJ45_LED
 D RJ connector, 8P8C (8 positions 8 connected), two LEDs
 K 8P8C RJ female connector led
