@@ -222,4 +222,10 @@ K display oled
 F https://www.vishay.com/docs/37902/oled128o064dbpp3n00000.pdf
 $ENDCMP
 #
+$CMP ERM19264
+D Graphics Display 192x64px,  8b parallel, 1/64 Duty, 3.3V or 5V VDD
+K display LCD graphic
+F https://www.buydisplay.com/download/manual/ERM19264-1_Series_Datasheet.pdf
+$ENDCMP
+#
 #End Doc Library
