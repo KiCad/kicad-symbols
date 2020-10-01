@@ -54,6 +54,12 @@ K 3-axis accelerometer spi i2c mems
 F http://kionixfs.kionix.com/en/datasheet/KX222-1054-Specifications-Rev-2.0.pdf
 $ENDCMP
 #
+$CMP KXTJ3-1057
+D ±2g / 4g / 8g / 16g Tri-Axis Digital Accelerometer, I2C, 1.71-3.6V, LGA-12
+K accelerometer, tri-axis, i2c
+F http://kionixfs.kionix.com/en/datasheet/KXTJ3-1057-Specifications-Rev-5.0.pdf
+$ENDCMP
+#
 $CMP L3GD20
 D [Not recommended for new designs] 16-bit 3 Axis Digital MEMS Gyroscope, LGA-16
 K 3-Axis MEMS Gyroscope
