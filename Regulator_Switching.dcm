@@ -1357,9 +1357,15 @@ F http://www.ti.com/lit/ds/symlink/lm2675.pdf
 $ENDCMP
 #
 $CMP LM2705
+D 1A, 5.5V Step-Down Voltage Regulator, 1.6MHz Frequency, SOT-23-5
+K Miniature Step-Down Buck Voltage Regulator
+F http://www.ti.com/lit/ds/symlink/lmr10510.pdf
+$ENDCMP
+#
+$CMP LM2705MF
 D 150mA, 20V Boost Voltage Regulator, Load variant Frequency, SOT-23-5
-K Miniature Step-Up Boost Voltage Regulator
-F http://www.ti.com/lit/ds/symlink/lm2705.pdf
+K Miniature Step-Up Buck Voltage Regulator
+F http://www.ti.com/lit/ds/symlink/lmr2705.pdf
 $ENDCMP
 #
 $CMP LM27313XMF
