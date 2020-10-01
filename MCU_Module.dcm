@@ -103,8 +103,8 @@ F http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf
 $ENDCMP
 #
 $CMP Arduino_Pro_Mini
-D Arduino Pro Mini
-K Arduino Pro Mini Microcontroller Module Atmel AVR USB
+D Microcontroller module with Atmel 328p
+K Arduino Pro Mini microcontroller module 328p
 F https://www.arduino.cc/en/uploads/Main/Arduino-Pro-Mini-schematic.pdf
 $ENDCMP
 #
@@ -274,6 +274,12 @@ $CMP Sipeed-M1
 D AI accelerated RISC-V microcontroller
 K AI Kendryte K210 RISC-V
 F https://dl.sipeed.com/MAIX/HDK/Sipeed-M1&M1W/Specifications
+$ENDCMP
+#
+$CMP Sparkfun_Pro_Micro
+D Microcontroller module with Atmel 32U4
+K Sparkfun Pro Micro microcontroller module 32U4
+F https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/Pro_Micro_v13b.pdf
 $ENDCMP
 #
 $CMP VisionSOM-6UL
