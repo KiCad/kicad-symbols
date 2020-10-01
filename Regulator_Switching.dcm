@@ -3384,6 +3384,18 @@ K regulator switching adjustable
 F https://www.monolithicpower.com/pub/media/document/m/p/mp171_r1.01.pdf
 $ENDCMP
 #
+$CMP MP2303ADN
+D Synchronous Rectified 3A, 28V, 360kHz Step-Down Converter, SOIC-8
+K buck converter step down
+F https://www.monolithicpower.com/pub/media/document/MP2303A_r1.1.pdf
+$ENDCMP
+#
+$CMP MP2303ADP
+D Synchronous Rectified 3A, 28V, 360kHz Step-Down Converter, DIP-8
+K buck converter step down
+F https://www.monolithicpower.com/pub/media/document/MP2303A_r1.1.pdf
+$ENDCMP
+#
 $CMP MT3608
 D High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6
 K Step-Up Boost DC-DC Regulator Adjustable
