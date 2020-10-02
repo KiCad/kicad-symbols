@@ -570,4 +570,10 @@ K USB 2.0 High Speed Switch
 F http://ww1.microchip.com/downloads/en/DeviceDoc/00001725D.pdf
 $ENDCMP
 #
+$CMP USB_C_6pins
+D USB 2.0-only Type-C Plug connector
+K usb universal serial bus type-C USB2.0
+F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+$ENDCMP
+#
 #End Doc Library
