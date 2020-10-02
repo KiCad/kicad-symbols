@@ -210,6 +210,12 @@ K STM32 Nucleo ST
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/data_brief/DM00105918.pdf
 $ENDCMP
 #
+$CMP NodeMCU_DEVKIT_V1.0
+D Microcontroller module with ESP8266 MCU
+K ESP8266 microcontroller module USB WIFI
+F https://github.com/nodemcu/nodemcu-devkit-v1.0/blob/master/NODEMCU_DEVKIT_V1.0.PDF
+$ENDCMP
+#
 $CMP Omega2+
 D Iot Computer Module by Onion
 K onion omega module
