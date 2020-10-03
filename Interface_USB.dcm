@@ -306,6 +306,30 @@ K USB USB-C PD Power Delivery PHY TCPC
 F http://www.onsemi.com/pub/Collateral/FUSB307B-D.PDF
 $ENDCMP
 #
+$CMP HT42B534-x-10MSOP
+D USB to UART Bridge IC, MSOP-10
+K USB UART Converter
+F https://www.holtek.com/documents/10179/11842/HT42B534-xv110.pdf
+$ENDCMP
+#
+$CMP HT42B534-x-10SOP
+D USB to UART Bridge IC, SOP-10
+K USB UART Converter
+F https://www.holtek.com/documents/10179/11842/HT42B534-xv110.pdf
+$ENDCMP
+#
+$CMP HT42B534-x-16NSOP
+D USB to UART Bridge IC, NSOP-16
+K USB UART Converter
+F https://www.holtek.com/documents/10179/11842/HT42B534-xv110.pdf
+$ENDCMP
+#
+$CMP HT42B534-x-8SOP
+D USB to UART Bridge IC, SOP-8
+K USB UART Converter
+F https://www.holtek.com/documents/10179/11842/HT42B534-xv110.pdf
+$ENDCMP
+#
 $CMP MA8601
 D USB 2.0 High Speed 4-Port Hub Controller, SSOP-28
 K 4-Port, EEPROM, High Speed, Hub, USB2.0
