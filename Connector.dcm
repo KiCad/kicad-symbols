@@ -414,6 +414,11 @@ K connector 3-pin PD-30 power DIN
 F http://www.cui.com/product/resource/pd-30.pdf
 $ENDCMP
 #
+$CMP CUI_PD-30S
+D 3 pin connector, PD-30S
+K connector 3-pin PD-30S power DIN
+F http://www.cui.com/product/resource/pd-30.pdf
+$ENDCMP
 $CMP CoaxialSwitch_Testpoint
 D Subminiature Coaxial Switch testpoint
 K  Coaxial Switch RF testpoint
@@ -1488,6 +1493,12 @@ K lan jack transformer
 F https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/JXD6-0001NL/doc_part/JXD6-0001NL.pdf
 $ENDCMP
 #
+$CMP RB1-125B8G1A
+D LAN Transformer Jack, RJ45, 10/100/1000 BaseT
+K lan jack transformer ethernet gigabit 10 100 1000 baset
+F https://datasheet.lcsc.com/szlcsc/1901091107_UDE-Corp-RB1-125B8G1A_C363353.pdf
+$ENDCMP
+#
 $CMP RJ10
 D RJ connector, 4P4C (4 positions 4 connected)
 K 4P4C RJ female connector
@@ -1684,6 +1695,12 @@ $CMP RJ45_Amphenol_RJMG1BD3B8K1ANR
 D 1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, AutoMDIX
 K RJ45 Magjack
 F https://www.amphenolcanada.com/ProductSearch/Drawings/AC/RJMG1BD3B8K1ANR.PDF
+$ENDCMP
+#
+$CMP RJ45_Bel_SI-60062-F
+D 1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, AutoMDIX
+K RJ45 Magjack
+F https://belfuse.com/resources/drawings/magneticsolutions/dr-mag-si-60062-f.pdf
 $ENDCMP
 #
 $CMP RJ45_LED

@@ -1,5 +1,77 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Adafruit_Feather_32u4_BluefruitLE
+D Microcontroller module with ATmega32u4 MCU and bluetooth
+K Adafruit feather microcontroller module USB AVR ATmega32U4  Bluetooth BLE
+F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-32u4-bluefruit-le.pdf
+$ENDCMP
+#
+$CMP Adafruit_Feather_Generic
+D Microcontroller module in various flavor, generic symbol
+K Adafruit feather microcontroller module
+F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather.pdf
+$ENDCMP
+#
+$CMP Adafruit_Feather_HUZZAH32_ESP32
+D Microcontroller module with ESP32 MCU
+K Adafruit feather microcontroller module USB
+F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-huzzah32-esp32-feather.pdf
+$ENDCMP
+#
+$CMP Adafruit_Feather_HUZZAH_ESP8266
+D Microcontroller module with ESP8266 MCU
+K Adafruit feather microcontroller module USB
+F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-huzzah-esp8266.pdf
+$ENDCMP
+#
+$CMP Adafruit_Feather_M0_Adalogger
+D Microcontroller module with SAMD21 Cortex-M0 MCU and SD card reader
+K Adafruit feather microcontroller module USB SD
+F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-m0-adalogger.pdf
+$ENDCMP
+#
+$CMP Adafruit_Feather_M0_Basic_Proto
+D Microcontroller module with SAMD21 Cortex-M0 MCU
+K Adafruit feather microcontroller module USB M0 SAMD21
+F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-m0-basic-proto.pdf
+$ENDCMP
+#
+$CMP Adafruit_Feather_M0_BluefruitLE
+D Microcontroller module with SAMD21 Cortex-M0 MCU and bluetooth
+K Adafruit feather microcontroller module USB M0 SAMD21 Bluetooth BLE
+F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-m0-bluefruit-le.pdf
+$ENDCMP
+#
+$CMP Adafruit_Feather_M0_Express
+D Microcontroller module with SAMD21 Cortex-M0 MCU and SPI Flash
+K Adafruit feather microcontroller module USB SPI Flash CircuitPython
+F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-m0-express-designed-for-circuit-python-circuitpython.pdf
+$ENDCMP
+#
+$CMP Adafruit_Feather_M0_RFM69HCW_Packet_Radio
+D Microcontroller module with SAMD21 Cortex-M0 MCU and RFM69HCW Radio
+K Adafruit feather microcontroller module USB M0 SAMD21 Radio
+F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-m0-radio-with-rfm69-packet-radio.pdf
+$ENDCMP
+#
+$CMP Adafruit_Feather_M0_RFM9x_LoRa_Radio
+D Microcontroller module with SAMD21 Cortex-M0 MCU and RFM9x Radio
+K Adafruit feather microcontroller module USB M0 SAMD21 LoRa Radio
+F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-m0-radio-with-lora-radio-module.pdf
+$ENDCMP
+#
+$CMP Adafruit_Feather_M0_Wifi
+D Microcontroller module with SAMD21 Cortex-M0 MCU and ATWINC1500 Wifi
+K Adafruit feather microcontroller module USB M0 SAMD21 Wifi ATWINC1500
+F https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-m0-wifi-atwinc1500.pdf
+$ENDCMP
+#
+$CMP Adafruit_Feather_WICED_Wifi
+D Microcontroller module with STM32F205 Cortex-M3 MCU and BCM43362 Wifi
+K Adafruit feather microcontroller module USB M3 STM32F205 Wifi
+F https://cdn-learn.adafruit.com/downloads/pdf/introducing-the-adafruit-wiced-feather-wifi.pdf
+$ENDCMP
+#
 $CMP Adafruit_HUZZAH_ESP8266_breakout
 D 32-bit microcontroller module with WiFi
 K ESP8266 WiFi microcontroller
@@ -52,6 +124,12 @@ $CMP CHIP-PRO
 D NextThingCo C.H.I.P. Pro Module
 K nextthingco chip pro module
 F https://github.com/NextThingCo/CHIP_Pro-Hardware/blob/master/Datasheets/CHIP_PRO_Datasheet_v1.0.pdf
+$ENDCMP
+#
+$CMP Carambola2
+D Qualcomm AR9331, 16MB Flash, 64MB RAM, USB, Serial, Ethernet, GPIO, OpenWRT, industrial SoM computer
+K carambola, 8devices, openwrt, board, wlan
+F https://www.8devices.com/media/products/carambola2/downloads/carambola2-datasheet.pdf
 $ENDCMP
 #
 $CMP Maple_Mini
@@ -184,6 +262,12 @@ $CMP RaspberryPi-CM3-L
 D BCM2837 Broadcom 1.2 GHZ quad core, 1 GB RAM, industrial SoM computer
 K raspberry pi compute module
 F https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM_1p0.pdf
+$ENDCMP
+#
+$CMP Sipeed-M1
+D AI accelerated RISC-V microcontroller
+K AI Kendryte K210 RISC-V
+F https://dl.sipeed.com/MAIX/HDK/Sipeed-M1&M1W/Specifications
 $ENDCMP
 #
 $CMP VisionSOM-6UL

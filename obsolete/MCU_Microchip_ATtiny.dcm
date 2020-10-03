@@ -7,7 +7,7 @@ F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny%2011_12%20Comp
 $ENDCMP
 #
 $CMP ATtiny11-6SC
-D 6MHz, 1kB Flash, No SRAM, No EEPROM, SOIJ-8
+D 6MHz, 1kB Flash, No SRAM, No EEPROM, SOIC-8W
 K AVR 8bit Microcontroller tinyAVR
 F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny%2011_12%20Complete.pdf
 $ENDCMP
@@ -19,7 +19,7 @@ F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny%2011_12%20Comp
 $ENDCMP
 #
 $CMP ATtiny11L-2SC
-D 2MHz, 1kB Flash, No SRAM, No EEPROM, SOIJ-8
+D 2MHz, 1kB Flash, No SRAM, No EEPROM, SOIC-8W
 K AVR 8bit Microcontroller tinyAVR
 F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny%2011_12%20Complete.pdf
 $ENDCMP
@@ -31,7 +31,7 @@ F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny%2011_12%20Comp
 $ENDCMP
 #
 $CMP ATtiny12-8SC
-D 8MHz, 1kB Flash, No SRAM, 64B EEPROM, SOIJ-8
+D 8MHz, 1kB Flash, No SRAM, 64B EEPROM, SOIC-8W
 K AVR 8bit Microcontroller tinyAVR
 F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny%2011_12%20Complete.pdf
 $ENDCMP
@@ -43,7 +43,7 @@ F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny%2011_12%20Comp
 $ENDCMP
 #
 $CMP ATtiny12L-4SC
-D 4MHz, 1kB Flash, No SRAM, 64B EEPROM, SOIJ-8
+D 4MHz, 1kB Flash, No SRAM, 64B EEPROM, SOIC-8W
 K AVR 8bit Microcontroller tinyAVR
 F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny%2011_12%20Complete.pdf
 $ENDCMP
@@ -55,7 +55,7 @@ F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny%2011_12%20Comp
 $ENDCMP
 #
 $CMP ATtiny12V-1SC
-D 1.2MHz, 1kB Flash, No SRAM, 64B EEPROM, SOIJ-8
+D 1.2MHz, 1kB Flash, No SRAM, 64B EEPROM, SOIC-8W
 K AVR 8bit Microcontroller tinyAVR
 F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny%2011_12%20Complete.pdf
 $ENDCMP
@@ -67,7 +67,7 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/doc1187.pdf
 $ENDCMP
 #
 $CMP ATtiny15L-1SC
-D 1.6MHz, 1kB Flash, No SRAM, 64B EEPROM, SOIJ-8
+D 1.6MHz, 1kB Flash, No SRAM, 64B EEPROM, SOIC-8W
 K AVR 8bit Microcontroller tinyAVR
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc1187.pdf
 $ENDCMP
@@ -79,7 +79,7 @@ F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny22L.pdf
 $ENDCMP
 #
 $CMP ATtiny22L-1SC
-D 1MHz, 2kB Flash, 128B SRAM, 128B EEPROM, SOIJ-8
+D 1MHz, 2kB Flash, 128B SRAM, 128B EEPROM, SOIC-8W
 K AVR 8bit Microcontroller tinyAVR
 F https://media.digikey.com/pdf/Data%20Sheets/Atmel%20PDFs/ATtiny22L.pdf
 $ENDCMP

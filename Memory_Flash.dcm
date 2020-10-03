@@ -50,6 +50,12 @@ K SPI DSPI QSPI 8Mbit 2.3V
 F https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf
 $ENDCMP
 #
+$CMP AT25SL321-U
+D 32-Mbit, 1.7V 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, WLCSP-8
+K SPI DSPI QSPI 32Mbit 1.7V
+F https://www.adestotech.com/wp-content/uploads/AT25SL321_112.pdf
+$ENDCMP
+#
 $CMP AT45DB161-JC
 D 16Mb Serial DataFlash, 2.7V Vcc, PLCC-32
 K Atmel DataFlash
@@ -117,13 +123,13 @@ F http://www.issi.com/WW/pdf/IS25LP(WP)256D.pdf
 $ENDCMP
 #
 $CMP M25PX32-VMP
-D 32Mb, Dual I/O, 4KB Subsector Erase, 3V Serial Flash Memory with 75 MHz SPI Bus Interface, QFN package
+D 32Mb, Dual I/O, 4KB Subsector Erase, 3V Serial Flash Memory with 75 MHz SPI Bus Interface, DFN-8
 K NOR Serial Flash Embedded Memory
 F https://www.micron.com/~/media/documents/products/data-sheet/nor-flash/serial-nor/m25px/m25px32.pdf
 $ENDCMP
 #
 $CMP M25PX32-VMW
-D 32Mb, Dual I/O, 4KB Subsector Erase, 3V Serial Flash Memory with 75 MHz SPI Bus Interface, SOIJ package
+D 32Mb, Dual I/O, 4KB Subsector Erase, 3V Serial Flash Memory with 75 MHz SPI Bus Interface, SOIC-8W
 K NOR Serial Flash Embedded Memory
 F https://www.micron.com/~/media/documents/products/data-sheet/nor-flash/serial-nor/m25px/m25px32.pdf
 $ENDCMP

@@ -30,6 +30,12 @@ K Fullbridge, Stepper Driver
 F https://www.allegromicro.com/-/media/Files/Datasheets/A4954-Datasheet.ashx
 $ENDCMP
 #
+$CMP AMT49413
+D 3-Phase BLDC Controller and MOSFET Driver, QFN-48
+K BLDC 3-Phase
+F https://www.allegromicro.com/-/media/Files/Datasheets/AMT49413-Datasheet.ashx
+$ENDCMP
+#
 $CMP DRV8308
 D Brushless DC motor controller, closed loop, hall sensor inputs, current limiting, SPI interface
 K bldc mosfet-driver hall-sensor
@@ -346,6 +352,18 @@ $CMP TMC262
 D Driver for two-phase stepper motors with external mosfet
 K trinamic tlc262 stepper
 F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC262_Datasheet.pdf
+$ENDCMP
+#
+$CMP TMC5130A-TA
+D Power Driver For Stepper Motors, 2.0A, 4.75-46V, TQFP-48
+K Standalone driver stepper motor
+F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC5130_datasheet_Rev1.17.pdf
+$ENDCMP
+#
+$CMP TMC5160A-TA
+D 20A Driver for two-phase bipolar stepper motor, SPI, UART, TQFP-48
+K stepper motor driver trinamic
+F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC5160A_Datasheet_Rev1.14.pdf
 $ENDCMP
 #
 $CMP VNH2SP30

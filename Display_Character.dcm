@@ -90,6 +90,30 @@ K display LED 7-segment
 F http://www.kingbrightusa.com/images/catalog/SPEC/CC56-12YWA.pdf
 $ENDCMP
 #
+$CMP D148K
+D One digit 7 segment yellowish-green LED, low current, common cathode
+K display LED 7-segment
+F https://ia800903.us.archive.org/24/items/CTKD1x8K/Cromatek%20D168K.pdf
+$ENDCMP
+#
+$CMP D168K
+D One digit 7 segment ultra bright red LED, low current, common cathode
+K display LED 7-segment
+F https://ia800903.us.archive.org/24/items/CTKD1x8K/Cromatek%20D168K.pdf
+$ENDCMP
+#
+$CMP D198K
+D One digit 7 segment orangish-red LED, low current, common cathode
+K display LED 7-segment
+F https://ia800903.us.archive.org/24/items/CTKD1x8K/Cromatek%20D168K.pdf
+$ENDCMP
+#
+$CMP D1X8K-14BL
+D One digit 7 segment ultra bright blue LED, low current, common cathode
+K display LED 7-segment
+F https://ia800903.us.archive.org/24/items/CTKD1x8K/Cromatek%20D168K.pdf
+$ENDCMP
+#
 $CMP DA04-11CGKWA
 D Double 7 segment green LED common anode
 K display LED 7-segment
@@ -448,6 +472,42 @@ $CMP LM16255K
 D 2 Lines, 12 character reflective LCD
 K display LCD dot-matrix
 F http://pdf.datasheetcatalog.com/datasheet/Sharp/mXvtrzw.pdf
+$ENDCMP
+#
+$CMP LTC-4627JD
+D 4 digit 7 segment hyper red, common anode
+K display LED 7-segment
+F http://optoelectronics.liteon.com/upload/download/DS30-2001-093/LTC-4627JD.pdf
+$ENDCMP
+#
+$CMP LTC-4627JD-01
+D 4 digit 7 segment hyper red, common anode
+K display LED 7-segment
+F http://optoelectronics.liteon.com/upload/download/DS30-2008-0116/LTC-4627JD-01.pdf
+$ENDCMP
+#
+$CMP LTC-4627JF
+D 4 digit 7 segment yellow orange, common anode
+K display LED 7-segment
+F http://optoelectronics.liteon.com/upload/download/DS30-2000-192/C4627JF.pdf
+$ENDCMP
+#
+$CMP LTC-4627JG
+D 4 digit 7 segment green, common anode
+K display LED 7-segment
+F http://optoelectronics.liteon.com/upload/download/DS30-2001-393/C4627JG.pdf
+$ENDCMP
+#
+$CMP LTC-4627JR
+D 4 digit 7 segment super red, common anode
+K display LED 7-segment
+F http://optoelectronics.liteon.com/upload/download/DS30-2000-185/LTC-4627JR.pdf
+$ENDCMP
+#
+$CMP LTC-4627JS
+D 4 digit 7 segment yellow, common anode
+K display LED 7-segment
+F http://optoelectronics.liteon.com/upload/download/DS30-2000-186/LTC-4627JS.pdf
 $ENDCMP
 #
 $CMP LTS-6960HR

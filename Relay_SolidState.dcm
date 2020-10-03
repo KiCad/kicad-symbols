@@ -18,6 +18,102 @@ K NPN DC Optocoupler
 F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
 $ENDCMP
 #
+$CMP AQH0213
+D Zero Cross Opto-Triac, Vdrm 600V, Ift 10mA, IT 300mA, DIP-7
+K Opto-Triac Opto Triac Zero Cross Solid State Relays
+F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/2787
+$ENDCMP
+#
+$CMP AQH0213A
+D Zero Cross Opto-Triac, Vdrm 600V, Ift 10mA, IT 300mA, SOIC-7
+K Opto-Triac Opto Triac Zero Cross Solid State Relays
+F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/2787
+$ENDCMP
+#
+$CMP AQH0223
+D Random Phase Opto-Triac, Vdrm 600V, Ift 10mA, IT 300mA, DIP-7
+K Opto-Triac Opto Triac Random Phase
+F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/2787
+$ENDCMP
+#
+$CMP AQH0223A
+D Random Phase Opto-Triac, Vdrm 600V, Ift 10mA, IT 300mA, SOIC-7
+K Opto-Triac Opto Triac Random Phase
+F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/2787
+$ENDCMP
+#
+$CMP AQH1213
+D Zero Cross Opto-Triac, Vdrm 600V, Ift 10mA, IT 600mA, DIP-7
+K Opto-Triac Opto Triac Zero Cross Solid State Relays
+F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/2787
+$ENDCMP
+#
+$CMP AQH1213A
+D Zero Cross Opto-Triac, Vdrm 600V, Ift 10mA, IT 600mA, SOIC-7
+K Opto-Triac Opto Triac Zero Cross Solid State Relays
+F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/2787
+$ENDCMP
+#
+$CMP AQH1223
+D Random Phase Opto-Triac, Vdrm 600V, Ift 10mA, IT 600mA, DIP-7
+K Opto-Triac Opto Triac Random Phase
+F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/2787
+$ENDCMP
+#
+$CMP AQH1223A
+D Random Phase Opto-Triac, Vdrm 600V, Ift 10mA, IT 600mA, SOIC-7
+K Opto-Triac Opto Triac Random Phase
+F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/2787
+$ENDCMP
+#
+$CMP AQH2213
+D Zero Cross Opto-Triac, Vdrm 600V, Ift 10mA, IT 900mA, DIP-7
+K Opto-Triac Opto Triac Zero Cross Solid State Relays
+F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/2787
+$ENDCMP
+#
+$CMP AQH2213A
+D Zero Cross Opto-Triac, Vdrm 600V, Ift 10mA, IT 900mA, SOIC-7
+K Opto-Triac Opto Triac Zero Cross Solid State Relays
+F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/2787
+$ENDCMP
+#
+$CMP AQH2223
+D Random Phase Opto-Triac, Vdrm 600V, Ift 10mA, IT 900mA, DIP-7
+K Opto-Triac Opto Triac Random Phase
+F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/2787
+$ENDCMP
+#
+$CMP AQH2223A
+D Random Phase Opto-Triac, Vdrm 600V, Ift 10mA, IT 900mA, SOIC-7
+K Opto-Triac Opto Triac Random Phase
+F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/2787
+$ENDCMP
+#
+$CMP AQH3213
+D Zero Cross Opto-Triac, Vdrm 600V, Ift 10mA, IT 1.2A, DIP-7
+K Opto-Triac Opto Triac Zero Cross Solid State Relays
+F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/2787
+$ENDCMP
+#
+$CMP AQH3213A
+D Zero Cross Opto-Triac, Vdrm 600V, Ift 10mA, IT 1.2A, SOIC-7
+K Opto-Triac Opto Triac Zero Cross Solid State Relays
+F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/2787
+$ENDCMP
+#
+$CMP AQH3223
+D Random Phase Opto-Triac, Vdrm 600V, Ift 10mA, IT 1.2A, DIP-7
+K Opto-Triac Opto Triac Random Phase
+F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/2787
+$ENDCMP
+#
+$CMP AQH3223A
+D Random Phase Opto-Triac, Vdrm 600V, Ift 10mA, IT 1.2A, SOIC-7
+K Opto-Triac Opto Triac Random Phase
+F https://b2b-api.panasonic.eu/file_stream/pids/fileversion/2787
+$ENDCMP
+#
 $CMP ASSR-1218
 D Form A, Solid State Relay (Photo MOSFET) 60V, 0.2A, 10Ohm, SO-4
 K MOSFET Output Photorelay 1-Form-A
