@@ -1854,6 +1854,12 @@ K quad opamp
 F http://www.ti.com/lit/ds/symlink/tlv9004.pdf
 $ENDCMP
 #
+$CMP TLV9064xRTE
+D Quad 10-MHz RRIO CMOS Operational Amplifier, Texas S-PWQFN-N16
+K quad opamp
+F https://www.ti.com/lit/ds/symlink/tlv9064.pdf
+$ENDCMP
+#
 $CMP TS881xCx
 D Rail-to-rail 0.9V nanopower comparator, SC-70-5
 K single comparator
