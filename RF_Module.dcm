@@ -114,6 +114,12 @@ K RF Radio ESP Espressif
 F https://www.espressif.com/sites/default/files/documentation/0c-esp-wroom-02_datasheet_en.pdf
 $ENDCMP
 #
+$CMP ESP32-CAM
+D ESP32 module with camera (OV2640) and PSRAM
+K ESP32 OV2640 PSRAM
+F http://wiki.ai-thinker.com/esp32-cam
+$ENDCMP
+#
 $CMP ESP32-PICO-D4
 D RF Module, ESP32 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, QFN-48
 K RF Radio BT ESP ESP32 Espressif external antenna
