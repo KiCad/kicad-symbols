@@ -1092,6 +1092,12 @@ K push-button-controller low-power
 F http://www.st.com/resource/en/datasheet/stm6600.pdf
 $ENDCMP
 #
+$CMP STUSB4500QTR
+D Standalone USB PD sink controller with short-to-VBUS protections, QFN-24
+K USB USB-C USB PD
+F https://www.st.com/resource/en/datasheet/stusb4500.pdf
+$ENDCMP
+#
 $CMP SiP32431DR3
 D 10 pA, Ultra Low Leakage and Quiescent Current, Load Switch with Reverse Blocking, High Enable, SC-70-6
 K Load switch
