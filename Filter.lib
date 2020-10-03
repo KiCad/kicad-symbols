@@ -321,7 +321,7 @@ F1 "SFECF10M7xxxxxx-R0" 0 250 50 H V C CNN
 F2 "Filter:Murata_SFECF-6" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Murata*SFECF*
+ Filter*Murata*SFECF*
 $ENDFPLIST
 DRAW
 S -200 200 200 -200 0 1 10 f
