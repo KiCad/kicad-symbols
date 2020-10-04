@@ -1403,6 +1403,11 @@ K MXM connector
 F ~
 $ENDCMP
 #
+$CMP MicroSD_MicroSIM
+D Generic combo connecor for microSD with detect and microSIM
+K uSD, uSIM, combo connector
+$ENDCMP
+#
 $CMP Micro_SD_Card
 D Micro SD Card Socket
 K connector SD microsd
