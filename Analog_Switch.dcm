@@ -71,6 +71,12 @@ K analog switch selector multiplexer TWI I2C IIC 4-to-1
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG728_729.pdf
 $ENDCMP
 #
+$CMP ADG731
+D Single 32-to-1 CMOS Analog Multiplexer, 3-Wire SPI Serially Controlled, 4.0Ohm Ron, 30MHz, TQFP-48
+K analog switch selector multiplexer SPI 32-to-1
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG725_731.pdf
+$ENDCMP
+#
 $CMP ADG733BRQ
 D Triple SPDT CMOS Analog Switch, 2.5Ohm Ron, QSOP-16
 K CMOS Analog Switch
