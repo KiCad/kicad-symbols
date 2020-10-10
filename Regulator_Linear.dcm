@@ -5940,6 +5940,18 @@ K REGULATOR LDO ADJUSTABLE
 F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
 $ENDCMP
 #
+$CMP NCP115AMX120TCG
+D 300mA Low-Dropout Linear Regulators, 1.2V output voltage, LDO with low noise and enable pin, XDFN-4
+K Single Output LDO
+F https://www.onsemi.com/pub/Collateral/NCP115-D.PDF
+$ENDCMP
+#
+$CMP NCP115AMX250TCG
+D 300mA Low-Dropout Linear Regulators, 2.5V output voltage, LDO with low noise and enable pin, XDFN-4
+K Single Output LDO
+F https://www.onsemi.com/pub/Collateral/NCP115-D.PDF
+$ENDCMP
+#
 $CMP NCP133AMX100TCG
 D 500  mA  VLDO  equipped  with  NMOS  pass transistor  and  a  separate  bias  supply  voltage
 K Single Output LDO
