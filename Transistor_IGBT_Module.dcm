@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FP15R12W2T4
+D 15A, 1200V, 145W, 3-phase, Freewheeling Diode, Brake Chopper, Diode Rectifier, 5k NTC, EasyPIM 2B
+K IGBT Power Module Trench Field Stop Technology
+F https://www.infineon.com/dgdl/Infineon-FP15R12W2T4-DS-v03_00-en_de.pdf?fileId=db3a30433ba77ced013bae67c3eb3a5e
+$ENDCMP
+#
+$CMP FP25R12W2T4
+D 25A, 1200V, 175W, 3-phase, Freewheeling Diode, Brake Chopper, Diode Rectifier, 5k NTC, EasyPIM 2B
+K IGBT Power Module Trench Field Stop Technology
+F https://www.infineon.com/dgdl/Infineon-FP25R12W2T4-DS-v02_02-EN.pdf?fileId=db3a3043163797a60116389cdaeb0183
+$ENDCMP
+#
+$CMP FP25R12W2T4P
+D 25A, 1200V, 175W, 3-phase, Freewheeling Diode, Brake Chopper, Diode Rectifier, 5k NTC, TIM, EasyPIM 2B
+K IGBT Power Module Trench Field Stop Technology
+F https://www.infineon.com/dgdl/Infineon-FP25R12W2T4P-DS-v03_00-EN.pdf?fileId=5546d4625bd71aa0015bfbc806e571fc
+$ENDCMP
+#
+$CMP FP35R12W2T4
+D 35A, 1200V, 215W, 3-phase, Freewheeling Diode, Brake Chopper, Diode Rectifier, 5k NTC, EasyPIM 2B
+K IGBT Power Module Trench Field Stop Technology
+F https://www.infineon.com/dgdl/Infineon-FP35R12W2T4-DS-v02_02-EN.pdf?fileId=db3a3043163797a6011638a0541501a0
+$ENDCMP
+#
+$CMP FP35R12W2T4P
+D 35A, 1200V, 215W, 3-phase, Freewheeling Diode, Brake Chopper, Diode Rectifier, 5k NTC, TIM, EasyPIM 2B
+K IGBT Power Module Trench Field Stop Technology
+F https://www.infineon.com/dgdl/Infineon-FP35R12W2T4P-DS-v03_00-EN.pdf?fileId=5546d4625bd71aa0015bfbbf0d7a71f8
+$ENDCMP
+#
+$CMP FP50R06W2E3
+D 50A, 600V, 175W, 3-phase, Freewheeling Diode, Brake Chopper, Diode Rectifier, 5k NTC, EasyPIM 2B
+K IGBT Power Module Trench Field Stop Technology
+F https://www.infineon.com/dgdl/Infineon-FP50R06W2E3-DS-v02_02-EN.pdf?fileId=db3a30431b3e89eb011b455c99987d24
+$ENDCMP
+#
+#End Doc Library
