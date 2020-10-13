@@ -186,6 +186,36 @@ K Flash-Based 8-Bit Microcontroller XLP
 F http://ww1.microchip.com/downloads/en/devicedoc/30000684B.pdf
 $ENDCMP
 #
+$CMP PIC18F24Q10-xML
+D 16K Flash, 1280 SRAM, 256 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, QFN28
+K 28-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F2425Q10-28-Pin-Low-Power-High-Performance-MCU-40001945C.pdf
+$ENDCMP
+#
+$CMP PIC18F24Q10-xSO
+D 16K Flash, 1280 SRAM, 256 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, SOIC28
+K 28-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F2425Q10-28-Pin-Low-Power-High-Performance-MCU-40001945C.pdf
+$ENDCMP
+#
+$CMP PIC18F24Q10-xSP
+D 16K Flash, 1280 SRAM, 256 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, SPDIP28
+K 28-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F2425Q10-28-Pin-Low-Power-High-Performance-MCU-40001945C.pdf
+$ENDCMP
+#
+$CMP PIC18F24Q10-xSS
+D 16K Flash, 1280 SRAM, 256 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, SSOP28
+K 28-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F2425Q10-28-Pin-Low-Power-High-Performance-MCU-40001945C.pdf
+$ENDCMP
+#
+$CMP PIC18F24Q10-xSTX
+D 16K Flash, 1280 SRAM, 256 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, VQFN28
+K 28-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F2425Q10-28-Pin-Low-Power-High-Performance-MCU-40001945C.pdf
+$ENDCMP
+#
 $CMP PIC18F2520-xML
 D MCU 32k Flash, 1536B SRAM, 256B EEPROM, ADC, QFN-28
 K Flash-Based 8bit CMOS Microcontroller
@@ -270,6 +300,36 @@ K microcontroller Microchip DMA WWDT DIA DCI XLP CLC CWG CCP NCO DSM CRC UART LI
 F http://ww1.microchip.com/downloads/en/DeviceDoc/40001943A.pdf
 $ENDCMP
 #
+$CMP PIC18F25Q10-xML
+D 32K Flash, 2304 SRAM, 256 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, QFN28
+K 28-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F2425Q10-28-Pin-Low-Power-High-Performance-MCU-40001945C.pdf
+$ENDCMP
+#
+$CMP PIC18F25Q10-xSO
+D 32K Flash, 2304 SRAM, 256 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, SOIC28
+K 28-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F2425Q10-28-Pin-Low-Power-High-Performance-MCU-40001945C.pdf
+$ENDCMP
+#
+$CMP PIC18F25Q10-xSP
+D 32K Flash, 2304 SRAM, 256 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, SPDIP28
+K 28-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F2425Q10-28-Pin-Low-Power-High-Performance-MCU-40001945C.pdf
+$ENDCMP
+#
+$CMP PIC18F25Q10-xSS
+D 32K Flash, 2304 SRAM, 256 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, SSOP28
+K 28-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F2425Q10-28-Pin-Low-Power-High-Performance-MCU-40001945C.pdf
+$ENDCMP
+#
+$CMP PIC18F25Q10-xSTX
+D 32K Flash, 2304 SRAM, 256 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, QFN28
+K 28-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F2425Q10-28-Pin-Low-Power-High-Performance-MCU-40001945C.pdf
+$ENDCMP
+#
 $CMP PIC18F26K20_ISS
 D 64K Flash, 3936Byte RAM, 1KByte EEPROM, PIC18 Microcontroller ADC PWM SPI I2C USART in SSOP28 package
 K microcontroller PIC18F flash XLP
@@ -306,10 +366,70 @@ K microcontroller Microchip DMA WWDT DIA DCI XLP CLC CWG CCP NCO DSM CRC UART LI
 F http://ww1.microchip.com/downloads/en/DeviceDoc/40001943A.pdf
 $ENDCMP
 #
+$CMP PIC18F26Q10-xML
+D 64K Flash, 3615 SRAM, 1024 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, QFN28
+K 28-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F26-45-46Q10-Data-Sheet-40001996D.pdf
+$ENDCMP
+#
+$CMP PIC18F26Q10-xSO
+D 64K Flash, 3615 SRAM, 1024 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, SOIC28
+K 28-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F26-45-46Q10-Data-Sheet-40001996D.pdf
+$ENDCMP
+#
+$CMP PIC18F26Q10-xSP
+D 64K Flash, 3615SRAM, 1024 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, SPDIP28
+K 28-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F26-45-46Q10-Data-Sheet-40001996D.pdf
+$ENDCMP
+#
+$CMP PIC18F26Q10-xSS
+D 64K Flash, 3615 SRAM, 1024 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, SSOP28
+K 28-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F26-45-46Q10-Data-Sheet-40001996D.pdf
+$ENDCMP
+#
+$CMP PIC18F26Q10-xSTX
+D 64K Flash, 3615 SRAM, 1024 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, QFN28
+K 28-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F26-45-46Q10-Data-Sheet-40001996D.pdf
+$ENDCMP
+#
 $CMP PIC18F27J53_ISS
 D 128K Flash, 3.8K RAM, PIC18 Microcontroller ADC PWM I2C USART USB RTCC, SSOP-28
 K microcontroller PIC18 flash ECAN XLP nanoWatt
 F http://ww1.microchip.com/downloads/en/DeviceDoc/30009964C.pdf
+$ENDCMP
+#
+$CMP PIC18F27Q10-xML
+D 128K Flash, 3615 SRAM, 1024 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, QFN28
+K 28-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40002043D.pdf
+$ENDCMP
+#
+$CMP PIC18F27Q10-xSO
+D 128K Flash, 3615 SRAM, 1024 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, SOIC28
+K 28-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40002043D.pdf
+$ENDCMP
+#
+$CMP PIC18F27Q10-xSP
+D 128K Flash, 3615 SRAM, 1024 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, SPDIP28
+K 28-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40002043D.pdf
+$ENDCMP
+#
+$CMP PIC18F27Q10-xSS
+D 16K Flash, 1280 SRAM, 256 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, SSOP28
+K 28-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40002043D.pdf
+$ENDCMP
+#
+$CMP PIC18F27Q10-xSTX
+D 128K Flash, 3615 SRAM, 1024 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, QFN28
+K 28-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40002043D.pdf
 $ENDCMP
 #
 $CMP PIC18F4331-IML
@@ -528,6 +648,24 @@ K microcontroller Flash EEPROM SPI I2C CAN UART USART ADC TQFP
 F http://ww1.microchip.com/downloads/en/DeviceDoc/39977f.pdf
 $ENDCMP
 #
+$CMP PIC18F45Q10-xMP
+D 32K Flash, 2304 SRAM, 256 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, QFN40
+K 40-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F26-45-46Q10-Data-Sheet-40001996D.pdf
+$ENDCMP
+#
+$CMP PIC18F45Q10-xP
+D 32K Flash, 2304 SRAM, 256 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, PDIP40
+K 40-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F26-45-46Q10-Data-Sheet-40001996D.pdf
+$ENDCMP
+#
+$CMP PIC18F45Q10-xPT
+D 32K Flash, 2304 SRAM, 256 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, TQFP44
+K 44-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F26-45-46Q10-Data-Sheet-40001996D.pdf
+$ENDCMP
+#
 $CMP PIC18F46K22-xPT
 D 64K Flash, 3.5K RAM, 1K EEPROM PIC18 Microcontroller ADC PWM SPI I2C USART in TQFP44 package
 K microchip microcontroller PIC18 flash XLP nanoWatt
@@ -544,6 +682,42 @@ $CMP PIC18F46K80-IPT
 D 64K Flash, 3.5K RAM, 1K EEPROM PIC18 Microcontroller ADC PWM CAN SPI I2C USART in TQFP44 package
 K microchip microcontroller PIC18 flash ECAN XLP nanoWatt
 F http://ww1.microchip.com/downloads/en/DeviceDoc/39977f.pdf
+$ENDCMP
+#
+$CMP PIC18F46Q10-xMP
+D 64K Flash, 3615 SRAM, 1024 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, QFN40
+K 40-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F26-45-46Q10-Data-Sheet-40001996D.pdf
+$ENDCMP
+#
+$CMP PIC18F46Q10-xP
+D 64K Flash, 3615 SRAM, 1024 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, PDIP40
+K 40-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F26-45-46Q10-Data-Sheet-40001996D.pdf
+$ENDCMP
+#
+$CMP PIC18F46Q10-xPT
+D 64K Flash, 3615 SRAM, 1024 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, TQFP44
+K 44-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F26-45-46Q10-Data-Sheet-40001996D.pdf
+$ENDCMP
+#
+$CMP PIC18F47Q10-xMP
+D 128K Flash, 3615 SRAM, 1024 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, QFN40
+K 40-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40002043D.pdf
+$ENDCMP
+#
+$CMP PIC18F47Q10-xP
+D 128K Flash, 3615 SRAM, 1024 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, PDIP40
+K 40-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40002043D.pdf
+$ENDCMP
+#
+$CMP PIC18F47Q10-xPT
+D 128K Flash, 3615 SRAM, 1024 EEPROM, Low-Power, High-Performance , 1.8V to 5.5V, TQFP44
+K 44-Pin, Low-Power, High-Performance Microcontrollers
+F http://ww1.microchip.com/downloads/en/DeviceDoc/40002043D.pdf
 $ENDCMP
 #
 $CMP PIC18F66J60-IPT
