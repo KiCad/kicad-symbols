@@ -136,6 +136,7 @@
   (lib (name MCU_ST_STM32L1)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_ST_STM32L1.lib)(options "")(descr "ST STM32L1 microcontrollers"))
   (lib (name MCU_ST_STM32L4)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_ST_STM32L4.lib)(options "")(descr "ST STM32L4 microcontrollers"))
   (lib (name MCU_ST_STM32L4+)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_ST_STM32L4+.lib)(options "")(descr "ST STM32L4+ microcontrollers"))
+  (lib (name MCU_ST_STM32WB)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_ST_STM32WB.lib)(options "")(descr "ST STM32WB microcontrollers"))
   (lib (name MCU_ST_STM8)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_ST_STM8.lib)(options "")(descr "ST STM8 microcontrollers"))
   (lib (name MCU_STC)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_STC.lib)(options "")(descr "STC microcontrollers"))
   (lib (name MCU_Texas)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/MCU_Texas.lib)(options "")(descr "Texas Instruments microcontrollers (assorted)"))
