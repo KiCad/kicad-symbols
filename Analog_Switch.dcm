@@ -671,6 +671,10 @@ K gbit base-t lvds lvpecl video
 F http://www.ti.com/lit/ds/symlink/ts3l501e.pdf
 $ENDCMP
 #
+$CMP TS3USB30
+D The TS3USB30 is a high-bandwidth switch specially designed for the switching of high-speed USB 2.0 signals in handset and consumer applications, such as cell phones, digital cameras, and notebooks with hubs or controllers with limited USB I/Os. The wide bandwidth (955 MHz) of this switch allows signals to pass with minimum edge and phase distortion. The device multiplexes differential outputs from a USB host device to one of two corresponding outputs. The switch is bidirectional and offers little or no attenuation of the high-speed signals at the outputs. It is designed for low bit-to-bit skew and high channel- to-channel noise isolation, and is compatible with various standards, such as high-speed USB 2.0 (480 Mbps).
+F http://www.ti.com/lit/ds/symlink/ts3usb30.pdf
+$ENDCMP
 $CMP TS5A23159DGS
 D Dual SPDT 1ohm Bidirectional Analog Switch with Off protection, VSSOP-10
 K switch analog SPDT
@@ -681,7 +685,7 @@ $CMP TS5A23159RSE
 D Dual SPDT 1ohm Bidirectional Analog Switch with Off protection, UQFN-10
 K switch analog SPDT
 F http://www.ti.com/lit/ds/symlink/ts5a23159.pdf
-$ENDCMP
+#ENDCMP
 #
 $CMP TS5A3159ADBVR
 D Single SPDT Analog Switch, 1.65-V to 5.5-V Single-Supply Operation, 1Ohm Ron, SOT-23-6
