@@ -1176,6 +1176,18 @@ K Miniature Single Pole Relay
 F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FPCH_series_relay_data_sheet_E%7F1215%7Fpdf%7FEnglish%7FENG_DS_PCH_series_relay_data_sheet_E_1215.pdf%7F9-1440003-0
 $ENDCMP
 #
+$CMP TE_PE01xFxx_CO
+D TE, Schrack miniature PCB Relay PE bistable, latching (CO)
+K Single Pole Latching Relay SPDT
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FPE_bistable%7F0919%7Fpdf%7FEnglish%7FENG_DS_PE_bistable_0919.pdf%7F3-1415390-1
+$ENDCMP
+#
+$CMP TE_PE03xFxx_NO
+D TE, Schrack miniature PCB Relay PE bistable, latching (NO)
+K Single Pole Latching Relay SPST
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FPE_bistable%7F0919%7Fpdf%7FEnglish%7FENG_DS_PE_bistable_0919.pdf%7F3-1415390-1
+$ENDCMP
+#
 $CMP TIANBO-HJR-4102-L
 D TIANBO HJR-4102-L, Single Pole Relay, 5mm Pitch, 3A
 K Single Pole Relay
