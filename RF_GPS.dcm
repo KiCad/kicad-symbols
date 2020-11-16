@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP L80-R
+D Quectel GPS Module
+K quectel GPS GNSS module
+F https://www.quectel.com/UploadImage/Downlad/Quectel_L80-R_Hardware_Design_V1.2.pdf
+$ENDCMP
+#
 $CMP LEA-M8F
 D GNSS Module LEA M8, VCC 3V to 3.6V
 K ublox GPS GNSS module

@@ -192,6 +192,24 @@ K cmp r2r rtr push-pull complementary
 F https://www.analog.com/media/en/technical-documentation/data-sheets/6754f.pdf
 $ENDCMP
 #
+$CMP MAX941xPA
+D High-Speed, Low-Power, 3V/5V, Rail-to-Rail, Single-Supply Comparator, PDIP-8
+K single comparator
+F https://datasheets.maximintegrated.com/en/ds/MAX941-MAX944.pdf
+$ENDCMP
+#
+$CMP MAX941xSA
+D High-Speed, Low-Power, 3V/5V, Rail-to-Rail, Single-Supply Comparator, SOIC-8
+K single comparator
+F https://datasheets.maximintegrated.com/en/ds/MAX941-MAX944.pdf
+$ENDCMP
+#
+$CMP MAX941xUA
+D High-Speed, Low-Power, 3V/5V, Rail-to-Rail, Single-Supply Comparator, MSOP-8
+K single comparator
+F https://datasheets.maximintegrated.com/en/ds/MAX941-MAX944.pdf
+$ENDCMP
+#
 $CMP MCP6561-OT
 D Single 1.8V Low-Power Push-Pull Output Comparator, SOT-23-5
 K cmp

@@ -6,6 +6,18 @@ K Wireless Zigbee 802.15.4 ATSAMR21G18 AT45DB041E TECC508A
 F http://ww1.microchip.com/downloads/en/devicedoc/atmel-42475-atsamr21g18-mr210ua_datasheet.pdf
 $ENDCMP
 #
+$CMP AX-SIP-SFEU
+D Ultra low power, Sigfox or custom, system in package transceiver, 868Mhz
+K Sigfox SIP 868Mhz
+F https://www.onsemi.com/pub/Collateral/AX-SIP-SFEU-D.PDF
+$ENDCMP
+#
+$CMP AX-SIP-SFEU-API
+D Ultra low power, Sigfox or custom, programmable system in package, 868Mhz
+K Sigfox SIP 868Mhz
+F https://www.onsemi.com/pub/Collateral/AX-SIP-SFEU-D.PDF
+$ENDCMP
+#
 $CMP Ai-Thinker-Ra-01
 D Ai-Thinker Ra-01 410-525 MHz LoRa Module, SPI interface, external antenna
 K Ra-01 LoRa
@@ -19,13 +31,13 @@ F http://wiki.ai-thinker.com/_media/lora/docs/c048ps01a1_ra-02_product_specifica
 $ENDCMP
 #
 $CMP CMWX1ZZABZ-078
-D LoRa/SigFox Module, STM32L082 MCU, muRata CMWX1ZZABZ
+D LoRa/SigFox Module, STM32L082 MCU, Murata CMWX1ZZABZ
 K iot lora sigfox
 F https://wireless.murata.com/RFM/data/type_abz.pdf
 $ENDCMP
 #
 $CMP CMWX1ZZABZ-091
-D LoRa/SigFox Module, STM32L072 MCU, muRata CMWX1ZZABZ
+D LoRa/SigFox Module, STM32L072 MCU, Murata CMWX1ZZABZ
 K iot lora sigfox
 F https://wireless.murata.com/RFM/data/type_abz.pdf
 $ENDCMP
@@ -136,6 +148,42 @@ $CMP ESP32-WROOM-32U
 D RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, external antenna, SMD
 K RF Radio BT ESP ESP32 Espressif external U.FL antenna
 F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
+$ENDCMP
+#
+$CMP MDBT50Q-1MV2
+D Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52840 module
+K BLE ANT ZigBee Thread 802.15.4 nRF52840 nordic MDBT50Q
+F https://www.raytac.com/download/index.php?index_id=43
+$ENDCMP
+#
+$CMP MDBT50Q-512K
+D Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52833 module
+K MCU, ARM, BLE, ANT, 2.4GHz, 802.15.4 MDBT50Q
+F https://www.raytac.com/download/index.php?index_id=46
+$ENDCMP
+#
+$CMP MDBT50Q-P1MV2
+D Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52840 module
+K BLE ANT ZigBee Thread 802.15.4 nRF52840 nordic MDBT50Q
+F https://www.raytac.com/download/index.php?index_id=43
+$ENDCMP
+#
+$CMP MDBT50Q-P512K
+D Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52833 module
+K MCU, ARM, BLE, ANT, 2.4GHz, 802.15.4 MDBT50Q
+F https://www.raytac.com/download/index.php?index_id=46
+$ENDCMP
+#
+$CMP MDBT50Q-U1MV2
+D Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52840 module
+K BLE ANT ZigBee Thread 802.15.4 nRF52840 nordic MDBT50Q
+F https://www.raytac.com/download/index.php?index_id=43
+$ENDCMP
+#
+$CMP MDBT50Q-U512K
+D Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52833 module
+K MCU, ARM, BLE, ANT, 2.4GHz, 802.15.4 MDBT50Q
+F https://www.raytac.com/download/index.php?index_id=46
 $ENDCMP
 #
 $CMP MM002

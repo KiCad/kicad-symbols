@@ -1,5 +1,29 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 0433BM15A0001
+D 430-435MHz 1:1 RF Transformer, Unbalanced to Balanced, with integrated DC blocking capacitor
+K balun rf transformer
+F https://www.johansontechnology.com/datasheets/0433BM15A0001/0433BM15A0001.pdf
+$ENDCMP
+#
+$CMP 0868BM15C0001
+D 863-873MHz 1:1 RF Transformer, Unbalanced to Balanced, with integrated DC blocking capacitor
+K balun rf transformer
+F https://www.johansontechnology.com/datasheets/0868BM15C0001/0868BM15C0001.pdf
+$ENDCMP
+#
+$CMP 0896BM15A0001
+D 863-928MHz 1:1 RF Transformer, Unbalanced to Balanced
+K balun rf transformer
+F https://www.johansontechnology.com/datasheets/0896BM15A0001/0896BM15A0001.pdf
+$ENDCMP
+#
+$CMP 0915BM15A0001
+D 902-928MHz 1:1 RF Transformer, Unbalanced to Balanced, with integrated DC blocking capacitor
+K balun rf transformer
+F https://www.johansontechnology.com/datasheets/0915BM15A0001/0915BM15A0001.pdf
+$ENDCMP
+#
 $CMP 5400BL15B050
 D 4.9-5.9GHz 1:1 RF Transformer, Unbalanced to Balanced
 K balun rf transformer
@@ -15,7 +39,7 @@ $ENDCMP
 $CMP ADT1-1WT
 D 0.005-125MHz 1:1 RF Transformer, Unbalanced to Balanced Center Tap, CD542
 K Mini-Circuits RF Transformer
-F https://www.minicircuits.com/pdfs/ADT1-1WT+.pdf
+F https://www.minicircuits.com/pdfs/ADT1-1WT.pdf
 $ENDCMP
 #
 $CMP ADT1-1WT-1
