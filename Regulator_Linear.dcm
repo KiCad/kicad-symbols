@@ -1476,6 +1476,18 @@ K Adjustable Voltage Regulator 1A Positive LDO
 F https://www.diodes.com/assets/Datasheets/products_inactive_data/AZ1117.pdf
 $ENDCMP
 #
+$CMP BD00FC0WEFJ
+D 1A, variable LDO regulator with OVP & TSP, with enable, HTSOP-J8
+K linear regulator variable positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
+$ENDCMP
+#
+$CMP BD00FC0WFP
+D 1A, variable LDO regulator with OVP & TSP, with enable, TO252-5
+K linear regulator variable positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
+$ENDCMP
+#
 $CMP BD15GA3WEFJ
 D 300mA, 1.5V LDO regulator with OVP & TSP, HTSOP-8
 K linear regulator fixed positive over voltage protection thermal shutdown
@@ -1512,6 +1524,24 @@ K linear regulator fixed positive over voltage protection thermal shutdown
 F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxga5wefj-e.pdf
 $ENDCMP
 #
+$CMP BD30FC0FP
+D 1A, 3.0V LDO regulator with OVP & TSP, without enable, TO252-3
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
+$ENDCMP
+#
+$CMP BD30FC0WEFJ
+D 1A, 3.0V LDO regulator with OVP & TSP, with enable, HTSOP-J8
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
+$ENDCMP
+#
+$CMP BD30FC0WFP
+D 1A, 3.0V LDO regulator with OVP & TSP, with enable, TO252-5
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
+$ENDCMP
+#
 $CMP BD30GA3WEFJ
 D 300mA, 3V LDO regulator with OVP & TSP, HTSOP-8
 K linear regulator fixed positive over voltage protection thermal shutdown
@@ -1522,6 +1552,24 @@ $CMP BD30GA5WEFJ
 D 500mA, 3V LDO regulator with OVP & TSP, HTSOP-8
 K linear regulator fixed positive over voltage protection thermal shutdown
 F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxga5wefj-e.pdf
+$ENDCMP
+#
+$CMP BD33FC0FP
+D 1A, 3.3V LDO regulator with OVP & TSP, without enable, TO252-3
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
+$ENDCMP
+#
+$CMP BD33FC0WEFJ
+D 1A, 3.3V LDO regulator with OVP & TSP, with enable, HTSOP-J8
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
+$ENDCMP
+#
+$CMP BD33FC0WFP
+D 1A, 3.3V LDO regulator with OVP & TSP, with enable, TO252-5
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
 $ENDCMP
 #
 $CMP BD33GA3WEFJ
@@ -1536,6 +1584,24 @@ K linear regulator fixed positive over voltage protection thermal shutdown
 F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxga5wefj-e.pdf
 $ENDCMP
 #
+$CMP BD50FC0FP
+D 1A, 5.0V LDO regulator with OVP & TSP, without enable, TO252-3
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
+$ENDCMP
+#
+$CMP BD50FC0WEFJ
+D 1A, 5.0V LDO regulator with OVP & TSP, with enable, HTSOP-J8
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
+$ENDCMP
+#
+$CMP BD50FC0WFP
+D 1A, 5.0V LDO regulator with OVP & TSP, with enable, TO252-5
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
+$ENDCMP
+#
 $CMP BD50GA3WEFJ
 D 300mA, 5V LDO regulator with OVP & TSP, HTSOP-8
 K linear regulator fixed positive over voltage protection thermal shutdown
@@ -1546,6 +1612,24 @@ $CMP BD50GA5WEFJ
 D 500mA, 5V LDO regulator with OVP & TSP, HTSOP-8
 K linear regulator fixed positive over voltage protection thermal shutdown
 F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxga5wefj-e.pdf
+$ENDCMP
+#
+$CMP BD60FC0FP
+D 1A, 6.0V LDO regulator with OVP & TSP, without enable, TO252-3
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
+$ENDCMP
+#
+$CMP BD60FC0WEFJ
+D 1A, 6.0V LDO regulator with OVP & TSP, with enable, HTSOP-J8
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
+$ENDCMP
+#
+$CMP BD60FC0WFP
+D 1A, 6.0V LDO regulator with OVP & TSP, with enable, TO252-5
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
 $ENDCMP
 #
 $CMP BD60GA3WEFJ
@@ -1560,6 +1644,24 @@ K linear regulator fixed positive over voltage protection thermal shutdown
 F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxga5wefj-e.pdf
 $ENDCMP
 #
+$CMP BD70FC0FP
+D 1A, 7.0V LDO regulator with OVP & TSP, without enable, TO252-3
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
+$ENDCMP
+#
+$CMP BD70FC0WEFJ
+D 1A, 7.0V LDO regulator with OVP & TSP, with enable, HTSOP-J8
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
+$ENDCMP
+#
+$CMP BD70FC0WFP
+D 1A, 7.0V LDO regulator with OVP & TSP, with enable, TO252-5
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
+$ENDCMP
+#
 $CMP BD70GA3WEFJ
 D 300mA, 7V LDO regulator with OVP & TSP, HTSOP-8
 K linear regulator fixed positive over voltage protection thermal shutdown
@@ -1570,6 +1672,24 @@ $CMP BD70GA5WEFJ
 D 500mA, 7V LDO regulator with OVP & TSP, HTSOP-8
 K linear regulator fixed positive over voltage protection thermal shutdown
 F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxga5wefj-e.pdf
+$ENDCMP
+#
+$CMP BD80FC0FP
+D 1A, 8.0V LDO regulator with OVP & TSP, without enable, TO252-3
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
+$ENDCMP
+#
+$CMP BD80FC0WEFJ
+D 1A, 8.0V LDO regulator with OVP & TSP, with enable, HTSOP-J8
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
+$ENDCMP
+#
+$CMP BD80FC0WFP
+D 1A, 8.0V LDO regulator with OVP & TSP, with enable, TO252-5
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
 $ENDCMP
 #
 $CMP BD80GA3WEFJ
@@ -1584,6 +1704,24 @@ K linear regulator fixed positive over voltage protection thermal shutdown
 F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxga5wefj-e.pdf
 $ENDCMP
 #
+$CMP BD90FC0FP
+D 1A, 9.0V LDO regulator with OVP & TSP, without enable, TO252-3
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
+$ENDCMP
+#
+$CMP BD90FC0WEFJ
+D 1A, 9.0V LDO regulator with OVP & TSP, with enable, HTSOP-J8
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
+$ENDCMP
+#
+$CMP BD90FC0WFP
+D 1A, 9.0V LDO regulator with OVP & TSP, with enable, TO252-5
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
+$ENDCMP
+#
 $CMP BD90GA3WEFJ
 D 300mA, 9V LDO regulator with OVP & TSP, HTSOP-8
 K linear regulator fixed positive over voltage protection thermal shutdown
@@ -1594,6 +1732,24 @@ $CMP BD90GA5WEFJ
 D 500mA, 9V LDO regulator with OVP & TSP, HTSOP-8
 K linear regulator fixed positive over voltage protection thermal shutdown
 F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxga5wefj-e.pdf
+$ENDCMP
+#
+$CMP BDJ0FC0FP
+D 1A, 10.0V LDO regulator with OVP & TSP, without enable, TO252-3
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
+$ENDCMP
+#
+$CMP BDJ0FC0WEFJ
+D 1A, 10.0V LDO regulator with OVP & TSP, with enable, HTSOP-J8
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
+$ENDCMP
+#
+$CMP BDJ0FC0WFP
+D 1A, 10.0V LDO regulator with OVP & TSP, with enable, TO252-5
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
 $ENDCMP
 #
 $CMP BDJ0GA3WEFJ
@@ -1608,6 +1764,24 @@ K linear regulator fixed positive over voltage protection thermal shutdown
 F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxga5wefj-e.pdf
 $ENDCMP
 #
+$CMP BDJ2FC0FP
+D 1A, 12.0V LDO regulator with OVP & TSP, without enable, TO252-3
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
+$ENDCMP
+#
+$CMP BDJ2FC0WEFJ
+D 1A, 12.0V LDO regulator with OVP & TSP, with enable, HTSOP-J8
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
+$ENDCMP
+#
+$CMP BDJ2FC0WFP
+D 1A, 12.0V LDO regulator with OVP & TSP, with enable, TO252-5
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
+$ENDCMP
+#
 $CMP BDJ2GA3WEFJ
 D 300mA, 12V LDO regulator with OVP & TSP, HTSOP-8
 K linear regulator fixed positive over voltage protection thermal shutdown
@@ -1618,6 +1792,24 @@ $CMP BDJ2GA5WEFJ
 D 500mA, 12V LDO regulator with OVP & TSP, HTSOP-8
 K linear regulator fixed positive over voltage protection thermal shutdown
 F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxga5wefj-e.pdf
+$ENDCMP
+#
+$CMP BDJ5FC0FP
+D 1A, 15.0V LDO regulator with OVP & TSP, without enable, TO252-3
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
+$ENDCMP
+#
+$CMP BDJ5FC0WEFJ
+D 1A, 15.0V LDO regulator with OVP & TSP, with enable, HTSOP-J8
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
+$ENDCMP
+#
+$CMP BDJ5FC0WFP
+D 1A, 15.0V LDO regulator with OVP & TSP, with enable, TO252-5
+K linear regulator fixed positive over voltage protection thermal shutdown
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf
 $ENDCMP
 #
 $CMP HT75xx-1-SOT89
