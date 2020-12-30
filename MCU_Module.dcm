@@ -234,6 +234,18 @@ K beagleboard pocketbeagle
 F https://github.com/beagleboard/pocketbeagle/wiki/System-Reference-Manual
 $ENDCMP
 #
+$CMP RaspberryPi-3A+
+D Raspberry Pi 3A+, 1.4 GHz quad core, 512 MB RAM, singleboard computer
+K raspberrypi gpio sbc singleboard computer
+F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3aplus_1p0_reduced.pdf
+$ENDCMP
+#
+$CMP RaspberryPi-3B+
+D Raspberry Pi 3B+, 1.4 GHz quad core, 1024 MB RAM, singleboard computer
+K raspberrypi gpio sbc singleboard computer
+F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf
+$ENDCMP
+#
 $CMP RaspberryPi-CM1
 D BCM2835 Broadcom 700 MZ single core, 512 MB RAM 4 GB eMMC, industrial SoM computer
 K raspberry pi compute module
