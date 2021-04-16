@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AL8860MP
+D 40V 1.5A Constant Current Buck LED Driver IC, MSOP-8
+K LED Driver Buck Constant Current
+F https://www.diodes.com/assets/Datasheets/AL8860.pdf
+$ENDCMP
+#
+$CMP AL8860WT
+D 40V 1.5A Constant Current Buck LED Driver IC, TSOT-23-5
+K LED Driver Buck Constant Current
+F https://www.diodes.com/assets/Datasheets/AL8860.pdf
+$ENDCMP
+#
 $CMP CL220K4-G
 D Temperature Compensated Constant Current LED IC, D-PAK
 K Constant Current LED Driver IC
