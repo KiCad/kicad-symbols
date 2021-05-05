@@ -217,15 +217,93 @@ F https://assets.nexperia.com/documents/data-sheet/PCF8563.pdf
 $ENDCMP
 #
 $CMP RV-1805-C3
-D Realtime Clock/Calendar I2C Interface, Extreme Low Power, MicroCrystal C3
-K Low Power RTC I2C
+D Real Time Clock/Calendar, Integrated Crystal, Low Power, I2C Interface
+K RTC I2C Clock Calendar
 F https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-1805-C3.pdf
 $ENDCMP
 #
+$CMP RV-2132-C2
+D Real Time Clock/Calendar, Integrated Crystal, Low Power, SPI Interface
+K RTC I2C Clock Calendar
+F https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-2132-C3.pdf
+$ENDCMP
+#
+$CMP RV-3029-C3
+D Real Time Clock/Calendar, Integrated DTXCO, Low Power, I2C Interface
+K RTC I2C Clock Calendar DTXCO
+F https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-3209-C3.pdf
+$ENDCMP
+#
+$CMP RV-3049-C2
+D Real Time Clock/Calendar, Integrated DTXCO, Low Power, SPI Interface
+K RTC I2C Clock Calendar DTXCO
+F https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-3049-C2.pdf
+$ENDCMP
+#
+$CMP RV-3049-C3
+D Real Time Clock/Calendar, Integrated DTXCO, Low Power, SPI Interface
+K RTC I2C Clock Calendar DTXCO
+F https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-3049-C3.pdf
+$ENDCMP
+#
+$CMP RV-3129-C3
+D Real Time Clock/Calendar, Integrated DTXCO, Low Power,I2C Interface
+K RTC I2C Clock Calendar DTXCO
+F https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-3129-C3.pdf
+$ENDCMP
+#
+$CMP RV-3149-C3
+D Real Time Clock/Calendar, Integrated DTXCO, Low Power, SPI Interface
+K RTC I2C Clock Calendar DTXCO
+F https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-3149-C3.pdf
+$ENDCMP
+#
+$CMP RV-3208-C7
+D Real Time Clock/Calendar, Integrated Crystal, Low Power, I2C Interface
+K RTC I2C Clock Calendar
+F https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-3208-C7.pdf
+$ENDCMP
+#
+$CMP RV-4162-C7
+D Real Time Clock/Calendar, Integrated Crystal, Low Power, I2C Interface
+K RTC I2C Clock Calendar
+F https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-4162-C7.pdf
+$ENDCMP
+#
+$CMP RV-8063-C7
+D Real Time Clock/Calendar, Integrated Crystal, Low Power, SPI Interface
+K RTC I2C Clock Calendar
+F https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-8063-C7.pdf
+$ENDCMP
+#
+$CMP RV-8263-C7
+D Real Time Clock/Calendar, Integrated Crystal, Low Power, I2C Interface
+K RTC I2C Clock Calendar
+F https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-8263-C7.pdf
+$ENDCMP
+#
 $CMP RV-8523-C3
-D Realtime Clock/Calendar I2C Interface, Low Power, 1.2 V to 5.5 V, MicroCrystal C3
-K Low Power RTC I2C
+D Real Time Clock/Calendar, Integrated Crystal, Low Power, I2C Interface
+K RTC I2C Clock Calendar
 F https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-8523-C3.pdf
+$ENDCMP
+#
+$CMP RV-8564-C2
+D Real Time Clock/Calendar, Integrated Crystal, Low Power, I2C Interface
+K RTC I2C Clock Calendar
+F https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-8564-C2.pdf
+$ENDCMP
+#
+$CMP RV-8564-C3
+D Real Time Clock/Calendar, Integrated Crystal, Low Power, I2C Interface
+K RTC I2C Clock Calendar
+F https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-8564-C3.pdf
+$ENDCMP
+#
+$CMP RV-8803-C7
+D Real Time Clock/Calendar, Integrated DTXCO, Low Power,I2C Interface
+K RTC I2C Clock Calendar DTXCO
+F https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-8803-C7.pdf
 $ENDCMP
 #
 #End Doc Library
