@@ -438,6 +438,12 @@ K LNA low noise amplifier RF
 F http://www.skyworksinc.com/uploads/documents/SKY65404_31_201512K.pdf
 $ENDCMP
 #
+$CMP SPF5122Z
+D 50 - 4000 MHz GaAs pHEMT Low Noise MMIC Amplifier, DFN-8
+K rf gain block
+F https://www.qorvo.com/products/d/da001904
+$ENDCMP
+#
 $CMP SPF5189Z
 D 50MHz to 4000MHz, GaAs pHEMT low noise MMIC amplifier, SOT-89
 K RF GAIN BLOCK
