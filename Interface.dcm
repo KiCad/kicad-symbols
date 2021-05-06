@@ -477,6 +477,12 @@ K gpib bidirectional bus transceiver
 F http://www.ti.com/lit/ds/symlink/sn75160b.pdf
 $ENDCMP
 #
+$CMP SN75162BDW
+D Octal general-purpose interface bus transceiver, SOIC-24
+K gpib bidirectional bus transceiver controler
+F http://www.ti.com/lit/ds/symlink/sn75162b.pdf
+$ENDCMP
+#
 $CMP TB5D1MD
 D Quad differential PECL driver
 K differential PECL driver
