@@ -54,6 +54,12 @@ K Low Power RF Transciever
 F www.ti.com/lit/ds/symlink/cc1000.pdf
 $ENDCMP
 #
+$CMP CC1101
+D Low-Power Sub-1 GHz RF Transceiver, QFN-20
+K RF Transceiver FSK GFSK OOK ASK 315Mhz 433Mhz 868Mhz 915Mhz
+F http://www.ti.com/lit/ds/symlink/cc1101.pdf
+$ENDCMP
+#
 $CMP CC1200
 D Low-Power, High-Performance RF Transceiver, QFN-32
 K RF Tx Rx
