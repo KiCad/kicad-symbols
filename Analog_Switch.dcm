@@ -629,6 +629,12 @@ K TTL Analog Multiplexer
 F http://www.ti.com/lit/gpn/sn74cbt3253
 $ENDCMP
 #
+$CMP STG3684AU
+D Low voltage 0.5Ω max dual SPDT switch, QFN10L
+K SPDT switch
+F https://www.st.com/resource/en/datasheet/stg3684a.pdf
+$ENDCMP
+#
 $CMP TS3A24159DGSR
 D Dual SPDT 0.3Ω Bidirectional Analog Switch, TSSOP-10
 K switch analog SPDT
