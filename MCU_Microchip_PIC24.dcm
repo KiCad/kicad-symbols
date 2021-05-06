@@ -12,6 +12,18 @@ K Flash-Based 16-Bit Microcontroller
 F http://ww1.microchip.com/downloads/en/DeviceDoc/39969b.pdf
 $ENDCMP
 #
+$CMP PIC24FJ64GB004-xML
+D 64K Flash, 8KB SRAM, USB On-The-Go, nano watt XLP, 10-bit ADC, PWM, RTCC, QFN-44
+K Flash-Based 16-Bit Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/39940d.pdf
+$ENDCMP
+#
+$CMP PIC24FJ64GB004-xPT
+D 64K Flash, 8KB SRAM, USB On-The-Go, nano watt XLP, 10-bit ADC, PWM, RTCC, TQFP-44
+K Flash-Based 16-Bit Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/39940d.pdf
+$ENDCMP
+#
 $CMP PIC24FV32KA304-IPT
 D 32K Flash, 2048B SRAM, 512B EEPROM, nanoWatt XLP, 12-bit ADC, PWM, RTCC, TQFP44
 K Flash-Based 16-Bit Microcontroller
