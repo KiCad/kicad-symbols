@@ -1164,6 +1164,12 @@ K high-side power distribution switch
 F http://www.ti.com/lit/ds/symlink/tps22929d.pdf
 $ENDCMP
 #
+$CMP TPS22976
+D 5.7V, 6A, 14mΩ On-Resistance Dual-Channel Load Switch
+K Load Switch
+F http://www.ti.com/lit/ds/symlink/tps22976.pdf
+$ENDCMP
+#
 $CMP TPS22993
 D Quad Channel Load Switch with GPIO and I2C Control, Bias voltage: 4.5V-17.2V, Input voltage: 1.0V-3.6V, Max 1.2A per channel, WQFN-20
 K quad channel power distribution/load switch
