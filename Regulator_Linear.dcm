@@ -7974,6 +7974,18 @@ K LDO voltage regulator
 F http://www.ti.com/lit/ds/symlink/tps7a91.pdf
 $ENDCMP
 #
+$CMP TPS7B6933
+D 150mA, Ultralow-Quiescent-Current Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-223
+K LDO regulator voltage
+F http://www.ti.com/lit/ds/symlink/tps7b69.pdf
+$ENDCMP
+#
+$CMP TPS7B6950
+D 150mA, Ultralow-Quiescent-Current Low Drop-out Voltage Regulator, Fixed Output 5.0V, SOT-23-5
+K LDO regulator voltage
+F http://www.ti.com/lit/ds/symlink/tps7b69.pdf
+$ENDCMP
+#
 $CMP XC6206PxxxMR
 D Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23
 K Torex LDO Voltage Regulator Fixed Positive
