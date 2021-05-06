@@ -12,6 +12,12 @@ K SPI SPST Analog Switches
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG1414.pdf
 $ENDCMP
 #
+$CMP ADG1419BRM
+D Single SPDT Analog Switch, 2.1 Ohm Ron, MSOP-8
+K CMOS Analog Switch
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADG1419.pdf
+$ENDCMP
+#
 $CMP ADG417BN
 D Single SPST Monolithic LC²MOS Analog Switch, normally OFF, 25Ohm Ron, DIP-8
 K CMOS Analog Switch
