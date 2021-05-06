@@ -312,6 +312,12 @@ K motor driver dc brushed
 F www.st.com/resource/en/datasheet/stspin240.pdf
 $ENDCMP
 #
+$CMP STSPIN32F0A
+D Advanced BLDC controller with embedded STM32 MCU
+K BLDC STM32 motor driver
+F https://www.st.com/resource/en/datasheet/stspin32f0a.pdf
+$ENDCMP
+#
 $CMP TB6612FNG
 D Driver IC for Dual DC motor, SSOP-24
 K H-bridge motor driver
