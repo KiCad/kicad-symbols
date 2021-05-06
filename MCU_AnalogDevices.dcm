@@ -6,4 +6,10 @@ K 8051 CORE MCU ADC DAC
 F https://www.analog.com/static/imported-files/data_sheets/ADUC816.pdf
 $ENDCMP
 #
+$CMP ADuCM4050BCPZ
+D ARM Cortex-M4F MCU, 512KB flash, 128KB RAM, 52MHz, 1.74-3.6V, 44 GPIO, QFN64
+K ARM Cortex-M4F ADuCM4050
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuCM4050.pdf
+$ENDCMP
+#
 #End Doc Library
