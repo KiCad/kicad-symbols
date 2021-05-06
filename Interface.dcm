@@ -159,6 +159,30 @@ K Clock Buffer LVDS
 F http://www.ti.com/lit/ds/symlink/cdclvp1102.pdf
 $ENDCMP
 #
+$CMP DS25BR100
+D 3.125 Gbps LVDS Buffer with Transmit Pre-Emphasis and Receive Equalization with internal termination
+K Buffer LVDS Cable Driver Pre-Emphasis Equalization
+F https://www.ti.com/lit/ds/symlink/ds25br100.pdf
+$ENDCMP
+#
+$CMP DS25BR101
+D 3.125 Gbps LVDS Buffer with Transmit Pre-Emphasis and Receive Equalization without internal termination
+K Buffer LVDS Cable Driver Pre-Emphasis Equalization
+F https://www.ti.com/lit/ds/symlink/ds25br100.pdf
+$ENDCMP
+#
+$CMP DS25BR110
+D 3.125 Gbps LVDS Buffer with Receive Equalization
+K Buffer LVDS Cable Equalization
+F https://www.ti.com/lit/ds/snls255e/snls255e.pdf
+$ENDCMP
+#
+$CMP DS25BR120
+D 3.125 Gbps LVDS Buffer with Transmit Pre-Emphasis
+K Buffer LVDS Cable Driver Pre-Emphasis
+F https://www.ti.com/lit/ds/symlink/ds25br120.pdf
+$ENDCMP
+#
 $CMP DS90C124
 D DC-Balanced 24-Bit FPD-Link II Deserializer, TQFP-48
 K DC-Balanced 24-Bit FPD-Link II Deserializer
