@@ -69,6 +69,7 @@
   (lib (name Interface_CurrentLoop)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface_CurrentLoop.lib)(options "")(descr "Current loop interface devices"))
   (lib (name Interface_Ethernet)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface_Ethernet.lib)(options "")(descr "Ethernet interface symbols"))
   (lib (name Interface_Expansion)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface_Expansion.lib)(options "")(descr "I/O expansion devices, shift registers, etc"))
+  (lib (name Interface_DisplayPort)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface_DisplayPort.lib)(options "")(descr "DisplayPort (DP) symbols"))
   (lib (name Interface_HID)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface_HID.lib)(options "")(descr "Human Interface Device (HID) symbols"))
   (lib (name Interface_HDMI)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface_HDMI.lib)(options "")(descr "High Definition Multimedia Interface (HDMI) symbols"))
   (lib (name Interface_LineDriver)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Interface_LineDriver.lib)(options "")(descr "Line driver interface symbols"))
