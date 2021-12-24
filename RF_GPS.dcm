@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP L80-R
+D Quectel GPS Module
+K quectel GPS GNSS module
+F https://www.quectel.com/UploadImage/Downlad/Quectel_L80-R_Hardware_Design_V1.2.pdf
+$ENDCMP
+#
 $CMP LEA-M8F
 D GNSS Module LEA M8, VCC 3V to 3.6V
 K ublox GPS GNSS module
@@ -100,6 +106,12 @@ $CMP SIM28ML
 D Standalone GPS/A-GPS receiver module, built-in LNA, -165dBm sensitivity, 2.8-4.3V, SMD
 K GPS A-GPS receiver
 F https://simcom.ee/documents/SIM28ML/SIM28ML_Hardware%20Design_V1.01.pdf
+$ENDCMP
+#
+$CMP ZED-F9P
+D GNSS Module ZED F9, VCC 2.7V to 3.6V, LGA-54
+K u-blox GNSS multi-band RTK
+F https://www.u-blox.com/sites/default/files/ZED-F9P_DataSheet_%28UBX-17051259%29.pdf
 $ENDCMP
 #
 $CMP ublox_SAM-M8Q

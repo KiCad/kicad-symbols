@@ -6,6 +6,12 @@ K FPGA programmable logic
 F http://www.latticesemi.com/Products/FPGAandCPLD/iCE40
 $ENDCMP
 #
+$CMP ICE40HX4K-BG121
+D iCE40 HX FPGA, 3520 LUTs, 1.2V, BGA-121
+K FPGA programmable logic
+F http://www.latticesemi.com/Products/FPGAandCPLD/iCE40
+$ENDCMP
+#
 $CMP ICE40HX4K-TQ144
 D iCE40 HX FPGA, 3520 LUTs, 1.2V, TQFP-144
 K FPGA programmable logic
@@ -18,10 +24,106 @@ K FPGA programmable logic
 F http://www.latticesemi.com/Products/FPGAandCPLD/iCE40
 $ENDCMP
 #
+$CMP ICE40UL1K-SWG16
+D iCE40 UltraPlus FPGA, 1.2V, WLCSP-16
+K FPGA programmable logic
+F https://www.latticesemi.com/view_document?document_id=50945
+$ENDCMP
+#
 $CMP ICE40UP5K-SG48ITR
 D iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN
 K FPGA programmable logic
 F http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra
+$ENDCMP
+#
+$CMP ICE5LP1K-SG48
+D iCE40 Ultra FPGA, 1100 LUTs, 1.2V, 48-pin QFN
+K FPGA programmable logic
+F http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra
+$ENDCMP
+#
+$CMP LFE5U-85F-6BG381x
+D ECP5 FPGA, 84K LUTs, 1.2V, BGA-381
+K FPGA programmable logic
+F https://www.latticesemi.com/view_document?document_id=50461
+$ENDCMP
+#
+$CMP LFE5U-85F-6BG756x
+D ECP5 FPGA, 84K LUTs, 1.2V, BGA-756
+K FPGA programmable logic
+F https://www.latticesemi.com/view_document?document_id=50461
+$ENDCMP
+#
+$CMP LFE5U-85F-7BG381x
+D ECP5 FPGA, 84K LUTs, 1.2V, BGA-381
+K FPGA programmable logic
+F https://www.latticesemi.com/view_document?document_id=50461
+$ENDCMP
+#
+$CMP LFE5U-85F-7BG756x
+D ECP5 FPGA, 84K LUTs, 1.2V, BGA-756
+K FPGA programmable logic
+F https://www.latticesemi.com/view_document?document_id=50461
+$ENDCMP
+#
+$CMP LFE5U-85F-8BG381x
+D ECP5 FPGA, 84K LUTs, 1.2V, BGA-381
+K FPGA programmable logic
+F https://www.latticesemi.com/view_document?document_id=50461
+$ENDCMP
+#
+$CMP LFE5U-85F-8BG756x
+D ECP5 FPGA, 84K LUTs, 1.2V, BGA-756
+K FPGA programmable logic
+F https://www.latticesemi.com/view_document?document_id=50461
+$ENDCMP
+#
+$CMP LFE5UM-85F-6BG381x
+D ECP5 FPGA, 84K LUTs, 1.2V, 3.2Gbps SERDES, BGA-381
+K FPGA programmable logic
+F https://www.latticesemi.com/view_document?document_id=50461
+$ENDCMP
+#
+$CMP LFE5UM-85F-6BG756x
+D ECP5 FPGA, 84K LUTs, 1.2V, 3.2Gbps SERDES, BGA-756
+K FPGA programmable logic
+F https://www.latticesemi.com/view_document?document_id=50461
+$ENDCMP
+#
+$CMP LFE5UM-85F-7BG381x
+D ECP5 FPGA, 84K LUTs, 1.2V, 3.2Gbps SERDES, BGA-381
+K FPGA programmable logic
+F https://www.latticesemi.com/view_document?document_id=50461
+$ENDCMP
+#
+$CMP LFE5UM-85F-7BG756x
+D ECP5 FPGA, 84K LUTs, 1.2V, 3.2Gbps SERDES, BGA-756
+K FPGA programmable logic
+F https://www.latticesemi.com/view_document?document_id=50461
+$ENDCMP
+#
+$CMP LFE5UM-85F-8BG381x
+D ECP5 FPGA, 84K LUTs, 1.2V, 3.2Gbps SERDES, BGA-381
+K FPGA programmable logic
+F https://www.latticesemi.com/view_document?document_id=50461
+$ENDCMP
+#
+$CMP LFE5UM-85F-8BG756x
+D ECP5 FPGA, 84K LUTs, 1.2V, 3.2Gbps SERDES, BGA-756
+K FPGA programmable logic
+F https://www.latticesemi.com/view_document?document_id=50461
+$ENDCMP
+#
+$CMP LFE5UM5G-85F-8BG381x
+D ECP5-5G FPGA, 84K LUTs, 1.2V, 5Gbps SERDES, BGA-381
+K FPGA programmable logic
+F https://www.latticesemi.com/view_document?document_id=50461
+$ENDCMP
+#
+$CMP LFE5UM5G-85F-8BG756x
+D ECP5-5G FPGA, 84K LUTs, 1.2V, 5Gbps SERDES, BGA-756
+K FPGA programmable logic
+F https://www.latticesemi.com/view_document?document_id=50461
 $ENDCMP
 #
 $CMP LFXP2-5E-5TN144
