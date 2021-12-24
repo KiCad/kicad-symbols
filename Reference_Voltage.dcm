@@ -762,6 +762,18 @@ K voltage reference ldo
 F http://datasheets.maximintegrated.com/en/ds/MAX6100-MAX6107.pdf
 $ENDCMP
 #
+$CMP MAX6120ESA
+D Low-Cost, Micropower, Precision, 3-Terminal, 1.2V Voltage Reference, SOIC-8
+K Reference, 1.2V, Low-Cost
+F https://datasheets.maximintegrated.com/en/ds/MAX6120.pdf
+$ENDCMP
+#
+$CMP MAX6120EUR
+D Low-Cost, Micropower, Precision, 3-Terminal, 1.2V Voltage Reference, SOT-23-3
+K Reference, 1.2V, Low-Cost
+F https://datasheets.maximintegrated.com/en/ds/MAX6120.pdf
+$ENDCMP
+#
 $CMP MAX6225
 D 1ppm/°C Low-Noise Precision +2.5V Voltage Reference, SO-8/DIP-8
 K precision voltage reference
